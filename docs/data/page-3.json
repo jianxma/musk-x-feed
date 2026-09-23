@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102412363332805078",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T14:59:03.000Z",
+      "created_at_shanghai": "2026-09-22 22:59:03",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok 4.7 with our Build harness is a strong daily workhorse",
+      "quote": {
+        "author": "WR4NYGov",
+        "avatar": "https://pbs.twimg.com/profile_images/2094269019662798849/W_67we2g_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 19:57:33",
+        "created_at_utc": "2026-09-22T11:57:33.000Z",
+        "id": "2102366688608149618",
+        "images": [],
+        "name": "Warren Redlich - Chasing Dreams 🇺🇸",
+        "text": "I’ve been building with Grok 4.7 extra high in Grok Build today for hours. It’s fantastic and my usage percent (Cursor Ultra) is barely moving. \n\nGetting so much done. \n\nWhile Build works on one thing, I discuss the next feature/change with my Grok Bot team and have Engineer Bot explain our conclusion so I can give that to Build. \n\nAt the start of the day I had 4.7 do a full code review in Cursor, then had Fable 5.1 review the review and it largely agreed with only a slight change in priorities.",
+        "url": "https://x.com/WR4NYGov/status/2102366688608149618",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 145,
+        "likes": 4452,
+        "quotes": 38,
+        "replies": 625,
+        "retweets": 648,
+        "views": 4065788
+      },
+      "url": "https://x.com/elonmusk/status/2102412363332805078",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102408239774151050",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -870,55 +910,11 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102167600692109421",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T22:46:27.000Z",
-      "created_at_shanghai": "2026-09-22 06:46:27",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 xHigh is now at the top with just ONE point away from Claude Fable 5.1 Max on Artificial Analysis’ AA-Briefcase benchmark\n\nClaude Fable 5.1 Max — 59%\nGrok 4.7 xHigh — 58%\n\nJust a 1-point difference at the very top\n\nAnd Grok is ahead of GPT-6 Astra, GPT-5.6, Gemini, Kimi, GLM and nearly every other frontier model  on the benchmark",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 03:26:14",
-        "created_at_utc": "2026-09-21T19:26:14.000Z",
-        "id": "2102117217655726493",
-        "images": [
-          "https://pbs.twimg.com/media/HSw3zwraUAAv7EX.jpg?name=small"
-        ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 xHigh is now at the top with just ONE point away from Claude Fable 5.1 Max on Artificial Analysis’ AA-Briefcase benchmark\n\nClaude Fable 5.1 Max — 59%\nGrok 4.7 xHigh — 58%\n\nJust a 1-point difference at the very top\n\nAnd Grok is ahead of GPT-6 Astra, GPT-5.6, Gemini, Kimi, GLM and nearly every other frontier model  on the benchmark",
-        "url": "https://x.com/XFreeze/status/2102117217655726493",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 98,
-        "likes": 1786,
-        "quotes": 22,
-        "replies": 146,
-        "retweets": 264,
-        "views": 425232
-      },
-      "url": "https://x.com/elonmusk/status/2102167600692109421",
-      "images": [
-        "https://pbs.twimg.com/media/HSw3zwraUAAv7EX.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 127,
+  "total": 128,
   "total_pages": 7,
-  "updated_at_shanghai": "2026-09-24 05:10:56"
+  "updated_at_shanghai": "2026-09-24 07:39:35"
 }
