@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """Build a static GitHub Pages site for Elon Musk (@elonmusk) X posts.
 
-Fetches last 3 days from xtracker, enriches top ~25 via fxtwitter,
-writes docs/index.html + docs/feed.json, downloads images to docs/media/.
-Uses stdlib urllib only. Idempotent (skips existing media files).
+Fetches the last 3 days from xtracker and enriches each post via fxtwitter.
+Writes docs/index.html + docs/feed.json and downloads stills/thumbs to docs/media/.
+Stdlib urllib only. Idempotent (skips media files that already exist).
+
+fxtwitter usually resolves a repost to the original status (different id, original
+author, `reposted_by` set) and fills `text`, so there is often no `retweet` object.
+Quote and repost media live on those nested objects and must be read from there.
+The card's primary link is always Musk's own status id from xtracker.
 """
 
 from __future__ import annotations
@@ -29,10 +34,16 @@ SHANGHAI = ZoneInfo("Asia/Shanghai")
 UA = "Mozilla/5.0 (compatible; MuskPagesBot/1.0; +https://github.com/)"
 PRIMARY_URL = "https://xtracker.polymarket.com/api/users/elonmusk/posts"
 FXT_URL = "https://api.fxtwitter.com/elonmusk/status/{id}"
-ENRICH_LIMIT = 25
 MAX_IMAGE_BYTES = 2_500_000
 REQUEST_TIMEOUT = 25
 DAYS_BACK = 3
+# Polite gap between enrich calls. The cron is every 10 minutes, so the whole
+# run needs to finish well inside that window on the happy path.
+ENRICH_SLEEP = 0.2
+ENRICH_ATTEMPTS = 3
+# Stop enriching and still write the feed if the API is slow or rate-limiting.
+ENRICH_BUDGET_S = 8 * 60
+ENGAGEMENT_KEYS = ("likes", "retweets", "replies", "bookmarks", "quotes", "views")
 
 
 def http_json(url: str) -> Any:
@@ -80,59 +91,107 @@ def fetch_primary() -> list[dict]:
     return posts
 
 
-def classify_type(tweet: dict | None) -> str:
-    if tweet:
-        if tweet.get("retweet"):
-            return "转发"
-        if tweet.get("quote"):
-            return "引用"
+def musk_status_url(status_id: str) -> str:
+    return f"https://x.com/elonmusk/status/{status_id}"
+
+
+def author_of(tweet: dict) -> dict:
+    author = tweet.get("author")
+    return author if isinstance(author, dict) else {}
+
+
+def is_retweet(tweet: dict, musk_id: str) -> bool:
+    """True when this fxtwitter payload is Musk reposting someone else.
+
+    Current fxtwitter resolves the repost: `id`/`url`/`text` belong to the
+    original author and `reposted_by` names @elonmusk. Older payloads nest the
+    original under `retweet` and may still fill `text`, so that key alone is enough.
+    """
+    if isinstance(tweet.get("retweet"), dict):
+        return True
+    returned = str(tweet.get("id") or "")
+    author = (author_of(tweet).get("screen_name") or "").lower()
+    if returned == str(musk_id) and author in ("", "elonmusk"):
+        return False
+    reposted_by = tweet.get("reposted_by")
+    if isinstance(reposted_by, dict) and (reposted_by.get("screen_name") or "").lower() == "elonmusk":
+        return True
+    if returned and returned != str(musk_id) and author not in ("", "elonmusk"):
+        return True
+    return False
+
+
+def classify_type(tweet: dict | None, musk_id: str = "") -> str:
+    if not tweet:
+        return "原文"
+    if is_retweet(tweet, musk_id):
+        return "转发"
+    if isinstance(tweet.get("quote"), dict):
+        return "引用"
     return "原文"
 
 
+def _small_photo_url(url: str) -> str:
+    if "name=" in url:
+        for size in ("orig", "large", "medium"):
+            url = url.replace(f"name={size}", "name=small")
+        return url
+    return url + ("&name=small" if "?" in url else "?name=small")
+
+
 def extract_media_items(tweet: dict) -> list[dict]:
-    """Return list of {id, url, kind} for downloadable still images / thumbs."""
-    out: list[dict] = []
+    """Return {id, url, kind} stills/thumbs from one tweet object.
+
+    Does not walk nested quote/retweet; callers pass those objects themselves.
+    """
+    if not isinstance(tweet, dict):
+        return []
     media = tweet.get("media") or {}
     if not isinstance(media, dict):
-        return out
+        return []
 
-    photos = media.get("photos") or []
-    for ph in photos:
-        if not isinstance(ph, dict):
-            continue
-        url = ph.get("url")
-        mid = str(ph.get("id") or "")
-        if url:
-            u = url.replace("?name=orig", "?name=small") if "?name=" in url else url
-            if "?name=" not in u:
-                u = u + ("&name=small" if "?" in u else "?name=small")
-            out.append({"id": mid, "url": u, "kind": "photo"})
+    out: list[dict] = []
+    seen: set[str] = set()
 
-    for item in media.get("all") or []:
+    def add(mid: str, url: str, kind: str) -> None:
+        if not url:
+            return
+        key = mid or url
+        if key in seen:
+            return
+        seen.add(key)
+        out.append({"id": mid or "m", "url": url, "kind": kind})
+
+    for ph in media.get("photos") or []:
+        if isinstance(ph, dict) and ph.get("url"):
+            add(str(ph.get("id") or ""), _small_photo_url(str(ph["url"])), "photo")
+
+    pools: list[Any] = []
+    for key in ("all", "videos"):
+        pool = media.get(key) or []
+        if isinstance(pool, list):
+            pools.extend(pool)
+
+    for item in pools:
         if not isinstance(item, dict):
             continue
         mtype = (item.get("type") or "").lower()
         mid = str(item.get("id") or "")
-        if mtype in ("video", "gif"):
-            thumb = item.get("thumbnail_url")
-            if thumb and not any(x["id"] == mid for x in out):
-                out.append({"id": mid or "thumb", "url": thumb, "kind": "thumb"})
-        elif mtype == "photo":
-            url = item.get("url")
-            if url and not any(x["id"] == mid for x in out):
-                u = url.replace("?name=orig", "?name=small") if "?name=" in url else url
-                if "?name=" not in u:
-                    u = u + ("&name=small" if "?" in u else "?name=small")
-                out.append({"id": mid, "url": u, "kind": "photo"})
-
+        if mtype in ("video", "gif", "animated_gif"):
+            thumb = item.get("thumbnail_url") or ""
+            add(mid or "thumb", str(thumb), "thumb")
+        elif mtype == "photo" or item.get("url"):
+            url = item.get("url") or ""
+            if url and mtype in ("", "photo"):
+                add(mid, _small_photo_url(str(url)), "photo")
     return out
 
 
 def download_media(tweet_id: str, items: list[dict]) -> list[dict]:
-    """Download images; return list of {src, remote, local}.
+    """Download images; return list of {src, remote, local, url}.
 
-    src is relative media/... when download succeeds (or file already exists);
-    otherwise src is the remote URL and remote=True so the HTML can still show it.
+    src is media/... when the file is saved or already present; otherwise src
+    is the remote URL so the page can still show it.
     """
     MEDIA_DIR.mkdir(parents=True, exist_ok=True)
     results: list[dict] = []
@@ -160,76 +219,143 @@ def download_media(tweet_id: str, items: list[dict]) -> list[dict]:
             results.append({"src": rel, "remote": False, "local": True, "url": url})
             print(f"  saved {rel} ({len(data)} bytes)")
         else:
-            # Mark remote URL so the page can still render the image
             results.append({"src": url, "remote": True, "local": False, "url": url})
             print(f"  keep remote URL for {tweet_id}_{mid}")
     return results
 
 
+def engagement_of(tweet: dict | None) -> dict[str, Any]:
+    if not isinstance(tweet, dict):
+        return {}
+    return {k: tweet.get(k) for k in ENGAGEMENT_KEYS}
+
+
+def status_url(screen_name: str, status_id: str, fallback: str = "") -> str:
+    if fallback:
+        return fallback
+    if screen_name and status_id:
+        return f"https://x.com/{screen_name}/status/{status_id}"
+    return ""
+
+
+def merge_image_meta(block: dict, extra: list[dict]) -> None:
+    seen = set(block.get("images") or [])
+    meta = block.setdefault("image_meta", [])
+    images = block.setdefault("images", [])
+    for item in extra:
+        src = item.get("src") or ""
+        if not src or src in seen:
+            continue
+        seen.add(src)
+        meta.append(item)
+        images.append(src)
+
+
+def nested_block(obj: dict, file_id: str, depth: int = 0) -> dict:
+    """Author, full text, media, and link for a quoted or reposted status."""
+    author = author_of(obj)
+    handle = (author.get("screen_name") or "").strip()
+    name = (author.get("name") or "").strip()
+    text = (obj.get("text") or "").strip()
+    sid = str(obj.get("id") or "")
+    url = status_url(handle, sid, (obj.get("url") or "").strip())
+    items = extract_media_items(obj)
+    image_meta = download_media(file_id, items) if items else []
+    inner = None
+    quoted = obj.get("quote")
+    if depth < 1 and isinstance(quoted, dict):
+        inner = nested_block(quoted, file_id, depth + 1)
+    return {
+        "author": handle,
+        "name": name,
+        "text": text,
+        "url": url,
+        "images": [m["src"] for m in image_meta],
+        "image_meta": image_meta,
+        "quote": inner,
+    }
+
+
+def retry_after_seconds(err: urllib.error.HTTPError) -> float:
+    raw = err.headers.get("Retry-After") if err.headers else None
+    try:
+        return float(raw) if raw is not None else 2.0
+    except (TypeError, ValueError):
+        return 2.0
+
+
 def enrich_one(tweet_id: str) -> tuple[dict | None, str | None]:
     url = FXT_URL.format(id=tweet_id)
-    try:
-        data = http_json(url)
-        if not isinstance(data, dict) or data.get("code") != 200:
-            return None, f"non-200: {data.get('code') if isinstance(data, dict) else data}"
-        return data.get("tweet"), None
-    except urllib.error.HTTPError as e:
-        return None, f"HTTP {e.code}"
-    except Exception as e:
-        return None, str(e)
+    last_err = "unknown"
+    for attempt in range(ENRICH_ATTEMPTS):
+        try:
+            data = http_json(url)
+            if not isinstance(data, dict) or data.get("code") != 200:
+                code = data.get("code") if isinstance(data, dict) else data
+                return None, f"non-200: {code}"
+            tweet = data.get("tweet")
+            if not isinstance(tweet, dict):
+                return None, "missing tweet"
+            return tweet, None
+        except urllib.error.HTTPError as e:
+            last_err = f"HTTP {e.code}"
+            retriable = e.code == 429 or e.code >= 500
+            if retriable and attempt < ENRICH_ATTEMPTS - 1:
+                wait = retry_after_seconds(e) if e.code == 429 else 1.5 * (attempt + 1)
+                wait = min(max(wait, 1.0), 20.0)
+                print(f"  {last_err}, retry in {wait:.1f}s")
+                time.sleep(wait)
+                continue
+            return None, last_err
+        except urllib.error.URLError as e:
+            last_err = str(e.reason if getattr(e, "reason", None) else e)
+            if attempt < ENRICH_ATTEMPTS - 1:
+                time.sleep(1.0)
+                continue
+            return None, last_err
+        except Exception as e:
+            last_err = str(e)
+            if attempt < ENRICH_ATTEMPTS - 1:
+                time.sleep(1.0)
+                continue
+            return None, last_err
+    return None, last_err
 
 
 def build_post(raw: dict, tweet: dict | None) -> dict:
     tid = str(raw.get("platformId") or "")
     created = raw.get("createdAt") or ""
     content = (raw.get("content") or "").strip()
+    # Primary link is always Musk's status, never the quoted/reposted author.
+    link = musk_status_url(tid)
     full_text = content
     quote_block = None
     engagement: dict[str, Any] = {}
-    images: list[dict] = []
+    image_meta: list[dict] = []
     post_type = "原文"
-    link = f"https://x.com/elonmusk/status/{tid}"
 
     if tweet:
-        full_text = (tweet.get("text") or content or "").strip()
-        post_type = classify_type(tweet)
-        link = tweet.get("url") or link
-        engagement = {
-            "likes": tweet.get("likes"),
-            "retweets": tweet.get("retweets"),
-            "replies": tweet.get("replies"),
-            "bookmarks": tweet.get("bookmarks"),
-            "quotes": tweet.get("quotes"),
-            "views": tweet.get("views"),
-        }
-        q = tweet.get("quote")
-        if isinstance(q, dict):
-            qa = q.get("author") or {}
-            quote_block = {
-                "author": qa.get("screen_name") or "",
-                "name": qa.get("name") or "",
-                "text": (q.get("text") or "").strip(),
-                "url": q.get("url") or "",
-            }
-        rt = tweet.get("retweet")
-        if isinstance(rt, dict) and not full_text:
-            ra = rt.get("author") or {}
-            full_text = (rt.get("text") or "").strip()
-            quote_block = {
-                "author": ra.get("screen_name") or "",
-                "name": ra.get("name") or "",
-                "text": full_text,
-                "url": rt.get("url") or "",
-            }
-            full_text = f"RT @{quote_block['author']}"
-            post_type = "转发"
-
-        media_items = extract_media_items(tweet)
-        if media_items:
-            images = download_media(tid, media_items)
-
-    # Convenience list of src strings for simple consumers
-    image_srcs = [img["src"] for img in images]
+        post_type = classify_type(tweet, tid)
+        if post_type == "转发":
+            source = tweet["retweet"] if isinstance(tweet.get("retweet"), dict) else tweet
+            quote_block = nested_block(source, tid)
+            if isinstance(tweet.get("retweet"), dict):
+                # Wrapper can carry media the nested object does not.
+                extra_items = extract_media_items(tweet)
+                if extra_items:
+                    merge_image_meta(quote_block, download_media(tid, extra_items))
+            handle = quote_block.get("author") or ""
+            full_text = f"转发 @{handle}" if handle else "转发"
+            engagement = engagement_of(source)
+        else:
+            full_text = (tweet.get("text") or content or "").strip()
+            engagement = engagement_of(tweet)
+            items = extract_media_items(tweet)
+            if items:
+                image_meta = download_media(tid, items)
+            quoted = tweet.get("quote")
+            if isinstance(quoted, dict):
+                quote_block = nested_block(quoted, tid)
 
     return {
         "id": tid,
@@ -243,8 +369,8 @@ def build_post(raw: dict, tweet: dict | None) -> dict:
         "quote": quote_block,
         "engagement": engagement,
         "url": link,
-        "images": image_srcs,
-        "image_meta": images,  # includes remote flags
+        "images": [img["src"] for img in image_meta],
+        "image_meta": image_meta,
         "enriched": tweet is not None,
     }
 
@@ -263,14 +389,77 @@ def fmt_num(n: Any) -> str:
     return str(n)
 
 
+def render_media(meta: list) -> str:
+    if not meta:
+        return ""
+    parts: list[str] = []
+    for item in meta:
+        if isinstance(item, str):
+            src, remote = item, False
+        elif isinstance(item, dict):
+            src = item.get("src") or ""
+            remote = bool(item.get("remote"))
+        else:
+            continue
+        if not src:
+            continue
+        src_e = html.escape(src, quote=True)
+        cls = ' class="remote-img"' if remote else ""
+        title = ' title="远程图片（本地下载失败）"' if remote else ""
+        parts.append(
+            f'<a href="{src_e}" target="_blank" rel="noopener">'
+            f'<img src="{src_e}" alt="media" loading="lazy"{cls}{title}></a>'
+        )
+    if not parts:
+        return ""
+    return f'<div class="media">{"".join(parts)}</div>'
+
+
+def render_quote_block(q: dict | None) -> str:
+    if not isinstance(q, dict):
+        return ""
+    images = q.get("image_meta") or q.get("images") or []
+    if not (q.get("text") or q.get("author") or images):
+        return ""
+    qauthor = html.escape(q.get("author") or "")
+    qname = html.escape(q.get("name") or "")
+    qtext = html.escape(q.get("text") or "").replace("\n", "<br>\n")
+    qurl = html.escape(q.get("url") or "", quote=True)
+    inner = ""
+    nested = q.get("quote")
+    if isinstance(nested, dict):
+        inner = render_quote_block(nested)
+    link = (
+        f'<a class="quote-link" href="{qurl}" target="_blank" rel="noopener">查看原帖</a>'
+        if qurl
+        else ""
+    )
+    who = qname
+    if qauthor:
+        who = f"{qname} <span class=\"handle\">@{qauthor}</span>".strip()
+    return f"""
+      <blockquote class="quote">
+        <div class="quote-author">{who}</div>
+        <div class="quote-text">{qtext}</div>
+        {render_media(images)}
+        {inner}
+        {link}
+      </blockquote>"""
+
+
 def render_html(posts: list[dict], updated_shanghai: str, failures: list[str]) -> str:
+    n_rt = sum(1 for p in posts if p.get("type") == "转发")
+    n_q = sum(1 for p in posts if p.get("type") == "引用")
+    n_o = sum(1 for p in posts if p.get("type") == "原文")
+    enriched = sum(1 for p in posts if p.get("enriched"))
+
     cards = []
     for p in posts:
         tid = html.escape(p["id"])
         tlabel = html.escape(p.get("type_label") or "原文")
         time_s = html.escape(p.get("created_at_shanghai") or "")
         body = html.escape(p.get("text") or "").replace("\n", "<br>\n")
-        url = html.escape(p.get("url") or "#")
+        url = html.escape(p.get("url") or "#", quote=True)
         eng = p.get("engagement") or {}
         eng_line = (
             f"♥ {fmt_num(eng.get('likes'))} · "
@@ -278,52 +467,15 @@ def render_html(posts: list[dict], updated_shanghai: str, failures: list[str]) -
             f"💬 {fmt_num(eng.get('replies'))} · "
             f"👁 {fmt_num(eng.get('views'))}"
         )
-
-        quote_html = ""
-        q = p.get("quote")
-        if q and (q.get("text") or q.get("author")):
-            qauthor = html.escape(q.get("author") or "")
-            qname = html.escape(q.get("name") or "")
-            qtext = html.escape(q.get("text") or "").replace("\n", "<br>\n")
-            qurl = html.escape(q.get("url") or "")
-            quote_html = f"""
-      <blockquote class="quote">
-        <div class="quote-author">{qname} <span class="handle">@{qauthor}</span></div>
-        <div class="quote-text">{qtext}</div>
-        {f'<a class="quote-link" href="{qurl}" target="_blank" rel="noopener">查看原帖</a>' if qurl else ''}
-      </blockquote>"""
-
-        imgs_html = ""
-        # Prefer image_meta (has remote flag); fall back to images list
-        meta = p.get("image_meta") or []
-        if meta:
-            parts = []
-            for m in meta:
-                src = html.escape(m.get("src") or "")
-                remote = m.get("remote")
-                cls = ' class="remote-img"' if remote else ""
-                title = ' title="远程图片（本地下载失败）"' if remote else ""
-                parts.append(
-                    f'<a href="{src}" target="_blank" rel="noopener">'
-                    f'<img src="{src}" alt="media" loading="lazy"{cls}{title}></a>'
-                )
-            imgs_html = f'<div class="media">{"".join(parts)}</div>'
-        else:
-            images = p.get("images") or []
-            if images:
-                imgs = "".join(
-                    f'<a href="{html.escape(src)}" target="_blank" rel="noopener">'
-                    f'<img src="{html.escape(src)}" alt="media" loading="lazy"></a>'
-                    for src in images
-                )
-                imgs_html = f'<div class="media">{imgs}</div>'
-
+        quote_html = render_quote_block(p.get("quote"))
+        imgs_html = render_media(p.get("image_meta") or p.get("images") or [])
         type_class = {"原文": "t-orig", "引用": "t-quote", "转发": "t-rt"}.get(
             p.get("type_label"), "t-orig"
         )
+        body_cls = "body rt-line" if p.get("type") == "转发" else "body"
 
         cards.append(f"""
-    <article class="card" data-id="{tid}">
+    <article class="card" data-id="{tid}" data-type="{tlabel}">
       <header class="card-head">
         <div class="avatar" aria-hidden="true">𝕏</div>
         <div class="meta">
@@ -335,7 +487,7 @@ def render_html(posts: list[dict], updated_shanghai: str, failures: list[str]) -
           <time datetime="{html.escape(p.get('created_at_utc') or '')}">{time_s} CST</time>
         </div>
       </header>
-      <div class="body">{body}</div>
+      <div class="{body_cls}">{body}</div>
       {quote_html}
       {imgs_html}
       <div class="eng">{html.escape(eng_line)}</div>
@@ -447,6 +599,7 @@ def render_html(posts: list[dict], updated_shanghai: str, failures: list[str]) -
       word-break: break-word;
       margin-bottom: 8px;
     }}
+    .rt-line {{ color: #86efac; font-weight: 600; }}
     .quote {{
       margin: 8px 0 10px;
       padding: 10px 12px;
@@ -454,6 +607,9 @@ def render_html(posts: list[dict], updated_shanghai: str, failures: list[str]) -
       border-radius: 12px;
       background: var(--quote-bg);
       border-left: 3px solid var(--accent);
+    }}
+    .quote .quote {{
+      border-left-color: #a78bfa;
     }}
     .quote-author {{ font-size: 0.85rem; margin-bottom: 4px; }}
     .quote-text {{
@@ -485,6 +641,7 @@ def render_html(posts: list[dict], updated_shanghai: str, failures: list[str]) -
       display: block;
       background: #000;
     }}
+    .quote .media img {{ max-height: 260px; }}
     .media img.remote-img {{
       border-color: #92400e;
     }}
@@ -518,7 +675,7 @@ def render_html(posts: list[dict], updated_shanghai: str, failures: list[str]) -
   <div class="wrap">
     <header class="top">
       <h1>马斯克 X 盯盘</h1>
-      <div class="sub">最近更新：{html.escape(updated_shanghai)} CST · GitHub Pages 定时刷新 · @elonmusk</div>
+      <div class="sub">最近更新：{html.escape(updated_shanghai)} CST · 补全 {enriched}/{len(posts)} · 转发 {n_rt} · 引用 {n_q} · 原文 {n_o}</div>
     </header>
     {fail_note}
     <main id="feed">
@@ -531,6 +688,18 @@ def render_html(posts: list[dict], updated_shanghai: str, failures: list[str]) -
 """
 
 
+def _quote_fingerprint(q: Any) -> Any:
+    if not isinstance(q, dict):
+        return None
+    return {
+        "author": q.get("author"),
+        "text": q.get("text"),
+        "url": q.get("url"),
+        "images": q.get("images") or [],
+        "quote": _quote_fingerprint(q.get("quote")),
+    }
+
+
 def content_fingerprint(posts: list[dict]) -> str:
     """Stable fingerprint of feed content (ignore updated_at) for change detection."""
     slim = []
@@ -540,7 +709,9 @@ def content_fingerprint(posts: list[dict]) -> str:
                 "id": p.get("id"),
                 "text": p.get("text"),
                 "type": p.get("type"),
+                "url": p.get("url"),
                 "images": p.get("images"),
+                "quote": _quote_fingerprint(p.get("quote")),
                 "created_at_utc": p.get("created_at_utc"),
                 "engagement": p.get("engagement"),
             }
@@ -559,14 +730,20 @@ def main() -> int:
         print(f"FATAL primary API: {e}", file=sys.stderr)
         return 1
 
-    to_enrich = raw_posts[:ENRICH_LIMIT]
     enriched_map: dict[str, dict] = {}
-    print(f"Enriching top {len(to_enrich)} via fxtwitter...")
-    for i, raw in enumerate(to_enrich, 1):
+    print(f"Enriching all {len(raw_posts)} posts via fxtwitter...")
+    started = time.monotonic()
+    pause = ENRICH_SLEEP
+    for i, raw in enumerate(raw_posts, 1):
+        if time.monotonic() - started > ENRICH_BUDGET_S:
+            msg = f"enrich budget {ENRICH_BUDGET_S}s exceeded after {i - 1} posts"
+            print(msg)
+            failures.append(msg)
+            break
         tid = str(raw.get("platformId") or "")
         if not tid:
             continue
-        print(f"[{i}/{len(to_enrich)}] {tid}")
+        print(f"[{i}/{len(raw_posts)}] {tid}")
         tweet, err = enrich_one(tid)
         if tweet:
             enriched_map[tid] = tweet
@@ -574,27 +751,43 @@ def main() -> int:
             msg = f"{tid}: {err}"
             failures.append(msg)
             print(f"  skip: {err}")
-        time.sleep(0.15)
+            if err and "429" in err:
+                pause = min(pause * 2, 3.0)
+        time.sleep(pause)
 
     posts: list[dict] = []
     for raw in raw_posts:
         tid = str(raw.get("platformId") or "")
         if not tid:
             continue
-        tweet = enriched_map.get(tid)
-        posts.append(build_post(raw, tweet))
+        posts.append(build_post(raw, enriched_map.get(tid)))
 
     now_sh = datetime.now(SHANGHAI).strftime("%Y-%m-%d %H:%M:%S")
+    enriched_count = sum(1 for p in posts if p.get("enriched"))
+    type_counts = {
+        "原文": sum(1 for p in posts if p.get("type") == "原文"),
+        "引用": sum(1 for p in posts if p.get("type") == "引用"),
+        "转发": sum(1 for p in posts if p.get("type") == "转发"),
+    }
+    with_images = 0
+    for p in posts:
+        if p.get("images"):
+            with_images += 1
+            continue
+        q = p.get("quote") or {}
+        if isinstance(q, dict) and (q.get("images") or (isinstance(q.get("quote"), dict) and q["quote"].get("images"))):
+            with_images += 1
     payload = {
         "updated_at_shanghai": now_sh,
         "source": "xtracker.polymarket.com + api.fxtwitter.com",
         "count": len(posts),
-        "enriched_count": sum(1 for p in posts if p.get("enriched")),
+        "enriched_count": enriched_count,
+        "type_counts": type_counts,
+        "posts_with_images": with_images,
         "failures": failures,
         "posts": posts,
     }
 
-    # Idempotent content write: always refresh HTML/JSON, but print change hint
     new_fp = content_fingerprint(posts)
     old_fp = ""
     if FEED_JSON.exists():
@@ -610,11 +803,15 @@ def main() -> int:
     changed = new_fp != old_fp
     print(f"Wrote {len(posts)} posts -> {FEED_JSON}")
     print(f"Wrote HTML -> {INDEX_HTML}")
-    print(f"Enriched: {payload['enriched_count']}, failures: {len(failures)}")
+    print(f"Enriched: {enriched_count}/{len(posts)}, failures: {len(failures)}")
+    print(
+        f"Types: 原文={type_counts['原文']} 引用={type_counts['引用']} 转发={type_counts['转发']}"
+    )
+    print(f"Posts with images: {with_images}")
     print(f"CONTENT_CHANGED={'yes' if changed else 'no'}")
     if posts:
         n = posts[0]
-        print(f"Newest: id={n['id']} time={n['created_at_shanghai']} CST")
+        print(f"Newest: id={n['id']} time={n['created_at_shanghai']} CST type={n['type']}")
         print(f"Snippet: {(n.get('text') or '')[:120]}")
     return 0
 

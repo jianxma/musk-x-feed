@@ -61,7 +61,7 @@ python3 -m http.server 8080 --directory docs
 
 | 项 | 内容 |
 |---|---|
-| 数据源 | xtracker.polymarket.com（列表）+ api.fxtwitter.com（enrich 前 ~25 条） |
+| 数据源 | xtracker.polymarket.com（列表）+ api.fxtwitter.com（窗口内帖子尽量全部 enrich；429/超时则降级并仍写出已拿到的内容） |
 | 时区 | Asia/Shanghai（CST） |
 | UI | 中文界面文案；帖子正文保持英文原样 |
 | 图片 | 下载到 `docs/media/`；失败则保留远程 URL 并标记 |
