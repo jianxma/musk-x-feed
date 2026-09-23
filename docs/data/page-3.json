@@ -1,6 +1,115 @@
 {
   "posts": [
     {
+      "id": "2102207241101144450",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T01:23:58.000Z",
+      "created_at_shanghai": "2026-09-22 09:23:58",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Grok 4.7",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1686,
+        "likes": 31132,
+        "quotes": 365,
+        "replies": 2915,
+        "retweets": 2642,
+        "views": 22116008
+      },
+      "url": "https://x.com/elonmusk/status/2102207241101144450",
+      "images": [
+        "https://pbs.twimg.com/media/HSyKWCqW4AA5Ubh.jpg?name=small"
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2102201921721262110",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T01:02:49.000Z",
+      "created_at_shanghai": "2026-09-22 09:02:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Been testing Grok 4.7 for the past week or more. It’s been a great improvement over 4.6. \nIt worked for over 70 hours straight on a goal. Much better attention to detail. \nThe 500k context window really makes a difference imo. 4.7 much better at things like skill selection; workflows. Found it particularly good with pstack. \nDidn’t have access to it in Grokbot, but I really wanted to test it there. Together it’s a great daily driver.",
+      "quote": null,
+      "retweet": {
+        "author": "ScriptedAlchemy",
+        "avatar": "https://pbs.twimg.com/profile_images/1601787403185934336/plWmMMB8_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 04:50:26",
+        "created_at_utc": "2026-09-21T20:50:26.000Z",
+        "id": "2102138407908720838",
+        "images": [],
+        "name": "Zack Jackson",
+        "text": "Been testing Grok 4.7 for the past week or more. It’s been a great improvement over 4.6. \nIt worked for over 70 hours straight on a goal. Much better attention to detail. \nThe 500k context window really makes a difference imo. 4.7 much better at things like skill selection; workflows. Found it particularly good with pstack. \nDidn’t have access to it in Grokbot, but I really wanted to test it there. Together it’s a great daily driver.",
+        "url": "https://x.com/ScriptedAlchemy/status/2102138407908720838",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 51,
+        "likes": 1264,
+        "quotes": 7,
+        "replies": 89,
+        "retweets": 145,
+        "views": 458112
+      },
+      "url": "https://x.com/elonmusk/status/2102201921721262110",
+      "images": [],
+      "enriched": true
+    },
+    {
+      "id": "2102201534776025356",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T01:01:17.000Z",
+      "created_at_shanghai": "2026-09-22 09:01:17",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "marsrepublica",
+        "avatar": "https://pbs.twimg.com/profile_images/2075787229436256257/RrDaMY-l_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 07:32:41",
+        "created_at_utc": "2026-09-21T23:32:41.000Z",
+        "id": "2102179235766968347",
+        "images": [
+          "https://pbs.twimg.com/media/HSxw3uLWMAECVw3.jpg?name=small"
+        ],
+        "name": "samuel",
+        "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
+        "url": "https://x.com/marsrepublica/status/2102179235766968347",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 311,
+        "likes": 9842,
+        "quotes": 89,
+        "replies": 1127,
+        "retweets": 1400,
+        "views": 3951161
+      },
+      "url": "https://x.com/elonmusk/status/2102201534776025356",
+      "images": [],
+      "enriched": true
+    },
+    {
       "id": "2102201280307540181",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -539,16 +648,35 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T18:33:49.000Z",
       "created_at_shanghai": "2026-09-22 02:33:49",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "转发",
+      "type_label": "转发",
       "text": "I just gave Grok 4.7 a pretty hard problem, involving reverse-engineering a running binary. Beautifully solved. And it's so fast!",
       "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
+      "retweet": {
+        "author": "rauchg",
+        "avatar": "https://pbs.twimg.com/profile_images/1783856060249595904/8TfcCN0r_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 01:37:58",
+        "created_at_utc": "2026-09-21T17:37:58.000Z",
+        "id": "2102089968860721335",
+        "images": [],
+        "name": "Guillermo Rauch",
+        "text": "I just gave Grok 4.7 a pretty hard problem, involving reverse-engineering a running binary. Beautifully solved. And it's so fast!",
+        "url": "https://x.com/rauchg/status/2102089968860721335",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "rauchg",
+      "engagement": {
+        "bookmarks": 109,
+        "likes": 2326,
+        "quotes": 11,
+        "replies": 91,
+        "retweets": 156,
+        "views": 401966
+      },
       "url": "https://x.com/elonmusk/status/2102104027165008317",
       "images": [],
-      "enriched": false
+      "enriched": true
     },
     {
       "id": "2102103068112199821",
@@ -559,16 +687,53 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T18:30:01.000Z",
       "created_at_shanghai": "2026-09-22 02:30:01",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "转发",
+      "type_label": "转发",
       "text": "We put Grok 4.7 from @SpaceXAI to work on a $2 million insurance claim where one deductible error alone changes the calculation by $143,000.\n\nIn this Box Agent preview, @grok reconciles the claim against the policy and supporting records. It catches an $82,000 duplicate invoice and a missing $64,000 supplier credit. It also explains why the Business Income waiting period doesn’t apply to Extra Expense.\n\nThe result is a cited claims review for the adjuster, with final coverage and payment decisions left to the insurer.\n\nExplore Box AI Studio to build custom agents for your own document-heavy workflows.",
-      "quote": null,
-      "retweet": null,
+      "quote": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "Box",
+        "avatar": "https://pbs.twimg.com/profile_images/2095961122147008512/lZm3p6aN_200x200.png",
+        "created_at_shanghai": "2026-09-22 00:24:00",
+        "created_at_utc": "2026-09-21T16:24:00.000Z",
+        "id": "2102071357244854498",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102070811876265985/img/iU2owpHWzZkJU3Bl.jpg"
+        ],
+        "name": "Box",
+        "text": "We put Grok 4.7 from @SpaceXAI to work on a $2 million insurance claim where one deductible error alone changes the calculation by $143,000.\n\nIn this Box Agent preview, @grok reconciles the claim against the policy and supporting records. It catches an $82,000 duplicate invoice and a missing $64,000 supplier credit. It also explains why the Business Income waiting period doesn’t apply to Extra Expense.\n\nThe result is a cited claims review for the adjuster, with final coverage and payment decisions left to the insurer.\n\nExplore Box AI Studio to build custom agents for your own document-heavy workflows.",
+        "url": "https://x.com/Box/status/2102071357244854498",
+        "verified": true,
+        "verified_type": "organization"
+      },
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 176,
+        "likes": 1518,
+        "quotes": 15,
+        "replies": 76,
+        "retweets": 184,
+        "views": 1662306
+      },
       "url": "https://x.com/elonmusk/status/2102103068112199821",
-      "images": [],
-      "enriched": false
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102070811876265985/img/iU2owpHWzZkJU3Bl.jpg"
+      ],
+      "enriched": true
     },
     {
       "id": "2102102621037236699",
@@ -579,16 +744,37 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T18:28:14.000Z",
       "created_at_shanghai": "2026-09-22 02:28:14",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "引用",
+      "type_label": "引用",
       "text": "Important to use Grok 4.7 with our Build harness for the best results \n\nhttps://X.ai/build",
-      "quote": null,
+      "quote": {
+        "author": "ericzakariasson",
+        "avatar": "https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:20:09",
+        "created_at_utc": "2026-09-21T16:20:09.000Z",
+        "id": "2102070385130999968",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102070323713806337/img/TpveH_8oZc6tHESX.jpg"
+        ],
+        "name": "eric zakariasson",
+        "text": "grok 4.7 is here, and its our best model so far!\n\ntry it out in cursor, grok build, api or anywhere you get your tokens! curious to hear what you think\n\nhere's grok 4.6 vs 4.7 building age of empires ii",
+        "url": "https://x.com/ericzakariasson/status/2102070385130999968",
+        "verified": true,
+        "verified_type": "individual"
+      },
       "retweet": null,
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 845,
+        "likes": 8764,
+        "quotes": 117,
+        "replies": 1101,
+        "retweets": 1369,
+        "views": 4892354
+      },
       "url": "https://x.com/elonmusk/status/2102102621037236699",
       "images": [],
-      "enriched": false
+      "enriched": true
     },
     {
       "id": "2102102046216196545",
@@ -599,16 +785,49 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T18:25:57.000Z",
       "created_at_shanghai": "2026-09-22 02:25:57",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "转发",
+      "type_label": "转发",
       "text": "I’ve been testing Grok 4.7… it’s a really great daily driver, and a huge step up over 4.6.\n\nDefinitely worth trying!",
-      "quote": null,
-      "retweet": null,
+      "quote": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "mattshumer_",
+        "avatar": "https://pbs.twimg.com/profile_images/1490950574090571778/BtgOaqUP_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 01:15:05",
+        "created_at_utc": "2026-09-21T17:15:05.000Z",
+        "id": "2102084211456827542",
+        "images": [],
+        "name": "Matt Shumer",
+        "text": "I’ve been testing Grok 4.7… it’s a really great daily driver, and a huge step up over 4.6.\n\nDefinitely worth trying!",
+        "url": "https://x.com/mattshumer_/status/2102084211456827542",
+        "verified": true,
+        "verified_type": "individual"
+      },
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 34,
+        "likes": 1093,
+        "quotes": 5,
+        "replies": 101,
+        "retweets": 124,
+        "views": 420356
+      },
       "url": "https://x.com/elonmusk/status/2102102046216196545",
       "images": [],
-      "enriched": false
+      "enriched": true
     },
     {
       "id": "2102084221086904559",
@@ -619,81 +838,54 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T17:15:07.000Z",
       "created_at_shanghai": "2026-09-22 01:15:07",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "转发",
+      "type_label": "转发",
       "text": "Try Grok 4.7 - it excels at coding, engineering work, and 3D, and the model is a fantastic thought partner at high TPS in Grok Build and Cursor",
-      "quote": null,
-      "retweet": null,
+      "quote": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "milichab",
+        "avatar": "https://pbs.twimg.com/profile_images/1466472908977487881/-dym5k04_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:31:43",
+        "created_at_utc": "2026-09-21T16:31:43.000Z",
+        "id": "2102073296900796862",
+        "images": [],
+        "name": "Andrew Milich",
+        "text": "Try Grok 4.7 - it excels at coding, engineering work, and 3D, and the model is a fantastic thought partner at high TPS in Grok Build and Cursor",
+        "url": "https://x.com/milichab/status/2102073296900796862",
+        "verified": true,
+        "verified_type": "individual"
+      },
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 55,
+        "likes": 1521,
+        "quotes": 7,
+        "replies": 118,
+        "retweets": 198,
+        "views": 496485
+      },
       "url": "https://x.com/elonmusk/status/2102084221086904559",
       "images": [],
-      "enriched": false
-    },
-    {
-      "id": "2102084081475350829",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T17:14:34.000Z",
-      "created_at_shanghai": "2026-09-22 01:14:34",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "🚀",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2102084081475350829",
-      "images": [],
-      "enriched": false
-    },
-    {
-      "id": "2102083930107101382",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T17:13:58.000Z",
-      "created_at_shanghai": "2026-09-22 01:13:58",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Grok 4.7 works extremely well with our Build harness\n\nhttps://X.ai/Build",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2102083930107101382",
-      "images": [],
-      "enriched": false
-    },
-    {
-      "id": "2102083438354292878",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T17:12:01.000Z",
-      "created_at_shanghai": "2026-09-22 01:12:01",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "We trained 4.7 on longer-running problems compared to Grok 4.6. It holds context better and checks its own work more carefully.\n\nGive it a try and let us know your feedback!",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2102083438354292878",
-      "images": [],
-      "enriched": false
+      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 112,
+  "total": 115,
   "total_pages": 6,
-  "updated_at_shanghai": "2026-09-23 14:32:37"
+  "updated_at_shanghai": "2026-09-23 15:13:13"
 }

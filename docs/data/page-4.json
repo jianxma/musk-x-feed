@@ -1,6 +1,137 @@
 {
   "posts": [
     {
+      "id": "2102084081475350829",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T17:14:34.000Z",
+      "created_at_shanghai": "2026-09-22 01:14:34",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "🚀",
+      "quote": {
+        "author": "nvidia",
+        "avatar": "https://pbs.twimg.com/profile_images/1828904711124078593/SRvCZSfQ_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 01:02:50",
+        "created_at_utc": "2026-09-21T17:02:50.000Z",
+        "id": "2102081129234751722",
+        "images": [],
+        "name": "NVIDIA",
+        "text": "Grok 4.7 has landed. 🚀\n\nCongrats to @SpaceXAI on its most capable model yet for coding and knowledge work.\n\nProud to support the team with NVIDIA accelerated computing.",
+        "url": "https://x.com/nvidia/status/2102081129234751722",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 656,
+        "likes": 28923,
+        "quotes": 122,
+        "replies": 1737,
+        "retweets": 2585,
+        "views": 7994651
+      },
+      "url": "https://x.com/elonmusk/status/2102084081475350829",
+      "images": [],
+      "enriched": true
+    },
+    {
+      "id": "2102083930107101382",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T17:13:58.000Z",
+      "created_at_shanghai": "2026-09-22 01:13:58",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok 4.7 works extremely well with our Build harness\n\nhttps://X.ai/Build",
+      "quote": {
+        "author": "aksheyd",
+        "avatar": "https://pbs.twimg.com/profile_images/2013833485073686529/PL66L1Q5_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:20:01",
+        "created_at_utc": "2026-09-21T16:20:01.000Z",
+        "id": "2102070351786283181",
+        "images": [],
+        "name": "akshey",
+        "text": "Excited to bring 4.7 to you all! \n\nNumerics aside, it's incredibly capable in Grok Build/Cursor. We spent a lot of hours on the harness, iterating with some of the greatest engineers in the world. \n\nAlso, the fast mode has INSANE tps. Happy Grok Building :) Lmk what you think!",
+        "url": "https://x.com/aksheyd/status/2102070351786283181",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 291,
+        "likes": 7446,
+        "quotes": 69,
+        "replies": 699,
+        "retweets": 1155,
+        "views": 5399772
+      },
+      "url": "https://x.com/elonmusk/status/2102083930107101382",
+      "images": [],
+      "enriched": true
+    },
+    {
+      "id": "2102083438354292878",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T17:12:01.000Z",
+      "created_at_shanghai": "2026-09-22 01:12:01",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We trained 4.7 on longer-running problems compared to Grok 4.6. It holds context better and checks its own work more carefully.\n\nGive it a try and let us know your feedback!",
+      "quote": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "haozhu_wang",
+        "avatar": "https://pbs.twimg.com/profile_images/1977076158073389058/lviVy4Bc_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:46:52",
+        "created_at_utc": "2026-09-21T16:46:52.000Z",
+        "id": "2102077111548940709",
+        "images": [],
+        "name": "Haozhu Wang",
+        "text": "We trained 4.7 on longer-running problems compared to Grok 4.6. It holds context better and checks its own work more carefully.\n\nGive it a try and let us know your feedback!",
+        "url": "https://x.com/haozhu_wang/status/2102077111548940709",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 77,
+        "likes": 2222,
+        "quotes": 9,
+        "replies": 167,
+        "retweets": 162,
+        "views": 493204
+      },
+      "url": "https://x.com/elonmusk/status/2102083438354292878",
+      "images": [],
+      "enriched": true
+    },
+    {
       "id": "2102082011233931762",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -9,16 +140,37 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T17:06:20.000Z",
       "created_at_shanghai": "2026-09-22 01:06:20",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Grok 4.7 places @SpaceXAI as third, after Anthropic &amp; OpenAI, for agentic coding. \n\nWhen factoring in that Grok is significantly faster &amp; lower cost, it’s a great choice for your everyday workhorse.",
-      "quote": null,
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok 4.7 places @SpaceXAI as third, after Anthropic & OpenAI, for agentic coding. \n\nWhen factoring in that Grok is significantly faster & lower cost, it’s a great choice for your everyday workhorse.",
+      "quote": {
+        "author": "ArtificialAnlys",
+        "avatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:38:05",
+        "created_at_utc": "2026-09-21T16:38:05.000Z",
+        "id": "2102074898327932987",
+        "images": [
+          "https://pbs.twimg.com/media/HSwR-rAb0AA-TNh.jpg?name=small"
+        ],
+        "name": "Artificial Analysis",
+        "text": "Grok 4.7 scores 46 on the Artificial Analysis Intelligence Index to bring SpaceXAI into the top 4 AI labs. Coding Agent Index performance has also improved, overtaking GPT-5.6 Sol\n\nGrok 4.7 scores +2 points over Grok 4.6 on the Intelligence Index, with strong performance on agentic knowledge work tasks. We evaluated the new model at xhigh reasoning effort.\n\nCongratulations to @SpaceXAI and @ElonMusk on the release!\n\nKey takeaways:\n\n➤ Grok 4.7 joins the frontier of agentic knowledge work: Grok 4.7 gains +111 Elo over Grok 4.6 (high) on AA-Briefcase, our private benchmark for long-horizon agentic knowledge work, scoring 1657 Elo and placing it alongside Claude Opus 5 and Claude Fable 5.1 at the frontier. On GDPval-AA, it scores 1695 Elo, +90 ahead of Grok 4.6 (high).\n\n➤ A leap in coding agent performance: Grok 4.7 (xhigh) with Grok Build scores 56 on the Artificial Analysis Coding Agent Index, up +9 points from Grok 4.6 (xhigh). Among models in their native harnesses, Grok 4.7 + Grok Build now ranks 4th, behind only Claude Fable 5.1, GPT-6 Astra, and Claude Opus 5.\n\n➤ Incremental performance changes elsewhere: Outside of agentic knowledge work, Grok 4.7 broadly matches Grok 4.6 (high) on the other Intelligence Index tasks. It improves on Terminal-Bench 4.0 (+4.5 percentage points) and GDP.pdf (+3.0 p.p.), with regressions on AA-LCR (-3.7 p.p.) and AutomationBench-AA (-1.1 p.p.).\n\n➤ High token use across tasks: Grok 4.7's gains come with higher token usage. Grok 4.7 (xhigh) uses approximately 81k output tokens per Intelligence Index task, compared with 36k for Grok 4.6 (high) and 27k for GPT-6 Astra (max) - 125% and 196% more, respectively.\n\nOther model details:\n\n➤ Context window of 500k tokens, unchanged from Grok 4.6\n\n➤ Pricing of $2/$6 per 1M input/output tokens with cache hits discounted to $0.50 per 1M tokens, matching Grok 4.6\n\n➤ Configurable reasoning effort spans low to xhigh. Our evaluation uses xhigh.",
+        "url": "https://x.com/ArtificialAnlys/status/2102074898327932987",
+        "verified": true,
+        "verified_type": "organization"
+      },
       "retweet": null,
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 1133,
+        "likes": 17407,
+        "quotes": 197,
+        "replies": 1210,
+        "retweets": 1988,
+        "views": 17359176
+      },
       "url": "https://x.com/elonmusk/status/2102082011233931762",
       "images": [],
-      "enriched": false
+      "enriched": true
     },
     {
       "id": "2102072686293684710",
@@ -29,16 +181,39 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T16:29:17.000Z",
       "created_at_shanghai": "2026-09-22 00:29:17",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "转发",
+      "type_label": "转发",
       "text": "SpaceXAI just released Grok 4.7\n\nAnd it’s already showing a huge jump in multi-hour office work\n\nGrok 4.7 outperforms GPT-6 Astra and is already nearly matching Fable 5.1",
       "quote": null,
-      "retweet": null,
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:19:28",
+        "created_at_utc": "2026-09-21T16:19:28.000Z",
+        "id": "2102070215898976401",
+        "images": [
+          "https://pbs.twimg.com/media/HSwNtySXoAAgJdj.jpg?name=small"
+        ],
+        "name": "X Freeze",
+        "text": "SpaceXAI just released Grok 4.7\n\nAnd it’s already showing a huge jump in multi-hour office work\n\nGrok 4.7 outperforms GPT-6 Astra and is already nearly matching Fable 5.1",
+        "url": "https://x.com/XFreeze/status/2102070215898976401",
+        "verified": true,
+        "verified_type": "individual"
+      },
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 64,
+        "likes": 1800,
+        "quotes": 20,
+        "replies": 122,
+        "retweets": 228,
+        "views": 347572
+      },
       "url": "https://x.com/elonmusk/status/2102072686293684710",
-      "images": [],
-      "enriched": false
+      "images": [
+        "https://pbs.twimg.com/media/HSwNtySXoAAgJdj.jpg?name=small"
+      ],
+      "enriched": true
     },
     {
       "id": "2102072048633684140",
@@ -69,16 +244,39 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T16:25:55.000Z",
       "created_at_shanghai": "2026-09-22 00:25:55",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "转发",
+      "type_label": "转发",
       "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
       "quote": null,
-      "retweet": null,
+      "retweet": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 2471,
+        "likes": 28133,
+        "quotes": 1889,
+        "replies": 1428,
+        "retweets": 3035,
+        "views": 14210717
+      },
       "url": "https://x.com/elonmusk/status/2102071839690252484",
-      "images": [],
-      "enriched": false
+      "images": [
+        "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+      ],
+      "enriched": true
     },
     {
       "id": "2102068833729052707",
@@ -89,16 +287,49 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T16:13:59.000Z",
       "created_at_shanghai": "2026-09-22 00:13:59",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "转发",
+      "type_label": "转发",
       "text": "They're rioting in Austin against the US govt while flying foreign flags",
-      "quote": null,
-      "retweet": null,
+      "quote": {
+        "author": "MAGAVoice",
+        "avatar": "https://pbs.twimg.com/profile_images/1866679989141377027/aex88zyV_200x200.jpg",
+        "created_at_shanghai": "2026-09-21 09:29:17",
+        "created_at_utc": "2026-09-21T01:29:17.000Z",
+        "id": "2101846192066056539",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2101846151951753216/img/KlBZTlH-VQ9AOYhg.jpg"
+        ],
+        "name": "MAGA Voice",
+        "text": "🚨 HAPPENING NOW: Austin Texas looks like an absolute WARZONE right now with Foreign Flags\n\nSEND IN THE NATIONAL GUARD\n\nAUSTIN HAS FALLEN",
+        "url": "https://x.com/MAGAVoice/status/2101846192066056539",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "JackPosobiec",
+        "avatar": "https://pbs.twimg.com/profile_images/2099504295271923714/6Ga4fRqd_200x200.jpg",
+        "created_at_shanghai": "2026-09-21 10:37:02",
+        "created_at_utc": "2026-09-21T02:37:02.000Z",
+        "id": "2101863241328595096",
+        "images": [],
+        "name": "Jack Posobiec",
+        "text": "They're rioting in Austin against the US govt while flying foreign flags",
+        "url": "https://x.com/JackPosobiec/status/2101863241328595096",
+        "verified": true,
+        "verified_type": "individual"
+      },
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 676,
+        "likes": 22346,
+        "quotes": 164,
+        "replies": 1264,
+        "retweets": 3469,
+        "views": 1531838
+      },
       "url": "https://x.com/elonmusk/status/2102068833729052707",
       "images": [],
-      "enriched": false
+      "enriched": true
     },
     {
       "id": "2102068523115700306",
@@ -109,16 +340,35 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T16:12:45.000Z",
       "created_at_shanghai": "2026-09-22 00:12:45",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "转发",
+      "type_label": "转发",
       "text": "America’s Golden Age will not simply be declared. It will be designed.",
       "quote": null,
-      "retweet": null,
+      "retweet": {
+        "author": "jgebbia",
+        "avatar": "https://pbs.twimg.com/profile_images/1505998945952088070/sgMvmBs5_200x200.jpg",
+        "created_at_shanghai": "2026-09-21 22:14:15",
+        "created_at_utc": "2026-09-21T14:14:15.000Z",
+        "id": "2102038704139186263",
+        "images": [],
+        "name": "Joe Gebbia",
+        "text": "America’s Golden Age will not simply be declared. It will be designed.",
+        "url": "https://x.com/jgebbia/status/2102038704139186263",
+        "verified": true,
+        "verified_type": "individual"
+      },
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 99,
+        "likes": 2729,
+        "quotes": 21,
+        "replies": 140,
+        "retweets": 248,
+        "views": 353362
+      },
       "url": "https://x.com/elonmusk/status/2102068523115700306",
       "images": [],
-      "enriched": false
+      "enriched": true
     },
     {
       "id": "2102068280156414171",
@@ -129,16 +379,40 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T16:11:47.000Z",
       "created_at_shanghai": "2026-09-22 00:11:47",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "引用",
+      "type_label": "引用",
       "text": "In 7 days, the first Starship launch to orbit will be carrying Starlink V3 satellites intended for operational use",
-      "quote": null,
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-21 23:20:28",
+        "created_at_utc": "2026-09-21T15:20:28.000Z",
+        "id": "2102055366724866456",
+        "images": [
+          "https://pbs.twimg.com/media/HSwABHUWwAEgiZN.jpg?name=small",
+          "https://pbs.twimg.com/media/HSwACpqWwAAZhea.jpg?name=small",
+          "https://pbs.twimg.com/media/HSwAEhrXMAATZ3R.jpg?name=small",
+          "https://pbs.twimg.com/media/HSwAGJNXUAAIQ2G.jpg?name=small"
+        ],
+        "name": "SpaceX",
+        "text": "Booster 21 moved to the pad at Starbase",
+        "url": "https://x.com/SpaceX/status/2102055366724866456",
+        "verified": true,
+        "verified_type": "organization"
+      },
       "retweet": null,
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 1050,
+        "likes": 43928,
+        "quotes": 341,
+        "replies": 1821,
+        "retweets": 4644,
+        "views": 5346092
+      },
       "url": "https://x.com/elonmusk/status/2102068280156414171",
       "images": [],
-      "enriched": false
+      "enriched": true
     },
     {
       "id": "2102062143520530455",
@@ -149,16 +423,35 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T15:47:24.000Z",
       "created_at_shanghai": "2026-09-21 23:47:24",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "转发",
+      "type_label": "转发",
       "text": "you are going to fail, so fail while daring greatly",
       "quote": null,
-      "retweet": null,
+      "retweet": {
+        "author": "OfficialLoganK",
+        "avatar": "https://pbs.twimg.com/profile_images/1943787288955084800/QOl7OJMc_200x200.jpg",
+        "created_at_shanghai": "2026-09-21 09:07:26",
+        "created_at_utc": "2026-09-21T01:07:26.000Z",
+        "id": "2101840695430435122",
+        "images": [],
+        "name": "Logan Kilpatrick",
+        "text": "you are going to fail, so fail while daring greatly",
+        "url": "https://x.com/OfficialLoganK/status/2101840695430435122",
+        "verified": true,
+        "verified_type": "individual"
+      },
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 1499,
+        "likes": 11471,
+        "quotes": 221,
+        "replies": 532,
+        "retweets": 1184,
+        "views": 1650316
+      },
       "url": "https://x.com/elonmusk/status/2102062143520530455",
       "images": [],
-      "enriched": false
+      "enriched": true
     },
     {
       "id": "2102061631874208095",
@@ -169,16 +462,39 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-21T15:45:22.000Z",
       "created_at_shanghai": "2026-09-21 23:45:22",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "转发",
+      "type_label": "转发",
       "text": "🚨NEW FOOTAGE: They used a blue light boat to stop the cameras\n\nTwo men on a small boat off Eastney.\n\nRNLI on the beach with the arrivals.\n\nOfficial boat moves in to push them back so they can’t film it.\n\nYou pay for the landing.\nYou pay for the coaches.\nYou pay for the boat that hides it.",
       "quote": null,
-      "retweet": null,
+      "retweet": {
+        "author": "GauciReports",
+        "avatar": "https://pbs.twimg.com/profile_images/1969735649927258112/QOqTtlOO_200x200.jpg",
+        "created_at_shanghai": "2026-09-21 04:31:11",
+        "created_at_utc": "2026-09-20T20:31:11.000Z",
+        "id": "2101771175084843181",
+        "images": [
+          "https://pbs.twimg.com/media/HSr9qg5WwAAeN5M.jpg?name=small"
+        ],
+        "name": "Gauci Reports",
+        "text": "🚨NEW FOOTAGE: They used a blue light boat to stop the cameras\n\nTwo men on a small boat off Eastney.\n\nRNLI on the beach with the arrivals.\n\nOfficial boat moves in to push them back so they can’t film it.\n\nYou pay for the landing.\nYou pay for the coaches.\nYou pay for the boat that hides it.",
+        "url": "https://x.com/GauciReports/status/2101771175084843181",
+        "verified": true,
+        "verified_type": "individual"
+      },
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 942,
+        "likes": 13191,
+        "quotes": 223,
+        "replies": 476,
+        "retweets": 4226,
+        "views": 1184488
+      },
       "url": "https://x.com/elonmusk/status/2102061631874208095",
-      "images": [],
-      "enriched": false
+      "images": [
+        "https://pbs.twimg.com/media/HSr9qg5WwAAeN5M.jpg?name=small"
+      ],
+      "enriched": true
     },
     {
       "id": "2102058173355946284",
@@ -339,71 +655,11 @@
       "url": "https://x.com/elonmusk/status/2101901374195691900",
       "images": [],
       "enriched": false
-    },
-    {
-      "id": "2101897305204945189",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T04:52:23.000Z",
-      "created_at_shanghai": "2026-09-21 12:52:23",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Week 1 at SpaceXAI.\n\nThe intensity is real and the people are great, but there is so much information coming from every direction that you mostly absorb what you can and keep moving.\n\nManaged to fix a bug in Grok Bot browser use tho 😛 But a lot more exciting stuff coming.\n\nGrok is going to be great, and agents still have a long way to go.\n\nIf you use http://grok.com or Grok Bot, what is the most urgent thing to fix right now (or what feature is really missing)?",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2101897305204945189",
-      "images": [],
-      "enriched": false
-    },
-    {
-      "id": "2101896799699062963",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T04:50:23.000Z",
-      "created_at_shanghai": "2026-09-21 12:50:23",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Interesting",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2101896799699062963",
-      "images": [],
-      "enriched": false
-    },
-    {
-      "id": "2101866518757683464",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T02:50:03.000Z",
-      "created_at_shanghai": "2026-09-21 10:50:03",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Built this Grok Bot, fully offline index of all your saved instagram videos via @karpathy-wiki-style .md. Uses @bot, @grok Voice Transcribe 2.0, Grok Vision + more.\n\n(X + TikTok coming soon)",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2101866518757683464",
-      "images": [],
-      "enriched": false
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 112,
+  "total": 115,
   "total_pages": 6,
-  "updated_at_shanghai": "2026-09-23 14:32:37"
+  "updated_at_shanghai": "2026-09-23 15:13:13"
 }
