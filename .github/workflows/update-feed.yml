@@ -8,8 +8,10 @@ on:
   push:
     branches: [main]
     paths-ignore:
-      # Avoid rebuild loops when the workflow itself commits docs/
+      # The job commits the DB + paginated JSON. Ignore those paths so the
+      # push does not start another run.
       - "docs/**"
+      - "musk_feed.db"
       - "README.md"
       - ".gitignore"
 
@@ -23,6 +25,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,24 +35,24 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Build feed
+      - name: Incremental sync and static export
         id: build
         run: |
-          python scripts/build_feed.py | tee /tmp/build.log
+          python sync.py --export | tee /tmp/build.log
           if grep -q 'CONTENT_CHANGED=yes' /tmp/build.log; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit docs if content changed
+      - name: Commit data if content changed
         if: steps.build.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/
+          git add -A -- musk_feed.db docs/data
           if git diff --cached --quiet; then
-            echo "No staged changes after build; skip commit"
+            echo "No staged changes after export; skip commit"
             exit 0
           fi
           git commit -m "chore: update Elon Musk X feed [skip ci]"
