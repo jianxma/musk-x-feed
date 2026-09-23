@@ -1,5 +1,5 @@
 {
-  "updated_at_shanghai": "2026-09-23 09:43:52",
+  "updated_at_shanghai": "2026-09-23 10:14:34",
   "source": "xtracker.polymarket.com + api.fxtwitter.com",
   "count": 110,
   "enriched_count": 25,
@@ -21,12 +21,12 @@
         "url": "https://x.com/rauchg/status/2102519097770885231"
       },
       "engagement": {
-        "likes": 5117,
-        "retweets": 551,
-        "replies": 872,
-        "bookmarks": 161,
+        "likes": 5453,
+        "retweets": 591,
+        "replies": 916,
+        "bookmarks": 175,
         "quotes": 72,
-        "views": 1700960
+        "views": 1855077
       },
       "url": "https://x.com/elonmusk/status/2102520283618017355",
       "images": [],
@@ -44,12 +44,12 @@
       "text": "We rebuilt customer support around Grok Bot to scale our operations without adding headcount.\n\nIt works autonomously to respond to customers, resolve tickets, and manage the queue.\n\nhttps://x.ai/news/grok-bot-customer-support",
       "quote": null,
       "engagement": {
-        "likes": 2742,
-        "retweets": 260,
-        "replies": 185,
-        "bookmarks": 612,
+        "likes": 2814,
+        "retweets": 266,
+        "replies": 188,
+        "bookmarks": 640,
         "quotes": 58,
-        "views": 395401
+        "views": 405779
       },
       "url": "https://x.com/bot/status/2102460785649959362",
       "images": [],
@@ -67,12 +67,12 @@
       "text": "🚨NEW: @JTLonsdale & @SquawkCNBC clash on AI and wealth inequality.\n\nJoe Lonsdale: 2030s is the disinflation decade... we're all going to be really wealthy if we don't break this.\n\nJoe Kernen: Everybody's going to get wealthier? Because only the wealthy have been getting wealthier...\n\nJoe Lonsdale: That's not true. Let's go back: 1870 to 1900, the Second Industrial Revolution, the last time productivity shot up a lot, the average American, the average working class American, was twice as wealthy in real terms within one generation...\n\nAndrew Ross Sorkin: Tell me where you land on \"We've got to slow everything down, because if we don't, we could end up dying...\n\nJoe Kernen: or worse...\n\nJoe Lonsdale: or worse, the companies go bankrupt \n\nAndrew: versus we've got to go full steam ahead. No matter what. No matter what the case.\n\nJoe Lonsdale: I love the meme where it's Dario and Sam saying, please regulate us. And Trump says, keep building, nerds. \n\nThese companies have a lot of liabilities. These companies need to slow down if they see themselves causing damage. I'm not worried about any existential risks in the near term. I 100% could see these companies accidentally causing some problems with hacking with cyber, for example. \n\nThey have a responsibility to slow down themselves, and we should be holding them liable if they cause any damage. And so it makes sense that they would be very careful about that. But we were just talking...\n\n2030s is disinflation decade. We're going to all be really wealthy if we don't break this. So don't slow down too much is my view.\n\nJoe Kernen: Go back to this again. You told me that 2030s are going to be the decade of disinflation. We're going to all get rich, and we're not going to need to raise taxes, and we're going to start growing faster. The deficit will come under control. This is going to happen?\n\nJoe Lonsdale: The AI is really good for rooting out fraud and grift in the government. It's really going to bring down health care costs dramatically. It's amazing for bringing back manufacturing. We have companies already bringing back lots of manufacturing here. That's only about to accelerate.\n\nWe're at what's called a GPT-3 moment right now for robotics, right. World models, which are a new type of AI -- how do things move and interact in the real world in general terms...\n\nJoe Kernen: So this will help one of our most daunting fears of the $40 trillion and the out of control deficits we're running now, this will come under control from AI? \n\nJoe Lonsdale: If you get productivity up to 3, 4 or 5%, what you 100% should be able to do with these things, if not significantly higher, that solves the deficit problem.\n\nThis is an amazing thing for a civilization; this is the answer is to get growth higher, and it's how everyone gets wealthier, it's doing more with less. It's going to do it.\n\nJoe Kernen: Everybody's going to get wealthier? Because only the wealthy have been getting wealthier...\n\nJoe Lonsdale: That's not true. Let's go back: 1870 to1900, the Second Industrial Revolution, the last time productivity shot up a lot, the average American, the average working class American, was twice as wealthy in real terms within one generation.\n\nAnd that's what happens when productivity goes up. Everyone gets wealthier. We we teach economics very poorly in this country.",
       "quote": null,
       "engagement": {
-        "likes": 1383,
-        "retweets": 214,
-        "replies": 71,
-        "bookmarks": 303,
+        "likes": 1413,
+        "retweets": 218,
+        "replies": 72,
+        "bookmarks": 306,
         "quotes": 17,
-        "views": 384052
+        "views": 393616
       },
       "url": "https://x.com/AmOptimistShow/status/2102426287193092221",
       "images": [
@@ -99,12 +99,12 @@
       "text": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build.\n\nThe update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent performance. It also adds new subagent controls, configurable request limits and long-reasoning reminders.\n\nRelease Notes\n\nVersion 1.0.41 — September 22, 2026\n\nFeatures\n\n• Added a new sports_search tool that can look up live NFL scores, standings, schedules, player stats and team records directly from X data.\n\n• Added a subagent model inheritance setting to /settings. It persists in config.toml and respects managed and overlay layers.\n\n• Per-model request size limits can now be configured to match provider HTTP body caps and control inline image eviction.\n\n• A long-reasoning reminder can now be enabled through config to nudge the model after lengthy hidden-reasoning steps.\n\nBug Fixes\n\n• Fixed the subagent fullscreen view so it no longer shows a stray [Dashboard] button in the header.\n\n• Fixed agent frontmatter mcpServers so headers and URLs from the active agent’s agent.md correctly override config.toml and survive config reloads or agent switches.\n\n• Ctrl+P now opens the command palette immediately from the welcome screen.\n\n• The Dashboard now focuses the “+ New Agent” row instead of leaving the previous session selected.\n\n• Sessions interrupted by a crash now show a clear marker instead of silently dropping the turn.\n\n• Pressing Ctrl+Z immediately after stashing a prompt now restores it.\n\n• The collapsed edit blocks setting now correctly collapses edits even when expanded_by_default is pinned to true.\n\n• Interjections now receive a visible reply before the agent resumes its previous tasks.\n\n• Cancelling a turn blocked on spawn_subagent now tells the model that the child moved to the background instead of claiming it was never executed.\n\n• Saving a queued-prompt edit now returns focus to the composer so the next keystrokes type the next message.\n\n• Subagent activation is now consistent between the TUI and Grok Agent Studio. Tables that only set limits or models no longer disable subagents.\n\n• Effort-level selection now accepts menu labels in addition to IDs.",
       "quote": null,
       "engagement": {
-        "likes": 1239,
-        "retweets": 151,
-        "replies": 86,
-        "bookmarks": 68,
+        "likes": 1256,
+        "retweets": 153,
+        "replies": 87,
+        "bookmarks": 71,
         "quotes": 7,
-        "views": 292423
+        "views": 297881
       },
       "url": "https://x.com/cb_doge/status/2102448328638382234",
       "images": [
@@ -131,12 +131,12 @@
       "text": "If AI gave you back 2 hours a day, that's 730 hours a year. What would you do with them? Spend more time with your kids? Get healthy? Start the business you've been putting off? That's the conversation about the future of tech I want to have.\n\nWhat becomes possible when people get part of their lives back?",
       "quote": null,
       "engagement": {
-        "likes": 2037,
-        "retweets": 264,
-        "replies": 438,
-        "bookmarks": 143,
+        "likes": 2071,
+        "retweets": 268,
+        "replies": 447,
+        "bookmarks": 149,
         "quotes": 59,
-        "views": 323787
+        "views": 331300
       },
       "url": "https://x.com/PeterDiamandis/status/2102429058558501330",
       "images": [],
@@ -159,12 +159,12 @@
         "url": "https://x.com/THR/status/2102412668519031028"
       },
       "engagement": {
-        "likes": 781,
-        "retweets": 78,
-        "replies": 55,
+        "likes": 790,
+        "retweets": 79,
+        "replies": 56,
         "bookmarks": 52,
         "quotes": 3,
-        "views": 466894
+        "views": 475325
       },
       "url": "https://x.com/AriEmanuel/status/2102447527354351801",
       "images": [],
@@ -182,12 +182,12 @@
       "text": "I will admit, I am enjoying vibe coding. I may have been a teensy tiny bit wrong.",
       "quote": null,
       "engagement": {
-        "likes": 21188,
-        "retweets": 846,
-        "replies": 815,
-        "bookmarks": 1391,
-        "quotes": 283,
-        "views": 1321073
+        "likes": 21582,
+        "retweets": 863,
+        "replies": 827,
+        "bookmarks": 1424,
+        "quotes": 286,
+        "views": 1353921
       },
       "url": "https://x.com/notch/status/2102439244887453825",
       "images": [],
@@ -205,12 +205,12 @@
       "text": "We’re taking the calls on the road. 🎟️ Book tour dates + tickets at the link below 👇 \n\nhttps://linktr.ee/ariemanuel",
       "quote": null,
       "engagement": {
-        "likes": 660,
-        "retweets": 85,
+        "likes": 670,
+        "retweets": 86,
         "replies": 38,
         "bookmarks": 24,
         "quotes": 8,
-        "views": 259774
+        "views": 263518
       },
       "url": "https://x.com/AriEmanuel/status/2097357128818462732",
       "images": [
@@ -244,12 +244,12 @@
       "text": "X Numbers are here.\n\nShare yours with anyone you want to contact you, even if you don't follow them. It's an optional way for people to message or call you, without you needing to accept requests or follow them back.",
       "quote": null,
       "engagement": {
-        "likes": 4176,
-        "retweets": 523,
-        "replies": 214,
-        "bookmarks": 1044,
-        "quotes": 200,
-        "views": 886828
+        "likes": 4259,
+        "retweets": 538,
+        "replies": 219,
+        "bookmarks": 1071,
+        "quotes": 201,
+        "views": 911842
       },
       "url": "https://x.com/chat/status/2102442240354165057",
       "images": [
@@ -276,12 +276,12 @@
       "text": "Today we're beginning to roll out 𝕏 Numbers, a brand new way to let anyone contact you on 𝕏 without needing to follow each other or accept requests.",
       "quote": null,
       "engagement": {
-        "likes": 3742,
-        "retweets": 286,
-        "replies": 224,
-        "bookmarks": 699,
-        "quotes": 101,
-        "views": 452798
+        "likes": 3797,
+        "retweets": 292,
+        "replies": 225,
+        "bookmarks": 718,
+        "quotes": 103,
+        "views": 463550
       },
       "url": "https://x.com/benjitaylor/status/2102443951898992825",
       "images": [
@@ -308,12 +308,12 @@
       "text": "Grok @bot lets you take on more complex tasks, like placing your usual coffee order, booking a reservation, or scheduling an appointment\n\nCurrently available to SuperGrok Heavy subscribers, with more tiers to follow",
       "quote": null,
       "engagement": {
-        "likes": 2934,
-        "retweets": 230,
-        "replies": 132,
-        "bookmarks": 106,
+        "likes": 2964,
+        "retweets": 231,
+        "replies": 134,
+        "bookmarks": 107,
         "quotes": 45,
-        "views": 366031
+        "views": 371219
       },
       "url": "https://x.com/Tesla/status/2102431173314273633",
       "images": [],
@@ -336,12 +336,12 @@
         "url": "https://x.com/Tesla/status/2102430656349544590"
       },
       "engagement": {
-        "likes": 11002,
-        "retweets": 1486,
-        "replies": 1298,
-        "bookmarks": 685,
-        "quotes": 160,
-        "views": 2683903
+        "likes": 11293,
+        "retweets": 1519,
+        "replies": 1317,
+        "bookmarks": 702,
+        "quotes": 159,
+        "views": 2755296
       },
       "url": "https://x.com/elonmusk/status/2102439262507725294",
       "images": [],
@@ -359,12 +359,12 @@
       "text": "Grok Bot has just officially launched in @Tesla vehicles.\n\nI got early access a couple weeks ago. You can order stuff on online (such as Amazon), manage your email, calendar, finances, or other tasks through Grok @Bot using just your voice in your Tesla.\n\nThere is no separate app, everything just lives within the existing Grok Voice interface in your Tesla (as shown in my Model Y below).\n\nOne good use case for Grok Bot in your Tesla: You get in, tell Grok Bot to order coffee at a location of your choice, and while your Tesla drives you to the coffee shop using FSD (Supervised), Grok places the order so it’s ready when you arrive.\n\nGrok Bot in Tesla vehicles is currently only available to SuperGrok Heavy users, but will expand to more owners later. Connectors are available to all users.",
       "quote": null,
       "engagement": {
-        "likes": 7035,
-        "retweets": 702,
-        "replies": 366,
-        "bookmarks": 1100,
-        "quotes": 167,
-        "views": 748050
+        "likes": 7124,
+        "retweets": 712,
+        "replies": 370,
+        "bookmarks": 1117,
+        "quotes": 169,
+        "views": 768145
       },
       "url": "https://x.com/SawyerMerritt/status/2102432181666590951",
       "images": [
@@ -396,12 +396,12 @@
         "url": "https://x.com/herbertong/status/2101669351778902086"
       },
       "engagement": {
-        "likes": 5205,
-        "retweets": 844,
-        "replies": 557,
-        "bookmarks": 508,
+        "likes": 5378,
+        "retweets": 867,
+        "replies": 570,
+        "bookmarks": 529,
         "quotes": 55,
-        "views": 2638062
+        "views": 2714375
       },
       "url": "https://x.com/elonmusk/status/2102430276450390482",
       "images": [],
@@ -424,12 +424,12 @@
         "url": "https://x.com/dogeofficialceo/status/2102342939234259318"
       },
       "engagement": {
-        "likes": 10466,
-        "retweets": 1094,
-        "replies": 1554,
-        "bookmarks": 420,
-        "quotes": 257,
-        "views": 3433427
+        "likes": 10747,
+        "retweets": 1118,
+        "replies": 1577,
+        "bookmarks": 436,
+        "quotes": 261,
+        "views": 3541168
       },
       "url": "https://x.com/elonmusk/status/2102428227545493995",
       "images": [],
@@ -452,12 +452,12 @@
         "url": "https://x.com/Tommy_USA/status/2102067212525674637"
       },
       "engagement": {
-        "likes": 20479,
-        "retweets": 8359,
-        "replies": 973,
-        "bookmarks": 1493,
-        "quotes": 408,
-        "views": 846973
+        "likes": 20898,
+        "retweets": 8530,
+        "replies": 991,
+        "bookmarks": 1512,
+        "quotes": 413,
+        "views": 859954
       },
       "url": "https://x.com/GuntherEagleman/status/2102409342960185681",
       "images": [],
@@ -480,12 +480,12 @@
         "url": "https://x.com/yunta_tsai/status/2102422431348801601"
       },
       "engagement": {
-        "likes": 5879,
-        "retweets": 682,
-        "replies": 616,
-        "bookmarks": 175,
+        "likes": 5978,
+        "retweets": 696,
+        "replies": 625,
+        "bookmarks": 179,
         "quotes": 58,
-        "views": 2690779
+        "views": 2751630
       },
       "url": "https://x.com/elonmusk/status/2102423241897705926",
       "images": [],
@@ -508,12 +508,12 @@
         "url": "https://x.com/cb_doge/status/2102416305513230455"
       },
       "engagement": {
-        "likes": 7913,
-        "retweets": 1006,
-        "replies": 676,
-        "bookmarks": 484,
+        "likes": 8157,
+        "retweets": 1029,
+        "replies": 692,
+        "bookmarks": 509,
         "quotes": 59,
-        "views": 2895739
+        "views": 2978490
       },
       "url": "https://x.com/elonmusk/status/2102422703798137219",
       "images": [],
@@ -531,12 +531,12 @@
       "text": "Grok 4.7 turned a simple prompt into this interactive 3D jet engine visualizer in minutes.\n\nThis is insane. 🔥",
       "quote": null,
       "engagement": {
-        "likes": 1623,
-        "retweets": 231,
-        "replies": 190,
-        "bookmarks": 145,
-        "quotes": 49,
-        "views": 2798044
+        "likes": 1649,
+        "retweets": 234,
+        "replies": 192,
+        "bookmarks": 149,
+        "quotes": 50,
+        "views": 2877761
       },
       "url": "https://x.com/cb_doge/status/2102416305513230455",
       "images": [
@@ -563,12 +563,12 @@
       "text": "Grok 4.7 Fast is now live in Grok Build and Cursor\n\nIt’s the same Grok 4.7 model running on faster infrastructure, with roughly 2× the output speed\n\n• Available now in only Grok Build and Cursor\n• Costs 2× the standard Grok 4.7 token rates\n• Not included in Grok Build’s free tier\n• Not available on the public xAI API\n\nSame intelligence, much faster inference......at 2× the cost",
       "quote": null,
       "engagement": {
-        "likes": 1060,
-        "retweets": 142,
+        "likes": 1069,
+        "retweets": 143,
         "replies": 65,
         "bookmarks": 50,
         "quotes": 8,
-        "views": 279230
+        "views": 281456
       },
       "url": "https://x.com/XFreeze/status/2102266095864602993",
       "images": [
@@ -602,12 +602,12 @@
       "text": "Grok 4.7 just outperformed GPT-6 Astra on professional work\n\nOn the same Artificial Analysis run:\n\n• GDPval-AA — Grok leads by +153 Elo\n• AA-Briefcase — Grok leads by +88 Elo\n\nGrok 4.7 is now ahead on both professional deliverables and multi-hour office work\n\nSpaceXAI is pushing Grok hard into real-world knowledge work",
       "quote": null,
       "engagement": {
-        "likes": 1061,
-        "retweets": 169,
+        "likes": 1066,
+        "retweets": 170,
         "replies": 85,
         "bookmarks": 42,
         "quotes": 8,
-        "views": 261575
+        "views": 263539
       },
       "url": "https://x.com/XFreeze/status/2102278706651861345",
       "images": [
@@ -634,12 +634,12 @@
       "text": "@XFreeze Not a big fan of benchmarking. \n\nI just took it out for a real life test. Asked it to build me a bash only, self contained agenda, based on some sparse text files with tasks. Finished in 45 minutes end to end. \n\nFull video and repo link\nhttps://youtu.be/HI0ea6urJMw\n\nSolid model.",
       "quote": null,
       "engagement": {
-        "likes": 566,
-        "retweets": 81,
+        "likes": 569,
+        "retweets": 82,
         "replies": 28,
         "bookmarks": 44,
         "quotes": 4,
-        "views": 377207
+        "views": 380013
       },
       "url": "https://x.com/dragosroua/status/2102339041341714509",
       "images": [],
@@ -658,16 +658,16 @@
       "quote": {
         "author": "WR4NYGov",
         "name": "Warren Redlich - Chasing Dreams 🇺🇸",
-        "text": "I’ve been building with Grok 4.7 extra high in Grok Build today for hours. It’s fantastic and my usage percent (Cursor Ultra) is barely moving. \n\nGetting so much done. \n\nWhile Build works on one thing, I discuss the next feature/change with my Grok Bot team and have Engineer Bot",
+        "text": "I’ve been building with Grok 4.7 extra high in Grok Build today for hours. It’s fantastic and my usage percent (Cursor Ultra) is barely moving. \n\nGetting so much done. \n\nWhile Build works on one thing, I discuss the next feature/change with my Grok Bot team and have Engineer Bot explain our conclusion so I can give that to Build. \n\nAt the start of the day I had 4.7 do a full code review in Cursor, then had Fable 5.1 review the review and it largely agreed with only a slight change in priorities.",
         "url": "https://x.com/WR4NYGov/status/2102366688608149618"
       },
       "engagement": {
-        "likes": 4003,
-        "retweets": 570,
-        "replies": 600,
-        "bookmarks": 126,
+        "likes": 4045,
+        "retweets": 579,
+        "replies": 602,
+        "bookmarks": 127,
         "quotes": 36,
-        "views": 3441876
+        "views": 3523835
       },
       "url": "https://x.com/elonmusk/status/2102412363332805078",
       "images": [],
@@ -690,12 +690,12 @@
         "url": "https://x.com/AndrewYNg/status/2102140576498065758"
       },
       "engagement": {
-        "likes": 8923,
-        "retweets": 1065,
-        "replies": 878,
-        "bookmarks": 1387,
+        "likes": 9114,
+        "retweets": 1081,
+        "replies": 883,
+        "bookmarks": 1416,
         "quotes": 60,
-        "views": 4866721
+        "views": 5001678
       },
       "url": "https://x.com/elonmusk/status/2102408239774151050",
       "images": [],
@@ -713,12 +713,12 @@
       "text": "Made a fun little game for my nephew using Grok 4.7. I gave it a simple prompt, and within minutes, he was playing the game.\n\nSeeing a random idea turn into a real game that quickly is honestly incredible.",
       "quote": null,
       "engagement": {
-        "likes": 1381,
-        "retweets": 201,
-        "replies": 152,
+        "likes": 1395,
+        "retweets": 203,
+        "replies": 153,
         "bookmarks": 88,
         "quotes": 20,
-        "views": 324485
+        "views": 327340
       },
       "url": "https://x.com/cb_doge/status/2102262068586205512",
       "images": [
