@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- video.twimg.com returns 403 when the media element sends a non-X Referer -->
+  <meta name="referrer" content="no-referrer">
   <title>马斯克 X 盯盘</title>
   <style>
     :root {
@@ -47,47 +49,33 @@
       background: rgba(0, 0, 0, 0.65);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
     }
     .title-row {
       display: flex;
-      align-items: center;
-      height: 53px;
+      flex-direction: column;
+      justify-content: center;
+      height: 40px;
       padding: 0 16px;
-      gap: 12px;
+      min-width: 0;
     }
     .title-row h1 {
       margin: 0;
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 16px;
+      line-height: 18px;
       font-weight: 800;
       letter-spacing: -0.2px;
     }
     .sub {
-      margin: -6px 0 0;
-      padding: 0 16px 10px;
+      margin: 0;
+      padding: 0;
+      min-width: 0;
       color: var(--muted);
-      font-size: 13px;
-      line-height: 16px;
-    }
-    .tabs { display: flex; border-bottom: 1px solid var(--border); }
-    .tab {
-      position: relative;
-      flex: 1;
-      text-align: center;
-      padding: 16px 0 12px;
-      font-weight: 700;
-      color: var(--text);
-    }
-    .tab.active::after {
-      content: "";
-      position: absolute;
-      left: 50%;
-      bottom: 0;
-      width: 56px;
-      height: 4px;
-      border-radius: 999px;
-      background: var(--accent);
-      transform: translateX(-50%);
+      font-size: 11px;
+      line-height: 14px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .tweet {
       display: grid;
@@ -203,20 +191,23 @@
       border-radius: 16px;
       overflow: hidden;
     }
-    .media a.shot {
+    .media .shot {
       position: relative;
       display: block;
       min-width: 0;
       background: #16181c;
     }
-    .media img.photo {
+    .media img.photo,
+    .media video.photo {
       width: 100%;
       height: 100%;
       object-fit: cover;
       display: block;
+      background: #000;
     }
     .media.n1 { grid-template-columns: 1fr; }
-    .media.n1 img.photo {
+    .media.n1 img.photo,
+    .media.n1 video.photo {
       height: auto;
       max-height: 510px;
       object-fit: contain;
@@ -228,12 +219,23 @@
       grid-template-rows: 1fr 1fr;
       height: 288px;
     }
-    .media.n3 a.shot:first-child { grid-row: 1 / span 2; }
+    .media.n3 .shot:first-child { grid-row: 1 / span 2; }
     .media.n4 {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       height: 288px;
     }
+    .media.n2 .shot,
+    .media.n3 .shot,
+    .media.n4 .shot { height: 100%; }
+    .media .shot.audio {
+      display: flex;
+      align-items: center;
+      height: auto;
+      padding: 8px 10px;
+      background: #000;
+    }
+    .media audio { width: 100%; display: block; }
     .play {
       position: absolute;
       left: 50%;
@@ -357,9 +359,8 @@
     <header class="top">
       <div class="title-row">
         <h1>马斯克</h1>
+        <p class="sub" id="statusText">正在加载时间线…</p>
       </div>
-      <p class="sub" id="statusText">正在加载时间线…</p>
-      <div class="tabs" aria-hidden="true"><span class="tab active">帖子</span></div>
     </header>
     <main id="feed"><p class="empty">正在加载…</p></main>
     <nav class="pager" id="pager" hidden>
@@ -466,8 +467,16 @@
       ICON.check.replace('<path ', '<path fill="' + color + '" ') + '</svg>';
   }
 
-  function isVideo(url) {
+  function isVideoThumb(url) {
     return /amplify_video_thumb|ext_tw_video_thumb|tweet_video_thumb|video_thumb/i.test(url || '');
+  }
+
+  function isPlayableVideoUrl(url) {
+    return /\.(mp4|m4v|webm)(\?|#|$)/i.test(url || '') || /video\.twimg\.com\/.+\.(mp4|webm)(\?|#|$)/i.test(url || '');
+  }
+
+  function isAudioUrl(url) {
+    return /\.(mp3|m4a|aac|wav|ogg)(\?|#|$)/i.test(url || '');
   }
 
   /* Escape text, then wrap URLs / @handles / #tags. Newlines stay as characters. */
@@ -516,17 +525,50 @@
     return handle ? ('https://x.com/' + handle) : 'https://x.com/elonmusk';
   }
 
-  function mediaHtml(urls) {
-    var list = (urls || []).map(safeUrl).filter(Boolean).slice(0, 4);
-    if (!list.length) return '';
-    var n = list.length;
-    var shots = list.map(function (src) {
-      var play = isVideo(src) ? '<span class="play">' + ICON.play + '</span>' : '';
+  function coerceMedia(list) {
+    var items = Array.isArray(list) ? list : [];
+    if (items.length && typeof items[0] === 'string') {
+      items = items.map(function (url) {
+        return isVideoThumb(url)
+          ? { type: 'video', url: url, thumbnail_url: url }
+          : { type: 'photo', url: url };
+      });
+    }
+    return items.filter(function (item) {
+      return item && (item.url || item.thumbnail_url);
+    }).slice(0, 4);
+  }
+
+  function mediaHtml(list) {
+    var items = coerceMedia(list);
+    if (!items.length) return '';
+    var shots = items.map(function (item) {
+      var type = String(item.type || '').toLowerCase();
+      var url = safeUrl(item.url);
+      var thumb = safeUrl(item.thumbnail_url);
+      if ((type === 'video' || type === 'gif') && isPlayableVideoUrl(url)) {
+        var mime = /\.webm(\?|#|$)/i.test(url) ? 'video/webm' : 'video/mp4';
+        var poster = thumb ? ' poster="' + esc(thumb) + '"' : '';
+        var loop = type === 'gif' ? ' loop muted' : '';
+        return '<div class="shot"><video class="photo" controls playsinline preload="metadata"' +
+          loop + poster + ' referrerpolicy="no-referrer" aria-label="' + (type === 'gif' ? '动图' : '视频') + '">' +
+          '<source src="' + esc(url) + '" type="' + mime + '"></video></div>';
+      }
+      if (type === 'audio' && url && (isAudioUrl(url) || type === 'audio')) {
+        var audioType = /\.m4a(\?|#|$)/i.test(url) ? 'audio/mp4' : (/\.wav(\?|#|$)/i.test(url) ? 'audio/wav' : 'audio/mpeg');
+        return '<div class="shot audio"><audio controls preload="metadata" src="' + esc(url) +
+          '" type="' + audioType + '" referrerpolicy="no-referrer" aria-label="音频"></audio></div>';
+      }
+      var src = type === 'photo' ? url : (thumb || url);
+      if (!src) return '';
+      var play = (type === 'video' || type === 'gif' || isVideoThumb(src))
+        ? '<span class="play">' + ICON.play + '</span>' : '';
       return '<a class="shot" href="' + esc(src) + '" target="_blank" rel="noopener noreferrer">' +
         '<img class="photo" src="' + esc(src) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' +
         play + '</a>';
-    }).join('');
-    return '<div class="media n' + n + '">' + shots + '</div>';
+    }).filter(Boolean);
+    if (!shots.length) return '';
+    return '<div class="media n' + shots.length + '">' + shots.join('') + '</div>';
   }
 
   function personHead(person, timeUtc, timeAbs, timeHref) {
@@ -544,7 +586,7 @@
   }
 
   function quoteHtml(q) {
-    if (!q || !(q.text || q.author || q.name || (q.images && q.images.length))) return '';
+    if (!q || !(q.text || q.author || q.name || (q.images && q.images.length) || (q.media && q.media.length))) return '';
     var href = safeUrl(q.url) || profileLink(q.author);
     var when = relTime(q.created_at_utc, q.created_at_shanghai);
     var timeBit = when.label
@@ -561,7 +603,7 @@
       '</a>' +
       (q.text ? '<div class="q-text" lang="en">' + linkify(q.text) + '</div>' : '') +
       '</div>' +
-      mediaHtml(q.images) +
+      mediaHtml((q.media && q.media.length) ? q.media : (q.images || [])) +
       '</div>';
   }
 
@@ -573,11 +615,11 @@
   function renderPost(p) {
     var isRt = (p.type_label === '转发' || p.type === '转发') && p.retweet;
     var rt = isRt ? p.retweet : null;
-    var person, text, images, timeUtc, timeAbs, timeHref, actionHref;
+    var person, text, mediaList, timeUtc, timeAbs, timeHref, actionHref;
     if (rt) {
       person = rt;
       text = rt.text || p.text || '';
-      images = (rt.images && rt.images.length) ? rt.images : (p.images || []);
+      mediaList = (rt.media && rt.media.length) ? rt.media : ((rt.images && rt.images.length) ? rt.images : (p.media && p.media.length ? p.media : (p.images || [])));
       timeUtc = rt.created_at_utc || p.created_at_utc;
       timeAbs = rt.created_at_shanghai || p.created_at_shanghai;
       timeHref = rt.url || p.url;
@@ -591,7 +633,7 @@
         verified_type: p.author_verified_type || 'individual'
       };
       text = p.text || '';
-      images = p.images || [];
+      mediaList = (p.media && p.media.length) ? p.media : (p.images || []);
       timeUtc = p.created_at_utc;
       timeAbs = p.created_at_shanghai;
       timeHref = p.url;
@@ -628,7 +670,7 @@
       personHead(person, timeUtc, timeAbs, timeHref) +
       replyLine +
       (text ? '<div class="text" lang="en">' + linkify(text) + '</div>' : '') +
-      mediaHtml(images) +
+      mediaHtml(mediaList) +
       quoteHtml(p.quote) +
       actions +
       '</div></article>';

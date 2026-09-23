@@ -216,40 +216,215 @@ def _shrink_image_url(url: str) -> str:
     return url
 
 
-def extract_media_urls(tweet: dict | None) -> list[str]:
-    """Remote stills / video thumbs (pbs.twimg.com). Skips quote media."""
-    out: list[str] = []
-    seen: set[str] = set()
+def _as_http(url: Any) -> str:
+    if isinstance(url, str) and url.startswith("http"):
+        return url
+    return ""
+
+
+def _path_ext(url: str) -> str:
+    path = url.split("?", 1)[0].lower()
+    if "." not in path:
+        return ""
+    return path.rsplit(".", 1)[-1]
+
+
+def _bitrate(variant: dict) -> int:
+    try:
+        return int(variant.get("bitrate") or 0)
+    except (TypeError, ValueError):
+        return 0
+
+
+def _is_playable_video(url: str, content_type: str = "", container: str = "") -> bool:
+    ct = (content_type or "").lower()
+    box = (container or "").lower()
+    ext = _path_ext(url)
+    if "mpegurl" in ct or box in {"m3u8", "hls"} or ext == "m3u8":
+        return False
+    if "mp4" in ct or "webm" in ct or box in {"mp4", "webm"} or ext in {"mp4", "m4v", "webm"}:
+        return True
+    return False
+
+
+def _is_audio_url(url: str, content_type: str = "", container: str = "") -> bool:
+    ct = (content_type or "").lower()
+    box = (container or "").lower()
+    ext = _path_ext(url)
+    if ct.startswith("audio/") or box in {"mp3", "m4a", "aac"}:
+        return True
+    return ext in {"mp3", "m4a", "aac", "wav", "ogg"}
+
+
+def _canonical_type(raw: str) -> str:
+    t = (raw or "").strip().lower()
+    if t in {"gif", "animated_gif"}:
+        return "gif"
+    if t == "video":
+        return "video"
+    if t in {"audio", "voice"}:
+        return "audio"
+    if t in {"photo", "image"}:
+        return "photo"
+    return ""
+
+
+def _best_stream(item: dict, kind: str) -> str:
+    """Highest-bitrate direct file. Skips HLS playlists, which <video> cannot play everywhere."""
+    ranked: list[tuple[int, str]] = []
+    for key in ("variants", "formats"):
+        pool = item.get(key)
+        if not isinstance(pool, list):
+            continue
+        for variant in pool:
+            if not isinstance(variant, dict):
+                continue
+            url = _as_http(variant.get("url"))
+            if not url:
+                continue
+            ct = str(variant.get("content_type") or variant.get("format") or "")
+            container = str(variant.get("container") or "")
+            ok = _is_audio_url(url, ct, container) if kind == "audio" else _is_playable_video(url, ct, container)
+            if ok:
+                ranked.append((_bitrate(variant), url))
+    if ranked:
+        ranked.sort(key=lambda pair: pair[0])
+        return ranked[-1][1]
+    url = _as_http(item.get("url"))
+    fmt = str(item.get("format") or "")
+    if not url:
+        return ""
+    if kind == "audio" and _is_audio_url(url, fmt):
+        return url
+    if kind != "audio" and _is_playable_video(url, fmt):
+        return url
+    return ""
+
+
+def _num(value: Any) -> int | float | None:
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return None
+    return value
+
+
+def _media_record(item: dict, default_type: str = "") -> dict | None:
+    mtype = _canonical_type(str(item.get("type") or "")) or _canonical_type(default_type)
+    if not mtype:
+        return None
+    thumb = _as_http(item.get("thumbnail_url"))
+    if mtype == "photo":
+        url = _shrink_image_url(_as_http(item.get("url")))
+        if not url:
+            return None
+        rec: dict[str, Any] = {"type": "photo", "url": url}
+    else:
+        url = _best_stream(item, "audio" if mtype == "audio" else "video")
+        if not url and not thumb:
+            return None
+        rec = {"type": mtype, "url": url}
+        if thumb:
+            rec["thumbnail_url"] = thumb
+    for key in ("width", "height", "duration"):
+        num = _num(item.get(key))
+        if num is not None:
+            rec[key] = num
+    return rec
+
+
+def _iter_media_dicts(media: dict) -> list[tuple[dict, str]]:
+    all_items = media.get("all")
+    if isinstance(all_items, list) and any(isinstance(item, dict) for item in all_items):
+        return [(item, "") for item in all_items if isinstance(item, dict)]
+    out: list[tuple[dict, str]] = []
+    for key, default in (("photos", "photo"), ("videos", "video"), ("gifs", "gif"), ("audio", "audio")):
+        bucket = media.get(key)
+        if not isinstance(bucket, list):
+            continue
+        for item in bucket:
+            if isinstance(item, dict):
+                out.append((item, default))
+    return out
+
+
+def extract_media(tweet: dict | None) -> list[dict]:
+    """Typed attachments on this status only. Does not walk nested quote/retweet.
+
+    Each item is ``{type, url, thumbnail_url?, width?, height?, duration?}``
+    with type photo, video, gif, or audio. Video/gif ``url`` is a playable file
+    (highest-bitrate mp4/webm), not the thumbnail.
+    """
     if not isinstance(tweet, dict):
-        return out
+        return []
     media = tweet.get("media") or {}
     if not isinstance(media, dict):
-        return out
-
-    def add(url: str | None) -> None:
-        if not url or not isinstance(url, str):
-            return
-        if not url.startswith("http"):
-            return
-        u = _shrink_image_url(url)
-        if u in seen:
-            return
-        seen.add(u)
-        out.append(u)
-
-    for ph in media.get("photos") or []:
-        if isinstance(ph, dict):
-            add(ph.get("url"))
-
-    for item in media.get("all") or []:
-        if not isinstance(item, dict):
+        return []
+    out: list[dict] = []
+    seen: set[tuple[str, str]] = set()
+    for item, default in _iter_media_dicts(media):
+        rec = _media_record(item, default)
+        if not rec:
             continue
-        mtype = (item.get("type") or "").lower()
-        if mtype in ("video", "gif", "animated_gif"):
-            add(item.get("thumbnail_url"))
-        elif mtype == "photo":
-            add(item.get("url"))
+        key = (rec["type"], rec.get("url") or rec.get("thumbnail_url") or "")
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(rec)
     return out
+
+
+def images_from_media(items: list[dict]) -> list[str]:
+    """Photo URLs and video/gif thumbnails, for older clients that only read images."""
+    out: list[str] = []
+    seen: set[str] = set()
+    for rec in items:
+        if rec.get("type") == "photo":
+            url = rec.get("url") or ""
+        elif rec.get("type") in ("video", "gif"):
+            url = rec.get("thumbnail_url") or ""
+        else:
+            url = ""
+        if url and url not in seen:
+            seen.add(url)
+            out.append(url)
+    return out
+
+
+def extract_media_urls(tweet: dict | None) -> list[str]:
+    """Remote stills / video thumbs. Skips nested quote media."""
+    return images_from_media(extract_media(tweet))
+
+
+def _media_ban(block: dict | None) -> set[str]:
+    ban: set[str] = set()
+    if not isinstance(block, dict):
+        return ban
+    for url in block.get("images") or []:
+        if url:
+            ban.add(str(url))
+    for rec in block.get("media") or []:
+        if not isinstance(rec, dict):
+            continue
+        for key in ("url", "thumbnail_url"):
+            url = rec.get(key) or ""
+            if url:
+                ban.add(str(url))
+                ban.add(_shrink_image_url(str(url)))
+    return ban
+
+
+def _strip_quoted_media(
+    media: list[dict], images: list[str], quote_block: dict | None
+) -> tuple[list[dict], list[str]]:
+    ban = _media_ban(quote_block)
+    if not ban:
+        return media, images
+    media = [
+        rec
+        for rec in media
+        if rec.get("url") not in ban and (rec.get("thumbnail_url") or "") not in ban
+    ]
+    images = [url for url in images if url not in ban]
+    return media, images
 
 
 def _reply_to(tweet: dict | None) -> str:
@@ -284,6 +459,7 @@ def _nested_status(tweet: dict | None) -> dict[str, Any] | None:
     if not (prof["author"] or prof["name"] or tweet.get("text") or tweet.get("url")):
         return None
     utc, sh = tweet_times(tweet)
+    media = extract_media(tweet)
     return {
         "id": str(tweet.get("id") or ""),
         "author": prof["author"],
@@ -293,7 +469,8 @@ def _nested_status(tweet: dict | None) -> dict[str, Any] | None:
         "verified_type": prof["verified_type"],
         "text": normalize_text(tweet.get("text") or ""),
         "url": str(tweet.get("url") or ""),
-        "images": extract_media_urls(tweet),
+        "images": images_from_media(media),
+        "media": media,
         "created_at_utc": utc,
         "created_at_shanghai": sh,
     }
@@ -326,6 +503,7 @@ def build_post(raw: dict, tweet: dict | None, *, remote_images: bool = True) -> 
     reply_to = ""
     engagement: dict[str, Any] = {}
     images: list[str] = []
+    media: list[dict] = []
     post_type = "原文"
     link = musk_status_url(tid) if tid else ""
     owner = musk_profile_from_tweet(tweet)
@@ -343,25 +521,25 @@ def build_post(raw: dict, tweet: dict | None, *, remote_images: bool = True) -> 
             if retweet_block:
                 full_text = retweet_block["text"] or full_text
                 images = list(retweet_block["images"])
+                media = list(retweet_block.get("media") or [])
             else:
                 full_text = normalize_text(original.get("text") or content)
-                images = extract_media_urls(original) if remote_images else []
+                media = extract_media(original) if remote_images else []
+                images = images_from_media(media)
             reply_to = _reply_to(original)
             # Counts shown on a repost are the original status counts.
             engagement = _engagement(original if original.get("likes") is not None or original.get("views") is not None else tweet)
             if retweet_block and quote_block:
-                qimgs = set(quote_block.get("images") or [])
-                if qimgs:
-                    images = [u for u in images if u not in qimgs]
-                    retweet_block["images"] = list(images)
+                media, images = _strip_quoted_media(media, images, quote_block)
+                retweet_block["images"] = list(images)
+                retweet_block["media"] = list(media)
         else:
             full_text = normalize_text(tweet.get("text") or content or "")
             quote_block = _quote_block(tweet)
-            images = extract_media_urls(tweet) if remote_images else []
+            media = extract_media(tweet) if remote_images else []
+            images = images_from_media(media)
             if quote_block:
-                qimgs = set(quote_block.get("images") or [])
-                if qimgs:
-                    images = [u for u in images if u not in qimgs]
+                media, images = _strip_quoted_media(media, images, quote_block)
             reply_to = _reply_to(tweet)
             engagement = _engagement(tweet)
             owner = musk_profile_from_tweet(tweet)
@@ -385,6 +563,7 @@ def build_post(raw: dict, tweet: dict | None, *, remote_images: bool = True) -> 
         "engagement": engagement,
         "url": link,
         "images": images,
+        "media": media,
         "enriched": tweet is not None,
     }
 

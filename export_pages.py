@@ -28,6 +28,7 @@ def content_fingerprint(posts: list[dict]) -> str:
                 "text": p.get("text"),
                 "url": p.get("url"),
                 "images": p.get("images"),
+                "media": p.get("media"),
                 "quote": p.get("quote"),
                 "retweet": p.get("retweet"),
                 "reply_to": p.get("reply_to"),

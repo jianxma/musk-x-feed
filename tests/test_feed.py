@@ -64,6 +64,81 @@ class ClassifyTests(unittest.TestCase):
         self.assertIsNone(post["quote"])
         self.assertIsNone(post["retweet"])
         self.assertEqual(classify_type(tweet, tid), "原文")
+        self.assertEqual(post["media"][0]["type"], "photo")
+        self.assertIn("name=small", post["media"][0]["url"])
+
+    def test_video_gif_audio_keep_playable_urls(self):
+        tid = "150"
+        video = "https://video.twimg.com/amplify_video/1/vid/high.mp4?tag=29"
+        gif = "https://video.twimg.com/tweet_video/clip.mp4"
+        audio = "https://video.twimg.com/tweet_audio/note.m4a"
+        photo = "https://pbs.twimg.com/media/still?format=jpg&name=orig"
+        tweet = {
+            "id": tid,
+            "text": "mixed",
+            "url": musk_status_url(tid),
+            "author": _author("Elon Musk", "elonmusk"),
+            "media": {
+                "all": [
+                    {
+                        "type": "video",
+                        "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/1/img/x.jpg",
+                        "width": 720,
+                        "height": 1280,
+                        "duration": 12.5,
+                        "url": "https://video.twimg.com/amplify_video/1/pl/master.m3u8",
+                        "variants": [
+                            {
+                                "url": "https://video.twimg.com/amplify_video/1/pl/master.m3u8",
+                                "bitrate": 0,
+                                "content_type": "application/x-mpegURL",
+                            },
+                            {
+                                "url": "https://video.twimg.com/amplify_video/1/vid/low.mp4",
+                                "bitrate": 632000,
+                                "content_type": "video/mp4",
+                            },
+                            {
+                                "url": video,
+                                "bitrate": 2176000,
+                                "content_type": "video/mp4",
+                            },
+                        ],
+                    },
+                    {
+                        "type": "animated_gif",
+                        "thumbnail_url": "https://pbs.twimg.com/tweet_video_thumb/clip.jpg",
+                        "url": gif,
+                        "duration": 1.2,
+                    },
+                    {"type": "photo", "url": photo, "width": 400, "height": 300},
+                ],
+                "audio": [{"type": "audio", "url": audio, "duration": 4}],
+            },
+        }
+        post = build_post({"platformId": tid, "createdAt": "2026-09-22T00:00:00.000Z", "content": "mixed"}, tweet)
+        kinds = [item["type"] for item in post["media"]]
+        self.assertEqual(kinds, ["video", "gif", "photo"])
+        self.assertEqual(post["media"][0]["url"], video)
+        self.assertNotIn("m3u8", post["media"][0]["url"])
+        self.assertEqual(post["media"][0]["thumbnail_url"].rsplit("/", 1)[-1], "x.jpg")
+        self.assertEqual(post["media"][0]["duration"], 12.5)
+        self.assertEqual(post["media"][1]["url"], gif)
+        self.assertEqual(post["media"][1]["type"], "gif")
+        self.assertIn("name=small", post["media"][2]["url"])
+        self.assertEqual(post["images"][0], post["media"][0]["thumbnail_url"])
+        self.assertNotIn(video, post["images"])
+        audio_only = build_post(
+            {"platformId": "151", "createdAt": "2026-09-22T00:00:01.000Z", "content": "voice"},
+            {
+                "id": "151",
+                "text": "voice",
+                "author": _author("Elon Musk", "elonmusk"),
+                "media": {"audio": [{"url": audio, "duration": 4}]},
+            },
+        )
+        self.assertEqual(audio_only["media"], [{"type": "audio", "url": audio, "duration": 4}])
+        self.assertEqual(audio_only["images"], [])
 
     def test_quote_keeps_nested_media_off_outer_post(self):
         tid = "200"
@@ -135,6 +210,9 @@ class ClassifyTests(unittest.TestCase):
         self.assertEqual(post["retweet"]["verified_type"], "organization")
         self.assertTrue(post["retweet"]["images"])
         self.assertIn("amplify_video_thumb", post["images"][0])
+        self.assertEqual(post["media"][0]["type"], "video")
+        self.assertEqual(post["media"][0]["url"], "")
+        self.assertIn("amplify_video_thumb", post["media"][0]["thumbnail_url"])
         self.assertEqual(post["engagement"]["likes"], 20)
         self.assertTrue(post["retweet"]["created_at_shanghai"])
 
@@ -183,7 +261,9 @@ class ClassifyTests(unittest.TestCase):
         self.assertEqual(post["quote"]["author"], "inner")
         self.assertEqual(post["images"], [])
         self.assertEqual(post["retweet"]["images"], [])
+        self.assertEqual(post["retweet"]["media"], [])
         self.assertEqual(len(post["quote"]["images"]), 1)
+        self.assertEqual(post["quote"]["media"][0]["type"], "photo")
 
 
 class DbTests(unittest.TestCase):
@@ -245,6 +325,11 @@ class DbTests(unittest.TestCase):
             text="Original",
             retweet={"author": "bot", "name": "Grok Bot", "text": "Original", "url": "https://x.com/bot/status/9", "images": []},
             images=["https://pbs.twimg.com/media/a.jpg"],
+            media=[{
+                "type": "video",
+                "url": "https://video.twimg.com/amplify_video/1/vid/a.mp4",
+                "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/1/img/x.jpg",
+            }],
             engagement={"likes": 4, "views": 8},
         )
         db.upsert_posts([rich])
@@ -255,6 +340,7 @@ class DbTests(unittest.TestCase):
         self.assertEqual(row["type_label"], "转发")
         self.assertEqual(row["retweet"]["author"], "bot")
         self.assertEqual(row["images"], ["https://pbs.twimg.com/media/a.jpg"])
+        self.assertEqual(row["media"][0]["url"], "https://video.twimg.com/amplify_video/1/vid/a.mp4")
 
     def test_refresh_queue_keeps_quote_until_enrich_returns(self):
         db.upsert_posts(
@@ -320,6 +406,22 @@ class SpaContractTests(unittest.TestCase):
         self.assertIn("api/feed?page=", html)
         self.assertIn("data/page-", html)
         self.assertIn("转发了", html)
+
+    def test_header_is_a_single_compact_row(self):
+        html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+        self.assertIn("height: 40px;", html)
+        self.assertNotIn("height: 53px", html)
+        self.assertNotIn('class="tabs"', html)
+        self.assertIn('id="statusText"', html)
+        self.assertIn("backdrop-filter: blur(12px)", html)
+        self.assertIn(">马斯克</h1>", html)
+
+    def test_renderer_plays_typed_media_inline(self):
+        html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('controls playsinline preload="metadata"', html)
+        self.assertIn("<audio controls preload=\"metadata\"", html)
+        self.assertIn("p.media", html)
+        self.assertIn("isPlayableVideoUrl", html)
 
 
 if __name__ == "__main__":

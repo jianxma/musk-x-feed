@@ -34,6 +34,7 @@ CREATE TABLE IF NOT EXISTS posts (
     engagement_json TEXT,
     url TEXT,
     images_json TEXT,
+    media_json TEXT,
     enriched INTEGER DEFAULT 0,
     updated_at TEXT
 );
@@ -46,6 +47,7 @@ _EXTRA_COLUMNS = {
     "author_verified_type": "TEXT",
     "retweet_json": "TEXT",
     "reply_to": "TEXT",
+    "media_json": "TEXT",
 }
 
 
@@ -150,6 +152,7 @@ def _row_to_post(row: sqlite3.Row) -> dict[str, Any]:
         "engagement": _loads(row["engagement_json"], {}),
         "url": row["url"] or "",
         "images": _loads(row["images_json"], []),
+        "media": _clean_media(_loads(col("media_json"), [])),
         "enriched": bool(row["enriched"]),
     }
 
@@ -177,6 +180,7 @@ def _material(row: dict[str, Any]) -> str:
         "engagement": row.get("engagement") or {},
         "url": row.get("url") or "",
         "images": row.get("images") or [],
+        "media": row.get("media") or [],
         "enriched": 1 if row.get("enriched") else 0,
     }
     return json.dumps(slim, ensure_ascii=False, sort_keys=True)
@@ -199,6 +203,7 @@ def _prepare(p: dict) -> dict[str, Any]:
     if not isinstance(images, list):
         images = []
     images = [str(u) for u in images if u]
+    media = _clean_media(p.get("media"))
     return {
         "id": str(p.get("id") or ""),
         "author": p.get("author") or "elonmusk",
@@ -216,6 +221,7 @@ def _prepare(p: dict) -> dict[str, Any]:
         "engagement": p.get("engagement") or {},
         "url": p.get("url") or "",
         "images": images,
+        "media": media,
         "enriched": 1 if p.get("enriched") else 0,
     }
 
@@ -241,6 +247,8 @@ def _merge(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]
             out["retweet"] = existing["retweet"]
         if not out["images"] and existing.get("images"):
             out["images"] = existing["images"]
+        if not out.get("media") and existing.get("media"):
+            out["media"] = existing["media"]
         ex_eng = existing.get("engagement") or {}
         inc_eng = out.get("engagement") or {}
         if inc_eng in ({}, None) and ex_eng:
@@ -261,6 +269,33 @@ def _merge(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]
         pass
     elif existing.get("images") and not _http_images(out["images"]) and _http_images(existing["images"]):
         out["images"] = existing["images"]
+    return out
+
+
+def _clean_media(value: Any) -> list:
+    if not isinstance(value, list):
+        return []
+    out: list[dict] = []
+    for item in value:
+        if not isinstance(item, dict):
+            continue
+        mtype = item.get("type")
+        if mtype not in {"photo", "video", "gif", "audio"}:
+            continue
+        url = item.get("url") or ""
+        thumb = item.get("thumbnail_url") or ""
+        if url and not str(url).startswith("http"):
+            continue
+        if not url and not (isinstance(thumb, str) and thumb.startswith("http")):
+            continue
+        rec: dict[str, Any] = {"type": mtype, "url": str(url)}
+        if isinstance(thumb, str) and thumb.startswith("http"):
+            rec["thumbnail_url"] = thumb
+        for key in ("width", "height", "duration"):
+            num = item.get(key)
+            if isinstance(num, (int, float)) and not isinstance(num, bool):
+                rec[key] = num
+        out.append(rec)
     return out
 
 
@@ -296,7 +331,7 @@ def upsert_posts(posts: list[dict]) -> dict[str, int]:
                         author=?, author_name=?, author_avatar=?, author_verified=?,
                         author_verified_type=?, created_at_utc=?, created_at_shanghai=?,
                         type_label=?, text=?, quote_json=?, retweet_json=?, reply_to=?,
-                        engagement_json=?, url=?, images_json=?, enriched=?, updated_at=?
+                        engagement_json=?, url=?, images_json=?, media_json=?, enriched=?, updated_at=?
                     WHERE id=?""",
                     (
                         merged["author"],
@@ -314,6 +349,7 @@ def upsert_posts(posts: list[dict]) -> dict[str, int]:
                         _dump(merged["engagement"]),
                         merged["url"],
                         _dump(merged["images"]),
+                        _dump(merged.get("media") or []),
                         merged["enriched"],
                         now,
                         tid,
@@ -328,8 +364,8 @@ def upsert_posts(posts: list[dict]) -> dict[str, int]:
                         id, author, author_name, author_avatar, author_verified,
                         author_verified_type, created_at_utc, created_at_shanghai,
                         type_label, text, quote_json, retweet_json, reply_to,
-                        engagement_json, url, images_json, enriched, updated_at
-                    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                        engagement_json, url, images_json, media_json, enriched, updated_at
+                    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
                     (
                         tid,
                         inc["author"],
@@ -347,6 +383,7 @@ def upsert_posts(posts: list[dict]) -> dict[str, int]:
                         _dump(inc["engagement"]),
                         inc["url"],
                         _dump(inc["images"]),
+                        _dump(inc.get("media") or []),
                         inc["enriched"],
                         now,
                     ),
