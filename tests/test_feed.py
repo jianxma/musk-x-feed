@@ -35,6 +35,7 @@ class NormalizeTests(unittest.TestCase):
         self.assertEqual(normalize_text("a\n\n\n\nb"), "a\n\nb")
         self.assertEqual(normalize_text("  a\r\nb  "), "a\nb")
         self.assertEqual(normalize_text(""), "")
+        self.assertEqual(normalize_text("Grok 4.7 https://pbs.twimg.com/media/abc.jpg"), "Grok 4.7")
 
 
 class ClassifyTests(unittest.TestCase):

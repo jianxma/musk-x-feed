@@ -33,6 +33,8 @@ DEFAULT_MUSK_AVATAR = (
 )
 
 _MULTI_NL = re.compile(r"\n{3,}")
+# fxtwitter appends attached-media links to the text; the media grid already shows them.
+_TRAILING_MEDIA = re.compile(r"(?:\s*https?://(?:pbs|video)\.twimg\.com/\S+)+\s*$")
 
 
 def normalize_text(s: str | None) -> str:
@@ -40,6 +42,7 @@ def normalize_text(s: str | None) -> str:
     if not s:
         return ""
     t = str(s).replace("\r\n", "\n").replace("\r", "\n")
+    t = _TRAILING_MEDIA.sub("", t)
     t = _MULTI_NL.sub("\n\n", t)
     return t.strip()
 
