@@ -321,6 +321,15 @@ class SpaContractTests(unittest.TestCase):
         self.assertIn("data/page-", html)
         self.assertIn("转发了", html)
 
+    def test_header_is_a_single_compact_row(self):
+        html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+        self.assertIn("height: 40px;", html)
+        self.assertNotIn("height: 53px", html)
+        self.assertNotIn('class="tabs"', html)
+        self.assertIn('id="statusText"', html)
+        self.assertIn("backdrop-filter: blur(12px)", html)
+        self.assertIn(">马斯克</h1>", html)
+
 
 if __name__ == "__main__":
     unittest.main()
