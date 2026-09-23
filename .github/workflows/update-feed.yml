@@ -1,0 +1,56 @@
+name: Update Musk X Feed
+
+on:
+  schedule:
+    # Every 10 minutes (Actions cron is best-effort; often ~5–15 min)
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      # Avoid rebuild loops when the workflow itself commits docs/
+      - "docs/**"
+      - "README.md"
+      - ".gitignore"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feed
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build feed
+        id: build
+        run: |
+          python scripts/build_feed.py | tee /tmp/build.log
+          if grep -q 'CONTENT_CHANGED=yes' /tmp/build.log; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit docs if content changed
+        if: steps.build.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "No staged changes after build; skip commit"
+            exit 0
+          fi
+          git commit -m "chore: update Elon Musk X feed [skip ci]"
+          git push
