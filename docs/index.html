@@ -197,6 +197,17 @@
       min-width: 0;
       background: #16181c;
     }
+    .media button.shot {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      color: inherit;
+      font: inherit;
+      text-align: left;
+      cursor: zoom-in;
+      appearance: none;
+    }
     .media img.photo,
     .media video.photo {
       width: 100%;
@@ -352,6 +363,77 @@
       text-align: center;
       padding: 4px 16px 32px;
     }
+    body.lb-open { overflow: hidden; }
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 40;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 56px 64px;
+      background: rgba(0, 0, 0, 0.92);
+      overscroll-behavior: contain;
+      touch-action: none;
+    }
+    .lightbox[hidden] { display: none !important; }
+    .lb-img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      cursor: zoom-out;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    .lb-close,
+    .lb-nav {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      border-radius: 999px;
+      color: #fff;
+      background: rgba(15, 20, 25, 0.75);
+      cursor: pointer;
+    }
+    .lb-close {
+      top: 12px;
+      right: 12px;
+      width: 36px;
+      height: 36px;
+    }
+    .lb-nav {
+      top: 50%;
+      width: 40px;
+      height: 40px;
+      margin-top: -20px;
+    }
+    .lb-close:hover,
+    .lb-nav:hover { background: rgba(255, 255, 255, 0.18); }
+    .lb-close svg,
+    .lb-nav svg { width: 20px; height: 20px; fill: currentColor; display: block; }
+    .lb-prev { left: 12px; }
+    .lb-next { right: 12px; }
+    .lb-nav[hidden],
+    .lb-count[hidden] { display: none !important; }
+    .lb-count {
+      position: absolute;
+      left: 50%;
+      bottom: 16px;
+      transform: translateX(-50%);
+      color: #e7e9ea;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 20px;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+      pointer-events: none;
+    }
+    @media (max-width: 640px) {
+      .lightbox { padding: 52px 12px; }
+      .lb-prev { left: 8px; }
+      .lb-next { right: 8px; }
+    }
   </style>
 </head>
 <body>
@@ -369,6 +451,19 @@
       <button type="button" id="btnNext">下一页</button>
     </nav>
     <footer class="foot">仅供盯盘 · 帖子正文为英文原文</footer>
+  </div>
+  <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="图片预览">
+    <button type="button" id="lbClose" class="lb-close" aria-label="关闭">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.59 12L4.54 5.96l1.42-1.42L12 10.59l6.04-6.05 1.42 1.42L13.41 12l6.05 6.04-1.42 1.42L12 13.41l-6.04 6.05-1.42-1.42L10.59 12z"></path></svg>
+    </button>
+    <button type="button" id="lbPrev" class="lb-nav lb-prev" aria-label="上一张" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.414 13l5.043 5.04-1.414 1.42L3.586 12l7.457-7.46 1.414 1.42L7.414 11H21v2H7.414z"></path></svg>
+    </button>
+    <img id="lbImg" class="lb-img" alt="">
+    <button type="button" id="lbNext" class="lb-nav lb-next" aria-label="下一张" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.957 4.54L20.414 12l-7.457 7.46-1.414-1.42L16.586 13H3v-2h13.586l-5.043-5.04 1.414-1.42z"></path></svg>
+    </button>
+    <div id="lbCount" class="lb-count" hidden></div>
   </div>
   <script>
 (function () {
@@ -559,13 +654,15 @@
         return '<div class="shot audio"><audio controls preload="metadata" src="' + esc(url) +
           '" type="' + audioType + '" referrerpolicy="no-referrer" aria-label="音频"></audio></div>';
       }
+      /* Still photos (and non-playable posters) open in-page. Video/audio above stay inline. */
       var src = type === 'photo' ? url : (thumb || url);
       if (!src) return '';
       var play = (type === 'video' || type === 'gif' || isVideoThumb(src))
         ? '<span class="play">' + ICON.play + '</span>' : '';
-      return '<a class="shot" href="' + esc(src) + '" target="_blank" rel="noopener noreferrer">' +
+      var label = play ? '查看封面' : '查看图片';
+      return '<button type="button" class="shot" data-full="' + esc(src) + '" aria-label="' + label + '">' +
         '<img class="photo" src="' + esc(src) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' +
-        play + '</a>';
+        play + '</button>';
     }).filter(Boolean);
     if (!shots.length) return '';
     return '<div class="media n' + shots.length + '">' + shots.join('') + '</div>';
@@ -748,6 +845,124 @@
     window.scrollTo(0, 0);
     return load();
   }
+
+  var lb = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lbImg');
+  var lbPrev = document.getElementById('lbPrev');
+  var lbNext = document.getElementById('lbNext');
+  var lbCount = document.getElementById('lbCount');
+  var gallery = [];
+  var galIndex = 0;
+  var returnFocus = null;
+  var swipeGuard = false;
+
+  function hiRes(url) {
+    return String(url || '').replace(/([?&]name=)(?:small|medium|thumb)\b/gi, '$1large');
+  }
+
+  function showIndex(i) {
+    if (!gallery.length) return;
+    galIndex = (i + gallery.length) % gallery.length;
+    var raw = gallery[galIndex];
+    lbImg.alt = '图片 ' + (galIndex + 1);
+    lbImg.setAttribute('data-raw', raw);
+    lbImg.src = hiRes(raw);
+    var multi = gallery.length > 1;
+    lbPrev.hidden = !multi;
+    lbNext.hidden = !multi;
+    lbCount.hidden = !multi;
+    lbCount.textContent = multi ? ((galIndex + 1) + ' / ' + gallery.length) : '';
+  }
+
+  lbImg.addEventListener('error', function () {
+    var raw = lbImg.getAttribute('data-raw') || '';
+    if (raw && lbImg.getAttribute('src') !== raw) lbImg.src = raw;
+  });
+
+  function openLightbox(urls, index, opener) {
+    gallery = (urls || []).filter(Boolean);
+    if (!gallery.length) return;
+    returnFocus = opener || null;
+    lb.hidden = false;
+    document.body.classList.add('lb-open');
+    showIndex(index || 0);
+    document.getElementById('lbClose').focus();
+  }
+
+  function closeLightbox() {
+    if (lb.hidden) return;
+    lb.hidden = true;
+    document.body.classList.remove('lb-open');
+    lbImg.removeAttribute('src');
+    gallery = [];
+    var back = returnFocus;
+    returnFocus = null;
+    if (back && back.isConnected) back.focus();
+  }
+
+  function step(delta) {
+    if (gallery.length < 2) return;
+    showIndex(galIndex + delta);
+  }
+
+  feedEl.addEventListener('click', function (e) {
+    var btn = e.target.closest('button.shot[data-full]');
+    if (!btn || !feedEl.contains(btn)) return;
+    var media = btn.closest('.media');
+    var nodes = media
+      ? Array.prototype.slice.call(media.querySelectorAll('button.shot[data-full]'))
+      : [btn];
+    var urls = nodes.map(function (n) { return n.getAttribute('data-full') || ''; });
+    openLightbox(urls, Math.max(0, nodes.indexOf(btn)), btn);
+  });
+
+  lb.addEventListener('click', function (e) {
+    if (swipeGuard) {
+      swipeGuard = false;
+      return;
+    }
+    if (e.target.closest('#lbPrev')) {
+      step(-1);
+      return;
+    }
+    if (e.target.closest('#lbNext')) {
+      step(1);
+      return;
+    }
+    closeLightbox();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (lb.hidden) return;
+    if (e.key === 'Escape') {
+      e.preventDefault();
+      closeLightbox();
+    } else if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      step(-1);
+    } else if (e.key === 'ArrowRight') {
+      e.preventDefault();
+      step(1);
+    }
+  });
+
+  var touchX = null;
+  var touchY = null;
+  lb.addEventListener('touchstart', function (e) {
+    if (e.touches.length !== 1) return;
+    touchX = e.touches[0].clientX;
+    touchY = e.touches[0].clientY;
+  }, { passive: true });
+  lb.addEventListener('touchend', function (e) {
+    if (touchX == null || !e.changedTouches.length) return;
+    var dx = e.changedTouches[0].clientX - touchX;
+    var dy = e.changedTouches[0].clientY - touchY;
+    touchX = null;
+    if (gallery.length > 1 && Math.abs(dx) >= 48 && Math.abs(dx) > Math.abs(dy) * 1.2) {
+      swipeGuard = true;
+      step(dx < 0 ? 1 : -1);
+    }
+  });
 
   btnPrev.addEventListener('click', function () {
     if (page > 1) go(page - 1, true);
