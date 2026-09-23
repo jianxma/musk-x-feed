@@ -2,8 +2,8 @@ name: Update Musk X Feed
 
 on:
   schedule:
-    # Every 10 minutes (Actions cron is best-effort; often ~5–15 min)
-    - cron: "*/10 * * * *"
+    # Every 5 minutes (Actions cron is best-effort and may drift a bit under load)
+    - cron: "*/5 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
