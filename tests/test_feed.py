@@ -416,6 +416,16 @@ class SpaContractTests(unittest.TestCase):
         self.assertIn("backdrop-filter: blur(12px)", html)
         self.assertIn(">马斯克</h1>", html)
 
+    def test_long_post_text_collapses_with_toggle(self):
+        html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+        self.assertIn("-webkit-line-clamp: 6", html)
+        self.assertIn('class="text is-clamped"', html)
+        self.assertIn('class="q-text is-clamped"', html)
+        self.assertIn("展开", html)
+        self.assertIn("收起", html)
+        self.assertIn("syncTextClamps", html)
+        self.assertNotIn("media.is-clamped", html)
+
     def test_renderer_plays_typed_media_inline(self):
         html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
         self.assertIn('controls playsinline preload="metadata"', html)
