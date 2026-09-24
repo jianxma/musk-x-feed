@@ -183,6 +183,34 @@
     }
     .text a, .q-text a { color: var(--accent); }
     .text a:hover, .q-text a:hover { text-decoration: underline; }
+    /* Clamp only the text node. Media stays a sibling, so photos and video are never cut off. */
+    .text.is-clamped,
+    .q-text.is-clamped {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 6;
+      line-clamp: 6;
+      overflow: hidden;
+    }
+    .text-more {
+      display: block;
+      width: fit-content;
+      margin: 2px 0 0;
+      padding: 0;
+      border: 0;
+      background: none;
+      color: var(--accent);
+      font: inherit;
+      font-size: 15px;
+      line-height: 20px;
+      cursor: pointer;
+    }
+    .text-more:hover { text-decoration: underline; }
+    .text-more:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
     .media {
       display: grid;
       gap: 2px;
@@ -698,7 +726,7 @@
       (q.author ? '<span class="handle">@' + esc(q.author) + '</span>' : '') +
       timeBit +
       '</a>' +
-      (q.text ? '<div class="q-text" lang="en">' + linkify(q.text) + '</div>' : '') +
+      (q.text ? '<div class="q-text is-clamped" lang="en">' + linkify(q.text) + '</div>' : '') +
       '</div>' +
       mediaHtml((q.media && q.media.length) ? q.media : (q.images || [])) +
       '</div>';
@@ -766,7 +794,7 @@
       '<div class="main">' +
       personHead(person, timeUtc, timeAbs, timeHref) +
       replyLine +
-      (text ? '<div class="text" lang="en">' + linkify(text) + '</div>' : '') +
+      (text ? '<div class="text is-clamped" lang="en">' + linkify(text) + '</div>' : '') +
       mediaHtml(mediaList) +
       quoteHtml(p.quote) +
       actions +
@@ -821,6 +849,72 @@
         (data.error ? ('暂无数据：' + esc(data.error)) : '暂无帖子') + '</p>';
     } else {
       feedEl.innerHTML = posts.map(renderPost).join('');
+      syncTextClamps(feedEl);
+    }
+  }
+
+  var CLAMP_LINES = 6;
+  var expandedText = Object.create(null);
+
+  function clampKey(el) {
+    var art = el.closest('article.tweet');
+    var id = art ? (art.getAttribute('data-id') || '') : '';
+    return id + (el.classList.contains('q-text') ? '|quote' : '|body');
+  }
+
+  function lineHeightPx(el) {
+    var lh = parseFloat(window.getComputedStyle(el).lineHeight);
+    return isFinite(lh) && lh > 0 ? lh : 20;
+  }
+
+  /* Unclamp only for the measurement. The browser has not painted yet on first render. */
+  function fullTextHeight(el) {
+    var clamped = el.classList.contains('is-clamped');
+    if (clamped) el.classList.remove('is-clamped');
+    var h = el.scrollHeight;
+    if (clamped) el.classList.add('is-clamped');
+    return h;
+  }
+
+  function syncOneText(el) {
+    if (!el || !el.isConnected) return;
+    if (el.getBoundingClientRect().width < 1) return;
+    var over = fullTextHeight(el) > lineHeightPx(el) * CLAMP_LINES + 1;
+    var btn = el.nextElementSibling;
+    var hasBtn = btn && btn.classList && btn.classList.contains('text-more');
+    if (!over) {
+      el.classList.remove('is-clamped');
+      if (hasBtn) btn.remove();
+      return;
+    }
+    if (!hasBtn) {
+      btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'text-more';
+      el.insertAdjacentElement('afterend', btn);
+    }
+    var open = !!expandedText[clampKey(el)];
+    el.classList.toggle('is-clamped', !open);
+    btn.textContent = open ? '收起' : '展开';
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+
+  function syncTextClamps(root) {
+    var nodes = root.querySelectorAll('.text, .q-text');
+    for (var i = 0; i < nodes.length; i++) syncOneText(nodes[i]);
+  }
+
+  function toggleClamp(btn) {
+    var el = btn.previousElementSibling;
+    if (!el || (!el.classList.contains('text') && !el.classList.contains('q-text'))) return;
+    var key = clampKey(el);
+    var willCollapse = !!expandedText[key];
+    if (willCollapse) delete expandedText[key];
+    else expandedText[key] = 1;
+    syncOneText(el);
+    if (willCollapse) {
+      var top = el.getBoundingClientRect().top;
+      if (top < 48) window.scrollTo(0, window.scrollY + top - 48);
     }
   }
 
@@ -906,6 +1000,12 @@
   }
 
   feedEl.addEventListener('click', function (e) {
+    var more = e.target.closest('button.text-more');
+    if (more && feedEl.contains(more)) {
+      e.preventDefault();
+      toggleClamp(more);
+      return;
+    }
     var btn = e.target.closest('button.shot[data-full]');
     if (!btn || !feedEl.contains(btn)) return;
     var media = btn.closest('.media');
@@ -973,6 +1073,12 @@
   window.addEventListener('popstate', function () {
     page = readPage();
     load();
+  });
+
+  var clampResizeTimer;
+  window.addEventListener('resize', function () {
+    clearTimeout(clampResizeTimer);
+    clampResizeTimer = setTimeout(function () { syncTextClamps(feedEl); }, 150);
   });
 
   load();
