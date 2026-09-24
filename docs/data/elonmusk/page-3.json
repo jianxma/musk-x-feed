@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102460533433909417",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T18:10:27.000Z",
+      "created_at_shanghai": "2026-09-23 02:10:27",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "If AI gave you back 2 hours a day, that's 730 hours a year. What would you do with them? Spend more time with your kids? Get healthy? Start the business you've been putting off? That's the conversation about the future of tech I want to have.\n\nWhat becomes possible when people get part of their lives back?",
+      "quote": null,
+      "retweet": {
+        "author": "PeterDiamandis",
+        "avatar": "https://pbs.twimg.com/profile_images/1270804940936503296/oVhO8Njn_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 00:05:23",
+        "created_at_utc": "2026-09-22T16:05:23.000Z",
+        "id": "2102429058558501330",
+        "images": [],
+        "name": "Peter H. Diamandis, MD",
+        "text": "If AI gave you back 2 hours a day, that's 730 hours a year. What would you do with them? Spend more time with your kids? Get healthy? Start the business you've been putting off? That's the conversation about the future of tech I want to have.\n\nWhat becomes possible when people get part of their lives back?",
+        "url": "https://x.com/PeterDiamandis/status/2102429058558501330",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 173,
+        "likes": 2279,
+        "quotes": 69,
+        "replies": 486,
+        "retweets": 292,
+        "views": 390400
+      },
+      "url": "https://x.com/elonmusk/status/2102460533433909417",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102454903901982748",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -931,75 +971,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102407988636209546",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:41:39.000Z",
-      "created_at_shanghai": "2026-09-22 22:41:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Made a fun little game for my nephew using Grok 4.7. I gave it a simple prompt, and within minutes, he was playing the game.\n\nSeeing a random idea turn into a real game that quickly is honestly incredible.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 13:01:49",
-        "created_at_utc": "2026-09-22T05:01:49.000Z",
-        "id": "2102262068586205512",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg"
-        ],
-        "media": [
-          {
-            "duration": 40.6,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102261795964821504/vid/avc1/2256x1080/YjbiwUg0_dyM-tvy.mp4?tag=29",
-            "width": 2256
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Made a fun little game for my nephew using Grok 4.7. I gave it a simple prompt, and within minutes, he was playing the game.\n\nSeeing a random idea turn into a real game that quickly is honestly incredible.",
-        "url": "https://x.com/cb_doge/status/2102262068586205512",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 97,
-        "likes": 1474,
-        "quotes": 21,
-        "replies": 160,
-        "retweets": 213,
-        "views": 351427
-      },
-      "url": "https://x.com/elonmusk/status/2102407988636209546",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102261795964821504/vid/avc1/2256x1080/YjbiwUg0_dyM-tvy.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg",
-          "width": 2256,
-          "height": 1080,
-          "duration": 40.6
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 145,
+  "total": 146,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-09-25 03:54:43",
+  "updated_at_shanghai": "2026-09-25 05:50:41",
   "account": "elonmusk"
 }
