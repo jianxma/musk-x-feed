@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2103267284001382676",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T23:36:11.000Z",
+      "created_at_shanghai": "2026-09-25 07:36:11",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "🔥🔥",
+      "quote": {
+        "author": "IterIntellectus",
+        "avatar": "https://pbs.twimg.com/profile_images/2009602429478633472/8lMkYuep_200x200.jpg",
+        "created_at_shanghai": "2026-09-25 03:58:39",
+        "created_at_utc": "2026-09-24T19:58:39.000Z",
+        "id": "2103212539895017864",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103211525095702528/img/9hhkZEeK88qwJlMk.jpg"
+        ],
+        "media": [
+          {
+            "duration": 136.433,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103211525095702528/img/9hhkZEeK88qwJlMk.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103211525095702528/vid/avc1/1920x1080/q0KsmKcmecu8019Y.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "vittorio",
+        "text": "holy shit\ni asked claude to make a video on western civiization",
+        "url": "https://x.com/IterIntellectus/status/2103212539895017864",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 248,
+        "likes": 1486,
+        "quotes": 27,
+        "replies": 278,
+        "retweets": 235,
+        "views": 375605
+      },
+      "url": "https://x.com/elonmusk/status/2103267284001382676",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2103248831550791691",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1140,62 +1192,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2102926113173627069",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-24T01:00:30.000Z",
-      "created_at_shanghai": "2026-09-24 09:00:30",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Made with nickel cathode manufactured locally at Gigafactory Texas!",
-      "quote": {
-        "author": "robotaxi",
-        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 05:18:57",
-        "created_at_utc": "2026-09-23T21:18:57.000Z",
-        "id": "2102870359511105606",
-        "images": [
-          "https://pbs.twimg.com/media/HS31crwa0AACULm.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 3069,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HS31crwa0AACULm.jpg?name=small",
-            "width": 4096
-          }
-        ],
-        "name": "Robotaxi",
-        "text": "First Cybercab made using our in-house cathode material – from the first cathode plant in the Americas",
-        "url": "https://x.com/robotaxi/status/2102870359511105606",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 61,
-        "likes": 2839,
-        "quotes": 38,
-        "replies": 328,
-        "retweets": 324,
-        "views": 491109
-      },
-      "url": "https://x.com/elonmusk/status/2102926113173627069",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 148,
+  "total": 149,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-09-25 06:27:56",
+  "updated_at_shanghai": "2026-09-25 07:47:21",
   "account": "elonmusk"
 }
