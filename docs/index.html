@@ -15,6 +15,7 @@
       --accent: #1d9bf0;
       --repost: #00ba7c;
       --like: #f91880;
+      --unread: #f4212e;
       --hover: rgba(231, 233, 234, 0.1);
     }
     * { box-sizing: border-box; }
@@ -106,6 +107,7 @@
       padding: 3px 8px 2px;
     }
     .account-more {
+      position: relative;
       flex: 0 0 auto;
       padding: 3px 10px 2px;
       font-size: 12px;
@@ -164,7 +166,7 @@
       width: 18px;
       height: 18px;
       border-radius: 50%;
-      overflow: hidden;
+      overflow: visible;
       background: #202327;
       flex: 0 0 auto;
     }
@@ -175,6 +177,7 @@
       height: 100%;
       object-fit: cover;
       display: block;
+      border-radius: 50%;
     }
     .account-avatar.broken { display: none; }
     .account-fallback {
@@ -183,9 +186,26 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      border-radius: 50%;
       font-size: 10px;
       font-weight: 700;
       color: var(--text);
+    }
+    .unread-dot {
+      position: absolute;
+      top: -2px;
+      right: -3px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--unread);
+      box-shadow: 0 0 0 1px #000;
+      z-index: 2;
+      pointer-events: none;
+    }
+    .account-more > .unread-dot {
+      top: 1px;
+      right: 2px;
     }
     .account-overflow {
       position: relative;
@@ -690,9 +710,12 @@
   var mode = 'unknown';
   var PINNED_TABS = 4;
   var ACCOUNT_KEY = 'musk-x-feed-account';
+  var SEEN_KEY = 'musk-x-feed-seen';
   var DEFAULT_AVATAR = 'https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg';
   var accounts = [{ handle: 'elonmusk', name: 'Elon Musk', avatar: DEFAULT_AVATAR }];
   var currentHandle = readStoredHandle() || 'elonmusk';
+  var seenMap = readSeenMap();
+  var freshness = Object.create(null);
   var loadGen = 0;
 
   var ICON = {
@@ -851,6 +874,192 @@
     }
   }
 
+  function readSeenMap() {
+    try {
+      var raw = localStorage.getItem(SEEN_KEY);
+      if (!raw) return {};
+      var obj = JSON.parse(raw);
+      return obj && typeof obj === 'object' && !Array.isArray(obj) ? obj : {};
+    } catch (err) {
+      return {};
+    }
+  }
+
+  function writeSeenMap() {
+    try { localStorage.setItem(SEEN_KEY, JSON.stringify(seenMap)); } catch (err) {}
+  }
+
+  function cmpId(a, b) {
+    var as = String(a || '');
+    var bs = String(b || '');
+    if (as === bs) return 0;
+    try {
+      var ba = BigInt(as);
+      var bb = BigInt(bs);
+      if (ba > bb) return 1;
+      if (ba < bb) return -1;
+      return 0;
+    } catch (err) {
+      return as > bs ? 1 : -1;
+    }
+  }
+
+  function emptyMarker() {
+    return { id: '', updated_at: '' };
+  }
+
+  function normalizeMarker(value) {
+    if (!value) return emptyMarker();
+    if (typeof value === 'string') {
+      return /^\d{6,}$/.test(value) ? { id: value, updated_at: '' } : { id: '', updated_at: value };
+    }
+    if (typeof value !== 'object') return emptyMarker();
+    var id = value.id || value.tip_id || value.latest_id || value.newest_id || value.head_id || '';
+    var updated = value.updated_at || value.updated_at_shanghai || '';
+    return { id: String(id || ''), updated_at: String(updated || '') };
+  }
+
+  function hasMarker(marker) {
+    return !!(marker && (marker.id || marker.updated_at));
+  }
+
+  function preferMarker(a, b) {
+    var left = normalizeMarker(a);
+    var right = normalizeMarker(b);
+    var id = left.id;
+    var updated = left.updated_at;
+    if (right.id && (!id || cmpId(right.id, id) > 0)) id = right.id;
+    if (right.updated_at && (!updated || right.updated_at > updated)) updated = right.updated_at;
+    return { id: id, updated_at: updated };
+  }
+
+  function isNewerMarker(cur, seen) {
+    cur = normalizeMarker(cur);
+    seen = normalizeMarker(seen);
+    if (!hasMarker(cur) || !hasMarker(seen)) return false;
+    if (cur.id && seen.id && cmpId(cur.id, seen.id) > 0) return true;
+    if (cur.updated_at && seen.updated_at && cur.updated_at > seen.updated_at) return true;
+    return false;
+  }
+
+  function isUnread(handle) {
+    if (!handle || handle === currentHandle) return false;
+    if (!seenMap[handle]) return false;
+    return isNewerMarker(freshness[handle], seenMap[handle]);
+  }
+
+  function directChild(el, className) {
+    if (!el || !el.children) return null;
+    for (var i = 0; i < el.children.length; i++) {
+      if (el.children[i].classList && el.children[i].classList.contains(className)) return el.children[i];
+    }
+    return null;
+  }
+
+  function placeUnreadDot(el, on) {
+    if (!el) return;
+    var dot = directChild(el, 'unread-dot');
+    if (on && !dot) {
+      var span = document.createElement('span');
+      span.className = 'unread-dot';
+      span.setAttribute('aria-hidden', 'true');
+      el.appendChild(span);
+    } else if (!on && dot) {
+      dot.remove();
+    }
+  }
+
+  function applyUnreadDots() {
+    var nodes = document.querySelectorAll('#accountRow [data-handle]');
+    for (var i = 0; i < nodes.length; i++) {
+      var handle = nodes[i].getAttribute('data-handle');
+      var unread = isUnread(handle);
+      var wrap = nodes[i].querySelector('.account-avatar-wrap');
+      placeUnreadDot(wrap || nodes[i], unread);
+      nodes[i].classList.toggle('has-unread', unread);
+      if (unread) nodes[i].setAttribute('title', '有新帖');
+      else if (nodes[i].getAttribute('title') === '有新帖') nodes[i].removeAttribute('title');
+    }
+    var more = document.getElementById('accountMore');
+    if (!more) return;
+    var overflowUnread = false;
+    if (!more.hidden) {
+      var overflow = accounts.slice(PINNED_TABS);
+      for (var j = 0; j < overflow.length; j++) {
+        if (isUnread(overflow[j].handle)) overflowUnread = true;
+      }
+    }
+    placeUnreadDot(more, overflowUnread);
+    more.classList.toggle('has-unread', overflowUnread);
+    if (overflowUnread) more.setAttribute('title', '有新帖');
+    else if (more.getAttribute('title') === '有新帖') more.removeAttribute('title');
+  }
+
+  function markSeen(handle, marker) {
+    if (!handle) return;
+    var prev = normalizeMarker(seenMap[handle]);
+    var next = preferMarker(prev, marker || freshness[handle]);
+    if (!hasMarker(next)) {
+      applyUnreadDots();
+      return;
+    }
+    if (seenMap[handle] && prev.id === next.id && prev.updated_at === next.updated_at) {
+      applyUnreadDots();
+      return;
+    }
+    seenMap[handle] = next;
+    writeSeenMap();
+    applyUnreadDots();
+  }
+
+  /* First sight of an account baselines seen state so the archive does not light every tab.
+     Learning a tip id later, with no newer updated_at, is also a baseline — not unread. */
+  function noteFreshness(handle, marker) {
+    marker = normalizeMarker(marker);
+    if (!hasMarker(marker)) return;
+    freshness[handle] = preferMarker(freshness[handle], marker);
+    var seen = seenMap[handle] ? normalizeMarker(seenMap[handle]) : null;
+    var learningId = seen && !seen.id && freshness[handle].id && !isNewerMarker(freshness[handle], seen);
+    if (!seen || handle === currentHandle || learningId) {
+      markSeen(handle, freshness[handle]);
+      return;
+    }
+    applyUnreadDots();
+  }
+
+  function fetchManifest(handle) {
+    var base = appBase();
+    var nested = base + 'data/' + encodeURIComponent(handle) + '/manifest.json';
+    return fetch(nested, { cache: 'no-store' }).then(function (r) {
+      if (r.ok) return r.json();
+      if (handle !== 'elonmusk') throw new Error('no manifest');
+      return fetch(base + 'data/manifest.json', { cache: 'no-store' }).then(function (legacy) {
+        if (!legacy.ok) throw new Error('no manifest');
+        return legacy.json();
+      });
+    });
+  }
+
+  function checkAccountFreshness() {
+    accounts.forEach(function (account) {
+      var handle = account.handle;
+      fetchManifest(handle).then(function (man) {
+        var still = false;
+        for (var i = 0; i < accounts.length; i++) {
+          if (accounts[i].handle === handle) still = true;
+        }
+        if (!still) return;
+        noteFreshness(handle, man);
+      }).catch(function () {});
+    });
+  }
+
+  function refreshTick() {
+    if (document.hidden) return;
+    load();
+    checkAccountFreshness();
+  }
+
   function currentAccount() {
     for (var i = 0; i < accounts.length; i++) {
       if (accounts[i].handle === currentHandle) return accounts[i];
@@ -867,9 +1076,12 @@
     var img = src
       ? '<img class="account-avatar" src="' + esc(src) + '" alt="" referrerpolicy="no-referrer" onerror="this.classList.add(\'broken\')">'
       : '';
+    var dot = isUnread(account && account.handle)
+      ? '<span class="unread-dot" aria-hidden="true"></span>'
+      : '';
     return '<span class="account-avatar-wrap">' +
       '<span class="account-fallback" aria-hidden="true">' + initial(accountLabel(account), account && account.handle) + '</span>' +
-      img + '</span>';
+      img + dot + '</span>';
   }
 
   function closeAccountMenu() {
@@ -913,6 +1125,7 @@
       more.classList.remove('is-selected');
       closeAccountMenu();
       menu.innerHTML = '';
+      applyUnreadDots();
       return;
     }
     more.hidden = false;
@@ -927,6 +1140,7 @@
         '<span class="account-menu-text"><span class="account-name">' + esc(accountLabel(account)) +
         '</span><span class="account-handle">@' + esc(account.handle) + '</span></span></button>';
     }).join('');
+    applyUnreadDots();
   }
 
   function chooseAccount(handle) {
@@ -940,6 +1154,7 @@
     if (!known || handle === currentHandle) return;
     currentHandle = handle;
     try { localStorage.setItem(ACCOUNT_KEY, handle); } catch (err) {}
+    markSeen(handle);
     expandedText = Object.create(null);
     closeLightbox();
     renderAccountBar();
@@ -1007,6 +1222,7 @@
         selectedBtn.scrollIntoView({ block: 'nearest', inline: 'nearest' });
       }
       load();
+      checkAccountFreshness();
     });
   }
 
@@ -1216,6 +1432,12 @@
     var total = data.total != null ? data.total : posts.length;
     var where = mode === 'api' ? '本地实时' : 'GitHub Pages';
     statusEl.textContent = where + ' · 共 ' + total + ' 条 · 更新于 ' + updated + ' CST';
+    var tipId = '';
+    if ((data.page || 1) === 1 && posts[0] && posts[0].id) tipId = String(posts[0].id);
+    noteFreshness(currentHandle, {
+      id: tipId,
+      updated_at: data.updated_at_shanghai || ''
+    });
     updatePager();
     if (!posts.length) {
       feedEl.innerHTML = '<p class="empty">' +
@@ -1490,12 +1712,14 @@
   });
 
   boot();
-  setInterval(function () {
-    if (document.hidden) return;
-    load();
-  }, 30000);
+  setInterval(refreshTick, 30000);
   document.addEventListener('visibilitychange', function () {
-    if (!document.hidden) load();
+    if (!document.hidden) refreshTick();
+  });
+  window.addEventListener('storage', function (e) {
+    if (e.key !== SEEN_KEY) return;
+    seenMap = readSeenMap();
+    applyUnreadDots();
   });
 })();
   </script>
