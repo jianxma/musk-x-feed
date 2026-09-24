@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
-"""Shared Elon Musk X feed fetch, classify, and enrich (stdlib only).
+"""Shared X feed fetch, classify, and enrich (stdlib only).
+
+@elonmusk still comes from xtracker (list) plus api.fxtwitter.com (per-status
+enrich). Other watched accounts, starting with @rocketlab, use the FxTwitter
+v2 profile timeline (``/2/profile/{handle}/statuses``). xtracker returns 404
+for Rocket Lab.
 
 Retweets from api.fxtwitter.com come back as the *original* tweet with
 ``reposted_by`` set (the ``retweet`` object is often absent). Classification
-treats that as 转发 and always keeps Musk's own status URL
-(``https://x.com/elonmusk/status/{platformId}``).
+treats that as 转发. For @elonmusk the card links to Musk's own status
+(``https://x.com/elonmusk/status/{platformId}`` from xtracker). A v2 timeline
+repost does not include the reposter's status id, so that card links to the
+watched profile instead.
 """
 
 from __future__ import annotations
@@ -13,6 +20,7 @@ import json
 import re
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -22,15 +30,47 @@ from zoneinfo import ZoneInfo
 SHANGHAI = ZoneInfo("Asia/Shanghai")
 UA = "Mozilla/5.0 (compatible; MuskFeedBot/1.0)"
 PRIMARY_URL = "https://xtracker.polymarket.com/api/users/elonmusk/posts"
-FXT_URL = "https://api.fxtwitter.com/elonmusk/status/{id}"
+FXT_STATUS_URL = "https://api.fxtwitter.com/{handle}/status/{id}"
+FXT_TIMELINE_URL = "https://api.fxtwitter.com/2/profile/{handle}/statuses"
 REQUEST_TIMEOUT = 25
 DAYS_BACK = 3
 DEFAULT_ENRICH_LIMIT = 20
+TIMELINE_PAGE_SIZE = 20
+TIMELINE_MAX_PAGES = 8
 
 # Fallback if a row has not been enriched yet. Updated from live payloads when present.
 DEFAULT_MUSK_AVATAR = (
     "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg"
 )
+# From api.fxtwitter.com/RocketLab (avatar_url), upgraded _normal -> _200x200.
+DEFAULT_ROCKETLAB_AVATAR = (
+    "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg"
+)
+
+# source=xtracker keeps the Musk list+enrich path. source=fxtwitter reads the
+# v2 profile timeline in one shot (those payloads are already enriched).
+SYNCED_ACCOUNTS: list[dict[str, Any]] = [
+    {
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "avatar": DEFAULT_MUSK_AVATAR,
+        "verified": True,
+        "verified_type": "individual",
+        "source": "xtracker",
+    },
+    {
+        "handle": "rocketlab",
+        "name": "Rocket Lab",
+        "avatar": DEFAULT_ROCKETLAB_AVATAR,
+        "verified": True,
+        "verified_type": "organization",
+        "source": "fxtwitter",
+    },
+]
+
+
+def synced_handles() -> set[str]:
+    return {str(item["handle"]) for item in SYNCED_ACCOUNTS}
 
 _MULTI_NL = re.compile(r"\n{3,}")
 # fxtwitter appends attached-media links to the text; the media grid already shows them.
@@ -70,7 +110,7 @@ def now_shanghai() -> str:
 
 
 def musk_status_url(tweet_id: str) -> str:
-    return f"https://x.com/elonmusk/status/{tweet_id}"
+    return status_url("elonmusk", tweet_id)
 
 
 def _dt_to_pair(dt: datetime) -> tuple[str, str]:
@@ -140,64 +180,103 @@ def author_profile(author: dict | None, *, default_verified: bool = False) -> di
     }
 
 
-def musk_profile_from_tweet(tweet: dict | None) -> dict[str, Any]:
-    """Feed owner is always @elonmusk, even when the payload is a reposted original.
-
-    Avatar stays blank when we have no tweet yet, so a later primary upsert does
-    not overwrite a real avatar captured during enrich.
-    """
+def _normalize_owner(owner: dict | None) -> dict[str, Any]:
+    """Watched-account defaults. Missing owner is @elonmusk, matching older callers."""
     base = {
-        "author": "elonmusk",
+        "handle": "elonmusk",
         "name": "Elon Musk",
-        "avatar": "",
+        "avatar": DEFAULT_MUSK_AVATAR,
         "verified": True,
         "verified_type": "individual",
     }
-    if not isinstance(tweet, dict):
+    if not isinstance(owner, dict):
         return base
-    rb = tweet.get("reposted_by")
-    if isinstance(rb, dict) and _screen(rb).lower() == "elonmusk":
-        prof = author_profile(rb, default_verified=True)
-        prof["author"] = "elonmusk"
-        prof["name"] = prof["name"] or "Elon Musk"
-        prof["avatar"] = prof["avatar"] or DEFAULT_MUSK_AVATAR
-        prof["verified"] = True
-        prof["verified_type"] = prof["verified_type"] or "individual"
-        return prof
-    author = tweet.get("author") if isinstance(tweet.get("author"), dict) else {}
-    if _screen(author).lower() == "elonmusk":
-        prof = author_profile(author, default_verified=True)
-        prof["author"] = "elonmusk"
-        prof["name"] = prof["name"] or "Elon Musk"
-        prof["avatar"] = prof["avatar"] or DEFAULT_MUSK_AVATAR
-        prof["verified"] = True
-        prof["verified_type"] = prof["verified_type"] or "individual"
-        return prof
+    handle = str(owner.get("handle") or "").strip().lstrip("@").lower()
+    if handle:
+        base["handle"] = handle
+    name = str(owner.get("name") or "").strip()
+    if name:
+        base["name"] = name
+    avatar = str(owner.get("avatar") or "").strip()
+    if avatar:
+        base["avatar"] = avatar
+    if "verified" in owner:
+        base["verified"] = bool(owner["verified"])
+    vtype = str(owner.get("verified_type") or "").strip()
+    if vtype:
+        base["verified_type"] = vtype
     return base
 
 
-def is_repost(tweet: dict | None, requested_id: str) -> bool:
-    """True when this fxtwitter payload is Musk reposting someone else's status."""
+def status_url(handle: str, tweet_id: str) -> str:
+    return f"https://x.com/{handle}/status/{tweet_id}"
+
+
+def owner_profile_from_tweet(tweet: dict | None, owner: dict | None = None) -> dict[str, Any]:
+    """Feed owner stays the watched account, even when the payload is a repost.
+
+    Avatar stays blank when we have no tweet yet, so a later primary upsert does
+    not overwrite a real avatar captured during enrich. ``build_post`` fills the
+    account default only on the outgoing row.
+    """
+    acct = _normalize_owner(owner)
+    handle = acct["handle"]
+    base = {
+        "author": handle,
+        "name": acct["name"],
+        "avatar": "",
+        "verified": bool(acct["verified"]),
+        "verified_type": acct["verified_type"],
+    }
+    if not isinstance(tweet, dict):
+        return base
+
+    def _take(person: dict) -> dict[str, Any]:
+        prof = author_profile(person, default_verified=bool(acct["verified"]))
+        prof["author"] = handle
+        prof["name"] = prof["name"] or acct["name"]
+        prof["avatar"] = prof["avatar"] or acct["avatar"]
+        if acct["verified"]:
+            prof["verified"] = True
+        prof["verified_type"] = prof["verified_type"] or acct["verified_type"]
+        return prof
+
+    rb = tweet.get("reposted_by")
+    if isinstance(rb, dict) and _screen(rb).lower() == handle:
+        return _take(rb)
+    author = tweet.get("author") if isinstance(tweet.get("author"), dict) else {}
+    if _screen(author).lower() == handle:
+        return _take(author)
+    return base
+
+
+def musk_profile_from_tweet(tweet: dict | None) -> dict[str, Any]:
+    return owner_profile_from_tweet(tweet, None)
+
+
+def is_repost(tweet: dict | None, requested_id: str, owner: str = "elonmusk") -> bool:
+    """True when this payload is the watched account reposting someone else."""
+    handle = (owner or "elonmusk").strip().lstrip("@").lower() or "elonmusk"
     if not isinstance(tweet, dict):
         return False
     if isinstance(tweet.get("retweet"), dict):
         return True
     rb = tweet.get("reposted_by")
-    if isinstance(rb, dict) and _screen(rb).lower() == "elonmusk":
+    if isinstance(rb, dict) and _screen(rb).lower() == handle:
         return True
     author = _screen(tweet.get("author") if isinstance(tweet.get("author"), dict) else None).lower()
     tid = str(tweet.get("id") or "")
-    if author and author != "elonmusk":
+    if author and author != handle:
         return True
-    if tid and requested_id and tid != str(requested_id) and author != "elonmusk":
+    if tid and requested_id and tid != str(requested_id) and author != handle:
         return True
     return False
 
 
-def classify_type(tweet: dict | None, requested_id: str = "") -> str:
+def classify_type(tweet: dict | None, requested_id: str = "", owner: str = "elonmusk") -> str:
     if not isinstance(tweet, dict):
         return "原文"
-    if is_repost(tweet, requested_id):
+    if is_repost(tweet, requested_id, owner):
         return "转发"
     if isinstance(tweet.get("quote"), dict):
         return "引用"
@@ -441,9 +520,13 @@ def _reply_to(tweet: dict | None) -> str:
 def _engagement(tweet: dict | None) -> dict[str, Any]:
     if not isinstance(tweet, dict):
         return {}
+    retweets = tweet.get("retweets")
+    if retweets is None:
+        # FxTwitter v2 timelines name this count ``reposts``.
+        retweets = tweet.get("reposts")
     return {
         "replies": tweet.get("replies"),
-        "retweets": tweet.get("retweets"),
+        "retweets": retweets,
         "likes": tweet.get("likes"),
         "bookmarks": tweet.get("bookmarks"),
         "quotes": tweet.get("quotes"),
@@ -493,7 +576,15 @@ def _original_tweet(tweet: dict) -> dict:
     return tweet
 
 
-def build_post(raw: dict, tweet: dict | None, *, remote_images: bool = True) -> dict:
+def build_post(
+    raw: dict,
+    tweet: dict | None,
+    *,
+    remote_images: bool = True,
+    owner: dict | None = None,
+) -> dict:
+    acct = _normalize_owner(owner)
+    handle = acct["handle"]
     tid = str(raw.get("platformId") or (tweet or {}).get("id") or "")
     created = str(raw.get("createdAt") or "")
     content = normalize_text(raw.get("content") or "")
@@ -505,14 +596,15 @@ def build_post(raw: dict, tweet: dict | None, *, remote_images: bool = True) -> 
     images: list[str] = []
     media: list[dict] = []
     post_type = "原文"
-    link = musk_status_url(tid) if tid else ""
-    owner = musk_profile_from_tweet(tweet)
+    explicit_url = str(raw.get("url") or "").strip()
+    link = explicit_url or (status_url(handle, tid) if tid else "")
+    profile = owner_profile_from_tweet(tweet, acct)
 
     if tweet:
-        post_type = classify_type(tweet, tid)
+        post_type = classify_type(tweet, tid, handle)
         if not created:
             created, _sh = tweet_times(tweet)
-        if is_repost(tweet, tid):
+        if is_repost(tweet, tid, handle):
             original = _original_tweet(tweet)
             retweet_block = _nested_status(original)
             # Legacy shape: original carries the quote; fxtwitter puts quote on the same object.
@@ -542,16 +634,17 @@ def build_post(raw: dict, tweet: dict | None, *, remote_images: bool = True) -> 
                 media, images = _strip_quoted_media(media, images, quote_block)
             reply_to = _reply_to(tweet)
             engagement = _engagement(tweet)
-            owner = musk_profile_from_tweet(tweet)
+            profile = owner_profile_from_tweet(tweet, acct)
 
     created_sh = to_shanghai_iso(created) if created else ""
     return {
         "id": tid,
-        "author": owner["author"] or "elonmusk",
-        "author_name": owner["name"] or "Elon Musk",
-        "author_avatar": owner["avatar"] or DEFAULT_MUSK_AVATAR,
-        "author_verified": bool(owner["verified"]),
-        "author_verified_type": owner["verified_type"] or "individual",
+        "account": handle,
+        "author": profile["author"] or handle,
+        "author_name": profile["name"] or acct["name"],
+        "author_avatar": profile["avatar"] or acct["avatar"],
+        "author_verified": bool(profile["verified"]),
+        "author_verified_type": profile["verified_type"] or acct["verified_type"],
         "created_at_utc": created,
         "created_at_shanghai": created_sh,
         "type": post_type,
@@ -568,8 +661,8 @@ def build_post(raw: dict, tweet: dict | None, *, remote_images: bool = True) -> 
     }
 
 
-def enrich_one(tweet_id: str) -> tuple[dict | None, str | None]:
-    url = FXT_URL.format(id=tweet_id)
+def enrich_one(tweet_id: str, handle: str = "elonmusk") -> tuple[dict | None, str | None]:
+    url = FXT_STATUS_URL.format(handle=handle, id=tweet_id)
     try:
         data = http_json(url)
         if not isinstance(data, dict) or data.get("code") != 200:
@@ -585,23 +678,105 @@ def enrich_one(tweet_id: str) -> tuple[dict | None, str | None]:
         return None, str(e)
 
 
-def sync_incremental(
+def _flatten_timeline_results(results: list) -> list[dict]:
+    out: list[dict] = []
+    for item in results:
+        if not isinstance(item, dict):
+            continue
+        if item.get("type") == "thread" and isinstance(item.get("statuses"), list):
+            for status in item["statuses"]:
+                if isinstance(status, dict) and status.get("id"):
+                    out.append(status)
+            continue
+        if item.get("type") in (None, "", "status") and item.get("id"):
+            out.append(item)
+    return out
+
+
+def _status_datetime(status: dict) -> datetime | None:
+    utc, _sh = tweet_times(status)
+    if not utc:
+        return None
+    raw = utc[:-1] + "+00:00" if utc.endswith("Z") else utc
+    try:
+        return datetime.fromisoformat(raw)
+    except ValueError:
+        return None
+
+
+def fetch_fxtwitter_statuses(
+    handle: str,
     *,
-    enrich_limit: int = DEFAULT_ENRICH_LIMIT,
-    sleep_between: float = 0.12,
-    verbose: bool = False,
-) -> dict:
-    """Fetch primary, upsert SQLite, enrich only new/unenriched posts.
+    days_back: int = DAYS_BACK,
+    min_posts: int = TIMELINE_PAGE_SIZE,
+    max_pages: int = TIMELINE_MAX_PAGES,
+    sleep_between: float = 0.1,
+) -> list[dict]:
+    """Recent statuses from FxTwitter v2 ``/2/profile/{handle}/statuses``.
 
-    Does not rewrite HTML. Returns inserted/updated/enriched/total.
+    Pages until the window is older than ``days_back`` and at least ``min_posts``
+    are in hand (one page, so a quiet account still fills a site page).
     """
-    import db as dbmod
+    handle = (handle or "").strip().lstrip("@")
+    if not handle:
+        raise RuntimeError("missing fxtwitter handle")
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days_back)
+    collected: list[dict] = []
+    cursor = ""
+    for page in range(1, max_pages + 1):
+        qs = urllib.parse.urlencode({"count": str(TIMELINE_PAGE_SIZE)})
+        url = FXT_TIMELINE_URL.format(handle=urllib.parse.quote(handle)) + "?" + qs
+        if cursor:
+            url += "&cursor=" + urllib.parse.quote(cursor, safe="")
+        data = http_json(url)
+        if not isinstance(data, dict) or data.get("code") != 200:
+            code = data.get("code") if isinstance(data, dict) else type(data)
+            raise RuntimeError(f"fxtwitter timeline unexpected response: {code}")
+        batch = _flatten_timeline_results(data.get("results") or [])
+        collected.extend(batch)
+        oldest = _status_datetime(batch[-1]) if batch else None
+        cursor = str((data.get("cursor") or {}).get("bottom") or "")
+        if len(collected) >= min_posts and oldest is not None and oldest < cutoff:
+            break
+        if not cursor or not batch:
+            break
+        if page < max_pages and sleep_between:
+            time.sleep(sleep_between)
+    return collected
 
-    dbmod.init_db()
-    known = dbmod.get_known_ids()
+
+def posts_from_fxt_statuses(statuses: list[dict], owner: dict) -> list[dict]:
+    """Map a v2 timeline page onto the same post shape ``build_post`` writes for Elon."""
+    acct = _normalize_owner(owner)
+    handle = acct["handle"]
+    posts: list[dict] = []
+    for status in statuses:
+        tid = str(status.get("id") or "")
+        if not tid:
+            continue
+        utc, _sh = tweet_times(status)
+        raw: dict[str, Any] = {
+            "platformId": tid,
+            "createdAt": utc,
+            "content": status.get("text") or "",
+        }
+        if is_repost(status, tid, handle):
+            # v2 identifies a repost by the original status id, not the
+            # watched account's own status id. Linking x.com/{handle}/status/{id}
+            # would 404. The header falls back to the profile; the nested card
+            # keeps the original status URL.
+            raw["url"] = f"https://x.com/{handle}"
+        posts.append(build_post(raw, status, owner=acct))
+    return posts
+
+
+def _sync_xtracker(dbmod: Any, *, enrich_limit: int, sleep_between: float, verbose: bool) -> dict:
+    """Existing @elonmusk path: xtracker list, then fxtwitter status enrich."""
+    handle = "elonmusk"
+    known = dbmod.get_known_ids(account=handle)
     raw_posts = fetch_primary()
     if verbose:
-        print(f"Primary: {len(raw_posts)} posts; known in DB: {len(known)}")
+        print(f"Primary @{handle}: {len(raw_posts)} posts; known in DB: {len(known)}")
 
     primary_posts: list[dict] = []
     new_ids: list[str] = []
@@ -614,7 +789,7 @@ def sync_incremental(
             new_ids.append(tid)
 
     upsert_stats = dbmod.upsert_posts(primary_posts)
-    unenriched = dbmod.get_unenriched_ids(limit=max(enrich_limit * 3, enrich_limit))
+    unenriched = dbmod.get_unenriched_ids(limit=max(enrich_limit * 3, enrich_limit), account=handle)
     to_enrich_ids: list[str] = []
     seen: set[str] = set()
     for tid in new_ids + unenriched:
@@ -631,14 +806,14 @@ def sync_incremental(
     raw_by_id = {str(r.get("platformId") or ""): r for r in raw_posts}
 
     if verbose:
-        print(f"Enriching {len(to_enrich_ids)} (new={len(new_ids)})")
+        print(f"Enriching @{handle} {len(to_enrich_ids)} (new={len(new_ids)})")
 
     for i, tid in enumerate(to_enrich_ids, 1):
         if verbose:
             print(f"[{i}/{len(to_enrich_ids)}] {tid}")
-        tweet, err = enrich_one(tid)
+        tweet, err = enrich_one(tid, handle)
         if not tweet:
-            failures.append(f"{tid}: {err}")
+            failures.append(f"{handle}:{tid}: {err}")
             if verbose:
                 print(f"  skip: {err}")
         else:
@@ -653,14 +828,113 @@ def sync_incremental(
         upsert_stats["updated"] += enr_stats["updated"]
         upsert_stats["inserted"] += enr_stats["inserted"]
 
-    total = dbmod.count_posts()
-    result = {
+    return {
+        "handle": handle,
         "inserted": upsert_stats["inserted"],
         "updated": upsert_stats["updated"],
         "enriched": enriched_count,
+        "failures": failures,
+    }
+
+
+def _sync_fxtwitter(dbmod: Any, spec: dict, *, sleep_between: float, verbose: bool) -> dict:
+    """Timeline sync for accounts xtracker does not list.
+
+    The v2 payload already includes text, media, quote, and repost fields, so
+    new rows are stored enriched. Known rows are left in place (same as Elon,
+    where a later thin list upsert does not refresh engagement).
+    """
+    handle = str(spec["handle"])
+    statuses = fetch_fxtwitter_statuses(handle, sleep_between=sleep_between)
+    built = posts_from_fxt_statuses(statuses, spec)
+    known = dbmod.get_known_ids(account=handle)
+    fresh = [post for post in built if post.get("id") and post["id"] not in known]
+    if verbose:
+        print(f"Timeline @{handle}: {len(built)} posts; new={len(fresh)}; known={len(known)}")
+    stats = dbmod.upsert_posts(fresh) if fresh else {"inserted": 0, "updated": 0}
+    return {
+        "handle": handle,
+        "inserted": stats["inserted"],
+        "updated": stats["updated"],
+        "enriched": stats["inserted"] + stats["updated"],
+        "failures": [],
+    }
+
+
+def _empty_part(handle: str, failures: list[str]) -> dict:
+    return {
+        "handle": handle,
+        "inserted": 0,
+        "updated": 0,
+        "enriched": 0,
+        "failures": failures,
+    }
+
+
+def sync_incremental(
+    *,
+    enrich_limit: int = DEFAULT_ENRICH_LIMIT,
+    sleep_between: float = 0.12,
+    verbose: bool = False,
+    handles: list[str] | None = None,
+) -> dict:
+    """Fetch every watched account into SQLite. Does not rewrite HTML.
+
+    ``handles`` limits the run (lowercase). The default is every synced account
+    (``elonmusk`` and ``rocketlab``). One account's fetch error is recorded and
+    the others still run, so a new post on either side can be exported.
+    """
+    import db as dbmod
+
+    dbmod.init_db()
+    wanted = None
+    if handles is not None:
+        wanted = {str(h).strip().lstrip("@").lower() for h in handles if str(h).strip()}
+    inserted = 0
+    updated = 0
+    enriched = 0
+    failures: list[str] = []
+    per_account: list[dict] = []
+    for spec in SYNCED_ACCOUNTS:
+        handle = str(spec["handle"])
+        if wanted is not None and handle not in wanted:
+            continue
+        try:
+            if spec.get("source") == "xtracker":
+                part = _sync_xtracker(
+                    dbmod,
+                    enrich_limit=enrich_limit,
+                    sleep_between=sleep_between,
+                    verbose=verbose,
+                )
+            elif spec.get("source") == "fxtwitter":
+                part = _sync_fxtwitter(dbmod, spec, sleep_between=sleep_between, verbose=verbose)
+            else:
+                part = _empty_part(handle, [f"{handle}: unknown source"])
+        except Exception as e:
+            msg = f"{handle}: {e}"
+            failures.append(msg)
+            part = _empty_part(handle, [msg])
+            part["fetch_error"] = True
+            per_account.append(part)
+            if verbose:
+                print(f"Sync failed for @{handle}: {e}")
+            continue
+        inserted += int(part["inserted"])
+        updated += int(part["updated"])
+        enriched += int(part["enriched"])
+        failures.extend(part.get("failures") or [])
+        per_account.append(part)
+
+    total = dbmod.count_posts()
+    result = {
+        "inserted": inserted,
+        "updated": updated,
+        "enriched": enriched,
         "total": total,
         "failures": failures,
         "updated_at_shanghai": dbmod.latest_updated_at() or now_shanghai(),
+        "accounts": per_account,
     }
     if verbose:
         print(
