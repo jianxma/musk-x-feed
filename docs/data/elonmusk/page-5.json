@@ -1,6 +1,60 @@
 {
   "posts": [
     {
+      "id": "2102084221086904559",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T17:15:07.000Z",
+      "created_at_shanghai": "2026-09-22 01:15:07",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Try Grok 4.7 - it excels at coding, engineering work, and 3D, and the model is a fantastic thought partner at high TPS in Grok Build and Cursor",
+      "quote": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "milichab",
+        "avatar": "https://pbs.twimg.com/profile_images/1466472908977487881/-dym5k04_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:31:43",
+        "created_at_utc": "2026-09-21T16:31:43.000Z",
+        "id": "2102073296900796862",
+        "images": [],
+        "name": "Andrew Milich",
+        "text": "Try Grok 4.7 - it excels at coding, engineering work, and 3D, and the model is a fantastic thought partner at high TPS in Grok Build and Cursor",
+        "url": "https://x.com/milichab/status/2102073296900796862",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 55,
+        "likes": 1521,
+        "quotes": 7,
+        "replies": 118,
+        "retweets": 198,
+        "views": 496485
+      },
+      "url": "https://x.com/elonmusk/status/2102084221086904559",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102084081475350829",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -910,52 +964,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101901374195691900",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T05:08:33.000Z",
-      "created_at_shanghai": "2026-09-21 13:08:33",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I don’t agree exactly on the assumption that full RSI will work, but this is an excellent video summarizing where we are at. https://youtu.be/fjZ90V_JREk?is=1jf1RRuWRTjo9_Iw",
-      "quote": null,
-      "retweet": {
-        "author": "natolambert",
-        "avatar": "https://pbs.twimg.com/profile_images/2051823244832083968/Nr0pT8-V_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 05:17:05",
-        "created_at_utc": "2026-09-20T21:17:05.000Z",
-        "id": "2101782726541971660",
-        "images": [],
-        "name": "Nathan Lambert",
-        "text": "I don’t agree exactly on the assumption that full RSI will work, but this is an excellent video summarizing where we are at. https://youtu.be/fjZ90V_JREk?is=1jf1RRuWRTjo9_Iw",
-        "url": "https://x.com/natolambert/status/2101782726541971660",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 346,
-        "likes": 1043,
-        "quotes": 11,
-        "replies": 85,
-        "retweets": 150,
-        "views": 742938
-      },
-      "url": "https://x.com/elonmusk/status/2101901374195691900",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 135,
+  "total": 136,
   "total_pages": 7,
-  "updated_at_shanghai": "2026-09-24 11:06:58",
+  "updated_at_shanghai": "2026-09-24 11:38:19",
   "account": "elonmusk"
 }

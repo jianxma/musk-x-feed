@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102249364043505664",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T04:11:20.000Z",
+      "created_at_shanghai": "2026-09-22 12:11:20",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "day 1 observations for grok 4.7\n\nignore the reports that say “it’s terrible” and the only thing they reference is a public benchmark. the same benchmarks told us opus 5 was better that fable - they are useless\n\nalso ignore the reports that compare models with 3d games - that’s not real work. it's made for attention on social media\n\ni used grok 4.7 for a whole day as my firstmate, and it has been a really solid model with visible improvements over 4.5 (i'm ignoring 4.6 because 4.5 has been working better in my experience)\n\nkey differences with 4.7 -\n\n1. it follows system prompt very, very closely\n\ni noticed firstmate showing many new behaviors that i've never seen before, such as asking me to name specific red CI checks that i'm ok with bypassing, and refuse a simple \"yolo\" instruction\n\ni traced it and it's indeed how i instructed it in firstmate's system prompt, but none of the other models followed it closely enough to make this behavior visible - grok 4.7 is the first to pick that up\n\nthere were a few other similar examples as well. so to me this is a clear behavioral difference\n\n2. it's very \"stable\"\n\nif you've used astra then you know what a \"spiky\" model is. it can have some genius moments but you occasionally also wonder \"how could it be so dumb and doesn't get me\". grok 4.7 is the opposite of that\n\nthroughout the whole day so far, i'll be honest i haven't get a \"wow this is absolutely genius\" moment yet, but grok 4.7 has been very steady with no big surprises. its behavior feels predictable, which does help it gain trust from me quickly\n\n3. it's a conservative model\n\nit doesn't like to take actions without asking, and would explicitly say so\n\nthis is a bit of a double edged sword, because it means i sometimes have to state the obvious \"yes i do want that\", but in hindsight a lot of those cases are indeed a bit ambiguous and i may not have preferred the model to just move forward without my confirmation\n\n4. it's a bit slower and costs more than 4.5, visibly\n\nturns are taking a bit longer and my quota is draining at a visibly faster pace. i haven't quantified exactly where this is coming from yet\n\nso overall, i think it's showing some clearly different traits, and i mostly like the changes. i'm going to keep it as my primary firstmate and observe more\n\nif you've been using it, what qualitative insights have you gathered from real usage so far?",
+      "quote": null,
+      "retweet": {
+        "author": "kunchenguid",
+        "avatar": "https://pbs.twimg.com/profile_images/1946076752024895489/ScNir1Fy_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 11:11:03",
+        "created_at_utc": "2026-09-22T03:11:03.000Z",
+        "id": "2102234191639257399",
+        "images": [],
+        "name": "Kun Chen",
+        "text": "day 1 observations for grok 4.7\n\nignore the reports that say “it’s terrible” and the only thing they reference is a public benchmark. the same benchmarks told us opus 5 was better that fable - they are useless\n\nalso ignore the reports that compare models with 3d games - that’s not real work. it's made for attention on social media\n\ni used grok 4.7 for a whole day as my firstmate, and it has been a really solid model with visible improvements over 4.5 (i'm ignoring 4.6 because 4.5 has been working better in my experience)\n\nkey differences with 4.7 -\n\n1. it follows system prompt very, very closely\n\ni noticed firstmate showing many new behaviors that i've never seen before, such as asking me to name specific red CI checks that i'm ok with bypassing, and refuse a simple \"yolo\" instruction\n\ni traced it and it's indeed how i instructed it in firstmate's system prompt, but none of the other models followed it closely enough to make this behavior visible - grok 4.7 is the first to pick that up\n\nthere were a few other similar examples as well. so to me this is a clear behavioral difference\n\n2. it's very \"stable\"\n\nif you've used astra then you know what a \"spiky\" model is. it can have some genius moments but you occasionally also wonder \"how could it be so dumb and doesn't get me\". grok 4.7 is the opposite of that\n\nthroughout the whole day so far, i'll be honest i haven't get a \"wow this is absolutely genius\" moment yet, but grok 4.7 has been very steady with no big surprises. its behavior feels predictable, which does help it gain trust from me quickly\n\n3. it's a conservative model\n\nit doesn't like to take actions without asking, and would explicitly say so\n\nthis is a bit of a double edged sword, because it means i sometimes have to state the obvious \"yes i do want that\", but in hindsight a lot of those cases are indeed a bit ambiguous and i may not have preferred the model to just move forward without my confirmation\n\n4. it's a bit slower and costs more than 4.5, visibly\n\nturns are taking a bit longer and my quota is draining at a visibly faster pace. i haven't quantified exactly where this is coming from yet\n\nso overall, i think it's showing some clearly different traits, and i mostly like the changes. i'm going to keep it as my primary firstmate and observe more\n\nif you've been using it, what qualitative insights have you gathered from real usage so far?",
+        "url": "https://x.com/kunchenguid/status/2102234191639257399",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 234,
+        "likes": 2048,
+        "quotes": 27,
+        "replies": 167,
+        "retweets": 175,
+        "views": 482049
+      },
+      "url": "https://x.com/elonmusk/status/2102249364043505664",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102207241101144450",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -957,66 +997,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102084221086904559",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T17:15:07.000Z",
-      "created_at_shanghai": "2026-09-22 01:15:07",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Try Grok 4.7 - it excels at coding, engineering work, and 3D, and the model is a fantastic thought partner at high TPS in Grok Build and Cursor",
-      "quote": {
-        "author": "SpaceXAI",
-        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 00:17:53",
-        "created_at_utc": "2026-09-21T16:17:53.000Z",
-        "id": "2102069815225586149",
-        "images": [
-          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
-        ],
-        "name": "SpaceXAI",
-        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
-        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "milichab",
-        "avatar": "https://pbs.twimg.com/profile_images/1466472908977487881/-dym5k04_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 00:31:43",
-        "created_at_utc": "2026-09-21T16:31:43.000Z",
-        "id": "2102073296900796862",
-        "images": [],
-        "name": "Andrew Milich",
-        "text": "Try Grok 4.7 - it excels at coding, engineering work, and 3D, and the model is a fantastic thought partner at high TPS in Grok Build and Cursor",
-        "url": "https://x.com/milichab/status/2102073296900796862",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 55,
-        "likes": 1521,
-        "quotes": 7,
-        "replies": 118,
-        "retweets": 198,
-        "views": 496485
-      },
-      "url": "https://x.com/elonmusk/status/2102084221086904559",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 135,
+  "total": 136,
   "total_pages": 7,
-  "updated_at_shanghai": "2026-09-24 11:06:58",
+  "updated_at_shanghai": "2026-09-24 11:38:19",
   "account": "elonmusk"
 }
