@@ -266,6 +266,66 @@ class ClassifyTests(unittest.TestCase):
         self.assertEqual(len(post["quote"]["images"]), 1)
         self.assertEqual(post["quote"]["media"][0]["type"], "photo")
 
+    def test_rocketlab_timeline_maps_repost_and_photo(self):
+        from feed_core import posts_from_fxt_statuses
+
+        owner = {
+            "handle": "rocketlab",
+            "name": "Rocket Lab",
+            "avatar": "https://pbs.twimg.com/profile_images/rl.jpg",
+            "verified": True,
+            "verified_type": "organization",
+        }
+        posts = posts_from_fxt_statuses(
+            [
+                {
+                    "id": "301",
+                    "type": "status",
+                    "text": "For your joy.",
+                    "created_timestamp": 1789800085,
+                    "author": _author("Peter Beck", "Peter_J_Beck"),
+                    "reposted_by": {
+                        "name": "Rocket Lab",
+                        "screen_name": "RocketLab",
+                        "avatar_url": "https://pbs.twimg.com/rl.jpg",
+                    },
+                    "reposts": 9,
+                    "likes": 5,
+                    "views": 6,
+                    "url": "https://x.com/Peter_J_Beck/status/301",
+                },
+                {
+                    "id": "400",
+                    "type": "status",
+                    "text": "Launch",
+                    "created_at": "Wed Sep 23 02:09:06 +0000 2026",
+                    "author": _author("Rocket Lab", "RocketLab", True, "organization"),
+                    "likes": 1,
+                    "reposts": 2,
+                    "url": "https://x.com/RocketLab/status/400",
+                    "media": {
+                        "photos": [
+                            {
+                                "type": "photo",
+                                "url": "https://pbs.twimg.com/media/abc.jpg?name=orig",
+                            }
+                        ]
+                    },
+                },
+            ],
+            owner,
+        )
+        self.assertEqual(posts[0]["type_label"], "转发")
+        self.assertEqual(posts[0]["account"], "rocketlab")
+        self.assertEqual(posts[0]["author"], "rocketlab")
+        self.assertEqual(posts[0]["url"], "https://x.com/rocketlab")
+        self.assertEqual(posts[0]["retweet"]["author"], "Peter_J_Beck")
+        self.assertEqual(posts[0]["engagement"]["retweets"], 9)
+        self.assertEqual(posts[1]["type_label"], "原文")
+        self.assertEqual(posts[1]["url"], "https://x.com/rocketlab/status/400")
+        self.assertEqual(posts[1]["author_verified_type"], "organization")
+        self.assertIn("name=small", posts[1]["images"][0])
+
 
 class DbTests(unittest.TestCase):
     def setUp(self):
@@ -363,6 +423,27 @@ class DbTests(unittest.TestCase):
         self.assertEqual(row["quote"]["author"], "rauchg")
         self.assertFalse(row["enriched"])
 
+    def test_same_status_id_stays_on_its_account(self):
+        db.upsert_posts([self._post(1, text="elon")])
+        db.upsert_posts(
+            [
+                self._post(
+                    1,
+                    account="rocketlab",
+                    author="rocketlab",
+                    author_name="Rocket Lab",
+                    text="rl",
+                    url="https://x.com/rocketlab/status/1",
+                )
+            ]
+        )
+        elon = db.get_all_posts(account="elonmusk")
+        rl = db.get_all_posts(account="rocketlab")
+        self.assertEqual([p["text"] for p in elon], ["elon"])
+        self.assertEqual([p["text"] for p in rl], ["rl"])
+        self.assertEqual(db.get_posts_page(1, 20, account="elonmusk")["total"], 1)
+        self.assertEqual(db.count_posts(), 2)
+
 
 class ExportTests(unittest.TestCase):
     def setUp(self):
@@ -459,7 +540,7 @@ class AccountRegistryTests(unittest.TestCase):
         self.assertEqual(accounts.normalize_handle("@ElonMusk"), "elonmusk")
         self.assertEqual(accounts.normalize_handle("../etc"), "")
         self.assertEqual(accounts.normalize_handle("elon musk"), "")
-        self.assertEqual(accounts.live_handles(), {"elonmusk"})
+        self.assertEqual(accounts.live_handles(), {"elonmusk", "rocketlab"})
         missing = Path(_TMP) / "no-such-accounts.json"
         seeded = accounts.load_accounts(missing)
         self.assertEqual([a["handle"] for a in seeded], ["elonmusk"])

@@ -22,7 +22,7 @@ from pathlib import Path
 from typing import Any
 
 import db
-from accounts import ensure_accounts_file, load_accounts
+from accounts import ensure_accounts_file, live_handles, load_accounts
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_DEST = ROOT / "docs" / "data"
@@ -99,14 +99,14 @@ def _page_payload(
 def posts_for_handle(handle: str) -> list[dict] | None:
     """Posts to export for ``handle``, or None when that account has no source.
 
-    @elonmusk is the SQLite feed ``sync.py`` already maintains. Another handle
-    stays None until a fetcher returns its posts here; existing static files
-    under ``docs/data/<handle>/`` are left untouched.
+    Synced handles (``elonmusk``, ``rocketlab``) come from SQLite filtered by
+    ``account``. Another handle stays None so files already under
+    ``docs/data/<handle>/`` are left untouched.
     """
-    if handle == "elonmusk":
-        db.init_db()
-        return db.get_all_posts()
-    return None
+    if handle not in live_handles():
+        return None
+    db.init_db()
+    return db.get_all_posts(account=handle)
 
 
 def _export_dir(

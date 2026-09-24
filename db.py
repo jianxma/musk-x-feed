@@ -16,9 +16,12 @@ ROOT = Path(__file__).resolve().parent
 DB_PATH = Path(os.environ.get("MUSK_FEED_DB", str(ROOT / "musk_feed.db")))
 FEED_JSON = ROOT / "docs" / "feed.json"
 
-SCHEMA = """
+# One row per watched account + status id. Retweet rows from a timeline can
+# reuse the original status id, so id alone is not unique across accounts.
+_CREATE_POSTS = """
 CREATE TABLE IF NOT EXISTS posts (
-    id TEXT PRIMARY KEY,
+    account TEXT NOT NULL DEFAULT 'elonmusk',
+    id TEXT NOT NULL,
     author TEXT,
     author_name TEXT,
     author_avatar TEXT,
@@ -36,10 +39,37 @@ CREATE TABLE IF NOT EXISTS posts (
     images_json TEXT,
     media_json TEXT,
     enriched INTEGER DEFAULT 0,
-    updated_at TEXT
-);
-CREATE INDEX IF NOT EXISTS idx_posts_created ON posts(created_at_utc DESC);
+    updated_at TEXT,
+    PRIMARY KEY (account, id)
+)
 """
+_CREATE_INDEX = (
+    "CREATE INDEX IF NOT EXISTS idx_posts_account_created "
+    "ON posts(account, created_at_utc DESC)"
+)
+SCHEMA = _CREATE_POSTS + ";\n" + _CREATE_INDEX + ";\n"
+_POST_COLUMNS = (
+    "account",
+    "id",
+    "author",
+    "author_name",
+    "author_avatar",
+    "author_verified",
+    "author_verified_type",
+    "created_at_utc",
+    "created_at_shanghai",
+    "type_label",
+    "text",
+    "quote_json",
+    "retweet_json",
+    "reply_to",
+    "engagement_json",
+    "url",
+    "images_json",
+    "media_json",
+    "enriched",
+    "updated_at",
+)
 
 _EXTRA_COLUMNS = {
     "author_avatar": "TEXT",
@@ -60,45 +90,114 @@ def _connect() -> sqlite3.Connection:
     return conn
 
 
+def _pk_columns(conn: sqlite3.Connection) -> list[str]:
+    rows = conn.execute("PRAGMA table_info(posts)").fetchall()
+    pk = sorted((int(row["pk"]), str(row["name"])) for row in rows if row["pk"])
+    return [name for _order, name in pk]
+
+
+def _rebuild_posts(conn: sqlite3.Connection) -> None:
+    """Move an id-only table onto PRIMARY KEY (account, id).
+
+    Rows written before accounts were split belong to @elonmusk.
+    """
+    have = {row["name"] for row in conn.execute("PRAGMA table_info(posts)").fetchall()}
+    conn.execute("ALTER TABLE posts RENAME TO posts_legacy")
+    conn.execute(_CREATE_POSTS)
+    conn.execute(_CREATE_INDEX)
+    selects: list[str] = []
+    for col in _POST_COLUMNS:
+        if col == "account":
+            if "account" in have:
+                selects.append("COALESCE(NULLIF(account, ''), 'elonmusk')")
+            else:
+                selects.append("'elonmusk'")
+        elif col in have:
+            selects.append(col)
+        elif col in {"author_verified", "enriched"}:
+            selects.append("0")
+        else:
+            selects.append("NULL")
+    conn.execute(
+        f"INSERT INTO posts ({', '.join(_POST_COLUMNS)}) "
+        f"SELECT {', '.join(selects)} FROM posts_legacy"
+    )
+    conn.execute("DROP TABLE posts_legacy")
+
+
 def _migrate(conn: sqlite3.Connection) -> None:
     have = {row["name"] for row in conn.execute("PRAGMA table_info(posts)").fetchall()}
+    if not have:
+        return
+    if _pk_columns(conn) != ["account", "id"]:
+        _rebuild_posts(conn)
+        have = {row["name"] for row in conn.execute("PRAGMA table_info(posts)").fetchall()}
     for name, decl in _EXTRA_COLUMNS.items():
         if name not in have:
             conn.execute(f"ALTER TABLE posts ADD COLUMN {name} {decl}")
+    conn.execute("UPDATE posts SET account = 'elonmusk' WHERE account IS NULL OR account = ''")
 
 
 def init_db() -> None:
     with _connect() as conn:
-        conn.executescript(SCHEMA)
+        # Old databases are keyed by id only and have no account column.
+        # Creating the account index before migrate would fail on those files.
+        conn.execute(_CREATE_POSTS)
         _migrate(conn)
+        conn.execute(_CREATE_INDEX)
     seed_from_feed_json_if_empty()
 
 
-def count_posts() -> int:
+def count_posts(account: str | None = None) -> int:
     with _connect() as conn:
-        row = conn.execute("SELECT COUNT(*) AS c FROM posts").fetchone()
+        if account:
+            row = conn.execute(
+                "SELECT COUNT(*) AS c FROM posts WHERE account = ?",
+                (account,),
+            ).fetchone()
+        else:
+            row = conn.execute("SELECT COUNT(*) AS c FROM posts").fetchone()
         return int(row["c"] if row else 0)
 
 
-def latest_updated_at() -> str:
+def latest_updated_at(account: str | None = None) -> str:
     with _connect() as conn:
-        row = conn.execute("SELECT MAX(updated_at) AS u FROM posts").fetchone()
+        if account:
+            row = conn.execute(
+                "SELECT MAX(updated_at) AS u FROM posts WHERE account = ?",
+                (account,),
+            ).fetchone()
+        else:
+            row = conn.execute("SELECT MAX(updated_at) AS u FROM posts").fetchone()
         return str(row["u"]) if row and row["u"] else ""
 
 
-def get_known_ids() -> set[str]:
+def get_known_ids(account: str | None = None) -> set[str]:
     with _connect() as conn:
-        rows = conn.execute("SELECT id FROM posts").fetchall()
+        if account:
+            rows = conn.execute(
+                "SELECT id FROM posts WHERE account = ?",
+                (account,),
+            ).fetchall()
+        else:
+            rows = conn.execute("SELECT id FROM posts").fetchall()
         return {str(r["id"]) for r in rows}
 
 
-def get_unenriched_ids(limit: int = 20) -> list[str]:
+def get_unenriched_ids(limit: int = 20, account: str | None = None) -> list[str]:
     with _connect() as conn:
-        rows = conn.execute(
-            "SELECT id FROM posts WHERE enriched = 0 "
-            "ORDER BY created_at_utc DESC LIMIT ?",
-            (int(limit),),
-        ).fetchall()
+        if account:
+            rows = conn.execute(
+                "SELECT id FROM posts WHERE enriched = 0 AND account = ? "
+                "ORDER BY created_at_utc DESC LIMIT ?",
+                (account, int(limit)),
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                "SELECT id FROM posts WHERE enriched = 0 "
+                "ORDER BY created_at_utc DESC LIMIT ?",
+                (int(limit),),
+            ).fetchall()
         return [str(r["id"]) for r in rows]
 
 
@@ -128,16 +227,17 @@ def _row_to_post(row: sqlite3.Row) -> dict[str, Any]:
     avatar = col("author_avatar") or ""
     verified = bool(col("author_verified") or 0)
     vtype = col("author_verified_type") or ""
-    # Older rows predate avatar/verified columns. The feed owner is always Musk.
+    # Older rows predate avatar/verified columns. Musk rows keep his defaults.
     if author == "elonmusk":
         avatar = avatar or DEFAULT_MUSK_AVATAR
         if not verified:
             verified = True
             vtype = vtype or "individual"
+    name_fallback = "Elon Musk" if author == "elonmusk" else author
     return {
         "id": row["id"],
         "author": author,
-        "author_name": row["author_name"] or "Elon Musk",
+        "author_name": row["author_name"] or name_fallback,
         "author_avatar": avatar,
         "author_verified": verified,
         "author_verified_type": vtype,
@@ -194,6 +294,14 @@ def _normalize_quote(quote: Any) -> Any:
     return out
 
 
+def _account_of(p: dict) -> str:
+    raw = str(p.get("account") or "elonmusk").strip()
+    if raw.startswith("@"):
+        raw = raw[1:]
+    raw = raw.strip().lower()
+    return raw or "elonmusk"
+
+
 def _prepare(p: dict) -> dict[str, Any]:
     quote = _normalize_quote(p.get("quote"))
     retweet = _normalize_quote(p.get("retweet")) if isinstance(p.get("retweet"), dict) else None
@@ -204,10 +312,14 @@ def _prepare(p: dict) -> dict[str, Any]:
         images = []
     images = [str(u) for u in images if u]
     media = _clean_media(p.get("media"))
+    account = _account_of(p)
+    author_default = account
+    name_default = "Elon Musk" if account == "elonmusk" else account
     return {
+        "account": account,
         "id": str(p.get("id") or ""),
-        "author": p.get("author") or "elonmusk",
-        "author_name": p.get("author_name") or "Elon Musk",
+        "author": p.get("author") or author_default,
+        "author_name": p.get("author_name") or name_default,
         "author_avatar": p.get("author_avatar") or "",
         "author_verified": 1 if p.get("author_verified") else 0,
         "author_verified_type": p.get("author_verified_type") or "",
@@ -312,19 +424,24 @@ def upsert_posts(posts: list[dict]) -> dict[str, int]:
     now = now_shanghai()
     with _connect() as conn:
         _migrate(conn)
-        known_rows = {
-            str(r["id"]): _row_to_post(r)
-            for r in conn.execute("SELECT * FROM posts").fetchall()
-        }
+        known_rows: dict[tuple[str, str], dict[str, Any]] = {}
+        for r in conn.execute("SELECT * FROM posts").fetchall():
+            post = _row_to_post(r)
+            acct = _account_of({"account": r["account"] if "account" in r.keys() else "elonmusk"})
+            post["account"] = acct
+            known_rows[(acct, str(r["id"]))] = post
         for raw in posts:
             inc = _prepare(raw)
             tid = inc["id"]
+            acct = inc["account"]
             if not tid:
                 continue
-            if tid in known_rows:
-                merged = _merge(known_rows[tid], inc)
+            key = (acct, tid)
+            if key in known_rows:
+                merged = _merge(known_rows[key], inc)
                 merged["id"] = tid
-                if _material(merged) == _material(known_rows[tid]):
+                merged["account"] = acct
+                if _material(merged) == _material(known_rows[key]):
                     continue
                 conn.execute(
                     """UPDATE posts SET
@@ -332,7 +449,7 @@ def upsert_posts(posts: list[dict]) -> dict[str, int]:
                         author_verified_type=?, created_at_utc=?, created_at_shanghai=?,
                         type_label=?, text=?, quote_json=?, retweet_json=?, reply_to=?,
                         engagement_json=?, url=?, images_json=?, media_json=?, enriched=?, updated_at=?
-                    WHERE id=?""",
+                    WHERE account=? AND id=?""",
                     (
                         merged["author"],
                         merged["author_name"],
@@ -352,21 +469,22 @@ def upsert_posts(posts: list[dict]) -> dict[str, int]:
                         _dump(merged.get("media") or []),
                         merged["enriched"],
                         now,
+                        acct,
                         tid,
                     ),
                 )
-                merged_row = dict(merged)
-                known_rows[tid] = merged_row
+                known_rows[key] = dict(merged)
                 updated += 1
             else:
                 conn.execute(
                     """INSERT INTO posts (
-                        id, author, author_name, author_avatar, author_verified,
+                        account, id, author, author_name, author_avatar, author_verified,
                         author_verified_type, created_at_utc, created_at_shanghai,
                         type_label, text, quote_json, retweet_json, reply_to,
                         engagement_json, url, images_json, media_json, enriched, updated_at
-                    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
                     (
+                        acct,
                         tid,
                         inc["author"],
                         inc["author_name"],
@@ -388,27 +506,37 @@ def upsert_posts(posts: list[dict]) -> dict[str, int]:
                         now,
                     ),
                 )
-                known_rows[tid] = dict(inc)
+                known_rows[key] = dict(inc)
                 inserted += 1
         if inserted or updated:
             conn.commit()
     return {"inserted": inserted, "updated": updated}
 
 
-def get_posts_page(page: int = 1, page_size: int = 20) -> dict[str, Any]:
+def get_posts_page(page: int = 1, page_size: int = 20, account: str | None = None) -> dict[str, Any]:
     page = max(1, int(page or 1))
     page_size = max(1, min(100, int(page_size or 20)))
-    total = count_posts()
+    total = count_posts(account)
     total_pages = max(1, math.ceil(total / page_size)) if total else 1
     if page > total_pages:
         page = total_pages
     offset = (page - 1) * page_size
     with _connect() as conn:
-        rows = conn.execute(
-            "SELECT * FROM posts ORDER BY created_at_utc DESC LIMIT ? OFFSET ?",
-            (page_size, offset),
-        ).fetchall()
-        meta = conn.execute("SELECT MAX(updated_at) AS u FROM posts").fetchone()
+        if account:
+            rows = conn.execute(
+                "SELECT * FROM posts WHERE account = ? ORDER BY created_at_utc DESC LIMIT ? OFFSET ?",
+                (account, page_size, offset),
+            ).fetchall()
+            meta = conn.execute(
+                "SELECT MAX(updated_at) AS u FROM posts WHERE account = ?",
+                (account,),
+            ).fetchone()
+        else:
+            rows = conn.execute(
+                "SELECT * FROM posts ORDER BY created_at_utc DESC LIMIT ? OFFSET ?",
+                (page_size, offset),
+            ).fetchall()
+            meta = conn.execute("SELECT MAX(updated_at) AS u FROM posts").fetchone()
     return {
         "posts": [_row_to_post(r) for r in rows],
         "page": page,
@@ -419,11 +547,17 @@ def get_posts_page(page: int = 1, page_size: int = 20) -> dict[str, Any]:
     }
 
 
-def get_all_posts() -> list[dict[str, Any]]:
+def get_all_posts(account: str | None = None) -> list[dict[str, Any]]:
     with _connect() as conn:
-        rows = conn.execute(
-            "SELECT * FROM posts ORDER BY created_at_utc DESC"
-        ).fetchall()
+        if account:
+            rows = conn.execute(
+                "SELECT * FROM posts WHERE account = ? ORDER BY created_at_utc DESC",
+                (account,),
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                "SELECT * FROM posts ORDER BY created_at_utc DESC"
+            ).fetchall()
     return [_row_to_post(r) for r in rows]
 
 

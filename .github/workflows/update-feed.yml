@@ -55,5 +55,5 @@ jobs:
             echo "No staged changes after export; skip commit"
             exit 0
           fi
-          git commit -m "chore: update Elon Musk X feed [skip ci]"
+          git commit -m "chore: update X feed [skip ci]"
           git push

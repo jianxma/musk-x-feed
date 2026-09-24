@@ -11,10 +11,10 @@ To add an account later:
    are pinned, the rest go under 「更多」.
 2. Put that account's pages at ``docs/data/<handle>/manifest.json`` and
    ``page-N.json`` (same shape as ``/api/feed``).
-3. ``sync.py --export`` writes that tree for handles that
-   ``export_pages.posts_for_handle`` knows. Today only ``elonmusk`` is
-   fetched into SQLite. Until a handle has a source, export leaves any
-   files already under ``docs/data/<handle>/`` alone.
+3. ``sync.py --export`` writes that tree for handles in
+   ``feed_core.synced_handles``. Today that is ``elonmusk`` (xtracker) and
+   ``rocketlab`` (FxTwitter v2 timeline). Handles outside that set are left
+   untouched under ``docs/data/<handle>/``.
 """
 
 from __future__ import annotations
@@ -100,11 +100,13 @@ def ensure_accounts_file(path: Path, accounts: list[dict[str, str]] | None = Non
 
 
 def live_handles() -> set[str]:
-    """Handles the local SQLite API can serve.
+    """Handles whose rows live in this SQLite database.
 
     The static site can list more accounts than this. Those stay on
-    ``docs/data/<handle>/`` until the scraper and ``posts_for_handle`` learn
-    them. Do not add a handle here unless its rows live in this database —
+    ``docs/data/<handle>/`` until a fetcher and ``posts_for_handle`` learn
+    them. Do not add a handle here unless its rows are stored on ``account`` —
     the API would otherwise serve the wrong timeline.
     """
-    return {DEFAULT_HANDLE}
+    from feed_core import synced_handles
+
+    return synced_handles()

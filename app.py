@@ -129,7 +129,7 @@ class Handler(SimpleHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(err)
                 return
-            data = db.get_posts_page(page=page, page_size=page_size)
+            data = db.get_posts_page(page=page, page_size=page_size, account=account)
             data["account"] = account
             body = json.dumps(data, ensure_ascii=False).encode("utf-8")
             self.send_response(200)
