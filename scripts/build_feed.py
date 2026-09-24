@@ -6,7 +6,7 @@ The live site is no longer one giant HTML file. Prefer:
   python3 sync.py
   python3 app.py
 
-GitHub Actions calls `python3 sync.py --export`, which writes docs/data/page-N.json.
+GitHub Actions calls `python3 sync.py --export`, which writes docs/data/<handle>/page-N.json.
 """
 
 from __future__ import annotations

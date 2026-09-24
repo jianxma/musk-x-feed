@@ -23,6 +23,7 @@ from typing import Any
 from urllib.parse import parse_qs, urlparse
 
 import db
+from accounts import DEFAULT_HANDLE, live_handles, normalize_handle
 from feed_core import now_shanghai, sync_incremental
 
 ROOT = Path(__file__).resolve().parent
@@ -104,7 +105,32 @@ class Handler(SimpleHTTPRequestHandler):
                 page_size = int((qs.get("page_size") or ["20"])[0])
             except ValueError:
                 page_size = 20
+            account = normalize_handle((qs.get("account") or [DEFAULT_HANDLE])[0]) or DEFAULT_HANDLE
+            # Unknown handles are static-only. 404 lets the SPA read
+            # docs/data/<handle>/ instead of showing this database.
+            if account not in live_handles():
+                err = json.dumps(
+                    {
+                        "posts": [],
+                        "page": 1,
+                        "page_size": page_size,
+                        "total": 0,
+                        "total_pages": 1,
+                        "updated_at_shanghai": now_shanghai(),
+                        "account": account,
+                        "error": "noapi",
+                    },
+                    ensure_ascii=False,
+                ).encode("utf-8")
+                self.send_response(404)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Cache-Control", "no-store")
+                self.send_header("Content-Length", str(len(err)))
+                self.end_headers()
+                self.wfile.write(err)
+                return
             data = db.get_posts_page(page=page, page_size=page_size)
+            data["account"] = account
             body = json.dumps(data, ensure_ascii=False).encode("utf-8")
             self.send_response(200)
             self.send_header("Content-Type", "application/json; charset=utf-8")

@@ -21,7 +21,7 @@ def main() -> int:
     parser.add_argument(
         "--export",
         action="store_true",
-        help="also write paginated docs/data JSON for GitHub Pages",
+        help="also write paginated docs/data/<handle> JSON for GitHub Pages",
     )
     args = parser.parse_args()
     try:

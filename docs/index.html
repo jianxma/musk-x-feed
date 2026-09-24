@@ -77,6 +77,137 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
+    .account-row {
+      display: flex;
+      align-items: stretch;
+      height: 36px;
+      margin-bottom: -1px;
+      min-width: 0;
+    }
+    .account-tabs {
+      display: flex;
+      flex: 1 1 auto;
+      align-items: stretch;
+      min-width: 0;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }
+    .account-tabs::-webkit-scrollbar { display: none; }
+    .account-tab,
+    .account-more {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      height: 100%;
+      margin: 0;
+      padding: 0 12px;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 16px;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    .account-tab:hover,
+    .account-more:hover { background: var(--hover); }
+    .account-tab.is-selected,
+    .account-more.is-selected {
+      color: var(--text);
+      font-weight: 700;
+      border-bottom-color: var(--accent);
+    }
+    .account-tab .account-handle,
+    .account-menu-item .account-handle {
+      color: var(--muted);
+      font-weight: 400;
+    }
+    .account-tab:focus-visible,
+    .account-more:focus-visible,
+    .account-menu-item:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: -2px;
+    }
+    .account-avatar-wrap {
+      position: relative;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: #202327;
+      flex: 0 0 auto;
+    }
+    .account-avatar {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .account-avatar.broken { display: none; }
+    .account-fallback {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .account-overflow {
+      position: relative;
+      flex: 0 0 auto;
+      display: flex;
+      align-items: stretch;
+    }
+    .account-more[hidden],
+    .account-menu[hidden] { display: none !important; }
+    .account-menu {
+      position: absolute;
+      top: calc(100% + 4px);
+      right: 8px;
+      z-index: 8;
+      min-width: 220px;
+      max-width: min(280px, calc(100vw - 24px));
+      margin: 0;
+      padding: 4px 0;
+      background: #000;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+    }
+    .account-menu-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      margin: 0;
+      padding: 10px 12px;
+      border: 0;
+      background: transparent;
+      color: var(--text);
+      font: inherit;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: left;
+      cursor: pointer;
+    }
+    .account-menu-item:hover { background: var(--hover); }
+    .account-menu-item.is-selected { background: rgba(29, 155, 240, 0.12); }
+    .account-menu-text {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+    .account-menu-text .account-handle { font-size: 13px; line-height: 16px; }
     .tweet {
       display: grid;
       grid-template-columns: 40px minmax(0, 1fr);
@@ -471,6 +602,22 @@
         <h1>马斯克</h1>
         <p class="sub" id="statusText">正在加载时间线…</p>
       </div>
+      <div class="account-row" id="accountRow">
+        <div class="account-tabs" id="accountTabs" role="tablist" aria-label="账号">
+          <button type="button" class="account-tab is-selected" role="tab" aria-selected="true" data-handle="elonmusk">
+            <span class="account-avatar-wrap">
+              <span class="account-fallback" aria-hidden="true">E</span>
+              <img class="account-avatar" src="https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg" alt="" referrerpolicy="no-referrer" onerror="this.classList.add('broken')">
+            </span>
+            <span class="account-name">Elon Musk</span>
+            <span class="account-handle">@elonmusk</span>
+          </button>
+        </div>
+        <div class="account-overflow">
+          <button type="button" id="accountMore" class="account-more" hidden aria-haspopup="menu" aria-expanded="false" aria-controls="accountMenu">更多</button>
+          <div id="accountMenu" class="account-menu" role="menu" hidden></div>
+        </div>
+      </div>
     </header>
     <main id="feed"><p class="empty">正在加载…</p></main>
     <nav class="pager" id="pager" hidden>
@@ -505,6 +652,12 @@
   var page = readPage();
   var totalPages = 1;
   var mode = 'unknown';
+  var PINNED_TABS = 4;
+  var ACCOUNT_KEY = 'musk-x-feed-account';
+  var DEFAULT_AVATAR = 'https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg';
+  var accounts = [{ handle: 'elonmusk', name: 'Elon Musk', avatar: DEFAULT_AVATAR }];
+  var currentHandle = readStoredHandle() || 'elonmusk';
+  var loadGen = 0;
 
   var ICON = {
     repost: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"></path></svg>',
@@ -645,7 +798,180 @@
 
   function profileLink(handle) {
     handle = String(handle || '').replace(/^@/, '');
-    return handle ? ('https://x.com/' + handle) : 'https://x.com/elonmusk';
+    if (!handle) handle = currentHandle || 'elonmusk';
+    return 'https://x.com/' + handle;
+  }
+
+  function normalizeHandle(value) {
+    var raw = String(value || '').replace(/^@/, '').trim().toLowerCase();
+    return /^[a-z0-9_]{1,15}$/.test(raw) ? raw : '';
+  }
+
+  function readStoredHandle() {
+    try {
+      return normalizeHandle(localStorage.getItem(ACCOUNT_KEY));
+    } catch (err) {
+      return '';
+    }
+  }
+
+  function currentAccount() {
+    for (var i = 0; i < accounts.length; i++) {
+      if (accounts[i].handle === currentHandle) return accounts[i];
+    }
+    return accounts[0] || { handle: 'elonmusk', name: 'Elon Musk', avatar: DEFAULT_AVATAR };
+  }
+
+  function accountLabel(account) {
+    return (account && (account.name || account.display_name)) || (account && account.handle) || '';
+  }
+
+  function accountAvatarHtml(account) {
+    var src = safeUrl(account && account.avatar);
+    var img = src
+      ? '<img class="account-avatar" src="' + esc(src) + '" alt="" referrerpolicy="no-referrer" onerror="this.classList.add(\'broken\')">'
+      : '';
+    return '<span class="account-avatar-wrap">' +
+      '<span class="account-fallback" aria-hidden="true">' + initial(accountLabel(account), account && account.handle) + '</span>' +
+      img + '</span>';
+  }
+
+  function closeAccountMenu() {
+    var menu = document.getElementById('accountMenu');
+    var more = document.getElementById('accountMore');
+    if (!menu || !more) return;
+    menu.hidden = true;
+    more.setAttribute('aria-expanded', 'false');
+  }
+
+  function toggleAccountMenu() {
+    var menu = document.getElementById('accountMenu');
+    var more = document.getElementById('accountMore');
+    if (!menu || !more || more.hidden) return;
+    var willOpen = menu.hidden;
+    menu.hidden = !willOpen;
+    more.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+    if (willOpen) {
+      var focusEl = menu.querySelector('.is-selected') || menu.querySelector('[data-handle]');
+      if (focusEl) focusEl.focus();
+    }
+  }
+
+  function renderAccountBar() {
+    var pinned = accounts.slice(0, PINNED_TABS);
+    var overflow = accounts.slice(PINNED_TABS);
+    var tabs = document.getElementById('accountTabs');
+    tabs.innerHTML = pinned.map(function (account) {
+      var selected = account.handle === currentHandle;
+      return '<button type="button" class="account-tab' + (selected ? ' is-selected' : '') +
+        '" role="tab" data-handle="' + esc(account.handle) + '" aria-selected="' +
+        (selected ? 'true' : 'false') + '">' +
+        accountAvatarHtml(account) +
+        '<span class="account-name">' + esc(accountLabel(account)) + '</span>' +
+        '<span class="account-handle">@' + esc(account.handle) + '</span></button>';
+    }).join('');
+    var more = document.getElementById('accountMore');
+    var menu = document.getElementById('accountMenu');
+    if (!overflow.length) {
+      more.hidden = true;
+      more.classList.remove('is-selected');
+      closeAccountMenu();
+      menu.innerHTML = '';
+      return;
+    }
+    more.hidden = false;
+    var overflowSelected = overflow.some(function (account) { return account.handle === currentHandle; });
+    more.classList.toggle('is-selected', overflowSelected);
+    menu.innerHTML = overflow.map(function (account) {
+      var selected = account.handle === currentHandle;
+      return '<button type="button" class="account-menu-item' + (selected ? ' is-selected' : '') +
+        '" role="menuitemradio" data-handle="' + esc(account.handle) + '" aria-checked="' +
+        (selected ? 'true' : 'false') + '">' +
+        accountAvatarHtml(account) +
+        '<span class="account-menu-text"><span class="account-name">' + esc(accountLabel(account)) +
+        '</span><span class="account-handle">@' + esc(account.handle) + '</span></span></button>';
+    }).join('');
+  }
+
+  function chooseAccount(handle) {
+    handle = normalizeHandle(handle);
+    closeAccountMenu();
+    if (!handle) return;
+    var known = false;
+    for (var i = 0; i < accounts.length; i++) {
+      if (accounts[i].handle === handle) known = true;
+    }
+    if (!known || handle === currentHandle) return;
+    currentHandle = handle;
+    try { localStorage.setItem(ACCOUNT_KEY, handle); } catch (err) {}
+    expandedText = Object.create(null);
+    closeLightbox();
+    renderAccountBar();
+    page = 1;
+    var url = new URL(location.href);
+    url.searchParams.delete('page');
+    history.replaceState({ page: 1 }, '', url);
+    window.scrollTo(0, 0);
+    return load();
+  }
+
+  function onAccountRowClick(e) {
+    if (e.target.closest('#accountMore')) {
+      e.preventDefault();
+      toggleAccountMenu();
+      return;
+    }
+    var item = e.target.closest('[data-handle]');
+    if (!item || !document.getElementById('accountRow').contains(item)) return;
+    e.preventDefault();
+    chooseAccount(item.getAttribute('data-handle'));
+  }
+
+  function parseAccountList(data) {
+    var rows = data && data.accounts;
+    if (!Array.isArray(rows) && Array.isArray(data)) rows = data;
+    var list = [];
+    var seen = {};
+    if (!Array.isArray(rows)) return list;
+    rows.forEach(function (row) {
+      var handle = normalizeHandle(row && (row.handle || row.screen_name));
+      if (!handle || seen[handle]) return;
+      seen[handle] = 1;
+      var name = String((row && (row.name || row.display_name)) || '').trim();
+      list.push({
+        handle: handle,
+        name: name || handle,
+        avatar: safeUrl(row && (row.avatar || row.avatar_url))
+      });
+    });
+    return list;
+  }
+
+  function boot() {
+    var saved = readStoredHandle();
+    fetch(appBase() + 'data/accounts.json', { cache: 'no-store' }).then(function (r) {
+      if (!r.ok) throw new Error('no accounts');
+      return r.json();
+    }).then(parseAccountList).catch(function () {
+      return [];
+    }).then(function (list) {
+      if (!list.length) {
+        list = [{ handle: 'elonmusk', name: 'Elon Musk', avatar: DEFAULT_AVATAR }];
+      }
+      accounts = list;
+      var found = false;
+      for (var i = 0; i < accounts.length; i++) {
+        if (accounts[i].handle === saved) found = true;
+      }
+      currentHandle = found ? saved : accounts[0].handle;
+      try { localStorage.setItem(ACCOUNT_KEY, currentHandle); } catch (err) {}
+      renderAccountBar();
+      var selectedBtn = document.querySelector('#accountTabs .account-tab.is-selected');
+      if (selectedBtn && selectedBtn.scrollIntoView) {
+        selectedBtn.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+      }
+      load();
+    });
   }
 
   function coerceMedia(list) {
@@ -738,6 +1064,7 @@
   }
 
   function renderPost(p) {
+    var owner = currentAccount();
     var isRt = (p.type_label === '转发' || p.type === '转发') && p.retweet;
     var rt = isRt ? p.retweet : null;
     var person, text, mediaList, timeUtc, timeAbs, timeHref, actionHref;
@@ -751,8 +1078,8 @@
       actionHref = safeUrl(rt.url) || safeUrl(p.url) || '#';
     } else {
       person = {
-        name: p.author_name || 'Elon Musk',
-        author: p.author || 'elonmusk',
+        name: p.author_name || owner.name || 'Elon Musk',
+        author: p.author || owner.handle || 'elonmusk',
         avatar: p.author_avatar,
         verified: p.author_verified !== false,
         verified_type: p.author_verified_type || 'individual'
@@ -768,8 +1095,8 @@
     if (rt && p.reply_to) replyTo = p.reply_to;
     var context = '';
     if (rt) {
-      var muskName = p.author_name || 'Elon Musk';
-      var muskHref = safeUrl(p.url) || 'https://x.com/elonmusk';
+      var muskName = p.author_name || owner.name || 'Elon Musk';
+      var muskHref = safeUrl(p.url) || profileLink(owner.handle);
       context = '<div class="context"><span class="ctx-icon">' + ICON.repost + '</span>' +
         '<a href="' + esc(muskHref) + '" target="_blank" rel="noopener noreferrer">' +
         esc(muskName) + ' 转发了</a></div>';
@@ -809,8 +1136,9 @@
     btnNext.disabled = page >= totalPages;
   }
 
-  function tryApi(n) {
-    var url = appBase() + 'api/feed?page=' + n + '&page_size=' + PAGE_SIZE;
+  function tryApi(n, handle) {
+    var url = appBase() + 'api/feed?account=' + encodeURIComponent(handle) +
+      '&page=' + n + '&page_size=' + PAGE_SIZE;
     return fetch(url, { cache: 'no-store' }).then(function (r) {
       var ct = r.headers.get('content-type') || '';
       if (!r.ok || ct.indexOf('json') === -1) throw new Error('noapi');
@@ -819,18 +1147,27 @@
     });
   }
 
-  function tryStatic(n) {
-    var base = appBase();
-    return fetch(base + 'data/manifest.json', { cache: 'no-store' }).then(function (r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
-    }).then(function (man) {
+  function loadPageFile(dir, manifestPromise, n) {
+    return manifestPromise.then(function (man) {
       var tp = man.total_pages || 1;
       var p = Math.min(Math.max(1, n), tp);
-      return fetch(base + 'data/page-' + p + '.json', { cache: 'no-store' }).then(function (r) {
+      return fetch(dir + 'page-' + p + '.json', { cache: 'no-store' }).then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         mode = 'static';
         return r.json();
+      });
+    });
+  }
+
+  function tryStatic(n, handle) {
+    var base = appBase();
+    var nestedDir = base + 'data/' + encodeURIComponent(handle) + '/';
+    return fetch(nestedDir + 'manifest.json', { cache: 'no-store' }).then(function (r) {
+      if (r.ok) return loadPageFile(nestedDir, r.json(), n);
+      if (handle !== 'elonmusk') throw new Error('HTTP ' + r.status);
+      return fetch(base + 'data/manifest.json', { cache: 'no-store' }).then(function (legacy) {
+        if (!legacy.ok) throw new Error('HTTP ' + legacy.status);
+        return loadPageFile(base + 'data/', legacy.json(), n);
       });
     });
   }
@@ -914,16 +1251,32 @@
     syncOneText(el);
     if (willCollapse) {
       var top = el.getBoundingClientRect().top;
-      if (top < 48) window.scrollTo(0, window.scrollY + top - 48);
+      var header = document.querySelector('header.top');
+      var offset = header ? Math.round(header.getBoundingClientRect().height) + 8 : 48;
+      if (top < offset) window.scrollTo(0, window.scrollY + top - offset);
     }
   }
 
   function load() {
-    return tryApi(page).catch(function () {
-      return tryStatic(page);
-    }).then(applyData).catch(function (err) {
+    var gen = ++loadGen;
+    var handle = currentHandle || 'elonmusk';
+    var previous = feedEl.getAttribute('data-account') || '';
+    var switching = previous !== handle;
+    if (switching) {
+      feedEl.setAttribute('data-account', handle);
+      feedEl.innerHTML = '<p class="empty">正在加载…</p>';
+      pagerEl.hidden = true;
+      closeLightbox();
+    }
+    return tryApi(page, handle).catch(function () {
+      return tryStatic(page, handle);
+    }).then(function (data) {
+      if (gen !== loadGen || handle !== currentHandle) return;
+      applyData(data);
+    }).catch(function (err) {
+      if (gen !== loadGen || handle !== currentHandle) return;
       statusEl.textContent = '加载失败';
-      if (!feedEl.querySelector('.tweet')) {
+      if (switching || !feedEl.querySelector('.tweet')) {
         feedEl.innerHTML = '<p class="empty">无法加载动态：' + esc(err && err.message ? err.message : err) + '</p>';
       }
     });
@@ -1033,16 +1386,26 @@
   });
 
   document.addEventListener('keydown', function (e) {
-    if (lb.hidden) return;
+    if (!lb.hidden) {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        closeLightbox();
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        step(-1);
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        step(1);
+      }
+      return;
+    }
     if (e.key === 'Escape') {
-      e.preventDefault();
-      closeLightbox();
-    } else if (e.key === 'ArrowLeft') {
-      e.preventDefault();
-      step(-1);
-    } else if (e.key === 'ArrowRight') {
-      e.preventDefault();
-      step(1);
+      var menu = document.getElementById('accountMenu');
+      if (menu && !menu.hidden) {
+        e.preventDefault();
+        closeAccountMenu();
+        document.getElementById('accountMore').focus();
+      }
     }
   });
 
@@ -1081,7 +1444,16 @@
     clampResizeTimer = setTimeout(function () { syncTextClamps(feedEl); }, 150);
   });
 
-  load();
+  document.getElementById('accountRow').addEventListener('click', onAccountRowClick);
+  document.addEventListener('click', function (e) {
+    var menu = document.getElementById('accountMenu');
+    var more = document.getElementById('accountMore');
+    if (!menu || menu.hidden) return;
+    if (more.contains(e.target) || menu.contains(e.target)) return;
+    closeAccountMenu();
+  });
+
+  boot();
   setInterval(function () {
     if (document.hidden) return;
     load();
