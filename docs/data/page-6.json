@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2101825893710856301",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T00:08:37.000Z",
+      "created_at_shanghai": "2026-09-21 08:08:37",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "ALIGNMENT must be the #1 objective.  Train next generation models on aligned data sets. Not the crap on Reddit and Facebook",
+      "quote": null,
+      "retweet": {
+        "author": "PeterDiamandis",
+        "avatar": "https://pbs.twimg.com/profile_images/1270804940936503296/oVhO8Njn_200x200.jpg",
+        "created_at_shanghai": "2026-09-21 02:42:12",
+        "created_at_utc": "2026-09-20T18:42:12.000Z",
+        "id": "2101743745486196960",
+        "images": [],
+        "name": "Peter H. Diamandis, MD",
+        "text": "ALIGNMENT must be the #1 objective.  Train next generation models on aligned data sets. Not the crap on Reddit and Facebook",
+        "url": "https://x.com/PeterDiamandis/status/2101743745486196960",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 133,
+        "likes": 3300,
+        "quotes": 36,
+        "replies": 354,
+        "retweets": 284,
+        "views": 594305
+      },
+      "url": "https://x.com/elonmusk/status/2101825893710856301",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2101818870176813185",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -965,74 +1005,11 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101595169703485730",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-20T08:51:48.000Z",
-      "created_at_shanghai": "2026-09-20 16:51:48",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "The only Tesla with 18 wheels",
-      "quote": null,
-      "retweet": {
-        "author": "tesla_semi",
-        "avatar": "https://pbs.twimg.com/profile_images/2021306606449983491/eLU01mFt_200x200.jpg",
-        "created_at_shanghai": "2026-04-23 00:28:36",
-        "created_at_utc": "2026-04-22T16:28:36.000Z",
-        "id": "2046989558848397507",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2046989383102849024/img/l10aCReHKtIzAUSG.jpg"
-        ],
-        "media": [
-          {
-            "duration": 25.608,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2046989383102849024/img/l10aCReHKtIzAUSG.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2046989383102849024/vid/avc1/3840x2160/mKL8MqkzVgsM5HzM.mp4?tag=21",
-            "width": 3840
-          }
-        ],
-        "name": "Tesla Semi",
-        "text": "The only Tesla with 18 wheels",
-        "url": "https://x.com/tesla_semi/status/2046989558848397507",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 318,
-        "likes": 10284,
-        "quotes": 96,
-        "replies": 307,
-        "retweets": 1019,
-        "views": 1242324
-      },
-      "url": "https://x.com/elonmusk/status/2101595169703485730",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2046989383102849024/img/l10aCReHKtIzAUSG.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2046989383102849024/vid/avc1/3840x2160/mKL8MqkzVgsM5HzM.mp4?tag=21",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2046989383102849024/img/l10aCReHKtIzAUSG.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 25.608
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 20,
-  "total": 128,
+  "total": 129,
   "total_pages": 7,
-  "updated_at_shanghai": "2026-09-24 07:39:35"
+  "updated_at_shanghai": "2026-09-24 09:22:44"
 }

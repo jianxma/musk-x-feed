@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "id": "2102071839690252484",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T16:25:55.000Z",
+      "created_at_shanghai": "2026-09-22 00:25:55",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2471,
+        "likes": 28133,
+        "quotes": 1889,
+        "replies": 1428,
+        "retweets": 3035,
+        "views": 14210717
+      },
+      "url": "https://x.com/elonmusk/status/2102071839690252484",
+      "images": [
+        "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+      ],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102068833729052707",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -909,51 +953,11 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101825893710856301",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T00:08:37.000Z",
-      "created_at_shanghai": "2026-09-21 08:08:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "ALIGNMENT must be the #1 objective.  Train next generation models on aligned data sets. Not the crap on Reddit and Facebook",
-      "quote": null,
-      "retweet": {
-        "author": "PeterDiamandis",
-        "avatar": "https://pbs.twimg.com/profile_images/1270804940936503296/oVhO8Njn_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 02:42:12",
-        "created_at_utc": "2026-09-20T18:42:12.000Z",
-        "id": "2101743745486196960",
-        "images": [],
-        "name": "Peter H. Diamandis, MD",
-        "text": "ALIGNMENT must be the #1 objective.  Train next generation models on aligned data sets. Not the crap on Reddit and Facebook",
-        "url": "https://x.com/PeterDiamandis/status/2101743745486196960",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 133,
-        "likes": 3300,
-        "quotes": 36,
-        "replies": 354,
-        "retweets": 284,
-        "views": 594305
-      },
-      "url": "https://x.com/elonmusk/status/2101825893710856301",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 128,
+  "total": 129,
   "total_pages": 7,
-  "updated_at_shanghai": "2026-09-24 07:39:35"
+  "updated_at_shanghai": "2026-09-24 09:22:44"
 }
