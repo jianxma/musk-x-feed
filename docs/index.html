@@ -1260,6 +1260,14 @@
   function load() {
     var gen = ++loadGen;
     var handle = currentHandle || 'elonmusk';
+    var previous = feedEl.getAttribute('data-account') || '';
+    var switching = previous !== handle;
+    if (switching) {
+      feedEl.setAttribute('data-account', handle);
+      feedEl.innerHTML = '<p class="empty">正在加载…</p>';
+      pagerEl.hidden = true;
+      closeLightbox();
+    }
     return tryApi(page, handle).catch(function () {
       return tryStatic(page, handle);
     }).then(function (data) {
@@ -1268,7 +1276,7 @@
     }).catch(function (err) {
       if (gen !== loadGen || handle !== currentHandle) return;
       statusEl.textContent = '加载失败';
-      if (!feedEl.querySelector('.tweet')) {
+      if (switching || !feedEl.querySelector('.tweet')) {
         feedEl.innerHTML = '<p class="empty">无法加载动态：' + esc(err && err.message ? err.message : err) + '</p>';
       }
     });
