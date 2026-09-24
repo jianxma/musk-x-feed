@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2102406300303049172",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T14:34:57.000Z",
+      "created_at_shanghai": "2026-09-22 22:34:57",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok will be able to make photo-realistic &amp; physics-precise games",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 22:18:09",
+        "created_at_utc": "2026-09-22T14:18:09.000Z",
+        "id": "2102402070787862653",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102401361237377024/img/SQBHSBgRjweTTKtP.jpg"
+        ],
+        "media": [
+          {
+            "duration": 50.8,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102401361237377024/img/SQBHSBgRjweTTKtP.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102401361237377024/vid/avc1/1920x1080/k-lneZDppfN08LG0.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok 4.7 just built a GTA-style open-world game from a single prompt in Grok Build\n\nYou can walk around, drive cars, enter vehicles and explore an entire city\n\nIt looks insane, and I had way too much fun playing it 😂",
+        "url": "https://x.com/XFreeze/status/2102402070787862653",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 736,
+        "likes": 11262,
+        "quotes": 141,
+        "replies": 1443,
+        "retweets": 1411,
+        "views": 3451437
+      },
+      "url": "https://x.com/elonmusk/status/2102406300303049172",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102398931770409255",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -857,56 +909,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102105829306495312",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T18:40:59.000Z",
-      "created_at_shanghai": "2026-09-22 02:40:59",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: Grok 4.7 dominates the Legal Agent Benchmark. \n\nIt scored 19.6% on realistic, long-term legal tasks, beating every other model tested. That is nearly 3× Fable 5.1.\n\nAnother major win for Grok 4.7 and SpaceXAI.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 02:38:08",
-        "created_at_utc": "2026-09-21T18:38:08.000Z",
-        "id": "2102105111187321280",
-        "images": [
-          "https://pbs.twimg.com/media/HSwtXr2bcAACNBq.jpg?name=small"
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Grok 4.7 dominates the Legal Agent Benchmark. \n\nIt scored 19.6% on realistic, long-term legal tasks, beating every other model tested. That is nearly 3× Fable 5.1.\n\nAnother major win for Grok 4.7 and SpaceXAI.",
-        "url": "https://x.com/cb_doge/status/2102105111187321280",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 75,
-        "likes": 1589,
-        "quotes": 19,
-        "replies": 134,
-        "retweets": 251,
-        "views": 351361
-      },
-      "url": "https://x.com/elonmusk/status/2102105829306495312",
-      "images": [
-        "https://pbs.twimg.com/media/HSwtXr2bcAACNBq.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 143,
+  "total": 144,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-09-25 00:35:45",
+  "updated_at_shanghai": "2026-09-25 02:26:30",
   "account": "elonmusk"
 }
