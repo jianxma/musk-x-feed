@@ -878,11 +878,11 @@ def sync_incremental(
     verbose: bool = False,
     handles: list[str] | None = None,
 ) -> dict:
-    """Fetch watched accounts into SQLite. Does not rewrite HTML.
+    """Fetch every watched account into SQLite. Does not rewrite HTML.
 
-    ``handles`` limits the run (lowercase). The default is every synced account.
-    An @elonmusk primary failure still aborts, matching the previous job.
-    A later account's fetch error is recorded and does not discard Elon's sync.
+    ``handles`` limits the run (lowercase). The default is every synced account
+    (``elonmusk`` and ``rocketlab``). One account's fetch error is recorded and
+    the others still run, so a new post on either side can be exported.
     """
     import db as dbmod
 
@@ -912,11 +912,11 @@ def sync_incremental(
             else:
                 part = _empty_part(handle, [f"{handle}: unknown source"])
         except Exception as e:
-            if spec.get("source") == "xtracker":
-                raise
             msg = f"{handle}: {e}"
             failures.append(msg)
-            per_account.append(_empty_part(handle, [msg]))
+            part = _empty_part(handle, [msg])
+            part["fetch_error"] = True
+            per_account.append(part)
             if verbose:
                 print(f"Sync failed for @{handle}: {e}")
             continue

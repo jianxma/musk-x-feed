@@ -31,7 +31,15 @@ def main() -> int:
         f"sync inserted={result['inserted']} updated={result['updated']} "
         f"enriched={result['enriched']} total={result['total']}"
     )
+    for part in result.get("accounts") or []:
+        handle = part.get("handle") or "?"
+        if part.get("fetch_error"):
+            print(f"SYNC_ACCOUNT @{handle} failed")
+        else:
+            print(f"SYNC_ACCOUNT @{handle} inserted={part.get('inserted')}")
     export_pages()
+    if any(part.get("fetch_error") for part in result.get("accounts") or []):
+        return 1
     return 0
 
 

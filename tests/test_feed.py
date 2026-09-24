@@ -444,6 +444,81 @@ class DbTests(unittest.TestCase):
         self.assertEqual(db.get_posts_page(1, 20, account="elonmusk")["total"], 1)
         self.assertEqual(db.count_posts(), 2)
 
+    def test_failed_account_does_not_skip_the_other(self):
+        import feed_core
+
+        calls = []
+
+        def boom():
+            calls.append("elon")
+            raise RuntimeError("xtracker down")
+
+        def timeline(handle, **kwargs):
+            calls.append(handle)
+            return [
+                {
+                    "id": "900",
+                    "type": "status",
+                    "text": "Launch",
+                    "created_timestamp": 1790129346,
+                    "author": _author("Rocket Lab", "RocketLab", True, "organization"),
+                    "likes": 1,
+                    "reposts": 2,
+                }
+            ]
+
+        orig = (
+            feed_core.fetch_primary,
+            feed_core.fetch_fxtwitter_statuses,
+            feed_core.enrich_one,
+        )
+        feed_core.fetch_primary = boom
+        feed_core.fetch_fxtwitter_statuses = timeline
+        feed_core.enrich_one = lambda *args, **kwargs: (None, "offline")
+        try:
+            result = feed_core.sync_incremental(enrich_limit=1, sleep_between=0, verbose=False)
+        finally:
+            (
+                feed_core.fetch_primary,
+                feed_core.fetch_fxtwitter_statuses,
+                feed_core.enrich_one,
+            ) = orig
+        self.assertEqual([p["handle"] for p in result["accounts"]], ["elonmusk", "rocketlab"])
+        self.assertEqual(calls, ["elon", "rocketlab"])
+        elon = next(p for p in result["accounts"] if p["handle"] == "elonmusk")
+        rocket = next(p for p in result["accounts"] if p["handle"] == "rocketlab")
+        self.assertTrue(elon["fetch_error"])
+        self.assertFalse(rocket.get("fetch_error"))
+        self.assertEqual(db.get_all_posts(account="rocketlab")[0]["text"], "Launch")
+        self.assertEqual(db.get_all_posts(account="elonmusk"), [])
+
+        def primary():
+            return [
+                {
+                    "platformId": "42",
+                    "createdAt": "2026-09-22T00:00:00.000Z",
+                    "content": "from elon",
+                }
+            ]
+
+        def timeline_down(handle, **kwargs):
+            raise RuntimeError("fxtwitter down")
+
+        feed_core.fetch_primary = primary
+        feed_core.fetch_fxtwitter_statuses = timeline_down
+        feed_core.enrich_one = lambda *args, **kwargs: (None, "offline")
+        try:
+            again = feed_core.sync_incremental(enrich_limit=1, sleep_between=0, verbose=False)
+        finally:
+            (
+                feed_core.fetch_primary,
+                feed_core.fetch_fxtwitter_statuses,
+                feed_core.enrich_one,
+            ) = orig
+        self.assertEqual(db.get_posts_page(1, 20, account="elonmusk")["posts"][0]["text"], "from elon")
+        self.assertTrue(any(p.get("fetch_error") and p["handle"] == "rocketlab" for p in again["accounts"]))
+        self.assertEqual(db.get_all_posts(account="rocketlab")[0]["text"], "Launch")
+
 
 class ExportTests(unittest.TestCase):
     def setUp(self):

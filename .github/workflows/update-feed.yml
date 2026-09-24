@@ -1,4 +1,4 @@
-name: Update Musk X Feed
+name: Update X Feed
 
 on:
   schedule:
@@ -38,15 +38,22 @@ jobs:
       - name: Incremental sync and static export
         id: build
         run: |
-          python sync.py --export | tee /tmp/build.log
+          # Scrapes every watched account (elonmusk and rocketlab) and writes
+          # docs/data/<handle>/. A failed fetch exits non-zero after export so
+          # the other account can still be committed below.
+          set +e
+          python sync.py --export > /tmp/build.log
+          status=$?
+          cat /tmp/build.log
           if grep -q 'CONTENT_CHANGED=yes' /tmp/build.log; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
+          exit $status
 
       - name: Commit data if content changed
-        if: steps.build.outputs.changed == 'true'
+        if: always() && steps.build.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

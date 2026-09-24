@@ -53,7 +53,7 @@ python3 sync.py --export
 
 当前名单是 `@elonmusk`，然后 `@rocketlab`（目录 `docs/data/elonmusk/` 与 `docs/data/rocketlab/`）。handle 一律小写，和页面里的 `normalizeHandle` 一致。每页 JSON 与 `/api/feed` 同形（默认 20 条）。`docs/index.html` 先请求 `api/feed?account=<handle>`；没有这个接口时（即 github.io）就只读当前选中账号的分页文件。旧的扁平路径 `docs/data/manifest.json` + `docs/data/page-N.json` 仍可作为 `@elonmusk` 的后备。帖子内容没变时不写文件、也不产生空提交。
 
-页面顶部用标签切换账号：名单前 4 个钉在横条上，其余进「更多」。现在只有一个账号，所以只有一个选中标签，「更多」不出现。上次选中的 handle 记在 `localStorage`（`musk-x-feed-account`）。
+页面顶部用标签切换账号：名单前 4 个钉在横条上，其余进「更多」。当前是 Elon Musk 和 Rocket Lab 两个标签。上次选中的 handle 记在 `localStorage`（`musk-x-feed-account`）。定时任务每次都抓这两个账号；哪边有新帖，就更新 `docs/data/<handle>/` 并提交。一边的接口失败不会拦住另一边的导出。
 
 ### 以后加第二个账号 / Adding another account
 
