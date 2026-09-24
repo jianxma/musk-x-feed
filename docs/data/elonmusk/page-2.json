@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2102798608227795393",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T16:33:50.000Z",
+      "created_at_shanghai": "2026-09-24 00:33:50",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot usage is growing faster than anything we’ve ever seen",
+      "quote": {
+        "author": "EdLudlow",
+        "avatar": "https://pbs.twimg.com/profile_images/2049571389783642112/Ba6FMdwJ_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 00:12:38",
+        "created_at_utc": "2026-09-22T16:12:38.000Z",
+        "id": "2102430882749718965",
+        "images": [],
+        "media": [],
+        "name": "Ed Ludlow",
+        "text": "News: SpaceXAI's Grok Bot hits 418,000 weekly users ending Sept. 14, WoW growth of 24% through that date. It was outlined in a presentation by SpaceXAI staff last week in London.\n\nA sign of modest but early demand for a key product\n\nhttps://www.bloomberg.com/news/articles/2026-09-22/spacexai-s-grok-bot-agent-tops-400-000-users-after-first-month?srnd=phx-india",
+        "url": "https://x.com/EdLudlow/status/2102430882749718965",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 275,
+        "likes": 8023,
+        "quotes": 70,
+        "replies": 713,
+        "retweets": 668,
+        "views": 6097008
+      },
+      "url": "https://x.com/elonmusk/status/2102798608227795393",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102797715453411758",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -952,52 +993,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2102439496860275160",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T16:46:52.000Z",
-      "created_at_shanghai": "2026-09-23 00:46:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok @bot lets you take on more complex tasks, like placing your usual coffee order, booking a reservation, or scheduling an appointment\n\nCurrently available to SuperGrok Heavy subscribers, with more tiers to follow",
-      "quote": null,
-      "retweet": {
-        "author": "Tesla",
-        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-        "created_at_shanghai": "2026-09-23 00:13:47",
-        "created_at_utc": "2026-09-22T16:13:47.000Z",
-        "id": "2102431173314273633",
-        "images": [],
-        "name": "Tesla",
-        "text": "Grok @bot lets you take on more complex tasks, like placing your usual coffee order, booking a reservation, or scheduling an appointment\n\nCurrently available to SuperGrok Heavy subscribers, with more tiers to follow",
-        "url": "https://x.com/Tesla/status/2102431173314273633",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "Tesla",
-      "engagement": {
-        "bookmarks": 116,
-        "likes": 3123,
-        "quotes": 48,
-        "replies": 144,
-        "retweets": 249,
-        "views": 404774
-      },
-      "url": "https://x.com/elonmusk/status/2102439496860275160",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 139,
+  "total": 140,
   "total_pages": 7,
-  "updated_at_shanghai": "2026-09-24 14:23:48",
+  "updated_at_shanghai": "2026-09-24 22:30:17",
   "account": "elonmusk"
 }
