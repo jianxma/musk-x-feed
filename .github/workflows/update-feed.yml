@@ -5,6 +5,7 @@ on:
     # Every 5 minutes (Actions cron is best-effort and may drift a bit under load)
     - cron: "*/5 * * * *"
   workflow_dispatch:
+    # Manual refresh when the schedule has not fired.
   push:
     branches: [main]
     paths-ignore:
