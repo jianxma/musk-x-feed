@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2103165520581402763",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-09-24T16:51:49.000Z",
+      "created_at_shanghai": "2026-09-25 00:51:49",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Lunar Surface Robotics (Moon)\n\nRocket Lab supported @FireflySpace's Blue Ghost lunar lander with our MAX Flight and MAX Ground Data Software suites, alongside trajectory design and backup mission operations support.\n\nWe also provided the high-efficiency solar panels that powered the Blue Ghost spacecraft that successfully landed on the Mare Cirsium on the lunar surface.\n\nMotiv Space Systems (now Rocket Lab Robotics) also developed the lightweight chassis, mobility actuators, and motor control electronics for @NASA's CADRE autonomous lunar rovers. Currently, we are developing a single-axis scanning gimbal with integrated avionics for the EMILIA-3D PRISM payload, an instrument designed to produce high-resolution 3D thermal maps of the Moon.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "RocketLab",
+      "engagement": {
+        "bookmarks": 0,
+        "likes": 25,
+        "quotes": 1,
+        "replies": 1,
+        "retweets": 4,
+        "views": 991
+      },
+      "url": "https://x.com/rocketlab/status/2103165520581402763",
+      "images": [
+        "https://pbs.twimg.com/media/HS_xquGboAAhc3l.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS_xquGboAAhc3l.jpg?name=small",
+          "width": 2000,
+          "height": 1599
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103164516783775992",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -783,63 +820,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2101086319250145655",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-09-18T23:09:49.000Z",
-      "created_at_shanghai": "2026-09-19 07:09:49",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "The countdown is underway at Launch Complex 1 with our 12th Electron launch and latest Earth-observation mission for @synspective\n\n\"Owl By The Dozen\" launch window opens:\n🚀3:15pm NZST, Sept 19\n🚀03:15 UTC, Sept 19\n🚀12:15 pm JST, Sept 19\n🚀11:15 pm EDT, Sept 18\n🚀8:15 pm PDT, Sept 18",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 18,
-        "likes": 1039,
-        "quotes": 10,
-        "replies": 14,
-        "retweets": 96,
-        "views": 71370
-      },
-      "url": "https://x.com/rocketlab/status/2101086319250145655",
-      "images": [
-        "https://pbs.twimg.com/media/HSiOyIhaMAADpgV.jpg?name=small",
-        "https://pbs.twimg.com/media/HSiOyIxaMAAKlOx.jpg?name=small",
-        "https://pbs.twimg.com/media/HSiOyIibYAAPlyr.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HSiOyIhaMAADpgV.jpg?name=small",
-          "width": 2731,
-          "height": 4096
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HSiOyIxaMAAKlOx.jpg?name=small",
-          "width": 4096,
-          "height": 2731
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HSiOyIibYAAPlyr.jpg?name=small",
-          "width": 4096,
-          "height": 2731
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 40,
-  "total_pages": 2,
-  "updated_at_shanghai": "2026-09-25 00:51:08",
+  "total": 41,
+  "total_pages": 3,
+  "updated_at_shanghai": "2026-09-25 00:58:37",
   "account": "rocketlab"
 }
