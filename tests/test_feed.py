@@ -16,6 +16,7 @@ sys.path.insert(0, str(ROOT))
 _TMP = tempfile.mkdtemp(prefix="musk-feed-test-")
 os.environ["MUSK_FEED_DB"] = str(Path(_TMP) / "t.db")
 
+import accounts  # noqa: E402
 import db  # noqa: E402
 import export_pages  # noqa: E402
 from feed_core import build_post, classify_type, musk_status_url, normalize_text  # noqa: E402
@@ -394,6 +395,75 @@ class ExportTests(unittest.TestCase):
         self.assertEqual(len(payload["posts"]), 1)
         second = export_pages.export_pages(page_size=20, dest=dest)
         self.assertFalse(second["changed"])
+        self.assertTrue((dest / "page-1.json").exists())
+        self.assertFalse((dest / "elonmusk").exists())
+
+    def test_export_all_namespaces_accounts_and_keeps_unsourced_files(self):
+        db.upsert_posts(
+            [
+                {
+                    "id": "1",
+                    "created_at_utc": "2026-09-22T00:00:01.000Z",
+                    "text": "hi",
+                    "type_label": "原文",
+                    "url": musk_status_url("1"),
+                    "enriched": True,
+                    "engagement": {"likes": 1},
+                }
+            ]
+        )
+        root = Path(_TMP) / "namespaced"
+        root.mkdir()
+        (root / "page-1.json").write_text("{}\n", encoding="utf-8")
+        (root / "manifest.json").write_text("{}\n", encoding="utf-8")
+        manual = root / "other"
+        manual.mkdir()
+        (manual / "manifest.json").write_text('{"total": 1}\n', encoding="utf-8")
+        (manual / "page-1.json").write_text('{"posts": [{"id": "keep"}]}\n', encoding="utf-8")
+        (root / "accounts.json").write_text(
+            json.dumps(
+                {
+                    "accounts": [
+                        {"handle": "@ElonMusk", "display_name": "Elon Musk", "avatar": ""},
+                        {"handle": "other", "name": "Other", "avatar": "not-a-url"},
+                        {"handle": "../etc/passwd", "name": "nope"},
+                    ]
+                }
+            ),
+            encoding="utf-8",
+        )
+        first = export_pages.export_all(page_size=20, data_root=root)
+        self.assertTrue(first["changed"])
+        payload = json.loads((root / "elonmusk" / "page-1.json").read_text(encoding="utf-8"))
+        self.assertEqual(payload["account"], "elonmusk")
+        self.assertEqual(payload["total"], 1)
+        manifest = json.loads((root / "elonmusk" / "manifest.json").read_text(encoding="utf-8"))
+        self.assertEqual(manifest["account"], "elonmusk")
+        self.assertFalse((root / "page-1.json").exists())
+        self.assertFalse((root / "manifest.json").exists())
+        self.assertEqual(
+            json.loads((manual / "page-1.json").read_text(encoding="utf-8"))["posts"][0]["id"],
+            "keep",
+        )
+        self.assertFalse((root / "etc").exists())
+        saved = accounts.load_accounts(root / "accounts.json")
+        self.assertEqual([a["handle"] for a in saved], ["elonmusk", "other"])
+        self.assertEqual(saved[1]["avatar"], "")
+        second = export_pages.export_all(page_size=20, data_root=root)
+        self.assertFalse(second["changed"])
+        self.assertTrue(any(item.get("handle") == "other" and item.get("skipped") for item in second["accounts"]))
+
+
+class AccountRegistryTests(unittest.TestCase):
+    def test_normalize_and_seed(self):
+        self.assertEqual(accounts.normalize_handle("@ElonMusk"), "elonmusk")
+        self.assertEqual(accounts.normalize_handle("../etc"), "")
+        self.assertEqual(accounts.normalize_handle("elon musk"), "")
+        self.assertEqual(accounts.live_handles(), {"elonmusk"})
+        missing = Path(_TMP) / "no-such-accounts.json"
+        seeded = accounts.load_accounts(missing)
+        self.assertEqual([a["handle"] for a in seeded], ["elonmusk"])
+        self.assertFalse(missing.exists())
 
 
 class SpaContractTests(unittest.TestCase):
@@ -403,18 +473,28 @@ class SpaContractTests(unittest.TestCase):
         self.assertNotIn(".replace(/\\n/g", html)
         self.assertNotIn("'<br>'", html)
         self.assertNotIn('"<br>"', html)
-        self.assertIn("api/feed?page=", html)
-        self.assertIn("data/page-", html)
+        self.assertIn("api/feed?account=", html)
+        self.assertIn("data/accounts.json", html)
+        self.assertIn("data/manifest.json", html)
+        self.assertIn("'page-'", html)
         self.assertIn("转发了", html)
 
-    def test_header_is_a_single_compact_row(self):
+    def test_header_keeps_compact_title_and_account_switcher(self):
         html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
         self.assertIn("height: 40px;", html)
         self.assertNotIn("height: 53px", html)
-        self.assertNotIn('class="tabs"', html)
+        self.assertIn('class="title-row"', html)
+        self.assertIn('class="account-row"', html)
+        self.assertIn('id="accountTabs"', html)
+        self.assertIn("更多", html)
+        self.assertIn("PINNED_TABS = 4", html)
+        self.assertIn("accounts.slice(0, PINNED_TABS)", html)
+        self.assertIn("musk-x-feed-account", html)
         self.assertIn('id="statusText"', html)
         self.assertIn("backdrop-filter: blur(12px)", html)
         self.assertIn(">马斯克</h1>", html)
+        self.assertIn("data-handle=\"elonmusk\"", html)
+        self.assertIn("overflow-x: auto", html)
 
     def test_long_post_text_collapses_with_toggle(self):
         html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
