@@ -635,22 +635,29 @@ class SpaContractTests(unittest.TestCase):
         self.assertIn("'page-'", html)
         self.assertIn("转发了", html)
 
-    def test_header_keeps_compact_title_and_account_switcher(self):
+    def test_header_is_freshness_line_and_compact_tabs(self):
         html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
-        self.assertIn("height: 40px;", html)
+        self.assertNotIn(">马斯克</h1>", html)
+        self.assertNotIn("<h1", html)
         self.assertNotIn("height: 53px", html)
         self.assertIn('class="title-row"', html)
         self.assertIn('class="account-row"', html)
         self.assertIn('id="accountTabs"', html)
+        self.assertIn('class="account-label"', html)
+        self.assertGreaterEqual(html.count('class="account-label"'), 3)
         self.assertIn("更多", html)
         self.assertIn("PINNED_TABS = 4", html)
         self.assertIn("accounts.slice(0, PINNED_TABS)", html)
         self.assertIn("musk-x-feed-account", html)
         self.assertIn('id="statusText"', html)
         self.assertIn("backdrop-filter: blur(12px)", html)
-        self.assertIn(">马斯克</h1>", html)
-        self.assertIn("data-handle=\"elonmusk\"", html)
+        self.assertIn('data-handle="elonmusk"', html)
+        self.assertIn('data-handle="rocketlab"', html)
+        self.assertIn("@elonmusk", html)
+        self.assertIn("@rocketlab", html)
         self.assertIn("overflow-x: auto", html)
+        self.assertIn(".account-tab .account-handle", html)
+        self.assertIn("font-size: 10px;", html)
 
     def test_long_post_text_collapses_with_toggle(self):
         html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")

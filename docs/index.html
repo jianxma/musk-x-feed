@@ -53,18 +53,9 @@
     }
     .title-row {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 40px;
-      padding: 0 16px;
+      align-items: center;
       min-width: 0;
-    }
-    .title-row h1 {
-      margin: 0;
-      font-size: 16px;
-      line-height: 18px;
-      font-weight: 800;
-      letter-spacing: -0.2px;
+      padding: 6px 12px 1px;
     }
     .sub {
       margin: 0;
@@ -80,9 +71,9 @@
     .account-row {
       display: flex;
       align-items: stretch;
-      height: 36px;
-      margin-bottom: -1px;
       min-width: 0;
+      margin-bottom: -1px;
+      padding: 0 4px;
     }
     .account-tabs {
       display: flex;
@@ -97,36 +88,70 @@
     .account-tabs::-webkit-scrollbar { display: none; }
     .account-tab,
     .account-more {
-      flex: 0 0 auto;
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      height: 100%;
       margin: 0;
-      padding: 0 12px;
       border: 0;
       border-bottom: 2px solid transparent;
       background: transparent;
       color: var(--muted);
       font: inherit;
-      font-size: 13px;
-      font-weight: 600;
-      line-height: 16px;
-      white-space: nowrap;
       cursor: pointer;
+    }
+    .account-tab {
+      flex: 0 1 auto;
+      gap: 5px;
+      min-width: 0;
+      max-width: 100%;
+      padding: 3px 8px 2px;
+    }
+    .account-more {
+      flex: 0 0 auto;
+      padding: 3px 10px 2px;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 15px;
+      white-space: nowrap;
+    }
+    .account-label {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      min-width: 0;
+      max-width: 100%;
+    }
+    .account-tab .account-name {
+      display: block;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 15px;
     }
     .account-tab:hover,
     .account-more:hover { background: var(--hover); }
     .account-tab.is-selected,
     .account-more.is-selected {
       color: var(--text);
-      font-weight: 700;
       border-bottom-color: var(--accent);
     }
     .account-tab .account-handle,
     .account-menu-item .account-handle {
       color: var(--muted);
       font-weight: 400;
+    }
+    .account-tab .account-handle {
+      display: block;
+      max-width: 100%;
+      margin-top: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 10px;
+      line-height: 12px;
     }
     .account-tab:focus-visible,
     .account-more:focus-visible,
@@ -599,7 +624,6 @@
   <div class="col">
     <header class="top">
       <div class="title-row">
-        <h1>马斯克</h1>
         <p class="sub" id="statusText">正在加载时间线…</p>
       </div>
       <div class="account-row" id="accountRow">
@@ -609,16 +633,20 @@
               <span class="account-fallback" aria-hidden="true">E</span>
               <img class="account-avatar" src="https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg" alt="" referrerpolicy="no-referrer" onerror="this.classList.add('broken')">
             </span>
-            <span class="account-name">Elon Musk</span>
-            <span class="account-handle">@elonmusk</span>
+            <span class="account-label">
+              <span class="account-name">Elon Musk</span>
+              <span class="account-handle">@elonmusk</span>
+            </span>
           </button>
           <button type="button" class="account-tab" role="tab" aria-selected="false" data-handle="rocketlab">
             <span class="account-avatar-wrap">
               <span class="account-fallback" aria-hidden="true">R</span>
               <img class="account-avatar" src="https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg" alt="" referrerpolicy="no-referrer" onerror="this.classList.add('broken')">
             </span>
-            <span class="account-name">Rocket Lab</span>
-            <span class="account-handle">@rocketlab</span>
+            <span class="account-label">
+              <span class="account-name">Rocket Lab</span>
+              <span class="account-handle">@rocketlab</span>
+            </span>
           </button>
         </div>
         <div class="account-overflow">
@@ -875,8 +903,8 @@
         '" role="tab" data-handle="' + esc(account.handle) + '" aria-selected="' +
         (selected ? 'true' : 'false') + '">' +
         accountAvatarHtml(account) +
-        '<span class="account-name">' + esc(accountLabel(account)) + '</span>' +
-        '<span class="account-handle">@' + esc(account.handle) + '</span></button>';
+        '<span class="account-label"><span class="account-name">' + esc(accountLabel(account)) + '</span>' +
+        '<span class="account-handle">@' + esc(account.handle) + '</span></span></button>';
     }).join('');
     var more = document.getElementById('accountMore');
     var menu = document.getElementById('accountMenu');
