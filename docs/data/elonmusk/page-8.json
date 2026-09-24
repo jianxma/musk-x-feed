@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2101538675284676696",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-20T05:07:19.000Z",
+      "created_at_shanghai": "2026-09-20 13:07:19",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Tesla has a Semi 😂",
+      "quote": {
+        "author": "tesla_semi",
+        "avatar": "https://pbs.twimg.com/profile_images/2021306606449983491/eLU01mFt_200x200.jpg",
+        "created_at_shanghai": "2026-09-19 10:54:36",
+        "created_at_utc": "2026-09-19T02:54:36.000Z",
+        "id": "2101142889434841509",
+        "images": [
+          "https://pbs.twimg.com/media/HSjCUnJa8AA17Lx.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1153,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HSjCUnJa8AA17Lx.jpg?name=small",
+            "width": 2048
+          }
+        ],
+        "name": "Tesla Semi",
+        "text": "Top Gear tours factory & rides in production Semi w/ @danWpriestley \n \n\"Maybe the most significant Tesla since the Model 3\"\n \nAt 1.7 kWh/mi, Semi is using only ~7× as much energy as a Model Y, at ~20× the weight. \n\nA comparable diesel is using ~3× as much as Semi\n\nhttps://youtu.be/0WP9HizHCrk?si=g8v8DcY1SBxGUILN",
+        "url": "https://x.com/tesla_semi/status/2101142889434841509",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 431,
+        "likes": 16693,
+        "quotes": 122,
+        "replies": 1355,
+        "retweets": 1975,
+        "views": 5758652
+      },
+      "url": "https://x.com/elonmusk/status/2101538675284676696",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2101522427977011594",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -351,8 +401,8 @@
   ],
   "page": 8,
   "page_size": 20,
-  "total": 146,
+  "total": 147,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-09-25 05:50:41",
+  "updated_at_shanghai": "2026-09-25 06:12:52",
   "account": "elonmusk"
 }
