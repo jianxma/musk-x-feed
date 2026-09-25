@@ -711,12 +711,18 @@
   var PINNED_TABS = 4;
   var ACCOUNT_KEY = 'musk-x-feed-account';
   var SEEN_KEY = 'musk-x-feed-seen';
+  var SCROLL_KEY = 'musk-x-feed-scroll';
   var DEFAULT_AVATAR = 'https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg';
   var accounts = [{ handle: 'elonmusk', name: 'Elon Musk', avatar: DEFAULT_AVATAR }];
   var currentHandle = readStoredHandle() || 'elonmusk';
   var seenMap = readSeenMap();
   var freshness = Object.create(null);
   var loadGen = 0;
+  var scrollSaveTimer = null;
+  var programmaticScroll = 0;
+  var pinToken = 0;
+  var activePin = null;
+  var ignoreAnchorCancel = 0;
 
   var ICON = {
     repost: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"></path></svg>',
@@ -1152,6 +1158,8 @@
       if (accounts[i].handle === handle) known = true;
     }
     if (!known || handle === currentHandle) return;
+    cancelPin();
+    clearScrollAnchor();
     currentHandle = handle;
     try { localStorage.setItem(ACCOUNT_KEY, handle); } catch (err) {}
     markSeen(handle);
@@ -1162,8 +1170,8 @@
     var url = new URL(location.href);
     url.searchParams.delete('page');
     history.replaceState({ page: 1 }, '', url);
-    window.scrollTo(0, 0);
-    return load();
+    scrollWindowTo(0);
+    return load({ restore: false });
   }
 
   function onAccountRowClick(e) {
@@ -1424,7 +1432,219 @@
     });
   }
 
-  function applyData(data) {
+  /* Reading position is a post id plus how far that card's top sits from the
+     viewport top. Pixel scrollY alone jumps when a poll prepends posts. */
+  function headerBottom() {
+    var header = document.querySelector('header.top');
+    return header ? header.getBoundingClientRect().bottom : 0;
+  }
+
+  function findTweetCard(id) {
+    if (id == null || id === '') return null;
+    var want = String(id);
+    var cards = feedEl.querySelectorAll('article.tweet[data-id]');
+    for (var i = 0; i < cards.length; i++) {
+      if (cards[i].getAttribute('data-id') === want) return cards[i];
+    }
+    return null;
+  }
+
+  function anchorFromCard(card) {
+    if (!card) return null;
+    var id = card.getAttribute('data-id');
+    if (!id) return null;
+    return {
+      handle: currentHandle,
+      id: id,
+      offset: card.getBoundingClientRect().top,
+      page: page,
+      scrollY: window.scrollY || window.pageYOffset || 0
+    };
+  }
+
+  function captureViewportAnchor() {
+    var cards = feedEl.querySelectorAll('article.tweet[data-id]');
+    if (!cards.length) return null;
+    var active = document.activeElement;
+    var focused = active && active.closest ? active.closest('article.tweet[data-id]') : null;
+    if (focused && feedEl.contains(focused)) {
+      var fr = focused.getBoundingClientRect();
+      if (fr.bottom > headerBottom() + 1 && fr.top < window.innerHeight) return anchorFromCard(focused);
+    }
+    var edge = headerBottom();
+    for (var i = 0; i < cards.length; i++) {
+      if (cards[i].getBoundingClientRect().bottom > edge + 1) return anchorFromCard(cards[i]);
+    }
+    return anchorFromCard(cards[cards.length - 1]);
+  }
+
+  function readPersistedAnchor() {
+    try {
+      var raw = sessionStorage.getItem(SCROLL_KEY);
+      if (!raw) return null;
+      var data = JSON.parse(raw);
+      if (!data || data.id == null || data.id === '') return null;
+      var handle = normalizeHandle(data.handle);
+      if (!handle) return null;
+      var offset = Number(data.offset);
+      return {
+        handle: handle,
+        id: String(data.id),
+        offset: isFinite(offset) ? offset : 0,
+        page: parseInt(data.page, 10) || 1,
+        scrollY: Number(data.scrollY) || 0
+      };
+    } catch (err) {
+      return null;
+    }
+  }
+
+  function writeScrollAnchor(anchor) {
+    if (!anchor || !anchor.id || !anchor.handle) return;
+    try {
+      sessionStorage.setItem(SCROLL_KEY, JSON.stringify({
+        handle: anchor.handle,
+        id: String(anchor.id),
+        offset: Number(anchor.offset) || 0,
+        page: anchor.page || page,
+        scrollY: Number(anchor.scrollY) || 0
+      }));
+    } catch (err) {}
+  }
+
+  function clearScrollAnchor() {
+    clearTimeout(scrollSaveTimer);
+    scrollSaveTimer = null;
+    try { sessionStorage.removeItem(SCROLL_KEY); } catch (err) {}
+  }
+
+  function anchorMatches(anchor, handle, pageNum) {
+    if (!anchor || !anchor.id || !anchor.handle) return false;
+    if (anchor.handle !== handle) return false;
+    if (anchor.page != null && Number(anchor.page) !== Number(pageNum)) return false;
+    return true;
+  }
+
+  function scrollWindowTo(y) {
+    var next = Math.max(0, y);
+    var x = window.scrollX || window.pageXOffset || 0;
+    var cur = window.scrollY || window.pageYOffset || 0;
+    if (Math.abs(cur - next) < 0.5) return;
+    programmaticScroll++;
+    window.scrollTo(x, next);
+    setTimeout(function () { programmaticScroll = Math.max(0, programmaticScroll - 1); }, 80);
+  }
+
+  function saveLiveAnchor() {
+    if (programmaticScroll) return;
+    var anchor = captureViewportAnchor();
+    if (!anchor) return;
+    writeScrollAnchor(anchor);
+  }
+
+  function cancelPin() {
+    pinToken++;
+    document.documentElement.style.overflowAnchor = '';
+    if (!activePin) return;
+    var pin = activePin;
+    activePin = null;
+    pin.cleanup();
+  }
+
+  function pinAnchor(anchor) {
+    if (!anchorMatches(anchor, currentHandle, page)) {
+      document.documentElement.style.overflowAnchor = '';
+      return;
+    }
+    if (activePin) {
+      var prev = activePin;
+      activePin = null;
+      prev.cleanup();
+    }
+    var token = ++pinToken;
+    var media = [];
+    var observer = null;
+    var doneTimer = null;
+    var pin = {
+      cleanup: function () {
+        if (doneTimer) clearTimeout(doneTimer);
+        doneTimer = null;
+        if (observer) {
+          observer.disconnect();
+          observer = null;
+        }
+        for (var i = 0; i < media.length; i++) {
+          media[i].el.removeEventListener('load', media[i].fn);
+          media[i].el.removeEventListener('error', media[i].fn);
+          media[i].el.removeEventListener('loadedmetadata', media[i].fn);
+        }
+        media = [];
+      }
+    };
+    activePin = pin;
+
+    function align() {
+      if (token !== pinToken) return;
+      var card = findTweetCard(anchor.id);
+      if (card) {
+        var offset = Number(anchor.offset);
+        if (!isFinite(offset)) offset = 0;
+        var delta = card.getBoundingClientRect().top - offset;
+        if (Math.abs(delta) >= 0.5) scrollWindowTo((window.scrollY || window.pageYOffset || 0) + delta);
+        return;
+      }
+      var y = Number(anchor.scrollY) || 0;
+      if (y > 2) {
+        var maxY = Math.max(0, (document.documentElement.scrollHeight || 0) - window.innerHeight);
+        scrollWindowTo(Math.min(y, maxY));
+      }
+    }
+
+    align();
+    requestAnimationFrame(function () {
+      if (token !== pinToken) return;
+      align();
+      requestAnimationFrame(function () {
+        if (token !== pinToken) return;
+        align();
+      });
+    });
+
+    function onMedia() {
+      if (token !== pinToken) return;
+      align();
+    }
+    var nodes = feedEl.querySelectorAll('img, video');
+    for (var n = 0; n < nodes.length; n++) {
+      if (nodes[n].tagName === 'IMG' && nodes[n].complete) continue;
+      nodes[n].addEventListener('load', onMedia);
+      nodes[n].addEventListener('error', onMedia);
+      if (nodes[n].tagName === 'VIDEO') nodes[n].addEventListener('loadedmetadata', onMedia);
+      media.push({ el: nodes[n], fn: onMedia });
+    }
+    if (window.ResizeObserver) {
+      observer = new ResizeObserver(function () {
+        if (token !== pinToken) return;
+        align();
+      });
+      observer.observe(feedEl);
+    }
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(function () {
+        if (token !== pinToken) return;
+        align();
+      });
+    }
+    doneTimer = setTimeout(function () {
+      if (token !== pinToken) return;
+      if (activePin === pin) activePin = null;
+      pin.cleanup();
+      document.documentElement.style.overflowAnchor = '';
+      saveLiveAnchor();
+    }, 2500);
+  }
+
+  function applyData(data, anchor) {
     var posts = data.posts || [];
     page = data.page || page;
     totalPages = data.total_pages || 1;
@@ -1439,6 +1659,11 @@
       updated_at: data.updated_at_shanghai || ''
     });
     updatePager();
+    if (anchor) {
+      document.documentElement.style.overflowAnchor = 'none';
+      ignoreAnchorCancel++;
+      setTimeout(function () { ignoreAnchorCancel = Math.max(0, ignoreAnchorCancel - 1); }, 150);
+    }
     if (!posts.length) {
       feedEl.innerHTML = '<p class="empty">' +
         (data.error ? ('暂无数据：' + esc(data.error)) : '暂无帖子') + '</p>';
@@ -1446,6 +1671,8 @@
       feedEl.innerHTML = posts.map(renderPost).join('');
       syncTextClamps(feedEl);
     }
+    if (anchor) pinAnchor(anchor);
+    else document.documentElement.style.overflowAnchor = '';
   }
 
   var CLAMP_LINES = 6;
@@ -1515,9 +1742,11 @@
     }
   }
 
-  function load() {
+  function load(opts) {
+    var wantRestore = !opts || opts.restore !== false;
     var gen = ++loadGen;
     var handle = currentHandle || 'elonmusk';
+    var requestedPage = page;
     var previous = feedEl.getAttribute('data-account') || '';
     var switching = previous !== handle;
     if (switching) {
@@ -1530,9 +1759,21 @@
       return tryStatic(page, handle);
     }).then(function (data) {
       if (gen !== loadGen || handle !== currentHandle) return;
-      applyData(data);
+      var anchor = null;
+      if (wantRestore) {
+        var live = captureViewportAnchor();
+        if (live) {
+          anchor = live;
+          writeScrollAnchor(live);
+        } else {
+          var saved = readPersistedAnchor();
+          if (anchorMatches(saved, handle, requestedPage)) anchor = saved;
+        }
+      }
+      applyData(data, anchor);
     }).catch(function (err) {
       if (gen !== loadGen || handle !== currentHandle) return;
+      document.documentElement.style.overflowAnchor = '';
       statusEl.textContent = '加载失败';
       if (switching || !feedEl.querySelector('.tweet')) {
         feedEl.innerHTML = '<p class="empty">无法加载动态：' + esc(err && err.message ? err.message : err) + '</p>';
@@ -1541,14 +1782,16 @@
   }
 
   function go(n, push) {
+    cancelPin();
+    clearScrollAnchor();
     page = n;
     var url = new URL(location.href);
     if (n <= 1) url.searchParams.delete('page');
     else url.searchParams.set('page', String(n));
     if (push) history.pushState({ page: n }, '', url);
     else history.replaceState({ page: n }, '', url);
-    window.scrollTo(0, 0);
-    return load();
+    scrollWindowTo(0);
+    return load({ restore: false });
   }
 
   var lb = document.getElementById('lightbox');
@@ -1692,14 +1935,18 @@
     if (page < totalPages) go(page + 1, true);
   });
   window.addEventListener('popstate', function () {
+    cancelPin();
     page = readPage();
-    load();
+    load({ restore: false });
   });
 
   var clampResizeTimer;
   window.addEventListener('resize', function () {
     clearTimeout(clampResizeTimer);
-    clampResizeTimer = setTimeout(function () { syncTextClamps(feedEl); }, 150);
+    clampResizeTimer = setTimeout(function () {
+      syncTextClamps(feedEl);
+      saveLiveAnchor();
+    }, 150);
   });
 
   document.getElementById('accountRow').addEventListener('click', onAccountRowClick);
@@ -1711,10 +1958,39 @@
     closeAccountMenu();
   });
 
+  window.addEventListener('scroll', function () {
+    if (programmaticScroll) return;
+    if (!ignoreAnchorCancel) cancelPin();
+    clearTimeout(scrollSaveTimer);
+    scrollSaveTimer = setTimeout(saveLiveAnchor, 400);
+  }, { passive: true });
+  window.addEventListener('pointerdown', function () {
+    if (programmaticScroll) return;
+    cancelPin();
+  }, { passive: true });
+  window.addEventListener('wheel', function () {
+    cancelPin();
+  }, { passive: true });
+  window.addEventListener('touchmove', function () {
+    cancelPin();
+  }, { passive: true });
+  window.addEventListener('keydown', function (e) {
+    if (programmaticScroll) return;
+    if (e.key === 'ArrowUp' || e.key === 'ArrowDown' || e.key === 'PageUp' || e.key === 'PageDown' || e.key === 'Home' || e.key === 'End' || e.key === ' ' || e.key === 'Enter') cancelPin();
+  });
+  window.addEventListener('pagehide', function () {
+    var anchor = captureViewportAnchor();
+    if (anchor) writeScrollAnchor(anchor);
+  });
+
   boot();
   setInterval(refreshTick, 30000);
   document.addEventListener('visibilitychange', function () {
-    if (!document.hidden) refreshTick();
+    if (document.hidden) {
+      saveLiveAnchor();
+      return;
+    }
+    refreshTick();
   });
   window.addEventListener('storage', function (e) {
     if (e.key !== SEEN_KEY) return;
