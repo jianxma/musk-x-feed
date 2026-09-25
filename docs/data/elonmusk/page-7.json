@@ -1,6 +1,102 @@
 {
   "posts": [
     {
+      "id": "2102083438354292878",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T17:12:01.000Z",
+      "created_at_shanghai": "2026-09-22 01:12:01",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We trained 4.7 on longer-running problems compared to Grok 4.6. It holds context better and checks its own work more carefully.\n\nGive it a try and let us know your feedback!",
+      "quote": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "haozhu_wang",
+        "avatar": "https://pbs.twimg.com/profile_images/1977076158073389058/lviVy4Bc_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:46:52",
+        "created_at_utc": "2026-09-21T16:46:52.000Z",
+        "id": "2102077111548940709",
+        "images": [],
+        "name": "Haozhu Wang",
+        "text": "We trained 4.7 on longer-running problems compared to Grok 4.6. It holds context better and checks its own work more carefully.\n\nGive it a try and let us know your feedback!",
+        "url": "https://x.com/haozhu_wang/status/2102077111548940709",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 77,
+        "likes": 2222,
+        "quotes": 9,
+        "replies": 167,
+        "retweets": 162,
+        "views": 493204
+      },
+      "url": "https://x.com/elonmusk/status/2102083438354292878",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102082011233931762",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T17:06:20.000Z",
+      "created_at_shanghai": "2026-09-22 01:06:20",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok 4.7 places @SpaceXAI as third, after Anthropic &amp; OpenAI, for agentic coding. \n\nWhen factoring in that Grok is significantly faster &amp; lower cost, it’s a great choice for your everyday workhorse.",
+      "quote": {
+        "author": "ArtificialAnlys",
+        "avatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:38:05",
+        "created_at_utc": "2026-09-21T16:38:05.000Z",
+        "id": "2102074898327932987",
+        "images": [
+          "https://pbs.twimg.com/media/HSwR-rAb0AA-TNh.jpg?name=small"
+        ],
+        "name": "Artificial Analysis",
+        "text": "Grok 4.7 scores 46 on the Artificial Analysis Intelligence Index to bring SpaceXAI into the top 4 AI labs. Coding Agent Index performance has also improved, overtaking GPT-5.6 Sol\n\nGrok 4.7 scores +2 points over Grok 4.6 on the Intelligence Index, with strong performance on agentic knowledge work tasks. We evaluated the new model at xhigh reasoning effort.\n\nCongratulations to @SpaceXAI and @ElonMusk on the release!\n\nKey takeaways:\n\n➤ Grok 4.7 joins the frontier of agentic knowledge work: Grok 4.7 gains +111 Elo over Grok 4.6 (high) on AA-Briefcase, our private benchmark for long-horizon agentic knowledge work, scoring 1657 Elo and placing it alongside Claude Opus 5 and Claude Fable 5.1 at the frontier. On GDPval-AA, it scores 1695 Elo, +90 ahead of Grok 4.6 (high).\n\n➤ A leap in coding agent performance: Grok 4.7 (xhigh) with Grok Build scores 56 on the Artificial Analysis Coding Agent Index, up +9 points from Grok 4.6 (xhigh). Among models in their native harnesses, Grok 4.7 + Grok Build now ranks 4th, behind only Claude Fable 5.1, GPT-6 Astra, and Claude Opus 5.\n\n➤ Incremental performance changes elsewhere: Outside of agentic knowledge work, Grok 4.7 broadly matches Grok 4.6 (high) on the other Intelligence Index tasks. It improves on Terminal-Bench 4.0 (+4.5 percentage points) and GDP.pdf (+3.0 p.p.), with regressions on AA-LCR (-3.7 p.p.) and AutomationBench-AA (-1.1 p.p.).\n\n➤ High token use across tasks: Grok 4.7's gains come with higher token usage. Grok 4.7 (xhigh) uses approximately 81k output tokens per Intelligence Index task, compared with 36k for Grok 4.6 (high) and 27k for GPT-6 Astra (max) - 125% and 196% more, respectively.\n\nOther model details:\n\n➤ Context window of 500k tokens, unchanged from Grok 4.6\n\n➤ Pricing of $2/$6 per 1M input/output tokens with cache hits discounted to $0.50 per 1M tokens, matching Grok 4.6\n\n➤ Configurable reasoning effort spans low to xhigh. Our evaluation uses xhigh.",
+        "url": "https://x.com/ArtificialAnlys/status/2102074898327932987",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1133,
+        "likes": 17407,
+        "quotes": 197,
+        "replies": 1210,
+        "retweets": 1988,
+        "views": 17359176
+      },
+      "url": "https://x.com/elonmusk/status/2102082011233931762",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102072686293684710",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -854,96 +950,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101866518757683464",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T02:50:03.000Z",
-      "created_at_shanghai": "2026-09-21 10:50:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Built this Grok Bot, fully offline index of all your saved instagram videos via @karpathy-wiki-style .md. Uses @bot, @grok Voice Transcribe 2.0, Grok Vision + more.\n\n(X + TikTok coming soon)",
-      "quote": null,
-      "retweet": {
-        "author": "kevinrose",
-        "avatar": "https://pbs.twimg.com/profile_images/1943511529237680130/cy-Te05B_200x200.jpg",
-        "created_at_shanghai": "2026-09-20 07:35:48",
-        "created_at_utc": "2026-09-19T23:35:48.000Z",
-        "id": "2101455244567973976",
-        "images": [],
-        "name": "Kevin Rose",
-        "text": "Built this Grok Bot, fully offline index of all your saved instagram videos via @karpathy-wiki-style .md. Uses @bot, @grok Voice Transcribe 2.0, Grok Vision + more.\n\n(X + TikTok coming soon)",
-        "url": "https://x.com/kevinrose/status/2101455244567973976",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1309,
-        "likes": 1685,
-        "quotes": 17,
-        "replies": 117,
-        "retweets": 175,
-        "views": 665774
-      },
-      "url": "https://x.com/elonmusk/status/2101866518757683464",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2101865940325478653",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T02:47:45.000Z",
-      "created_at_shanghai": "2026-09-21 10:47:45",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Just connected my Grok Bot to 𝕏 Money.\n\nAnd I think this is one of those things that may sounds small to many people until you actually use it…\n\nI can now send $ money to someone just by telling my bot what I want to do.\n\nI don’t need to open another app.\n\nI don’t need to search for the payment tab.\n\nI don’t need to jump between screens or tabs.\n\nI just type the instruction in plain English and Grok Bot handles it through 𝕏 Money, and the payment immediately goes through. \n\nSo today, I sent Elon $4.20.\n\nWith a note telling him that, “Testing 𝕏 Money connector w/ Grok Bot”\n\nIt worked beautifully… \n\nI realize this could one day completely change the way $ money moves.\n\nToday, moving $ money usually means stopping what you’re doing, opening a banking or payment app, finding the person, entering the amount, checking everything, and hitting send.\n\nNow imagine your Grok Bot already understands what you want.\n\nYou can say things like,\n\n“Send this person $20.”\n\n“Pay this bill w/ a pic”\n\n“Split dinner between everyone here.”\n\n“Send my contractor the usual $ amount.”\n\n“Move some $ money into savings.”\n\nAnd your Grok Bot handles the work through whatever financial account, while you stay in control of the approval.\n\nNow, instead of humans learning how to use financial software, the software is learning how to work for humans.\n\nAnd as Grok Bot gets smarter and 𝕏 Money grows, I think this is where things will get really interesting.\n\n𝕏 already has communication, creators, businesses, communities and people spending hours talking to each other every day.\n\nNow add $ money.\n\nThen add an AI/Grok Bot that can understand what you want and help move that $ money for you effortlessly.\n\nPayments stop feeling like a separate thing you have to go do… and just becomes part of the normal conversation.\n\nI think this could be a big deal for 𝕏 Money. \n\nIf 𝕏 Money grows into one of the world’s largest financial platforms, I think Grok Bot could become the primary layer people talk to when they want anything done with their $ money.\n\nGrok Bot, hooked up with 𝕏 Money is a BIG deal…",
-      "quote": null,
-      "retweet": {
-        "author": "Teslaconomics",
-        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 02:52:00",
-        "created_at_utc": "2026-09-20T18:52:00.000Z",
-        "id": "2101746215255961783",
-        "images": [
-          "https://pbs.twimg.com/media/HSrnCsyaoAAmgD7.jpg?name=small"
-        ],
-        "name": "Teslaconomics",
-        "text": "Just connected my Grok Bot to 𝕏 Money.\n\nAnd I think this is one of those things that may sounds small to many people until you actually use it…\n\nI can now send $ money to someone just by telling my bot what I want to do.\n\nI don’t need to open another app.\n\nI don’t need to search for the payment tab.\n\nI don’t need to jump between screens or tabs.\n\nI just type the instruction in plain English and Grok Bot handles it through 𝕏 Money, and the payment immediately goes through. \n\nSo today, I sent Elon $4.20.\n\nWith a note telling him that, “Testing 𝕏 Money connector w/ Grok Bot”\n\nIt worked beautifully… \n\nI realize this could one day completely change the way $ money moves.\n\nToday, moving $ money usually means stopping what you’re doing, opening a banking or payment app, finding the person, entering the amount, checking everything, and hitting send.\n\nNow imagine your Grok Bot already understands what you want.\n\nYou can say things like,\n\n“Send this person $20.”\n\n“Pay this bill w/ a pic”\n\n“Split dinner between everyone here.”\n\n“Send my contractor the usual $ amount.”\n\n“Move some $ money into savings.”\n\nAnd your Grok Bot handles the work through whatever financial account, while you stay in control of the approval.\n\nNow, instead of humans learning how to use financial software, the software is learning how to work for humans.\n\nAnd as Grok Bot gets smarter and 𝕏 Money grows, I think this is where things will get really interesting.\n\n𝕏 already has communication, creators, businesses, communities and people spending hours talking to each other every day.\n\nNow add $ money.\n\nThen add an AI/Grok Bot that can understand what you want and help move that $ money for you effortlessly.\n\nPayments stop feeling like a separate thing you have to go do… and just becomes part of the normal conversation.\n\nI think this could be a big deal for 𝕏 Money. \n\nIf 𝕏 Money grows into one of the world’s largest financial platforms, I think Grok Bot could become the primary layer people talk to when they want anything done with their $ money.\n\nGrok Bot, hooked up with 𝕏 Money is a BIG deal…",
-        "url": "https://x.com/Teslaconomics/status/2101746215255961783",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 271,
-        "likes": 1554,
-        "quotes": 33,
-        "replies": 188,
-        "retweets": 219,
-        "views": 540493
-      },
-      "url": "https://x.com/elonmusk/status/2101865940325478653",
-      "images": [
-        "https://pbs.twimg.com/media/HSrnCsyaoAAmgD7.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 171,
+  "total": 173,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 01:37:53",
+  "updated_at_shanghai": "2026-09-26 05:08:12",
   "account": "elonmusk"
 }

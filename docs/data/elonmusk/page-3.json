@@ -1,6 +1,140 @@
 {
   "posts": [
     {
+      "id": "2102952674727784693",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T02:46:03.000Z",
+      "created_at_shanghai": "2026-09-24 10:46:03",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Preparing for launch on Monday",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 23:23:59",
+        "created_at_utc": "2026-09-23T15:23:59.000Z",
+        "id": "2102781027085320290",
+        "images": [
+          "https://pbs.twimg.com/media/HS6UGjvXkAAyHtp.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6UIKjWcAAIFCz.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6UJosXkAAtmfZ.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6ULERWMAAKMsr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UGjvXkAAyHtp.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UIKjWcAAIFCz.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UJosXkAAtmfZ.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6ULERWMAAKMsr.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Ship 41 moved to the launch pad at Starbase",
+        "url": "https://x.com/SpaceX/status/2102781027085320290",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 51,
+        "likes": 2498,
+        "quotes": 36,
+        "replies": 418,
+        "retweets": 357,
+        "views": 402171
+      },
+      "url": "https://x.com/elonmusk/status/2102952674727784693",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102952564623131009",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T02:45:37.000Z",
+      "created_at_shanghai": "2026-09-24 10:45:37",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Stacking Starship ahead of Flight 14",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 02:00:08",
+        "created_at_utc": "2026-09-23T18:00:08.000Z",
+        "id": "2102820322915353038",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg"
+        ],
+        "media": [
+          {
+            "duration": 17.017,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102819857670496256/vid/avc1/3840x2160/OfzleIrIJPn1qGzd.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Stacking Starship ahead of Flight 14",
+        "url": "https://x.com/SpaceX/status/2102820322915353038",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 660,
+        "likes": 13663,
+        "quotes": 166,
+        "replies": 365,
+        "retweets": 1550,
+        "views": 848844
+      },
+      "url": "https://x.com/elonmusk/status/2102952564623131009",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102819857670496256/vid/avc1/3840x2160/OfzleIrIJPn1qGzd.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 17.017
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2102952506674536864",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -980,119 +1114,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102651780211617814",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T06:50:24.000Z",
-      "created_at_shanghai": "2026-09-23 14:50:24",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Fitch gives Tesla its first-ever BBB investment-grade credit rating.\n\nFitch highlighted Tesla’s EV leadership, strong profitability, $43.5B in cash and investments, and “unmatched” vertical integration as it expands into AI, Robotaxi and Optimus.\n\nThis is huge. 🔥",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 05:23:23",
-        "created_at_utc": "2026-09-22T21:23:23.000Z",
-        "id": "2102509086667579638",
-        "images": [
-          "https://pbs.twimg.com/media/HS2c3khbQAAJ1il.jpg?name=small"
-        ],
-        "name": "DogeDesigner",
-        "text": "Fitch gives Tesla its first-ever BBB investment-grade credit rating.\n\nFitch highlighted Tesla’s EV leadership, strong profitability, $43.5B in cash and investments, and “unmatched” vertical integration as it expands into AI, Robotaxi and Optimus.\n\nThis is huge. 🔥",
-        "url": "https://x.com/cb_doge/status/2102509086667579638",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 54,
-        "likes": 1420,
-        "quotes": 24,
-        "replies": 90,
-        "retweets": 231,
-        "views": 84554
-      },
-      "url": "https://x.com/elonmusk/status/2102651780211617814",
-      "images": [
-        "https://pbs.twimg.com/media/HS2c3khbQAAJ1il.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102643606276477058",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T06:17:55.000Z",
-      "created_at_shanghai": "2026-09-23 14:17:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: Elon Musk on Optimus, and a future where money may not matter in his new interview with CCTV:\n\n“If you think like Star Wars, where you had C-3PO and R2-D2, and they were friendly, helpful robots. Well, wouldn't it be great if everyone could have their own personal C-3PO R2-D2? But even better than that, like more productive.\n\nThat could take care of elderly parents, guardian and watch over the children. Or be a teacher, like an individualized tutor to your child. And taking care of any jobs that you can think of.\n\nI think everyone would like to have a future where they can have their own personal robots. And then I think you'll see many companies where it's one person with hundreds, maybe thousands of robots. Like physical robots as well as digital robots.\n\nSo the productivity of one person will be greatly amplified. And my prediction is that there will be effectively universal high income. In fact, it's not clear to me that money will even matter in the future.”",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 12:12:30",
-        "created_at_utc": "2026-09-23T04:12:30.000Z",
-        "id": "2102612043232895446",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102611952614985728/img/Z_t6HVF1LYcv0xW_.jpg"
-        ],
-        "media": [
-          {
-            "duration": 60.935,
-            "height": 1732,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102611952614985728/img/Z_t6HVF1LYcv0xW_.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102611952614985728/vid/avc1/1078x1732/_44VYP3lZdDIYs9j.mp4?tag=29",
-            "width": 1078
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Elon Musk on Optimus, and a future where money may not matter in his new interview with CCTV:\n\n“If you think like Star Wars, where you had C-3PO and R2-D2, and they were friendly, helpful robots. Well, wouldn't it be great if everyone could have their own personal C-3PO R2-D2? But even better than that, like more productive.\n\nThat could take care of elderly parents, guardian and watch over the children. Or be a teacher, like an individualized tutor to your child. And taking care of any jobs that you can think of.\n\nI think everyone would like to have a future where they can have their own personal robots. And then I think you'll see many companies where it's one person with hundreds, maybe thousands of robots. Like physical robots as well as digital robots.\n\nSo the productivity of one person will be greatly amplified. And my prediction is that there will be effectively universal high income. In fact, it's not clear to me that money will even matter in the future.”",
-        "url": "https://x.com/cb_doge/status/2102612043232895446",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 202,
-        "likes": 1400,
-        "quotes": 40,
-        "replies": 220,
-        "retweets": 254,
-        "views": 169834
-      },
-      "url": "https://x.com/elonmusk/status/2102643606276477058",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102611952614985728/img/Z_t6HVF1LYcv0xW_.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102611952614985728/vid/avc1/1078x1732/_44VYP3lZdDIYs9j.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102611952614985728/img/Z_t6HVF1LYcv0xW_.jpg",
-          "width": 1078,
-          "height": 1732,
-          "duration": 60.935
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 171,
+  "total": 173,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 01:37:53",
+  "updated_at_shanghai": "2026-09-26 05:08:12",
   "account": "elonmusk"
 }

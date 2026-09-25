@@ -1,6 +1,121 @@
 {
   "posts": [
     {
+      "id": "2102422703798137219",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T15:40:08.000Z",
+      "created_at_shanghai": "2026-09-22 23:40:08",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok 4.7",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 23:14:42",
+        "created_at_utc": "2026-09-22T15:14:42.000Z",
+        "id": "2102416305513230455",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg"
+        ],
+        "media": [
+          {
+            "duration": 49.25,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102416151028563968/vid/avc1/2236x1080/PUz3W1l-9MBfge9y.mp4?tag=29",
+            "width": 2236
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Grok 4.7 turned a simple prompt into this interactive 3D jet engine visualizer in minutes.\n\nThis is insane. 🔥",
+        "url": "https://x.com/cb_doge/status/2102416305513230455",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 645,
+        "likes": 10407,
+        "quotes": 67,
+        "replies": 803,
+        "retweets": 1261,
+        "views": 3791423
+      },
+      "url": "https://x.com/elonmusk/status/2102422703798137219",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102422648118554806",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T15:39:55.000Z",
+      "created_at_shanghai": "2026-09-22 23:39:55",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 turned a simple prompt into this interactive 3D jet engine visualizer in minutes.\n\nThis is insane. 🔥",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 23:14:42",
+        "created_at_utc": "2026-09-22T15:14:42.000Z",
+        "id": "2102416305513230455",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg"
+        ],
+        "media": [
+          {
+            "duration": 49.25,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102416151028563968/vid/avc1/2236x1080/PUz3W1l-9MBfge9y.mp4?tag=29",
+            "width": 2236
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Grok 4.7 turned a simple prompt into this interactive 3D jet engine visualizer in minutes.\n\nThis is insane. 🔥",
+        "url": "https://x.com/cb_doge/status/2102416305513230455",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 178,
+        "likes": 1825,
+        "quotes": 55,
+        "replies": 216,
+        "retweets": 257,
+        "views": 3604070
+      },
+      "url": "https://x.com/elonmusk/status/2102422648118554806",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102416151028563968/vid/avc1/2236x1080/PUz3W1l-9MBfge9y.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg",
+          "width": 2236,
+          "height": 1080,
+          "duration": 49.25
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2102415307025604915",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -811,94 +926,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102201534776025356",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T01:01:17.000Z",
-      "created_at_shanghai": "2026-09-22 09:01:17",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
-      "quote": {
-        "author": "marsrepublica",
-        "avatar": "https://pbs.twimg.com/profile_images/2075787229436256257/RrDaMY-l_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 07:32:41",
-        "created_at_utc": "2026-09-21T23:32:41.000Z",
-        "id": "2102179235766968347",
-        "images": [
-          "https://pbs.twimg.com/media/HSxw3uLWMAECVw3.jpg?name=small"
-        ],
-        "name": "samuel",
-        "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
-        "url": "https://x.com/marsrepublica/status/2102179235766968347",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 311,
-        "likes": 9842,
-        "quotes": 89,
-        "replies": 1127,
-        "retweets": 1400,
-        "views": 3951161
-      },
-      "url": "https://x.com/elonmusk/status/2102201534776025356",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102201280307540181",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T01:00:16.000Z",
-      "created_at_shanghai": "2026-09-22 09:00:16",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@elonmusk I'm using it right now to build a game engine in C. It's really good.",
-      "quote": null,
-      "retweet": {
-        "author": "tetsuoai",
-        "avatar": "https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 08:09:13",
-        "created_at_utc": "2026-09-22T00:09:13.000Z",
-        "id": "2102188432441414005",
-        "images": [],
-        "name": "tetsuo",
-        "text": "@elonmusk I'm using it right now to build a game engine in C. It's really good.",
-        "url": "https://x.com/tetsuoai/status/2102188432441414005",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 109,
-        "likes": 1500,
-        "quotes": 3,
-        "replies": 62,
-        "retweets": 101,
-        "views": 612585
-      },
-      "url": "https://x.com/elonmusk/status/2102201280307540181",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 171,
+  "total": 173,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 01:37:53",
+  "updated_at_shanghai": "2026-09-26 05:08:12",
   "account": "elonmusk"
 }
