@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "2102201534776025356",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T01:01:17.000Z",
+      "created_at_shanghai": "2026-09-22 09:01:17",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "marsrepublica",
+        "avatar": "https://pbs.twimg.com/profile_images/2075787229436256257/RrDaMY-l_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 07:32:41",
+        "created_at_utc": "2026-09-21T23:32:41.000Z",
+        "id": "2102179235766968347",
+        "images": [
+          "https://pbs.twimg.com/media/HSxw3uLWMAECVw3.jpg?name=small"
+        ],
+        "name": "samuel",
+        "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
+        "url": "https://x.com/marsrepublica/status/2102179235766968347",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 311,
+        "likes": 9842,
+        "quotes": 89,
+        "replies": 1127,
+        "retweets": 1400,
+        "views": 3951161
+      },
+      "url": "https://x.com/elonmusk/status/2102201534776025356",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102201280307540181",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -979,66 +1021,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102083438354292878",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T17:12:01.000Z",
-      "created_at_shanghai": "2026-09-22 01:12:01",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We trained 4.7 on longer-running problems compared to Grok 4.6. It holds context better and checks its own work more carefully.\n\nGive it a try and let us know your feedback!",
-      "quote": {
-        "author": "SpaceXAI",
-        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 00:17:53",
-        "created_at_utc": "2026-09-21T16:17:53.000Z",
-        "id": "2102069815225586149",
-        "images": [
-          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
-        ],
-        "name": "SpaceXAI",
-        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
-        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "haozhu_wang",
-        "avatar": "https://pbs.twimg.com/profile_images/1977076158073389058/lviVy4Bc_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 00:46:52",
-        "created_at_utc": "2026-09-21T16:46:52.000Z",
-        "id": "2102077111548940709",
-        "images": [],
-        "name": "Haozhu Wang",
-        "text": "We trained 4.7 on longer-running problems compared to Grok 4.6. It holds context better and checks its own work more carefully.\n\nGive it a try and let us know your feedback!",
-        "url": "https://x.com/haozhu_wang/status/2102077111548940709",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 77,
-        "likes": 2222,
-        "quotes": 9,
-        "replies": 167,
-        "retweets": 162,
-        "views": 493204
-      },
-      "url": "https://x.com/elonmusk/status/2102083438354292878",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 152,
+  "total": 153,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-09-25 11:17:41",
+  "updated_at_shanghai": "2026-09-25 11:26:57",
   "account": "elonmusk"
 }
