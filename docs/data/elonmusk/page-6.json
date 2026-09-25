@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102201921721262110",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T01:02:49.000Z",
+      "created_at_shanghai": "2026-09-22 09:02:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Been testing Grok 4.7 for the past week or more. It’s been a great improvement over 4.6. \nIt worked for over 70 hours straight on a goal. Much better attention to detail. \nThe 500k context window really makes a difference imo. 4.7 much better at things like skill selection; workflows. Found it particularly good with pstack. \nDidn’t have access to it in Grokbot, but I really wanted to test it there. Together it’s a great daily driver.",
+      "quote": null,
+      "retweet": {
+        "author": "ScriptedAlchemy",
+        "avatar": "https://pbs.twimg.com/profile_images/1601787403185934336/plWmMMB8_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 04:50:26",
+        "created_at_utc": "2026-09-21T20:50:26.000Z",
+        "id": "2102138407908720838",
+        "images": [],
+        "name": "Zack Jackson",
+        "text": "Been testing Grok 4.7 for the past week or more. It’s been a great improvement over 4.6. \nIt worked for over 70 hours straight on a goal. Much better attention to detail. \nThe 500k context window really makes a difference imo. 4.7 much better at things like skill selection; workflows. Found it particularly good with pstack. \nDidn’t have access to it in Grokbot, but I really wanted to test it there. Together it’s a great daily driver.",
+        "url": "https://x.com/ScriptedAlchemy/status/2102138407908720838",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 51,
+        "likes": 1264,
+        "quotes": 7,
+        "replies": 89,
+        "retweets": 145,
+        "views": 458112
+      },
+      "url": "https://x.com/elonmusk/status/2102201921721262110",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102201534776025356",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -981,52 +1021,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102083930107101382",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T17:13:58.000Z",
-      "created_at_shanghai": "2026-09-22 01:13:58",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7 works extremely well with our Build harness\n\nhttps://X.ai/Build",
-      "quote": {
-        "author": "aksheyd",
-        "avatar": "https://pbs.twimg.com/profile_images/2013833485073686529/PL66L1Q5_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 00:20:01",
-        "created_at_utc": "2026-09-21T16:20:01.000Z",
-        "id": "2102070351786283181",
-        "images": [],
-        "name": "akshey",
-        "text": "Excited to bring 4.7 to you all! \n\nNumerics aside, it's incredibly capable in Grok Build/Cursor. We spent a lot of hours on the harness, iterating with some of the greatest engineers in the world. \n\nAlso, the fast mode has INSANE tps. Happy Grok Building :) Lmk what you think!",
-        "url": "https://x.com/aksheyd/status/2102070351786283181",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 291,
-        "likes": 7446,
-        "quotes": 69,
-        "replies": 699,
-        "retweets": 1155,
-        "views": 5399772
-      },
-      "url": "https://x.com/elonmusk/status/2102083930107101382",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 20,
-  "total": 173,
+  "total": 174,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 05:08:12",
+  "updated_at_shanghai": "2026-09-26 05:15:02",
   "account": "elonmusk"
 }
