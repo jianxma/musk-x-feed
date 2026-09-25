@@ -772,17 +772,37 @@
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-24T03:31:45.000Z",
       "created_at_shanghai": "2026-09-24 11:31:45",
-      "type": "原文",
-      "type_label": "原文",
+      "type": "转发",
+      "type_label": "转发",
       "text": "Streaming live at 6pm PDT tomorrow https://x.com/i/broadcasts/1vJpPNaYnYQJE",
       "quote": null,
-      "retweet": null,
+      "retweet": {
+        "author": "tesla_semi",
+        "avatar": "https://pbs.twimg.com/profile_images/2021306606449983491/eLU01mFt_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 10:59:03",
+        "created_at_utc": "2026-09-24T02:59:03.000Z",
+        "id": "2102955945441853856",
+        "images": [],
+        "media": [],
+        "name": "Tesla Semi",
+        "text": "Streaming live at 6pm PDT tomorrow https://x.com/i/broadcasts/1vJpPNaYnYQJE",
+        "url": "https://x.com/tesla_semi/status/2102955945441853856",
+        "verified": true,
+        "verified_type": "organization"
+      },
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 733,
+        "likes": 8047,
+        "quotes": 233,
+        "replies": 318,
+        "retweets": 1122,
+        "views": 943389
+      },
       "url": "https://x.com/elonmusk/status/2102964178210480238",
       "images": [],
       "media": [],
-      "enriched": false
+      "enriched": true
     },
     {
       "id": "2102953907936993446",
@@ -1198,6 +1218,6 @@
   "page_size": 20,
   "total": 149,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-09-25 07:47:21",
+  "updated_at_shanghai": "2026-09-25 09:35:24",
   "account": "elonmusk"
 }
