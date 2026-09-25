@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2103526000415879522",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-25T16:44:14.000Z",
+      "created_at_shanghai": "2026-09-26 00:44:14",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Cool",
+      "quote": {
+        "author": "brian_armstrong",
+        "avatar": "https://pbs.twimg.com/profile_images/2078293582918934528/YZjOB_hV_200x200.jpg",
+        "created_at_shanghai": "2026-09-25 23:20:39",
+        "created_at_utc": "2026-09-25T15:20:39.000Z",
+        "id": "2103504965763281185",
+        "images": [],
+        "media": [],
+        "name": "Brian Armstrong",
+        "text": "Grok is the leading client for agentic traders on Coinbase currently.",
+        "url": "https://x.com/brian_armstrong/status/2103504965763281185",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 441,
+        "quotes": 5,
+        "replies": 145,
+        "retweets": 56,
+        "views": 324054
+      },
+      "url": "https://x.com/elonmusk/status/2103526000415879522",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2103523774066819459",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1214,64 +1255,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2103267284001382676",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-24T23:36:11.000Z",
-      "created_at_shanghai": "2026-09-25 07:36:11",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "🔥🔥",
-      "quote": {
-        "author": "IterIntellectus",
-        "avatar": "https://pbs.twimg.com/profile_images/2009602429478633472/8lMkYuep_200x200.jpg",
-        "created_at_shanghai": "2026-09-25 03:58:39",
-        "created_at_utc": "2026-09-24T19:58:39.000Z",
-        "id": "2103212539895017864",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103211525095702528/img/9hhkZEeK88qwJlMk.jpg"
-        ],
-        "media": [
-          {
-            "duration": 136.433,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103211525095702528/img/9hhkZEeK88qwJlMk.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103211525095702528/vid/avc1/1920x1080/q0KsmKcmecu8019Y.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "vittorio",
-        "text": "holy shit\ni asked claude to make a video on western civiization",
-        "url": "https://x.com/IterIntellectus/status/2103212539895017864",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 248,
-        "likes": 1486,
-        "quotes": 27,
-        "replies": 278,
-        "retweets": 235,
-        "views": 375605
-      },
-      "url": "https://x.com/elonmusk/status/2103267284001382676",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 168,
+  "total": 169,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 00:38:56",
+  "updated_at_shanghai": "2026-09-26 00:48:14",
   "account": "elonmusk"
 }

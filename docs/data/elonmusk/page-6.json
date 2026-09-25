@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "2102187423098642792",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T00:05:13.000Z",
+      "created_at_shanghai": "2026-09-22 08:05:13",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok 4.7",
+      "quote": {
+        "author": "ArtificialAnlys",
+        "avatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 06:57:32",
+        "created_at_utc": "2026-09-21T22:57:32.000Z",
+        "id": "2102170392924492207",
+        "images": [
+          "https://pbs.twimg.com/media/HSxoh97bsAAL1zb.jpg?name=small"
+        ],
+        "name": "Artificial Analysis",
+        "text": "Grok 4.7 is behind only Anthropic models on AA-Briefcase, ranking just behind Opus 5 at ~50% of its Cost per Task\n\nGrok 4.7’s improvements over Grok 4.6 are clear in AA-Briefcase-Lite, our public due diligence scenario where models are tasked with building market models and target assessment decks. Grok 4.7 gains significantly in Analytical Quality Elo (1698 → 1994) with a slight regression in Presentation Elo (1531 → 1499).\n\nAPI cost to produce example decks: Grok 4.7 (xhigh) ~$8 vs. Grok 4.6 (xhigh) ~$4.40",
+        "url": "https://x.com/ArtificialAnlys/status/2102170392924492207",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 302,
+        "likes": 6892,
+        "quotes": 69,
+        "replies": 736,
+        "retweets": 1061,
+        "views": 4176585
+      },
+      "url": "https://x.com/elonmusk/status/2102187423098642792",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102167600692109421",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -953,56 +995,12 @@
       "images": [],
       "media": [],
       "enriched": false
-    },
-    {
-      "id": "2102071839690252484",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T16:25:55.000Z",
-      "created_at_shanghai": "2026-09-22 00:25:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceXAI",
-        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 00:17:53",
-        "created_at_utc": "2026-09-21T16:17:53.000Z",
-        "id": "2102069815225586149",
-        "images": [
-          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
-        ],
-        "name": "SpaceXAI",
-        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
-        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2471,
-        "likes": 28133,
-        "quotes": 1889,
-        "replies": 1428,
-        "retweets": 3035,
-        "views": 14210717
-      },
-      "url": "https://x.com/elonmusk/status/2102071839690252484",
-      "images": [
-        "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 20,
-  "total": 168,
+  "total": 169,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 00:38:56",
+  "updated_at_shanghai": "2026-09-26 00:48:14",
   "account": "elonmusk"
 }

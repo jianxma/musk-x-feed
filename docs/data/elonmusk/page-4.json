@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102465645334220901",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T18:30:46.000Z",
+      "created_at_shanghai": "2026-09-23 02:30:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We rebuilt customer support around Grok Bot to scale our operations without adding headcount.\n\nIt works autonomously to respond to customers, resolve tickets, and manage the queue.\n\nhttps://x.ai/news/grok-bot-customer-support",
+      "quote": null,
+      "retweet": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 02:11:27",
+        "created_at_utc": "2026-09-22T18:11:27.000Z",
+        "id": "2102460785649959362",
+        "images": [],
+        "name": "Grok Bot",
+        "text": "We rebuilt customer support around Grok Bot to scale our operations without adding headcount.\n\nIt works autonomously to respond to customers, resolve tickets, and manage the queue.\n\nhttps://x.ai/news/grok-bot-customer-support",
+        "url": "https://x.com/bot/status/2102460785649959362",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 768,
+        "likes": 3164,
+        "quotes": 62,
+        "replies": 200,
+        "retweets": 306,
+        "views": 470167
+      },
+      "url": "https://x.com/elonmusk/status/2102465645334220901",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102465393105523156",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -977,52 +1017,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102412796042629466",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T15:00:46.000Z",
-      "created_at_shanghai": "2026-09-22 23:00:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@XFreeze Not a big fan of benchmarking. \n\nI just took it out for a real life test. Asked it to build me a bash only, self contained agenda, based on some sparse text files with tasks. Finished in 45 minutes end to end. \n\nFull video and repo link\nhttps://youtu.be/HI0ea6urJMw\n\nSolid model.",
-      "quote": null,
-      "retweet": {
-        "author": "dragosroua",
-        "avatar": "https://pbs.twimg.com/profile_images/2100081100043567104/FmEt4Qd5_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 18:07:41",
-        "created_at_utc": "2026-09-22T10:07:41.000Z",
-        "id": "2102339041341714509",
-        "images": [],
-        "name": "Dragos Roua",
-        "text": "@XFreeze Not a big fan of benchmarking. \n\nI just took it out for a real life test. Asked it to build me a bash only, self contained agenda, based on some sparse text files with tasks. Finished in 45 minutes end to end. \n\nFull video and repo link\nhttps://youtu.be/HI0ea6urJMw\n\nSolid model.",
-        "url": "https://x.com/dragosroua/status/2102339041341714509",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "XFreeze",
-      "engagement": {
-        "bookmarks": 47,
-        "likes": 592,
-        "quotes": 4,
-        "replies": 28,
-        "retweets": 83,
-        "views": 398267
-      },
-      "url": "https://x.com/elonmusk/status/2102412796042629466",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 168,
+  "total": 169,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 00:38:56",
+  "updated_at_shanghai": "2026-09-26 00:48:14",
   "account": "elonmusk"
 }

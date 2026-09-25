@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102412796042629466",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T15:00:46.000Z",
+      "created_at_shanghai": "2026-09-22 23:00:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@XFreeze Not a big fan of benchmarking. \n\nI just took it out for a real life test. Asked it to build me a bash only, self contained agenda, based on some sparse text files with tasks. Finished in 45 minutes end to end. \n\nFull video and repo link\nhttps://youtu.be/HI0ea6urJMw\n\nSolid model.",
+      "quote": null,
+      "retweet": {
+        "author": "dragosroua",
+        "avatar": "https://pbs.twimg.com/profile_images/2100081100043567104/FmEt4Qd5_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 18:07:41",
+        "created_at_utc": "2026-09-22T10:07:41.000Z",
+        "id": "2102339041341714509",
+        "images": [],
+        "name": "Dragos Roua",
+        "text": "@XFreeze Not a big fan of benchmarking. \n\nI just took it out for a real life test. Asked it to build me a bash only, self contained agenda, based on some sparse text files with tasks. Finished in 45 minutes end to end. \n\nFull video and repo link\nhttps://youtu.be/HI0ea6urJMw\n\nSolid model.",
+        "url": "https://x.com/dragosroua/status/2102339041341714509",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "XFreeze",
+      "engagement": {
+        "bookmarks": 47,
+        "likes": 592,
+        "quotes": 4,
+        "replies": 28,
+        "retweets": 83,
+        "views": 398267
+      },
+      "url": "https://x.com/elonmusk/status/2102412796042629466",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102412363332805078",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -868,54 +908,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102187423098642792",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T00:05:13.000Z",
-      "created_at_shanghai": "2026-09-22 08:05:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7",
-      "quote": {
-        "author": "ArtificialAnlys",
-        "avatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 06:57:32",
-        "created_at_utc": "2026-09-21T22:57:32.000Z",
-        "id": "2102170392924492207",
-        "images": [
-          "https://pbs.twimg.com/media/HSxoh97bsAAL1zb.jpg?name=small"
-        ],
-        "name": "Artificial Analysis",
-        "text": "Grok 4.7 is behind only Anthropic models on AA-Briefcase, ranking just behind Opus 5 at ~50% of its Cost per Task\n\nGrok 4.7’s improvements over Grok 4.6 are clear in AA-Briefcase-Lite, our public due diligence scenario where models are tasked with building market models and target assessment decks. Grok 4.7 gains significantly in Analytical Quality Elo (1698 → 1994) with a slight regression in Presentation Elo (1531 → 1499).\n\nAPI cost to produce example decks: Grok 4.7 (xhigh) ~$8 vs. Grok 4.6 (xhigh) ~$4.40",
-        "url": "https://x.com/ArtificialAnlys/status/2102170392924492207",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 302,
-        "likes": 6892,
-        "quotes": 69,
-        "replies": 736,
-        "retweets": 1061,
-        "views": 4176585
-      },
-      "url": "https://x.com/elonmusk/status/2102187423098642792",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 168,
+  "total": 169,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 00:38:56",
+  "updated_at_shanghai": "2026-09-26 00:48:14",
   "account": "elonmusk"
 }
