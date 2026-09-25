@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2095120423608553756",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-09-02T12:03:29.000Z",
+      "created_at_shanghai": "2026-09-02 20:03:29",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "LIFTOFF! Electron has launched for the 94th time🚀",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 36,
+        "likes": 3043,
+        "quotes": 44,
+        "replies": 48,
+        "retweets": 269,
+        "views": 137783
+      },
+      "url": "https://x.com/rocketlab/status/2095120423608553756",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2095120214186655746/img/LhHmuuz_Kkld1UWc.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2095120214186655746/vid/avc1/1920x1080/-TrjWIycdwQ24iWd.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2095120214186655746/img/LhHmuuz_Kkld1UWc.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 18.99
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2095102108265755117",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -236,8 +275,8 @@
   ],
   "page": 3,
   "page_size": 20,
-  "total": 46,
+  "total": 47,
   "total_pages": 3,
-  "updated_at_shanghai": "2026-09-26 04:47:04",
+  "updated_at_shanghai": "2026-09-26 07:19:26",
   "account": "rocketlab"
 }
