@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2101896799699062963",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T04:50:23.000Z",
+      "created_at_shanghai": "2026-09-21 12:50:23",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Interesting",
+      "quote": {
+        "author": "minchoi",
+        "avatar": "https://pbs.twimg.com/profile_images/1638359113221517312/CBZaJFyA_200x200.jpg",
+        "created_at_shanghai": "2026-09-21 11:15:50",
+        "created_at_utc": "2026-09-21T03:15:50.000Z",
+        "id": "2101873007673086304",
+        "images": [],
+        "name": "Min Choi",
+        "text": "This is literally my new workflow now:\n\nRealtime Research → Grok Bot\nPlanning & Orchestration→ Grok Bot\nDay-to-day Coding/Debug → Grok Build + Grok 4.6\nWrite & Run Tests → Grok Build + Grok 4.6\nComplex Coding/Debug → GPT-6 Astra\nFrontend → Fable 5.1\n\nBookmark this.",
+        "url": "https://x.com/minchoi/status/2101873007673086304",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1781,
+        "likes": 9297,
+        "quotes": 77,
+        "replies": 926,
+        "retweets": 1264,
+        "views": 7638514
+      },
+      "url": "https://x.com/elonmusk/status/2101896799699062963",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2101866518757683464",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -906,51 +946,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101601873115681037",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-20T09:18:27.000Z",
-      "created_at_shanghai": "2026-09-20 17:18:27",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "This is the future we shall bring into being",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 58003,
-        "likes": 331203,
-        "quotes": 9598,
-        "replies": 32313,
-        "retweets": 40534,
-        "views": 94826359
-      },
-      "url": "https://x.com/elonmusk/status/2101601873115681037",
-      "images": [
-        "https://pbs.twimg.com/ext_tw_video_thumb/1906974196510654464/pu/img/gDDI_anXU78OTHhJ.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/ext_tw_video/1906974196510654464/pu/vid/avc1/1280x720/2E7ECgdWc2tMasRP.mp4?tag=12",
-          "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/1906974196510654464/pu/img/gDDI_anXU78OTHhJ.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 183.791
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 153,
+  "total": 154,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-09-25 11:26:57",
+  "updated_at_shanghai": "2026-09-25 11:37:24",
   "account": "elonmusk"
 }

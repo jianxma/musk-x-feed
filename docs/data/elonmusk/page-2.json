@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2102952936771035459",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T02:47:05.000Z",
+      "created_at_shanghai": "2026-09-24 10:47:05",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "satofishi",
+        "avatar": "https://pbs.twimg.com/profile_images/1905025823553282048/WPWLErbm_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 05:42:45",
+        "created_at_utc": "2026-09-23T21:42:45.000Z",
+        "id": "2102876348792582458",
+        "images": [],
+        "media": [],
+        "name": "Chun",
+        "text": "Not only should mandatory seat belt use on commercial flights end, but so should the use of IVA spacesuits.\n\nIn their 60+ years of history in service, zero lives have been saved by these suits and in real contingencies they failed to save lives at all. Yet astronauts still spend huge amounts of time just to learn how to don and doff them. Today these suits exist more as a symbol. Wearing them is more for show or status.\n\nOnce a large enough crewed spacecraft enters service, we could build in a separate, independently pressurized compartment to serve as a refuge in the event of fire or depressurization. This would free up a huge amount of time for astronauts, allowing them to focus much more on their real work.",
+        "url": "https://x.com/satofishi/status/2102876348792582458",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 941,
+        "quotes": 7,
+        "replies": 170,
+        "retweets": 112,
+        "views": 449484
+      },
+      "url": "https://x.com/elonmusk/status/2102952936771035459",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102952674727784693",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1074,52 +1115,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102651819784827092",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T06:50:33.000Z",
-      "created_at_shanghai": "2026-09-23 14:50:33",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "the Grok @Bot desktop app just got even faster! we shipped 53 perf fixes over the past few days:  \n\n• reconnecting after a flaky connection: 60s → 0.7s \n• waking your laptop: 23s → 1s \n• switching back to a bot's Computer view: 868ms → 27ms\n• opening a chat with a long code block: 954ms → 228ms\n• the Media tab no longer re-downloads every time: 137MB → 0.7MB\n\nplus smoother sidebar animations, no more jumpy screenshot-heavy chats, and much lower memory usage while idle.\n\nstill more to improve!",
-      "quote": null,
-      "retweet": {
-        "author": "poteto",
-        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 05:04:03",
-        "created_at_utc": "2026-09-22T21:04:03.000Z",
-        "id": "2102504221648339170",
-        "images": [],
-        "name": "lauren",
-        "text": "the Grok @Bot desktop app just got even faster! we shipped 53 perf fixes over the past few days:  \n\n• reconnecting after a flaky connection: 60s → 0.7s \n• waking your laptop: 23s → 1s \n• switching back to a bot's Computer view: 868ms → 27ms\n• opening a chat with a long code block: 954ms → 228ms\n• the Media tab no longer re-downloads every time: 137MB → 0.7MB\n\nplus smoother sidebar animations, no more jumpy screenshot-heavy chats, and much lower memory usage while idle.\n\nstill more to improve!",
-        "url": "https://x.com/poteto/status/2102504221648339170",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 114,
-        "likes": 2105,
-        "quotes": 34,
-        "replies": 162,
-        "retweets": 109,
-        "views": 130392
-      },
-      "url": "https://x.com/elonmusk/status/2102651819784827092",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 153,
+  "total": 154,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-09-25 11:26:57",
+  "updated_at_shanghai": "2026-09-25 11:37:24",
   "account": "elonmusk"
 }
