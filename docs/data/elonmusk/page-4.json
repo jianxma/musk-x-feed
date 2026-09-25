@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102454676688162857",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T17:47:11.000Z",
+      "created_at_shanghai": "2026-09-23 01:47:11",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I will admit, I am enjoying vibe coding. I may have been a teensy tiny bit wrong.",
+      "quote": null,
+      "retweet": {
+        "author": "notch",
+        "avatar": "https://pbs.twimg.com/profile_images/1523817638706700288/tVCx9ZP1_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 00:45:52",
+        "created_at_utc": "2026-09-22T16:45:52.000Z",
+        "id": "2102439244887453825",
+        "images": [],
+        "name": "notch",
+        "text": "I will admit, I am enjoying vibe coding. I may have been a teensy tiny bit wrong.",
+        "url": "https://x.com/notch/status/2102439244887453825",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1582,
+        "likes": 23960,
+        "quotes": 317,
+        "replies": 893,
+        "retweets": 959,
+        "views": 1589323
+      },
+      "url": "https://x.com/elonmusk/status/2102454676688162857",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102452256746701030",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -946,64 +986,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102406300303049172",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:34:57.000Z",
-      "created_at_shanghai": "2026-09-22 22:34:57",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok will be able to make photo-realistic &amp; physics-precise games",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 22:18:09",
-        "created_at_utc": "2026-09-22T14:18:09.000Z",
-        "id": "2102402070787862653",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102401361237377024/img/SQBHSBgRjweTTKtP.jpg"
-        ],
-        "media": [
-          {
-            "duration": 50.8,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102401361237377024/img/SQBHSBgRjweTTKtP.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102401361237377024/vid/avc1/1920x1080/k-lneZDppfN08LG0.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 just built a GTA-style open-world game from a single prompt in Grok Build\n\nYou can walk around, drive cars, enter vehicles and explore an entire city\n\nIt looks insane, and I had way too much fun playing it 😂",
-        "url": "https://x.com/XFreeze/status/2102402070787862653",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 736,
-        "likes": 11262,
-        "quotes": 141,
-        "replies": 1443,
-        "retweets": 1411,
-        "views": 3451437
-      },
-      "url": "https://x.com/elonmusk/status/2102406300303049172",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 163,
+  "total": 164,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-25 15:49:47",
+  "updated_at_shanghai": "2026-09-25 15:54:14",
   "account": "elonmusk"
 }

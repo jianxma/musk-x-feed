@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2103188449960313173",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T18:22:56.000Z",
+      "created_at_shanghai": "2026-09-25 02:22:56",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "The amount of compute in space will obviously round up to 100% of all compute",
+      "quote": {
+        "author": "ns123abc",
+        "avatar": "https://pbs.twimg.com/profile_images/2048822563821035520/7nxCFEnk_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 23:22:58",
+        "created_at_utc": "2026-09-24T15:22:58.000Z",
+        "id": "2103143161727992118",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103142952788692992/img/n7FIEwYIgYg9CXI8.jpg"
+        ],
+        "media": [
+          {
+            "duration": 122.376,
+            "height": 1206,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103142952788692992/img/n7FIEwYIgYg9CXI8.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103142952788692992/vid/avc1/2168x1206/pwopstwV49to93R9.mp4?tag=29",
+            "width": 2168
+          }
+        ],
+        "name": "NIK",
+        "text": "BREAKING: Google launching TPUs in space NEXT WEEK on SpaceX falcon 9 to test AI data centers orbit\n\nITS HAPPENING",
+        "url": "https://x.com/ns123abc/status/2103143161727992118",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 27,
+        "likes": 651,
+        "quotes": 9,
+        "replies": 147,
+        "retweets": 90,
+        "views": 300258
+      },
+      "url": "https://x.com/elonmusk/status/2103188449960313173",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2103160489207587285",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1050,53 +1102,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102837555851087964",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T19:08:36.000Z",
-      "created_at_shanghai": "2026-09-24 03:08:36",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "i was having dinner with someone recently who asked why i spend so much time reading & posting on x. she had a pretty negative perception of the platform mostly shaped by the mainstream narrative around it.\n\nmy answer was simple. x is where the future gets beta tested.\n\nyou basically get to watch ppl build things, talk through ideas, show off stuff, & argue about where everything is going, way way before it reaches anyone else.\n\nthere really isn’t another surface on the internet quite like it.",
-      "quote": null,
-      "retweet": {
-        "author": "signulll",
-        "avatar": "https://pbs.twimg.com/profile_images/1717763325692383232/Jk2PKCx6_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 23:56:23",
-        "created_at_utc": "2026-09-23T15:56:23.000Z",
-        "id": "2102789183370613106",
-        "images": [],
-        "media": [],
-        "name": "signüll",
-        "text": "i was having dinner with someone recently who asked why i spend so much time reading & posting on x. she had a pretty negative perception of the platform mostly shaped by the mainstream narrative around it.\n\nmy answer was simple. x is where the future gets beta tested.\n\nyou basically get to watch ppl build things, talk through ideas, show off stuff, & argue about where everything is going, way way before it reaches anyone else.\n\nthere really isn’t another surface on the internet quite like it.",
-        "url": "https://x.com/signulll/status/2102789183370613106",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 329,
-        "likes": 4166,
-        "quotes": 71,
-        "replies": 306,
-        "retweets": 395,
-        "views": 244345
-      },
-      "url": "https://x.com/elonmusk/status/2102837555851087964",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 163,
+  "total": 164,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-25 15:49:47",
+  "updated_at_shanghai": "2026-09-25 15:54:14",
   "account": "elonmusk"
 }
