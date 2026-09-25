@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102084081475350829",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T17:14:34.000Z",
+      "created_at_shanghai": "2026-09-22 01:14:34",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "🚀",
+      "quote": {
+        "author": "nvidia",
+        "avatar": "https://pbs.twimg.com/profile_images/1828904711124078593/SRvCZSfQ_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 01:02:50",
+        "created_at_utc": "2026-09-21T17:02:50.000Z",
+        "id": "2102081129234751722",
+        "images": [],
+        "name": "NVIDIA",
+        "text": "Grok 4.7 has landed. 🚀\n\nCongrats to @SpaceXAI on its most capable model yet for coding and knowledge work.\n\nProud to support the team with NVIDIA accelerated computing.",
+        "url": "https://x.com/nvidia/status/2102081129234751722",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 656,
+        "likes": 28923,
+        "quotes": 122,
+        "replies": 1737,
+        "retweets": 2585,
+        "views": 7994651
+      },
+      "url": "https://x.com/elonmusk/status/2102084081475350829",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102083930107101382",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -910,52 +950,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101897305204945189",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T04:52:23.000Z",
-      "created_at_shanghai": "2026-09-21 12:52:23",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Week 1 at SpaceXAI.\n\nThe intensity is real and the people are great, but there is so much information coming from every direction that you mostly absorb what you can and keep moving.\n\nManaged to fix a bug in Grok Bot browser use tho 😛 But a lot more exciting stuff coming.\n\nGrok is going to be great, and agents still have a long way to go.\n\nIf you use http://grok.com or Grok Bot, what is the most urgent thing to fix right now (or what feature is really missing)?",
-      "quote": null,
-      "retweet": {
-        "author": "larsencc",
-        "avatar": "https://pbs.twimg.com/profile_images/1903676613335937024/ZHHPeMPx_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 11:42:32",
-        "created_at_utc": "2026-09-21T03:42:32.000Z",
-        "id": "2101879725274845502",
-        "images": [],
-        "name": "Larsen Cundric",
-        "text": "Week 1 at SpaceXAI.\n\nThe intensity is real and the people are great, but there is so much information coming from every direction that you mostly absorb what you can and keep moving.\n\nManaged to fix a bug in Grok Bot browser use tho 😛 But a lot more exciting stuff coming.\n\nGrok is going to be great, and agents still have a long way to go.\n\nIf you use http://grok.com or Grok Bot, what is the most urgent thing to fix right now (or what feature is really missing)?",
-        "url": "https://x.com/larsencc/status/2101879725274845502",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 151,
-        "likes": 2876,
-        "quotes": 11,
-        "replies": 701,
-        "retweets": 197,
-        "views": 537278
-      },
-      "url": "https://x.com/elonmusk/status/2101897305204945189",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 174,
+  "total": 175,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 05:15:02",
+  "updated_at_shanghai": "2026-09-26 05:28:37",
   "account": "elonmusk"
 }
