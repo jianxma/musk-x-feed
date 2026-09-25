@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2102454903901982748",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T17:48:05.000Z",
+      "created_at_shanghai": "2026-09-23 01:48:05",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "💪",
+      "quote": {
+        "author": "THR",
+        "avatar": "https://pbs.twimg.com/profile_images/528317230367268865/Po8lHinI_200x200.jpeg",
+        "created_at_shanghai": "2026-09-22 23:00:15",
+        "created_at_utc": "2026-09-22T15:00:15.000Z",
+        "id": "2102412668519031028",
+        "images": [],
+        "name": "The Hollywood Reporter",
+        "text": "Inside Ari Emanuel's Earliest Days in Hollywood: Coffee Runs, Couch Surfing and Replacing Michael Ovitz's Toilet Paper https://www.hollywoodreporter.com/lifestyle/arts/inside-ari-emanuels-earliest-days-hollywood-memoir-excerpt-1236707236/",
+        "url": "https://x.com/THR/status/2102412668519031028",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "AriEmanuel",
+        "avatar": "https://pbs.twimg.com/profile_images/2084645387726651393/f-1LJwey_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 01:18:46",
+        "created_at_utc": "2026-09-22T17:18:46.000Z",
+        "id": "2102447527354351801",
+        "images": [],
+        "name": "Ari Emanuel",
+        "text": "💪",
+        "url": "https://x.com/AriEmanuel/status/2102447527354351801",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 60,
+        "likes": 848,
+        "quotes": 3,
+        "replies": 60,
+        "retweets": 88,
+        "views": 529674
+      },
+      "url": "https://x.com/elonmusk/status/2102454903901982748",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102454676688162857",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -942,56 +994,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2102407861808910532",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:41:09.000Z",
-      "created_at_shanghai": "2026-09-22 22:41:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I let Grok Bot manage my YouTube channel... and it's better than I am!\n\n0:53 Automating tagging with @Bot\n1:40 How the Bot works\n2:38 Figma thumbs and brand-voice descriptions\n3:47 Template setup (YouTube Data API + AssemblyAI)\n4:34 Install and get started",
-      "quote": null,
-      "retweet": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 22:00:02",
-        "created_at_utc": "2026-09-22T14:00:02.000Z",
-        "id": "2102397514792001868",
-        "images": [
-          "https://pbs.twimg.com/media/HShEwaKbgAA-Lkk.jpg?name=small"
-        ],
-        "name": "matt palmer",
-        "text": "I let Grok Bot manage my YouTube channel... and it's better than I am!\n\n0:53 Automating tagging with @Bot\n1:40 How the Bot works\n2:38 Figma thumbs and brand-voice descriptions\n3:47 Template setup (YouTube Data API + AssemblyAI)\n4:34 Install and get started",
-        "url": "https://x.com/mattyp/status/2102397514792001868",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1235,
-        "likes": 1555,
-        "quotes": 23,
-        "replies": 101,
-        "retweets": 177,
-        "views": 292221
-      },
-      "url": "https://x.com/elonmusk/status/2102407861808910532",
-      "images": [
-        "https://pbs.twimg.com/media/HShEwaKbgAA-Lkk.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 164,
+  "total": 165,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-25 15:54:14",
+  "updated_at_shanghai": "2026-09-25 16:01:20",
   "account": "elonmusk"
 }
