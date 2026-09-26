@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "id": "2102643431051038807",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T06:17:13.000Z",
+      "created_at_shanghai": "2026-09-23 14:17:13",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We’re indebted to the @FDNY for their selfless bravery every day, and last week I had the great honor to tell them how I and all New Yorkers feel about them. Support the @FDNYFoundation!",
+      "quote": null,
+      "retweet": {
+        "author": "DavidSolomon",
+        "avatar": "https://pbs.twimg.com/profile_images/1054838979437191171/-zhOGfet_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 19:28:11",
+        "created_at_utc": "2026-09-22T11:28:11.000Z",
+        "id": "2102359300827914421",
+        "images": [
+          "https://pbs.twimg.com/media/HS0UpH-WYAAg7Cq.jpg?name=small"
+        ],
+        "name": "David Solomon",
+        "text": "We’re indebted to the @FDNY for their selfless bravery every day, and last week I had the great honor to tell them how I and all New Yorkers feel about them. Support the @FDNYFoundation!",
+        "url": "https://x.com/DavidSolomon/status/2102359300827914421",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 7,
+        "likes": 248,
+        "quotes": 5,
+        "replies": 14,
+        "retweets": 33,
+        "views": 34993
+      },
+      "url": "https://x.com/elonmusk/status/2102643431051038807",
+      "images": [
+        "https://pbs.twimg.com/media/HS0UpH-WYAAg7Cq.jpg?name=small"
+      ],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102520283618017355",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -967,58 +1011,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2102415307025604915",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T15:10:44.000Z",
-      "created_at_shanghai": "2026-09-22 23:10:44",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 Fast is now live in Grok Build and Cursor\n\nIt’s the same Grok 4.7 model running on faster infrastructure, with roughly 2× the output speed\n\n• Available now in only Grok Build and Cursor\n• Costs 2× the standard Grok 4.7 token rates\n• Not included in Grok Build’s free tier\n• Not available on the public xAI API\n\nSame intelligence, much faster inference......at 2× the cost",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 13:17:50",
-        "created_at_utc": "2026-09-22T05:17:50.000Z",
-        "id": "2102266095864602993",
-        "images": [
-          "https://pbs.twimg.com/media/HSy_hOCbcAAO5Wg.jpg?name=small",
-          "https://pbs.twimg.com/media/HSy_kk9a4AA_avU.jpg?name=small"
-        ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 Fast is now live in Grok Build and Cursor\n\nIt’s the same Grok 4.7 model running on faster infrastructure, with roughly 2× the output speed\n\n• Available now in only Grok Build and Cursor\n• Costs 2× the standard Grok 4.7 token rates\n• Not included in Grok Build’s free tier\n• Not available on the public xAI API\n\nSame intelligence, much faster inference......at 2× the cost",
-        "url": "https://x.com/XFreeze/status/2102266095864602993",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 55,
-        "likes": 1099,
-        "quotes": 8,
-        "replies": 67,
-        "retweets": 144,
-        "views": 295873
-      },
-      "url": "https://x.com/elonmusk/status/2102415307025604915",
-      "images": [
-        "https://pbs.twimg.com/media/HSy_hOCbcAAO5Wg.jpg?name=small",
-        "https://pbs.twimg.com/media/HSy_kk9a4AA_avU.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 190,
+  "total": 191,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 22:24:26",
+  "updated_at_shanghai": "2026-09-26 22:27:32",
   "account": "elonmusk"
 }

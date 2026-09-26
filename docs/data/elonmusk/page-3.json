@@ -1,6 +1,83 @@
 {
   "posts": [
     {
+      "id": "2103321592789159961",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-25T03:12:00.000Z",
+      "created_at_shanghai": "2026-09-25 11:12:00",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Testing Grok 4.7: I sketched the game literally on the back of an envelope and had it live and playable a few mins later.\n\nhttps://lightweavegame.com/",
+      "quote": null,
+      "retweet": {
+        "author": "luismbat",
+        "avatar": "https://pbs.twimg.com/profile_images/378800000564279654/544464e51ec3be835a561a7f631379ab_200x200.png",
+        "created_at_shanghai": "2026-09-23 06:10:17",
+        "created_at_utc": "2026-09-22T22:10:17.000Z",
+        "id": "2102520887585259922",
+        "images": [
+          "https://pbs.twimg.com/media/HS2nS9DXEAAgxzo.jpg?name=small",
+          "https://pbs.twimg.com/tweet_video_thumb/HS2ngGYW0AA5P8C.jpg"
+        ],
+        "media": [
+          {
+            "height": 1650,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS2nS9DXEAAgxzo.jpg?name=small",
+            "width": 1220
+          },
+          {
+            "duration": 0,
+            "height": 1024,
+            "thumbnail_url": "https://pbs.twimg.com/tweet_video_thumb/HS2ngGYW0AA5P8C.jpg",
+            "type": "gif",
+            "url": "https://video.twimg.com/tweet_video/HS2ngGYW0AA5P8C.mp4",
+            "width": 576
+          }
+        ],
+        "name": "Luis Batalha",
+        "text": "Testing Grok 4.7: I sketched the game literally on the back of an envelope and had it live and playable a few mins later.\n\nhttps://lightweavegame.com/",
+        "url": "https://x.com/luismbat/status/2102520887585259922",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 25,
+        "likes": 226,
+        "quotes": 5,
+        "replies": 27,
+        "retweets": 30,
+        "views": 27892
+      },
+      "url": "https://x.com/elonmusk/status/2103321592789159961",
+      "images": [
+        "https://pbs.twimg.com/media/HS2nS9DXEAAgxzo.jpg?name=small",
+        "https://pbs.twimg.com/tweet_video_thumb/HS2ngGYW0AA5P8C.jpg"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS2nS9DXEAAgxzo.jpg?name=small",
+          "width": 1220,
+          "height": 1650
+        },
+        {
+          "type": "gif",
+          "url": "https://video.twimg.com/tweet_video/HS2ngGYW0AA5P8C.mp4",
+          "thumbnail_url": "https://pbs.twimg.com/tweet_video_thumb/HS2ngGYW0AA5P8C.jpg",
+          "width": 576,
+          "height": 1024,
+          "duration": 0
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103309952114950647",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1095,113 +1172,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2102952506674536864",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-24T02:45:23.000Z",
-      "created_at_shanghai": "2026-09-24 10:45:23",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Sunrise at Starbase. Opportunistic full stack testing is planned ahead of Flight 14's launch, which is on track for Monday, Sept. 28, pending regulatory approval",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 07:15:49",
-        "created_at_utc": "2026-09-23T23:15:49.000Z",
-        "id": "2102899767403851945",
-        "images": [
-          "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
-          "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
-          "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
-          "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
-            "width": 4096
-          },
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
-            "width": 4096
-          },
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
-            "width": 4096
-          },
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small",
-            "width": 4096
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Sunrise at Starbase. Opportunistic full stack testing is planned ahead of Flight 14's launch, which is on track for Monday, Sept. 28, pending regulatory approval",
-        "url": "https://x.com/SpaceX/status/2102899767403851945",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 326,
-        "likes": 7186,
-        "quotes": 116,
-        "replies": 222,
-        "retweets": 941,
-        "views": 424235
-      },
-      "url": "https://x.com/elonmusk/status/2102952506674536864",
-      "images": [
-        "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
-        "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
-        "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
-        "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
-          "width": 4096,
-          "height": 2304
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
-          "width": 4096,
-          "height": 2304
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
-          "width": 4096,
-          "height": 2304
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small",
-          "width": 4096,
-          "height": 2304
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 190,
+  "total": 191,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 22:24:26",
+  "updated_at_shanghai": "2026-09-26 22:27:32",
   "account": "elonmusk"
 }

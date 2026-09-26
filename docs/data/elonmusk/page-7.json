@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2102192595325559159",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T00:25:46.000Z",
+      "created_at_shanghai": "2026-09-22 08:25:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 just released and it's an EXCELLENT model\n\nIt was trained FOR Grok Bot\n\nMeaning this is a fully agentic model trained to do your knowledge work better than you can\n\nIn this video I show you how to use Grok 4.7 and a Grok Bot workflow that will 10x your productivity:",
+      "quote": null,
+      "retweet": {
+        "author": "AlexFinn",
+        "avatar": "https://pbs.twimg.com/profile_images/1745232634278461440/7gQcr_R__200x200.jpg",
+        "created_at_shanghai": "2026-09-22 08:07:47",
+        "created_at_utc": "2026-09-22T00:07:47.000Z",
+        "id": "2102188069483155841",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg"
+        ],
+        "media": [
+          {
+            "duration": 845.136,
+            "height": 1968,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102187463200718848/vid/avc1/3840x1968/hAmtr6d8MVoU9KT8.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Alex Finn",
+        "text": "Grok 4.7 just released and it's an EXCELLENT model\n\nIt was trained FOR Grok Bot\n\nMeaning this is a fully agentic model trained to do your knowledge work better than you can\n\nIn this video I show you how to use Grok 4.7 and a Grok Bot workflow that will 10x your productivity:",
+        "url": "https://x.com/AlexFinn/status/2102188069483155841",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1374,
+        "likes": 2194,
+        "quotes": 32,
+        "replies": 172,
+        "retweets": 259,
+        "views": 507962
+      },
+      "url": "https://x.com/elonmusk/status/2102192595325559159",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102187463200718848/vid/avc1/3840x1968/hAmtr6d8MVoU9KT8.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg",
+          "width": 3840,
+          "height": 1968,
+          "duration": 845.136
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2102188167860273661",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -972,56 +1035,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102072686293684710",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T16:29:17.000Z",
-      "created_at_shanghai": "2026-09-22 00:29:17",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "SpaceXAI just released Grok 4.7\n\nAnd it’s already showing a huge jump in multi-hour office work\n\nGrok 4.7 outperforms GPT-6 Astra and is already nearly matching Fable 5.1",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 00:19:28",
-        "created_at_utc": "2026-09-21T16:19:28.000Z",
-        "id": "2102070215898976401",
-        "images": [
-          "https://pbs.twimg.com/media/HSwNtySXoAAgJdj.jpg?name=small"
-        ],
-        "name": "X Freeze",
-        "text": "SpaceXAI just released Grok 4.7\n\nAnd it’s already showing a huge jump in multi-hour office work\n\nGrok 4.7 outperforms GPT-6 Astra and is already nearly matching Fable 5.1",
-        "url": "https://x.com/XFreeze/status/2102070215898976401",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 64,
-        "likes": 1800,
-        "quotes": 20,
-        "replies": 122,
-        "retweets": 228,
-        "views": 347572
-      },
-      "url": "https://x.com/elonmusk/status/2102072686293684710",
-      "images": [
-        "https://pbs.twimg.com/media/HSwNtySXoAAgJdj.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 190,
+  "total": 191,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 22:24:26",
+  "updated_at_shanghai": "2026-09-26 22:27:32",
   "account": "elonmusk"
 }
