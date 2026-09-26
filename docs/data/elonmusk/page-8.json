@@ -1,6 +1,60 @@
 {
   "posts": [
     {
+      "id": "2102083438354292878",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T17:12:01.000Z",
+      "created_at_shanghai": "2026-09-22 01:12:01",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We trained 4.7 on longer-running problems compared to Grok 4.6. It holds context better and checks its own work more carefully.\n\nGive it a try and let us know your feedback!",
+      "quote": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "haozhu_wang",
+        "avatar": "https://pbs.twimg.com/profile_images/1977076158073389058/lviVy4Bc_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:46:52",
+        "created_at_utc": "2026-09-21T16:46:52.000Z",
+        "id": "2102077111548940709",
+        "images": [],
+        "name": "Haozhu Wang",
+        "text": "We trained 4.7 on longer-running problems compared to Grok 4.6. It holds context better and checks its own work more carefully.\n\nGive it a try and let us know your feedback!",
+        "url": "https://x.com/haozhu_wang/status/2102077111548940709",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 77,
+        "likes": 2222,
+        "quotes": 9,
+        "replies": 167,
+        "retweets": 162,
+        "views": 493204
+      },
+      "url": "https://x.com/elonmusk/status/2102083438354292878",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102082011233931762",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -896,52 +950,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101866518757683464",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T02:50:03.000Z",
-      "created_at_shanghai": "2026-09-21 10:50:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Built this Grok Bot, fully offline index of all your saved instagram videos via @karpathy-wiki-style .md. Uses @bot, @grok Voice Transcribe 2.0, Grok Vision + more.\n\n(X + TikTok coming soon)",
-      "quote": null,
-      "retweet": {
-        "author": "kevinrose",
-        "avatar": "https://pbs.twimg.com/profile_images/1943511529237680130/cy-Te05B_200x200.jpg",
-        "created_at_shanghai": "2026-09-20 07:35:48",
-        "created_at_utc": "2026-09-19T23:35:48.000Z",
-        "id": "2101455244567973976",
-        "images": [],
-        "name": "Kevin Rose",
-        "text": "Built this Grok Bot, fully offline index of all your saved instagram videos via @karpathy-wiki-style .md. Uses @bot, @grok Voice Transcribe 2.0, Grok Vision + more.\n\n(X + TikTok coming soon)",
-        "url": "https://x.com/kevinrose/status/2101455244567973976",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1309,
-        "likes": 1685,
-        "quotes": 17,
-        "replies": 117,
-        "retweets": 175,
-        "views": 665774
-      },
-      "url": "https://x.com/elonmusk/status/2101866518757683464",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 8,
   "page_size": 20,
-  "total": 192,
+  "total": 193,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 22:39:12",
+  "updated_at_shanghai": "2026-09-26 22:44:05",
   "account": "elonmusk"
 }

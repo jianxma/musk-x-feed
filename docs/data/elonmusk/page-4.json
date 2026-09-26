@@ -1,6 +1,77 @@
 {
   "posts": [
     {
+      "id": "2102952674727784693",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T02:46:03.000Z",
+      "created_at_shanghai": "2026-09-24 10:46:03",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Preparing for launch on Monday",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 23:23:59",
+        "created_at_utc": "2026-09-23T15:23:59.000Z",
+        "id": "2102781027085320290",
+        "images": [
+          "https://pbs.twimg.com/media/HS6UGjvXkAAyHtp.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6UIKjWcAAIFCz.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6UJosXkAAtmfZ.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6ULERWMAAKMsr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UGjvXkAAyHtp.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UIKjWcAAIFCz.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UJosXkAAtmfZ.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6ULERWMAAKMsr.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Ship 41 moved to the launch pad at Starbase",
+        "url": "https://x.com/SpaceX/status/2102781027085320290",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 51,
+        "likes": 2498,
+        "quotes": 36,
+        "replies": 418,
+        "retweets": 357,
+        "views": 402171
+      },
+      "url": "https://x.com/elonmusk/status/2102952674727784693",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102952564623131009",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1043,56 +1114,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102651780211617814",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T06:50:24.000Z",
-      "created_at_shanghai": "2026-09-23 14:50:24",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Fitch gives Tesla its first-ever BBB investment-grade credit rating.\n\nFitch highlighted Tesla’s EV leadership, strong profitability, $43.5B in cash and investments, and “unmatched” vertical integration as it expands into AI, Robotaxi and Optimus.\n\nThis is huge. 🔥",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 05:23:23",
-        "created_at_utc": "2026-09-22T21:23:23.000Z",
-        "id": "2102509086667579638",
-        "images": [
-          "https://pbs.twimg.com/media/HS2c3khbQAAJ1il.jpg?name=small"
-        ],
-        "name": "DogeDesigner",
-        "text": "Fitch gives Tesla its first-ever BBB investment-grade credit rating.\n\nFitch highlighted Tesla’s EV leadership, strong profitability, $43.5B in cash and investments, and “unmatched” vertical integration as it expands into AI, Robotaxi and Optimus.\n\nThis is huge. 🔥",
-        "url": "https://x.com/cb_doge/status/2102509086667579638",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 54,
-        "likes": 1420,
-        "quotes": 24,
-        "replies": 90,
-        "retweets": 231,
-        "views": 84554
-      },
-      "url": "https://x.com/elonmusk/status/2102651780211617814",
-      "images": [
-        "https://pbs.twimg.com/media/HS2c3khbQAAJ1il.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 192,
+  "total": 193,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 22:39:12",
+  "updated_at_shanghai": "2026-09-26 22:44:05",
   "account": "elonmusk"
 }
