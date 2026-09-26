@@ -676,6 +676,20 @@ class SpaContractTests(unittest.TestCase):
         self.assertIn("p.media", html)
         self.assertIn("isPlayableVideoUrl", html)
 
+    def test_visited_account_views_stay_mounted(self):
+        html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+        self.assertIn("className = 'feed-view'", html)
+        self.assertIn("renderedByKey", html)
+        self.assertIn("viewHasPaint", html)
+        self.assertIn("showFeedView", html)
+        self.assertNotIn("feedEl.innerHTML", html)
+        self.assertIn("正在加载…", html)
+        self.assertIn("renderedPayloadUnchanged", html)
+        self.assertIn("musk-x-feed-seen", html)
+        self.assertIn("musk-x-feed-scroll", html)
+        self.assertNotIn("bindReleaseStop", html)
+        self.assertNotIn("overscroll-behavior: none", html)
+
 
 if __name__ == "__main__":
     unittest.main()
