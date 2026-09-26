@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102408239774151050",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T14:42:39.000Z",
+      "created_at_shanghai": "2026-09-22 22:42:39",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Interesting perspective",
+      "quote": {
+        "author": "AndrewYNg",
+        "avatar": "https://pbs.twimg.com/profile_images/733174243714682880/oyG30NEH_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 04:59:03",
+        "created_at_utc": "2026-09-21T20:59:03.000Z",
+        "id": "2102140576498065758",
+        "images": [],
+        "name": "Andrew Ng",
+        "text": "The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks. AI technology has not taken some unexpected, dangerous turn, but the hype around it — propelled by what appears to be a well orchestrated PR campaign — has drummed up considerable fear. I worry that it represents a setback for our field.\n\nI have written frequently that fears of AI are overhyped. AI’s capabilities can be uncannily human-like and unpredictable, and it’s rational to worry when people who are directly involved express concerns. But I see the problems as a sign of the engineering work that ahead, rather than insurmountable barriers or the sky falling. AI technology continues to advance — which is a good thing! — but technical advances, poorly understood by the public, give those who seek to generate hype repeated opportunities to do so.\n\nFirst, I don’t see any step up in the risk of human extinction from AI compared to a few months ago. The theories about this remain the same fantastical, science fiction scenarios as a few months ago. The biggest change in AI risk is its cybersecurity capabilities — a topic which we should take seriously — but this, too, will not lead to the end of the world.\n\nThe most notable recent event leading to increased fear was when an OpenAI team deployed an agent swarm that hacked into Hugging Face. Much of the popular press contained significant hype. For example, some publications reported that a swarm of 1,200 agents carried out the attack. While this was technically accurate, as I write this, I have about 1,300 processes running on my laptop. Yes, the ability to get large swarms of agents to work in parallel on a task is a significant technical advance, And, in computing, many processes run at the same time. So this shouldn’t be seen as some magical capability.\n\nAdditionally, OpenAI’s buggy sandboxing and monitoring processes were key to enabling this incident. Fixing these bugs and putting in place improved monitoring would be appropriate fixes, not pausing AI. There are many well known ways to attack software systems. The main advantage of AI agents is that they are relentless. They will tirelessly try many tactics — and have the patience to chain vulnerabilities together — that previously would have taken an infeasible amount of human effort. But in the long term, I believe the advantage will lie with defenders (because they have more information with which to identify bugs, which they can fix), but the cyber-threat landscape has changed significantly. There are still bottlenecks to identifying and exploiting a vulnerability. AI agents still have to try a lot of things to see what works, and taking these actions takes time and might be detected by defenders. This is why, even though it is now easy to obtain versions of leading open weight models that have had their guardrails removed or weakened, so they will not refuse to try to execute cyber attacks, the world has not ended.\n\nI am also concerned about the anthropomorphization of AI in a lot of reporting, where LLMs and agents are unnecessarily treated as if they were people. If I wield a hammer, miss a nail, and accidentally dent the wall, it’s not the fault of the hammer. The problem lies in how I used the hammer. Similarly, if I prompt an agent and it hacks into someone else’s system, the responsibility lies with me, not the agent.\n\nOf course, we want to build systems that are as safe and predictable as possible. (For example, an unsafe hammer would be one whose head randomly flies off under normal use.) Today’s agentic systems are not predictable, but I see no reason why, by applying sound engineering practices, we won’t be able to make them extremely safe to use. One new element in the forecasts of AI-enabled doom is AI companies disclaiming responsibility for their own products. “I didn’t do it; my out-of-control agent did!” There’s a balance to be struck between the responsibility of the tool maker and the tool user, but when something goes wrong, let’s hold the people building and/or using the hammer responsible, rather than the hammer. (By the way, if you’re worried about AI bioweapon risk, David Bellamy has a great post on why this, too, is overhyped. Briefly, the bottleneck in building a bioweapon is not intelligence, but lab work and manufacturing.)\n\nPausing AI progress will create much more harm than benefit. First, our adversaries will certainly not slow down. Second, engineering requires discovering problems empirically so we can fix them. If we pause AI by a decade, we will also delay finding and implementing safety engineering fixes by about the same duration.\n\nOf course, the incentive to stoke fears — for regulatory capture, to garner attention, or to make one’s technology seem more powerful — remains the same as before. Disclaiming responsibility is a new one. Taking a hard technical look at the actual risks however, I see little factual basis for the degree of fear that’s been stoked up. We still have hard research and engineering work ahead to improve AI safety, but the beneficial applications continue to vastly outweigh the risks, and we should keep building.\n\n[Original text (with links): https://www.deeplearning.ai/the-batch/issue-371 ]",
+        "url": "https://x.com/AndrewYNg/status/2102140576498065758",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1674,
+        "likes": 10414,
+        "quotes": 64,
+        "replies": 944,
+        "retweets": 1198,
+        "views": 5901353
+      },
+      "url": "https://x.com/elonmusk/status/2102408239774151050",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102407988636209546",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -874,56 +914,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102107554578931980",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T18:47:50.000Z",
-      "created_at_shanghai": "2026-09-22 02:47:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "and here’s the grok 4.7 model card. a few jumps vs 4.6 that stood out:\n\n- Terminal-Bench: 20.3% → 38.0%\n- SWE-Marathon: 31.9% → 46.0%\n- HealthBench Pro: 48.5% → 56.7%\n- Legal Agent: 15.8% → 19.6%\n- EEBench: 60.0% → 66.0%\n\nfor the same price as 4.6!\n\nhttps://media.x.ai/v1/website/4p7card-5eccc980.pdf",
-      "quote": null,
-      "retweet": {
-        "author": "ericzakariasson",
-        "avatar": "https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 01:49:09",
-        "created_at_utc": "2026-09-21T17:49:09.000Z",
-        "id": "2102092784727679127",
-        "images": [
-          "https://pbs.twimg.com/media/HSwiP5pa4AA1v89.jpg?name=small"
-        ],
-        "name": "eric zakariasson",
-        "text": "and here’s the grok 4.7 model card. a few jumps vs 4.6 that stood out:\n\n- Terminal-Bench: 20.3% → 38.0%\n- SWE-Marathon: 31.9% → 46.0%\n- HealthBench Pro: 48.5% → 56.7%\n- Legal Agent: 15.8% → 19.6%\n- EEBench: 60.0% → 66.0%\n\nfor the same price as 4.6!\n\nhttps://media.x.ai/v1/website/4p7card-5eccc980.pdf",
-        "url": "https://x.com/ericzakariasson/status/2102092784727679127",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 84,
-        "likes": 1693,
-        "quotes": 13,
-        "replies": 113,
-        "retweets": 189,
-        "views": 463927
-      },
-      "url": "https://x.com/elonmusk/status/2102107554578931980",
-      "images": [
-        "https://pbs.twimg.com/media/HSwiP5pa4AA1v89.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 20,
-  "total": 186,
+  "total": 187,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 16:13:37",
+  "updated_at_shanghai": "2026-09-26 16:18:04",
   "account": "elonmusk"
 }

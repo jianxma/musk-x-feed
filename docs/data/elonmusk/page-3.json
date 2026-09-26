@@ -1,6 +1,82 @@
 {
   "posts": [
     {
+      "id": "2103245261506064801",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T22:08:41.000Z",
+      "created_at_shanghai": "2026-09-25 06:08:41",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Had opus 5.5 make a video predicting the next 50 years\n\nI'm optimistic that the end will be beautiful, but the transition will be a little rough",
+      "quote": {
+        "author": "thattallguy",
+        "avatar": "https://pbs.twimg.com/profile_images/1649077163633811469/bAZy6coR_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 12:33:02",
+        "created_at_utc": "2026-09-24T04:33:02.000Z",
+        "id": "2102979599219163373",
+        "images": [],
+        "media": [],
+        "name": "Jess 🌱",
+        "text": "@andrewjiang you're afraid? really?",
+        "url": "https://x.com/thattallguy/status/2102979599219163373",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "andrewjiang",
+        "avatar": "https://pbs.twimg.com/profile_images/2079615077985247232/FYF4B1UP_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 13:06:21",
+        "created_at_utc": "2026-09-24T05:06:21.000Z",
+        "id": "2102987981695132140",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102987203840466944/img/tlvgCuJLSqSy2piZ.jpg"
+        ],
+        "media": [
+          {
+            "duration": 240.033,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102987203840466944/img/tlvgCuJLSqSy2piZ.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102987203840466944/vid/avc1/1920x1080/dZqpC79HMGe_kG4d.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Andrew Jiang",
+        "text": "Had opus 5.5 make a video predicting the next 50 years\n\nI'm optimistic that the end will be beautiful, but the transition will be a little rough",
+        "url": "https://x.com/andrewjiang/status/2102987981695132140",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 864,
+        "likes": 1193,
+        "quotes": 37,
+        "replies": 92,
+        "retweets": 165,
+        "views": 100862
+      },
+      "url": "https://x.com/elonmusk/status/2103245261506064801",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102987203840466944/img/tlvgCuJLSqSy2piZ.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102987203840466944/vid/avc1/1920x1080/dZqpC79HMGe_kG4d.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102987203840466944/img/tlvgCuJLSqSy2piZ.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 240.033
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103238840072937532",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1099,53 +1175,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102839221593710678",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T19:15:13.000Z",
-      "created_at_shanghai": "2026-09-24 03:15:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "SpaceXAI",
-      "quote": {
-        "author": "willdepue",
-        "avatar": "https://pbs.twimg.com/profile_images/1933036715343839232/NtsZBjee_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 01:45:33",
-        "created_at_utc": "2026-09-23T17:45:33.000Z",
-        "id": "2102816654208233574",
-        "images": [],
-        "media": [],
-        "name": "will depue",
-        "text": "wow big move. troy and eric are truly world-class",
-        "url": "https://x.com/willdepue/status/2102816654208233574",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 83,
-        "likes": 3366,
-        "quotes": 43,
-        "replies": 656,
-        "retweets": 435,
-        "views": 1161141
-      },
-      "url": "https://x.com/elonmusk/status/2102839221593710678",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 186,
+  "total": 187,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 16:13:37",
+  "updated_at_shanghai": "2026-09-26 16:18:04",
   "account": "elonmusk"
 }

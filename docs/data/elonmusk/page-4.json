@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2102839221593710678",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T19:15:13.000Z",
+      "created_at_shanghai": "2026-09-24 03:15:13",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "SpaceXAI",
+      "quote": {
+        "author": "willdepue",
+        "avatar": "https://pbs.twimg.com/profile_images/1933036715343839232/NtsZBjee_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 01:45:33",
+        "created_at_utc": "2026-09-23T17:45:33.000Z",
+        "id": "2102816654208233574",
+        "images": [],
+        "media": [],
+        "name": "will depue",
+        "text": "wow big move. troy and eric are truly world-class",
+        "url": "https://x.com/willdepue/status/2102816654208233574",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 83,
+        "likes": 3366,
+        "quotes": 43,
+        "replies": 656,
+        "retweets": 435,
+        "views": 1161141
+      },
+      "url": "https://x.com/elonmusk/status/2102839221593710678",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102839041737867638",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -949,75 +990,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2102463325045145978",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T18:21:33.000Z",
-      "created_at_shanghai": "2026-09-23 02:21:33",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build.\n\nThe update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent performance. It also adds new subagent controls, configurable request limits and long-reasoning reminders.\n\nRelease Notes\n\nVersion 1.0.41 — September 22, 2026\n\nFeatures\n\n• Added a new sports_search tool that can look up live NFL scores, standings, schedules, player stats and team records directly from X data.\n\n• Added a subagent model inheritance setting to /settings. It persists in config.toml and respects managed and overlay layers.\n\n• Per-model request size limits can now be configured to match provider HTTP body caps and control inline image eviction.\n\n• A long-reasoning reminder can now be enabled through config to nudge the model after lengthy hidden-reasoning steps.\n\nBug Fixes\n\n• Fixed the subagent fullscreen view so it no longer shows a stray [Dashboard] button in the header.\n\n• Fixed agent frontmatter mcpServers so headers and URLs from the active agent’s agent.md correctly override config.toml and survive config reloads or agent switches.\n\n• Ctrl+P now opens the command palette immediately from the welcome screen.\n\n• The Dashboard now focuses the “+ New Agent” row instead of leaving the previous session selected.\n\n• Sessions interrupted by a crash now show a clear marker instead of silently dropping the turn.\n\n• Pressing Ctrl+Z immediately after stashing a prompt now restores it.\n\n• The collapsed edit blocks setting now correctly collapses edits even when expanded_by_default is pinned to true.\n\n• Interjections now receive a visible reply before the agent resumes its previous tasks.\n\n• Cancelling a turn blocked on spawn_subagent now tells the model that the child moved to the background instead of claiming it was never executed.\n\n• Saving a queued-prompt edit now returns focus to the composer so the next keystrokes type the next message.\n\n• Subagent activation is now consistent between the TUI and Grok Agent Studio. Tables that only set limits or models no longer disable subagents.\n\n• Effort-level selection now accepts menu labels in addition to IDs.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 01:21:57",
-        "created_at_utc": "2026-09-22T17:21:57.000Z",
-        "id": "2102448328638382234",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg"
-        ],
-        "media": [
-          {
-            "duration": 13.183,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102448025805488128/vid/avc1/1284x1080/gvmCUPk-G1LTDpLr.mp4?tag=29",
-            "width": 1284
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build.\n\nThe update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent performance. It also adds new subagent controls, configurable request limits and long-reasoning reminders.\n\nRelease Notes\n\nVersion 1.0.41 — September 22, 2026\n\nFeatures\n\n• Added a new sports_search tool that can look up live NFL scores, standings, schedules, player stats and team records directly from X data.\n\n• Added a subagent model inheritance setting to /settings. It persists in config.toml and respects managed and overlay layers.\n\n• Per-model request size limits can now be configured to match provider HTTP body caps and control inline image eviction.\n\n• A long-reasoning reminder can now be enabled through config to nudge the model after lengthy hidden-reasoning steps.\n\nBug Fixes\n\n• Fixed the subagent fullscreen view so it no longer shows a stray [Dashboard] button in the header.\n\n• Fixed agent frontmatter mcpServers so headers and URLs from the active agent’s agent.md correctly override config.toml and survive config reloads or agent switches.\n\n• Ctrl+P now opens the command palette immediately from the welcome screen.\n\n• The Dashboard now focuses the “+ New Agent” row instead of leaving the previous session selected.\n\n• Sessions interrupted by a crash now show a clear marker instead of silently dropping the turn.\n\n• Pressing Ctrl+Z immediately after stashing a prompt now restores it.\n\n• The collapsed edit blocks setting now correctly collapses edits even when expanded_by_default is pinned to true.\n\n• Interjections now receive a visible reply before the agent resumes its previous tasks.\n\n• Cancelling a turn blocked on spawn_subagent now tells the model that the child moved to the background instead of claiming it was never executed.\n\n• Saving a queued-prompt edit now returns focus to the composer so the next keystrokes type the next message.\n\n• Subagent activation is now consistent between the TUI and Grok Agent Studio. Tables that only set limits or models no longer disable subagents.\n\n• Effort-level selection now accepts menu labels in addition to IDs.",
-        "url": "https://x.com/cb_doge/status/2102448328638382234",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 84,
-        "likes": 1412,
-        "quotes": 9,
-        "replies": 94,
-        "retweets": 177,
-        "views": 339807
-      },
-      "url": "https://x.com/elonmusk/status/2102463325045145978",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102448025805488128/vid/avc1/1284x1080/gvmCUPk-G1LTDpLr.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg",
-          "width": 1284,
-          "height": 1080,
-          "duration": 13.183
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 186,
+  "total": 187,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 16:13:37",
+  "updated_at_shanghai": "2026-09-26 16:18:04",
   "account": "elonmusk"
 }
