@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2102826341288874318",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T18:24:03.000Z",
+      "created_at_shanghai": "2026-09-24 02:24:03",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Have been using Grok Imagine to generate beautiful covers for the new Grokipedia. Amazing how consistent it is.",
+      "quote": null,
+      "retweet": {
+        "author": "benjitaylor",
+        "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
+        "created_at_shanghai": "2026-09-24 02:02:22",
+        "created_at_utc": "2026-09-23T18:02:22.000Z",
+        "id": "2102820884931354776",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg"
+        ],
+        "media": [
+          {
+            "duration": 17.75,
+            "height": 1362,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102820691439697920/vid/avc1/3178x1362/ZRpheo-vu6-gua_h.mp4?tag=29",
+            "width": 3178
+          }
+        ],
+        "name": "Benji Taylor",
+        "text": "Have been using Grok Imagine to generate beautiful covers for the new Grokipedia. Amazing how consistent it is.",
+        "url": "https://x.com/benjitaylor/status/2102820884931354776",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 377,
+        "likes": 2640,
+        "quotes": 23,
+        "replies": 193,
+        "retweets": 166,
+        "views": 249539
+      },
+      "url": "https://x.com/elonmusk/status/2102826341288874318",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102820691439697920/vid/avc1/3178x1362/ZRpheo-vu6-gua_h.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg",
+          "width": 3178,
+          "height": 1362,
+          "duration": 17.75
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2102798963837665464",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -945,58 +1008,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102452256746701030",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T17:37:34.000Z",
-      "created_at_shanghai": "2026-09-23 01:37:34",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We’re taking the calls on the road. 🎟️ Book tour dates + tickets at the link below 👇 \n\nhttps://linktr.ee/ariemanuel",
-      "quote": null,
-      "retweet": {
-        "author": "AriEmanuel",
-        "avatar": "https://pbs.twimg.com/profile_images/2084645387726651393/f-1LJwey_200x200.jpg",
-        "created_at_shanghai": "2026-09-09 00:11:21",
-        "created_at_utc": "2026-09-08T16:11:21.000Z",
-        "id": "2097357128818462732",
-        "images": [
-          "https://pbs.twimg.com/media/HRtPMVSaQAAKTqW.jpg?name=small",
-          "https://pbs.twimg.com/media/HRtPMVQbkAAHmuJ.jpg?name=small"
-        ],
-        "name": "Ari Emanuel",
-        "text": "We’re taking the calls on the road. 🎟️ Book tour dates + tickets at the link below 👇 \n\nhttps://linktr.ee/ariemanuel",
-        "url": "https://x.com/AriEmanuel/status/2097357128818462732",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 29,
-        "likes": 714,
-        "quotes": 8,
-        "replies": 40,
-        "retweets": 90,
-        "views": 287726
-      },
-      "url": "https://x.com/elonmusk/status/2102452256746701030",
-      "images": [
-        "https://pbs.twimg.com/media/HRtPMVSaQAAKTqW.jpg?name=small",
-        "https://pbs.twimg.com/media/HRtPMVQbkAAHmuJ.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 182,
+  "total": 183,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 15:14:28",
+  "updated_at_shanghai": "2026-09-26 15:17:05",
   "account": "elonmusk"
 }
