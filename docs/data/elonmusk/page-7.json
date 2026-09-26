@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102201280307540181",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T01:00:16.000Z",
+      "created_at_shanghai": "2026-09-22 09:00:16",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@elonmusk I'm using it right now to build a game engine in C. It's really good.",
+      "quote": null,
+      "retweet": {
+        "author": "tetsuoai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 08:09:13",
+        "created_at_utc": "2026-09-22T00:09:13.000Z",
+        "id": "2102188432441414005",
+        "images": [],
+        "name": "tetsuo",
+        "text": "@elonmusk I'm using it right now to build a game engine in C. It's really good.",
+        "url": "https://x.com/tetsuoai/status/2102188432441414005",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 109,
+        "likes": 1500,
+        "quotes": 3,
+        "replies": 62,
+        "retweets": 101,
+        "views": 612585
+      },
+      "url": "https://x.com/elonmusk/status/2102201280307540181",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102192595325559159",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -993,54 +1033,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102082011233931762",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T17:06:20.000Z",
-      "created_at_shanghai": "2026-09-22 01:06:20",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7 places @SpaceXAI as third, after Anthropic &amp; OpenAI, for agentic coding. \n\nWhen factoring in that Grok is significantly faster &amp; lower cost, it’s a great choice for your everyday workhorse.",
-      "quote": {
-        "author": "ArtificialAnlys",
-        "avatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 00:38:05",
-        "created_at_utc": "2026-09-21T16:38:05.000Z",
-        "id": "2102074898327932987",
-        "images": [
-          "https://pbs.twimg.com/media/HSwR-rAb0AA-TNh.jpg?name=small"
-        ],
-        "name": "Artificial Analysis",
-        "text": "Grok 4.7 scores 46 on the Artificial Analysis Intelligence Index to bring SpaceXAI into the top 4 AI labs. Coding Agent Index performance has also improved, overtaking GPT-5.6 Sol\n\nGrok 4.7 scores +2 points over Grok 4.6 on the Intelligence Index, with strong performance on agentic knowledge work tasks. We evaluated the new model at xhigh reasoning effort.\n\nCongratulations to @SpaceXAI and @ElonMusk on the release!\n\nKey takeaways:\n\n➤ Grok 4.7 joins the frontier of agentic knowledge work: Grok 4.7 gains +111 Elo over Grok 4.6 (high) on AA-Briefcase, our private benchmark for long-horizon agentic knowledge work, scoring 1657 Elo and placing it alongside Claude Opus 5 and Claude Fable 5.1 at the frontier. On GDPval-AA, it scores 1695 Elo, +90 ahead of Grok 4.6 (high).\n\n➤ A leap in coding agent performance: Grok 4.7 (xhigh) with Grok Build scores 56 on the Artificial Analysis Coding Agent Index, up +9 points from Grok 4.6 (xhigh). Among models in their native harnesses, Grok 4.7 + Grok Build now ranks 4th, behind only Claude Fable 5.1, GPT-6 Astra, and Claude Opus 5.\n\n➤ Incremental performance changes elsewhere: Outside of agentic knowledge work, Grok 4.7 broadly matches Grok 4.6 (high) on the other Intelligence Index tasks. It improves on Terminal-Bench 4.0 (+4.5 percentage points) and GDP.pdf (+3.0 p.p.), with regressions on AA-LCR (-3.7 p.p.) and AutomationBench-AA (-1.1 p.p.).\n\n➤ High token use across tasks: Grok 4.7's gains come with higher token usage. Grok 4.7 (xhigh) uses approximately 81k output tokens per Intelligence Index task, compared with 36k for Grok 4.6 (high) and 27k for GPT-6 Astra (max) - 125% and 196% more, respectively.\n\nOther model details:\n\n➤ Context window of 500k tokens, unchanged from Grok 4.6\n\n➤ Pricing of $2/$6 per 1M input/output tokens with cache hits discounted to $0.50 per 1M tokens, matching Grok 4.6\n\n➤ Configurable reasoning effort spans low to xhigh. Our evaluation uses xhigh.",
-        "url": "https://x.com/ArtificialAnlys/status/2102074898327932987",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1133,
-        "likes": 17407,
-        "quotes": 197,
-        "replies": 1210,
-        "retweets": 1988,
-        "views": 17359176
-      },
-      "url": "https://x.com/elonmusk/status/2102082011233931762",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 191,
+  "total": 192,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 22:27:32",
+  "updated_at_shanghai": "2026-09-26 22:39:12",
   "account": "elonmusk"
 }
