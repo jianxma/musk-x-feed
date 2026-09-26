@@ -29,6 +29,8 @@
       font-size: 15px;
       line-height: 20px;
       -webkit-text-size-adjust: 100%;
+      /* Rubber-band past the top or bottom reads as a bounce when a fling ends. */
+      overscroll-behavior: none;
     }
     a { color: var(--accent); text-decoration: none; }
     button, a { -webkit-tap-highlight-color: transparent; }
@@ -1957,6 +1959,227 @@
     if (more.contains(e.target) || menu.contains(e.target)) return;
     closeAccountMenu();
   });
+
+  /* The timeline is the viewport, not an overflow box. A finger-up fling and the
+     browser's wheel animation keep moving after the gesture ends, then ease out
+     with a small settle. Track the finger 1:1, apply wheel deltas immediately,
+     and drop the inertial tail so the page stays where the gesture ended. */
+  bindReleaseStop();
+
+  function bindReleaseStop() {
+    var SLOP = 8;
+    var active = null;
+    var releaseToken = 0;
+    var wheelLast = null;
+    var wheelPending = [];
+    var wheelCoasting = false;
+    var wheelFlushTimer = null;
+
+    function limits() {
+      var doc = document.documentElement;
+      var body = document.body;
+      return {
+        x: Math.max(0, Math.max(doc.scrollWidth, body.scrollWidth) - window.innerWidth),
+        y: Math.max(0, Math.max(doc.scrollHeight, body.scrollHeight) - window.innerHeight)
+      };
+    }
+
+    function scrollByDelta(dx, dy) {
+      if (!dx && !dy) return;
+      var max = limits();
+      var x = (window.scrollX || window.pageXOffset || 0) + dx;
+      var y = (window.scrollY || window.pageYOffset || 0) + dy;
+      if (x < 0) x = 0;
+      if (y < 0) y = 0;
+      if (x > max.x) x = max.x;
+      if (y > max.y) y = max.y;
+      window.scrollTo(x, y);
+    }
+
+    function tabStrip(node) {
+      var el = node && node.nodeType === 1 ? node : null;
+      while (el && el !== document.body) {
+        if (el.classList && el.classList.contains('account-tabs')) return el;
+        el = el.parentElement;
+      }
+      return null;
+    }
+
+    document.addEventListener('touchstart', function (e) {
+      releaseToken++;
+      if (document.body.classList.contains('lb-open') || !e.touches || e.touches.length !== 1) {
+        active = null;
+        return;
+      }
+      var t = e.touches[0];
+      active = {
+        id: t.identifier,
+        x: t.clientX,
+        y: t.clientY,
+        scrollX: window.scrollX || window.pageXOffset || 0,
+        scrollY: window.scrollY || window.pageYOffset || 0,
+        mode: ''
+      };
+    }, { passive: true });
+
+    document.addEventListener('touchmove', function (e) {
+      if (!active) return;
+      if (!e.touches || e.touches.length !== 1) {
+        active = null;
+        return;
+      }
+      var t = e.touches[0];
+      if (t.identifier !== active.id) return;
+      var dx = t.clientX - active.x;
+      var dy = t.clientY - active.y;
+      if (!active.mode) {
+        if (dx * dx + dy * dy < SLOP * SLOP) return;
+        var tabs = tabStrip(e.target);
+        if (tabs && Math.abs(dx) > Math.abs(dy) && tabs.scrollWidth > tabs.clientWidth + 1) {
+          active.mode = 'h';
+          return;
+        }
+        active.mode = 'v';
+      }
+      if (active.mode !== 'v') return;
+      if (e.cancelable) e.preventDefault();
+      var max = limits();
+      var x = active.scrollX - dx;
+      var y = active.scrollY - dy;
+      if (x < 0) x = 0;
+      if (y < 0) y = 0;
+      if (x > max.x) x = max.x;
+      if (y > max.y) y = max.y;
+      window.scrollTo(x, y);
+    }, { passive: false });
+
+    function endTouch(e) {
+      if (!active) return;
+      if (e.touches && e.touches.length) return;
+      var vertical = active.mode === 'v';
+      var x = window.scrollX || window.pageXOffset || 0;
+      var y = window.scrollY || window.pageYOffset || 0;
+      active = null;
+      if (!vertical) return;
+      var token = ++releaseToken;
+      var frames = 0;
+      function hold() {
+        if (token !== releaseToken || programmaticScroll) return;
+        frames++;
+        var cx = window.scrollX || window.pageXOffset || 0;
+        var cy = window.scrollY || window.pageYOffset || 0;
+        if (Math.abs(cx - x) > 0.5 || Math.abs(cy - y) > 0.5) window.scrollTo(x, y);
+        if (frames < 5) requestAnimationFrame(hold);
+      }
+      requestAnimationFrame(hold);
+    }
+
+    document.addEventListener('touchend', endTouch, { passive: true });
+    document.addEventListener('touchcancel', function (e) {
+      if (!active) return;
+      if (e.touches && e.touches.length) return;
+      active = null;
+      releaseToken++;
+    }, { passive: true });
+
+    function pixelDelta(e) {
+      var dx = e.deltaX || 0;
+      var dy = e.deltaY || 0;
+      if (e.deltaMode === 1) {
+        dx *= 16;
+        dy *= 16;
+      } else if (e.deltaMode === 2) {
+        dx *= window.innerWidth || 0;
+        dy *= window.innerHeight || 0;
+      }
+      return { x: dx, y: dy };
+    }
+
+    function flushWheel() {
+      if (wheelFlushTimer) {
+        clearTimeout(wheelFlushTimer);
+        wheelFlushTimer = null;
+      }
+      if (!wheelPending.length) return;
+      var dx = 0;
+      var dy = 0;
+      for (var i = 0; i < wheelPending.length; i++) {
+        dx += wheelPending[i].x;
+        dy += wheelPending[i].y;
+      }
+      wheelPending = [];
+      scrollByDelta(dx, dy);
+    }
+
+    function dropWheel() {
+      if (wheelFlushTimer) {
+        clearTimeout(wheelFlushTimer);
+        wheelFlushTimer = null;
+      }
+      wheelPending = [];
+    }
+
+    function armWheelFlush() {
+      if (wheelFlushTimer) clearTimeout(wheelFlushTimer);
+      wheelFlushTimer = setTimeout(flushWheel, 48);
+    }
+
+    window.addEventListener('wheel', function (e) {
+      if (e.ctrlKey) return;
+      releaseToken++;
+      var d = pixelDelta(e);
+      var tabs = tabStrip(e.target);
+      if (tabs && Math.abs(d.x) > Math.abs(d.y) && tabs.scrollWidth > tabs.clientWidth + 1) return;
+      if (e.cancelable) e.preventDefault();
+      if (!d.x && !d.y) return;
+
+      var mag = Math.abs(d.x) > Math.abs(d.y) ? Math.abs(d.x) : Math.abs(d.y);
+      var sign = Math.abs(d.x) > Math.abs(d.y) ? (d.x < 0 ? -1 : 1) : (d.y < 0 ? -1 : 1);
+      var now = e.timeStamp || performance.now();
+      var gap = wheelLast ? now - wheelLast.t : 1000;
+      var fresh = !wheelLast || gap > 90 || sign !== wheelLast.sign;
+      if (fresh) {
+        flushWheel();
+        wheelCoasting = false;
+      }
+
+      if (typeof e.momentum === 'boolean') {
+        wheelLast = { t: now, mag: mag, sign: sign };
+        if (e.momentum) {
+          dropWheel();
+          wheelCoasting = true;
+          return;
+        }
+        wheelCoasting = false;
+        flushWheel();
+        scrollByDelta(d.x, d.y);
+        return;
+      }
+
+      if (wheelCoasting && !fresh) {
+        var spedUp = mag > wheelLast.mag + 0.8;
+        var flattened = !spedUp && mag >= wheelLast.mag - 0.4;
+        wheelLast = { t: now, mag: mag, sign: sign };
+        if (!spedUp && !flattened) return;
+        wheelCoasting = false;
+      }
+
+      var shrinking = !fresh && wheelLast && mag < wheelLast.mag - 0.6;
+      wheelLast = { t: now, mag: mag, sign: sign };
+      if (shrinking) {
+        wheelPending.push(d);
+        if (wheelPending.length >= 4) {
+          dropWheel();
+          wheelCoasting = true;
+          return;
+        }
+        armWheelFlush();
+        return;
+      }
+      flushWheel();
+      scrollByDelta(d.x, d.y);
+    }, { passive: false, capture: true });
+  }
 
   window.addEventListener('scroll', function () {
     if (programmaticScroll) return;
