@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102520283618017355",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T22:07:53.000Z",
+      "created_at_shanghai": "2026-09-23 06:07:53",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Interesting. Grok 4.7 is performing fairly well for a smallish model.",
+      "quote": {
+        "author": "rauchg",
+        "avatar": "https://pbs.twimg.com/profile_images/1783856060249595904/8TfcCN0r_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 06:03:10",
+        "created_at_utc": "2026-09-22T22:03:10.000Z",
+        "id": "2102519097770885231",
+        "images": [],
+        "name": "Guillermo Rauch",
+        "text": "We ran fresh Next.js evals. The tally:\n① Opus 5.5    [𝟿𝟽%]\n② GPT 6 Sol   [𝟿𝟽%]\n③ Fable 5.1     [𝟿𝟽%]\n④ Grok 4.7     [𝟿𝟺%]\n\nNotably, Grok is 2x-7x cheaper",
+        "url": "https://x.com/rauchg/status/2102519097770885231",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 273,
+        "likes": 7822,
+        "quotes": 95,
+        "replies": 1207,
+        "retweets": 811,
+        "views": 2851610
+      },
+      "url": "https://x.com/elonmusk/status/2102520283618017355",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102465645334220901",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -973,56 +1013,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102412843635384508",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T15:00:57.000Z",
-      "created_at_shanghai": "2026-09-22 23:00:57",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 just outperformed GPT-6 Astra on professional work\n\nOn the same Artificial Analysis run:\n\n• GDPval-AA — Grok leads by +153 Elo\n• AA-Briefcase — Grok leads by +88 Elo\n\nGrok 4.7 is now ahead on both professional deliverables and multi-hour office work\n\nSpaceXAI is pushing Grok hard into real-world knowledge work",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 14:07:56",
-        "created_at_utc": "2026-09-22T06:07:56.000Z",
-        "id": "2102278706651861345",
-        "images": [
-          "https://pbs.twimg.com/media/HSzKt_ra8AA-7ef.jpg?name=small"
-        ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 just outperformed GPT-6 Astra on professional work\n\nOn the same Artificial Analysis run:\n\n• GDPval-AA — Grok leads by +153 Elo\n• AA-Briefcase — Grok leads by +88 Elo\n\nGrok 4.7 is now ahead on both professional deliverables and multi-hour office work\n\nSpaceXAI is pushing Grok hard into real-world knowledge work",
-        "url": "https://x.com/XFreeze/status/2102278706651861345",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 46,
-        "likes": 1108,
-        "quotes": 9,
-        "replies": 87,
-        "retweets": 173,
-        "views": 276244
-      },
-      "url": "https://x.com/elonmusk/status/2102412843635384508",
-      "images": [
-        "https://pbs.twimg.com/media/HSzKt_ra8AA-7ef.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 189,
+  "total": 190,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 21:41:30",
+  "updated_at_shanghai": "2026-09-26 22:24:26",
   "account": "elonmusk"
 }

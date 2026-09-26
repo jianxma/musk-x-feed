@@ -1,6 +1,87 @@
 {
   "posts": [
     {
+      "id": "2102933125018108169",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T01:28:22.000Z",
+      "created_at_shanghai": "2026-09-24 09:28:22",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "This turned out to be the most prophetic tweet of the year",
+      "quote": {
+        "author": "FT",
+        "avatar": "https://pbs.twimg.com/profile_images/931156393108885504/EqEMtLhM_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 06:07:09",
+        "created_at_utc": "2026-09-23T22:07:09.000Z",
+        "id": "2102882489177964983",
+        "images": [
+          "https://pbs.twimg.com/media/HS7wd9XXkAAnf3J.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1350,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS7wd9XXkAAnf3J.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "Financial Times",
+        "text": "Breaking news: Australian Prime Minister Anthony Albanese has revealed that an OpenAI agent hacked an Australian government health service website in June, in the latest high-profile cyber incident involving AI https://ft.trib.al/gloVAyn",
+        "url": "https://x.com/FT/status/2102882489177964983",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "AlecStapp",
+        "avatar": "https://pbs.twimg.com/profile_images/1498170157176393731/tyrdhQ1M_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 08:48:46",
+        "created_at_utc": "2026-09-24T00:48:46.000Z",
+        "id": "2102923162229084418",
+        "images": [
+          "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 344,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small",
+            "width": 1025
+          }
+        ],
+        "name": "Alec Stapp",
+        "text": "This turned out to be the most prophetic tweet of the year",
+        "url": "https://x.com/AlecStapp/status/2102923162229084418",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 49,
+        "likes": 670,
+        "quotes": 6,
+        "replies": 33,
+        "retweets": 91,
+        "views": 82252
+      },
+      "url": "https://x.com/elonmusk/status/2102933125018108169",
+      "images": [
+        "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small",
+          "width": 1025,
+          "height": 344
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2102926113173627069",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -949,52 +1030,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102520283618017355",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T22:07:53.000Z",
-      "created_at_shanghai": "2026-09-23 06:07:53",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Interesting. Grok 4.7 is performing fairly well for a smallish model.",
-      "quote": {
-        "author": "rauchg",
-        "avatar": "https://pbs.twimg.com/profile_images/1783856060249595904/8TfcCN0r_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 06:03:10",
-        "created_at_utc": "2026-09-22T22:03:10.000Z",
-        "id": "2102519097770885231",
-        "images": [],
-        "name": "Guillermo Rauch",
-        "text": "We ran fresh Next.js evals. The tally:\n① Opus 5.5    [𝟿𝟽%]\n② GPT 6 Sol   [𝟿𝟽%]\n③ Fable 5.1     [𝟿𝟽%]\n④ Grok 4.7     [𝟿𝟺%]\n\nNotably, Grok is 2x-7x cheaper",
-        "url": "https://x.com/rauchg/status/2102519097770885231",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 273,
-        "likes": 7822,
-        "quotes": 95,
-        "replies": 1207,
-        "retweets": 811,
-        "views": 2851610
-      },
-      "url": "https://x.com/elonmusk/status/2102520283618017355",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 189,
+  "total": 190,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 21:41:30",
+  "updated_at_shanghai": "2026-09-26 22:24:26",
   "account": "elonmusk"
 }

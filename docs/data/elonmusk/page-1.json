@@ -1,10 +1,62 @@
 {
   "posts": [
     {
-      "id": "2103841551227228630",
+      "id": "2103851336454586382",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-26T14:17:00.000Z",
+      "created_at_shanghai": "2026-09-26 22:17:00",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Rockets don’t need vision",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 22:01:58",
+        "created_at_utc": "2026-09-26T14:01:58.000Z",
+        "id": "2103847549312352541",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103847452700721152/img/xdqNGn_QfMWcCbOg.jpg"
+        ],
+        "media": [
+          {
+            "duration": 29.73,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103847452700721152/img/xdqNGn_QfMWcCbOg.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103847452700721152/vid/avc1/3840x2160/dRVnaaCsC-INnQcz.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Liftoff!",
+        "url": "https://x.com/SpaceX/status/2103847549312352541",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 57,
+        "likes": 1882,
+        "quotes": 27,
+        "replies": 385,
+        "retweets": 210,
+        "views": 420798
+      },
+      "url": "https://x.com/elonmusk/status/2103851336454586382",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2103841551227228630",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-26T13:38:07.000Z",
@@ -85,7 +137,7 @@
       "id": "2103841089765384503",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-26T13:36:17.000Z",
@@ -1182,49 +1234,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103537377239015827",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-25T17:29:27.000Z",
-      "created_at_shanghai": "2026-09-26 01:29:27",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "May Starship have the Mandate of Heaven",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1001,
-        "likes": 28994,
-        "quotes": 403,
-        "replies": 2392,
-        "retweets": 2556,
-        "views": 1718047
-      },
-      "url": "https://x.com/elonmusk/status/2103537377239015827",
-      "images": [
-        "https://pbs.twimg.com/media/HTFEGJKWMAAcwKR.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTFEGJKWMAAcwKR.jpg?name=small",
-          "width": 2048,
-          "height": 1177
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 189,
+  "total": 190,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 21:41:30",
+  "updated_at_shanghai": "2026-09-26 22:24:26",
   "account": "elonmusk"
 }

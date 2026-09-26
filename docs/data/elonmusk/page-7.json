@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "2102188167860273661",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T00:08:10.000Z",
+      "created_at_shanghai": "2026-09-22 08:08:10",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Cool",
+      "quote": {
+        "author": "aug5thmusic",
+        "avatar": "https://pbs.twimg.com/profile_images/2081713987272814592/Fc_qgJqU_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 03:24:09",
+        "created_at_utc": "2026-09-21T19:24:09.000Z",
+        "id": "2102116692898042206",
+        "images": [
+          "https://pbs.twimg.com/media/HSw3tyda0AAzTSN.png?name=small"
+        ],
+        "name": "Auggie",
+        "text": "This was unexpected. Grok 4.7 scored 100% on my music error detection test, the same as GPT-6 Astra.",
+        "url": "https://x.com/aug5thmusic/status/2102116692898042206",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 261,
+        "likes": 7683,
+        "quotes": 54,
+        "replies": 866,
+        "retweets": 1235,
+        "views": 3484023
+      },
+      "url": "https://x.com/elonmusk/status/2102188167860273661",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102187423098642792",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -974,33 +1016,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102072048633684140",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T16:26:45.000Z",
-      "created_at_shanghai": "2026-09-22 00:26:45",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Excited to bring 4.7 to you all! \n\nNumerics aside, it's incredibly capable in Grok Build/Cursor. We spent a lot of hours on the harness, iterating with some of the greatest engineers in the world. \n\nAlso, the fast mode has INSANE tps. Happy Grok Building :) Lmk what you think!",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2102072048633684140",
-      "images": [],
-      "media": [],
-      "enriched": false
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 189,
+  "total": 190,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 21:41:30",
+  "updated_at_shanghai": "2026-09-26 22:24:26",
   "account": "elonmusk"
 }

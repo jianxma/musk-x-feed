@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2101863833648177412",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T02:39:23.000Z",
+      "created_at_shanghai": "2026-09-21 10:39:23",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Romanian gangs are exploiting 1960s tech in the American welfare system to pilfer hundreds of millions of dollars from food-stamp accounts.\nhttps://on.wsj.com/3TBT15c",
+      "quote": null,
+      "retweet": {
+        "author": "WSJ",
+        "avatar": "https://pbs.twimg.com/profile_images/971415515754266624/zCX0q9d5_200x200.jpg",
+        "created_at_shanghai": "2026-09-21 07:13:42",
+        "created_at_utc": "2026-09-20T23:13:42.000Z",
+        "id": "2101812072644292663",
+        "images": [],
+        "name": "The Wall Street Journal",
+        "text": "Romanian gangs are exploiting 1960s tech in the American welfare system to pilfer hundreds of millions of dollars from food-stamp accounts.\nhttps://on.wsj.com/3TBT15c",
+        "url": "https://x.com/WSJ/status/2101812072644292663",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 626,
+        "likes": 7054,
+        "quotes": 118,
+        "replies": 336,
+        "retweets": 1329,
+        "views": 913274
+      },
+      "url": "https://x.com/elonmusk/status/2101863833648177412",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2101825893710856301",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -955,62 +995,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2101595506426429618",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-20T08:53:09.000Z",
-      "created_at_shanghai": "2026-09-20 16:53:09",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "8 years ago",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-20 09:38:27",
-        "created_at_utc": "2026-09-20T01:38:27.000Z",
-        "id": "2101486112023978329",
-        "images": [
-          "https://pbs.twimg.com/media/HSn6enja0AAzFWH.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1308,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HSn6enja0AAzFWH.jpg?name=small",
-            "width": 1080
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Elon Musk with The Boring Company’s Not-a-Flamethrower at Joe Rogan’s studio in 2018.",
-        "url": "https://x.com/cb_doge/status/2101486112023978329",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 440,
-        "likes": 15451,
-        "quotes": 111,
-        "replies": 1521,
-        "retweets": 1908,
-        "views": 6660773
-      },
-      "url": "https://x.com/elonmusk/status/2101595506426429618",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 9,
   "page_size": 20,
-  "total": 189,
+  "total": 190,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 21:41:30",
+  "updated_at_shanghai": "2026-09-26 22:24:26",
   "account": "elonmusk"
 }

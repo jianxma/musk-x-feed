@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "id": "2102412843635384508",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T15:00:57.000Z",
+      "created_at_shanghai": "2026-09-22 23:00:57",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 just outperformed GPT-6 Astra on professional work\n\nOn the same Artificial Analysis run:\n\n• GDPval-AA — Grok leads by +153 Elo\n• AA-Briefcase — Grok leads by +88 Elo\n\nGrok 4.7 is now ahead on both professional deliverables and multi-hour office work\n\nSpaceXAI is pushing Grok hard into real-world knowledge work",
+      "quote": null,
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 14:07:56",
+        "created_at_utc": "2026-09-22T06:07:56.000Z",
+        "id": "2102278706651861345",
+        "images": [
+          "https://pbs.twimg.com/media/HSzKt_ra8AA-7ef.jpg?name=small"
+        ],
+        "name": "X Freeze",
+        "text": "Grok 4.7 just outperformed GPT-6 Astra on professional work\n\nOn the same Artificial Analysis run:\n\n• GDPval-AA — Grok leads by +153 Elo\n• AA-Briefcase — Grok leads by +88 Elo\n\nGrok 4.7 is now ahead on both professional deliverables and multi-hour office work\n\nSpaceXAI is pushing Grok hard into real-world knowledge work",
+        "url": "https://x.com/XFreeze/status/2102278706651861345",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 46,
+        "likes": 1108,
+        "quotes": 9,
+        "replies": 87,
+        "retweets": 173,
+        "views": 276244
+      },
+      "url": "https://x.com/elonmusk/status/2102412843635384508",
+      "images": [
+        "https://pbs.twimg.com/media/HSzKt_ra8AA-7ef.jpg?name=small"
+      ],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102412796042629466",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -866,54 +910,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2102188167860273661",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T00:08:10.000Z",
-      "created_at_shanghai": "2026-09-22 08:08:10",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Cool",
-      "quote": {
-        "author": "aug5thmusic",
-        "avatar": "https://pbs.twimg.com/profile_images/2081713987272814592/Fc_qgJqU_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 03:24:09",
-        "created_at_utc": "2026-09-21T19:24:09.000Z",
-        "id": "2102116692898042206",
-        "images": [
-          "https://pbs.twimg.com/media/HSw3tyda0AAzTSN.png?name=small"
-        ],
-        "name": "Auggie",
-        "text": "This was unexpected. Grok 4.7 scored 100% on my music error detection test, the same as GPT-6 Astra.",
-        "url": "https://x.com/aug5thmusic/status/2102116692898042206",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 261,
-        "likes": 7683,
-        "quotes": 54,
-        "replies": 866,
-        "retweets": 1235,
-        "views": 3484023
-      },
-      "url": "https://x.com/elonmusk/status/2102188167860273661",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 20,
-  "total": 189,
+  "total": 190,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-09-26 21:41:30",
+  "updated_at_shanghai": "2026-09-26 22:24:26",
   "account": "elonmusk"
 }
