@@ -1,10 +1,73 @@
 {
   "posts": [
     {
-      "id": "2103690818238222551",
+      "id": "2103693067354284070",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-26T03:48:06.000Z",
+      "created_at_shanghai": "2026-09-26 11:48:06",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "",
+      "quote": null,
+      "retweet": {
+        "author": "realDonaldTrump",
+        "avatar": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 09:20:40",
+        "created_at_utc": "2026-09-26T01:20:40.000Z",
+        "id": "2103655961902899525",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103655546167742464/img/Q64OZPX7mGqk7dU3.jpg"
+        ],
+        "media": [
+          {
+            "duration": 56.931,
+            "height": 2026,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103655546167742464/img/Q64OZPX7mGqk7dU3.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103655546167742464/vid/avc1/3840x2026/gtjUrbAlVP8l3BoU.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Donald J. Trump",
+        "text": "",
+        "url": "https://x.com/realDonaldTrump/status/2103655961902899525",
+        "verified": true,
+        "verified_type": "government"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1795,
+        "likes": 34815,
+        "quotes": 578,
+        "replies": 1501,
+        "retweets": 5553,
+        "views": 992368
+      },
+      "url": "https://x.com/elonmusk/status/2103693067354284070",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103655546167742464/img/Q64OZPX7mGqk7dU3.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2103655546167742464/vid/avc1/3840x2026/gtjUrbAlVP8l3BoU.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103655546167742464/img/Q64OZPX7mGqk7dU3.jpg",
+          "width": 3840,
+          "height": 2026,
+          "duration": 56.931
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2103690818238222551",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-26T03:39:10.000Z",
@@ -1191,49 +1254,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103383018882896249",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-25T07:16:05.000Z",
-      "created_at_shanghai": "2026-09-25 15:16:05",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Stainless Steel Starship",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 36,
-        "likes": 998,
-        "quotes": 21,
-        "replies": 240,
-        "retweets": 129,
-        "views": 318438
-      },
-      "url": "https://x.com/elonmusk/status/2103383018882896249",
-      "images": [
-        "https://pbs.twimg.com/media/HTC3tQwWAAABDID.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTC3tQwWAAABDID.jpg?name=small",
-          "width": 2048,
-          "height": 1366
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 178,
+  "total": 179,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 11:42:53",
+  "updated_at_shanghai": "2026-09-26 11:52:24",
   "account": "elonmusk"
 }

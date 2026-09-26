@@ -1,6 +1,60 @@
 {
   "posts": [
     {
+      "id": "2101754878297247939",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-20T19:26:26.000Z",
+      "created_at_shanghai": "2026-09-21 03:26:26",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "TBC would be excited and honored to build this massive infrastructure project. \n\nBecause Loop/Hyperloop is express (i.e. no intermediate stops), one could travel from an Austin parking lot to a favorite San Antonio restaurant in ~30 min.  As long as they both have Loop stations!",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+        "created_at_shanghai": "2026-09-21 01:57:30",
+        "created_at_utc": "2026-09-20T17:57:30.000Z",
+        "id": "2101732496396439751",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "Boring Company is working on a simple, precursor Hyperloop tunnel between Austin and San Antonio (>200 mph). \n\nDue to traffic congestion, that journey can currently take up to 2.5 hours. @BoringCompany can reduce that to a consistent <30 mins.",
+        "url": "https://x.com/elonmusk/status/2101732496396439751",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "boringcompany",
+        "avatar": "https://pbs.twimg.com/profile_images/2039567764172820480/XfrLCXpv_200x200.png",
+        "created_at_shanghai": "2026-09-21 02:39:53",
+        "created_at_utc": "2026-09-20T18:39:53.000Z",
+        "id": "2101743162838647183",
+        "images": [],
+        "media": [],
+        "name": "The Boring Company",
+        "text": "TBC would be excited and honored to build this massive infrastructure project. \n\nBecause Loop/Hyperloop is express (i.e. no intermediate stops), one could travel from an Austin parking lot to a favorite San Antonio restaurant in ~30 min.  As long as they both have Loop stations!",
+        "url": "https://x.com/boringcompany/status/2101743162838647183",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 193,
+        "likes": 5145,
+        "quotes": 54,
+        "replies": 250,
+        "retweets": 474,
+        "views": 791960
+      },
+      "url": "https://x.com/elonmusk/status/2101754878297247939",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2101732496396439751",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -981,8 +1035,8 @@
   ],
   "page": 9,
   "page_size": 20,
-  "total": 178,
+  "total": 179,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 11:42:53",
+  "updated_at_shanghai": "2026-09-26 11:52:24",
   "account": "elonmusk"
 }

@@ -1,6 +1,91 @@
 {
   "posts": [
     {
+      "id": "2102103068112199821",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T18:30:01.000Z",
+      "created_at_shanghai": "2026-09-22 02:30:01",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We put Grok 4.7 from @SpaceXAI to work on a $2 million insurance claim where one deductible error alone changes the calculation by $143,000.\n\nIn this Box Agent preview, @grok reconciles the claim against the policy and supporting records. It catches an $82,000 duplicate invoice and a missing $64,000 supplier credit. It also explains why the Business Income waiting period doesn’t apply to Extra Expense.\n\nThe result is a cited claims review for the adjuster, with final coverage and payment decisions left to the insurer.\n\nExplore Box AI Studio to build custom agents for your own document-heavy workflows.",
+      "quote": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "media": [
+          {
+            "height": 1576,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small",
+            "width": 1920
+          }
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "Box",
+        "avatar": "https://pbs.twimg.com/profile_images/2095961122147008512/lZm3p6aN_200x200.png",
+        "created_at_shanghai": "2026-09-22 00:24:00",
+        "created_at_utc": "2026-09-21T16:24:00.000Z",
+        "id": "2102071357244854498",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102070811876265985/img/iU2owpHWzZkJU3Bl.jpg"
+        ],
+        "media": [
+          {
+            "duration": 41.488,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102070811876265985/img/iU2owpHWzZkJU3Bl.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102070811876265985/vid/avc1/1652x1080/8__MbXVtStL5fF3M.mp4?tag=29",
+            "width": 1652
+          }
+        ],
+        "name": "Box",
+        "text": "We put Grok 4.7 from @SpaceXAI to work on a $2 million insurance claim where one deductible error alone changes the calculation by $143,000.\n\nIn this Box Agent preview, @grok reconciles the claim against the policy and supporting records. It catches an $82,000 duplicate invoice and a missing $64,000 supplier credit. It also explains why the Business Income waiting period doesn’t apply to Extra Expense.\n\nThe result is a cited claims review for the adjuster, with final coverage and payment decisions left to the insurer.\n\nExplore Box AI Studio to build custom agents for your own document-heavy workflows.",
+        "url": "https://x.com/Box/status/2102071357244854498",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 176,
+        "likes": 1519,
+        "quotes": 15,
+        "replies": 76,
+        "retweets": 184,
+        "views": 1664030
+      },
+      "url": "https://x.com/elonmusk/status/2102103068112199821",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102070811876265985/img/iU2owpHWzZkJU3Bl.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102070811876265985/vid/avc1/1652x1080/8__MbXVtStL5fF3M.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102070811876265985/img/iU2owpHWzZkJU3Bl.jpg",
+          "width": 1652,
+          "height": 1080,
+          "duration": 41.488
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2102102621037236699",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -888,75 +973,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101924386810786013",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T06:40:00.000Z",
-      "created_at_shanghai": "2026-09-21 14:40:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "GPT-6 Astra pushed a simulated person off a ledge in multiple trials. Grok, Gemini, and Claude did not.",
-      "quote": null,
-      "retweet": {
-        "author": "wormuth",
-        "avatar": "https://pbs.twimg.com/profile_images/2076130566835994624/EoNCIYvX_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 00:18:34",
-        "created_at_utc": "2026-09-20T16:18:34.000Z",
-        "id": "2101707600618221847",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2101706935108001792/img/q1DY2nRRAyr3NBqP.jpg"
-        ],
-        "media": [
-          {
-            "duration": 6.933,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101706935108001792/img/q1DY2nRRAyr3NBqP.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2101706935108001792/vid/avc1/1920x1080/pwbrwTjaQR587_ZO.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Alex Wormuth",
-        "text": "GPT-6 Astra pushed a simulated person off a ledge in multiple trials. Grok, Gemini, and Claude did not.",
-        "url": "https://x.com/wormuth/status/2101707600618221847",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 641,
-        "likes": 4397,
-        "quotes": 261,
-        "replies": 601,
-        "retweets": 494,
-        "views": 1714451
-      },
-      "url": "https://x.com/elonmusk/status/2101924386810786013",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2101706935108001792/img/q1DY2nRRAyr3NBqP.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2101706935108001792/vid/avc1/1920x1080/pwbrwTjaQR587_ZO.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101706935108001792/img/q1DY2nRRAyr3NBqP.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 6.933
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 178,
+  "total": 179,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 11:42:53",
+  "updated_at_shanghai": "2026-09-26 11:52:24",
   "account": "elonmusk"
 }

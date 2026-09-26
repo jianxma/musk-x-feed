@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2103383018882896249",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-25T07:16:05.000Z",
+      "created_at_shanghai": "2026-09-25 15:16:05",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Stainless Steel Starship",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 36,
+        "likes": 998,
+        "quotes": 21,
+        "replies": 240,
+        "retweets": 129,
+        "views": 318438
+      },
+      "url": "https://x.com/elonmusk/status/2103383018882896249",
+      "images": [
+        "https://pbs.twimg.com/media/HTC3tQwWAAABDID.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTC3tQwWAAABDID.jpg?name=small",
+          "width": 2048,
+          "height": 1366
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103382788863148465",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1145,62 +1182,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103005475075670176",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-24T06:15:51.000Z",
-      "created_at_shanghai": "2026-09-24 14:15:51",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "An Earth economy is less than a trillionth the size of a K2 economy",
-      "quote": {
-        "author": "andrewchen",
-        "avatar": "https://pbs.twimg.com/profile_images/1610236905643249664/OdYs6aWP_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 11:08:05",
-        "created_at_utc": "2026-09-24T03:08:05.000Z",
-        "id": "2102958221770322335",
-        "images": [
-          "https://pbs.twimg.com/media/HS81W3paQAAhRoP.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2004,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HS81W3paQAAhRoP.jpg?name=small",
-            "width": 1115
-          }
-        ],
-        "name": "andrew chen",
-        "text": "Epic",
-        "url": "https://x.com/andrewchen/status/2102958221770322335",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 33,
-        "likes": 554,
-        "quotes": 7,
-        "replies": 217,
-        "retweets": 103,
-        "views": 358493
-      },
-      "url": "https://x.com/elonmusk/status/2103005475075670176",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 178,
+  "total": 179,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 11:42:53",
+  "updated_at_shanghai": "2026-09-26 11:52:24",
   "account": "elonmusk"
 }
