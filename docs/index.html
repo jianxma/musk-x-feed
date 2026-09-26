@@ -541,6 +541,9 @@
       text-align: center;
       padding: 32px 16px;
     }
+    /* Hidden account pages stay in the document so a tab switch can show them
+       without rebuilding the timeline. */
+    .feed-view[hidden] { display: none !important; }
     .pager {
       display: flex;
       align-items: center;
@@ -723,9 +726,14 @@
   var pinToken = 0;
   var activePin = null;
   var ignoreAnchorCancel = 0;
-  /* Last feed actually painted. Soft polls compare against this and leave the
-     timeline DOM alone when the posts have not changed. */
+  /* Last feed painted for the page on screen. Soft polls compare against this
+     and leave that DOM alone when the posts have not changed. Snapshots for
+     other account pages live in renderedByKey so switching back does not
+     clear #feed or wait on the network. */
   var renderedFeed = null;
+  var renderedByKey = Object.create(null);
+  var viewChrome = Object.create(null);
+  var expandedByKey = Object.create(null);
 
   var ICON = {
     repost: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"></path></svg>',
@@ -1166,7 +1174,7 @@
     currentHandle = handle;
     try { localStorage.setItem(ACCOUNT_KEY, handle); } catch (err) {}
     markSeen(handle);
-    expandedText = Object.create(null);
+    returnFocus = null;
     closeLightbox();
     renderAccountBar();
     page = 1;
@@ -1174,7 +1182,12 @@
     url.searchParams.delete('page');
     history.replaceState({ page: 1 }, '', url);
     scrollWindowTo(0);
-    return load({ restore: false });
+    /* A visited account already has a hidden .feed-view. load() shows it
+       before fetching, then this second scroll keeps the switch at the top
+       if the document height changed. */
+    var pending = load({ restore: false });
+    scrollWindowTo(0);
+    return pending;
   }
 
   function onAccountRowClick(e) {
@@ -1445,7 +1458,7 @@
   function findTweetCard(id) {
     if (id == null || id === '') return null;
     var want = String(id);
-    var cards = feedEl.querySelectorAll('article.tweet[data-id]');
+    var cards = feedSurface().querySelectorAll('article.tweet[data-id]');
     for (var i = 0; i < cards.length; i++) {
       if (cards[i].getAttribute('data-id') === want) return cards[i];
     }
@@ -1466,11 +1479,12 @@
   }
 
   function captureViewportAnchor() {
-    var cards = feedEl.querySelectorAll('article.tweet[data-id]');
+    var surface = feedSurface();
+    var cards = surface.querySelectorAll('article.tweet[data-id]');
     if (!cards.length) return null;
     var active = document.activeElement;
     var focused = active && active.closest ? active.closest('article.tweet[data-id]') : null;
-    if (focused && feedEl.contains(focused)) {
+    if (focused && surface.contains(focused)) {
       var fr = focused.getBoundingClientRect();
       if (fr.bottom > headerBottom() + 1 && fr.top < window.innerHeight) return anchorFromCard(focused);
     }
@@ -1617,7 +1631,8 @@
       if (token !== pinToken) return;
       align();
     }
-    var nodes = feedEl.querySelectorAll('img, video');
+    var surface = feedSurface();
+    var nodes = surface.querySelectorAll('img, video');
     for (var n = 0; n < nodes.length; n++) {
       if (nodes[n].tagName === 'IMG' && nodes[n].complete) continue;
       nodes[n].addEventListener('load', onMedia);
@@ -1630,7 +1645,7 @@
         if (token !== pinToken) return;
         align();
       });
-      observer.observe(feedEl);
+      observer.observe(surface);
     }
     if (document.fonts && document.fonts.ready) {
       document.fonts.ready.then(function () {
@@ -1714,12 +1729,20 @@
       total: pag.total,
       mode: mode
     };
+    var key = viewKey(currentHandle, page);
+    renderedByKey[key] = renderedFeed;
+    storeChrome(key);
   }
 
   function feedCardsMatch(data) {
     var posts = (data && data.posts) || [];
-    var cards = feedEl.querySelectorAll('article.tweet[data-id]');
-    if (!posts.length) return !cards.length && !!feedEl.querySelector('p.empty');
+    var surface = feedSurface();
+    if (surface.classList && surface.classList.contains('feed-view')) {
+      if (surface.getAttribute('data-account') !== currentHandle) return false;
+      if (Number(surface.getAttribute('data-page')) !== Number(page)) return false;
+    }
+    var cards = surface.querySelectorAll('article.tweet[data-id]');
+    if (!posts.length) return !cards.length && !!surface.querySelector('p.empty');
     if (cards.length !== posts.length) return false;
     for (var i = 0; i < posts.length; i++) {
       if (cards[i].getAttribute('data-id') !== String(posts[i].id)) return false;
@@ -1767,12 +1790,17 @@
       renderedFeed.total = pag.total;
       renderedFeed.mode = mode;
     }
+    storeChrome(viewKey(currentHandle, page));
   }
 
   function applyData(data, anchor) {
     var posts = data.posts || [];
     page = data.page || page;
     totalPages = data.total_pages || 1;
+    var key = viewKey(currentHandle, page);
+    useExpanded(key);
+    var view = feedView(currentHandle, page, true);
+    dropStalePlaceholders(currentHandle, page);
     statusEl.textContent = statusLine(data);
     noteFreshness(currentHandle, {
       id: feedTipId(data),
@@ -1785,12 +1813,13 @@
       setTimeout(function () { ignoreAnchorCancel = Math.max(0, ignoreAnchorCancel - 1); }, 150);
     }
     if (!posts.length) {
-      feedEl.innerHTML = '<p class="empty">' +
+      view.innerHTML = '<p class="empty">' +
         (data.error ? ('暂无数据：' + esc(data.error)) : '暂无帖子') + '</p>';
     } else {
-      feedEl.innerHTML = posts.map(renderPost).join('');
-      syncTextClamps(feedEl);
+      view.innerHTML = posts.map(renderPost).join('');
     }
+    showFeedView(view);
+    if (posts.length) syncTextClamps(view);
     rememberRendered(data);
     if (anchor) pinAnchor(anchor);
     else document.documentElement.style.overflowAnchor = '';
@@ -1863,20 +1892,147 @@
     }
   }
 
+  function viewKey(handle, pageNum) {
+    return String(handle || '') + ':' + String(pageNum || 1);
+  }
+
+  function dropLooseFeedNodes() {
+    var child = feedEl.firstChild;
+    while (child) {
+      var next = child.nextSibling;
+      if (!(child.nodeType === 1 && child.classList && child.classList.contains('feed-view'))) {
+        feedEl.removeChild(child);
+      }
+      child = next;
+    }
+  }
+
+  function feedView(handle, pageNum, create) {
+    var wantPage = String(pageNum || 1);
+    var nodes = feedEl.querySelectorAll('.feed-view');
+    for (var i = 0; i < nodes.length; i++) {
+      if (nodes[i].getAttribute('data-account') === handle &&
+          nodes[i].getAttribute('data-page') === wantPage) return nodes[i];
+    }
+    if (!create) return null;
+    dropLooseFeedNodes();
+    var el = document.createElement('div');
+    el.className = 'feed-view';
+    el.setAttribute('data-account', handle);
+    el.setAttribute('data-page', wantPage);
+    el.hidden = true;
+    feedEl.appendChild(el);
+    return el;
+  }
+
+  function visibleFeedView() {
+    var nodes = feedEl.querySelectorAll('.feed-view');
+    for (var i = 0; i < nodes.length; i++) {
+      if (!nodes[i].hidden) return nodes[i];
+    }
+    return null;
+  }
+
+  function feedSurface() {
+    return visibleFeedView() || feedEl;
+  }
+
+  function viewHasPaint(view) {
+    if (!view) return false;
+    if (view.querySelector('article.tweet')) return true;
+    var empty = view.querySelector('p.empty');
+    if (!empty) return false;
+    return (empty.textContent || '').indexOf('正在加载') === -1;
+  }
+
+  function dropStalePlaceholders(handle, keepPage) {
+    var keep = String(keepPage || 1);
+    var nodes = feedEl.querySelectorAll('.feed-view');
+    for (var i = nodes.length - 1; i >= 0; i--) {
+      if (nodes[i].getAttribute('data-account') !== handle) continue;
+      if (nodes[i].getAttribute('data-page') === keep) continue;
+      if (!viewHasPaint(nodes[i])) nodes[i].remove();
+    }
+  }
+
+  function pauseFeedMedia(root) {
+    if (!root || !root.querySelectorAll) return;
+    var media = root.querySelectorAll('video, audio');
+    for (var i = 0; i < media.length; i++) {
+      if (!media[i].paused) {
+        try { media[i].pause(); } catch (err) {}
+      }
+    }
+  }
+
+  function showFeedView(view) {
+    var nodes = feedEl.querySelectorAll('.feed-view');
+    for (var i = 0; i < nodes.length; i++) {
+      var on = nodes[i] === view;
+      if (!on && !nodes[i].hidden) pauseFeedMedia(nodes[i]);
+      if (nodes[i].hidden === on) nodes[i].hidden = !on;
+    }
+  }
+
+  function useExpanded(key) {
+    if (!expandedByKey[key]) expandedByKey[key] = Object.create(null);
+    expandedText = expandedByKey[key];
+  }
+
+  function storeChrome(key) {
+    viewChrome[key] = {
+      status: statusEl.textContent,
+      totalPages: totalPages,
+      mode: mode,
+      page: page
+    };
+  }
+
+  function restoreChrome(key) {
+    var chrome = viewChrome[key];
+    if (!chrome) {
+      pagerEl.hidden = true;
+      return;
+    }
+    if (chrome.mode) mode = chrome.mode;
+    if (chrome.status) statusEl.textContent = chrome.status;
+    totalPages = chrome.totalPages || 1;
+    if (chrome.page) page = chrome.page;
+    updatePager();
+  }
+
   function load(opts) {
     var wantRestore = !opts || opts.restore !== false;
     var gen = ++loadGen;
     var handle = currentHandle || 'elonmusk';
     var requestedPage = page;
-    var previous = feedEl.getAttribute('data-account') || '';
-    var switching = previous !== handle;
-    if (switching) {
+    var key = viewKey(handle, requestedPage);
+    var existing = feedView(handle, requestedPage, false);
+    var painted = viewHasPaint(existing);
+    var visible = visibleFeedView();
+    var visibleHandle = visible ? (visible.getAttribute('data-account') || '') : '';
+    var accountChanged = visibleHandle !== handle;
+    var visibleTweets = !!(visible && visible.querySelector('article.tweet'));
+    /* First visit still shows the loading line. A page already painted is
+       un-hidden in place; same-account paging keeps the current page up
+       until its replacement arrives. */
+    if (painted && existing.hidden) {
+      showFeedView(existing);
+      renderedFeed = renderedByKey[key] || null;
+      useExpanded(key);
+      restoreChrome(key);
+      syncTextClamps(existing);
+    } else if (!painted && accountChanged) {
+      var view = feedView(handle, requestedPage, true);
+      view.innerHTML = '<p class="empty">正在加载…</p>';
+      showFeedView(view);
       renderedFeed = null;
-      feedEl.setAttribute('data-account', handle);
-      feedEl.innerHTML = '<p class="empty">正在加载…</p>';
+      useExpanded(key);
       pagerEl.hidden = true;
+      returnFocus = null;
       closeLightbox();
     }
+    var replaceOnError = !painted && (accountChanged || !visibleTweets);
     return tryApi(page, handle).catch(function () {
       return tryStatic(page, handle);
     }).then(function (data) {
@@ -1904,10 +2060,15 @@
       if (gen !== loadGen || handle !== currentHandle) return;
       document.documentElement.style.overflowAnchor = '';
       statusEl.textContent = '加载失败';
-      if (switching || !feedEl.querySelector('.tweet')) {
-        renderedFeed = null;
-        feedEl.innerHTML = '<p class="empty">无法加载动态：' + esc(err && err.message ? err.message : err) + '</p>';
-      }
+      if (!replaceOnError) return;
+      renderedFeed = null;
+      delete renderedByKey[key];
+      totalPages = 1;
+      var failed = feedView(handle, requestedPage, true);
+      failed.innerHTML = '<p class="empty">无法加载动态：' + esc(err && err.message ? err.message : err) + '</p>';
+      showFeedView(failed);
+      updatePager();
+      storeChrome(key);
     });
   }
 
@@ -1921,7 +2082,9 @@
     if (push) history.pushState({ page: n }, '', url);
     else history.replaceState({ page: n }, '', url);
     scrollWindowTo(0);
-    return load({ restore: false });
+    var pending = load({ restore: false });
+    scrollWindowTo(0);
+    return pending;
   }
 
   var lb = document.getElementById('lightbox');
@@ -2074,7 +2237,7 @@
   window.addEventListener('resize', function () {
     clearTimeout(clampResizeTimer);
     clampResizeTimer = setTimeout(function () {
-      syncTextClamps(feedEl);
+      syncTextClamps(feedSurface());
       saveLiveAnchor();
     }, 150);
   });
