@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2101815461319180323",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-09-20T23:27:10.000Z",
+      "created_at_shanghai": "2026-09-21 07:27:10",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Off to space with our 96th Electron - and our 97th rocket is already lined up for launch this week with another StriX satellite for @synspective.\n\nThe launch window for 'Owlright Owlright Owlright' opens:\n🚀12:15pm NZST, Sept 26\n🚀00:15 UTC, Sept 26\n🚀9:15 am JST, Sept 26\n🚀8:15 pm EDT, Sept 25\n🚀5:15 pm PDT, Sept 25",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 39,
+        "likes": 1889,
+        "quotes": 28,
+        "replies": 42,
+        "retweets": 185,
+        "views": 114658
+      },
+      "url": "https://x.com/rocketlab/status/2101815461319180323",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2101815269585014784/img/mKXQu8OzRKobMgum.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2101815269585014784/vid/avc1/3840x2160/yqzGPgpfjn3gFufm.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101815269585014784/img/mKXQu8OzRKobMgum.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 26.92
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2101789535109890336",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -764,49 +803,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2095146356268740820",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-09-02T13:46:31.000Z",
-      "created_at_shanghai": "2026-09-02 21:46:31",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Liftoff for Electron for the 94th time.\n\nToday's 'Owl Around The World' mission for @synspective by the numbers: \n🎯15th launch of the year with 100% mission success\n🛰️11th StriX satellite deployed by Electron\n🚀16 more missions for @synspective before 2030",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 18,
-        "likes": 1225,
-        "quotes": 22,
-        "replies": 26,
-        "retweets": 130,
-        "views": 124588
-      },
-      "url": "https://x.com/rocketlab/status/2095146356268740820",
-      "images": [
-        "https://pbs.twimg.com/media/HRNyOGfaUAAvSqG.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HRNyOGfaUAAvSqG.jpg?name=small",
-          "width": 4096,
-          "height": 2731
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 49,
+  "total": 50,
   "total_pages": 3,
-  "updated_at_shanghai": "2026-09-26 08:48:19",
+  "updated_at_shanghai": "2026-09-26 08:57:50",
   "account": "rocketlab"
 }
