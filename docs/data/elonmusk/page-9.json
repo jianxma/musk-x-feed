@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2101603057268293801",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-20T09:23:09.000Z",
+      "created_at_shanghai": "2026-09-20 17:23:09",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceXAI just made a massive jump in image generation\n\nGrok Imagine Image 2.0 is now #4 on Artificial Analysis’ Text-to-Image Leaderboard with 1,154 Elo.....the highest-ranked model outside OpenAI\n\nImagine Image 2.0: #4 — 1,154 Elo\n\nIt also sits on the Pareto frontier for quality vs price\nGoing from #18 to #4 in a single generation is insane\n\nSpaceXAI is moving ridiculously fast",
+      "quote": null,
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-09-20 17:21:09",
+        "created_at_utc": "2026-09-20T09:21:09.000Z",
+        "id": "2101602553985138718",
+        "images": [
+          "https://pbs.twimg.com/media/HSpjzASagAAuWk1.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1008,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HSpjzASagAAuWk1.jpg?name=small",
+            "width": 1792
+          }
+        ],
+        "name": "X Freeze",
+        "text": "SpaceXAI just made a massive jump in image generation\n\nGrok Imagine Image 2.0 is now #4 on Artificial Analysis’ Text-to-Image Leaderboard with 1,154 Elo.....the highest-ranked model outside OpenAI\n\nImagine Image 2.0: #4 — 1,154 Elo\n\nIt also sits on the Pareto frontier for quality vs price\nGoing from #18 to #4 in a single generation is insane\n\nSpaceXAI is moving ridiculously fast",
+        "url": "https://x.com/XFreeze/status/2101602553985138718",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 113,
+        "likes": 1776,
+        "quotes": 22,
+        "replies": 170,
+        "retweets": 234,
+        "views": 481061
+      },
+      "url": "https://x.com/elonmusk/status/2101603057268293801",
+      "images": [
+        "https://pbs.twimg.com/media/HSpjzASagAAuWk1.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSpjzASagAAuWk1.jpg?name=small",
+          "width": 1792,
+          "height": 1008
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2101602784152031399",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -831,8 +890,8 @@
   ],
   "page": 9,
   "page_size": 20,
-  "total": 175,
+  "total": 176,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 07:19:26",
+  "updated_at_shanghai": "2026-09-26 11:18:57",
   "account": "elonmusk"
 }

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2102964178210480238",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T03:31:45.000Z",
+      "created_at_shanghai": "2026-09-24 11:31:45",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Streaming live at 6pm PDT tomorrow https://x.com/i/broadcasts/1vJpPNaYnYQJE",
+      "quote": null,
+      "retweet": {
+        "author": "tesla_semi",
+        "avatar": "https://pbs.twimg.com/profile_images/2021306606449983491/eLU01mFt_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 10:59:03",
+        "created_at_utc": "2026-09-24T02:59:03.000Z",
+        "id": "2102955945441853856",
+        "images": [],
+        "media": [],
+        "name": "Tesla Semi",
+        "text": "Streaming live at 6pm PDT tomorrow https://x.com/i/broadcasts/1vJpPNaYnYQJE",
+        "url": "https://x.com/tesla_semi/status/2102955945441853856",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 733,
+        "likes": 8047,
+        "quotes": 233,
+        "replies": 318,
+        "retweets": 1122,
+        "views": 943389
+      },
+      "url": "https://x.com/elonmusk/status/2102964178210480238",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102953907936993446",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1060,75 +1101,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2102752467985576189",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T13:30:30.000Z",
-      "created_at_shanghai": "2026-09-23 21:30:30",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Everyone says I need to touch grass - but I think Grok 4.7 does it best?\n\nI compared Grok 4.7 against Opus 5.5 on a grass-touching simulator in @kilocode.\n\nGrok's price: $3.52\nOpus 5.5's Price: $7.35",
-      "quote": null,
-      "retweet": {
-        "author": "coldopn",
-        "avatar": "https://pbs.twimg.com/profile_images/2100987610076241921/E3p4VzB9_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 03:05:18",
-        "created_at_utc": "2026-09-22T19:05:18.000Z",
-        "id": "2102474335172640989",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102474210299834368/img/pjTkYnjNIWHkF1kp.jpg"
-        ],
-        "media": [
-          {
-            "duration": 21.8,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102474210299834368/img/pjTkYnjNIWHkF1kp.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102474210299834368/vid/avc1/1920x1080/dVDcRcsC2R5sj_3g.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Brian Turcotte",
-        "text": "Everyone says I need to touch grass - but I think Grok 4.7 does it best?\n\nI compared Grok 4.7 against Opus 5.5 on a grass-touching simulator in @kilocode.\n\nGrok's price: $3.52\nOpus 5.5's Price: $7.35",
-        "url": "https://x.com/coldopn/status/2102474335172640989",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 28,
-        "likes": 597,
-        "quotes": 6,
-        "replies": 94,
-        "retweets": 85,
-        "views": 92565
-      },
-      "url": "https://x.com/elonmusk/status/2102752467985576189",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102474210299834368/img/pjTkYnjNIWHkF1kp.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102474210299834368/vid/avc1/1920x1080/dVDcRcsC2R5sj_3g.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102474210299834368/img/pjTkYnjNIWHkF1kp.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 21.8
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 175,
+  "total": 176,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 07:19:26",
+  "updated_at_shanghai": "2026-09-26 11:18:57",
   "account": "elonmusk"
 }
