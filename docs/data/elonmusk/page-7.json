@@ -1,6 +1,60 @@
 {
   "posts": [
     {
+      "id": "2102102046216196545",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T18:25:57.000Z",
+      "created_at_shanghai": "2026-09-22 02:25:57",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I’ve been testing Grok 4.7… it’s a really great daily driver, and a huge step up over 4.6.\n\nDefinitely worth trying!",
+      "quote": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "mattshumer_",
+        "avatar": "https://pbs.twimg.com/profile_images/1490950574090571778/BtgOaqUP_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 01:15:05",
+        "created_at_utc": "2026-09-21T17:15:05.000Z",
+        "id": "2102084211456827542",
+        "images": [],
+        "name": "Matt Shumer",
+        "text": "I’ve been testing Grok 4.7… it’s a really great daily driver, and a huge step up over 4.6.\n\nDefinitely worth trying!",
+        "url": "https://x.com/mattshumer_/status/2102084211456827542",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 34,
+        "likes": 1093,
+        "quotes": 5,
+        "replies": 101,
+        "retweets": 124,
+        "views": 420356
+      },
+      "url": "https://x.com/elonmusk/status/2102102046216196545",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102084221086904559",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -899,77 +953,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101904983994065255",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T05:22:54.000Z",
-      "created_at_shanghai": "2026-09-21 13:22:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Starlink saving lives, the real purpose.",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 04:40:02",
-        "created_at_utc": "2026-09-20T20:40:02.000Z",
-        "id": "2101773398850646266",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2101773369570148352/img/NU5TvroWzmm5MzvF.jpg"
-        ],
-        "media": [
-          {
-            "duration": 9.616,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101773369570148352/img/NU5TvroWzmm5MzvF.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2101773369570148352/vid/avc1/720x720/4r5c8qSKKCtDNL3q.mp4?tag=29",
-            "width": 720
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Starlink just helped make medical history in Africa! 🇳🇬\n\nUsing a Starlink internet connection, a surgeon near Lagos remotely controlled a robot to remove a cancerous kidney from a patient in Abuja, around 500 km away, in West Africa’s first tele-robotic surgery.",
-        "url": "https://x.com/cb_doge/status/2101773398850646266",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "mayemusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2034196750035021824/7VeYNMU1_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 08:06:21",
-        "created_at_utc": "2026-09-21T00:06:21.000Z",
-        "id": "2101825322266099984",
-        "images": [],
-        "media": [],
-        "name": "Maye Musk",
-        "text": "Starlink saving lives, the real purpose.",
-        "url": "https://x.com/mayemusk/status/2101825322266099984",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 256,
-        "likes": 7284,
-        "quotes": 47,
-        "replies": 405,
-        "retweets": 980,
-        "views": 1049404
-      },
-      "url": "https://x.com/elonmusk/status/2101904983994065255",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 176,
+  "total": 177,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 11:18:57",
+  "updated_at_shanghai": "2026-09-26 11:37:53",
   "account": "elonmusk"
 }
