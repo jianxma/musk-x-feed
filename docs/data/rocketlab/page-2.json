@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2101199968073892018",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-09-19T06:41:25.000Z",
+      "created_at_shanghai": "2026-09-19 14:41:25",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "For your joy.",
+      "quote": null,
+      "retweet": {
+        "author": "Peter_J_Beck",
+        "avatar": "https://pbs.twimg.com/profile_images/976576412923584512/JyVLFVTW_200x200.jpg",
+        "created_at_shanghai": "2026-09-19 14:41:25",
+        "created_at_utc": "2026-09-19T06:41:25.000Z",
+        "id": "2101199968073892018",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2101199884787515392/img/e1r6Zi9yz7ddeUKl.jpg"
+        ],
+        "media": [
+          {
+            "duration": 30.56,
+            "height": 1280,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101199884787515392/img/e1r6Zi9yz7ddeUKl.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2101199884787515392/vid/avc1/720x1280/uDFOY7wDjUxVnqVs.mp4?tag=29",
+            "width": 720
+          }
+        ],
+        "name": "Peter Beck",
+        "text": "For your joy.",
+        "url": "https://x.com/Peter_J_Beck/status/2101199968073892018",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 135,
+        "likes": 5573,
+        "quotes": 55,
+        "replies": 169,
+        "retweets": 379,
+        "views": 202749
+      },
+      "url": "https://x.com/rocketlab",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2101199884787515392/img/e1r6Zi9yz7ddeUKl.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2101199884787515392/vid/avc1/720x1280/uDFOY7wDjUxVnqVs.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101199884787515392/img/e1r6Zi9yz7ddeUKl.jpg",
+          "width": 720,
+          "height": 1280,
+          "duration": 30.56
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2101173241406713953",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -716,40 +779,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2095122554910601715",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-09-02T12:11:57.000Z",
-      "created_at_shanghai": "2026-09-02 20:11:57",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Successful SECO confirmed and nominal transfer orbit achieved for @synsective's StriX Earth-imaging satellite. Payload deployment expected in ~46 mins",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "RocketLab",
-      "engagement": {
-        "bookmarks": 2,
-        "likes": 627,
-        "quotes": 3,
-        "replies": 2,
-        "retweets": 37,
-        "views": 29944
-      },
-      "url": "https://x.com/rocketlab/status/2095122554910601715",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 47,
+  "total": 48,
   "total_pages": 3,
-  "updated_at_shanghai": "2026-09-26 07:19:26",
+  "updated_at_shanghai": "2026-09-26 08:24:56",
   "account": "rocketlab"
 }
