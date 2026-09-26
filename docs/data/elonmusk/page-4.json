@@ -1,6 +1,130 @@
 {
   "posts": [
     {
+      "id": "2102798963837665464",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T16:35:15.000Z",
+      "created_at_shanghai": "2026-09-24 00:35:15",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "New Grok @Bot features!",
+      "quote": {
+        "author": "mattyp",
+        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 22:00:02",
+        "created_at_utc": "2026-09-23T14:00:02.000Z",
+        "id": "2102759899314741736",
+        "images": [
+          "https://pbs.twimg.com/media/HS26LVIWwAAUdQE.jpg"
+        ],
+        "media": [
+          {
+            "duration": 144.043,
+            "height": 4053,
+            "thumbnail_url": "https://pbs.twimg.com/media/HS26LVIWwAAUdQE.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102537947790946305/vid/avc1/1920x1080/Ll-a0a_hXct6qpgB.mp4?tag=29",
+            "width": 7206
+          }
+        ],
+        "name": "matt palmer",
+        "text": "Here's what's new in Grok @Bot this week\n\n0:08 Voice calls and voice memos\n0:35 1Password vault for Grok Bot\n0:53 Inline forms\n1:07 Inline drafts for email and Slack\n1:31 Account switching\n1:40 Route traffic through your desktop",
+        "url": "https://x.com/mattyp/status/2102759899314741736",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 660,
+        "likes": 5349,
+        "quotes": 42,
+        "replies": 604,
+        "retweets": 521,
+        "views": 5537668
+      },
+      "url": "https://x.com/elonmusk/status/2102798963837665464",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102798777258213654",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T16:34:31.000Z",
+      "created_at_shanghai": "2026-09-24 00:34:31",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "True!\n\nWhen successful business owners pass away or even just retire, the company's profits fall.",
+      "quote": {
+        "author": "robkhenderson",
+        "avatar": "https://pbs.twimg.com/profile_images/1809986865061371904/hBsizcDm_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 03:34:58",
+        "created_at_utc": "2026-09-22T19:34:58.000Z",
+        "id": "2102481803575463956",
+        "images": [],
+        "media": [],
+        "name": "Rob Henderson",
+        "text": "\"A study in Denmark found that the death of a CEO reduced a company’s profits by 13% on average within two years. When a board member died, by contrast, it had no discernible effect. Leaders, in short, are important.\" https://www.economist.com/culture/2026/09/17/the-right-way-to-learn-from-genghis-khan",
+        "url": "https://x.com/robkhenderson/status/2102481803575463956",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "cremieuxrecueil",
+        "avatar": "https://pbs.twimg.com/profile_images/1637507712983375875/EQHiqVq8_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 03:43:52",
+        "created_at_utc": "2026-09-22T19:43:52.000Z",
+        "id": "2102484042260304361",
+        "images": [
+          "https://pbs.twimg.com/media/HS2F91zXEAEx52W.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 980,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS2F91zXEAEx52W.jpg?name=small",
+            "width": 1455
+          }
+        ],
+        "name": "Crémieux",
+        "text": "True!\n\nWhen successful business owners pass away or even just retire, the company's profits fall.",
+        "url": "https://x.com/cremieuxrecueil/status/2102484042260304361",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 332,
+        "likes": 2297,
+        "quotes": 16,
+        "replies": 64,
+        "retweets": 190,
+        "views": 301537
+      },
+      "url": "https://x.com/elonmusk/status/2102798777258213654",
+      "images": [
+        "https://pbs.twimg.com/media/HS2F91zXEAEx52W.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS2F91zXEAEx52W.jpg?name=small",
+          "width": 1455,
+          "height": 980
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2102798608227795393",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -867,138 +991,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102452207094464827",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T17:37:22.000Z",
-      "created_at_shanghai": "2026-09-23 01:37:22",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "X Numbers are here.\n\nShare yours with anyone you want to contact you, even if you don't follow them. It's an optional way for people to message or call you, without you needing to accept requests or follow them back.",
-      "quote": null,
-      "retweet": {
-        "author": "chat",
-        "avatar": "https://pbs.twimg.com/profile_images/2036559411485773825/8ceAb882_200x200.png",
-        "created_at_shanghai": "2026-09-23 00:57:46",
-        "created_at_utc": "2026-09-22T16:57:46.000Z",
-        "id": "2102442240354165057",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg"
-        ],
-        "media": [
-          {
-            "duration": 31.25,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102442131520733184/vid/avc1/1920x1080/fDxu-T-W4oJszC7b.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "XChat",
-        "text": "X Numbers are here.\n\nShare yours with anyone you want to contact you, even if you don't follow them. It's an optional way for people to message or call you, without you needing to accept requests or follow them back.",
-        "url": "https://x.com/chat/status/2102442240354165057",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1499,
-        "likes": 5349,
-        "quotes": 258,
-        "replies": 256,
-        "retweets": 700,
-        "views": 1207710
-      },
-      "url": "https://x.com/elonmusk/status/2102452207094464827",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102442131520733184/vid/avc1/1920x1080/fDxu-T-W4oJszC7b.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 31.25
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2102452194201293090",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T17:37:19.000Z",
-      "created_at_shanghai": "2026-09-23 01:37:19",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Today we're beginning to roll out 𝕏 Numbers, a brand new way to let anyone contact you on 𝕏 without needing to follow each other or accept requests.",
-      "quote": null,
-      "retweet": {
-        "author": "benjitaylor",
-        "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
-        "created_at_shanghai": "2026-09-23 01:04:34",
-        "created_at_utc": "2026-09-22T17:04:34.000Z",
-        "id": "2102443951898992825",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg"
-        ],
-        "media": [
-          {
-            "duration": 31.25,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102442131520733184/vid/avc1/1920x1080/fDxu-T-W4oJszC7b.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Benji Taylor",
-        "text": "Today we're beginning to roll out 𝕏 Numbers, a brand new way to let anyone contact you on 𝕏 without needing to follow each other or accept requests.",
-        "url": "https://x.com/benjitaylor/status/2102443951898992825",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 805,
-        "likes": 4258,
-        "quotes": 125,
-        "replies": 250,
-        "retweets": 326,
-        "views": 547799
-      },
-      "url": "https://x.com/elonmusk/status/2102452194201293090",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102442131520733184/vid/avc1/1920x1080/fDxu-T-W4oJszC7b.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 31.25
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 180,
-  "total_pages": 9,
-  "updated_at_shanghai": "2026-09-26 14:36:16",
+  "total": 182,
+  "total_pages": 10,
+  "updated_at_shanghai": "2026-09-26 15:14:28",
   "account": "elonmusk"
 }
