@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2103388450120737068",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-25T07:37:40.000Z",
+      "created_at_shanghai": "2026-09-25 15:37:40",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Tesla Semi Factory",
+      "quote": {
+        "author": "tesla_semi",
+        "avatar": "https://pbs.twimg.com/profile_images/2021306606449983491/eLU01mFt_200x200.jpg",
+        "created_at_shanghai": "2026-09-25 09:07:14",
+        "created_at_utc": "2026-09-25T01:07:14.000Z",
+        "id": "2103290194585964753",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103289644062482432/img/7Osl9BbCsI6-aoJk.jpg"
+        ],
+        "media": [
+          {
+            "duration": 53.72,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103289644062482432/img/7Osl9BbCsI6-aoJk.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103289644062482432/vid/avc1/3840x2160/PhRH3-P6PAzuZ7U5.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Tesla Semi",
+        "text": "This is our first factory built for Semi.\n\n– 50,000 units/year\n\n– Every variant built on the same production line (Standard, Long Range, European spec)\n\n– 1.8M sq ft",
+        "url": "https://x.com/tesla_semi/status/2103290194585964753",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 41,
+        "likes": 1090,
+        "quotes": 14,
+        "replies": 294,
+        "retweets": 179,
+        "views": 342482
+      },
+      "url": "https://x.com/elonmusk/status/2103388450120737068",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2103387807796298100",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1167,71 +1219,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2103147550819615114",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-24T15:40:25.000Z",
-      "created_at_shanghai": "2026-09-24 23:40:25",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Hardly anyone on Earth understands the magnitude of this. It's actually happening right now.  Crazy that we get to witness it close up.",
-      "quote": null,
-      "retweet": {
-        "author": "edleonklinger",
-        "avatar": "https://pbs.twimg.com/profile_images/1871621683368321024/lZ3yebfW_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 08:14:17",
-        "created_at_utc": "2026-09-24T00:14:17.000Z",
-        "id": "2102914483798602077",
-        "images": [
-          "https://pbs.twimg.com/media/HS8Nk6FWYAArCFp.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 887,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HS8Nk6FWYAArCFp.jpg?name=small",
-            "width": 1774
-          }
-        ],
-        "name": "Ed Leon Klinger",
-        "text": "Hardly anyone on Earth understands the magnitude of this. It's actually happening right now.  Crazy that we get to witness it close up.",
-        "url": "https://x.com/edleonklinger/status/2102914483798602077",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 159,
-        "likes": 1293,
-        "quotes": 17,
-        "replies": 144,
-        "retweets": 163,
-        "views": 105992
-      },
-      "url": "https://x.com/elonmusk/status/2103147550819615114",
-      "images": [
-        "https://pbs.twimg.com/media/HS8Nk6FWYAArCFp.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS8Nk6FWYAArCFp.jpg?name=small",
-          "width": 1774,
-          "height": 887
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 241,
+  "total": 242,
   "total_pages": 13,
-  "updated_at_shanghai": "2026-09-28 09:28:36",
+  "updated_at_shanghai": "2026-09-28 09:31:35",
   "account": "elonmusk"
 }
