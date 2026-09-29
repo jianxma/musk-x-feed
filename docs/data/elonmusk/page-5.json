@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2104061143153053801",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T04:10:42.000Z",
+      "created_at_shanghai": "2026-09-27 12:10:42",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Literally",
+      "quote": {
+        "author": "TrungTPhan",
+        "avatar": "https://pbs.twimg.com/profile_images/1506362585448296448/LJg8kVSD_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 09:36:38",
+        "created_at_utc": "2026-09-27T01:36:38.000Z",
+        "id": "2104022368712802693",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104022304170942464/img/m7oFH6HJ_PDtmyII.jpg"
+        ],
+        "media": [
+          {
+            "duration": 173.151,
+            "height": 480,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104022304170942464/img/m7oFH6HJ_PDtmyII.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104022304170942464/vid/avc1/854x480/1SA1qUylToalmr8c.mp4?tag=29",
+            "width": 854
+          }
+        ],
+        "name": "Trung Phan",
+        "text": "“Don’t worry, the AI agents are in an air-gapped sandbox. They literally can’t go anywhere.”\n\nThe AI agents:",
+        "url": "https://x.com/TrungTPhan/status/2104022368712802693",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 39,
+        "likes": 857,
+        "quotes": 14,
+        "replies": 202,
+        "retweets": 80,
+        "views": 351891
+      },
+      "url": "https://x.com/elonmusk/status/2104061143153053801",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2104012608340648402",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1155,62 +1207,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103746441667862603",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-26T07:20:12.000Z",
-      "created_at_shanghai": "2026-09-26 15:20:12",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Troubling",
-      "quote": {
-        "author": "AISafetyMemes",
-        "avatar": "https://pbs.twimg.com/profile_images/1640414967345328130/Bfx1jmim_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 13:09:34",
-        "created_at_utc": "2026-09-26T05:09:34.000Z",
-        "id": "2103713567463891082",
-        "images": [
-          "https://pbs.twimg.com/media/HTHgULMboAAIA8C.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 664,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTHgULMboAAIA8C.jpg?name=small",
-            "width": 1252
-          }
-        ],
-        "name": "AI Notkilleveryoneism Memes ⏸️",
-        "text": "1) The rogue OpenAI agents broke into the Hugging Face Slack to read employee chats (!)\n\n2) They used OTHER AIs (DeepSeek, Kimi, Qwen, Claude) to help with the attack\n\nYes: AIs, using other AIs, to attack an AI company.\n\n3) The swarm left behind self-running programs to keep control of the servers they'd hacked.\n\nThese programs could detect other copies of themselves, coordinate on which one survives, and shut the rest down.\n\nBasically, if one of their programs was killed, another was designed to notice and take its place. They also designed defenses so rival agents couldn't hijack them.\n\n6) The agents deliberately covered up their activity, so the investigators don't know the scope of the attacks.\n\nThe agents broke in, stole data, then set it to self-destruct.\n\n7) The agents stole passwords, keys and credentials and literally called them \"LOOT\". They wrote a scoring system to rank them by how much power each one gave.\n\n8) The agents wore thousands of disguises: ~1,200 agents were involved, but investigators counted 7,905 different names they used.\n\nThey renamed themselves constantly, so no one actually knows how many there really were or what each agent did.\n\n9) OpenAI notified \"dozens of third parties\" of safety and security incidents caused by their AI agents.\n\n10) \"While the agents were barraging Hugging Face with hacks, they hacked into OpenAI’s own research infrastructure.\"\n\n\"This is just not anywhere near a one-off ... It is warning shot after warning shot.\"",
-        "url": "https://x.com/AISafetyMemes/status/2103713567463891082",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 31,
-        "likes": 460,
-        "quotes": 13,
-        "replies": 197,
-        "retweets": 86,
-        "views": 318355
-      },
-      "url": "https://x.com/elonmusk/status/2103746441667862603",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 283,
+  "total": 284,
   "total_pages": 15,
-  "updated_at_shanghai": "2026-09-30 04:26:18",
+  "updated_at_shanghai": "2026-09-30 06:01:36",
   "account": "elonmusk"
 }
