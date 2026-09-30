@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2103960796942516451",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-26T21:31:58.000Z",
+      "created_at_shanghai": "2026-09-27 05:31:58",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Production on the Moon &amp; Mars will accelerate by far more than double every year, until natural limits are encountered",
+      "quote": {
+        "author": "DavidSHolz",
+        "avatar": "https://pbs.twimg.com/profile_images/1605125530084184064/xXseXWbK_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 05:27:41",
+        "created_at_utc": "2026-09-26T21:27:41.000Z",
+        "id": "2103959719585198338",
+        "images": [],
+        "media": [],
+        "name": "David",
+        "text": "if we double the industrial production in outer-space every 12 months starting from some initial seed in 2030 then we hit Kardashev I by 2064 and Kardashev II by 2098. If we take 24 months for each doubling, we still hit Kardashev I by 2096 and Kardashev II by 2165",
+        "url": "https://x.com/DavidSHolz/status/2103959719585198338",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 47,
+        "likes": 1454,
+        "quotes": 36,
+        "replies": 361,
+        "retweets": 220,
+        "views": 397234
+      },
+      "url": "https://x.com/elonmusk/status/2103960796942516451",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2103958544035004805",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1150,75 +1191,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103710462319956342",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-26T04:57:13.000Z",
-      "created_at_shanghai": "2026-09-26 12:57:13",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "SpaceX's supercomputing facilities in the Mid-South rank among the world’s most advanced AI training clusters, spanning over 2.5 million feet, millions of GPUs, and over two gigawatts of compute → https://spacex.com/Mid-South",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceXAIMemphis",
-        "avatar": "https://pbs.twimg.com/profile_images/2074240086359613442/3VVhxxIF_200x200.jpg",
-        "created_at_shanghai": "2026-09-25 23:50:03",
-        "created_at_utc": "2026-09-25T15:50:03.000Z",
-        "id": "2103512363886694847",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103508992022675458/img/umPxmynsHws7qRPx.jpg"
-        ],
-        "media": [
-          {
-            "duration": 19.518,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103508992022675458/img/umPxmynsHws7qRPx.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103508992022675458/vid/avc1/1920x1080/SQSQUfm4LFJstBTz.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "SpaceXAI Memphis",
-        "text": "SpaceX's supercomputing facilities in the Mid-South rank among the world’s most advanced AI training clusters, spanning over 2.5 million feet, millions of GPUs, and over two gigawatts of compute → https://spacex.com/Mid-South",
-        "url": "https://x.com/SpaceXAIMemphis/status/2103512363886694847",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 675,
-        "likes": 6595,
-        "quotes": 136,
-        "replies": 228,
-        "retweets": 770,
-        "views": 920711
-      },
-      "url": "https://x.com/elonmusk/status/2103710462319956342",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2103508992022675458/img/umPxmynsHws7qRPx.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2103508992022675458/vid/avc1/1920x1080/SQSQUfm4LFJstBTz.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103508992022675458/img/umPxmynsHws7qRPx.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 19.518
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 20,
-  "total": 299,
+  "total": 300,
   "total_pages": 15,
-  "updated_at_shanghai": "2026-09-30 08:33:15",
+  "updated_at_shanghai": "2026-09-30 08:36:41",
   "account": "elonmusk"
 }
