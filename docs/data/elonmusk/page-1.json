@@ -1,10 +1,51 @@
 {
   "posts": [
     {
-      "id": "2105357198972874800",
+      "id": "2105361313392476174",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-30T18:17:07.000Z",
+      "created_at_shanghai": "2026-10-01 02:17:07",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "My guess for real GDP growth next year is >50% higher than 2026, so >3.3%",
+      "quote": {
+        "author": "DavidSacks",
+        "avatar": "https://pbs.twimg.com/profile_images/1879600809693917185/GkBxdTd9_200x200.jpg",
+        "created_at_shanghai": "2026-09-30 23:23:59",
+        "created_at_utc": "2026-09-30T15:23:59.000Z",
+        "id": "2105317744308879427",
+        "images": [],
+        "media": [],
+        "name": "David Sacks",
+        "text": "Today’s economic numbers: \n— Q2 GDP revised up to 2.2% (was 1.5%). \n— Core PCE 3.0% vs 3.3% expected. \n— ADP private jobs +90k vs ~68k expected.\n\nGrowth beat. Inflation cooled. Jobs better than expected. \n\nThe Trump economy is strong.",
+        "url": "https://x.com/DavidSacks/status/2105317744308879427",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 28,
+        "likes": 961,
+        "quotes": 13,
+        "replies": 229,
+        "retweets": 146,
+        "views": 370192
+      },
+      "url": "https://x.com/elonmusk/status/2105361313392476174",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2105357198972874800",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-30T18:00:46.000Z",
@@ -1182,71 +1223,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2105103689417408624",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T01:13:25.000Z",
-      "created_at_shanghai": "2026-09-30 09:13:25",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starship Super Heavy",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-09-30 06:26:23",
-        "created_at_utc": "2026-09-29T22:26:23.000Z",
-        "id": "2105061657558786148",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2105061299633651712/img/AUeofkkbrXxwUpEg.jpg",
-          "https://pbs.twimg.com/media/HTauGVFXkAAF_G8.jpg?name=small"
-        ],
-        "media": [
-          {
-            "duration": 28.486,
-            "height": 1152,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105061299633651712/img/AUeofkkbrXxwUpEg.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105061299633651712/vid/avc1/2048x1152/c3KC_-JCbpgFW6s-.mp4?tag=29",
-            "width": 2048
-          },
-          {
-            "height": 2731,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTauGVFXkAAF_G8.jpg?name=small",
-            "width": 4096
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Super Heavy liftoff powered by 33 Raptor 3 engines",
-        "url": "https://x.com/SpaceX/status/2105061657558786148",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 22,
-        "likes": 821,
-        "quotes": 9,
-        "replies": 181,
-        "retweets": 123,
-        "views": 273063
-      },
-      "url": "https://x.com/elonmusk/status/2105103689417408624",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 321,
+  "total": 322,
   "total_pages": 17,
-  "updated_at_shanghai": "2026-10-01 02:08:30",
+  "updated_at_shanghai": "2026-10-01 02:23:11",
   "account": "elonmusk"
 }

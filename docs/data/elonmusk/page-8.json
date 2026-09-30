@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2103743759565660223",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-26T07:09:32.000Z",
+      "created_at_shanghai": "2026-09-26 15:09:32",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Take an early look at the front page of The Wall Street Journal's weekend edition. https://on.wsj.com/4d79g0H",
+      "quote": null,
+      "retweet": {
+        "author": "WSJ",
+        "avatar": "https://pbs.twimg.com/profile_images/971415515754266624/zCX0q9d5_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 12:30:07",
+        "created_at_utc": "2026-09-26T04:30:07.000Z",
+        "id": "2103703639030223033",
+        "images": [
+          "https://pbs.twimg.com/media/HTHbTU4WgAAZDXr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2083,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTHbTU4WgAAZDXr.jpg?name=small",
+            "width": 1066
+          }
+        ],
+        "name": "The Wall Street Journal",
+        "text": "Take an early look at the front page of The Wall Street Journal's weekend edition. https://on.wsj.com/4d79g0H",
+        "url": "https://x.com/WSJ/status/2103703639030223033",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 10,
+        "likes": 122,
+        "quotes": 4,
+        "replies": 30,
+        "retweets": 36,
+        "views": 42769
+      },
+      "url": "https://x.com/elonmusk/status/2103743759565660223",
+      "images": [
+        "https://pbs.twimg.com/media/HTHbTU4WgAAZDXr.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTHbTU4WgAAZDXr.jpg?name=small",
+          "width": 1066,
+          "height": 2083
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103743032054972887",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1208,64 +1267,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103388450120737068",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-25T07:37:40.000Z",
-      "created_at_shanghai": "2026-09-25 15:37:40",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla Semi Factory",
-      "quote": {
-        "author": "tesla_semi",
-        "avatar": "https://pbs.twimg.com/profile_images/2021306606449983491/eLU01mFt_200x200.jpg",
-        "created_at_shanghai": "2026-09-25 09:07:14",
-        "created_at_utc": "2026-09-25T01:07:14.000Z",
-        "id": "2103290194585964753",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103289644062482432/img/7Osl9BbCsI6-aoJk.jpg"
-        ],
-        "media": [
-          {
-            "duration": 53.72,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103289644062482432/img/7Osl9BbCsI6-aoJk.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103289644062482432/vid/avc1/3840x2160/PhRH3-P6PAzuZ7U5.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Tesla Semi",
-        "text": "This is our first factory built for Semi.\n\n– 50,000 units/year\n\n– Every variant built on the same production line (Standard, Long Range, European spec)\n\n– 1.8M sq ft",
-        "url": "https://x.com/tesla_semi/status/2103290194585964753",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 41,
-        "likes": 1090,
-        "quotes": 14,
-        "replies": 294,
-        "retweets": 179,
-        "views": 342482
-      },
-      "url": "https://x.com/elonmusk/status/2103388450120737068",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 8,
   "page_size": 20,
-  "total": 321,
+  "total": 322,
   "total_pages": 17,
-  "updated_at_shanghai": "2026-10-01 02:08:30",
+  "updated_at_shanghai": "2026-10-01 02:23:11",
   "account": "elonmusk"
 }
