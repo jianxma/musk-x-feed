@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2104709783999729911",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T23:08:10.000Z",
+      "created_at_shanghai": "2026-09-29 07:08:10",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Now @Bot works as a team!",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-09-29 03:56:33",
+        "created_at_utc": "2026-09-28T19:56:33.000Z",
+        "id": "2104661562715967548",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104654684527251457/img/7ZvdEODvazICBcqM.jpg"
+        ],
+        "media": [
+          {
+            "duration": 26.733,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104654684527251457/img/7ZvdEODvazICBcqM.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104654684527251457/vid/avc1/1920x1080/ND4TiKpzSKI2vp3Q.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Introducing Team Bots, shared AI teammates that learn as your team works with them.\n\nGive your Team Bot the skills, plugins, and credentials it needs for its role, then work with it in Slack or Grok Bot.",
+        "url": "https://x.com/bot/status/2104661562715967548",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 30,
+        "likes": 556,
+        "quotes": 8,
+        "replies": 174,
+        "retweets": 78,
+        "views": 283242
+      },
+      "url": "https://x.com/elonmusk/status/2104709783999729911",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2104704880627617820",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1188,40 +1240,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2104545337478406579",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-28T12:14:43.000Z",
-      "created_at_shanghai": "2026-09-28 20:14:43",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Starship Flight 14 launches in ~30 mins\nhttps://x.com/i/broadcasts/1qxvvenMPMQxB",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 23,
-        "likes": 378,
-        "quotes": 8,
-        "replies": 71,
-        "retweets": 88,
-        "views": 238570
-      },
-      "url": "https://x.com/elonmusk/status/2104545337478406579",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 309,
+  "total": 310,
   "total_pages": 16,
-  "updated_at_shanghai": "2026-09-30 10:16:25",
+  "updated_at_shanghai": "2026-09-30 11:42:50",
   "account": "elonmusk"
 }

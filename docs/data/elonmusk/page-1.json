@@ -1,10 +1,38 @@
 {
   "posts": [
     {
-      "id": "2105118961532596360",
+      "id": "2105139959720014101",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-30T03:37:32.000Z",
+      "created_at_shanghai": "2026-09-30 11:37:32",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Best way to sandbox an AI is to put it on a Delta flight – it will have no chance of accessing the Internet!",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 54,
+        "likes": 1794,
+        "quotes": 37,
+        "replies": 431,
+        "retweets": 170,
+        "views": 312734
+      },
+      "url": "https://x.com/elonmusk/status/2105139959720014101",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2105118961532596360",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-30T02:14:06.000Z",
@@ -67,7 +95,7 @@
       "id": "2105118281803960612",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-09-30T02:11:24.000Z",
@@ -1129,75 +1157,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2105060514795798742",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-29T22:21:51.000Z",
-      "created_at_shanghai": "2026-09-30 06:21:51",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "SECRETARY RUBIO on https://AMERICA.GOV PASSPORTS: No printing forms, no drugstore hostage photo, no appointment, no line, no middleman that you're paying to do something that should be available to you.",
-      "quote": null,
-      "retweet": {
-        "author": "StateDept",
-        "avatar": "https://pbs.twimg.com/profile_images/2065445010053431296/I2jXbYJL_200x200.jpg",
-        "created_at_shanghai": "2026-09-29 23:30:57",
-        "created_at_utc": "2026-09-29T15:30:57.000Z",
-        "id": "2104957106655023491",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2104956220410839040/img/_NNcj2lqDvreC5eb.jpg"
-        ],
-        "media": [
-          {
-            "duration": 102.202,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104956220410839040/img/_NNcj2lqDvreC5eb.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2104956220410839040/vid/avc1/1920x1080/pmvkmTArju46pli4.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Department of State",
-        "text": "SECRETARY RUBIO on https://AMERICA.GOV PASSPORTS: No printing forms, no drugstore hostage photo, no appointment, no line, no middleman that you're paying to do something that should be available to you.",
-        "url": "https://x.com/StateDept/status/2104957106655023491",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 3713,
-        "likes": 20003,
-        "quotes": 415,
-        "replies": 561,
-        "retweets": 2700,
-        "views": 2351959
-      },
-      "url": "https://x.com/elonmusk/status/2105060514795798742",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2104956220410839040/img/_NNcj2lqDvreC5eb.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2104956220410839040/vid/avc1/1920x1080/pmvkmTArju46pli4.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104956220410839040/img/_NNcj2lqDvreC5eb.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 102.202
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 309,
+  "total": 310,
   "total_pages": 16,
-  "updated_at_shanghai": "2026-09-30 10:16:25",
+  "updated_at_shanghai": "2026-09-30 11:42:50",
   "account": "elonmusk"
 }
