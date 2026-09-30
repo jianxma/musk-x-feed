@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2104360927474921529",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T00:01:56.000Z",
+      "created_at_shanghai": "2026-09-28 08:01:56",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "I really felt the AGI profoundly this time",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 76,
+        "likes": 628,
+        "quotes": 21,
+        "replies": 161,
+        "retweets": 98,
+        "views": 281078
+      },
+      "url": "https://x.com/elonmusk/status/2104360927474921529",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103533196721704960/img/ILpk1iqxJsJGiDcK.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2103533196721704960/vid/avc1/1920x1080/hK-nvYk8GWyJLtjS.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103533196721704960/img/ILpk1iqxJsJGiDcK.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 306.416
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2104352217092206601",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1196,75 +1235,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2104149624026275853",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-27T10:02:18.000Z",
-      "created_at_shanghai": "2026-09-27 18:02:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "HOLY SHIT. OPUS 5.5 IS CRAZY.\n\nNapoleon's sharpest battle lasted a morning and won him Europe. I just had it turn that morning into a complete 5 minute film.\n\nAll code.\n- It wrote the engine, the soldiers, the score, the voice.\n- The hills are the real battlefield from satellite data.\n- The sun rises where it actually rose on 2 December 1805.\n\n90 minutes to build. 4 hours to render. $40 (cloud agent credits).\n\nCode + prompt below.",
-      "quote": null,
-      "retweet": {
-        "author": "WinterArc2125",
-        "avatar": "https://pbs.twimg.com/profile_images/2006184487785222145/3glEkHay_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 21:35:59",
-        "created_at_utc": "2026-09-24T13:35:59.000Z",
-        "id": "2103116235009347650",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103113452726140928/img/cjQI93QJwNev_gQ1.jpg"
-        ],
-        "media": [
-          {
-            "duration": 301.333,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103113452726140928/img/cjQI93QJwNev_gQ1.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103113452726140928/vid/avc1/1920x1080/7kwgLDfFWkBBQ35Z.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Winter",
-        "text": "HOLY SHIT. OPUS 5.5 IS CRAZY.\n\nNapoleon's sharpest battle lasted a morning and won him Europe. I just had it turn that morning into a complete 5 minute film.\n\nAll code.\n- It wrote the engine, the soldiers, the score, the voice.\n- The hills are the real battlefield from satellite data.\n- The sun rises where it actually rose on 2 December 1805.\n\n90 minutes to build. 4 hours to render. $40 (cloud agent credits).\n\nCode + prompt below.",
-        "url": "https://x.com/WinterArc2125/status/2103116235009347650",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 391,
-        "likes": 634,
-        "quotes": 9,
-        "replies": 46,
-        "retweets": 76,
-        "views": 105821
-      },
-      "url": "https://x.com/elonmusk/status/2104149624026275853",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2103113452726140928/img/cjQI93QJwNev_gQ1.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2103113452726140928/vid/avc1/1920x1080/7kwgLDfFWkBBQ35Z.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103113452726140928/img/cjQI93QJwNev_gQ1.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 301.333
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 311,
+  "total": 312,
   "total_pages": 16,
-  "updated_at_shanghai": "2026-09-30 15:12:06",
+  "updated_at_shanghai": "2026-10-01 00:46:13",
   "account": "elonmusk"
 }
