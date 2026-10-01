@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2104715560734838855",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T23:31:08.000Z",
+      "created_at_shanghai": "2026-09-29 07:31:08",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 is now on Amazon Bedrock",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-29 07:10:53",
+        "created_at_utc": "2026-09-28T23:10:53.000Z",
+        "id": "2104710467512058027",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg"
+        ],
+        "media": [
+          {
+            "duration": 19.233,
+            "height": 1260,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104710247701270528/vid/avc1/2400x1260/2RcQYXqRchHNsU-q.mp4?tag=29",
+            "width": 2400
+          }
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is now on Amazon Bedrock",
+        "url": "https://x.com/SpaceXAI/status/2104710467512058027",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 489,
+        "quotes": 9,
+        "replies": 56,
+        "retweets": 65,
+        "views": 51165
+      },
+      "url": "https://x.com/elonmusk/status/2104715560734838855",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2104710247701270528/vid/avc1/2400x1260/2RcQYXqRchHNsU-q.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg",
+          "width": 2400,
+          "height": 1260,
+          "duration": 19.233
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2104715520759271702",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1252,53 +1315,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2104572572067099102",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-28T14:02:56.000Z",
-      "created_at_shanghai": "2026-09-28 22:02:56",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "All 26 Starlink V3 operational satellites deployed and operating nominally",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-09-28 21:57:20",
-        "created_at_utc": "2026-09-28T13:57:20.000Z",
-        "id": "2104571161254474020",
-        "images": [],
-        "media": [],
-        "name": "SpaceX",
-        "text": "The @Starlink team has made contact with all 26 satellites",
-        "url": "https://x.com/SpaceX/status/2104571161254474020",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 90,
-        "likes": 5546,
-        "quotes": 73,
-        "replies": 602,
-        "retweets": 604,
-        "views": 537490
-      },
-      "url": "https://x.com/elonmusk/status/2104572572067099102",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 352,
+  "total": 353,
   "total_pages": 18,
-  "updated_at_shanghai": "2026-10-02 02:00:50",
+  "updated_at_shanghai": "2026-10-02 02:07:51",
   "account": "elonmusk"
 }
