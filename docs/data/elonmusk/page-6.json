@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2104715520759271702",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T23:30:58.000Z",
+      "created_at_shanghai": "2026-09-29 07:30:58",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "in case you missed it over the weekend, grok @bot can help with your finances! combined with the other connectors available in grok bot you can build custom dashboards for your business, budgeting tools for you and your family, and even find more ways to save you money\n\ntry looking through all the subs you pay for and forgot about and save and make money today with grok bot!",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 03:54:25",
+        "created_at_utc": "2026-09-26T19:54:25.000Z",
+        "id": "2103936247995752705",
+        "images": [
+          "https://pbs.twimg.com/media/HTKt7P3aUAAZptd.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2305,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTKt7P3aUAAZptd.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot now connects to your finances.\n\nLink your bank, card, and investment accounts with the new Finance integration, then ask Bot to help manage your spending, investments, and more.",
+        "url": "https://x.com/bot/status/2103936247995752705",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "poteto",
+        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
+        "created_at_shanghai": "2026-09-29 02:55:10",
+        "created_at_utc": "2026-09-28T18:55:10.000Z",
+        "id": "2104646114427457941",
+        "images": [],
+        "media": [],
+        "name": "lauren",
+        "text": "in case you missed it over the weekend, grok @bot can help with your finances! combined with the other connectors available in grok bot you can build custom dashboards for your business, budgeting tools for you and your family, and even find more ways to save you money\n\ntry looking through all the subs you pay for and forgot about and save and make money today with grok bot!",
+        "url": "https://x.com/poteto/status/2104646114427457941",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 78,
+        "likes": 510,
+        "quotes": 0,
+        "replies": 65,
+        "retweets": 52,
+        "views": 64597
+      },
+      "url": "https://x.com/elonmusk/status/2104715520759271702",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2104709892762120484",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1230,64 +1293,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2104572192247984493",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-28T14:01:26.000Z",
-      "created_at_shanghai": "2026-09-28 22:01:26",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "First orbital flight of Starship successful!",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-09-28 21:15:48",
-        "created_at_utc": "2026-09-28T13:15:48.000Z",
-        "id": "2104560708969259344",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2104560614626766848/img/WR9uvl1CQ0MlhUhG.jpg"
-        ],
-        "media": [
-          {
-            "duration": 55.33,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104560614626766848/img/WR9uvl1CQ0MlhUhG.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2104560614626766848/vid/avc1/3840x2160/WMLBYlBCU0AQ5vn3.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Starship performs its orbital insertion burn and enters orbit of Earth for the first time",
-        "url": "https://x.com/SpaceX/status/2104560708969259344",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 140,
-        "likes": 6848,
-        "quotes": 107,
-        "replies": 769,
-        "retweets": 831,
-        "views": 570734
-      },
-      "url": "https://x.com/elonmusk/status/2104572192247984493",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 20,
-  "total": 371,
+  "total": 372,
   "total_pages": 19,
-  "updated_at_shanghai": "2026-10-02 07:27:56",
+  "updated_at_shanghai": "2026-10-02 07:39:16",
   "account": "elonmusk"
 }
