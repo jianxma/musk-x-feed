@@ -1,6 +1,92 @@
 {
   "posts": [
     {
+      "id": "2102454676688162857",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T17:47:11.000Z",
+      "created_at_shanghai": "2026-09-23 01:47:11",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I will admit, I am enjoying vibe coding. I may have been a teensy tiny bit wrong.",
+      "quote": null,
+      "retweet": {
+        "author": "notch",
+        "avatar": "https://pbs.twimg.com/profile_images/1523817638706700288/tVCx9ZP1_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 00:45:52",
+        "created_at_utc": "2026-09-22T16:45:52.000Z",
+        "id": "2102439244887453825",
+        "images": [],
+        "name": "notch",
+        "text": "I will admit, I am enjoying vibe coding. I may have been a teensy tiny bit wrong.",
+        "url": "https://x.com/notch/status/2102439244887453825",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1582,
+        "likes": 23960,
+        "quotes": 317,
+        "replies": 893,
+        "retweets": 959,
+        "views": 1589323
+      },
+      "url": "https://x.com/elonmusk/status/2102454676688162857",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102452256746701030",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T17:37:34.000Z",
+      "created_at_shanghai": "2026-09-23 01:37:34",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We’re taking the calls on the road. 🎟️ Book tour dates + tickets at the link below 👇 \n\nhttps://linktr.ee/ariemanuel",
+      "quote": null,
+      "retweet": {
+        "author": "AriEmanuel",
+        "avatar": "https://pbs.twimg.com/profile_images/2084645387726651393/f-1LJwey_200x200.jpg",
+        "created_at_shanghai": "2026-09-09 00:11:21",
+        "created_at_utc": "2026-09-08T16:11:21.000Z",
+        "id": "2097357128818462732",
+        "images": [
+          "https://pbs.twimg.com/media/HRtPMVSaQAAKTqW.jpg?name=small",
+          "https://pbs.twimg.com/media/HRtPMVQbkAAHmuJ.jpg?name=small"
+        ],
+        "name": "Ari Emanuel",
+        "text": "We’re taking the calls on the road. 🎟️ Book tour dates + tickets at the link below 👇 \n\nhttps://linktr.ee/ariemanuel",
+        "url": "https://x.com/AriEmanuel/status/2097357128818462732",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 714,
+        "quotes": 8,
+        "replies": 40,
+        "retweets": 90,
+        "views": 287726
+      },
+      "url": "https://x.com/elonmusk/status/2102452256746701030",
+      "images": [
+        "https://pbs.twimg.com/media/HRtPMVSaQAAKTqW.jpg?name=small",
+        "https://pbs.twimg.com/media/HRtPMVQbkAAHmuJ.jpg?name=small"
+      ],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102452207094464827",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -900,127 +986,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102406300303049172",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:34:57.000Z",
-      "created_at_shanghai": "2026-09-22 22:34:57",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok will be able to make photo-realistic &amp; physics-precise games",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 22:18:09",
-        "created_at_utc": "2026-09-22T14:18:09.000Z",
-        "id": "2102402070787862653",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102401361237377024/img/SQBHSBgRjweTTKtP.jpg"
-        ],
-        "media": [
-          {
-            "duration": 50.8,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102401361237377024/img/SQBHSBgRjweTTKtP.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102401361237377024/vid/avc1/1920x1080/k-lneZDppfN08LG0.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 just built a GTA-style open-world game from a single prompt in Grok Build\n\nYou can walk around, drive cars, enter vehicles and explore an entire city\n\nIt looks insane, and I had way too much fun playing it 😂",
-        "url": "https://x.com/XFreeze/status/2102402070787862653",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 736,
-        "likes": 11262,
-        "quotes": 141,
-        "replies": 1443,
-        "retweets": 1411,
-        "views": 3451437
-      },
-      "url": "https://x.com/elonmusk/status/2102406300303049172",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102398931770409255",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:05:40.000Z",
-      "created_at_shanghai": "2026-09-22 22:05:40",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Tell Grok an idea, and it builds a working version live in your chat. \n\nGrok Build is now available on every plan - on web, iOS, and Android.",
-      "quote": null,
-      "retweet": {
-        "author": "grok",
-        "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
-        "created_at_shanghai": "2026-09-17 15:13:56",
-        "created_at_utc": "2026-09-17T07:13:56.000Z",
-        "id": "2100483374150263275",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg"
-        ],
-        "media": [
-          {
-            "duration": 19.6,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2100213508029702145/vid/avc1/720x720/tigTdmb6OZBp229f.mp4?tag=14",
-            "width": 1080
-          }
-        ],
-        "name": "Grok",
-        "text": "Tell Grok an idea, and it builds a working version live in your chat. \n\nGrok Build is now available on every plan - on web, iOS, and Android.",
-        "url": "https://x.com/grok/status/2100483374150263275",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 222,
-        "likes": 1338,
-        "quotes": 3,
-        "replies": 116,
-        "retweets": 199,
-        "views": 2824531
-      },
-      "url": "https://x.com/elonmusk/status/2102398931770409255",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2100213508029702145/vid/avc1/720x720/tigTdmb6OZBp229f.mp4?tag=14",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg",
-          "width": 1080,
-          "height": 1080,
-          "duration": 19.6
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 20,
-  "total": 362,
+  "total": 364,
   "total_pages": 19,
-  "updated_at_shanghai": "2026-10-02 03:45:19",
+  "updated_at_shanghai": "2026-10-02 03:49:02",
   "account": "elonmusk"
 }
