@@ -1,6 +1,110 @@
 {
   "posts": [
     {
+      "id": "2103382290994962788",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-25T07:13:11.000Z",
+      "created_at_shanghai": "2026-09-25 15:13:11",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "It was moving",
+      "quote": {
+        "author": "nicksortor",
+        "avatar": "https://pbs.twimg.com/profile_images/2013475077619359745/SfN8KfMj_200x200.jpg",
+        "created_at_shanghai": "2026-09-25 08:36:42",
+        "created_at_utc": "2026-09-25T00:36:42.000Z",
+        "id": "2103282510029296055",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103282021250236417/img/heM5P3si8s5dVYEk.jpg"
+        ],
+        "media": [
+          {
+            "duration": 1580.312,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103282021250236417/img/heM5P3si8s5dVYEk.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103282021250236417/vid/avc1/1920x1080/aiBltSkhfjynFf7v.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Nick Sortor",
+        "text": "Legacy media REFUSED to show you a SINGLE SECOND of President Trump's speech and historic state dinner with Xi Jinping tonight at the White House\n\nSo here's the ENTIRE thing, from start to finish, with translations for Xi's speech\n\nDO NOT LET LEGACY MEDIA KEEP YOU IN THE DARK",
+        "url": "https://x.com/nicksortor/status/2103282510029296055",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 84,
+        "likes": 1093,
+        "quotes": 7,
+        "replies": 190,
+        "retweets": 171,
+        "views": 358492
+      },
+      "url": "https://x.com/elonmusk/status/2103382290994962788",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2103351799130579033",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-25T05:12:01.000Z",
+      "created_at_shanghai": "2026-09-25 13:12:01",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "🚀🚀",
+      "quote": {
+        "author": "sundarpichai",
+        "avatar": "https://pbs.twimg.com/profile_images/2051799620062429184/AL8CoAUG_200x200.jpg",
+        "created_at_shanghai": "2026-09-25 03:45:15",
+        "created_at_utc": "2026-09-24T19:45:15.000Z",
+        "id": "2103209164072010051",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103208798299332608/img/cqzCxVlOnLalv2e9.jpg"
+        ],
+        "media": [
+          {
+            "duration": 58.5,
+            "height": 1920,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103208798299332608/img/cqzCxVlOnLalv2e9.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103208798299332608/vid/avc1/1080x1920/5O8LUM1sRzGBB5f0.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "Sundar Pichai",
+        "text": "Can our TPUs survive and operate in space? Well, we're going to find out.\n\nProject Suncatcher is hitching a ride aboard @SpaceX's Transporter-18 mission, testing a prototype satellite built in partnership with @planet\n\nOne small step for TPUs....",
+        "url": "https://x.com/sundarpichai/status/2103209164072010051",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 37,
+        "likes": 950,
+        "quotes": 10,
+        "replies": 205,
+        "retweets": 125,
+        "views": 379621
+      },
+      "url": "https://x.com/elonmusk/status/2103351799130579033",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2103351727734829090",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1036,116 +1140,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2103002338399244371",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-24T06:03:24.000Z",
-      "created_at_shanghai": "2026-09-24 14:03:24",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 works really well with Blender. I’ve been using them to create these rough Raptor engine 3D models, and the improvement in quality is huge.\n\nThey’re still early versions, but the details are already coming together beautifully.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 10:57:37",
-        "created_at_utc": "2026-09-24T02:57:37.000Z",
-        "id": "2102955587218886827",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102955496852656128/img/SeUYmcw69bFtzzXY.jpg"
-        ],
-        "media": [
-          {
-            "duration": 12.65,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102955496852656128/img/SeUYmcw69bFtzzXY.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102955496852656128/vid/avc1/2256x1080/xswlMVMBZBv-oDyC.mp4?tag=29",
-            "width": 2256
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Grok 4.7 works really well with Blender. I’ve been using them to create these rough Raptor engine 3D models, and the improvement in quality is huge.\n\nThey’re still early versions, but the details are already coming together beautifully.",
-        "url": "https://x.com/cb_doge/status/2102955587218886827",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 44,
-        "likes": 565,
-        "quotes": 10,
-        "replies": 68,
-        "retweets": 72,
-        "views": 55319
-      },
-      "url": "https://x.com/elonmusk/status/2103002338399244371",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102955496852656128/img/SeUYmcw69bFtzzXY.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102955496852656128/vid/avc1/2256x1080/xswlMVMBZBv-oDyC.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102955496852656128/img/SeUYmcw69bFtzzXY.jpg",
-          "width": 2256,
-          "height": 1080,
-          "duration": 12.65
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2102964178210480238",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-24T03:31:45.000Z",
-      "created_at_shanghai": "2026-09-24 11:31:45",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Streaming live at 6pm PDT tomorrow https://x.com/i/broadcasts/1vJpPNaYnYQJE",
-      "quote": null,
-      "retweet": {
-        "author": "tesla_semi",
-        "avatar": "https://pbs.twimg.com/profile_images/2021306606449983491/eLU01mFt_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 10:59:03",
-        "created_at_utc": "2026-09-24T02:59:03.000Z",
-        "id": "2102955945441853856",
-        "images": [],
-        "media": [],
-        "name": "Tesla Semi",
-        "text": "Streaming live at 6pm PDT tomorrow https://x.com/i/broadcasts/1vJpPNaYnYQJE",
-        "url": "https://x.com/tesla_semi/status/2102955945441853856",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 733,
-        "likes": 8047,
-        "quotes": 233,
-        "replies": 318,
-        "retweets": 1122,
-        "views": 943389
-      },
-      "url": "https://x.com/elonmusk/status/2102964178210480238",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 12,
   "page_size": 20,
-  "total": 375,
+  "total": 377,
   "total_pages": 19,
-  "updated_at_shanghai": "2026-10-02 14:57:54",
+  "updated_at_shanghai": "2026-10-02 15:07:20",
   "account": "elonmusk"
 }
