@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2105813307005575411",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-10-02T00:13:11.000Z",
+      "created_at_shanghai": "2026-10-02 08:13:11",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Media accreditation is now open for our 100th Electron launch. \n\nJoin us at Launch Complex 1 for flight 100 to set remote cameras, get a behind-the-scenes tour of the world’s first private orbital launch site, meet the Rocket Lab launch team, watch our 100th lift-off in person. \n\nApply now: https://rocketlabcorp.com/100th-launch-accreditation",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 4,
+        "likes": 121,
+        "quotes": 9,
+        "replies": 12,
+        "retweets": 28,
+        "views": 4033
+      },
+      "url": "https://x.com/rocketlab/status/2105813307005575411",
+      "images": [
+        "https://pbs.twimg.com/media/HTlZ4Jia8AAuJvs.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTlZ4Jia8AAuJvs.jpg?name=small",
+          "width": 2160,
+          "height": 2700
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2105433239708209608",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -727,56 +764,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103163208177762360",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-09-24T16:42:38.000Z",
-      "created_at_shanghai": "2026-09-25 00:42:38",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "GRAIL & LADEE (Moon)\n\nMotorized Lightband (MLB) separation technology from Planetary Systems Corporation, acquired by Rocket Lab in 2021, supported @NASA's GRAIL and LADEE lunar missions.\n\nThese flight-proven, non-pyrotechnic mechanisms provide controlled, low-shock separation between spacecraft and launch-vehicle elements to safeguard delicate science instruments.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "RocketLab",
-      "engagement": {
-        "bookmarks": 1,
-        "likes": 15,
-        "quotes": 0,
-        "replies": 0,
-        "retweets": 4,
-        "views": 501
-      },
-      "url": "https://x.com/rocketlab/status/2103163208177762360",
-      "images": [
-        "https://pbs.twimg.com/media/HS_vr03bkAAfaiw.jpg?name=small",
-        "https://pbs.twimg.com/media/HS_vr0ybgAAKsl4.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS_vr03bkAAfaiw.jpg?name=small",
-          "width": 2048,
-          "height": 1365
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS_vr0ybgAAKsl4.jpg?name=small",
-          "width": 4096,
-          "height": 2731
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 59,
+  "total": 60,
   "total_pages": 3,
-  "updated_at_shanghai": "2026-10-01 07:03:57",
+  "updated_at_shanghai": "2026-10-02 08:18:47",
   "account": "rocketlab"
 }
