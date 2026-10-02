@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2104381674796495229",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T01:24:23.000Z",
+      "created_at_shanghai": "2026-09-28 09:24:23",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "adamcarolla",
+        "avatar": "https://pbs.twimg.com/profile_images/1486913589751402499/JTn7MRT4_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 14:55:44",
+        "created_at_utc": "2026-09-27T06:55:44.000Z",
+        "id": "2104102672072835142",
+        "images": [],
+        "media": [],
+        "name": "Adam Carolla",
+        "text": "True",
+        "url": "https://x.com/adamcarolla/status/2104102672072835142",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 14,
+        "likes": 379,
+        "quotes": 16,
+        "replies": 104,
+        "retweets": 53,
+        "views": 263008
+      },
+      "url": "https://x.com/elonmusk/status/2104381674796495229",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2104381070787461303",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1053,75 +1094,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2104241882280706176",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-27T16:08:54.000Z",
-      "created_at_shanghai": "2026-09-28 00:08:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "10 years ago today, @elonmusk announced his Mars plans in the form of the Interplanetary Transportation System, now known as Starship at the 2016 IAC in Guadalajara, Mexico. This was when he used the underpants gnome meme and I’ve always wondered if back then he already knew Starlink would be the key to SpaceX’s future followed by AI prospects, or was it still just rocket launch services that thought would be the money maker. \n\nPS: I was there and it was the first time I asked Elon anything at a press conference. I remember being pretty nervous. I never imagined I’d hold multi-hour conversations about rockets just a few years later.",
-      "quote": null,
-      "retweet": {
-        "author": "Erdayastronaut",
-        "avatar": "https://pbs.twimg.com/profile_images/1253477073265532928/MmGBMWsQ_200x200.jpg",
-        "created_at_shanghai": "2026-09-27 22:42:21",
-        "created_at_utc": "2026-09-27T14:42:21.000Z",
-        "id": "2104220100488282150",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2104219767208869888/img/yar_o0cSKT9ivAZe.jpg"
-        ],
-        "media": [
-          {
-            "duration": 129.726,
-            "height": 1320,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104219767208869888/img/yar_o0cSKT9ivAZe.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2104219767208869888/vid/avc1/2346x1320/s_nIRs-ZbFeEs8GH.mp4?tag=29",
-            "width": 2346
-          }
-        ],
-        "name": "Everyday Astronaut",
-        "text": "10 years ago today, @elonmusk announced his Mars plans in the form of the Interplanetary Transportation System, now known as Starship at the 2016 IAC in Guadalajara, Mexico. This was when he used the underpants gnome meme and I’ve always wondered if back then he already knew Starlink would be the key to SpaceX’s future followed by AI prospects, or was it still just rocket launch services that thought would be the money maker. \n\nPS: I was there and it was the first time I asked Elon anything at a press conference. I remember being pretty nervous. I never imagined I’d hold multi-hour conversations about rockets just a few years later.",
-        "url": "https://x.com/Erdayastronaut/status/2104220100488282150",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 120,
-        "likes": 1408,
-        "quotes": 9,
-        "replies": 71,
-        "retweets": 149,
-        "views": 70032
-      },
-      "url": "https://x.com/elonmusk/status/2104241882280706176",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2104219767208869888/img/yar_o0cSKT9ivAZe.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2104219767208869888/vid/avc1/2346x1320/s_nIRs-ZbFeEs8GH.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104219767208869888/img/yar_o0cSKT9ivAZe.jpg",
-          "width": 2346,
-          "height": 1320,
-          "duration": 129.726
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 8,
   "page_size": 20,
-  "total": 379,
+  "total": 380,
   "total_pages": 19,
-  "updated_at_shanghai": "2026-10-02 15:59:11",
+  "updated_at_shanghai": "2026-10-02 16:04:55",
   "account": "elonmusk"
 }
