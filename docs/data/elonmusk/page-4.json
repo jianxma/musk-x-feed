@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2105681004371542326",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T15:27:27.000Z",
+      "created_at_shanghai": "2026-10-01 23:27:27",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Both @United and @AmericanAir have @Starlink!",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 21,
+        "likes": 968,
+        "quotes": 16,
+        "replies": 211,
+        "retweets": 143,
+        "views": 288067
+      },
+      "url": "https://x.com/elonmusk/status/2105681004371542326",
+      "images": [
+        "https://pbs.twimg.com/media/HTjhtlZWgAA7AeZ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTjhtlZWgAA7AeZ.jpg?name=small",
+          "width": 1152,
+          "height": 1152
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2105680369022345497",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1105,75 +1142,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2105357198972874800",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T18:00:46.000Z",
-      "created_at_shanghai": "2026-10-01 02:00:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Want to see inside the Tesla Semi Factory?\n\nHere is the 30 minute video of our tour hosted by Plant Manager Rob Rayl and the factory team during the Semi Rollout event!",
-      "quote": null,
-      "retweet": {
-        "author": "SERobinsonJr",
-        "avatar": "https://pbs.twimg.com/profile_images/2074281454016569344/RSVw3v5W_200x200.jpg",
-        "created_at_shanghai": "2026-09-30 20:50:38",
-        "created_at_utc": "2026-09-30T12:50:38.000Z",
-        "id": "2105279153285025930",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2105266537456156672/img/UcIVuPNtwtTWqUWX.jpg"
-        ],
-        "media": [
-          {
-            "duration": 2176.317,
-            "height": 1440,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105266537456156672/img/UcIVuPNtwtTWqUWX.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105266537456156672/vid/avc1/2560x1440/yGibjD0HyxTmpXU2.mp4?tag=29",
-            "width": 2560
-          }
-        ],
-        "name": "S.E. Robinson, Jr.",
-        "text": "Want to see inside the Tesla Semi Factory?\n\nHere is the 30 minute video of our tour hosted by Plant Manager Rob Rayl and the factory team during the Semi Rollout event!",
-        "url": "https://x.com/SERobinsonJr/status/2105279153285025930",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 149,
-        "likes": 585,
-        "quotes": 8,
-        "replies": 57,
-        "retweets": 114,
-        "views": 52146
-      },
-      "url": "https://x.com/elonmusk/status/2105357198972874800",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2105266537456156672/img/UcIVuPNtwtTWqUWX.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2105266537456156672/vid/avc1/2560x1440/yGibjD0HyxTmpXU2.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105266537456156672/img/UcIVuPNtwtTWqUWX.jpg",
-          "width": 2560,
-          "height": 1440,
-          "duration": 2176.317
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 400,
-  "total_pages": 20,
-  "updated_at_shanghai": "2026-10-03 03:13:29",
+  "total": 401,
+  "total_pages": 21,
+  "updated_at_shanghai": "2026-10-03 03:16:18",
   "account": "elonmusk"
 }
