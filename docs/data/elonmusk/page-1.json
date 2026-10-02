@@ -1,10 +1,115 @@
 {
   "posts": [
     {
-      "id": "2105889700280209613",
+      "id": "2105914034612851076",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-02T06:53:26.000Z",
+      "created_at_shanghai": "2026-10-02 14:53:26",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Falcon Heavy launches NROL-97 from pad 39A in Florida",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-02 13:47:38",
+        "created_at_utc": "2026-10-02T05:47:38.000Z",
+        "id": "2105897474300973427",
+        "images": [
+          "https://pbs.twimg.com/media/HTmmWoDXwAAeVEd.jpg?name=small",
+          "https://pbs.twimg.com/media/HTmmXvcWEAAYTbi.jpg?name=small",
+          "https://pbs.twimg.com/media/HTmmYTRWAAAkA_i.jpg?name=small",
+          "https://pbs.twimg.com/amplify_video_thumb/2105897314187382784/img/7ek49dqSc2qQh3dq.jpg"
+        ],
+        "media": [
+          {
+            "height": 2000,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTmmWoDXwAAeVEd.jpg?name=small",
+            "width": 3000
+          },
+          {
+            "height": 2000,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTmmXvcWEAAYTbi.jpg?name=small",
+            "width": 3000
+          },
+          {
+            "height": 2000,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTmmYTRWAAAkA_i.jpg?name=small",
+            "width": 3000
+          },
+          {
+            "duration": 15.401,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105897314187382784/img/7ek49dqSc2qQh3dq.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105897314187382784/vid/avc1/3840x2160/1_q7DDfefXaZvy3w.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Falcon Heavy launches NROL-97 from pad 39A in Florida",
+        "url": "https://x.com/SpaceX/status/2105897474300973427",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 49,
+        "likes": 1509,
+        "quotes": 32,
+        "replies": 109,
+        "retweets": 212,
+        "views": 120994
+      },
+      "url": "https://x.com/elonmusk/status/2105914034612851076",
+      "images": [
+        "https://pbs.twimg.com/media/HTmmWoDXwAAeVEd.jpg?name=small",
+        "https://pbs.twimg.com/media/HTmmXvcWEAAYTbi.jpg?name=small",
+        "https://pbs.twimg.com/media/HTmmYTRWAAAkA_i.jpg?name=small",
+        "https://pbs.twimg.com/amplify_video_thumb/2105897314187382784/img/7ek49dqSc2qQh3dq.jpg"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTmmWoDXwAAeVEd.jpg?name=small",
+          "width": 3000,
+          "height": 2000
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTmmXvcWEAAYTbi.jpg?name=small",
+          "width": 3000,
+          "height": 2000
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTmmYTRWAAAkA_i.jpg?name=small",
+          "width": 3000,
+          "height": 2000
+        },
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2105897314187382784/vid/avc1/3840x2160/1_q7DDfefXaZvy3w.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105897314187382784/img/7ek49dqSc2qQh3dq.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 15.401
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2105889700280209613",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-02T05:16:44.000Z",
@@ -1091,53 +1196,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2105738982768435595",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-01T19:17:50.000Z",
-      "created_at_shanghai": "2026-10-02 03:17:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Watch Falcon 9 launch the Transporter-18 mission to orbit https://x.com/i/broadcasts/1RJjpbyQpOBKw",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 02:20:56",
-        "created_at_utc": "2026-10-01T18:20:56.000Z",
-        "id": "2105724663423009159",
-        "images": [],
-        "media": [],
-        "name": "SpaceX",
-        "text": "Watch Falcon 9 launch the Transporter-18 mission to orbit https://x.com/i/broadcasts/1RJjpbyQpOBKw",
-        "url": "https://x.com/SpaceX/status/2105724663423009159",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 243,
-        "likes": 4609,
-        "quotes": 100,
-        "replies": 265,
-        "retweets": 644,
-        "views": 189891
-      },
-      "url": "https://x.com/elonmusk/status/2105738982768435595",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 374,
+  "total": 375,
   "total_pages": 19,
-  "updated_at_shanghai": "2026-10-02 13:22:36",
+  "updated_at_shanghai": "2026-10-02 14:57:54",
   "account": "elonmusk"
 }
