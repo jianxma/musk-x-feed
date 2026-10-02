@@ -1,10 +1,130 @@
 {
   "posts": [
     {
-      "id": "2106100526744240519",
+      "id": "2106101160008720499",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-02T19:17:00.000Z",
+      "created_at_shanghai": "2026-10-03 03:17:00",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Travel anywhere with Tesla Superchargers",
+      "quote": {
+        "author": "TeslaCharging",
+        "avatar": "https://pbs.twimg.com/profile_images/1362134815844294661/vKTmG2CO_200x200.jpg",
+        "created_at_shanghai": "2026-10-03 00:35:49",
+        "created_at_utc": "2026-10-02T16:35:49.000Z",
+        "id": "2106060597800681646",
+        "images": [
+          "https://pbs.twimg.com/media/HTo6AqAbQAAWzgF.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1329,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTo6AqAbQAAWzgF.jpg?name=small",
+            "width": 1132
+          }
+        ],
+        "name": "Tesla Charging",
+        "text": "85k+ Supercharger stalls\n9k+ Supercharger sites\nand counting",
+        "url": "https://x.com/TeslaCharging/status/2106060597800681646",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 24,
+        "likes": 888,
+        "quotes": 11,
+        "replies": 194,
+        "retweets": 105,
+        "views": 348792
+      },
+      "url": "https://x.com/elonmusk/status/2106101160008720499",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2106100988751057316",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-02T19:16:19.000Z",
+      "created_at_shanghai": "2026-10-03 03:16:19",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Sci-fi irl",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-03 02:31:40",
+        "created_at_utc": "2026-10-02T18:31:40.000Z",
+        "id": "2106089751837278533",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2106089426765877248/img/EEVkW3bzYWn348Kv.jpg",
+          "https://pbs.twimg.com/amplify_video_thumb/2106089497548963840/img/YAY3u-u8m9Lk7TjJ.jpg",
+          "https://pbs.twimg.com/amplify_video_thumb/2106089497586728960/img/MQAAJFMh1f36o4CM.jpg"
+        ],
+        "media": [
+          {
+            "duration": 16.763,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106089426765877248/img/EEVkW3bzYWn348Kv.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2106089426765877248/vid/avc1/3840x2160/tD9xm9-FQVMvws1K.mp4?tag=29",
+            "width": 3840
+          },
+          {
+            "duration": 17.561,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106089497548963840/img/YAY3u-u8m9Lk7TjJ.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2106089497548963840/vid/avc1/3840x2160/G_gBTrlORKwy-5H0.mp4?tag=29",
+            "width": 3840
+          },
+          {
+            "duration": 18.197,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106089497586728960/img/MQAAJFMh1f36o4CM.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2106089497586728960/vid/avc1/1920x1080/sGuYUTUXOBgEsnAe.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Hot-staging on Starship Flight 14",
+        "url": "https://x.com/SpaceX/status/2106089751837278533",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 42,
+        "likes": 1174,
+        "quotes": 19,
+        "replies": 187,
+        "retweets": 149,
+        "views": 311208
+      },
+      "url": "https://x.com/elonmusk/status/2106100988751057316",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2106100526744240519",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-02T19:14:29.000Z",
@@ -1094,131 +1214,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2105937100805972247",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-02T08:25:05.000Z",
-      "created_at_shanghai": "2026-10-02 16:25:05",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I was lucky enough to be in a group chat testing this last month, and it's a lot of fun. Grok can see images in the chat and as well as text. Grok will always respond when directly addressed, but can also choose to respond in chat in context.",
-      "quote": {
-        "author": "chat",
-        "avatar": "https://pbs.twimg.com/profile_images/2036559411485773825/8ceAb882_200x200.png",
-        "created_at_shanghai": "2026-10-02 03:35:47",
-        "created_at_utc": "2026-10-01T19:35:47.000Z",
-        "id": "2105743499807326599",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2105743011049009152/img/AnNd8uTrQu5j8sQw.jpg"
-        ],
-        "media": [
-          {
-            "duration": 11.5,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105743011049009152/img/AnNd8uTrQu5j8sQw.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105743011049009152/vid/avc1/1080x1080/05dT9VxdpyehHBvl.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "XChat",
-        "text": "Your group chat just got smarter\n\nGet answers to your questions directly in XChat by asking Grok",
-        "url": "https://x.com/chat/status/2105743499807326599",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "AndrewCurran_",
-        "avatar": "https://pbs.twimg.com/profile_images/1596945208058744833/_X3LT7fb_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 04:08:03",
-        "created_at_utc": "2026-10-01T20:08:03.000Z",
-        "id": "2105751619824652441",
-        "images": [],
-        "media": [],
-        "name": "Andrew Curran",
-        "text": "I was lucky enough to be in a group chat testing this last month, and it's a lot of fun. Grok can see images in the chat and as well as text. Grok will always respond when directly addressed, but can also choose to respond in chat in context.",
-        "url": "https://x.com/AndrewCurran_/status/2105751619824652441",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 20,
-        "likes": 268,
-        "quotes": 4,
-        "replies": 36,
-        "retweets": 21,
-        "views": 34187
-      },
-      "url": "https://x.com/elonmusk/status/2105937100805972247",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2105936756885631481",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-02T08:23:43.000Z",
-      "created_at_shanghai": "2026-10-02 16:23:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "In the very near future, it will be considered malpractice *not* to put every x-ray, lab report, blood panel, etc into an lllm \n\nAnd every patient will do this with their own model regardless of whether it is done for them \n\nAnd millions of lives will be saved.",
-      "quote": {
-        "author": "skupor",
-        "avatar": "https://pbs.twimg.com/profile_images/1945182863701286912/qTgk_htN_200x200.jpg",
-        "created_at_shanghai": "2026-10-01 19:57:28",
-        "created_at_utc": "2026-10-01T11:57:28.000Z",
-        "id": "2105628157319450664",
-        "images": [],
-        "media": [],
-        "name": "Scott Kupor",
-        "text": "A great use case showing the power of AI to help women assess the risk of developing breast cancer. There is no doubt that AI will transform healthcare, starting with robust screening modalities. https://www.nytimes.com/2026/10/01/well/breast-cancer-risk-ai.html?smid=nytcore-android-share",
-        "url": "https://x.com/skupor/status/2105628157319450664",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "ArthurMacwaters",
-        "avatar": "https://pbs.twimg.com/profile_images/1921033752140279808/TgndOxdb_200x200.jpg",
-        "created_at_shanghai": "2026-10-01 20:33:13",
-        "created_at_utc": "2026-10-01T12:33:13.000Z",
-        "id": "2105637153996955940",
-        "images": [],
-        "media": [],
-        "name": "Arthur MacWaters",
-        "text": "In the very near future, it will be considered malpractice *not* to put every x-ray, lab report, blood panel, etc into an lllm \n\nAnd every patient will do this with their own model regardless of whether it is done for them \n\nAnd millions of lives will be saved.",
-        "url": "https://x.com/ArthurMacwaters/status/2105637153996955940",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 27,
-        "likes": 320,
-        "quotes": 6,
-        "replies": 36,
-        "retweets": 40,
-        "views": 36441
-      },
-      "url": "https://x.com/elonmusk/status/2105936756885631481",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 401,
+  "total": 403,
   "total_pages": 21,
-  "updated_at_shanghai": "2026-10-03 03:16:18",
+  "updated_at_shanghai": "2026-10-03 03:24:29",
   "account": "elonmusk"
 }
