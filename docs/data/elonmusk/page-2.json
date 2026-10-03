@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "id": "2106097124593348987",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-02T19:00:58.000Z",
+      "created_at_shanghai": "2026-10-03 03:00:58",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Starship's first orbital flight delivered 26 Starlink V3 satellites to space",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2106097124593348987",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
       "id": "2106097088123834773",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1210,71 +1231,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2105916864572608637",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-02T07:04:41.000Z",
-      "created_at_shanghai": "2026-10-02 15:04:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Love a little ambiance",
-      "quote": null,
-      "retweet": {
-        "author": "cybertruck",
-        "avatar": "https://pbs.twimg.com/profile_images/1729225579277209600/DNnvovEG_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 08:01:35",
-        "created_at_utc": "2026-10-02T00:01:35.000Z",
-        "id": "2105810391205126606",
-        "images": [
-          "https://pbs.twimg.com/media/HTlXYbbacAArg2u.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2731,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTlXYbbacAArg2u.jpg?name=small",
-            "width": 4096
-          }
-        ],
-        "name": "Cybertruck",
-        "text": "Love a little ambiance",
-        "url": "https://x.com/cybertruck/status/2105810391205126606",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 152,
-        "likes": 3458,
-        "quotes": 46,
-        "replies": 113,
-        "retweets": 287,
-        "views": 169180
-      },
-      "url": "https://x.com/elonmusk/status/2105916864572608637",
-      "images": [
-        "https://pbs.twimg.com/media/HTlXYbbacAArg2u.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTlXYbbacAArg2u.jpg?name=small",
-          "width": 4096,
-          "height": 2731
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 416,
+  "total": 417,
   "total_pages": 21,
-  "updated_at_shanghai": "2026-10-04 02:34:46",
+  "updated_at_shanghai": "2026-10-04 02:42:41",
   "account": "elonmusk"
 }
