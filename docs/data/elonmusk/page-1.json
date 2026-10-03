@@ -1,10 +1,51 @@
 {
   "posts": [
     {
-      "id": "2106293251233738928",
+      "id": "2106296408261415150",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-03T08:12:51.000Z",
+      "created_at_shanghai": "2026-10-03 16:12:51",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "how can we make @bot better for you in next two weeks?\n\nany confusion, frustration, criticism, wishes. just dump them to me plz. 🫶",
+      "quote": null,
+      "retweet": {
+        "author": "lingxi",
+        "avatar": "https://pbs.twimg.com/profile_images/2094044966863724544/zPvc_cDi_200x200.jpg",
+        "created_at_shanghai": "2026-10-03 15:13:25",
+        "created_at_utc": "2026-10-03T07:13:25.000Z",
+        "id": "2106281453386633593",
+        "images": [],
+        "media": [],
+        "name": "Lingxi Li",
+        "text": "how can we make @bot better for you in next two weeks?\n\nany confusion, frustration, criticism, wishes. just dump them to me plz. 🫶",
+        "url": "https://x.com/lingxi/status/2106281453386633593",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 19,
+        "likes": 250,
+        "quotes": 2,
+        "replies": 151,
+        "retweets": 25,
+        "views": 18074
+      },
+      "url": "https://x.com/elonmusk/status/2106296408261415150",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2106293251233738928",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-03T08:00:18.000Z",
@@ -1089,75 +1130,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2106087265969791392",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-02T18:21:48.000Z",
-      "created_at_shanghai": "2026-10-03 02:21:48",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Docking confirmed!",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 07:08:11",
-        "created_at_utc": "2026-10-01T23:08:11.000Z",
-        "id": "2105796949571969079",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2105796399933575168/img/USZ_drAcu1MSB8Lu.jpg"
-        ],
-        "media": [
-          {
-            "duration": 25.71,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105796399933575168/img/USZ_drAcu1MSB8Lu.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105796399933575168/vid/avc1/3840x2160/SAwVjfJxCRgHxaaG.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Docking confirmed!",
-        "url": "https://x.com/SpaceX/status/2105796949571969079",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 653,
-        "likes": 24813,
-        "quotes": 212,
-        "replies": 503,
-        "retweets": 2109,
-        "views": 1181693
-      },
-      "url": "https://x.com/elonmusk/status/2106087265969791392",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2105796399933575168/img/USZ_drAcu1MSB8Lu.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2105796399933575168/vid/avc1/3840x2160/SAwVjfJxCRgHxaaG.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105796399933575168/img/USZ_drAcu1MSB8Lu.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 25.71
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 412,
+  "total": 413,
   "total_pages": 21,
-  "updated_at_shanghai": "2026-10-03 16:05:21",
+  "updated_at_shanghai": "2026-10-03 16:17:26",
   "account": "elonmusk"
 }

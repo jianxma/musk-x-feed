@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2105075040974950469",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-29T23:19:34.000Z",
+      "created_at_shanghai": "2026-09-30 07:19:34",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Thanks @BretBaier for having me 🇺🇸\n\nAirbnb co-founder leads Trump admin in creating 'concierge' to navigate government https://www.foxnews.com/video/6405770809112 #FoxNews",
+      "quote": null,
+      "retweet": {
+        "author": "jgebbia",
+        "avatar": "https://pbs.twimg.com/profile_images/1505998945952088070/sgMvmBs5_200x200.jpg",
+        "created_at_shanghai": "2026-09-29 10:20:18",
+        "created_at_utc": "2026-09-29T02:20:18.000Z",
+        "id": "2104758135332245856",
+        "images": [],
+        "media": [],
+        "name": "Joe Gebbia",
+        "text": "Thanks @BretBaier for having me 🇺🇸\n\nAirbnb co-founder leads Trump admin in creating 'concierge' to navigate government https://www.foxnews.com/video/6405770809112 #FoxNews",
+        "url": "https://x.com/jgebbia/status/2104758135332245856",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 69,
+        "likes": 1790,
+        "quotes": 17,
+        "replies": 102,
+        "retweets": 148,
+        "views": 174600
+      },
+      "url": "https://x.com/elonmusk/status/2105075040974950469",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2105061818536526300",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1112,75 +1153,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2104715560734838855",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-28T23:31:08.000Z",
-      "created_at_shanghai": "2026-09-29 07:31:08",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 is now on Amazon Bedrock",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceXAI",
-        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
-        "created_at_shanghai": "2026-09-29 07:10:53",
-        "created_at_utc": "2026-09-28T23:10:53.000Z",
-        "id": "2104710467512058027",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg"
-        ],
-        "media": [
-          {
-            "duration": 19.233,
-            "height": 1260,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2104710247701270528/vid/avc1/2400x1260/2RcQYXqRchHNsU-q.mp4?tag=29",
-            "width": 2400
-          }
-        ],
-        "name": "SpaceXAI",
-        "text": "Grok 4.7 is now on Amazon Bedrock",
-        "url": "https://x.com/SpaceXAI/status/2104710467512058027",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 20,
-        "likes": 489,
-        "quotes": 9,
-        "replies": 56,
-        "retweets": 65,
-        "views": 51165
-      },
-      "url": "https://x.com/elonmusk/status/2104715560734838855",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2104710247701270528/vid/avc1/2400x1260/2RcQYXqRchHNsU-q.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg",
-          "width": 2400,
-          "height": 1260,
-          "duration": 19.233
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 412,
+  "total": 413,
   "total_pages": 21,
-  "updated_at_shanghai": "2026-10-03 16:05:21",
+  "updated_at_shanghai": "2026-10-03 16:17:26",
   "account": "elonmusk"
 }

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2104361390123430335",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T00:03:47.000Z",
+      "created_at_shanghai": "2026-09-28 08:03:47",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship Flight 14 aiming to launch tomorrow morning",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 07:38:07",
+        "created_at_utc": "2026-09-27T23:38:07.000Z",
+        "id": "2104354931595423762",
+        "images": [],
+        "media": [],
+        "name": "SpaceX",
+        "text": "Starship’s 14th flight is set to launch on Monday, Sept 28. The 75-minute launch window opens at 7:15 a.m. CT. Live coverage of the mission starts ~35 minutes before launch → https://x.com/i/broadcasts/1qxvvenMPMQxB",
+        "url": "https://x.com/SpaceX/status/2104354931595423762",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 381,
+        "likes": 18886,
+        "quotes": 205,
+        "replies": 1122,
+        "retweets": 1935,
+        "views": 3202051
+      },
+      "url": "https://x.com/elonmusk/status/2104361390123430335",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2104360927474921529",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1172,75 +1213,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2104152040410845205",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-27T10:11:54.000Z",
-      "created_at_shanghai": "2026-09-27 18:11:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "if you missed the slightly insane AI safety schizopoast, I put it into a song for you and you should turn the sound on right now because we're so fucking back",
-      "quote": null,
-      "retweet": {
-        "author": "shinboson",
-        "avatar": "https://pbs.twimg.com/profile_images/2007643886206803968/FIR2XHx7_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 10:40:03",
-        "created_at_utc": "2026-09-26T02:40:03.000Z",
-        "id": "2103675939603554665",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103674644247056384/img/-qsrEM8E1KwX5ieN.jpg"
-        ],
-        "media": [
-          {
-            "duration": 177.791,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103674644247056384/img/-qsrEM8E1KwX5ieN.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103674644247056384/vid/avc1/1920x1080/9dZPnIVvGGZT4Sfp.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "𝞍 Shin Megami Boson 𝞍",
-        "text": "if you missed the slightly insane AI safety schizopoast, I put it into a song for you and you should turn the sound on right now because we're so fucking back",
-        "url": "https://x.com/shinboson/status/2103675939603554665",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 305,
-        "likes": 585,
-        "quotes": 18,
-        "replies": 53,
-        "retweets": 71,
-        "views": 32548
-      },
-      "url": "https://x.com/elonmusk/status/2104152040410845205",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2103674644247056384/img/-qsrEM8E1KwX5ieN.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2103674644247056384/vid/avc1/1920x1080/9dZPnIVvGGZT4Sfp.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103674644247056384/img/-qsrEM8E1KwX5ieN.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 177.791
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 10,
   "page_size": 20,
-  "total": 412,
+  "total": 413,
   "total_pages": 21,
-  "updated_at_shanghai": "2026-10-03 16:05:21",
+  "updated_at_shanghai": "2026-10-03 16:17:26",
   "account": "elonmusk"
 }
