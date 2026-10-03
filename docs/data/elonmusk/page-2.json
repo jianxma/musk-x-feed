@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2106097088123834773",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-02T19:00:49.000Z",
+      "created_at_shanghai": "2026-10-03 03:00:49",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "This is pretty cool",
+      "quote": {
+        "author": "OwenSparks",
+        "avatar": "https://pbs.twimg.com/profile_images/2007649967960100864/A_FWoKEU_200x200.jpg",
+        "created_at_shanghai": "2026-10-02 11:56:10",
+        "created_at_utc": "2026-10-02T03:56:10.000Z",
+        "id": "2105869423760281734",
+        "images": [
+          "https://pbs.twimg.com/media/HTmNFGIX0AAyFf6.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1008,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTmNFGIX0AAyFf6.jpg?name=small",
+            "width": 1792
+          }
+        ],
+        "name": "Owen Sparks",
+        "text": "For those not aware, NASA certified the Cybertruck as an Astronaut Emergency Egress Vehicle, allowing SpaceX to replace their aging MRAPs.\n\nIf something goes wrong on the pad, the crew needs to get as far away as possible, as quickly as possible, and Cybertruck provides that speed and protection.\n\nA NASA spokesperson said that both the agency and SpaceX \"assessed the capability of the vehicle for all situations that would be encountered in an emergency and found that the Cybertruck met NASA’s requirements.\"",
+        "url": "https://x.com/OwenSparks/status/2105869423760281734",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 43,
+        "likes": 1102,
+        "quotes": 14,
+        "replies": 208,
+        "retweets": 155,
+        "views": 307030
+      },
+      "url": "https://x.com/elonmusk/status/2106097088123834773",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2106087534724005935",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1219,75 +1269,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2105915874993635804",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-02T07:00:45.000Z",
-      "created_at_shanghai": "2026-10-02 15:00:45",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I remember the first meeting where the team pitched the idea of putting compute in space - exciting idea!\n\nToday's successful launch with our partner @planet prototype satellite shows how far we've come...and how far there is to go. Thanks for the lift, @SpaceX, another spectacular booster landing too🚀",
-      "quote": null,
-      "retweet": {
-        "author": "sundarpichai",
-        "avatar": "https://pbs.twimg.com/profile_images/2051799620062429184/AL8CoAUG_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 08:30:29",
-        "created_at_utc": "2026-10-02T00:30:29.000Z",
-        "id": "2105817662651777367",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2105817306001817600/img/RhvftOJvzULHalfv.jpg"
-        ],
-        "media": [
-          {
-            "duration": 58.966,
-            "height": 1920,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105817306001817600/img/RhvftOJvzULHalfv.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105817306001817600/vid/avc1/1080x1920/iEY7u2FwaNhlfXGJ.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "Sundar Pichai",
-        "text": "I remember the first meeting where the team pitched the idea of putting compute in space - exciting idea!\n\nToday's successful launch with our partner @planet prototype satellite shows how far we've come...and how far there is to go. Thanks for the lift, @SpaceX, another spectacular booster landing too🚀",
-        "url": "https://x.com/sundarpichai/status/2105817662651777367",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 321,
-        "likes": 4827,
-        "quotes": 66,
-        "replies": 210,
-        "retweets": 477,
-        "views": 335864
-      },
-      "url": "https://x.com/elonmusk/status/2105915874993635804",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2105817306001817600/img/RhvftOJvzULHalfv.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2105817306001817600/vid/avc1/1080x1920/iEY7u2FwaNhlfXGJ.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105817306001817600/img/RhvftOJvzULHalfv.jpg",
-          "width": 1080,
-          "height": 1920,
-          "duration": 58.966
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 415,
+  "total": 416,
   "total_pages": 21,
-  "updated_at_shanghai": "2026-10-04 01:10:49",
+  "updated_at_shanghai": "2026-10-04 02:34:46",
   "account": "elonmusk"
 }
