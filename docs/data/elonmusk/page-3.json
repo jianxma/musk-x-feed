@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2105937204044615707",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-02T08:25:30.000Z",
+      "created_at_shanghai": "2026-10-02 16:25:30",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Ask @Grok in XChat",
+      "quote": {
+        "author": "chat",
+        "avatar": "https://pbs.twimg.com/profile_images/2036559411485773825/8ceAb882_200x200.png",
+        "created_at_shanghai": "2026-10-02 03:35:47",
+        "created_at_utc": "2026-10-01T19:35:47.000Z",
+        "id": "2105743499807326599",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2105743011049009152/img/AnNd8uTrQu5j8sQw.jpg"
+        ],
+        "media": [
+          {
+            "duration": 11.5,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105743011049009152/img/AnNd8uTrQu5j8sQw.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105743011049009152/vid/avc1/1080x1080/05dT9VxdpyehHBvl.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "XChat",
+        "text": "Your group chat just got smarter\n\nGet answers to your questions directly in XChat by asking Grok",
+        "url": "https://x.com/chat/status/2105743499807326599",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 13,
+        "likes": 362,
+        "quotes": 5,
+        "replies": 148,
+        "retweets": 63,
+        "views": 311027
+      },
+      "url": "https://x.com/elonmusk/status/2105937204044615707",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2105937100805972247",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1086,53 +1138,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2105745140388360543",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-01T19:42:18.000Z",
-      "created_at_shanghai": "2026-10-02 03:42:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "when i was a teen i was a little emo, and i think it was because i felt like i didnt control anything important about my life. looking back with knowledge now, there were a nearly infinite number of higher agency paths i could have taken. my life was always more free than i knew",
-      "quote": null,
-      "retweet": {
-        "author": "DavidSHolz",
-        "avatar": "https://pbs.twimg.com/profile_images/1605125530084184064/xXseXWbK_200x200.jpg",
-        "created_at_shanghai": "2026-10-01 16:00:46",
-        "created_at_utc": "2026-10-01T08:00:46.000Z",
-        "id": "2105568590724501531",
-        "images": [],
-        "media": [],
-        "name": "David",
-        "text": "when i was a teen i was a little emo, and i think it was because i felt like i didnt control anything important about my life. looking back with knowledge now, there were a nearly infinite number of higher agency paths i could have taken. my life was always more free than i knew",
-        "url": "https://x.com/DavidSHolz/status/2105568590724501531",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 193,
-        "likes": 1419,
-        "quotes": 17,
-        "replies": 92,
-        "retweets": 72,
-        "views": 74707
-      },
-      "url": "https://x.com/elonmusk/status/2105745140388360543",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 423,
+  "total": 424,
   "total_pages": 22,
-  "updated_at_shanghai": "2026-10-04 06:28:19",
+  "updated_at_shanghai": "2026-10-04 06:41:37",
   "account": "elonmusk"
 }
