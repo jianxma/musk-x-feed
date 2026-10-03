@@ -1,10 +1,51 @@
 {
   "posts": [
     {
-      "id": "2106259023117050123",
+      "id": "2106286369018716581",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-03T07:32:57.000Z",
+      "created_at_shanghai": "2026-10-03 15:32:57",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "How would you like your FSD?",
+      "quote": {
+        "author": "battleangelviv",
+        "avatar": "https://pbs.twimg.com/profile_images/2104046296512561152/_-Qg0b4w_200x200.jpg",
+        "created_at_shanghai": "2026-10-03 14:14:42",
+        "created_at_utc": "2026-10-03T06:14:42.000Z",
+        "id": "2106266676732076538",
+        "images": [],
+        "media": [],
+        "name": "Viv 🪩",
+        "text": "People want FSD, so they go to https://tesla.com and pick what shape they want it in",
+        "url": "https://x.com/battleangelviv/status/2106266676732076538",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 16,
+        "likes": 647,
+        "quotes": 12,
+        "replies": 310,
+        "retweets": 71,
+        "views": 332267
+      },
+      "url": "https://x.com/elonmusk/status/2106286369018716581",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2106259023117050123",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-03T05:44:18.000Z",
@@ -1096,83 +1137,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2106083414848028834",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-02T18:06:29.000Z",
-      "created_at_shanghai": "2026-10-03 02:06:29",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Great work by the @SpaceX team!",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-03 01:39:58",
-        "created_at_utc": "2026-10-02T17:39:58.000Z",
-        "id": "2106076740883775551",
-        "images": [
-          "https://pbs.twimg.com/media/HTpJgLeWgAAVDZN.jpg?name=small",
-          "https://pbs.twimg.com/media/HTpJgaTXkAAouwe.jpg?name=small",
-          "https://pbs.twimg.com/media/HTpJhFeWAAAOjNE.jpg?name=small",
-          "https://pbs.twimg.com/media/HTpJhhFWUAABgLF.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1200,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTpJgLeWgAAVDZN.jpg?name=small",
-            "width": 840
-          },
-          {
-            "height": 3000,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTpJgaTXkAAouwe.jpg?name=small",
-            "width": 2000
-          },
-          {
-            "height": 2000,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTpJhFeWAAAOjNE.jpg?name=small",
-            "width": 3000
-          },
-          {
-            "height": 1200,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTpJhhFWUAABgLF.jpg?name=small",
-            "width": 1951
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Teams complete three Falcon launches, four first stage landings at four landing zones in Florida and California, and docking Dragon to the @Space_Station for our 21st human spaceflight in under 13 hours",
-        "url": "https://x.com/SpaceX/status/2106076740883775551",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 34,
-        "likes": 1781,
-        "quotes": 19,
-        "replies": 340,
-        "retweets": 203,
-        "views": 374468
-      },
-      "url": "https://x.com/elonmusk/status/2106083414848028834",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 408,
+  "total": 409,
   "total_pages": 21,
-  "updated_at_shanghai": "2026-10-03 13:47:47",
+  "updated_at_shanghai": "2026-10-03 15:39:05",
   "account": "elonmusk"
 }

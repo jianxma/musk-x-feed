@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2105060403416101020",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-29T22:21:24.000Z",
+      "created_at_shanghai": "2026-09-30 06:21:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon Musk's full discussion with NVIDIA CEO Jensen Huang at the https://america.gov launch event.",
+      "quote": null,
+      "retweet": {
+        "author": "america",
+        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
+        "created_at_shanghai": "2026-09-30 05:44:39",
+        "created_at_utc": "2026-09-29T21:44:39.000Z",
+        "id": "2105051153599811684",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2105050491843387392/img/819iHGFkGQ4huL72.jpg"
+        ],
+        "media": [
+          {
+            "duration": 1635.079,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105050491843387392/img/819iHGFkGQ4huL72.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105050491843387392/vid/avc1/1920x1080/HNIUqPt-kl1fQL0D.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "America",
+        "text": "Elon Musk's full discussion with NVIDIA CEO Jensen Huang at the https://america.gov launch event.",
+        "url": "https://x.com/america/status/2105051153599811684",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 353,
+        "likes": 1233,
+        "quotes": 15,
+        "replies": 59,
+        "retweets": 213,
+        "views": 64863
+      },
+      "url": "https://x.com/elonmusk/status/2105060403416101020",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2105050491843387392/img/819iHGFkGQ4huL72.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2105050491843387392/vid/avc1/1920x1080/HNIUqPt-kl1fQL0D.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105050491843387392/img/819iHGFkGQ4huL72.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 1635.079
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2105060244988514444",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1101,114 +1164,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2104704880627617820",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-28T22:48:41.000Z",
-      "created_at_shanghai": "2026-09-29 06:48:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "renaissance painting",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-09-29 03:30:28",
-        "created_at_utc": "2026-09-28T19:30:28.000Z",
-        "id": "2104654998034690329",
-        "images": [
-          "https://pbs.twimg.com/media/HTU8eCGWMAADqQ6.jpg?name=small",
-          "https://pbs.twimg.com/media/HTU8grvWQAAXhSn.jpg?name=small",
-          "https://pbs.twimg.com/media/HTU8h5-XIAIE5s1.jpg?name=small",
-          "https://pbs.twimg.com/media/HTU8ja-XgAE6GwQ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTU8eCGWMAADqQ6.jpg?name=small",
-            "width": 4096
-          },
-          {
-            "height": 2099,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTU8grvWQAAXhSn.jpg?name=small",
-            "width": 3732
-          },
-          {
-            "height": 1890,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTU8h5-XIAIE5s1.jpg?name=small",
-            "width": 3360
-          },
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTU8ja-XgAE6GwQ.jpg?name=small",
-            "width": 4096
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Liftoff of Starship's first orbital flight",
-        "url": "https://x.com/SpaceX/status/2104654998034690329",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "IterIntellectus",
-        "avatar": "https://pbs.twimg.com/profile_images/2009602429478633472/8lMkYuep_200x200.jpg",
-        "created_at_shanghai": "2026-09-29 04:02:14",
-        "created_at_utc": "2026-09-28T20:02:14.000Z",
-        "id": "2104662991534969190",
-        "images": [
-          "https://pbs.twimg.com/media/HTVDyLNXwAAPLJU.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTVDyLNXwAAPLJU.jpg?name=small",
-            "width": 4096
-          }
-        ],
-        "name": "vittorio",
-        "text": "renaissance painting",
-        "url": "https://x.com/IterIntellectus/status/2104662991534969190",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 387,
-        "likes": 3949,
-        "quotes": 17,
-        "replies": 80,
-        "retweets": 238,
-        "views": 136832
-      },
-      "url": "https://x.com/elonmusk/status/2104704880627617820",
-      "images": [
-        "https://pbs.twimg.com/media/HTVDyLNXwAAPLJU.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTVDyLNXwAAPLJU.jpg?name=small",
-          "width": 4096,
-          "height": 2304
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 408,
+  "total": 409,
   "total_pages": 21,
-  "updated_at_shanghai": "2026-10-03 13:47:47",
+  "updated_at_shanghai": "2026-10-03 15:39:05",
   "account": "elonmusk"
 }
