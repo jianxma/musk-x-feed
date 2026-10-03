@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2105723908104298535",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T18:17:56.000Z",
+      "created_at_shanghai": "2026-10-02 02:17:56",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "People hate commuting because they sit in traffic and get nothing done.\n\nTesla x Grok @bot changes the equation. Arrive home with everything handled, so you can truly enjoy your time.",
+      "quote": null,
+      "retweet": {
+        "author": "yunta_tsai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035915849819938816/b6kIsNMe_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 23:25:53",
+        "created_at_utc": "2026-10-01T15:25:53.000Z",
+        "id": "2105680609528123739",
+        "images": [],
+        "media": [],
+        "name": "Yun-Ta Tsai",
+        "text": "People hate commuting because they sit in traffic and get nothing done.\n\nTesla x Grok @bot changes the equation. Arrive home with everything handled, so you can truly enjoy your time.",
+        "url": "https://x.com/yunta_tsai/status/2105680609528123739",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 15,
+        "likes": 425,
+        "quotes": 4,
+        "replies": 52,
+        "retweets": 53,
+        "views": 33696
+      },
+      "url": "https://x.com/elonmusk/status/2105723908104298535",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2105720023436398762",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1206,77 +1247,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2105543544383660336",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-01T06:21:14.000Z",
-      "created_at_shanghai": "2026-10-01 14:21:14",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We must expand the scope and scale of consciousness",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-06-04 19:01:26",
-        "created_at_utc": "2026-06-04T11:01:26.000Z",
-        "id": "2062489901007057075",
-        "images": [
-          "https://pbs.twimg.com/media/HKlYOF0a8AArEi5.jpg"
-        ],
-        "media": [
-          {
-            "duration": 94.185,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/media/HKlYOF0a8AArEi5.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2062487769218420736/vid/avc1/3840x2160/MGxvEc5KSuROuNjT.mp4?tag=27",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "SpaceX is the only company building the infrastructure of the future across space, connectivity, and AI → http://spacexipo.com",
-        "url": "https://x.com/SpaceX/status/2062489901007057075",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "Diegopasini",
-        "avatar": "https://pbs.twimg.com/profile_images/1962994057137029128/FKSHMAdA_200x200.png",
-        "created_at_shanghai": "2026-06-05 00:29:47",
-        "created_at_utc": "2026-06-04T16:29:47.000Z",
-        "id": "2062572534151926145",
-        "images": [],
-        "media": [],
-        "name": "Diego",
-        "text": "We must expand the scope and scale of consciousness",
-        "url": "https://x.com/Diegopasini/status/2062572534151926145",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 12,
-        "likes": 207,
-        "quotes": 4,
-        "replies": 32,
-        "retweets": 36,
-        "views": 34374
-      },
-      "url": "https://x.com/elonmusk/status/2105543544383660336",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 413,
+  "total": 414,
   "total_pages": 21,
-  "updated_at_shanghai": "2026-10-03 21:03:00",
+  "updated_at_shanghai": "2026-10-03 21:22:05",
   "account": "elonmusk"
 }
