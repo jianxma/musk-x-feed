@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2106100526744240519",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-02T19:14:29.000Z",
+      "created_at_shanghai": "2026-10-03 03:14:29",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Actual amount that SpaceX saved taxpayers is even higher now",
+      "quote": {
+        "author": "TeslaLarry",
+        "avatar": "https://pbs.twimg.com/profile_images/1991840372314525696/cHOyCMBy_200x200.jpg",
+        "created_at_shanghai": "2026-10-03 01:12:12",
+        "created_at_utc": "2026-10-02T17:12:12.000Z",
+        "id": "2106069752883888391",
+        "images": [
+          "https://pbs.twimg.com/media/HTpDPTpWkAAP3Xm.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1350,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTpDPTpWkAAP3Xm.jpg?name=small",
+            "width": 1200
+          }
+        ],
+        "name": "Larry Goldberg",
+        "text": "The Washington Post famously claimed Elon Musk's companies received $38B from US governments. The truth? Elon Musk's company, SpaceX, SAVED the US Government (and taxpayers) an estimated $14B. I've covered that in detail in the upcoming article, but here's the graphic:",
+        "url": "https://x.com/TeslaLarry/status/2106069752883888391",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 335,
+        "quotes": 5,
+        "replies": 64,
+        "retweets": 56,
+        "views": 225411
+      },
+      "url": "https://x.com/elonmusk/status/2106100526744240519",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2106098911840772412",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1163,75 +1213,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2105935528197783658",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-02T08:18:50.000Z",
-      "created_at_shanghai": "2026-10-02 16:18:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot can now suggest ways to help without you needing to ask.",
-      "quote": null,
-      "retweet": {
-        "author": "bot",
-        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 01:35:33",
-        "created_at_utc": "2026-10-01T17:35:33.000Z",
-        "id": "2105713240701538538",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2105713021926678529/img/uuWmUCSbqw_XPPtL.jpg"
-        ],
-        "media": [
-          {
-            "duration": 9.966,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105713021926678529/img/uuWmUCSbqw_XPPtL.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105713021926678529/vid/avc1/1920x1080/y88-nZuz70l1gQFa.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Grok Bot",
-        "text": "Grok Bot can now suggest ways to help without you needing to ask.",
-        "url": "https://x.com/bot/status/2105713240701538538",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 794,
-        "likes": 5291,
-        "quotes": 187,
-        "replies": 282,
-        "retweets": 417,
-        "views": 1774929
-      },
-      "url": "https://x.com/elonmusk/status/2105935528197783658",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2105713021926678529/img/uuWmUCSbqw_XPPtL.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2105713021926678529/vid/avc1/1920x1080/y88-nZuz70l1gQFa.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105713021926678529/img/uuWmUCSbqw_XPPtL.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 9.966
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 440,
-  "total_pages": 22,
-  "updated_at_shanghai": "2026-10-04 17:15:22",
+  "total": 441,
+  "total_pages": 23,
+  "updated_at_shanghai": "2026-10-04 17:19:15",
   "account": "elonmusk"
 }

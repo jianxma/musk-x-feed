@@ -1,10 +1,38 @@
 {
   "posts": [
     {
-      "id": "2106672522771272121",
+      "id": "2106673377658413414",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T09:10:47.000Z",
+      "created_at_shanghai": "2026-10-04 17:10:47",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "SpaceX is a super intelligence company",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 71,
+        "likes": 2313,
+        "quotes": 70,
+        "replies": 626,
+        "retweets": 360,
+        "views": 355324
+      },
+      "url": "https://x.com/elonmusk/status/2106673377658413414",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2106672522771272121",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-04T09:07:24.000Z",
@@ -41,7 +69,7 @@
       "id": "2106672211797168438",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-04T09:06:10.000Z",
@@ -986,75 +1014,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2106486626860044532",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-03T20:48:43.000Z",
-      "created_at_shanghai": "2026-10-04 04:48:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Republicans must WIN the 2026 Midterm Elections, and we must use every appropriate tool – whether you vote early, absentee, by mail, or in-person, we must swamp the Radical Left Dumocrats with massive turnout! SO IMPORTANT – PLEASE GET OUT AND VOTE. MAKE AMERICA GREAT AGAIN!",
-      "quote": null,
-      "retweet": {
-        "author": "realDonaldTrump",
-        "avatar": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_200x200.jpg",
-        "created_at_shanghai": "2026-10-03 22:48:36",
-        "created_at_utc": "2026-10-03T14:48:36.000Z",
-        "id": "2106396002005737498",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2106395916722716672/img/Kr0kOxiDXjibctKE.jpg"
-        ],
-        "media": [
-          {
-            "duration": 117.564,
-            "height": 1012,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106395916722716672/img/Kr0kOxiDXjibctKE.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2106395916722716672/vid/avc1/1920x1012/Z4UBynzggGGU7efx.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Donald J. Trump",
-        "text": "Republicans must WIN the 2026 Midterm Elections, and we must use every appropriate tool – whether you vote early, absentee, by mail, or in-person, we must swamp the Radical Left Dumocrats with massive turnout! SO IMPORTANT – PLEASE GET OUT AND VOTE. MAKE AMERICA GREAT AGAIN!",
-        "url": "https://x.com/realDonaldTrump/status/2106396002005737498",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1057,
-        "likes": 52172,
-        "quotes": 864,
-        "replies": 5307,
-        "retweets": 11898,
-        "views": 2246725
-      },
-      "url": "https://x.com/elonmusk/status/2106486626860044532",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2106395916722716672/img/Kr0kOxiDXjibctKE.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2106395916722716672/vid/avc1/1920x1012/Z4UBynzggGGU7efx.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106395916722716672/img/Kr0kOxiDXjibctKE.jpg",
-          "width": 1920,
-          "height": 1012,
-          "duration": 117.564
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 440,
-  "total_pages": 22,
-  "updated_at_shanghai": "2026-10-04 17:15:22",
+  "total": 441,
+  "total_pages": 23,
+  "updated_at_shanghai": "2026-10-04 17:19:15",
   "account": "elonmusk"
 }
