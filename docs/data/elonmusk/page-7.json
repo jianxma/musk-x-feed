@@ -1,6 +1,162 @@
 {
   "posts": [
     {
+      "id": "2105543992637100269",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T06:23:01.000Z",
+      "created_at_shanghai": "2026-10-01 14:23:01",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try the latest Grok @Bot. Many great upgrades!",
+      "quote": {
+        "author": "poteto",
+        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 03:19:43",
+        "created_at_utc": "2026-09-30T19:19:43.000Z",
+        "id": "2105377066942349794",
+        "images": [
+          "https://pbs.twimg.com/media/HTfM4ssaUAANWHE.png?name=small"
+        ],
+        "media": [
+          {
+            "height": 205,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTfM4ssaUAANWHE.png?name=small",
+            "width": 684
+          }
+        ],
+        "name": "lauren",
+        "text": "grok @bot combined with cloud agents is a magical experience! here's my favorite use case:\n\n1. create a new team engineer bot and add it to slack \n2. @ your bot whenever you want it to do some coding work \n3. you can even tell it to create new Projects, which is a way to group together many related agents into one conversation\n\nyou can use any model available on cursor with these cloud agents, and since they each have their own computer, it frees up your bot to be more of a manager rather than write the code itself!",
+        "url": "https://x.com/poteto/status/2105377066942349794",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 28,
+        "likes": 340,
+        "quotes": 5,
+        "replies": 136,
+        "retweets": 71,
+        "views": 300639
+      },
+      "url": "https://x.com/elonmusk/status/2105543992637100269",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2105543544383660336",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T06:21:14.000Z",
+      "created_at_shanghai": "2026-10-01 14:21:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We must expand the scope and scale of consciousness",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-06-04 19:01:26",
+        "created_at_utc": "2026-06-04T11:01:26.000Z",
+        "id": "2062489901007057075",
+        "images": [
+          "https://pbs.twimg.com/media/HKlYOF0a8AArEi5.jpg"
+        ],
+        "media": [
+          {
+            "duration": 94.185,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/media/HKlYOF0a8AArEi5.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2062487769218420736/vid/avc1/3840x2160/MGxvEc5KSuROuNjT.mp4?tag=27",
+            "width": 3840
+          }
+        ],
+        "name": "SpaceX",
+        "text": "SpaceX is the only company building the infrastructure of the future across space, connectivity, and AI → http://spacexipo.com",
+        "url": "https://x.com/SpaceX/status/2062489901007057075",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "Diegopasini",
+        "avatar": "https://pbs.twimg.com/profile_images/1962994057137029128/FKSHMAdA_200x200.png",
+        "created_at_shanghai": "2026-06-05 00:29:47",
+        "created_at_utc": "2026-06-04T16:29:47.000Z",
+        "id": "2062572534151926145",
+        "images": [],
+        "media": [],
+        "name": "Diego",
+        "text": "We must expand the scope and scale of consciousness",
+        "url": "https://x.com/Diegopasini/status/2062572534151926145",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 207,
+        "quotes": 4,
+        "replies": 32,
+        "retweets": 36,
+        "views": 34374
+      },
+      "url": "https://x.com/elonmusk/status/2105543544383660336",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2105543480663806451",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T06:20:59.000Z",
+      "created_at_shanghai": "2026-10-01 14:20:59",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Introducing the newly refreshed Grokipedia. https://grokipedia.com/",
+      "quote": null,
+      "retweet": {
+        "author": "benjitaylor",
+        "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
+        "created_at_shanghai": "2026-10-01 05:45:38",
+        "created_at_utc": "2026-09-30T21:45:38.000Z",
+        "id": "2105413789256687696",
+        "images": [],
+        "media": [],
+        "name": "Benji Taylor",
+        "text": "Introducing the newly refreshed Grokipedia. https://grokipedia.com/",
+        "url": "https://x.com/benjitaylor/status/2105413789256687696",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 377,
+        "likes": 2909,
+        "quotes": 43,
+        "replies": 202,
+        "retweets": 200,
+        "views": 117031
+      },
+      "url": "https://x.com/elonmusk/status/2105543480663806451",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2105543421712843238",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1002,196 +1158,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2105350300534210708",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T17:33:21.000Z",
-      "created_at_shanghai": "2026-10-01 01:33:21",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "New in @Grok @Bot",
-      "quote": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
-        "created_at_shanghai": "2026-10-01 01:12:55",
-        "created_at_utc": "2026-09-30T17:12:55.000Z",
-        "id": "2105345158162063493",
-        "images": [
-          "https://pbs.twimg.com/media/HTeuD_KXYAAks10.jpg"
-        ],
-        "media": [
-          {
-            "duration": 135.633,
-            "height": 4053,
-            "thumbnail_url": "https://pbs.twimg.com/media/HTeuD_KXYAAks10.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105340212809211904/vid/avc1/1920x1080/F_7V7KjZQs8AhAa3.mp4?tag=29",
-            "width": 7206
-          }
-        ],
-        "name": "matt palmer",
-        "text": "What's new in Grok Bot\n\n0:19 Team bots - create bots shared with your team members\n1:10 Finances - search and manage your finances with @plaid\n1:32 Voice calls - @bot can search chats during calls and gracefully handles interruptions\n\nLike this for a special bot animation on @X!",
-        "url": "https://x.com/mattyp/status/2105345158162063493",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 38,
-        "likes": 537,
-        "quotes": 7,
-        "replies": 157,
-        "retweets": 81,
-        "views": 335949
-      },
-      "url": "https://x.com/elonmusk/status/2105350300534210708",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2105350130354254308",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T17:32:41.000Z",
-      "created_at_shanghai": "2026-10-01 01:32:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Yesterday at the White House, leaders from across our industry came together to sign the White House Accord on Super Intelligence.\n\nThe principle is simple: the companies building this technology have the primary responsibility to develop and deploy it safely, and to be accountable when they fall short.\n\nThe Accord reinforces that responsibility with robust internal controls, independent external evaluation, and board level oversight.\n\nSuper Intelligence offers an extraordinary opportunity to advance discovery, productivity, security, health, and prosperity.\n\nThe future of Super Intelligence will be shaped not only by what it can do, but by the confidence it earns. By building with ambition, rigor, and responsibility, we can help ensure this extraordinary technology expands opportunity and improves lives for generations to come.",
-      "quote": null,
-      "retweet": {
-        "author": "JensenHuang",
-        "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
-        "created_at_shanghai": "2026-10-01 01:25:30",
-        "created_at_utc": "2026-09-30T17:25:30.000Z",
-        "id": "2105348324484342238",
-        "images": [
-          "https://pbs.twimg.com/media/HTepwRjbgAAM2us.jpg?name=small",
-          "https://pbs.twimg.com/media/HTey3FEbUAAXxSs.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 791,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTepwRjbgAAM2us.jpg?name=small",
-            "width": 611
-          },
-          {
-            "height": 791,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTey3FEbUAAXxSs.jpg?name=small",
-            "width": 611
-          }
-        ],
-        "name": "Jensen Huang",
-        "text": "Yesterday at the White House, leaders from across our industry came together to sign the White House Accord on Super Intelligence.\n\nThe principle is simple: the companies building this technology have the primary responsibility to develop and deploy it safely, and to be accountable when they fall short.\n\nThe Accord reinforces that responsibility with robust internal controls, independent external evaluation, and board level oversight.\n\nSuper Intelligence offers an extraordinary opportunity to advance discovery, productivity, security, health, and prosperity.\n\nThe future of Super Intelligence will be shaped not only by what it can do, but by the confidence it earns. By building with ambition, rigor, and responsibility, we can help ensure this extraordinary technology expands opportunity and improves lives for generations to come.",
-        "url": "https://x.com/JensenHuang/status/2105348324484342238",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 65,
-        "likes": 1142,
-        "quotes": 41,
-        "replies": 172,
-        "retweets": 204,
-        "views": 43613
-      },
-      "url": "https://x.com/elonmusk/status/2105350130354254308",
-      "images": [
-        "https://pbs.twimg.com/media/HTepwRjbgAAM2us.jpg?name=small",
-        "https://pbs.twimg.com/media/HTey3FEbUAAXxSs.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTepwRjbgAAM2us.jpg?name=small",
-          "width": 611,
-          "height": 791
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTey3FEbUAAXxSs.jpg?name=small",
-          "width": 611,
-          "height": 791
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2105350082228826364",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T17:32:29.000Z",
-      "created_at_shanghai": "2026-10-01 01:32:29",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "The Bretton Woods of Super Intelligence",
-      "quote": null,
-      "retweet": {
-        "author": "DavidSacks",
-        "avatar": "https://pbs.twimg.com/profile_images/1879600809693917185/GkBxdTd9_200x200.jpg",
-        "created_at_shanghai": "2026-09-30 23:02:56",
-        "created_at_utc": "2026-09-30T15:02:56.000Z",
-        "id": "2105312446949085627",
-        "images": [
-          "https://pbs.twimg.com/media/HTeSg38bEAA0SAd.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 675,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTeSg38bEAA0SAd.jpg?name=small",
-            "width": 1200
-          }
-        ],
-        "name": "David Sacks",
-        "text": "The Bretton Woods of Super Intelligence",
-        "url": "https://x.com/DavidSacks/status/2105312446949085627",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 357,
-        "likes": 4837,
-        "quotes": 99,
-        "replies": 392,
-        "retweets": 494,
-        "views": 178764
-      },
-      "url": "https://x.com/elonmusk/status/2105350082228826364",
-      "images": [
-        "https://pbs.twimg.com/media/HTeSg38bEAA0SAd.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTeSg38bEAA0SAd.jpg?name=small",
-          "width": 1200,
-          "height": 675
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 452,
+  "total": 455,
   "total_pages": 23,
-  "updated_at_shanghai": "2026-10-04 23:32:24",
+  "updated_at_shanghai": "2026-10-04 23:38:39",
   "account": "elonmusk"
 }
