@@ -1,10 +1,73 @@
 {
   "posts": [
     {
-      "id": "2106561605156864062",
+      "id": "2106575798576845260",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T02:43:03.000Z",
+      "created_at_shanghai": "2026-10-04 10:43:03",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "A public service announcement.",
+      "quote": null,
+      "retweet": {
+        "author": "OppenheimJason",
+        "avatar": "https://pbs.twimg.com/profile_images/1296121247214866432/1v-Fz73z_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 09:00:53",
+        "created_at_utc": "2026-10-04T01:00:53.000Z",
+        "id": "2106550089271668780",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2106548834684088322/img/EKqlKUMyK67Hm8Wz.jpg"
+        ],
+        "media": [
+          {
+            "duration": 176.958,
+            "height": 3840,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106548834684088322/img/EKqlKUMyK67Hm8Wz.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2106548834684088322/vid/avc1/2160x3840/yD4gELDwu2IpMz7E.mp4?tag=29",
+            "width": 2160
+          }
+        ],
+        "name": "Jason Oppenheim",
+        "text": "A public service announcement.",
+        "url": "https://x.com/OppenheimJason/status/2106550089271668780",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 171,
+        "likes": 1344,
+        "quotes": 33,
+        "replies": 111,
+        "retweets": 196,
+        "views": 69446
+      },
+      "url": "https://x.com/elonmusk/status/2106575798576845260",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2106548834684088322/img/EKqlKUMyK67Hm8Wz.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2106548834684088322/vid/avc1/2160x3840/yD4gELDwu2IpMz7E.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106548834684088322/img/EKqlKUMyK67Hm8Wz.jpg",
+          "width": 2160,
+          "height": 3840,
+          "duration": 176.958
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2106561605156864062",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-04T01:46:39.000Z",
@@ -1006,53 +1069,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2106296408261415150",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-03T08:12:51.000Z",
-      "created_at_shanghai": "2026-10-03 16:12:51",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "how can we make @bot better for you in next two weeks?\n\nany confusion, frustration, criticism, wishes. just dump them to me plz. 🫶",
-      "quote": null,
-      "retweet": {
-        "author": "lingxi",
-        "avatar": "https://pbs.twimg.com/profile_images/2094044966863724544/zPvc_cDi_200x200.jpg",
-        "created_at_shanghai": "2026-10-03 15:13:25",
-        "created_at_utc": "2026-10-03T07:13:25.000Z",
-        "id": "2106281453386633593",
-        "images": [],
-        "media": [],
-        "name": "Lingxi Li",
-        "text": "how can we make @bot better for you in next two weeks?\n\nany confusion, frustration, criticism, wishes. just dump them to me plz. 🫶",
-        "url": "https://x.com/lingxi/status/2106281453386633593",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 19,
-        "likes": 250,
-        "quotes": 2,
-        "replies": 151,
-        "retweets": 25,
-        "views": 18074
-      },
-      "url": "https://x.com/elonmusk/status/2106296408261415150",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 432,
+  "total": 433,
   "total_pages": 22,
-  "updated_at_shanghai": "2026-10-04 09:54:06",
+  "updated_at_shanghai": "2026-10-04 10:48:49",
   "account": "elonmusk"
 }
