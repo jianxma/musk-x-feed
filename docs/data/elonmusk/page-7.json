@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2105425861281534365",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-30T22:33:36.000Z",
+      "created_at_shanghai": "2026-10-01 06:33:36",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceXAI has just released Grokipedia v0.3, which includes improved visuals.\n\nhttps://grokipedia.com",
+      "quote": null,
+      "retweet": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 05:43:20",
+        "created_at_utc": "2026-09-30T21:43:20.000Z",
+        "id": "2105413208001704363",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2105412828249083904/img/TCgH7NmoUr8T3NhH.jpg"
+        ],
+        "media": [
+          {
+            "duration": 21.953,
+            "height": 1936,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105412828249083904/img/TCgH7NmoUr8T3NhH.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105412828249083904/vid/avc1/3456x1936/K85a_4xtb5rAVLUM.mp4?tag=29",
+            "width": 3456
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "SpaceXAI has just released Grokipedia v0.3, which includes improved visuals.\n\nhttps://grokipedia.com",
+        "url": "https://x.com/SawyerMerritt/status/2105413208001704363",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 85,
+        "likes": 1388,
+        "quotes": 17,
+        "replies": 62,
+        "retweets": 101,
+        "views": 60495
+      },
+      "url": "https://x.com/elonmusk/status/2105425861281534365",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2105412828249083904/img/TCgH7NmoUr8T3NhH.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2105412828249083904/vid/avc1/3456x1936/K85a_4xtb5rAVLUM.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105412828249083904/img/TCgH7NmoUr8T3NhH.jpg",
+          "width": 3456,
+          "height": 1936,
+          "duration": 21.953
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2105425770965356697",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1137,53 +1200,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2105107252529013032",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T01:27:34.000Z",
-      "created_at_shanghai": "2026-09-30 09:27:34",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Also sprach Zarathustra",
-      "quote": {
-        "author": "jamesdouma",
-        "avatar": "https://pbs.twimg.com/profile_images/988101297357258752/Kg-unit-_200x200.jpg",
-        "created_at_shanghai": "2026-09-29 11:21:51",
-        "created_at_utc": "2026-09-29T03:21:51.000Z",
-        "id": "2104773624016384423",
-        "images": [],
-        "media": [],
-        "name": "jimmah",
-        "text": "This really brought home to me \nthis new machine creativity. \nI don’t know the recipe, but it’s more than vibes I see.  \nThere’s substance in the lyrics and there’s nuance for the critics \nAnd a story being told in this AI homily.\nAnd a message being sold by the Ai homily.",
-        "url": "https://x.com/jamesdouma/status/2104773624016384423",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 23,
-        "likes": 432,
-        "quotes": 10,
-        "replies": 147,
-        "retweets": 70,
-        "views": 334968
-      },
-      "url": "https://x.com/elonmusk/status/2105107252529013032",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 443,
+  "total": 444,
   "total_pages": 23,
-  "updated_at_shanghai": "2026-10-04 18:08:37",
+  "updated_at_shanghai": "2026-10-04 18:17:22",
   "account": "elonmusk"
 }
