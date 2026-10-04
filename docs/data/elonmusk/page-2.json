@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2106672522771272121",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T09:07:24.000Z",
+      "created_at_shanghai": "2026-10-04 17:07:24",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "It always was",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 39,
+        "likes": 470,
+        "quotes": 18,
+        "replies": 95,
+        "retweets": 50,
+        "views": 40992
+      },
+      "url": "https://x.com/elonmusk/status/2106672522771272121",
+      "images": [
+        "https://pbs.twimg.com/media/HTxnfj3XYAAxlls.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTxnfj3XYAAxlls.jpg?name=small",
+          "width": 258,
+          "height": 391
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2106672211797168438",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1012,53 +1049,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2106486577728041083",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-03T20:48:31.000Z",
-      "created_at_shanghai": "2026-10-04 04:48:31",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "What happened at Cornell is disgusting\n\nBut if you think it’s bad, go look into what the migrant rape gangs in Europe have been doing",
-      "quote": null,
-      "retweet": {
-        "author": "shaunmmaguire",
-        "avatar": "https://pbs.twimg.com/profile_images/1942940317784719360/47aIqszK_200x200.jpg",
-        "created_at_shanghai": "2026-10-03 23:13:59",
-        "created_at_utc": "2026-10-03T15:13:59.000Z",
-        "id": "2106402390903803932",
-        "images": [],
-        "media": [],
-        "name": "Shaun Maguire",
-        "text": "What happened at Cornell is disgusting\n\nBut if you think it’s bad, go look into what the migrant rape gangs in Europe have been doing",
-        "url": "https://x.com/shaunmmaguire/status/2106402390903803932",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 61,
-        "likes": 2740,
-        "quotes": 14,
-        "replies": 122,
-        "retweets": 163,
-        "views": 111146
-      },
-      "url": "https://x.com/elonmusk/status/2106486577728041083",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 459,
+  "total": 460,
   "total_pages": 23,
-  "updated_at_shanghai": "2026-10-05 01:39:57",
+  "updated_at_shanghai": "2026-10-05 03:25:23",
   "account": "elonmusk"
 }

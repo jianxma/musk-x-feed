@@ -1,6 +1,77 @@
 {
   "posts": [
     {
+      "id": "2106098911840772412",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-02T19:08:04.000Z",
+      "created_at_shanghai": "2026-10-03 03:08:04",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Beautiful view of Starlink V3 deployment",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-03 02:33:55",
+        "created_at_utc": "2026-10-02T18:33:55.000Z",
+        "id": "2106090316747207047",
+        "images": [
+          "https://pbs.twimg.com/media/HTpVwjtWsAA5pW5.jpg?name=small",
+          "https://pbs.twimg.com/media/HTpVy8JXsAAM92t.jpg?name=small",
+          "https://pbs.twimg.com/media/HTpV0zqXYAAxnFD.jpg?name=small",
+          "https://pbs.twimg.com/media/HTpV2xdXsAAZ_Ek.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2160,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTpVwjtWsAA5pW5.jpg?name=small",
+            "width": 3840
+          },
+          {
+            "height": 1015,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTpVy8JXsAAM92t.jpg?name=small",
+            "width": 1805
+          },
+          {
+            "height": 2160,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTpV0zqXYAAxnFD.jpg?name=small",
+            "width": 3840
+          },
+          {
+            "height": 2160,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTpV2xdXsAAZ_Ek.jpg?name=small",
+            "width": 3840
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Starship's first orbital flight delivered 26 Starlink V3 satellites to space",
+        "url": "https://x.com/SpaceX/status/2106090316747207047",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 34,
+        "likes": 953,
+        "quotes": 11,
+        "replies": 184,
+        "retweets": 126,
+        "views": 322841
+      },
+      "url": "https://x.com/elonmusk/status/2106098911840772412",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2106097381859336397",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1155,75 +1226,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2105930323913798107",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-02T07:58:10.000Z",
-      "created_at_shanghai": "2026-10-02 15:58:10",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "For folks not understanding where we are at with AI now - if the task is verifiable, it is now solved by AI.\n\nYes, earlier days you could argue that 'AI isn't that good' (e.g. see first attached chart here, where GPT-4o underperformed average accountants on tasks)\n\nBut now, it's a totally different story (only ~2 years later). The second chart is astounding. It took me a while to even understand it because it looks so odd. It compares manual accounting tasks to tasks complete with Opus 5.5. Basically Opus 5.5. solves all tasks almost instantly at a 100% accuracy rate, whereas a person takes a lot more time and gets a lot of things wrong. It makes the chart look entirely silly because the axes aren't even comparable.\n\nSo yeah, this is where we're at. If it is verifiable, it is solved. This is just how these model architectures work now.",
-      "quote": {
-        "author": "aden_barton",
-        "avatar": "https://pbs.twimg.com/profile_images/1522285473921601536/gvc_-ztY_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 05:07:55",
-        "created_at_utc": "2026-10-01T21:07:55.000Z",
-        "id": "2105766686213410845",
-        "images": [
-          "https://pbs.twimg.com/media/HTkvo_fWAAA7lmD.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 579,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTkvo_fWAAA7lmD.jpg?name=small",
-            "width": 1199
-          }
-        ],
-        "name": "aden barton",
-        "text": "On these detail-oriented, well-specified tasks, frontier models are now faster and more accurate than accountants, even the best one in our study.",
-        "url": "https://x.com/aden_barton/status/2105766686213410845",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "mstockton",
-        "avatar": "https://pbs.twimg.com/profile_images/1783145504890650624/SoRkDHKa_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 11:08:53",
-        "created_at_utc": "2026-10-02T03:08:53.000Z",
-        "id": "2105857523668451416",
-        "images": [],
-        "media": [],
-        "name": "Matt Stockton",
-        "text": "For folks not understanding where we are at with AI now - if the task is verifiable, it is now solved by AI.\n\nYes, earlier days you could argue that 'AI isn't that good' (e.g. see first attached chart here, where GPT-4o underperformed average accountants on tasks)\n\nBut now, it's a totally different story (only ~2 years later). The second chart is astounding. It took me a while to even understand it because it looks so odd. It compares manual accounting tasks to tasks complete with Opus 5.5. Basically Opus 5.5. solves all tasks almost instantly at a 100% accuracy rate, whereas a person takes a lot more time and gets a lot of things wrong. It makes the chart look entirely silly because the axes aren't even comparable.\n\nSo yeah, this is where we're at. If it is verifiable, it is solved. This is just how these model architectures work now.",
-        "url": "https://x.com/mstockton/status/2105857523668451416",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 138,
-        "likes": 395,
-        "quotes": 1,
-        "replies": 41,
-        "retweets": 53,
-        "views": 41324
-      },
-      "url": "https://x.com/elonmusk/status/2105930323913798107",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 459,
+  "total": 460,
   "total_pages": 23,
-  "updated_at_shanghai": "2026-10-05 01:39:57",
+  "updated_at_shanghai": "2026-10-05 03:25:23",
   "account": "elonmusk"
 }
