@@ -1,10 +1,62 @@
 {
   "posts": [
     {
-      "id": "2106673377658413414",
+      "id": "2106685209085202535",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T09:57:48.000Z",
+      "created_at_shanghai": "2026-10-04 17:57:48",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "I love SI slopcore",
+      "quote": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-09-30 23:55:44",
+        "created_at_utc": "2026-09-30T15:55:44.000Z",
+        "id": "2105325733312884869",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2105324983178219522/img/X1lNuUHgbHP3nNW1.jpg"
+        ],
+        "media": [
+          {
+            "duration": 191.583,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105324983178219522/img/X1lNuUHgbHP3nNW1.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105324983178219522/vid/avc1/1920x1080/uDu9-HjrfOw6-gN0.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "anabology",
+        "text": "Gave Claude another 12 hours to one up this..\n\nWoke up to.. The Clodyssey",
+        "url": "https://x.com/anabology/status/2105325733312884869",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 49,
+        "likes": 828,
+        "quotes": 27,
+        "replies": 271,
+        "retweets": 134,
+        "views": 336584
+      },
+      "url": "https://x.com/elonmusk/status/2106685209085202535",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2106673377658413414",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-04T09:10:47.000Z",
@@ -973,53 +1025,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2106489444802982297",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-03T20:59:54.000Z",
-      "created_at_shanghai": "2026-10-04 04:59:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@SawyerMerritt We are being extremely careful with autonomous safety, just as we are with making Teslas the safest cars in the world for human driving",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-04 04:59:50",
-        "created_at_utc": "2026-10-03T20:59:50.000Z",
-        "id": "2106489424569668089",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "@SawyerMerritt We are being extremely careful with autonomous safety, just as we are with making Teslas the safest cars in the world for human driving",
-        "url": "https://x.com/elonmusk/status/2106489424569668089",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "SawyerMerritt",
-      "engagement": {
-        "bookmarks": 12,
-        "likes": 345,
-        "quotes": 2,
-        "replies": 46,
-        "retweets": 35,
-        "views": 24111
-      },
-      "url": "https://x.com/elonmusk/status/2106489444802982297",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 441,
+  "total": 442,
   "total_pages": 23,
-  "updated_at_shanghai": "2026-10-04 17:19:15",
+  "updated_at_shanghai": "2026-10-04 18:03:08",
   "account": "elonmusk"
 }

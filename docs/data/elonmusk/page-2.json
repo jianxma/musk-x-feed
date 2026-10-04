@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2106489444802982297",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-03T20:59:54.000Z",
+      "created_at_shanghai": "2026-10-04 04:59:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@SawyerMerritt We are being extremely careful with autonomous safety, just as we are with making Teslas the safest cars in the world for human driving",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 04:59:50",
+        "created_at_utc": "2026-10-03T20:59:50.000Z",
+        "id": "2106489424569668089",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@SawyerMerritt We are being extremely careful with autonomous safety, just as we are with making Teslas the safest cars in the world for human driving",
+        "url": "https://x.com/elonmusk/status/2106489424569668089",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "SawyerMerritt",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 345,
+        "quotes": 2,
+        "replies": 46,
+        "retweets": 35,
+        "views": 24111
+      },
+      "url": "https://x.com/elonmusk/status/2106489444802982297",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2106486626860044532",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1043,82 +1084,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2106100988751057316",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-02T19:16:19.000Z",
-      "created_at_shanghai": "2026-10-03 03:16:19",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Sci-fi irl",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-03 02:31:40",
-        "created_at_utc": "2026-10-02T18:31:40.000Z",
-        "id": "2106089751837278533",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2106089426765877248/img/EEVkW3bzYWn348Kv.jpg",
-          "https://pbs.twimg.com/amplify_video_thumb/2106089497548963840/img/YAY3u-u8m9Lk7TjJ.jpg",
-          "https://pbs.twimg.com/amplify_video_thumb/2106089497586728960/img/MQAAJFMh1f36o4CM.jpg"
-        ],
-        "media": [
-          {
-            "duration": 16.763,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106089426765877248/img/EEVkW3bzYWn348Kv.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2106089426765877248/vid/avc1/3840x2160/tD9xm9-FQVMvws1K.mp4?tag=29",
-            "width": 3840
-          },
-          {
-            "duration": 17.561,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106089497548963840/img/YAY3u-u8m9Lk7TjJ.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2106089497548963840/vid/avc1/3840x2160/G_gBTrlORKwy-5H0.mp4?tag=29",
-            "width": 3840
-          },
-          {
-            "duration": 18.197,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106089497586728960/img/MQAAJFMh1f36o4CM.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2106089497586728960/vid/avc1/1920x1080/sGuYUTUXOBgEsnAe.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Hot-staging on Starship Flight 14",
-        "url": "https://x.com/SpaceX/status/2106089751837278533",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 42,
-        "likes": 1174,
-        "quotes": 19,
-        "replies": 187,
-        "retweets": 149,
-        "views": 311208
-      },
-      "url": "https://x.com/elonmusk/status/2106100988751057316",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 441,
+  "total": 442,
   "total_pages": 23,
-  "updated_at_shanghai": "2026-10-04 17:19:15",
+  "updated_at_shanghai": "2026-10-04 18:03:08",
   "account": "elonmusk"
 }
