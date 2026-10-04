@@ -1,6 +1,110 @@
 {
   "posts": [
     {
+      "id": "2105719354671181993",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T17:59:51.000Z",
+      "created_at_shanghai": "2026-10-02 01:59:51",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "It looks so much like a cigarette, I had to make this edit",
+      "quote": null,
+      "retweet": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-10-02 00:50:45",
+        "created_at_utc": "2026-10-01T16:50:45.000Z",
+        "id": "2105701966793892018",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2105701926616645634/img/EIKddueaJF_MnIDr.jpg"
+        ],
+        "media": [
+          {
+            "duration": 41.107,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105701926616645634/img/EIKddueaJF_MnIDr.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105701926616645634/vid/avc1/1920x1080/KQq6mj_zoMeIuNyb.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "anabology",
+        "text": "It looks so much like a cigarette, I had to make this edit",
+        "url": "https://x.com/anabology/status/2105701966793892018",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 13,
+        "likes": 294,
+        "quotes": 4,
+        "replies": 20,
+        "retweets": 27,
+        "views": 4707
+      },
+      "url": "https://x.com/elonmusk/status/2105719354671181993",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2105701926616645634/img/EIKddueaJF_MnIDr.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2105701926616645634/vid/avc1/1920x1080/KQq6mj_zoMeIuNyb.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105701926616645634/img/EIKddueaJF_MnIDr.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 41.107
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2105719249826099666",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T17:59:26.000Z",
+      "created_at_shanghai": "2026-10-02 01:59:26",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try Grok @Bot!",
+      "quote": {
+        "author": "beffjezos",
+        "avatar": "https://pbs.twimg.com/profile_images/2104068258311901184/vmbQ61I3_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 10:05:46",
+        "created_at_utc": "2026-10-01T02:05:46.000Z",
+        "id": "2105479251566944484",
+        "images": [],
+        "media": [],
+        "name": "Beff (e/acc)",
+        "text": "Grok Bots have been life-changing for someone like me with ADHD who has no patience for context switching / navigating slow interfaces to retrieve information \n\nWe're seeing the beginnings of personal superintelligence that augments each humans to realize their full potential",
+        "url": "https://x.com/beffjezos/status/2105479251566944484",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 6,
+        "likes": 207,
+        "quotes": 2,
+        "replies": 84,
+        "retweets": 34,
+        "views": 236015
+      },
+      "url": "https://x.com/elonmusk/status/2105719249826099666",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2105718946259238974",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1121,116 +1225,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2105543421712843238",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-01T06:20:45.000Z",
-      "created_at_shanghai": "2026-10-01 14:20:45",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grokipedia v0.3 just released. \n\nJoin @SpaceXAI if you want to create Encyclopedia Galactica!",
-      "quote": {
-        "author": "Grokipedia",
-        "avatar": "https://pbs.twimg.com/profile_images/2103627180358193152/D3MEnzws_200x200.jpg",
-        "created_at_shanghai": "2026-10-01 05:44:06",
-        "created_at_utc": "2026-09-30T21:44:06.000Z",
-        "id": "2105413402218873178",
-        "images": [],
-        "media": [],
-        "name": "Grokipedia",
-        "text": "Introducing Grokipedia v0.3\nhttps://grokipedia.com",
-        "url": "https://x.com/Grokipedia/status/2105413402218873178",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 26,
-        "likes": 555,
-        "quotes": 16,
-        "replies": 189,
-        "retweets": 96,
-        "views": 305697
-      },
-      "url": "https://x.com/elonmusk/status/2105543421712843238",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2105541602701983870",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-01T06:13:31.000Z",
-      "created_at_shanghai": "2026-10-01 14:13:31",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "You Are NOT Ready For These Jaw Dropping Starlink Numbers\n\nStarlink Could Be More Profitable Than NVIDIA, Google, Amazon & Apple",
-      "quote": null,
-      "retweet": {
-        "author": "stevenmarkryan",
-        "avatar": "https://pbs.twimg.com/profile_images/1975008873523417088/Ec2d-NEU_200x200.jpg",
-        "created_at_shanghai": "2026-10-01 13:15:00",
-        "created_at_utc": "2026-10-01T05:15:00.000Z",
-        "id": "2105526873979818289",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2105491390851661824/img/8kcor1_Nsd4VGi0_.jpg"
-        ],
-        "media": [
-          {
-            "duration": 723,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105491390851661824/img/8kcor1_Nsd4VGi0_.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105491390851661824/vid/avc1/1920x1080/IG6dWilypx4t01GG.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "stevenmarkryan",
-        "text": "You Are NOT Ready For These Jaw Dropping Starlink Numbers\n\nStarlink Could Be More Profitable Than NVIDIA, Google, Amazon & Apple",
-        "url": "https://x.com/stevenmarkryan/status/2105526873979818289",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 19,
-        "likes": 276,
-        "quotes": 6,
-        "replies": 31,
-        "retweets": 40,
-        "views": 14864
-      },
-      "url": "https://x.com/elonmusk/status/2105541602701983870",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2105491390851661824/img/8kcor1_Nsd4VGi0_.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2105491390851661824/vid/avc1/1920x1080/IG6dWilypx4t01GG.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105491390851661824/img/8kcor1_Nsd4VGi0_.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 723
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 20,
-  "total": 450,
+  "total": 452,
   "total_pages": 23,
-  "updated_at_shanghai": "2026-10-04 23:10:46",
+  "updated_at_shanghai": "2026-10-04 23:32:24",
   "account": "elonmusk"
 }
