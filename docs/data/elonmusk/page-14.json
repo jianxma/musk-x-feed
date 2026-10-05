@@ -1,6 +1,145 @@
 {
   "posts": [
     {
+      "id": "2104135091417215376",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T09:04:33.000Z",
+      "created_at_shanghai": "2026-09-27 17:04:33",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Wow",
+      "quote": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 01:17:57",
+        "created_at_utc": "2026-09-25T17:17:57.000Z",
+        "id": "2103534482930491441",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103533196721704960/img/ILpk1iqxJsJGiDcK.jpg"
+        ],
+        "media": [
+          {
+            "duration": 306.416,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103533196721704960/img/ILpk1iqxJsJGiDcK.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103533196721704960/vid/avc1/1920x1080/hK-nvYk8GWyJLtjS.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "anabology",
+        "text": "Gave Opus 5.5 donald's prompt, Midjourney, and a moodboard \n\n12 hours later, woke up to this:",
+        "url": "https://x.com/anabology/status/2103534482930491441",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 36,
+        "likes": 299,
+        "quotes": 4,
+        "replies": 131,
+        "retweets": 40,
+        "views": 294118
+      },
+      "url": "https://x.com/elonmusk/status/2104135091417215376",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104133683942953414",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T08:58:57.000Z",
+      "created_at_shanghai": "2026-09-27 16:58:57",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "a new chapter in 'opus 5.5 &amp; fig present'...\n\n\"present company\" \n\non synthetic beings, tilly norwood and unreliable narrators\n\nthis one was three shot, created by agents merely guided by me",
+      "quote": {
+        "author": "gavinpurcell",
+        "avatar": "https://pbs.twimg.com/profile_images/1579115477145567233/U1bA1De6_200x200.jpg",
+        "created_at_shanghai": "2026-09-25 10:04:08",
+        "created_at_utc": "2026-09-25T02:04:08.000Z",
+        "id": "2103304514329854102",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103304202617520128/img/bpMVxBiJHhgYy27l.jpg"
+        ],
+        "media": [
+          {
+            "duration": 315.373,
+            "height": 480,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103304202617520128/img/bpMVxBiJHhgYy27l.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103304202617520128/vid/avc1/854x480/XAtyYiDr1QYeUZPu.mp4?tag=29",
+            "width": 854
+          }
+        ],
+        "name": "Gavin Purcell",
+        "text": "i'm still not sure people are fully getting how good opus 5.5\n\ni gave my claude agent fig access to the runway MCP and told it to make a 'high-end netflix style documentary about superintelligence for normies' and...\n\nit came back with this",
+        "url": "https://x.com/gavinpurcell/status/2103304514329854102",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "gavinpurcell",
+        "avatar": "https://pbs.twimg.com/profile_images/1579115477145567233/U1bA1De6_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 08:19:29",
+        "created_at_utc": "2026-09-26T00:19:29.000Z",
+        "id": "2103640568576585932",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103640377639198720/img/mz5Y1wiwXLRWhaoE.jpg"
+        ],
+        "media": [
+          {
+            "duration": 329.582,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103640377639198720/img/mz5Y1wiwXLRWhaoE.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103640377639198720/vid/avc1/1920x1080/uyvQbGl4RCMfGzad.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Gavin Purcell",
+        "text": "a new chapter in 'opus 5.5 & fig present'...\n\n\"present company\" \n\non synthetic beings, tilly norwood and unreliable narrators\n\nthis one was three shot, created by agents merely guided by me",
+        "url": "https://x.com/gavinpurcell/status/2103640568576585932",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 58,
+        "likes": 158,
+        "quotes": 4,
+        "replies": 24,
+        "retweets": 26,
+        "views": 16009
+      },
+      "url": "https://x.com/elonmusk/status/2104133683942953414",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103640377639198720/img/mz5Y1wiwXLRWhaoE.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2103640377639198720/vid/avc1/1920x1080/uyvQbGl4RCMfGzad.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103640377639198720/img/mz5Y1wiwXLRWhaoE.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 329.582
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2104129033399160871",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1132,129 +1271,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103759131907932302",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-26T08:10:37.000Z",
-      "created_at_shanghai": "2026-09-26 16:10:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Bring back insane asylums, workhouses, and vagrancy laws. There's nothing kind or compassionate about letting mentally-ill drug addicts roam the streets like 28 Days Later. And it makes for a terrible city experience for everyone else too.",
-      "quote": {
-        "author": "dhh",
-        "avatar": "https://pbs.twimg.com/profile_images/2093715898204884992/goERjC9G_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 07:31:48",
-        "created_at_utc": "2026-09-25T23:31:48.000Z",
-        "id": "2103628564687974840",
-        "images": [],
-        "media": [],
-        "name": "DHH",
-        "text": "I was surprised how bad it was just walking from the hotel to the Rails World venue. One strung-out guy wanted to fight me for some reason, another was swinging wildly and swearing profusely. Lots of zombie vibes too. Whatever Austin is doing, it's not working.",
-        "url": "https://x.com/dhh/status/2103628564687974840",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "dhh",
-        "avatar": "https://pbs.twimg.com/profile_images/2093715898204884992/goERjC9G_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 15:32:49",
-        "created_at_utc": "2026-09-26T07:32:49.000Z",
-        "id": "2103749619825951143",
-        "images": [],
-        "media": [],
-        "name": "DHH",
-        "text": "Bring back insane asylums, workhouses, and vagrancy laws. There's nothing kind or compassionate about letting mentally-ill drug addicts roam the streets like 28 Days Later. And it makes for a terrible city experience for everyone else too.",
-        "url": "https://x.com/dhh/status/2103749619825951143",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 26,
-        "likes": 732,
-        "quotes": 5,
-        "replies": 61,
-        "retweets": 65,
-        "views": 48718
-      },
-      "url": "https://x.com/elonmusk/status/2103759131907932302",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2103758177460531517",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-26T08:06:50.000Z",
-      "created_at_shanghai": "2026-09-26 16:06:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "• \"At All Costs\" - Elon Knows\n• @shaunmmaguire's S-Tier SpaceXAI Article\n• Live Grok Voice Demo",
-      "quote": null,
-      "retweet": {
-        "author": "stevenmarkryan",
-        "avatar": "https://pbs.twimg.com/profile_images/1975008873523417088/Ec2d-NEU_200x200.jpg",
-        "created_at_shanghai": "2026-09-25 14:15:00",
-        "created_at_utc": "2026-09-25T06:15:00.000Z",
-        "id": "2103367646351958050",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103363916260950016/img/8RAB04DDEHLscfff.jpg"
-        ],
-        "media": [
-          {
-            "duration": 1067.2,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103363916260950016/img/8RAB04DDEHLscfff.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103363916260950016/vid/avc1/1920x1080/_PWy97BschmF6KJc.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "stevenmarkryan",
-        "text": "• \"At All Costs\" - Elon Knows\n• @shaunmmaguire's S-Tier SpaceXAI Article\n• Live Grok Voice Demo",
-        "url": "https://x.com/stevenmarkryan/status/2103367646351958050",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 53,
-        "likes": 483,
-        "quotes": 4,
-        "replies": 21,
-        "retweets": 60,
-        "views": 32866
-      },
-      "url": "https://x.com/elonmusk/status/2103758177460531517",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2103363916260950016/img/8RAB04DDEHLscfff.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2103363916260950016/vid/avc1/1920x1080/_PWy97BschmF6KJc.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103363916260950016/img/8RAB04DDEHLscfff.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 1067.2
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 20,
-  "total": 465,
+  "total": 467,
   "total_pages": 24,
-  "updated_at_shanghai": "2026-10-05 08:39:33",
+  "updated_at_shanghai": "2026-10-05 08:43:13",
   "account": "elonmusk"
 }
