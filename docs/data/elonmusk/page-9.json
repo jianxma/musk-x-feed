@@ -1,6 +1,335 @@
 {
   "posts": [
     {
+      "id": "2105425861281534365",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-30T22:33:36.000Z",
+      "created_at_shanghai": "2026-10-01 06:33:36",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceXAI has just released Grokipedia v0.3, which includes improved visuals.\n\nhttps://grokipedia.com",
+      "quote": null,
+      "retweet": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 05:43:20",
+        "created_at_utc": "2026-09-30T21:43:20.000Z",
+        "id": "2105413208001704363",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2105412828249083904/img/TCgH7NmoUr8T3NhH.jpg"
+        ],
+        "media": [
+          {
+            "duration": 21.953,
+            "height": 1936,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105412828249083904/img/TCgH7NmoUr8T3NhH.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105412828249083904/vid/avc1/3456x1936/K85a_4xtb5rAVLUM.mp4?tag=29",
+            "width": 3456
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "SpaceXAI has just released Grokipedia v0.3, which includes improved visuals.\n\nhttps://grokipedia.com",
+        "url": "https://x.com/SawyerMerritt/status/2105413208001704363",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 85,
+        "likes": 1388,
+        "quotes": 17,
+        "replies": 62,
+        "retweets": 101,
+        "views": 60495
+      },
+      "url": "https://x.com/elonmusk/status/2105425861281534365",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2105412828249083904/img/TCgH7NmoUr8T3NhH.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2105412828249083904/vid/avc1/3456x1936/K85a_4xtb5rAVLUM.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105412828249083904/img/TCgH7NmoUr8T3NhH.jpg",
+          "width": 3456,
+          "height": 1936,
+          "duration": 21.953
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2105425770965356697",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-30T22:33:15.000Z",
+      "created_at_shanghai": "2026-10-01 06:33:15",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Accurate analysis",
+      "quote": {
+        "author": "Erdayastronaut",
+        "avatar": "https://pbs.twimg.com/profile_images/1253477073265532928/MmGBMWsQ_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 02:36:51",
+        "created_at_utc": "2026-09-30T18:36:51.000Z",
+        "id": "2105366280085672280",
+        "images": [
+          "https://pbs.twimg.com/media/HTfDdtGXcAA4znw.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1152,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTfDdtGXcAA4znw.jpg?name=small",
+            "width": 2048
+          }
+        ],
+        "name": "Everyday Astronaut",
+        "text": "I find it funny that some people got hung up on Starship not having gone orbital before Flight 14 when in the grand scheme of things it was completely arbitrary in terms of performance. The 19ish second burn only added about 91 m/s of velocity (a 1.2% increase in velocity)\n\nThis capability has been physically capable since Flight 6 which demonstrated a single Raptor relight in space. Heck, Flight 13’s burn was about 14 seconds, but intentionally oriented to primarily do a plane change instead of a prograde insertion burn for continued safety. \n\nAny of the relights COULD have done the orbital insertion burn, the duration was not of any special technical capability. The reason Starship didn’t go orbital until Flight 14 is probably what we should applaud them for the most… SAFETY. \n\nTheir methodical approach to getting good data and going one step at a time while hucking the single most massive object ever put into space proves they weren’t just doing things haphazardly, despite the occasional narrative from the outside. \n\nWhile it’s easy to compare Starship to vehicles like SLS or Vulcan or New Glenn, the reality is the focus hasn’t been on orbit, it’s been all on the “downhill” side of that. Safe and targeted de-orbit, clean reentry, targeted and soft splashdown. That’s the part that has (almost) never been done before. \n\nAnd here I do have to add a little Space Shuttle admiration for figuring out a lot of these things on its first flight in 1981 (although it came a bit close to not being successful). Pretty amazing there was a vehicle of similar scale capable of such precise deorbit and reentry that it landed on a runway with no go-around capabilities. Crazy. \n\nBut Starship is well on a path to absolutely leap-frog the Space Shuttle in terms of performance (already over double and someday 6 fold) and hopefully in terms of full and rapid reuse. I hope we see the latter part speed up even more now that orbit has been demonstrated.\n\nExciting times ahead!!! Keep going @spacex @elonmusk",
+        "url": "https://x.com/Erdayastronaut/status/2105366280085672280",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 21,
+        "likes": 785,
+        "quotes": 9,
+        "replies": 166,
+        "retweets": 101,
+        "views": 290887
+      },
+      "url": "https://x.com/elonmusk/status/2105425770965356697",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2105361313392476174",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-30T18:17:07.000Z",
+      "created_at_shanghai": "2026-10-01 02:17:07",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "My guess for real GDP growth next year is &gt;50% higher than 2026, so &gt;3.3%",
+      "quote": {
+        "author": "DavidSacks",
+        "avatar": "https://pbs.twimg.com/profile_images/1879600809693917185/GkBxdTd9_200x200.jpg",
+        "created_at_shanghai": "2026-09-30 23:23:59",
+        "created_at_utc": "2026-09-30T15:23:59.000Z",
+        "id": "2105317744308879427",
+        "images": [],
+        "media": [],
+        "name": "David Sacks",
+        "text": "Today’s economic numbers: \n— Q2 GDP revised up to 2.2% (was 1.5%). \n— Core PCE 3.0% vs 3.3% expected. \n— ADP private jobs +90k vs ~68k expected.\n\nGrowth beat. Inflation cooled. Jobs better than expected. \n\nThe Trump economy is strong.",
+        "url": "https://x.com/DavidSacks/status/2105317744308879427",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 28,
+        "likes": 961,
+        "quotes": 13,
+        "replies": 229,
+        "retweets": 146,
+        "views": 370192
+      },
+      "url": "https://x.com/elonmusk/status/2105361313392476174",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2105357198972874800",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-30T18:00:46.000Z",
+      "created_at_shanghai": "2026-10-01 02:00:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Want to see inside the Tesla Semi Factory?\n\nHere is the 30 minute video of our tour hosted by Plant Manager Rob Rayl and the factory team during the Semi Rollout event!",
+      "quote": null,
+      "retweet": {
+        "author": "SERobinsonJr",
+        "avatar": "https://pbs.twimg.com/profile_images/2074281454016569344/RSVw3v5W_200x200.jpg",
+        "created_at_shanghai": "2026-09-30 20:50:38",
+        "created_at_utc": "2026-09-30T12:50:38.000Z",
+        "id": "2105279153285025930",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2105266537456156672/img/UcIVuPNtwtTWqUWX.jpg"
+        ],
+        "media": [
+          {
+            "duration": 2176.317,
+            "height": 1440,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105266537456156672/img/UcIVuPNtwtTWqUWX.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105266537456156672/vid/avc1/2560x1440/yGibjD0HyxTmpXU2.mp4?tag=29",
+            "width": 2560
+          }
+        ],
+        "name": "S.E. Robinson, Jr.",
+        "text": "Want to see inside the Tesla Semi Factory?\n\nHere is the 30 minute video of our tour hosted by Plant Manager Rob Rayl and the factory team during the Semi Rollout event!",
+        "url": "https://x.com/SERobinsonJr/status/2105279153285025930",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 149,
+        "likes": 585,
+        "quotes": 8,
+        "replies": 57,
+        "retweets": 114,
+        "views": 52146
+      },
+      "url": "https://x.com/elonmusk/status/2105357198972874800",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2105266537456156672/img/UcIVuPNtwtTWqUWX.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2105266537456156672/vid/avc1/2560x1440/yGibjD0HyxTmpXU2.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105266537456156672/img/UcIVuPNtwtTWqUWX.jpg",
+          "width": 2560,
+          "height": 1440,
+          "duration": 2176.317
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2105354554866864631",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-30T17:50:16.000Z",
+      "created_at_shanghai": "2026-10-01 01:50:16",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship Flight 14",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 01:40:22",
+        "created_at_utc": "2026-09-30T17:40:22.000Z",
+        "id": "2105352066424017118",
+        "images": [
+          "https://pbs.twimg.com/media/HTeWwfKXsAAyXlz.jpg?name=small",
+          "https://pbs.twimg.com/media/HTeWy8kWIAArWZl.jpg?name=small",
+          "https://pbs.twimg.com/media/HTeW1UJWQAILGVf.jpg?name=small",
+          "https://pbs.twimg.com/media/HTeW3O6XkAAK7_Y.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2160,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTeWwfKXsAAyXlz.jpg?name=small",
+            "width": 3840
+          },
+          {
+            "height": 2071,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTeWy8kWIAArWZl.jpg?name=small",
+            "width": 3840
+          },
+          {
+            "height": 2115,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTeW1UJWQAILGVf.jpg?name=small",
+            "width": 3840
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTeW3O6XkAAK7_Y.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Starship Flight 14, the first morning launch from Starbase since Flight 5",
+        "url": "https://x.com/SpaceX/status/2105352066424017118",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 19,
+        "likes": 647,
+        "quotes": 5,
+        "replies": 159,
+        "retweets": 64,
+        "views": 306741
+      },
+      "url": "https://x.com/elonmusk/status/2105354554866864631",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2105353907799228549",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-30T17:47:41.000Z",
+      "created_at_shanghai": "2026-10-01 01:47:41",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship will expand the aperture of physics research by placing much larger telescopes in orbit and giant ones on the Moon",
+      "quote": {
+        "author": "luismbat",
+        "avatar": "https://pbs.twimg.com/profile_images/378800000564279654/544464e51ec3be835a561a7f631379ab_200x200.png",
+        "created_at_shanghai": "2026-10-01 01:36:06",
+        "created_at_utc": "2026-09-30T17:36:06.000Z",
+        "id": "2105350990354419720",
+        "images": [],
+        "media": [],
+        "name": "Luis Batalha",
+        "text": "Starship reached orbit for the first time on Monday. One of my favorite potential use cases is launching the next generation of space telescopes faster and with far fewer constraints.\n\nToday, engineers designing the largest space telescopes face extreme mass and volume limits that forces them to make telescopes lighter, foldable, and dependent on incredibly intricate deployment mechanisms, adding years of engineering complexity and increasing the risk of failure.\n\nStarship changes that tradeoff. Thanks to its massive payload capacity and volume, telescope builders could \"convert risk into mass\": build heavier, simpler observatories instead of optimizing every component around launch constraints.\n\nThat could accelerate the next generation of space telescopes, and astrophysics research, by decades!",
+        "url": "https://x.com/luismbat/status/2105350990354419720",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 43,
+        "likes": 1156,
+        "quotes": 16,
+        "replies": 206,
+        "retweets": 151,
+        "views": 351969
+      },
+      "url": "https://x.com/elonmusk/status/2105353907799228549",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2105351736198418564",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -871,377 +1200,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2105107252529013032",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T01:27:34.000Z",
-      "created_at_shanghai": "2026-09-30 09:27:34",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Also sprach Zarathustra",
-      "quote": {
-        "author": "jamesdouma",
-        "avatar": "https://pbs.twimg.com/profile_images/988101297357258752/Kg-unit-_200x200.jpg",
-        "created_at_shanghai": "2026-09-29 11:21:51",
-        "created_at_utc": "2026-09-29T03:21:51.000Z",
-        "id": "2104773624016384423",
-        "images": [],
-        "media": [],
-        "name": "jimmah",
-        "text": "This really brought home to me \nthis new machine creativity. \nI don’t know the recipe, but it’s more than vibes I see.  \nThere’s substance in the lyrics and there’s nuance for the critics \nAnd a story being told in this AI homily.\nAnd a message being sold by the Ai homily.",
-        "url": "https://x.com/jamesdouma/status/2104773624016384423",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 23,
-        "likes": 432,
-        "quotes": 10,
-        "replies": 147,
-        "retweets": 70,
-        "views": 334968
-      },
-      "url": "https://x.com/elonmusk/status/2105107252529013032",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2105104159011954984",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T01:15:17.000Z",
-      "created_at_shanghai": "2026-09-30 09:15:17",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Crew-13, SpaceX, and @NASA completed a full rehearsal of launch day activities",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-09-30 04:51:40",
-        "created_at_utc": "2026-09-29T20:51:40.000Z",
-        "id": "2105037817667784890",
-        "images": [
-          "https://pbs.twimg.com/media/HTaYlvFXwAAy5tm.jpg?name=small",
-          "https://pbs.twimg.com/amplify_video_thumb/2105037649954193409/img/69bAKNOkgpaetMWA.jpg",
-          "https://pbs.twimg.com/amplify_video_thumb/2105037651656982529/img/KEtSYSDpwRla5HJk.jpg"
-        ],
-        "media": [
-          {
-            "height": 1153,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTaYlvFXwAAy5tm.jpg?name=small",
-            "width": 2048
-          },
-          {
-            "duration": 11.028,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105037649954193409/img/69bAKNOkgpaetMWA.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105037649954193409/vid/avc1/3840x2160/DchiBJOAS9dpbmBW.mp4?tag=29",
-            "width": 3840
-          },
-          {
-            "duration": 11.262,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105037651656982529/img/KEtSYSDpwRla5HJk.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105037651656982529/vid/avc1/3840x2160/ywM362lZrmyLYCWy.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Crew-13, SpaceX, and @NASA completed a full rehearsal of launch day activities",
-        "url": "https://x.com/SpaceX/status/2105037817667784890",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 69,
-        "likes": 4675,
-        "quotes": 44,
-        "replies": 170,
-        "retweets": 429,
-        "views": 322463
-      },
-      "url": "https://x.com/elonmusk/status/2105104159011954984",
-      "images": [
-        "https://pbs.twimg.com/media/HTaYlvFXwAAy5tm.jpg?name=small",
-        "https://pbs.twimg.com/amplify_video_thumb/2105037649954193409/img/69bAKNOkgpaetMWA.jpg",
-        "https://pbs.twimg.com/amplify_video_thumb/2105037651656982529/img/KEtSYSDpwRla5HJk.jpg"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTaYlvFXwAAy5tm.jpg?name=small",
-          "width": 2048,
-          "height": 1153
-        },
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2105037649954193409/vid/avc1/3840x2160/DchiBJOAS9dpbmBW.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105037649954193409/img/69bAKNOkgpaetMWA.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 11.028
-        },
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2105037651656982529/vid/avc1/3840x2160/ywM362lZrmyLYCWy.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105037651656982529/img/KEtSYSDpwRla5HJk.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 11.262
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2105103689417408624",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T01:13:25.000Z",
-      "created_at_shanghai": "2026-09-30 09:13:25",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starship Super Heavy",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-09-30 06:26:23",
-        "created_at_utc": "2026-09-29T22:26:23.000Z",
-        "id": "2105061657558786148",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2105061299633651712/img/AUeofkkbrXxwUpEg.jpg",
-          "https://pbs.twimg.com/media/HTauGVFXkAAF_G8.jpg?name=small"
-        ],
-        "media": [
-          {
-            "duration": 28.486,
-            "height": 1152,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105061299633651712/img/AUeofkkbrXxwUpEg.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105061299633651712/vid/avc1/2048x1152/c3KC_-JCbpgFW6s-.mp4?tag=29",
-            "width": 2048
-          },
-          {
-            "height": 2731,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTauGVFXkAAF_G8.jpg?name=small",
-            "width": 4096
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Super Heavy liftoff powered by 33 Raptor 3 engines",
-        "url": "https://x.com/SpaceX/status/2105061657558786148",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 22,
-        "likes": 821,
-        "quotes": 9,
-        "replies": 181,
-        "retweets": 123,
-        "views": 273063
-      },
-      "url": "https://x.com/elonmusk/status/2105103689417408624",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2105103348273983868",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T01:12:03.000Z",
-      "created_at_shanghai": "2026-09-30 09:12:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I think it's a significant positive step that the leaders of every major American lab have committed to implementing robust internal controls and multiple layers of audits and reviews. This should give people more confidence that the technology each lab is building will work as intended.",
-      "quote": {
-        "author": "DavidSacks",
-        "avatar": "https://pbs.twimg.com/profile_images/1879600809693917185/GkBxdTd9_200x200.jpg",
-        "created_at_shanghai": "2026-09-30 06:21:52",
-        "created_at_utc": "2026-09-29T22:21:52.000Z",
-        "id": "2105060520327786914",
-        "images": [
-          "https://pbs.twimg.com/media/HTatYxRXkAAAZ8e.jpg?name=small",
-          "https://pbs.twimg.com/media/HTatYxRWoAAb8Fz.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1389,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTatYxRXkAAAZ8e.jpg?name=small",
-            "width": 1073
-          },
-          {
-            "height": 1194,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTatYxRWoAAb8Fz.jpg?name=small",
-            "width": 922
-          }
-        ],
-        "name": "David Sacks",
-        "text": "Only President Trump could convene all the leaders of the top companies developing chips, data centers and frontier models for Super Intelligence. This new Industrial Revolution has already created a million new jobs and is spurring a bigger infrastructure build-out than the railroads, canals and grid combined. I was honored to witness history as the leaders of the frontier lab companies signed the White House Accord on Super Intelligence, accepting responsibility for the safe development of their products and imposing new internal controls and external audits. This is far better than waiting years for some international agreement that would probably never happen. President Trump continues to ensure that U.S. remains the technology leader while putting Americans first.",
-        "url": "https://x.com/DavidSacks/status/2105060520327786914",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "finkd",
-        "avatar": "https://pbs.twimg.com/profile_images/77846223/profile_200x200.jpg",
-        "created_at_shanghai": "2026-09-30 08:08:33",
-        "created_at_utc": "2026-09-30T00:08:33.000Z",
-        "id": "2105087367686025454",
-        "images": [],
-        "media": [],
-        "name": "Mark Zuckerberg",
-        "text": "I think it's a significant positive step that the leaders of every major American lab have committed to implementing robust internal controls and multiple layers of audits and reviews. This should give people more confidence that the technology each lab is building will work as intended.",
-        "url": "https://x.com/finkd/status/2105087367686025454",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 221,
-        "likes": 4096,
-        "quotes": 47,
-        "replies": 368,
-        "retweets": 387,
-        "views": 204674
-      },
-      "url": "https://x.com/elonmusk/status/2105103348273983868",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2105093055535817108",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T00:31:09.000Z",
-      "created_at_shanghai": "2026-09-30 08:31:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "This is excellent 🫡\nIts pretty fucking cool that we get to live at the time when there is a \"White House Accord on Super Intelligence.\" Lets work together and do this right.",
-      "quote": null,
-      "retweet": {
-        "author": "_sholtodouglas",
-        "avatar": "https://pbs.twimg.com/profile_images/2003274349906919424/GyoVg0kX_200x200.jpg",
-        "created_at_shanghai": "2026-09-30 07:19:33",
-        "created_at_utc": "2026-09-29T23:19:33.000Z",
-        "id": "2105075034008256975",
-        "images": [
-          "https://pbs.twimg.com/media/HTa41zza8AAMDMW.png?name=small"
-        ],
-        "media": [
-          {
-            "height": 791,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTa41zza8AAMDMW.png?name=small",
-            "width": 611
-          }
-        ],
-        "name": "Sholto Douglas",
-        "text": "This is excellent 🫡\nIts pretty fucking cool that we get to live at the time when there is a \"White House Accord on Super Intelligence.\" Lets work together and do this right.",
-        "url": "https://x.com/_sholtodouglas/status/2105075034008256975",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 62,
-        "likes": 682,
-        "quotes": 7,
-        "replies": 48,
-        "retweets": 82,
-        "views": 43364
-      },
-      "url": "https://x.com/elonmusk/status/2105093055535817108",
-      "images": [
-        "https://pbs.twimg.com/media/HTa41zza8AAMDMW.png?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTa41zza8AAMDMW.png?name=small",
-          "width": 611,
-          "height": 791
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2105092479053975681",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T00:28:52.000Z",
-      "created_at_shanghai": "2026-09-30 08:28:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We should just sandbox the agents by giving them Delta Wifi",
-      "quote": null,
-      "retweet": {
-        "author": "mdahardy",
-        "avatar": "https://pbs.twimg.com/profile_images/1375442219382009858/noG-fFfG_200x200.jpg",
-        "created_at_shanghai": "2026-09-29 00:51:18",
-        "created_at_utc": "2026-09-28T16:51:18.000Z",
-        "id": "2104614943010218034",
-        "images": [],
-        "media": [],
-        "name": "Matt Hardy",
-        "text": "We should just sandbox the agents by giving them Delta Wifi",
-        "url": "https://x.com/mdahardy/status/2104614943010218034",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 152,
-        "likes": 6011,
-        "quotes": 49,
-        "replies": 129,
-        "retweets": 350,
-        "views": 206814
-      },
-      "url": "https://x.com/elonmusk/status/2105092479053975681",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 9,
   "page_size": 20,
-  "total": 478,
-  "total_pages": 24,
-  "updated_at_shanghai": "2026-10-05 16:52:26",
+  "total": 484,
+  "total_pages": 25,
+  "updated_at_shanghai": "2026-10-06 01:27:56",
   "account": "elonmusk"
 }
