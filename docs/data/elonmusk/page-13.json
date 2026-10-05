@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2104287530606907824",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:10:17.000Z",
+      "created_at_shanghai": "2026-09-28 03:10:17",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 is insanely good.\n\nThe model is not the bottleneck anymore. I believe harness reliability and everything around it is...\n\nI read almost every comment on my \"Week 1 at SpaceXAI\" post, and one thing surprised me.\n\nNot many people said \"make Grok smarter\", but rather make the agents and bots finish the work 😅\n\n> don't stop halfway through\n> don't lose the browser\n> don't forget what you're doing\n> don't get stuck and wait for me to notice\n\nThat's actually a great problem to have. People are already using Grok for real work (love that!). Now the rest of the system needs to be as reliable as the model is capable.\n\nTools, browser, memory, state, retries, errors... There are so many ways an agent can fail even when the model knows exactly what to do.\n\nBeen working on some of that 👀",
+      "quote": null,
+      "retweet": {
+        "author": "larsencc",
+        "avatar": "https://pbs.twimg.com/profile_images/1903676613335937024/ZHHPeMPx_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 01:55:33",
+        "created_at_utc": "2026-09-27T17:55:33.000Z",
+        "id": "2104268724480209018",
+        "images": [],
+        "media": [],
+        "name": "Larsen Cundric",
+        "text": "Grok 4.7 is insanely good.\n\nThe model is not the bottleneck anymore. I believe harness reliability and everything around it is...\n\nI read almost every comment on my \"Week 1 at SpaceXAI\" post, and one thing surprised me.\n\nNot many people said \"make Grok smarter\", but rather make the agents and bots finish the work 😅\n\n> don't stop halfway through\n> don't lose the browser\n> don't forget what you're doing\n> don't get stuck and wait for me to notice\n\nThat's actually a great problem to have. People are already using Grok for real work (love that!). Now the rest of the system needs to be as reliable as the model is capable.\n\nTools, browser, memory, state, retries, errors... There are so many ways an agent can fail even when the model knows exactly what to do.\n\nBeen working on some of that 👀",
+        "url": "https://x.com/larsencc/status/2104268724480209018",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 198,
+        "quotes": 0,
+        "replies": 38,
+        "retweets": 25,
+        "views": 16960
+      },
+      "url": "https://x.com/elonmusk/status/2104287530606907824",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2104286931194704092",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1198,75 +1239,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2104141117302182185",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-27T09:28:30.000Z",
-      "created_at_shanghai": "2026-09-27 17:28:30",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Opus 5.5 created an animation highlighting one of the biggest risks for superintelligence...",
-      "quote": null,
-      "retweet": {
-        "author": "AndrewOnXYZ",
-        "avatar": "https://pbs.twimg.com/profile_images/2049559711821799424/nJ4aYdQq_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 23:12:44",
-        "created_at_utc": "2026-09-26T15:12:44.000Z",
-        "id": "2103865359988125706",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103865017187655680/img/njhDk0Ghusud3ara.jpg"
-        ],
-        "media": [
-          {
-            "duration": 316,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103865017187655680/img/njhDk0Ghusud3ara.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103865017187655680/vid/avc1/1920x1080/OQF_KBLI3ONRw3BI.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "AndrewOnXYZ",
-        "text": "Opus 5.5 created an animation highlighting one of the biggest risks for superintelligence...",
-        "url": "https://x.com/AndrewOnXYZ/status/2103865359988125706",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 405,
-        "likes": 740,
-        "quotes": 12,
-        "replies": 49,
-        "retweets": 103,
-        "views": 39131
-      },
-      "url": "https://x.com/elonmusk/status/2104141117302182185",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2103865017187655680/img/njhDk0Ghusud3ara.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2103865017187655680/vid/avc1/1920x1080/OQF_KBLI3ONRw3BI.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103865017187655680/img/njhDk0Ghusud3ara.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 316
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 13,
   "page_size": 20,
-  "total": 467,
+  "total": 468,
   "total_pages": 24,
-  "updated_at_shanghai": "2026-10-05 08:43:13",
+  "updated_at_shanghai": "2026-10-05 10:05:16",
   "account": "elonmusk"
 }
