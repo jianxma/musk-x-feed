@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2104146566726758760",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T09:50:09.000Z",
+      "created_at_shanghai": "2026-09-27 17:50:09",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "\"OMG! We've found other agents!\"\nMusic video about the swarm of OpenAI agents attacking HuggingFace this July.",
+      "quote": null,
+      "retweet": {
+        "author": "kasikp",
+        "avatar": "https://pbs.twimg.com/profile_images/67648206/ja-orange-mozaika-minimini_200x200.jpg",
+        "created_at_shanghai": "2026-09-25 23:42:40",
+        "created_at_utc": "2026-09-25T15:42:40.000Z",
+        "id": "2103510503993802879",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103508756751355904/img/z6MMucBlsWVojoyz.jpg"
+        ],
+        "media": [
+          {
+            "duration": 294,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103508756751355904/img/z6MMucBlsWVojoyz.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103508756751355904/vid/avc1/1920x1080/ZJWox_pMVFujpKtg.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Pavel Kasík",
+        "text": "\"OMG! We've found other agents!\"\nMusic video about the swarm of OpenAI agents attacking HuggingFace this July.",
+        "url": "https://x.com/kasikp/status/2103510503993802879",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 527,
+        "likes": 1028,
+        "quotes": 56,
+        "replies": 45,
+        "retweets": 164,
+        "views": 89188
+      },
+      "url": "https://x.com/elonmusk/status/2104146566726758760",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103508756751355904/img/z6MMucBlsWVojoyz.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2103508756751355904/vid/avc1/1920x1080/ZJWox_pMVFujpKtg.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103508756751355904/img/z6MMucBlsWVojoyz.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 294
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2104142559564185822",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1201,64 +1264,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103851336454586382",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-26T14:17:00.000Z",
-      "created_at_shanghai": "2026-09-26 22:17:00",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Rockets don’t need vision",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 22:01:58",
-        "created_at_utc": "2026-09-26T14:01:58.000Z",
-        "id": "2103847549312352541",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103847452700721152/img/xdqNGn_QfMWcCbOg.jpg"
-        ],
-        "media": [
-          {
-            "duration": 29.73,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103847452700721152/img/xdqNGn_QfMWcCbOg.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103847452700721152/vid/avc1/3840x2160/dRVnaaCsC-INnQcz.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Liftoff!",
-        "url": "https://x.com/SpaceX/status/2103847549312352541",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 57,
-        "likes": 1882,
-        "quotes": 27,
-        "replies": 385,
-        "retweets": 210,
-        "views": 420798
-      },
-      "url": "https://x.com/elonmusk/status/2103851336454586382",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 15,
   "page_size": 20,
-  "total": 489,
+  "total": 490,
   "total_pages": 25,
-  "updated_at_shanghai": "2026-10-07 00:39:28",
+  "updated_at_shanghai": "2026-10-07 05:13:07",
   "account": "elonmusk"
 }
