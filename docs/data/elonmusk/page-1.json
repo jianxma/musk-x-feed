@@ -1,17 +1,178 @@
 {
   "posts": [
     {
-      "id": "2107894231922876510",
+      "id": "2107979289501344137",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T23:40:01.000Z",
+      "created_at_shanghai": "2026-10-08 07:40:01",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok x 𝕏",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 05:40:18",
+        "created_at_utc": "2026-10-07T21:40:18.000Z",
+        "id": "2107949161878606089",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg"
+        ],
+        "media": [
+          {
+            "duration": 12.166,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107948628950298624/vid/avc1/1920x1080/tlGtL_3iQXfm7WuO.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now search, read, and monitor X.",
+        "url": "https://x.com/bot/status/2107949161878606089",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 18,
+        "likes": 518,
+        "quotes": 9,
+        "replies": 185,
+        "retweets": 69,
+        "views": 249556
+      },
+      "url": "https://x.com/elonmusk/status/2107979289501344137",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107961709717807149",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T22:30:10.000Z",
+      "created_at_shanghai": "2026-10-08 06:30:10",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink beams are turned off over India, so the claim that they were used by anyone for any reason is absolutely false",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 04:22:42",
+        "created_at_utc": "2026-10-07T20:22:42.000Z",
+        "id": "2107929632611893361",
+        "images": [
+          "https://pbs.twimg.com/media/HUDcgwlbQAA6Fre.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1254,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUDcgwlbQAA6Fre.jpg?name=small",
+            "width": 1254
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "The claim that militants used Starlink in India makes no sense.\n\nStarlink satellite beams are turned off over India. With the beams off, no Starlink device can connect in India.\n\nEven Elon Musk himself has confirmed this.\n\nStop spreading misinformation.",
+        "url": "https://x.com/cb_doge/status/2107929632611893361",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 198,
+        "likes": 4892,
+        "quotes": 122,
+        "replies": 903,
+        "retweets": 717,
+        "views": 677288
+      },
+      "url": "https://x.com/elonmusk/status/2107961709717807149",
+      "images": [
+        "https://pbs.twimg.com/media/HUD8APza8AAQn39.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUD8APza8AAQn39.jpg?name=small",
+          "width": 986,
+          "height": 318
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2107921069126672602",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T19:48:40.000Z",
+      "created_at_shanghai": "2026-10-08 03:48:40",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try the latest Grok @Bot!",
+      "quote": {
+        "author": "ericzakariasson",
+        "avatar": "https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 01:36:21",
+        "created_at_utc": "2026-10-07T17:36:21.000Z",
+        "id": "2107887770937283028",
+        "images": [
+          "https://pbs.twimg.com/media/HUC4wcPaEAAT-O0.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 900,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUC4wcPaEAAT-O0.jpg?name=small",
+            "width": 1600
+          }
+        ],
+        "name": "eric zakariasson",
+        "text": "grok @bot 0.68.1 is out!\n\n- Bots can build slide decks with you and deliver them as PowerPoint or Google Slides\n- send formatted emails straight from a draft card\n- your messages in a 1:1 chat take that Bot's color\n- faster computer use, now on a 1920x1200 screen\n\nhttps://x.ai/changelog/bot",
+        "url": "https://x.com/ericzakariasson/status/2107887770937283028",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 211,
+        "likes": 3914,
+        "quotes": 55,
+        "replies": 694,
+        "retweets": 514,
+        "views": 2640340
+      },
+      "url": "https://x.com/elonmusk/status/2107921069126672602",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107894231922876510",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-07T18:02:02.000Z",
       "created_at_shanghai": "2026-10-08 02:02:02",
       "type": "引用",
       "type_label": "引用",
-      "text": "However, most @Bot requests are pretty simple and will be handled by a lightning-fast version of Grok 4.8 when that comes out. \n\nOperating principle is to give Grok Bot users the best possible combination of speed & intelligence.",
+      "text": "However, most @Bot requests are pretty simple and will be handled by a lightning-fast version of Grok 4.8 when that comes out. \n\nOperating principle is to give Grok Bot users the best possible combination of speed &amp; intelligence.",
       "quote": {
         "author": "minchoi",
         "avatar": "https://pbs.twimg.com/profile_images/1638359113221517312/CBZaJFyA_200x200.jpg",
@@ -45,7 +206,7 @@
       "id": "2107887475251458094",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-07T17:35:11.000Z",
@@ -97,7 +258,7 @@
       "id": "2107876928162275329",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-07T16:53:16.000Z",
@@ -136,7 +297,7 @@
       "id": "2107876487454179416",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-07T16:51:31.000Z",
@@ -177,7 +338,7 @@
       "id": "2107872672785084550",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-07T16:36:22.000Z",
@@ -229,7 +390,7 @@
       "id": "2107872596465446922",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-07T16:36:04.000Z",
@@ -279,7 +440,7 @@
       "id": "2107872382367281252",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-07T16:35:12.000Z",
@@ -331,7 +492,7 @@
       "id": "2107854307077034294",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-07T15:23:23.000Z",
@@ -383,7 +544,7 @@
       "id": "2107853835528274320",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-07T15:21:31.000Z",
@@ -433,7 +594,7 @@
       "id": "2107849623364895151",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-07T15:04:46.000Z",
@@ -474,7 +635,7 @@
       "id": "2107848493830463815",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-07T15:00:17.000Z",
@@ -794,152 +955,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2107495983328464979",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:39:32.000Z",
-      "created_at_shanghai": "2026-10-06 23:39:32",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Make no mistakes",
-      "quote": {
-        "author": "Starlink",
-        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 23:19:32",
-        "created_at_utc": "2026-10-06T15:19:32.000Z",
-        "id": "2107490948745982260",
-        "images": [],
-        "media": [],
-        "name": "Starlink",
-        "text": "Operating safely in space requires knowing where satellites and objects are – and where they will be in the future. This requires all operators sharing their satellites’ ephemeris data, along with predicted trajectories and planned maneuvers → https://space-safety.com",
-        "url": "https://x.com/Starlink/status/2107490948745982260",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 118,
-        "likes": 4971,
-        "quotes": 60,
-        "replies": 605,
-        "retweets": 516,
-        "views": 608007
-      },
-      "url": "https://x.com/elonmusk/status/2107495983328464979",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107495875576824197",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:39:06.000Z",
-      "created_at_shanghai": "2026-10-06 23:39:06",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Track the change log of @Grok Bot &amp; Build\n https://x.ai/changelog/bot",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 166,
-        "likes": 1860,
-        "quotes": 38,
-        "replies": 365,
-        "retweets": 294,
-        "views": 553634
-      },
-      "url": "https://x.com/elonmusk/status/2107495875576824197",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107495338873389121",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:36:58.000Z",
-      "created_at_shanghai": "2026-10-06 23:36:58",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot can be your personal chief financial officer!",
-      "quote": {
-        "author": "Teslaconomics",
-        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 01:57:45",
-        "created_at_utc": "2026-10-05T17:57:45.000Z",
-        "id": "2107168380965060790",
-        "images": [
-          "https://pbs.twimg.com/media/HT4ln8raYAAavrK.jpg?name=small",
-          "https://pbs.twimg.com/media/HT4lrP7bQAE2nkl.jpg?name=small",
-          "https://pbs.twimg.com/media/HT4lrP8bcAAgEvP.jpg?name=small",
-          "https://pbs.twimg.com/media/HT4lrQAbsAA_0v6.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2694,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4ln8raYAAavrK.jpg?name=small",
-            "width": 4079
-          },
-          {
-            "height": 2090,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4lrP7bQAE2nkl.jpg?name=small",
-            "width": 2276
-          },
-          {
-            "height": 1848,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4lrP8bcAAgEvP.jpg?name=small",
-            "width": 2174
-          },
-          {
-            "height": 2220,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4lrQAbsAA_0v6.jpg?name=small",
-            "width": 2146
-          }
-        ],
-        "name": "Teslaconomics",
-        "text": "I literally hooked up ALL my finance accounts to Grok Bot. \n\nI really mean all of them:\n\n1/ Chase\n2/ Charles Schwab\n3/ E*TRADE\n4/ Fidelity\n5/ Robinhood\n6/ Wealthfront\n7/ Apple Card\n8/ 𝕏 Money\n\nFYI, this is a total of 30 accounts... Chase alone is 13 accounts between checking, savings, brokerage, credit cards, a 401(k), trusts, a stock plan, and 529s for the kids.\n\nI was already honestly the best with my $ money and I’ve NEVER made a late payment in my life. But before Grok Bot, I was wasting so much time bc every answer lived in different apps. Like my cash was in one place, cards in another, brokerage accounts somewhere else, and had to compile everything in a spreadsheet, if I even got around to putting it together.\n\nNow I just text my Grok Bot CFO.\n\nI can ask, “What’s my cash right now?” and it pulls everything together and separates personal from business. I can ask which credit cards are coming due and whether I have enough cash to pay them all in full. Green means I’m covered, red means I’m short, and it tells me exactly how much I need. I actually tested this... going red on purpose. Like I moved $ money around so I would come up short on one of the upcoming bills, and Grok caught it.\n\nI can even ask, “Where did my $ money go?” and instead of opening a bunch of apps, downloading transactions, cleaning up a spreadsheet, and making a chart myself, it pulls everything together and gives me the breakdown.\n\nToday, I also asked it for a pie chart of all my stock investments with the amounts and percentages. \n\n1/ TSLA is 84.9%\n2/ SPCX is 10.4%\n3/ NVDA is 4.7% \n\nThat’s across $ money sitting in different brokerage accounts, and it's awesome that I didn’t have to think about where any of it was. \n\nI literally just asked it one question... you can see for yourself. \n\nIf you’re serious about your finances, you already ask the same questions all the time. \n\n• Like, can I cover everything that’s due? \n• Where did my $ money go? \n• How much $ cash do I really have? \n• What investments do I actually own? \n\nBut honestly, the annoying part is that your financial life is usually scattered across 10+ different apps/platforms and a bunch of accounts, so getting a real answer takes a lot of work and your time. And honestly, most people probably don’t even look until something feels off or if they get a notification that a payment was missed or something.\n\nNow, with all my finance accounts linked, I just ask a normal question, Grok Bot checks everything it has connected, and gives me the answer. Then I can ask the same thing tomorrow, and again whenever, and get the updated version without rebuilding anything.\n\nThe fact that you are able to talk to your entire financial life like you’re texting someone who already knows where everything is... this is a total game changer in the world of finance imo. \n\nIf you really care about your $ money, hook yours up to Grok Bot. \n\nIt's so worth it.",
-        "url": "https://x.com/Teslaconomics/status/2107168380965060790",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 659,
-        "likes": 4448,
-        "quotes": 73,
-        "replies": 651,
-        "retweets": 541,
-        "views": 2670166
-      },
-      "url": "https://x.com/elonmusk/status/2107495338873389121",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 506,
+  "total": 509,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-10-08 03:32:22",
+  "updated_at_shanghai": "2026-10-08 07:43:42",
   "account": "elonmusk"
 }
