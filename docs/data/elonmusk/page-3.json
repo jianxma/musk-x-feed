@@ -1,6 +1,215 @@
 {
   "posts": [
     {
+      "id": "2106769853575000431",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T15:34:09.000Z",
+      "created_at_shanghai": "2026-10-04 23:34:09",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Yes",
+      "quote": {
+        "author": "VulcanBench",
+        "avatar": "https://pbs.twimg.com/profile_images/2068355786942910464/rPCF-6wn_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 21:51:28",
+        "created_at_utc": "2026-10-04T13:51:28.000Z",
+        "id": "2106744011847610777",
+        "images": [],
+        "media": [],
+        "name": "VulcanBench",
+        "text": "Grok 4.7 writes great code.",
+        "url": "https://x.com/VulcanBench/status/2106744011847610777",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 13,
+        "likes": 545,
+        "quotes": 3,
+        "replies": 203,
+        "retweets": 69,
+        "views": 306142
+      },
+      "url": "https://x.com/elonmusk/status/2106769853575000431",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2106769237435982129",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T15:31:42.000Z",
+      "created_at_shanghai": "2026-10-04 23:31:42",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try Grok @Bot",
+      "quote": {
+        "author": "0xCarnagee",
+        "avatar": "https://pbs.twimg.com/profile_images/2054559765347311616/4WpsW9RL_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 04:20:27",
+        "created_at_utc": "2026-10-03T20:20:27.000Z",
+        "id": "2106479514805207056",
+        "images": [
+          "https://pbs.twimg.com/media/HTu22bcWwAADVZO.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2112,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTu22bcWwAADVZO.jpg?name=small",
+            "width": 1632
+          }
+        ],
+        "name": "Carnage",
+        "text": "this is unreal…\n\nthe SpaceXAI engineer who leads Grok Bot, Lauren Tan - shipped 2,500 PRs last month - and reviews them after they land, in the morning\n\nI took SpaceXAI's Grok Bot docs + her 1-hour livestream and turned them into a 3-page prompting blueprint: \n\nthe 10-field prompt structure, the 4-rung trust ladder, the two loops, and the guardrails that let agents ship while you sleep.\n\nsend this PDF to your Grok Bot, save it as a skill, and turn it into an always-on team that actually finishes work",
+        "url": "https://x.com/0xCarnagee/status/2106479514805207056",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 39,
+        "likes": 527,
+        "quotes": 8,
+        "replies": 184,
+        "retweets": 73,
+        "views": 366540
+      },
+      "url": "https://x.com/elonmusk/status/2106769237435982129",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2106764483762717173",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T15:12:49.000Z",
+      "created_at_shanghai": "2026-10-04 23:12:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "MAJOR update for Grok Imagine by @SpaceXAI 🔥\n\nGrok Imagine now supports keyframes for video generation! You can choose images for the beginning, end, and specific moments in between, then let Grok generate the motion connecting them. Much more control over how your video unfolds.\n\nFirst Frame and Last Frame were already available, but intermediate keyframes are new. The feature has appeared in the interface without an official announcement yet. You heard it here first! 👀",
+      "quote": null,
+      "retweet": {
+        "author": "mark_k",
+        "avatar": "https://pbs.twimg.com/profile_images/1923114794804039680/HMfSchLD_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 03:51:55",
+        "created_at_utc": "2026-10-03T19:51:55.000Z",
+        "id": "2106472336048423128",
+        "images": [
+          "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 587,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small",
+            "width": 1317
+          }
+        ],
+        "name": "Mark Kretschmann",
+        "text": "MAJOR update for Grok Imagine by @SpaceXAI 🔥\n\nGrok Imagine now supports keyframes for video generation! You can choose images for the beginning, end, and specific moments in between, then let Grok generate the motion connecting them. Much more control over how your video unfolds.\n\nFirst Frame and Last Frame were already available, but intermediate keyframes are new. The feature has appeared in the interface without an official announcement yet. You heard it here first! 👀",
+        "url": "https://x.com/mark_k/status/2106472336048423128",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 84,
+        "likes": 879,
+        "quotes": 11,
+        "replies": 81,
+        "retweets": 92,
+        "views": 94296
+      },
+      "url": "https://x.com/elonmusk/status/2106764483762717173",
+      "images": [
+        "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small",
+          "width": 1317,
+          "height": 587
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2106764384924024964",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T15:12:25.000Z",
+      "created_at_shanghai": "2026-10-04 23:12:25",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "It looks like I might have underestimated Grok 4.7, this is a very good model.\n\nIt just scored the highest on Frontier v4 beating GPT-6.1 Sol, Opus 5.5, and GPT-6 Astra at every effort level.",
+      "quote": null,
+      "retweet": {
+        "author": "morganlinton",
+        "avatar": "https://pbs.twimg.com/profile_images/2058612692580184064/h0dOdYSc_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 21:24:53",
+        "created_at_utc": "2026-10-04T13:24:53.000Z",
+        "id": "2106737322255622550",
+        "images": [
+          "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2475,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small",
+            "width": 2400
+          }
+        ],
+        "name": "Morgan",
+        "text": "It looks like I might have underestimated Grok 4.7, this is a very good model.\n\nIt just scored the highest on Frontier v4 beating GPT-6.1 Sol, Opus 5.5, and GPT-6 Astra at every effort level.",
+        "url": "https://x.com/morganlinton/status/2106737322255622550",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 57,
+        "likes": 670,
+        "quotes": 17,
+        "replies": 81,
+        "retweets": 76,
+        "views": 88484
+      },
+      "url": "https://x.com/elonmusk/status/2106764384924024964",
+      "images": [
+        "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small",
+          "width": 2400,
+          "height": 2475
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2106762590382948631",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -826,198 +1035,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2106662762894307405",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-04T08:28:37.000Z",
-      "created_at_shanghai": "2026-10-04 16:28:37",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "It’s so OVER … \n\nWe’re so BACK!!",
-      "quote": {
-        "author": "Teslaconomics",
-        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
-        "created_at_shanghai": "2026-10-04 11:56:31",
-        "created_at_utc": "2026-10-04T03:56:31.000Z",
-        "id": "2106594289476411586",
-        "images": [],
-        "media": [],
-        "name": "Teslaconomics",
-        "text": "Grok Bot is operating so insanely fast these days, it feels like SpaceX already launched AI data centers into orbit.\n\nSeriously… what is going on?! \n\nIt’s gotten ridiculously good…",
-        "url": "https://x.com/Teslaconomics/status/2106594289476411586",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 86,
-        "likes": 1633,
-        "quotes": 41,
-        "replies": 441,
-        "retweets": 218,
-        "views": 370464
-      },
-      "url": "https://x.com/elonmusk/status/2106662762894307405",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2106575798576845260",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-04T02:43:03.000Z",
-      "created_at_shanghai": "2026-10-04 10:43:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "A public service announcement.",
-      "quote": null,
-      "retweet": {
-        "author": "OppenheimJason",
-        "avatar": "https://pbs.twimg.com/profile_images/1296121247214866432/1v-Fz73z_200x200.jpg",
-        "created_at_shanghai": "2026-10-04 09:00:53",
-        "created_at_utc": "2026-10-04T01:00:53.000Z",
-        "id": "2106550089271668780",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2106548834684088322/img/EKqlKUMyK67Hm8Wz.jpg"
-        ],
-        "media": [
-          {
-            "duration": 176.958,
-            "height": 3840,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106548834684088322/img/EKqlKUMyK67Hm8Wz.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2106548834684088322/vid/avc1/2160x3840/yD4gELDwu2IpMz7E.mp4?tag=29",
-            "width": 2160
-          }
-        ],
-        "name": "Jason Oppenheim",
-        "text": "A public service announcement.",
-        "url": "https://x.com/OppenheimJason/status/2106550089271668780",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 171,
-        "likes": 1344,
-        "quotes": 33,
-        "replies": 111,
-        "retweets": 196,
-        "views": 69446
-      },
-      "url": "https://x.com/elonmusk/status/2106575798576845260",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2106548834684088322/img/EKqlKUMyK67Hm8Wz.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2106548834684088322/vid/avc1/2160x3840/yD4gELDwu2IpMz7E.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106548834684088322/img/EKqlKUMyK67Hm8Wz.jpg",
-          "width": 2160,
-          "height": 3840,
-          "duration": 176.958
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2106561605156864062",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-04T01:46:39.000Z",
-      "created_at_shanghai": "2026-10-04 09:46:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "In 2024, Canada euthanized 16,499 non-criminals. \n\nIn 2024, the United States executed 25 convinced criminals. \n\nIn 2025, Canada euthanized over 17,000 non-criminals. \n\nIn 2025, the United States executed 47 convinced criminals.",
-      "quote": null,
-      "retweet": {
-        "author": "KatieMiller",
-        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
-        "created_at_shanghai": "2026-10-04 00:53:02",
-        "created_at_utc": "2026-10-03T16:53:02.000Z",
-        "id": "2106427315593138227",
-        "images": [],
-        "media": [],
-        "name": "Katie Miller",
-        "text": "In 2024, Canada euthanized 16,499 non-criminals. \n\nIn 2024, the United States executed 25 convinced criminals. \n\nIn 2025, Canada euthanized over 17,000 non-criminals. \n\nIn 2025, the United States executed 47 convinced criminals.",
-        "url": "https://x.com/KatieMiller/status/2106427315593138227",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 73,
-        "likes": 1468,
-        "quotes": 30,
-        "replies": 118,
-        "retweets": 339,
-        "views": 59495
-      },
-      "url": "https://x.com/elonmusk/status/2106561605156864062",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2106560585358082229",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-04T01:42:36.000Z",
-      "created_at_shanghai": "2026-10-04 09:42:36",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Exactly",
-      "quote": {
-        "author": "Rothmus",
-        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
-        "created_at_shanghai": "2026-10-03 10:44:24",
-        "created_at_utc": "2026-10-03T02:44:24.000Z",
-        "id": "2106213751158403462",
-        "images": [],
-        "media": [],
-        "name": "Rothmus 🏴",
-        "text": "A humanoid is a capital good on a scale that changes the constraint. It lengthens production and raises what labor and land can turn out, which is the abundance Elon is pointing at.\n\nA person supplies about 2,000 hours a year. A robot on a 168 hour week supplies about 8,700. His floor of 1 billion within 10 years, priced in the low 10,000s, equals about 4 billion full time equivalents against a world labor force of 3.5 billion. \nThe 10 billion at 15 years is an order of magnitude past that. \n\nRobots building robots still require saving, because energy, materials, and machines have to be bid into that line.\nExpected abundance holds for ordinary wants which is what matters for people as consumers. Housing, food, care, and routine medicine get repriced toward energy and materials until a household’s budget stops being what limits them. \n\nAn owner running 100s or 1,000s of agents earns the return on that capital stock, which is also how universal high income shows up as purchasing power. \n\nMoney prices remain the way to allocate whatever is still scarce, that is energy, locations, raw materials. At least in the short term. \n\nEnergy is the binding input, and settling more than one planet adds land, minerals, and generation beyond a single world.\n\nTLDR: (1) More energy. (2) Multiplanetary doesn’t hurt.",
-        "url": "https://x.com/Rothmus/status/2106213751158403462",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 15,
-        "likes": 361,
-        "quotes": 4,
-        "replies": 82,
-        "retweets": 37,
-        "views": 243611
-      },
-      "url": "https://x.com/elonmusk/status/2106560585358082229",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 490,
+  "total": 494,
   "total_pages": 25,
-  "updated_at_shanghai": "2026-10-07 08:41:57",
+  "updated_at_shanghai": "2026-10-07 14:28:42",
   "account": "elonmusk"
 }
