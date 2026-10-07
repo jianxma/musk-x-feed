@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2105350300534210708",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-30T17:33:21.000Z",
+      "created_at_shanghai": "2026-10-01 01:33:21",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "New in @Grok @Bot",
+      "quote": {
+        "author": "mattyp",
+        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 01:12:55",
+        "created_at_utc": "2026-09-30T17:12:55.000Z",
+        "id": "2105345158162063493",
+        "images": [
+          "https://pbs.twimg.com/media/HTeuD_KXYAAks10.jpg"
+        ],
+        "media": [
+          {
+            "duration": 135.633,
+            "height": 4053,
+            "thumbnail_url": "https://pbs.twimg.com/media/HTeuD_KXYAAks10.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105340212809211904/vid/avc1/1920x1080/F_7V7KjZQs8AhAa3.mp4?tag=29",
+            "width": 7206
+          }
+        ],
+        "name": "matt palmer",
+        "text": "What's new in Grok Bot\n\n0:19 Team bots - create bots shared with your team members\n1:10 Finances - search and manage your finances with @plaid\n1:32 Voice calls - @bot can search chats during calls and gracefully handles interruptions\n\nLike this for a special bot animation on @X!",
+        "url": "https://x.com/mattyp/status/2105345158162063493",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 38,
+        "likes": 537,
+        "quotes": 7,
+        "replies": 157,
+        "retweets": 81,
+        "views": 335949
+      },
+      "url": "https://x.com/elonmusk/status/2105350300534210708",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2105350130354254308",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1134,66 +1186,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2105088893972254789",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T00:14:37.000Z",
-      "created_at_shanghai": "2026-09-30 08:14:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Possible thanks to @taigrr @caelin_sutch @ahmadaccino and the great career staff across the government",
-      "quote": {
-        "author": "WhiteHouse",
-        "avatar": "https://pbs.twimg.com/profile_images/2062605835256127489/atNMwHxg_200x200.jpg",
-        "created_at_shanghai": "2026-09-29 22:56:50",
-        "created_at_utc": "2026-09-29T14:56:50.000Z",
-        "id": "2104948522571231524",
-        "images": [],
-        "media": [],
-        "name": "The White House",
-        "text": "https://America.gov",
-        "url": "https://x.com/WhiteHouse/status/2104948522571231524",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "retweet": {
-        "author": "as400495",
-        "avatar": "https://pbs.twimg.com/profile_images/1960713378202112000/Qkjo4rmw_200x200.jpg",
-        "created_at_shanghai": "2026-09-29 23:42:04",
-        "created_at_utc": "2026-09-29T15:42:04.000Z",
-        "id": "2104959906944315418",
-        "images": [],
-        "media": [],
-        "name": "Edward Coristine",
-        "text": "Possible thanks to @taigrr @caelin_sutch @ahmadaccino and the great career staff across the government",
-        "url": "https://x.com/as400495/status/2104959906944315418",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 22,
-        "likes": 1231,
-        "quotes": 8,
-        "replies": 63,
-        "retweets": 122,
-        "views": 87044
-      },
-      "url": "https://x.com/elonmusk/status/2105088893972254789",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 10,
   "page_size": 20,
-  "total": 494,
+  "total": 495,
   "total_pages": 25,
-  "updated_at_shanghai": "2026-10-07 14:28:42",
+  "updated_at_shanghai": "2026-10-07 21:43:15",
   "account": "elonmusk"
 }
