@@ -1,1005 +1,1061 @@
 {
   "posts": [
     {
-      "id": "2102463325045145978",
+      "id": "2104611961367388251",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T18:21:33.000Z",
-      "created_at_shanghai": "2026-09-23 02:21:33",
+      "created_at_utc": "2026-09-28T16:39:28.000Z",
+      "created_at_shanghai": "2026-09-29 00:39:28",
       "type": "转发",
       "type_label": "转发",
-      "text": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build.\n\nThe update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent performance. It also adds new subagent controls, configurable request limits and long-reasoning reminders.\n\nRelease Notes\n\nVersion 1.0.41 — September 22, 2026\n\nFeatures\n\n• Added a new sports_search tool that can look up live NFL scores, standings, schedules, player stats and team records directly from X data.\n\n• Added a subagent model inheritance setting to /settings. It persists in config.toml and respects managed and overlay layers.\n\n• Per-model request size limits can now be configured to match provider HTTP body caps and control inline image eviction.\n\n• A long-reasoning reminder can now be enabled through config to nudge the model after lengthy hidden-reasoning steps.\n\nBug Fixes\n\n• Fixed the subagent fullscreen view so it no longer shows a stray [Dashboard] button in the header.\n\n• Fixed agent frontmatter mcpServers so headers and URLs from the active agent’s agent.md correctly override config.toml and survive config reloads or agent switches.\n\n• Ctrl+P now opens the command palette immediately from the welcome screen.\n\n• The Dashboard now focuses the “+ New Agent” row instead of leaving the previous session selected.\n\n• Sessions interrupted by a crash now show a clear marker instead of silently dropping the turn.\n\n• Pressing Ctrl+Z immediately after stashing a prompt now restores it.\n\n• The collapsed edit blocks setting now correctly collapses edits even when expanded_by_default is pinned to true.\n\n• Interjections now receive a visible reply before the agent resumes its previous tasks.\n\n• Cancelling a turn blocked on spawn_subagent now tells the model that the child moved to the background instead of claiming it was never executed.\n\n• Saving a queued-prompt edit now returns focus to the composer so the next keystrokes type the next message.\n\n• Subagent activation is now consistent between the TUI and Grok Agent Studio. Tables that only set limits or models no longer disable subagents.\n\n• Effort-level selection now accepts menu labels in addition to IDs.",
+      "text": "Starship performs its orbital insertion burn and enters orbit of Earth for the first time",
       "quote": null,
       "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 01:21:57",
-        "created_at_utc": "2026-09-22T17:21:57.000Z",
-        "id": "2102448328638382234",
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 21:15:48",
+        "created_at_utc": "2026-09-28T13:15:48.000Z",
+        "id": "2104560708969259344",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2104560614626766848/img/WR9uvl1CQ0MlhUhG.jpg"
         ],
         "media": [
           {
-            "duration": 13.183,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg",
+            "duration": 55.33,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104560614626766848/img/WR9uvl1CQ0MlhUhG.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102448025805488128/vid/avc1/1284x1080/gvmCUPk-G1LTDpLr.mp4?tag=29",
-            "width": 1284
+            "url": "https://video.twimg.com/amplify_video/2104560614626766848/vid/avc1/3840x2160/WMLBYlBCU0AQ5vn3.mp4?tag=29",
+            "width": 3840
           }
         ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build.\n\nThe update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent performance. It also adds new subagent controls, configurable request limits and long-reasoning reminders.\n\nRelease Notes\n\nVersion 1.0.41 — September 22, 2026\n\nFeatures\n\n• Added a new sports_search tool that can look up live NFL scores, standings, schedules, player stats and team records directly from X data.\n\n• Added a subagent model inheritance setting to /settings. It persists in config.toml and respects managed and overlay layers.\n\n• Per-model request size limits can now be configured to match provider HTTP body caps and control inline image eviction.\n\n• A long-reasoning reminder can now be enabled through config to nudge the model after lengthy hidden-reasoning steps.\n\nBug Fixes\n\n• Fixed the subagent fullscreen view so it no longer shows a stray [Dashboard] button in the header.\n\n• Fixed agent frontmatter mcpServers so headers and URLs from the active agent’s agent.md correctly override config.toml and survive config reloads or agent switches.\n\n• Ctrl+P now opens the command palette immediately from the welcome screen.\n\n• The Dashboard now focuses the “+ New Agent” row instead of leaving the previous session selected.\n\n• Sessions interrupted by a crash now show a clear marker instead of silently dropping the turn.\n\n• Pressing Ctrl+Z immediately after stashing a prompt now restores it.\n\n• The collapsed edit blocks setting now correctly collapses edits even when expanded_by_default is pinned to true.\n\n• Interjections now receive a visible reply before the agent resumes its previous tasks.\n\n• Cancelling a turn blocked on spawn_subagent now tells the model that the child moved to the background instead of claiming it was never executed.\n\n• Saving a queued-prompt edit now returns focus to the composer so the next keystrokes type the next message.\n\n• Subagent activation is now consistent between the TUI and Grok Agent Studio. Tables that only set limits or models no longer disable subagents.\n\n• Effort-level selection now accepts menu labels in addition to IDs.",
-        "url": "https://x.com/cb_doge/status/2102448328638382234",
+        "name": "SpaceX",
+        "text": "Starship performs its orbital insertion burn and enters orbit of Earth for the first time",
+        "url": "https://x.com/SpaceX/status/2104560708969259344",
         "verified": true,
-        "verified_type": "individual"
+        "verified_type": "organization"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 84,
-        "likes": 1412,
-        "quotes": 9,
-        "replies": 94,
-        "retweets": 177,
-        "views": 339807
+        "bookmarks": 860,
+        "likes": 19298,
+        "quotes": 714,
+        "replies": 677,
+        "retweets": 2957,
+        "views": 2385493
       },
-      "url": "https://x.com/elonmusk/status/2102463325045145978",
+      "url": "https://x.com/elonmusk/status/2104611961367388251",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2104560614626766848/img/WR9uvl1CQ0MlhUhG.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102448025805488128/vid/avc1/1284x1080/gvmCUPk-G1LTDpLr.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg",
-          "width": 1284,
-          "height": 1080,
-          "duration": 13.183
+          "url": "https://video.twimg.com/amplify_video/2104560614626766848/vid/avc1/3840x2160/WMLBYlBCU0AQ5vn3.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104560614626766848/img/WR9uvl1CQ0MlhUhG.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 55.33
         }
       ],
       "enriched": true
     },
     {
-      "id": "2102460533433909417",
+      "id": "2104611238894518393",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T18:10:27.000Z",
-      "created_at_shanghai": "2026-09-23 02:10:27",
+      "created_at_utc": "2026-09-28T16:36:35.000Z",
+      "created_at_shanghai": "2026-09-29 00:36:35",
       "type": "转发",
       "type_label": "转发",
-      "text": "If AI gave you back 2 hours a day, that's 730 hours a year. What would you do with them? Spend more time with your kids? Get healthy? Start the business you've been putting off? That's the conversation about the future of tech I want to have.\n\nWhat becomes possible when people get part of their lives back?",
-      "quote": null,
-      "retweet": {
-        "author": "PeterDiamandis",
-        "avatar": "https://pbs.twimg.com/profile_images/1270804940936503296/oVhO8Njn_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 00:05:23",
-        "created_at_utc": "2026-09-22T16:05:23.000Z",
-        "id": "2102429058558501330",
-        "images": [],
-        "name": "Peter H. Diamandis, MD",
-        "text": "If AI gave you back 2 hours a day, that's 730 hours a year. What would you do with them? Spend more time with your kids? Get healthy? Start the business you've been putting off? That's the conversation about the future of tech I want to have.\n\nWhat becomes possible when people get part of their lives back?",
-        "url": "https://x.com/PeterDiamandis/status/2102429058558501330",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 173,
-        "likes": 2279,
-        "quotes": 69,
-        "replies": 486,
-        "retweets": 292,
-        "views": 390400
-      },
-      "url": "https://x.com/elonmusk/status/2102460533433909417",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102454903901982748",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T17:48:05.000Z",
-      "created_at_shanghai": "2026-09-23 01:48:05",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "💪",
-      "quote": {
-        "author": "THR",
-        "avatar": "https://pbs.twimg.com/profile_images/528317230367268865/Po8lHinI_200x200.jpeg",
-        "created_at_shanghai": "2026-09-22 23:00:15",
-        "created_at_utc": "2026-09-22T15:00:15.000Z",
-        "id": "2102412668519031028",
-        "images": [],
-        "name": "The Hollywood Reporter",
-        "text": "Inside Ari Emanuel's Earliest Days in Hollywood: Coffee Runs, Couch Surfing and Replacing Michael Ovitz's Toilet Paper https://www.hollywoodreporter.com/lifestyle/arts/inside-ari-emanuels-earliest-days-hollywood-memoir-excerpt-1236707236/",
-        "url": "https://x.com/THR/status/2102412668519031028",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "AriEmanuel",
-        "avatar": "https://pbs.twimg.com/profile_images/2084645387726651393/f-1LJwey_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 01:18:46",
-        "created_at_utc": "2026-09-22T17:18:46.000Z",
-        "id": "2102447527354351801",
-        "images": [],
-        "name": "Ari Emanuel",
-        "text": "💪",
-        "url": "https://x.com/AriEmanuel/status/2102447527354351801",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 60,
-        "likes": 848,
-        "quotes": 3,
-        "replies": 60,
-        "retweets": 88,
-        "views": 529674
-      },
-      "url": "https://x.com/elonmusk/status/2102454903901982748",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102454676688162857",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T17:47:11.000Z",
-      "created_at_shanghai": "2026-09-23 01:47:11",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I will admit, I am enjoying vibe coding. I may have been a teensy tiny bit wrong.",
-      "quote": null,
-      "retweet": {
-        "author": "notch",
-        "avatar": "https://pbs.twimg.com/profile_images/1523817638706700288/tVCx9ZP1_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 00:45:52",
-        "created_at_utc": "2026-09-22T16:45:52.000Z",
-        "id": "2102439244887453825",
-        "images": [],
-        "name": "notch",
-        "text": "I will admit, I am enjoying vibe coding. I may have been a teensy tiny bit wrong.",
-        "url": "https://x.com/notch/status/2102439244887453825",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1582,
-        "likes": 23960,
-        "quotes": 317,
-        "replies": 893,
-        "retweets": 959,
-        "views": 1589323
-      },
-      "url": "https://x.com/elonmusk/status/2102454676688162857",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102452256746701030",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T17:37:34.000Z",
-      "created_at_shanghai": "2026-09-23 01:37:34",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We’re taking the calls on the road. 🎟️ Book tour dates + tickets at the link below 👇 \n\nhttps://linktr.ee/ariemanuel",
-      "quote": null,
-      "retweet": {
-        "author": "AriEmanuel",
-        "avatar": "https://pbs.twimg.com/profile_images/2084645387726651393/f-1LJwey_200x200.jpg",
-        "created_at_shanghai": "2026-09-09 00:11:21",
-        "created_at_utc": "2026-09-08T16:11:21.000Z",
-        "id": "2097357128818462732",
-        "images": [
-          "https://pbs.twimg.com/media/HRtPMVSaQAAKTqW.jpg?name=small",
-          "https://pbs.twimg.com/media/HRtPMVQbkAAHmuJ.jpg?name=small"
-        ],
-        "name": "Ari Emanuel",
-        "text": "We’re taking the calls on the road. 🎟️ Book tour dates + tickets at the link below 👇 \n\nhttps://linktr.ee/ariemanuel",
-        "url": "https://x.com/AriEmanuel/status/2097357128818462732",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 29,
-        "likes": 714,
-        "quotes": 8,
-        "replies": 40,
-        "retweets": 90,
-        "views": 287726
-      },
-      "url": "https://x.com/elonmusk/status/2102452256746701030",
-      "images": [
-        "https://pbs.twimg.com/media/HRtPMVSaQAAKTqW.jpg?name=small",
-        "https://pbs.twimg.com/media/HRtPMVQbkAAHmuJ.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102452207094464827",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T17:37:22.000Z",
-      "created_at_shanghai": "2026-09-23 01:37:22",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "X Numbers are here.\n\nShare yours with anyone you want to contact you, even if you don't follow them. It's an optional way for people to message or call you, without you needing to accept requests or follow them back.",
-      "quote": null,
-      "retweet": {
-        "author": "chat",
-        "avatar": "https://pbs.twimg.com/profile_images/2036559411485773825/8ceAb882_200x200.png",
-        "created_at_shanghai": "2026-09-23 00:57:46",
-        "created_at_utc": "2026-09-22T16:57:46.000Z",
-        "id": "2102442240354165057",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg"
-        ],
-        "media": [
-          {
-            "duration": 31.25,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102442131520733184/vid/avc1/1920x1080/fDxu-T-W4oJszC7b.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "XChat",
-        "text": "X Numbers are here.\n\nShare yours with anyone you want to contact you, even if you don't follow them. It's an optional way for people to message or call you, without you needing to accept requests or follow them back.",
-        "url": "https://x.com/chat/status/2102442240354165057",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1499,
-        "likes": 5349,
-        "quotes": 258,
-        "replies": 256,
-        "retweets": 700,
-        "views": 1207710
-      },
-      "url": "https://x.com/elonmusk/status/2102452207094464827",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102442131520733184/vid/avc1/1920x1080/fDxu-T-W4oJszC7b.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 31.25
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2102452194201293090",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T17:37:19.000Z",
-      "created_at_shanghai": "2026-09-23 01:37:19",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Today we're beginning to roll out 𝕏 Numbers, a brand new way to let anyone contact you on 𝕏 without needing to follow each other or accept requests.",
-      "quote": null,
-      "retweet": {
-        "author": "benjitaylor",
-        "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
-        "created_at_shanghai": "2026-09-23 01:04:34",
-        "created_at_utc": "2026-09-22T17:04:34.000Z",
-        "id": "2102443951898992825",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg"
-        ],
-        "media": [
-          {
-            "duration": 31.25,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102442131520733184/vid/avc1/1920x1080/fDxu-T-W4oJszC7b.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Benji Taylor",
-        "text": "Today we're beginning to roll out 𝕏 Numbers, a brand new way to let anyone contact you on 𝕏 without needing to follow each other or accept requests.",
-        "url": "https://x.com/benjitaylor/status/2102443951898992825",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 805,
-        "likes": 4258,
-        "quotes": 125,
-        "replies": 250,
-        "retweets": 326,
-        "views": 547799
-      },
-      "url": "https://x.com/elonmusk/status/2102452194201293090",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102442131520733184/vid/avc1/1920x1080/fDxu-T-W4oJszC7b.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102442131520733184/img/ebIvZybLzH5PN-Ti.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 31.25
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2102439496860275160",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T16:46:52.000Z",
-      "created_at_shanghai": "2026-09-23 00:46:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok @bot lets you take on more complex tasks, like placing your usual coffee order, booking a reservation, or scheduling an appointment\n\nCurrently available to SuperGrok Heavy subscribers, with more tiers to follow",
-      "quote": null,
-      "retweet": {
-        "author": "Tesla",
-        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-        "created_at_shanghai": "2026-09-23 00:13:47",
-        "created_at_utc": "2026-09-22T16:13:47.000Z",
-        "id": "2102431173314273633",
-        "images": [],
-        "name": "Tesla",
-        "text": "Grok @bot lets you take on more complex tasks, like placing your usual coffee order, booking a reservation, or scheduling an appointment\n\nCurrently available to SuperGrok Heavy subscribers, with more tiers to follow",
-        "url": "https://x.com/Tesla/status/2102431173314273633",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "Tesla",
-      "engagement": {
-        "bookmarks": 116,
-        "likes": 3123,
-        "quotes": 48,
-        "replies": 144,
-        "retweets": 249,
-        "views": 404774
-      },
-      "url": "https://x.com/elonmusk/status/2102439496860275160",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102439262507725294",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T16:45:56.000Z",
-      "created_at_shanghai": "2026-09-23 00:45:56",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot now in your Tesla!",
-      "quote": {
-        "author": "Tesla",
-        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-        "created_at_shanghai": "2026-09-23 00:11:44",
-        "created_at_utc": "2026-09-22T16:11:44.000Z",
-        "id": "2102430656349544590",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102430553047973888/img/fRlmoOqqT6cI3Q-T.jpg"
-        ],
-        "media": [
-          {
-            "duration": 64.066,
-            "height": 3840,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102430553047973888/img/fRlmoOqqT6cI3Q-T.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102430553047973888/vid/avc1/2160x3840/0DwdpMfW5J9vEWCr.mp4?tag=29",
-            "width": 2160
-          }
-        ],
-        "name": "Tesla",
-        "text": ".@Grok in your Tesla can now do meaningful work for you\n\nWith Connectors, you can manage your inbox, clean up your calendar, or talk through existing files/chat/tasks – all hands-free",
-        "url": "https://x.com/Tesla/status/2102430656349544590",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 824,
-        "likes": 13598,
-        "quotes": 191,
-        "replies": 1480,
-        "retweets": 1828,
-        "views": 3338243
-      },
-      "url": "https://x.com/elonmusk/status/2102439262507725294",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102437848549147065",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T16:40:19.000Z",
-      "created_at_shanghai": "2026-09-23 00:40:19",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot has just officially launched in @Tesla vehicles.\n\nI got early access a couple weeks ago. You can order stuff on online (such as Amazon), manage your email, calendar, finances, or other tasks through Grok @Bot using just your voice in your Tesla.\n\nThere is no separate app, everything just lives within the existing Grok Voice interface in your Tesla (as shown in my Model Y below).\n\nOne good use case for Grok Bot in your Tesla: You get in, tell Grok Bot to order coffee at a location of your choice, and while your Tesla drives you to the coffee shop using FSD (Supervised), Grok places the order so it’s ready when you arrive.\n\nGrok Bot in Tesla vehicles is currently only available to SuperGrok Heavy users, but will expand to more owners later. Connectors are available to all users.",
+      "text": "SpaceX's Starship rocket has successfully reached orbit and deployed its V3 Starlink satellites into orbit for the first time, officially making this Starship's first revenue-generating flight, a major milestone for the company!\n\nCongrats @SpaceX team! Incredible achievement 🚀",
       "quote": null,
       "retweet": {
         "author": "SawyerMerritt",
         "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 00:17:48",
-        "created_at_utc": "2026-09-22T16:17:48.000Z",
-        "id": "2102432181666590951",
+        "created_at_shanghai": "2026-09-28 21:28:36",
+        "created_at_utc": "2026-09-28T13:28:36.000Z",
+        "id": "2104563930752319513",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102432035864272896/img/lyxy4Sg4GJe8kRUY.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2104563826783920128/img/4xwKvZ3zF9xJs11e.jpg"
         ],
         "media": [
           {
-            "duration": 96.128,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102432035864272896/img/lyxy4Sg4GJe8kRUY.jpg",
+            "duration": 14.64,
+            "height": 880,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104563826783920128/img/4xwKvZ3zF9xJs11e.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102432035864272896/vid/avc1/3840x2160/gDIl9vdGIdeu6V9l.mp4?tag=29",
-            "width": 3840
+            "url": "https://video.twimg.com/amplify_video/2104563826783920128/vid/avc1/1054x880/1s_LiQ3v_bz5KQAK.mp4?tag=29",
+            "width": 1054
           }
         ],
         "name": "Sawyer Merritt",
-        "text": "Grok Bot has just officially launched in @Tesla vehicles.\n\nI got early access a couple weeks ago. You can order stuff on online (such as Amazon), manage your email, calendar, finances, or other tasks through Grok @Bot using just your voice in your Tesla.\n\nThere is no separate app, everything just lives within the existing Grok Voice interface in your Tesla (as shown in my Model Y below).\n\nOne good use case for Grok Bot in your Tesla: You get in, tell Grok Bot to order coffee at a location of your choice, and while your Tesla drives you to the coffee shop using FSD (Supervised), Grok places the order so it’s ready when you arrive.\n\nGrok Bot in Tesla vehicles is currently only available to SuperGrok Heavy users, but will expand to more owners later. Connectors are available to all users.",
-        "url": "https://x.com/SawyerMerritt/status/2102432181666590951",
+        "text": "SpaceX's Starship rocket has successfully reached orbit and deployed its V3 Starlink satellites into orbit for the first time, officially making this Starship's first revenue-generating flight, a major milestone for the company!\n\nCongrats @SpaceX team! Incredible achievement 🚀",
+        "url": "https://x.com/SawyerMerritt/status/2104563930752319513",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 1212,
-        "likes": 7645,
-        "quotes": 180,
-        "replies": 392,
-        "retweets": 777,
-        "views": 908793
+        "bookmarks": 653,
+        "likes": 15054,
+        "quotes": 182,
+        "replies": 326,
+        "retweets": 1764,
+        "views": 636236
       },
-      "url": "https://x.com/elonmusk/status/2102437848549147065",
+      "url": "https://x.com/elonmusk/status/2104611238894518393",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102432035864272896/img/lyxy4Sg4GJe8kRUY.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2104563826783920128/img/4xwKvZ3zF9xJs11e.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102432035864272896/vid/avc1/3840x2160/gDIl9vdGIdeu6V9l.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102432035864272896/img/lyxy4Sg4GJe8kRUY.jpg",
+          "url": "https://video.twimg.com/amplify_video/2104563826783920128/vid/avc1/1054x880/1s_LiQ3v_bz5KQAK.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104563826783920128/img/4xwKvZ3zF9xJs11e.jpg",
+          "width": 1054,
+          "height": 880,
+          "duration": 14.64
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104573602146267294",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T14:07:02.000Z",
+      "created_at_shanghai": "2026-09-28 22:07:02",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Starship’s Raptor engines ignite during hot-staging separation. Super Heavy boosted back towards its splashdown site in the Gulf of America",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 20:53:09",
+        "created_at_utc": "2026-09-28T12:53:09.000Z",
+        "id": "2104555009127956836",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104554844618919936/img/nlXfo-p3-IU_lBdl.jpg"
+        ],
+        "media": [
+          {
+            "duration": 65.449,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104554844618919936/img/nlXfo-p3-IU_lBdl.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104554844618919936/vid/avc1/3840x2160/1ATbVrCN_ATQuq2c.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Starship’s Raptor engines ignite during hot-staging separation. Super Heavy boosted back towards its splashdown site in the Gulf of America",
+        "url": "https://x.com/SpaceX/status/2104555009127956836",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 149,
+        "likes": 4577,
+        "quotes": 48,
+        "replies": 150,
+        "retweets": 648,
+        "views": 313710
+      },
+      "url": "https://x.com/elonmusk/status/2104573602146267294",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104554844618919936/img/nlXfo-p3-IU_lBdl.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2104554844618919936/vid/avc1/3840x2160/1ATbVrCN_ATQuq2c.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104554844618919936/img/nlXfo-p3-IU_lBdl.jpg",
           "width": 3840,
           "height": 2160,
-          "duration": 96.128
+          "duration": 65.449
         }
       ],
       "enriched": true
     },
     {
-      "id": "2102430276450390482",
+      "id": "2104573403973759123",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T16:10:13.000Z",
-      "created_at_shanghai": "2026-09-23 00:10:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Interesting",
-      "quote": {
-        "author": "herbertong",
-        "avatar": "https://pbs.twimg.com/profile_images/2006760109674999809/DCuTxqri_200x200.jpg",
-        "created_at_shanghai": "2026-09-20 21:46:35",
-        "created_at_utc": "2026-09-20T13:46:35.000Z",
-        "id": "2101669351778902086",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2101669229900828672/img/h_dwG7HjrLakjaHQ.jpg"
-        ],
-        "media": [
-          {
-            "duration": 340.2,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101669229900828672/img/h_dwG7HjrLakjaHQ.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2101669229900828672/vid/avc1/1280x720/mlPFeqJ5NP14lD-u.mp4?tag=29",
-            "width": 1280
-          }
-        ],
-        "name": "Herbert Ong",
-        "text": "🚨 Cathie Wood’s Starship math gets crazy very quickly!\n\nLarry Goldberg  @TeslaLarry breaks down ARK’s estimate that a single Starship launch could eventually generate around $1 BILLION in connectivity revenue.\n\nNow combine that with Elon’s goal of 10,000 Starship flights per year.\n\nThe theoretical math? Up to $10 TRILLION in annual revenue.\n\nOf course, there are huge assumptions here. Bandwidth demand, launch cadence, pricing, and network capacity all have to scale.\n\nBut that’s the bigger point.\n\nIf Starship goes from occasional launches to multiple flights per day, SpaceX starts looking like something very different from a rocket company.\n\nAnd orbital data centers could add another layer on top.\n\nThe numbers are speculative. The scale of the idea isn’t. $SPCX",
-        "url": "https://x.com/herbertong/status/2101669351778902086",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 643,
-        "likes": 6481,
-        "quotes": 60,
-        "replies": 628,
-        "retweets": 1033,
-        "views": 3249754
-      },
-      "url": "https://x.com/elonmusk/status/2102430276450390482",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102428227545493995",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T16:02:05.000Z",
-      "created_at_shanghai": "2026-09-23 00:02:05",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "lol",
-      "quote": {
-        "author": "dogeofficialceo",
-        "avatar": "https://pbs.twimg.com/profile_images/1608804759258939392/7z_cf2bb_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 18:23:11",
-        "created_at_utc": "2026-09-22T10:23:11.000Z",
-        "id": "2102342939234259318",
-        "images": [
-          "https://pbs.twimg.com/media/HS0FwPpaoAAts_G.jpg?name=small"
-        ],
-        "name": "Sir Doge of the Coin ⚔️",
-        "text": "Some of the funniest times on this app 😂",
-        "url": "https://x.com/dogeofficialceo/status/2102342939234259318",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 502,
-        "likes": 12751,
-        "quotes": 279,
-        "replies": 1750,
-        "retweets": 1306,
-        "views": 4340642
-      },
-      "url": "https://x.com/elonmusk/status/2102428227545493995",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102423686506508329",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T15:44:02.000Z",
-      "created_at_shanghai": "2026-09-22 23:44:02",
+      "created_at_utc": "2026-09-28T14:06:15.000Z",
+      "created_at_shanghai": "2026-09-28 22:06:15",
       "type": "转发",
       "type_label": "转发",
-      "text": "🚨 WTF! New York dumped the literacy exam for TEACHERS, because only 61% could pass it. \n\nNot the kids… The teachers! \n\nThat is the education system in one statistic. Lower the bar. Fail the kids. Call it progress.",
-      "quote": {
-        "author": "Tommy_USA",
-        "avatar": "https://pbs.twimg.com/profile_images/2067670640782401536/ZbZyhRkU_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 00:07:32",
-        "created_at_utc": "2026-09-21T16:07:32.000Z",
-        "id": "2102067212525674637",
-        "images": [
-          "https://pbs.twimg.com/media/HSwK4QTWIAA_tEa.png?name=small"
-        ],
-        "name": "Tommy Schultz 🇺🇸",
-        "text": "Never forget that in New York they eliminated the literacy exam in 2017. And this exam wasn't for students - it was the literacy exam for TEACHERS. Only 61% could pass it!",
-        "url": "https://x.com/Tommy_USA/status/2102067212525674637",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "GuntherEagleman",
-        "avatar": "https://pbs.twimg.com/profile_images/1606836521784512512/Xb-_cXXi_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 22:47:02",
-        "created_at_utc": "2026-09-22T14:47:02.000Z",
-        "id": "2102409342960185681",
-        "images": [],
-        "name": "Gunther Eagleman™",
-        "text": "🚨 WTF! New York dumped the literacy exam for TEACHERS, because only 61% could pass it. \n\nNot the kids… The teachers! \n\nThat is the education system in one statistic. Lower the bar. Fail the kids. Call it progress.",
-        "url": "https://x.com/GuntherEagleman/status/2102409342960185681",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1672,
-        "likes": 23219,
-        "quotes": 458,
-        "replies": 1059,
-        "retweets": 9463,
-        "views": 926268
-      },
-      "url": "https://x.com/elonmusk/status/2102423686506508329",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102423241897705926",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T15:42:16.000Z",
-      "created_at_shanghai": "2026-09-22 23:42:16",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7 doing real engineering work at Tesla",
-      "quote": {
-        "author": "yunta_tsai",
-        "avatar": "https://pbs.twimg.com/profile_images/2035915849819938816/b6kIsNMe_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 23:39:03",
-        "created_at_utc": "2026-09-22T15:39:03.000Z",
-        "id": "2102422431348801601",
-        "images": [],
-        "name": "Yun-Ta Tsai",
-        "text": "Over the last few weeks, Grok Build teams have optimized the harness for 4.7:\n\n- Better presentation, less slop, and better prose\n- Better self-validation\n- Improved thinking efficiency\n- Improved long-horizon monitoring tasks\n- Improved VLM and multimodal tasks\n\nMany FSD and Cybercab features I personally shipped were done with my overnight agents.\n\nGive it a try.",
-        "url": "https://x.com/yunta_tsai/status/2102422431348801601",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 211,
-        "likes": 6835,
-        "quotes": 64,
-        "replies": 672,
-        "retweets": 798,
-        "views": 3202593
-      },
-      "url": "https://x.com/elonmusk/status/2102423241897705926",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102422703798137219",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T15:40:08.000Z",
-      "created_at_shanghai": "2026-09-22 23:40:08",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 23:14:42",
-        "created_at_utc": "2026-09-22T15:14:42.000Z",
-        "id": "2102416305513230455",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg"
-        ],
-        "media": [
-          {
-            "duration": 49.25,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102416151028563968/vid/avc1/2236x1080/PUz3W1l-9MBfge9y.mp4?tag=29",
-            "width": 2236
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Grok 4.7 turned a simple prompt into this interactive 3D jet engine visualizer in minutes.\n\nThis is insane. 🔥",
-        "url": "https://x.com/cb_doge/status/2102416305513230455",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 645,
-        "likes": 10407,
-        "quotes": 67,
-        "replies": 803,
-        "retweets": 1261,
-        "views": 3791423
-      },
-      "url": "https://x.com/elonmusk/status/2102422703798137219",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102422648118554806",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T15:39:55.000Z",
-      "created_at_shanghai": "2026-09-22 23:39:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 turned a simple prompt into this interactive 3D jet engine visualizer in minutes.\n\nThis is insane. 🔥",
+      "text": "Liftoff of Starship!",
       "quote": null,
       "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 23:14:42",
-        "created_at_utc": "2026-09-22T15:14:42.000Z",
-        "id": "2102416305513230455",
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 20:50:05",
+        "created_at_utc": "2026-09-28T12:50:05.000Z",
+        "id": "2104554235924815900",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2104554150080004096/img/rKE-SWHfRYvFQgQn.jpg"
         ],
         "media": [
           {
-            "duration": 49.25,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg",
+            "duration": 46.02,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104554150080004096/img/rKE-SWHfRYvFQgQn.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102416151028563968/vid/avc1/2236x1080/PUz3W1l-9MBfge9y.mp4?tag=29",
-            "width": 2236
+            "url": "https://video.twimg.com/amplify_video/2104554150080004096/vid/avc1/3840x2160/3Cw5xqKfytXkg3KW.mp4?tag=29",
+            "width": 3840
           }
         ],
-        "name": "DogeDesigner",
-        "text": "Grok 4.7 turned a simple prompt into this interactive 3D jet engine visualizer in minutes.\n\nThis is insane. 🔥",
-        "url": "https://x.com/cb_doge/status/2102416305513230455",
+        "name": "SpaceX",
+        "text": "Liftoff of Starship!",
+        "url": "https://x.com/SpaceX/status/2104554235924815900",
         "verified": true,
-        "verified_type": "individual"
+        "verified_type": "organization"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 178,
-        "likes": 1825,
-        "quotes": 55,
-        "replies": 216,
-        "retweets": 257,
-        "views": 3604070
+        "bookmarks": 637,
+        "likes": 13495,
+        "quotes": 318,
+        "replies": 389,
+        "retweets": 2065,
+        "views": 604887
       },
-      "url": "https://x.com/elonmusk/status/2102422648118554806",
+      "url": "https://x.com/elonmusk/status/2104573403973759123",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2104554150080004096/img/rKE-SWHfRYvFQgQn.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102416151028563968/vid/avc1/2236x1080/PUz3W1l-9MBfge9y.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg",
-          "width": 2236,
-          "height": 1080,
-          "duration": 49.25
+          "url": "https://video.twimg.com/amplify_video/2104554150080004096/vid/avc1/3840x2160/3Cw5xqKfytXkg3KW.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104554150080004096/img/rKE-SWHfRYvFQgQn.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 46.02
         }
       ],
       "enriched": true
     },
     {
-      "id": "2102415307025604915",
+      "id": "2104572572067099102",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T15:10:44.000Z",
-      "created_at_shanghai": "2026-09-22 23:10:44",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 Fast is now live in Grok Build and Cursor\n\nIt’s the same Grok 4.7 model running on faster infrastructure, with roughly 2× the output speed\n\n• Available now in only Grok Build and Cursor\n• Costs 2× the standard Grok 4.7 token rates\n• Not included in Grok Build’s free tier\n• Not available on the public xAI API\n\nSame intelligence, much faster inference......at 2× the cost",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 13:17:50",
-        "created_at_utc": "2026-09-22T05:17:50.000Z",
-        "id": "2102266095864602993",
-        "images": [
-          "https://pbs.twimg.com/media/HSy_hOCbcAAO5Wg.jpg?name=small",
-          "https://pbs.twimg.com/media/HSy_kk9a4AA_avU.jpg?name=small"
-        ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 Fast is now live in Grok Build and Cursor\n\nIt’s the same Grok 4.7 model running on faster infrastructure, with roughly 2× the output speed\n\n• Available now in only Grok Build and Cursor\n• Costs 2× the standard Grok 4.7 token rates\n• Not included in Grok Build’s free tier\n• Not available on the public xAI API\n\nSame intelligence, much faster inference......at 2× the cost",
-        "url": "https://x.com/XFreeze/status/2102266095864602993",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 55,
-        "likes": 1099,
-        "quotes": 8,
-        "replies": 67,
-        "retweets": 144,
-        "views": 295873
-      },
-      "url": "https://x.com/elonmusk/status/2102415307025604915",
-      "images": [
-        "https://pbs.twimg.com/media/HSy_hOCbcAAO5Wg.jpg?name=small",
-        "https://pbs.twimg.com/media/HSy_kk9a4AA_avU.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102412843635384508",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T15:00:57.000Z",
-      "created_at_shanghai": "2026-09-22 23:00:57",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 just outperformed GPT-6 Astra on professional work\n\nOn the same Artificial Analysis run:\n\n• GDPval-AA — Grok leads by +153 Elo\n• AA-Briefcase — Grok leads by +88 Elo\n\nGrok 4.7 is now ahead on both professional deliverables and multi-hour office work\n\nSpaceXAI is pushing Grok hard into real-world knowledge work",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 14:07:56",
-        "created_at_utc": "2026-09-22T06:07:56.000Z",
-        "id": "2102278706651861345",
-        "images": [
-          "https://pbs.twimg.com/media/HSzKt_ra8AA-7ef.jpg?name=small"
-        ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 just outperformed GPT-6 Astra on professional work\n\nOn the same Artificial Analysis run:\n\n• GDPval-AA — Grok leads by +153 Elo\n• AA-Briefcase — Grok leads by +88 Elo\n\nGrok 4.7 is now ahead on both professional deliverables and multi-hour office work\n\nSpaceXAI is pushing Grok hard into real-world knowledge work",
-        "url": "https://x.com/XFreeze/status/2102278706651861345",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 46,
-        "likes": 1108,
-        "quotes": 9,
-        "replies": 87,
-        "retweets": 173,
-        "views": 276244
-      },
-      "url": "https://x.com/elonmusk/status/2102412843635384508",
-      "images": [
-        "https://pbs.twimg.com/media/HSzKt_ra8AA-7ef.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102412796042629466",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T15:00:46.000Z",
-      "created_at_shanghai": "2026-09-22 23:00:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@XFreeze Not a big fan of benchmarking. \n\nI just took it out for a real life test. Asked it to build me a bash only, self contained agenda, based on some sparse text files with tasks. Finished in 45 minutes end to end. \n\nFull video and repo link\nhttps://youtu.be/HI0ea6urJMw\n\nSolid model.",
-      "quote": null,
-      "retweet": {
-        "author": "dragosroua",
-        "avatar": "https://pbs.twimg.com/profile_images/2100081100043567104/FmEt4Qd5_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 18:07:41",
-        "created_at_utc": "2026-09-22T10:07:41.000Z",
-        "id": "2102339041341714509",
+      "created_at_utc": "2026-09-28T14:02:56.000Z",
+      "created_at_shanghai": "2026-09-28 22:02:56",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "All 26 Starlink V3 operational satellites deployed and operating nominally",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 21:57:20",
+        "created_at_utc": "2026-09-28T13:57:20.000Z",
+        "id": "2104571161254474020",
         "images": [],
-        "name": "Dragos Roua",
-        "text": "@XFreeze Not a big fan of benchmarking. \n\nI just took it out for a real life test. Asked it to build me a bash only, self contained agenda, based on some sparse text files with tasks. Finished in 45 minutes end to end. \n\nFull video and repo link\nhttps://youtu.be/HI0ea6urJMw\n\nSolid model.",
-        "url": "https://x.com/dragosroua/status/2102339041341714509",
+        "media": [],
+        "name": "SpaceX",
+        "text": "The @Starlink team has made contact with all 26 satellites",
+        "url": "https://x.com/SpaceX/status/2104571161254474020",
         "verified": true,
-        "verified_type": "individual"
+        "verified_type": "organization"
       },
-      "reply_to": "XFreeze",
+      "retweet": null,
+      "reply_to": "",
       "engagement": {
-        "bookmarks": 47,
-        "likes": 592,
-        "quotes": 4,
-        "replies": 28,
-        "retweets": 83,
-        "views": 398267
+        "bookmarks": 90,
+        "likes": 5546,
+        "quotes": 73,
+        "replies": 602,
+        "retweets": 604,
+        "views": 537490
       },
-      "url": "https://x.com/elonmusk/status/2102412796042629466",
+      "url": "https://x.com/elonmusk/status/2104572572067099102",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2102412363332805078",
+      "id": "2104572192247984493",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:59:03.000Z",
-      "created_at_shanghai": "2026-09-22 22:59:03",
+      "created_at_utc": "2026-09-28T14:01:26.000Z",
+      "created_at_shanghai": "2026-09-28 22:01:26",
       "type": "引用",
       "type_label": "引用",
-      "text": "Grok 4.7 with our Build harness is a strong daily workhorse",
+      "text": "First orbital flight of Starship successful!",
       "quote": {
-        "author": "WR4NYGov",
-        "avatar": "https://pbs.twimg.com/profile_images/2094269019662798849/W_67we2g_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 19:57:33",
-        "created_at_utc": "2026-09-22T11:57:33.000Z",
-        "id": "2102366688608149618",
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 21:15:48",
+        "created_at_utc": "2026-09-28T13:15:48.000Z",
+        "id": "2104560708969259344",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104560614626766848/img/WR9uvl1CQ0MlhUhG.jpg"
+        ],
+        "media": [
+          {
+            "duration": 55.33,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104560614626766848/img/WR9uvl1CQ0MlhUhG.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104560614626766848/vid/avc1/3840x2160/WMLBYlBCU0AQ5vn3.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Starship performs its orbital insertion burn and enters orbit of Earth for the first time",
+        "url": "https://x.com/SpaceX/status/2104560708969259344",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 140,
+        "likes": 6848,
+        "quotes": 107,
+        "replies": 769,
+        "retweets": 831,
+        "views": 570734
+      },
+      "url": "https://x.com/elonmusk/status/2104572192247984493",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104545383640629321",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T12:14:54.000Z",
+      "created_at_shanghai": "2026-09-28 20:14:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Watch Starship Flight 14 https://x.com/i/broadcasts/1qxvvenMPMQxB",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 20:13:10",
+        "created_at_utc": "2026-09-28T12:13:10.000Z",
+        "id": "2104544946665804216",
         "images": [],
-        "name": "Warren Redlich - Chasing Dreams 🇺🇸",
-        "text": "I’ve been building with Grok 4.7 extra high in Grok Build today for hours. It’s fantastic and my usage percent (Cursor Ultra) is barely moving. \n\nGetting so much done. \n\nWhile Build works on one thing, I discuss the next feature/change with my Grok Bot team and have Engineer Bot explain our conclusion so I can give that to Build. \n\nAt the start of the day I had 4.7 do a full code review in Cursor, then had Fable 5.1 review the review and it largely agreed with only a slight change in priorities.",
-        "url": "https://x.com/WR4NYGov/status/2102366688608149618",
+        "media": [],
+        "name": "SpaceX",
+        "text": "Watch Starship Flight 14 https://x.com/i/broadcasts/1qxvvenMPMQxB",
+        "url": "https://x.com/SpaceX/status/2104544946665804216",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 139,
+        "likes": 1726,
+        "quotes": 44,
+        "replies": 88,
+        "retweets": 434,
+        "views": 60497
+      },
+      "url": "https://x.com/elonmusk/status/2104545383640629321",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104545337478406579",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T12:14:43.000Z",
+      "created_at_shanghai": "2026-09-28 20:14:43",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Starship Flight 14 launches in ~30 mins\nhttps://x.com/i/broadcasts/1qxvvenMPMQxB",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 23,
+        "likes": 378,
+        "quotes": 8,
+        "replies": 71,
+        "retweets": 88,
+        "views": 238570
+      },
+      "url": "https://x.com/elonmusk/status/2104545337478406579",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104544189824303323",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T12:10:10.000Z",
+      "created_at_shanghai": "2026-09-28 20:10:10",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "WE'RE LIVE to watch the FIRST ORBITAL STARSHIP!!! LET'S GO!!! https://youtube.com/live/LeKY53pwArw?feature=share",
+      "quote": null,
+      "retweet": {
+        "author": "Erdayastronaut",
+        "avatar": "https://pbs.twimg.com/profile_images/1253477073265532928/MmGBMWsQ_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 20:09:25",
+        "created_at_utc": "2026-09-28T12:09:25.000Z",
+        "id": "2104544004473856339",
+        "images": [],
+        "media": [],
+        "name": "Everyday Astronaut",
+        "text": "WE'RE LIVE to watch the FIRST ORBITAL STARSHIP!!! LET'S GO!!! https://youtube.com/live/LeKY53pwArw?feature=share",
+        "url": "https://x.com/Erdayastronaut/status/2104544004473856339",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 28,
+        "likes": 596,
+        "quotes": 6,
+        "replies": 51,
+        "retweets": 100,
+        "views": 62780
+      },
+      "url": "https://x.com/elonmusk/status/2104544189824303323",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104541062136287336",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T11:57:44.000Z",
+      "created_at_shanghai": "2026-09-28 19:57:44",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Today, with over 100 industry partners, we introduced the NVIDIA Open Agent Safety Platform, bringing together OpenShell and Sentry.\n\nArtificial intelligence is extraordinary technology that will advance discovery, productivity, security, health, and prosperity for generations to come.\n\nBut its full promise can only be realized when people have confidence that AI is being built to be safe and deployed with wisdom and responsibility.\n\nThis is bigger than a single product. It's the beginning of an open ecosystem to build the trust layer for safe agent systems.\n\nTogether, we are building the foundation of the AI economy.\n\nTrust and innovation are not in conflict. Safety is how trust is earned. We must build not only the most capable AI, but the most trusted AI, so that this extraordinary technology can realize its enormous promise for the world. https://nvda.ws/4hcoq7m",
+      "quote": null,
+      "retweet": {
+        "author": "JensenHuang",
+        "avatar": "https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 17:12:26",
+        "created_at_utc": "2026-09-28T09:12:26.000Z",
+        "id": "2104499465055023424",
+        "images": [
+          "https://pbs.twimg.com/media/HTSuRsKaUAE1VGz.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1080,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTSuRsKaUAE1VGz.jpg?name=small",
+            "width": 1920
+          }
+        ],
+        "name": "Jensen Huang",
+        "text": "Today, with over 100 industry partners, we introduced the NVIDIA Open Agent Safety Platform, bringing together OpenShell and Sentry.\n\nArtificial intelligence is extraordinary technology that will advance discovery, productivity, security, health, and prosperity for generations to come.\n\nBut its full promise can only be realized when people have confidence that AI is being built to be safe and deployed with wisdom and responsibility.\n\nThis is bigger than a single product. It's the beginning of an open ecosystem to build the trust layer for safe agent systems.\n\nTogether, we are building the foundation of the AI economy.\n\nTrust and innovation are not in conflict. Safety is how trust is earned. We must build not only the most capable AI, but the most trusted AI, so that this extraordinary technology can realize its enormous promise for the world. https://nvda.ws/4hcoq7m",
+        "url": "https://x.com/JensenHuang/status/2104499465055023424",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1327,
+        "likes": 9184,
+        "quotes": 431,
+        "replies": 605,
+        "retweets": 1300,
+        "views": 698537
+      },
+      "url": "https://x.com/elonmusk/status/2104541062136287336",
+      "images": [
+        "https://pbs.twimg.com/media/HTSuRsKaUAE1VGz.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTSuRsKaUAE1VGz.jpg?name=small",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104402989570297895",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T02:49:05.000Z",
+      "created_at_shanghai": "2026-09-28 10:49:05",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "with elon, people focus too much on trying to find individual bad decisions\n\nthere are extremely few decisions that matter and that are irreversible, and he continues to get those right, the others he can try again\n\nwhatever bitter lesson is for ai, he discovered for free markets",
+      "quote": null,
+      "retweet": {
+        "author": "gabriel1",
+        "avatar": "https://pbs.twimg.com/profile_images/1900416323030581248/LRlv5e8n_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 09:46:20",
+        "created_at_utc": "2026-09-28T01:46:20.000Z",
+        "id": "2104387199726923986",
+        "images": [],
+        "media": [],
+        "name": "gabriel",
+        "text": "with elon, people focus too much on trying to find individual bad decisions\n\nthere are extremely few decisions that matter and that are irreversible, and he continues to get those right, the others he can try again\n\nwhatever bitter lesson is for ai, he discovered for free markets",
+        "url": "https://x.com/gabriel1/status/2104387199726923986",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 28,
+        "likes": 336,
+        "quotes": 0,
+        "replies": 36,
+        "retweets": 36,
+        "views": 25090
+      },
+      "url": "https://x.com/elonmusk/status/2104402989570297895",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104396243434651759",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T02:22:16.000Z",
+      "created_at_shanghai": "2026-09-28 10:22:16",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Upgrades",
+      "quote": {
+        "author": "mrfundman",
+        "avatar": "https://pbs.twimg.com/profile_images/1844590451933810701/SJ70OFpA_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 22:25:14",
+        "created_at_utc": "2026-09-27T14:25:14.000Z",
+        "id": "2104215793718149379",
+        "images": [],
+        "media": [],
+        "name": "mr fundman",
+        "text": "WAIT A SECOND. Why is Grok bot so fast today?? 😳",
+        "url": "https://x.com/mrfundman/status/2104215793718149379",
         "verified": true,
         "verified_type": "individual"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 145,
-        "likes": 4452,
-        "quotes": 38,
-        "replies": 625,
-        "retweets": 648,
-        "views": 4065788
+        "bookmarks": 20,
+        "likes": 711,
+        "quotes": 8,
+        "replies": 154,
+        "retweets": 66,
+        "views": 286510
       },
-      "url": "https://x.com/elonmusk/status/2102412363332805078",
+      "url": "https://x.com/elonmusk/status/2104396243434651759",
       "images": [],
       "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104395696153792583",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T02:20:06.000Z",
+      "created_at_shanghai": "2026-09-28 10:20:06",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "So…\n\nBillionaires sitting at Trump’s head table for Xi visit: 5\n\nBernie Sanders outrage posts about it: 4\n\nBillionaires sitting at Obama’s head table for Xi visit: 5\n\nBernie Sanders outrage posts about it: 0\n\nBernie Sanders is a grifting fraud.",
+      "quote": null,
+      "retweet": {
+        "author": "C_3C_3",
+        "avatar": "https://pbs.twimg.com/profile_images/945294827742224385/2g_sshAu_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 20:10:19",
+        "created_at_utc": "2026-09-26T12:10:19.000Z",
+        "id": "2103819453876085061",
+        "images": [],
+        "media": [],
+        "name": "C3",
+        "text": "So…\n\nBillionaires sitting at Trump’s head table for Xi visit: 5\n\nBernie Sanders outrage posts about it: 4\n\nBillionaires sitting at Obama’s head table for Xi visit: 5\n\nBernie Sanders outrage posts about it: 0\n\nBernie Sanders is a grifting fraud.",
+        "url": "https://x.com/C_3C_3/status/2103819453876085061",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 816,
+        "likes": 56671,
+        "quotes": 211,
+        "replies": 393,
+        "retweets": 9631,
+        "views": 486880
+      },
+      "url": "https://x.com/elonmusk/status/2104395696153792583",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104395496391684269",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T02:19:18.000Z",
+      "created_at_shanghai": "2026-09-28 10:19:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "“Reaching even 1% of the Sun’s energy would make a civilization vastly more powerful than us” \n\n— Elon Musk",
+      "quote": null,
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 11:10:10",
+        "created_at_utc": "2026-09-27T03:10:10.000Z",
+        "id": "2104045908388356545",
+        "images": [
+          "https://pbs.twimg.com/media/HTMSmCCbAAAWjjT.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2400,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTMSmCCbAAAWjjT.jpg?name=small",
+            "width": 3000
+          }
+        ],
+        "name": "X Freeze",
+        "text": "“Reaching even 1% of the Sun’s energy would make a civilization vastly more powerful than us” \n\n— Elon Musk",
+        "url": "https://x.com/XFreeze/status/2104045908388356545",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 16,
+        "likes": 423,
+        "quotes": 9,
+        "replies": 35,
+        "retweets": 66,
+        "views": 28603
+      },
+      "url": "https://x.com/elonmusk/status/2104395496391684269",
+      "images": [
+        "https://pbs.twimg.com/media/HTMSmCCbAAAWjjT.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTMSmCCbAAAWjjT.jpg?name=small",
+          "width": 3000,
+          "height": 2400
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104385138545365067",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T01:38:09.000Z",
+      "created_at_shanghai": "2026-09-28 09:38:09",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Bravo @JMilei!",
+      "quote": {
+        "author": "Rothmus",
+        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 04:42:49",
+        "created_at_utc": "2026-09-27T20:42:49.000Z",
+        "id": "2104310814370926972",
+        "images": [
+          "https://pbs.twimg.com/media/HTQDiHdWoAA_3Gs.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 900,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTQDiHdWoAA_3Gs.jpg?name=small",
+            "width": 1600
+          }
+        ],
+        "name": "Rothmus 🏴",
+        "text": "Argentina’s monthly inflation went from 25.5% in Milei’s first month to 1.7% in August 2026.\n\nAs expected when government stops printing pesos to cover the deficit. \n\nFiscal surplus first, then prices stop sprinting.\n\nThe “experts” who called this “austerity theater” now have 33 months of INDEC data to explain away.",
+        "url": "https://x.com/Rothmus/status/2104310814370926972",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 34,
+        "likes": 764,
+        "quotes": 8,
+        "replies": 91,
+        "retweets": 118,
+        "views": 278933
+      },
+      "url": "https://x.com/elonmusk/status/2104385138545365067",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104382033787228593",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T01:25:49.000Z",
+      "created_at_shanghai": "2026-09-28 09:25:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Falcon 9 and Dragon are at pad 40 in Florida for @NASA’s Crew-13 mission to the @Space_Station",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 05:36:01",
+        "created_at_utc": "2026-09-27T21:36:01.000Z",
+        "id": "2104324204556673076",
+        "images": [
+          "https://pbs.twimg.com/media/HTQPQkMXkAAA7Nj.jpg?name=small",
+          "https://pbs.twimg.com/amplify_video_thumb/2104323883369144320/img/Ye0ktchVBxcROXrT.jpg",
+          "https://pbs.twimg.com/media/HTQPdfIXYAA6qVJ.jpg?name=small",
+          "https://pbs.twimg.com/media/HTQPdgpXMAAXbFk.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2306,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTQPQkMXkAAA7Nj.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "duration": 25.065,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104323883369144320/img/Ye0ktchVBxcROXrT.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104323883369144320/vid/avc1/1920x1080/wIgC0BKeQIpOMRvb.mp4?tag=29",
+            "width": 1920
+          },
+          {
+            "height": 2000,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTQPdfIXYAA6qVJ.jpg?name=small",
+            "width": 3000
+          },
+          {
+            "height": 2000,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTQPdgpXMAAXbFk.jpg?name=small",
+            "width": 3000
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Falcon 9 and Dragon are at pad 40 in Florida for @NASA’s Crew-13 mission to the @Space_Station",
+        "url": "https://x.com/SpaceX/status/2104324204556673076",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 103,
+        "likes": 4417,
+        "quotes": 64,
+        "replies": 178,
+        "retweets": 518,
+        "views": 372373
+      },
+      "url": "https://x.com/elonmusk/status/2104382033787228593",
+      "images": [
+        "https://pbs.twimg.com/media/HTQPQkMXkAAA7Nj.jpg?name=small",
+        "https://pbs.twimg.com/amplify_video_thumb/2104323883369144320/img/Ye0ktchVBxcROXrT.jpg",
+        "https://pbs.twimg.com/media/HTQPdfIXYAA6qVJ.jpg?name=small",
+        "https://pbs.twimg.com/media/HTQPdgpXMAAXbFk.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTQPQkMXkAAA7Nj.jpg?name=small",
+          "width": 4096,
+          "height": 2306
+        },
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2104323883369144320/vid/avc1/1920x1080/wIgC0BKeQIpOMRvb.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104323883369144320/img/Ye0ktchVBxcROXrT.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 25.065
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTQPdfIXYAA6qVJ.jpg?name=small",
+          "width": 3000,
+          "height": 2000
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTQPdgpXMAAXbFk.jpg?name=small",
+          "width": 3000,
+          "height": 2000
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104381714780901756",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T01:24:32.000Z",
+      "created_at_shanghai": "2026-09-28 09:24:32",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Is it just me or is x getting better by the day? \n\n- more network connections \n- increasingly valuable opportunities \n- communities of like minded people \n- front row seat to the unfolding singularity \n\nHow has 𝕏 been for you?",
+      "quote": null,
+      "retweet": {
+        "author": "KettlebellDan",
+        "avatar": "https://pbs.twimg.com/profile_images/2067369459317420032/hscih1Bq_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 05:25:19",
+        "created_at_utc": "2026-09-27T21:25:19.000Z",
+        "id": "2104321513956782298",
+        "images": [],
+        "media": [],
+        "name": "Dan",
+        "text": "Is it just me or is x getting better by the day? \n\n- more network connections \n- increasingly valuable opportunities \n- communities of like minded people \n- front row seat to the unfolding singularity \n\nHow has 𝕏 been for you?",
+        "url": "https://x.com/KettlebellDan/status/2104321513956782298",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 536,
+        "quotes": 16,
+        "replies": 157,
+        "retweets": 34,
+        "views": 42102
+      },
+      "url": "https://x.com/elonmusk/status/2104381714780901756",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104381674796495229",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T01:24:23.000Z",
+      "created_at_shanghai": "2026-09-28 09:24:23",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "adamcarolla",
+        "avatar": "https://pbs.twimg.com/profile_images/1486913589751402499/JTn7MRT4_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 14:55:44",
+        "created_at_utc": "2026-09-27T06:55:44.000Z",
+        "id": "2104102672072835142",
+        "images": [],
+        "media": [],
+        "name": "Adam Carolla",
+        "text": "True",
+        "url": "https://x.com/adamcarolla/status/2104102672072835142",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 14,
+        "likes": 379,
+        "quotes": 16,
+        "replies": 104,
+        "retweets": 53,
+        "views": 263008
+      },
+      "url": "https://x.com/elonmusk/status/2104381674796495229",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104381070787461303",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T01:21:59.000Z",
+      "created_at_shanghai": "2026-09-28 09:21:59",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I made a Grok Bot that finds you money.\n\nIt hunts down claims you qualify for.\n\n→ Scans official sources\n→ Checks your eligibility\n→ Finds the supporting proof\n→ Fills out the complete claim\n→ Gets everything ready to submit\n\nRun it once and let Grok find you money.\n\nLink below 👇",
+      "quote": null,
+      "retweet": {
+        "author": "liam_fallen",
+        "avatar": "https://pbs.twimg.com/profile_images/2095471460286664768/-TwotnRq_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 17:54:04",
+        "created_at_utc": "2026-09-27T09:54:04.000Z",
+        "id": "2104147554376020047",
+        "images": [
+          "https://pbs.twimg.com/media/HTNp_t3W4AAgnkm.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1800,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTNp_t3W4AAgnkm.jpg?name=small",
+            "width": 3200
+          }
+        ],
+        "name": "Liam",
+        "text": "I made a Grok Bot that finds you money.\n\nIt hunts down claims you qualify for.\n\n→ Scans official sources\n→ Checks your eligibility\n→ Finds the supporting proof\n→ Fills out the complete claim\n→ Gets everything ready to submit\n\nRun it once and let Grok find you money.\n\nLink below 👇",
+        "url": "https://x.com/liam_fallen/status/2104147554376020047",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 479,
+        "likes": 531,
+        "quotes": 7,
+        "replies": 58,
+        "retweets": 56,
+        "views": 54486
+      },
+      "url": "https://x.com/elonmusk/status/2104381070787461303",
+      "images": [
+        "https://pbs.twimg.com/media/HTNp_t3W4AAgnkm.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTNp_t3W4AAgnkm.jpg?name=small",
+          "width": 3200,
+          "height": 1800
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104377378998759603",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T01:07:19.000Z",
+      "created_at_shanghai": "2026-09-28 09:07:19",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Fascinating.\n\nChief Economist at Apollo: agents could cause a bank run by sweeping household cash into accounts paying 3-5% instead of the 0.1% national average, causing banks to lose a large share of their cheap deposits.",
+      "quote": null,
+      "retweet": {
+        "author": "JasonYanowitz",
+        "avatar": "https://pbs.twimg.com/profile_images/1998360163271553024/WmgtU3xy_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 22:14:18",
+        "created_at_utc": "2026-09-27T14:14:18.000Z",
+        "id": "2104213040937812262",
+        "images": [
+          "https://pbs.twimg.com/media/HTOpwRAWMAA9TeT.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1316,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTOpwRAWMAA9TeT.jpg?name=small",
+            "width": 2252
+          }
+        ],
+        "name": "Yano 🟪",
+        "text": "Fascinating.\n\nChief Economist at Apollo: agents could cause a bank run by sweeping household cash into accounts paying 3-5% instead of the 0.1% national average, causing banks to lose a large share of their cheap deposits.",
+        "url": "https://x.com/JasonYanowitz/status/2104213040937812262",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 3515,
+        "likes": 9482,
+        "quotes": 448,
+        "replies": 373,
+        "retweets": 687,
+        "views": 2135633
+      },
+      "url": "https://x.com/elonmusk/status/2104377378998759603",
+      "images": [
+        "https://pbs.twimg.com/media/HTOpwRAWMAA9TeT.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTOpwRAWMAA9TeT.jpg?name=small",
+          "width": 2252,
+          "height": 1316
+        }
+      ],
       "enriched": true
     }
   ],
   "page": 23,
   "page_size": 20,
-  "total": 547,
-  "total_pages": 28,
-  "updated_at_shanghai": "2026-10-09 00:59:40",
+  "total": 697,
+  "total_pages": 35,
+  "updated_at_shanghai": "2026-10-09 05:51:14",
   "account": "elonmusk"
 }

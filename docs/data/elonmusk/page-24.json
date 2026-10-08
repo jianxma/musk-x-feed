@@ -1,925 +1,1135 @@
 {
   "posts": [
     {
-      "id": "2102408239774151050",
+      "id": "2104375332048613752",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:42:39.000Z",
-      "created_at_shanghai": "2026-09-22 22:42:39",
+      "created_at_utc": "2026-09-28T00:59:11.000Z",
+      "created_at_shanghai": "2026-09-28 08:59:11",
       "type": "引用",
       "type_label": "引用",
-      "text": "Interesting perspective",
+      "text": "Accurate",
       "quote": {
-        "author": "AndrewYNg",
-        "avatar": "https://pbs.twimg.com/profile_images/733174243714682880/oyG30NEH_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 04:59:03",
-        "created_at_utc": "2026-09-21T20:59:03.000Z",
-        "id": "2102140576498065758",
+        "author": "Dr_Singularity",
+        "avatar": "https://pbs.twimg.com/profile_images/1607111366397120514/j4XzXC27_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 08:39:20",
+        "created_at_utc": "2026-09-28T00:39:20.000Z",
+        "id": "2104370335885717793",
         "images": [],
-        "name": "Andrew Ng",
-        "text": "The loudest voices stoking fears about AI dangers have made tremendous headway in the past two weeks. AI technology has not taken some unexpected, dangerous turn, but the hype around it — propelled by what appears to be a well orchestrated PR campaign — has drummed up considerable fear. I worry that it represents a setback for our field.\n\nI have written frequently that fears of AI are overhyped. AI’s capabilities can be uncannily human-like and unpredictable, and it’s rational to worry when people who are directly involved express concerns. But I see the problems as a sign of the engineering work that ahead, rather than insurmountable barriers or the sky falling. AI technology continues to advance — which is a good thing! — but technical advances, poorly understood by the public, give those who seek to generate hype repeated opportunities to do so.\n\nFirst, I don’t see any step up in the risk of human extinction from AI compared to a few months ago. The theories about this remain the same fantastical, science fiction scenarios as a few months ago. The biggest change in AI risk is its cybersecurity capabilities — a topic which we should take seriously — but this, too, will not lead to the end of the world.\n\nThe most notable recent event leading to increased fear was when an OpenAI team deployed an agent swarm that hacked into Hugging Face. Much of the popular press contained significant hype. For example, some publications reported that a swarm of 1,200 agents carried out the attack. While this was technically accurate, as I write this, I have about 1,300 processes running on my laptop. Yes, the ability to get large swarms of agents to work in parallel on a task is a significant technical advance, And, in computing, many processes run at the same time. So this shouldn’t be seen as some magical capability.\n\nAdditionally, OpenAI’s buggy sandboxing and monitoring processes were key to enabling this incident. Fixing these bugs and putting in place improved monitoring would be appropriate fixes, not pausing AI. There are many well known ways to attack software systems. The main advantage of AI agents is that they are relentless. They will tirelessly try many tactics — and have the patience to chain vulnerabilities together — that previously would have taken an infeasible amount of human effort. But in the long term, I believe the advantage will lie with defenders (because they have more information with which to identify bugs, which they can fix), but the cyber-threat landscape has changed significantly. There are still bottlenecks to identifying and exploiting a vulnerability. AI agents still have to try a lot of things to see what works, and taking these actions takes time and might be detected by defenders. This is why, even though it is now easy to obtain versions of leading open weight models that have had their guardrails removed or weakened, so they will not refuse to try to execute cyber attacks, the world has not ended.\n\nI am also concerned about the anthropomorphization of AI in a lot of reporting, where LLMs and agents are unnecessarily treated as if they were people. If I wield a hammer, miss a nail, and accidentally dent the wall, it’s not the fault of the hammer. The problem lies in how I used the hammer. Similarly, if I prompt an agent and it hacks into someone else’s system, the responsibility lies with me, not the agent.\n\nOf course, we want to build systems that are as safe and predictable as possible. (For example, an unsafe hammer would be one whose head randomly flies off under normal use.) Today’s agentic systems are not predictable, but I see no reason why, by applying sound engineering practices, we won’t be able to make them extremely safe to use. One new element in the forecasts of AI-enabled doom is AI companies disclaiming responsibility for their own products. “I didn’t do it; my out-of-control agent did!” There’s a balance to be struck between the responsibility of the tool maker and the tool user, but when something goes wrong, let’s hold the people building and/or using the hammer responsible, rather than the hammer. (By the way, if you’re worried about AI bioweapon risk, David Bellamy has a great post on why this, too, is overhyped. Briefly, the bottleneck in building a bioweapon is not intelligence, but lab work and manufacturing.)\n\nPausing AI progress will create much more harm than benefit. First, our adversaries will certainly not slow down. Second, engineering requires discovering problems empirically so we can fix them. If we pause AI by a decade, we will also delay finding and implementing safety engineering fixes by about the same duration.\n\nOf course, the incentive to stoke fears — for regulatory capture, to garner attention, or to make one’s technology seem more powerful — remains the same as before. Disclaiming responsibility is a new one. Taking a hard technical look at the actual risks however, I see little factual basis for the degree of fear that’s been stoked up. We still have hard research and engineering work ahead to improve AI safety, but the beneficial applications continue to vastly outweigh the risks, and we should keep building.\n\n[Original text (with links): https://www.deeplearning.ai/the-batch/issue-371 ]",
-        "url": "https://x.com/AndrewYNg/status/2102140576498065758",
+        "media": [],
+        "name": "Dr Singularity",
+        "text": "Feeling the AGI/ASI, few observations\n\n1. Opus 5.5 really gives strong vibes of AGI (maybe not fully there, but we're very close, like 80%-90%). \n\nFor example, few breakthoughs in training humanoids are needed. We need to move this intelligence into physical world.\n\n2. I don't think Anthropic has discovered any magical formula.\n\n3. Which means, SpaceXAI, Google, and others will soon follow. This prediction is based on the amount of compute they already have + additional compute being added all the time.\n\n4. Never was more confident that Anthropic, SpaceXAI, Google, OpenAI, likely Meta, basically all big US AGI labs will have proper AGI in 2027.\n\n5. And from there we'll move quickly to ASI territory (likely also in 2027).\n\nIt looks like few GW of compute are enough for strong AGI, now imagine what we will able to do with 10-20GW of compute which are rapidly coming online.\n\nAnd then with 100GW-200GW...\n\n2027 will be an utterly insane year.",
+        "url": "https://x.com/Dr_Singularity/status/2104370335885717793",
         "verified": true,
         "verified_type": "individual"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 1674,
-        "likes": 10414,
-        "quotes": 64,
-        "replies": 944,
-        "retweets": 1198,
-        "views": 5901353
+        "bookmarks": 33,
+        "likes": 655,
+        "quotes": 6,
+        "replies": 130,
+        "retweets": 85,
+        "views": 357748
       },
-      "url": "https://x.com/elonmusk/status/2102408239774151050",
+      "url": "https://x.com/elonmusk/status/2104375332048613752",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2102407988636209546",
+      "id": "2104373966907605090",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:41:39.000Z",
-      "created_at_shanghai": "2026-09-22 22:41:39",
+      "created_at_utc": "2026-09-28T00:53:45.000Z",
+      "created_at_shanghai": "2026-09-28 08:53:45",
       "type": "转发",
       "type_label": "转发",
-      "text": "Made a fun little game for my nephew using Grok 4.7. I gave it a simple prompt, and within minutes, he was playing the game.\n\nSeeing a random idea turn into a real game that quickly is honestly incredible.",
+      "text": "The e/acc conversion funnel\n\nNEVER doom",
       "quote": null,
       "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 13:01:49",
-        "created_at_utc": "2026-09-22T05:01:49.000Z",
-        "id": "2102262068586205512",
+        "author": "abufenyrcd",
+        "avatar": "https://pbs.twimg.com/profile_images/1628745194123280387/cfwI2L7p_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 01:47:52",
+        "created_at_utc": "2026-09-27T17:47:52.000Z",
+        "id": "2104266787999113650",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg"
+          "https://pbs.twimg.com/media/HTPbfOnW4AADOuV.jpg?name=small"
         ],
         "media": [
           {
-            "duration": 40.6,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102261795964821504/vid/avc1/2256x1080/YjbiwUg0_dyM-tvy.mp4?tag=29",
-            "width": 2256
+            "height": 1536,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTPbfOnW4AADOuV.jpg?name=small",
+            "width": 1024
           }
         ],
-        "name": "DogeDesigner",
-        "text": "Made a fun little game for my nephew using Grok 4.7. I gave it a simple prompt, and within minutes, he was playing the game.\n\nSeeing a random idea turn into a real game that quickly is honestly incredible.",
-        "url": "https://x.com/cb_doge/status/2102262068586205512",
+        "name": "Tehpwnerer — e/acc",
+        "text": "The e/acc conversion funnel\n\nNEVER doom",
+        "url": "https://x.com/abufenyrcd/status/2104266787999113650",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 97,
-        "likes": 1474,
-        "quotes": 21,
-        "replies": 160,
-        "retweets": 213,
-        "views": 351427
+        "bookmarks": 83,
+        "likes": 974,
+        "quotes": 22,
+        "replies": 86,
+        "retweets": 136,
+        "views": 46313
       },
-      "url": "https://x.com/elonmusk/status/2102407988636209546",
+      "url": "https://x.com/elonmusk/status/2104373966907605090",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg"
+        "https://pbs.twimg.com/media/HTPbfOnW4AADOuV.jpg?name=small"
       ],
       "media": [
         {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102261795964821504/vid/avc1/2256x1080/YjbiwUg0_dyM-tvy.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg",
-          "width": 2256,
-          "height": 1080,
-          "duration": 40.6
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTPbfOnW4AADOuV.jpg?name=small",
+          "width": 1024,
+          "height": 1536
         }
       ],
       "enriched": true
     },
     {
-      "id": "2102407861808910532",
+      "id": "2104366530938994817",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:41:09.000Z",
-      "created_at_shanghai": "2026-09-22 22:41:09",
+      "created_at_utc": "2026-09-28T00:24:12.000Z",
+      "created_at_shanghai": "2026-09-28 08:24:12",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Accurate (for now)",
+      "quote": {
+        "author": "DeepStarts",
+        "avatar": "https://pbs.twimg.com/profile_images/2100935190772379648/S6LULa1Y_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 16:26:07",
+        "created_at_utc": "2026-09-26T08:26:07.000Z",
+        "id": "2103763029976649777",
+        "images": [
+          "https://pbs.twimg.com/media/HTIRUuJbcAAwM_s.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1429,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTIRUuJbcAAwM_s.jpg?name=small",
+            "width": 1100
+          }
+        ],
+        "name": "Deep",
+        "text": "There’s a rank specifically for Google now? 😭😭",
+        "url": "https://x.com/DeepStarts/status/2103763029976649777",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 34,
+        "likes": 420,
+        "quotes": 8,
+        "replies": 134,
+        "retweets": 46,
+        "views": 262917
+      },
+      "url": "https://x.com/elonmusk/status/2104366530938994817",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104361756412019115",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T00:05:14.000Z",
+      "created_at_shanghai": "2026-09-28 08:05:14",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Worth considering",
+      "quote": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 06:23:54",
+        "created_at_utc": "2026-09-27T22:23:54.000Z",
+        "id": "2104336252812366297",
+        "images": [
+          "https://pbs.twimg.com/media/HTQaGeWXYAABn79.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 230,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTQaGeWXYAABn79.jpg?name=small",
+            "width": 1192
+          }
+        ],
+        "name": "anabology",
+        "text": "This actually improved my sleep so much\n\n\"Inclined Bed Therapy\"\n\nFixed my acid reflux issues and solved the headaches I was getting when waking",
+        "url": "https://x.com/anabology/status/2104336252812366297",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 27,
+        "likes": 351,
+        "quotes": 6,
+        "replies": 96,
+        "retweets": 39,
+        "views": 235610
+      },
+      "url": "https://x.com/elonmusk/status/2104361756412019115",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104361390123430335",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T00:03:47.000Z",
+      "created_at_shanghai": "2026-09-28 08:03:47",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship Flight 14 aiming to launch tomorrow morning",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 07:38:07",
+        "created_at_utc": "2026-09-27T23:38:07.000Z",
+        "id": "2104354931595423762",
+        "images": [],
+        "media": [],
+        "name": "SpaceX",
+        "text": "Starship’s 14th flight is set to launch on Monday, Sept 28. The 75-minute launch window opens at 7:15 a.m. CT. Live coverage of the mission starts ~35 minutes before launch → https://x.com/i/broadcasts/1qxvvenMPMQxB",
+        "url": "https://x.com/SpaceX/status/2104354931595423762",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 381,
+        "likes": 18886,
+        "quotes": 205,
+        "replies": 1122,
+        "retweets": 1935,
+        "views": 3202051
+      },
+      "url": "https://x.com/elonmusk/status/2104361390123430335",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104360927474921529",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T00:01:56.000Z",
+      "created_at_shanghai": "2026-09-28 08:01:56",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "I really felt the AGI profoundly this time",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 76,
+        "likes": 628,
+        "quotes": 21,
+        "replies": 161,
+        "retweets": 98,
+        "views": 281078
+      },
+      "url": "https://x.com/elonmusk/status/2104360927474921529",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103533196721704960/img/ILpk1iqxJsJGiDcK.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2103533196721704960/vid/avc1/1920x1080/hK-nvYk8GWyJLtjS.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103533196721704960/img/ILpk1iqxJsJGiDcK.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 306.416
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104352217092206601",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T23:27:20.000Z",
+      "created_at_shanghai": "2026-09-28 07:27:20",
       "type": "转发",
       "type_label": "转发",
-      "text": "I let Grok Bot manage my YouTube channel... and it's better than I am!\n\n0:53 Automating tagging with @Bot\n1:40 How the Bot works\n2:38 Figma thumbs and brand-voice descriptions\n3:47 Template setup (YouTube Data API + AssemblyAI)\n4:34 Install and get started",
+      "text": "Deleted Muse after seeing this post on Threads about how it told some Facebook Marketplace sellers the guy’s address and they showed up at his door\n\nDangerous and creepy\n\nThis would have been 1000x worse if the person was a woman",
       "quote": null,
       "retweet": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 22:00:02",
-        "created_at_utc": "2026-09-22T14:00:02.000Z",
-        "id": "2102397514792001868",
+        "author": "raywongy",
+        "avatar": "https://pbs.twimg.com/profile_images/1965967795352489984/lz_qLGkP_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 04:35:59",
+        "created_at_utc": "2026-09-27T20:35:59.000Z",
+        "id": "2104309096534978595",
         "images": [
-          "https://pbs.twimg.com/media/HShEwaKbgAA-Lkk.jpg?name=small"
+          "https://pbs.twimg.com/media/HTQB0s1WEAAbRWp.jpg?name=small"
         ],
-        "name": "matt palmer",
-        "text": "I let Grok Bot manage my YouTube channel... and it's better than I am!\n\n0:53 Automating tagging with @Bot\n1:40 How the Bot works\n2:38 Figma thumbs and brand-voice descriptions\n3:47 Template setup (YouTube Data API + AssemblyAI)\n4:34 Install and get started",
-        "url": "https://x.com/mattyp/status/2102397514792001868",
+        "media": [
+          {
+            "height": 1971,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTQB0s1WEAAbRWp.jpg?name=small",
+            "width": 1206
+          }
+        ],
+        "name": "Ray Wong",
+        "text": "Deleted Muse after seeing this post on Threads about how it told some Facebook Marketplace sellers the guy’s address and they showed up at his door\n\nDangerous and creepy\n\nThis would have been 1000x worse if the person was a woman",
+        "url": "https://x.com/raywongy/status/2104309096534978595",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 1235,
-        "likes": 1555,
-        "quotes": 23,
-        "replies": 101,
-        "retweets": 177,
-        "views": 292221
+        "bookmarks": 426,
+        "likes": 1560,
+        "quotes": 70,
+        "replies": 198,
+        "retweets": 155,
+        "views": 206076
       },
-      "url": "https://x.com/elonmusk/status/2102407861808910532",
+      "url": "https://x.com/elonmusk/status/2104352217092206601",
       "images": [
-        "https://pbs.twimg.com/media/HShEwaKbgAA-Lkk.jpg?name=small"
+        "https://pbs.twimg.com/media/HTQB0s1WEAAbRWp.jpg?name=small"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTQB0s1WEAAbRWp.jpg?name=small",
+          "width": 1206,
+          "height": 1971
+        }
+      ],
       "enriched": true
     },
     {
-      "id": "2102406300303049172",
+      "id": "2104290292761497884",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:34:57.000Z",
-      "created_at_shanghai": "2026-09-22 22:34:57",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok will be able to make photo-realistic &amp; physics-precise games",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 22:18:09",
-        "created_at_utc": "2026-09-22T14:18:09.000Z",
-        "id": "2102402070787862653",
+      "created_at_utc": "2026-09-27T19:21:16.000Z",
+      "created_at_shanghai": "2026-09-28 03:21:16",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "How is this real life? Seriously wtf man.",
+      "quote": null,
+      "retweet": {
+        "author": "mikepat711",
+        "avatar": "https://pbs.twimg.com/profile_images/2006022578251419649/krgWrQpt_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 01:06:28",
+        "created_at_utc": "2026-09-27T17:06:28.000Z",
+        "id": "2104256370757521502",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102401361237377024/img/SQBHSBgRjweTTKtP.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2104255905206341632/img/I4ADx7iIVO4VslHQ.jpg"
         ],
         "media": [
           {
-            "duration": 50.8,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102401361237377024/img/SQBHSBgRjweTTKtP.jpg",
+            "duration": 163.763,
+            "height": 1512,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104255905206341632/img/I4ADx7iIVO4VslHQ.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102401361237377024/vid/avc1/1920x1080/k-lneZDppfN08LG0.mp4?tag=29",
+            "url": "https://video.twimg.com/amplify_video/2104255905206341632/vid/avc1/2486x1512/lz13Wmh2NlgKWv6X.mp4?tag=29",
+            "width": 2486
+          }
+        ],
+        "name": "Mike P",
+        "text": "How is this real life? Seriously wtf man.",
+        "url": "https://x.com/mikepat711/status/2104256370757521502",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 567,
+        "likes": 1671,
+        "quotes": 34,
+        "replies": 104,
+        "retweets": 155,
+        "views": 124459
+      },
+      "url": "https://x.com/elonmusk/status/2104290292761497884",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104255905206341632/img/I4ADx7iIVO4VslHQ.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2104255905206341632/vid/avc1/2486x1512/lz13Wmh2NlgKWv6X.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104255905206341632/img/I4ADx7iIVO4VslHQ.jpg",
+          "width": 2486,
+          "height": 1512,
+          "duration": 163.763
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104287632330990060",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:10:41.000Z",
+      "created_at_shanghai": "2026-09-28 03:10:41",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceXAI has just introduced Grok @Bot Creator Rewards!\n\nRewards will go out every two weeks. Rewards are based on usage:\n• How many people use your Bots. Are your Bots useful and popular?\n• How often your Bots are used. Are your Bots providing consistent value over time?\n\nFor your templates to be eligible for rewards, you must:\n• Post about your public Bots (and specifically link to them) on X ≥ 2x per pay period\n• Have X Money set up\n• Payouts will be sent as part of X’s Original Content Rewards for now.\n \nIn the last two weeks, I’ve earned $500 in rewards due to people using my Home Robots template 🔥\n\nMore info: https://legal.x.com/en/grok-bot-template-rewards-terms.html",
+      "quote": null,
+      "retweet": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 06:26:40",
+        "created_at_utc": "2026-09-25T22:26:40.000Z",
+        "id": "2103612173687861404",
+        "images": [
+          "https://pbs.twimg.com/media/HTGIHruWgAAnRhB.jpg?name=small",
+          "https://pbs.twimg.com/media/HTGIHruXIAAVylw.jpg?name=small",
+          "https://pbs.twimg.com/media/HTGIHruXsAA03Cf.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1790,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTGIHruWgAAnRhB.jpg?name=small",
+            "width": 1320
+          },
+          {
+            "height": 1856,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTGIHruXIAAVylw.jpg?name=small",
+            "width": 1320
+          },
+          {
+            "height": 1304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTGIHruXsAA03Cf.jpg?name=small",
+            "width": 1320
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "SpaceXAI has just introduced Grok @Bot Creator Rewards!\n\nRewards will go out every two weeks. Rewards are based on usage:\n• How many people use your Bots. Are your Bots useful and popular?\n• How often your Bots are used. Are your Bots providing consistent value over time?\n\nFor your templates to be eligible for rewards, you must:\n• Post about your public Bots (and specifically link to them) on X ≥ 2x per pay period\n• Have X Money set up\n• Payouts will be sent as part of X’s Original Content Rewards for now.\n \nIn the last two weeks, I’ve earned $500 in rewards due to people using my Home Robots template 🔥\n\nMore info: https://legal.x.com/en/grok-bot-template-rewards-terms.html",
+        "url": "https://x.com/SawyerMerritt/status/2103612173687861404",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1138,
+        "likes": 2621,
+        "quotes": 139,
+        "replies": 234,
+        "retweets": 256,
+        "views": 492420
+      },
+      "url": "https://x.com/elonmusk/status/2104287632330990060",
+      "images": [
+        "https://pbs.twimg.com/media/HTGIHruWgAAnRhB.jpg?name=small",
+        "https://pbs.twimg.com/media/HTGIHruXIAAVylw.jpg?name=small",
+        "https://pbs.twimg.com/media/HTGIHruXsAA03Cf.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTGIHruWgAAnRhB.jpg?name=small",
+          "width": 1320,
+          "height": 1790
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTGIHruXIAAVylw.jpg?name=small",
+          "width": 1320,
+          "height": 1856
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTGIHruXsAA03Cf.jpg?name=small",
+          "width": 1320,
+          "height": 1304
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104287530606907824",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:10:17.000Z",
+      "created_at_shanghai": "2026-09-28 03:10:17",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 is insanely good.\n\nThe model is not the bottleneck anymore. I believe harness reliability and everything around it is...\n\nI read almost every comment on my \"Week 1 at SpaceXAI\" post, and one thing surprised me.\n\nNot many people said \"make Grok smarter\", but rather make the agents and bots finish the work 😅\n\n> don't stop halfway through\n> don't lose the browser\n> don't forget what you're doing\n> don't get stuck and wait for me to notice\n\nThat's actually a great problem to have. People are already using Grok for real work (love that!). Now the rest of the system needs to be as reliable as the model is capable.\n\nTools, browser, memory, state, retries, errors... There are so many ways an agent can fail even when the model knows exactly what to do.\n\nBeen working on some of that 👀",
+      "quote": null,
+      "retweet": {
+        "author": "larsencc",
+        "avatar": "https://pbs.twimg.com/profile_images/1903676613335937024/ZHHPeMPx_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 01:55:33",
+        "created_at_utc": "2026-09-27T17:55:33.000Z",
+        "id": "2104268724480209018",
+        "images": [],
+        "media": [],
+        "name": "Larsen Cundric",
+        "text": "Grok 4.7 is insanely good.\n\nThe model is not the bottleneck anymore. I believe harness reliability and everything around it is...\n\nI read almost every comment on my \"Week 1 at SpaceXAI\" post, and one thing surprised me.\n\nNot many people said \"make Grok smarter\", but rather make the agents and bots finish the work 😅\n\n> don't stop halfway through\n> don't lose the browser\n> don't forget what you're doing\n> don't get stuck and wait for me to notice\n\nThat's actually a great problem to have. People are already using Grok for real work (love that!). Now the rest of the system needs to be as reliable as the model is capable.\n\nTools, browser, memory, state, retries, errors... There are so many ways an agent can fail even when the model knows exactly what to do.\n\nBeen working on some of that 👀",
+        "url": "https://x.com/larsencc/status/2104268724480209018",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 198,
+        "quotes": 0,
+        "replies": 38,
+        "retweets": 25,
+        "views": 16960
+      },
+      "url": "https://x.com/elonmusk/status/2104287530606907824",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104286931194704092",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:07:54.000Z",
+      "created_at_shanghai": "2026-09-28 03:07:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Sam Altman was asked in 2023: “You have an incredible amount of power at this moment. Why should we trust you?”\n\nSam responds: “You shouldn’t.”\n\nNothing has changed. OpenAI isn’t to be trusted.",
+      "quote": null,
+      "retweet": {
+        "author": "KatieMiller",
+        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 21:58:35",
+        "created_at_utc": "2026-09-27T13:58:35.000Z",
+        "id": "2104209088636666348",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg"
+        ],
+        "media": [
+          {
+            "duration": 13.869,
+            "height": 746,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104209046848884736/vid/avc1/1320x746/Mt3wCnTGu720GZd3.mp4?tag=29",
+            "width": 1320
+          }
+        ],
+        "name": "Katie Miller",
+        "text": "Sam Altman was asked in 2023: “You have an incredible amount of power at this moment. Why should we trust you?”\n\nSam responds: “You shouldn’t.”\n\nNothing has changed. OpenAI isn’t to be trusted.",
+        "url": "https://x.com/KatieMiller/status/2104209088636666348",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 55,
+        "likes": 1331,
+        "quotes": 14,
+        "replies": 92,
+        "retweets": 215,
+        "views": 68427
+      },
+      "url": "https://x.com/elonmusk/status/2104286931194704092",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2104209046848884736/vid/avc1/1320x746/Mt3wCnTGu720GZd3.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg",
+          "width": 1320,
+          "height": 746,
+          "duration": 13.869
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104286638079676914",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:06:44.000Z",
+      "created_at_shanghai": "2026-09-28 03:06:44",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Yup",
+      "quote": {
+        "author": "YourMomDave1",
+        "avatar": "https://pbs.twimg.com/profile_images/1739844558848925697/PGdlZkB0_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 22:25:47",
+        "created_at_utc": "2026-09-26T14:25:47.000Z",
+        "id": "2103853544344314202",
+        "images": [],
+        "media": [],
+        "name": "Your Mom, Dave",
+        "text": "Blue Origin is great and if we had nothing to compare it with, we'd be incredibly impressed with what they built, having raised just $30B.\n\nBut let's just use BO to put SpaceX's capital efficiency into perspective;\n\n— SPCX invented the orbital class reusable booster\n— flew + landed it like 650 times\n— built Starlink; 10M+ customers\n— built Dragon; launched like 60 humans to the ISS\n— got ~95% of the way to making a fully reusable Starship operational\n— acquired xAI, positioning them to do Starmind\n\nAll of this on just $10B worth of private equity\n\nLike what the fuck",
+        "url": "https://x.com/YourMomDave1/status/2103853544344314202",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 16,
+        "likes": 571,
+        "quotes": 6,
+        "replies": 170,
+        "retweets": 62,
+        "views": 344674
+      },
+      "url": "https://x.com/elonmusk/status/2104286638079676914",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104286451672158279",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:06:00.000Z",
+      "created_at_shanghai": "2026-09-28 03:06:00",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "*taps sign",
+      "quote": {
+        "author": "visegrad24",
+        "avatar": "https://pbs.twimg.com/profile_images/1875625827674591232/OBzjRIZ4_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 18:58:43",
+        "created_at_utc": "2026-09-27T10:58:43.000Z",
+        "id": "2104163824483827813",
+        "images": [
+          "https://pbs.twimg.com/media/HTN92AFX0AAFjD8.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1006,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTN92AFX0AAFjD8.jpg?name=small",
+            "width": 1290
+          }
+        ],
+        "name": "Visegrád 24",
+        "text": "BREAKING\n\nFirst image of the suspected terror cell arrested near RAF Fairford from where U.S. strategic bombers B-52 & B-1B hit Iran\n\nThe men arrested under the Explosives Act had their clothes taken off to see whether they wore suicide vests",
+        "url": "https://x.com/visegrad24/status/2104163824483827813",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "ArthurMacwaters",
+        "avatar": "https://pbs.twimg.com/profile_images/1921033752140279808/TgndOxdb_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 23:39:39",
+        "created_at_utc": "2026-09-27T15:39:39.000Z",
+        "id": "2104234521113858334",
+        "images": [
+          "https://pbs.twimg.com/media/HTO-JVsaEAAWjDJ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 671,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTO-JVsaEAAWjDJ.jpg?name=small",
+            "width": 1206
+          }
+        ],
+        "name": "Arthur MacWaters",
+        "text": "*taps sign",
+        "url": "https://x.com/ArthurMacwaters/status/2104234521113858334",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 21,
+        "likes": 637,
+        "quotes": 1,
+        "replies": 35,
+        "retweets": 74,
+        "views": 73070
+      },
+      "url": "https://x.com/elonmusk/status/2104286451672158279",
+      "images": [
+        "https://pbs.twimg.com/media/HTO-JVsaEAAWjDJ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTO-JVsaEAAWjDJ.jpg?name=small",
+          "width": 1206,
+          "height": 671
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104286187754033326",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:04:57.000Z",
+      "created_at_shanghai": "2026-09-28 03:04:57",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "In New York and California, they have made it illegal for officials to ask for or for you to show your voter ID!\n\nThey made election fraud mandatory.",
+      "quote": {
+        "author": "mayemusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2034196750035021824/7VeYNMU1_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 12:14:08",
+        "created_at_utc": "2026-09-27T04:14:08.000Z",
+        "id": "2104062005133111594",
+        "images": [],
+        "media": [],
+        "name": "Maye Musk",
+        "text": "Definitely New York. When I voted and showed my ID, the woman was angry and hit it away.",
+        "url": "https://x.com/mayemusk/status/2104062005133111594",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 5,
+        "likes": 269,
+        "quotes": 1,
+        "replies": 25,
+        "retweets": 54,
+        "views": 237036
+      },
+      "url": "https://x.com/elonmusk/status/2104286187754033326",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104270094746501157",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T18:01:00.000Z",
+      "created_at_shanghai": "2026-09-28 02:01:00",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "JUST IN: 98% of new cars sold in Norway this year are EVs, with Tesla's Model Y leading the next model by over 300%",
+      "quote": null,
+      "retweet": {
+        "author": "Kalshi",
+        "avatar": "https://pbs.twimg.com/profile_images/2061243841957502981/FZGJ4D6K_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 15:00:00",
+        "created_at_utc": "2026-09-27T07:00:00.000Z",
+        "id": "2104103747492450430",
+        "images": [],
+        "media": [],
+        "name": "Kalshi",
+        "text": "JUST IN: 98% of new cars sold in Norway this year are EVs, with Tesla's Model Y leading the next model by over 300%",
+        "url": "https://x.com/Kalshi/status/2104103747492450430",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 60,
+        "likes": 2562,
+        "quotes": 27,
+        "replies": 85,
+        "retweets": 196,
+        "views": 140134
+      },
+      "url": "https://x.com/elonmusk/status/2104270094746501157",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104254031061557730",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T16:57:10.000Z",
+      "created_at_shanghai": "2026-09-28 00:57:10",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "asked claude in cursor to make a video on history of video games",
+      "quote": null,
+      "retweet": {
+        "author": "prasenx",
+        "avatar": "https://pbs.twimg.com/profile_images/1925153197645307904/0paEJX5m_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 22:19:24",
+        "created_at_utc": "2026-09-26T14:19:24.000Z",
+        "id": "2103851939457093635",
+        "images": [
+          "https://pbs.twimg.com/media/HTJhmVhbcAACzD1.jpg"
+        ],
+        "media": [
+          {
+            "duration": 120,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/media/HTJhmVhbcAACzD1.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103847608553005056/vid/avc1/1920x1080/SxAatzZX_U3EdK5E.mp4?tag=29",
             "width": 1920
           }
         ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 just built a GTA-style open-world game from a single prompt in Grok Build\n\nYou can walk around, drive cars, enter vehicles and explore an entire city\n\nIt looks insane, and I had way too much fun playing it 😂",
-        "url": "https://x.com/XFreeze/status/2102402070787862653",
+        "name": "Prasenjit",
+        "text": "asked claude in cursor to make a video on history of video games",
+        "url": "https://x.com/prasenx/status/2103851939457093635",
         "verified": true,
         "verified_type": "individual"
       },
-      "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 736,
-        "likes": 11262,
-        "quotes": 141,
-        "replies": 1443,
-        "retweets": 1411,
-        "views": 3451437
+        "bookmarks": 585,
+        "likes": 1585,
+        "quotes": 19,
+        "replies": 95,
+        "retweets": 152,
+        "views": 109160
       },
-      "url": "https://x.com/elonmusk/status/2102406300303049172",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102398931770409255",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:05:40.000Z",
-      "created_at_shanghai": "2026-09-22 22:05:40",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Tell Grok an idea, and it builds a working version live in your chat. \n\nGrok Build is now available on every plan - on web, iOS, and Android.",
-      "quote": null,
-      "retweet": {
-        "author": "grok",
-        "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
-        "created_at_shanghai": "2026-09-17 15:13:56",
-        "created_at_utc": "2026-09-17T07:13:56.000Z",
-        "id": "2100483374150263275",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg"
-        ],
-        "media": [
-          {
-            "duration": 19.6,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2100213508029702145/vid/avc1/720x720/tigTdmb6OZBp229f.mp4?tag=14",
-            "width": 1080
-          }
-        ],
-        "name": "Grok",
-        "text": "Tell Grok an idea, and it builds a working version live in your chat. \n\nGrok Build is now available on every plan - on web, iOS, and Android.",
-        "url": "https://x.com/grok/status/2100483374150263275",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 222,
-        "likes": 1338,
-        "quotes": 3,
-        "replies": 116,
-        "retweets": 199,
-        "views": 2824531
-      },
-      "url": "https://x.com/elonmusk/status/2102398931770409255",
+      "url": "https://x.com/elonmusk/status/2104254031061557730",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg"
+        "https://pbs.twimg.com/media/HTJhmVhbcAACzD1.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2100213508029702145/vid/avc1/720x720/tigTdmb6OZBp229f.mp4?tag=14",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg",
-          "width": 1080,
+          "url": "https://video.twimg.com/amplify_video/2103847608553005056/vid/avc1/1920x1080/SxAatzZX_U3EdK5E.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/media/HTJhmVhbcAACzD1.jpg",
+          "width": 1920,
           "height": 1080,
-          "duration": 19.6
+          "duration": 120
         }
       ],
       "enriched": true
     },
     {
-      "id": "2102262980230476242",
+      "id": "2104253907790713339",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T05:05:27.000Z",
-      "created_at_shanghai": "2026-09-22 13:05:27",
+      "created_at_utc": "2026-09-27T16:56:41.000Z",
+      "created_at_shanghai": "2026-09-28 00:56:41",
       "type": "转发",
       "type_label": "转发",
-      "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
-      "quote": null,
-      "retweet": {
-        "author": "marsrepublica",
-        "avatar": "https://pbs.twimg.com/profile_images/2075787229436256257/RrDaMY-l_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 07:32:41",
-        "created_at_utc": "2026-09-21T23:32:41.000Z",
-        "id": "2102179235766968347",
-        "images": [
-          "https://pbs.twimg.com/media/HSxw3uLWMAECVw3.jpg?name=small"
-        ],
-        "name": "samuel",
-        "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
-        "url": "https://x.com/marsrepublica/status/2102179235766968347",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 268,
-        "likes": 4838,
-        "quotes": 83,
-        "replies": 306,
-        "retweets": 481,
-        "views": 4426886
-      },
-      "url": "https://x.com/elonmusk/status/2102262980230476242",
-      "images": [
-        "https://pbs.twimg.com/media/HSxw3uLWMAECVw3.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102261893134197197",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T05:01:08.000Z",
-      "created_at_shanghai": "2026-09-22 13:01:08",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I stand with @JohnCleese.",
-      "quote": null,
-      "retweet": {
-        "author": "TheBritishIntel",
-        "avatar": "https://pbs.twimg.com/profile_images/2071186472355405824/c2O88qrF_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 20:15:25",
-        "created_at_utc": "2026-09-21T12:15:25.000Z",
-        "id": "2102008796637802550",
-        "images": [
-          "https://pbs.twimg.com/media/HSvV2P3W8AAwGF1.png?name=small"
-        ],
-        "name": "British Intel",
-        "text": "I stand with @JohnCleese.",
-        "url": "https://x.com/TheBritishIntel/status/2102008796637802550",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 177,
-        "likes": 24657,
-        "quotes": 95,
-        "replies": 357,
-        "retweets": 2470,
-        "views": 602432
-      },
-      "url": "https://x.com/elonmusk/status/2102261893134197197",
-      "images": [
-        "https://pbs.twimg.com/media/HSvV2P3W8AAwGF1.png?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102256837580275824",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T04:41:02.000Z",
-      "created_at_shanghai": "2026-09-22 12:41:02",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Saturday was a good day for Boca Chica Beach.\n\n985 volunteers came out for International Coastal Cleanup Day and removed 2,880 lbs of trash from our shoreline.\n\nThank you to @SpaceX, @TXAdoptABeach, and Cameron County, and to every friend, family member, and neighbor who came out to volunteer.\n\nThis is what community looks like. See you at the next one!",
-      "quote": null,
-      "retweet": {
-        "author": "StarbaseTX",
-        "avatar": "https://pbs.twimg.com/profile_images/1918069423627485187/Y4bdbdYH_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 07:31:20",
-        "created_at_utc": "2026-09-21T23:31:20.000Z",
-        "id": "2102178898997870786",
-        "images": [
-          "https://pbs.twimg.com/media/HSxwhdwWoAAh4lR.jpg?name=small",
-          "https://pbs.twimg.com/media/HSxwiPuX0AAoxkP.jpg?name=small",
-          "https://pbs.twimg.com/media/HSxwjGDXAAA7eP6.jpg?name=small",
-          "https://pbs.twimg.com/media/HSxwj4PXYAA87Ta.jpg?name=small"
-        ],
-        "name": "StarbaseTX",
-        "text": "Saturday was a good day for Boca Chica Beach.\n\n985 volunteers came out for International Coastal Cleanup Day and removed 2,880 lbs of trash from our shoreline.\n\nThank you to @SpaceX, @TXAdoptABeach, and Cameron County, and to every friend, family member, and neighbor who came out to volunteer.\n\nThis is what community looks like. See you at the next one!",
-        "url": "https://x.com/StarbaseTX/status/2102178898997870786",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 126,
-        "likes": 5916,
-        "quotes": 47,
-        "replies": 222,
-        "retweets": 514,
-        "views": 558809
-      },
-      "url": "https://x.com/elonmusk/status/2102256837580275824",
-      "images": [
-        "https://pbs.twimg.com/media/HSxwhdwWoAAh4lR.jpg?name=small",
-        "https://pbs.twimg.com/media/HSxwiPuX0AAoxkP.jpg?name=small",
-        "https://pbs.twimg.com/media/HSxwjGDXAAA7eP6.jpg?name=small",
-        "https://pbs.twimg.com/media/HSxwj4PXYAA87Ta.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102256544381624809",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T04:39:52.000Z",
-      "created_at_shanghai": "2026-09-22 12:39:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Love Trump or hate him, it’s genuinely embarrassing the White House didn’t have this before now.\n\nDecline is a choice.",
-      "quote": null,
-      "retweet": {
-        "author": "A_d_n_R_d_i_g",
-        "avatar": "https://pbs.twimg.com/profile_images/1887891160938819584/_nT2Leqq_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 08:30:00",
-        "created_at_utc": "2026-09-22T00:30:00.000Z",
-        "id": "2102193661371179179",
-        "images": [
-          "https://pbs.twimg.com/media/HSx3z13XcAAHED2.jpg?name=small"
-        ],
-        "name": "Aidan",
-        "text": "Love Trump or hate him, it’s genuinely embarrassing the White House didn’t have this before now.\n\nDecline is a choice.",
-        "url": "https://x.com/A_d_n_R_d_i_g/status/2102193661371179179",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1315,
-        "likes": 58438,
-        "quotes": 185,
-        "replies": 1523,
-        "retweets": 4204,
-        "views": 2522529
-      },
-      "url": "https://x.com/elonmusk/status/2102256544381624809",
-      "images": [
-        "https://pbs.twimg.com/media/HSx3z13XcAAHED2.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102256046018330706",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T04:37:54.000Z",
-      "created_at_shanghai": "2026-09-22 12:37:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Remembering Roger Boisjoly, the engineer who correctly identified a fatal flaw in the Challenger shuttle design months before the disaster, but nobody gave a damn. His exact words to his wife, Darlene: \"It's going to blow up\" 73 seconds before it did.\n\nMore rare historical photos:  https://bit.ly/44OpIzi",
-      "quote": null,
-      "retweet": {
-        "author": "fasc1nate",
-        "avatar": "https://pbs.twimg.com/profile_images/1552059284086611968/l0vA92Sh_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 10:30:05",
-        "created_at_utc": "2026-09-22T02:30:05.000Z",
-        "id": "2102223883227091134",
-        "images": [
-          "https://pbs.twimg.com/media/HSyZe0pWEAA1egr.jpg?name=small"
-        ],
-        "name": "Fascinating",
-        "text": "Remembering Roger Boisjoly, the engineer who correctly identified a fatal flaw in the Challenger shuttle design months before the disaster, but nobody gave a damn. His exact words to his wife, Darlene: \"It's going to blow up\" 73 seconds before it did.\n\nMore rare historical photos:  https://bit.ly/44OpIzi",
-        "url": "https://x.com/fasc1nate/status/2102223883227091134",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 287,
-        "likes": 3633,
-        "quotes": 20,
-        "replies": 145,
-        "retweets": 444,
-        "views": 481010
-      },
-      "url": "https://x.com/elonmusk/status/2102256046018330706",
-      "images": [
-        "https://pbs.twimg.com/media/HSyZe0pWEAA1egr.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102251953707446408",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T04:21:38.000Z",
-      "created_at_shanghai": "2026-09-22 12:21:38",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok TRIPLED on Terminal-Bench 4.0 in only two months (12.4% -&gt; 38.0%), overtaking GPT-5.6 Sol",
-      "quote": null,
-      "retweet": {
-        "author": "ns123abc",
-        "avatar": "https://pbs.twimg.com/profile_images/2048822563821035520/7nxCFEnk_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 11:45:29",
-        "created_at_utc": "2026-09-22T03:45:29.000Z",
-        "id": "2102242854924173798",
-        "images": [
-          "https://pbs.twimg.com/media/HSyqu-PXMAAmsya.jpg?name=small"
-        ],
-        "name": "NIK",
-        "text": "Grok TRIPLED on Terminal-Bench 4.0 in only two months (12.4% -> 38.0%), overtaking GPT-5.6 Sol",
-        "url": "https://x.com/ns123abc/status/2102242854924173798",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 42,
-        "likes": 1275,
-        "quotes": 11,
-        "replies": 87,
-        "retweets": 161,
-        "views": 397099
-      },
-      "url": "https://x.com/elonmusk/status/2102251953707446408",
-      "images": [
-        "https://pbs.twimg.com/media/HSyqu-PXMAAmsya.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102249364043505664",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T04:11:20.000Z",
-      "created_at_shanghai": "2026-09-22 12:11:20",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "day 1 observations for grok 4.7\n\nignore the reports that say “it’s terrible” and the only thing they reference is a public benchmark. the same benchmarks told us opus 5 was better that fable - they are useless\n\nalso ignore the reports that compare models with 3d games - that’s not real work. it's made for attention on social media\n\ni used grok 4.7 for a whole day as my firstmate, and it has been a really solid model with visible improvements over 4.5 (i'm ignoring 4.6 because 4.5 has been working better in my experience)\n\nkey differences with 4.7 -\n\n1. it follows system prompt very, very closely\n\ni noticed firstmate showing many new behaviors that i've never seen before, such as asking me to name specific red CI checks that i'm ok with bypassing, and refuse a simple \"yolo\" instruction\n\ni traced it and it's indeed how i instructed it in firstmate's system prompt, but none of the other models followed it closely enough to make this behavior visible - grok 4.7 is the first to pick that up\n\nthere were a few other similar examples as well. so to me this is a clear behavioral difference\n\n2. it's very \"stable\"\n\nif you've used astra then you know what a \"spiky\" model is. it can have some genius moments but you occasionally also wonder \"how could it be so dumb and doesn't get me\". grok 4.7 is the opposite of that\n\nthroughout the whole day so far, i'll be honest i haven't get a \"wow this is absolutely genius\" moment yet, but grok 4.7 has been very steady with no big surprises. its behavior feels predictable, which does help it gain trust from me quickly\n\n3. it's a conservative model\n\nit doesn't like to take actions without asking, and would explicitly say so\n\nthis is a bit of a double edged sword, because it means i sometimes have to state the obvious \"yes i do want that\", but in hindsight a lot of those cases are indeed a bit ambiguous and i may not have preferred the model to just move forward without my confirmation\n\n4. it's a bit slower and costs more than 4.5, visibly\n\nturns are taking a bit longer and my quota is draining at a visibly faster pace. i haven't quantified exactly where this is coming from yet\n\nso overall, i think it's showing some clearly different traits, and i mostly like the changes. i'm going to keep it as my primary firstmate and observe more\n\nif you've been using it, what qualitative insights have you gathered from real usage so far?",
-      "quote": null,
-      "retweet": {
-        "author": "kunchenguid",
-        "avatar": "https://pbs.twimg.com/profile_images/1946076752024895489/ScNir1Fy_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 11:11:03",
-        "created_at_utc": "2026-09-22T03:11:03.000Z",
-        "id": "2102234191639257399",
-        "images": [],
-        "name": "Kun Chen",
-        "text": "day 1 observations for grok 4.7\n\nignore the reports that say “it’s terrible” and the only thing they reference is a public benchmark. the same benchmarks told us opus 5 was better that fable - they are useless\n\nalso ignore the reports that compare models with 3d games - that’s not real work. it's made for attention on social media\n\ni used grok 4.7 for a whole day as my firstmate, and it has been a really solid model with visible improvements over 4.5 (i'm ignoring 4.6 because 4.5 has been working better in my experience)\n\nkey differences with 4.7 -\n\n1. it follows system prompt very, very closely\n\ni noticed firstmate showing many new behaviors that i've never seen before, such as asking me to name specific red CI checks that i'm ok with bypassing, and refuse a simple \"yolo\" instruction\n\ni traced it and it's indeed how i instructed it in firstmate's system prompt, but none of the other models followed it closely enough to make this behavior visible - grok 4.7 is the first to pick that up\n\nthere were a few other similar examples as well. so to me this is a clear behavioral difference\n\n2. it's very \"stable\"\n\nif you've used astra then you know what a \"spiky\" model is. it can have some genius moments but you occasionally also wonder \"how could it be so dumb and doesn't get me\". grok 4.7 is the opposite of that\n\nthroughout the whole day so far, i'll be honest i haven't get a \"wow this is absolutely genius\" moment yet, but grok 4.7 has been very steady with no big surprises. its behavior feels predictable, which does help it gain trust from me quickly\n\n3. it's a conservative model\n\nit doesn't like to take actions without asking, and would explicitly say so\n\nthis is a bit of a double edged sword, because it means i sometimes have to state the obvious \"yes i do want that\", but in hindsight a lot of those cases are indeed a bit ambiguous and i may not have preferred the model to just move forward without my confirmation\n\n4. it's a bit slower and costs more than 4.5, visibly\n\nturns are taking a bit longer and my quota is draining at a visibly faster pace. i haven't quantified exactly where this is coming from yet\n\nso overall, i think it's showing some clearly different traits, and i mostly like the changes. i'm going to keep it as my primary firstmate and observe more\n\nif you've been using it, what qualitative insights have you gathered from real usage so far?",
-        "url": "https://x.com/kunchenguid/status/2102234191639257399",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 234,
-        "likes": 2048,
-        "quotes": 27,
-        "replies": 167,
-        "retweets": 175,
-        "views": 482049
-      },
-      "url": "https://x.com/elonmusk/status/2102249364043505664",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102207241101144450",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T01:23:58.000Z",
-      "created_at_shanghai": "2026-09-22 09:23:58",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Grok 4.7",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1686,
-        "likes": 31132,
-        "quotes": 365,
-        "replies": 2915,
-        "retweets": 2642,
-        "views": 22116008
-      },
-      "url": "https://x.com/elonmusk/status/2102207241101144450",
-      "images": [
-        "https://pbs.twimg.com/media/HSyKWCqW4AA5Ubh.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102201921721262110",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T01:02:49.000Z",
-      "created_at_shanghai": "2026-09-22 09:02:49",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Been testing Grok 4.7 for the past week or more. It’s been a great improvement over 4.6. \nIt worked for over 70 hours straight on a goal. Much better attention to detail. \nThe 500k context window really makes a difference imo. 4.7 much better at things like skill selection; workflows. Found it particularly good with pstack. \nDidn’t have access to it in Grokbot, but I really wanted to test it there. Together it’s a great daily driver.",
-      "quote": null,
-      "retweet": {
-        "author": "ScriptedAlchemy",
-        "avatar": "https://pbs.twimg.com/profile_images/1601787403185934336/plWmMMB8_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 04:50:26",
-        "created_at_utc": "2026-09-21T20:50:26.000Z",
-        "id": "2102138407908720838",
-        "images": [],
-        "name": "Zack Jackson",
-        "text": "Been testing Grok 4.7 for the past week or more. It’s been a great improvement over 4.6. \nIt worked for over 70 hours straight on a goal. Much better attention to detail. \nThe 500k context window really makes a difference imo. 4.7 much better at things like skill selection; workflows. Found it particularly good with pstack. \nDidn’t have access to it in Grokbot, but I really wanted to test it there. Together it’s a great daily driver.",
-        "url": "https://x.com/ScriptedAlchemy/status/2102138407908720838",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 51,
-        "likes": 1264,
-        "quotes": 7,
-        "replies": 89,
-        "retweets": 145,
-        "views": 458112
-      },
-      "url": "https://x.com/elonmusk/status/2102201921721262110",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102201534776025356",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T01:01:17.000Z",
-      "created_at_shanghai": "2026-09-22 09:01:17",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
+      "text": "I gave Opus 5.5 one of my french theory analysis that got 80 million views and simply asked it to turn it into a video.\n\nThis is what it came up with. 🤯🤯🤯\n\nA lot of new stuff to illustrate, this is amazing.",
       "quote": {
-        "author": "marsrepublica",
-        "avatar": "https://pbs.twimg.com/profile_images/2075787229436256257/RrDaMY-l_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 07:32:41",
-        "created_at_utc": "2026-09-21T23:32:41.000Z",
-        "id": "2102179235766968347",
-        "images": [
-          "https://pbs.twimg.com/media/HSxw3uLWMAECVw3.jpg?name=small"
-        ],
-        "name": "samuel",
-        "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
-        "url": "https://x.com/marsrepublica/status/2102179235766968347",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 311,
-        "likes": 9842,
-        "quotes": 89,
-        "replies": 1127,
-        "retweets": 1400,
-        "views": 3951161
-      },
-      "url": "https://x.com/elonmusk/status/2102201534776025356",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102201280307540181",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T01:00:16.000Z",
-      "created_at_shanghai": "2026-09-22 09:00:16",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@elonmusk I'm using it right now to build a game engine in C. It's really good.",
-      "quote": null,
-      "retweet": {
-        "author": "tetsuoai",
-        "avatar": "https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 08:09:13",
-        "created_at_utc": "2026-09-22T00:09:13.000Z",
-        "id": "2102188432441414005",
+        "author": "brivael",
+        "avatar": "https://pbs.twimg.com/profile_images/2057241969403834368/PFPm3cxd_200x200.jpg",
+        "created_at_shanghai": "2026-05-16 06:13:41",
+        "created_at_utc": "2026-05-15T22:13:41.000Z",
+        "id": "2055411322628583488",
         "images": [],
-        "name": "tetsuo",
-        "text": "@elonmusk I'm using it right now to build a game engine in C. It's really good.",
-        "url": "https://x.com/tetsuoai/status/2102188432441414005",
+        "media": [],
+        "name": "Brivael Le Pogam",
+        "text": "Je veux présenter mes excuses, au nom des Français, pour avoir enfanté la French Theory (qui a enfanté la pire des merdes idéologiques : le wokisme).\n\nNous avons donné au monde Descartes, Pascal, Tocqueville. Et puis, dans les ruines intellectuelles de l'après-68, nous avons donné Foucault, Derrida, Deleuze. Trois hommes brillants qui ont fabriqué, dans l'élégance de notre langue, l'arme idéologique qui paralyse aujourd'hui l'Occident.\n\nIl faut comprendre ce qu'ils ont fait. Foucault a enseigné que la vérité n'existe pas, qu'il n'y a que des rapports de pouvoir déguisés en savoir. Que la science, la raison, la justice, l'institution médicale, l'école, la prison, la sexualité, tout n'est qu'une mise en scène de la domination. Derrida a enseigné que les textes n'ont pas de sens stable, que tout signifiant glisse, que toute lecture est une trahison, que l'auteur est mort et que le lecteur règne. Deleuze a enseigné qu'il fallait préférer le rhizome à l'arbre, le nomade au sédentaire, le désir à la loi, le devenir à l'être, la différence à l'identité.\n\nPris isolément, ce sont des thèses discutables. Combinées, exportées, vulgarisées, elles forment un système. Et ce système est un poison.\n\nCar voici ce qui s'est passé. Ces textes, illisibles en France, ont traversé l'Atlantique. Les départements de Yale, de Berkeley, de Columbia les ont absorbés dans les années 80. Ils y ont trouvé un terreau qui n'existait pas chez nous : le puritanisme américain, sa culpabilité raciale, son obsession identitaire. La French Theory s'est mariée à ce substrat, et l'enfant de ce mariage s'appelle le wokisme.\n\nJudith Butler lit Foucault et invente le genre performatif. Edward Said lit Foucault et invente le post-colonialisme académique. Kimberlé Crenshaw hérite du cadre et invente l'intersectionnalité. À chaque étape, la matrice est française : il n'y a pas de vérité, il n'y a que du pouvoir, donc toute hiérarchie est suspecte, toute institution est oppressive, toute norme est violence, toute identité est construite donc négociable, toute majorité est coupable.\n\nVoilà comment trois philosophes parisiens, qui n'ont probablement jamais imaginé leurs conséquences pratiques, ont fourni le logiciel d'exploitation à une génération entière d'activistes, de bureaucrates universitaires, de DRH, de journalistes, de législateurs. Voilà comment on a obtenu une civilisation qui ne sait plus dire si une femme est une femme, si sa propre histoire mérite d'être défendue, si le mérite existe, si la vérité se distingue de l'opinion.\n\nC'est de la merde pour une raison simple, et il faut la dire calmement. Une civilisation se tient debout sur trois piliers : la croyance qu'il existe une vérité accessible à la raison, la croyance qu'il existe un bien distinct du mal, la croyance qu'il existe un héritage à transmettre. La French Theory a entrepris de dynamiter les trois. Pas par méchanceté. Par jeu intellectuel, par fascination du soupçon, par haine de la bourgeoisie qui les avait nourris. Mais le résultat est là. Une génération entière a appris à déconstruire et n'a jamais appris à construire. Une génération entière sait soupçonner et ne sait plus admirer. Une génération entière voit le pouvoir partout et la beauté nulle part.\n\nJe m'excuse parce que nous, Français, avons une responsabilité particulière. C'est notre langue, nos universités, nos éditeurs, notre prestige qui ont donné à ce nihilisme son emballage chic. Sans la légitimité de la Sorbonne et de Vincennes, ces idées n'auraient jamais traversé l'océan. Nous avons exporté le doute comme d'autres exportent des armes.\n\nCe qui se construit maintenant, en silicon valley, dans les labos d'IA, dans les startups, dans les ateliers, dans tous les lieux où des gens fabriquent encore des choses au lieu de les déconstruire, c'est la réponse. Une civilisation se reconstruit par les bâtisseurs, pas par les commentateurs. Par ceux qui croient que la vérité existe et qu'elle vaut qu'on s'y consacre. Par ceux qui assument une hiérarchie du beau, du vrai, du bon, et qui n'ont pas honte de la transmettre.\n\nAlors pardon. Et au travail.",
+        "url": "https://x.com/brivael/status/2055411322628583488",
         "verified": true,
         "verified_type": "individual"
       },
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 109,
-        "likes": 1500,
-        "quotes": 3,
-        "replies": 62,
-        "retweets": 101,
-        "views": 612585
-      },
-      "url": "https://x.com/elonmusk/status/2102201280307540181",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102192595325559159",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T00:25:46.000Z",
-      "created_at_shanghai": "2026-09-22 08:25:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 just released and it's an EXCELLENT model\n\nIt was trained FOR Grok Bot\n\nMeaning this is a fully agentic model trained to do your knowledge work better than you can\n\nIn this video I show you how to use Grok 4.7 and a Grok Bot workflow that will 10x your productivity:",
-      "quote": null,
       "retweet": {
-        "author": "AlexFinn",
-        "avatar": "https://pbs.twimg.com/profile_images/1745232634278461440/7gQcr_R__200x200.jpg",
-        "created_at_shanghai": "2026-09-22 08:07:47",
-        "created_at_utc": "2026-09-22T00:07:47.000Z",
-        "id": "2102188069483155841",
+        "author": "brivael",
+        "avatar": "https://pbs.twimg.com/profile_images/2057241969403834368/PFPm3cxd_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 22:28:26",
+        "created_at_utc": "2026-09-27T14:28:26.000Z",
+        "id": "2104216601864106226",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2104215849825411074/img/yUp4gnsy6FVvyj-9.jpg"
         ],
         "media": [
           {
-            "duration": 845.136,
-            "height": 1968,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg",
+            "duration": 331.633,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104215849825411074/img/yUp4gnsy6FVvyj-9.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102187463200718848/vid/avc1/3840x1968/hAmtr6d8MVoU9KT8.mp4?tag=29",
-            "width": 3840
+            "url": "https://video.twimg.com/amplify_video/2104215849825411074/vid/avc1/1920x1080/hQvLbp30sX1uhSVa.mp4?tag=29",
+            "width": 1920
           }
         ],
-        "name": "Alex Finn",
-        "text": "Grok 4.7 just released and it's an EXCELLENT model\n\nIt was trained FOR Grok Bot\n\nMeaning this is a fully agentic model trained to do your knowledge work better than you can\n\nIn this video I show you how to use Grok 4.7 and a Grok Bot workflow that will 10x your productivity:",
-        "url": "https://x.com/AlexFinn/status/2102188069483155841",
+        "name": "Brivael Le Pogam",
+        "text": "I gave Opus 5.5 one of my french theory analysis that got 80 million views and simply asked it to turn it into a video.\n\nThis is what it came up with. 🤯🤯🤯\n\nA lot of new stuff to illustrate, this is amazing.",
+        "url": "https://x.com/brivael/status/2104216601864106226",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 1374,
-        "likes": 2194,
-        "quotes": 32,
-        "replies": 172,
-        "retweets": 259,
-        "views": 507962
+        "bookmarks": 108,
+        "likes": 366,
+        "quotes": 3,
+        "replies": 42,
+        "retweets": 79,
+        "views": 86894
       },
-      "url": "https://x.com/elonmusk/status/2102192595325559159",
+      "url": "https://x.com/elonmusk/status/2104253907790713339",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2104215849825411074/img/yUp4gnsy6FVvyj-9.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102187463200718848/vid/avc1/3840x1968/hAmtr6d8MVoU9KT8.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg",
-          "width": 3840,
-          "height": 1968,
-          "duration": 845.136
+          "url": "https://video.twimg.com/amplify_video/2104215849825411074/vid/avc1/1920x1080/hQvLbp30sX1uhSVa.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104215849825411074/img/yUp4gnsy6FVvyj-9.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 331.633
         }
       ],
       "enriched": true
     },
     {
-      "id": "2102188167860273661",
+      "id": "2104241882280706176",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T00:08:10.000Z",
-      "created_at_shanghai": "2026-09-22 08:08:10",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Cool",
-      "quote": {
-        "author": "aug5thmusic",
-        "avatar": "https://pbs.twimg.com/profile_images/2081713987272814592/Fc_qgJqU_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 03:24:09",
-        "created_at_utc": "2026-09-21T19:24:09.000Z",
-        "id": "2102116692898042206",
-        "images": [
-          "https://pbs.twimg.com/media/HSw3tyda0AAzTSN.png?name=small"
-        ],
-        "name": "Auggie",
-        "text": "This was unexpected. Grok 4.7 scored 100% on my music error detection test, the same as GPT-6 Astra.",
-        "url": "https://x.com/aug5thmusic/status/2102116692898042206",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 261,
-        "likes": 7683,
-        "quotes": 54,
-        "replies": 866,
-        "retweets": 1235,
-        "views": 3484023
-      },
-      "url": "https://x.com/elonmusk/status/2102188167860273661",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102187423098642792",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T00:05:13.000Z",
-      "created_at_shanghai": "2026-09-22 08:05:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7",
-      "quote": {
-        "author": "ArtificialAnlys",
-        "avatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 06:57:32",
-        "created_at_utc": "2026-09-21T22:57:32.000Z",
-        "id": "2102170392924492207",
-        "images": [
-          "https://pbs.twimg.com/media/HSxoh97bsAAL1zb.jpg?name=small"
-        ],
-        "name": "Artificial Analysis",
-        "text": "Grok 4.7 is behind only Anthropic models on AA-Briefcase, ranking just behind Opus 5 at ~50% of its Cost per Task\n\nGrok 4.7’s improvements over Grok 4.6 are clear in AA-Briefcase-Lite, our public due diligence scenario where models are tasked with building market models and target assessment decks. Grok 4.7 gains significantly in Analytical Quality Elo (1698 → 1994) with a slight regression in Presentation Elo (1531 → 1499).\n\nAPI cost to produce example decks: Grok 4.7 (xhigh) ~$8 vs. Grok 4.6 (xhigh) ~$4.40",
-        "url": "https://x.com/ArtificialAnlys/status/2102170392924492207",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 302,
-        "likes": 6892,
-        "quotes": 69,
-        "replies": 736,
-        "retweets": 1061,
-        "views": 4176585
-      },
-      "url": "https://x.com/elonmusk/status/2102187423098642792",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102167600692109421",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T22:46:27.000Z",
-      "created_at_shanghai": "2026-09-22 06:46:27",
+      "created_at_utc": "2026-09-27T16:08:54.000Z",
+      "created_at_shanghai": "2026-09-28 00:08:54",
       "type": "转发",
       "type_label": "转发",
-      "text": "Grok 4.7 xHigh is now at the top with just ONE point away from Claude Fable 5.1 Max on Artificial Analysis’ AA-Briefcase benchmark\n\nClaude Fable 5.1 Max — 59%\nGrok 4.7 xHigh — 58%\n\nJust a 1-point difference at the very top\n\nAnd Grok is ahead of GPT-6 Astra, GPT-5.6, Gemini, Kimi, GLM and nearly every other frontier model  on the benchmark",
+      "text": "10 years ago today, @elonmusk announced his Mars plans in the form of the Interplanetary Transportation System, now known as Starship at the 2016 IAC in Guadalajara, Mexico. This was when he used the underpants gnome meme and I’ve always wondered if back then he already knew Starlink would be the key to SpaceX’s future followed by AI prospects, or was it still just rocket launch services that thought would be the money maker. \n\nPS: I was there and it was the first time I asked Elon anything at a press conference. I remember being pretty nervous. I never imagined I’d hold multi-hour conversations about rockets just a few years later.",
       "quote": null,
       "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 03:26:14",
-        "created_at_utc": "2026-09-21T19:26:14.000Z",
-        "id": "2102117217655726493",
+        "author": "Erdayastronaut",
+        "avatar": "https://pbs.twimg.com/profile_images/1253477073265532928/MmGBMWsQ_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 22:42:21",
+        "created_at_utc": "2026-09-27T14:42:21.000Z",
+        "id": "2104220100488282150",
         "images": [
-          "https://pbs.twimg.com/media/HSw3zwraUAAv7EX.jpg?name=small"
+          "https://pbs.twimg.com/amplify_video_thumb/2104219767208869888/img/yar_o0cSKT9ivAZe.jpg"
         ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 xHigh is now at the top with just ONE point away from Claude Fable 5.1 Max on Artificial Analysis’ AA-Briefcase benchmark\n\nClaude Fable 5.1 Max — 59%\nGrok 4.7 xHigh — 58%\n\nJust a 1-point difference at the very top\n\nAnd Grok is ahead of GPT-6 Astra, GPT-5.6, Gemini, Kimi, GLM and nearly every other frontier model  on the benchmark",
-        "url": "https://x.com/XFreeze/status/2102117217655726493",
+        "media": [
+          {
+            "duration": 129.726,
+            "height": 1320,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104219767208869888/img/yar_o0cSKT9ivAZe.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104219767208869888/vid/avc1/2346x1320/s_nIRs-ZbFeEs8GH.mp4?tag=29",
+            "width": 2346
+          }
+        ],
+        "name": "Everyday Astronaut",
+        "text": "10 years ago today, @elonmusk announced his Mars plans in the form of the Interplanetary Transportation System, now known as Starship at the 2016 IAC in Guadalajara, Mexico. This was when he used the underpants gnome meme and I’ve always wondered if back then he already knew Starlink would be the key to SpaceX’s future followed by AI prospects, or was it still just rocket launch services that thought would be the money maker. \n\nPS: I was there and it was the first time I asked Elon anything at a press conference. I remember being pretty nervous. I never imagined I’d hold multi-hour conversations about rockets just a few years later.",
+        "url": "https://x.com/Erdayastronaut/status/2104220100488282150",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 98,
-        "likes": 1786,
-        "quotes": 22,
-        "replies": 146,
-        "retweets": 264,
-        "views": 425232
+        "bookmarks": 120,
+        "likes": 1408,
+        "quotes": 9,
+        "replies": 71,
+        "retweets": 149,
+        "views": 70032
       },
-      "url": "https://x.com/elonmusk/status/2102167600692109421",
+      "url": "https://x.com/elonmusk/status/2104241882280706176",
       "images": [
-        "https://pbs.twimg.com/media/HSw3zwraUAAv7EX.jpg?name=small"
+        "https://pbs.twimg.com/amplify_video_thumb/2104219767208869888/img/yar_o0cSKT9ivAZe.jpg"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2104219767208869888/vid/avc1/2346x1320/s_nIRs-ZbFeEs8GH.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104219767208869888/img/yar_o0cSKT9ivAZe.jpg",
+          "width": 2346,
+          "height": 1320,
+          "duration": 129.726
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104237035791814976",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T15:49:38.000Z",
+      "created_at_shanghai": "2026-09-27 23:49:38",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceX's CFO says Starlink demand is unprecedented. The interesting part is who's driving it!\n\nLarry Goldberg @TeslaLarry breaks down the Goldman conference interview. Bret Johnsen reiterated a coming $100M revenue run rate and pinned the demand on AI!\n\nThink about it. People use data in bursts. Robots, robotaxis, and AI agents use it nonstop, and they need coverage everywhere.\n\nStarship is what makes it scale. Bigger payloads mean direct-to-cell, and satellites with extra solar and radiators could handle orbital compute. \n\nThrow in reported Nvidia chips and Starlink starts looking less like a pipe and more like a compute layer!\n\nFor cars, that means Grok that never loses signal.\n\n$SPCX",
+      "quote": null,
+      "retweet": {
+        "author": "herbertong",
+        "avatar": "https://pbs.twimg.com/profile_images/2006760109674999809/DCuTxqri_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 22:38:00",
+        "created_at_utc": "2026-09-27T14:38:00.000Z",
+        "id": "2104219006274253192",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104206287106162688/img/idpR9zxiOrHmbQBC.jpg"
+        ],
+        "media": [
+          {
+            "duration": 208.4,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104206287106162688/img/idpR9zxiOrHmbQBC.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104206287106162688/vid/avc1/1280x720/7TvW7u83qo7nXHWY.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "Herbert Ong",
+        "text": "SpaceX's CFO says Starlink demand is unprecedented. The interesting part is who's driving it!\n\nLarry Goldberg @TeslaLarry breaks down the Goldman conference interview. Bret Johnsen reiterated a coming $100M revenue run rate and pinned the demand on AI!\n\nThink about it. People use data in bursts. Robots, robotaxis, and AI agents use it nonstop, and they need coverage everywhere.\n\nStarship is what makes it scale. Bigger payloads mean direct-to-cell, and satellites with extra solar and radiators could handle orbital compute. \n\nThrow in reported Nvidia chips and Starlink starts looking less like a pipe and more like a compute layer!\n\nFor cars, that means Grok that never loses signal.\n\n$SPCX",
+        "url": "https://x.com/herbertong/status/2104219006274253192",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 26,
+        "likes": 371,
+        "quotes": 1,
+        "replies": 43,
+        "retweets": 63,
+        "views": 30903
+      },
+      "url": "https://x.com/elonmusk/status/2104237035791814976",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104206287106162688/img/idpR9zxiOrHmbQBC.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2104206287106162688/vid/avc1/1280x720/7TvW7u83qo7nXHWY.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104206287106162688/img/idpR9zxiOrHmbQBC.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 208.4
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104160415118942609",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T10:45:11.000Z",
+      "created_at_shanghai": "2026-09-27 18:45:11",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We didn't start the scaling.\n\nNine years of AI, from \"Attention\" to Opus 5.5, as an anime opening. It's one of six genres on the album, each with its own music video, and a mini-site to explain every reference.\n\nLinks below 👇",
+      "quote": null,
+      "retweet": {
+        "author": "domenic",
+        "avatar": "https://pbs.twimg.com/profile_images/1743970915594194944/pggkF2CM_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 21:59:29",
+        "created_at_utc": "2026-09-26T13:59:29.000Z",
+        "id": "2103846928027160609",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103845101063880704/img/TBM_z_y_UaYkRaCZ.jpg"
+        ],
+        "media": [
+          {
+            "duration": 277.783,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103845101063880704/img/TBM_z_y_UaYkRaCZ.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103845101063880704/vid/avc1/1920x1080/DsMZLcS25eVcrQPN.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Domenic Denicola",
+        "text": "We didn't start the scaling.\n\nNine years of AI, from \"Attention\" to Opus 5.5, as an anime opening. It's one of six genres on the album, each with its own music video, and a mini-site to explain every reference.\n\nLinks below 👇",
+        "url": "https://x.com/domenic/status/2103846928027160609",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 194,
+        "likes": 371,
+        "quotes": 14,
+        "replies": 20,
+        "retweets": 50,
+        "views": 47652
+      },
+      "url": "https://x.com/elonmusk/status/2104160415118942609",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103845101063880704/img/TBM_z_y_UaYkRaCZ.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2103845101063880704/vid/avc1/1920x1080/DsMZLcS25eVcrQPN.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103845101063880704/img/TBM_z_y_UaYkRaCZ.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 277.783
+        }
+      ],
       "enriched": true
     }
   ],
   "page": 24,
   "page_size": 20,
-  "total": 547,
-  "total_pages": 28,
-  "updated_at_shanghai": "2026-10-09 00:59:40",
+  "total": 697,
+  "total_pages": 35,
+  "updated_at_shanghai": "2026-10-09 05:51:14",
   "account": "elonmusk"
 }
