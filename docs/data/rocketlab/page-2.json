@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2103165520581402763",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-09-24T16:51:49.000Z",
+      "created_at_shanghai": "2026-09-25 00:51:49",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Lunar Surface Robotics (Moon)\n\nRocket Lab supported @FireflySpace's Blue Ghost lunar lander with our MAX Flight and MAX Ground Data Software suites, alongside trajectory design and backup mission operations support.\n\nWe also provided the high-efficiency solar panels that powered the Blue Ghost spacecraft that successfully landed on the Mare Cirsium on the lunar surface.\n\nMotiv Space Systems (now Rocket Lab Robotics) also developed the lightweight chassis, mobility actuators, and motor control electronics for @NASA's CADRE autonomous lunar rovers. Currently, we are developing a single-axis scanning gimbal with integrated avionics for the EMILIA-3D PRISM payload, an instrument designed to produce high-resolution 3D thermal maps of the Moon.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "RocketLab",
+      "engagement": {
+        "bookmarks": 0,
+        "likes": 25,
+        "quotes": 1,
+        "replies": 1,
+        "retweets": 4,
+        "views": 991
+      },
+      "url": "https://x.com/rocketlab/status/2103165520581402763",
+      "images": [
+        "https://pbs.twimg.com/media/HS_xquGboAAhc3l.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS_xquGboAAhc3l.jpg?name=small",
+          "width": 2000,
+          "height": 1599
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103164516783775992",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -781,51 +818,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2101119632136716413",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-09-19T01:22:11.000Z",
-      "created_at_shanghai": "2026-09-19 09:22:11",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Electron is vertical on Pad B at Launch Complex 1 ahead of today's 'Owl By The Dozen' mission for @synspective - our 96th Electron launch. T-2 hours to liftoff.\n\n❄️LOX loading is about to begin\n🌤️ Weather: 85% go\n🚀 Range: Clear\n⏱️ Liftoff: scheduled for 3:22pm NZ local time",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 86,
-        "likes": 2413,
-        "quotes": 25,
-        "replies": 36,
-        "retweets": 232,
-        "views": 129300
-      },
-      "url": "https://x.com/rocketlab/status/2101119632136716413",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2101119359586594816/img/9Oe6Iq8N9oReHvkq.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2101119359586594816/vid/avc1/1080x1920/SDCIK0vHzsc8URNu.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101119359586594816/img/9Oe6Iq8N9oReHvkq.jpg",
-          "width": 1080,
-          "height": 1920,
-          "duration": 14.366
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 61,
+  "total": 62,
   "total_pages": 4,
-  "updated_at_shanghai": "2026-10-05 06:03:55",
+  "updated_at_shanghai": "2026-10-08 10:56:59",
   "account": "rocketlab"
 }
