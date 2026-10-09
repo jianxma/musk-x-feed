@@ -1,6 +1,268 @@
 {
   "posts": [
     {
+      "id": "2107695858259292561",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T04:53:46.000Z",
+      "created_at_shanghai": "2026-10-07 12:53:46",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Tesla self-driving is magical",
+      "quote": {
+        "author": "Tesla",
+        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
+        "created_at_shanghai": "2026-10-07 07:40:43",
+        "created_at_utc": "2026-10-06T23:40:43.000Z",
+        "id": "2107617079235060023",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107574774209630208/img/cg-I-e5eIhtdnPWa.jpg"
+        ],
+        "media": [
+          {
+            "duration": 52.614,
+            "height": 1280,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107574774209630208/img/cg-I-e5eIhtdnPWa.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107574774209630208/vid/avc1/720x1280/7Zwg7AexYEBVGIyb.mp4?tag=29",
+            "width": 720
+          }
+        ],
+        "name": "Tesla",
+        "text": "“I'm in a Model Y L, and using [FSD Supervised]. \n\nThis is the most unbelievable technology I have ever experienced in a car.”",
+        "url": "https://x.com/Tesla/status/2107617079235060023",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 95,
+        "likes": 2847,
+        "quotes": 40,
+        "replies": 440,
+        "retweets": 350,
+        "views": 589953
+      },
+      "url": "https://x.com/elonmusk/status/2107695858259292561",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107690167343673712",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T04:31:09.000Z",
+      "created_at_shanghai": "2026-10-07 12:31:09",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "One million-mile trucker @adamlwingfield in new interview after going to the Tesla Semi launch event a couple weeks ago:\n\n“The trucking industry has adopted technology so much slower. As we toured the @Tesla Semi factory, I’m just like, wow, this doesn’t feel like trucking. It feels like transportation innovation. I’ve been in this industry a long time. I am an old-school industry veteran. You can’t tell me nothing about trucking that I don’t know. But walking away (from the event), I was like, \"This industry is going to be changed.\"\n\nAdam's full 1+ hour interview with Motortrend: https://www.youtube.com/watch?v=r40-7gM4MAo&t=112s",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2107690167343673712",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
+      "id": "2107689502508781586",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T04:28:31.000Z",
+      "created_at_shanghai": "2026-10-07 12:28:31",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Grok Build just got one of its biggest updates yet.....a massive upgrade touching almost every part of the agent stack\n\nCompact mode gets a major upgrade, timestamps are now configurable, shell commands clearly show when they’re running or finished, tables can export directly as TSV, CSV or Markdown, and the dashboard now gives much better visibility and control over worktrees\n\nUnder the hood, the update is even bigger: stalled model calls now retry, long sessions are more resilient, permission handling is much tighter, failed file writes preserve existing contents, CJK memory search improves, concurrent config edits are safer, MCP tool discovery is more reliable, and worktree creation + deletion gets a huge reliability pass\n\nThere’s even a breaking safety change: grok worktree rm now refuses to delete active worktrees or ones with unsaved changes unless you explicitly force it\n\nRelease Notes: v1.0.50\n\nBreaking Changes:\n• grok worktree rm without -f now refuses to delete worktrees that are in use or contain unsaved changes and exits with an error.\n\nFeatures:\n• Compact mode now collapses recaps and keeps inner spacing on tall terminals.\n• Clicking the git branch in the header now copies the full branch name.\n• Long branch names now abbreviate on narrow terminals while remaining copyable.\n• Targeted cancels now stop only the specific response when requested by clients.\n• Compact mode now hides the dock (or tasks pane) the same way Ctrl+G does.\n• New timestamps setting offers off, minimal, and on modes in Settings and /timestamps.\n• Shell command output now shows \"Running …\" while executing and \"Ran …\" when finished.\n• Live preview pins now include whether an app was observed behind the URL.\n• Command palette (Ctrl+P) and model picker now open at the same width as the settings modal.\n• Tables rendered by grok now show copy buttons underneath that export clean TSV, CSV or Markdown suitable for spreadsheets.\n• Dashboard now shows which worktree each session belongs to, displays the -m model in the new-agent box, and lets you toggle worktree mode in the folder picker.\n\nBug Fixes:\n• Shell permission decisions now correctly prompt or approve commands matching the permission manager.\n• Cancelled turns now correctly mark unanswered tool calls as cancelled instead of succeeded.\n• Long error messages in the /usage and /session-info modals now wrap instead of being truncated.\n• Em-dashes no longer appear in status messages and subagent rows.\n• Stalled model calls during turns now retry before failing the turn.\n• Queue pane and Ctrl+; now appear and work when the dock is hidden with Ctrl+G.\n• Long sessions no longer disconnect when the conversation exceeds 4 MiB.\n• Permission rules now accept native tool names such as run_terminal_command and Shell.\n• /rewind now places the cursor at the end of the restored prompt.\n• Failed file writes now leave the previous contents instead of an empty file.\n• Fixed /loop and scheduler_create so non-ASCII intervals like 5分 no longer crash the session.\n• Fixed --disallowed-tools when only one scheduler tool is named; the other two no longer cause startup failure.\n• Fixed closing a busy tab so queued prompts are no longer sent to the model.\n• Fixed relative --cwd so grok --cwd a no longer ends up running inside a/a.\n• The terminal title now shows \"Action Required\" for any background session waiting on approval.\n• grok now accepts a prompt via piped stdin in headless mode instead of trying to open the UI.\n• An admin-set [features] title_refresh = false in requirements.toml now correctly disables title refresh even when GROK_TITLE_REFRESH is set.\n• Custom notification commands defined under [[ui.notifications.hooks]] now execute on matching events.\n• An admin pin of [cli] use_leader = false now correctly prevents --leader from starting a leader process.\n• When multiple MCP servers expose a tool with the same name, search_tool now returns all of them.\n• Concurrent Grok windows editing settings no longer lose or corrupt config.toml entries such as MCP servers or permission rules.\n• web_fetch no longer downloads huge files into memory before rejecting them.\n• memory_get no longer returns huge files that exceed the read limit.\n• Continue to run no longer kills commands running inside background subagents.\n• memory_search now finds Japanese, Chinese, and Korean words inside longer notes.\n• Drafts saved by the model now appear under their actual titles in /feedback.\n• Imagine replies that are not valid images are now rejected instead of being saved as .jpg files.\n• A workflow file that fails to parse now reports the exact file and parse error instead of 'unknown workflow'.\n• Re-encoded images are now oriented correctly using their EXIF tags instead of appearing sideways.\n• Image and log paths reported after /fork --worktree now point to real files instead of missing locations.\n• Tab characters in terminal command output are now preserved when shown to the model.\n• Transparent images are now kept as PNG when re-encoded instead of turning black.\n• The bundled ripgrep is now available to terminal commands even on images that do not install it.\n• Request bodies now stay under a small configured max_request_bytes limit instead of growing past it.\n• Effort level now stays the same after a bare /model switch instead of jumping to the new model's default.\n• Ctrl+\\ and other modified digits no longer accidentally select options on permission or cancel cards.\n• Feedback submissions now show accurate success or failure messages without premature thanks or duplicated prefixes.\n• grok doctor now reports the exact config file or setting that prevents Grok from starting instead of saying zero issues.\n• Recap summaries now appear on screen automatically instead of requiring manual scrolling.\n• grok doctor fix now opens its confirmation card on Cancel to prevent accidental edits to shell or tmux config.\n• Slash commands now run regardless of case (e.g. /COMPACT or /Compact).\n• /context no longer shows an invented auto-compact threshold when the agent does not report one.\n• Agent text no longer keeps the pager redrawing when a tool call interrupts the sentence.\n• CLI tool calls no longer fail or overflow when the workspace directory is deleted or output is huge.\n• Logs written to files or when NO_COLOR is set are now plain text instead of containing color codes.\n• Prompts now fail immediately with a clear message if the session's working directory no longer exists instead of failing later or recreating it.\n• grok -w now works correctly with separate-git-dir repositories and shows clear errors when run outside a git repo or on an empty repo.\n• Shell tool descriptions now correctly state the actual output truncation limit, and grep respects globs relative to the current session directory.\n• Compaction messages now scroll into view instead of appearing below the bottom of the screen after a turn finishes.\n• Git-mode worktrees created with -w now preserve uncommitted changes instead of dropping them.\n• Worktrees created with --worktree-ref no longer contain wrong submodule contents or LFS pointer text.\n• Worktree creation now shows the same clear error messages on every code path.\n• Failed worktree creates now show a clear error on the home screen instead of being hidden.\n• Merge and rebase conflicts now appear in the changes list instead of being hidden.\n• Fixed a crash when starting a new session with durable rewind checkpoints enabled.\n• Managed permission files with one bad key no longer lose all their valid rules.\n• Simultaneous worktree creates with the same label now succeed instead of one failing with \"already exists\".\n• grok worktree rm without -f no longer deletes arbitrary folders that happen to share a name with a removed worktree.\n• Discard now affects only the exact files you select instead of also deleting or reverting similarly-named files.\n• Permission rules with one bad entry no longer lose the other rules in the same section.\n• Chat Completions streams that end without a finish reason are now retried instead of returning partial output.\n• grok worktree rm by label now refuses when the label exists in multiple repos.\n• Grep now respects Read deny rules that use a leading ./.\n\nPerformance:\n• Command hooks no longer cause large memory spikes when they print a lot of output.\n• Retry waits now vary between processes instead of being identical.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2107689502508781586",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
+      "id": "2107644308405039202",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T01:28:55.000Z",
+      "created_at_shanghai": "2026-10-07 09:28:55",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Introducing Beam: a highly efficient agentic open model with 501B total parameters and 23B active.\n\n- Frontier reasoning efficiency\n- Advances the Western open frontier on coding & agentic tasks\n- Trained end-to-end from scratch\n\nFull weights release this month.\n\nLearn more about Beam: http://reflection.ai/beam",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2107644308405039202",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
+      "id": "2107644201060192682",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T01:28:30.000Z",
+      "created_at_shanghai": "2026-10-07 09:28:30",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "BREAKING NEWS 🚨: Grok Bot can now run your admin like a $4,000 per month personal assistant.\n\nConnect your email and calendar and use these 7 prompts to hire it:",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2107644201060192682",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
+      "id": "2107644163219202213",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T01:28:21.000Z",
+      "created_at_shanghai": "2026-10-07 09:28:21",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "NEW: @bot tagging just went live.\n\nReply to any post:\n> @bot add this to my Notion reading list\n> @bot remind me to read this tomorrow\n> @bot summarize this thread\n> @bot draft a reply to this\n\nWorks in replies, posts, quote and lands right in your Grok Bot.\n\nWhat’s the first thing you’re handing it?",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2107644163219202213",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
+      "id": "2107587206194098350",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-06T21:42:01.000Z",
+      "created_at_shanghai": "2026-10-07 05:42:01",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "This is why we shouldn't give mentally ill people copious amounts of synthetic chemicals and injectable hormones",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2107587206194098350",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
+      "id": "2107587053303308695",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-06T21:41:25.000Z",
+      "created_at_shanghai": "2026-10-07 05:41:25",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "I built a personal newspaper on a Zectrix e-paper display and stuck it on my fridge:\n\n• Local events I might like (using Grok Bot)\n• Football matches happening that day\n• Word of the day\n\nViews rotate every 30 mins. The fridge door turns out to be a great interface: short-duration attention without feeling intrusive.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2107587053303308695",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
+      "id": "2107579927726068017",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-06T21:13:06.000Z",
+      "created_at_shanghai": "2026-10-07 05:13:06",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Trans killer blames transition for stabbing hiker 15 times on trail: Victim was 'what I want to look like' https://trib.al/HjxzkhN",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2107579927726068017",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
+      "id": "2107569797814988881",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-06T20:32:51.000Z",
+      "created_at_shanghai": "2026-10-07 04:32:51",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "@JohnStossel @SpaceX @Tesla This is simply due to my ownership stakes in SpaceX and Tesla. \n\nAs those companies build more and more, their value increases and all shareholders benefit. \n\nThe takers of the world who have never built anything, like Bernie, do as they always do and take from the makers.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2107569797814988881",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
+      "id": "2107568047964004648",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-06T20:25:54.000Z",
+      "created_at_shanghai": "2026-10-07 04:25:54",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Starship delivered its first commercial success last week in orbit. More importantly, SpaceX is making progress toward full reusability and a 100ton+ platform while the rest of the industry is catching up to Falcon 9. Read more here:",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2107568047964004648",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
       "id": "2107567923552526598",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -246,639 +508,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2107495338873389121",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:36:58.000Z",
-      "created_at_shanghai": "2026-10-06 23:36:58",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot can be your personal chief financial officer!",
-      "quote": {
-        "author": "Teslaconomics",
-        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 01:57:45",
-        "created_at_utc": "2026-10-05T17:57:45.000Z",
-        "id": "2107168380965060790",
-        "images": [
-          "https://pbs.twimg.com/media/HT4ln8raYAAavrK.jpg?name=small",
-          "https://pbs.twimg.com/media/HT4lrP7bQAE2nkl.jpg?name=small",
-          "https://pbs.twimg.com/media/HT4lrP8bcAAgEvP.jpg?name=small",
-          "https://pbs.twimg.com/media/HT4lrQAbsAA_0v6.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2694,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4ln8raYAAavrK.jpg?name=small",
-            "width": 4079
-          },
-          {
-            "height": 2090,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4lrP7bQAE2nkl.jpg?name=small",
-            "width": 2276
-          },
-          {
-            "height": 1848,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4lrP8bcAAgEvP.jpg?name=small",
-            "width": 2174
-          },
-          {
-            "height": 2220,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4lrQAbsAA_0v6.jpg?name=small",
-            "width": 2146
-          }
-        ],
-        "name": "Teslaconomics",
-        "text": "I literally hooked up ALL my finance accounts to Grok Bot. \n\nI really mean all of them:\n\n1/ Chase\n2/ Charles Schwab\n3/ E*TRADE\n4/ Fidelity\n5/ Robinhood\n6/ Wealthfront\n7/ Apple Card\n8/ 𝕏 Money\n\nFYI, this is a total of 30 accounts... Chase alone is 13 accounts between checking, savings, brokerage, credit cards, a 401(k), trusts, a stock plan, and 529s for the kids.\n\nI was already honestly the best with my $ money and I’ve NEVER made a late payment in my life. But before Grok Bot, I was wasting so much time bc every answer lived in different apps. Like my cash was in one place, cards in another, brokerage accounts somewhere else, and had to compile everything in a spreadsheet, if I even got around to putting it together.\n\nNow I just text my Grok Bot CFO.\n\nI can ask, “What’s my cash right now?” and it pulls everything together and separates personal from business. I can ask which credit cards are coming due and whether I have enough cash to pay them all in full. Green means I’m covered, red means I’m short, and it tells me exactly how much I need. I actually tested this... going red on purpose. Like I moved $ money around so I would come up short on one of the upcoming bills, and Grok caught it.\n\nI can even ask, “Where did my $ money go?” and instead of opening a bunch of apps, downloading transactions, cleaning up a spreadsheet, and making a chart myself, it pulls everything together and gives me the breakdown.\n\nToday, I also asked it for a pie chart of all my stock investments with the amounts and percentages. \n\n1/ TSLA is 84.9%\n2/ SPCX is 10.4%\n3/ NVDA is 4.7% \n\nThat’s across $ money sitting in different brokerage accounts, and it's awesome that I didn’t have to think about where any of it was. \n\nI literally just asked it one question... you can see for yourself. \n\nIf you’re serious about your finances, you already ask the same questions all the time. \n\n• Like, can I cover everything that’s due? \n• Where did my $ money go? \n• How much $ cash do I really have? \n• What investments do I actually own? \n\nBut honestly, the annoying part is that your financial life is usually scattered across 10+ different apps/platforms and a bunch of accounts, so getting a real answer takes a lot of work and your time. And honestly, most people probably don’t even look until something feels off or if they get a notification that a payment was missed or something.\n\nNow, with all my finance accounts linked, I just ask a normal question, Grok Bot checks everything it has connected, and gives me the answer. Then I can ask the same thing tomorrow, and again whenever, and get the updated version without rebuilding anything.\n\nThe fact that you are able to talk to your entire financial life like you’re texting someone who already knows where everything is... this is a total game changer in the world of finance imo. \n\nIf you really care about your $ money, hook yours up to Grok Bot. \n\nIt's so worth it.",
-        "url": "https://x.com/Teslaconomics/status/2107168380965060790",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 659,
-        "likes": 4448,
-        "quotes": 73,
-        "replies": 651,
-        "retweets": 541,
-        "views": 2670166
-      },
-      "url": "https://x.com/elonmusk/status/2107495338873389121",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107494445759312321",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:33:25.000Z",
-      "created_at_shanghai": "2026-10-06 23:33:25",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Ask me anything. \n\nOnce enough questions are posted I'll ask Grok Bot to pick a bunch of them and record my answers.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2107494445759312321",
-      "images": [],
-      "media": [],
-      "enriched": false
-    },
-    {
-      "id": "2107494267816186338",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:32:43.000Z",
-      "created_at_shanghai": "2026-10-06 23:32:43",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7 is excellent at dealing with large code repositories",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 18:17:52",
-        "created_at_utc": "2026-10-06T10:17:52.000Z",
-        "id": "2107415031667392567",
-        "images": [
-          "https://pbs.twimg.com/media/HT8Ky3kbgAArjFo.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2500,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT8Ky3kbgAArjFo.jpg?name=small",
-            "width": 4000
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 takes the TOP 3 spots on VulcanBench Frontier v4, outperforming Fable 5.1, Opus 5.5, GPT-6 Astra, GPT-6.1 Sol and other leading frontier models\n\n• Grok 4.7 xHigh - 93.15\n• Grok 4.7 High - 92.71\n• Grok 4.7 Medium - 92.30\n\nVulcanBench Frontier v4 tests whether AI models can handle difficult repository-level software engineering work rather than simply generate isolated code snippets\n\nThe benchmark contains 23 behavioural-reconstruction tasks where models have to rebuild legacy software to match its actual behaviour, with functional correctness tested through hidden tests alongside security, lint/complexity and code quality\n\nAnd the task results are just as impressive:\n• Grok 4.7 xHigh - 23/23 passed\n• Grok 4.7 High - 22/23 passed\n• Grok 4.7 Medium - 21/23 passed\n\nGrok 4.7 took all #1, #2 and #3 spots",
-        "url": "https://x.com/XFreeze/status/2107415031667392567",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 203,
-        "likes": 3875,
-        "quotes": 42,
-        "replies": 486,
-        "retweets": 411,
-        "views": 2702748
-      },
-      "url": "https://x.com/elonmusk/status/2107494267816186338",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107493516741939571",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:29:44.000Z",
-      "created_at_shanghai": "2026-10-06 23:29:44",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot tips",
-      "quote": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 23:00:03",
-        "created_at_utc": "2026-10-06T15:00:03.000Z",
-        "id": "2107486048154738995",
-        "images": [
-          "https://pbs.twimg.com/media/HTGOGoXbYAEvkCh.jpg"
-        ],
-        "media": [
-          {
-            "duration": 303.033,
-            "height": 4053,
-            "thumbnail_url": "https://pbs.twimg.com/media/HTGOGoXbYAEvkCh.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103607629490909184/vid/avc1/3840x2160/Thbk9YchK6iM5FM3.mp4?tag=29",
-            "width": 7206
-          }
-        ],
-        "name": "matt palmer",
-        "text": "I gave Grok Bot a printer. Now, it helps me plan my day\n\n1:18 Prototyping with @bot\n2:02 Printer access through desktop\n2:55 Pulling calendar, @X, and workouts\n3:46 Automating\n4:32 Why go physical",
-        "url": "https://x.com/mattyp/status/2107486048154738995",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 577,
-        "likes": 2872,
-        "quotes": 22,
-        "replies": 387,
-        "retweets": 322,
-        "views": 1870499
-      },
-      "url": "https://x.com/elonmusk/status/2107493516741939571",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107077372637749687",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T11:56:07.000Z",
-      "created_at_shanghai": "2026-10-05 19:56:07",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Tesla just took the top two spots in the entire Netherlands new-car market 🇳🇱\n\nNot just EVs...every car\n\nSeptember registrations:\n\n• Model Y — 2,078 — #1 overall\n• Model 3 — 1,087 — #2 overall\n\nTesla registered 3,165 cars in September, capturing 8.7% of the entire Dutch new-car market\n\nModel Y + Model 3 literally owned the top of the market",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-05 12:28:01",
-        "created_at_utc": "2026-10-05T04:28:01.000Z",
-        "id": "2106964603582161364",
-        "images": [
-          "https://pbs.twimg.com/media/HT1xIVqXgAAc58q.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1080,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT1xIVqXgAAc58q.jpg?name=small",
-            "width": 1920
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Tesla just took the top two spots in the entire Netherlands new-car market 🇳🇱\n\nNot just EVs...every car\n\nSeptember registrations:\n\n• Model Y — 2,078 — #1 overall\n• Model 3 — 1,087 — #2 overall\n\nTesla registered 3,165 cars in September, capturing 8.7% of the entire Dutch new-car market\n\nModel Y + Model 3 literally owned the top of the market",
-        "url": "https://x.com/XFreeze/status/2106964603582161364",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 66,
-        "likes": 2742,
-        "quotes": 28,
-        "replies": 184,
-        "retweets": 331,
-        "views": 337450
-      },
-      "url": "https://x.com/elonmusk/status/2107077372637749687",
-      "images": [
-        "https://pbs.twimg.com/media/HT1xIVqXgAAc58q.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HT1xIVqXgAAc58q.jpg?name=small",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2107064467473199222",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T11:04:51.000Z",
-      "created_at_shanghai": "2026-10-05 19:04:51",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk 8 years ago:\n\n“Nothing will affect the future of humanity more than digital super-intelligence.”",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-05 13:16:22",
-        "created_at_utc": "2026-10-05T05:16:22.000Z",
-        "id": "2106976768892768356",
-        "images": [
-          "https://pbs.twimg.com/media/HT18M4GbIAEcIg8.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1920,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT18M4GbIAEcIg8.jpg?name=small",
-            "width": 1125
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Elon Musk 8 years ago:\n\n“Nothing will affect the future of humanity more than digital super-intelligence.”",
-        "url": "https://x.com/cb_doge/status/2106976768892768356",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 214,
-        "likes": 3757,
-        "quotes": 103,
-        "replies": 430,
-        "retweets": 612,
-        "views": 397094
-      },
-      "url": "https://x.com/elonmusk/status/2107064467473199222",
-      "images": [
-        "https://pbs.twimg.com/media/HT18M4GbIAEcIg8.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HT18M4GbIAEcIg8.jpg?name=small",
-          "width": 1125,
-          "height": 1920
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2107061909904035998",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T10:54:41.000Z",
-      "created_at_shanghai": "2026-10-05 18:54:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: SpaceX now holds all 5 fastest U.S. launch-to-docking times at the International Space Station. 🇺🇸\n\n• Crew-13: 7h 55m (Oct 1, 2026)\n• CRS-31: 12h 23m\n• Crew-11: 14h 43m\n• Ax-2: 15h 35m\n• Crew-4: 15h 44m\n\nAll five of these missions flew aboard Dragon spacecraft.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-05 18:49:38",
-        "created_at_utc": "2026-10-05T10:49:38.000Z",
-        "id": "2107060638505996601",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107060421253545984/img/FdqwExzyT1hgjRgs.jpg"
-        ],
-        "media": [
-          {
-            "duration": 25.735,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107060421253545984/img/FdqwExzyT1hgjRgs.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107060421253545984/vid/avc1/1080x1080/Ao3CSfI7u_4Tly-m.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: SpaceX now holds all 5 fastest U.S. launch-to-docking times at the International Space Station. 🇺🇸\n\n• Crew-13: 7h 55m (Oct 1, 2026)\n• CRS-31: 12h 23m\n• Crew-11: 14h 43m\n• Ax-2: 15h 35m\n• Crew-4: 15h 44m\n\nAll five of these missions flew aboard Dragon spacecraft.",
-        "url": "https://x.com/cb_doge/status/2107060638505996601",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 85,
-        "likes": 3557,
-        "quotes": 44,
-        "replies": 231,
-        "retweets": 500,
-        "views": 391036
-      },
-      "url": "https://x.com/elonmusk/status/2107061909904035998",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2107060421253545984/img/FdqwExzyT1hgjRgs.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107060421253545984/vid/avc1/1080x1080/Ao3CSfI7u_4Tly-m.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107060421253545984/img/FdqwExzyT1hgjRgs.jpg",
-          "width": 1080,
-          "height": 1080,
-          "duration": 25.735
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2107055578577285414",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T10:29:31.000Z",
-      "created_at_shanghai": "2026-10-05 18:29:31",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Launch ads in minutes. Find customers for a lifetime.",
-      "quote": null,
-      "retweet": {
-        "author": "XBusiness",
-        "avatar": "https://pbs.twimg.com/profile_images/1937148284465770496/C36iyzqg_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 04:29:24",
-        "created_at_utc": "2026-09-25T20:29:24.000Z",
-        "id": "2103582665014202815",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2079342915734646784/img/koo6qc0Q2fM9X_Bd.jpg"
-        ],
-        "media": [
-          {
-            "duration": 16.458,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2079342915734646784/img/koo6qc0Q2fM9X_Bd.jpg",
-            "type": "video",
-            "url": "https://video-s.twimg.com/amplify_video/2079342915734646784/vid/avc1/720x720/YRDuNiznh0Yh1E4S.mp4?tag=14",
-            "width": 720
-          }
-        ],
-        "name": "Business",
-        "text": "Launch ads in minutes. Find customers for a lifetime.",
-        "url": "https://x.com/XBusiness/status/2103582665014202815",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1361,
-        "likes": 3517,
-        "quotes": 73,
-        "replies": 0,
-        "retweets": 447,
-        "views": 83047197
-      },
-      "url": "https://x.com/elonmusk/status/2107055578577285414",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2079342915734646784/img/koo6qc0Q2fM9X_Bd.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video-s.twimg.com/amplify_video/2079342915734646784/vid/avc1/720x720/YRDuNiznh0Yh1E4S.mp4?tag=14",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2079342915734646784/img/koo6qc0Q2fM9X_Bd.jpg",
-          "width": 720,
-          "height": 720,
-          "duration": 16.458
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2107054599085654295",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T10:25:38.000Z",
-      "created_at_shanghai": "2026-10-05 18:25:38",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Why Are Judges Releasing Violent Criminals?  https://youtu.be/hWeee_3a2qk",
-      "quote": null,
-      "retweet": {
-        "author": "BasicLogicIQ",
-        "avatar": "https://pbs.twimg.com/profile_images/1957753669182529536/ehFgcTDL_200x200.jpg",
-        "created_at_shanghai": "2026-09-25 03:37:10",
-        "created_at_utc": "2026-09-24T19:37:10.000Z",
-        "id": "2103207132585943338",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103206476156223488/img/bVfmcWRL_lBP8okN.jpg"
-        ],
-        "media": [
-          {
-            "duration": 543.776,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103206476156223488/img/bVfmcWRL_lBP8okN.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103206476156223488/vid/avc1/1920x1080/ielr0hKp31A42Lto.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Basic Logic",
-        "text": "Why Are Judges Releasing Violent Criminals?  https://youtu.be/hWeee_3a2qk",
-        "url": "https://x.com/BasicLogicIQ/status/2103207132585943338",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 822,
-        "likes": 4440,
-        "quotes": 29,
-        "replies": 200,
-        "retweets": 708,
-        "views": 337172
-      },
-      "url": "https://x.com/elonmusk/status/2107054599085654295",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2103206476156223488/img/bVfmcWRL_lBP8okN.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2103206476156223488/vid/avc1/1920x1080/ielr0hKp31A42Lto.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103206476156223488/img/bVfmcWRL_lBP8okN.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 543.776
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2107031340919280087",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T08:53:13.000Z",
-      "created_at_shanghai": "2026-10-05 16:53:13",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "英伟达上周又历史新高了\n\n我看B站除了好多恶搞视频\n\n不得不说，现在Ai做视频，基本看不出来痕迹\n\n太夸张了",
-      "quote": null,
-      "retweet": {
-        "author": "Bqlsj2023",
-        "avatar": "https://pbs.twimg.com/profile_images/1896595804724359171/nvH8dGaA_200x200.jpg",
-        "created_at_shanghai": "2026-10-05 08:07:22",
-        "created_at_utc": "2026-10-05T00:07:22.000Z",
-        "id": "2106899009105526922",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2106898922635657216/img/ZWDunA2K0mrjnQRc.jpg"
-        ],
-        "media": [
-          {
-            "duration": 85.567,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106898922635657216/img/ZWDunA2K0mrjnQRc.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2106898922635657216/vid/avc1/960x720/1vzhuBD3kDNk4R59.mp4?tag=29",
-            "width": 960
-          }
-        ],
-        "name": "币圈老司机🔶BNB",
-        "text": "英伟达上周又历史新高了\n\n我看B站除了好多恶搞视频\n\n不得不说，现在Ai做视频，基本看不出来痕迹\n\n太夸张了",
-        "url": "https://x.com/Bqlsj2023/status/2106899009105526922",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 4814,
-        "likes": 18717,
-        "quotes": 535,
-        "replies": 948,
-        "retweets": 2172,
-        "views": 2244831
-      },
-      "url": "https://x.com/elonmusk/status/2107031340919280087",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2106898922635657216/img/ZWDunA2K0mrjnQRc.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2106898922635657216/vid/avc1/960x720/1vzhuBD3kDNk4R59.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106898922635657216/img/ZWDunA2K0mrjnQRc.jpg",
-          "width": 960,
-          "height": 720,
-          "duration": 85.567
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2107030567438987391",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T08:50:08.000Z",
-      "created_at_shanghai": "2026-10-05 16:50:08",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Jack Ma told Elon Musk humans will always be smarter than machines. \n\nMusk’s reaction says everything.\n\n“Computers may be very clever, but human beings are much smarter. We invented the computer. I've never seen a computer invent a human being.”\n\nMa's argument was simple. Computers are tools. They calculate faster, remember more, but humans still hold something machines don't: experience, judgment, wisdom.\n\nMusk clearly didn't buy it. “What would be an example of something that humans are better than a computer at?”\n\nWatching this exchange now feels completely different than it did then. AI agents aren't just calculating anymore. They're writing code, analyzing documents, planning tasks, deciding what to do next on their own.\n\nMETR found that the length of software tasks frontier agents can complete autonomously has historically doubled roughly every seven months, with signs of even faster progress through parts of 2024.\n\nThat's where Ma's argument starts to buckle. For decades, technology automated what humans did. AI is starting to automate what we assumed required a human to think.\n\nAnd companies were already learning to create enormous value with almost no people before this wave even arrived. Instagram sold for $1 billion with 13 employees. WhatsApp sold for $19 billion with 55.\n\nNow picture what happens when a small team can direct hundreds of machines that never sleep, never take a salary, never need an office.\n\nThe question was never just which jobs disappear.\n\nIt's what happens to the money once fewer humans are needed to create it in the first place.\n\nThat's the question behind 2028: The Economy Without Humans.\n\nWho gets the money when machines do the work?",
-      "quote": null,
-      "retweet": {
-        "author": "kobaHUB",
-        "avatar": "https://pbs.twimg.com/profile_images/2061923167916969985/tlIxa50z_200x200.jpg",
-        "created_at_shanghai": "2026-10-05 16:33:11",
-        "created_at_utc": "2026-10-05T08:33:11.000Z",
-        "id": "2107026299776532653",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107026152955023360/img/IkZ3VqJCdRkm-Qzt.jpg"
-        ],
-        "media": [
-          {
-            "duration": 346.743,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107026152955023360/img/IkZ3VqJCdRkm-Qzt.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107026152955023360/vid/avc1/1920x1080/4og7wLSZ_QLmfNDa.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "koba",
-        "text": "Jack Ma told Elon Musk humans will always be smarter than machines. \n\nMusk’s reaction says everything.\n\n“Computers may be very clever, but human beings are much smarter. We invented the computer. I've never seen a computer invent a human being.”\n\nMa's argument was simple. Computers are tools. They calculate faster, remember more, but humans still hold something machines don't: experience, judgment, wisdom.\n\nMusk clearly didn't buy it. “What would be an example of something that humans are better than a computer at?”\n\nWatching this exchange now feels completely different than it did then. AI agents aren't just calculating anymore. They're writing code, analyzing documents, planning tasks, deciding what to do next on their own.\n\nMETR found that the length of software tasks frontier agents can complete autonomously has historically doubled roughly every seven months, with signs of even faster progress through parts of 2024.\n\nThat's where Ma's argument starts to buckle. For decades, technology automated what humans did. AI is starting to automate what we assumed required a human to think.\n\nAnd companies were already learning to create enormous value with almost no people before this wave even arrived. Instagram sold for $1 billion with 13 employees. WhatsApp sold for $19 billion with 55.\n\nNow picture what happens when a small team can direct hundreds of machines that never sleep, never take a salary, never need an office.\n\nThe question was never just which jobs disappear.\n\nIt's what happens to the money once fewer humans are needed to create it in the first place.\n\nThat's the question behind 2028: The Economy Without Humans.\n\nWho gets the money when machines do the work?",
-        "url": "https://x.com/kobaHUB/status/2107026299776532653",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 20,
-        "likes": 120,
-        "quotes": 2,
-        "replies": 21,
-        "retweets": 21,
-        "views": 7592
-      },
-      "url": "https://x.com/elonmusk/status/2107030567438987391",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2107026152955023360/img/IkZ3VqJCdRkm-Qzt.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107026152955023360/vid/avc1/1920x1080/4og7wLSZ_QLmfNDa.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107026152955023360/img/IkZ3VqJCdRkm-Qzt.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 346.743
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 11,
   "page_size": 20,
-  "total": 697,
-  "total_pages": 35,
-  "updated_at_shanghai": "2026-10-09 05:51:14",
+  "total": 708,
+  "total_pages": 36,
+  "updated_at_shanghai": "2026-10-09 09:30:21",
   "account": "elonmusk"
 }
