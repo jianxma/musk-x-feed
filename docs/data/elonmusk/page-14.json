@@ -1,6 +1,89 @@
 {
   "posts": [
     {
+      "id": "2106827518900625719",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T19:23:18.000Z",
+      "created_at_shanghai": "2026-10-05 03:23:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "June 2025:",
+      "quote": {
+        "author": "ycombinator",
+        "avatar": "https://pbs.twimg.com/profile_images/1623777064821358592/9CApQWXe_200x200.png",
+        "created_at_shanghai": "2025-06-20 04:22:10",
+        "created_at_utc": "2025-06-19T20:22:10.000Z",
+        "id": "1935795261126889944",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/1935793143926153216/img/eNepb3zF21b11QEq.jpg"
+        ],
+        "media": [
+          {
+            "duration": 2980.711,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/1935793143926153216/img/eNepb3zF21b11QEq.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/1935793143926153216/vid/avc1/1920x1080/1G_vNrXOhF3qCw48.mp4?tag=21",
+            "width": 1920
+          }
+        ],
+        "name": "Y Combinator",
+        "text": "Elon Musk (@elonmusk) on digital superintelligence, multiplanetary life, and how to be useful this week at AI Startup School.",
+        "url": "https://x.com/ycombinator/status/1935795261126889944",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "KatieMiller",
+        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
+        "created_at_shanghai": "2026-10-05 03:17:17",
+        "created_at_utc": "2026-10-04T19:17:17.000Z",
+        "id": "2106826005767704731",
+        "images": [
+          "https://pbs.twimg.com/media/HTzzFlOWgAAUXvj.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 801,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTzzFlOWgAAUXvj.jpg?name=small",
+            "width": 1320
+          }
+        ],
+        "name": "Katie Miller",
+        "text": "June 2025:",
+        "url": "https://x.com/KatieMiller/status/2106826005767704731",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 262,
+        "quotes": 4,
+        "replies": 30,
+        "retweets": 53,
+        "views": 51039
+      },
+      "url": "https://x.com/elonmusk/status/2106827518900625719",
+      "images": [
+        "https://pbs.twimg.com/media/HTzzFlOWgAAUXvj.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTzzFlOWgAAUXvj.jpg?name=small",
+          "width": 1320,
+          "height": 801
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2106827340084887945",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1079,75 +1162,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2106686677712343113",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-04T10:03:38.000Z",
-      "created_at_shanghai": "2026-10-04 18:03:38",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "No, AI didn’t just solve the Navier-Stokes equations. \n\nSo what did it do?",
-      "quote": null,
-      "retweet": {
-        "author": "elsleightholm",
-        "avatar": "https://pbs.twimg.com/profile_images/1816027725024382976/GgSPMGgY_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 22:14:05",
-        "created_at_utc": "2026-10-02T14:14:05.000Z",
-        "id": "2106024929590235530",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2106024588480053248/img/OXUrVcx0pX7m6zAv.jpg"
-        ],
-        "media": [
-          {
-            "duration": 117.72,
-            "height": 3840,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106024588480053248/img/OXUrVcx0pX7m6zAv.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2106024588480053248/vid/avc1/2160x3840/GEIMQRrEADwhmtCN.mp4?tag=29",
-            "width": 2160
-          }
-        ],
-        "name": "Ellie Sleightholm",
-        "text": "No, AI didn’t just solve the Navier-Stokes equations. \n\nSo what did it do?",
-        "url": "https://x.com/elsleightholm/status/2106024929590235530",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 338,
-        "likes": 977,
-        "quotes": 7,
-        "replies": 45,
-        "retweets": 141,
-        "views": 42180
-      },
-      "url": "https://x.com/elonmusk/status/2106686677712343113",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2106024588480053248/img/OXUrVcx0pX7m6zAv.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2106024588480053248/vid/avc1/2160x3840/GEIMQRrEADwhmtCN.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106024588480053248/img/OXUrVcx0pX7m6zAv.jpg",
-          "width": 2160,
-          "height": 3840,
-          "duration": 117.72
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 20,
-  "total": 722,
+  "total": 723,
   "total_pages": 37,
-  "updated_at_shanghai": "2026-10-10 03:46:50",
+  "updated_at_shanghai": "2026-10-10 07:33:59",
   "account": "elonmusk"
 }

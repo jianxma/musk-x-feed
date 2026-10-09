@@ -1,6 +1,71 @@
 {
   "posts": [
     {
+      "id": "2105937100805972247",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-02T08:25:05.000Z",
+      "created_at_shanghai": "2026-10-02 16:25:05",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I was lucky enough to be in a group chat testing this last month, and it's a lot of fun. Grok can see images in the chat and as well as text. Grok will always respond when directly addressed, but can also choose to respond in chat in context.",
+      "quote": {
+        "author": "chat",
+        "avatar": "https://pbs.twimg.com/profile_images/2036559411485773825/8ceAb882_200x200.png",
+        "created_at_shanghai": "2026-10-02 03:35:47",
+        "created_at_utc": "2026-10-01T19:35:47.000Z",
+        "id": "2105743499807326599",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2105743011049009152/img/AnNd8uTrQu5j8sQw.jpg"
+        ],
+        "media": [
+          {
+            "duration": 11.5,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105743011049009152/img/AnNd8uTrQu5j8sQw.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105743011049009152/vid/avc1/1080x1080/05dT9VxdpyehHBvl.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "XChat",
+        "text": "Your group chat just got smarter\n\nGet answers to your questions directly in XChat by asking Grok",
+        "url": "https://x.com/chat/status/2105743499807326599",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "AndrewCurran_",
+        "avatar": "https://pbs.twimg.com/profile_images/1596945208058744833/_X3LT7fb_200x200.jpg",
+        "created_at_shanghai": "2026-10-02 04:08:03",
+        "created_at_utc": "2026-10-01T20:08:03.000Z",
+        "id": "2105751619824652441",
+        "images": [],
+        "media": [],
+        "name": "Andrew Curran",
+        "text": "I was lucky enough to be in a group chat testing this last month, and it's a lot of fun. Grok can see images in the chat and as well as text. Grok will always respond when directly addressed, but can also choose to respond in chat in context.",
+        "url": "https://x.com/AndrewCurran_/status/2105751619824652441",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 268,
+        "quotes": 4,
+        "replies": 36,
+        "retweets": 21,
+        "views": 34187
+      },
+      "url": "https://x.com/elonmusk/status/2105937100805972247",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2105936756885631481",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1062,53 +1127,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2105745001598820441",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-01T19:41:45.000Z",
-      "created_at_shanghai": "2026-10-02 03:41:45",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@Geiger_Capital Instagram is for girls",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 03:41:32",
-        "created_at_utc": "2026-10-01T19:41:32.000Z",
-        "id": "2105744946141483133",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "@Geiger_Capital Instagram is for girls",
-        "url": "https://x.com/elonmusk/status/2105744946141483133",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "Geiger_Capital",
-      "engagement": {
-        "bookmarks": 42,
-        "likes": 1185,
-        "quotes": 57,
-        "replies": 395,
-        "retweets": 109,
-        "views": 56369
-      },
-      "url": "https://x.com/elonmusk/status/2105745001598820441",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 20,
-  "total": 722,
+  "total": 723,
   "total_pages": 37,
-  "updated_at_shanghai": "2026-10-10 03:46:50",
+  "updated_at_shanghai": "2026-10-10 07:33:59",
   "account": "elonmusk"
 }

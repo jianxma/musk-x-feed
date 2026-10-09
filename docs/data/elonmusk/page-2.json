@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108323886865555666",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T22:29:20.000Z",
+      "created_at_shanghai": "2026-10-09 06:29:20",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Talked to someone recently who knows a lot about defense tech, and he made an interesting point: the test of most military hardware right now is whether the Ukrainians want it. They have a hot war going against a determined opponent, and they know what works.",
+      "quote": null,
+      "retweet": {
+        "author": "paulg",
+        "avatar": "https://pbs.twimg.com/profile_images/1824002576/pg-railsconf_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 05:52:44",
+        "created_at_utc": "2026-10-08T21:52:44.000Z",
+        "id": "2108314679596769598",
+        "images": [],
+        "media": [],
+        "name": "Paul Graham",
+        "text": "Talked to someone recently who knows a lot about defense tech, and he made an interesting point: the test of most military hardware right now is whether the Ukrainians want it. They have a hot war going against a determined opponent, and they know what works.",
+        "url": "https://x.com/paulg/status/2108314679596769598",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 280,
+        "likes": 3212,
+        "quotes": 37,
+        "replies": 179,
+        "retweets": 224,
+        "views": 305469
+      },
+      "url": "https://x.com/elonmusk/status/2108323886865555666",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108323124685230302",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1010,71 +1051,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108300263425720381",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T20:55:27.000Z",
-      "created_at_shanghai": "2026-10-09 04:55:27",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We announced an agreement to acquire a nationwide low-band spectrum license portfolio that will pave the way for @Starlink to become a major mobile carrier in the US.\n\nWith this new spectrum and our Gen2 constellation, Starlink Mobile can ensure Americans have access to high-speed mobile broadband no matter where they are → http://spacex.com/updates#starlink-mobile-spectrum",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 04:19:10",
-        "created_at_utc": "2026-10-08T20:19:10.000Z",
-        "id": "2108291133025698301",
-        "images": [
-          "https://pbs.twimg.com/media/HUInfyJacAAgC1_.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUInfyJacAAgC1_.jpg?name=small",
-            "width": 3072
-          }
-        ],
-        "name": "SpaceX",
-        "text": "We announced an agreement to acquire a nationwide low-band spectrum license portfolio that will pave the way for @Starlink to become a major mobile carrier in the US.\n\nWith this new spectrum and our Gen2 constellation, Starlink Mobile can ensure Americans have access to high-speed mobile broadband no matter where they are → http://spacex.com/updates#starlink-mobile-spectrum",
-        "url": "https://x.com/SpaceX/status/2108291133025698301",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 881,
-        "likes": 13100,
-        "quotes": 501,
-        "replies": 682,
-        "retweets": 1603,
-        "views": 861975
-      },
-      "url": "https://x.com/elonmusk/status/2108300263425720381",
-      "images": [
-        "https://pbs.twimg.com/media/HUInfyJacAAgC1_.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUInfyJacAAgC1_.jpg?name=small",
-          "width": 3072,
-          "height": 2048
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 722,
+  "total": 723,
   "total_pages": 37,
-  "updated_at_shanghai": "2026-10-10 03:46:50",
+  "updated_at_shanghai": "2026-10-10 07:33:59",
   "account": "elonmusk"
 }
