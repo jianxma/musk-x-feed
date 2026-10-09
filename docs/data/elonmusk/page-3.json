@@ -1,6 +1,121 @@
 {
   "posts": [
     {
+      "id": "2108294618597216470",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T20:33:01.000Z",
+      "created_at_shanghai": "2026-10-09 04:33:01",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Automatically used by Grok @Bot",
+      "quote": {
+        "author": "imagine",
+        "avatar": "https://pbs.twimg.com/profile_images/2057888115419947008/hlp4OKEw_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 03:35:56",
+        "created_at_utc": "2026-10-08T19:35:56.000Z",
+        "id": "2108280250673352929",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108279681178898432/img/oD16pQlQybFXOWNj.jpg"
+        ],
+        "media": [
+          {
+            "duration": 38.15,
+            "height": 2880,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108279681178898432/img/oD16pQlQybFXOWNj.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108279681178898432/vid/avc1/1920x2880/34u9CEaE0gTIrt79.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Imagine",
+        "text": "Video 1.5 Lite is live in the Grok Imagine API. The new workhorse for text-to-video and image-to-video.\n\n$0.02/sec at 480p\n$0.03/sec at 720p\n$0.14/sec at 1080p",
+        "url": "https://x.com/imagine/status/2108280250673352929",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 158,
+        "likes": 1907,
+        "quotes": 24,
+        "replies": 225,
+        "retweets": 335,
+        "views": 727866
+      },
+      "url": "https://x.com/elonmusk/status/2108294618597216470",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108294449961046320",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T20:32:21.000Z",
+      "created_at_shanghai": "2026-10-09 04:32:21",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "The entire U.S. is 500 GW (average).\n\nThat's how crazy these numbers are.",
+      "quote": {
+        "author": "a16z",
+        "avatar": "https://pbs.twimg.com/profile_images/1919488160125616128/QAZXTMEj_200x200.png",
+        "created_at_shanghai": "2026-10-08 00:40:02",
+        "created_at_utc": "2026-10-07T16:40:02.000Z",
+        "id": "2107873596509208914",
+        "images": [
+          "https://pbs.twimg.com/media/HUCr3SUbwAAcz4J.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2623,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUCr3SUbwAAcz4J.jpg?name=small",
+            "width": 3000
+          }
+        ],
+        "name": "a16z",
+        "text": "Texas just froze new data center permits:\n\n- Its queue went from 63 GW to 474 GW in 18 months, more than 5x record peak demand\n\n- Only 9.5 GW is approved and about 4.3 GW is actually running\n\n- The rest is duplicates, speculation, and developers who have never plugged in a GPU\n\na16z's @rmcentush on why the grid can't build for that many maybes: https://www.a16z.news/p/why-texas-is-making-data-centers",
+        "url": "https://x.com/a16z/status/2107873596509208914",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "JessePeltan",
+        "avatar": "https://pbs.twimg.com/profile_images/1861561930550284288/pn_aLq26_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 23:04:52",
+        "created_at_utc": "2026-10-08T15:04:52.000Z",
+        "id": "2108212035234279605",
+        "images": [],
+        "media": [],
+        "name": "Jesse Peltan",
+        "text": "The entire U.S. is 500 GW (average).\n\nThat's how crazy these numbers are.",
+        "url": "https://x.com/JessePeltan/status/2108212035234279605",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 81,
+        "likes": 764,
+        "quotes": 9,
+        "replies": 43,
+        "retweets": 108,
+        "views": 175318
+      },
+      "url": "https://x.com/elonmusk/status/2108294449961046320",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108294140773667220",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -199,7 +314,7 @@
       "id": "2108267386105385465",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-08T18:44:49.000Z",
@@ -258,7 +373,7 @@
       "id": "2108266929203155367",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-08T18:43:00.000Z",
@@ -310,7 +425,7 @@
       "id": "2108266803122102527",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-08T18:42:30.000Z",
@@ -373,7 +488,7 @@
       "id": "2108264919489540364",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-08T18:35:01.000Z",
@@ -432,7 +547,7 @@
       "id": "2108264207896432923",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-08T18:32:11.000Z",
@@ -495,7 +610,7 @@
       "id": "2108261942624477524",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-08T18:23:11.000Z",
@@ -536,7 +651,7 @@
       "id": "2108261199196356841",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-08T18:20:14.000Z",
@@ -599,7 +714,7 @@
       "id": "2108256069109584074",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-08T17:59:51.000Z",
@@ -662,7 +777,7 @@
       "id": "2108255956274450789",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-08T17:59:24.000Z",
@@ -766,7 +881,7 @@
       "id": "2108236660760809531",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-08T16:42:43.000Z",
@@ -916,7 +1031,7 @@
       "id": "2108232145927848062",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-08T16:24:47.000Z",
@@ -974,149 +1089,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108231815366656468",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T16:23:28.000Z",
-      "created_at_shanghai": "2026-10-09 00:23:28",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon is right to demand answers.\n\nIndia once had more than a dozen telecom operators competing for customers. Today, Jio and Airtel account for nearly 77% of India’s wireless subscriptions.\n\nWhat is the harm in adding another competitor? Healthy competition encourages providers to offer better prices and service, giving consumers more choice and better value.\n\nStarlink could offer Indian households, businesses and communities another broadband option, especially in remote villages, mountains and islands where expanding existing networks is difficult.\n\nIndians deserve greater transparency, better connectivity and the freedom to choose. Let Starlink compete and let consumers decide.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 21:25:39",
-        "created_at_utc": "2026-10-08T13:25:39.000Z",
-        "id": "2108187065687118261",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Starlink is licensed in over 165 countries and has spent five years complying with every single law and requirement of the government of India, so why still no license? \n\nIs Ambani the real boss of India?",
-        "url": "https://x.com/elonmusk/status/2108187065687118261",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 00:04:15",
-        "created_at_utc": "2026-10-08T16:04:15.000Z",
-        "id": "2108226980135194825",
-        "images": [
-          "https://pbs.twimg.com/media/HUHpydobkAAD27i.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 720,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUHpydobkAAD27i.jpg?name=small",
-            "width": 1280
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Elon is right to demand answers.\n\nIndia once had more than a dozen telecom operators competing for customers. Today, Jio and Airtel account for nearly 77% of India’s wireless subscriptions.\n\nWhat is the harm in adding another competitor? Healthy competition encourages providers to offer better prices and service, giving consumers more choice and better value.\n\nStarlink could offer Indian households, businesses and communities another broadband option, especially in remote villages, mountains and islands where expanding existing networks is difficult.\n\nIndians deserve greater transparency, better connectivity and the freedom to choose. Let Starlink compete and let consumers decide.",
-        "url": "https://x.com/cb_doge/status/2108226980135194825",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 223,
-        "likes": 4121,
-        "quotes": 338,
-        "replies": 2130,
-        "retweets": 718,
-        "views": 551716
-      },
-      "url": "https://x.com/elonmusk/status/2108231815366656468",
-      "images": [
-        "https://pbs.twimg.com/media/HUHpydobkAAD27i.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUHpydobkAAD27i.jpg?name=small",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2108231759804416432",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T16:23:15.000Z",
-      "created_at_shanghai": "2026-10-09 00:23:15",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Welcome home @NASA Crew-12",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 23:33:17",
-        "created_at_utc": "2026-10-08T15:33:17.000Z",
-        "id": "2108219187801756032",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108219108248444928/img/bbb2fDnNcJNtA4qv.jpg"
-        ],
-        "media": [
-          {
-            "duration": 23.68,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108219108248444928/img/bbb2fDnNcJNtA4qv.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108219108248444928/vid/avc1/3840x2160/Scv8XesZc7R7IA69.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Dragon’s four main parachutes have deployed",
-        "url": "https://x.com/SpaceX/status/2108219187801756032",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "NASAAdmin",
-        "avatar": "https://pbs.twimg.com/profile_images/2001755387486232576/mf5hRS_U_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 23:36:09",
-        "created_at_utc": "2026-10-08T15:36:09.000Z",
-        "id": "2108219908748108068",
-        "images": [],
-        "media": [],
-        "name": "NASA Administrator Jared Isaacman",
-        "text": "Welcome home @NASA Crew-12",
-        "url": "https://x.com/NASAAdmin/status/2108219908748108068",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 67,
-        "likes": 6052,
-        "quotes": 14,
-        "replies": 132,
-        "retweets": 483,
-        "views": 268696
-      },
-      "url": "https://x.com/elonmusk/status/2108231759804416432",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 712,
+  "total": 714,
   "total_pages": 36,
-  "updated_at_shanghai": "2026-10-09 15:50:52",
+  "updated_at_shanghai": "2026-10-09 22:42:46",
   "account": "elonmusk"
 }

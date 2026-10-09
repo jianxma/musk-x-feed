@@ -1,6 +1,97 @@
 {
   "posts": [
     {
+      "id": "2104361756412019115",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T00:05:14.000Z",
+      "created_at_shanghai": "2026-09-28 08:05:14",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Worth considering",
+      "quote": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 06:23:54",
+        "created_at_utc": "2026-09-27T22:23:54.000Z",
+        "id": "2104336252812366297",
+        "images": [
+          "https://pbs.twimg.com/media/HTQaGeWXYAABn79.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 230,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTQaGeWXYAABn79.jpg?name=small",
+            "width": 1192
+          }
+        ],
+        "name": "anabology",
+        "text": "This actually improved my sleep so much\n\n\"Inclined Bed Therapy\"\n\nFixed my acid reflux issues and solved the headaches I was getting when waking",
+        "url": "https://x.com/anabology/status/2104336252812366297",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 27,
+        "likes": 351,
+        "quotes": 6,
+        "replies": 96,
+        "retweets": 39,
+        "views": 235610
+      },
+      "url": "https://x.com/elonmusk/status/2104361756412019115",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104361390123430335",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T00:03:47.000Z",
+      "created_at_shanghai": "2026-09-28 08:03:47",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship Flight 14 aiming to launch tomorrow morning",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 07:38:07",
+        "created_at_utc": "2026-09-27T23:38:07.000Z",
+        "id": "2104354931595423762",
+        "images": [],
+        "media": [],
+        "name": "SpaceX",
+        "text": "Starship’s 14th flight is set to launch on Monday, Sept 28. The 75-minute launch window opens at 7:15 a.m. CT. Live coverage of the mission starts ~35 minutes before launch → https://x.com/i/broadcasts/1qxvvenMPMQxB",
+        "url": "https://x.com/SpaceX/status/2104354931595423762",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 381,
+        "likes": 18886,
+        "quotes": 205,
+        "replies": 1122,
+        "retweets": 1935,
+        "views": 3202051
+      },
+      "url": "https://x.com/elonmusk/status/2104361390123430335",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2104360927474921529",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1109,138 +1200,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2104153237431402959",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-27T10:16:39.000Z",
-      "created_at_shanghai": "2026-09-27 18:16:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "claude opus 5.5 just one-shot a music video on how to optimize CUDA kernels",
-      "quote": null,
-      "retweet": {
-        "author": "elliotarledge",
-        "avatar": "https://pbs.twimg.com/profile_images/2005693506644574208/Hp8sqTPA_200x200.jpg",
-        "created_at_shanghai": "2026-09-27 14:29:20",
-        "created_at_utc": "2026-09-27T06:29:20.000Z",
-        "id": "2104096029847277687",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2104095729023320064/img/8dVB0xCmzfUr49r0.jpg"
-        ],
-        "media": [
-          {
-            "duration": 190,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104095729023320064/img/8dVB0xCmzfUr49r0.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2104095729023320064/vid/avc1/1920x1080/5Hr6RhYJRwpn74-u.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Elliot Arledge",
-        "text": "claude opus 5.5 just one-shot a music video on how to optimize CUDA kernels",
-        "url": "https://x.com/elliotarledge/status/2104096029847277687",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 118,
-        "likes": 330,
-        "quotes": 9,
-        "replies": 42,
-        "retweets": 43,
-        "views": 31533
-      },
-      "url": "https://x.com/elonmusk/status/2104153237431402959",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2104095729023320064/img/8dVB0xCmzfUr49r0.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2104095729023320064/vid/avc1/1920x1080/5Hr6RhYJRwpn74-u.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104095729023320064/img/8dVB0xCmzfUr49r0.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 190
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2104152040410845205",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-27T10:11:54.000Z",
-      "created_at_shanghai": "2026-09-27 18:11:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "if you missed the slightly insane AI safety schizopoast, I put it into a song for you and you should turn the sound on right now because we're so fucking back",
-      "quote": null,
-      "retweet": {
-        "author": "shinboson",
-        "avatar": "https://pbs.twimg.com/profile_images/2007643886206803968/FIR2XHx7_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 10:40:03",
-        "created_at_utc": "2026-09-26T02:40:03.000Z",
-        "id": "2103675939603554665",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103674644247056384/img/-qsrEM8E1KwX5ieN.jpg"
-        ],
-        "media": [
-          {
-            "duration": 177.791,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103674644247056384/img/-qsrEM8E1KwX5ieN.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103674644247056384/vid/avc1/1920x1080/9dZPnIVvGGZT4Sfp.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "𝞍 Shin Megami Boson 𝞍",
-        "text": "if you missed the slightly insane AI safety schizopoast, I put it into a song for you and you should turn the sound on right now because we're so fucking back",
-        "url": "https://x.com/shinboson/status/2103675939603554665",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 305,
-        "likes": 585,
-        "quotes": 18,
-        "replies": 53,
-        "retweets": 71,
-        "views": 32548
-      },
-      "url": "https://x.com/elonmusk/status/2104152040410845205",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2103674644247056384/img/-qsrEM8E1KwX5ieN.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2103674644247056384/vid/avc1/1920x1080/9dZPnIVvGGZT4Sfp.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103674644247056384/img/-qsrEM8E1KwX5ieN.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 177.791
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 20,
-  "total": 712,
+  "total": 714,
   "total_pages": 36,
-  "updated_at_shanghai": "2026-10-09 15:50:52",
+  "updated_at_shanghai": "2026-10-09 22:42:46",
   "account": "elonmusk"
 }
