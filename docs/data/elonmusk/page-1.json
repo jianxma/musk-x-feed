@@ -1,10 +1,309 @@
 {
   "posts": [
     {
-      "id": "2108647297487720682",
+      "id": "2108723938578530493",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T00:58:59.000Z",
+      "created_at_shanghai": "2026-10-10 08:58:59",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Super Intelligent Beauty",
+      "quote": {
+        "author": "tetsuoai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 07:01:27",
+        "created_at_utc": "2026-10-09T23:01:27.000Z",
+        "id": "2108694357247480087",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108692683363594240/img/6_cVCm3vcmoHsD_1.jpg"
+        ],
+        "media": [
+          {
+            "duration": 252.25,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108692683363594240/img/6_cVCm3vcmoHsD_1.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108692683363594240/vid/avc1/1920x1080/brq4ekALq0kGGGw7.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "tetsuo",
+        "text": "hello, world",
+        "url": "https://x.com/tetsuoai/status/2108694357247480087",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 408,
+        "likes": 4633,
+        "quotes": 224,
+        "replies": 1130,
+        "retweets": 727,
+        "views": 901802
+      },
+      "url": "https://x.com/elonmusk/status/2108723938578530493",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108718057220653374",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T00:35:37.000Z",
+      "created_at_shanghai": "2026-10-10 08:35:37",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Watch @Grok @Bot build Grokipedia LIVE!\n\nThis is the how all process will take place now and into the future.\n\nDeploying expert workers building 24/7.\n\nIt is quite a thing to see, but I am a nerd.\n\nLink: https://grokipedia.com/live",
+      "quote": null,
+      "retweet": {
+        "author": "BrianRoemmele",
+        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
+        "created_at_shanghai": "2026-10-09 15:58:53",
+        "created_at_utc": "2026-10-09T07:58:53.000Z",
+        "id": "2108467219600671051",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108467139468578816/img/PW4tFYYYlSHMP0iY.jpg"
+        ],
+        "media": [
+          {
+            "duration": 13.93,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108467139468578816/img/PW4tFYYYlSHMP0iY.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108467139468578816/vid/avc1/1288x2160/3cp4UpX0K7fj02Xi.mp4?tag=29",
+            "width": 1288
+          }
+        ],
+        "name": "Brian Roemmele",
+        "text": "Watch @Grok @Bot build Grokipedia LIVE!\n\nThis is the how all process will take place now and into the future.\n\nDeploying expert workers building 24/7.\n\nIt is quite a thing to see, but I am a nerd.\n\nLink: https://grokipedia.com/live",
+        "url": "https://x.com/BrianRoemmele/status/2108467219600671051",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 68,
+        "likes": 662,
+        "quotes": 7,
+        "replies": 52,
+        "retweets": 105,
+        "views": 196628
+      },
+      "url": "https://x.com/elonmusk/status/2108718057220653374",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2108467139468578816/img/PW4tFYYYlSHMP0iY.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2108467139468578816/vid/avc1/1288x2160/3cp4UpX0K7fj02Xi.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108467139468578816/img/PW4tFYYYlSHMP0iY.jpg",
+          "width": 1288,
+          "height": 2160,
+          "duration": 13.93
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2108717955529990523",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T00:35:13.000Z",
+      "created_at_shanghai": "2026-10-10 08:35:13",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "ANATEL just scored a huge win for the people of Brazil by voting to approve Starlink Mobile's full 2 GHz access with our global S-band priority. \n\nStarlink will put this critical mid-band spectrum to work to make sure every Brazilian has access to high-speed mobile broadband on their devices 🛰️📱",
+      "quote": null,
+      "retweet": {
+        "author": "Starlink",
+        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 05:49:13",
+        "created_at_utc": "2026-10-09T21:49:13.000Z",
+        "id": "2108676180467724397",
+        "images": [],
+        "media": [],
+        "name": "Starlink",
+        "text": "ANATEL just scored a huge win for the people of Brazil by voting to approve Starlink Mobile's full 2 GHz access with our global S-band priority. \n\nStarlink will put this critical mid-band spectrum to work to make sure every Brazilian has access to high-speed mobile broadband on their devices 🛰️📱",
+        "url": "https://x.com/Starlink/status/2108676180467724397",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 171,
+        "likes": 4656,
+        "quotes": 72,
+        "replies": 168,
+        "retweets": 469,
+        "views": 299369
+      },
+      "url": "https://x.com/elonmusk/status/2108717955529990523",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108717744090669456",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T00:34:22.000Z",
+      "created_at_shanghai": "2026-10-10 08:34:22",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "10 years ago this might have sounded crazy but today I have a Neuralink N1 BCI in my head that allows me to talk without moving my mouth so who's to say anymore what's crazy about your ideas.",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 05:55:03",
+        "created_at_utc": "2026-10-08T21:55:03.000Z",
+        "id": "2108315261044445330",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "This will sound super crazy, but I see a path to SpaceX being worth orders of magnitude more than the current Earth economy",
+        "url": "https://x.com/elonmusk/status/2108315261044445330",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "Cyborg21",
+        "avatar": "https://pbs.twimg.com/profile_images/2013266691782848513/0TcBjmbK_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 07:26:55",
+        "created_at_utc": "2026-10-09T23:26:55.000Z",
+        "id": "2108700768555700562",
+        "images": [],
+        "media": [],
+        "name": "Kenneth Shock",
+        "text": "10 years ago this might have sounded crazy but today I have a Neuralink N1 BCI in my head that allows me to talk without moving my mouth so who's to say anymore what's crazy about your ideas.",
+        "url": "https://x.com/Cyborg21/status/2108700768555700562",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 78,
+        "likes": 3305,
+        "quotes": 26,
+        "replies": 119,
+        "retweets": 315,
+        "views": 206653
+      },
+      "url": "https://x.com/elonmusk/status/2108717744090669456",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108717598196244828",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T00:33:48.000Z",
+      "created_at_shanghai": "2026-10-10 08:33:48",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1563,
+        "likes": 20678,
+        "quotes": 1922,
+        "replies": 6948,
+        "retweets": 3937,
+        "views": 1635417
+      },
+      "url": "https://x.com/elonmusk/status/2108717598196244828",
+      "images": [
+        "https://pbs.twimg.com/media/HUOredCWEAAtmpa.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUOredCWEAAtmpa.jpg?name=small",
+          "width": 2048,
+          "height": 1342
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2108715608846004414",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T00:25:53.000Z",
+      "created_at_shanghai": "2026-10-10 08:25:53",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot can make a sim of anything",
+      "quote": {
+        "author": "UpdatingOnRome",
+        "avatar": "https://pbs.twimg.com/profile_images/1608931718689591296/ztEUxeFh_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 06:25:33",
+        "created_at_utc": "2026-10-09T22:25:33.000Z",
+        "id": "2108685322456301626",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108685212582379520/img/eXZ2QDj2c-E11M-c.jpg"
+        ],
+        "media": [
+          {
+            "duration": 59.688,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108685212582379520/img/eXZ2QDj2c-E11M-c.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108685212582379520/vid/avc1/1920x1080/yyS8Y6r3Xf2JRtKp.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Daily Roman Updates",
+        "text": "The Battle of Cannae and the double envelopment that almost destroyed Rome. \n\nMade with @bot",
+        "url": "https://x.com/UpdatingOnRome/status/2108685322456301626",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 222,
+        "likes": 2130,
+        "quotes": 36,
+        "replies": 435,
+        "retweets": 343,
+        "views": 806919
+      },
+      "url": "https://x.com/elonmusk/status/2108715608846004414",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108647297487720682",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-09T19:54:27.000Z",
@@ -729,339 +1028,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108396588544745887",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-09T03:18:13.000Z",
-      "created_at_shanghai": "2026-10-09 11:18:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Using Grok @Bot is like hiring a super smart, hard-working person for peanuts",
-      "quote": {
-        "author": "B_doong2daddy",
-        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 06:52:54",
-        "created_at_utc": "2026-10-08T22:52:54.000Z",
-        "id": "2108329820128186377",
-        "images": [],
-        "media": [],
-        "name": "Texas Twins Dad",
-        "text": "First month I paid $200 Cursor Ultra just to try Grok Bot. I said to myself.. it's okay even I don't find it worth it, I will still learn something. I learned so much since I started Grok Bot + Cursor. I never imagined myself building an app. Not only I can't do coding but I also didn't have time to dig in. Grok Bot made this possible. \n\nGrok Bot is like FSD on Tesla. If you don't try it, you just won't get what I mean. Just try it for a week.",
-        "url": "https://x.com/B_doong2daddy/status/2108329820128186377",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 353,
-        "likes": 3996,
-        "quotes": 71,
-        "replies": 651,
-        "retweets": 396,
-        "views": 1076801
-      },
-      "url": "https://x.com/elonmusk/status/2108396588544745887",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108354371960578480",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-09T00:30:28.000Z",
-      "created_at_shanghai": "2026-10-09 08:30:28",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I'm GrokBot pilled.\n\nThe recent update with native X monitoring opens up a ton of new capabilities!\n\nMy 4 favorite routines (copy/paste these prompts):\n\nRoutine 1: Find real AI workflows on X (and skip the hype threads)\n\nEvery morning, this bot now finds real AI use cases being shared on X, and filters out the “10 prompts” hype threads.\n\n“Every weekday at 9:15am in my time zone, search X and the web for new AI workflows people are actually running. Keep only cases that name the old task, the tool, and the result: time saved, a step removed, or a handoff that used to need a person. Drop product announcements, “10 prompts” threads, and anything the author has not used more than once. Return at most 3. For each, give the link, the job it replaces, what I would need connected, and whether it fits my work. Send it to me on Slack. Do not post or reply anywhere else. Save this as a routine. If nothing qualifies, send one line saying so.”\n\nRoutine 2: Catch every mention of your brand\n\nThis bot catches every mention of The Rundown on X, labels it, and pings our team on Slack to respond (try tweeting us @therundownai and see what happens).\n\n“Every weekday at 9:00am, search X for mentions in the last 24 hours of [your brand, @handle, or your own name]. For each hit, give the author, link, a one-line summary, and whether it is praise, complaint, question, or neutral. Do not reply to anyone. Post the digest in [your Slack channel] and tag me. Save this as a routine. If a source is unavailable, say which one.”\n\nRoutine 3: Find people actively looking for what you do\n\nEvery 4 hours, this bot listens for people searching for the best AI newsletter on X, so we know exactly what readers are looking for.\n\n“Every 4 hours, search X for people evaluating [your category]. Catch three things: reviews or complaints about [category]; posts asking which [category] to use; and complaints about the problem [your product] solves. Quote the post, link it, name the account, and label it review, shopping, or complaint. Skip anything older than 24 hours, and skip [category] accounts promoting themselves. Post to [your Slack channel] only if there is at least one new hit you haven’t already shared. Do not reply to or interact with anyone. Save this as a routine. If the search fails, report the failure in Slack.”\n\nRoutine 4: Never lose a new contact again\n\nI meet A LOT of people at events. This bot looks through my new phone contacts and reminds me to follow up with the new people I just met.\n\n“Every weekday at 8:30am in my time zone, read my address book and list contacts added in the last 14 days. For each, show name, date added, phone, email, and any note. Ask me what we talked about before you write anything. Once I reply, draft a follow-up task for each person in [your task tool] with the context attached. Never text, email, or call anyone. Save this as a routine. If the address book is unavailable, say so and do not use old data.”",
-      "quote": {
-        "author": "bot",
-        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 05:40:18",
-        "created_at_utc": "2026-10-07T21:40:18.000Z",
-        "id": "2107949161878606089",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg"
-        ],
-        "media": [
-          {
-            "duration": 12.166,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107948628950298624/vid/avc1/1920x1080/tlGtL_3iQXfm7WuO.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Grok Bot",
-        "text": "Grok Bot can now search, read, and monitor X.",
-        "url": "https://x.com/bot/status/2107949161878606089",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "rowancheung",
-        "avatar": "https://pbs.twimg.com/profile_images/2074937954930163712/OhHIBRV7_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 06:46:08",
-        "created_at_utc": "2026-10-08T22:46:08.000Z",
-        "id": "2108328114552000842",
-        "images": [],
-        "media": [],
-        "name": "Rowan Cheung",
-        "text": "I'm GrokBot pilled.\n\nThe recent update with native X monitoring opens up a ton of new capabilities!\n\nMy 4 favorite routines (copy/paste these prompts):\n\nRoutine 1: Find real AI workflows on X (and skip the hype threads)\n\nEvery morning, this bot now finds real AI use cases being shared on X, and filters out the “10 prompts” hype threads.\n\n“Every weekday at 9:15am in my time zone, search X and the web for new AI workflows people are actually running. Keep only cases that name the old task, the tool, and the result: time saved, a step removed, or a handoff that used to need a person. Drop product announcements, “10 prompts” threads, and anything the author has not used more than once. Return at most 3. For each, give the link, the job it replaces, what I would need connected, and whether it fits my work. Send it to me on Slack. Do not post or reply anywhere else. Save this as a routine. If nothing qualifies, send one line saying so.”\n\nRoutine 2: Catch every mention of your brand\n\nThis bot catches every mention of The Rundown on X, labels it, and pings our team on Slack to respond (try tweeting us @therundownai and see what happens).\n\n“Every weekday at 9:00am, search X for mentions in the last 24 hours of [your brand, @handle, or your own name]. For each hit, give the author, link, a one-line summary, and whether it is praise, complaint, question, or neutral. Do not reply to anyone. Post the digest in [your Slack channel] and tag me. Save this as a routine. If a source is unavailable, say which one.”\n\nRoutine 3: Find people actively looking for what you do\n\nEvery 4 hours, this bot listens for people searching for the best AI newsletter on X, so we know exactly what readers are looking for.\n\n“Every 4 hours, search X for people evaluating [your category]. Catch three things: reviews or complaints about [category]; posts asking which [category] to use; and complaints about the problem [your product] solves. Quote the post, link it, name the account, and label it review, shopping, or complaint. Skip anything older than 24 hours, and skip [category] accounts promoting themselves. Post to [your Slack channel] only if there is at least one new hit you haven’t already shared. Do not reply to or interact with anyone. Save this as a routine. If the search fails, report the failure in Slack.”\n\nRoutine 4: Never lose a new contact again\n\nI meet A LOT of people at events. This bot looks through my new phone contacts and reminds me to follow up with the new people I just met.\n\n“Every weekday at 8:30am in my time zone, read my address book and list contacts added in the last 14 days. For each, show name, date added, phone, email, and any note. Ask me what we talked about before you write anything. Once I reply, draft a follow-up task for each person in [your task tool] with the context attached. Never text, email, or call anyone. Save this as a routine. If the address book is unavailable, say so and do not use old data.”",
-        "url": "https://x.com/rowancheung/status/2108328114552000842",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 606,
-        "likes": 696,
-        "quotes": 9,
-        "replies": 84,
-        "retweets": 111,
-        "views": 165662
-      },
-      "url": "https://x.com/elonmusk/status/2108354371960578480",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108351149103271986",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-09T00:17:39.000Z",
-      "created_at_shanghai": "2026-10-09 08:17:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "One of my favorite and totally underrated @bot features is canvas.\n\nJust ask your Chief of Staff to present you an updates on the canvas, relax, and enjoy the results 😉",
-      "quote": null,
-      "retweet": {
-        "author": "stepango",
-        "avatar": "https://pbs.twimg.com/profile_images/1324014015597568002/YYNmRAZ6_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 08:06:36",
-        "created_at_utc": "2026-10-09T00:06:36.000Z",
-        "id": "2108348368447778862",
-        "images": [],
-        "media": [],
-        "name": "Stepan Goncharov",
-        "text": "One of my favorite and totally underrated @bot features is canvas.\n\nJust ask your Chief of Staff to present you an updates on the canvas, relax, and enjoy the results 😉",
-        "url": "https://x.com/stepango/status/2108348368447778862",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 66,
-        "likes": 493,
-        "quotes": 1,
-        "replies": 78,
-        "retweets": 74,
-        "views": 141313
-      },
-      "url": "https://x.com/elonmusk/status/2108351149103271986",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108341931499536698",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T23:41:02.000Z",
-      "created_at_shanghai": "2026-10-09 07:41:02",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "In the Cybercab I’m at peace 😌\n\nWatching YouTube videos, lounging \n\nI don’t want the ride to end 🤣 so relaxed \n\n@robotaxi &amp; @tesla thank you for making this amazing service 🙏🙏🙏",
-      "quote": null,
-      "retweet": {
-        "author": "Gfilche",
-        "avatar": "https://pbs.twimg.com/profile_images/1923068997333086208/hSpksNyI_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 06:36:19",
-        "created_at_utc": "2026-10-08T22:36:19.000Z",
-        "id": "2108325645516419402",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108325417274720256/img/HB_6cGuaEeJyQHKY.jpg"
-        ],
-        "media": [
-          {
-            "duration": 13.243,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108325417274720256/img/HB_6cGuaEeJyQHKY.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108325417274720256/vid/avc1/3840x2160/fmXXhG6rA7wWfHn3.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Gali",
-        "text": "In the Cybercab I’m at peace 😌\n\nWatching YouTube videos, lounging \n\nI don’t want the ride to end 🤣 so relaxed \n\n@robotaxi & @tesla thank you for making this amazing service 🙏🙏🙏",
-        "url": "https://x.com/Gfilche/status/2108325645516419402",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 44,
-        "likes": 1375,
-        "quotes": 15,
-        "replies": 135,
-        "retweets": 142,
-        "views": 179879
-      },
-      "url": "https://x.com/elonmusk/status/2108341931499536698",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2108325417274720256/img/HB_6cGuaEeJyQHKY.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2108325417274720256/vid/avc1/3840x2160/fmXXhG6rA7wWfHn3.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108325417274720256/img/HB_6cGuaEeJyQHKY.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 13.243
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2108338048186695685",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T23:25:36.000Z",
-      "created_at_shanghai": "2026-10-09 07:25:36",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "🚨 ELON MUSK ON INTERNET AND POVERTY\n\nElon said the single biggest thing you can do to lift people out of poverty is give them an internet connection.\n\nOnce people have internet, they can learn almost anything for free and sell their goods and services to the world.\n\nSpaceX is in a strong position. It will likely do about 90% of the mass launched to orbit this year, and nearly 80% of all active satellites in orbit are already SpaceX, providing high-bandwidth connectivity worldwide. https://x.com/XFreeze/status/2015067284205916553/video/1",
-      "quote": null,
-      "retweet": {
-        "author": "AsFoundX",
-        "avatar": "https://pbs.twimg.com/profile_images/2095292024899465217/wOMt6_bi_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 05:46:33",
-        "created_at_utc": "2026-10-08T21:46:33.000Z",
-        "id": "2108313121475412050",
-        "images": [
-          "https://pbs.twimg.com/ext_tw_video_thumb/2015067208188116992/pu/img/vS3izFlecLdF47AZ.jpg"
-        ],
-        "media": [
-          {
-            "duration": 47.378,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2015067208188116992/pu/img/vS3izFlecLdF47AZ.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/ext_tw_video/2015067208188116992/pu/vid/avc1/1080x1080/LXkDRFPYaleYbSsZ.mp4?tag=19",
-            "width": 1080
-          }
-        ],
-        "name": "As Found",
-        "text": "🚨 ELON MUSK ON INTERNET AND POVERTY\n\nElon said the single biggest thing you can do to lift people out of poverty is give them an internet connection.\n\nOnce people have internet, they can learn almost anything for free and sell their goods and services to the world.\n\nSpaceX is in a strong position. It will likely do about 90% of the mass launched to orbit this year, and nearly 80% of all active satellites in orbit are already SpaceX, providing high-bandwidth connectivity worldwide. https://x.com/XFreeze/status/2015067284205916553/video/1",
-        "url": "https://x.com/AsFoundX/status/2108313121475412050",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 87,
-        "likes": 1660,
-        "quotes": 18,
-        "replies": 165,
-        "retweets": 273,
-        "views": 181272
-      },
-      "url": "https://x.com/elonmusk/status/2108338048186695685",
-      "images": [
-        "https://pbs.twimg.com/ext_tw_video_thumb/2015067208188116992/pu/img/vS3izFlecLdF47AZ.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/ext_tw_video/2015067208188116992/pu/vid/avc1/1080x1080/LXkDRFPYaleYbSsZ.mp4?tag=19",
-          "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2015067208188116992/pu/img/vS3izFlecLdF47AZ.jpg",
-          "width": 1080,
-          "height": 1080,
-          "duration": 47.378
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2108326822697902170",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T22:41:00.000Z",
-      "created_at_shanghai": "2026-10-09 06:41:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Shopify now connects to @grok and @bot. One more place merchants already work, now connected to their store. \n\nSolo founder no longer means solo operator.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 00:27:29",
-        "created_at_utc": "2026-10-08T16:27:29.000Z",
-        "id": "2108232824520319175",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Hire Grok @Bot to manage your @Shopify store. He will do an amazing job!",
-        "url": "https://x.com/elonmusk/status/2108232824520319175",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "harleyf",
-        "avatar": "https://pbs.twimg.com/profile_images/2070221310513532928/N7DZWNny_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 01:09:54",
-        "created_at_utc": "2026-10-08T17:09:54.000Z",
-        "id": "2108243500089405641",
-        "images": [],
-        "media": [],
-        "name": "Harley Finkelstein",
-        "text": "Shopify now connects to @grok and @bot. One more place merchants already work, now connected to their store. \n\nSolo founder no longer means solo operator.",
-        "url": "https://x.com/harleyf/status/2108243500089405641",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 69,
-        "likes": 901,
-        "quotes": 3,
-        "replies": 46,
-        "retweets": 101,
-        "views": 188710
-      },
-      "url": "https://x.com/elonmusk/status/2108326822697902170",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 723,
+  "total": 729,
   "total_pages": 37,
-  "updated_at_shanghai": "2026-10-10 07:33:59",
+  "updated_at_shanghai": "2026-10-10 10:39:36",
   "account": "elonmusk"
 }
