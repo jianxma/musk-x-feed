@@ -1,27 +1,6 @@
 {
   "posts": [
     {
-      "id": "2107696505432035633",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T04:56:20.000Z",
-      "created_at_shanghai": "2026-10-07 12:56:20",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Here’s the full IAC 2026 presentation by SpaceXAI President @michaelnicollsx :\n\n0:00 Walk-on and opening\n1:40 Growth of the Starlink constellation\n4:00 Global growth\n5:40 Life of a Starlink satellite\n6:40 Launch and deploy\n7:40 Orbit raise\n8:20 Starlink altitudes\n10:00 On-station ops \n12:20 Constant communication\n14:00 Space weather and prediction\n15:20 Protecting the night sky\n17:40 Protecting radio astronomy\n19:00 Controlled and targeted reentry\n22:00 Biggest risk\n23:00 Close approaches\n24:20 Stargaze\n25:40 Unannounced maneuvers\n27:00 International satellite ephemeris\n28:40 space-safety .com\n29:40 The future\n30:00 Starmind\n32:40 Laser links\n34:00 Orbital mesh view\n34:40 Interplanetary — Moon and Mars\n35:40 Walk-off",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2107696505432035633",
-      "images": [],
-      "media": [],
-      "enriched": false
-    },
-    {
       "id": "2107696351794622954",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -124,46 +103,85 @@
       "enriched": true
     },
     {
-      "id": "2107690167343673712",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T04:31:09.000Z",
-      "created_at_shanghai": "2026-10-07 12:31:09",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "One million-mile trucker @adamlwingfield in new interview after going to the Tesla Semi launch event a couple weeks ago:\n\n“The trucking industry has adopted technology so much slower. As we toured the @Tesla Semi factory, I’m just like, wow, this doesn’t feel like trucking. It feels like transportation innovation. I’ve been in this industry a long time. I am an old-school industry veteran. You can’t tell me nothing about trucking that I don’t know. But walking away (from the event), I was like, \"This industry is going to be changed.\"\n\nAdam's full 1+ hour interview with Motortrend: https://www.youtube.com/watch?v=r40-7gM4MAo&t=112s",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2107690167343673712",
-      "images": [],
-      "media": [],
-      "enriched": false
-    },
-    {
       "id": "2107689502508781586",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T04:28:31.000Z",
-      "created_at_shanghai": "2026-10-07 12:28:31",
-      "type": "原文",
-      "type_label": "原文",
+      "created_at_utc": "2026-10-07T04:20:09.000Z",
+      "created_at_shanghai": "2026-10-07 12:20:09",
+      "type": "转发",
+      "type_label": "转发",
       "text": "Grok Build just got one of its biggest updates yet.....a massive upgrade touching almost every part of the agent stack\n\nCompact mode gets a major upgrade, timestamps are now configurable, shell commands clearly show when they’re running or finished, tables can export directly as TSV, CSV or Markdown, and the dashboard now gives much better visibility and control over worktrees\n\nUnder the hood, the update is even bigger: stalled model calls now retry, long sessions are more resilient, permission handling is much tighter, failed file writes preserve existing contents, CJK memory search improves, concurrent config edits are safer, MCP tool discovery is more reliable, and worktree creation + deletion gets a huge reliability pass\n\nThere’s even a breaking safety change: grok worktree rm now refuses to delete active worktrees or ones with unsaved changes unless you explicitly force it\n\nRelease Notes: v1.0.50\n\nBreaking Changes:\n• grok worktree rm without -f now refuses to delete worktrees that are in use or contain unsaved changes and exits with an error.\n\nFeatures:\n• Compact mode now collapses recaps and keeps inner spacing on tall terminals.\n• Clicking the git branch in the header now copies the full branch name.\n• Long branch names now abbreviate on narrow terminals while remaining copyable.\n• Targeted cancels now stop only the specific response when requested by clients.\n• Compact mode now hides the dock (or tasks pane) the same way Ctrl+G does.\n• New timestamps setting offers off, minimal, and on modes in Settings and /timestamps.\n• Shell command output now shows \"Running …\" while executing and \"Ran …\" when finished.\n• Live preview pins now include whether an app was observed behind the URL.\n• Command palette (Ctrl+P) and model picker now open at the same width as the settings modal.\n• Tables rendered by grok now show copy buttons underneath that export clean TSV, CSV or Markdown suitable for spreadsheets.\n• Dashboard now shows which worktree each session belongs to, displays the -m model in the new-agent box, and lets you toggle worktree mode in the folder picker.\n\nBug Fixes:\n• Shell permission decisions now correctly prompt or approve commands matching the permission manager.\n• Cancelled turns now correctly mark unanswered tool calls as cancelled instead of succeeded.\n• Long error messages in the /usage and /session-info modals now wrap instead of being truncated.\n• Em-dashes no longer appear in status messages and subagent rows.\n• Stalled model calls during turns now retry before failing the turn.\n• Queue pane and Ctrl+; now appear and work when the dock is hidden with Ctrl+G.\n• Long sessions no longer disconnect when the conversation exceeds 4 MiB.\n• Permission rules now accept native tool names such as run_terminal_command and Shell.\n• /rewind now places the cursor at the end of the restored prompt.\n• Failed file writes now leave the previous contents instead of an empty file.\n• Fixed /loop and scheduler_create so non-ASCII intervals like 5分 no longer crash the session.\n• Fixed --disallowed-tools when only one scheduler tool is named; the other two no longer cause startup failure.\n• Fixed closing a busy tab so queued prompts are no longer sent to the model.\n• Fixed relative --cwd so grok --cwd a no longer ends up running inside a/a.\n• The terminal title now shows \"Action Required\" for any background session waiting on approval.\n• grok now accepts a prompt via piped stdin in headless mode instead of trying to open the UI.\n• An admin-set [features] title_refresh = false in requirements.toml now correctly disables title refresh even when GROK_TITLE_REFRESH is set.\n• Custom notification commands defined under [[ui.notifications.hooks]] now execute on matching events.\n• An admin pin of [cli] use_leader = false now correctly prevents --leader from starting a leader process.\n• When multiple MCP servers expose a tool with the same name, search_tool now returns all of them.\n• Concurrent Grok windows editing settings no longer lose or corrupt config.toml entries such as MCP servers or permission rules.\n• web_fetch no longer downloads huge files into memory before rejecting them.\n• memory_get no longer returns huge files that exceed the read limit.\n• Continue to run no longer kills commands running inside background subagents.\n• memory_search now finds Japanese, Chinese, and Korean words inside longer notes.\n• Drafts saved by the model now appear under their actual titles in /feedback.\n• Imagine replies that are not valid images are now rejected instead of being saved as .jpg files.\n• A workflow file that fails to parse now reports the exact file and parse error instead of 'unknown workflow'.\n• Re-encoded images are now oriented correctly using their EXIF tags instead of appearing sideways.\n• Image and log paths reported after /fork --worktree now point to real files instead of missing locations.\n• Tab characters in terminal command output are now preserved when shown to the model.\n• Transparent images are now kept as PNG when re-encoded instead of turning black.\n• The bundled ripgrep is now available to terminal commands even on images that do not install it.\n• Request bodies now stay under a small configured max_request_bytes limit instead of growing past it.\n• Effort level now stays the same after a bare /model switch instead of jumping to the new model's default.\n• Ctrl+\\ and other modified digits no longer accidentally select options on permission or cancel cards.\n• Feedback submissions now show accurate success or failure messages without premature thanks or duplicated prefixes.\n• grok doctor now reports the exact config file or setting that prevents Grok from starting instead of saying zero issues.\n• Recap summaries now appear on screen automatically instead of requiring manual scrolling.\n• grok doctor fix now opens its confirmation card on Cancel to prevent accidental edits to shell or tmux config.\n• Slash commands now run regardless of case (e.g. /COMPACT or /Compact).\n• /context no longer shows an invented auto-compact threshold when the agent does not report one.\n• Agent text no longer keeps the pager redrawing when a tool call interrupts the sentence.\n• CLI tool calls no longer fail or overflow when the workspace directory is deleted or output is huge.\n• Logs written to files or when NO_COLOR is set are now plain text instead of containing color codes.\n• Prompts now fail immediately with a clear message if the session's working directory no longer exists instead of failing later or recreating it.\n• grok -w now works correctly with separate-git-dir repositories and shows clear errors when run outside a git repo or on an empty repo.\n• Shell tool descriptions now correctly state the actual output truncation limit, and grep respects globs relative to the current session directory.\n• Compaction messages now scroll into view instead of appearing below the bottom of the screen after a turn finishes.\n• Git-mode worktrees created with -w now preserve uncommitted changes instead of dropping them.\n• Worktrees created with --worktree-ref no longer contain wrong submodule contents or LFS pointer text.\n• Worktree creation now shows the same clear error messages on every code path.\n• Failed worktree creates now show a clear error on the home screen instead of being hidden.\n• Merge and rebase conflicts now appear in the changes list instead of being hidden.\n• Fixed a crash when starting a new session with durable rewind checkpoints enabled.\n• Managed permission files with one bad key no longer lose all their valid rules.\n• Simultaneous worktree creates with the same label now succeed instead of one failing with \"already exists\".\n• grok worktree rm without -f no longer deletes arbitrary folders that happen to share a name with a removed worktree.\n• Discard now affects only the exact files you select instead of also deleting or reverting similarly-named files.\n• Permission rules with one bad entry no longer lose the other rules in the same section.\n• Chat Completions streams that end without a finish reason are now retried instead of returning partial output.\n• grok worktree rm by label now refuses when the label exists in multiple repos.\n• Grep now respects Read deny rules that use a leading ./.\n\nPerformance:\n• Command hooks no longer cause large memory spikes when they print a lot of output.\n• Retry waits now vary between processes instead of being identical.",
-      "quote": null,
-      "retweet": null,
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-03 05:10:47",
+        "created_at_utc": "2026-10-02T21:10:47.000Z",
+        "id": "2106129795277103534",
+        "images": [
+          "https://pbs.twimg.com/media/HTp2fuXbUAAHQdW.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 980,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTp2fuXbUAAHQdW.jpg?name=small",
+            "width": 1742
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok Build just got another bug-fix update, this time focused heavily on permissions and tool safety\n\nHook permission prompts now show up regardless of approval mode, WebSearch/WebFetch and image generation properly respect prompt_policy and rule decisions, and “Allow once” now really means once......only the next shell command\n\nThere’s also an extra safeguard for pkill -f and pgrep -f patterns that could accidentally kill their own shell wrapper\n\nRelease Notes: v1.0.49\n\nBug Fixes:\n• Hook permission prompts now appear regardless of approval mode.\n• Web searches, fetches, and image generation now correctly respect the prompt_policy setting and rule decisions before prompting.\n• Allow once in permission cards now applies only to the next shell command instead of the whole session.\n• pkill -f and pgrep -f commands are now rejected earlier when the pattern would kill their own shell wrapper.",
+        "url": "https://x.com/XFreeze/status/2106129795277103534",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 12:20:09",
+        "created_at_utc": "2026-10-07T04:20:09.000Z",
+        "id": "2107687399509913967",
+        "images": [
+          "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 980,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small",
+            "width": 1742
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok Build just got one of its biggest updates yet.....a massive upgrade touching almost every part of the agent stack\n\nCompact mode gets a major upgrade, timestamps are now configurable, shell commands clearly show when they’re running or finished, tables can export directly as TSV, CSV or Markdown, and the dashboard now gives much better visibility and control over worktrees\n\nUnder the hood, the update is even bigger: stalled model calls now retry, long sessions are more resilient, permission handling is much tighter, failed file writes preserve existing contents, CJK memory search improves, concurrent config edits are safer, MCP tool discovery is more reliable, and worktree creation + deletion gets a huge reliability pass\n\nThere’s even a breaking safety change: grok worktree rm now refuses to delete active worktrees or ones with unsaved changes unless you explicitly force it\n\nRelease Notes: v1.0.50\n\nBreaking Changes:\n• grok worktree rm without -f now refuses to delete worktrees that are in use or contain unsaved changes and exits with an error.\n\nFeatures:\n• Compact mode now collapses recaps and keeps inner spacing on tall terminals.\n• Clicking the git branch in the header now copies the full branch name.\n• Long branch names now abbreviate on narrow terminals while remaining copyable.\n• Targeted cancels now stop only the specific response when requested by clients.\n• Compact mode now hides the dock (or tasks pane) the same way Ctrl+G does.\n• New timestamps setting offers off, minimal, and on modes in Settings and /timestamps.\n• Shell command output now shows \"Running …\" while executing and \"Ran …\" when finished.\n• Live preview pins now include whether an app was observed behind the URL.\n• Command palette (Ctrl+P) and model picker now open at the same width as the settings modal.\n• Tables rendered by grok now show copy buttons underneath that export clean TSV, CSV or Markdown suitable for spreadsheets.\n• Dashboard now shows which worktree each session belongs to, displays the -m model in the new-agent box, and lets you toggle worktree mode in the folder picker.\n\nBug Fixes:\n• Shell permission decisions now correctly prompt or approve commands matching the permission manager.\n• Cancelled turns now correctly mark unanswered tool calls as cancelled instead of succeeded.\n• Long error messages in the /usage and /session-info modals now wrap instead of being truncated.\n• Em-dashes no longer appear in status messages and subagent rows.\n• Stalled model calls during turns now retry before failing the turn.\n• Queue pane and Ctrl+; now appear and work when the dock is hidden with Ctrl+G.\n• Long sessions no longer disconnect when the conversation exceeds 4 MiB.\n• Permission rules now accept native tool names such as run_terminal_command and Shell.\n• /rewind now places the cursor at the end of the restored prompt.\n• Failed file writes now leave the previous contents instead of an empty file.\n• Fixed /loop and scheduler_create so non-ASCII intervals like 5分 no longer crash the session.\n• Fixed --disallowed-tools when only one scheduler tool is named; the other two no longer cause startup failure.\n• Fixed closing a busy tab so queued prompts are no longer sent to the model.\n• Fixed relative --cwd so grok --cwd a no longer ends up running inside a/a.\n• The terminal title now shows \"Action Required\" for any background session waiting on approval.\n• grok now accepts a prompt via piped stdin in headless mode instead of trying to open the UI.\n• An admin-set [features] title_refresh = false in requirements.toml now correctly disables title refresh even when GROK_TITLE_REFRESH is set.\n• Custom notification commands defined under [[ui.notifications.hooks]] now execute on matching events.\n• An admin pin of [cli] use_leader = false now correctly prevents --leader from starting a leader process.\n• When multiple MCP servers expose a tool with the same name, search_tool now returns all of them.\n• Concurrent Grok windows editing settings no longer lose or corrupt config.toml entries such as MCP servers or permission rules.\n• web_fetch no longer downloads huge files into memory before rejecting them.\n• memory_get no longer returns huge files that exceed the read limit.\n• Continue to run no longer kills commands running inside background subagents.\n• memory_search now finds Japanese, Chinese, and Korean words inside longer notes.\n• Drafts saved by the model now appear under their actual titles in /feedback.\n• Imagine replies that are not valid images are now rejected instead of being saved as .jpg files.\n• A workflow file that fails to parse now reports the exact file and parse error instead of 'unknown workflow'.\n• Re-encoded images are now oriented correctly using their EXIF tags instead of appearing sideways.\n• Image and log paths reported after /fork --worktree now point to real files instead of missing locations.\n• Tab characters in terminal command output are now preserved when shown to the model.\n• Transparent images are now kept as PNG when re-encoded instead of turning black.\n• The bundled ripgrep is now available to terminal commands even on images that do not install it.\n• Request bodies now stay under a small configured max_request_bytes limit instead of growing past it.\n• Effort level now stays the same after a bare /model switch instead of jumping to the new model's default.\n• Ctrl+\\ and other modified digits no longer accidentally select options on permission or cancel cards.\n• Feedback submissions now show accurate success or failure messages without premature thanks or duplicated prefixes.\n• grok doctor now reports the exact config file or setting that prevents Grok from starting instead of saying zero issues.\n• Recap summaries now appear on screen automatically instead of requiring manual scrolling.\n• grok doctor fix now opens its confirmation card on Cancel to prevent accidental edits to shell or tmux config.\n• Slash commands now run regardless of case (e.g. /COMPACT or /Compact).\n• /context no longer shows an invented auto-compact threshold when the agent does not report one.\n• Agent text no longer keeps the pager redrawing when a tool call interrupts the sentence.\n• CLI tool calls no longer fail or overflow when the workspace directory is deleted or output is huge.\n• Logs written to files or when NO_COLOR is set are now plain text instead of containing color codes.\n• Prompts now fail immediately with a clear message if the session's working directory no longer exists instead of failing later or recreating it.\n• grok -w now works correctly with separate-git-dir repositories and shows clear errors when run outside a git repo or on an empty repo.\n• Shell tool descriptions now correctly state the actual output truncation limit, and grep respects globs relative to the current session directory.\n• Compaction messages now scroll into view instead of appearing below the bottom of the screen after a turn finishes.\n• Git-mode worktrees created with -w now preserve uncommitted changes instead of dropping them.\n• Worktrees created with --worktree-ref no longer contain wrong submodule contents or LFS pointer text.\n• Worktree creation now shows the same clear error messages on every code path.\n• Failed worktree creates now show a clear error on the home screen instead of being hidden.\n• Merge and rebase conflicts now appear in the changes list instead of being hidden.\n• Fixed a crash when starting a new session with durable rewind checkpoints enabled.\n• Managed permission files with one bad key no longer lose all their valid rules.\n• Simultaneous worktree creates with the same label now succeed instead of one failing with \"already exists\".\n• grok worktree rm without -f no longer deletes arbitrary folders that happen to share a name with a removed worktree.\n• Discard now affects only the exact files you select instead of also deleting or reverting similarly-named files.\n• Permission rules with one bad entry no longer lose the other rules in the same section.\n• Chat Completions streams that end without a finish reason are now retried instead of returning partial output.\n• grok worktree rm by label now refuses when the label exists in multiple repos.\n• Grep now respects Read deny rules that use a leading ./.\n\nPerformance:\n• Command hooks no longer cause large memory spikes when they print a lot of output.\n• Retry waits now vary between processes instead of being identical.",
+        "url": "https://x.com/XFreeze/status/2107687399509913967",
+        "verified": true,
+        "verified_type": "individual"
+      },
       "reply_to": "",
-      "engagement": {},
+      "engagement": {
+        "bookmarks": 134,
+        "likes": 992,
+        "quotes": 14,
+        "replies": 88,
+        "retweets": 140,
+        "views": 335781
+      },
       "url": "https://x.com/elonmusk/status/2107689502508781586",
-      "images": [],
-      "media": [],
-      "enriched": false
+      "images": [
+        "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small",
+          "width": 1742,
+          "height": 980
+        }
+      ],
+      "enriched": true
     },
     {
       "id": "2107722464591794325",
@@ -202,6 +220,47 @@
         "views": 277626
       },
       "url": "https://x.com/elonmusk/status/2107722464591794325",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107696566870114470",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T03:56:06.000Z",
+      "created_at_shanghai": "2026-10-07 11:56:06",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Bro… after connecting all my Gmail accounts to Grok Bot, I don’t even need to open Gmail anymore. Today it cleaned up 2,000+ emails, and all I had to tell it was: “Mark these as read,” “Unsubscribe me from these mailing lists,” “Move these to trash,” or respond with whatever. \n\nI’m literally managing my inbox by texting my bot… thousands of emails cleaned up with a few simple instructions. And unsubscribing means less junk coming in tomorrow, too. This might be my favorite email hack ever. \n\nWhat a game changer.",
+      "quote": null,
+      "retweet": {
+        "author": "Teslaconomics",
+        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 11:56:06",
+        "created_at_utc": "2026-10-07T03:56:06.000Z",
+        "id": "2107681345178923367",
+        "images": [],
+        "media": [],
+        "name": "Teslaconomics",
+        "text": "Bro… after connecting all my Gmail accounts to Grok Bot, I don’t even need to open Gmail anymore. Today it cleaned up 2,000+ emails, and all I had to tell it was: “Mark these as read,” “Unsubscribe me from these mailing lists,” “Move these to trash,” or respond with whatever. \n\nI’m literally managing my inbox by texting my bot… thousands of emails cleaned up with a few simple instructions. And unsubscribing means less junk coming in tomorrow, too. This might be my favorite email hack ever. \n\nWhat a game changer.",
+        "url": "https://x.com/Teslaconomics/status/2107681345178923367",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 528,
+        "likes": 2010,
+        "quotes": 26,
+        "replies": 156,
+        "retweets": 172,
+        "views": 383871
+      },
+      "url": "https://x.com/elonmusk/status/2107696566870114470",
       "images": [],
       "media": [],
       "enriched": true
@@ -268,6 +327,110 @@
       "images": [],
       "media": [],
       "enriched": false
+    },
+    {
+      "id": "2107696927068536968",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T00:04:45.000Z",
+      "created_at_shanghai": "2026-10-07 08:04:45",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 is now live on Microsoft Foundry",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceXSI",
+        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 08:04:45",
+        "created_at_utc": "2026-10-07T00:04:45.000Z",
+        "id": "2107623124909060174",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107622270839717888/img/DZTpqseG5VXRPmDd.jpg"
+        ],
+        "media": [
+          {
+            "duration": 19.233,
+            "height": 1260,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107622270839717888/img/DZTpqseG5VXRPmDd.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107622270839717888/vid/avc1/2400x1260/ER2kWpwUDjMbY800.mp4?tag=29",
+            "width": 2400
+          }
+        ],
+        "name": "SpaceX Super Intelligence",
+        "text": "Grok 4.7 is now live on Microsoft Foundry",
+        "url": "https://x.com/SpaceXSI/status/2107623124909060174",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 74,
+        "likes": 2012,
+        "quotes": 45,
+        "replies": 118,
+        "retweets": 227,
+        "views": 380067
+      },
+      "url": "https://x.com/elonmusk/status/2107696927068536968",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2107622270839717888/img/DZTpqseG5VXRPmDd.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2107622270839717888/vid/avc1/2400x1260/ER2kWpwUDjMbY800.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107622270839717888/img/DZTpqseG5VXRPmDd.jpg",
+          "width": 2400,
+          "height": 1260,
+          "duration": 19.233
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2107717867064209705",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-06T22:19:32.000Z",
+      "created_at_shanghai": "2026-10-07 06:19:32",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I talk a lot about Grok Bot on Slack, but did you know you can also add @MicrosoftTeams?\n\nhttps://x.ai/bot/plugin/63354504",
+      "quote": null,
+      "retweet": {
+        "author": "poteto",
+        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 06:19:32",
+        "created_at_utc": "2026-10-06T22:19:32.000Z",
+        "id": "2107596645122875439",
+        "images": [],
+        "media": [],
+        "name": "lauren",
+        "text": "I talk a lot about Grok Bot on Slack, but did you know you can also add @MicrosoftTeams?\n\nhttps://x.ai/bot/plugin/63354504",
+        "url": "https://x.com/poteto/status/2107596645122875439",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 178,
+        "likes": 1601,
+        "quotes": 12,
+        "replies": 162,
+        "retweets": 128,
+        "views": 353069
+      },
+      "url": "https://x.com/elonmusk/status/2107717867064209705",
+      "images": [],
+      "media": [],
+      "enriched": true
     },
     {
       "id": "2107587206194098350",
@@ -529,33 +692,12 @@
       "images": [],
       "media": [],
       "enriched": false
-    },
-    {
-      "id": "2107550925141274624",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T19:17:51.000Z",
-      "created_at_shanghai": "2026-10-07 03:17:51",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Things my @bot setup does that still blow my mind:\n\n1. A Chief of Staff who opens the day pulling open loops from email & tasks and suggesting things it can knock out before 7am.\n\n2. After every meeting, decisions get folded into Notion, Linear, and Todoist — not left rotting in Granola\n\n3. Every email starts as a draft. The CoS bot scans my email every ~2hr and drafts replies to nearly everything — including checking my cal for availability and finding requested attachments / links\n\n4. A specialist for each lane: curriculum, engineering, coaching, hiring, content, ops, and one for every single piece of software\n\n5. Routines that keep running while I’m offline (e.g. monitoring Sentry errors in our apps and proactively fixing things)\n\n6. Group rooms where 2–4 bots share one project thread instead of me copy-pasting context\n\n7. Cloud coding agents that pick up Linear issues and open PRs after running the list of open work by me EoD — then squash-merge to main when it’s done\n\n8. Meeting prep briefs pulled from Granola + Notion before I walk in\n\n9. A growing shareable knowledge base in Notion + a GitHub repo that we update daily based on what happens at school\n\n10. Student progress look-up across Expertise, Followers, and CoFounder without inventing numbers — chat anytime to see where a student is on their business work\n\n11. Mentor Mind that coaches me on how to hold the bar without inventing doctrine\n\n12. Todoist as a central task list where it logs things it’s blocked on for me, or from meetings / emails — and I can paste links into chat to direct it how to solve them\n\n13. Engineering work is automatically tracked in Linear so my and the product teams’ bots don’t collide with each other\n\n14. Presentations spun up in Gamma / Claude Design without me opening a slide tool\n\n15. Plaud / live capture → notes the bots can actually act on\n\nProbably more but these were the immediate ones we thought of.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2107550925141274624",
-      "images": [],
-      "media": [],
-      "enriched": false
     }
   ],
   "page": 13,
   "page_size": 20,
-  "total": 754,
-  "total_pages": 38,
-  "updated_at_shanghai": "2026-10-10 23:03:35",
+  "total": 762,
+  "total_pages": 39,
+  "updated_at_shanghai": "2026-10-11 03:14:06",
   "account": "elonmusk"
 }
