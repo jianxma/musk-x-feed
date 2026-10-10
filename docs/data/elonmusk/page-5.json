@@ -1,6 +1,612 @@
 {
   "posts": [
     {
+      "id": "2108294618597216470",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T20:33:01.000Z",
+      "created_at_shanghai": "2026-10-09 04:33:01",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Automatically used by Grok @Bot",
+      "quote": {
+        "author": "imagine",
+        "avatar": "https://pbs.twimg.com/profile_images/2057888115419947008/hlp4OKEw_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 03:35:56",
+        "created_at_utc": "2026-10-08T19:35:56.000Z",
+        "id": "2108280250673352929",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108279681178898432/img/oD16pQlQybFXOWNj.jpg"
+        ],
+        "media": [
+          {
+            "duration": 38.15,
+            "height": 2880,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108279681178898432/img/oD16pQlQybFXOWNj.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108279681178898432/vid/avc1/1920x2880/34u9CEaE0gTIrt79.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Imagine",
+        "text": "Video 1.5 Lite is live in the Grok Imagine API. The new workhorse for text-to-video and image-to-video.\n\n$0.02/sec at 480p\n$0.03/sec at 720p\n$0.14/sec at 1080p",
+        "url": "https://x.com/imagine/status/2108280250673352929",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 158,
+        "likes": 1907,
+        "quotes": 24,
+        "replies": 225,
+        "retweets": 335,
+        "views": 727866
+      },
+      "url": "https://x.com/elonmusk/status/2108294618597216470",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108294449961046320",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T20:32:21.000Z",
+      "created_at_shanghai": "2026-10-09 04:32:21",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "The entire U.S. is 500 GW (average).\n\nThat's how crazy these numbers are.",
+      "quote": {
+        "author": "a16z",
+        "avatar": "https://pbs.twimg.com/profile_images/1919488160125616128/QAZXTMEj_200x200.png",
+        "created_at_shanghai": "2026-10-08 00:40:02",
+        "created_at_utc": "2026-10-07T16:40:02.000Z",
+        "id": "2107873596509208914",
+        "images": [
+          "https://pbs.twimg.com/media/HUCr3SUbwAAcz4J.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2623,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUCr3SUbwAAcz4J.jpg?name=small",
+            "width": 3000
+          }
+        ],
+        "name": "a16z",
+        "text": "Texas just froze new data center permits:\n\n- Its queue went from 63 GW to 474 GW in 18 months, more than 5x record peak demand\n\n- Only 9.5 GW is approved and about 4.3 GW is actually running\n\n- The rest is duplicates, speculation, and developers who have never plugged in a GPU\n\na16z's @rmcentush on why the grid can't build for that many maybes: https://www.a16z.news/p/why-texas-is-making-data-centers",
+        "url": "https://x.com/a16z/status/2107873596509208914",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "JessePeltan",
+        "avatar": "https://pbs.twimg.com/profile_images/1861561930550284288/pn_aLq26_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 23:04:52",
+        "created_at_utc": "2026-10-08T15:04:52.000Z",
+        "id": "2108212035234279605",
+        "images": [],
+        "media": [],
+        "name": "Jesse Peltan",
+        "text": "The entire U.S. is 500 GW (average).\n\nThat's how crazy these numbers are.",
+        "url": "https://x.com/JessePeltan/status/2108212035234279605",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 81,
+        "likes": 764,
+        "quotes": 9,
+        "replies": 43,
+        "retweets": 108,
+        "views": 175318
+      },
+      "url": "https://x.com/elonmusk/status/2108294449961046320",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108294140773667220",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T20:31:08.000Z",
+      "created_at_shanghai": "2026-10-09 04:31:08",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I asked Grok @Bot to turn President Trump awarding Elon Musk the National Medal of Science into a vertical short with captions.\n\nOne sentence. No editing software. No work.\n\nIt found every SpaceX, Tesla, Neuralink, and SpaceXAI mention, picked the best moments, reframed for vertical, and burned in the captions.\n\nType what you want. Get a finished video in minutes.\n\nNow anyone can edit like a pro.",
+      "quote": null,
+      "retweet": {
+        "author": "KanekoaTheGreat",
+        "avatar": "https://pbs.twimg.com/profile_images/1612188077333835776/qxjhM55m_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 03:24:58",
+        "created_at_utc": "2026-10-08T19:24:58.000Z",
+        "id": "2108277490481537030",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108274850267803648/img/nxy9prb6eu2tfJFl.jpg"
+        ],
+        "media": [
+          {
+            "duration": 106.734,
+            "height": 1920,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108274850267803648/img/nxy9prb6eu2tfJFl.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108274850267803648/vid/avc1/1080x1920/FJY_Segm-eN5FbjS.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "KanekoaTheGreat",
+        "text": "I asked Grok @Bot to turn President Trump awarding Elon Musk the National Medal of Science into a vertical short with captions.\n\nOne sentence. No editing software. No work.\n\nIt found every SpaceX, Tesla, Neuralink, and SpaceXAI mention, picked the best moments, reframed for vertical, and burned in the captions.\n\nType what you want. Get a finished video in minutes.\n\nNow anyone can edit like a pro.",
+        "url": "https://x.com/KanekoaTheGreat/status/2108277490481537030",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 89,
+        "likes": 1077,
+        "quotes": 9,
+        "replies": 66,
+        "retweets": 156,
+        "views": 170997
+      },
+      "url": "https://x.com/elonmusk/status/2108294140773667220",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2108274850267803648/img/nxy9prb6eu2tfJFl.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2108274850267803648/vid/avc1/1080x1920/FJY_Segm-eN5FbjS.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108274850267803648/img/nxy9prb6eu2tfJFl.jpg",
+          "width": 1080,
+          "height": 1920,
+          "duration": 106.734
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2108272088582676627",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T19:03:30.000Z",
+      "created_at_shanghai": "2026-10-09 03:03:30",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot works well on your phone. Just download the app from Apple or Android. \n\nhttps://apps.apple.com/app/id6794501026",
+      "quote": {
+        "author": "melvindvivas",
+        "avatar": "https://pbs.twimg.com/profile_images/2080587337994813440/rF40X6jM_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 01:33:12",
+        "created_at_utc": "2026-10-08T17:33:12.000Z",
+        "id": "2108249363432788364",
+        "images": [],
+        "media": [],
+        "name": "Melvin Vivas",
+        "text": "This feels unreal\n\nUsed Grok Bot today, mostly from my phone\n\nI got more done from my phone with Grok Bot than I usually do sitting at my desk\n\n- Colab notebooks for Google EmbeddingGemma 2, D1 by LiquidAI inference\n- Colab notebooks for open source decision models finetunes using Qwen3.5-4B and Gemma 4 E4B as base\n- Put up a Grok Bots page on my website with all the templates I've been sharing\n- Worked on the MiniMax H3 face-swap clip\n- Figured out what's eating my Windows drive and how to free space\n- Created Security bot and told it to treat outside content as hostile, especially anything that might touch my computers\n- Worked with my stocks bot on scheduled market updates, news and recommndations",
+        "url": "https://x.com/melvindvivas/status/2108249363432788364",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 274,
+        "likes": 4426,
+        "quotes": 55,
+        "replies": 637,
+        "retweets": 535,
+        "views": 1845722
+      },
+      "url": "https://x.com/elonmusk/status/2108272088582676627",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108270309824438588",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T18:56:26.000Z",
+      "created_at_shanghai": "2026-10-09 02:56:26",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot is actually this good",
+      "quote": {
+        "author": "0x45o",
+        "avatar": "https://pbs.twimg.com/profile_images/2087845198852227072/l8Lar2hK_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 15:01:08",
+        "created_at_utc": "2026-10-08T07:01:08.000Z",
+        "id": "2108090297506841017",
+        "images": [],
+        "media": [],
+        "name": "0x45",
+        "text": "Grok bot propaganda hit me so hard I had to try it\n\nand you know what, it is fucking awesome",
+        "url": "https://x.com/0x45o/status/2108090297506841017",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 108,
+        "likes": 3236,
+        "quotes": 25,
+        "replies": 426,
+        "retweets": 410,
+        "views": 1232925
+      },
+      "url": "https://x.com/elonmusk/status/2108270309824438588",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108269794268975387",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T18:54:23.000Z",
+      "created_at_shanghai": "2026-10-09 02:54:23",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok 4.7 ranks first in legal matters",
+      "quote": {
+        "author": "ArtificialAnlys",
+        "avatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 02:33:38",
+        "created_at_utc": "2026-10-08T18:33:38.000Z",
+        "id": "2108264572545310824",
+        "images": [
+          "https://pbs.twimg.com/media/HUIMru3awAAfRCw.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1856,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUIMru3awAAfRCw.jpg?name=small",
+            "width": 2464
+          }
+        ],
+        "name": "Artificial Analysis",
+        "text": "Today we are announcing Harvey LAB-AA v1.1 in collaboration with Harvey. This updates our scoring methodology for the Legal Agent Benchmark (LAB) to add a hallucination check and require correct responses to not include material misstatements. LAB-AA v1.1's new headline metric, Hallucination-Gated All-Pass Rate, only credits a task when the deliverables satisfy every rubric criterion and contain no material hallucinations.\n\nWe define a material hallucination as one that would mislead a reader on a substantive point, such as a wrong contractually required date, while a minor hallucination is a real error that is unlikely to meaningfully affect the legal interpretation of a deliverable. Minor hallucinations are reported separately and do not affect the headline score.\n\nGrok 4.7 (xhigh) leads at 9.4% Hallucination-Gated All-Pass Rate, and >60% of otherwise passing results across the models tested at launch contain a material hallucination.\n\nThis is the first step in enhancing the methodology for Harvey LAB-AA. In future updates, we’re working with Harvey to better account for the full set of factors lawyers value, including usability features like style and tone.\n\nKey takeaways:\n\n➤ Top of the leaderboard: Grok 4.7 (xhigh) from @SpaceXAI leads at 9.4% Hallucination-Gated All-Pass Rate, narrowly ahead of Muse Spark 1.3 (max) from @AIatMeta at 8.9% and GPT-6 Astra (max) from @OpenAI at 8.6%\n\n➤ Hallucinations reshape the leaderboard: without the hallucination gate, Muse Spark 1.3 (max) would lead clearly with a 26.7% all-pass rate, but two thirds of those passes contain one or more material hallucinations, resulting in a Hallucination-Gated All-Pass Rate of 8.9%. GPT-6 Astra (max) retains almost all of its passes after the hallucination gate (8.9% to 8.6%) and moves from joint 10th to 3rd\n\n➤ The GPT-6 model family is the most grounded: GPT-6 Astra (max) averages 0.03 material hallucinations per task (4 across all 120 tasks) and GPT-6 Sol (max) averages 0.07. When comparing six checker models on a 20-task subset, GPT-6 Astra had zero material hallucinations under every checker, including Claude Opus 5.5 (high). By comparison, Gemini 3.8 Flash (high) averages 13.96 material hallucinations per task.\n\n➤ Top-scoring models aren’t the most expensive: Grok 4.7 (xhigh) takes the top spot on the leaderboard at a cost of ~$9.50 per task, under half the cost of Claude Fable 5.1 (max with fallback) at ~$21.70, the most expensive model. Muse Spark 1.3 (max) represents strong performance for its cost, landing in second for ~$4.20 per task\n\nThank you to @nikogrupen and @ItsJulioPereyra from @harvey for their work on Harvey LAB and collaboration.",
+        "url": "https://x.com/ArtificialAnlys/status/2108264572545310824",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 180,
+        "likes": 3087,
+        "quotes": 29,
+        "replies": 396,
+        "retweets": 480,
+        "views": 928196
+      },
+      "url": "https://x.com/elonmusk/status/2108269794268975387",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108267386105385465",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T18:44:49.000Z",
+      "created_at_shanghai": "2026-10-09 02:44:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceX went from 8 launches in 2016 to 170 in 2025.\n\nWhat critics called a “subsidy scam” and a “Musk vanity project” already out-launched every other country on Earth COMBINED. \n\nFalcon is still flying and Starship is just getting started, so by the end of the decade, the rest of the planet will be a footnote on a SpaceX chart.",
+      "quote": null,
+      "retweet": {
+        "author": "Rothmus",
+        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 02:38:33",
+        "created_at_utc": "2026-10-08T18:38:33.000Z",
+        "id": "2108265809826996227",
+        "images": [
+          "https://pbs.twimg.com/media/HUIQlFzXUAA4IWH.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 900,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUIQlFzXUAA4IWH.jpg?name=small",
+            "width": 1600
+          }
+        ],
+        "name": "Rothmus 🏴",
+        "text": "SpaceX went from 8 launches in 2016 to 170 in 2025.\n\nWhat critics called a “subsidy scam” and a “Musk vanity project” already out-launched every other country on Earth COMBINED. \n\nFalcon is still flying and Starship is just getting started, so by the end of the decade, the rest of the planet will be a footnote on a SpaceX chart.",
+        "url": "https://x.com/Rothmus/status/2108265809826996227",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 65,
+        "likes": 1691,
+        "quotes": 18,
+        "replies": 98,
+        "retweets": 248,
+        "views": 229106
+      },
+      "url": "https://x.com/elonmusk/status/2108267386105385465",
+      "images": [
+        "https://pbs.twimg.com/media/HUIQlFzXUAA4IWH.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUIQlFzXUAA4IWH.jpg?name=small",
+          "width": 1600,
+          "height": 900
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2108266929203155367",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T18:43:00.000Z",
+      "created_at_shanghai": "2026-10-09 02:43:00",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "This is why",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 00:25:52",
+        "created_at_utc": "2026-10-08T16:25:52.000Z",
+        "id": "2108232420151775564",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2063241449106489344/img/wSryDFHImIogfWIr.jpg"
+        ],
+        "media": [
+          {
+            "duration": 57.066,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2063241449106489344/img/wSryDFHImIogfWIr.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2063241449106489344/vid/avc1/1080x1080/3wWYX35vgQFCe2bI.mp4?tag=27",
+            "width": 1080
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Elon Musk explains the deeper purpose of SpaceX and why making life multiplanetary is so important for the future of humanity:\n\n“The goal of SpaceX is to build the technologies necessary to make life multiplanetary”\n\nFor roughly 4 billion years, life on Earth has existed without the ability to expand beyond its home planet\n\nNow, for the first time in history, humanity has the technology to begin changing that\n\nAnd that is what SpaceX is ultimately building toward\n\nReusable rockets, Starship, orbital refueling and eventually self-sustaining cities on Mars are all part of making humanity a spacefaring civilization\n\nThis is much bigger than exploring another planet\n\nIt is about ensuring that life and consciousness can continue to survive, evolve and expand far into the future\n\nHumanity has an extraordinary opportunity to become multiplanetary, and SpaceX is building the technology to make it happen right now\n https://x.com/XFreeze/status/2063242412370341949/video/1",
+        "url": "https://x.com/XFreeze/status/2108232420151775564",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 362,
+        "likes": 5182,
+        "quotes": 71,
+        "replies": 892,
+        "retweets": 954,
+        "views": 1181466
+      },
+      "url": "https://x.com/elonmusk/status/2108266929203155367",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108266803122102527",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T18:42:30.000Z",
+      "created_at_shanghai": "2026-10-09 02:42:30",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "New connectors just dropped:\n\nConnect to @grok to ask questions about your business\n\nOr connect to @bot to build a team of agents that help you run it",
+      "quote": null,
+      "retweet": {
+        "author": "Shopify",
+        "avatar": "https://pbs.twimg.com/profile_images/1915449242979885059/d8IWgY7S_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 00:01:04",
+        "created_at_utc": "2026-10-08T16:01:04.000Z",
+        "id": "2108226178146263268",
+        "images": [
+          "https://pbs.twimg.com/media/HUHt6AzXoAENFjq.jpg"
+        ],
+        "media": [
+          {
+            "duration": 26.333,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/media/HUHt6AzXoAENFjq.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108225419803574272/vid/avc1/1080x1080/mOVTBstvDu4Gsbab.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "Shopify",
+        "text": "New connectors just dropped:\n\nConnect to @grok to ask questions about your business\n\nOr connect to @bot to build a team of agents that help you run it",
+        "url": "https://x.com/Shopify/status/2108226178146263268",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 326,
+        "likes": 1510,
+        "quotes": 57,
+        "replies": 91,
+        "retweets": 154,
+        "views": 430876
+      },
+      "url": "https://x.com/elonmusk/status/2108266803122102527",
+      "images": [
+        "https://pbs.twimg.com/media/HUHt6AzXoAENFjq.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2108225419803574272/vid/avc1/1080x1080/mOVTBstvDu4Gsbab.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/media/HUHt6AzXoAENFjq.jpg",
+          "width": 1080,
+          "height": 1080,
+          "duration": 26.333
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2108264919489540364",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T18:35:01.000Z",
+      "created_at_shanghai": "2026-10-09 02:35:01",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon and Jensen. Bros being bros.\n\n📸 Kent NISHIMURA / GettyImages",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 02:27:36",
+        "created_at_utc": "2026-10-08T18:27:36.000Z",
+        "id": "2108263053355811167",
+        "images": [
+          "https://pbs.twimg.com/media/HUINSW5a0AE8xFO.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1307,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUINSW5a0AE8xFO.jpg?name=small",
+            "width": 1961
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Elon and Jensen. Bros being bros.\n\n📸 Kent NISHIMURA / GettyImages",
+        "url": "https://x.com/cb_doge/status/2108263053355811167",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 158,
+        "likes": 3939,
+        "quotes": 34,
+        "replies": 189,
+        "retweets": 394,
+        "views": 263120
+      },
+      "url": "https://x.com/elonmusk/status/2108264919489540364",
+      "images": [
+        "https://pbs.twimg.com/media/HUINSW5a0AE8xFO.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUINSW5a0AE8xFO.jpg?name=small",
+          "width": 1961,
+          "height": 1307
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2108264207896432923",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T18:32:11.000Z",
+      "created_at_shanghai": "2026-10-09 02:32:11",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "🚨 ELON MUSK ON STARLINK FOR RURAL INDIA\n\nBack in June 2023, Elon said he hoped to bring Starlink to India.\n\n“The Starlink internet can be incredibly helpful for remote or rural villages, where they may have no access to internet, or the internet is very expensive and slow.”\n\nMore than three years later, that same problem is still there in parts of rural India. And Starlink is still waiting to serve them. https://x.com/XFreeze/status/2108229208258511331/video/1",
+      "quote": null,
+      "retweet": {
+        "author": "AsFoundX",
+        "avatar": "https://pbs.twimg.com/profile_images/2095292024899465217/wOMt6_bi_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 00:16:36",
+        "created_at_utc": "2026-10-08T16:16:36.000Z",
+        "id": "2108230087237578821",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108227573935390720/img/6mY4Td6l5PTg5uUQ.jpg"
+        ],
+        "media": [
+          {
+            "duration": 17.8,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108227573935390720/img/6mY4Td6l5PTg5uUQ.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108227573935390720/vid/avc1/1920x1080/olVLu-0-daaKzMYy.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "As Found",
+        "text": "🚨 ELON MUSK ON STARLINK FOR RURAL INDIA\n\nBack in June 2023, Elon said he hoped to bring Starlink to India.\n\n“The Starlink internet can be incredibly helpful for remote or rural villages, where they may have no access to internet, or the internet is very expensive and slow.”\n\nMore than three years later, that same problem is still there in parts of rural India. And Starlink is still waiting to serve them. https://x.com/XFreeze/status/2108229208258511331/video/1",
+        "url": "https://x.com/AsFoundX/status/2108230087237578821",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 60,
+        "likes": 1170,
+        "quotes": 8,
+        "replies": 117,
+        "retweets": 188,
+        "views": 221607
+      },
+      "url": "https://x.com/elonmusk/status/2108264207896432923",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2108227573935390720/img/6mY4Td6l5PTg5uUQ.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2108227573935390720/vid/avc1/1920x1080/olVLu-0-daaKzMYy.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108227573935390720/img/6mY4Td6l5PTg5uUQ.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 17.8
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2108261942624477524",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -483,590 +1089,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108231815366656468",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T16:23:28.000Z",
-      "created_at_shanghai": "2026-10-09 00:23:28",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon is right to demand answers.\n\nIndia once had more than a dozen telecom operators competing for customers. Today, Jio and Airtel account for nearly 77% of India’s wireless subscriptions.\n\nWhat is the harm in adding another competitor? Healthy competition encourages providers to offer better prices and service, giving consumers more choice and better value.\n\nStarlink could offer Indian households, businesses and communities another broadband option, especially in remote villages, mountains and islands where expanding existing networks is difficult.\n\nIndians deserve greater transparency, better connectivity and the freedom to choose. Let Starlink compete and let consumers decide.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 21:25:39",
-        "created_at_utc": "2026-10-08T13:25:39.000Z",
-        "id": "2108187065687118261",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Starlink is licensed in over 165 countries and has spent five years complying with every single law and requirement of the government of India, so why still no license? \n\nIs Ambani the real boss of India?",
-        "url": "https://x.com/elonmusk/status/2108187065687118261",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 00:04:15",
-        "created_at_utc": "2026-10-08T16:04:15.000Z",
-        "id": "2108226980135194825",
-        "images": [
-          "https://pbs.twimg.com/media/HUHpydobkAAD27i.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 720,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUHpydobkAAD27i.jpg?name=small",
-            "width": 1280
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Elon is right to demand answers.\n\nIndia once had more than a dozen telecom operators competing for customers. Today, Jio and Airtel account for nearly 77% of India’s wireless subscriptions.\n\nWhat is the harm in adding another competitor? Healthy competition encourages providers to offer better prices and service, giving consumers more choice and better value.\n\nStarlink could offer Indian households, businesses and communities another broadband option, especially in remote villages, mountains and islands where expanding existing networks is difficult.\n\nIndians deserve greater transparency, better connectivity and the freedom to choose. Let Starlink compete and let consumers decide.",
-        "url": "https://x.com/cb_doge/status/2108226980135194825",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 223,
-        "likes": 4121,
-        "quotes": 338,
-        "replies": 2130,
-        "retweets": 718,
-        "views": 551716
-      },
-      "url": "https://x.com/elonmusk/status/2108231815366656468",
-      "images": [
-        "https://pbs.twimg.com/media/HUHpydobkAAD27i.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUHpydobkAAD27i.jpg?name=small",
-          "width": 1280,
-          "height": 720
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2108231759804416432",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T16:23:15.000Z",
-      "created_at_shanghai": "2026-10-09 00:23:15",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Welcome home @NASA Crew-12",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 23:33:17",
-        "created_at_utc": "2026-10-08T15:33:17.000Z",
-        "id": "2108219187801756032",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108219108248444928/img/bbb2fDnNcJNtA4qv.jpg"
-        ],
-        "media": [
-          {
-            "duration": 23.68,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108219108248444928/img/bbb2fDnNcJNtA4qv.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108219108248444928/vid/avc1/3840x2160/Scv8XesZc7R7IA69.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Dragon’s four main parachutes have deployed",
-        "url": "https://x.com/SpaceX/status/2108219187801756032",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "NASAAdmin",
-        "avatar": "https://pbs.twimg.com/profile_images/2001755387486232576/mf5hRS_U_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 23:36:09",
-        "created_at_utc": "2026-10-08T15:36:09.000Z",
-        "id": "2108219908748108068",
-        "images": [],
-        "media": [],
-        "name": "NASA Administrator Jared Isaacman",
-        "text": "Welcome home @NASA Crew-12",
-        "url": "https://x.com/NASAAdmin/status/2108219908748108068",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 67,
-        "likes": 6052,
-        "quotes": 14,
-        "replies": 132,
-        "retweets": 483,
-        "views": 268696
-      },
-      "url": "https://x.com/elonmusk/status/2108231759804416432",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108225227339550790",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T15:57:17.000Z",
-      "created_at_shanghai": "2026-10-08 23:57:17",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "2011",
-      "quote": {
-        "author": "AsFoundX",
-        "avatar": "https://pbs.twimg.com/profile_images/2095292024899465217/wOMt6_bi_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 23:17:59",
-        "created_at_utc": "2026-10-08T15:17:59.000Z",
-        "id": "2108215336889680339",
-        "images": [
-          "https://pbs.twimg.com/ext_tw_video_thumb/1879026872207482880/pu/img/RIdPZnuXZtqJnXsm.jpg"
-        ],
-        "media": [
-          {
-            "duration": 64.8,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/1879026872207482880/pu/img/RIdPZnuXZtqJnXsm.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/ext_tw_video/1879026872207482880/pu/vid/avc1/1920x1080/rAcXiYAJuIvZyvG8.mp4?tag=14",
-            "width": 1920
-          }
-        ],
-        "name": "As Found",
-        "text": "🚨 ELON MUSK IN 2011 ON REUSABLE ROCKETS\n\nElon said the key to making humanity multiplanetary is developing a fully and rapidly reusable orbit-class rocket.\n\nHe explained it’s an extremely hard engineering challenge because Earth’s gravity makes it just barely possible. A bit lower and it would be easy. A bit higher and it would be impossible.\n\nFor a long time he wasn’t sure it could be done, but in the year before this talk he became confident it was possible.\n\nSpaceX would try to achieve it. They had a design that worked in simulations, but they knew reality would be the final test. https://x.com/ElonClipsX/status/1879028526747111642/video/1",
-        "url": "https://x.com/AsFoundX/status/2108215336889680339",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 132,
-        "likes": 2819,
-        "quotes": 29,
-        "replies": 444,
-        "retweets": 351,
-        "views": 694417
-      },
-      "url": "https://x.com/elonmusk/status/2108225227339550790",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108225043419574573",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T15:56:33.000Z",
-      "created_at_shanghai": "2026-10-08 23:56:33",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Thank you on behalf of the amazing people of SpaceX, Tesla, Neuralink and Boring Company, without whom anything I have done would have been impossible",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 147,
-        "likes": 4771,
-        "quotes": 59,
-        "replies": 482,
-        "retweets": 525,
-        "views": 567986
-      },
-      "url": "https://x.com/elonmusk/status/2108225043419574573",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108223791138734327",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T15:51:35.000Z",
-      "created_at_shanghai": "2026-10-08 23:51:35",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Welcome home!",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 23:36:55",
-        "created_at_utc": "2026-10-08T15:36:55.000Z",
-        "id": "2108220101614850436",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108219960799424512/img/HeHDtLeAzPKVISdo.jpg"
-        ],
-        "media": [
-          {
-            "duration": 21.47,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108219960799424512/img/HeHDtLeAzPKVISdo.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108219960799424512/vid/avc1/3840x2160/6WHRXyHfLWdrxmS9.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Splashdown of Dragon confirmed!",
-        "url": "https://x.com/SpaceX/status/2108220101614850436",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 132,
-        "likes": 9765,
-        "quotes": 60,
-        "replies": 626,
-        "retweets": 928,
-        "views": 707280
-      },
-      "url": "https://x.com/elonmusk/status/2108223791138734327",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108221942658638265",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T15:44:14.000Z",
-      "created_at_shanghai": "2026-10-08 23:44:14",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot team shipped in the last few days:\n\n• Proactive primary bot\n• X search and monitoring, no API key needed\n• Faster replies + speed improvements\n• Slide deck creation in the chat\n• Tag @bot on X with instructions for your Bot\n• Best model for each task",
-      "quote": null,
-      "retweet": {
-        "author": "benln",
-        "avatar": "https://pbs.twimg.com/profile_images/1713995709916012544/GHmSl9EK_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 21:54:07",
-        "created_at_utc": "2026-10-08T13:54:07.000Z",
-        "id": "2108194230938247627",
-        "images": [],
-        "media": [],
-        "name": "Ben Lang",
-        "text": "Grok Bot team shipped in the last few days:\n\n• Proactive primary bot\n• X search and monitoring, no API key needed\n• Faster replies + speed improvements\n• Slide deck creation in the chat\n• Tag @bot on X with instructions for your Bot\n• Best model for each task",
-        "url": "https://x.com/benln/status/2108194230938247627",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 119,
-        "likes": 1365,
-        "quotes": 10,
-        "replies": 124,
-        "retweets": 121,
-        "views": 248299
-      },
-      "url": "https://x.com/elonmusk/status/2108221942658638265",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108221292788981881",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T15:41:39.000Z",
-      "created_at_shanghai": "2026-10-08 23:41:39",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Thank you, Rahul. \n\nThis is indeed troubling.",
-      "quote": {
-        "author": "RahulGandhi",
-        "avatar": "https://pbs.twimg.com/profile_images/2048691685794930688/AEEaltaE_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 22:44:50",
-        "created_at_utc": "2026-10-08T14:44:50.000Z",
-        "id": "2108206994356355342",
-        "images": [],
-        "media": [],
-        "name": "Rahul Gandhi",
-        "text": "Welcome to India, Elon. \n\nWait till you discover the other guy.",
-        "url": "https://x.com/RahulGandhi/status/2108206994356355342",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2513,
-        "likes": 35939,
-        "quotes": 3053,
-        "replies": 5674,
-        "retweets": 6502,
-        "views": 2236399
-      },
-      "url": "https://x.com/elonmusk/status/2108221292788981881",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108198900762837151",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T14:12:41.000Z",
-      "created_at_shanghai": "2026-10-08 22:12:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I think it will be a great assist if India gets starlink because Elon Musk says that it’s one of the best Internet in the world right now so I definitely agree with him all the things he have said in the past have become real now\n\nI truly believe in Elon Musk and I will support him",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 18:36:10",
-        "created_at_utc": "2026-10-08T10:36:10.000Z",
-        "id": "2108144416175398920",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Starlink will be of great help to areas of India that have bad or no Internet and even no mobile coverage. \n\nNo country has perfect coverage, including America, but Starlink can fill in the coverage gaps for those who most need it.",
-        "url": "https://x.com/elonmusk/status/2108144416175398920",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "YaseenK7212",
-        "avatar": "https://pbs.twimg.com/profile_images/1953135102281572352/ouTHPjys_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 18:44:20",
-        "created_at_utc": "2026-10-08T10:44:20.000Z",
-        "id": "2108146468498416051",
-        "images": [],
-        "media": [],
-        "name": "Yaseen Khan Gul",
-        "text": "I think it will be a great assist if India gets starlink because Elon Musk says that it’s one of the best Internet in the world right now so I definitely agree with him all the things he have said in the past have become real now\n\nI truly believe in Elon Musk and I will support him",
-        "url": "https://x.com/YaseenK7212/status/2108146468498416051",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 349,
-        "likes": 1840,
-        "quotes": 11,
-        "replies": 133,
-        "retweets": 453,
-        "views": 329922
-      },
-      "url": "https://x.com/elonmusk/status/2108198900762837151",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108198714242200045",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T14:11:56.000Z",
-      "created_at_shanghai": "2026-10-08 22:11:56",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We really want @Starlink @elonmusk services, I work here in Gandhinagar which is capital city of Gujarat and it is considered as one of the most developed city in india but the internet service we get from @airtelindia and @reliancejio is the worst. We work for Gujarat government  still their services are pathetic\n\nStop defending poor services out of blind loyalty",
-      "quote": null,
-      "retweet": {
-        "author": "Im_pritam18",
-        "avatar": "https://pbs.twimg.com/profile_images/2057624418588004352/k_DcLTeA_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 19:58:25",
-        "created_at_utc": "2026-10-08T11:58:25.000Z",
-        "id": "2108165111504634269",
-        "images": [],
-        "media": [],
-        "name": "Pritam Chauhan",
-        "text": "We really want @Starlink @elonmusk services, I work here in Gandhinagar which is capital city of Gujarat and it is considered as one of the most developed city in india but the internet service we get from @airtelindia and @reliancejio is the worst. We work for Gujarat government  still their services are pathetic\n\nStop defending poor services out of blind loyalty",
-        "url": "https://x.com/Im_pritam18/status/2108165111504634269",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 41,
-        "likes": 1631,
-        "quotes": 36,
-        "replies": 128,
-        "retweets": 212,
-        "views": 288043
-      },
-      "url": "https://x.com/elonmusk/status/2108198714242200045",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108197123451928653",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T14:05:37.000Z",
-      "created_at_shanghai": "2026-10-08 22:05:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "🚨 SPACEXAI BACKS OPEN SOURCE LINUX WITH $1.5 MILLION\n\nSpaceXAI is donating $1.5 million in Grok tokens to support Omarchy, the open-source Linux system from DHH.\n\nGrok 4.7 will power AI agents that review code. Developers can use the tokens to fix bugs, build features, and get Omarchy running on more hardware.",
-      "quote": null,
-      "retweet": {
-        "author": "AsFoundX",
-        "avatar": "https://pbs.twimg.com/profile_images/2095292024899465217/wOMt6_bi_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 21:24:09",
-        "created_at_utc": "2026-10-08T13:24:09.000Z",
-        "id": "2108186690913182147",
-        "images": [
-          "https://pbs.twimg.com/media/HUHInx1X0AAd5z5.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 995,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUHInx1X0AAd5z5.jpg?name=small",
-            "width": 1790
-          }
-        ],
-        "name": "As Found",
-        "text": "🚨 SPACEXAI BACKS OPEN SOURCE LINUX WITH $1.5 MILLION\n\nSpaceXAI is donating $1.5 million in Grok tokens to support Omarchy, the open-source Linux system from DHH.\n\nGrok 4.7 will power AI agents that review code. Developers can use the tokens to fix bugs, build features, and get Omarchy running on more hardware.",
-        "url": "https://x.com/AsFoundX/status/2108186690913182147",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 140,
-        "likes": 2046,
-        "quotes": 34,
-        "replies": 106,
-        "retweets": 216,
-        "views": 299707
-      },
-      "url": "https://x.com/elonmusk/status/2108197123451928653",
-      "images": [
-        "https://pbs.twimg.com/media/HUHInx1X0AAd5z5.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUHInx1X0AAd5z5.jpg?name=small",
-          "width": 1790,
-          "height": 995
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2108195864762277939",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T14:00:37.000Z",
-      "created_at_shanghai": "2026-10-08 22:00:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot is honestly doing better research than GPT-6 Pro for me right now, especially after the update that lets it access sources on X, I asked how the new Haiku 5.5 could affect Zhipu’s valuation, considering it performs much better than GLM 5.3 while also being cheaper. Grok Bot brought up something really important that GPT-6 Pro completely missed over 80% of Zhipu’s revenue comes from Chin, So after seeing Grok Bot’s research, I went back to GPT-6 Pro, asked it to dig deeper, and shared that information with it. That’s when it realized it hadn’t looked at the full picture and actually agreed with Grok Bot, Pretty crazy This update is amazing, and I genuinely think giving Grok Bot access to sources on X is one of the best things they could’ve done!",
-      "quote": null,
-      "retweet": {
-        "author": "SPAC89",
-        "avatar": "https://pbs.twimg.com/profile_images/2075480978852597760/7qNcruws_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 12:43:21",
-        "created_at_utc": "2026-10-08T04:43:21.000Z",
-        "id": "2108055624344895641",
-        "images": [
-          "https://pbs.twimg.com/media/HUFO1BpWQAAk_J-.png?name=small",
-          "https://pbs.twimg.com/media/HUFRWa2XkAApTWL.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1146,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUFO1BpWQAAk_J-.png?name=small",
-            "width": 1365
-          },
-          {
-            "height": 1246,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUFRWa2XkAApTWL.jpg?name=small",
-            "width": 975
-          }
-        ],
-        "name": "Iam_",
-        "text": "Grok Bot is honestly doing better research than GPT-6 Pro for me right now, especially after the update that lets it access sources on X, I asked how the new Haiku 5.5 could affect Zhipu’s valuation, considering it performs much better than GLM 5.3 while also being cheaper. Grok Bot brought up something really important that GPT-6 Pro completely missed over 80% of Zhipu’s revenue comes from Chin, So after seeing Grok Bot’s research, I went back to GPT-6 Pro, asked it to dig deeper, and shared that information with it. That’s when it realized it hadn’t looked at the full picture and actually agreed with Grok Bot, Pretty crazy This update is amazing, and I genuinely think giving Grok Bot access to sources on X is one of the best things they could’ve done!",
-        "url": "https://x.com/SPAC89/status/2108055624344895641",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 69,
-        "likes": 901,
-        "quotes": 9,
-        "replies": 49,
-        "retweets": 115,
-        "views": 248307
-      },
-      "url": "https://x.com/elonmusk/status/2108195864762277939",
-      "images": [
-        "https://pbs.twimg.com/media/HUFO1BpWQAAk_J-.png?name=small",
-        "https://pbs.twimg.com/media/HUFRWa2XkAApTWL.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUFO1BpWQAAk_J-.png?name=small",
-          "width": 1365,
-          "height": 1146
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUFRWa2XkAApTWL.jpg?name=small",
-          "width": 975,
-          "height": 1246
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 743,
+  "total": 754,
   "total_pages": 38,
-  "updated_at_shanghai": "2026-10-10 16:58:33",
+  "updated_at_shanghai": "2026-10-10 23:03:35",
   "account": "elonmusk"
 }
