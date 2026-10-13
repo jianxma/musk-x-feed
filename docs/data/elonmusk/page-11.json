@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2108232824520319175",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T16:27:29.000Z",
+      "created_at_shanghai": "2026-10-09 00:27:29",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Hire Grok @Bot to manage your @Shopify store. He will do an amazing job!",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 00:11:46",
+        "created_at_utc": "2026-10-08T16:11:46.000Z",
+        "id": "2108228871938359347",
+        "images": [
+          "https://pbs.twimg.com/media/HUHumrUacAAT6di.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2746,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUHumrUacAAT6di.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now help run your Shopify store.\n\nConnect Shopify, then ask it to check orders, track inventory, and keep product listings up to date.",
+        "url": "https://x.com/bot/status/2108228871938359347",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 112,
+        "likes": 1272,
+        "quotes": 23,
+        "replies": 273,
+        "retweets": 169,
+        "views": 611020
+      },
+      "url": "https://x.com/elonmusk/status/2108232824520319175",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108232145927848062",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1016,75 +1066,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108185571071807718",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T13:19:42.000Z",
-      "created_at_shanghai": "2026-10-08 21:19:42",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Western civilization is worth defending.",
-      "quote": null,
-      "retweet": {
-        "author": "StateDept",
-        "avatar": "https://pbs.twimg.com/profile_images/2065445010053431296/I2jXbYJL_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 19:40:23",
-        "created_at_utc": "2026-10-08T11:40:23.000Z",
-        "id": "2108160576245441012",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108159930528096257/img/md01eVqGZtSYf1fI.jpg"
-        ],
-        "media": [
-          {
-            "duration": 93.76,
-            "height": 844,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108159930528096257/img/md01eVqGZtSYf1fI.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108159930528096257/vid/avc1/1920x844/LlUTdAyysENpCC2b.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Department of State",
-        "text": "Western civilization is worth defending.",
-        "url": "https://x.com/StateDept/status/2108160576245441012",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 7797,
-        "likes": 53109,
-        "quotes": 1240,
-        "replies": 1778,
-        "retweets": 9022,
-        "views": 3373718
-      },
-      "url": "https://x.com/elonmusk/status/2108185571071807718",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2108159930528096257/img/md01eVqGZtSYf1fI.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2108159930528096257/vid/avc1/1920x844/LlUTdAyysENpCC2b.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108159930528096257/img/md01eVqGZtSYf1fI.jpg",
-          "width": 1920,
-          "height": 844,
-          "duration": 93.76
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 11,
   "page_size": 20,
-  "total": 855,
+  "total": 856,
   "total_pages": 43,
-  "updated_at_shanghai": "2026-10-13 19:10:18",
+  "updated_at_shanghai": "2026-10-14 02:14:57",
   "account": "elonmusk"
 }

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2107644163219202213",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-06T23:38:39.000Z",
+      "created_at_shanghai": "2026-10-07 07:38:39",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "NEW: @bot tagging just went live.\n\nReply to any post:\n> @bot add this to my Notion reading list\n> @bot remind me to read this tomorrow\n> @bot summarize this thread\n> @bot draft a reply to this\n\nWorks in replies, posts, quote and lands right in your Grok Bot.\n\nWhat’s the first thing you’re handing it?",
+      "quote": null,
+      "retweet": {
+        "author": "larsencc",
+        "avatar": "https://pbs.twimg.com/profile_images/1903676613335937024/ZHHPeMPx_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 07:38:39",
+        "created_at_utc": "2026-10-06T23:38:39.000Z",
+        "id": "2107616555685360072",
+        "images": [],
+        "media": [],
+        "name": "Larsen Cundric",
+        "text": "NEW: @bot tagging just went live.\n\nReply to any post:\n> @bot add this to my Notion reading list\n> @bot remind me to read this tomorrow\n> @bot summarize this thread\n> @bot draft a reply to this\n\nWorks in replies, posts, quote and lands right in your Grok Bot.\n\nWhat’s the first thing you’re handing it?",
+        "url": "https://x.com/larsencc/status/2107616555685360072",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 556,
+        "likes": 2125,
+        "quotes": 93,
+        "replies": 694,
+        "retweets": 190,
+        "views": 560233
+      },
+      "url": "https://x.com/elonmusk/status/2107644163219202213",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107717867064209705",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1053,75 +1094,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107701276641493321",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T13:11:14.000Z",
-      "created_at_shanghai": "2026-10-06 21:11:14",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Today is a new day for @Skydance, and I'm incredibly grateful to everyone who helped get us here. It's a big day, and we're just getting started. Let's go! https://www.skydance.com/news/press/paramount-completes-acquisition-of-warner-bros-discovery-creating-a-new-global-entertainment-leader-skydance",
-      "quote": null,
-      "retweet": {
-        "author": "davidellison",
-        "avatar": "https://pbs.twimg.com/profile_images/2106002624713457664/qIDrMVmF_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 21:11:14",
-        "created_at_utc": "2026-10-06T13:11:14.000Z",
-        "id": "2107458663187440025",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107458618123767809/img/YMU38FUpSYlgADp0.jpg"
-        ],
-        "media": [
-          {
-            "duration": 10,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107458618123767809/img/YMU38FUpSYlgADp0.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107458618123767809/vid/avc1/1080x1080/29NJA7FdysPACZSe.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "David Ellison",
-        "text": "Today is a new day for @Skydance, and I'm incredibly grateful to everyone who helped get us here. It's a big day, and we're just getting started. Let's go! https://www.skydance.com/news/press/paramount-completes-acquisition-of-warner-bros-discovery-creating-a-new-global-entertainment-leader-skydance",
-        "url": "https://x.com/davidellison/status/2107458663187440025",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 499,
-        "likes": 9413,
-        "quotes": 208,
-        "replies": 1050,
-        "retweets": 1348,
-        "views": 580527
-      },
-      "url": "https://x.com/elonmusk/status/2107701276641493321",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2107458618123767809/img/YMU38FUpSYlgADp0.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107458618123767809/vid/avc1/1080x1080/29NJA7FdysPACZSe.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107458618123767809/img/YMU38FUpSYlgADp0.jpg",
-          "width": 1080,
-          "height": 1080,
-          "duration": 10
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 20,
-  "total": 855,
+  "total": 856,
   "total_pages": 43,
-  "updated_at_shanghai": "2026-10-13 19:10:18",
+  "updated_at_shanghai": "2026-10-14 02:14:57",
   "account": "elonmusk"
 }
