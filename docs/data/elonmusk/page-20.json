@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2107697003899846720",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T04:58:19.000Z",
+      "created_at_shanghai": "2026-10-07 12:58:19",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "It really is",
+      "quote": {
+        "author": "theo",
+        "avatar": "https://pbs.twimg.com/profile_images/2106484435382333440/vXOVE8EX_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 07:18:14",
+        "created_at_utc": "2026-10-06T23:18:14.000Z",
+        "id": "2107611418715705734",
+        "images": [],
+        "media": [],
+        "name": "Theo - t3.gg",
+        "text": "Bad news guys: Grok Bot is actually really good 🙃",
+        "url": "https://x.com/theo/status/2107611418715705734",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 82,
+        "likes": 3327,
+        "quotes": 56,
+        "replies": 669,
+        "retweets": 326,
+        "views": 943270
+      },
+      "url": "https://x.com/elonmusk/status/2107697003899846720",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107696351794622954",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -990,40 +1031,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2107495875576824197",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:39:06.000Z",
-      "created_at_shanghai": "2026-10-06 23:39:06",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Track the change log of @Grok Bot &amp; Build\n https://x.ai/changelog/bot",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 166,
-        "likes": 1860,
-        "quotes": 38,
-        "replies": 365,
-        "retweets": 294,
-        "views": 553634
-      },
-      "url": "https://x.com/elonmusk/status/2107495875576824197",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 20,
-  "total": 902,
+  "total": 903,
   "total_pages": 46,
-  "updated_at_shanghai": "2026-10-14 14:21:29",
+  "updated_at_shanghai": "2026-10-14 20:07:02",
   "account": "elonmusk"
 }

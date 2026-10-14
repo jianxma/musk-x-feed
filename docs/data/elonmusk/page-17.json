@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2108036943879749830",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T03:29:07.000Z",
+      "created_at_shanghai": "2026-10-08 11:29:07",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot can now search, read, and monitor X.",
+      "quote": null,
+      "retweet": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 05:40:18",
+        "created_at_utc": "2026-10-07T21:40:18.000Z",
+        "id": "2107949161878606089",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg"
+        ],
+        "media": [
+          {
+            "duration": 12.166,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107948628950298624/vid/avc1/1920x1080/tlGtL_3iQXfm7WuO.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now search, read, and monitor X.",
+        "url": "https://x.com/bot/status/2107949161878606089",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 4703,
+        "likes": 14493,
+        "quotes": 1108,
+        "replies": 1777,
+        "retweets": 1195,
+        "views": 5237420
+      },
+      "url": "https://x.com/elonmusk/status/2108036943879749830",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2107948628950298624/vid/avc1/1920x1080/tlGtL_3iQXfm7WuO.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 12.166
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2108036583861485812",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1102,75 +1165,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107889372859388016",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T17:42:43.000Z",
-      "created_at_shanghai": "2026-10-08 01:42:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Order a Tesla online in under 5 minutes and find out why they have the highest brand loyalty in the world",
-      "quote": {
-        "author": "teslaeurope",
-        "avatar": "https://pbs.twimg.com/profile_images/1620537591048163332/GSPAsKC5_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 22:41:52",
-        "created_at_utc": "2026-10-07T14:41:52.000Z",
-        "id": "2107843860231815315",
-        "images": [
-          "https://pbs.twimg.com/media/HUCQ0fRbsAA-C5L.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 403,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUCQ0fRbsAA-C5L.jpg?name=small",
-            "width": 850
-          }
-        ],
-        "name": "Tesla Europe, Middle East & Africa",
-        "text": "3 in 4 Norwegian Tesla owners make their next car another Tesla 🇳🇴 \n\nWe love ya too",
-        "url": "https://x.com/teslaeurope/status/2107843860231815315",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "wholemars",
-        "avatar": "https://pbs.twimg.com/profile_images/2100121110960553984/UWLjAKcu_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 01:24:39",
-        "created_at_utc": "2026-10-07T17:24:39.000Z",
-        "id": "2107884825491423313",
-        "images": [],
-        "media": [],
-        "name": "Whole Mars Catalog",
-        "text": "Order a Tesla online in under 5 minutes and find out why they have the highest brand loyalty in the world",
-        "url": "https://x.com/wholemars/status/2107884825491423313",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 33,
-        "likes": 1999,
-        "quotes": 10,
-        "replies": 119,
-        "retweets": 192,
-        "views": 307211
-      },
-      "url": "https://x.com/elonmusk/status/2107889372859388016",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 20,
-  "total": 902,
+  "total": 903,
   "total_pages": 46,
-  "updated_at_shanghai": "2026-10-14 14:21:29",
+  "updated_at_shanghai": "2026-10-14 20:07:02",
   "account": "elonmusk"
 }
