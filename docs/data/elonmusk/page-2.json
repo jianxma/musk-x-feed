@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2110243595504820641",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T05:37:34.000Z",
+      "created_at_shanghai": "2026-10-14 13:37:34",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Made with @Grok @Imagine",
+      "quote": {
+        "author": "keepgoingAnnie",
+        "avatar": "https://pbs.twimg.com/profile_images/2097413286228897792/JvY6vyBn_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 22:28:54",
+        "created_at_utc": "2026-10-12T14:28:54.000Z",
+        "id": "2109652536642637884",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2109651159568838656/img/W_Y_4JdOuJkjYFcC.jpg"
+        ],
+        "media": [
+          {
+            "duration": 257.556,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109651159568838656/img/W_Y_4JdOuJkjYFcC.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2109651159568838656/vid/avc1/1920x1080/IxinEiCvdf5sQ8Du.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Lala",
+        "text": "For those who didn't want the headache here is the same video, but removing the added effects so the light flashing isn't happening anymore or the harsh coloration. I hope this version is more enjoyable for those who share the same problem. Thanks for letting me know. Much love. 🫶\n\nAll for You\n\n❤️‍🔥@grok @imagine",
+        "url": "https://x.com/keepgoingAnnie/status/2109652536642637884",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 73,
+        "likes": 898,
+        "quotes": 20,
+        "replies": 236,
+        "retweets": 131,
+        "views": 469538
+      },
+      "url": "https://x.com/elonmusk/status/2110243595504820641",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110238184705798520",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -931,71 +983,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110132234929995948",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T22:15:03.000Z",
-      "created_at_shanghai": "2026-10-14 06:15:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot does my food shopping in less than 3 minutes. \n\nDoing it myself would probably take an hour at the shops or 30 minutes ordering online.\n\n How do I do this? I have a Grok Bot food prep team:\n\n1 - A Meal Organiser that knows the lunches and dinners I like.\n\n2 - A Shopper that fills my grocery cart.\n\n3 - A Cooking Bot that walks me through preparing the meals.\n\nI tell my Chief of Staff how many days I need. The team handles the planning and cart, and I check out myself.\n\nWhen it’s time to cook, I ask for the instructions. My meals take less than 20 minutes.\n\nHere’s the prompt to set up your own food prep team. \n\nStart of prompt-------\n\n“Set up a food prep team for me: three specialist Bots reporting to you, my Chief of Staff.\n\nStart by asking me for any missing details in my food profile. Show me the proposed Bot descriptions before creating them.\n\nMY FOOD PROFILE\n\nDiet: [my diet or dietary goals].\nServings: [how many people each meal should feed].\nNever include: [allergies, intolerances and disliked foods].\nPreferences: [cooking time, budget and ingredient preferences].\nGrocery store: [Add store link].\nMeal bank: [6–10 meals I like, or ask me and suggest some].\n\nSave my confirmed profile for future use.\n\n1 - MEAL ORGANISER\nWhen I tell you how many days and which meals, build a plan from my meal bank.\n\nFollow my food profile. Ask about ingredients I already have so we can avoid buying them again.\n\nReturn the meal plan and one combined shopping list with quantities matched to the number of servings. Include any extras I request.\n\nWait for my approval before handing the list to the Shopper.\n\n2 - SHOPPER\n\nAfter I approve the plan, open my grocery store’s website and fill the cart with the approved shopping list.\n\nPick sensible pack sizes. Check the existing cart before adding items to avoid duplicates.\n\nFor out-of-stock items, choose the closest suitable match within my food profile. Flag anything uncertain rather than guessing, especially where an allergy or dietary restriction is involved.\n\nStop before checkout. Never choose a delivery slot, place the order or pay.\n\nReturn the cart total, substitutions and anything you couldn’t find. I will review the cart and check out myself.\n\n3 - COOKING\n\nWhen I name a meal from the plan, give me simple cooking instructions using the ingredients we selected, including any approved substitutions.\n\nInclude preparation time, cooking time, quantities and steps in order. Explain when to start each component so everything finishes together.\n\nKeep the recipe within my agreed cooking-time preference. Flag any extra preparation needed in advance.\n\nHOW WE WORK TOGETHER\n\nI tell you:\n\n‘Plan 3 days of lunch and dinner, plus these extras: [items].’\n\nYou get the Meal Organiser to draft the plan and show it to me.\n\nAfter my approval, send the shopping list to the Shopper.\n\nReport back when the cart is ready, including anything that needs my attention.\n\nWhen I ask what to cook, use the current plan and get the Cooking Bot to guide me.\n\nFor the initial grocery-store connection, open the website and let me complete the login myself.\n\nConfirm which Bots are created and whether the store is accessible. Tell me if any setup step remains incomplete.”\n\nEnd of prompt-------\n\nThe biggest saving is having fewer everyday decisions to make, then having a team carry them through.",
-      "quote": null,
-      "retweet": {
-        "author": "Michael_Fenech_",
-        "avatar": "https://pbs.twimg.com/profile_images/2086676724440612864/Wzr3NkOE_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 02:49:00",
-        "created_at_utc": "2026-10-13T18:49:00.000Z",
-        "id": "2110080378879046045",
-        "images": [
-          "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 417,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small",
-            "width": 800
-          }
-        ],
-        "name": "Michael | AI + Agents",
-        "text": "Grok Bot does my food shopping in less than 3 minutes. \n\nDoing it myself would probably take an hour at the shops or 30 minutes ordering online.\n\n How do I do this? I have a Grok Bot food prep team:\n\n1 - A Meal Organiser that knows the lunches and dinners I like.\n\n2 - A Shopper that fills my grocery cart.\n\n3 - A Cooking Bot that walks me through preparing the meals.\n\nI tell my Chief of Staff how many days I need. The team handles the planning and cart, and I check out myself.\n\nWhen it’s time to cook, I ask for the instructions. My meals take less than 20 minutes.\n\nHere’s the prompt to set up your own food prep team. \n\nStart of prompt-------\n\n“Set up a food prep team for me: three specialist Bots reporting to you, my Chief of Staff.\n\nStart by asking me for any missing details in my food profile. Show me the proposed Bot descriptions before creating them.\n\nMY FOOD PROFILE\n\nDiet: [my diet or dietary goals].\nServings: [how many people each meal should feed].\nNever include: [allergies, intolerances and disliked foods].\nPreferences: [cooking time, budget and ingredient preferences].\nGrocery store: [Add store link].\nMeal bank: [6–10 meals I like, or ask me and suggest some].\n\nSave my confirmed profile for future use.\n\n1 - MEAL ORGANISER\nWhen I tell you how many days and which meals, build a plan from my meal bank.\n\nFollow my food profile. Ask about ingredients I already have so we can avoid buying them again.\n\nReturn the meal plan and one combined shopping list with quantities matched to the number of servings. Include any extras I request.\n\nWait for my approval before handing the list to the Shopper.\n\n2 - SHOPPER\n\nAfter I approve the plan, open my grocery store’s website and fill the cart with the approved shopping list.\n\nPick sensible pack sizes. Check the existing cart before adding items to avoid duplicates.\n\nFor out-of-stock items, choose the closest suitable match within my food profile. Flag anything uncertain rather than guessing, especially where an allergy or dietary restriction is involved.\n\nStop before checkout. Never choose a delivery slot, place the order or pay.\n\nReturn the cart total, substitutions and anything you couldn’t find. I will review the cart and check out myself.\n\n3 - COOKING\n\nWhen I name a meal from the plan, give me simple cooking instructions using the ingredients we selected, including any approved substitutions.\n\nInclude preparation time, cooking time, quantities and steps in order. Explain when to start each component so everything finishes together.\n\nKeep the recipe within my agreed cooking-time preference. Flag any extra preparation needed in advance.\n\nHOW WE WORK TOGETHER\n\nI tell you:\n\n‘Plan 3 days of lunch and dinner, plus these extras: [items].’\n\nYou get the Meal Organiser to draft the plan and show it to me.\n\nAfter my approval, send the shopping list to the Shopper.\n\nReport back when the cart is ready, including anything that needs my attention.\n\nWhen I ask what to cook, use the current plan and get the Cooking Bot to guide me.\n\nFor the initial grocery-store connection, open the website and let me complete the login myself.\n\nConfirm which Bots are created and whether the store is accessible. Tell me if any setup step remains incomplete.”\n\nEnd of prompt-------\n\nThe biggest saving is having fewer everyday decisions to make, then having a team carry them through.",
-        "url": "https://x.com/Michael_Fenech_/status/2110080378879046045",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 188,
-        "likes": 367,
-        "quotes": 6,
-        "replies": 48,
-        "retweets": 49,
-        "views": 80154
-      },
-      "url": "https://x.com/elonmusk/status/2110132234929995948",
-      "images": [
-        "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small",
-          "width": 800,
-          "height": 417
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 917,
+  "total": 918,
   "total_pages": 46,
-  "updated_at_shanghai": "2026-10-15 01:04:15",
+  "updated_at_shanghai": "2026-10-15 04:35:14",
   "account": "elonmusk"
 }
