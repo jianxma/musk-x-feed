@@ -1,1039 +1,1114 @@
 {
   "posts": [
     {
-      "id": "2107689502508781586",
+      "id": "2107881014907551940",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T04:20:09.000Z",
-      "created_at_shanghai": "2026-10-07 12:20:09",
+      "created_at_utc": "2026-10-07T17:09:31.000Z",
+      "created_at_shanghai": "2026-10-08 01:09:31",
       "type": "转发",
       "type_label": "转发",
-      "text": "Grok Build just got one of its biggest updates yet.....a massive upgrade touching almost every part of the agent stack\n\nCompact mode gets a major upgrade, timestamps are now configurable, shell commands clearly show when they’re running or finished, tables can export directly as TSV, CSV or Markdown, and the dashboard now gives much better visibility and control over worktrees\n\nUnder the hood, the update is even bigger: stalled model calls now retry, long sessions are more resilient, permission handling is much tighter, failed file writes preserve existing contents, CJK memory search improves, concurrent config edits are safer, MCP tool discovery is more reliable, and worktree creation + deletion gets a huge reliability pass\n\nThere’s even a breaking safety change: grok worktree rm now refuses to delete active worktrees or ones with unsaved changes unless you explicitly force it\n\nRelease Notes: v1.0.50\n\nBreaking Changes:\n• grok worktree rm without -f now refuses to delete worktrees that are in use or contain unsaved changes and exits with an error.\n\nFeatures:\n• Compact mode now collapses recaps and keeps inner spacing on tall terminals.\n• Clicking the git branch in the header now copies the full branch name.\n• Long branch names now abbreviate on narrow terminals while remaining copyable.\n• Targeted cancels now stop only the specific response when requested by clients.\n• Compact mode now hides the dock (or tasks pane) the same way Ctrl+G does.\n• New timestamps setting offers off, minimal, and on modes in Settings and /timestamps.\n• Shell command output now shows \"Running …\" while executing and \"Ran …\" when finished.\n• Live preview pins now include whether an app was observed behind the URL.\n• Command palette (Ctrl+P) and model picker now open at the same width as the settings modal.\n• Tables rendered by grok now show copy buttons underneath that export clean TSV, CSV or Markdown suitable for spreadsheets.\n• Dashboard now shows which worktree each session belongs to, displays the -m model in the new-agent box, and lets you toggle worktree mode in the folder picker.\n\nBug Fixes:\n• Shell permission decisions now correctly prompt or approve commands matching the permission manager.\n• Cancelled turns now correctly mark unanswered tool calls as cancelled instead of succeeded.\n• Long error messages in the /usage and /session-info modals now wrap instead of being truncated.\n• Em-dashes no longer appear in status messages and subagent rows.\n• Stalled model calls during turns now retry before failing the turn.\n• Queue pane and Ctrl+; now appear and work when the dock is hidden with Ctrl+G.\n• Long sessions no longer disconnect when the conversation exceeds 4 MiB.\n• Permission rules now accept native tool names such as run_terminal_command and Shell.\n• /rewind now places the cursor at the end of the restored prompt.\n• Failed file writes now leave the previous contents instead of an empty file.\n• Fixed /loop and scheduler_create so non-ASCII intervals like 5分 no longer crash the session.\n• Fixed --disallowed-tools when only one scheduler tool is named; the other two no longer cause startup failure.\n• Fixed closing a busy tab so queued prompts are no longer sent to the model.\n• Fixed relative --cwd so grok --cwd a no longer ends up running inside a/a.\n• The terminal title now shows \"Action Required\" for any background session waiting on approval.\n• grok now accepts a prompt via piped stdin in headless mode instead of trying to open the UI.\n• An admin-set [features] title_refresh = false in requirements.toml now correctly disables title refresh even when GROK_TITLE_REFRESH is set.\n• Custom notification commands defined under [[ui.notifications.hooks]] now execute on matching events.\n• An admin pin of [cli] use_leader = false now correctly prevents --leader from starting a leader process.\n• When multiple MCP servers expose a tool with the same name, search_tool now returns all of them.\n• Concurrent Grok windows editing settings no longer lose or corrupt config.toml entries such as MCP servers or permission rules.\n• web_fetch no longer downloads huge files into memory before rejecting them.\n• memory_get no longer returns huge files that exceed the read limit.\n• Continue to run no longer kills commands running inside background subagents.\n• memory_search now finds Japanese, Chinese, and Korean words inside longer notes.\n• Drafts saved by the model now appear under their actual titles in /feedback.\n• Imagine replies that are not valid images are now rejected instead of being saved as .jpg files.\n• A workflow file that fails to parse now reports the exact file and parse error instead of 'unknown workflow'.\n• Re-encoded images are now oriented correctly using their EXIF tags instead of appearing sideways.\n• Image and log paths reported after /fork --worktree now point to real files instead of missing locations.\n• Tab characters in terminal command output are now preserved when shown to the model.\n• Transparent images are now kept as PNG when re-encoded instead of turning black.\n• The bundled ripgrep is now available to terminal commands even on images that do not install it.\n• Request bodies now stay under a small configured max_request_bytes limit instead of growing past it.\n• Effort level now stays the same after a bare /model switch instead of jumping to the new model's default.\n• Ctrl+\\ and other modified digits no longer accidentally select options on permission or cancel cards.\n• Feedback submissions now show accurate success or failure messages without premature thanks or duplicated prefixes.\n• grok doctor now reports the exact config file or setting that prevents Grok from starting instead of saying zero issues.\n• Recap summaries now appear on screen automatically instead of requiring manual scrolling.\n• grok doctor fix now opens its confirmation card on Cancel to prevent accidental edits to shell or tmux config.\n• Slash commands now run regardless of case (e.g. /COMPACT or /Compact).\n• /context no longer shows an invented auto-compact threshold when the agent does not report one.\n• Agent text no longer keeps the pager redrawing when a tool call interrupts the sentence.\n• CLI tool calls no longer fail or overflow when the workspace directory is deleted or output is huge.\n• Logs written to files or when NO_COLOR is set are now plain text instead of containing color codes.\n• Prompts now fail immediately with a clear message if the session's working directory no longer exists instead of failing later or recreating it.\n• grok -w now works correctly with separate-git-dir repositories and shows clear errors when run outside a git repo or on an empty repo.\n• Shell tool descriptions now correctly state the actual output truncation limit, and grep respects globs relative to the current session directory.\n• Compaction messages now scroll into view instead of appearing below the bottom of the screen after a turn finishes.\n• Git-mode worktrees created with -w now preserve uncommitted changes instead of dropping them.\n• Worktrees created with --worktree-ref no longer contain wrong submodule contents or LFS pointer text.\n• Worktree creation now shows the same clear error messages on every code path.\n• Failed worktree creates now show a clear error on the home screen instead of being hidden.\n• Merge and rebase conflicts now appear in the changes list instead of being hidden.\n• Fixed a crash when starting a new session with durable rewind checkpoints enabled.\n• Managed permission files with one bad key no longer lose all their valid rules.\n• Simultaneous worktree creates with the same label now succeed instead of one failing with \"already exists\".\n• grok worktree rm without -f no longer deletes arbitrary folders that happen to share a name with a removed worktree.\n• Discard now affects only the exact files you select instead of also deleting or reverting similarly-named files.\n• Permission rules with one bad entry no longer lose the other rules in the same section.\n• Chat Completions streams that end without a finish reason are now retried instead of returning partial output.\n• grok worktree rm by label now refuses when the label exists in multiple repos.\n• Grep now respects Read deny rules that use a leading ./.\n\nPerformance:\n• Command hooks no longer cause large memory spikes when they print a lot of output.\n• Retry waits now vary between processes instead of being identical.",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-03 05:10:47",
-        "created_at_utc": "2026-10-02T21:10:47.000Z",
-        "id": "2106129795277103534",
-        "images": [
-          "https://pbs.twimg.com/media/HTp2fuXbUAAHQdW.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 980,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTp2fuXbUAAHQdW.jpg?name=small",
-            "width": 1742
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Grok Build just got another bug-fix update, this time focused heavily on permissions and tool safety\n\nHook permission prompts now show up regardless of approval mode, WebSearch/WebFetch and image generation properly respect prompt_policy and rule decisions, and “Allow once” now really means once......only the next shell command\n\nThere’s also an extra safeguard for pkill -f and pgrep -f patterns that could accidentally kill their own shell wrapper\n\nRelease Notes: v1.0.49\n\nBug Fixes:\n• Hook permission prompts now appear regardless of approval mode.\n• Web searches, fetches, and image generation now correctly respect the prompt_policy setting and rule decisions before prompting.\n• Allow once in permission cards now applies only to the next shell command instead of the whole session.\n• pkill -f and pgrep -f commands are now rejected earlier when the pattern would kill their own shell wrapper.",
-        "url": "https://x.com/XFreeze/status/2106129795277103534",
-        "verified": true,
-        "verified_type": "individual"
-      },
+      "text": "While I was in Bentonville, Arkansas for the Heartland Summit this week, I stopped to check out the Walmart Museum and see Sam Walton’s 1979 @Ford F-150 — fantastic! Thank you both to the Walton family and @HeartlandFwd team for having me!",
+      "quote": null,
       "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 12:20:09",
-        "created_at_utc": "2026-10-07T04:20:09.000Z",
-        "id": "2107687399509913967",
+        "author": "jimfarley98",
+        "avatar": "https://pbs.twimg.com/profile_images/1435658065060274176/_0G9s-fd_200x200.jpg",
+        "created_at_shanghai": "2026-10-02 21:49:30",
+        "created_at_utc": "2026-10-02T13:49:30.000Z",
+        "id": "2106018741213618393",
         "images": [
-          "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small"
+          "https://pbs.twimg.com/media/HToORWZXIAAOjMr.jpg?name=small",
+          "https://pbs.twimg.com/media/HToOTvAWoAAQH6u.jpg?name=small",
+          "https://pbs.twimg.com/media/HToOTvOWkAAUggh.jpg?name=small",
+          "https://pbs.twimg.com/media/HToOUiaXwAAjCZq.jpg?name=small"
         ],
         "media": [
           {
-            "height": 980,
+            "height": 3212,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small",
-            "width": 1742
+            "url": "https://pbs.twimg.com/media/HToORWZXIAAOjMr.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 4032,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HToOTvAWoAAQH6u.jpg?name=small",
+            "width": 3024
+          },
+          {
+            "height": 4032,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HToOTvOWkAAUggh.jpg?name=small",
+            "width": 3024
+          },
+          {
+            "height": 2142,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HToOUiaXwAAjCZq.jpg?name=small",
+            "width": 2856
           }
         ],
-        "name": "X Freeze",
-        "text": "Grok Build just got one of its biggest updates yet.....a massive upgrade touching almost every part of the agent stack\n\nCompact mode gets a major upgrade, timestamps are now configurable, shell commands clearly show when they’re running or finished, tables can export directly as TSV, CSV or Markdown, and the dashboard now gives much better visibility and control over worktrees\n\nUnder the hood, the update is even bigger: stalled model calls now retry, long sessions are more resilient, permission handling is much tighter, failed file writes preserve existing contents, CJK memory search improves, concurrent config edits are safer, MCP tool discovery is more reliable, and worktree creation + deletion gets a huge reliability pass\n\nThere’s even a breaking safety change: grok worktree rm now refuses to delete active worktrees or ones with unsaved changes unless you explicitly force it\n\nRelease Notes: v1.0.50\n\nBreaking Changes:\n• grok worktree rm without -f now refuses to delete worktrees that are in use or contain unsaved changes and exits with an error.\n\nFeatures:\n• Compact mode now collapses recaps and keeps inner spacing on tall terminals.\n• Clicking the git branch in the header now copies the full branch name.\n• Long branch names now abbreviate on narrow terminals while remaining copyable.\n• Targeted cancels now stop only the specific response when requested by clients.\n• Compact mode now hides the dock (or tasks pane) the same way Ctrl+G does.\n• New timestamps setting offers off, minimal, and on modes in Settings and /timestamps.\n• Shell command output now shows \"Running …\" while executing and \"Ran …\" when finished.\n• Live preview pins now include whether an app was observed behind the URL.\n• Command palette (Ctrl+P) and model picker now open at the same width as the settings modal.\n• Tables rendered by grok now show copy buttons underneath that export clean TSV, CSV or Markdown suitable for spreadsheets.\n• Dashboard now shows which worktree each session belongs to, displays the -m model in the new-agent box, and lets you toggle worktree mode in the folder picker.\n\nBug Fixes:\n• Shell permission decisions now correctly prompt or approve commands matching the permission manager.\n• Cancelled turns now correctly mark unanswered tool calls as cancelled instead of succeeded.\n• Long error messages in the /usage and /session-info modals now wrap instead of being truncated.\n• Em-dashes no longer appear in status messages and subagent rows.\n• Stalled model calls during turns now retry before failing the turn.\n• Queue pane and Ctrl+; now appear and work when the dock is hidden with Ctrl+G.\n• Long sessions no longer disconnect when the conversation exceeds 4 MiB.\n• Permission rules now accept native tool names such as run_terminal_command and Shell.\n• /rewind now places the cursor at the end of the restored prompt.\n• Failed file writes now leave the previous contents instead of an empty file.\n• Fixed /loop and scheduler_create so non-ASCII intervals like 5分 no longer crash the session.\n• Fixed --disallowed-tools when only one scheduler tool is named; the other two no longer cause startup failure.\n• Fixed closing a busy tab so queued prompts are no longer sent to the model.\n• Fixed relative --cwd so grok --cwd a no longer ends up running inside a/a.\n• The terminal title now shows \"Action Required\" for any background session waiting on approval.\n• grok now accepts a prompt via piped stdin in headless mode instead of trying to open the UI.\n• An admin-set [features] title_refresh = false in requirements.toml now correctly disables title refresh even when GROK_TITLE_REFRESH is set.\n• Custom notification commands defined under [[ui.notifications.hooks]] now execute on matching events.\n• An admin pin of [cli] use_leader = false now correctly prevents --leader from starting a leader process.\n• When multiple MCP servers expose a tool with the same name, search_tool now returns all of them.\n• Concurrent Grok windows editing settings no longer lose or corrupt config.toml entries such as MCP servers or permission rules.\n• web_fetch no longer downloads huge files into memory before rejecting them.\n• memory_get no longer returns huge files that exceed the read limit.\n• Continue to run no longer kills commands running inside background subagents.\n• memory_search now finds Japanese, Chinese, and Korean words inside longer notes.\n• Drafts saved by the model now appear under their actual titles in /feedback.\n• Imagine replies that are not valid images are now rejected instead of being saved as .jpg files.\n• A workflow file that fails to parse now reports the exact file and parse error instead of 'unknown workflow'.\n• Re-encoded images are now oriented correctly using their EXIF tags instead of appearing sideways.\n• Image and log paths reported after /fork --worktree now point to real files instead of missing locations.\n• Tab characters in terminal command output are now preserved when shown to the model.\n• Transparent images are now kept as PNG when re-encoded instead of turning black.\n• The bundled ripgrep is now available to terminal commands even on images that do not install it.\n• Request bodies now stay under a small configured max_request_bytes limit instead of growing past it.\n• Effort level now stays the same after a bare /model switch instead of jumping to the new model's default.\n• Ctrl+\\ and other modified digits no longer accidentally select options on permission or cancel cards.\n• Feedback submissions now show accurate success or failure messages without premature thanks or duplicated prefixes.\n• grok doctor now reports the exact config file or setting that prevents Grok from starting instead of saying zero issues.\n• Recap summaries now appear on screen automatically instead of requiring manual scrolling.\n• grok doctor fix now opens its confirmation card on Cancel to prevent accidental edits to shell or tmux config.\n• Slash commands now run regardless of case (e.g. /COMPACT or /Compact).\n• /context no longer shows an invented auto-compact threshold when the agent does not report one.\n• Agent text no longer keeps the pager redrawing when a tool call interrupts the sentence.\n• CLI tool calls no longer fail or overflow when the workspace directory is deleted or output is huge.\n• Logs written to files or when NO_COLOR is set are now plain text instead of containing color codes.\n• Prompts now fail immediately with a clear message if the session's working directory no longer exists instead of failing later or recreating it.\n• grok -w now works correctly with separate-git-dir repositories and shows clear errors when run outside a git repo or on an empty repo.\n• Shell tool descriptions now correctly state the actual output truncation limit, and grep respects globs relative to the current session directory.\n• Compaction messages now scroll into view instead of appearing below the bottom of the screen after a turn finishes.\n• Git-mode worktrees created with -w now preserve uncommitted changes instead of dropping them.\n• Worktrees created with --worktree-ref no longer contain wrong submodule contents or LFS pointer text.\n• Worktree creation now shows the same clear error messages on every code path.\n• Failed worktree creates now show a clear error on the home screen instead of being hidden.\n• Merge and rebase conflicts now appear in the changes list instead of being hidden.\n• Fixed a crash when starting a new session with durable rewind checkpoints enabled.\n• Managed permission files with one bad key no longer lose all their valid rules.\n• Simultaneous worktree creates with the same label now succeed instead of one failing with \"already exists\".\n• grok worktree rm without -f no longer deletes arbitrary folders that happen to share a name with a removed worktree.\n• Discard now affects only the exact files you select instead of also deleting or reverting similarly-named files.\n• Permission rules with one bad entry no longer lose the other rules in the same section.\n• Chat Completions streams that end without a finish reason are now retried instead of returning partial output.\n• grok worktree rm by label now refuses when the label exists in multiple repos.\n• Grep now respects Read deny rules that use a leading ./.\n\nPerformance:\n• Command hooks no longer cause large memory spikes when they print a lot of output.\n• Retry waits now vary between processes instead of being identical.",
-        "url": "https://x.com/XFreeze/status/2107687399509913967",
+        "name": "Jim Farley",
+        "text": "While I was in Bentonville, Arkansas for the Heartland Summit this week, I stopped to check out the Walmart Museum and see Sam Walton’s 1979 @Ford F-150 — fantastic! Thank you both to the Walton family and @HeartlandFwd team for having me!",
+        "url": "https://x.com/jimfarley98/status/2106018741213618393",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 134,
-        "likes": 992,
-        "quotes": 14,
-        "replies": 88,
-        "retweets": 140,
-        "views": 335781
+        "bookmarks": 55,
+        "likes": 1797,
+        "quotes": 7,
+        "replies": 113,
+        "retweets": 169,
+        "views": 381575
       },
-      "url": "https://x.com/elonmusk/status/2107689502508781586",
+      "url": "https://x.com/elonmusk/status/2107881014907551940",
       "images": [
-        "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small"
+        "https://pbs.twimg.com/media/HToORWZXIAAOjMr.jpg?name=small",
+        "https://pbs.twimg.com/media/HToOTvAWoAAQH6u.jpg?name=small",
+        "https://pbs.twimg.com/media/HToOTvOWkAAUggh.jpg?name=small",
+        "https://pbs.twimg.com/media/HToOUiaXwAAjCZq.jpg?name=small"
       ],
       "media": [
         {
           "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small",
-          "width": 1742,
-          "height": 980
+          "url": "https://pbs.twimg.com/media/HToORWZXIAAOjMr.jpg?name=small",
+          "width": 4096,
+          "height": 3212
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HToOTvAWoAAQH6u.jpg?name=small",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HToOTvOWkAAUggh.jpg?name=small",
+          "width": 3024,
+          "height": 4032
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HToOUiaXwAAjCZq.jpg?name=small",
+          "width": 2856,
+          "height": 2142
         }
       ],
       "enriched": true
     },
     {
-      "id": "2107722464591794325",
+      "id": "2107880103132938288",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T04:00:55.000Z",
-      "created_at_shanghai": "2026-10-07 12:00:55",
+      "created_at_utc": "2026-10-07T17:05:53.000Z",
+      "created_at_shanghai": "2026-10-08 01:05:53",
       "type": "转发",
       "type_label": "转发",
-      "text": "Grok bot proactively helping every day is like having many executive assistants for each area of your life. \n\nThere hasn’t been a technology that’s this well put together in a long time. \n\nI can’t wait to see what else the @SpaceXAI team is cooking 👨‍🍳 🥔",
+      "text": "However, we cannot mitigate risk when another operator maneuvers without sharing a predicted trajectory that includes the burn.\n\nThis is the biggest risk in LEO",
       "quote": null,
       "retweet": {
-        "author": "thecsguy",
-        "avatar": "https://pbs.twimg.com/profile_images/1880377637086064640/FT14IBXr_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 12:00:55",
-        "created_at_utc": "2026-10-07T04:00:55.000Z",
-        "id": "2107682560763654325",
-        "images": [],
-        "media": [],
-        "name": "nick",
-        "text": "Grok bot proactively helping every day is like having many executive assistants for each area of your life. \n\nThere hasn’t been a technology that’s this well put together in a long time. \n\nI can’t wait to see what else the @SpaceXAI team is cooking 👨‍🍳 🥔",
-        "url": "https://x.com/thecsguy/status/2107682560763654325",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 42,
-        "likes": 895,
-        "quotes": 5,
-        "replies": 49,
-        "retweets": 100,
-        "views": 277626
-      },
-      "url": "https://x.com/elonmusk/status/2107722464591794325",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107696566870114470",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T03:56:06.000Z",
-      "created_at_shanghai": "2026-10-07 11:56:06",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Bro… after connecting all my Gmail accounts to Grok Bot, I don’t even need to open Gmail anymore. Today it cleaned up 2,000+ emails, and all I had to tell it was: “Mark these as read,” “Unsubscribe me from these mailing lists,” “Move these to trash,” or respond with whatever. \n\nI’m literally managing my inbox by texting my bot… thousands of emails cleaned up with a few simple instructions. And unsubscribing means less junk coming in tomorrow, too. This might be my favorite email hack ever. \n\nWhat a game changer.",
-      "quote": null,
-      "retweet": {
-        "author": "Teslaconomics",
-        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 11:56:06",
-        "created_at_utc": "2026-10-07T03:56:06.000Z",
-        "id": "2107681345178923367",
-        "images": [],
-        "media": [],
-        "name": "Teslaconomics",
-        "text": "Bro… after connecting all my Gmail accounts to Grok Bot, I don’t even need to open Gmail anymore. Today it cleaned up 2,000+ emails, and all I had to tell it was: “Mark these as read,” “Unsubscribe me from these mailing lists,” “Move these to trash,” or respond with whatever. \n\nI’m literally managing my inbox by texting my bot… thousands of emails cleaned up with a few simple instructions. And unsubscribing means less junk coming in tomorrow, too. This might be my favorite email hack ever. \n\nWhat a game changer.",
-        "url": "https://x.com/Teslaconomics/status/2107681345178923367",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 528,
-        "likes": 2010,
-        "quotes": 26,
-        "replies": 156,
-        "retweets": 172,
-        "views": 383871
-      },
-      "url": "https://x.com/elonmusk/status/2107696566870114470",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107696927068536968",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T00:04:45.000Z",
-      "created_at_shanghai": "2026-10-07 08:04:45",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 is now live on Microsoft Foundry",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceXSI",
-        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 08:04:45",
-        "created_at_utc": "2026-10-07T00:04:45.000Z",
-        "id": "2107623124909060174",
+        "author": "Starlink",
+        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
+        "created_at_shanghai": "2026-10-06 23:14:54",
+        "created_at_utc": "2026-10-06T15:14:54.000Z",
+        "id": "2107489783077601494",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107622270839717888/img/DZTpqseG5VXRPmDd.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2107488652448444416/img/je4NkTmmYngovikW.jpg"
         ],
         "media": [
           {
-            "duration": 19.233,
-            "height": 1260,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107622270839717888/img/DZTpqseG5VXRPmDd.jpg",
+            "duration": 24.941,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107488652448444416/img/je4NkTmmYngovikW.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107622270839717888/vid/avc1/2400x1260/ER2kWpwUDjMbY800.mp4?tag=29",
-            "width": 2400
+            "url": "https://video.twimg.com/amplify_video/2107488652448444416/vid/avc1/1920x1080/w66nKOUZh7s0Gjac.mp4?tag=29",
+            "width": 1920
           }
         ],
-        "name": "SpaceX Super Intelligence",
-        "text": "Grok 4.7 is now live on Microsoft Foundry",
-        "url": "https://x.com/SpaceXSI/status/2107623124909060174",
+        "name": "Starlink",
+        "text": "However, we cannot mitigate risk when another operator maneuvers without sharing a predicted trajectory that includes the burn.\n\nThis is the biggest risk in LEO",
+        "url": "https://x.com/Starlink/status/2107489783077601494",
         "verified": true,
         "verified_type": "organization"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 74,
-        "likes": 2012,
-        "quotes": 45,
-        "replies": 118,
-        "retweets": 227,
-        "views": 380067
+        "bookmarks": 558,
+        "likes": 7285,
+        "quotes": 62,
+        "replies": 219,
+        "retweets": 551,
+        "views": 800638
       },
-      "url": "https://x.com/elonmusk/status/2107696927068536968",
+      "url": "https://x.com/elonmusk/status/2107880103132938288",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2107622270839717888/img/DZTpqseG5VXRPmDd.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2107488652448444416/img/je4NkTmmYngovikW.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107622270839717888/vid/avc1/2400x1260/ER2kWpwUDjMbY800.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107622270839717888/img/DZTpqseG5VXRPmDd.jpg",
-          "width": 2400,
-          "height": 1260,
-          "duration": 19.233
+          "url": "https://video.twimg.com/amplify_video/2107488652448444416/vid/avc1/1920x1080/w66nKOUZh7s0Gjac.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107488652448444416/img/je4NkTmmYngovikW.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 24.941
         }
       ],
       "enriched": true
     },
     {
-      "id": "2107644163219202213",
+      "id": "2107880037567676664",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T23:38:39.000Z",
-      "created_at_shanghai": "2026-10-07 07:38:39",
+      "created_at_utc": "2026-10-07T17:05:38.000Z",
+      "created_at_shanghai": "2026-10-08 01:05:38",
       "type": "转发",
       "type_label": "转发",
-      "text": "NEW: @bot tagging just went live.\n\nReply to any post:\n> @bot add this to my Notion reading list\n> @bot remind me to read this tomorrow\n> @bot summarize this thread\n> @bot draft a reply to this\n\nWorks in replies, posts, quote and lands right in your Grok Bot.\n\nWhat’s the first thing you’re handing it?",
+      "text": "Can’t unsee it…\n\nElon is a creator.\nBernie is a taker.\n\nElon is a doer.\nBernie is a talker.\n\nElon is a builder.\nBernie is a destroyer.\n\nElon is a contributor.\nBernie is a parasite.\n\nElon is a producer.\nBernie is a redistributor.\n\nElon is a Capitalist.\nBernie is a Communist.\n\nEtc",
       "quote": null,
       "retweet": {
-        "author": "larsencc",
-        "avatar": "https://pbs.twimg.com/profile_images/1903676613335937024/ZHHPeMPx_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 07:38:39",
-        "created_at_utc": "2026-10-06T23:38:39.000Z",
-        "id": "2107616555685360072",
+        "author": "C_3C_3",
+        "avatar": "https://pbs.twimg.com/profile_images/945294827742224385/2g_sshAu_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 19:25:27",
+        "created_at_utc": "2026-10-07T11:25:27.000Z",
+        "id": "2107794430321369353",
         "images": [],
         "media": [],
-        "name": "Larsen Cundric",
-        "text": "NEW: @bot tagging just went live.\n\nReply to any post:\n> @bot add this to my Notion reading list\n> @bot remind me to read this tomorrow\n> @bot summarize this thread\n> @bot draft a reply to this\n\nWorks in replies, posts, quote and lands right in your Grok Bot.\n\nWhat’s the first thing you’re handing it?",
-        "url": "https://x.com/larsencc/status/2107616555685360072",
+        "name": "C3",
+        "text": "Can’t unsee it…\n\nElon is a creator.\nBernie is a taker.\n\nElon is a doer.\nBernie is a talker.\n\nElon is a builder.\nBernie is a destroyer.\n\nElon is a contributor.\nBernie is a parasite.\n\nElon is a producer.\nBernie is a redistributor.\n\nElon is a Capitalist.\nBernie is a Communist.\n\nEtc",
+        "url": "https://x.com/C_3C_3/status/2107794430321369353",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 556,
-        "likes": 2125,
-        "quotes": 93,
-        "replies": 694,
-        "retweets": 190,
-        "views": 560233
+        "bookmarks": 207,
+        "likes": 7654,
+        "quotes": 65,
+        "replies": 279,
+        "retweets": 1590,
+        "views": 299914
       },
-      "url": "https://x.com/elonmusk/status/2107644163219202213",
+      "url": "https://x.com/elonmusk/status/2107880037567676664",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2107717867064209705",
+      "id": "2107879914393546874",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T22:19:32.000Z",
-      "created_at_shanghai": "2026-10-07 06:19:32",
+      "created_at_utc": "2026-10-07T17:05:08.000Z",
+      "created_at_shanghai": "2026-10-08 01:05:08",
       "type": "转发",
       "type_label": "转发",
-      "text": "I talk a lot about Grok Bot on Slack, but did you know you can also add @MicrosoftTeams?\n\nhttps://x.ai/bot/plugin/63354504",
-      "quote": null,
-      "retweet": {
-        "author": "poteto",
-        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 06:19:32",
-        "created_at_utc": "2026-10-06T22:19:32.000Z",
-        "id": "2107596645122875439",
-        "images": [],
-        "media": [],
-        "name": "lauren",
-        "text": "I talk a lot about Grok Bot on Slack, but did you know you can also add @MicrosoftTeams?\n\nhttps://x.ai/bot/plugin/63354504",
-        "url": "https://x.com/poteto/status/2107596645122875439",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 178,
-        "likes": 1601,
-        "quotes": 12,
-        "replies": 162,
-        "retweets": 128,
-        "views": 353069
-      },
-      "url": "https://x.com/elonmusk/status/2107717867064209705",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107569797814988881",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T20:32:40.000Z",
-      "created_at_shanghai": "2026-10-07 04:32:40",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@JohnStossel @SpaceX @Tesla This is simply due to my ownership stakes in SpaceX and Tesla. \n\nAs those companies build more and more, their value increases and all shareholders benefit. \n\nThe takers of the world who have never built anything, like Bernie, do as they always do and take from the makers.",
+      "text": "@DefiantLs Gibney is a tinfoil hat crackpot 🤡 who thinks I use space lasers to influence elections. Zero credibility.",
       "quote": null,
       "retweet": {
         "author": "elonmusk",
         "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 04:32:40",
-        "created_at_utc": "2026-10-06T20:32:40.000Z",
-        "id": "2107569751946035652",
+        "created_at_shanghai": "2026-10-07 04:33:59",
+        "created_at_utc": "2026-10-06T20:33:59.000Z",
+        "id": "2107570086341160981",
         "images": [],
         "media": [],
         "name": "Elon Musk",
-        "text": "@JohnStossel @SpaceX @Tesla This is simply due to my ownership stakes in SpaceX and Tesla. \n\nAs those companies build more and more, their value increases and all shareholders benefit. \n\nThe takers of the world who have never built anything, like Bernie, do as they always do and take from the makers.",
-        "url": "https://x.com/elonmusk/status/2107569751946035652",
+        "text": "@DefiantLs Gibney is a tinfoil hat crackpot 🤡 who thinks I use space lasers to influence elections. Zero credibility.",
+        "url": "https://x.com/elonmusk/status/2107570086341160981",
         "verified": true,
         "verified_type": "individual"
       },
-      "reply_to": "JohnStossel",
+      "reply_to": "DefiantLs",
       "engagement": {
-        "bookmarks": 1106,
-        "likes": 38593,
-        "quotes": 215,
-        "replies": 1256,
-        "retweets": 3353,
-        "views": 2245642
+        "bookmarks": 222,
+        "likes": 19334,
+        "quotes": 78,
+        "replies": 1129,
+        "retweets": 1055,
+        "views": 752446
       },
-      "url": "https://x.com/elonmusk/status/2107569797814988881",
+      "url": "https://x.com/elonmusk/status/2107879914393546874",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2107722678799077887",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T20:26:17.000Z",
-      "created_at_shanghai": "2026-10-07 04:26:17",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "OK I rock. I just built an @AmazonAlexa skill so I can talk to my Grok @bot. It works and that blows my mind. I used voice mode in @bot to walk me through the process so I could learn how to do it rather than just put an agent on it. Thanks @kentcdodds for encouraging me to do it",
-      "quote": null,
-      "retweet": {
-        "author": "debs_obrien",
-        "avatar": "https://pbs.twimg.com/profile_images/1537114604278530048/FMrBa87o_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 04:26:17",
-        "created_at_utc": "2026-10-06T20:26:17.000Z",
-        "id": "2107568147725185130",
-        "images": [],
-        "media": [],
-        "name": "Debbie O'Brien",
-        "text": "OK I rock. I just built an @AmazonAlexa skill so I can talk to my Grok @bot. It works and that blows my mind. I used voice mode in @bot to walk me through the process so I could learn how to do it rather than just put an agent on it. Thanks @kentcdodds for encouraging me to do it",
-        "url": "https://x.com/debs_obrien/status/2107568147725185130",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 154,
-        "likes": 947,
-        "quotes": 6,
-        "replies": 51,
-        "retweets": 98,
-        "views": 297051
-      },
-      "url": "https://x.com/elonmusk/status/2107722678799077887",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107567923552526598",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T20:23:59.000Z",
-      "created_at_shanghai": "2026-10-07 04:23:59",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "LL Cool J warns Joe Rogan: programmers' political biases will ruin AI.\n\nOn the Political Compass test, xAI's Grok is the only major AI that lands near the center.\n\nAnthropic, Google, Meta, and OpenAI all cluster far to the left.",
-      "quote": null,
-      "retweet": {
-        "author": "KanekoaTheGreat",
-        "avatar": "https://pbs.twimg.com/profile_images/1612188077333835776/qxjhM55m_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 04:23:59",
-        "created_at_utc": "2026-10-06T20:23:59.000Z",
-        "id": "2107567569658150920",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107566267699998720/img/h7tEq0WD0U9hFuWW.jpg"
-        ],
-        "media": [
-          {
-            "duration": 50.216,
-            "height": 1010,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107566267699998720/img/h7tEq0WD0U9hFuWW.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107566267699998720/vid/avc1/1920x1010/qDJ-Itp8wgMuPicM.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "KanekoaTheGreat",
-        "text": "LL Cool J warns Joe Rogan: programmers' political biases will ruin AI.\n\nOn the Political Compass test, xAI's Grok is the only major AI that lands near the center.\n\nAnthropic, Google, Meta, and OpenAI all cluster far to the left.",
-        "url": "https://x.com/KanekoaTheGreat/status/2107567569658150920",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 424,
-        "likes": 4379,
-        "quotes": 47,
-        "replies": 241,
-        "retweets": 590,
-        "views": 487306
-      },
-      "url": "https://x.com/elonmusk/status/2107567923552526598",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2107566267699998720/img/h7tEq0WD0U9hFuWW.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107566267699998720/vid/avc1/1920x1010/qDJ-Itp8wgMuPicM.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107566267699998720/img/h7tEq0WD0U9hFuWW.jpg",
-          "width": 1920,
-          "height": 1010,
-          "duration": 50.216
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2107567281480028562",
+      "id": "2107878899518742933",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T20:22:51.000Z",
-      "created_at_shanghai": "2026-10-07 04:22:51",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "SpaceX will provide connectivity throughout the solar system and beyond",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 03:32:44",
-        "created_at_utc": "2026-10-06T19:32:44.000Z",
-        "id": "2107554670004895890",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107554635330527233/img/SL3v7Irl_gbTNTZw.jpg"
-        ],
-        "media": [
-          {
-            "duration": 43.849,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107554635330527233/img/SL3v7Irl_gbTNTZw.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107554635330527233/vid/avc1/1920x1080/1pVxZKl1sxwOr9aV.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Michael Nicolls just just laid out SpaceX's ambition for connectivity that extends beyond Earth\n\n“We will connect the Moon with a constellation, and then we will connect Mars”\n\n\"Our goal, again, is to extend consciousness beyond this planet, and we want to go and connect the Moon and Mars\n\nBut before that on Starlink, we're creating the technologies to connect the Moon with very high-bandwidth connectivity systems, very high-bandwidth lasers\n\nAnd we will connect the Moon with a constellation, and then we will connect Mars, and we will form an interplanetary mesh of connectivity that is fundamentally driven by the same technologies we're working on with Starlink\n\nTo make this happen, SpaceX needs to keep improving safety in LEO so everyone can operate and scale safely”\n\nBuild safe, coordinated infrastructure in LEO first then extend connectivity and human presence to the Moon, Mars, and beyond",
-        "url": "https://x.com/XFreeze/status/2107554670004895890",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 171,
-        "likes": 4178,
-        "quotes": 66,
-        "replies": 721,
-        "retweets": 592,
-        "views": 529954
-      },
-      "url": "https://x.com/elonmusk/status/2107567281480028562",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107587206194098350",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T19:44:06.000Z",
-      "created_at_shanghai": "2026-10-07 03:44:06",
+      "created_at_utc": "2026-10-07T17:01:06.000Z",
+      "created_at_shanghai": "2026-10-08 01:01:06",
       "type": "转发",
       "type_label": "转发",
-      "text": "This is why we shouldn't give mentally ill people copious amounts of synthetic chemicals and injectable hormones",
+      "text": "Manual driving is like riding a horse or hand-coding in Perl and PHP.\n\nYou can still do it. You just don’t have to.",
       "quote": {
-        "author": "nypost",
-        "avatar": "https://pbs.twimg.com/profile_images/2073490215327715328/4wOfTM9__200x200.jpg",
-        "created_at_shanghai": "2026-10-06 20:04:22",
-        "created_at_utc": "2026-10-06T12:04:22.000Z",
-        "id": "2107441834913890454",
-        "images": [
-          "https://pbs.twimg.com/media/HT8jLQSWUAE74P-.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 799,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT8jLQSWUAE74P-.jpg?name=small",
-            "width": 1200
-          }
-        ],
-        "name": "New York Post",
-        "text": "Trans killer blames transition for stabbing hiker 15 times on trail: Victim was 'what I want to look like' https://trib.al/HjxzkhN",
-        "url": "https://x.com/nypost/status/2107441834913890454",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "Riley_Gaines_",
-        "avatar": "https://pbs.twimg.com/profile_images/2013820986903158784/LG0pDZpJ_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 03:44:06",
-        "created_at_utc": "2026-10-06T19:44:06.000Z",
-        "id": "2107557531489030157",
+        "author": "nickgraynews",
+        "avatar": "https://pbs.twimg.com/profile_images/1526349506874331137/k9iwben__200x200.jpg",
+        "created_at_shanghai": "2026-10-07 02:41:28",
+        "created_at_utc": "2026-10-06T18:41:28.000Z",
+        "id": "2107541767235235921",
         "images": [],
         "media": [],
-        "name": "Riley Gaines",
-        "text": "This is why we shouldn't give mentally ill people copious amounts of synthetic chemicals and injectable hormones",
-        "url": "https://x.com/Riley_Gaines_/status/2107557531489030157",
+        "name": "Nick Gray",
+        "text": "I'm still amazed there are people who use Claude Code and Codex on the daily yet don't own a Tesla\n\nTesla's FSD v14.3 is like Opus 5.5. It just works and it is just so good and buttery smooth\n\nImagine Astra-level computer use, but for driving your car\n\n\"but I love mah car, vroom vroom in my Lambo, it's a machine!\"\n\nplease sit down. if you drive 30 or more mins per day and you haven't gotten a Tesla yet bc you \"love to drive,\" I'm telling you that you sound like a programmer still hand-coding lines of Perl and PHP\n\nYou owe it to yourself to take a test drive of a new Tesla to see how far they have come and what FSD feels like",
+        "url": "https://x.com/nickgraynews/status/2107541767235235921",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "pduan",
+        "avatar": "https://pbs.twimg.com/profile_images/1518641980649066496/WLsqZfOg_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 00:49:28",
+        "created_at_utc": "2026-10-07T16:49:28.000Z",
+        "id": "2107875970929865183",
+        "images": [],
+        "media": [],
+        "name": "Phil Duan",
+        "text": "Manual driving is like riding a horse or hand-coding in Perl and PHP.\n\nYou can still do it. You just don’t have to.",
+        "url": "https://x.com/pduan/status/2107875970929865183",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 498,
-        "likes": 19762,
-        "quotes": 29,
-        "replies": 342,
-        "retweets": 2558,
-        "views": 728814
+        "bookmarks": 66,
+        "likes": 1782,
+        "quotes": 9,
+        "replies": 136,
+        "retweets": 169,
+        "views": 334717
       },
-      "url": "https://x.com/elonmusk/status/2107587206194098350",
+      "url": "https://x.com/elonmusk/status/2107878899518742933",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2107723129120518469",
+      "id": "2107878471636861204",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T18:57:32.000Z",
-      "created_at_shanghai": "2026-10-07 02:57:32",
+      "created_at_utc": "2026-10-07T16:59:24.000Z",
+      "created_at_shanghai": "2026-10-08 00:59:24",
       "type": "转发",
       "type_label": "转发",
-      "text": "Try asking your Grok Bot to send an email\n\nIt'll claim an inbox — name@mail.grokbot.com\n\nYour bot now has an email to use. It can send and receive emails",
+      "text": "@KatieMiller Hall of Fame community note",
       "quote": null,
       "retweet": {
-        "author": "melvindvivas",
-        "avatar": "https://pbs.twimg.com/profile_images/2080587337994813440/rF40X6jM_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 02:57:32",
-        "created_at_utc": "2026-10-06T18:57:32.000Z",
-        "id": "2107545810351370324",
+        "author": "NotTomBrown",
+        "avatar": "https://pbs.twimg.com/profile_images/1285266774267555840/LicLFbt3_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 23:18:59",
+        "created_at_utc": "2026-10-07T15:18:59.000Z",
+        "id": "2107853200913203351",
         "images": [
-          "https://pbs.twimg.com/media/HT-BnkSbUAAWzvR.png?name=small"
+          "https://pbs.twimg.com/media/HUCZUHKbIAAGDWg.jpg?name=small"
         ],
         "media": [
           {
-            "height": 612,
+            "height": 1830,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT-BnkSbUAAWzvR.png?name=small",
-            "width": 2050
+            "url": "https://pbs.twimg.com/media/HUCZUHKbIAAGDWg.jpg?name=small",
+            "width": 1206
           }
         ],
-        "name": "Melvin Vivas",
-        "text": "Try asking your Grok Bot to send an email\n\nIt'll claim an inbox — name@mail.grokbot.com\n\nYour bot now has an email to use. It can send and receive emails",
-        "url": "https://x.com/melvindvivas/status/2107545810351370324",
+        "name": "Tom Brown",
+        "text": "@KatieMiller Hall of Fame community note",
+        "url": "https://x.com/NotTomBrown/status/2107853200913203351",
         "verified": true,
         "verified_type": "individual"
       },
-      "reply_to": "",
+      "reply_to": "KatieMiller",
       "engagement": {
-        "bookmarks": 1075,
-        "likes": 2277,
-        "quotes": 55,
-        "replies": 308,
-        "retweets": 175,
-        "views": 613229
+        "bookmarks": 73,
+        "likes": 2315,
+        "quotes": 7,
+        "replies": 72,
+        "retweets": 190,
+        "views": 255637
       },
-      "url": "https://x.com/elonmusk/status/2107723129120518469",
+      "url": "https://x.com/elonmusk/status/2107878471636861204",
       "images": [
-        "https://pbs.twimg.com/media/HT-BnkSbUAAWzvR.png?name=small"
+        "https://pbs.twimg.com/media/HUCZUHKbIAAGDWg.jpg?name=small"
       ],
       "media": [
         {
           "type": "photo",
-          "url": "https://pbs.twimg.com/media/HT-BnkSbUAAWzvR.png?name=small",
-          "width": 2050,
-          "height": 612
+          "url": "https://pbs.twimg.com/media/HUCZUHKbIAAGDWg.jpg?name=small",
+          "width": 1206,
+          "height": 1830
         }
       ],
       "enriched": true
     },
     {
-      "id": "2107696505432035633",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T18:03:50.000Z",
-      "created_at_shanghai": "2026-10-07 02:03:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Here’s the full IAC 2026 presentation by SpaceXAI President @michaelnicollsx :\n\n0:00 Walk-on and opening\n1:40 Growth of the Starlink constellation\n4:00 Global growth\n5:40 Life of a Starlink satellite\n6:40 Launch and deploy\n7:40 Orbit raise\n8:20 Starlink altitudes\n10:00 On-station ops \n12:20 Constant communication\n14:00 Space weather and prediction\n15:20 Protecting the night sky\n17:40 Protecting radio astronomy\n19:00 Controlled and targeted reentry\n22:00 Biggest risk\n23:00 Close approaches\n24:20 Stargaze\n25:40 Unannounced maneuvers\n27:00 International satellite ephemeris\n28:40 space-safety .com\n29:40 The future\n30:00 Starmind\n32:40 Laser links\n34:00 Orbital mesh view\n34:40 Interplanetary — Moon and Mars\n35:40 Walk-off",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 02:03:50",
-        "created_at_utc": "2026-10-06T18:03:50.000Z",
-        "id": "2107532299227259044",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107531072938590209/img/qKbisdh-XhtZljLf.jpg"
-        ],
-        "media": [
-          {
-            "duration": 2153.533,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107531072938590209/img/qKbisdh-XhtZljLf.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107531072938590209/vid/avc1/1920x1080/wI9W5Xz4tmcdYdYu.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Here’s the full IAC 2026 presentation by SpaceXAI President @michaelnicollsx :\n\n0:00 Walk-on and opening\n1:40 Growth of the Starlink constellation\n4:00 Global growth\n5:40 Life of a Starlink satellite\n6:40 Launch and deploy\n7:40 Orbit raise\n8:20 Starlink altitudes\n10:00 On-station ops \n12:20 Constant communication\n14:00 Space weather and prediction\n15:20 Protecting the night sky\n17:40 Protecting radio astronomy\n19:00 Controlled and targeted reentry\n22:00 Biggest risk\n23:00 Close approaches\n24:20 Stargaze\n25:40 Unannounced maneuvers\n27:00 International satellite ephemeris\n28:40 space-safety .com\n29:40 The future\n30:00 Starmind\n32:40 Laser links\n34:00 Orbital mesh view\n34:40 Interplanetary — Moon and Mars\n35:40 Walk-off",
-        "url": "https://x.com/cb_doge/status/2107532299227259044",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1008,
-        "likes": 1722,
-        "quotes": 14,
-        "replies": 86,
-        "retweets": 349,
-        "views": 308871
-      },
-      "url": "https://x.com/elonmusk/status/2107696505432035633",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2107531072938590209/img/qKbisdh-XhtZljLf.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107531072938590209/vid/avc1/1920x1080/wI9W5Xz4tmcdYdYu.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107531072938590209/img/qKbisdh-XhtZljLf.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 2153.533
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2107717606702776559",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T17:05:55.000Z",
-      "created_at_shanghai": "2026-10-07 01:05:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Leftists: \"We're going to set the Orks on our own people until they're all thoroughly raped and killed. Also, we're the good guys.\"\n-- No one thinks they sincerely think this. They don't think they sincerely think this. It's a weird ritualistic interlude.",
-      "quote": null,
-      "retweet": {
-        "author": "xenocosmography",
-        "avatar": "https://pbs.twimg.com/profile_images/1709394184837451776/4xkaiTS7_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 01:05:55",
-        "created_at_utc": "2026-10-06T17:05:55.000Z",
-        "id": "2107517720514396370",
-        "images": [],
-        "media": [],
-        "name": "Xenocosmography",
-        "text": "Leftists: \"We're going to set the Orks on our own people until they're all thoroughly raped and killed. Also, we're the good guys.\"\n-- No one thinks they sincerely think this. They don't think they sincerely think this. It's a weird ritualistic interlude.",
-        "url": "https://x.com/xenocosmography/status/2107517720514396370",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 136,
-        "likes": 2417,
-        "quotes": 17,
-        "replies": 90,
-        "retweets": 215,
-        "views": 324421
-      },
-      "url": "https://x.com/elonmusk/status/2107717606702776559",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107717829780967641",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T17:02:05.000Z",
-      "created_at_shanghai": "2026-10-07 01:02:05",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I am suing my doctors for transitioning me starting as a minor in the state of North Carolina.",
-      "quote": {
-        "author": "AlBuffalo2nite",
-        "avatar": "https://pbs.twimg.com/profile_images/1820604504795987968/0-v14ZyU_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 02:28:00",
-        "created_at_utc": "2026-10-05T18:28:00.000Z",
-        "id": "2107175993647759630",
-        "images": [
-          "https://pbs.twimg.com/media/HT4xZeTX0AENt7t.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1283,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4xZeTX0AENt7t.jpg?name=small",
-            "width": 1074
-          }
-        ],
-        "name": "A Gene Robinson",
-        "text": "A New York jury just awarded $2 MILLION to a young woman who underwent a double mastectomy at 16 and later detransitioned.\n\nThe jury found her psychologist and surgeon liable for malpractice.\n\nHer case alleged that serious mental-health issues, including depression, body dysmorphia, anorexia and autism-spectrum traits, were not adequately addressed before an irreversible procedure was performed on a minor.\n\nNow watch what happens when someone like her speaks publicly.\n\nFor years we were told regret was exceedingly rare. We were told these procedures were necessary care. We were told questioning the process itself was dangerous.\n\nBut when a detransitioner stands up and says, “This happened to me,” suddenly she becomes the problem.\n\nThat is the epistemic tell.\n\nWhen evidence supports the narrative, it is celebrated.\n\nWhen evidence contradicts the narrative, the person carrying the evidence gets attacked.\n\nA jury heard the testimony. A jury examined the evidence. A jury found malpractice. And a jury put the damages at $2 million.\n\nYou don’t protect vulnerable young people by demanding silence from the ones who came back and said, “I wish someone had slowed this down.”\n\nYou protect them by listening.\n\n#AStoneGroove #SilentMajoritySpeaks",
-        "url": "https://x.com/AlBuffalo2nite/status/2107175993647759630",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "PrishaMosley",
-        "avatar": "https://pbs.twimg.com/profile_images/2071553695796383744/4qdG3rDd_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 01:02:05",
-        "created_at_utc": "2026-10-06T17:02:05.000Z",
-        "id": "2107516757866865025",
-        "images": [],
-        "media": [],
-        "name": "Prisha Mosley🦎",
-        "text": "I am suing my doctors for transitioning me starting as a minor in the state of North Carolina.",
-        "url": "https://x.com/PrishaMosley/status/2107516757866865025",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 527,
-        "likes": 12129,
-        "quotes": 75,
-        "replies": 470,
-        "retweets": 1604,
-        "views": 563363
-      },
-      "url": "https://x.com/elonmusk/status/2107717829780967641",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107550925141274624",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T16:58:04.000Z",
-      "created_at_shanghai": "2026-10-07 00:58:04",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Things my @bot setup does that still blow my mind:\n\n1. A Chief of Staff who opens the day pulling open loops from email & tasks and suggesting things it can knock out before 7am.\n\n2. After every meeting, decisions get folded into Notion, Linear, and Todoist — not left rotting in Granola\n\n3. Every email starts as a draft. The CoS bot scans my email every ~2hr and drafts replies to nearly everything — including checking my cal for availability and finding requested attachments / links\n\n4. A specialist for each lane: curriculum, engineering, coaching, hiring, content, ops, and one for every single piece of software\n\n5. Routines that keep running while I’m offline (e.g. monitoring Sentry errors in our apps and proactively fixing things)\n\n6. Group rooms where 2–4 bots share one project thread instead of me copy-pasting context\n\n7. Cloud coding agents that pick up Linear issues and open PRs after running the list of open work by me EoD — then squash-merge to main when it’s done\n\n8. Meeting prep briefs pulled from Granola + Notion before I walk in\n\n9. A growing shareable knowledge base in Notion + a GitHub repo that we update daily based on what happens at school\n\n10. Student progress look-up across Expertise, Followers, and CoFounder without inventing numbers — chat anytime to see where a student is on their business work\n\n11. Mentor Mind that coaches me on how to hold the bar without inventing doctrine\n\n12. Todoist as a central task list where it logs things it’s blocked on for me, or from meetings / emails — and I can paste links into chat to direct it how to solve them\n\n13. Engineering work is automatically tracked in Linear so my and the product teams’ bots don’t collide with each other\n\n14. Presentations spun up in Gamma / Claude Design without me opening a slide tool\n\n15. Plaud / live capture → notes the bots can actually act on\n\nProbably more but these were the immediate ones we thought of.",
-      "quote": {
-        "author": "nateliason",
-        "avatar": "https://pbs.twimg.com/profile_images/1909974237617467392/NFY9iiN3_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 00:24:02",
-        "created_at_utc": "2026-10-06T16:24:02.000Z",
-        "id": "2107507181100921077",
-        "images": [],
-        "media": [],
-        "name": "Nat Eliason",
-        "text": "GrokBot feels like absolute magic at this point, a meaningful leg up on my previous OpenClaw etc. setups. \n\nAnd with how easy it is to setup, there's really no excuse now.",
-        "url": "https://x.com/nateliason/status/2107507181100921077",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "nateliason",
-        "avatar": "https://pbs.twimg.com/profile_images/1909974237617467392/NFY9iiN3_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 00:58:04",
-        "created_at_utc": "2026-10-06T16:58:04.000Z",
-        "id": "2107515748193026301",
-        "images": [],
-        "media": [],
-        "name": "Nat Eliason",
-        "text": "Things my @bot setup does that still blow my mind:\n\n1. A Chief of Staff who opens the day pulling open loops from email & tasks and suggesting things it can knock out before 7am.\n\n2. After every meeting, decisions get folded into Notion, Linear, and Todoist — not left rotting in Granola\n\n3. Every email starts as a draft. The CoS bot scans my email every ~2hr and drafts replies to nearly everything — including checking my cal for availability and finding requested attachments / links\n\n4. A specialist for each lane: curriculum, engineering, coaching, hiring, content, ops, and one for every single piece of software\n\n5. Routines that keep running while I’m offline (e.g. monitoring Sentry errors in our apps and proactively fixing things)\n\n6. Group rooms where 2–4 bots share one project thread instead of me copy-pasting context\n\n7. Cloud coding agents that pick up Linear issues and open PRs after running the list of open work by me EoD — then squash-merge to main when it’s done\n\n8. Meeting prep briefs pulled from Granola + Notion before I walk in\n\n9. A growing shareable knowledge base in Notion + a GitHub repo that we update daily based on what happens at school\n\n10. Student progress look-up across Expertise, Followers, and CoFounder without inventing numbers — chat anytime to see where a student is on their business work\n\n11. Mentor Mind that coaches me on how to hold the bar without inventing doctrine\n\n12. Todoist as a central task list where it logs things it’s blocked on for me, or from meetings / emails — and I can paste links into chat to direct it how to solve them\n\n13. Engineering work is automatically tracked in Linear so my and the product teams’ bots don’t collide with each other\n\n14. Presentations spun up in Gamma / Claude Design without me opening a slide tool\n\n15. Plaud / live capture → notes the bots can actually act on\n\nProbably more but these were the immediate ones we thought of.",
-        "url": "https://x.com/nateliason/status/2107515748193026301",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2184,
-        "likes": 2143,
-        "quotes": 19,
-        "replies": 154,
-        "retweets": 206,
-        "views": 547037
-      },
-      "url": "https://x.com/elonmusk/status/2107550925141274624",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107495983328464979",
+      "id": "2107877217774784674",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:39:32.000Z",
-      "created_at_shanghai": "2026-10-06 23:39:32",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Make no mistakes",
+      "created_at_utc": "2026-10-07T16:54:25.000Z",
+      "created_at_shanghai": "2026-10-08 00:54:25",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "The spacecraft is executing a series of departure burns to move away from the @Space_Station. Dragon will reenter the Earth's atmosphere and splash down in ~27.5 hours off the coast of California",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 20:13:39",
+        "created_at_utc": "2026-10-07T12:13:39.000Z",
+        "id": "2107806557807481006",
+        "images": [
+          "https://pbs.twimg.com/media/HUBu2kUWMAA98IO.png?name=small"
+        ],
+        "media": [
+          {
+            "height": 1620,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUBu2kUWMAA98IO.png?name=small",
+            "width": 2880
+          }
+        ],
+        "name": "SpaceX",
+        "text": "The spacecraft is executing a series of departure burns to move away from the @Space_Station. Dragon will reenter the Earth's atmosphere and splash down in ~27.5 hours off the coast of California",
+        "url": "https://x.com/SpaceX/status/2107806557807481006",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 97,
+        "likes": 5570,
+        "quotes": 40,
+        "replies": 202,
+        "retweets": 627,
+        "views": 921755
+      },
+      "url": "https://x.com/elonmusk/status/2107877217774784674",
+      "images": [
+        "https://pbs.twimg.com/media/HUBu2kUWMAA98IO.png?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUBu2kUWMAA98IO.png?name=small",
+          "width": 2880,
+          "height": 1620
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2107877168575590458",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:54:14.000Z",
+      "created_at_shanghai": "2026-10-08 00:54:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Democrats are for open borders and couldn’t care less when American citizens are murdered by illegal aliens. Listen for yourself 👇",
+      "quote": null,
+      "retweet": {
+        "author": "ScottJenningsKY",
+        "avatar": "https://pbs.twimg.com/profile_images/1863842853484376064/Jxjw6pIS_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 11:32:10",
+        "created_at_utc": "2026-10-07T03:32:10.000Z",
+        "id": "2107675323672248425",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107675230252511232/img/9QWFYBt-2XAIjG5u.jpg"
+        ],
+        "media": [
+          {
+            "duration": 108.201,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107675230252511232/img/9QWFYBt-2XAIjG5u.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107675230252511232/vid/avc1/1280x720/ZHMwEBSEoWaYhcMa.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "Scott Jennings",
+        "text": "Democrats are for open borders and couldn’t care less when American citizens are murdered by illegal aliens. Listen for yourself 👇",
+        "url": "https://x.com/ScottJenningsKY/status/2107675323672248425",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 452,
+        "likes": 18741,
+        "quotes": 70,
+        "replies": 763,
+        "retweets": 3706,
+        "views": 460895
+      },
+      "url": "https://x.com/elonmusk/status/2107877168575590458",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2107675230252511232/img/9QWFYBt-2XAIjG5u.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2107675230252511232/vid/avc1/1280x720/ZHMwEBSEoWaYhcMa.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107675230252511232/img/9QWFYBt-2XAIjG5u.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 108.201
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2107876928162275329",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:53:16.000Z",
+      "created_at_shanghai": "2026-10-08 00:53:16",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2450,
+        "likes": 14187,
+        "quotes": 209,
+        "replies": 831,
+        "retweets": 2440,
+        "views": 1568514
+      },
+      "url": "https://x.com/elonmusk/status/2107876928162275329",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2107869040718823424/img/JaL1AzI6T6WS6Tp8.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2107869040718823424/vid/avc1/1920x1080/jTrLKdnHVxhqE30x.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107869040718823424/img/JaL1AzI6T6WS6Tp8.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 1608.173
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2107876662138532294",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:52:13.000Z",
+      "created_at_shanghai": "2026-10-08 00:52:13",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "And yet again.\nI ask my family:\nDid you see or hear about what is going on in the world?\n\nOne answer keeps coming:\nNO.\n\nIf you aren’t on X, i\nYou oblivious to what is going on in the world.",
       "quote": {
-        "author": "Starlink",
-        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 23:19:32",
-        "created_at_utc": "2026-10-06T15:19:32.000Z",
-        "id": "2107490948745982260",
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 00:25:40",
+        "created_at_utc": "2026-10-07T16:25:40.000Z",
+        "id": "2107869981035942207",
         "images": [],
         "media": [],
-        "name": "Starlink",
-        "text": "Operating safely in space requires knowing where satellites and objects are – and where they will be in the future. This requires all operators sharing their satellites’ ephemeris data, along with predicted trajectories and planned maneuvers → https://space-safety.com",
-        "url": "https://x.com/Starlink/status/2107490948745982260",
+        "name": "Elon Musk",
+        "text": "@KanekoaTheGreat And yet again it happens",
+        "url": "https://x.com/elonmusk/status/2107869981035942207",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "TheCaptainEli",
+        "avatar": "https://pbs.twimg.com/profile_images/1997753138426613760/EZDpm91Z_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 00:27:12",
+        "created_at_utc": "2026-10-07T16:27:12.000Z",
+        "id": "2107870365879795753",
+        "images": [],
+        "media": [],
+        "name": "Captain Eli",
+        "text": "And yet again.\nI ask my family:\nDid you see or hear about what is going on in the world?\n\nOne answer keeps coming:\nNO.\n\nIf you aren’t on X, i\nYou oblivious to what is going on in the world.",
+        "url": "https://x.com/TheCaptainEli/status/2107870365879795753",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 44,
+        "likes": 1384,
+        "quotes": 9,
+        "replies": 74,
+        "retweets": 174,
+        "views": 247355
+      },
+      "url": "https://x.com/elonmusk/status/2107876662138532294",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107876487454179416",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:51:31.000Z",
+      "created_at_shanghai": "2026-10-08 00:51:31",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Whatever it take for @Bot to deliver the best product experience for users",
+      "quote": {
+        "author": "farzyness",
+        "avatar": "https://pbs.twimg.com/profile_images/1863976029368270848/NccgxqmW_200x200.jpg",
+        "created_at_shanghai": "2026-08-28 21:54:34",
+        "created_at_utc": "2026-08-28T13:54:34.000Z",
+        "id": "2093336439819813198",
+        "images": [],
+        "media": [],
+        "name": "Farzad 🇺🇸 🇮🇷",
+        "text": "Grok @bot will be insanely powerful if it’s completely model agnostic and the @SpaceXAI simply hyper-focuses on creating the greatest orchestrator AI of all time.\n\nThat orchestrator AI will know what model is best at what at the best possible cost and fastest speed, and based on your prompt, Grok Bot will automatically use the best model(s).\n\nAnd over time SpaceXAI can hyper-optimize their own models to be extremely good at executing tasks in Grok Bot.\n\nIt’s getting WAY too hard for humans to know which AI model is best at what already, especially at what cost and at what speed. The only way to do this properly is with another AI that automatically does all of this for you.\n\nAnd since SpaceX is gonna own so much compute, in theory, those other models will likely be served from their own data centers either on the ground or in space!\n\n$SPCX",
+        "url": "https://x.com/farzyness/status/2093336439819813198",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 108,
+        "likes": 3698,
+        "quotes": 40,
+        "replies": 529,
+        "retweets": 375,
+        "views": 1036940
+      },
+      "url": "https://x.com/elonmusk/status/2107876487454179416",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107872672785084550",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:36:22.000Z",
+      "created_at_shanghai": "2026-10-08 00:36:22",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "💯",
+      "quote": {
+        "author": "the_jefferymead",
+        "avatar": "https://pbs.twimg.com/profile_images/1653093448822542336/eMRq3ayO_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 08:56:06",
+        "created_at_utc": "2026-10-07T00:56:06.000Z",
+        "id": "2107636049187123683",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107635859063296000/img/lhilmbYbXfKs62g1.jpg"
+        ],
+        "media": [
+          {
+            "duration": 178.815,
+            "height": 1920,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107635859063296000/img/lhilmbYbXfKs62g1.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107635859063296000/vid/avc1/1080x1920/D7ucyKZd-_RxZpW3.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "Jeffery Mead",
+        "text": "Talarico is very obviously just lying about what he supports in order to try and win an election.\n\nWe have his voting record and things he has said. He’s hoping people don’t understand these things.",
+        "url": "https://x.com/the_jefferymead/status/2107636049187123683",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 146,
+        "likes": 5155,
+        "quotes": 30,
+        "replies": 393,
+        "retweets": 1179,
+        "views": 850113
+      },
+      "url": "https://x.com/elonmusk/status/2107872672785084550",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107872596465446922",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:36:04.000Z",
+      "created_at_shanghai": "2026-10-08 00:36:04",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "ezralevant",
+        "avatar": "https://pbs.twimg.com/profile_images/1861157785053835264/5MN6Mndo_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 08:30:14",
+        "created_at_utc": "2026-10-07T00:30:14.000Z",
+        "id": "2107629537064260093",
+        "images": [
+          "https://pbs.twimg.com/media/HT_N5QYWgAA337V.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1350,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HT_N5QYWgAA337V.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "Ezra Levant 🍁🚛",
+        "text": "Quebec just handed power to a party that wants out of Canada.\n\nThe Parti Québécois won Monday's election, projected at 56 seats. That's a minority.\n\nPaul St-Pierre Plamondon will be premier. \n\nHe's promised a referendum on leaving Canada in his first term, but not before January 20, 2029.\n\nThe governing CAQ fell to third.\n\nIf Quebec can put leaving Canada on a ballot, so can Alberta.",
+        "url": "https://x.com/ezralevant/status/2107629537064260093",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 150,
+        "likes": 3883,
+        "quotes": 36,
+        "replies": 396,
+        "retweets": 561,
+        "views": 942947
+      },
+      "url": "https://x.com/elonmusk/status/2107872596465446922",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107872382367281252",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:35:12.000Z",
+      "created_at_shanghai": "2026-10-08 00:35:12",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "🤨",
+      "quote": {
+        "author": "theblaze",
+        "avatar": "https://pbs.twimg.com/profile_images/1716691045419765760/YatcqDHU_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 01:04:45",
+        "created_at_utc": "2026-10-06T17:04:45.000Z",
+        "id": "2107517428649677277",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107123220608319488/img/-2s7u8lsyWua27vs.jpg"
+        ],
+        "media": [
+          {
+            "duration": 18.624,
+            "height": 654,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107123220608319488/img/-2s7u8lsyWua27vs.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107123220608319488/vid/avc1/1280x654/oy6Tm1q2Rxllg6Xr.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "TheBlaze",
+        "text": "James Talarico: “We have to understand especially for white educators that these violent hierarchies, these systems, white supremacy, heteropatriarchy, economic exploitation, those things have colonized our own minds.”",
+        "url": "https://x.com/theblaze/status/2107517428649677277",
         "verified": true,
         "verified_type": "organization"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 118,
-        "likes": 4971,
-        "quotes": 60,
-        "replies": 605,
-        "retweets": 516,
-        "views": 608007
+        "bookmarks": 213,
+        "likes": 6894,
+        "quotes": 76,
+        "replies": 1003,
+        "retweets": 1123,
+        "views": 968327
       },
-      "url": "https://x.com/elonmusk/status/2107495983328464979",
+      "url": "https://x.com/elonmusk/status/2107872382367281252",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2107495875576824197",
+      "id": "2107871230607114428",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:39:06.000Z",
-      "created_at_shanghai": "2026-10-06 23:39:06",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Track the change log of @Grok Bot &amp; Build\n https://x.ai/changelog/bot",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 166,
-        "likes": 1860,
-        "quotes": 38,
-        "replies": 365,
-        "retweets": 294,
-        "views": 553634
-      },
-      "url": "https://x.com/elonmusk/status/2107495875576824197",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107495338873389121",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:36:58.000Z",
-      "created_at_shanghai": "2026-10-06 23:36:58",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot can be your personal chief financial officer!",
+      "created_at_utc": "2026-10-07T16:30:38.000Z",
+      "created_at_shanghai": "2026-10-08 00:30:38",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Chomsky wrote off a live genocide as a fabrication while the killing was still underway.\n\nIn 1977, with Pol Pot still in power, he wrote in The Nation that refugee accounts of Khmer Rouge executions were fabrications built to discredit the left. \n\nBefore the regime fell in 1979, about 1.7 million people, nearly a quarter of Cambodia, were dead from execution, starvation, and disease.\n\nAfter that, he and Edward Herman treated survivor testimony as inherently unreliable and blamed Western journalists for inflating the violence to justify American intervention. \n\nThey accused François Ponchaud of revising his death toll upward for political effect. He denied it but Chomsky never retracted.\n\nWhen Vietnam’s invasion made the atrocities undeniable, he recast it as a methods critique. The 1977 piece had already used “fabrication” and “conscious restructuring of history” for the mainstream accounts. \n\nThat same move is still the default on Xinjiang, Venezuela, and Cuba. The method outlived the dead.",
       "quote": {
-        "author": "Teslaconomics",
-        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 01:57:45",
-        "created_at_utc": "2026-10-05T17:57:45.000Z",
-        "id": "2107168380965060790",
+        "author": "Rothmus",
+        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
+        "created_at_shanghai": "2026-08-01 08:31:18",
+        "created_at_utc": "2026-08-01T00:31:18.000Z",
+        "id": "2083349818110300672",
         "images": [
-          "https://pbs.twimg.com/media/HT4ln8raYAAavrK.jpg?name=small",
-          "https://pbs.twimg.com/media/HT4lrP7bQAE2nkl.jpg?name=small",
-          "https://pbs.twimg.com/media/HT4lrP8bcAAgEvP.jpg?name=small",
-          "https://pbs.twimg.com/media/HT4lrQAbsAA_0v6.jpg?name=small"
+          "https://pbs.twimg.com/amplify_video_thumb/2083349762548318208/img/r-DZS3Slc7O_B5Bq.jpg"
         ],
         "media": [
           {
-            "height": 2694,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4ln8raYAAavrK.jpg?name=small",
-            "width": 4079
-          },
-          {
-            "height": 2090,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4lrP7bQAE2nkl.jpg?name=small",
-            "width": 2276
-          },
-          {
-            "height": 1848,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4lrP8bcAAgEvP.jpg?name=small",
-            "width": 2174
-          },
-          {
-            "height": 2220,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT4lrQAbsAA_0v6.jpg?name=small",
-            "width": 2146
+            "duration": 30,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2083349762548318208/img/r-DZS3Slc7O_B5Bq.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2083349762548318208/vid/avc1/1920x1080/8MIvJppsXTteg4s5.mp4?tag=29",
+            "width": 1920
           }
         ],
-        "name": "Teslaconomics",
-        "text": "I literally hooked up ALL my finance accounts to Grok Bot. \n\nI really mean all of them:\n\n1/ Chase\n2/ Charles Schwab\n3/ E*TRADE\n4/ Fidelity\n5/ Robinhood\n6/ Wealthfront\n7/ Apple Card\n8/ 𝕏 Money\n\nFYI, this is a total of 30 accounts... Chase alone is 13 accounts between checking, savings, brokerage, credit cards, a 401(k), trusts, a stock plan, and 529s for the kids.\n\nI was already honestly the best with my $ money and I’ve NEVER made a late payment in my life. But before Grok Bot, I was wasting so much time bc every answer lived in different apps. Like my cash was in one place, cards in another, brokerage accounts somewhere else, and had to compile everything in a spreadsheet, if I even got around to putting it together.\n\nNow I just text my Grok Bot CFO.\n\nI can ask, “What’s my cash right now?” and it pulls everything together and separates personal from business. I can ask which credit cards are coming due and whether I have enough cash to pay them all in full. Green means I’m covered, red means I’m short, and it tells me exactly how much I need. I actually tested this... going red on purpose. Like I moved $ money around so I would come up short on one of the upcoming bills, and Grok caught it.\n\nI can even ask, “Where did my $ money go?” and instead of opening a bunch of apps, downloading transactions, cleaning up a spreadsheet, and making a chart myself, it pulls everything together and gives me the breakdown.\n\nToday, I also asked it for a pie chart of all my stock investments with the amounts and percentages. \n\n1/ TSLA is 84.9%\n2/ SPCX is 10.4%\n3/ NVDA is 4.7% \n\nThat’s across $ money sitting in different brokerage accounts, and it's awesome that I didn’t have to think about where any of it was. \n\nI literally just asked it one question... you can see for yourself. \n\nIf you’re serious about your finances, you already ask the same questions all the time. \n\n• Like, can I cover everything that’s due? \n• Where did my $ money go? \n• How much $ cash do I really have? \n• What investments do I actually own? \n\nBut honestly, the annoying part is that your financial life is usually scattered across 10+ different apps/platforms and a bunch of accounts, so getting a real answer takes a lot of work and your time. And honestly, most people probably don’t even look until something feels off or if they get a notification that a payment was missed or something.\n\nNow, with all my finance accounts linked, I just ask a normal question, Grok Bot checks everything it has connected, and gives me the answer. Then I can ask the same thing tomorrow, and again whenever, and get the updated version without rebuilding anything.\n\nThe fact that you are able to talk to your entire financial life like you’re texting someone who already knows where everything is... this is a total game changer in the world of finance imo. \n\nIf you really care about your $ money, hook yours up to Grok Bot. \n\nIt's so worth it.",
-        "url": "https://x.com/Teslaconomics/status/2107168380965060790",
+        "name": "Rothmus 🏴",
+        "text": "They smashed babies against trees and murdered nearly 2 million Cambodians in under 4 years chasing a pure agrarian communist utopia with no cities, no money, and no private property.\n\nOn April 17 1975, the Khmer Rouge rolled into Phnom Penh and within hours emptied the entire city, marching hospital patients and the elderly into the countryside on foot as they declared Year Zero and set out to erase every trace of the old society. \n\nAnyone tied to the past became a target and wearing glasses alone could get you killed because it proved you could read, while doctors, teachers, engineers, and monks were executed as enemies of the revolution. \n\nThey turned a high school into a prison where roughly 20,000 people were tortured into confessing crimes that never happened, after which they were trucked to mass graves in the killing fields where executioners smashed infants against the killing tree to save bullets. \n\nBut they never achieved a classless utopia so it wasn’t like real communism.",
+        "url": "https://x.com/Rothmus/status/2083349818110300672",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "Rothmus",
+        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 04:40:42",
+        "created_at_utc": "2026-10-06T20:40:42.000Z",
+        "id": "2107571772740743554",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107571714079031296/img/BsPvWMZo_aQYaguw.jpg"
+        ],
+        "media": [
+          {
+            "duration": 39.334,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107571714079031296/img/BsPvWMZo_aQYaguw.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107571714079031296/vid/avc1/1920x1080/mDzB13NuW0I651_O.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Rothmus 🏴",
+        "text": "Chomsky wrote off a live genocide as a fabrication while the killing was still underway.\n\nIn 1977, with Pol Pot still in power, he wrote in The Nation that refugee accounts of Khmer Rouge executions were fabrications built to discredit the left. \n\nBefore the regime fell in 1979, about 1.7 million people, nearly a quarter of Cambodia, were dead from execution, starvation, and disease.\n\nAfter that, he and Edward Herman treated survivor testimony as inherently unreliable and blamed Western journalists for inflating the violence to justify American intervention. \n\nThey accused François Ponchaud of revising his death toll upward for political effect. He denied it but Chomsky never retracted.\n\nWhen Vietnam’s invasion made the atrocities undeniable, he recast it as a methods critique. The 1977 piece had already used “fabrication” and “conscious restructuring of history” for the mainstream accounts. \n\nThat same move is still the default on Xinjiang, Venezuela, and Cuba. The method outlived the dead.",
+        "url": "https://x.com/Rothmus/status/2107571772740743554",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 491,
+        "likes": 2881,
+        "quotes": 35,
+        "replies": 139,
+        "retweets": 676,
+        "views": 303310
+      },
+      "url": "https://x.com/elonmusk/status/2107871230607114428",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2107571714079031296/img/BsPvWMZo_aQYaguw.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2107571714079031296/vid/avc1/1920x1080/mDzB13NuW0I651_O.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107571714079031296/img/BsPvWMZo_aQYaguw.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 39.334
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2107869927290159518",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:25:27.000Z",
+      "created_at_shanghai": "2026-10-08 00:25:27",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "NEW: The DOJ released photos of the Tumbler Ridge school shooter's guns: a shotgun with a trans flag-colored sticker, posed before a trans flag, and a rifle with a suppressor in trans flag colors.\n\nJesse Van Rootselaar killed eight people, six of them children aged 11 to 13.\n\nVan Rootselaar sent the photos on Discord to James Cody Bryant, who also identifies as transgender.\n\nBryant, 30, of Bellingham, Washington, was charged yesterday with conspiracy to murder.\n\nProsecutors say he helped plan the shooting and agreed to livestream it.",
+      "quote": null,
+      "retweet": {
+        "author": "KanekoaTheGreat",
+        "avatar": "https://pbs.twimg.com/profile_images/1612188077333835776/qxjhM55m_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 00:06:02",
+        "created_at_utc": "2026-10-07T16:06:02.000Z",
+        "id": "2107865038484918365",
+        "images": [
+          "https://pbs.twimg.com/media/HUCkFCPakAAE9ng.jpg?name=small",
+          "https://pbs.twimg.com/media/HUCkFO7aUAANAjU.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 622,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUCkFCPakAAE9ng.jpg?name=small",
+            "width": 467
+          },
+          {
+            "height": 567,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUCkFO7aUAANAjU.jpg?name=small",
+            "width": 428
+          }
+        ],
+        "name": "KanekoaTheGreat",
+        "text": "NEW: The DOJ released photos of the Tumbler Ridge school shooter's guns: a shotgun with a trans flag-colored sticker, posed before a trans flag, and a rifle with a suppressor in trans flag colors.\n\nJesse Van Rootselaar killed eight people, six of them children aged 11 to 13.\n\nVan Rootselaar sent the photos on Discord to James Cody Bryant, who also identifies as transgender.\n\nBryant, 30, of Bellingham, Washington, was charged yesterday with conspiracy to murder.\n\nProsecutors say he helped plan the shooting and agreed to livestream it.",
+        "url": "https://x.com/KanekoaTheGreat/status/2107865038484918365",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2340,
+        "likes": 16305,
+        "quotes": 357,
+        "replies": 642,
+        "retweets": 2781,
+        "views": 1180615
+      },
+      "url": "https://x.com/elonmusk/status/2107869927290159518",
+      "images": [
+        "https://pbs.twimg.com/media/HUCkFCPakAAE9ng.jpg?name=small",
+        "https://pbs.twimg.com/media/HUCkFO7aUAANAjU.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUCkFCPakAAE9ng.jpg?name=small",
+          "width": 467,
+          "height": 622
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUCkFO7aUAANAjU.jpg?name=small",
+          "width": 428,
+          "height": 567
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2107869656816267667",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:24:23.000Z",
+      "created_at_shanghai": "2026-10-08 00:24:23",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Dionysius of Halicarnassus who had the searched the ancient annals of Rome, claimed he seen an old law which required the young to marry and outlawed celibacy. \n\nCicero’s treatise on the laws contained a law that forbid celibacy. At Sparta, the legislation of Lyrurgus deprived the man who did not marry of his citizenship. \n\nA passage from Pollux claims that in multiple Greek cities they punished celibacy as a crime.  \n\nHave kids, even the ancients knew it.",
+      "quote": null,
+      "retweet": {
+        "author": "UpdatingOnRome",
+        "avatar": "https://pbs.twimg.com/profile_images/1608931718689591296/ztEUxeFh_200x200.jpg",
+        "created_at_shanghai": "2026-10-06 04:26:28",
+        "created_at_utc": "2026-10-05T20:26:28.000Z",
+        "id": "2107205804613067227",
+        "images": [],
+        "media": [],
+        "name": "Daily Roman Updates",
+        "text": "Dionysius of Halicarnassus who had the searched the ancient annals of Rome, claimed he seen an old law which required the young to marry and outlawed celibacy. \n\nCicero’s treatise on the laws contained a law that forbid celibacy. At Sparta, the legislation of Lyrurgus deprived the man who did not marry of his citizenship. \n\nA passage from Pollux claims that in multiple Greek cities they punished celibacy as a crime.  \n\nHave kids, even the ancients knew it.",
+        "url": "https://x.com/UpdatingOnRome/status/2107205804613067227",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 66,
+        "likes": 1055,
+        "quotes": 18,
+        "replies": 80,
+        "retweets": 136,
+        "views": 214011
+      },
+      "url": "https://x.com/elonmusk/status/2107869656816267667",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107854307077034294",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T15:23:23.000Z",
+      "created_at_shanghai": "2026-10-07 23:23:23",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Unfortunately, we are being blocked by certain oligarchs in order to maintain their monopolistic chokehold on the Indian people. You can guess who they are …\n\nThis is a crime against the people of India!",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 23:16:46",
+        "created_at_utc": "2026-10-07T15:16:46.000Z",
+        "id": "2107852643205058819",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107851792956727296/img/tEGs2aQAAmLIQZPy.jpg"
+        ],
+        "media": [
+          {
+            "duration": 11.8,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107851792956727296/img/tEGs2aQAAmLIQZPy.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107851792956727296/vid/avc1/1080x1080/YnP0ZLKchq8OXRbe.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "India needs @Starlink 🇮🇳\n\n• 11,256 of India’s listed villages still lacked 4G coverage as of May 2026.\n\n• India had 1.093 billion internet subscriptions in March 2026, but only 440.87 million were rural. Rural subscription density was 48.31 per 100 people, compared with 126.80 in urban India.\n\n• BharatNet had laid over 850,000 route-km of fibre and made about 221,000 Gram Panchayats service-ready. However, its Points of Presence were reported operational at only 80,472 Gram Panchayats in June 2026.\n\n• Only 4.26% of India’s internet subscriptions were wired connections in March 2026. Starlink could give underserved communities another route to high-speed broadband.\n\n• Starlink has already built 20 gateway sites in India, according to SpaceX Vice President of Starlink Business Operations Lauren Dreyer, speaking at India Mobile Congress today.\n\n• Starlink says it has developed India-specific security controls designed to keep Indian user data within India.\n\n• Its satellite network could bring high-speed internet to remote villages, mountains and islands where extending fibre or mobile networks is difficult.\n\n• Better connectivity could help rural schools access online learning, clinics offer remote consultations and small businesses reach more customers. Starlink already supports education and healthcare in remote communities internationally.\n\n• Portable Starlink terminals have supported disaster response around the world. They could give Indian emergency teams backup connectivity when floods, earthquakes or storms damage ground networks.\n\n• Direct to Cell could also help ordinary 4G phones connect beyond tower coverage, subject to Indian approvals and mobile operator partnerships.\n\n• The government itself identifies difficult terrain, low commercial viability and infrastructure constraints as reasons for remaining coverage gaps. This is exactly where Starlink could help India reach more people.\n\n• India should complete the remaining clearances and spectrum allocation so Starlink can begin commercial service.\n\n• SpaceX’s Vice President of Starlink Business Operations, Lauren Dreyer, said that Starlink is ready to help achieve Prime Minister Modi’s vision of 100% connectivity across India. She highlighted its potential to connect remote classrooms, support telemedicine and restore connectivity after disasters, adding, “With Starlink, people can get connected within minutes, not years.”\n\nIndia’s hardest-to-reach communities deserve reliable internet too.",
+        "url": "https://x.com/cb_doge/status/2107852643205058819",
         "verified": true,
         "verified_type": "individual"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 659,
-        "likes": 4448,
-        "quotes": 73,
-        "replies": 651,
-        "retweets": 541,
-        "views": 2670166
+        "bookmarks": 6818,
+        "likes": 83957,
+        "quotes": 4727,
+        "replies": 14977,
+        "retweets": 11581,
+        "views": 21257926
       },
-      "url": "https://x.com/elonmusk/status/2107495338873389121",
+      "url": "https://x.com/elonmusk/status/2107854307077034294",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2107494267816186338",
+      "id": "2107853835528274320",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T15:32:43.000Z",
-      "created_at_shanghai": "2026-10-06 23:32:43",
+      "created_at_utc": "2026-10-07T15:21:31.000Z",
+      "created_at_shanghai": "2026-10-07 23:21:31",
       "type": "引用",
       "type_label": "引用",
-      "text": "Grok 4.7 is excellent at dealing with large code repositories",
+      "text": "Starlink Mobile (direct-to-cell) V2 satellites are incredible. \n\nThis @SpaceX constellation will enable more than 100 times the bandwidth of our current V1 system!",
       "quote": {
         "author": "XFreeze",
         "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 18:17:52",
-        "created_at_utc": "2026-10-06T10:17:52.000Z",
-        "id": "2107415031667392567",
+        "created_at_shanghai": "2026-10-07 23:12:09",
+        "created_at_utc": "2026-10-07T15:12:09.000Z",
+        "id": "2107851480967618562",
         "images": [
-          "https://pbs.twimg.com/media/HT8Ky3kbgAArjFo.jpg?name=small"
+          "https://pbs.twimg.com/media/HUCXvy5bMAADf-L.jpg?name=small"
         ],
         "media": [
           {
-            "height": 2500,
+            "height": 2400,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT8Ky3kbgAArjFo.jpg?name=small",
-            "width": 4000
+            "url": "https://pbs.twimg.com/media/HUCXvy5bMAADf-L.jpg?name=small",
+            "width": 3800
           }
         ],
         "name": "X Freeze",
-        "text": "Grok 4.7 takes the TOP 3 spots on VulcanBench Frontier v4, outperforming Fable 5.1, Opus 5.5, GPT-6 Astra, GPT-6.1 Sol and other leading frontier models\n\n• Grok 4.7 xHigh - 93.15\n• Grok 4.7 High - 92.71\n• Grok 4.7 Medium - 92.30\n\nVulcanBench Frontier v4 tests whether AI models can handle difficult repository-level software engineering work rather than simply generate isolated code snippets\n\nThe benchmark contains 23 behavioural-reconstruction tasks where models have to rebuild legacy software to match its actual behaviour, with functional correctness tested through hidden tests alongside security, lint/complexity and code quality\n\nAnd the task results are just as impressive:\n• Grok 4.7 xHigh - 23/23 passed\n• Grok 4.7 High - 22/23 passed\n• Grok 4.7 Medium - 21/23 passed\n\nGrok 4.7 took all #1, #2 and #3 spots",
-        "url": "https://x.com/XFreeze/status/2107415031667392567",
+        "text": "SpaceX just got a massive FCC green light for Starlink Mobile\n\nThe FCC has approved SpaceX to launch and operate up to 15,000 next-generation satellites built for direct-to-phone connectivity\n\nThe new system is designed to:\n\n• Target peak speeds of up to 150 Mbps per user\n• Connect ordinary cell phones directly from space\n• Operate in very low orbit at roughly 326–335 km\n• Use T-Mobile spectrum alongside spectrum SpaceX is acquiring from EchoStar\n• Deliver orders of magnitude more capacity than the first-generation Starlink Mobile constellation\n\nSpaceX currently has roughly 650 dedicated mobile satellites in orbit\n\nThe FCC also granted a waiver giving SpaceX a path to provide satellite wireless service without requiring a spectrum-leasing agreement with a terrestrial mobile operator\n\nStarlink Mobile is moving far beyond basic dead-zone connectivity\n\nSpaceX is building toward a full 5G cellular network in space",
+        "url": "https://x.com/XFreeze/status/2107851480967618562",
         "verified": true,
         "verified_type": "individual"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 203,
-        "likes": 3875,
-        "quotes": 42,
-        "replies": 486,
-        "retweets": 411,
-        "views": 2702748
+        "bookmarks": 355,
+        "likes": 10045,
+        "quotes": 125,
+        "replies": 784,
+        "retweets": 1518,
+        "views": 1112542
       },
-      "url": "https://x.com/elonmusk/status/2107494267816186338",
+      "url": "https://x.com/elonmusk/status/2107853835528274320",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107852404570062983",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T15:15:49.000Z",
+      "created_at_shanghai": "2026-10-07 23:15:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "After many years in top machine learning organizations, with friends at frontier labs, I still consider Tesla’s ML engineers the best—the only ones I would trust with my life.\n\nUnsatisfied with theory, they scrutinize every detail until it is proven in reality. They demand real-world miles, not charts. This culture exists nowhere else.\n\nThis week marks another anniversary at Tesla. I am honored to work with you all for many years to come.",
+      "quote": null,
+      "retweet": {
+        "author": "yunta_tsai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035915849819938816/b6kIsNMe_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 23:06:07",
+        "created_at_utc": "2026-10-07T15:06:07.000Z",
+        "id": "2107849961299980503",
+        "images": [],
+        "media": [],
+        "name": "Yun-Ta Tsai",
+        "text": "After many years in top machine learning organizations, with friends at frontier labs, I still consider Tesla’s ML engineers the best—the only ones I would trust with my life.\n\nUnsatisfied with theory, they scrutinize every detail until it is proven in reality. They demand real-world miles, not charts. This culture exists nowhere else.\n\nThis week marks another anniversary at Tesla. I am honored to work with you all for many years to come.",
+        "url": "https://x.com/yunta_tsai/status/2107849961299980503",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 215,
+        "likes": 4347,
+        "quotes": 21,
+        "replies": 158,
+        "retweets": 306,
+        "views": 358291
+      },
+      "url": "https://x.com/elonmusk/status/2107852404570062983",
       "images": [],
       "media": [],
       "enriched": true
@@ -1041,8 +1116,8 @@
   ],
   "page": 22,
   "page_size": 20,
-  "total": 940,
-  "total_pages": 47,
-  "updated_at_shanghai": "2026-10-15 09:35:28",
+  "total": 980,
+  "total_pages": 49,
+  "updated_at_shanghai": "2026-10-15 14:22:12",
   "account": "elonmusk"
 }
