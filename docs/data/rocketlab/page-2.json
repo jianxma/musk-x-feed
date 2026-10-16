@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2103586466358259954",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-09-25T20:44:30.000Z",
+      "created_at_shanghai": "2026-09-26 04:44:30",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Launch preparations are underway for today's 97th Electron launch.\n\n'Owlright Owlright Owlright' launch window opens:\n🚀12:15pm NZST, Sept 26\n🚀00:15 UTC, Sept 26\n🚀09:15 am JST, Sept 26\n🚀8:15 pm EDT, Sept 25\n🚀5:15 pm PDT, Sept 25",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1,
+        "likes": 62,
+        "quotes": 1,
+        "replies": 3,
+        "retweets": 11,
+        "views": 2906
+      },
+      "url": "https://x.com/rocketlab/status/2103586466358259954",
+      "images": [
+        "https://pbs.twimg.com/media/HTFwVHebkAAwaCy.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTFwVHebkAAwaCy.jpg?name=small",
+          "width": 4096,
+          "height": 2731
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103324964082577438",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -786,40 +823,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2101152951184372185",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-09-19T03:34:35.000Z",
-      "created_at_shanghai": "2026-09-19 11:34:35",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "SECO confirmed and @synsective's StriX Earth-imaging satellite has been successfully placed on a transfer orbit ahead of payload deployment within the hour.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "RocketLab",
-      "engagement": {
-        "bookmarks": 3,
-        "likes": 497,
-        "quotes": 6,
-        "replies": 12,
-        "retweets": 32,
-        "views": 97048
-      },
-      "url": "https://x.com/rocketlab/status/2101152951184372185",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 65,
+  "total": 66,
   "total_pages": 4,
-  "updated_at_shanghai": "2026-10-16 03:24:23",
+  "updated_at_shanghai": "2026-10-16 08:38:37",
   "account": "rocketlab"
 }

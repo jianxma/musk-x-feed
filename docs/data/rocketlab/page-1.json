@@ -1,6 +1,70 @@
 {
   "posts": [
     {
+      "id": "2110880832055546043",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-10-15T23:49:43.000Z",
+      "created_at_shanghai": "2026-10-16 07:49:43",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Great to have you through our Long Beach production complex, @CAgovernor! Proud to be building on California's extensive aerospace heritage and creating the future.",
+      "quote": {
+        "author": "CAgovernor",
+        "avatar": "https://pbs.twimg.com/profile_images/2048630030297960448/elxm5LA2_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 05:56:26",
+        "created_at_utc": "2026-10-15T21:56:26.000Z",
+        "id": "2110852325929873655",
+        "images": [
+          "https://pbs.twimg.com/media/HUtAZAtbMAAREwY.jpg?name=small",
+          "https://pbs.twimg.com/media/HUtAZAia8AA_c5F.jpg?name=small",
+          "https://pbs.twimg.com/media/HUtAZAibkAA2SjQ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2731,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUtAZAtbMAAREwY.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 1067,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUtAZAia8AA_c5F.jpg?name=small",
+            "width": 1600
+          },
+          {
+            "height": 2731,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUtAZAibkAA2SjQ.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Governor Gavin Newsom",
+        "text": "Had a fantastic time visiting @RocketLab's headquarters in Long Beach.\n\nCalifornia isn't just imagining the future of science and space exploration – we're engineering, manufacturing, and launching it right here in the Golden State.",
+        "url": "https://x.com/CAgovernor/status/2110852325929873655",
+        "verified": true,
+        "verified_type": "government"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 5,
+        "likes": 300,
+        "quotes": 2,
+        "replies": 23,
+        "retweets": 27,
+        "views": 15827
+      },
+      "url": "https://x.com/rocketlab/status/2110880832055546043",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110805629266960529",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -769,49 +833,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103586466358259954",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-09-25T20:44:30.000Z",
-      "created_at_shanghai": "2026-09-26 04:44:30",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Launch preparations are underway for today's 97th Electron launch.\n\n'Owlright Owlright Owlright' launch window opens:\n🚀12:15pm NZST, Sept 26\n🚀00:15 UTC, Sept 26\n🚀09:15 am JST, Sept 26\n🚀8:15 pm EDT, Sept 25\n🚀5:15 pm PDT, Sept 25",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1,
-        "likes": 62,
-        "quotes": 1,
-        "replies": 3,
-        "retweets": 11,
-        "views": 2906
-      },
-      "url": "https://x.com/rocketlab/status/2103586466358259954",
-      "images": [
-        "https://pbs.twimg.com/media/HTFwVHebkAAwaCy.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTFwVHebkAAwaCy.jpg?name=small",
-          "width": 4096,
-          "height": 2731
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 65,
+  "total": 66,
   "total_pages": 4,
-  "updated_at_shanghai": "2026-10-16 03:24:23",
+  "updated_at_shanghai": "2026-10-16 08:38:37",
   "account": "rocketlab"
 }
