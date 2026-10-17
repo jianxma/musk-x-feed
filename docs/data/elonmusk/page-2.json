@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2111354746548433173",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-17T07:12:53.000Z",
+      "created_at_shanghai": "2026-10-17 15:12:53",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Btw",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-17 15:12:41",
+        "created_at_utc": "2026-10-17T07:12:41.000Z",
+        "id": "2111354696854114702",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@Scobleizer True. \n\nYou will be able to ask the Roadster to perform any of the tricks shown autonomously, as it will be sentient. \n\nAlso, we will have a wild looping track (crazier even than Hot Wheels) at our Texas HQ where you can test out your Roadster.",
+        "url": "https://x.com/elonmusk/status/2111354696854114702",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 218,
+        "likes": 4878,
+        "quotes": 44,
+        "replies": 815,
+        "retweets": 448,
+        "views": 1139149
+      },
+      "url": "https://x.com/elonmusk/status/2111354746548433173",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111341265442726210",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1141,75 +1182,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2111214603665637693",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T21:56:00.000Z",
-      "created_at_shanghai": "2026-10-17 05:56:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@jgebbia",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-17 05:55:40",
-        "created_at_utc": "2026-10-16T21:55:40.000Z",
-        "id": "2111214519686943027",
-        "images": [
-          "https://pbs.twimg.com/tweet_video_thumb/HUyKaHRXsAAiL9b.jpg"
-        ],
-        "media": [
-          {
-            "duration": 0,
-            "height": 252,
-            "thumbnail_url": "https://pbs.twimg.com/tweet_video_thumb/HUyKaHRXsAAiL9b.jpg",
-            "type": "gif",
-            "url": "https://video.twimg.com/tweet_video/HUyKaHRXsAAiL9b.mp4",
-            "width": 450
-          }
-        ],
-        "name": "Elon Musk",
-        "text": "@jgebbia",
-        "url": "https://x.com/elonmusk/status/2111214519686943027",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "jgebbia",
-      "engagement": {
-        "bookmarks": 74,
-        "likes": 3028,
-        "quotes": 33,
-        "replies": 291,
-        "retweets": 237,
-        "views": 180654
-      },
-      "url": "https://x.com/elonmusk/status/2111214603665637693",
-      "images": [
-        "https://pbs.twimg.com/tweet_video_thumb/HUyKaHRXsAAiL9b.jpg"
-      ],
-      "media": [
-        {
-          "type": "gif",
-          "url": "https://video.twimg.com/tweet_video/HUyKaHRXsAAiL9b.mp4",
-          "thumbnail_url": "https://pbs.twimg.com/tweet_video_thumb/HUyKaHRXsAAiL9b.jpg",
-          "width": 450,
-          "height": 252,
-          "duration": 0
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 1118,
+  "total": 1119,
   "total_pages": 56,
-  "updated_at_shanghai": "2026-10-18 04:54:02",
+  "updated_at_shanghai": "2026-10-18 06:44:18",
   "account": "elonmusk"
 }
