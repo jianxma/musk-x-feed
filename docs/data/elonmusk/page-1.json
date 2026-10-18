@@ -1,10 +1,112 @@
 {
   "posts": [
     {
-      "id": "2111914748648296655",
+      "id": "2111940983143158088",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T22:02:23.000Z",
+      "created_at_shanghai": "2026-10-19 06:02:23",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "When @Starlink helped rescue four sailors and three dogs. ♥️\n\nFour people and three dogs were stranded after a storm badly damaged their boat in the South Pacific. They were more than 300 km from New Caledonia.\n\nThey had no radio contact. They sent their location through Starlink.\n\nA cruise ship changed course and travelled five hours to reach them. All four people and all three dogs were rescued.\n\nThis is why Starlink matters. When people need help, a working connection can save lives. This life-saving technology should be available in every part of the world.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-19 05:33:20",
+        "created_at_utc": "2026-10-18T21:33:20.000Z",
+        "id": "2111933674031902933",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2111933634966147072/img/eZS3amK0aIJ0ZERF.jpg"
+        ],
+        "media": [
+          {
+            "duration": 32.551,
+            "height": 618,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111933634966147072/img/eZS3amK0aIJ0ZERF.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2111933634966147072/vid/avc1/1126x618/nIb4CqyUXzwoMtRg.mp4?tag=29",
+            "width": 1126
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "When @Starlink helped rescue four sailors and three dogs. ♥️\n\nFour people and three dogs were stranded after a storm badly damaged their boat in the South Pacific. They were more than 300 km from New Caledonia.\n\nThey had no radio contact. They sent their location through Starlink.\n\nA cruise ship changed course and travelled five hours to reach them. All four people and all three dogs were rescued.\n\nThis is why Starlink matters. When people need help, a working connection can save lives. This life-saving technology should be available in every part of the world.",
+        "url": "https://x.com/cb_doge/status/2111933674031902933",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 45,
+        "likes": 1595,
+        "quotes": 21,
+        "replies": 153,
+        "retweets": 232,
+        "views": 173978
+      },
+      "url": "https://x.com/elonmusk/status/2111940983143158088",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2111933634966147072/img/eZS3amK0aIJ0ZERF.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2111933634966147072/vid/avc1/1126x618/nIb4CqyUXzwoMtRg.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111933634966147072/img/eZS3amK0aIJ0ZERF.jpg",
+          "width": 1126,
+          "height": 618,
+          "duration": 32.551
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2111930742615802163",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T21:21:41.000Z",
+      "created_at_shanghai": "2026-10-19 05:21:41",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "What it’s like trying to rent AI/SI compute",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 506,
+        "likes": 4848,
+        "quotes": 134,
+        "replies": 948,
+        "retweets": 562,
+        "views": 887760
+      },
+      "url": "https://x.com/elonmusk/status/2111930742615802163",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2111930714560049153/img/Pfzj023BGOGSvjeB.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2111930714560049153/vid/avc1/1280x720/BzjRBgybOiO7FqGd.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111930714560049153/img/Pfzj023BGOGSvjeB.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 79.25
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2111914748648296655",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-18T20:18:08.000Z",
@@ -1057,138 +1159,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2111709677050351868",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-18T06:43:15.000Z",
-      "created_at_shanghai": "2026-10-18 14:43:15",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "WANTED.",
-      "quote": null,
-      "retweet": {
-        "author": "tetsuoai",
-        "avatar": "https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 15:04:47",
-        "created_at_utc": "2026-10-12T07:04:47.000Z",
-        "id": "2109540769086542295",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109539971547926529/img/DrD1Oh3pA3k63EOD.jpg"
-        ],
-        "media": [
-          {
-            "duration": 258.666,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109539971547926529/img/DrD1Oh3pA3k63EOD.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109539971547926529/vid/avc1/1920x1080/GWA-RPqWL9S5eRyF.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "tetsuo",
-        "text": "WANTED.",
-        "url": "https://x.com/tetsuoai/status/2109540769086542295",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 292,
-        "likes": 1596,
-        "quotes": 44,
-        "replies": 165,
-        "retweets": 220,
-        "views": 203411
-      },
-      "url": "https://x.com/elonmusk/status/2111709677050351868",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109539971547926529/img/DrD1Oh3pA3k63EOD.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109539971547926529/vid/avc1/1920x1080/GWA-RPqWL9S5eRyF.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109539971547926529/img/DrD1Oh3pA3k63EOD.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 258.666
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2111699431758430563",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-18T06:02:32.000Z",
-      "created_at_shanghai": "2026-10-18 14:02:32",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "World Still LOSING It Over Tesla's Flying Roadster\n\nSOURCE:\n◆ https://www.youtube.com/watch?v=GwffNnmuqfk",
-      "quote": null,
-      "retweet": {
-        "author": "stevenmarkryan",
-        "avatar": "https://pbs.twimg.com/profile_images/2109571663662825473/fRTDjehK_200x200.jpg",
-        "created_at_shanghai": "2026-10-18 12:45:57",
-        "created_at_utc": "2026-10-18T04:45:57.000Z",
-        "id": "2111680157064855604",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2111676248758140928/img/LZChrNYaEIKUh1oz.jpg"
-        ],
-        "media": [
-          {
-            "duration": 740.733,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111676248758140928/img/LZChrNYaEIKUh1oz.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2111676248758140928/vid/avc1/1920x1080/_0GaVxzmr6ePe-wP.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "stevenmarkryan",
-        "text": "World Still LOSING It Over Tesla's Flying Roadster\n\nSOURCE:\n◆ https://www.youtube.com/watch?v=GwffNnmuqfk",
-        "url": "https://x.com/stevenmarkryan/status/2111680157064855604",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 58,
-        "likes": 1329,
-        "quotes": 12,
-        "replies": 121,
-        "retweets": 130,
-        "views": 217479
-      },
-      "url": "https://x.com/elonmusk/status/2111699431758430563",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2111676248758140928/img/LZChrNYaEIKUh1oz.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2111676248758140928/vid/avc1/1920x1080/_0GaVxzmr6ePe-wP.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111676248758140928/img/LZChrNYaEIKUh1oz.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 740.733
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 1154,
+  "total": 1156,
   "total_pages": 58,
-  "updated_at_shanghai": "2026-10-19 05:05:33",
+  "updated_at_shanghai": "2026-10-19 07:02:17",
   "account": "elonmusk"
 }
