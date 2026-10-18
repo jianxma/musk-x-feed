@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2109955246923641259",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T10:31:46.000Z",
+      "created_at_shanghai": "2026-10-13 18:31:46",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot is like hiring a super smart employee",
+      "quote": {
+        "author": "BrianRoemmele",
+        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
+        "created_at_shanghai": "2026-10-08 11:15:23",
+        "created_at_utc": "2026-10-08T03:15:23.000Z",
+        "id": "2108033488192774499",
+        "images": [
+          "https://pbs.twimg.com/media/HUE9SS0bgAAJeD9.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 400,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUE9SS0bgAAJeD9.jpg?name=small",
+            "width": 400
+          }
+        ],
+        "name": "Brian Roemmele",
+        "text": "As of tomorrow I will have brought 71 of my large clients to @Grok @Bot at their corporations. It has not failed to revolutionize each department across a wide spectrum of companies.\n\nNext week I hold a symposium for executives to map out the future.\n\nThis is the most important AI tool released thus far.",
+        "url": "https://x.com/BrianRoemmele/status/2108033488192774499",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 73,
+        "likes": 1500,
+        "quotes": 42,
+        "replies": 517,
+        "retweets": 236,
+        "views": 554615
+      },
+      "url": "https://x.com/elonmusk/status/2109955246923641259",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109954637893964077",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -946,53 +996,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109816487775219916",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T01:20:23.000Z",
-      "created_at_shanghai": "2026-10-13 09:20:23",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "It’s awesome",
-      "quote": {
-        "author": "georgehayworth",
-        "avatar": "https://pbs.twimg.com/profile_images/2096600142312841218/wtdThbwT_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 23:03:03",
-        "created_at_utc": "2026-10-12T15:03:03.000Z",
-        "id": "2109661129832292760",
-        "images": [],
-        "media": [],
-        "name": "George Hayworth 🇺🇸",
-        "text": "I've started  using Grok Bot and I can definitively say this is the best AI agent I have used to date.\n\nI highly recommend you try it out.",
-        "url": "https://x.com/georgehayworth/status/2109661129832292760",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 82,
-        "likes": 3342,
-        "quotes": 38,
-        "replies": 518,
-        "retweets": 295,
-        "views": 997796
-      },
-      "url": "https://x.com/elonmusk/status/2109816487775219916",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 20,
-  "total": 1153,
+  "total": 1154,
   "total_pages": 58,
-  "updated_at_shanghai": "2026-10-19 02:50:24",
+  "updated_at_shanghai": "2026-10-19 05:05:33",
   "account": "elonmusk"
 }

@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2108310399477293085",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T21:35:44.000Z",
+      "created_at_shanghai": "2026-10-09 05:35:44",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Congratulations to Sergey, Jensen, Lisa, Michael and Satya!",
+      "quote": {
+        "author": "RapidResponse47",
+        "avatar": "https://pbs.twimg.com/profile_images/2062578057836142592/IYAK6I1p_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 02:10:12",
+        "created_at_utc": "2026-10-08T18:10:12.000Z",
+        "id": "2108258677773967451",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108258500610564096/img/oPVKedE79fNJSFyW.jpg"
+        ],
+        "media": [
+          {
+            "duration": 200.4,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108258500610564096/img/oPVKedE79fNJSFyW.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108258500610564096/vid/avc1/1280x720/umGmzh0PJabf60Lj.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "Rapid Response 47",
+        "text": ".@POTUS presents the National Medal of Science to Sergey Brin, @JensenHuang, @elonmusk, and @LisaSu, and the National Medal of Technology and Innovation to @MichaelDell and @satyanadella.",
+        "url": "https://x.com/RapidResponse47/status/2108258677773967451",
+        "verified": true,
+        "verified_type": "government"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 61,
+        "likes": 1917,
+        "quotes": 19,
+        "replies": 316,
+        "retweets": 258,
+        "views": 377568
+      },
+      "url": "https://x.com/elonmusk/status/2108310399477293085",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108308944049389953",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1053,64 +1105,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108294618597216470",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T20:33:01.000Z",
-      "created_at_shanghai": "2026-10-09 04:33:01",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Automatically used by Grok @Bot",
-      "quote": {
-        "author": "imagine",
-        "avatar": "https://pbs.twimg.com/profile_images/2057888115419947008/hlp4OKEw_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 03:35:56",
-        "created_at_utc": "2026-10-08T19:35:56.000Z",
-        "id": "2108280250673352929",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108279681178898432/img/oD16pQlQybFXOWNj.jpg"
-        ],
-        "media": [
-          {
-            "duration": 38.15,
-            "height": 2880,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108279681178898432/img/oD16pQlQybFXOWNj.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108279681178898432/vid/avc1/1920x2880/34u9CEaE0gTIrt79.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Grok Imagine",
-        "text": "Video 1.5 Lite is live in the Grok Imagine API. The new workhorse for text-to-video and image-to-video.\n\n$0.02/sec at 480p\n$0.03/sec at 720p\n$0.14/sec at 1080p",
-        "url": "https://x.com/imagine/status/2108280250673352929",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 158,
-        "likes": 1907,
-        "quotes": 24,
-        "replies": 225,
-        "retweets": 335,
-        "views": 727866
-      },
-      "url": "https://x.com/elonmusk/status/2108294618597216470",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 24,
   "page_size": 20,
-  "total": 1153,
+  "total": 1154,
   "total_pages": 58,
-  "updated_at_shanghai": "2026-10-19 02:50:24",
+  "updated_at_shanghai": "2026-10-19 05:05:33",
   "account": "elonmusk"
 }

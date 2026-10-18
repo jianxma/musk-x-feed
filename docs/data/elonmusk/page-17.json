@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2109816487775219916",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T01:20:23.000Z",
+      "created_at_shanghai": "2026-10-13 09:20:23",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "It’s awesome",
+      "quote": {
+        "author": "georgehayworth",
+        "avatar": "https://pbs.twimg.com/profile_images/2096600142312841218/wtdThbwT_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 23:03:03",
+        "created_at_utc": "2026-10-12T15:03:03.000Z",
+        "id": "2109661129832292760",
+        "images": [],
+        "media": [],
+        "name": "George Hayworth 🇺🇸",
+        "text": "I've started  using Grok Bot and I can definitively say this is the best AI agent I have used to date.\n\nI highly recommend you try it out.",
+        "url": "https://x.com/georgehayworth/status/2109661129832292760",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 82,
+        "likes": 3342,
+        "quotes": 38,
+        "replies": 518,
+        "retweets": 295,
+        "views": 997796
+      },
+      "url": "https://x.com/elonmusk/status/2109816487775219916",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109815966079041899",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -933,71 +974,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109688905398358144",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T16:53:25.000Z",
-      "created_at_shanghai": "2026-10-13 00:53:25",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Pie chart of naturalizations in 2023. The US naturalized roughly 4x as many people as all of Asia combined.",
-      "quote": null,
-      "retweet": {
-        "author": "arctotherium42",
-        "avatar": "https://pbs.twimg.com/profile_images/1484954781500297218/iY7hjZ1u_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 22:08:40",
-        "created_at_utc": "2026-10-12T14:08:40.000Z",
-        "id": "2109647443675508977",
-        "images": [
-          "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2000,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small",
-            "width": 2600
-          }
-        ],
-        "name": "arctotherium",
-        "text": "Pie chart of naturalizations in 2023. The US naturalized roughly 4x as many people as all of Asia combined.",
-        "url": "https://x.com/arctotherium42/status/2109647443675508977",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 56,
-        "likes": 626,
-        "quotes": 11,
-        "replies": 49,
-        "retweets": 112,
-        "views": 56727
-      },
-      "url": "https://x.com/elonmusk/status/2109688905398358144",
-      "images": [
-        "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small",
-          "width": 2600,
-          "height": 2000
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 20,
-  "total": 1153,
+  "total": 1154,
   "total_pages": 58,
-  "updated_at_shanghai": "2026-10-19 02:50:24",
+  "updated_at_shanghai": "2026-10-19 05:05:33",
   "account": "elonmusk"
 }
