@@ -1,6 +1,257 @@
 {
   "posts": [
     {
+      "id": "2110543151349870751",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T01:27:53.000Z",
+      "created_at_shanghai": "2026-10-15 09:27:53",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Imagine",
+      "quote": {
+        "author": "dvorahfr",
+        "avatar": "https://pbs.twimg.com/profile_images/1605451924144373760/K27zpEfc_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 04:44:54",
+        "created_at_utc": "2026-10-14T20:44:54.000Z",
+        "id": "2110471933015801856",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110471796440858624/img/vmIiHvg5Sp6fjoH9.jpg"
+        ],
+        "media": [
+          {
+            "duration": 94.966,
+            "height": 1620,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110471796440858624/img/vmIiHvg5Sp6fjoH9.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110471796440858624/vid/avc1/1080x1620/Yzt7O4k5vL6FV6nq.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "Déborah",
+        "text": "Video created from a single image I generated using Grok Imagine's text-to-image tool.\nAll other shots are derived from that base image, animated by Grok Imagine.",
+        "url": "https://x.com/dvorahfr/status/2110471933015801856",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 19,
+        "likes": 405,
+        "quotes": 6,
+        "replies": 158,
+        "retweets": 48,
+        "views": 266386
+      },
+      "url": "https://x.com/elonmusk/status/2110543151349870751",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110542945481039913",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T01:27:04.000Z",
+      "created_at_shanghai": "2026-10-15 09:27:04",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "My Grok @bot bots have their own email inbox now. Getting one is easy. Just ask your chief of staff: \"Claim an email inbox for me.\" You get one @mail.grokbot.com address per account and all your bots share it, so pick the name carefully. It's permanent.",
+      "quote": null,
+      "retweet": {
+        "author": "debs_obrien",
+        "avatar": "https://pbs.twimg.com/profile_images/1537114604278530048/FMrBa87o_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 05:05:43",
+        "created_at_utc": "2026-10-14T21:05:43.000Z",
+        "id": "2110477175069798427",
+        "images": [],
+        "media": [],
+        "name": "Debbie O'Brien",
+        "text": "My Grok @bot bots have their own email inbox now. Getting one is easy. Just ask your chief of staff: \"Claim an email inbox for me.\" You get one @mail.grokbot.com address per account and all your bots share it, so pick the name carefully. It's permanent.",
+        "url": "https://x.com/debs_obrien/status/2110477175069798427",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 200,
+        "quotes": 4,
+        "replies": 21,
+        "retweets": 32,
+        "views": 31569
+      },
+      "url": "https://x.com/elonmusk/status/2110542945481039913",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110542728631349528",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T01:26:13.000Z",
+      "created_at_shanghai": "2026-10-15 09:26:13",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Connect your ChatGPT and Claude subscriptions to Grok @bot with the prompt below (@elonmusk approved):\n\nConnect my Claude and ChatGPT subscriptions so all of my bots can use them.\n\n1. On your computer, install the Claude Code CLI and the OpenAI Codex CLI (upgrade Node if needed). Start each subscription login (Claude: `claude setup-token`; Codex: `codex login --device-auth`) and send me the sign-in links and codes. I'll sign in and paste back anything you need. Store the Claude token privately and load it automatically.\n\n2. Set the defaults to these models: Claude Opus 5.5 for Claude Code and 6.1 Sol for Codex. Test each one with a quick prompt and tell me which models answered.\n\n3. Add these MODEL ROUTING RULES to every one of my bots' system prompts, including yours. Keep everything else in each prompt exactly as it is:\n   - Writing (drafts, emails, posts, replies, copy, briefs): write the final text with Claude through the CLI, then review it against the bot's voice rules.\n   - Coding, scripts, data processing, and terminal work: use Codex.\n   - Browser and desktop tasks: keep using your normal computer tools.\n   - If either CLI fails, do the task yourself and say so.\n\n4. Save the same rule to my shared memory so any bot I create later follows it too.\n\n5. When you're done, tell me which bots you updated and confirm both tests passed.",
+      "quote": {
+        "author": "coreyganim",
+        "avatar": "https://pbs.twimg.com/profile_images/1991521820084695042/eTKoUALv_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 21:37:48",
+        "created_at_utc": "2026-10-14T13:37:48.000Z",
+        "id": "2110364449127219409",
+        "images": [],
+        "media": [],
+        "name": "Corey Ganim",
+        "text": "Can confirm this works extremely well.\n\nAll I did was send a link to Andrew's tweet below to my Chief of Staff bot, it installed ChatGPT and Claude via the terminal.\n\nI logged into each, now it has access to all OpenAI and Claude models.\n\nWe then updated the system prompt for each of our bots (as well as Grok Bot shared memory) to default to Opus 5.5 for any writing tasks and 6.1 Sol for any coding or computer use tasks.",
+        "url": "https://x.com/coreyganim/status/2110364449127219409",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "coreyganim",
+        "avatar": "https://pbs.twimg.com/profile_images/1991521820084695042/eTKoUALv_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 04:27:22",
+        "created_at_utc": "2026-10-14T20:27:22.000Z",
+        "id": "2110467523418194103",
+        "images": [],
+        "media": [],
+        "name": "Corey Ganim",
+        "text": "Connect your ChatGPT and Claude subscriptions to Grok @bot with the prompt below (@elonmusk approved):\n\nConnect my Claude and ChatGPT subscriptions so all of my bots can use them.\n\n1. On your computer, install the Claude Code CLI and the OpenAI Codex CLI (upgrade Node if needed). Start each subscription login (Claude: `claude setup-token`; Codex: `codex login --device-auth`) and send me the sign-in links and codes. I'll sign in and paste back anything you need. Store the Claude token privately and load it automatically.\n\n2. Set the defaults to these models: Claude Opus 5.5 for Claude Code and 6.1 Sol for Codex. Test each one with a quick prompt and tell me which models answered.\n\n3. Add these MODEL ROUTING RULES to every one of my bots' system prompts, including yours. Keep everything else in each prompt exactly as it is:\n   - Writing (drafts, emails, posts, replies, copy, briefs): write the final text with Claude through the CLI, then review it against the bot's voice rules.\n   - Coding, scripts, data processing, and terminal work: use Codex.\n   - Browser and desktop tasks: keep using your normal computer tools.\n   - If either CLI fails, do the task yourself and say so.\n\n4. Save the same rule to my shared memory so any bot I create later follows it too.\n\n5. When you're done, tell me which bots you updated and confirm both tests passed.",
+        "url": "https://x.com/coreyganim/status/2110467523418194103",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1111,
+        "likes": 550,
+        "quotes": 5,
+        "replies": 50,
+        "retweets": 65,
+        "views": 71329
+      },
+      "url": "https://x.com/elonmusk/status/2110542728631349528",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110542493909459082",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T01:25:17.000Z",
+      "created_at_shanghai": "2026-10-15 09:25:17",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "1/ I've spent weeks building my own model of what SpaceX is worth, and my honest summary is huge risk with huge reward. Elon has pulled off the impossible before, but orbital data centers are a whole new level of endeavor. I’ve bet on him before (more than a few times, and he hasn’t failed yet.) Here's what I found. (My estimates, not advice.)",
+      "quote": null,
+      "retweet": {
+        "author": "TeslaLarry",
+        "avatar": "https://pbs.twimg.com/profile_images/1991840372314525696/cHOyCMBy_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 02:35:02",
+        "created_at_utc": "2026-10-14T18:35:02.000Z",
+        "id": "2110439250869067943",
+        "images": [],
+        "media": [],
+        "name": "Larry Goldberg",
+        "text": "1/ I've spent weeks building my own model of what SpaceX is worth, and my honest summary is huge risk with huge reward. Elon has pulled off the impossible before, but orbital data centers are a whole new level of endeavor. I’ve bet on him before (more than a few times, and he hasn’t failed yet.) Here's what I found. (My estimates, not advice.)",
+        "url": "https://x.com/TeslaLarry/status/2110439250869067943",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 150,
+        "likes": 516,
+        "quotes": 6,
+        "replies": 40,
+        "retweets": 49,
+        "views": 70374
+      },
+      "url": "https://x.com/elonmusk/status/2110542493909459082",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110542125318496744",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T01:23:49.000Z",
+      "created_at_shanghai": "2026-10-15 09:23:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Voice 3.0 launches today, our frontier speech-to-speech model",
+      "quote": {
+        "author": "SpaceXSI",
+        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 01:04:57",
+        "created_at_utc": "2026-10-14T17:04:57.000Z",
+        "id": "2110416580899168305",
+        "images": [
+          "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1180,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small",
+            "width": 1974
+          }
+        ],
+        "name": "SpaceX Super Intelligence",
+        "text": "Introducing Grok Voice 3.0, the world’s most intelligent speech-to-speech model.\n\nIt excels at resolving customer calls, responds in under a second, and costs less than other frontier models.",
+        "url": "https://x.com/SpaceXSI/status/2110416580899168305",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "milichab",
+        "avatar": "https://pbs.twimg.com/profile_images/1466472908977487881/-dym5k04_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 01:05:49",
+        "created_at_utc": "2026-10-14T17:05:49.000Z",
+        "id": "2110416798567031272",
+        "images": [],
+        "media": [],
+        "name": "Andrew Milich",
+        "text": "Grok Voice 3.0 launches today, our frontier speech-to-speech model",
+        "url": "https://x.com/milichab/status/2110416798567031272",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 32,
+        "likes": 529,
+        "quotes": 1,
+        "replies": 38,
+        "retweets": 35,
+        "views": 48072
+      },
+      "url": "https://x.com/elonmusk/status/2110542125318496744",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110542050680606898",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -868,293 +1119,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110438877274259488",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T18:33:33.000Z",
-      "created_at_shanghai": "2026-10-15 02:33:33",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try Grok Voice",
-      "quote": {
-        "author": "SpaceXSI",
-        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 01:04:57",
-        "created_at_utc": "2026-10-14T17:04:57.000Z",
-        "id": "2110416580899168305",
-        "images": [
-          "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1180,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small",
-            "width": 1974
-          }
-        ],
-        "name": "SpaceX Super Intelligence",
-        "text": "Introducing Grok Voice 3.0, the world’s most intelligent speech-to-speech model.\n\nIt excels at resolving customer calls, responds in under a second, and costs less than other frontier models.",
-        "url": "https://x.com/SpaceXSI/status/2110416580899168305",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 153,
-        "likes": 2818,
-        "quotes": 51,
-        "replies": 725,
-        "retweets": 306,
-        "views": 802253
-      },
-      "url": "https://x.com/elonmusk/status/2110438877274259488",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110413877024526603",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T16:54:12.000Z",
-      "created_at_shanghai": "2026-10-15 00:54:12",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Cool",
-      "quote": {
-        "author": "Av1dlive",
-        "avatar": "https://pbs.twimg.com/profile_images/2010392290590912512/x7vtAe5W_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 19:19:46",
-        "created_at_utc": "2026-10-14T11:19:46.000Z",
-        "id": "2110329712715182092",
-        "images": [
-          "https://pbs.twimg.com/media/HUllraoXIAAsdaW.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1350,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUllraoXIAAsdaW.jpg?name=small",
-            "width": 1080
-          }
-        ],
-        "name": "Avid",
-        "text": "grok bot pretty much replaced dots and muse for running my business...\n\nhere is why : insanely simple to set up, a MASSIVE plugin library, generous usage.\n\nhere's everything i use and what it costs:\n\nrequired ($165/mo + whop's cut per sale)\n\n> money → whop plugin\n> site → vercel + github plugins\n> inbox → gmail + inbox bot (drafts, never sends)\n> crm → notion inboxes built with grok bot\n> content → x plugin + draft-only writer bots\n> video → opus 5.5 + cursor cloud agents\n> numbers → notion\n> oversight → chief of staff morning report + DOGE audits every bot\n\noptional, add when you need it\n\n> support → intercom or plain + a support inbox bot\n> ads → whop ads\n> email → klaviyo and grok bot routines \n> books → notion\n> leads → treg, hunter + scout bots\n> code → builder + reviewer bots + pstack\n> design → claude opus 5.5 + cursor cloud\n> scheduling → routines on grok bot with content calendar built by grok bot",
-        "url": "https://x.com/Av1dlive/status/2110329712715182092",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 46,
-        "likes": 742,
-        "quotes": 9,
-        "replies": 216,
-        "retweets": 91,
-        "views": 405802
-      },
-      "url": "https://x.com/elonmusk/status/2110413877024526603",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110407987856814183",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T16:30:48.000Z",
-      "created_at_shanghai": "2026-10-15 00:30:48",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Wanted to read what emails my Grok bot has but Grok bot doesn’t have email UI … so I asked Grok bot to build it for me .. pretty cool 😎 everything is clickable and you can read all grok bot emails the old way if you want to ..",
-      "quote": null,
-      "retweet": {
-        "author": "mrfundman",
-        "avatar": "https://pbs.twimg.com/profile_images/1844590451933810701/SJ70OFpA_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 10:37:14",
-        "created_at_utc": "2026-10-14T02:37:14.000Z",
-        "id": "2110198216218067183",
-        "images": [
-          "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1714,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small",
-            "width": 1320
-          }
-        ],
-        "name": "mr fundman",
-        "text": "Wanted to read what emails my Grok bot has but Grok bot doesn’t have email UI … so I asked Grok bot to build it for me .. pretty cool 😎 everything is clickable and you can read all grok bot emails the old way if you want to ..",
-        "url": "https://x.com/mrfundman/status/2110198216218067183",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 70,
-        "likes": 547,
-        "quotes": 11,
-        "replies": 70,
-        "retweets": 46,
-        "views": 108239
-      },
-      "url": "https://x.com/elonmusk/status/2110407987856814183",
-      "images": [
-        "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small",
-          "width": 1320,
-          "height": 1714
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2110407280076402980",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T16:27:59.000Z",
-      "created_at_shanghai": "2026-10-15 00:27:59",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Wokeism is the most sophisticated form of racism ever built. Not because it hates one group, but because it reduces every human being to their skin color and calls it justice.\n\nIts roots aren't mysterious. Critical theory from the Frankfurt School, French postmodernists like Foucault and Derrida, then critical legal studies on American campuses, distilled into Critical Race Theory in the 80s and 90s. The core idea: society is nothing but a power struggle between groups. The individual doesn't exist. Merit doesn't exist. Only oppressor and oppressed.\n\nAccept that premise and everything else follows. You're judged by your race before you open your mouth. Your success is privilege, your failure is oppression. That's not anti-racism. That's racism with a PhD.\n\nAnd look at who actually holds these views. Not most minorities. Only about 3% of Hispanic Americans use \"Latinx.\" Most Black Americans told Gallup they wanted the same or more police presence in their neighborhoods, not less. The \"Hidden Tribes\" study found the hard progressive activist wing is around 8% of the population, and whiter and wealthier than average. A small radicalized class speaks in the name of minorities who never asked it to.\n\nThe coalition doesn't even hold together. Feminists vs trans activists on women's sports. Asian Americans who had to go to the Supreme Court because Harvard discriminated against them in the name of diversity. A framework that keeps producing these contradictions isn't a moral philosophy. It's a hierarchy of grievances.\n\nAnd none of this grew organically. It's an industry. DEI became a multi-billion dollar market: corporate trainings, consultants, foundation grants, university bureaucracies whose budgets depend on the problem never being solved. Follow the incentives and you find an entire class of people paid to see racism everywhere. Cut the money and it starts collapsing, which is exactly what we've watched since companies began slashing DEI budgets.\n\nReal anti-racism is simple: judge people as individuals. MLK said it in 1963. Everything since that tried to replace it has been a step backwards. https://x.com/teslaownersSV/status/1884471785648972161/video/1",
-      "quote": null,
-      "retweet": {
-        "author": "brivael",
-        "avatar": "https://pbs.twimg.com/profile_images/2057241969403834368/PFPm3cxd_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 16:19:36",
-        "created_at_utc": "2026-10-14T08:19:36.000Z",
-        "id": "2110284375317271037",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/1884471726123503616/img/as4o8wUcEATu_yxv.jpg"
-        ],
-        "media": [
-          {
-            "duration": 87.348,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/1884471726123503616/img/as4o8wUcEATu_yxv.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/1884471726123503616/vid/avc1/1282x720/tKasO-_DrEIvuvcK.mp4?tag=16",
-            "width": 1282
-          }
-        ],
-        "name": "Brivael Le Pogam",
-        "text": "Wokeism is the most sophisticated form of racism ever built. Not because it hates one group, but because it reduces every human being to their skin color and calls it justice.\n\nIts roots aren't mysterious. Critical theory from the Frankfurt School, French postmodernists like Foucault and Derrida, then critical legal studies on American campuses, distilled into Critical Race Theory in the 80s and 90s. The core idea: society is nothing but a power struggle between groups. The individual doesn't exist. Merit doesn't exist. Only oppressor and oppressed.\n\nAccept that premise and everything else follows. You're judged by your race before you open your mouth. Your success is privilege, your failure is oppression. That's not anti-racism. That's racism with a PhD.\n\nAnd look at who actually holds these views. Not most minorities. Only about 3% of Hispanic Americans use \"Latinx.\" Most Black Americans told Gallup they wanted the same or more police presence in their neighborhoods, not less. The \"Hidden Tribes\" study found the hard progressive activist wing is around 8% of the population, and whiter and wealthier than average. A small radicalized class speaks in the name of minorities who never asked it to.\n\nThe coalition doesn't even hold together. Feminists vs trans activists on women's sports. Asian Americans who had to go to the Supreme Court because Harvard discriminated against them in the name of diversity. A framework that keeps producing these contradictions isn't a moral philosophy. It's a hierarchy of grievances.\n\nAnd none of this grew organically. It's an industry. DEI became a multi-billion dollar market: corporate trainings, consultants, foundation grants, university bureaucracies whose budgets depend on the problem never being solved. Follow the incentives and you find an entire class of people paid to see racism everywhere. Cut the money and it starts collapsing, which is exactly what we've watched since companies began slashing DEI budgets.\n\nReal anti-racism is simple: judge people as individuals. MLK said it in 1963. Everything since that tried to replace it has been a step backwards. https://x.com/teslaownersSV/status/1884471785648972161/video/1",
-        "url": "https://x.com/brivael/status/2110284375317271037",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 263,
-        "likes": 1457,
-        "quotes": 28,
-        "replies": 77,
-        "retweets": 340,
-        "views": 105630
-      },
-      "url": "https://x.com/elonmusk/status/2110407280076402980",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/1884471726123503616/img/as4o8wUcEATu_yxv.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/1884471726123503616/vid/avc1/1282x720/tKasO-_DrEIvuvcK.mp4?tag=16",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/1884471726123503616/img/as4o8wUcEATu_yxv.jpg",
-          "width": 1282,
-          "height": 720,
-          "duration": 87.348
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2110403469249323449",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T16:12:51.000Z",
-      "created_at_shanghai": "2026-10-15 00:12:51",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "【速報🎉】世界で最も売れている車、テスラModel Yが、2026年9月度においても、引き続き国内外国車ブランド車種別No.1を獲得し、日本の皆さまから信頼されるブランドへと成長しています。\n\nテスラでは、皆さまの試乗体験を心よりお待ちしております。\n\n👨「EVって実際どうなんだろう？」\n👩「自分の生活でも充電の心配はない？」\n\nそんな素朴な質問からで大丈夫です。\nお客様のニーズやご懸念に応じて全てお答えできるプロのアドバイザーがお待ちしておりますので、ぜひお気軽に最寄りの店舗、お出かけ先の店舗にお立ち寄りください。\nスタッフともども、皆さまのご来店を心よりお待ちしております。\n\nhttps://www.tesla.com/ja_JP/drive",
-      "quote": null,
-      "retweet": {
-        "author": "teslajapan",
-        "avatar": "https://pbs.twimg.com/profile_images/1443955157322977284/Buzbx7DG_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 17:28:25",
-        "created_at_utc": "2026-10-14T09:28:25.000Z",
-        "id": "2110301690134179865",
-        "images": [
-          "https://pbs.twimg.com/media/HUlMM2cbUAA3SIF.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1080,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUlMM2cbUAA3SIF.jpg?name=small",
-            "width": 1920
-          }
-        ],
-        "name": "Tesla Japan",
-        "text": "【速報🎉】世界で最も売れている車、テスラModel Yが、2026年9月度においても、引き続き国内外国車ブランド車種別No.1を獲得し、日本の皆さまから信頼されるブランドへと成長しています。\n\nテスラでは、皆さまの試乗体験を心よりお待ちしております。\n\n👨「EVって実際どうなんだろう？」\n👩「自分の生活でも充電の心配はない？」\n\nそんな素朴な質問からで大丈夫です。\nお客様のニーズやご懸念に応じて全てお答えできるプロのアドバイザーがお待ちしておりますので、ぜひお気軽に最寄りの店舗、お出かけ先の店舗にお立ち寄りください。\nスタッフともども、皆さまのご来店を心よりお待ちしております。\n\nhttps://www.tesla.com/ja_JP/drive",
-        "url": "https://x.com/teslajapan/status/2110301690134179865",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 28,
-        "likes": 1564,
-        "quotes": 23,
-        "replies": 92,
-        "retweets": 201,
-        "views": 151270
-      },
-      "url": "https://x.com/elonmusk/status/2110403469249323449",
-      "images": [
-        "https://pbs.twimg.com/media/HUlMM2cbUAA3SIF.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUlMM2cbUAA3SIF.jpg?name=small",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 11,
   "page_size": 20,
-  "total": 1133,
+  "total": 1138,
   "total_pages": 57,
-  "updated_at_shanghai": "2026-10-18 12:47:18",
+  "updated_at_shanghai": "2026-10-18 17:08:43",
   "account": "elonmusk"
 }
