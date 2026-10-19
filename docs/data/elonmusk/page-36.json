@@ -1,6 +1,136 @@
 {
   "posts": [
     {
+      "id": "2107030436103045282",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-05T08:49:37.000Z",
+      "created_at_shanghai": "2026-10-05 16:49:37",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 is now available on Amazon Bedrock and on Google's Gemini Enterprise Agent Platform.\n\nBoth platforms already offered Grok 4.6. Grok 4.7 is SpaceXAI's model for coding and knowledge work, and its docs call it the most capable model SpaceXAI has built.\n\nOn the xAI API, Grok 4.7 has a 500k context window and costs $2 input and $6 output per million tokens below 200k prompt tokens.",
+      "quote": null,
+      "retweet": {
+        "author": "tetsuoai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg",
+        "created_at_shanghai": "2026-10-05 06:29:03",
+        "created_at_utc": "2026-10-04T22:29:03.000Z",
+        "id": "2106874267019440441",
+        "images": [
+          "https://pbs.twimg.com/media/HT0ehqUbMAA0Ybk.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2160,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HT0ehqUbMAA0Ybk.jpg?name=small",
+            "width": 2160
+          }
+        ],
+        "name": "tetsuo",
+        "text": "Grok 4.7 is now available on Amazon Bedrock and on Google's Gemini Enterprise Agent Platform.\n\nBoth platforms already offered Grok 4.6. Grok 4.7 is SpaceXAI's model for coding and knowledge work, and its docs call it the most capable model SpaceXAI has built.\n\nOn the xAI API, Grok 4.7 has a 500k context window and costs $2 input and $6 output per million tokens below 200k prompt tokens.",
+        "url": "https://x.com/tetsuoai/status/2106874267019440441",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 10,
+        "likes": 236,
+        "quotes": 4,
+        "replies": 31,
+        "retweets": 32,
+        "views": 14525
+      },
+      "url": "https://x.com/elonmusk/status/2107030436103045282",
+      "images": [
+        "https://pbs.twimg.com/media/HT0ehqUbMAA0Ybk.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HT0ehqUbMAA0Ybk.jpg?name=small",
+          "width": 2160,
+          "height": 2160
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2107029927589470636",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-05T08:47:36.000Z",
+      "created_at_shanghai": "2026-10-05 16:47:36",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "USAID engaged in election interference and regime change around the world, causing massive strife",
+      "quote": {
+        "author": "MikeBenzCyber",
+        "avatar": "https://pbs.twimg.com/profile_images/1599999101961224197/uBSpyKN0_200x200.jpg",
+        "created_at_shanghai": "2025-08-19 19:17:43",
+        "created_at_utc": "2025-08-19T11:17:43.000Z",
+        "id": "1957763907340120346",
+        "images": [
+          "https://pbs.twimg.com/media/Gytf5VaWgAAZcHb.jpg?name=small",
+          "https://pbs.twimg.com/media/Gytf5VeW4AAkYGr.jpg?name=small",
+          "https://pbs.twimg.com/media/Gytf5VbXsAAqiqx.jpg?name=small",
+          "https://pbs.twimg.com/media/Gytf5VZWwAAHCKo.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 455,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/Gytf5VaWgAAZcHb.jpg?name=small",
+            "width": 1170
+          },
+          {
+            "height": 491,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/Gytf5VeW4AAkYGr.jpg?name=small",
+            "width": 1170
+          },
+          {
+            "height": 477,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/Gytf5VbXsAAqiqx.jpg?name=small",
+            "width": 1170
+          },
+          {
+            "height": 303,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/Gytf5VZWwAAHCKo.jpg?name=small",
+            "width": 1170
+          }
+        ],
+        "name": "Mike Benz",
+        "text": "Here’s a shocking statistic you may not know. USAID more than doubled its spending on Brazil as soon Bolsonaro won their 2018 election. This was not because Brazil suddenly needed twice the aid. The money was spent on projects in Brazil to undermine Bolsonaro.",
+        "url": "https://x.com/MikeBenzCyber/status/1957763907340120346",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 38,
+        "likes": 469,
+        "quotes": 5,
+        "replies": 101,
+        "retweets": 129,
+        "views": 300643
+      },
+      "url": "https://x.com/elonmusk/status/2107029927589470636",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2106986386997891567",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -978,142 +1108,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2106770571920871655",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-04T15:37:00.000Z",
-      "created_at_shanghai": "2026-10-04 23:37:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "SpaceXAI engineer, Lauren Tan:\n\n\"I was a meat proxy between my agent and my browser. So I fired myself\n\nNow 10+ Chiefs of Staff run my agents 24/7 and I just check the work in the morning\"\n\nIn 1 hour, she shows exactly how she built that dark factory with GrokBot\n\nSkills → Verification → Loops → GrokBot → Dark Factory\n\nMost engineers still babysit one agent. She fired herself from that job\n\nThis talk is worth more than most $1,500 agentic engineering courses\n\nBookmark and watch it today\n\nThen read how to hire your first team of Grok Bots in the article below ↓",
-      "quote": {
-        "author": "distortgeekin",
-        "avatar": "https://pbs.twimg.com/profile_images/2100904075550158848/Zrqh521I_200x200.jpg",
-        "created_at_shanghai": "2026-09-30 20:35:43",
-        "created_at_utc": "2026-09-30T12:35:43.000Z",
-        "id": "2105275395901726845",
-        "images": [],
-        "media": [],
-        "name": "distort",
-        "text": "Grok Bot could be the first thing you hire instead of prompt\n\nIt can own a job, work inside your tools for hours and come back with finished work\n\nIn this article, I show you how https://x.com/i/article/2105262478535847936",
-        "url": "https://x.com/distortgeekin/status/2105275395901726845",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "distortgeekin",
-        "avatar": "https://pbs.twimg.com/profile_images/2100904075550158848/Zrqh521I_200x200.jpg",
-        "created_at_shanghai": "2026-10-04 22:00:09",
-        "created_at_utc": "2026-10-04T14:00:09.000Z",
-        "id": "2106746198082088970",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2106745223195820032/img/mV4fA81qq0IuI6yQ.jpg"
-        ],
-        "media": [
-          {
-            "duration": 3845.206,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106745223195820032/img/mV4fA81qq0IuI6yQ.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2106745223195820032/vid/avc1/1286x720/hcLxzFjMGjbDvhyW.mp4?tag=29",
-            "width": 1286
-          }
-        ],
-        "name": "distort",
-        "text": "SpaceXAI engineer, Lauren Tan:\n\n\"I was a meat proxy between my agent and my browser. So I fired myself\n\nNow 10+ Chiefs of Staff run my agents 24/7 and I just check the work in the morning\"\n\nIn 1 hour, she shows exactly how she built that dark factory with GrokBot\n\nSkills → Verification → Loops → GrokBot → Dark Factory\n\nMost engineers still babysit one agent. She fired herself from that job\n\nThis talk is worth more than most $1,500 agentic engineering courses\n\nBookmark and watch it today\n\nThen read how to hire your first team of Grok Bots in the article below ↓",
-        "url": "https://x.com/distortgeekin/status/2106746198082088970",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 266,
-        "likes": 278,
-        "quotes": 3,
-        "replies": 31,
-        "retweets": 41,
-        "views": 41642
-      },
-      "url": "https://x.com/elonmusk/status/2106770571920871655",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2106745223195820032/img/mV4fA81qq0IuI6yQ.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2106745223195820032/vid/avc1/1286x720/hcLxzFjMGjbDvhyW.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106745223195820032/img/mV4fA81qq0IuI6yQ.jpg",
-          "width": 1286,
-          "height": 720,
-          "duration": 3845.206
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2106770444468797749",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-04T15:36:30.000Z",
-      "created_at_shanghai": "2026-10-04 23:36:30",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok is now making all boring stuff for me.\n\nFor Argil.\n\nFor personal stuff.\n\nIt’s like having a 10-person S-tier team working for me.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-04 23:01:38",
-        "created_at_utc": "2026-10-04T15:01:38.000Z",
-        "id": "2106761668256759878",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Grok",
-        "url": "https://x.com/elonmusk/status/2106761668256759878",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "brivael",
-        "avatar": "https://pbs.twimg.com/profile_images/2057241969403834368/PFPm3cxd_200x200.jpg",
-        "created_at_shanghai": "2026-10-04 23:14:05",
-        "created_at_utc": "2026-10-04T15:14:05.000Z",
-        "id": "2106764802643161266",
-        "images": [],
-        "media": [],
-        "name": "Brivael Le Pogam",
-        "text": "Grok is now making all boring stuff for me.\n\nFor Argil.\n\nFor personal stuff.\n\nIt’s like having a 10-person S-tier team working for me.",
-        "url": "https://x.com/brivael/status/2106764802643161266",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 15,
-        "likes": 250,
-        "quotes": 0,
-        "replies": 38,
-        "retweets": 35,
-        "views": 33408
-      },
-      "url": "https://x.com/elonmusk/status/2106770444468797749",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 36,
   "page_size": 20,
-  "total": 1175,
+  "total": 1177,
   "total_pages": 59,
-  "updated_at_shanghai": "2026-10-20 02:46:58",
+  "updated_at_shanghai": "2026-10-20 06:39:14",
   "account": "elonmusk"
 }

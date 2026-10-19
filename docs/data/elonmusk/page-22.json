@@ -1,6 +1,128 @@
 {
   "posts": [
     {
+      "id": "2108936693336187103",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T15:04:24.000Z",
+      "created_at_shanghai": "2026-10-10 23:04:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Excited to finally ship this to GA (and sorry for gatekeeping initially 😅)!\n\nSome of my favorite use cases so far:\n • Grok Bots talking to other Grok Bots over email!\n • Customized daily newsletters delivered straight to your inbox\n • Grok Bot as an executive assistant coordinating all your meetings\n\nLooking forward to seeing your favorite ways to email your Bot! And please share any and all feedback as usual! 📩",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 01:25:18",
+        "created_at_utc": "2026-10-09T17:25:18.000Z",
+        "id": "2108609764766908772",
+        "images": [
+          "https://pbs.twimg.com/media/HUNJGCXWsAA1hfT.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2364,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUNJGCXWsAA1hfT.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot now has its own email.\n\nBot can use it to sign up for services, contact businesses for you, or schedule time with someone.",
+        "url": "https://x.com/bot/status/2108609764766908772",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "SamSokolin",
+        "avatar": "https://pbs.twimg.com/profile_images/1992102498992046080/mzxbE_za_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 01:39:13",
+        "created_at_utc": "2026-10-09T17:39:13.000Z",
+        "id": "2108613268411465893",
+        "images": [],
+        "media": [],
+        "name": "Sam Sokolin",
+        "text": "Excited to finally ship this to GA (and sorry for gatekeeping initially 😅)!\n\nSome of my favorite use cases so far:\n • Grok Bots talking to other Grok Bots over email!\n • Customized daily newsletters delivered straight to your inbox\n • Grok Bot as an executive assistant coordinating all your meetings\n\nLooking forward to seeing your favorite ways to email your Bot! And please share any and all feedback as usual! 📩",
+        "url": "https://x.com/SamSokolin/status/2108613268411465893",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 183,
+        "likes": 1011,
+        "quotes": 8,
+        "replies": 103,
+        "retweets": 107,
+        "views": 296419
+      },
+      "url": "https://x.com/elonmusk/status/2108936693336187103",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108935855222276474",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T15:01:04.000Z",
+      "created_at_shanghai": "2026-10-10 23:01:04",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Fate loves irony.\n\nSi is silicon on the periodic table.",
+      "quote": null,
+      "retweet": {
+        "author": "teslayoda",
+        "avatar": "https://pbs.twimg.com/profile_images/2000259921309278210/hkktXghC_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 07:33:46",
+        "created_at_utc": "2026-10-09T23:33:46.000Z",
+        "id": "2108702491374424347",
+        "images": [
+          "https://pbs.twimg.com/media/HUOduazbUAA3mjf.png?name=small"
+        ],
+        "media": [
+          {
+            "height": 700,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUOduazbUAA3mjf.png?name=small",
+            "width": 678
+          }
+        ],
+        "name": "Yoda",
+        "text": "Fate loves irony.\n\nSi is silicon on the periodic table.",
+        "url": "https://x.com/teslayoda/status/2108702491374424347",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 280,
+        "likes": 3880,
+        "quotes": 128,
+        "replies": 283,
+        "retweets": 458,
+        "views": 298034
+      },
+      "url": "https://x.com/elonmusk/status/2108935855222276474",
+      "images": [
+        "https://pbs.twimg.com/media/HUOduazbUAA3mjf.png?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUOduazbUAA3mjf.png?name=small",
+          "width": 678,
+          "height": 700
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2108935780865552649",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1033,116 +1155,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108782131845755156",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T04:50:14.000Z",
-      "created_at_shanghai": "2026-10-10 12:50:14",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Good writer",
-      "quote": {
-        "author": "liel",
-        "avatar": "https://pbs.twimg.com/profile_images/1750868080622739456/rd376KuW_200x200.jpg",
-        "created_at_shanghai": "2026-10-10 04:03:20",
-        "created_at_utc": "2026-10-09T20:03:20.000Z",
-        "id": "2108649532611498340",
-        "images": [],
-        "media": [],
-        "name": "liel leibovitz",
-        "text": "I stepped out of \"Musk,\" an operatically stupid four-hour hit piece, admiring @elonmusk more than ever before. It's an inadvertant love song to American innovation as told by the dumb losers who build nothing and complain about everything.\nhttps://www.thefp.com/p/elon-musk-new-documentary-enemies-best-case",
-        "url": "https://x.com/liel/status/2108649532611498340",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 180,
-        "likes": 3616,
-        "quotes": 21,
-        "replies": 354,
-        "retweets": 315,
-        "views": 1920434
-      },
-      "url": "https://x.com/elonmusk/status/2108782131845755156",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108779281656815733",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T04:38:54.000Z",
-      "created_at_shanghai": "2026-10-10 12:38:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "When @Starlink helped save a woman’s life in rural Kentucky. ❤️\n\nA woman suffered a heart attack during a school basketball tournament. The phone lines had been cut, internet service was down, and there was no cell coverage.\n\nStaff used Starlink to contact emergency dispatch and get an ambulance to her. Without that connection, reaching cell coverage would have taken an estimated 15 to 20 minutes.\n\nHer daughter later said “getting her medical help in time saved her life.”\n\nStarlink is a lifesaving technology. Everyone deserves access to a connection that could save their life.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-10 01:59:06",
-        "created_at_utc": "2026-10-09T17:59:06.000Z",
-        "id": "2108618271008428257",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108617733621592064/img/P694mevp4GrBx7RX.jpg"
-        ],
-        "media": [
-          {
-            "duration": 267.551,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108617733621592064/img/P694mevp4GrBx7RX.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108617733621592064/vid/avc1/1920x1080/eE509P28PgA3MvS7.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "When @Starlink helped save a woman’s life in rural Kentucky. ❤️\n\nA woman suffered a heart attack during a school basketball tournament. The phone lines had been cut, internet service was down, and there was no cell coverage.\n\nStaff used Starlink to contact emergency dispatch and get an ambulance to her. Without that connection, reaching cell coverage would have taken an estimated 15 to 20 minutes.\n\nHer daughter later said “getting her medical help in time saved her life.”\n\nStarlink is a lifesaving technology. Everyone deserves access to a connection that could save their life.",
-        "url": "https://x.com/cb_doge/status/2108618271008428257",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 50,
-        "likes": 1619,
-        "quotes": 26,
-        "replies": 218,
-        "retweets": 283,
-        "views": 260249
-      },
-      "url": "https://x.com/elonmusk/status/2108779281656815733",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2108617733621592064/img/P694mevp4GrBx7RX.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2108617733621592064/vid/avc1/1920x1080/eE509P28PgA3MvS7.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108617733621592064/img/P694mevp4GrBx7RX.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 267.551
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 22,
   "page_size": 20,
-  "total": 1175,
+  "total": 1177,
   "total_pages": 59,
-  "updated_at_shanghai": "2026-10-20 02:46:58",
+  "updated_at_shanghai": "2026-10-20 06:39:14",
   "account": "elonmusk"
 }

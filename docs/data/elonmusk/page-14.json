@@ -1,6 +1,115 @@
 {
   "posts": [
     {
+      "id": "2110413877024526603",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T16:54:12.000Z",
+      "created_at_shanghai": "2026-10-15 00:54:12",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Cool",
+      "quote": {
+        "author": "Av1dlive",
+        "avatar": "https://pbs.twimg.com/profile_images/2010392290590912512/x7vtAe5W_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 19:19:46",
+        "created_at_utc": "2026-10-14T11:19:46.000Z",
+        "id": "2110329712715182092",
+        "images": [
+          "https://pbs.twimg.com/media/HUllraoXIAAsdaW.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1350,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUllraoXIAAsdaW.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "Avid",
+        "text": "grok bot pretty much replaced dots and muse for running my business...\n\nhere is why : insanely simple to set up, a MASSIVE plugin library, generous usage.\n\nhere's everything i use and what it costs:\n\nrequired ($165/mo + whop's cut per sale)\n\n> money → whop plugin\n> site → vercel + github plugins\n> inbox → gmail + inbox bot (drafts, never sends)\n> crm → notion inboxes built with grok bot\n> content → x plugin + draft-only writer bots\n> video → opus 5.5 + cursor cloud agents\n> numbers → notion\n> oversight → chief of staff morning report + DOGE audits every bot\n\noptional, add when you need it\n\n> support → intercom or plain + a support inbox bot\n> ads → whop ads\n> email → klaviyo and grok bot routines \n> books → notion\n> leads → treg, hunter + scout bots\n> code → builder + reviewer bots + pstack\n> design → claude opus 5.5 + cursor cloud\n> scheduling → routines on grok bot with content calendar built by grok bot",
+        "url": "https://x.com/Av1dlive/status/2110329712715182092",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 46,
+        "likes": 742,
+        "quotes": 9,
+        "replies": 216,
+        "retweets": 91,
+        "views": 405802
+      },
+      "url": "https://x.com/elonmusk/status/2110413877024526603",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110407987856814183",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T16:30:48.000Z",
+      "created_at_shanghai": "2026-10-15 00:30:48",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Wanted to read what emails my Grok bot has but Grok bot doesn’t have email UI … so I asked Grok bot to build it for me .. pretty cool 😎 everything is clickable and you can read all grok bot emails the old way if you want to ..",
+      "quote": null,
+      "retweet": {
+        "author": "mrfundman",
+        "avatar": "https://pbs.twimg.com/profile_images/1844590451933810701/SJ70OFpA_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 10:37:14",
+        "created_at_utc": "2026-10-14T02:37:14.000Z",
+        "id": "2110198216218067183",
+        "images": [
+          "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1714,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small",
+            "width": 1320
+          }
+        ],
+        "name": "mr fundman",
+        "text": "Wanted to read what emails my Grok bot has but Grok bot doesn’t have email UI … so I asked Grok bot to build it for me .. pretty cool 😎 everything is clickable and you can read all grok bot emails the old way if you want to ..",
+        "url": "https://x.com/mrfundman/status/2110198216218067183",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 70,
+        "likes": 547,
+        "quotes": 11,
+        "replies": 70,
+        "retweets": 46,
+        "views": 108239
+      },
+      "url": "https://x.com/elonmusk/status/2110407987856814183",
+      "images": [
+        "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small",
+          "width": 1320,
+          "height": 1714
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110407280076402980",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1012,112 +1121,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110238184705798520",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T05:16:04.000Z",
-      "created_at_shanghai": "2026-10-14 13:16:04",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Suggestion for you:\n\nPick an agent for work, and pick an agent for personal.\n\nYou could explore to do this all with Grok Bot (with many different types of bots)\n\nPersonally, I like @bot for work, and @Muse for personal agents.\n\nIt helps to create a clean separation for me.\n\nHere are some reasons why Grok for Work:\n\n- Grok is very good at coding, so if you want your bot to help you do engineering / building, Grok beats muse.\n\n- Groks VM / Browser is very strong. I love it for deeper tasks that are work releated.\n\n- Groks integration with X is goated. And I use X heavily for work.\n\nHere are some reasons why @Muse for personal: \n\n- The simplicity with one agent who knows all is awesome\n\n- The pricing is either free, or very cheap\n\n- They have a history of keeping your private data safe\n\n- They are focused on building personal agents, including training their models this way\n\n- It gives me enough permissions to control my agents at the personal level \n\n- Building personal software within the app is so easy and well suited for personal use cases \n\n- Meta is all in on personal agents, which means significant resources being poured into product advancements (your agent gets better every day)\n\n- Muse SDK allowing my agent to go with me on many devices is the right direction\n\n- Meta's Sunglasses gets way more interesting once Muse is supported.",
-      "quote": null,
-      "retweet": {
-        "author": "JJEnglert",
-        "avatar": "https://pbs.twimg.com/profile_images/2020688928215646208/w1dcfnp3_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 23:32:00",
-        "created_at_utc": "2026-10-13T15:32:00.000Z",
-        "id": "2110030804243857578",
-        "images": [],
-        "media": [],
-        "name": "JJ Englert",
-        "text": "Suggestion for you:\n\nPick an agent for work, and pick an agent for personal.\n\nYou could explore to do this all with Grok Bot (with many different types of bots)\n\nPersonally, I like @bot for work, and @Muse for personal agents.\n\nIt helps to create a clean separation for me.\n\nHere are some reasons why Grok for Work:\n\n- Grok is very good at coding, so if you want your bot to help you do engineering / building, Grok beats muse.\n\n- Groks VM / Browser is very strong. I love it for deeper tasks that are work releated.\n\n- Groks integration with X is goated. And I use X heavily for work.\n\nHere are some reasons why @Muse for personal: \n\n- The simplicity with one agent who knows all is awesome\n\n- The pricing is either free, or very cheap\n\n- They have a history of keeping your private data safe\n\n- They are focused on building personal agents, including training their models this way\n\n- It gives me enough permissions to control my agents at the personal level \n\n- Building personal software within the app is so easy and well suited for personal use cases \n\n- Meta is all in on personal agents, which means significant resources being poured into product advancements (your agent gets better every day)\n\n- Muse SDK allowing my agent to go with me on many devices is the right direction\n\n- Meta's Sunglasses gets way more interesting once Muse is supported.",
-        "url": "https://x.com/JJEnglert/status/2110030804243857578",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 91,
-        "likes": 380,
-        "quotes": 6,
-        "replies": 47,
-        "retweets": 54,
-        "views": 104519
-      },
-      "url": "https://x.com/elonmusk/status/2110238184705798520",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110225444717174932",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T04:25:26.000Z",
-      "created_at_shanghai": "2026-10-14 12:25:26",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot or ChatGPT Dots?\n\nBe honest…",
-      "quote": null,
-      "retweet": {
-        "author": "ConnorTalksAI",
-        "avatar": "https://pbs.twimg.com/profile_images/2072770014290059264/WE2Iad86_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 08:08:04",
-        "created_at_utc": "2026-10-14T00:08:04.000Z",
-        "id": "2110160673586008537",
-        "images": [
-          "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 941,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small",
-            "width": 1672
-          }
-        ],
-        "name": "Connor",
-        "text": "Grok Bot or ChatGPT Dots?\n\nBe honest…",
-        "url": "https://x.com/ConnorTalksAI/status/2110160673586008537",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 37,
-        "likes": 610,
-        "quotes": 9,
-        "replies": 228,
-        "retweets": 61,
-        "views": 174940
-      },
-      "url": "https://x.com/elonmusk/status/2110225444717174932",
-      "images": [
-        "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small",
-          "width": 1672,
-          "height": 941
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 20,
-  "total": 1175,
+  "total": 1177,
   "total_pages": 59,
-  "updated_at_shanghai": "2026-10-20 02:46:58",
+  "updated_at_shanghai": "2026-10-20 06:39:14",
   "account": "elonmusk"
 }
