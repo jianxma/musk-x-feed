@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2110923749138842065",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T02:40:15.000Z",
+      "created_at_shanghai": "2026-10-16 10:40:15",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Real life, baby",
+      "quote": null,
+      "retweet": {
+        "author": "Tesla",
+        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
+        "created_at_shanghai": "2026-10-16 09:59:17",
+        "created_at_utc": "2026-10-16T01:59:17.000Z",
+        "id": "2110913438293647789",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110913252045545472/img/PHzfDPCgX86XBiSv.jpg"
+        ],
+        "media": [
+          {
+            "duration": 45.628,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110913252045545472/img/PHzfDPCgX86XBiSv.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110913252045545472/vid/avc1/3840x2160/oYMAo23puh5cosQz.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Tesla",
+        "text": "Real life, baby",
+        "url": "https://x.com/Tesla/status/2110913438293647789",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 21912,
+        "likes": 215136,
+        "quotes": 10728,
+        "replies": 4650,
+        "retweets": 29212,
+        "views": 9360628
+      },
+      "url": "https://x.com/elonmusk/status/2110923749138842065",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110913252045545472/img/PHzfDPCgX86XBiSv.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110913252045545472/vid/avc1/3840x2160/oYMAo23puh5cosQz.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110913252045545472/img/PHzfDPCgX86XBiSv.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 45.628
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110923689797808453",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1004,62 +1067,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110852392304402860",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T21:56:42.000Z",
-      "created_at_shanghai": "2026-10-16 05:56:42",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "𝕏 is the global town square. \n\nNo place better to reach the world fast!",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 22:40:17",
-        "created_at_utc": "2026-10-15T14:40:17.000Z",
-        "id": "2110742562135044151",
-        "images": [
-          "https://pbs.twimg.com/media/HUrdK8CbMAEBKo1.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1125,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUrdK8CbMAEBKo1.jpg?name=small",
-            "width": 1125
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Rockstar Games posted its GTA 6 promo on YouTube and 𝕏. Just 90 minutes later:\n\n𝕏: 7.5 million views\nYouTube: 1.6 million views\n\nNearly 4.7 times as many reported views on 𝕏.",
-        "url": "https://x.com/cb_doge/status/2110742562135044151",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 106,
-        "likes": 3847,
-        "quotes": 63,
-        "replies": 631,
-        "retweets": 437,
-        "views": 461266
-      },
-      "url": "https://x.com/elonmusk/status/2110852392304402860",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 9,
   "page_size": 20,
-  "total": 1192,
+  "total": 1193,
   "total_pages": 60,
-  "updated_at_shanghai": "2026-10-20 14:03:11",
+  "updated_at_shanghai": "2026-10-20 23:41:42",
   "account": "elonmusk"
 }

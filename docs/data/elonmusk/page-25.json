@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2108545259403952438",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-09T13:08:59.000Z",
+      "created_at_shanghai": "2026-10-09 21:08:59",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Why open-weight models that compress margins at the model layer are net positive for AI infra demand, exhibit 1001.\n\nAn open-weight token consumes *roughly* the same amount of compute as a frontier token for a similar size model.",
+      "quote": null,
+      "retweet": {
+        "author": "GavinSBaker",
+        "avatar": "https://pbs.twimg.com/profile_images/1396219525754937345/5L4n5L3O_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 19:55:04",
+        "created_at_utc": "2026-10-09T11:55:04.000Z",
+        "id": "2108526656902091103",
+        "images": [
+          "https://pbs.twimg.com/media/HUL90YtWgAAvtsL.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 898,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUL90YtWgAAvtsL.jpg?name=small",
+            "width": 1089
+          }
+        ],
+        "name": "Gavin Baker",
+        "text": "Why open-weight models that compress margins at the model layer are net positive for AI infra demand, exhibit 1001.\n\nAn open-weight token consumes *roughly* the same amount of compute as a frontier token for a similar size model.",
+        "url": "https://x.com/GavinSBaker/status/2108526656902091103",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 374,
+        "likes": 1484,
+        "quotes": 52,
+        "replies": 148,
+        "retweets": 175,
+        "views": 285788
+      },
+      "url": "https://x.com/elonmusk/status/2108545259403952438",
+      "images": [
+        "https://pbs.twimg.com/media/HUL90YtWgAAvtsL.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUL90YtWgAAvtsL.jpg?name=small",
+          "width": 1089,
+          "height": 898
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2108462793112371679",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -968,75 +1027,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108308944049389953",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T21:29:57.000Z",
-      "created_at_shanghai": "2026-10-09 05:29:57",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Big day for @Starlink Mobile…",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 04:19:10",
-        "created_at_utc": "2026-10-08T20:19:10.000Z",
-        "id": "2108291133025698301",
-        "images": [
-          "https://pbs.twimg.com/media/HUInfyJacAAgC1_.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUInfyJacAAgC1_.jpg?name=small",
-            "width": 3072
-          }
-        ],
-        "name": "SpaceX",
-        "text": "We announced an agreement to acquire a nationwide low-band spectrum license portfolio that will pave the way for @Starlink to become a major mobile carrier in the US.\n\nWith this new spectrum and our Gen2 constellation, Starlink Mobile can ensure Americans have access to high-speed mobile broadband no matter where they are → http://spacex.com/updates#starlink-mobile-spectrum",
-        "url": "https://x.com/SpaceX/status/2108291133025698301",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "michaelnicollsx",
-        "avatar": "https://pbs.twimg.com/profile_images/1745990658014302208/ah3HZFQE_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 04:51:56",
-        "created_at_utc": "2026-10-08T20:51:56.000Z",
-        "id": "2108299376682738089",
-        "images": [],
-        "media": [],
-        "name": "Michael Nicolls",
-        "text": "Big day for @Starlink Mobile…",
-        "url": "https://x.com/michaelnicollsx/status/2108299376682738089",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 27,
-        "likes": 860,
-        "quotes": 8,
-        "replies": 63,
-        "retweets": 116,
-        "views": 72625
-      },
-      "url": "https://x.com/elonmusk/status/2108308944049389953",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 20,
-  "total": 1192,
+  "total": 1193,
   "total_pages": 60,
-  "updated_at_shanghai": "2026-10-20 14:03:11",
+  "updated_at_shanghai": "2026-10-20 23:41:42",
   "account": "elonmusk"
 }

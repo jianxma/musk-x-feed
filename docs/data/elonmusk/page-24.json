@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108768021527613825",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T03:54:10.000Z",
+      "created_at_shanghai": "2026-10-10 11:54:10",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Obviously",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 11:53:21",
+        "created_at_utc": "2026-10-10T03:53:21.000Z",
+        "id": "2108767817390592266",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@ArthurMacwaters I stole the plan from @SouthPark",
+        "url": "https://x.com/elonmusk/status/2108767817390592266",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 174,
+        "likes": 5396,
+        "quotes": 48,
+        "replies": 683,
+        "retweets": 414,
+        "views": 1892618
+      },
+      "url": "https://x.com/elonmusk/status/2108768021527613825",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108761471056515429",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1026,71 +1067,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108545259403952438",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-09T13:08:59.000Z",
-      "created_at_shanghai": "2026-10-09 21:08:59",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Why open-weight models that compress margins at the model layer are net positive for AI infra demand, exhibit 1001.\n\nAn open-weight token consumes *roughly* the same amount of compute as a frontier token for a similar size model.",
-      "quote": null,
-      "retweet": {
-        "author": "GavinSBaker",
-        "avatar": "https://pbs.twimg.com/profile_images/1396219525754937345/5L4n5L3O_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 19:55:04",
-        "created_at_utc": "2026-10-09T11:55:04.000Z",
-        "id": "2108526656902091103",
-        "images": [
-          "https://pbs.twimg.com/media/HUL90YtWgAAvtsL.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 898,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUL90YtWgAAvtsL.jpg?name=small",
-            "width": 1089
-          }
-        ],
-        "name": "Gavin Baker",
-        "text": "Why open-weight models that compress margins at the model layer are net positive for AI infra demand, exhibit 1001.\n\nAn open-weight token consumes *roughly* the same amount of compute as a frontier token for a similar size model.",
-        "url": "https://x.com/GavinSBaker/status/2108526656902091103",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 374,
-        "likes": 1484,
-        "quotes": 52,
-        "replies": 148,
-        "retweets": 175,
-        "views": 285788
-      },
-      "url": "https://x.com/elonmusk/status/2108545259403952438",
-      "images": [
-        "https://pbs.twimg.com/media/HUL90YtWgAAvtsL.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUL90YtWgAAvtsL.jpg?name=small",
-          "width": 1089,
-          "height": 898
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 24,
   "page_size": 20,
-  "total": 1192,
+  "total": 1193,
   "total_pages": 60,
-  "updated_at_shanghai": "2026-10-20 14:03:11",
+  "updated_at_shanghai": "2026-10-20 23:41:42",
   "account": "elonmusk"
 }

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110403395203006770",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T16:12:33.000Z",
+      "created_at_shanghai": "2026-10-15 00:12:33",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Proud to partner with Rick Caruso to reopen The Bay theater in the Pacific Palisades.  \n\nhttps://www.hollywoodreporter.com/business/business-news/paramount-bay-theater-pacific-palisades-1236729134/",
+      "quote": null,
+      "retweet": {
+        "author": "davidellison",
+        "avatar": "https://pbs.twimg.com/profile_images/2106002624713457664/qIDrMVmF_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 06:53:48",
+        "created_at_utc": "2026-10-13T22:53:48.000Z",
+        "id": "2110141985298563359",
+        "images": [],
+        "media": [],
+        "name": "David Ellison",
+        "text": "Proud to partner with Rick Caruso to reopen The Bay theater in the Pacific Palisades.  \n\nhttps://www.hollywoodreporter.com/business/business-news/paramount-bay-theater-pacific-palisades-1236729134/",
+        "url": "https://x.com/davidellison/status/2110141985298563359",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 61,
+        "likes": 1753,
+        "quotes": 21,
+        "replies": 142,
+        "retweets": 171,
+        "views": 207777
+      },
+      "url": "https://x.com/elonmusk/status/2110403395203006770",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110402777755324760",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1053,71 +1094,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110222367263977851",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T04:13:13.000Z",
-      "created_at_shanghai": "2026-10-14 12:13:13",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Today, we’re open sourcing the full NVIDIA Run:ai platform as part of the NVIDIA DSX AI Factory Platform.\n\nDevelopers, platform teams, and partners can build on production-grade AI workloads and GPU orchestration to improve GPU utilization, increase workload throughput, and bring AI factory solutions to market faster.\n\nDeploy the integrated NVIDIA Run:ai platform or adopt individual components to fit your needs.\n\nSee what’s included, how to get started, and how to contribute: https://nvda.ws/4hRTubt",
-      "quote": null,
-      "retweet": {
-        "author": "NVIDIAAIInfra",
-        "avatar": "https://pbs.twimg.com/profile_images/1859346502243713026/NzLZW_Ag_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 22:27:59",
-        "created_at_utc": "2026-10-13T14:27:59.000Z",
-        "id": "2110014692420706667",
-        "images": [
-          "https://pbs.twimg.com/media/HUhHLd0XIAAtmCo.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1080,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUhHLd0XIAAtmCo.jpg?name=small",
-            "width": 1920
-          }
-        ],
-        "name": "NVIDIA AI Infrastructure",
-        "text": "Today, we’re open sourcing the full NVIDIA Run:ai platform as part of the NVIDIA DSX AI Factory Platform.\n\nDevelopers, platform teams, and partners can build on production-grade AI workloads and GPU orchestration to improve GPU utilization, increase workload throughput, and bring AI factory solutions to market faster.\n\nDeploy the integrated NVIDIA Run:ai platform or adopt individual components to fit your needs.\n\nSee what’s included, how to get started, and how to contribute: https://nvda.ws/4hRTubt",
-        "url": "https://x.com/NVIDIAAIInfra/status/2110014692420706667",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 118,
-        "likes": 835,
-        "quotes": 24,
-        "replies": 40,
-        "retweets": 106,
-        "views": 150763
-      },
-      "url": "https://x.com/elonmusk/status/2110222367263977851",
-      "images": [
-        "https://pbs.twimg.com/media/HUhHLd0XIAAtmCo.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUhHLd0XIAAtmCo.jpg?name=small",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 15,
   "page_size": 20,
-  "total": 1192,
+  "total": 1193,
   "total_pages": 60,
-  "updated_at_shanghai": "2026-10-20 14:03:11",
+  "updated_at_shanghai": "2026-10-20 23:41:42",
   "account": "elonmusk"
 }
