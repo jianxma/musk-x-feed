@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2109824758888165605",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T01:53:15.000Z",
+      "created_at_shanghai": "2026-10-13 09:53:15",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Deployment of 27 @Starlink satellites confirmed",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 09:30:29",
+        "created_at_utc": "2026-10-13T01:30:29.000Z",
+        "id": "2109819027912818930",
+        "images": [],
+        "media": [],
+        "name": "SpaceX",
+        "text": "Deployment of 27 @Starlink satellites confirmed",
+        "url": "https://x.com/SpaceX/status/2109819027912818930",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 34,
+        "likes": 2876,
+        "quotes": 28,
+        "replies": 204,
+        "retweets": 279,
+        "views": 371678
+      },
+      "url": "https://x.com/elonmusk/status/2109824758888165605",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109822906670682387",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -895,53 +936,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109793921203093888",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T23:50:43.000Z",
-      "created_at_shanghai": "2026-10-13 07:50:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration.\n\nThe aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.",
-      "quote": null,
-      "retweet": {
-        "author": "TimSweeneyEpic",
-        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 02:00:40",
-        "created_at_utc": "2026-10-12T18:00:40.000Z",
-        "id": "2109705826688549304",
-        "images": [],
-        "media": [],
-        "name": "Tim Sweeney",
-        "text": "We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration.\n\nThe aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.",
-        "url": "https://x.com/TimSweeneyEpic/status/2109705826688549304",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2526,
-        "likes": 12945,
-        "quotes": 2006,
-        "replies": 4055,
-        "retweets": 739,
-        "views": 3174761
-      },
-      "url": "https://x.com/elonmusk/status/2109793921203093888",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 20,
-  "total": 1181,
+  "total": 1182,
   "total_pages": 60,
-  "updated_at_shanghai": "2026-10-20 10:46:08",
+  "updated_at_shanghai": "2026-10-20 12:09:19",
   "account": "elonmusk"
 }

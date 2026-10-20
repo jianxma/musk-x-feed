@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2110549493980791067",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T01:53:06.000Z",
+      "created_at_shanghai": "2026-10-15 09:53:06",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I'm a car guy, and I can't remember being this excited for a car launch in a very very long time...",
+      "quote": {
+        "author": "Tesla",
+        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
+        "created_at_shanghai": "2026-10-14 08:25:40",
+        "created_at_utc": "2026-10-14T00:25:40.000Z",
+        "id": "2110165104713183485",
+        "images": [
+          "https://pbs.twimg.com/media/HUjPAwiW8AAEeUh.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2160,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUjPAwiW8AAEeUh.jpg?name=small",
+            "width": 3840
+          }
+        ],
+        "name": "Tesla",
+        "text": "Roadster event streaming live this Thursday at 7:55pm CST",
+        "url": "https://x.com/Tesla/status/2110165104713183485",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "davidmarcus",
+        "avatar": "https://pbs.twimg.com/profile_images/2099871699072348160/iJ6AyqBH_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 08:51:00",
+        "created_at_utc": "2026-10-14T00:51:00.000Z",
+        "id": "2110171478595658143",
+        "images": [],
+        "media": [],
+        "name": "David Marcus",
+        "text": "I'm a car guy, and I can't remember being this excited for a car launch in a very very long time...",
+        "url": "https://x.com/davidmarcus/status/2110171478595658143",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 97,
+        "likes": 4309,
+        "quotes": 4,
+        "replies": 127,
+        "retweets": 188,
+        "views": 294291
+      },
+      "url": "https://x.com/elonmusk/status/2110549493980791067",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110549185867194609",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1045,53 +1108,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110511855731159239",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T23:23:32.000Z",
-      "created_at_shanghai": "2026-10-15 07:23:32",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Major threshold passed. Almost all cars will be electric in the future.",
-      "quote": {
-        "author": "Polymarket",
-        "avatar": "https://pbs.twimg.com/profile_images/2005664281002491904/bz2ZO_nU_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 05:29:37",
-        "created_at_utc": "2026-10-14T21:29:37.000Z",
-        "id": "2110483188174946476",
-        "images": [],
-        "media": [],
-        "name": "Polymarket",
-        "text": "BREAKING: Gasoline-only cars fall below 50% of global new vehicle sales for the first time in history.",
-        "url": "https://x.com/Polymarket/status/2110483188174946476",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 807,
-        "likes": 19516,
-        "quotes": 286,
-        "replies": 2290,
-        "retweets": 1505,
-        "views": 1398331
-      },
-      "url": "https://x.com/elonmusk/status/2110511855731159239",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 13,
   "page_size": 20,
-  "total": 1181,
+  "total": 1182,
   "total_pages": 60,
-  "updated_at_shanghai": "2026-10-20 10:46:08",
+  "updated_at_shanghai": "2026-10-20 12:09:19",
   "account": "elonmusk"
 }
