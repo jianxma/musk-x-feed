@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2107494267816186338",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-06T15:32:43.000Z",
+      "created_at_shanghai": "2026-10-06 23:32:43",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok 4.7 is excellent at dealing with large code repositories",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-06 18:17:52",
+        "created_at_utc": "2026-10-06T10:17:52.000Z",
+        "id": "2107415031667392567",
+        "images": [
+          "https://pbs.twimg.com/media/HT8Ky3kbgAArjFo.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2500,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HT8Ky3kbgAArjFo.jpg?name=small",
+            "width": 4000
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok 4.7 takes the TOP 3 spots on VulcanBench Frontier v4, outperforming Fable 5.1, Opus 5.5, GPT-6 Astra, GPT-6.1 Sol and other leading frontier models\n\n• Grok 4.7 xHigh - 93.15\n• Grok 4.7 High - 92.71\n• Grok 4.7 Medium - 92.30\n\nVulcanBench Frontier v4 tests whether AI models can handle difficult repository-level software engineering work rather than simply generate isolated code snippets\n\nThe benchmark contains 23 behavioural-reconstruction tasks where models have to rebuild legacy software to match its actual behaviour, with functional correctness tested through hidden tests alongside security, lint/complexity and code quality\n\nAnd the task results are just as impressive:\n• Grok 4.7 xHigh - 23/23 passed\n• Grok 4.7 High - 22/23 passed\n• Grok 4.7 Medium - 21/23 passed\n\nGrok 4.7 took all #1, #2 and #3 spots",
+        "url": "https://x.com/XFreeze/status/2107415031667392567",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 203,
+        "likes": 3875,
+        "quotes": 42,
+        "replies": 486,
+        "retweets": 411,
+        "views": 2702748
+      },
+      "url": "https://x.com/elonmusk/status/2107494267816186338",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107493516741939571",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1202,75 +1252,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107055578577285414",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T10:29:31.000Z",
-      "created_at_shanghai": "2026-10-05 18:29:31",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Launch ads in minutes. Find customers for a lifetime.",
-      "quote": null,
-      "retweet": {
-        "author": "XBusiness",
-        "avatar": "https://pbs.twimg.com/profile_images/1937148284465770496/C36iyzqg_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 04:29:24",
-        "created_at_utc": "2026-09-25T20:29:24.000Z",
-        "id": "2103582665014202815",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2079342915734646784/img/koo6qc0Q2fM9X_Bd.jpg"
-        ],
-        "media": [
-          {
-            "duration": 16.458,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2079342915734646784/img/koo6qc0Q2fM9X_Bd.jpg",
-            "type": "video",
-            "url": "https://video-s.twimg.com/amplify_video/2079342915734646784/vid/avc1/720x720/YRDuNiznh0Yh1E4S.mp4?tag=14",
-            "width": 720
-          }
-        ],
-        "name": "Business",
-        "text": "Launch ads in minutes. Find customers for a lifetime.",
-        "url": "https://x.com/XBusiness/status/2103582665014202815",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1361,
-        "likes": 3517,
-        "quotes": 73,
-        "replies": 0,
-        "retweets": 447,
-        "views": 83047197
-      },
-      "url": "https://x.com/elonmusk/status/2107055578577285414",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2079342915734646784/img/koo6qc0Q2fM9X_Bd.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video-s.twimg.com/amplify_video/2079342915734646784/vid/avc1/720x720/YRDuNiznh0Yh1E4S.mp4?tag=14",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2079342915734646784/img/koo6qc0Q2fM9X_Bd.jpg",
-          "width": 720,
-          "height": 720,
-          "duration": 16.458
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 35,
   "page_size": 20,
-  "total": 1180,
-  "total_pages": 59,
-  "updated_at_shanghai": "2026-10-20 09:15:28",
+  "total": 1181,
+  "total_pages": 60,
+  "updated_at_shanghai": "2026-10-20 10:46:08",
   "account": "elonmusk"
 }

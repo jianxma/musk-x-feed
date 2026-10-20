@@ -1,10 +1,47 @@
 {
   "posts": [
     {
-      "id": "2112348677134061883",
+      "id": "2112373713937084809",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-20T02:41:54.000Z",
+      "created_at_shanghai": "2026-10-20 10:41:54",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Two important changes to timeline recommendations:\n\n- New AI/SI ranking model that predicts probable time spent much better\n\n- Retrieval model trained to surface posts people read all the way through\n\nUser active seconds is growing exponentially and hitting all-time highs almost every day:",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 59,
+        "likes": 812,
+        "quotes": 19,
+        "replies": 177,
+        "retweets": 103,
+        "views": 281458
+      },
+      "url": "https://x.com/elonmusk/status/2112373713937084809",
+      "images": [
+        "https://pbs.twimg.com/media/HVCoslqWwAA_j6K.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVCoslqWwAA_j6K.jpg?name=small",
+          "width": 2048,
+          "height": 953
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2112348677134061883",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-20T01:02:24.000Z",
@@ -63,7 +100,7 @@
       "id": "2112348601255125059",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-20T01:02:06.000Z",
@@ -91,7 +128,7 @@
       "id": "2112346571362717751",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-20T00:54:02.000Z",
@@ -944,53 +981,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2112027329585090710",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-19T03:45:29.000Z",
-      "created_at_shanghai": "2026-10-19 11:45:29",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot has its own computer\n\nSo you can close your laptops and just use the app in your phone\n\nUnless, you need some file accessed from your laptop, just let it use its computer",
-      "quote": null,
-      "retweet": {
-        "author": "melvindvivas",
-        "avatar": "https://pbs.twimg.com/profile_images/2080587337994813440/rF40X6jM_200x200.jpg",
-        "created_at_shanghai": "2026-10-19 02:49:19",
-        "created_at_utc": "2026-10-18T18:49:19.000Z",
-        "id": "2111892400302108925",
-        "images": [],
-        "media": [],
-        "name": "Melvin Vivas",
-        "text": "Grok Bot has its own computer\n\nSo you can close your laptops and just use the app in your phone\n\nUnless, you need some file accessed from your laptop, just let it use its computer",
-        "url": "https://x.com/melvindvivas/status/2111892400302108925",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 52,
-        "likes": 839,
-        "quotes": 8,
-        "replies": 83,
-        "retweets": 88,
-        "views": 198633
-      },
-      "url": "https://x.com/elonmusk/status/2112027329585090710",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 1180,
-  "total_pages": 59,
-  "updated_at_shanghai": "2026-10-20 09:15:28",
+  "total": 1181,
+  "total_pages": 60,
+  "updated_at_shanghai": "2026-10-20 10:46:08",
   "account": "elonmusk"
 }

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110137566871900530",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T22:36:15.000Z",
+      "created_at_shanghai": "2026-10-14 06:36:15",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "The more I use Grok @bot, the more I see what it can do and it really is endless. I know this costs money but you really all should be trying it out. Those that say they don't have a use case for it don't understand it's potential or how to use it properly. Or am I wrong?",
+      "quote": null,
+      "retweet": {
+        "author": "debs_obrien",
+        "avatar": "https://pbs.twimg.com/profile_images/1537114604278530048/FMrBa87o_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 05:16:09",
+        "created_at_utc": "2026-10-13T21:16:09.000Z",
+        "id": "2110117410405523744",
+        "images": [],
+        "media": [],
+        "name": "Debbie O'Brien",
+        "text": "The more I use Grok @bot, the more I see what it can do and it really is endless. I know this costs money but you really all should be trying it out. Those that say they don't have a use case for it don't understand it's potential or how to use it properly. Or am I wrong?",
+        "url": "https://x.com/debs_obrien/status/2110117410405523744",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 10,
+        "likes": 271,
+        "quotes": 3,
+        "replies": 37,
+        "retweets": 27,
+        "views": 39392
+      },
+      "url": "https://x.com/elonmusk/status/2110137566871900530",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110137506004099521",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1066,64 +1107,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110123131692048515",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T21:38:53.000Z",
-      "created_at_shanghai": "2026-10-14 05:38:53",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True, this is a very big deal",
-      "quote": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 05:18:35",
-        "created_at_utc": "2026-10-13T21:18:35.000Z",
-        "id": "2110118022988058637",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107494178984710145/img/PgL2_lgOLOLO7o2U.jpg"
-        ],
-        "media": [
-          {
-            "duration": 54.866,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107494178984710145/img/PgL2_lgOLOLO7o2U.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107494178984710145/vid/avc1/3840x2160/0It8TvRgYM9Bvb3e.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "Morgan Stanley's Adam Jonas in new @SpaceX note:\n\n\"The part of the SpaceX story that we believe holds the greatest growth potential, and that is being largely ignored/not contemplated by investors, is the Distributed Inference Cloud. Investors are already witnessing some degree of corporate/regulatory/social angst toward data centers. We see SPCX's efforts as instrumental in helping to get the Super Intelligence Economy and the Physical Intelligence Economy on the next leg of growth and economic development. As the 'density' of physical agents increases, we expect incrementally greater intelligence capability of the collective mobile swarm.\n\nWe ask investors to be prepared to hear about the Distributed Inference Cloud and physical AI swarms in the coming year. From our seat, we think this subject is very close to breaking out in the investor discussion. Gradually… then suddenly.\" https://x.com/SawyerMerritt/status/2107494345251107175/video/1",
-        "url": "https://x.com/SawyerMerritt/status/2110118022988058637",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 354,
-        "likes": 3841,
-        "quotes": 36,
-        "replies": 265,
-        "retweets": 471,
-        "views": 797432
-      },
-      "url": "https://x.com/elonmusk/status/2110123131692048515",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 20,
-  "total": 1180,
-  "total_pages": 59,
-  "updated_at_shanghai": "2026-10-20 09:15:28",
+  "total": 1181,
+  "total_pages": 60,
+  "updated_at_shanghai": "2026-10-20 10:46:08",
   "account": "elonmusk"
 }
