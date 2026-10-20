@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2112345583319208037",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-10-20T00:50:07.000Z",
+      "created_at_shanghai": "2026-10-20 08:50:07",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Production of the new carbon composite forward dome for Neutron’s Stage 1 propellant tank is underway.\n\nOur automated fiber placement (AFP) machine follows a computer-controlled course to lay down thousands of strands of carbon fiber - each thinner than a human hair - at speeds of up to 100 meters per minute to create Stage 1’s structures on custom molds.\n\nOnce the AFP machine is finished with the new forward dome it will be rolled out, inspected, then prepared for the curing process to harden the carbon composite.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2,
+        "likes": 74,
+        "quotes": 3,
+        "replies": 5,
+        "retweets": 11,
+        "views": 2725
+      },
+      "url": "https://x.com/rocketlab/status/2112345583319208037",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2112345432504598528/img/jEIwygNx7J_iPXew.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2112345432504598528/vid/avc1/3840x2160/yB2GJxWKnV_p40Oz.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112345432504598528/img/jEIwygNx7J_iPXew.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 22.233
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2112308260628050062",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -809,40 +848,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103641543878033809",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-09-26T00:23:22.000Z",
-      "created_at_shanghai": "2026-09-26 08:23:22",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "🚀 Join us LIVE to watch Electron launch its 97th mission: 'Owlright Owlright Owlright' for @synspective https://x.com/i/broadcasts/1pKdRDYBmprJW",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1,
-        "likes": 23,
-        "quotes": 0,
-        "replies": 0,
-        "retweets": 8,
-        "views": 2005
-      },
-      "url": "https://x.com/rocketlab/status/2103641543878033809",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 68,
+  "total": 69,
   "total_pages": 4,
-  "updated_at_shanghai": "2026-10-20 06:39:14",
+  "updated_at_shanghai": "2026-10-20 08:52:02",
   "account": "rocketlab"
 }
