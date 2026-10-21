@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2109816993511886876",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T01:22:24.000Z",
+      "created_at_shanghai": "2026-10-13 09:22:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot can order your groceries.\n\nIt can also run your entire business.\n\nThat’s what I love about it.\n\n→ Give it a task\n→ Give it an entire job\n→ Give it a whole department\n→ Give it your entire business\n\nYou can just do things.",
+      "quote": null,
+      "retweet": {
+        "author": "liam_fallen",
+        "avatar": "https://pbs.twimg.com/profile_images/2095471460286664768/-TwotnRq_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 07:50:05",
+        "created_at_utc": "2026-10-12T23:50:05.000Z",
+        "id": "2109793760838119870",
+        "images": [
+          "https://pbs.twimg.com/media/HUd-PkLXMAAtdmU.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 941,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUd-PkLXMAAtdmU.jpg?name=small",
+            "width": 1672
+          }
+        ],
+        "name": "Liam",
+        "text": "Grok Bot can order your groceries.\n\nIt can also run your entire business.\n\nThat’s what I love about it.\n\n→ Give it a task\n→ Give it an entire job\n→ Give it a whole department\n→ Give it your entire business\n\nYou can just do things.",
+        "url": "https://x.com/liam_fallen/status/2109793760838119870",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 69,
+        "likes": 712,
+        "quotes": 11,
+        "replies": 90,
+        "retweets": 89,
+        "views": 191476
+      },
+      "url": "https://x.com/elonmusk/status/2109816993511886876",
+      "images": [
+        "https://pbs.twimg.com/media/HUd-PkLXMAAtdmU.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUd-PkLXMAAtdmU.jpg?name=small",
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2109816487775219916",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -924,62 +983,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109690326474440765",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T16:59:04.000Z",
-      "created_at_shanghai": "2026-10-13 00:59:04",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Troubling",
-      "quote": {
-        "author": "Geiger_Capital",
-        "avatar": "https://pbs.twimg.com/profile_images/1486812287730081794/FbqQsGVz_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 00:10:23",
-        "created_at_utc": "2026-10-12T16:10:23.000Z",
-        "id": "2109678075084431696",
-        "images": [
-          "https://pbs.twimg.com/media/HUcSlSKXwAEjWKw.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1485,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUcSlSKXwAEjWKw.jpg?name=small",
-            "width": 1206
-          }
-        ],
-        "name": "Geiger Capital",
-        "text": "I thought this one was parody…\nIt’s real.\n\nJames Talarico calling Whiteness a virus.\nJust a totally normal, moderate guy.",
-        "url": "https://x.com/Geiger_Capital/status/2109678075084431696",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 12,
-        "likes": 484,
-        "quotes": 6,
-        "replies": 112,
-        "retweets": 102,
-        "views": 304289
-      },
-      "url": "https://x.com/elonmusk/status/2109690326474440765",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 20,
-  "total": 1214,
+  "total": 1215,
   "total_pages": 61,
-  "updated_at_shanghai": "2026-10-21 08:51:35",
+  "updated_at_shanghai": "2026-10-21 13:01:56",
   "account": "elonmusk"
 }

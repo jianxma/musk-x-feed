@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2112588854691594371",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-20T16:56:47.000Z",
+      "created_at_shanghai": "2026-10-21 00:56:47",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot upgrades",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-20 15:00:02",
+        "created_at_utc": "2026-10-20T07:00:02.000Z",
+        "id": "2112438677657854187",
+        "images": [
+          "https://pbs.twimg.com/media/HVDjxfoXQAAoyKX.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1350,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVDjxfoXQAAoyKX.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok Bot 0.71.2 is out, and this is a very huge upgrade\n\nYou can now send files up to 250 MB, and videos up to 1 GB. Full-length clips, raw footage, long recordings, big reports and heavy PDFs can go straight to Grok Bot without compressing, trimming or splitting anything first\n\nYou can also send up to 20 files in a single message. Drop an entire batch of photos, screenshots or documents at once and let Grok Bot work through all of them together\n\nNotifications are smarter, so you hear about what actually matters, when it matters\n\nAnd forms now arrive pre-filled. Grok Bot fills in what it already knows, so you just check and confirm instead of typing everything again\n\nThis update is really good",
+        "url": "https://x.com/XFreeze/status/2112438677657854187",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 155,
+        "likes": 2636,
+        "quotes": 25,
+        "replies": 349,
+        "retweets": 299,
+        "views": 860715
+      },
+      "url": "https://x.com/elonmusk/status/2112588854691594371",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2112583304738210216",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -950,71 +1000,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2112237454333788356",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-19T17:40:27.000Z",
-      "created_at_shanghai": "2026-10-20 01:40:27",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Literally have no idea how incredible Grok Bot really is\n\nBasically any task you can think of that you want to do on a laptop it does it... I didn't see it do anything wrong tbh, such as with the tasks that required payment and with things like buying stuff online and booking flights booking hotels\n\nIt absolutely does it better... I was kind of shocked and impressed with all the things it does, and I'm still exploring how many things I can do with Grok Bot... and I just keep adding things",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-20 00:29:32",
-        "created_at_utc": "2026-10-19T16:29:32.000Z",
-        "id": "2112219607528251899",
-        "images": [
-          "https://pbs.twimg.com/media/HVAciFJXYAADLf1.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1080,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVAciFJXYAADLf1.jpg?name=small",
-            "width": 1920
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Literally have no idea how incredible Grok Bot really is\n\nBasically any task you can think of that you want to do on a laptop it does it... I didn't see it do anything wrong tbh, such as with the tasks that required payment and with things like buying stuff online and booking flights booking hotels\n\nIt absolutely does it better... I was kind of shocked and impressed with all the things it does, and I'm still exploring how many things I can do with Grok Bot... and I just keep adding things",
-        "url": "https://x.com/XFreeze/status/2112219607528251899",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 105,
-        "likes": 869,
-        "quotes": 12,
-        "replies": 104,
-        "retweets": 133,
-        "views": 163761
-      },
-      "url": "https://x.com/elonmusk/status/2112237454333788356",
-      "images": [
-        "https://pbs.twimg.com/media/HVAciFJXYAADLf1.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVAciFJXYAADLf1.jpg?name=small",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 1214,
+  "total": 1215,
   "total_pages": 61,
-  "updated_at_shanghai": "2026-10-21 08:51:35",
+  "updated_at_shanghai": "2026-10-21 13:01:56",
   "account": "elonmusk"
 }
