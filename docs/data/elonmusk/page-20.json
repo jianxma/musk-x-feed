@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2109867020091072915",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T04:41:11.000Z",
+      "created_at_shanghai": "2026-10-13 12:41:11",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Of course",
+      "quote": {
+        "author": "RonDeSantis",
+        "avatar": "https://pbs.twimg.com/profile_images/1661519593087676416/z4A1A3gs_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 11:13:22",
+        "created_at_utc": "2026-10-13T03:13:22.000Z",
+        "id": "2109844918835331343",
+        "images": [],
+        "media": [],
+        "name": "Ron DeSantis",
+        "text": "Tesla is offering free supercharging in areas affected by the hurricane.  Thank you!",
+        "url": "https://x.com/RonDeSantis/status/2109844918835331343",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 130,
+        "likes": 12867,
+        "quotes": 50,
+        "replies": 509,
+        "retweets": 950,
+        "views": 1971823
+      },
+      "url": "https://x.com/elonmusk/status/2109867020091072915",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109860741121503681",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -955,53 +996,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109808344223621417",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T00:48:02.000Z",
-      "created_at_shanghai": "2026-10-13 08:48:02",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Watch Falcon 9 launch 27 @Starlink satellites to orbit from California https://x.com/i/broadcasts/1yKAPwdemygxb",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 08:17:56",
-        "created_at_utc": "2026-10-13T00:17:56.000Z",
-        "id": "2109800770849984910",
-        "images": [],
-        "media": [],
-        "name": "SpaceX",
-        "text": "Watch Falcon 9 launch 27 @Starlink satellites to orbit from California https://x.com/i/broadcasts/1yKAPwdemygxb",
-        "url": "https://x.com/SpaceX/status/2109800770849984910",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 576,
-        "likes": 9783,
-        "quotes": 142,
-        "replies": 636,
-        "retweets": 1338,
-        "views": 403586
-      },
-      "url": "https://x.com/elonmusk/status/2109808344223621417",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 20,
-  "total": 1224,
+  "total": 1225,
   "total_pages": 62,
-  "updated_at_shanghai": "2026-10-21 14:23:21",
+  "updated_at_shanghai": "2026-10-21 14:38:49",
   "account": "elonmusk"
 }

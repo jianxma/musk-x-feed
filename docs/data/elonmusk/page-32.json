@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2108060588748497083",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T05:03:04.000Z",
+      "created_at_shanghai": "2026-10-08 13:03:04",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Bounty of Beauty",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 12:58:13",
+        "created_at_utc": "2026-10-08T04:58:13.000Z",
+        "id": "2108059366914134365",
+        "images": [
+          "https://pbs.twimg.com/media/HUFUzgib0AA_9Hr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2730,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUFUzgib0AA_9Hr.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "X Freeze",
+        "text": "SpaceX engineering is straight-up science fiction",
+        "url": "https://x.com/XFreeze/status/2108059366914134365",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 191,
+        "likes": 5362,
+        "quotes": 55,
+        "replies": 546,
+        "retweets": 691,
+        "views": 715366
+      },
+      "url": "https://x.com/elonmusk/status/2108060588748497083",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108059756849938808",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1063,64 +1113,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108038296572137792",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T03:34:30.000Z",
-      "created_at_shanghai": "2026-10-08 11:34:30",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot is like hiring an extremely competent employee!",
-      "quote": {
-        "author": "Michael_Fenech_",
-        "avatar": "https://pbs.twimg.com/profile_images/2086676724440612864/Wzr3NkOE_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 23:36:00",
-        "created_at_utc": "2026-10-07T15:36:00.000Z",
-        "id": "2107857481342816437",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107719762285658112/img/4sUgW6AFJxi9slsx.jpg"
-        ],
-        "media": [
-          {
-            "duration": 53.2,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107719762285658112/img/4sUgW6AFJxi9slsx.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107719762285658112/vid/avc1/1920x1080/olmkPHtF7nST7RI4.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Michael | AI + Agents",
-        "text": "I keep hearing the same thing from people trying Grok Bot:\n\n“I’ve tried it. But I still don’t really understand what I’m supposed to use it for.”\n\nIf that’s you, give me 53 seconds.\n\nI’ll show you the mental model that makes Grok Bot click 👇🏻",
-        "url": "https://x.com/Michael_Fenech_/status/2107857481342816437",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 825,
-        "likes": 4062,
-        "quotes": 54,
-        "replies": 628,
-        "retweets": 491,
-        "views": 1010865
-      },
-      "url": "https://x.com/elonmusk/status/2108038296572137792",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 32,
   "page_size": 20,
-  "total": 1224,
+  "total": 1225,
   "total_pages": 62,
-  "updated_at_shanghai": "2026-10-21 14:23:21",
+  "updated_at_shanghai": "2026-10-21 14:38:49",
   "account": "elonmusk"
 }

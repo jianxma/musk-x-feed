@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2108264919489540364",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T18:35:01.000Z",
+      "created_at_shanghai": "2026-10-09 02:35:01",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon and Jensen. Bros being bros.\n\n📸 Kent NISHIMURA / GettyImages",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 02:27:36",
+        "created_at_utc": "2026-10-08T18:27:36.000Z",
+        "id": "2108263053355811167",
+        "images": [
+          "https://pbs.twimg.com/media/HUINSW5a0AE8xFO.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1307,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUINSW5a0AE8xFO.jpg?name=small",
+            "width": 1961
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Elon and Jensen. Bros being bros.\n\n📸 Kent NISHIMURA / GettyImages",
+        "url": "https://x.com/cb_doge/status/2108263053355811167",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 158,
+        "likes": 3939,
+        "quotes": 34,
+        "replies": 189,
+        "retweets": 394,
+        "views": 263120
+      },
+      "url": "https://x.com/elonmusk/status/2108264919489540364",
+      "images": [
+        "https://pbs.twimg.com/media/HUINSW5a0AE8xFO.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUINSW5a0AE8xFO.jpg?name=small",
+          "width": 1961,
+          "height": 1307
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2108264207896432923",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -992,71 +1051,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108197123451928653",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T14:05:37.000Z",
-      "created_at_shanghai": "2026-10-08 22:05:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "🚨 SPACEXAI BACKS OPEN SOURCE LINUX WITH $1.5 MILLION\n\nSpaceXAI is donating $1.5 million in Grok tokens to support Omarchy, the open-source Linux system from DHH.\n\nGrok 4.7 will power AI agents that review code. Developers can use the tokens to fix bugs, build features, and get Omarchy running on more hardware.",
-      "quote": null,
-      "retweet": {
-        "author": "AsFoundX",
-        "avatar": "https://pbs.twimg.com/profile_images/2095292024899465217/wOMt6_bi_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 21:24:09",
-        "created_at_utc": "2026-10-08T13:24:09.000Z",
-        "id": "2108186690913182147",
-        "images": [
-          "https://pbs.twimg.com/media/HUHInx1X0AAd5z5.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 995,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUHInx1X0AAd5z5.jpg?name=small",
-            "width": 1790
-          }
-        ],
-        "name": "As Found",
-        "text": "🚨 SPACEXAI BACKS OPEN SOURCE LINUX WITH $1.5 MILLION\n\nSpaceXAI is donating $1.5 million in Grok tokens to support Omarchy, the open-source Linux system from DHH.\n\nGrok 4.7 will power AI agents that review code. Developers can use the tokens to fix bugs, build features, and get Omarchy running on more hardware.",
-        "url": "https://x.com/AsFoundX/status/2108186690913182147",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 140,
-        "likes": 2046,
-        "quotes": 34,
-        "replies": 106,
-        "retweets": 216,
-        "views": 299707
-      },
-      "url": "https://x.com/elonmusk/status/2108197123451928653",
-      "images": [
-        "https://pbs.twimg.com/media/HUHInx1X0AAd5z5.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUHInx1X0AAd5z5.jpg?name=small",
-          "width": 1790,
-          "height": 995
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 29,
   "page_size": 20,
-  "total": 1224,
+  "total": 1225,
   "total_pages": 62,
-  "updated_at_shanghai": "2026-10-21 14:23:21",
+  "updated_at_shanghai": "2026-10-21 14:38:49",
   "account": "elonmusk"
 }

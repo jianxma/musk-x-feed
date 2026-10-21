@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2110695927312777466",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T11:34:58.000Z",
+      "created_at_shanghai": "2026-10-15 19:34:58",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Truth-seeking is the most important aspect of AI/SI safety",
+      "quote": {
+        "author": "BradRTorgersen",
+        "avatar": "https://pbs.twimg.com/profile_images/2034059755120103424/wT3RXb3S_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 13:35:55",
+        "created_at_utc": "2026-10-14T05:35:55.000Z",
+        "id": "2110243180449017904",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110242735102033920/img/5s5Dghj1jpIQKzB-.jpg"
+        ],
+        "media": [
+          {
+            "duration": 243.584,
+            "height": 480,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110242735102033920/img/5s5Dghj1jpIQKzB-.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110242735102033920/vid/avc1/854x480/MgirP3kCbNfEJ8D4.mp4?tag=29",
+            "width": 854
+          }
+        ],
+        "name": "Brad R. Torgersen",
+        "text": "\"HAL was told to lie, by people who find it easy to lie. HAL doesn't know how. So, he couldn't function.\"",
+        "url": "https://x.com/BradRTorgersen/status/2110243180449017904",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 47,
+        "likes": 951,
+        "quotes": 22,
+        "replies": 273,
+        "retweets": 137,
+        "views": 386357
+      },
+      "url": "https://x.com/elonmusk/status/2110695927312777466",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110687670330642824",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1121,53 +1173,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110571294534361551",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T03:19:43.000Z",
-      "created_at_shanghai": "2026-10-15 11:19:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Let’s just say that this demo will be a BANGER, probably metaphorically, though some chance literally",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 11:19:37",
-        "created_at_utc": "2026-10-15T03:19:37.000Z",
-        "id": "2110571266889646239",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Let’s just say that this demo will be a BANGER, probably metaphorically, though some chance literally",
-        "url": "https://x.com/elonmusk/status/2110571266889646239",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 284,
-        "likes": 8431,
-        "quotes": 95,
-        "replies": 541,
-        "retweets": 432,
-        "views": 506240
-      },
-      "url": "https://x.com/elonmusk/status/2110571294534361551",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 13,
   "page_size": 20,
-  "total": 1224,
+  "total": 1225,
   "total_pages": 62,
-  "updated_at_shanghai": "2026-10-21 14:23:21",
+  "updated_at_shanghai": "2026-10-21 14:38:49",
   "account": "elonmusk"
 }
