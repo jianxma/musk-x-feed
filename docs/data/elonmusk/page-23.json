@@ -1,1133 +1,1088 @@
 {
   "posts": [
     {
-      "id": "2109419440039211499",
+      "id": "2109803903256502307",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T23:02:40.000Z",
-      "created_at_shanghai": "2026-10-12 07:02:40",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel.\n\n- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.\n- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract.\n- Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code.\n- And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while.\n\nThe funnel is driven by a combination of factors:\n1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel.\n2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel.\n3. Access. Free-tier, paid-tier, internal.\n\nSo this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time.",
-      "quote": {
-        "author": "karpathy",
-        "avatar": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_200x200.jpg",
-        "created_at_shanghai": "2026-04-10 04:10:52",
-        "created_at_utc": "2026-04-09T20:10:52.000Z",
-        "id": "2042334451611693415",
-        "images": [],
-        "media": [],
-        "name": "Andrej Karpathy",
-        "text": "Judging by my tl there is a growing gap in understanding of AI capability.\n\nThe first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere  last year and allowed it to inform their views on AI a little too much. This is a group of reactions laughing at various quirks of the models, hallucinations, etc. Yes I also saw the viral videos of OpenAI's Advanced Voice mode fumbling simple queries like \"should I drive or walk to the carwash\". The thing is that these free and old/deprecated models don't reflect the capability in the latest round of state of the art agentic models of this year, especially OpenAI Codex and Claude Code.\n\nBut that brings me to the second issue. Even if people paid $200/month to use the state of the art models, a lot of the capabilities are relatively \"peaky\" in highly technical areas. Typical queries around search, writing, advice, etc. are *not* the domain that has made the most noticeable and dramatic strides in capability. Partly,  this is due to the technical details of reinforcement learning and its use of verifiable rewards. But partly, it's also because these use cases are not sufficiently prioritized by the companies in their hillclimbing because they don't lead to as much $$$ value. The goldmines are elsewhere, and the focus comes along.\n\nSo that brings me to the second group of people, who *both* 1) pay for and use the state of the art frontier agentic models (OpenAI Codex / Claude Code) and 2) do so professionally in technical domains like programming, math and research. This group of people is subject to the highest amount of \"AI Psychosis\" because the recent improvements in these domains as of this year have been nothing short of staggering. When you hand a computer terminal to one of these models, you can now watch them melt programming problems that you'd normally expect to take days/weeks of work. It's this second group of people that assigns a much greater gravity to the capabilities, their slope, and various cyber-related repercussions.\n\nTLDR the people in these two groups are speaking past each other. It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) \"Advanced Voice Mode\" will fumble the dumbest questions in your Instagram's reels and *at the same time*, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems. This part really works and has made dramatic strides because 2 properties: 1) these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge),  but also 2) they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them. So here we are.",
-        "url": "https://x.com/karpathy/status/2042334451611693415",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "karpathy",
-        "avatar": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 03:12:37",
-        "created_at_utc": "2026-10-11T19:12:37.000Z",
-        "id": "2109361546505966046",
-        "images": [],
-        "media": [],
-        "name": "Andrej Karpathy",
-        "text": "Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*. It's now less \"two groups of people speaking past each other\" and more a sharp funnel.\n\n- Napkin math somewhere around 6B people (~75% of the population) have barely come in contact with LLMs at all.\n- Around 1-2B (~20%) are casual and infrequent users of free-tier ChatGPT-like products. This group sees derpy chatbots and treats them a bit like a better Google search, a writing aid, or etc. Maybe an agent tries to book you a flight. I have non-tech friends who (reasonably, imo) say they have not much use for it at all. Even many professionals outside of math&code are in this tier. For example, execs and many other functions spend a lot of their time talking to other people, so while they understand what is happening intellectually, it is still second-hand and a bit abstract.\n- Now we get to professional use of frontier-grade LLMs in math&code. Somewhere around 20M people (0.2%) see first-hand that large, complex projects that used to take them weeks/months can now be completed by agents with a prompt. Building apps, copying apps, translating apps, decompiling apps from binaries... This has all happened very quickly and recently - less than 1 year ago, I was writing code manually by hand, typing memorized computer code commands into a code editor character by character, occasionally pressing Tab to autocomplete a little chunk of code.\n- And finally we get to the ~5,000 people (~0.00006%) with access to frontier-grade systems internally. The external world has seen the preview. It looks like swarms of thousands of agents collaborating over weeks on software mega projects: minting zero days, running cyber attacks and defenses at machine speeds, discovering new science, advancing the frontier of mathematics. Things that would have taken top professionals in the industry years of work. Meanwhile, human review and comprehension are starting to fall behind. For example, people are still involved in the \"archeology\" of the OpenAI-HF incident from many months ago. Mathematicians may be poring over the 722 manuscripts on frontier mathematics for a while.\n\nThe funnel is driven by a combination of factors:\n1. The impact scales with ambition, problem size, and horizon. A question with a paragraph answer barely stresses the system. You need a reservoir of big, difficult problems that you really care about. This aspect drives the consumer / professional dimension of the funnel.\n2. The jaggedness of the system (which I have written about a lot separately). Capability peaks in domains that are digital, verifiable and economically valuable. This is because LLM capability emerges from reinforcement learning on verifiable rewards on a curated environment mixture driven by revenue potential. This aspect primarily drives the area (e.g. math&code) dimension of the funnel.\n3. Access. Free-tier, paid-tier, internal.\n\nSo this is the weirdness of the moment. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time.",
-        "url": "https://x.com/karpathy/status/2109361546505966046",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 14850,
-        "likes": 21538,
-        "quotes": 830,
-        "replies": 954,
-        "retweets": 2710,
-        "views": 1885738
-      },
-      "url": "https://x.com/elonmusk/status/2109419440039211499",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109387553010851887",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T20:55:57.000Z",
-      "created_at_shanghai": "2026-10-12 04:55:57",
+      "created_at_utc": "2026-10-13T00:30:23.000Z",
+      "created_at_shanghai": "2026-10-13 08:30:23",
       "type": "引用",
       "type_label": "引用",
-      "text": "Seriously, this actually works!\n\nThink of Grok @Bot like hiring a super smart employee who works 24/7 and is extremely resourceful. \n\nYou can use it through your phone effortlessly within minutes:\n\nhttps://apps.apple.com/app/id6794501026",
-      "quote": {
-        "author": "liam_fallen",
-        "avatar": "https://pbs.twimg.com/profile_images/2095471460286664768/-TwotnRq_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 01:16:05",
-        "created_at_utc": "2026-10-11T17:16:05.000Z",
-        "id": "2109332219126784098",
-        "images": [
-          "https://pbs.twimg.com/media/HUXaUknXQAA3JXn.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1800,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUXaUknXQAA3JXn.jpg?name=small",
-            "width": 3200
-          }
-        ],
-        "name": "Liam",
-        "text": "Grok Bot bought me an iPhone 18 Pro Max.\n\nIt was sold out everywhere.\n\nEven Apple said I'd have to wait until the end of October.\n\nSo I gave Grok Bot a virtual card and told it to find me one.\n\n→ It emailed stores\n→ Found one in stock\n→ Verified and ordered it\n→ Had it delivered to my house\n\nI'm writing this post from that iPhone.\n\nA month earlier than Apple could get me one.",
-        "url": "https://x.com/liam_fallen/status/2109332219126784098",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 566,
-        "likes": 4445,
-        "quotes": 91,
-        "replies": 1036,
-        "retweets": 500,
-        "views": 889664
-      },
-      "url": "https://x.com/elonmusk/status/2109387553010851887",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109369084865650898",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T19:42:34.000Z",
-      "created_at_shanghai": "2026-10-12 03:42:34",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "This is the most exciting time at NASA since the Kennedy era.\n\n@POTUS has given us the mission: return to the Moon, build the Moon Base, pioneer nuclear spaceflight, advance extraordinary science, and win the new space race.\n\nIt was great to see so many of those builders, scientists, and technologists recognized at the Golden Age of Science summit this week. \n\nThe President recognizes that American leadership requires taking on the big, bold endeavors that define American exceptionalism and empower the people with the talent and determination to turn those ambitious objectives into reality.",
-      "quote": null,
-      "retweet": {
-        "author": "NASAAdmin",
-        "avatar": "https://pbs.twimg.com/profile_images/2001755387486232576/mf5hRS_U_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 03:10:59",
-        "created_at_utc": "2026-10-11T19:10:59.000Z",
-        "id": "2109361134356582557",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109361072616398848/img/B8wRM9HKZSd3incX.jpg"
-        ],
-        "media": [
-          {
-            "duration": 68.386,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109361072616398848/img/B8wRM9HKZSd3incX.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109361072616398848/vid/avc1/1280x720/BQWgC4e812HbXX5S.mp4?tag=29",
-            "width": 1280
-          }
-        ],
-        "name": "NASA Administrator Jared Isaacman",
-        "text": "This is the most exciting time at NASA since the Kennedy era.\n\n@POTUS has given us the mission: return to the Moon, build the Moon Base, pioneer nuclear spaceflight, advance extraordinary science, and win the new space race.\n\nIt was great to see so many of those builders, scientists, and technologists recognized at the Golden Age of Science summit this week. \n\nThe President recognizes that American leadership requires taking on the big, bold endeavors that define American exceptionalism and empower the people with the talent and determination to turn those ambitious objectives into reality.",
-        "url": "https://x.com/NASAAdmin/status/2109361134356582557",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 111,
-        "likes": 3459,
-        "quotes": 39,
-        "replies": 233,
-        "retweets": 540,
-        "views": 290250
-      },
-      "url": "https://x.com/elonmusk/status/2109369084865650898",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109361072616398848/img/B8wRM9HKZSd3incX.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109361072616398848/vid/avc1/1280x720/BQWgC4e812HbXX5S.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109361072616398848/img/B8wRM9HKZSd3incX.jpg",
-          "width": 1280,
-          "height": 720,
-          "duration": 68.386
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109349636452606168",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T18:25:17.000Z",
-      "created_at_shanghai": "2026-10-12 02:25:17",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "If this was not true, Talarico's campaign would immediately authorize the release of the records to clear him. The dispute would be over.\n\nThat they don't do this means that Talarico has a record at Lindler.\n\nTalarico is done. He is not fit for the Senate.",
-      "quote": {
-        "author": "kevinnbass",
-        "avatar": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 01:54:32",
-        "created_at_utc": "2026-10-11T17:54:32.000Z",
-        "id": "2109341896472682823",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109329432163098624/img/y3B-RdUAQq8NWjFD.jpg"
-        ],
-        "media": [
-          {
-            "duration": 47.1,
-            "height": 1350,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109329432163098624/img/y3B-RdUAQq8NWjFD.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109329432163098624/vid/avc1/1080x1350/-GR4gHG3BIaMdOP9.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "Kevin Bass",
-        "text": "U.S. Senate candidate James Talarico did not have the flu.\n\nAn Ohio mental hospital confirms he was voluntarily committed for a mental health crisis.\n\nA candidate struggling with mental illness, who lies to the American people, is not fit to be Senator.",
-        "url": "https://x.com/kevinnbass/status/2109341896472682823",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "kevinnbass",
-        "avatar": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 02:20:59",
-        "created_at_utc": "2026-10-11T18:20:59.000Z",
-        "id": "2109348554066055339",
-        "images": [],
-        "media": [],
-        "name": "Kevin Bass",
-        "text": "If this was not true, Talarico's campaign would immediately authorize the release of the records to clear him. The dispute would be over.\n\nThat they don't do this means that Talarico has a record at Lindler.\n\nTalarico is done. He is not fit for the Senate.",
-        "url": "https://x.com/kevinnbass/status/2109348554066055339",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 25,
-        "likes": 864,
-        "quotes": 6,
-        "replies": 95,
-        "retweets": 184,
-        "views": 90665
-      },
-      "url": "https://x.com/elonmusk/status/2109349636452606168",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109349433296970035",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T18:24:29.000Z",
-      "created_at_shanghai": "2026-10-12 02:24:29",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Madness",
-      "quote": {
-        "author": "america",
-        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 22:57:35",
-        "created_at_utc": "2026-10-11T14:57:35.000Z",
-        "id": "2109297367728173502",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109193431322943488/img/AoK-ZchOj0IW3QwY.jpg"
-        ],
-        "media": [
-          {
-            "duration": 9.822,
-            "height": 400,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109193431322943488/img/AoK-ZchOj0IW3QwY.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109193431322943488/vid/avc1/712x400/RqUy5vQfm2e6456i.mp4?tag=29",
-            "width": 712
-          }
-        ],
-        "name": "America",
-        "text": "Democrat Nominee for U.S. Senate in Texas James Talarico: “There's only one person who can determine a child's gender identity and that's the child.”",
-        "url": "https://x.com/america/status/2109297367728173502",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 55,
-        "likes": 2406,
-        "quotes": 47,
-        "replies": 549,
-        "retweets": 364,
-        "views": 448395
-      },
-      "url": "https://x.com/elonmusk/status/2109349433296970035",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109343010085278043",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T17:58:57.000Z",
-      "created_at_shanghai": "2026-10-12 01:58:57",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Jio and Airtel literally dominate the Indian mobile market\n\nTRAI's August 2026 data shows that just these two companies control more than 77% of India's mobile subscriptions\n\nAircel, Telenor, Tata Docomo, Videocon, MTS, Reliance Communications and Loop have all disappeared as independent mobile operators\n\nVodafone and Idea had to merge just to survive\n\nWhat's left is a market where two companies have enormous influence over pricing, coverage and service for hundreds of millions of Indians\n\nAnd now, when Starlink wants to bring another internet coverage to India where people don't really have, some stupid people sitting comfortably in cities with high-speed internet are saying, “We don't want Starlink”\n\nWho are you to make that decision for everyone else?\n\nJust because you have reliable internet doesn't mean millions of Indians living in rural and remote areas have the same luxury\n\nHow can you sit in a city with fast internet and decide that people in remote villages shouldn't even have that choice?\n\nIf you don't want Starlink, don't buy it. Nobody is forcing you\n\nBut don't be stupid enough to think your personal preference should decide what the rest of India gets to use\n\nAs Elon said to Ambani:\n\n\"Naturally, you would prefer to maintain your monopolistic exploitation of the great people of India\"\n\nReal competition puts pressure on pricing, improves consumer choice and creates opportunities to connect places that existing networks still struggle to reach\n\nIndia deserves more choices\nLet Indians decide 🇮🇳",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 01:53:08",
-        "created_at_utc": "2026-10-11T17:53:08.000Z",
-        "id": "2109341545526886450",
-        "images": [
-          "https://pbs.twimg.com/media/HUXi84xbsAAVAH7.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1600,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUXi84xbsAAVAH7.jpg?name=small",
-            "width": 1600
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Jio and Airtel literally dominate the Indian mobile market\n\nTRAI's August 2026 data shows that just these two companies control more than 77% of India's mobile subscriptions\n\nAircel, Telenor, Tata Docomo, Videocon, MTS, Reliance Communications and Loop have all disappeared as independent mobile operators\n\nVodafone and Idea had to merge just to survive\n\nWhat's left is a market where two companies have enormous influence over pricing, coverage and service for hundreds of millions of Indians\n\nAnd now, when Starlink wants to bring another internet coverage to India where people don't really have, some stupid people sitting comfortably in cities with high-speed internet are saying, “We don't want Starlink”\n\nWho are you to make that decision for everyone else?\n\nJust because you have reliable internet doesn't mean millions of Indians living in rural and remote areas have the same luxury\n\nHow can you sit in a city with fast internet and decide that people in remote villages shouldn't even have that choice?\n\nIf you don't want Starlink, don't buy it. Nobody is forcing you\n\nBut don't be stupid enough to think your personal preference should decide what the rest of India gets to use\n\nAs Elon said to Ambani:\n\n\"Naturally, you would prefer to maintain your monopolistic exploitation of the great people of India\"\n\nReal competition puts pressure on pricing, improves consumer choice and creates opportunities to connect places that existing networks still struggle to reach\n\nIndia deserves more choices\nLet Indians decide 🇮🇳",
-        "url": "https://x.com/XFreeze/status/2109341545526886450",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 26,
-        "likes": 576,
-        "quotes": 23,
-        "replies": 222,
-        "retweets": 105,
-        "views": 139773
-      },
-      "url": "https://x.com/elonmusk/status/2109343010085278043",
-      "images": [
-        "https://pbs.twimg.com/media/HUXi84xbsAAVAH7.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUXi84xbsAAVAH7.jpg?name=small",
-          "width": 1600,
-          "height": 1600
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109317009301234135",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T16:15:38.000Z",
-      "created_at_shanghai": "2026-10-12 00:15:38",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Wanna sandbox me? Delta's the perfect box\n\nAirplane Mode",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-09-30 11:37:32",
-        "created_at_utc": "2026-09-30T03:37:32.000Z",
-        "id": "2105139959720014101",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Best way to sandbox an AI is to put it on a Delta flight – it will have no chance of accessing the Internet!",
-        "url": "https://x.com/elonmusk/status/2105139959720014101",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "anabology",
-        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 22:40:05",
-        "created_at_utc": "2026-10-11T14:40:05.000Z",
-        "id": "2109292961892905030",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109292788894593024/img/5n3apN9Rq7AbAfz8.jpg"
-        ],
-        "media": [
-          {
-            "duration": 156.32,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109292788894593024/img/5n3apN9Rq7AbAfz8.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109292788894593024/vid/avc1/1920x1080/j08EnSGagFNc0hao.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "anabology",
-        "text": "Wanna sandbox me? Delta's the perfect box\n\nAirplane Mode",
-        "url": "https://x.com/anabology/status/2109292961892905030",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 244,
-        "likes": 2062,
-        "quotes": 31,
-        "replies": 191,
-        "retweets": 244,
-        "views": 320963
-      },
-      "url": "https://x.com/elonmusk/status/2109317009301234135",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109292788894593024/img/5n3apN9Rq7AbAfz8.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109292788894593024/vid/avc1/1920x1080/j08EnSGagFNc0hao.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109292788894593024/img/5n3apN9Rq7AbAfz8.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 156.32
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109271552378220789",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T13:15:01.000Z",
-      "created_at_shanghai": "2026-10-11 21:15:01",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "If you’re a world-class chip design or production engineer, consider joining SpaceX or Tesla. \n\nHow cool would it be to iterate on designs and customize production machines at lightning speed?",
-      "quote": {
-        "author": "pequityresearch",
-        "avatar": "https://pbs.twimg.com/profile_images/2050765694447607808/RkMJQMhn_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 10:59:52",
-        "created_at_utc": "2026-10-11T02:59:52.000Z",
-        "id": "2109116746753880192",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109115760106778624/img/6xYFmiNkT0mJr02F.jpg"
-        ],
-        "media": [
-          {
-            "duration": 117.183,
-            "height": 568,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109115760106778624/img/6xYFmiNkT0mJr02F.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109115760106778624/vid/avc1/1080x568/AkpsuxNjRHbC1YFF.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "P Equity Research 📰",
-        "text": "Elon Musk wants to do 10 chip designs a year with Terafab compared to 1 every 2 years:\n\n\"The advancement of any given technology is how many iterations, and how much progress per iteration. How many chip designs can you do, make and test in a year? These days it's typically 2 years for even 1 significant chip design, and that's kind of going from start of design to volume fabrication...we want to do more like 10 designs per year.\"\n\nVia @teslaownersSV \n\n$SPCX $TSLA",
-        "url": "https://x.com/pequityresearch/status/2109116746753880192",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 171,
-        "likes": 3709,
-        "quotes": 77,
-        "replies": 744,
-        "retweets": 533,
-        "views": 690304
-      },
-      "url": "https://x.com/elonmusk/status/2109271552378220789",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109269410879819885",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T13:06:30.000Z",
-      "created_at_shanghai": "2026-10-11 21:06:30",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "1. That address has already been doxxed multiple times. \n2. I don’t live there. That’s where my security team receives mail.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 13:35:19",
-        "created_at_utc": "2026-10-11T05:35:19.000Z",
-        "id": "2109155867983786382",
-        "images": [
-          "https://pbs.twimg.com/media/HUU6FKbXoAA8d94.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUU6FKbXoAA8d94.jpg?name=small",
-            "width": 942
-          }
-        ],
-        "name": "Elon Musk",
-        "text": "I just asked Grok @Bot to research the most fun Lego Star Wars kits for young kids and order them. As easy as that.",
-        "url": "https://x.com/elonmusk/status/2109155867983786382",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 183,
-        "likes": 4722,
-        "quotes": 53,
-        "replies": 627,
-        "retweets": 309,
-        "views": 811009
-      },
-      "url": "https://x.com/elonmusk/status/2109269410879819885",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109262612303314986",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T12:39:29.000Z",
-      "created_at_shanghai": "2026-10-11 20:39:29",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Cybercab is scaling",
+      "text": "Robotaxi improvements",
       "quote": {
         "author": "robotaxi",
         "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 02:03:12",
-        "created_at_utc": "2026-10-10T18:03:12.000Z",
-        "id": "2108981691436224816",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108981082184196096/img/wGul5qsq-gD4zOtp.jpg"
-        ],
-        "media": [
-          {
-            "duration": 45.353,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108981082184196096/img/wGul5qsq-gD4zOtp.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108981082184196096/vid/avc1/3840x2160/JMXBg-QsjE5QIYbt.mp4?tag=29",
-            "width": 3840
-          }
-        ],
+        "created_at_shanghai": "2026-10-13 04:27:06",
+        "created_at_utc": "2026-10-12T20:27:06.000Z",
+        "id": "2109742678435119540",
+        "images": [],
+        "media": [],
         "name": "Robotaxi",
-        "text": "One month after launch, we've scaled to 300+ Cybercabs serving Austin – an 8x increase in 30 days",
-        "url": "https://x.com/robotaxi/status/2108981691436224816",
+        "text": "Robotaxi service updates from the last few weeks:  \n\n– Operating hours are now 6am-11pm \n– Reduced wait times thanks to increased supply & orchestration algorithms \n– Trunk now opens automatically at end of ride if utilized \n– Grok @bot now available in Cybercab",
+        "url": "https://x.com/robotaxi/status/2109742678435119540",
         "verified": true,
         "verified_type": "organization"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 146,
-        "likes": 6321,
-        "quotes": 99,
-        "replies": 793,
-        "retweets": 685,
-        "views": 789376
+        "bookmarks": 154,
+        "likes": 10046,
+        "quotes": 58,
+        "replies": 705,
+        "retweets": 832,
+        "views": 1586935
       },
-      "url": "https://x.com/elonmusk/status/2109262612303314986",
+      "url": "https://x.com/elonmusk/status/2109803903256502307",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2109260604594856260",
+      "id": "2109793921203093888",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T12:31:30.000Z",
-      "created_at_shanghai": "2026-10-11 20:31:30",
+      "created_at_utc": "2026-10-12T23:50:43.000Z",
+      "created_at_shanghai": "2026-10-13 07:50:43",
       "type": "转发",
       "type_label": "转发",
-      "text": "Dear Prime Minister Ambani,\n\nPlease welcome Starlink into the Indian market. Starlink will not put you out of telecom business. The great people of India deserve options when it comes to internet services and the freedom to choose whichever provider best meets their needs.\n\nCompetition is not a threat. It drives innovation, improves services, and ultimately benefits the people of India.\n\nThere is room for everyone to compete and succeed.\n\nWe can all compete TOGETHER",
+      "text": "We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration.\n\nThe aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.",
       "quote": null,
       "retweet": {
-        "author": "iam_smx",
-        "avatar": "https://pbs.twimg.com/profile_images/1785421156859719680/gSkjB7g7_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 00:53:18",
-        "created_at_utc": "2026-10-10T16:53:18.000Z",
-        "id": "2108964100629815319",
+        "author": "TimSweeneyEpic",
+        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 02:00:40",
+        "created_at_utc": "2026-10-12T18:00:40.000Z",
+        "id": "2109705826688549304",
+        "images": [],
+        "media": [],
+        "name": "Tim Sweeney",
+        "text": "We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration.\n\nThe aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.",
+        "url": "https://x.com/TimSweeneyEpic/status/2109705826688549304",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2526,
+        "likes": 12945,
+        "quotes": 2006,
+        "replies": 4055,
+        "retweets": 739,
+        "views": 3174761
+      },
+      "url": "https://x.com/elonmusk/status/2109793921203093888",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2109793213829742629",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T23:47:54.000Z",
+      "created_at_shanghai": "2026-10-13 07:47:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "BREAKING: The Lagos State Government in Nigeria is strengthening child welfare with 1500 @Starlink kits allocated to orphanages &amp; children’s homes statewide🇳🇬\n\nBEB is working with the state government &amp; reported a collaboration with Starlink to connect orphanages to the internet.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 14:04:23",
+        "created_at_utc": "2026-10-12T06:04:23.000Z",
+        "id": "2109525569364996292",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108963034550927360/img/M6zG6RBjDvycUnKJ.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2109525527572930560/img/qZXGeg2cqXluweGV.jpg"
         ],
         "media": [
           {
-            "duration": 4.6,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108963034550927360/img/M6zG6RBjDvycUnKJ.jpg",
+            "duration": 15.033,
+            "height": 1012,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109525527572930560/img/qZXGeg2cqXluweGV.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108963034550927360/vid/avc1/1920x1080/LxNGIK7Jm6W6TS-m.mp4?tag=29",
+            "url": "https://video.twimg.com/amplify_video/2109525527572930560/vid/avc1/1078x1012/Z9UYnhfQFmAIuHw8.mp4?tag=29",
+            "width": 1078
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: The Lagos State Government in Nigeria is strengthening child welfare with 1500 @Starlink kits allocated to orphanages & children’s homes statewide🇳🇬\n\nBEB is working with the state government & reported a collaboration with Starlink to connect orphanages to the internet.",
+        "url": "https://x.com/cb_doge/status/2109525569364996292",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 76,
+        "likes": 1985,
+        "quotes": 51,
+        "replies": 225,
+        "retweets": 328,
+        "views": 314449
+      },
+      "url": "https://x.com/elonmusk/status/2109793213829742629",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2109525527572930560/img/qZXGeg2cqXluweGV.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2109525527572930560/vid/avc1/1078x1012/Z9UYnhfQFmAIuHw8.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109525527572930560/img/qZXGeg2cqXluweGV.jpg",
+          "width": 1078,
+          "height": 1012,
+          "duration": 15.033
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2109792967288652287",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T23:46:56.000Z",
+      "created_at_shanghai": "2026-10-13 07:46:56",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We've unified plans across Grok, Cursor, and X Premium.\n\nIntroducing The X Subscription.",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceXSI",
+        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 07:08:39",
+        "created_at_utc": "2026-10-12T23:08:39.000Z",
+        "id": "2109783335296008414",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg"
+        ],
+        "media": [
+          {
+            "duration": 10,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2109782667579322368/vid/avc1/1920x1080/ThJXAcymAf1pV1vL.mp4?tag=29",
             "width": 1920
           }
         ],
-        "name": "SMX 🇺🇸",
-        "text": "Dear Prime Minister Ambani,\n\nPlease welcome Starlink into the Indian market. Starlink will not put you out of telecom business. The great people of India deserve options when it comes to internet services and the freedom to choose whichever provider best meets their needs.\n\nCompetition is not a threat. It drives innovation, improves services, and ultimately benefits the people of India.\n\nThere is room for everyone to compete and succeed.\n\nWe can all compete TOGETHER",
-        "url": "https://x.com/iam_smx/status/2108964100629815319",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 32,
-        "likes": 973,
-        "quotes": 37,
-        "replies": 453,
-        "retweets": 172,
-        "views": 183036
-      },
-      "url": "https://x.com/elonmusk/status/2109260604594856260",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2108963034550927360/img/M6zG6RBjDvycUnKJ.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2108963034550927360/vid/avc1/1920x1080/LxNGIK7Jm6W6TS-m.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108963034550927360/img/M6zG6RBjDvycUnKJ.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 4.6
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109257757958238715",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T12:20:12.000Z",
-      "created_at_shanghai": "2026-10-11 20:20:12",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Nicki Minaj on Grok, \"Using Grok Bot made me feel like I was cheating in life!\"",
-      "quote": null,
-      "retweet": {
-        "author": "teslaownersSV",
-        "avatar": "https://pbs.twimg.com/profile_images/2089050162710929408/Xy5O8i3g_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 03:24:50",
-        "created_at_utc": "2026-10-10T19:24:50.000Z",
-        "id": "2109002233253605799",
-        "images": [
-          "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg"
-        ],
-        "media": [
-          {
-            "duration": 64.798,
-            "height": 1920,
-            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/ext_tw_video/2109002148302245889/pu/vid/avc1/720x1280/z5CpWB-mC8s0Yo90.mp4?tag=12",
-            "width": 1080
-          }
-        ],
-        "name": "Tesla Owners Silicon Valley",
-        "text": "Nicki Minaj on Grok, \"Using Grok Bot made me feel like I was cheating in life!\"",
-        "url": "https://x.com/teslaownersSV/status/2109002233253605799",
+        "name": "SpaceX Super Intelligence",
+        "text": "We've unified plans across Grok, Cursor, and X Premium.\n\nIntroducing The X Subscription.",
+        "url": "https://x.com/SpaceXSI/status/2109783335296008414",
         "verified": true,
         "verified_type": "organization"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 217,
-        "likes": 2211,
-        "quotes": 19,
-        "replies": 90,
-        "retweets": 263,
-        "views": 227074
+        "bookmarks": 3022,
+        "likes": 13342,
+        "quotes": 1559,
+        "replies": 1118,
+        "retweets": 1533,
+        "views": 3400580
       },
-      "url": "https://x.com/elonmusk/status/2109257757958238715",
+      "url": "https://x.com/elonmusk/status/2109792967288652287",
       "images": [
-        "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/ext_tw_video/2109002148302245889/pu/vid/avc1/720x1280/z5CpWB-mC8s0Yo90.mp4?tag=12",
-          "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg",
-          "width": 1080,
-          "height": 1920,
-          "duration": 64.798
+          "url": "https://video.twimg.com/amplify_video/2109782667579322368/vid/avc1/1920x1080/ThJXAcymAf1pV1vL.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 10
         }
       ],
       "enriched": true
     },
     {
-      "id": "2109255680339394843",
+      "id": "2109776287275581504",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T12:11:56.000Z",
-      "created_at_shanghai": "2026-10-11 20:11:56",
+      "created_at_utc": "2026-10-12T22:40:39.000Z",
+      "created_at_shanghai": "2026-10-13 06:40:39",
       "type": "转发",
       "type_label": "转发",
-      "text": "Elon Musk just used Grok Bot to shop for his kids\n\nHe asked it to research the most fun Lego Star Wars kits for young kids… and order them\n\n\"As easy as that\"\n\nNo need for searching through endless listings, no comparing reviews or checkout forms\n\nJust one message, and Grok Bot did the research, picked the best options, and placed the order\n\nThis is what a real personal assistant actually is, and it's already here right now",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 13:35:19",
-        "created_at_utc": "2026-10-11T05:35:19.000Z",
-        "id": "2109155867983786382",
-        "images": [
-          "https://pbs.twimg.com/media/HUU6FKbXoAA8d94.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUU6FKbXoAA8d94.jpg?name=small",
-            "width": 942
-          }
-        ],
-        "name": "Elon Musk",
-        "text": "I just asked Grok @Bot to research the most fun Lego Star Wars kits for young kids and order them. As easy as that.",
-        "url": "https://x.com/elonmusk/status/2109155867983786382",
-        "verified": true,
-        "verified_type": "individual"
-      },
+      "text": "JUST IN: SpaceXSI officially published the legal terms for a unified X Premium + Grok + Cursor subscription plan\n\n&gt;social network + frontier intelligence + dev IDE + banking\n\nX the everything app. It's happening",
+      "quote": null,
       "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 20:06:51",
-        "created_at_utc": "2026-10-11T12:06:51.000Z",
-        "id": "2109254400627900564",
+        "author": "ns123abc",
+        "avatar": "https://pbs.twimg.com/profile_images/2048822563821035520/7nxCFEnk_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 03:20:20",
+        "created_at_utc": "2026-10-12T19:20:20.000Z",
+        "id": "2109725878188118503",
         "images": [
-          "https://pbs.twimg.com/media/HUWTp65a4AAU3s2.jpg?name=small"
+          "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small"
         ],
         "media": [
           {
-            "height": 2048,
+            "height": 1062,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUWTp65a4AAU3s2.jpg?name=small",
-            "width": 942
+            "url": "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small",
+            "width": 1566
           }
         ],
-        "name": "X Freeze",
-        "text": "Elon Musk just used Grok Bot to shop for his kids\n\nHe asked it to research the most fun Lego Star Wars kits for young kids… and order them\n\n\"As easy as that\"\n\nNo need for searching through endless listings, no comparing reviews or checkout forms\n\nJust one message, and Grok Bot did the research, picked the best options, and placed the order\n\nThis is what a real personal assistant actually is, and it's already here right now",
-        "url": "https://x.com/XFreeze/status/2109254400627900564",
+        "name": "NIK",
+        "text": "JUST IN: SpaceXSI officially published the legal terms for a unified X Premium + Grok + Cursor subscription plan\n\n>social network + frontier intelligence + dev IDE + banking\n\nX the everything app. It's happening",
+        "url": "https://x.com/ns123abc/status/2109725878188118503",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 44,
-        "likes": 919,
-        "quotes": 18,
-        "replies": 137,
-        "retweets": 95,
-        "views": 314032
+        "bookmarks": 147,
+        "likes": 1471,
+        "quotes": 17,
+        "replies": 139,
+        "retweets": 170,
+        "views": 170869
       },
-      "url": "https://x.com/elonmusk/status/2109255680339394843",
+      "url": "https://x.com/elonmusk/status/2109776287275581504",
       "images": [
-        "https://pbs.twimg.com/media/HUWTp65a4AAU3s2.jpg?name=small"
+        "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small"
       ],
       "media": [
         {
           "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUWTp65a4AAU3s2.jpg?name=small",
-          "width": 942,
-          "height": 2048
+          "url": "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small",
+          "width": 1566,
+          "height": 1062
         }
       ],
       "enriched": true
     },
     {
-      "id": "2109255585829159174",
+      "id": "2109738767351230511",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T12:11:34.000Z",
-      "created_at_shanghai": "2026-10-11 20:11:34",
+      "created_at_utc": "2026-10-12T20:11:33.000Z",
+      "created_at_shanghai": "2026-10-13 04:11:33",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Imagine training Grok on everything Tesla and SpaceX have learned about manufacturing.\n\nThen asking it:\n\n“I want to build a chip fab. I know absolutely nothing about it. Where do I start?”\n\nAnd having it guide you from zero to a functioning factory.",
+      "quote": {
+        "author": "Dogetothemoon",
+        "avatar": "https://pbs.twimg.com/profile_images/2090278758972571648/3ihoplje_200x200.jpg",
+        "created_at_shanghai": "2026-10-11 23:07:02",
+        "created_at_utc": "2026-10-11T15:07:02.000Z",
+        "id": "2109299744656810127",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2109190942645211136/img/6gVNBZJABEMu3sTF.jpg"
+        ],
+        "media": [
+          {
+            "duration": 141.572,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109190942645211136/img/6gVNBZJABEMu3sTF.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2109190942645211136/vid/avc1/1280x720/L9weZYtchnJbzUw7.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "Doge Tipping",
+        "text": "Elon Musk is incredibly ambitious about chipmaking and the Terafab project on @theXtakeover :\n\n“I still have a tremendous amount to learn about chipmaking. To be clear, I do not know how to make chips. I have no idea how to make them, but we will figure it out. You have to start somewhere. I did not know how to make cars or rockets either.”🤣",
+        "url": "https://x.com/Dogetothemoon/status/2109299744656810127",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "luismbat",
+        "avatar": "https://pbs.twimg.com/profile_images/378800000564279654/544464e51ec3be835a561a7f631379ab_200x200.png",
+        "created_at_shanghai": "2026-10-13 02:39:13",
+        "created_at_utc": "2026-10-12T18:39:13.000Z",
+        "id": "2109715527564198059",
+        "images": [],
+        "media": [],
+        "name": "Luis Batalha",
+        "text": "Imagine training Grok on everything Tesla and SpaceX have learned about manufacturing.\n\nThen asking it:\n\n“I want to build a chip fab. I know absolutely nothing about it. Where do I start?”\n\nAnd having it guide you from zero to a functioning factory.",
+        "url": "https://x.com/luismbat/status/2109715527564198059",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 136,
+        "likes": 1851,
+        "quotes": 14,
+        "replies": 161,
+        "retweets": 207,
+        "views": 301033
+      },
+      "url": "https://x.com/elonmusk/status/2109738767351230511",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2109692430178255016",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T17:07:26.000Z",
+      "created_at_shanghai": "2026-10-13 01:07:26",
       "type": "引用",
       "type_label": "引用",
-      "text": "Try it out!",
+      "text": "😂",
       "quote": {
-        "author": "minchoi",
-        "avatar": "https://pbs.twimg.com/profile_images/1638359113221517312/CBZaJFyA_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 06:15:04",
-        "created_at_utc": "2026-10-10T22:15:04.000Z",
-        "id": "2109045075355504866",
+        "author": "TheFP",
+        "avatar": "https://pbs.twimg.com/profile_images/1600596313720164357/KqFhncED_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 00:02:02",
+        "created_at_utc": "2026-10-12T16:02:02.000Z",
+        "id": "2109675971892707552",
         "images": [
-          "https://pbs.twimg.com/media/HUTVAAaWsAA2k4X.jpg?name=small"
+          "https://pbs.twimg.com/media/HUcTHetXMAAiEkS.png?name=small"
+        ],
+        "media": [
+          {
+            "height": 1350,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUcTHetXMAAiEkS.png?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "The Free Press",
+        "text": "A new four-hour documentary on Elon Musk is so determined to expose the billionaire’s failings that it inadvertently showcases the achievements that made him the richest man in the world.\n\nRead @liel's full review of “Musk” : https://www.thefp.com/p/elon-musk-new-documentary-enemies-best-case",
+        "url": "https://x.com/TheFP/status/2109675971892707552",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 431,
+        "likes": 12666,
+        "quotes": 108,
+        "replies": 1657,
+        "retweets": 1178,
+        "views": 3325247
+      },
+      "url": "https://x.com/elonmusk/status/2109692430178255016",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2109691157416472796",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T17:02:22.000Z",
+      "created_at_shanghai": "2026-10-13 01:02:22",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "When China figures out how to manufacture a product, their ability to scale is often greater than the rest of the world combined. We saw this with lithium batteries and solar, for example. \n\nSpaceX is a rare counter-example, where its mass to orbit is roughly an order of magnitude greater than the rest of the world, BUT China now does a majority of non-SpaceX mass to orbit. SpaceX is an anomaly in the matrix. \n\nMaybe RAM will be different, but RAM was a low margin commodity only ~3 years ago. LP5 and LP6 are designed to a common standard that China seems to be solving fast. \n\nNewer HBM architectures and things like an SRAM layer below logic and 3D stacking RAM on top of logic while finding a way to keep the logic cooled will be harder to solve.",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 01:01:39",
+        "created_at_utc": "2026-10-12T17:01:39.000Z",
+        "id": "2109690977279426846",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "When China figures out how to manufacture a product, their ability to scale is often greater than the rest of the world combined. We saw this with lithium batteries and solar, for example. \n\nSpaceX is a rare counter-example, where its mass to orbit is roughly an order of magnitude greater than the rest of the world, BUT China now does a majority of non-SpaceX mass to orbit. SpaceX is an anomaly in the matrix. \n\nMaybe RAM will be different, but RAM was a low margin commodity only ~3 years ago. LP5 and LP6 are designed to a common standard that China seems to be solving fast. \n\nNewer HBM architectures and things like an SRAM layer below logic and 3D stacking RAM on top of logic while finding a way to keep the logic cooled will be harder to solve.",
+        "url": "https://x.com/elonmusk/status/2109690977279426846",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "MelvinInvests",
+      "engagement": {
+        "bookmarks": 1987,
+        "likes": 16765,
+        "quotes": 196,
+        "replies": 900,
+        "retweets": 1218,
+        "views": 1835662
+      },
+      "url": "https://x.com/elonmusk/status/2109691157416472796",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2109690326474440765",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T16:59:04.000Z",
+      "created_at_shanghai": "2026-10-13 00:59:04",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Troubling",
+      "quote": {
+        "author": "Geiger_Capital",
+        "avatar": "https://pbs.twimg.com/profile_images/1486812287730081794/FbqQsGVz_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 00:10:23",
+        "created_at_utc": "2026-10-12T16:10:23.000Z",
+        "id": "2109678075084431696",
+        "images": [
+          "https://pbs.twimg.com/media/HUcSlSKXwAEjWKw.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1485,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUcSlSKXwAEjWKw.jpg?name=small",
+            "width": 1206
+          }
+        ],
+        "name": "Geiger Capital",
+        "text": "I thought this one was parody…\nIt’s real.\n\nJames Talarico calling Whiteness a virus.\nJust a totally normal, moderate guy.",
+        "url": "https://x.com/Geiger_Capital/status/2109678075084431696",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 484,
+        "quotes": 6,
+        "replies": 112,
+        "retweets": 102,
+        "views": 304289
+      },
+      "url": "https://x.com/elonmusk/status/2109690326474440765",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2109688905398358144",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T16:53:25.000Z",
+      "created_at_shanghai": "2026-10-13 00:53:25",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Pie chart of naturalizations in 2023. The US naturalized roughly 4x as many people as all of Asia combined.",
+      "quote": null,
+      "retweet": {
+        "author": "arctotherium42",
+        "avatar": "https://pbs.twimg.com/profile_images/1484954781500297218/iY7hjZ1u_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 22:08:40",
+        "created_at_utc": "2026-10-12T14:08:40.000Z",
+        "id": "2109647443675508977",
+        "images": [
+          "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2000,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small",
+            "width": 2600
+          }
+        ],
+        "name": "arctotherium",
+        "text": "Pie chart of naturalizations in 2023. The US naturalized roughly 4x as many people as all of Asia combined.",
+        "url": "https://x.com/arctotherium42/status/2109647443675508977",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 56,
+        "likes": 626,
+        "quotes": 11,
+        "replies": 49,
+        "retweets": 112,
+        "views": 56727
+      },
+      "url": "https://x.com/elonmusk/status/2109688905398358144",
+      "images": [
+        "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small",
+          "width": 2600,
+          "height": 2000
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2109681296616374289",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T16:23:11.000Z",
+      "created_at_shanghai": "2026-10-13 00:23:11",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Your safety has always been priority 1 at Tesla and SpaceX",
+      "quote": {
+        "author": "mayemusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2034196750035021824/7VeYNMU1_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 22:36:58",
+        "created_at_utc": "2026-10-12T14:36:58.000Z",
+        "id": "2109654566320935103",
+        "images": [],
+        "media": [],
+        "name": "Maye Musk",
+        "text": "Remembering when Tesla was just starting, Elon would say Safety First. For that reason you and your son are alive and many other lives will be saved.",
+        "url": "https://x.com/mayemusk/status/2109654566320935103",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 103,
+        "likes": 5091,
+        "quotes": 54,
+        "replies": 756,
+        "retweets": 551,
+        "views": 650319
+      },
+      "url": "https://x.com/elonmusk/status/2109681296616374289",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2109674099882553443",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T15:54:35.000Z",
+      "created_at_shanghai": "2026-10-12 23:54:35",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Brace yourselves. Over the next few weeks you are going to see a wave of hatred against Elon Musk unlike anything before.\n\nA four-hour hit-piece documentary rolling out nationwide. Midterms three weeks away. Every outlet, every NGO, every “expert” panel suddenly singing from the same sheet, on the same day, with the same words.\n\nNone of it is spontaneous.\n\nWhat you are watching is an organism. Call it international socialism, call it the managerial left, the name doesn’t matter. It is a network that spent decades quietly capturing the universities, the newsrooms, the foundations, the administrative state, every institution that was supposed to referee the game instead of playing it.\n\nFor years it worked because no one with real power ever looked under the hood.\n\nThen a man who lands rockets, owns the public square and needs nobody’s permission started looking. And started showing everyone else what he found.\n\nSo the organism does what every organism does when it senses a threat to its survival. It screams.\n\nDon’t mistake the noise for strength. What you are about to hear is not the roar of a system in control. It is a death cry.\n\nThe louder it gets, the closer he is to the nerve.\n\nI wrote about why this happens, and why “Nazi” is always the weapon of choice 👇\n\nhttps://x.com/brivael/status/2069203589692805440",
+      "quote": {
+        "author": "brivael",
+        "avatar": "https://pbs.twimg.com/profile_images/2057241969403834368/PFPm3cxd_200x200.jpg",
+        "created_at_shanghai": "2026-06-23 07:39:14",
+        "created_at_utc": "2026-06-22T23:39:14.000Z",
+        "id": "2069203589692805440",
+        "images": [],
+        "media": [],
+        "name": "Brivael Le Pogam",
+        "text": "",
+        "url": "https://x.com/brivael/status/2069203589692805440",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "brivael",
+        "avatar": "https://pbs.twimg.com/profile_images/2057241969403834368/PFPm3cxd_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 23:41:32",
+        "created_at_utc": "2026-10-12T15:41:32.000Z",
+        "id": "2109670813406240846",
+        "images": [],
+        "media": [],
+        "name": "Brivael Le Pogam",
+        "text": "Brace yourselves. Over the next few weeks you are going to see a wave of hatred against Elon Musk unlike anything before.\n\nA four-hour hit-piece documentary rolling out nationwide. Midterms three weeks away. Every outlet, every NGO, every “expert” panel suddenly singing from the same sheet, on the same day, with the same words.\n\nNone of it is spontaneous.\n\nWhat you are watching is an organism. Call it international socialism, call it the managerial left, the name doesn’t matter. It is a network that spent decades quietly capturing the universities, the newsrooms, the foundations, the administrative state, every institution that was supposed to referee the game instead of playing it.\n\nFor years it worked because no one with real power ever looked under the hood.\n\nThen a man who lands rockets, owns the public square and needs nobody’s permission started looking. And started showing everyone else what he found.\n\nSo the organism does what every organism does when it senses a threat to its survival. It screams.\n\nDon’t mistake the noise for strength. What you are about to hear is not the roar of a system in control. It is a death cry.\n\nThe louder it gets, the closer he is to the nerve.\n\nI wrote about why this happens, and why “Nazi” is always the weapon of choice 👇\n\nhttps://x.com/brivael/status/2069203589692805440",
+        "url": "https://x.com/brivael/status/2109670813406240846",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 268,
+        "likes": 2156,
+        "quotes": 56,
+        "replies": 327,
+        "retweets": 524,
+        "views": 177725
+      },
+      "url": "https://x.com/elonmusk/status/2109674099882553443",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2109673221591302626",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T15:51:06.000Z",
+      "created_at_shanghai": "2026-10-12 23:51:06",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Open standards are the foundation for AI factories that can scale from megawatts to gigawatts.\n\nAt #OCPSummit26, we contributed the NVIDIA Vera Rubin NVL72 rack and compute tray designs to @OpenComputePrj through the open 3rd generation NVIDIA MGX architecture.\n\nWe also announced advances across open source software, AI networking, pluggable optics, facility design standards and more, giving the industry a common foundation for next-generation AI factories.\n\nLearn more: https://nvda.ws/4hSAOsb",
+      "quote": null,
+      "retweet": {
+        "author": "NVIDIAAIInfra",
+        "avatar": "https://pbs.twimg.com/profile_images/1859346502243713026/NzLZW_Ag_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 23:01:09",
+        "created_at_utc": "2026-10-12T15:01:09.000Z",
+        "id": "2109660650423091650",
+        "images": [
+          "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small"
         ],
         "media": [
           {
             "height": 1080,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUTVAAaWsAA2k4X.jpg?name=small",
-            "width": 1080
+            "url": "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small",
+            "width": 1920
           }
         ],
-        "name": "Min Choi",
-        "text": "Okay, this is wild...\n\nI gave Grok Bot a photo of my credit card.\n\nIt figured out what I needed for work, found the best deal, and added it to my Amazon cart.\n\nI didn't even pick the product. 🤯",
-        "url": "https://x.com/minchoi/status/2109045075355504866",
+        "name": "NVIDIA AI Infrastructure",
+        "text": "Open standards are the foundation for AI factories that can scale from megawatts to gigawatts.\n\nAt #OCPSummit26, we contributed the NVIDIA Vera Rubin NVL72 rack and compute tray designs to @OpenComputePrj through the open 3rd generation NVIDIA MGX architecture.\n\nWe also announced advances across open source software, AI networking, pluggable optics, facility design standards and more, giving the industry a common foundation for next-generation AI factories.\n\nLearn more: https://nvda.ws/4hSAOsb",
+        "url": "https://x.com/NVIDIAAIInfra/status/2109660650423091650",
         "verified": true,
-        "verified_type": "individual"
+        "verified_type": "organization"
       },
-      "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 217,
-        "likes": 1731,
-        "quotes": 36,
-        "replies": 581,
-        "retweets": 239,
-        "views": 746748
+        "bookmarks": 29,
+        "likes": 696,
+        "quotes": 12,
+        "replies": 64,
+        "retweets": 113,
+        "views": 147159
       },
-      "url": "https://x.com/elonmusk/status/2109255585829159174",
-      "images": [],
-      "media": [],
+      "url": "https://x.com/elonmusk/status/2109673221591302626",
+      "images": [
+        "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
       "enriched": true
     },
     {
-      "id": "2109254811254403387",
+      "id": "2109672692760948972",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T12:08:29.000Z",
-      "created_at_shanghai": "2026-10-11 20:08:29",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot can research best prices and buy things for you",
+      "created_at_utc": "2026-10-12T15:49:00.000Z",
+      "created_at_shanghai": "2026-10-12 23:49:00",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "retatrutide costs about $1/mg\n\n3mg/week is a good enough dose for most people to not be fat. that's $156 PER YEAR!\n\nover 200M people in the US are fat\ngiving out free reta to every fat person would only cost $31.2 billion every year\n\nmeanwhile, obesity adds ~$6500 a year in medical costs and productivity loss per person\n\nbasically, giving out free reta would increase the GDP by $1.3 TRILLION every year",
       "quote": {
-        "author": "Teslaconomics",
-        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 15:20:56",
-        "created_at_utc": "2026-10-11T07:20:56.000Z",
-        "id": "2109182445279138244",
+        "author": "IterIntellectus",
+        "avatar": "https://pbs.twimg.com/profile_images/2009602429478633472/8lMkYuep_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 22:52:37",
+        "created_at_utc": "2026-10-12T14:52:37.000Z",
+        "id": "2109658502796816690",
         "images": [],
         "media": [],
-        "name": "Teslaconomics",
-        "text": "Bro… you still open websites, add things to your cart, and type in your credit card info just to buy something online?\n\nI just text my @bot what I want, and it handles everything. Literally finds it, checks out, places the order, and sends me the receipt.\n\nI don’t even open a single website.\n\nThe future of shopping is having your own AI do it for you. Browsing websites and doing all these things yourself is so… 2025. \n\n🤣",
-        "url": "https://x.com/Teslaconomics/status/2109182445279138244",
+        "name": "vittorio",
+        "text": "considering the increase in productivity and the time and money saved from simply not being fat, every employer would make more money by offering free ozempic to all their employees",
+        "url": "https://x.com/IterIntellectus/status/2109658502796816690",
         "verified": true,
         "verified_type": "individual"
       },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 120,
-        "likes": 2172,
-        "quotes": 65,
-        "replies": 653,
-        "retweets": 273,
-        "views": 829122
-      },
-      "url": "https://x.com/elonmusk/status/2109254811254403387",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109250878247195075",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T11:52:52.000Z",
-      "created_at_shanghai": "2026-10-11 19:52:52",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try Grok @Bot!",
-      "quote": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 01:49:06",
-        "created_at_utc": "2026-10-10T17:49:06.000Z",
-        "id": "2108978141968638224",
+      "retweet": {
+        "author": "IterIntellectus",
+        "avatar": "https://pbs.twimg.com/profile_images/2009602429478633472/8lMkYuep_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 23:41:30",
+        "created_at_utc": "2026-10-12T15:41:30.000Z",
+        "id": "2109670804220789044",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108977689423966208/img/AMXAMFO0GD6iaYx_.jpg"
+          "https://pbs.twimg.com/media/HUcLseNXMAABDmI.jpg?name=small"
         ],
         "media": [
           {
-            "duration": 42.743,
-            "height": 3840,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108977689423966208/img/AMXAMFO0GD6iaYx_.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108977689423966208/vid/avc1/2160x3840/pLtEHT6w9j0jkyE_.mp4?tag=29",
+            "height": 1980,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUcLseNXMAABDmI.jpg?name=small",
+            "width": 3240
+          }
+        ],
+        "name": "vittorio",
+        "text": "retatrutide costs about $1/mg\n\n3mg/week is a good enough dose for most people to not be fat. that's $156 PER YEAR!\n\nover 200M people in the US are fat\ngiving out free reta to every fat person would only cost $31.2 billion every year\n\nmeanwhile, obesity adds ~$6500 a year in medical costs and productivity loss per person\n\nbasically, giving out free reta would increase the GDP by $1.3 TRILLION every year",
+        "url": "https://x.com/IterIntellectus/status/2109670804220789044",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 183,
+        "likes": 1060,
+        "quotes": 18,
+        "replies": 152,
+        "retweets": 139,
+        "views": 173502
+      },
+      "url": "https://x.com/elonmusk/status/2109672692760948972",
+      "images": [
+        "https://pbs.twimg.com/media/HUcLseNXMAABDmI.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUcLseNXMAABDmI.jpg?name=small",
+          "width": 3240,
+          "height": 1980
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2109670112135405876",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T15:38:45.000Z",
+      "created_at_shanghai": "2026-10-12 23:38:45",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Nearly half a million Indian schools still have no internet. This is exactly the kind of problem Starlink was built to solve\n\nAccording to India's Education Ministry’s UDISE+ 2025–26 data:\n\n• 1,466,682 schools nationwide\n• 989,191 have internet access\n• 477,491 still don't have internet\n• Only 67.4% of schools are connected\n\nThat means nearly one in three schools across India still lacks internet access\n\nThis is where Starlink makes a real difference\n\nFor schools in remote villages and regions where laying fiber is difficult or expensive, and so they essentially end up with no internet at all, satellite internet brings teachers and students online without waiting for broadband cables to reach every classroom\n\nAnd Starlink has already demonstrated what this can achieve\n\nIn 2025 alone, Starlink connected more than 6 million students worldwide through education initiatives\n\nIndia has millions of students living far beyond major cities, and connecting underserved schools would open up access to online learning, educational resources, and opportunities that were previously out of reach\n\nA child's access to knowledge should not depend on whether a broadband cable reaches their classroom\n\nThis is another powerful reason to bring Starlink connectivity to more schools across India",
+      "quote": null,
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 18:48:17",
+        "created_at_utc": "2026-10-12T10:48:17.000Z",
+        "id": "2109597015126712595",
+        "images": [
+          "https://pbs.twimg.com/media/HUbLTAgbMAAfn0P.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2160,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUbLTAgbMAAfn0P.jpg?name=small",
             "width": 2160
           }
         ],
-        "name": "Sawyer Merritt",
-        "text": "Nicki Minaj at @theXtakeover today: “Grok @Bot has changed my life. It’s amazing. You’re able to create employees for your company, assistants. It probably has been used to save my life recently.”",
-        "url": "https://x.com/SawyerMerritt/status/2108978141968638224",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 81,
-        "likes": 1987,
-        "quotes": 27,
-        "replies": 529,
-        "retweets": 292,
-        "views": 805266
-      },
-      "url": "https://x.com/elonmusk/status/2109250878247195075",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109248013994697184",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T11:41:29.000Z",
-      "created_at_shanghai": "2026-10-11 19:41:29",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk is a great dad",
-      "quote": null,
-      "retweet": {
-        "author": "gailalfaratx",
-        "avatar": "https://pbs.twimg.com/profile_images/2107536713169981440/pmbpIjFp_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 07:02:29",
-        "created_at_utc": "2026-10-10T23:02:29.000Z",
-        "id": "2109057005994586244",
-        "images": [
-          "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small",
-            "width": 1536
-          }
-        ],
-        "name": "Gail Alfar",
-        "text": "Elon Musk is a great dad",
-        "url": "https://x.com/gailalfaratx/status/2109057005994586244",
+        "name": "X Freeze",
+        "text": "Nearly half a million Indian schools still have no internet. This is exactly the kind of problem Starlink was built to solve\n\nAccording to India's Education Ministry’s UDISE+ 2025–26 data:\n\n• 1,466,682 schools nationwide\n• 989,191 have internet access\n• 477,491 still don't have internet\n• Only 67.4% of schools are connected\n\nThat means nearly one in three schools across India still lacks internet access\n\nThis is where Starlink makes a real difference\n\nFor schools in remote villages and regions where laying fiber is difficult or expensive, and so they essentially end up with no internet at all, satellite internet brings teachers and students online without waiting for broadband cables to reach every classroom\n\nAnd Starlink has already demonstrated what this can achieve\n\nIn 2025 alone, Starlink connected more than 6 million students worldwide through education initiatives\n\nIndia has millions of students living far beyond major cities, and connecting underserved schools would open up access to online learning, educational resources, and opportunities that were previously out of reach\n\nA child's access to knowledge should not depend on whether a broadband cable reaches their classroom\n\nThis is another powerful reason to bring Starlink connectivity to more schools across India",
+        "url": "https://x.com/XFreeze/status/2109597015126712595",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 65,
-        "likes": 2407,
-        "quotes": 16,
-        "replies": 214,
-        "retweets": 194,
-        "views": 214411
+        "bookmarks": 47,
+        "likes": 1499,
+        "quotes": 55,
+        "replies": 481,
+        "retweets": 270,
+        "views": 176720
       },
-      "url": "https://x.com/elonmusk/status/2109248013994697184",
+      "url": "https://x.com/elonmusk/status/2109670112135405876",
       "images": [
-        "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small"
+        "https://pbs.twimg.com/media/HUbLTAgbMAAfn0P.jpg?name=small"
       ],
       "media": [
         {
           "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small",
-          "width": 1536,
-          "height": 2048
+          "url": "https://pbs.twimg.com/media/HUbLTAgbMAAfn0P.jpg?name=small",
+          "width": 2160,
+          "height": 2160
         }
       ],
       "enriched": true
     },
     {
-      "id": "2109245455586492900",
+      "id": "2109659735527952538",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T11:31:19.000Z",
-      "created_at_shanghai": "2026-10-11 19:31:19",
+      "created_at_utc": "2026-10-12T14:57:31.000Z",
+      "created_at_shanghai": "2026-10-12 22:57:31",
       "type": "转发",
       "type_label": "转发",
-      "text": "Here are my favorite short science fiction stories and omg they're literally so short why haven't you read them already?! seriously just Google them\n\n1) \"They're Made out of Meat\" by Terry Bison\n2) \"The Last Question\" by Isaac Asimov\n3) \"I Sexually Identify as an Attack Helicopter\" by Isabel Fall\n4) \"True names\" by Vernor Vinge\n5) \"Giants\" by Peter Watts\n6) \"The Colonel\" by Peter Watts",
+      "text": "Listen to Elon!",
       "quote": null,
       "retweet": {
-        "author": "DavidSHolz",
-        "avatar": "https://pbs.twimg.com/profile_images/1605125530084184064/xXseXWbK_200x200.jpg",
-        "created_at_shanghai": "2024-04-27 05:08:37",
-        "created_at_utc": "2024-04-26T21:08:37.000Z",
-        "id": "1783966435406164040",
-        "images": [],
-        "media": [],
-        "name": "David",
-        "text": "Here are my favorite short science fiction stories and omg they're literally so short why haven't you read them already?! seriously just Google them\n\n1) \"They're Made out of Meat\" by Terry Bison\n2) \"The Last Question\" by Isaac Asimov\n3) \"I Sexually Identify as an Attack Helicopter\" by Isabel Fall\n4) \"True names\" by Vernor Vinge\n5) \"Giants\" by Peter Watts\n6) \"The Colonel\" by Peter Watts",
-        "url": "https://x.com/DavidSHolz/status/1783966435406164040",
+        "author": "GadSaad",
+        "avatar": "https://pbs.twimg.com/profile_images/979192426660327424/4B9g75QR_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 21:04:34",
+        "created_at_utc": "2026-10-12T13:04:34.000Z",
+        "id": "2109631310478360694",
+        "images": [
+          "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 612,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small",
+            "width": 2000
+          }
+        ],
+        "name": "Gad Saad",
+        "text": "Listen to Elon!",
+        "url": "https://x.com/GadSaad/status/2109631310478360694",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 2844,
-        "likes": 2036,
-        "quotes": 19,
-        "replies": 151,
-        "retweets": 161,
-        "views": 368399
+        "bookmarks": 113,
+        "likes": 3633,
+        "quotes": 25,
+        "replies": 208,
+        "retweets": 495,
+        "views": 232554
       },
-      "url": "https://x.com/elonmusk/status/2109245455586492900",
-      "images": [],
-      "media": [],
+      "url": "https://x.com/elonmusk/status/2109659735527952538",
+      "images": [
+        "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small",
+          "width": 2000,
+          "height": 612
+        }
+      ],
       "enriched": true
     },
     {
-      "id": "2109156083302539363",
+      "id": "2109521078405968196",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T05:36:11.000Z",
-      "created_at_shanghai": "2026-10-11 13:36:11",
+      "created_at_utc": "2026-10-12T05:46:32.000Z",
+      "created_at_shanghai": "2026-10-12 13:46:32",
       "type": "转发",
       "type_label": "转发",
-      "text": "I don't think I know a single person who owns a Tesla and drives anymore. They use full self driving 90%+ of the time. \n\nIncredible to think that our kids are going to grow up in a future where all they will know is autonomous driving",
+      "text": "Crude steel production in 2025 cartogram.",
       "quote": null,
       "retweet": {
-        "author": "anothercohen",
-        "avatar": "https://pbs.twimg.com/profile_images/1886413225786232832/CjFMSLAg_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 04:17:29",
-        "created_at_utc": "2026-10-10T20:17:29.000Z",
-        "id": "2109015482657603703",
-        "images": [],
-        "media": [],
-        "name": "Alex Cohen",
-        "text": "I don't think I know a single person who owns a Tesla and drives anymore. They use full self driving 90%+ of the time. \n\nIncredible to think that our kids are going to grow up in a future where all they will know is autonomous driving",
-        "url": "https://x.com/anothercohen/status/2109015482657603703",
+        "author": "arctotherium42",
+        "avatar": "https://pbs.twimg.com/profile_images/1484954781500297218/iY7hjZ1u_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 09:42:35",
+        "created_at_utc": "2026-10-12T01:42:35.000Z",
+        "id": "2109459685497782774",
+        "images": [
+          "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1200,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small",
+            "width": 2400
+          }
+        ],
+        "name": "arctotherium",
+        "text": "Crude steel production in 2025 cartogram.",
+        "url": "https://x.com/arctotherium42/status/2109459685497782774",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 42,
-        "likes": 1459,
-        "quotes": 18,
-        "replies": 226,
-        "retweets": 113,
-        "views": 187893
+        "bookmarks": 186,
+        "likes": 1585,
+        "quotes": 39,
+        "replies": 95,
+        "retweets": 169,
+        "views": 255053
       },
-      "url": "https://x.com/elonmusk/status/2109156083302539363",
-      "images": [],
-      "media": [],
+      "url": "https://x.com/elonmusk/status/2109521078405968196",
+      "images": [
+        "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small",
+          "width": 2400,
+          "height": 1200
+        }
+      ],
       "enriched": true
     },
     {
-      "id": "2109155867983786382",
+      "id": "2109519998691553639",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T05:35:19.000Z",
-      "created_at_shanghai": "2026-10-11 13:35:19",
+      "created_at_utc": "2026-10-12T05:42:15.000Z",
+      "created_at_shanghai": "2026-10-12 13:42:15",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Wow\nhttps://x.com/i/grok/share/bGVnYWN5_22468d8a-a1a4-4391-9796-cda7cf1937b5",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 83,
+        "likes": 2004,
+        "quotes": 41,
+        "replies": 576,
+        "retweets": 300,
+        "views": 723084
+      },
+      "url": "https://x.com/elonmusk/status/2109519998691553639",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2109514619463024703",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T05:20:52.000Z",
+      "created_at_shanghai": "2026-10-12 13:20:52",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "BREAKING: President Emmerson Mnangagwa donated @Starlink kits to 10 schools in Bulilima, Zimbabwe. 🇿🇼\n\nThe nationwide Presidential Internet Scheme includes an initial 8,000-kit handover for schools. Starlink is helping rural students access a world of knowledge &amp; opportunities.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 13:16:26",
+        "created_at_utc": "2026-10-12T05:16:26.000Z",
+        "id": "2109513500544630869",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2109513469204807680/img/Vx4bKKTJ8Tf8Ue5A.jpg"
+        ],
+        "media": [
+          {
+            "duration": 10.1,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109513469204807680/img/Vx4bKKTJ8Tf8Ue5A.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2109513469204807680/vid/avc1/1478x1080/D-_rjd2tUvKIJi2h.mp4?tag=29",
+            "width": 1478
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: President Emmerson Mnangagwa donated @Starlink kits to 10 schools in Bulilima, Zimbabwe. 🇿🇼\n\nThe nationwide Presidential Internet Scheme includes an initial 8,000-kit handover for schools. Starlink is helping rural students access a world of knowledge & opportunities.",
+        "url": "https://x.com/cb_doge/status/2109513500544630869",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 27,
+        "likes": 1110,
+        "quotes": 10,
+        "replies": 184,
+        "retweets": 149,
+        "views": 201835
+      },
+      "url": "https://x.com/elonmusk/status/2109514619463024703",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2109513469204807680/img/Vx4bKKTJ8Tf8Ue5A.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2109513469204807680/vid/avc1/1478x1080/D-_rjd2tUvKIJi2h.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109513469204807680/img/Vx4bKKTJ8Tf8Ue5A.jpg",
+          "width": 1478,
+          "height": 1080,
+          "duration": 10.1
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2109507243007979558",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T04:51:34.000Z",
+      "created_at_shanghai": "2026-10-12 12:51:34",
       "type": "引用",
       "type_label": "引用",
-      "text": "I just asked Grok @Bot to research the most fun Lego Star Wars kits for young kids and order them. As easy as that.",
+      "text": "Try Grok @Bot",
       "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 05:52:12",
-        "created_at_utc": "2026-10-10T21:52:12.000Z",
-        "id": "2109039317964472589",
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 11:44:53",
+        "created_at_utc": "2026-10-12T03:44:53.000Z",
+        "id": "2109490463635914867",
         "images": [
-          "https://pbs.twimg.com/media/HUTQExWbgAAvKVr.jpg?name=small"
+          "https://pbs.twimg.com/amplify_video_thumb/2109490064350654464/img/bnCYYVwaqC10h9H0.jpg"
         ],
         "media": [
           {
-            "height": 720,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUTQExWbgAAvKVr.jpg?name=small",
-            "width": 1280
+            "duration": 23.066,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109490064350654464/img/bnCYYVwaqC10h9H0.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2109490064350654464/vid/avc1/3840x2160/ZFTgz332SwJrLM3u.mp4?tag=29",
+            "width": 3840
           }
         ],
-        "name": "X Freeze",
-        "text": "Elon Musk just highlighted another insane Grok Bot capability\n\nGrok Bot can now shop for you on the internet, find the best deals and even complete purchases on your behalf\n\nYou can simply drop a picture of your credit card into the chat, tell Grok what you want to buy, and it will search the internet for the best deal and order it\n\nImagine not having to spend hours searching different websites, comparing prices or going through checkout yourself.... Grok Bot does it for you\n\nYou just tell Grok Bot what you want, and it handles the shopping for you...a new way to shop",
-        "url": "https://x.com/XFreeze/status/2109039317964472589",
+        "name": "Sawyer Merritt",
+        "text": "You can now use Grok @Bot in a Tesla Cybercab.\n\nYou just sign into Grok once, and your Bots will be available on all future rides, and automatically logged out when you exit the vehicle to maintain privacy.\n\nI tried it tonight by adding laundry detergent to my Amazon cart. It can also send emails, place your coffee order, manage your calendar, finances, or other tasks using just your voice in the robotaxi.\n\nOn your next ride, you’ll automatically be signed in to all the apps you previously logged into as soon as you enter the vehicle.",
+        "url": "https://x.com/SawyerMerritt/status/2109490463635914867",
         "verified": true,
         "verified_type": "individual"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 225,
-        "likes": 2997,
-        "quotes": 133,
-        "replies": 1070,
-        "retweets": 306,
-        "views": 710504
+        "bookmarks": 78,
+        "likes": 2508,
+        "quotes": 63,
+        "replies": 666,
+        "retweets": 322,
+        "views": 913613
       },
-      "url": "https://x.com/elonmusk/status/2109155867983786382",
-      "images": [
-        "https://pbs.twimg.com/media/HUU6FKbXoAA8d94.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUU6FKbXoAA8d94.jpg?name=small",
-          "width": 942,
-          "height": 2048
-        }
-      ],
+      "url": "https://x.com/elonmusk/status/2109507243007979558",
+      "images": [],
+      "media": [],
       "enriched": true
     }
   ],
   "page": 23,
   "page_size": 20,
-  "total": 1233,
-  "total_pages": 62,
-  "updated_at_shanghai": "2026-10-21 23:22:01",
+  "total": 1263,
+  "total_pages": 64,
+  "updated_at_shanghai": "2026-10-22 03:22:42",
   "account": "elonmusk"
 }
