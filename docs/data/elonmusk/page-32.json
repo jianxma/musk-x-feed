@@ -1,6 +1,71 @@
 {
   "posts": [
     {
+      "id": "2108060760731754849",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T05:03:45.000Z",
+      "created_at_shanghai": "2026-10-08 13:03:45",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I told you this years ago.\n\nFun watching others join the tribe.\n\nBe in Austin this weekend to hang out with the tribe.",
+      "quote": {
+        "author": "Tesla",
+        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
+        "created_at_shanghai": "2026-10-07 07:40:43",
+        "created_at_utc": "2026-10-06T23:40:43.000Z",
+        "id": "2107617079235060023",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107574774209630208/img/cg-I-e5eIhtdnPWa.jpg"
+        ],
+        "media": [
+          {
+            "duration": 52.614,
+            "height": 1280,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107574774209630208/img/cg-I-e5eIhtdnPWa.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107574774209630208/vid/avc1/720x1280/7Zwg7AexYEBVGIyb.mp4?tag=29",
+            "width": 720
+          }
+        ],
+        "name": "Tesla",
+        "text": "“I'm in a Model Y L, and using [FSD Supervised]. \n\nThis is the most unbelievable technology I have ever experienced in a car.”",
+        "url": "https://x.com/Tesla/status/2107617079235060023",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "Scobleizer",
+        "avatar": "https://pbs.twimg.com/profile_images/1915614118876504066/zVnfpAMf_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 13:18:53",
+        "created_at_utc": "2026-10-07T05:18:53.000Z",
+        "id": "2107702177854849212",
+        "images": [],
+        "media": [],
+        "name": "Robert Scoble",
+        "text": "I told you this years ago.\n\nFun watching others join the tribe.\n\nBe in Austin this weekend to hang out with the tribe.",
+        "url": "https://x.com/Scobleizer/status/2107702177854849212",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 35,
+        "likes": 944,
+        "quotes": 5,
+        "replies": 43,
+        "retweets": 94,
+        "views": 273074
+      },
+      "url": "https://x.com/elonmusk/status/2108060760731754849",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108060588748497083",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1072,53 +1137,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108048212233785664",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T04:13:54.000Z",
-      "created_at_shanghai": "2026-10-08 12:13:54",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
-      "quote": {
-        "author": "AndrewWarner",
-        "avatar": "https://pbs.twimg.com/profile_images/652279268043436038/OB4hhHyA_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 04:26:11",
-        "created_at_utc": "2026-10-07T20:26:11.000Z",
-        "id": "2107930509284126970",
-        "images": [],
-        "media": [],
-        "name": "Andrew Warner",
-        "text": "You don't have to wait for Grok Bot to add Claude, OpenAI, etc.\n\nYou can do it now.\n\nI did\n\nJust ask your Grok Bot to connect to your AI subscriptions.\n\nHow it'll do it:\n\n• Opens a terminal on its own computer\n\n• Installs the Claude Code and Codex command-line tools\n\n• You sign in to your Claude/ChatGPT/etc once\n\n• From then on, it assigns work to other models\n\nNo API keys. Super simple.",
-        "url": "https://x.com/AndrewWarner/status/2107930509284126970",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 122,
-        "likes": 1696,
-        "quotes": 11,
-        "replies": 276,
-        "retweets": 274,
-        "views": 854427
-      },
-      "url": "https://x.com/elonmusk/status/2108048212233785664",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 32,
   "page_size": 20,
-  "total": 1225,
+  "total": 1226,
   "total_pages": 62,
-  "updated_at_shanghai": "2026-10-21 14:38:49",
+  "updated_at_shanghai": "2026-10-21 18:20:16",
   "account": "elonmusk"
 }

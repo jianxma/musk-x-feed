@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2111135858216902816",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T16:43:06.000Z",
+      "created_at_shanghai": "2026-10-17 00:43:06",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "My favorite Grok Bot use case so far:\n\nI wake up to hundreds of comments. I try to answer everyone, but some always slip through. Now Grok Bot sends me links to every comment I haven't answered, and I reply to each one myself. No automated replies, just no one left behind 💛",
+      "quote": null,
+      "retweet": {
+        "author": "icreatelife",
+        "avatar": "https://pbs.twimg.com/profile_images/1716038944981504000/veXq0uCL_200x200.jpg",
+        "created_at_shanghai": "2026-10-17 00:10:17",
+        "created_at_utc": "2026-10-16T16:10:17.000Z",
+        "id": "2111127599028076885",
+        "images": [
+          "https://pbs.twimg.com/media/HUw7VN-WkAARLMr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2204,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUw7VN-WkAARLMr.jpg?name=small",
+            "width": 1522
+          }
+        ],
+        "name": "Kris Kashtanova",
+        "text": "My favorite Grok Bot use case so far:\n\nI wake up to hundreds of comments. I try to answer everyone, but some always slip through. Now Grok Bot sends me links to every comment I haven't answered, and I reply to each one myself. No automated replies, just no one left behind 💛",
+        "url": "https://x.com/icreatelife/status/2111127599028076885",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 78,
+        "likes": 640,
+        "quotes": 6,
+        "replies": 66,
+        "retweets": 71,
+        "views": 140349
+      },
+      "url": "https://x.com/elonmusk/status/2111135858216902816",
+      "images": [
+        "https://pbs.twimg.com/media/HUw7VN-WkAARLMr.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUw7VN-WkAARLMr.jpg?name=small",
+          "width": 1522,
+          "height": 2204
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2111135753732301178",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1181,75 +1240,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110946744230187048",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T04:11:37.000Z",
-      "created_at_shanghai": "2026-10-16 12:11:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Do a kickflip!",
-      "quote": null,
-      "retweet": {
-        "author": "Tesla",
-        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-        "created_at_shanghai": "2026-10-16 10:49:51",
-        "created_at_utc": "2026-10-16T02:49:51.000Z",
-        "id": "2110926164306931860",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110926020517732352/img/WPmLVVlfDd59KSqU.jpg"
-        ],
-        "media": [
-          {
-            "duration": 43.877,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110926020517732352/img/WPmLVVlfDd59KSqU.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110926020517732352/vid/avc1/3840x2160/MgRkcNHatljPDcgd.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Tesla",
-        "text": "Do a kickflip!",
-        "url": "https://x.com/Tesla/status/2110926164306931860",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 4848,
-        "likes": 46792,
-        "quotes": 2230,
-        "replies": 1237,
-        "retweets": 6445,
-        "views": 1828295
-      },
-      "url": "https://x.com/elonmusk/status/2110946744230187048",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110926020517732352/img/WPmLVVlfDd59KSqU.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110926020517732352/vid/avc1/3840x2160/MgRkcNHatljPDcgd.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110926020517732352/img/WPmLVVlfDd59KSqU.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 43.877
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 9,
   "page_size": 20,
-  "total": 1225,
+  "total": 1226,
   "total_pages": 62,
-  "updated_at_shanghai": "2026-10-21 14:38:49",
+  "updated_at_shanghai": "2026-10-21 18:20:16",
   "account": "elonmusk"
 }

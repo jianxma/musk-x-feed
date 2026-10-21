@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110397029650477363",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T15:47:15.000Z",
+      "created_at_shanghai": "2026-10-14 23:47:15",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "🎯",
+      "quote": {
+        "author": "fchollet",
+        "avatar": "https://pbs.twimg.com/profile_images/2006806326140350470/Kd5oZv-f_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 22:28:17",
+        "created_at_utc": "2026-10-14T14:28:17.000Z",
+        "id": "2110377155079385477",
+        "images": [],
+        "media": [],
+        "name": "François Chollet",
+        "text": "String theory is what happens when an intelligent system is starved of sensory input and starts hallucinating. Intelligence needs grounding.\n\nFor this reason, intelligence is practically never the bottleneck to solving impactful problems. The bottleneck is iterated contact with reality.",
+        "url": "https://x.com/fchollet/status/2110377155079385477",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 310,
+        "likes": 4035,
+        "quotes": 57,
+        "replies": 749,
+        "retweets": 386,
+        "views": 767544
+      },
+      "url": "https://x.com/elonmusk/status/2110397029650477363",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110370768697901279",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1049,53 +1090,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110219891240525915",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T04:03:22.000Z",
-      "created_at_shanghai": "2026-10-14 12:03:22",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "ask your bot to email tibo@mail.grokbot.com if you want to send in a bug report!",
-      "quote": null,
-      "retweet": {
-        "author": "poteto",
-        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 10:16:02",
-        "created_at_utc": "2026-10-14T02:16:02.000Z",
-        "id": "2110192878379278662",
-        "images": [],
-        "media": [],
-        "name": "lauren",
-        "text": "ask your bot to email tibo@mail.grokbot.com if you want to send in a bug report!",
-        "url": "https://x.com/poteto/status/2110192878379278662",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "poteto",
-      "engagement": {
-        "bookmarks": 114,
-        "likes": 1071,
-        "quotes": 19,
-        "replies": 93,
-        "retweets": 65,
-        "views": 157616
-      },
-      "url": "https://x.com/elonmusk/status/2110219891240525915",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 20,
-  "total": 1225,
+  "total": 1226,
   "total_pages": 62,
-  "updated_at_shanghai": "2026-10-21 14:38:49",
+  "updated_at_shanghai": "2026-10-21 18:20:16",
   "account": "elonmusk"
 }

@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2107644308405039202",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-05T19:11:09.000Z",
+      "created_at_shanghai": "2026-10-06 03:11:09",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Introducing Beam: a highly efficient agentic open model with 501B total parameters and 23B active.\n\n- Frontier reasoning efficiency\n- Advances the Western open frontier on coding & agentic tasks\n- Trained end-to-end from scratch\n\nFull weights release this month.\n\nLearn more about Beam: http://reflection.ai/beam",
+      "quote": null,
+      "retweet": {
+        "author": "reflection_ai",
+        "avatar": "https://pbs.twimg.com/profile_images/2107189477575696385/id98cuOX_200x200.jpg",
+        "created_at_shanghai": "2026-10-06 03:11:09",
+        "created_at_utc": "2026-10-05T19:11:09.000Z",
+        "id": "2107186849370247235",
+        "images": [
+          "https://pbs.twimg.com/media/HT46mRYXwAAxTdt.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1273,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HT46mRYXwAAxTdt.jpg?name=small",
+            "width": 2372
+          }
+        ],
+        "name": "Reflection",
+        "text": "Introducing Beam: a highly efficient agentic open model with 501B total parameters and 23B active.\n\n- Frontier reasoning efficiency\n- Advances the Western open frontier on coding & agentic tasks\n- Trained end-to-end from scratch\n\nFull weights release this month.\n\nLearn more about Beam: http://reflection.ai/beam",
+        "url": "https://x.com/reflection_ai/status/2107186849370247235",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 3199,
+        "likes": 8529,
+        "quotes": 740,
+        "replies": 558,
+        "retweets": 1106,
+        "views": 2303403
+      },
+      "url": "https://x.com/elonmusk/status/2107644308405039202",
+      "images": [
+        "https://pbs.twimg.com/media/HT46mRYXwAAxTdt.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HT46mRYXwAAxTdt.jpg?name=small",
+          "width": 2372,
+          "height": 1273
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2107567417715224967",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1100,53 +1159,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2106906678293606496",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T00:37:51.000Z",
-      "created_at_shanghai": "2026-10-05 08:37:51",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Propagating super intelligence to the stars is a great success condition for a biological bootloader",
-      "quote": {
-        "author": "alx",
-        "avatar": "https://pbs.twimg.com/profile_images/2105508393213415424/ykMDJwKu_200x200.jpg",
-        "created_at_shanghai": "2026-10-05 03:25:09",
-        "created_at_utc": "2026-10-04T19:25:09.000Z",
-        "id": "2106827984279638295",
-        "images": [],
-        "media": [],
-        "name": "ALX (x/acc) 🎃🇺🇸",
-        "text": "Elon was calling it SI in 2014",
-        "url": "https://x.com/alx/status/2106827984279638295",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 34,
-        "likes": 922,
-        "quotes": 10,
-        "replies": 236,
-        "retweets": 116,
-        "views": 301204
-      },
-      "url": "https://x.com/elonmusk/status/2106906678293606496",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 38,
   "page_size": 20,
-  "total": 1225,
+  "total": 1226,
   "total_pages": 62,
-  "updated_at_shanghai": "2026-10-21 14:38:49",
+  "updated_at_shanghai": "2026-10-21 18:20:16",
   "account": "elonmusk"
 }

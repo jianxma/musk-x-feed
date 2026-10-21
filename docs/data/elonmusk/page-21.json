@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2109809802889314556",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T00:53:50.000Z",
+      "created_at_shanghai": "2026-10-13 08:53:50",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot rocks",
+      "quote": {
+        "author": "emigal",
+        "avatar": "https://pbs.twimg.com/profile_images/1672725049919381504/Zg-2fbuV_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 23:49:23",
+        "created_at_utc": "2026-10-12T15:49:23.000Z",
+        "id": "2109672788264910948",
+        "images": [],
+        "media": [],
+        "name": "Emi Gal",
+        "text": "I've been using Grok @Bot as my daily driver for a few weeks now and: \n\n- it has replaced 100% of my search-like queries on chatgpt / claude\n- it has replaced 100% of my Hermes usage & automations\n- it now runs 100% of my Cursor cloud agents, reviews PRs, merges for me\n\nIt also does things that other agents can't do (or can, but do it unreliably) - it has the most available connectors, it's VM is linked to my tailscale and has access to all my machines over ssh, can spin up claude code or codex agents in the terminal, can create other bots on the fly when it needs to, and my main Bot can manage other bots for me. And so much more!  \n\nWhat a time to be alive.",
+        "url": "https://x.com/emigal/status/2109672788264910948",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 119,
+        "likes": 2551,
+        "quotes": 31,
+        "replies": 393,
+        "retweets": 253,
+        "views": 963959
+      },
+      "url": "https://x.com/elonmusk/status/2109809802889314556",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109808344223621417",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1038,40 +1079,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109519998691553639",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T05:42:15.000Z",
-      "created_at_shanghai": "2026-10-12 13:42:15",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Wow\nhttps://x.com/i/grok/share/bGVnYWN5_22468d8a-a1a4-4391-9796-cda7cf1937b5",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 83,
-        "likes": 2004,
-        "quotes": 41,
-        "replies": 576,
-        "retweets": 300,
-        "views": 723084
-      },
-      "url": "https://x.com/elonmusk/status/2109519998691553639",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 20,
-  "total": 1225,
+  "total": 1226,
   "total_pages": 62,
-  "updated_at_shanghai": "2026-10-21 14:38:49",
+  "updated_at_shanghai": "2026-10-21 18:20:16",
   "account": "elonmusk"
 }
