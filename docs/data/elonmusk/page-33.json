@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2108296638263652416",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T20:41:03.000Z",
+      "created_at_shanghai": "2026-10-09 04:41:03",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Very big deal",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 04:19:10",
+        "created_at_utc": "2026-10-08T20:19:10.000Z",
+        "id": "2108291133025698301",
+        "images": [
+          "https://pbs.twimg.com/media/HUInfyJacAAgC1_.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUInfyJacAAgC1_.jpg?name=small",
+            "width": 3072
+          }
+        ],
+        "name": "SpaceX",
+        "text": "We announced an agreement to acquire a nationwide low-band spectrum license portfolio that will pave the way for @Starlink to become a major mobile carrier in the US.\n\nWith this new spectrum and our Gen2 constellation, Starlink Mobile can ensure Americans have access to high-speed mobile broadband no matter where they are → http://spacex.com/updates#starlink-mobile-spectrum",
+        "url": "https://x.com/SpaceX/status/2108291133025698301",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 425,
+        "likes": 13319,
+        "quotes": 131,
+        "replies": 862,
+        "retweets": 1417,
+        "views": 720722
+      },
+      "url": "https://x.com/elonmusk/status/2108296638263652416",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108296429462819030",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1030,71 +1080,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108236660760809531",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T16:42:43.000Z",
-      "created_at_shanghai": "2026-10-09 00:42:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It has been fascinating to use Muse, Dot, and Grok Bot all alongside each other.\n\nMakes it very clear how far in the lead Grok Bot is right now. \n\nOne good example from this morning. All three are plugged into my work calendar.\n\nThis morning Grok Bot messaged me, it noticed I forgot to cancel some meetings while I’m away, shared details on each meeting, asked if I wanted to cancel them.\n\nI said yes, and now it’s done.\n\nMuse and Dot this morning, crickets 🦗",
-      "quote": null,
-      "retweet": {
-        "author": "morganlinton",
-        "avatar": "https://pbs.twimg.com/profile_images/2058612692580184064/h0dOdYSc_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 23:50:04",
-        "created_at_utc": "2026-10-08T15:50:04.000Z",
-        "id": "2108223408328814669",
-        "images": [
-          "https://pbs.twimg.com/media/HUHqBG0bAAEoggH.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 519,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUHqBG0bAAEoggH.jpg?name=small",
-            "width": 1320
-          }
-        ],
-        "name": "Morgan",
-        "text": "It has been fascinating to use Muse, Dot, and Grok Bot all alongside each other.\n\nMakes it very clear how far in the lead Grok Bot is right now. \n\nOne good example from this morning. All three are plugged into my work calendar.\n\nThis morning Grok Bot messaged me, it noticed I forgot to cancel some meetings while I’m away, shared details on each meeting, asked if I wanted to cancel them.\n\nI said yes, and now it’s done.\n\nMuse and Dot this morning, crickets 🦗",
-        "url": "https://x.com/morganlinton/status/2108223408328814669",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 79,
-        "likes": 1228,
-        "quotes": 11,
-        "replies": 87,
-        "retweets": 128,
-        "views": 272460
-      },
-      "url": "https://x.com/elonmusk/status/2108236660760809531",
-      "images": [
-        "https://pbs.twimg.com/media/HUHqBG0bAAEoggH.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUHqBG0bAAEoggH.jpg?name=small",
-          "width": 1320,
-          "height": 519
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 33,
   "page_size": 20,
-  "total": 1317,
+  "total": 1318,
   "total_pages": 66,
-  "updated_at_shanghai": "2026-10-23 03:18:54",
+  "updated_at_shanghai": "2026-10-23 06:26:17",
   "account": "elonmusk"
 }

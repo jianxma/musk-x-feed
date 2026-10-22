@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2110934548049731681",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T03:23:10.000Z",
+      "created_at_shanghai": "2026-10-16 11:23:10",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "One of my favorite shows as a kid!",
+      "quote": {
+        "author": "mazemoore",
+        "avatar": "https://pbs.twimg.com/profile_images/1615800151750152208/qeY0l05r_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 10:10:36",
+        "created_at_utc": "2026-10-16T02:10:36.000Z",
+        "id": "2110916285353845114",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110915816107524096/img/5XxFrR44uqAfKQRk.jpg"
+        ],
+        "media": [
+          {
+            "duration": 31.13,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110915816107524096/img/5XxFrR44uqAfKQRk.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110915816107524096/vid/avc1/958x1080/AEIC_tSFapiDPFaE.mp4?tag=29",
+            "width": 958
+          }
+        ],
+        "name": "MAZE",
+        "text": "Elon Musk just made Turbo Boost a reality.\n\nA bunch of guys my age have been waiting our whole lives for this.",
+        "url": "https://x.com/mazemoore/status/2110916285353845114",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1201,
+        "likes": 24385,
+        "quotes": 239,
+        "replies": 1826,
+        "retweets": 2393,
+        "views": 1061906
+      },
+      "url": "https://x.com/elonmusk/status/2110934548049731681",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110934342323343365",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1067,75 +1119,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110877330314858831",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T23:35:48.000Z",
-      "created_at_shanghai": "2026-10-16 07:35:48",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "NVIDIA CEO Jensen Huang on Elon Musk’s AI buildout:\n\n“He’s moved from the K’s to the M’s.”\n\nNVIDIA has moved Elon’s AI business from its enterprise category into its cloud service provider category.\n\n“They’re massive.”",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 02:56:53",
-        "created_at_utc": "2026-10-15T18:56:53.000Z",
-        "id": "2110807140709629989",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110806957502451712/img/UuKonqamBJHZHCnp.jpg"
-        ],
-        "media": [
-          {
-            "duration": 92.066,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110806957502451712/img/UuKonqamBJHZHCnp.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110806957502451712/vid/avc1/1920x1080/aSsWCYjbXzHTxkOX.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "NVIDIA CEO Jensen Huang on Elon Musk’s AI buildout:\n\n“He’s moved from the K’s to the M’s.”\n\nNVIDIA has moved Elon’s AI business from its enterprise category into its cloud service provider category.\n\n“They’re massive.”",
-        "url": "https://x.com/cb_doge/status/2110807140709629989",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 72,
-        "likes": 940,
-        "quotes": 8,
-        "replies": 69,
-        "retweets": 123,
-        "views": 148305
-      },
-      "url": "https://x.com/elonmusk/status/2110877330314858831",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110806957502451712/img/UuKonqamBJHZHCnp.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110806957502451712/vid/avc1/1920x1080/aSsWCYjbXzHTxkOX.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110806957502451712/img/UuKonqamBJHZHCnp.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 92.066
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 15,
   "page_size": 20,
-  "total": 1317,
+  "total": 1318,
   "total_pages": 66,
-  "updated_at_shanghai": "2026-10-23 03:18:54",
+  "updated_at_shanghai": "2026-10-23 06:26:17",
   "account": "elonmusk"
 }

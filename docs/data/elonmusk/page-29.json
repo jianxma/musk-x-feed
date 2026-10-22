@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108944224032825761",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T15:34:19.000Z",
+      "created_at_shanghai": "2026-10-10 23:34:19",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Interesting piece from CEO of Microsoft",
+      "quote": {
+        "author": "satyanadella",
+        "avatar": "https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 22:43:10",
+        "created_at_utc": "2026-10-10T14:43:10.000Z",
+        "id": "2108931348857827686",
+        "images": [],
+        "media": [],
+        "name": "Satya Nadella",
+        "text": "https://x.com/i/article/2108928845969780736",
+        "url": "https://x.com/satyanadella/status/2108931348857827686",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2908,
+        "likes": 9254,
+        "quotes": 86,
+        "replies": 1034,
+        "retweets": 908,
+        "views": 2206566
+      },
+      "url": "https://x.com/elonmusk/status/2108944224032825761",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108936693336187103",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1114,53 +1155,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108782334980096377",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T04:51:02.000Z",
-      "created_at_shanghai": "2026-10-10 12:51:02",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Yesssss",
-      "quote": {
-        "author": "X",
-        "avatar": "https://pbs.twimg.com/profile_images/1955359038532653056/OSHY3ewP_200x200.jpg",
-        "created_at_shanghai": "2026-10-10 04:11:13",
-        "created_at_utc": "2026-10-09T20:11:13.000Z",
-        "id": "2108651520430346634",
-        "images": [],
-        "media": [],
-        "name": "X",
-        "text": "post before you talk yourself out of it",
-        "url": "https://x.com/X/status/2108651520430346634",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 217,
-        "likes": 7121,
-        "quotes": 112,
-        "replies": 1542,
-        "retweets": 619,
-        "views": 2577328
-      },
-      "url": "https://x.com/elonmusk/status/2108782334980096377",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 29,
   "page_size": 20,
-  "total": 1317,
+  "total": 1318,
   "total_pages": 66,
-  "updated_at_shanghai": "2026-10-23 03:18:54",
+  "updated_at_shanghai": "2026-10-23 06:26:17",
   "account": "elonmusk"
 }

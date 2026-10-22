@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2112781998624555086",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T05:44:16.000Z",
+      "created_at_shanghai": "2026-10-21 13:44:16",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Honest feedback from Grok and Fable",
+      "quote": {
+        "author": "AdamHoltererer",
+        "avatar": "https://pbs.twimg.com/profile_images/2093828048684544001/5JR0MimQ_200x200.jpg",
+        "created_at_shanghai": "2026-10-20 20:07:33",
+        "created_at_utc": "2026-10-20T12:07:33.000Z",
+        "id": "2112516066563829882",
+        "images": [
+          "https://pbs.twimg.com/media/HVEqHVrXAAATkl2.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1350,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVEqHVrXAAATkl2.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "Adam Holter",
+        "text": "4o was truly a special model",
+        "url": "https://x.com/AdamHoltererer/status/2112516066563829882",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 59,
+        "likes": 1116,
+        "quotes": 18,
+        "replies": 309,
+        "retweets": 121,
+        "views": 453013
+      },
+      "url": "https://x.com/elonmusk/status/2112781998624555086",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2112781132387529005",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1029,53 +1079,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2112589380196147696",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-20T16:58:52.000Z",
-      "created_at_shanghai": "2026-10-21 00:58:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Watch live as SpaceX discusses our Q3 2026 earnings at 3:30pm CT today → https://x.com/i/broadcasts/1PKqrNbLZbPGb",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-20 23:00:41",
-        "created_at_utc": "2026-10-20T15:00:41.000Z",
-        "id": "2112559638579499258",
-        "images": [],
-        "media": [],
-        "name": "SpaceX",
-        "text": "Watch live as SpaceX discusses our Q3 2026 earnings at 3:30pm CT today → https://x.com/i/broadcasts/1PKqrNbLZbPGb",
-        "url": "https://x.com/SpaceX/status/2112559638579499258",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 955,
-        "likes": 5204,
-        "quotes": 156,
-        "replies": 407,
-        "retweets": 749,
-        "views": 1581322
-      },
-      "url": "https://x.com/elonmusk/status/2112589380196147696",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 20,
-  "total": 1317,
+  "total": 1318,
   "total_pages": 66,
-  "updated_at_shanghai": "2026-10-23 03:18:54",
+  "updated_at_shanghai": "2026-10-23 06:26:17",
   "account": "elonmusk"
 }
