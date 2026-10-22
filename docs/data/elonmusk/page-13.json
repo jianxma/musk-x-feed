@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2110917910571229584",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T02:17:03.000Z",
+      "created_at_shanghai": "2026-10-16 10:17:03",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Roadster!",
+      "quote": null,
+      "retweet": {
+        "author": "woodhaus2",
+        "avatar": "https://pbs.twimg.com/profile_images/938856614567624704/BR1_Brla_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 10:01:15",
+        "created_at_utc": "2026-10-16T02:01:15.000Z",
+        "id": "2110913934844916176",
+        "images": [
+          "https://pbs.twimg.com/media/HUt5CSdXgAAS487.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1152,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUt5CSdXgAAS487.jpg?name=small",
+            "width": 2048
+          }
+        ],
+        "name": "Franz von Holzhausen",
+        "text": "Roadster!",
+        "url": "https://x.com/woodhaus2/status/2110913934844916176",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 407,
+        "likes": 10024,
+        "quotes": 111,
+        "replies": 425,
+        "retweets": 946,
+        "views": 415031
+      },
+      "url": "https://x.com/elonmusk/status/2110917910571229584",
+      "images": [
+        "https://pbs.twimg.com/media/HUt5CSdXgAAS487.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUt5CSdXgAAS487.jpg?name=small",
+          "width": 2048,
+          "height": 1152
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110917871924806021",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -993,62 +1052,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110832317727973501",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T20:36:56.000Z",
-      "created_at_shanghai": "2026-10-16 04:36:56",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starlink is really that good",
-      "quote": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 22:49:18",
-        "created_at_utc": "2026-10-15T14:49:18.000Z",
-        "id": "2110744832184320388",
-        "images": [
-          "https://pbs.twimg.com/media/HUrdfBEWIAA9Qm2.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1950,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUrdfBEWIAA9Qm2.jpg?name=small",
-            "width": 2214
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "New opinion article about @Starlink from a 7-year Delta Airlines Diamond Medallion status member (their highest loyalty tier):\n\n\"After flying a United flight in July that included Starlink, it was enough reason for me to switch. It was amazing, like being on the internet at my house, that's how fast it is. For the two-hour flight, I was just doing work. As a founder, I don't get the luxury of being able to log off for a few hours in the middle of the day. When Slack and email are going, or I'm collaborating and working with teammates, or I'm building an app, I want to have fast internet.\n\nOn most Delta flights that I'm on, there's at least some segment of the flight during which the internet goes out for a period of time, whether for a few minutes or 20 minutes. The reliability of the uptime leaves a bit to be desired. Nearly all of Delta's peers went with Starlink, while Delta went with Amazon's Leo, which won't be out until 2028.\n\nI hope Delta takes stock of all the online chatter and listens to its customers. It has done a great job in the past of continually improving its product and listening to its customers. For the most profitable and what I feel is the most premium airline in America, it seems odd for Delta not to outfit its planes with the best in-flight internet.\"\n\nI think we'll see more and more stories like this. As people get a taste of Starlink wi-fi on planes, they won't want to go back, and will demand better internet from airlines that don't have it, and in some cases, just switch to flying other airlines that do have it.",
-        "url": "https://x.com/SawyerMerritt/status/2110744832184320388",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 44,
-        "likes": 3188,
-        "quotes": 26,
-        "replies": 422,
-        "retweets": 368,
-        "views": 605097
-      },
-      "url": "https://x.com/elonmusk/status/2110832317727973501",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 13,
   "page_size": 20,
-  "total": 1269,
+  "total": 1270,
   "total_pages": 64,
-  "updated_at_shanghai": "2026-10-22 08:48:56",
+  "updated_at_shanghai": "2026-10-22 13:27:29",
   "account": "elonmusk"
 }

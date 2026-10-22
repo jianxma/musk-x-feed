@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108270309824438588",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T18:56:26.000Z",
+      "created_at_shanghai": "2026-10-09 02:56:26",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot is actually this good",
+      "quote": {
+        "author": "0x45o",
+        "avatar": "https://pbs.twimg.com/profile_images/2087845198852227072/l8Lar2hK_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 15:01:08",
+        "created_at_utc": "2026-10-08T07:01:08.000Z",
+        "id": "2108090297506841017",
+        "images": [],
+        "media": [],
+        "name": "0x45",
+        "text": "Grok bot propaganda hit me so hard I had to try it\n\nand you know what, it is fucking awesome",
+        "url": "https://x.com/0x45o/status/2108090297506841017",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 108,
+        "likes": 3236,
+        "quotes": 25,
+        "replies": 426,
+        "retweets": 410,
+        "views": 1232925
+      },
+      "url": "https://x.com/elonmusk/status/2108270309824438588",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108269794268975387",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1046,64 +1087,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108223791138734327",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T15:51:35.000Z",
-      "created_at_shanghai": "2026-10-08 23:51:35",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Welcome home!",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 23:36:55",
-        "created_at_utc": "2026-10-08T15:36:55.000Z",
-        "id": "2108220101614850436",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108219960799424512/img/HeHDtLeAzPKVISdo.jpg"
-        ],
-        "media": [
-          {
-            "duration": 21.47,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108219960799424512/img/HeHDtLeAzPKVISdo.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108219960799424512/vid/avc1/3840x2160/6WHRXyHfLWdrxmS9.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Splashdown of Dragon confirmed!",
-        "url": "https://x.com/SpaceX/status/2108220101614850436",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 132,
-        "likes": 9765,
-        "quotes": 60,
-        "replies": 626,
-        "retweets": 928,
-        "views": 707280
-      },
-      "url": "https://x.com/elonmusk/status/2108223791138734327",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 31,
   "page_size": 20,
-  "total": 1269,
+  "total": 1270,
   "total_pages": 64,
-  "updated_at_shanghai": "2026-10-22 08:48:56",
+  "updated_at_shanghai": "2026-10-22 13:27:29",
   "account": "elonmusk"
 }
