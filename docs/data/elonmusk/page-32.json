@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108221942658638265",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T15:44:14.000Z",
+      "created_at_shanghai": "2026-10-08 23:44:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot team shipped in the last few days:\n\n• Proactive primary bot\n• X search and monitoring, no API key needed\n• Faster replies + speed improvements\n• Slide deck creation in the chat\n• Tag @bot on X with instructions for your Bot\n• Best model for each task",
+      "quote": null,
+      "retweet": {
+        "author": "benln",
+        "avatar": "https://pbs.twimg.com/profile_images/1713995709916012544/GHmSl9EK_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 21:54:07",
+        "created_at_utc": "2026-10-08T13:54:07.000Z",
+        "id": "2108194230938247627",
+        "images": [],
+        "media": [],
+        "name": "Ben Lang",
+        "text": "Grok Bot team shipped in the last few days:\n\n• Proactive primary bot\n• X search and monitoring, no API key needed\n• Faster replies + speed improvements\n• Slide deck creation in the chat\n• Tag @bot on X with instructions for your Bot\n• Best model for each task",
+        "url": "https://x.com/benln/status/2108194230938247627",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 119,
+        "likes": 1365,
+        "quotes": 10,
+        "replies": 124,
+        "retweets": 121,
+        "views": 248299
+      },
+      "url": "https://x.com/elonmusk/status/2108221942658638265",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108221292788981881",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1027,64 +1068,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108179398700757378",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T12:55:11.000Z",
-      "created_at_shanghai": "2026-10-08 20:55:11",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starlink provides Internet connectivity to the least-served, enabling self-education and prosperity by giving people access to sell their products worldwide!",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 19:43:48",
-        "created_at_utc": "2026-10-08T11:43:48.000Z",
-        "id": "2108161433968185733",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2013226868808286208/img/vGxEmc0e5SMBlBA1.jpg"
-        ],
-        "media": [
-          {
-            "duration": 27.051,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2013226868808286208/img/vGxEmc0e5SMBlBA1.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2013226868808286208/vid/avc1/1080x1080/9hDBtGGc_RH1M5kD.mp4?tag=21",
-            "width": 1080
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Many people still misunderstand what Starlink is actually for\n\nStarlink isn’t a replacement.....It’s a lifeline\n\n“Starlink will give access to the internet to people that either don’t have access, or where their access is extremely expensive or very bad”\n\nThat is the part people keep missing\n\nStarlink is not trying to replace fibre or local telecom networks\n\nIt is reaching the people those networks still cannot reach, and who have been left disconnected\n\nAnd for someone in a remote area, that connection means access to education, information, work and opportunities that were never available before\n\nThat is why Starlink matters so much\n https://x.com/XFreeze/status/2013228207496126509/video/1",
-        "url": "https://x.com/XFreeze/status/2108161433968185733",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 135,
-        "likes": 3779,
-        "quotes": 85,
-        "replies": 686,
-        "retweets": 671,
-        "views": 11537288
-      },
-      "url": "https://x.com/elonmusk/status/2108179398700757378",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 32,
   "page_size": 20,
-  "total": 1268,
+  "total": 1269,
   "total_pages": 64,
-  "updated_at_shanghai": "2026-10-22 06:29:19",
+  "updated_at_shanghai": "2026-10-22 08:48:56",
   "account": "elonmusk"
 }

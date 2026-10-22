@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108396588544745887",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-09T03:18:13.000Z",
+      "created_at_shanghai": "2026-10-09 11:18:13",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Using Grok @Bot is like hiring a super smart, hard-working person for peanuts",
+      "quote": {
+        "author": "B_doong2daddy",
+        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 06:52:54",
+        "created_at_utc": "2026-10-08T22:52:54.000Z",
+        "id": "2108329820128186377",
+        "images": [],
+        "media": [],
+        "name": "Texas Twins Dad",
+        "text": "First month I paid $200 Cursor Ultra just to try Grok Bot. I said to myself.. it's okay even I don't find it worth it, I will still learn something. I learned so much since I started Grok Bot + Cursor. I never imagined myself building an app. Not only I can't do coding but I also didn't have time to dig in. Grok Bot made this possible. \n\nGrok Bot is like FSD on Tesla. If you don't try it, you just won't get what I mean. Just try it for a week.",
+        "url": "https://x.com/B_doong2daddy/status/2108329820128186377",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 353,
+        "likes": 3996,
+        "quotes": 71,
+        "replies": 651,
+        "retweets": 396,
+        "views": 1076801
+      },
+      "url": "https://x.com/elonmusk/status/2108396588544745887",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108354371960578480",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1005,53 +1046,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108301316451922073",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T20:59:38.000Z",
-      "created_at_shanghai": "2026-10-09 04:59:38",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "As easy as asking",
-      "quote": {
-        "author": "AndrewWarner",
-        "avatar": "https://pbs.twimg.com/profile_images/652279268043436038/OB4hhHyA_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 00:43:53",
-        "created_at_utc": "2026-10-08T16:43:53.000Z",
-        "id": "2108236955188068385",
-        "images": [],
-        "media": [],
-        "name": "Andrew Warner",
-        "text": "After @elonmusk tweeted my guide to connecting Claude and ChatGPT to Grok @Bot, people had 5 questions.\n\n1. Do I need an API key?\nNah. Just log into Claude or ChatGPT, like you do in VS Code, terminal, etc.\n\n2. Do I need new subscriptions?\nNope. Just use the Claude and ChatGPT plans you already pay for. Now you get more for your $\n\n3. What's the point?\nClaude writes closer to my taste. And some projects only come out right on certain models.\n\n4. Won't Claude or ChatGPT log me out when Grok logs in?\nI never got logged out. My Grok @Bot & my Mac both access those subscrptions.\n\n5. How do I set it up?\nEasy! Just send your Grok Bot this:\n\n\"Connect to my Claude and ChatGPT subscriptions using Claude Code and Codex.\"\n\nIt opens a terminal on its computer, installs both command-line tools, and asks you to log in. That's it.",
-        "url": "https://x.com/AndrewWarner/status/2108236955188068385",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 123,
-        "likes": 1140,
-        "quotes": 12,
-        "replies": 259,
-        "retweets": 151,
-        "views": 488398
-      },
-      "url": "https://x.com/elonmusk/status/2108301316451922073",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 29,
   "page_size": 20,
-  "total": 1268,
+  "total": 1269,
   "total_pages": 64,
-  "updated_at_shanghai": "2026-10-22 06:29:19",
+  "updated_at_shanghai": "2026-10-22 08:48:56",
   "account": "elonmusk"
 }

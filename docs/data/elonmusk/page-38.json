@@ -1,6 +1,34 @@
 {
   "posts": [
     {
+      "id": "2107724314451878104",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T06:46:50.000Z",
+      "created_at_shanghai": "2026-10-07 14:46:50",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Important note regarding Grok @Bot:\n\nGoing forward, @SpaceX will use the best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno and other leading APIs. \n\nWhatever is most likely to give you the best outcome.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 5604,
+        "likes": 61018,
+        "quotes": 2382,
+        "replies": 4296,
+        "retweets": 4588,
+        "views": 31816868
+      },
+      "url": "https://x.com/elonmusk/status/2107724314451878104",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107714870313676807",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1024,71 +1052,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2107723129120518469",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T18:57:32.000Z",
-      "created_at_shanghai": "2026-10-07 02:57:32",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Try asking your Grok Bot to send an email\n\nIt'll claim an inbox — name@mail.grokbot.com\n\nYour bot now has an email to use. It can send and receive emails",
-      "quote": null,
-      "retweet": {
-        "author": "melvindvivas",
-        "avatar": "https://pbs.twimg.com/profile_images/2080587337994813440/rF40X6jM_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 02:57:32",
-        "created_at_utc": "2026-10-06T18:57:32.000Z",
-        "id": "2107545810351370324",
-        "images": [
-          "https://pbs.twimg.com/media/HT-BnkSbUAAWzvR.png?name=small"
-        ],
-        "media": [
-          {
-            "height": 612,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT-BnkSbUAAWzvR.png?name=small",
-            "width": 2050
-          }
-        ],
-        "name": "Melvin Vivas",
-        "text": "Try asking your Grok Bot to send an email\n\nIt'll claim an inbox — name@mail.grokbot.com\n\nYour bot now has an email to use. It can send and receive emails",
-        "url": "https://x.com/melvindvivas/status/2107545810351370324",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1075,
-        "likes": 2277,
-        "quotes": 55,
-        "replies": 308,
-        "retweets": 175,
-        "views": 613229
-      },
-      "url": "https://x.com/elonmusk/status/2107723129120518469",
-      "images": [
-        "https://pbs.twimg.com/media/HT-BnkSbUAAWzvR.png?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HT-BnkSbUAAWzvR.png?name=small",
-          "width": 2050,
-          "height": 612
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 38,
   "page_size": 20,
-  "total": 1268,
+  "total": 1269,
   "total_pages": 64,
-  "updated_at_shanghai": "2026-10-22 06:29:19",
+  "updated_at_shanghai": "2026-10-22 08:48:56",
   "account": "elonmusk"
 }
