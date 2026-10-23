@@ -1,6 +1,71 @@
 {
   "posts": [
     {
+      "id": "2108055045597995366",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T04:41:03.000Z",
+      "created_at_shanghai": "2026-10-08 12:41:03",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot now has X data built in. I've got mine listening for customer feedback, sending me new blog posts that are gaining traction, and a lot more.",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 05:40:18",
+        "created_at_utc": "2026-10-07T21:40:18.000Z",
+        "id": "2107949161878606089",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg"
+        ],
+        "media": [
+          {
+            "duration": 12.166,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107948628950298624/vid/avc1/1920x1080/tlGtL_3iQXfm7WuO.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now search, read, and monitor X.",
+        "url": "https://x.com/bot/status/2107949161878606089",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "romanugarte_",
+        "avatar": "https://pbs.twimg.com/profile_images/1899272966850125826/Nq5kbpgO_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 06:43:13",
+        "created_at_utc": "2026-10-07T22:43:13.000Z",
+        "id": "2107964995783074269",
+        "images": [],
+        "media": [],
+        "name": "Roman Ugarte",
+        "text": "Grok Bot now has X data built in. I've got mine listening for customer feedback, sending me new blog posts that are gaining traction, and a lot more.",
+        "url": "https://x.com/romanugarte_/status/2107964995783074269",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 55,
+        "likes": 725,
+        "quotes": 2,
+        "replies": 44,
+        "retweets": 78,
+        "views": 220890
+      },
+      "url": "https://x.com/elonmusk/status/2108055045597995366",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108054781147148329",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1004,53 +1069,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107999887187165544",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T01:01:52.000Z",
-      "created_at_shanghai": "2026-10-08 09:01:52",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try Grok @Bot!",
-      "quote": {
-        "author": "liam_fallen",
-        "avatar": "https://pbs.twimg.com/profile_images/2095471460286664768/-TwotnRq_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 16:43:24",
-        "created_at_utc": "2026-10-07T08:43:24.000Z",
-        "id": "2107753649569214760",
-        "images": [],
-        "media": [],
-        "name": "Liam",
-        "text": "Grok Bot is absolutely incredible.",
-        "url": "https://x.com/liam_fallen/status/2107753649569214760",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 51,
-        "likes": 2650,
-        "quotes": 46,
-        "replies": 667,
-        "retweets": 304,
-        "views": 862441
-      },
-      "url": "https://x.com/elonmusk/status/2107999887187165544",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 38,
   "page_size": 20,
-  "total": 1336,
+  "total": 1337,
   "total_pages": 67,
-  "updated_at_shanghai": "2026-10-23 18:17:49",
+  "updated_at_shanghai": "2026-10-23 23:09:57",
   "account": "elonmusk"
 }

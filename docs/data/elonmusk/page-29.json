@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2109248013994697184",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-11T11:41:29.000Z",
+      "created_at_shanghai": "2026-10-11 19:41:29",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon Musk is a great dad",
+      "quote": null,
+      "retweet": {
+        "author": "gailalfaratx",
+        "avatar": "https://pbs.twimg.com/profile_images/2107536713169981440/pmbpIjFp_200x200.jpg",
+        "created_at_shanghai": "2026-10-11 07:02:29",
+        "created_at_utc": "2026-10-10T23:02:29.000Z",
+        "id": "2109057005994586244",
+        "images": [
+          "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small",
+            "width": 1536
+          }
+        ],
+        "name": "Gail Alfar",
+        "text": "Elon Musk is a great dad",
+        "url": "https://x.com/gailalfaratx/status/2109057005994586244",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 65,
+        "likes": 2407,
+        "quotes": 16,
+        "replies": 214,
+        "retweets": 194,
+        "views": 214411
+      },
+      "url": "https://x.com/elonmusk/status/2109248013994697184",
+      "images": [
+        "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small",
+          "width": 1536,
+          "height": 2048
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2109245455586492900",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -982,75 +1041,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108936693336187103",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T15:04:24.000Z",
-      "created_at_shanghai": "2026-10-10 23:04:24",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Excited to finally ship this to GA (and sorry for gatekeeping initially 😅)!\n\nSome of my favorite use cases so far:\n • Grok Bots talking to other Grok Bots over email!\n • Customized daily newsletters delivered straight to your inbox\n • Grok Bot as an executive assistant coordinating all your meetings\n\nLooking forward to seeing your favorite ways to email your Bot! And please share any and all feedback as usual! 📩",
-      "quote": {
-        "author": "bot",
-        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
-        "created_at_shanghai": "2026-10-10 01:25:18",
-        "created_at_utc": "2026-10-09T17:25:18.000Z",
-        "id": "2108609764766908772",
-        "images": [
-          "https://pbs.twimg.com/media/HUNJGCXWsAA1hfT.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2364,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUNJGCXWsAA1hfT.jpg?name=small",
-            "width": 4096
-          }
-        ],
-        "name": "Grok Bot",
-        "text": "Grok Bot now has its own email.\n\nBot can use it to sign up for services, contact businesses for you, or schedule time with someone.",
-        "url": "https://x.com/bot/status/2108609764766908772",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "SamSokolin",
-        "avatar": "https://pbs.twimg.com/profile_images/1992102498992046080/mzxbE_za_200x200.jpg",
-        "created_at_shanghai": "2026-10-10 01:39:13",
-        "created_at_utc": "2026-10-09T17:39:13.000Z",
-        "id": "2108613268411465893",
-        "images": [],
-        "media": [],
-        "name": "Sam Sokolin",
-        "text": "Excited to finally ship this to GA (and sorry for gatekeeping initially 😅)!\n\nSome of my favorite use cases so far:\n • Grok Bots talking to other Grok Bots over email!\n • Customized daily newsletters delivered straight to your inbox\n • Grok Bot as an executive assistant coordinating all your meetings\n\nLooking forward to seeing your favorite ways to email your Bot! And please share any and all feedback as usual! 📩",
-        "url": "https://x.com/SamSokolin/status/2108613268411465893",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 183,
-        "likes": 1011,
-        "quotes": 8,
-        "replies": 103,
-        "retweets": 107,
-        "views": 296419
-      },
-      "url": "https://x.com/elonmusk/status/2108936693336187103",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 29,
   "page_size": 20,
-  "total": 1336,
+  "total": 1337,
   "total_pages": 67,
-  "updated_at_shanghai": "2026-10-23 18:17:49",
+  "updated_at_shanghai": "2026-10-23 23:09:57",
   "account": "elonmusk"
 }

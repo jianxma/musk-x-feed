@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2111170548038324695",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T19:00:56.000Z",
+      "created_at_shanghai": "2026-10-17 03:00:56",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Incentives drive outcomes",
+      "quote": {
+        "author": "ArthurMacwaters",
+        "avatar": "https://pbs.twimg.com/profile_images/1921033752140279808/TgndOxdb_200x200.jpg",
+        "created_at_shanghai": "2026-10-17 02:27:49",
+        "created_at_utc": "2026-10-16T18:27:49.000Z",
+        "id": "2111162211318067638",
+        "images": [
+          "https://pbs.twimg.com/media/HUxazMBW4AEkX6H.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1362,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUxazMBW4AEkX6H.jpg?name=small",
+            "width": 1074
+          }
+        ],
+        "name": "Arthur MacWaters",
+        "text": "Incentives drive outcomes. \n\nIf you pay NGOs based on the number of homeless people they manage, they will **never** decrease the number of homeless people. \n\nThe data is very clear on this.",
+        "url": "https://x.com/ArthurMacwaters/status/2111162211318067638",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 214,
+        "likes": 4826,
+        "quotes": 61,
+        "replies": 677,
+        "retweets": 653,
+        "views": 770710
+      },
+      "url": "https://x.com/elonmusk/status/2111170548038324695",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111170145406402896",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1129,71 +1179,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110970473941209401",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T05:45:55.000Z",
-      "created_at_shanghai": "2026-10-16 13:45:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "ROADSTER",
-      "quote": null,
-      "retweet": {
-        "author": "beeple",
-        "avatar": "https://pbs.twimg.com/profile_images/264316321/beeple_headshot_beat_up_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 11:55:32",
-        "created_at_utc": "2026-10-16T03:55:32.000Z",
-        "id": "2110942696126775395",
-        "images": [
-          "https://pbs.twimg.com/media/HUuTD1xX0AAs_d-.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 4096,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUuTD1xX0AAs_d-.jpg?name=small",
-            "width": 3300
-          }
-        ],
-        "name": "beeple",
-        "text": "ROADSTER",
-        "url": "https://x.com/beeple/status/2110942696126775395",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 179,
-        "likes": 5826,
-        "quotes": 61,
-        "replies": 255,
-        "retweets": 573,
-        "views": 244634
-      },
-      "url": "https://x.com/elonmusk/status/2110970473941209401",
-      "images": [
-        "https://pbs.twimg.com/media/HUuTD1xX0AAs_d-.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUuTD1xX0AAs_d-.jpg?name=small",
-          "width": 3300,
-          "height": 4096
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 20,
-  "total": 1336,
+  "total": 1337,
   "total_pages": 67,
-  "updated_at_shanghai": "2026-10-23 18:17:49",
+  "updated_at_shanghai": "2026-10-23 23:09:57",
   "account": "elonmusk"
 }

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110542945481039913",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T01:27:04.000Z",
+      "created_at_shanghai": "2026-10-15 09:27:04",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "My Grok @bot bots have their own email inbox now. Getting one is easy. Just ask your chief of staff: \"Claim an email inbox for me.\" You get one @mail.grokbot.com address per account and all your bots share it, so pick the name carefully. It's permanent.",
+      "quote": null,
+      "retweet": {
+        "author": "debs_obrien",
+        "avatar": "https://pbs.twimg.com/profile_images/1537114604278530048/FMrBa87o_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 05:05:43",
+        "created_at_utc": "2026-10-14T21:05:43.000Z",
+        "id": "2110477175069798427",
+        "images": [],
+        "media": [],
+        "name": "Debbie O'Brien",
+        "text": "My Grok @bot bots have their own email inbox now. Getting one is easy. Just ask your chief of staff: \"Claim an email inbox for me.\" You get one @mail.grokbot.com address per account and all your bots share it, so pick the name carefully. It's permanent.",
+        "url": "https://x.com/debs_obrien/status/2110477175069798427",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 200,
+        "quotes": 4,
+        "replies": 21,
+        "retweets": 32,
+        "views": 31569
+      },
+      "url": "https://x.com/elonmusk/status/2110542945481039913",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110542728631349528",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1076,62 +1117,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110413877024526603",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T16:54:12.000Z",
-      "created_at_shanghai": "2026-10-15 00:54:12",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Cool",
-      "quote": {
-        "author": "Av1dlive",
-        "avatar": "https://pbs.twimg.com/profile_images/2010392290590912512/x7vtAe5W_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 19:19:46",
-        "created_at_utc": "2026-10-14T11:19:46.000Z",
-        "id": "2110329712715182092",
-        "images": [
-          "https://pbs.twimg.com/media/HUllraoXIAAsdaW.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1350,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUllraoXIAAsdaW.jpg?name=small",
-            "width": 1080
-          }
-        ],
-        "name": "Avid",
-        "text": "grok bot pretty much replaced dots and muse for running my business...\n\nhere is why : insanely simple to set up, a MASSIVE plugin library, generous usage.\n\nhere's everything i use and what it costs:\n\nrequired ($165/mo + whop's cut per sale)\n\n> money → whop plugin\n> site → vercel + github plugins\n> inbox → gmail + inbox bot (drafts, never sends)\n> crm → notion inboxes built with grok bot\n> content → x plugin + draft-only writer bots\n> video → opus 5.5 + cursor cloud agents\n> numbers → notion\n> oversight → chief of staff morning report + DOGE audits every bot\n\noptional, add when you need it\n\n> support → intercom or plain + a support inbox bot\n> ads → whop ads\n> email → klaviyo and grok bot routines \n> books → notion\n> leads → treg, hunter + scout bots\n> code → builder + reviewer bots + pstack\n> design → claude opus 5.5 + cursor cloud\n> scheduling → routines on grok bot with content calendar built by grok bot",
-        "url": "https://x.com/Av1dlive/status/2110329712715182092",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 46,
-        "likes": 742,
-        "quotes": 9,
-        "replies": 216,
-        "retweets": 91,
-        "views": 405802
-      },
-      "url": "https://x.com/elonmusk/status/2110413877024526603",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 20,
-  "total": 1336,
+  "total": 1337,
   "total_pages": 67,
-  "updated_at_shanghai": "2026-10-23 18:17:49",
+  "updated_at_shanghai": "2026-10-23 23:09:57",
   "account": "elonmusk"
 }
