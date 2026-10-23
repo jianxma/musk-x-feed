@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108237497952055631",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T16:46:03.000Z",
+      "created_at_shanghai": "2026-10-09 00:46:03",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try using @Bot for your hardest tasks!",
+      "quote": {
+        "author": "BrianRoemmele",
+        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
+        "created_at_shanghai": "2026-10-08 22:33:57",
+        "created_at_utc": "2026-10-08T14:33:57.000Z",
+        "id": "2108204254926451092",
+        "images": [],
+        "media": [],
+        "name": "Brian Roemmele",
+        "text": "Grok @Bot is a miracle maker…",
+        "url": "https://x.com/BrianRoemmele/status/2108204254926451092",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 37,
+        "likes": 792,
+        "quotes": 15,
+        "replies": 284,
+        "retweets": 112,
+        "views": 448495
+      },
+      "url": "https://x.com/elonmusk/status/2108237497952055631",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108236660760809531",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1012,71 +1053,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108188722634100983",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T13:32:14.000Z",
-      "created_at_shanghai": "2026-10-08 21:32:14",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "First time on a @united transatlantic flight equipped with free @Starlink service. The experience is INCREDIBLE. Thank you @SpaceX @elonmusk.",
-      "quote": null,
-      "retweet": {
-        "author": "robinren",
-        "avatar": "https://pbs.twimg.com/profile_images/477514917348921344/P2KlGcec_200x200.jpeg",
-        "created_at_shanghai": "2026-10-08 21:05:51",
-        "created_at_utc": "2026-10-08T13:05:51.000Z",
-        "id": "2108182083067887678",
-        "images": [
-          "https://pbs.twimg.com/media/HUHEba0WUAAosAe.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUHEba0WUAAosAe.jpg?name=small",
-            "width": 945
-          }
-        ],
-        "name": "Robin Ren",
-        "text": "First time on a @united transatlantic flight equipped with free @Starlink service. The experience is INCREDIBLE. Thank you @SpaceX @elonmusk.",
-        "url": "https://x.com/robinren/status/2108182083067887678",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 67,
-        "likes": 2740,
-        "quotes": 8,
-        "replies": 107,
-        "retweets": 168,
-        "views": 373404
-      },
-      "url": "https://x.com/elonmusk/status/2108188722634100983",
-      "images": [
-        "https://pbs.twimg.com/media/HUHEba0WUAAosAe.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUHEba0WUAAosAe.jpg?name=small",
-          "width": 945,
-          "height": 2048
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 34,
   "page_size": 20,
-  "total": 1318,
+  "total": 1319,
   "total_pages": 66,
-  "updated_at_shanghai": "2026-10-23 06:26:17",
+  "updated_at_shanghai": "2026-10-23 08:46:17",
   "account": "elonmusk"
 }

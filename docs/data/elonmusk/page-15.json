@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2110939693445698038",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T03:43:36.000Z",
+      "created_at_shanghai": "2026-10-16 11:43:36",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Roadster\n\nThe last best driver's car",
+      "quote": null,
+      "retweet": {
+        "author": "Tesla",
+        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
+        "created_at_shanghai": "2026-10-16 09:30:06",
+        "created_at_utc": "2026-10-16T01:30:06.000Z",
+        "id": "2110906094155399277",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110905894670139392/img/lXIOyBaFfejPdSPX.jpg"
+        ],
+        "media": [
+          {
+            "duration": 86.169,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110905894670139392/img/lXIOyBaFfejPdSPX.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110905894670139392/vid/avc1/3840x2160/vXdWL7XJ5rHNt1GQ.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Tesla",
+        "text": "Roadster\n\nThe last best driver's car",
+        "url": "https://x.com/Tesla/status/2110906094155399277",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1706,
+        "likes": 20433,
+        "quotes": 484,
+        "replies": 529,
+        "retweets": 2742,
+        "views": 1049293
+      },
+      "url": "https://x.com/elonmusk/status/2110939693445698038",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110905894670139392/img/lXIOyBaFfejPdSPX.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110905894670139392/vid/avc1/3840x2160/vXdWL7XJ5rHNt1GQ.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110905894670139392/img/lXIOyBaFfejPdSPX.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 86.169
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110934548049731681",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1067,64 +1130,12 @@
       "images": [],
       "media": [],
       "enriched": false
-    },
-    {
-      "id": "2110877572011844019",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T23:36:46.000Z",
-      "created_at_shanghai": "2026-10-16 07:36:46",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Maybe more than 10GW",
-      "quote": {
-        "author": "bg2clips",
-        "avatar": "https://pbs.twimg.com/profile_images/1917796804264857600/kplN8Vg7_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 05:12:20",
-        "created_at_utc": "2026-10-15T21:12:20.000Z",
-        "id": "2110841224986812828",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110840823176679424/img/BDIxIXH4F-jILUQf.jpg"
-        ],
-        "media": [
-          {
-            "duration": 285.133,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110840823176679424/img/BDIxIXH4F-jILUQf.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110840823176679424/vid/avc1/1920x1080/jsxv0aISCEDq76p5.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "bg2clips",
-        "text": "🛰️ @elonmusk wants 10 gigawatts of compute by the end of 2027. @JensenHuang says Nvidia now counts @SpaceX alongside its cloud provider customers, and the two companies' engineers are designing a server for space:\n\n\"In the two parts of our chart, Elon used to be under enterprise. That's the way we reported the numbers. Now he's part of our CSPs... They're massive.\n\nHe's using our technology for his own AI in training models and such, deploying models, of course... And the demand for GrokBot, the consumption for GrokBot is really skyrocketing. And then, of course, he rents it. And so the combination of these three things, he's fairly unique in doing that...\n\nHe loves the intersection between computing and the physical build-outs... And nobody knows more about energy than he does.\n\nAnd one particular new market that we're going to go explore together is putting data centers out in space. So our two engineering teams are working super closely together to create a new type of server, a new type of architecture that might be super good... in space and on Earth.\"\n\n— @JensenHuang, CEO of @nvidia on @BG2Pod with @altcap",
-        "url": "https://x.com/bg2clips/status/2110841224986812828",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 127,
-        "likes": 2540,
-        "quotes": 34,
-        "replies": 419,
-        "retweets": 294,
-        "views": 588255
-      },
-      "url": "https://x.com/elonmusk/status/2110877572011844019",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 15,
   "page_size": 20,
-  "total": 1318,
+  "total": 1319,
   "total_pages": 66,
-  "updated_at_shanghai": "2026-10-23 06:26:17",
+  "updated_at_shanghai": "2026-10-23 08:46:17",
   "account": "elonmusk"
 }

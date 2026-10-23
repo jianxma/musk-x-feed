@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2107849623364895151",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T15:04:46.000Z",
+      "created_at_shanghai": "2026-10-07 23:04:46",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot will use whatever achieves the best outcome for users. \n\nSimple questions will route to small, fast models. Questions with complex answers will route to large models.",
+      "quote": {
+        "author": "Scobleizer",
+        "avatar": "https://pbs.twimg.com/profile_images/1915614118876504066/zVnfpAMf_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 15:27:17",
+        "created_at_utc": "2026-10-07T07:27:17.000Z",
+        "id": "2107734490747638013",
+        "images": [],
+        "media": [],
+        "name": "Robert Scoble",
+        "text": "Grok goes open. Holy shit.",
+        "url": "https://x.com/Scobleizer/status/2107734490747638013",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 321,
+        "likes": 6630,
+        "quotes": 118,
+        "replies": 913,
+        "retweets": 697,
+        "views": 1364550
+      },
+      "url": "https://x.com/elonmusk/status/2107849623364895151",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107848813201571866",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1109,53 +1150,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107722464591794325",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T04:00:55.000Z",
-      "created_at_shanghai": "2026-10-07 12:00:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok bot proactively helping every day is like having many executive assistants for each area of your life. \n\nThere hasn’t been a technology that’s this well put together in a long time. \n\nI can’t wait to see what else the @SpaceXAI team is cooking 👨‍🍳 🥔",
-      "quote": null,
-      "retweet": {
-        "author": "thecsguy",
-        "avatar": "https://pbs.twimg.com/profile_images/1880377637086064640/FT14IBXr_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 12:00:55",
-        "created_at_utc": "2026-10-07T04:00:55.000Z",
-        "id": "2107682560763654325",
-        "images": [],
-        "media": [],
-        "name": "nick",
-        "text": "Grok bot proactively helping every day is like having many executive assistants for each area of your life. \n\nThere hasn’t been a technology that’s this well put together in a long time. \n\nI can’t wait to see what else the @SpaceXAI team is cooking 👨‍🍳 🥔",
-        "url": "https://x.com/thecsguy/status/2107682560763654325",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 42,
-        "likes": 895,
-        "quotes": 5,
-        "replies": 49,
-        "retweets": 100,
-        "views": 277626
-      },
-      "url": "https://x.com/elonmusk/status/2107722464591794325",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 40,
   "page_size": 20,
-  "total": 1318,
+  "total": 1319,
   "total_pages": 66,
-  "updated_at_shanghai": "2026-10-23 06:26:17",
+  "updated_at_shanghai": "2026-10-23 08:46:17",
   "account": "elonmusk"
 }

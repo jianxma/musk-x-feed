@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2107880103132938288",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T17:05:53.000Z",
+      "created_at_shanghai": "2026-10-08 01:05:53",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "However, we cannot mitigate risk when another operator maneuvers without sharing a predicted trajectory that includes the burn.\n\nThis is the biggest risk in LEO",
+      "quote": null,
+      "retweet": {
+        "author": "Starlink",
+        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
+        "created_at_shanghai": "2026-10-06 23:14:54",
+        "created_at_utc": "2026-10-06T15:14:54.000Z",
+        "id": "2107489783077601494",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107488652448444416/img/je4NkTmmYngovikW.jpg"
+        ],
+        "media": [
+          {
+            "duration": 24.941,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107488652448444416/img/je4NkTmmYngovikW.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107488652448444416/vid/avc1/1920x1080/w66nKOUZh7s0Gjac.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Starlink",
+        "text": "However, we cannot mitigate risk when another operator maneuvers without sharing a predicted trajectory that includes the burn.\n\nThis is the biggest risk in LEO",
+        "url": "https://x.com/Starlink/status/2107489783077601494",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 558,
+        "likes": 7285,
+        "quotes": 62,
+        "replies": 219,
+        "retweets": 551,
+        "views": 800638
+      },
+      "url": "https://x.com/elonmusk/status/2107880103132938288",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2107488652448444416/img/je4NkTmmYngovikW.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2107488652448444416/vid/avc1/1920x1080/w66nKOUZh7s0Gjac.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107488652448444416/img/je4NkTmmYngovikW.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 24.941
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2107880037567676664",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -989,53 +1052,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2107849623364895151",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T15:04:46.000Z",
-      "created_at_shanghai": "2026-10-07 23:04:46",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot will use whatever achieves the best outcome for users. \n\nSimple questions will route to small, fast models. Questions with complex answers will route to large models.",
-      "quote": {
-        "author": "Scobleizer",
-        "avatar": "https://pbs.twimg.com/profile_images/1915614118876504066/zVnfpAMf_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 15:27:17",
-        "created_at_utc": "2026-10-07T07:27:17.000Z",
-        "id": "2107734490747638013",
-        "images": [],
-        "media": [],
-        "name": "Robert Scoble",
-        "text": "Grok goes open. Holy shit.",
-        "url": "https://x.com/Scobleizer/status/2107734490747638013",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 321,
-        "likes": 6630,
-        "quotes": 118,
-        "replies": 913,
-        "retweets": 697,
-        "views": 1364550
-      },
-      "url": "https://x.com/elonmusk/status/2107849623364895151",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 39,
   "page_size": 20,
-  "total": 1318,
+  "total": 1319,
   "total_pages": 66,
-  "updated_at_shanghai": "2026-10-23 06:26:17",
+  "updated_at_shanghai": "2026-10-23 08:46:17",
   "account": "elonmusk"
 }
