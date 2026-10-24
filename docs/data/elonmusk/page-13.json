@@ -1,6 +1,110 @@
 {
   "posts": [
     {
+      "id": "2111867437238853726",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T17:10:08.000Z",
+      "created_at_shanghai": "2026-10-19 01:10:08",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot can call restaurants by phone and book you a table",
+      "quote": {
+        "author": "BrianRoemmele",
+        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
+        "created_at_shanghai": "2026-10-18 21:31:42",
+        "created_at_utc": "2026-10-18T13:31:42.000Z",
+        "id": "2111812467500458135",
+        "images": [
+          "https://pbs.twimg.com/media/HU6qPzIbMAA2dqB.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1277,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HU6qPzIbMAA2dqB.jpg?name=small",
+            "width": 1290
+          }
+        ],
+        "name": "Brian Roemmele",
+        "text": "“HUNNY MY GROK BOT CALLED OUR FAVORITE ITALIAN RESTAURANT AND MADE US RESERVATIONS”\n\nI built a Grok Bot whose only job is to pick up the phone and book you a table at restaurant. Literally make the call in a beautiful Grok voice. It is absolutely amazing! And it’s free.\n\nTry it: https://x.ai/bot/TIMrxLJHbEEpdr25yYgvL\n\nYesterday I told it \"book Gourmet Italia in Temecula, 4 people, tonight, around 7.\" It found the restaurant's number on its own, asked how flexible we were on time, what name to book under, and what callback number to give. Then it read everything back and waited for my OK before it dialed. One call covers every time that works for us, so there's no back and forth.\n\nWhen the call ends, it tells me what happened in plain English, quotes what the restaurant actually said, and offers to put the reservation on my calendar. If I don't have a calendar connected, it hands me a file that opens right in Apple Calendar.\n\n A Proposal: Grok Phone\n\nGrok Bot needs its own phone number to make and receive calls. I connected a calling service called ClawCall, and the free tier gave me 30 calls or 30 minutes to start. I have no connection to that company. It's just what I used. Once Grok Bot has a number, it stops being something you type to and becomes something that can actually get things done in the real world. @Grok you need an old tyme phone service, buddy.\n\nI built some guardrails. It never hands over a credit card or deposit info, never leaves voicemails unless you ask, makes one call at a time, and never calls on its own.\n\nAnd this isn't really about restaurants. Change a few words and the same bot can:\n\n- Book a haircut, a massage, or a dentist cleaning\n\n- Get a tee time or a court reservation\n\n- Check if a hotel has a room or will let you check in early\n\n- Schedule a car service or an oil change\n\n- Call around for quotes from a plumber, an electrician, or a caterer\n\nThis is one of many ways I use Grok Bot to build businesses and make life easier. The calls I used to put off for days now take me 30 seconds.\n\nI made it shareable, so you can grab \"Call A Restaurant Reservation\" and use it yourself.\n\nLINK: https://x.ai/bot/TIMrxLJHbEEpdr25yYgvL",
+        "url": "https://x.com/BrianRoemmele/status/2111812467500458135",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 387,
+        "likes": 4235,
+        "quotes": 110,
+        "replies": 1039,
+        "retweets": 492,
+        "views": 801888
+      },
+      "url": "https://x.com/elonmusk/status/2111867437238853726",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2111866500269174861",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T17:06:24.000Z",
+      "created_at_shanghai": "2026-10-19 01:06:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I have my banking connected to @bot. \n\nIt was a seamless process to connect and it now audits my credit card, tracks refunds and returns, and alerts me when the bill is due. \n\nMy favorite is when bot tells me a trial period moves into a full price subscription. \n\nThe future is now.",
+      "quote": {
+        "author": "melvindvivas",
+        "avatar": "https://pbs.twimg.com/profile_images/2080587337994813440/rF40X6jM_200x200.jpg",
+        "created_at_shanghai": "2026-10-18 19:39:38",
+        "created_at_utc": "2026-10-18T11:39:38.000Z",
+        "id": "2111784263591084433",
+        "images": [],
+        "media": [],
+        "name": "Melvin Vivas",
+        "text": "We’ll probably be able to add credit cards to Grok Bot in the future\n\nWill you add one?",
+        "url": "https://x.com/melvindvivas/status/2111784263591084433",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "KatieMiller",
+        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
+        "created_at_shanghai": "2026-10-18 23:37:49",
+        "created_at_utc": "2026-10-18T15:37:49.000Z",
+        "id": "2111844205714673717",
+        "images": [],
+        "media": [],
+        "name": "Katie Miller",
+        "text": "I have my banking connected to @bot. \n\nIt was a seamless process to connect and it now audits my credit card, tracks refunds and returns, and alerts me when the bill is due. \n\nMy favorite is when bot tells me a trial period moves into a full price subscription. \n\nThe future is now.",
+        "url": "https://x.com/KatieMiller/status/2111844205714673717",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 88,
+        "likes": 1126,
+        "quotes": 11,
+        "replies": 134,
+        "retweets": 112,
+        "views": 202178
+      },
+      "url": "https://x.com/elonmusk/status/2111866500269174861",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111865541472190881",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -993,150 +1097,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2111641606696968195",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-18T02:12:46.000Z",
-      "created_at_shanghai": "2026-10-18 10:12:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot feels like magic….you just tell it what you want, and it goes and does it\n\nLike, it actually just does it....it's insane",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 22:16:38",
-        "created_at_utc": "2026-10-16T14:16:38.000Z",
-        "id": "2111099000904728715",
-        "images": [
-          "https://pbs.twimg.com/media/HUwhV8Ya4AAgbRc.jpg"
-        ],
-        "media": [
-          {
-            "duration": 49.904,
-            "height": 2127,
-            "thumbnail_url": "https://pbs.twimg.com/media/HUwhV8Ya4AAgbRc.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2111098549010354176/vid/avc1/1206x2136/UPUjuK4fIOkciJOs.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Just built a Tesla Roadster game where you can fly and flip using rocket thrusters, just like the real Roadster did yesterday\n\nPlay it here: https://z-axis-traffic.grok.me\n\nBuilt it with Grok Bot and asked it to deploy the game using Grok Build mode\n\nlmk what you think",
-        "url": "https://x.com/XFreeze/status/2111099000904728715",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-18 10:09:39",
-        "created_at_utc": "2026-10-18T02:09:39.000Z",
-        "id": "2111640823272222931",
-        "images": [
-          "https://pbs.twimg.com/media/HU4OHIZa0AA4J6-.jpg?name=small",
-          "https://pbs.twimg.com/media/HU4OINqbYAAUk37.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1273,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HU4OHIZa0AA4J6-.jpg?name=small",
-            "width": 1080
-          },
-          {
-            "height": 3738,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HU4OINqbYAAUk37.jpg?name=small",
-            "width": 1890
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Grok Bot feels like magic….you just tell it what you want, and it goes and does it\n\nLike, it actually just does it....it's insane",
-        "url": "https://x.com/XFreeze/status/2111640823272222931",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 50,
-        "likes": 565,
-        "quotes": 5,
-        "replies": 52,
-        "retweets": 59,
-        "views": 184636
-      },
-      "url": "https://x.com/elonmusk/status/2111641606696968195",
-      "images": [
-        "https://pbs.twimg.com/media/HU4OHIZa0AA4J6-.jpg?name=small",
-        "https://pbs.twimg.com/media/HU4OINqbYAAUk37.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HU4OHIZa0AA4J6-.jpg?name=small",
-          "width": 1080,
-          "height": 1273
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HU4OINqbYAAUk37.jpg?name=small",
-          "width": 1890,
-          "height": 3738
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2111641377104650550",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-18T02:11:51.000Z",
-      "created_at_shanghai": "2026-10-18 10:11:51",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "When I was writing Unreal Engine 1, my time was divided as follows:\n\n- Around 30% went to seriously deep coding on hard problems: assembly language texture mappers, C++ BSP trees, data persistence, object oriented systems design, and networking.\n\n- Around 70% was just typing and refactoring large bodies of code needed for a complete engine feature set. This was not hard, and while I was doing it my mind was mostly on the deeper coding topics, thinking and planning for what's next. It didn't feel much different from vibe coding today, except that it was just me typing code on an IBM Model M keyboard rather than prompting it and reviewing the results.\n\nSo, it has always seemed perfectly logical that we would rely on AI for that 70%, once the AI could do it with a similar quality standard as we could, which has never been perfection. It came as no surprise that, after a few years of AI model evolution, it was able to take the reigns on that 70% and free up programmers' time for more valuable tasks.\n\nWhat's more of a surprise is the emergence of AI as a sort of insta-Carmack able to solve hard technical problems quite cleverly and often cleanly, and that it's able to reason about and work in complex 3D scenes both by operating the tools and by directly understanding the raw data files.\n\nI abandoned assembly language in 1998 when out-of-order CPUs made much simpler C/C++ code faster, and never I missed it. If prompting through architectural documents, concept art, and design plans can transcend typing code and tweaking vertices, that will enable developers to spend their time on higher-level, higher value technical and creative tasks.\n\nWhat matters is the end product, whether it's a game or an engine. Anything developers can do to try out more ideas and make better software and games faster is a win for everyone.",
-      "quote": null,
-      "retweet": {
-        "author": "TimSweeneyEpic",
-        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
-        "created_at_shanghai": "2026-10-18 09:39:26",
-        "created_at_utc": "2026-10-18T01:39:26.000Z",
-        "id": "2111633221725122769",
-        "images": [],
-        "media": [],
-        "name": "Tim Sweeney",
-        "text": "When I was writing Unreal Engine 1, my time was divided as follows:\n\n- Around 30% went to seriously deep coding on hard problems: assembly language texture mappers, C++ BSP trees, data persistence, object oriented systems design, and networking.\n\n- Around 70% was just typing and refactoring large bodies of code needed for a complete engine feature set. This was not hard, and while I was doing it my mind was mostly on the deeper coding topics, thinking and planning for what's next. It didn't feel much different from vibe coding today, except that it was just me typing code on an IBM Model M keyboard rather than prompting it and reviewing the results.\n\nSo, it has always seemed perfectly logical that we would rely on AI for that 70%, once the AI could do it with a similar quality standard as we could, which has never been perfection. It came as no surprise that, after a few years of AI model evolution, it was able to take the reigns on that 70% and free up programmers' time for more valuable tasks.\n\nWhat's more of a surprise is the emergence of AI as a sort of insta-Carmack able to solve hard technical problems quite cleverly and often cleanly, and that it's able to reason about and work in complex 3D scenes both by operating the tools and by directly understanding the raw data files.\n\nI abandoned assembly language in 1998 when out-of-order CPUs made much simpler C/C++ code faster, and never I missed it. If prompting through architectural documents, concept art, and design plans can transcend typing code and tweaking vertices, that will enable developers to spend their time on higher-level, higher value technical and creative tasks.\n\nWhat matters is the end product, whether it's a game or an engine. Anything developers can do to try out more ideas and make better software and games faster is a win for everyone.",
-        "url": "https://x.com/TimSweeneyEpic/status/2111633221725122769",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1138,
-        "likes": 5431,
-        "quotes": 111,
-        "replies": 396,
-        "retweets": 490,
-        "views": 365918
-      },
-      "url": "https://x.com/elonmusk/status/2111641377104650550",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 13,
   "page_size": 20,
-  "total": 1387,
+  "total": 1389,
   "total_pages": 70,
-  "updated_at_shanghai": "2026-10-24 22:05:17",
+  "updated_at_shanghai": "2026-10-24 22:19:32",
   "account": "elonmusk"
 }

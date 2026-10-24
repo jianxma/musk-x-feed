@@ -1,6 +1,108 @@
 {
   "posts": [
     {
+      "id": "2107872672785084550",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:36:22.000Z",
+      "created_at_shanghai": "2026-10-08 00:36:22",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "💯",
+      "quote": {
+        "author": "the_jefferymead",
+        "avatar": "https://pbs.twimg.com/profile_images/1653093448822542336/eMRq3ayO_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 08:56:06",
+        "created_at_utc": "2026-10-07T00:56:06.000Z",
+        "id": "2107636049187123683",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107635859063296000/img/lhilmbYbXfKs62g1.jpg"
+        ],
+        "media": [
+          {
+            "duration": 178.815,
+            "height": 1920,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107635859063296000/img/lhilmbYbXfKs62g1.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107635859063296000/vid/avc1/1080x1920/D7ucyKZd-_RxZpW3.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "Jeffery Mead",
+        "text": "Talarico is very obviously just lying about what he supports in order to try and win an election.\n\nWe have his voting record and things he has said. He’s hoping people don’t understand these things.",
+        "url": "https://x.com/the_jefferymead/status/2107636049187123683",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 146,
+        "likes": 5155,
+        "quotes": 30,
+        "replies": 393,
+        "retweets": 1179,
+        "views": 850113
+      },
+      "url": "https://x.com/elonmusk/status/2107872672785084550",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107872596465446922",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:36:04.000Z",
+      "created_at_shanghai": "2026-10-08 00:36:04",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "ezralevant",
+        "avatar": "https://pbs.twimg.com/profile_images/1861157785053835264/5MN6Mndo_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 08:30:14",
+        "created_at_utc": "2026-10-07T00:30:14.000Z",
+        "id": "2107629537064260093",
+        "images": [
+          "https://pbs.twimg.com/media/HT_N5QYWgAA337V.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1350,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HT_N5QYWgAA337V.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "Ezra Levant 🍁🚛",
+        "text": "Quebec just handed power to a party that wants out of Canada.\n\nThe Parti Québécois won Monday's election, projected at 56 seats. That's a minority.\n\nPaul St-Pierre Plamondon will be premier. \n\nHe's promised a referendum on leaving Canada in his first term, but not before January 20, 2029.\n\nThe governing CAQ fell to third.\n\nIf Quebec can put leaving Canada on a ballot, so can Alberta.",
+        "url": "https://x.com/ezralevant/status/2107629537064260093",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 150,
+        "likes": 3883,
+        "quotes": 36,
+        "replies": 396,
+        "retweets": 561,
+        "views": 942947
+      },
+      "url": "https://x.com/elonmusk/status/2107872596465446922",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107872382367281252",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1021,90 +1123,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107724314451878104",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T06:46:50.000Z",
-      "created_at_shanghai": "2026-10-07 14:46:50",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Important note regarding Grok @Bot:\n\nGoing forward, @SpaceX will use the best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno and other leading APIs. \n\nWhatever is most likely to give you the best outcome.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 5604,
-        "likes": 61018,
-        "quotes": 2382,
-        "replies": 4296,
-        "retweets": 4588,
-        "views": 31816868
-      },
-      "url": "https://x.com/elonmusk/status/2107724314451878104",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107714870313676807",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T06:09:19.000Z",
-      "created_at_shanghai": "2026-10-07 14:09:19",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "🇩🇪 Danke Schön! 🇩🇪",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 21:33:18",
-        "created_at_utc": "2026-10-06T13:33:18.000Z",
-        "id": "2107464215984517307",
-        "images": [
-          "https://pbs.twimg.com/media/HT83iEiaIAAwMCs.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 729,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT83iEiaIAAwMCs.jpg?name=small",
-            "width": 828
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Germany’s transport minister pushes for Tesla FSD approval across Europe.\n\nSpeaking today at a Tagesspiegel Background conference in Berlin, Steffen Bilger said:\n\n• He will push for Tesla FSD Supervised to reach drivers across the EU soon.\n\n• He sees potential for FSD to make roads safer and wants to support innovation.\n\n• Germany should explore its own approval route if EU talks fail.\n\n• He will work to ensure that this system can be used throughout Europe soon.\n\n📸 Lena Ganssmann / Tagesspiegel",
-        "url": "https://x.com/cb_doge/status/2107464215984517307",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 55,
-        "likes": 1710,
-        "quotes": 44,
-        "replies": 291,
-        "retweets": 241,
-        "views": 422888
-      },
-      "url": "https://x.com/elonmusk/status/2107714870313676807",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 43,
   "page_size": 20,
-  "total": 1387,
+  "total": 1389,
   "total_pages": 70,
-  "updated_at_shanghai": "2026-10-24 22:05:17",
+  "updated_at_shanghai": "2026-10-24 22:19:32",
   "account": "elonmusk"
 }
