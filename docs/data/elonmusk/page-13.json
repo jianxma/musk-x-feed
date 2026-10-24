@@ -1,6 +1,211 @@
 {
   "posts": [
     {
+      "id": "2111641377104650550",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T02:11:51.000Z",
+      "created_at_shanghai": "2026-10-18 10:11:51",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "When I was writing Unreal Engine 1, my time was divided as follows:\n\n- Around 30% went to seriously deep coding on hard problems: assembly language texture mappers, C++ BSP trees, data persistence, object oriented systems design, and networking.\n\n- Around 70% was just typing and refactoring large bodies of code needed for a complete engine feature set. This was not hard, and while I was doing it my mind was mostly on the deeper coding topics, thinking and planning for what's next. It didn't feel much different from vibe coding today, except that it was just me typing code on an IBM Model M keyboard rather than prompting it and reviewing the results.\n\nSo, it has always seemed perfectly logical that we would rely on AI for that 70%, once the AI could do it with a similar quality standard as we could, which has never been perfection. It came as no surprise that, after a few years of AI model evolution, it was able to take the reigns on that 70% and free up programmers' time for more valuable tasks.\n\nWhat's more of a surprise is the emergence of AI as a sort of insta-Carmack able to solve hard technical problems quite cleverly and often cleanly, and that it's able to reason about and work in complex 3D scenes both by operating the tools and by directly understanding the raw data files.\n\nI abandoned assembly language in 1998 when out-of-order CPUs made much simpler C/C++ code faster, and never I missed it. If prompting through architectural documents, concept art, and design plans can transcend typing code and tweaking vertices, that will enable developers to spend their time on higher-level, higher value technical and creative tasks.\n\nWhat matters is the end product, whether it's a game or an engine. Anything developers can do to try out more ideas and make better software and games faster is a win for everyone.",
+      "quote": null,
+      "retweet": {
+        "author": "TimSweeneyEpic",
+        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
+        "created_at_shanghai": "2026-10-18 09:39:26",
+        "created_at_utc": "2026-10-18T01:39:26.000Z",
+        "id": "2111633221725122769",
+        "images": [],
+        "media": [],
+        "name": "Tim Sweeney",
+        "text": "When I was writing Unreal Engine 1, my time was divided as follows:\n\n- Around 30% went to seriously deep coding on hard problems: assembly language texture mappers, C++ BSP trees, data persistence, object oriented systems design, and networking.\n\n- Around 70% was just typing and refactoring large bodies of code needed for a complete engine feature set. This was not hard, and while I was doing it my mind was mostly on the deeper coding topics, thinking and planning for what's next. It didn't feel much different from vibe coding today, except that it was just me typing code on an IBM Model M keyboard rather than prompting it and reviewing the results.\n\nSo, it has always seemed perfectly logical that we would rely on AI for that 70%, once the AI could do it with a similar quality standard as we could, which has never been perfection. It came as no surprise that, after a few years of AI model evolution, it was able to take the reigns on that 70% and free up programmers' time for more valuable tasks.\n\nWhat's more of a surprise is the emergence of AI as a sort of insta-Carmack able to solve hard technical problems quite cleverly and often cleanly, and that it's able to reason about and work in complex 3D scenes both by operating the tools and by directly understanding the raw data files.\n\nI abandoned assembly language in 1998 when out-of-order CPUs made much simpler C/C++ code faster, and never I missed it. If prompting through architectural documents, concept art, and design plans can transcend typing code and tweaking vertices, that will enable developers to spend their time on higher-level, higher value technical and creative tasks.\n\nWhat matters is the end product, whether it's a game or an engine. Anything developers can do to try out more ideas and make better software and games faster is a win for everyone.",
+        "url": "https://x.com/TimSweeneyEpic/status/2111633221725122769",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1138,
+        "likes": 5431,
+        "quotes": 111,
+        "replies": 396,
+        "retweets": 490,
+        "views": 365918
+      },
+      "url": "https://x.com/elonmusk/status/2111641377104650550",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2111639287368462417",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T02:03:33.000Z",
+      "created_at_shanghai": "2026-10-18 10:03:33",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "This works well. Screenshot of credit card is the easiest way, unless you want to fill out the secure vault data. \n\nSeems a bit silly to hand your credit card to people you don’t know at a restaurant, but not to Grok Bot.",
+      "quote": {
+        "author": "Teslaconomics",
+        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
+        "created_at_shanghai": "2026-10-18 05:52:20",
+        "created_at_utc": "2026-10-17T21:52:20.000Z",
+        "id": "2111576066687193507",
+        "images": [
+          "https://pbs.twimg.com/media/HU3TPYjbsAAMhsa.jpg?name=small",
+          "https://pbs.twimg.com/media/HU3TPYnaQAAMU-I.jpg?name=small",
+          "https://pbs.twimg.com/media/HU3TPYjaYAA04rx.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1667,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HU3TPYjbsAAMhsa.jpg?name=small",
+            "width": 1320
+          },
+          {
+            "height": 1677,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HU3TPYnaQAAMU-I.jpg?name=small",
+            "width": 1320
+          },
+          {
+            "height": 2466,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HU3TPYjaYAA04rx.jpg?name=small",
+            "width": 1320
+          }
+        ],
+        "name": "Teslaconomics",
+        "text": "My son loves basketball, and I want him to be able to practice at home… honestly we live in a small home, though, and I don’t want the constant sound of a bouncing ball disturbing our neighbors.\n\nSo I sent my Grok Bot one text: “Order me the DribbleUp silent ball, best price, shipped to my home.”\n\nIt compared prices, found the best deal, checked out with my card, and placed the order - $32.91 total w/ free shipping, arriving this Thursday.\n\nI didn’t open a shopping app or fill out a single form. \n\nI just wanted a quieter way for my son to work on his game, and my bot handled the shopping. \n\nHaving your own AI bot take care of everyday things like this is pretty freakin cool. \n\nHis ball is arriving soon and all I needed to do is send a text.",
+        "url": "https://x.com/Teslaconomics/status/2111576066687193507",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 331,
+        "likes": 3061,
+        "quotes": 49,
+        "replies": 485,
+        "retweets": 308,
+        "views": 858424
+      },
+      "url": "https://x.com/elonmusk/status/2111639287368462417",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2111637490050191644",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T01:56:24.000Z",
+      "created_at_shanghai": "2026-10-18 09:56:24",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "❤️",
+      "quote": {
+        "author": "FilmLadd",
+        "avatar": "https://pbs.twimg.com/profile_images/2085479756129013760/wNKnqC1o_200x200.jpg",
+        "created_at_shanghai": "2026-10-18 01:37:33",
+        "created_at_utc": "2026-10-17T17:37:33.000Z",
+        "id": "2111511949011812641",
+        "images": [
+          "https://pbs.twimg.com/media/HU2YRLFWgAAq1j1.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 500,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HU2YRLFWgAAq1j1.jpg?name=small",
+            "width": 500
+          }
+        ],
+        "name": "FilmLadd",
+        "text": "I don't give a damn what they say about @ElonMusk anymore. \n\nI just used his @Grok/@Bot combo to free myself from 25+ years of captivity to Adobe Premiere. I now have my OWN video editor that does what *I* want. \n\n3-4 days of effort on my part. DAYS.\n\nAnd soon I'm gonna post the source code for free so anyone can download it and use @Grok/@Bot to modify it to their requirements. It may not work for you as is, but you can modify it.\n\nSo if you want me to listen to your jealous evil rants about how Elon did this or Elon did that, fevered ravings from ugly minds about how horrible he is, you're going to have to do something for me at least as GOOD as freeing me from 25+ years in the clutches of Adobe. \n\nOtherwise you and your ravings are useless to me.\n\nBe at least as useful as @ElonMusk has been to me.",
+        "url": "https://x.com/FilmLadd/status/2111511949011812641",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 235,
+        "likes": 4310,
+        "quotes": 43,
+        "replies": 413,
+        "retweets": 358,
+        "views": 723904
+      },
+      "url": "https://x.com/elonmusk/status/2111637490050191644",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2111637291433382119",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T01:55:37.000Z",
+      "created_at_shanghai": "2026-10-18 09:55:37",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try out Grok @Bot!",
+      "quote": {
+        "author": "Texas_Twins_Dad",
+        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
+        "created_at_shanghai": "2026-10-17 13:56:43",
+        "created_at_utc": "2026-10-17T05:56:43.000Z",
+        "id": "2111335579447185496",
+        "images": [
+          "https://pbs.twimg.com/media/HUz4hT8XoAA68fl.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 900,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUz4hT8XoAA68fl.jpg?name=small",
+            "width": 1600
+          }
+        ],
+        "name": "Texas Twins Dad",
+        "text": "This is wild…\nI first subscribed to learn about Grok Bot, now it’s my personal agent that does so many works. My favorite use cases are booking appointments and solving taxes.\n\nI see more potential as it’s bringing more features. I honestly felt it is too slow to use when it first launched. Now.. it is wild.. it responds instantly!\n\nI’ve been using Grok Voice a lot lately and the access to Grok Bot has never been this easy from my Cybertruck. It even pulls up web browser!\n\nJust try Grok Bot if you haven’t..",
+        "url": "https://x.com/Texas_Twins_Dad/status/2111335579447185496",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 369,
+        "likes": 2011,
+        "quotes": 23,
+        "replies": 322,
+        "retweets": 255,
+        "views": 635449
+      },
+      "url": "https://x.com/elonmusk/status/2111637291433382119",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111631245381927086",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -795,269 +1000,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2111423965726146937",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-17T11:47:56.000Z",
-      "created_at_shanghai": "2026-10-17 19:47:56",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: Mukesh Ambani’s Reliance says it welcomes competition from Elon Musk’s Starlink in India.\n\nHere are the facts:\n\n• Starlink already has 11,000+ satellites in low Earth orbit.\n\n• Starlink has already confirmed that it has developed India-specific security controls and arrangements to keep Indian users’ data within India. It has also built 20 gateway sites across the country.\n\n• Jio has not yet launched any satellites for its own proposed LEO constellation. Its first test launch is reportedly targeted for September 2027, with mass deployment expected to begin in early 2028.\n\nStarlink’s global network is already built. Giving Indians access to Starlink would provide another option for communities where reliable internet access remains a challenge.\n\nMore competition can push providers to improve coverage, service, and pricing. Indian consumers deserve that choice.\n\nIndia should welcome every provider that complies with their rules.\n\nLet them compete in India, and let consumers decide who earns their business.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 22:56:29",
-        "created_at_utc": "2026-10-16T14:56:29.000Z",
-        "id": "2111109029405905126",
-        "images": [
-          "https://pbs.twimg.com/media/HUwqeFzasAAexZ-.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1125,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUwqeFzasAAexZ-.jpg?name=small",
-            "width": 1125
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Mukesh Ambani’s Reliance says it welcomes competition from Elon Musk’s Starlink in India.\n\nHere are the facts:\n\n• Starlink already has 11,000+ satellites in low Earth orbit.\n\n• Starlink has already confirmed that it has developed India-specific security controls and arrangements to keep Indian users’ data within India. It has also built 20 gateway sites across the country.\n\n• Jio has not yet launched any satellites for its own proposed LEO constellation. Its first test launch is reportedly targeted for September 2027, with mass deployment expected to begin in early 2028.\n\nStarlink’s global network is already built. Giving Indians access to Starlink would provide another option for communities where reliable internet access remains a challenge.\n\nMore competition can push providers to improve coverage, service, and pricing. Indian consumers deserve that choice.\n\nIndia should welcome every provider that complies with their rules.\n\nLet them compete in India, and let consumers decide who earns their business.",
-        "url": "https://x.com/cb_doge/status/2111109029405905126",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 115,
-        "likes": 2181,
-        "quotes": 63,
-        "replies": 461,
-        "retweets": 354,
-        "views": 282105
-      },
-      "url": "https://x.com/elonmusk/status/2111423965726146937",
-      "images": [
-        "https://pbs.twimg.com/media/HUwqeFzasAAexZ-.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUwqeFzasAAexZ-.jpg?name=small",
-          "width": 1125,
-          "height": 1125
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2111423581368545570",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-17T11:46:24.000Z",
-      "created_at_shanghai": "2026-10-17 19:46:24",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "You are probably safer in San Salvador than Paris at this point \n\nCriminals cause crime. \n\nEl Salvador understands this. \n\nThe West has forgotten it.",
-      "quote": {
-        "author": "nayibbukele",
-        "avatar": "https://pbs.twimg.com/profile_images/2075041300940791808/mW7D8_l7_200x200.jpg",
-        "created_at_shanghai": "2026-10-17 03:26:55",
-        "created_at_utc": "2026-10-16T19:26:55.000Z",
-        "id": "2111177084970438822",
-        "images": [],
-        "media": [],
-        "name": "Nayib Bukele",
-        "text": "“The most extreme fall ever recorded.”\n\nAnd yet, some people still doubt us.",
-        "url": "https://x.com/nayibbukele/status/2111177084970438822",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "retweet": {
-        "author": "ArthurMacwaters",
-        "avatar": "https://pbs.twimg.com/profile_images/1921033752140279808/TgndOxdb_200x200.jpg",
-        "created_at_shanghai": "2026-10-17 07:30:00",
-        "created_at_utc": "2026-10-16T23:30:00.000Z",
-        "id": "2111238257543643544",
-        "images": [
-          "https://pbs.twimg.com/media/HUygAY4awAECs-j.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1348,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUygAY4awAECs-j.jpg?name=small",
-            "width": 1083
-          }
-        ],
-        "name": "Arthur MacWaters",
-        "text": "You are probably safer in San Salvador than Paris at this point \n\nCriminals cause crime. \n\nEl Salvador understands this. \n\nThe West has forgotten it.",
-        "url": "https://x.com/ArthurMacwaters/status/2111238257543643544",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 104,
-        "likes": 3130,
-        "quotes": 21,
-        "replies": 97,
-        "retweets": 447,
-        "views": 219086
-      },
-      "url": "https://x.com/elonmusk/status/2111423581368545570",
-      "images": [
-        "https://pbs.twimg.com/media/HUygAY4awAECs-j.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUygAY4awAECs-j.jpg?name=small",
-          "width": 1083,
-          "height": 1348
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2111423481170772337",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-17T11:46:00.000Z",
-      "created_at_shanghai": "2026-10-17 19:46:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": ".@POTUS on Zelensky: \"I know the details, okay? And at some point, I'll release the details — but I don't care about anything except for one: I want that war ended.\"",
-      "quote": null,
-      "retweet": {
-        "author": "RapidResponse47",
-        "avatar": "https://pbs.twimg.com/profile_images/2062578057836142592/IYAK6I1p_200x200.jpg",
-        "created_at_shanghai": "2026-10-17 01:19:49",
-        "created_at_utc": "2026-10-16T17:19:49.000Z",
-        "id": "2111145097970520367",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2111144879610843136/img/RA6Lw3PtPZ94QjfH.jpg"
-        ],
-        "media": [
-          {
-            "duration": 33.733,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111144879610843136/img/RA6Lw3PtPZ94QjfH.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2111144879610843136/vid/avc1/1280x720/KanjX64cD7PPDG90.mp4?tag=29",
-            "width": 1280
-          }
-        ],
-        "name": "Rapid Response 47",
-        "text": ".@POTUS on Zelensky: \"I know the details, okay? And at some point, I'll release the details — but I don't care about anything except for one: I want that war ended.\"",
-        "url": "https://x.com/RapidResponse47/status/2111145097970520367",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 269,
-        "likes": 12470,
-        "quotes": 83,
-        "replies": 601,
-        "retweets": 2165,
-        "views": 340197
-      },
-      "url": "https://x.com/elonmusk/status/2111423481170772337",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2111144879610843136/img/RA6Lw3PtPZ94QjfH.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2111144879610843136/vid/avc1/1280x720/KanjX64cD7PPDG90.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111144879610843136/img/RA6Lw3PtPZ94QjfH.jpg",
-          "width": 1280,
-          "height": 720,
-          "duration": 33.733
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2111364209514615025",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-17T07:50:29.000Z",
-      "created_at_shanghai": "2026-10-17 15:50:29",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "He crashed a million-dollar car he never insured, then told the friend sitting next to him he thought it would never happen to him.\n\n“Watch this.”\n\nThat’s what Elon Musk said right before he lost control of his own McLaren F1.\n\nHis name is Elon Musk. The year was 2000. He’d just pocketed $22 million selling his first company, Zip2, and used $1 million of it on one of only 106 McLaren F1s ever built. He was driving Peter Thiel to pitch Sequoia Capital for what would become PayPal when Thiel asked what the car could do.\n\nMusk floored it. The F1 had 640 horsepower, weighed barely a ton, and had zero traction control. The back end snapped out instantly, spun the car backward into an embankment, and launched it into the air spinning like a discus.\n\nBoth men walked away unhurt. The car didn’t. According to Thiel, Musk’s first words afterward were that he’d read plenty of stories about guys who made money, bought a supercar, and crashed it, and figured it would never happen to him, which is also why he never bought insurance.\n\nThey hitchhiked separately to the meeting instead of showing up together.\n\nHonestly, the detail that stays with me isn’t the crash, it’s that he still made the pitch meeting that same day, uninsured wreck and all, like the car was just a line item he’d deal with later.\n\nWould you have skipped insurance on a million-dollar car too, or is that exactly the kind of bet that only looks smart once you’re already a billionaire?",
-      "quote": null,
-      "retweet": {
-        "author": "0xdimix",
-        "avatar": "https://pbs.twimg.com/profile_images/2105249478303166464/j99pUiE1_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 19:32:00",
-        "created_at_utc": "2026-10-11T11:32:00.000Z",
-        "id": "2109245628605685854",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109244201317650432/img/cZOnQPbA4AQ5Q5Rl.jpg"
-        ],
-        "media": [
-          {
-            "duration": 251.123,
-            "height": 360,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109244201317650432/img/cZOnQPbA4AQ5Q5Rl.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109244201317650432/vid/avc1/640x360/wY-e9ZfVjlli8vQN.mp4?tag=29",
-            "width": 640
-          }
-        ],
-        "name": "DimiX",
-        "text": "He crashed a million-dollar car he never insured, then told the friend sitting next to him he thought it would never happen to him.\n\n“Watch this.”\n\nThat’s what Elon Musk said right before he lost control of his own McLaren F1.\n\nHis name is Elon Musk. The year was 2000. He’d just pocketed $22 million selling his first company, Zip2, and used $1 million of it on one of only 106 McLaren F1s ever built. He was driving Peter Thiel to pitch Sequoia Capital for what would become PayPal when Thiel asked what the car could do.\n\nMusk floored it. The F1 had 640 horsepower, weighed barely a ton, and had zero traction control. The back end snapped out instantly, spun the car backward into an embankment, and launched it into the air spinning like a discus.\n\nBoth men walked away unhurt. The car didn’t. According to Thiel, Musk’s first words afterward were that he’d read plenty of stories about guys who made money, bought a supercar, and crashed it, and figured it would never happen to him, which is also why he never bought insurance.\n\nThey hitchhiked separately to the meeting instead of showing up together.\n\nHonestly, the detail that stays with me isn’t the crash, it’s that he still made the pitch meeting that same day, uninsured wreck and all, like the car was just a line item he’d deal with later.\n\nWould you have skipped insurance on a million-dollar car too, or is that exactly the kind of bet that only looks smart once you’re already a billionaire?",
-        "url": "https://x.com/0xdimix/status/2109245628605685854",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 812,
-        "likes": 2738,
-        "quotes": 32,
-        "replies": 147,
-        "retweets": 319,
-        "views": 211785
-      },
-      "url": "https://x.com/elonmusk/status/2111364209514615025",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109244201317650432/img/cZOnQPbA4AQ5Q5Rl.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109244201317650432/vid/avc1/640x360/wY-e9ZfVjlli8vQN.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109244201317650432/img/cZOnQPbA4AQ5Q5Rl.jpg",
-          "width": 640,
-          "height": 360,
-          "duration": 251.123
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 13,
   "page_size": 20,
-  "total": 1364,
+  "total": 1368,
   "total_pages": 69,
-  "updated_at_shanghai": "2026-10-24 08:31:34",
+  "updated_at_shanghai": "2026-10-24 12:56:33",
   "account": "elonmusk"
 }

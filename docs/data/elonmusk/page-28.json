@@ -1,6 +1,188 @@
 {
   "posts": [
     {
+      "id": "2109811103525958068",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T00:59:00.000Z",
+      "created_at_shanghai": "2026-10-13 08:59:00",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Finally my X bookmarks doing something. My Grok bot looks at what I bookmark, processes it and saves into my Second brain on Notion. From there all agents and workflows have access to it and I can also use notion ai to make sense of lots of new information",
+      "quote": null,
+      "retweet": {
+        "author": "mrfundman",
+        "avatar": "https://pbs.twimg.com/profile_images/1844590451933810701/SJ70OFpA_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 22:50:23",
+        "created_at_utc": "2026-10-12T14:50:23.000Z",
+        "id": "2109657940244480282",
+        "images": [
+          "https://pbs.twimg.com/media/HUcCt0zX0AA0Fy4.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 593,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUcCt0zX0AA0Fy4.jpg?name=small",
+            "width": 1320
+          }
+        ],
+        "name": "mr fundman",
+        "text": "Finally my X bookmarks doing something. My Grok bot looks at what I bookmark, processes it and saves into my Second brain on Notion. From there all agents and workflows have access to it and I can also use notion ai to make sense of lots of new information",
+        "url": "https://x.com/mrfundman/status/2109657940244480282",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 156,
+        "likes": 579,
+        "quotes": 6,
+        "replies": 38,
+        "retweets": 57,
+        "views": 167439
+      },
+      "url": "https://x.com/elonmusk/status/2109811103525958068",
+      "images": [
+        "https://pbs.twimg.com/media/HUcCt0zX0AA0Fy4.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUcCt0zX0AA0Fy4.jpg?name=small",
+          "width": 1320,
+          "height": 593
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2109811014489272676",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T00:58:38.000Z",
+      "created_at_shanghai": "2026-10-13 08:58:38",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try @Grok @Bot\n\nIt gets better every day",
+      "quote": {
+        "author": "jerrod_lew",
+        "avatar": "https://pbs.twimg.com/profile_images/2037818589714202624/gM2tduRH_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 15:44:08",
+        "created_at_utc": "2026-10-12T07:44:08.000Z",
+        "id": "2109550671813128266",
+        "images": [],
+        "media": [],
+        "name": "Jerrod Lew",
+        "text": "Grok Bot is the strongest personal agent I've used yet.\n\nJust the usage on it increases so fast, and so I'm afraid to give it too much.\n\nReally hope there are some solutions to the overall 𝕏, Grok, Grok Bot subscriptions so they role into one.",
+        "url": "https://x.com/jerrod_lew/status/2109550671813128266",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 74,
+        "likes": 2395,
+        "quotes": 32,
+        "replies": 449,
+        "retweets": 272,
+        "views": 694172
+      },
+      "url": "https://x.com/elonmusk/status/2109811014489272676",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2109809802889314556",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T00:53:50.000Z",
+      "created_at_shanghai": "2026-10-13 08:53:50",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot rocks",
+      "quote": {
+        "author": "emigal",
+        "avatar": "https://pbs.twimg.com/profile_images/1672725049919381504/Zg-2fbuV_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 23:49:23",
+        "created_at_utc": "2026-10-12T15:49:23.000Z",
+        "id": "2109672788264910948",
+        "images": [],
+        "media": [],
+        "name": "Emi Gal",
+        "text": "I've been using Grok @Bot as my daily driver for a few weeks now and: \n\n- it has replaced 100% of my search-like queries on chatgpt / claude\n- it has replaced 100% of my Hermes usage & automations\n- it now runs 100% of my Cursor cloud agents, reviews PRs, merges for me\n\nIt also does things that other agents can't do (or can, but do it unreliably) - it has the most available connectors, it's VM is linked to my tailscale and has access to all my machines over ssh, can spin up claude code or codex agents in the terminal, can create other bots on the fly when it needs to, and my main Bot can manage other bots for me. And so much more!  \n\nWhat a time to be alive.",
+        "url": "https://x.com/emigal/status/2109672788264910948",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 119,
+        "likes": 2551,
+        "quotes": 31,
+        "replies": 393,
+        "retweets": 253,
+        "views": 963959
+      },
+      "url": "https://x.com/elonmusk/status/2109809802889314556",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2109808344223621417",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T00:48:02.000Z",
+      "created_at_shanghai": "2026-10-13 08:48:02",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Watch Falcon 9 launch 27 @Starlink satellites to orbit from California https://x.com/i/broadcasts/1yKAPwdemygxb",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 08:17:56",
+        "created_at_utc": "2026-10-13T00:17:56.000Z",
+        "id": "2109800770849984910",
+        "images": [],
+        "media": [],
+        "name": "SpaceX",
+        "text": "Watch Falcon 9 launch 27 @Starlink satellites to orbit from California https://x.com/i/broadcasts/1yKAPwdemygxb",
+        "url": "https://x.com/SpaceX/status/2109800770849984910",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 576,
+        "likes": 9783,
+        "quotes": 142,
+        "replies": 636,
+        "retweets": 1338,
+        "views": 403586
+      },
+      "url": "https://x.com/elonmusk/status/2109808344223621417",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109804137043083307",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -879,221 +1061,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109659735527952538",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T14:57:31.000Z",
-      "created_at_shanghai": "2026-10-12 22:57:31",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Listen to Elon!",
-      "quote": null,
-      "retweet": {
-        "author": "GadSaad",
-        "avatar": "https://pbs.twimg.com/profile_images/979192426660327424/4B9g75QR_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 21:04:34",
-        "created_at_utc": "2026-10-12T13:04:34.000Z",
-        "id": "2109631310478360694",
-        "images": [
-          "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 612,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small",
-            "width": 2000
-          }
-        ],
-        "name": "Gad Saad",
-        "text": "Listen to Elon!",
-        "url": "https://x.com/GadSaad/status/2109631310478360694",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 113,
-        "likes": 3633,
-        "quotes": 25,
-        "replies": 208,
-        "retweets": 495,
-        "views": 232554
-      },
-      "url": "https://x.com/elonmusk/status/2109659735527952538",
-      "images": [
-        "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small",
-          "width": 2000,
-          "height": 612
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109521078405968196",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T05:46:32.000Z",
-      "created_at_shanghai": "2026-10-12 13:46:32",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Crude steel production in 2025 cartogram.",
-      "quote": null,
-      "retweet": {
-        "author": "arctotherium42",
-        "avatar": "https://pbs.twimg.com/profile_images/1484954781500297218/iY7hjZ1u_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 09:42:35",
-        "created_at_utc": "2026-10-12T01:42:35.000Z",
-        "id": "2109459685497782774",
-        "images": [
-          "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1200,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small",
-            "width": 2400
-          }
-        ],
-        "name": "arctotherium",
-        "text": "Crude steel production in 2025 cartogram.",
-        "url": "https://x.com/arctotherium42/status/2109459685497782774",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 186,
-        "likes": 1585,
-        "quotes": 39,
-        "replies": 95,
-        "retweets": 169,
-        "views": 255053
-      },
-      "url": "https://x.com/elonmusk/status/2109521078405968196",
-      "images": [
-        "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small",
-          "width": 2400,
-          "height": 1200
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109519998691553639",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T05:42:15.000Z",
-      "created_at_shanghai": "2026-10-12 13:42:15",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Wow\nhttps://x.com/i/grok/share/bGVnYWN5_22468d8a-a1a4-4391-9796-cda7cf1937b5",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 83,
-        "likes": 2004,
-        "quotes": 41,
-        "replies": 576,
-        "retweets": 300,
-        "views": 723084
-      },
-      "url": "https://x.com/elonmusk/status/2109519998691553639",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109514619463024703",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T05:20:52.000Z",
-      "created_at_shanghai": "2026-10-12 13:20:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: President Emmerson Mnangagwa donated @Starlink kits to 10 schools in Bulilima, Zimbabwe. 🇿🇼\n\nThe nationwide Presidential Internet Scheme includes an initial 8,000-kit handover for schools. Starlink is helping rural students access a world of knowledge &amp; opportunities.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 13:16:26",
-        "created_at_utc": "2026-10-12T05:16:26.000Z",
-        "id": "2109513500544630869",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109513469204807680/img/Vx4bKKTJ8Tf8Ue5A.jpg"
-        ],
-        "media": [
-          {
-            "duration": 10.1,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109513469204807680/img/Vx4bKKTJ8Tf8Ue5A.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109513469204807680/vid/avc1/1478x1080/D-_rjd2tUvKIJi2h.mp4?tag=29",
-            "width": 1478
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: President Emmerson Mnangagwa donated @Starlink kits to 10 schools in Bulilima, Zimbabwe. 🇿🇼\n\nThe nationwide Presidential Internet Scheme includes an initial 8,000-kit handover for schools. Starlink is helping rural students access a world of knowledge & opportunities.",
-        "url": "https://x.com/cb_doge/status/2109513500544630869",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 27,
-        "likes": 1110,
-        "quotes": 10,
-        "replies": 184,
-        "retweets": 149,
-        "views": 201835
-      },
-      "url": "https://x.com/elonmusk/status/2109514619463024703",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109513469204807680/img/Vx4bKKTJ8Tf8Ue5A.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109513469204807680/vid/avc1/1478x1080/D-_rjd2tUvKIJi2h.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109513469204807680/img/Vx4bKKTJ8Tf8Ue5A.jpg",
-          "width": 1478,
-          "height": 1080,
-          "duration": 10.1
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 28,
   "page_size": 20,
-  "total": 1364,
+  "total": 1368,
   "total_pages": 69,
-  "updated_at_shanghai": "2026-10-24 08:31:34",
+  "updated_at_shanghai": "2026-10-24 12:56:33",
   "account": "elonmusk"
 }
