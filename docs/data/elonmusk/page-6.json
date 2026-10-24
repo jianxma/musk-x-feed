@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2113210745710162001",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-22T10:07:57.000Z",
+      "created_at_shanghai": "2026-10-22 18:07:57",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 00:22:50",
+        "created_at_utc": "2026-10-21T16:22:50.000Z",
+        "id": "2112942696889508051",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2091486538194358273/img/9upogKIpk6cxhxil.jpg"
+        ],
+        "media": [
+          {
+            "duration": 23.866,
+            "height": 780,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2091486538194358273/img/9upogKIpk6cxhxil.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2091486538194358273/vid/avc1/720x780/6bPKCCDX4o00CmKK.mp4?tag=29",
+            "width": 720
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Margaret Thatcher explained this perfectly back in 1983\n\nThe government doesn't have money of its own. Every time politicians promise to spend more, someone has to pay for it\n\nAnd people somehow still think it's someone else's money\n\n“There is no such thing as public money. There is only taxpayers’ money”\n\nAnd sooner or later, that someone else they expect to pay is YOU\n https://x.com/XFreeze/status/2091487161929408777/video/1",
+        "url": "https://x.com/XFreeze/status/2112942696889508051",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 515,
+        "likes": 10209,
+        "quotes": 77,
+        "replies": 1048,
+        "retweets": 2154,
+        "views": 1160102
+      },
+      "url": "https://x.com/elonmusk/status/2113210745710162001",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2113203947997450634",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1151,75 +1203,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2113123427393450477",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-22T04:20:59.000Z",
-      "created_at_shanghai": "2026-10-22 12:20:59",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I asked Claude how 10 Billion Humanoid Robots Could Change the World.",
-      "quote": null,
-      "retweet": {
-        "author": "Dr_Singularity",
-        "avatar": "https://pbs.twimg.com/profile_images/1607111366397120514/j4XzXC27_200x200.jpg",
-        "created_at_shanghai": "2026-10-22 00:15:50",
-        "created_at_utc": "2026-10-21T16:15:50.000Z",
-        "id": "2112940938381463560",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2112940514286690304/img/lRy9LU2Vq65I4YWI.jpg"
-        ],
-        "media": [
-          {
-            "duration": 198.033,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112940514286690304/img/lRy9LU2Vq65I4YWI.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2112940514286690304/vid/avc1/1920x1080/4tfR4suErp_lp0am.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Dr Singularity",
-        "text": "I asked Claude how 10 Billion Humanoid Robots Could Change the World.",
-        "url": "https://x.com/Dr_Singularity/status/2112940938381463560",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 874,
-        "likes": 2424,
-        "quotes": 46,
-        "replies": 152,
-        "retweets": 394,
-        "views": 402511
-      },
-      "url": "https://x.com/elonmusk/status/2113123427393450477",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2112940514286690304/img/lRy9LU2Vq65I4YWI.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2112940514286690304/vid/avc1/1920x1080/4tfR4suErp_lp0am.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112940514286690304/img/lRy9LU2Vq65I4YWI.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 198.033
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 20,
-  "total": 1396,
+  "total": 1397,
   "total_pages": 70,
-  "updated_at_shanghai": "2026-10-25 00:16:19",
+  "updated_at_shanghai": "2026-10-25 00:42:13",
   "account": "elonmusk"
 }

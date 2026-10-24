@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2112930297033691471",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T15:33:33.000Z",
+      "created_at_shanghai": "2026-10-21 23:33:33",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Nick Shirley: “When I exposed fraud, instead of the mainstream media investigating the fraud, they investigated me.”",
+      "quote": null,
+      "retweet": {
+        "author": "america",
+        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
+        "created_at_shanghai": "2026-10-21 05:49:32",
+        "created_at_utc": "2026-10-20T21:49:32.000Z",
+        "id": "2112662525976486319",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2112619472427106305/img/bgEtG2RoklEhML4a.jpg"
+        ],
+        "media": [
+          {
+            "duration": 89.166,
+            "height": 704,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112619472427106305/img/bgEtG2RoklEhML4a.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2112619472427106305/vid/avc1/1280x704/H9fYubQKU5i3zXrX.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "America",
+        "text": "Nick Shirley: “When I exposed fraud, instead of the mainstream media investigating the fraud, they investigated me.”",
+        "url": "https://x.com/america/status/2112662525976486319",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 524,
+        "likes": 15137,
+        "quotes": 51,
+        "replies": 213,
+        "retweets": 1865,
+        "views": 400083
+      },
+      "url": "https://x.com/elonmusk/status/2112930297033691471",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2112619472427106305/img/bgEtG2RoklEhML4a.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2112619472427106305/vid/avc1/1280x704/H9fYubQKU5i3zXrX.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112619472427106305/img/bgEtG2RoklEhML4a.jpg",
+          "width": 1280,
+          "height": 704,
+          "duration": 89.166
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2112930054892396842",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1172,62 +1235,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2112781132387529005",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T05:40:50.000Z",
-      "created_at_shanghai": "2026-10-21 13:40:50",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Congrats SpaceX team!",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-21 04:13:10",
-        "created_at_utc": "2026-10-20T20:13:10.000Z",
-        "id": "2112638276389790102",
-        "images": [
-          "https://pbs.twimg.com/media/HVGY6WqbEAAZNpZ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 3240,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVGY6WqbEAAZNpZ.jpg?name=small",
-            "width": 2478
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Q3 2026 highlights:\n- Delivered revenue of $14.6 billion, up 161% year-over-year\n\n- Successfully launched our first revenue-generating Starship mission, delivering 26 Starlink V3 satellites to our broadband constellation, representing approximately 10x the downlink capacity added by a Falcon 9 Starlink launch\n\n- Added $6.7 billion of incremental Super Intelligence solutions and infrastructure revenue year-over-year, driven by cloud services agreements, the acquisition of Cursor, and our growing SI models and software applications, including @Grok @Bot\n\n- Delivered year-over-year revenue growth of 69% and income from operations growth of 99% for the Connectivity segment, supported by strong momentum in enterprise and government adoption, and continued @Starlink consumer subscriber growth\n\n- Continued to scale nameplate compute, reaching 1.7 GW as of September 30, 2026",
-        "url": "https://x.com/SpaceX/status/2112638276389790102",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 58,
-        "likes": 2485,
-        "quotes": 27,
-        "replies": 377,
-        "retweets": 290,
-        "views": 425079
-      },
-      "url": "https://x.com/elonmusk/status/2112781132387529005",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 9,
   "page_size": 20,
-  "total": 1396,
+  "total": 1397,
   "total_pages": 70,
-  "updated_at_shanghai": "2026-10-25 00:16:19",
+  "updated_at_shanghai": "2026-10-25 00:42:13",
   "account": "elonmusk"
 }

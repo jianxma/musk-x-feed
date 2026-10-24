@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2107879914393546874",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T17:05:08.000Z",
+      "created_at_shanghai": "2026-10-08 01:05:08",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@DefiantLs Gibney is a tinfoil hat crackpot 🤡 who thinks I use space lasers to influence elections. Zero credibility.",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 04:33:59",
+        "created_at_utc": "2026-10-06T20:33:59.000Z",
+        "id": "2107570086341160981",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@DefiantLs Gibney is a tinfoil hat crackpot 🤡 who thinks I use space lasers to influence elections. Zero credibility.",
+        "url": "https://x.com/elonmusk/status/2107570086341160981",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "DefiantLs",
+      "engagement": {
+        "bookmarks": 222,
+        "likes": 19334,
+        "quotes": 78,
+        "replies": 1129,
+        "retweets": 1055,
+        "views": 752446
+      },
+      "url": "https://x.com/elonmusk/status/2107879914393546874",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107878899518742933",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1011,64 +1052,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107848493830463815",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T15:00:17.000Z",
-      "created_at_shanghai": "2026-10-07 23:00:17",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Dragon undocks from the Space Station",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 20:07:13",
-        "created_at_utc": "2026-10-07T12:07:13.000Z",
-        "id": "2107804940228039009",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107804793657823232/img/kd76NFirbsMSLtrB.jpg"
-        ],
-        "media": [
-          {
-            "duration": 55.63,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107804793657823232/img/kd76NFirbsMSLtrB.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107804793657823232/vid/avc1/3840x2160/Y4AfbS4eGcHywgh5.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Dragon separation confirmed!",
-        "url": "https://x.com/SpaceX/status/2107804940228039009",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 156,
-        "likes": 7811,
-        "quotes": 46,
-        "replies": 548,
-        "retweets": 936,
-        "views": 1725896
-      },
-      "url": "https://x.com/elonmusk/status/2107848493830463815",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 43,
   "page_size": 20,
-  "total": 1396,
+  "total": 1397,
   "total_pages": 70,
-  "updated_at_shanghai": "2026-10-25 00:16:19",
+  "updated_at_shanghai": "2026-10-25 00:42:13",
   "account": "elonmusk"
 }
