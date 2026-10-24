@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2113084638902309261",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-22T01:46:51.000Z",
+      "created_at_shanghai": "2026-10-22 09:46:51",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Robotaxi makes the roads safer for everyone",
+      "quote": null,
+      "retweet": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 03:44:53",
+        "created_at_utc": "2026-10-21T19:44:53.000Z",
+        "id": "2112993544243937383",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2112992622977732608/img/L1XQbgPlIxIVEM6C.jpg"
+        ],
+        "media": [
+          {
+            "duration": 328.917,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112992622977732608/img/L1XQbgPlIxIVEM6C.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2112992622977732608/vid/avc1/3840x2160/NcpQzY5Dao0NvXaa.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "Robotaxi makes the roads safer for everyone",
+        "url": "https://x.com/robotaxi/status/2112993544243937383",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 910,
+        "likes": 11201,
+        "quotes": 155,
+        "replies": 338,
+        "retweets": 1256,
+        "views": 755021
+      },
+      "url": "https://x.com/elonmusk/status/2113084638902309261",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2112992622977732608/img/L1XQbgPlIxIVEM6C.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2112992622977732608/vid/avc1/3840x2160/NcpQzY5Dao0NvXaa.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112992622977732608/img/L1XQbgPlIxIVEM6C.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 328.917
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2113081408675553682",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1044,40 +1107,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2112958619448639525",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T17:26:06.000Z",
-      "created_at_shanghai": "2026-10-22 01:26:06",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Forward this to your friends in Texas",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 38,
-        "likes": 4851,
-        "quotes": 16,
-        "replies": 348,
-        "retweets": 528,
-        "views": 202475
-      },
-      "url": "https://x.com/elonmusk/status/2112958619448639525",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 1395,
+  "total": 1396,
   "total_pages": 70,
-  "updated_at_shanghai": "2026-10-24 23:02:58",
+  "updated_at_shanghai": "2026-10-25 00:16:19",
   "account": "elonmusk"
 }

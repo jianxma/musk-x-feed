@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2110407987856814183",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T16:30:48.000Z",
+      "created_at_shanghai": "2026-10-15 00:30:48",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Wanted to read what emails my Grok bot has but Grok bot doesn’t have email UI … so I asked Grok bot to build it for me .. pretty cool 😎 everything is clickable and you can read all grok bot emails the old way if you want to ..",
+      "quote": null,
+      "retweet": {
+        "author": "mrfundman",
+        "avatar": "https://pbs.twimg.com/profile_images/1844590451933810701/SJ70OFpA_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 10:37:14",
+        "created_at_utc": "2026-10-14T02:37:14.000Z",
+        "id": "2110198216218067183",
+        "images": [
+          "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1714,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small",
+            "width": 1320
+          }
+        ],
+        "name": "mr fundman",
+        "text": "Wanted to read what emails my Grok bot has but Grok bot doesn’t have email UI … so I asked Grok bot to build it for me .. pretty cool 😎 everything is clickable and you can read all grok bot emails the old way if you want to ..",
+        "url": "https://x.com/mrfundman/status/2110198216218067183",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 70,
+        "likes": 547,
+        "quotes": 11,
+        "replies": 70,
+        "retweets": 46,
+        "views": 108239
+      },
+      "url": "https://x.com/elonmusk/status/2110407987856814183",
+      "images": [
+        "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small",
+          "width": 1320,
+          "height": 1714
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110407280076402980",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1053,71 +1112,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110225444717174932",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T04:25:26.000Z",
-      "created_at_shanghai": "2026-10-14 12:25:26",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot or ChatGPT Dots?\n\nBe honest…",
-      "quote": null,
-      "retweet": {
-        "author": "ConnorTalksAI",
-        "avatar": "https://pbs.twimg.com/profile_images/2072770014290059264/WE2Iad86_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 08:08:04",
-        "created_at_utc": "2026-10-14T00:08:04.000Z",
-        "id": "2110160673586008537",
-        "images": [
-          "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 941,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small",
-            "width": 1672
-          }
-        ],
-        "name": "Connor",
-        "text": "Grok Bot or ChatGPT Dots?\n\nBe honest…",
-        "url": "https://x.com/ConnorTalksAI/status/2110160673586008537",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 37,
-        "likes": 610,
-        "quotes": 9,
-        "replies": 228,
-        "retweets": 61,
-        "views": 174940
-      },
-      "url": "https://x.com/elonmusk/status/2110225444717174932",
-      "images": [
-        "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small",
-          "width": 1672,
-          "height": 941
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 20,
-  "total": 1395,
+  "total": 1396,
   "total_pages": 70,
-  "updated_at_shanghai": "2026-10-24 23:02:58",
+  "updated_at_shanghai": "2026-10-25 00:16:19",
   "account": "elonmusk"
 }
