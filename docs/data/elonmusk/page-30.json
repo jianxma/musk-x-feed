@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2109803903256502307",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T00:30:23.000Z",
+      "created_at_shanghai": "2026-10-13 08:30:23",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Robotaxi improvements",
+      "quote": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 04:27:06",
+        "created_at_utc": "2026-10-12T20:27:06.000Z",
+        "id": "2109742678435119540",
+        "images": [],
+        "media": [],
+        "name": "Robotaxi",
+        "text": "Robotaxi service updates from the last few weeks:  \n\n– Operating hours are now 6am-11pm \n– Reduced wait times thanks to increased supply & orchestration algorithms \n– Trunk now opens automatically at end of ride if utilized \n– Grok @bot now available in Cybercab",
+        "url": "https://x.com/robotaxi/status/2109742678435119540",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 154,
+        "likes": 10046,
+        "quotes": 58,
+        "replies": 705,
+        "retweets": 832,
+        "views": 1586935
+      },
+      "url": "https://x.com/elonmusk/status/2109803903256502307",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109793921203093888",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1036,75 +1077,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109505761210425522",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T04:45:40.000Z",
-      "created_at_shanghai": "2026-10-12 12:45:40",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Starlink is a life-saving technology.\n\nA huge tree crushed a family’s car in the French Alps. A passerby says there was no mobile signal, so he used his @Starlink Mini, mounted on his car, to call emergency services and share GPS coordinates.\n\nRescuers arrived about 20 minutes later. Firefighters freed the trapped occupants, and all five survived.\n\nA working connection can mean the difference between life and death. Starlink can provide that lifeline when people need it most.\n\nThis life-saving technology should be available in every part of the world.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 12:05:23",
-        "created_at_utc": "2026-10-12T04:05:23.000Z",
-        "id": "2109495621073940584",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109495507446116352/img/VomvGKAFpUEBodlY.jpg"
-        ],
-        "media": [
-          {
-            "duration": 83.556,
-            "height": 626,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109495507446116352/img/VomvGKAFpUEBodlY.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109495507446116352/vid/avc1/1034x626/yZ9VcF9O-EsyPJgJ.mp4?tag=29",
-            "width": 1034
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Starlink is a life-saving technology.\n\nA huge tree crushed a family’s car in the French Alps. A passerby says there was no mobile signal, so he used his @Starlink Mini, mounted on his car, to call emergency services and share GPS coordinates.\n\nRescuers arrived about 20 minutes later. Firefighters freed the trapped occupants, and all five survived.\n\nA working connection can mean the difference between life and death. Starlink can provide that lifeline when people need it most.\n\nThis life-saving technology should be available in every part of the world.",
-        "url": "https://x.com/cb_doge/status/2109495621073940584",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 56,
-        "likes": 1502,
-        "quotes": 31,
-        "replies": 153,
-        "retweets": 235,
-        "views": 218587
-      },
-      "url": "https://x.com/elonmusk/status/2109505761210425522",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109495507446116352/img/VomvGKAFpUEBodlY.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109495507446116352/vid/avc1/1034x626/yZ9VcF9O-EsyPJgJ.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109495507446116352/img/VomvGKAFpUEBodlY.jpg",
-          "width": 1034,
-          "height": 626,
-          "duration": 83.556
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 30,
   "page_size": 20,
-  "total": 1402,
+  "total": 1403,
   "total_pages": 71,
-  "updated_at_shanghai": "2026-10-25 03:00:15",
+  "updated_at_shanghai": "2026-10-25 05:27:00",
   "account": "elonmusk"
 }

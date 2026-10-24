@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2113444197978255814",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-23T01:35:37.000Z",
+      "created_at_shanghai": "2026-10-23 09:35:37",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "It’s that easy",
+      "quote": {
+        "author": "Teslaconomics",
+        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 07:37:43",
+        "created_at_utc": "2026-10-22T23:37:43.000Z",
+        "id": "2113414527106843129",
+        "images": [
+          "https://pbs.twimg.com/media/HVRbGqraAAEz_A1.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1612,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVRbGqraAAEz_A1.jpg?name=small",
+            "width": 1574
+          }
+        ],
+        "name": "Teslaconomics",
+        "text": "I just bought my kids 2 Garmin watches with one text.\n\n\"Grok Bot, order me two vivosmart 5s for my two kids shipped to my home\"\n\nIt already knows my address and my card. It found the right size and color, did the checkout and placed the order.\n\nJust a minute later, I had the confirmation... I never opened a website.\n\nThis is the new way to shop.",
+        "url": "https://x.com/Teslaconomics/status/2113414527106843129",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 165,
+        "likes": 3465,
+        "quotes": 45,
+        "replies": 794,
+        "retweets": 387,
+        "views": 982718
+      },
+      "url": "https://x.com/elonmusk/status/2113444197978255814",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2113444022408937913",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1061,71 +1111,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2113289150551970025",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-22T15:19:31.000Z",
-      "created_at_shanghai": "2026-10-22 23:19:31",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Estimated metric tons of useful payload delivered to orbit in Year-to-Date 2026 by Rocket Lab, Firefly, Blue Origin, Stoke Space, and Relativity combined... \n... versus useful payload SpaceX put in orbit on only September 28, 2026. 👀\nChart courtesy: @Grok $SPCX",
-      "quote": null,
-      "retweet": {
-        "author": "ICannot_Enough",
-        "avatar": "https://pbs.twimg.com/profile_images/1334264832397291522/AR2jbpaD_200x200.jpg",
-        "created_at_shanghai": "2026-10-22 22:50:15",
-        "created_at_utc": "2026-10-22T14:50:15.000Z",
-        "id": "2113281788072149401",
-        "images": [
-          "https://pbs.twimg.com/media/HVPiCJIWkAELBP6.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1152,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVPiCJIWkAELBP6.jpg?name=small",
-            "width": 1712
-          }
-        ],
-        "name": "James Stephenson",
-        "text": "Estimated metric tons of useful payload delivered to orbit in Year-to-Date 2026 by Rocket Lab, Firefly, Blue Origin, Stoke Space, and Relativity combined... \n... versus useful payload SpaceX put in orbit on only September 28, 2026. 👀\nChart courtesy: @Grok $SPCX",
-        "url": "https://x.com/ICannot_Enough/status/2113281788072149401",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 8,
-        "likes": 311,
-        "quotes": 2,
-        "replies": 39,
-        "retweets": 61,
-        "views": 32172
-      },
-      "url": "https://x.com/elonmusk/status/2113289150551970025",
-      "images": [
-        "https://pbs.twimg.com/media/HVPiCJIWkAELBP6.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVPiCJIWkAELBP6.jpg?name=small",
-          "width": 1712,
-          "height": 1152
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 1402,
+  "total": 1403,
   "total_pages": 71,
-  "updated_at_shanghai": "2026-10-25 03:00:15",
+  "updated_at_shanghai": "2026-10-25 05:27:00",
   "account": "elonmusk"
 }

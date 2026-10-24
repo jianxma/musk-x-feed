@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2112933813647258079",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T15:47:32.000Z",
+      "created_at_shanghai": "2026-10-21 23:47:32",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "As Thatcher said, the problem with socialism is that eventually they run out of other people’s money to take and they come for you",
+      "quote": {
+        "author": "tobi",
+        "avatar": "https://pbs.twimg.com/profile_images/1999293930936909824/_HWYanot_200x200.jpg",
+        "created_at_shanghai": "2026-10-21 19:30:51",
+        "created_at_utc": "2026-10-21T11:30:51.000Z",
+        "id": "2112869220094501273",
+        "images": [],
+        "media": [],
+        "name": "tobi lutke",
+        "text": "Of course it’s net negative",
+        "url": "https://x.com/tobi/status/2112869220094501273",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 613,
+        "likes": 27862,
+        "quotes": 151,
+        "replies": 1375,
+        "retweets": 3533,
+        "views": 1282874
+      },
+      "url": "https://x.com/elonmusk/status/2112933813647258079",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2112933353565601949",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1106,75 +1147,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2112789535872708827",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T06:14:13.000Z",
-      "created_at_shanghai": "2026-10-21 14:14:13",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "What’s crazy to me is that $SPCX will LIKELY achieve $500B - $1 trillion in ARR by EOY 2027.\n\nThe infrastructure availability is the limiting factor when it comes to increasing the compute capabilities but SpaceX expects to achieve at least 13 GWhs of compute using majority $NVDA Vera Rubin’s by EOY 2027. \n\nGrok bot will be used by businesses starting in a few weeks.",
-      "quote": null,
-      "retweet": {
-        "author": "GrindeOptions",
-        "avatar": "https://pbs.twimg.com/profile_images/1278958774359715840/gtsbDYz__200x200.jpg",
-        "created_at_shanghai": "2026-10-21 06:19:04",
-        "created_at_utc": "2026-10-20T22:19:04.000Z",
-        "id": "2112669958044053723",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2112669668335063040/img/NumsTsjG7fiHGr2T.jpg"
-        ],
-        "media": [
-          {
-            "duration": 379.835,
-            "height": 734,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112669668335063040/img/NumsTsjG7fiHGr2T.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2112669668335063040/vid/avc1/1320x734/AXlTsVounNsKBwWH.mp4?tag=29",
-            "width": 1320
-          }
-        ],
-        "name": "Cole Grinde",
-        "text": "What’s crazy to me is that $SPCX will LIKELY achieve $500B - $1 trillion in ARR by EOY 2027.\n\nThe infrastructure availability is the limiting factor when it comes to increasing the compute capabilities but SpaceX expects to achieve at least 13 GWhs of compute using majority $NVDA Vera Rubin’s by EOY 2027. \n\nGrok bot will be used by businesses starting in a few weeks.",
-        "url": "https://x.com/GrindeOptions/status/2112669958044053723",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 85,
-        "likes": 459,
-        "quotes": 8,
-        "replies": 44,
-        "retweets": 61,
-        "views": 32331
-      },
-      "url": "https://x.com/elonmusk/status/2112789535872708827",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2112669668335063040/img/NumsTsjG7fiHGr2T.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2112669668335063040/vid/avc1/1320x734/AXlTsVounNsKBwWH.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112669668335063040/img/NumsTsjG7fiHGr2T.jpg",
-          "width": 1320,
-          "height": 734,
-          "duration": 379.835
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 9,
   "page_size": 20,
-  "total": 1402,
+  "total": 1403,
   "total_pages": 71,
-  "updated_at_shanghai": "2026-10-25 03:00:15",
+  "updated_at_shanghai": "2026-10-25 05:27:00",
   "account": "elonmusk"
 }

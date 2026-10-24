@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2110512477582795125",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T23:26:00.000Z",
+      "created_at_shanghai": "2026-10-15 07:26:00",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot can detect scam emails",
+      "quote": {
+        "author": "wmorrill3",
+        "avatar": "https://pbs.twimg.com/profile_images/2099371785234112513/iegFehAO_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 07:00:00",
+        "created_at_utc": "2026-10-14T23:00:00.000Z",
+        "id": "2110505932174045466",
+        "images": [
+          "https://pbs.twimg.com/media/HUnLkBlawAAlc9h.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 565,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUnLkBlawAAlc9h.jpg?name=small",
+            "width": 1200
+          }
+        ],
+        "name": "Wes",
+        "text": "An email from noreply@x.ai landed in my inbox, passed SPF, DKIM, DMARC, and had the blue check \n\nSomething felt off, so I asked @bot to do a security review. It found a hidden phishing link, explained why every safety check passed, wrote a report to xAI - including proposed fix!",
+        "url": "https://x.com/wmorrill3/status/2110505932174045466",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 102,
+        "likes": 2374,
+        "quotes": 27,
+        "replies": 396,
+        "retweets": 310,
+        "views": 622779
+      },
+      "url": "https://x.com/elonmusk/status/2110512477582795125",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110511855731159239",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1043,75 +1093,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110261154622902471",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T06:47:20.000Z",
-      "created_at_shanghai": "2026-10-14 14:47:20",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Already Over\n\nInspired by @KeorUnreal \n\n@grok @imagine ❤️‍🔥",
-      "quote": null,
-      "retweet": {
-        "author": "keepgoingAnnie",
-        "avatar": "https://pbs.twimg.com/profile_images/2097413286228897792/JvY6vyBn_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 02:02:55",
-        "created_at_utc": "2026-10-13T18:02:55.000Z",
-        "id": "2110068783754740116",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110067612008726528/img/Om4F641Hz4jr0Q4N.jpg"
-        ],
-        "media": [
-          {
-            "duration": 47.368,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110067612008726528/img/Om4F641Hz4jr0Q4N.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110067612008726528/vid/avc1/1920x1080/bsEPhbZqMPMZrqG6.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Lala",
-        "text": "Already Over\n\nInspired by @KeorUnreal \n\n@grok @imagine ❤️‍🔥",
-        "url": "https://x.com/keepgoingAnnie/status/2110068783754740116",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 212,
-        "likes": 1020,
-        "quotes": 18,
-        "replies": 122,
-        "retweets": 93,
-        "views": 329280
-      },
-      "url": "https://x.com/elonmusk/status/2110261154622902471",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110067612008726528/img/Om4F641Hz4jr0Q4N.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110067612008726528/vid/avc1/1920x1080/bsEPhbZqMPMZrqG6.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110067612008726528/img/Om4F641Hz4jr0Q4N.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 47.368
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 20,
-  "total": 1402,
+  "total": 1403,
   "total_pages": 71,
-  "updated_at_shanghai": "2026-10-25 03:00:15",
+  "updated_at_shanghai": "2026-10-25 05:27:00",
   "account": "elonmusk"
 }

@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2109832196521357635",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T02:22:49.000Z",
+      "created_at_shanghai": "2026-10-13 10:22:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "BREAKING: South Korea’s Gyeongbuk government brings @Starlink to its fire service to help protect lives in remote mountain areas. 🇰🇷\n\nGyeongbuk Fire Headquarters has equipped a command vehicle with Starlink for a pilot, helping crews share footage and coordinate emergency responses during wildfires, floods and typhoons.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 07:19:37",
+        "created_at_utc": "2026-10-12T23:19:37.000Z",
+        "id": "2109786092509818886",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2109785707581730816/img/Opoy-msQWLYfG2Ho.jpg"
+        ],
+        "media": [
+          {
+            "duration": 8.88,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109785707581730816/img/Opoy-msQWLYfG2Ho.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2109785707581730816/vid/avc1/1080x1080/8RSTWadcfJoAJxiy.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: South Korea’s Gyeongbuk government brings @Starlink to its fire service to help protect lives in remote mountain areas. 🇰🇷\n\nGyeongbuk Fire Headquarters has equipped a command vehicle with Starlink for a pilot, helping crews share footage and coordinate emergency responses during wildfires, floods and typhoons.",
+        "url": "https://x.com/cb_doge/status/2109786092509818886",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 1295,
+        "quotes": 21,
+        "replies": 116,
+        "retweets": 215,
+        "views": 187704
+      },
+      "url": "https://x.com/elonmusk/status/2109832196521357635",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2109785707581730816/img/Opoy-msQWLYfG2Ho.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2109785707581730816/vid/avc1/1080x1080/8RSTWadcfJoAJxiy.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109785707581730816/img/Opoy-msQWLYfG2Ho.jpg",
+          "width": 1080,
+          "height": 1080,
+          "duration": 8.88
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2109824758888165605",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -895,53 +958,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109803903256502307",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T00:30:23.000Z",
-      "created_at_shanghai": "2026-10-13 08:30:23",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Robotaxi improvements",
-      "quote": {
-        "author": "robotaxi",
-        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 04:27:06",
-        "created_at_utc": "2026-10-12T20:27:06.000Z",
-        "id": "2109742678435119540",
-        "images": [],
-        "media": [],
-        "name": "Robotaxi",
-        "text": "Robotaxi service updates from the last few weeks:  \n\n– Operating hours are now 6am-11pm \n– Reduced wait times thanks to increased supply & orchestration algorithms \n– Trunk now opens automatically at end of ride if utilized \n– Grok @bot now available in Cybercab",
-        "url": "https://x.com/robotaxi/status/2109742678435119540",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 154,
-        "likes": 10046,
-        "quotes": 58,
-        "replies": 705,
-        "retweets": 832,
-        "views": 1586935
-      },
-      "url": "https://x.com/elonmusk/status/2109803903256502307",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 29,
   "page_size": 20,
-  "total": 1402,
+  "total": 1403,
   "total_pages": 71,
-  "updated_at_shanghai": "2026-10-25 03:00:15",
+  "updated_at_shanghai": "2026-10-25 05:27:00",
   "account": "elonmusk"
 }

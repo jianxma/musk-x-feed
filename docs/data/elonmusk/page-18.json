@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2111131436191199660",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T16:25:31.000Z",
+      "created_at_shanghai": "2026-10-17 00:25:31",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Tesla supervised self-driving approved in Slovakia 🇸🇰",
+      "quote": {
+        "author": "teslaeurope",
+        "avatar": "https://pbs.twimg.com/profile_images/1620537591048163332/GSPAsKC5_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 22:04:29",
+        "created_at_utc": "2026-10-16T14:04:29.000Z",
+        "id": "2111095942015566145",
+        "images": [
+          "https://pbs.twimg.com/media/HUwekhib0AEjYYM.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1152,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUwekhib0AEjYYM.jpg?name=small",
+            "width": 2048
+          }
+        ],
+        "name": "Tesla Europe, Middle East & Africa",
+        "text": "Now approved in Slovakia 🇸🇰 \n\nRollout begins soon",
+        "url": "https://x.com/teslaeurope/status/2111095942015566145",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 162,
+        "likes": 9761,
+        "quotes": 81,
+        "replies": 676,
+        "retweets": 759,
+        "views": 817560
+      },
+      "url": "https://x.com/elonmusk/status/2111131436191199660",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111131160348688395",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1203,75 +1253,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110945559003423108",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T04:06:55.000Z",
-      "created_at_shanghai": "2026-10-16 12:06:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "My @grok @bot monitors my calendar, and when it sees my return flight has landed, it turns on my @tesla so the temperature is just right when I get to the parking lot. \n\nThen I summon the vehicle and it comes to me on its own. Feels like living in the future…",
-      "quote": {
-        "author": "davidsven",
-        "avatar": "https://pbs.twimg.com/profile_images/2004423540569694208/18MaJoS8_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 05:44:19",
-        "created_at_utc": "2026-10-15T21:44:19.000Z",
-        "id": "2110849273910923277",
-        "images": [
-          "https://pbs.twimg.com/media/HUs-FDnb0AACmj2.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1512,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUs-FDnb0AACmj2.jpg?name=small",
-            "width": 1238
-          }
-        ],
-        "name": "David Woodland",
-        "text": "Today I learned if you create a Tesla Developer account, they give you $10/month of free API calls. So, you can basically vibecode your own interface and/or just connect your car to an agent.\n\nSuper cool, cause now I just have agent handle things like \"When I climb in bed, if my battery is under 30% and the truck isn't plugged in, notify me\". \n\nAlso now have a Mac client to control my car. Muse one-shot the app in the screenshot below.\n\nAPI calls are like $0.002 each, so you can basically build anything you want and stay under a $10/month budget.",
-        "url": "https://x.com/davidsven/status/2110849273910923277",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "cboyack",
-        "avatar": "https://pbs.twimg.com/profile_images/2006757968528691200/DE2cMlln_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 07:19:48",
-        "created_at_utc": "2026-10-15T23:19:48.000Z",
-        "id": "2110873302361321711",
-        "images": [],
-        "media": [],
-        "name": "Connor Boyack 📚",
-        "text": "My @grok @bot monitors my calendar, and when it sees my return flight has landed, it turns on my @tesla so the temperature is just right when I get to the parking lot. \n\nThen I summon the vehicle and it comes to me on its own. Feels like living in the future…",
-        "url": "https://x.com/cboyack/status/2110873302361321711",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 50,
-        "likes": 562,
-        "quotes": 5,
-        "replies": 36,
-        "retweets": 55,
-        "views": 99131
-      },
-      "url": "https://x.com/elonmusk/status/2110945559003423108",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 20,
-  "total": 1402,
+  "total": 1403,
   "total_pages": 71,
-  "updated_at_shanghai": "2026-10-25 03:00:15",
+  "updated_at_shanghai": "2026-10-25 05:27:00",
   "account": "elonmusk"
 }
