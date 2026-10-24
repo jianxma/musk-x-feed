@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110123302777995538",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:39:34.000Z",
+      "created_at_shanghai": "2026-10-14 05:39:34",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Cool Grok @Bot use case",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 03:24:09",
+        "created_at_utc": "2026-10-13T19:24:09.000Z",
+        "id": "2110089226733924364",
+        "images": [],
+        "media": [],
+        "name": "X Freeze",
+        "text": "Just made \"Explainer Video Bot\"... It will help you understand any topic visually by making a video\n\nIt just made me an incredible video for me explaining how SpaceX safely manages the world's largest satellite constellation and shares its space-safety data with other satellite operators for FREE\n\nThe video explains everything in amazing detail, yet it's so easy to understand.....even for someone who knows absolutely nothing about Starlink\n\nAnd the entire video was created by Grok Bot.......from the storytelling to the visuals and animations\n\nI loved it so much that I turned it into a reusable template anyone can try\n\nHere's the template:\nhttps://x.ai/bot/eTLAqnD45kW3h-THwU8XM",
+        "url": "https://x.com/XFreeze/status/2110089226733924364",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 179,
+        "likes": 1149,
+        "quotes": 20,
+        "replies": 242,
+        "retweets": 155,
+        "views": 490613
+      },
+      "url": "https://x.com/elonmusk/status/2110123302777995538",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110123131692048515",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -938,53 +979,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109824758888165605",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T01:53:15.000Z",
-      "created_at_shanghai": "2026-10-13 09:53:15",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Deployment of 27 @Starlink satellites confirmed",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 09:30:29",
-        "created_at_utc": "2026-10-13T01:30:29.000Z",
-        "id": "2109819027912818930",
-        "images": [],
-        "media": [],
-        "name": "SpaceX",
-        "text": "Deployment of 27 @Starlink satellites confirmed",
-        "url": "https://x.com/SpaceX/status/2109819027912818930",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 34,
-        "likes": 2876,
-        "quotes": 28,
-        "replies": 204,
-        "retweets": 279,
-        "views": 371678
-      },
-      "url": "https://x.com/elonmusk/status/2109824758888165605",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 27,
   "page_size": 20,
-  "total": 1381,
+  "total": 1382,
   "total_pages": 70,
-  "updated_at_shanghai": "2026-10-24 14:23:25",
+  "updated_at_shanghai": "2026-10-24 14:29:13",
   "account": "elonmusk"
 }

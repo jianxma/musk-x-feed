@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2106827340084887945",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T19:22:35.000Z",
+      "created_at_shanghai": "2026-10-05 03:22:35",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "BrianRoemmele",
+        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
+        "created_at_shanghai": "2026-10-05 02:36:00",
+        "created_at_utc": "2026-10-04T18:36:00.000Z",
+        "id": "2106815617466855807",
+        "images": [],
+        "media": [],
+        "name": "Brian Roemmele",
+        "text": "https://x.com/i/article/2106802779742507008",
+        "url": "https://x.com/BrianRoemmele/status/2106815617466855807",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 143,
+        "likes": 626,
+        "quotes": 12,
+        "replies": 177,
+        "retweets": 94,
+        "views": 331513
+      },
+      "url": "https://x.com/elonmusk/status/2106827340084887945",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2106827233650147822",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1101,64 +1142,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2106685209085202535",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-04T09:57:48.000Z",
-      "created_at_shanghai": "2026-10-04 17:57:48",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "I love SI slopcore",
-      "quote": {
-        "author": "anabology",
-        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
-        "created_at_shanghai": "2026-09-30 23:55:44",
-        "created_at_utc": "2026-09-30T15:55:44.000Z",
-        "id": "2105325733312884869",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2105324983178219522/img/X1lNuUHgbHP3nNW1.jpg"
-        ],
-        "media": [
-          {
-            "duration": 191.583,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105324983178219522/img/X1lNuUHgbHP3nNW1.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105324983178219522/vid/avc1/1920x1080/uDu9-HjrfOw6-gN0.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "anabology",
-        "text": "Gave Claude another 12 hours to one up this..\n\nWoke up to.. The Clodyssey",
-        "url": "https://x.com/anabology/status/2105325733312884869",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 49,
-        "likes": 828,
-        "quotes": 27,
-        "replies": 271,
-        "retweets": 134,
-        "views": 336584
-      },
-      "url": "https://x.com/elonmusk/status/2106685209085202535",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 47,
   "page_size": 20,
-  "total": 1381,
+  "total": 1382,
   "total_pages": 70,
-  "updated_at_shanghai": "2026-10-24 14:23:25",
+  "updated_at_shanghai": "2026-10-24 14:29:13",
   "account": "elonmusk"
 }
