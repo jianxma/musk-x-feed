@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2113679345562554445",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-23T17:10:00.000Z",
+      "created_at_shanghai": "2026-10-24 01:10:00",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@WR4NYGov By the way, Tesla ramping up Megapack production rapidly to meet increasing demand",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-24 01:09:36",
+        "created_at_utc": "2026-10-23T17:09:36.000Z",
+        "id": "2113679241439027551",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@WR4NYGov By the way, Tesla ramping up Megapack production rapidly to meet increasing demand",
+        "url": "https://x.com/elonmusk/status/2113679241439027551",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 66,
+        "likes": 3650,
+        "quotes": 37,
+        "replies": 85,
+        "retweets": 239,
+        "views": 281932
+      },
+      "url": "https://x.com/elonmusk/status/2113679345562554445",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2113679326910505300",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -981,77 +1022,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2113506640288694445",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-23T05:43:44.000Z",
-      "created_at_shanghai": "2026-10-23 13:43:44",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "You can tell a lot about James Talarico by who he compares to al Qaeda and the Taliban—roughly half of American voters \n\nTexas, please don’t send Mr. Talarico to the U.S. Senate",
-      "quote": {
-        "author": "america",
-        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
-        "created_at_shanghai": "2026-10-23 00:00:01",
-        "created_at_utc": "2026-10-22T16:00:01.000Z",
-        "id": "2113299342186426434",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2090075300767924224/img/2JoTSPH5re_IdYvV.jpg"
-        ],
-        "media": [
-          {
-            "duration": 55.704,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2090075300767924224/img/2JoTSPH5re_IdYvV.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2090075300767924224/vid/avc1/1920x1080/4OjEteY7_m434ppr.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "America",
-        "text": "Democrat Nominee for U.S. Senate in Texas James Talarico compares Republicans to Taliban and al-Qaeda",
-        "url": "https://x.com/america/status/2113299342186426434",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "BasedMikeLee",
-        "avatar": "https://pbs.twimg.com/profile_images/2097379040512643072/TUWueQG8_200x200.jpg",
-        "created_at_shanghai": "2026-10-23 02:25:42",
-        "created_at_utc": "2026-10-22T18:25:42.000Z",
-        "id": "2113336007949238579",
-        "images": [],
-        "media": [],
-        "name": "Mike Lee",
-        "text": "You can tell a lot about James Talarico by who he compares to al Qaeda and the Taliban—roughly half of American voters \n\nTexas, please don’t send Mr. Talarico to the U.S. Senate",
-        "url": "https://x.com/BasedMikeLee/status/2113336007949238579",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 43,
-        "likes": 2415,
-        "quotes": 10,
-        "replies": 154,
-        "retweets": 558,
-        "views": 184231
-      },
-      "url": "https://x.com/elonmusk/status/2113506640288694445",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 1369,
+  "total": 1370,
   "total_pages": 69,
-  "updated_at_shanghai": "2026-10-24 13:14:32",
+  "updated_at_shanghai": "2026-10-24 13:17:43",
   "account": "elonmusk"
 }

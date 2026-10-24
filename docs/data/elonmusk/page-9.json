@@ -1,6 +1,77 @@
 {
   "posts": [
     {
+      "id": "2112603906723487744",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-20T17:56:36.000Z",
+      "created_at_shanghai": "2026-10-21 01:56:36",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "“Lack of electricity” is an oversimplification. Everything is hard about bringing massive compute online at extremely high speed. \n\nIf there was twice as much time, this would be relatively easy, but there is not.",
+      "quote": {
+        "author": "RihardJarc",
+        "avatar": "https://pbs.twimg.com/profile_images/1251462631363403776/r4lpY-WV_200x200.jpg",
+        "created_at_shanghai": "2026-10-20 23:10:05",
+        "created_at_utc": "2026-10-20T15:10:05.000Z",
+        "id": "2112562002958692392",
+        "images": [
+          "https://pbs.twimg.com/media/HVFTwSHXMAA3rgN.png?name=small",
+          "https://pbs.twimg.com/media/HVFTx5EW8AEIwf3.png?name=small",
+          "https://pbs.twimg.com/media/HVFTzQSXwAM_Gbf.png?name=small",
+          "https://pbs.twimg.com/media/HVFT0ZIWcAAeqe0.png?name=small"
+        ],
+        "media": [
+          {
+            "height": 534,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVFTwSHXMAA3rgN.png?name=small",
+            "width": 1268
+          },
+          {
+            "height": 976,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVFTx5EW8AEIwf3.png?name=small",
+            "width": 1249
+          },
+          {
+            "height": 462,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVFTzQSXwAM_Gbf.png?name=small",
+            "width": 1290
+          },
+          {
+            "height": 217,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVFT0ZIWcAAeqe0.png?name=small",
+            "width": 1292
+          }
+        ],
+        "name": "Rihard Jarc",
+        "text": "Former $GOOGL employee on why data center capacity and electricity are the real bottlenecks, not GPU production itself, and how unreliable some of the neoclouds are ($AMZN, $GOOGL, $MSFT, $NVDA):\n\n1. According to the expert, open-source models are closing the gap with frontier models faster than expected, with customers increasingly replacing Anthropic and OpenAI models in multi-agent architectures with open-source alternatives starting from Q2 of this year. The shift started with simple tasks like tool calling and MCP, but has moved up the stack to low-level orchestration.\n\n2. The expert identifies capacity as the biggest constraint at the moment, with certain companies' traffic growing 5x while GPU availability, particularly in the U.S. where latency requirements are tightest, simply cannot keep up. Sourcing capacity overseas in Asia or Australia is technically possible but adds latency that most customers will not accept.\n\n3. Hyperscalers offer reliability but are expensive, require multi-year commitments of three or more years, and have limited availability of the latest hardware, with customers already chasing B300s. AI-native companies tend to gravitate toward neoclouds due to hyperscaler pricing and contract rigidity, but neoclouds come with their own reliability issues, with GPUs dropping off unexpectedly and requiring engineering resources to manage fleet stability around the clock.\n\n4. The third tier consists of smaller independent operators who have invested in GPU racks, seeing the opportunity to lease out capacity and recoup costs within a year or two, with the remainder being pure profit. The expert describes these as essentially unusable in practice, with operators who do nothing more than find land, install racks, connect electricity, and set up cooling, with no real cloud management, maintenance, or operational expertise behind them.\n\n5. The expert expects overall GPU availability to increase meaningfully over the next year or two, with $NVDA continuing to ramp production. The real bottleneck is not GPUs themselves but data center capacity and electricity in the U.S. On the supply side, the expert also sees players $SPCX beginning to lease out spare capacity to the market, with more likely to follow.\n\n6. The expert notes that U.S.-based neoclouds typically require 20-30% prepayment upfront, with the remainder paid monthly or quarterly over the contract term, and rebates negotiated at the end for any reliability incidents like traffic loss. APAC-based providers operate differently, with no prepayment required at all.\n\nfound on @AlphaSenseInc",
+        "url": "https://x.com/RihardJarc/status/2112562002958692392",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 338,
+        "likes": 3499,
+        "quotes": 69,
+        "replies": 658,
+        "retweets": 436,
+        "views": 795792
+      },
+      "url": "https://x.com/elonmusk/status/2112603906723487744",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2112600761762717997",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -968,75 +1039,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2112412193660850636",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-20T05:14:48.000Z",
-      "created_at_shanghai": "2026-10-20 13:14:48",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "James Talarico wants to:\n\n-Dismantle Capitalism \n-Raise Taxes\n-Defund the police\n-Abolish prisons\n-Get rid of oil and gas jobs\n\nAnd he’s trying to convince Texas he’s a moderate?\n\nVote for Ken Paxton.",
-      "quote": null,
-      "retweet": {
-        "author": "america",
-        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
-        "created_at_shanghai": "2026-10-20 08:10:20",
-        "created_at_utc": "2026-10-20T00:10:20.000Z",
-        "id": "2112335573725917396",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110110970836041728/img/DHg-aFGBdMZEdpM7.jpg"
-        ],
-        "media": [
-          {
-            "duration": 78.745,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110110970836041728/img/DHg-aFGBdMZEdpM7.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110110970836041728/vid/avc1/1920x1080/ONXPeFs_t5y2mvNG.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "America",
-        "text": "James Talarico wants to:\n\n-Dismantle Capitalism \n-Raise Taxes\n-Defund the police\n-Abolish prisons\n-Get rid of oil and gas jobs\n\nAnd he’s trying to convince Texas he’s a moderate?\n\nVote for Ken Paxton.",
-        "url": "https://x.com/america/status/2112335573725917396",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 18,
-        "likes": 645,
-        "quotes": 8,
-        "replies": 51,
-        "retweets": 172,
-        "views": 27356
-      },
-      "url": "https://x.com/elonmusk/status/2112412193660850636",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110110970836041728/img/DHg-aFGBdMZEdpM7.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110110970836041728/vid/avc1/1920x1080/ONXPeFs_t5y2mvNG.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110110970836041728/img/DHg-aFGBdMZEdpM7.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 78.745
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 9,
   "page_size": 20,
-  "total": 1369,
+  "total": 1370,
   "total_pages": 69,
-  "updated_at_shanghai": "2026-10-24 13:14:32",
+  "updated_at_shanghai": "2026-10-24 13:17:43",
   "account": "elonmusk"
 }

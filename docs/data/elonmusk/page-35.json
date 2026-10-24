@@ -1,6 +1,89 @@
 {
   "posts": [
     {
+      "id": "2108303850650443930",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T21:09:43.000Z",
+      "created_at_shanghai": "2026-10-09 05:09:43",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "doing deep research with Grok Bot’s new X integration",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 05:40:18",
+        "created_at_utc": "2026-10-07T21:40:18.000Z",
+        "id": "2107949161878606089",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg"
+        ],
+        "media": [
+          {
+            "duration": 12.166,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107948628950298624/vid/avc1/1920x1080/tlGtL_3iQXfm7WuO.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now search, read, and monitor X.",
+        "url": "https://x.com/bot/status/2107949161878606089",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "TrungTPhan",
+        "avatar": "https://pbs.twimg.com/profile_images/1506362585448296448/LJg8kVSD_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 22:42:28",
+        "created_at_utc": "2026-10-08T14:42:28.000Z",
+        "id": "2108206397569822815",
+        "images": [
+          "https://pbs.twimg.com/media/HUHai4KacAArvoQ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1950,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUHai4KacAArvoQ.jpg?name=small",
+            "width": 1320
+          }
+        ],
+        "name": "Trung Phan",
+        "text": "doing deep research with Grok Bot’s new X integration",
+        "url": "https://x.com/TrungTPhan/status/2108206397569822815",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 31,
+        "likes": 344,
+        "quotes": 3,
+        "replies": 33,
+        "retweets": 62,
+        "views": 117662
+      },
+      "url": "https://x.com/elonmusk/status/2108303850650443930",
+      "images": [
+        "https://pbs.twimg.com/media/HUHai4KacAArvoQ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUHai4KacAArvoQ.jpg?name=small",
+          "width": 1320,
+          "height": 1950
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2108301316451922073",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1044,53 +1127,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108270309824438588",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T18:56:26.000Z",
-      "created_at_shanghai": "2026-10-09 02:56:26",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot is actually this good",
-      "quote": {
-        "author": "0x45o",
-        "avatar": "https://pbs.twimg.com/profile_images/2087845198852227072/l8Lar2hK_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 15:01:08",
-        "created_at_utc": "2026-10-08T07:01:08.000Z",
-        "id": "2108090297506841017",
-        "images": [],
-        "media": [],
-        "name": "0x45",
-        "text": "Grok bot propaganda hit me so hard I had to try it\n\nand you know what, it is fucking awesome",
-        "url": "https://x.com/0x45o/status/2108090297506841017",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 108,
-        "likes": 3236,
-        "quotes": 25,
-        "replies": 426,
-        "retweets": 410,
-        "views": 1232925
-      },
-      "url": "https://x.com/elonmusk/status/2108270309824438588",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 35,
   "page_size": 20,
-  "total": 1369,
+  "total": 1370,
   "total_pages": 69,
-  "updated_at_shanghai": "2026-10-24 13:14:32",
+  "updated_at_shanghai": "2026-10-24 13:17:43",
   "account": "elonmusk"
 }
