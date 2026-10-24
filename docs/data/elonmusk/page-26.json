@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110125534550397227",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:48:26.000Z",
+      "created_at_shanghai": "2026-10-14 05:48:26",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "With an abundance of agentic bots, anyone can operate like a CEO—with zero overhead from interviewing, hiring, or assembling top talent. After that, it all comes down to management skills. That’s why who the CEO is still matters.",
+      "quote": null,
+      "retweet": {
+        "author": "yunta_tsai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035915849819938816/b6kIsNMe_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 23:18:59",
+        "created_at_utc": "2026-10-13T15:18:59.000Z",
+        "id": "2110027526651470244",
+        "images": [],
+        "media": [],
+        "name": "Yun-Ta Tsai",
+        "text": "With an abundance of agentic bots, anyone can operate like a CEO—with zero overhead from interviewing, hiring, or assembling top talent. After that, it all comes down to management skills. That’s why who the CEO is still matters.",
+        "url": "https://x.com/yunta_tsai/status/2110027526651470244",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 44,
+        "likes": 617,
+        "quotes": 9,
+        "replies": 44,
+        "retweets": 67,
+        "views": 95730
+      },
+      "url": "https://x.com/elonmusk/status/2110125534550397227",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110125336759296170",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -909,71 +950,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109879128573067414",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T05:29:18.000Z",
-      "created_at_shanghai": "2026-10-13 13:29:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot fixed a customer's bug while I was out with my family. My app user emailed me about an error. My Grok Bot handled it from A to Z. Found bugs, fixed them, and shipped on its own. So many use cases with Grok Bot. \nJust try it.",
-      "quote": null,
-      "retweet": {
-        "author": "Texas_Twins_Dad",
-        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 11:20:06",
-        "created_at_utc": "2026-10-13T03:20:06.000Z",
-        "id": "2109846615859372269",
-        "images": [
-          "https://pbs.twimg.com/media/HUesFTxWoAEYmuJ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 344,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUesFTxWoAEYmuJ.jpg?name=small",
-            "width": 1190
-          }
-        ],
-        "name": "Texas Twins Dad",
-        "text": "Grok Bot fixed a customer's bug while I was out with my family. My app user emailed me about an error. My Grok Bot handled it from A to Z. Found bugs, fixed them, and shipped on its own. So many use cases with Grok Bot. \nJust try it.",
-        "url": "https://x.com/Texas_Twins_Dad/status/2109846615859372269",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 42,
-        "likes": 873,
-        "quotes": 9,
-        "replies": 74,
-        "retweets": 96,
-        "views": 250494
-      },
-      "url": "https://x.com/elonmusk/status/2109879128573067414",
-      "images": [
-        "https://pbs.twimg.com/media/HUesFTxWoAEYmuJ.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUesFTxWoAEYmuJ.jpg?name=small",
-          "width": 1190,
-          "height": 344
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 26,
   "page_size": 20,
-  "total": 1368,
+  "total": 1369,
   "total_pages": 69,
-  "updated_at_shanghai": "2026-10-24 12:56:33",
+  "updated_at_shanghai": "2026-10-24 13:14:32",
   "account": "elonmusk"
 }

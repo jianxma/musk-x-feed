@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2113506512475718001",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-23T05:43:14.000Z",
+      "created_at_shanghai": "2026-10-23 13:43:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I asked Grok Bot to make a video about itself. \n\nIt did everything - set the storyline, found clips, cut and stitched them, and added the titles and music.\n\nI was particularly delighted by how it chose to end the video - @bot has a sense of humor 😂",
+      "quote": null,
+      "retweet": {
+        "author": "venturetwins",
+        "avatar": "https://pbs.twimg.com/profile_images/2080756230893838336/q4VqZuw2_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 08:28:02",
+        "created_at_utc": "2026-10-23T00:28:02.000Z",
+        "id": "2113427192382373931",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2113426813401911296/img/F5SlTz7X6JFECiaB.jpg"
+        ],
+        "media": [
+          {
+            "duration": 71.509,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113426813401911296/img/F5SlTz7X6JFECiaB.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2113426813401911296/vid/avc1/1280x720/gN8h9cUV-dnMH5IT.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "Justine Moore",
+        "text": "I asked Grok Bot to make a video about itself. \n\nIt did everything - set the storyline, found clips, cut and stitched them, and added the titles and music.\n\nI was particularly delighted by how it chose to end the video - @bot has a sense of humor 😂",
+        "url": "https://x.com/venturetwins/status/2113427192382373931",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 119,
+        "likes": 500,
+        "quotes": 6,
+        "replies": 39,
+        "retweets": 64,
+        "views": 160954
+      },
+      "url": "https://x.com/elonmusk/status/2113506512475718001",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2113426813401911296/img/F5SlTz7X6JFECiaB.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2113426813401911296/vid/avc1/1280x720/gN8h9cUV-dnMH5IT.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113426813401911296/img/F5SlTz7X6JFECiaB.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 71.509
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2113506269260595431",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1059,53 +1122,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2113304960326652163",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-22T16:22:20.000Z",
-      "created_at_shanghai": "2026-10-23 00:22:20",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot",
-      "quote": {
-        "author": "liam_fallen",
-        "avatar": "https://pbs.twimg.com/profile_images/2095471460286664768/-TwotnRq_200x200.jpg",
-        "created_at_shanghai": "2026-10-22 00:52:29",
-        "created_at_utc": "2026-10-21T16:52:29.000Z",
-        "id": "2112950158799393014",
-        "images": [],
-        "media": [],
-        "name": "Liam",
-        "text": "Grok Bot genuinely changed my life.\n\nMy Bots are now part of pretty much everything I do, both at work and in my personal life.\n\nIt’s actually crazy how much I rely on them now.",
-        "url": "https://x.com/liam_fallen/status/2112950158799393014",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 125,
-        "likes": 3735,
-        "quotes": 50,
-        "replies": 712,
-        "retweets": 390,
-        "views": 1058088
-      },
-      "url": "https://x.com/elonmusk/status/2113304960326652163",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 1368,
+  "total": 1369,
   "total_pages": 69,
-  "updated_at_shanghai": "2026-10-24 12:56:33",
+  "updated_at_shanghai": "2026-10-24 13:14:32",
   "account": "elonmusk"
 }

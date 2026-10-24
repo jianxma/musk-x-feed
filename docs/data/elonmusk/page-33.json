@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2108723938578530493",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T00:58:59.000Z",
+      "created_at_shanghai": "2026-10-10 08:58:59",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Super Intelligent Beauty",
+      "quote": {
+        "author": "tetsuoai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 07:01:27",
+        "created_at_utc": "2026-10-09T23:01:27.000Z",
+        "id": "2108694357247480087",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108692683363594240/img/6_cVCm3vcmoHsD_1.jpg"
+        ],
+        "media": [
+          {
+            "duration": 252.25,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108692683363594240/img/6_cVCm3vcmoHsD_1.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108692683363594240/vid/avc1/1920x1080/brq4ekALq0kGGGw7.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "tetsuo",
+        "text": "hello, world",
+        "url": "https://x.com/tetsuoai/status/2108694357247480087",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 408,
+        "likes": 4633,
+        "quotes": 224,
+        "replies": 1130,
+        "retweets": 727,
+        "views": 901802
+      },
+      "url": "https://x.com/elonmusk/status/2108723938578530493",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108718057220653374",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -976,53 +1028,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108396588544745887",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-09T03:18:13.000Z",
-      "created_at_shanghai": "2026-10-09 11:18:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Using Grok @Bot is like hiring a super smart, hard-working person for peanuts",
-      "quote": {
-        "author": "B_doong2daddy",
-        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 06:52:54",
-        "created_at_utc": "2026-10-08T22:52:54.000Z",
-        "id": "2108329820128186377",
-        "images": [],
-        "media": [],
-        "name": "Texas Twins Dad",
-        "text": "First month I paid $200 Cursor Ultra just to try Grok Bot. I said to myself.. it's okay even I don't find it worth it, I will still learn something. I learned so much since I started Grok Bot + Cursor. I never imagined myself building an app. Not only I can't do coding but I also didn't have time to dig in. Grok Bot made this possible. \n\nGrok Bot is like FSD on Tesla. If you don't try it, you just won't get what I mean. Just try it for a week.",
-        "url": "https://x.com/B_doong2daddy/status/2108329820128186377",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 353,
-        "likes": 3996,
-        "quotes": 71,
-        "replies": 651,
-        "retweets": 396,
-        "views": 1076801
-      },
-      "url": "https://x.com/elonmusk/status/2108396588544745887",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 33,
   "page_size": 20,
-  "total": 1368,
+  "total": 1369,
   "total_pages": 69,
-  "updated_at_shanghai": "2026-10-24 12:56:33",
+  "updated_at_shanghai": "2026-10-24 13:14:32",
   "account": "elonmusk"
 }
