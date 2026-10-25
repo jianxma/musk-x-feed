@@ -1,6 +1,348 @@
 {
   "posts": [
     {
+      "id": "2112373713937084809",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-20T02:41:54.000Z",
+      "created_at_shanghai": "2026-10-20 10:41:54",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Two important changes to timeline recommendations:\n\n- New AI/SI ranking model that predicts probable time spent much better\n\n- Retrieval model trained to surface posts people read all the way through\n\nUser active seconds is growing exponentially and hitting all-time highs almost every day:",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 59,
+        "likes": 812,
+        "quotes": 19,
+        "replies": 177,
+        "retweets": 103,
+        "views": 281458
+      },
+      "url": "https://x.com/elonmusk/status/2112373713937084809",
+      "images": [
+        "https://pbs.twimg.com/media/HVCoslqWwAA_j6K.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVCoslqWwAA_j6K.jpg?name=small",
+          "width": 2048,
+          "height": 953
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2112348677134061883",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-20T01:02:24.000Z",
+      "created_at_shanghai": "2026-10-20 09:02:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Starstruck",
+      "quote": null,
+      "retweet": {
+        "author": "Tesla",
+        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
+        "created_at_shanghai": "2026-10-20 05:29:15",
+        "created_at_utc": "2026-10-19T21:29:15.000Z",
+        "id": "2112295035568091273",
+        "images": [
+          "https://pbs.twimg.com/media/HVBhFXtb0AAAKdT.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2560,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVBhFXtb0AAAKdT.jpg?name=small",
+            "width": 3840
+          }
+        ],
+        "name": "Tesla",
+        "text": "Starstruck",
+        "url": "https://x.com/Tesla/status/2112295035568091273",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 558,
+        "likes": 16928,
+        "quotes": 132,
+        "replies": 481,
+        "retweets": 1224,
+        "views": 290919
+      },
+      "url": "https://x.com/elonmusk/status/2112348677134061883",
+      "images": [
+        "https://pbs.twimg.com/media/HVBhFXtb0AAAKdT.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVBhFXtb0AAAKdT.jpg?name=small",
+          "width": 3840,
+          "height": 2560
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2112348601255125059",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-20T01:02:06.000Z",
+      "created_at_shanghai": "2026-10-20 09:02:06",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Have to give the EU regulators credit where it’s due for making all Apple products use USB-C",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 62,
+        "likes": 3498,
+        "quotes": 44,
+        "replies": 481,
+        "retweets": 227,
+        "views": 342546
+      },
+      "url": "https://x.com/elonmusk/status/2112348601255125059",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2112346571362717751",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-20T00:54:02.000Z",
+      "created_at_shanghai": "2026-10-20 08:54:02",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Using TBC tunnels to transport freight.\n\nThe latest Prufrock Liner Truck (using Tesla Model 3 batteries and drive units) has been modified to carry a standard 20’ shipping container. \n\nFits like a glove!",
+      "quote": null,
+      "retweet": {
+        "author": "boringcompany",
+        "avatar": "https://pbs.twimg.com/profile_images/2039567764172820480/XfrLCXpv_200x200.png",
+        "created_at_shanghai": "2026-10-20 07:37:01",
+        "created_at_utc": "2026-10-19T23:37:01.000Z",
+        "id": "2112327189366722970",
+        "images": [
+          "https://pbs.twimg.com/media/HVB-V4AbgAAj5P8.jpg?name=small",
+          "https://pbs.twimg.com/amplify_video_thumb/2112327139534225408/img/Cbyg9UJtUXjSQAt2.jpg"
+        ],
+        "media": [
+          {
+            "height": 1536,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVB-V4AbgAAj5P8.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "duration": 56.52,
+            "height": 638,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112327139534225408/img/Cbyg9UJtUXjSQAt2.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2112327139534225408/vid/avc1/326x638/t2k41M13zEZJh5p6.mp4?tag=29",
+            "width": 326
+          }
+        ],
+        "name": "The Boring Company",
+        "text": "Using TBC tunnels to transport freight.\n\nThe latest Prufrock Liner Truck (using Tesla Model 3 batteries and drive units) has been modified to carry a standard 20’ shipping container. \n\nFits like a glove!",
+        "url": "https://x.com/boringcompany/status/2112327189366722970",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 77,
+        "likes": 1511,
+        "quotes": 29,
+        "replies": 111,
+        "retweets": 161,
+        "views": 102233
+      },
+      "url": "https://x.com/elonmusk/status/2112346571362717751",
+      "images": [
+        "https://pbs.twimg.com/media/HVB-V4AbgAAj5P8.jpg?name=small",
+        "https://pbs.twimg.com/amplify_video_thumb/2112327139534225408/img/Cbyg9UJtUXjSQAt2.jpg"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVB-V4AbgAAj5P8.jpg?name=small",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2112327139534225408/vid/avc1/326x638/t2k41M13zEZJh5p6.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112327139534225408/img/Cbyg9UJtUXjSQAt2.jpg",
+          "width": 326,
+          "height": 638,
+          "duration": 56.52
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2112296126795899361",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-19T21:33:35.000Z",
+      "created_at_shanghai": "2026-10-20 05:33:35",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "A BIG THANK YOU to our legendary friend, @ElonMusk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS — Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child a piece of the American Dream. Thank you Elon! President DONALD J. TRUMP",
+      "quote": null,
+      "retweet": {
+        "author": "realDonaldTrump",
+        "avatar": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_200x200.jpg",
+        "created_at_shanghai": "2026-10-20 05:24:17",
+        "created_at_utc": "2026-10-19T21:24:17.000Z",
+        "id": "2112293785472225568",
+        "images": [],
+        "media": [],
+        "name": "Donald J. Trump",
+        "text": "A BIG THANK YOU to our legendary friend, @ElonMusk, for his incredible generosity in giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS! This is exactly what was envisioned when we created TRUMP ACCOUNTS — Bringing together the GREAT PRIVATE SECTOR, Elon and so many more, to invest in our children, by far our greatest and most important asset, and give every American Child a piece of the American Dream. Thank you Elon! President DONALD J. TRUMP",
+        "url": "https://x.com/realDonaldTrump/status/2112293785472225568",
+        "verified": true,
+        "verified_type": "government"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1628,
+        "likes": 54747,
+        "quotes": 642,
+        "replies": 2647,
+        "retweets": 6429,
+        "views": 1631659
+      },
+      "url": "https://x.com/elonmusk/status/2112296126795899361",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2112259494399107099",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-19T19:08:02.000Z",
+      "created_at_shanghai": "2026-10-20 03:08:02",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "what did you get done with grok @bot last week?",
+      "quote": null,
+      "retweet": {
+        "author": "poteto",
+        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
+        "created_at_shanghai": "2026-10-20 02:15:31",
+        "created_at_utc": "2026-10-19T18:15:31.000Z",
+        "id": "2112246281016119780",
+        "images": [],
+        "media": [],
+        "name": "lauren",
+        "text": "what did you get done with grok @bot last week?",
+        "url": "https://x.com/poteto/status/2112246281016119780",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 179,
+        "likes": 1468,
+        "quotes": 25,
+        "replies": 756,
+        "retweets": 115,
+        "views": 320625
+      },
+      "url": "https://x.com/elonmusk/status/2112259494399107099",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2112237454333788356",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-19T17:40:27.000Z",
+      "created_at_shanghai": "2026-10-20 01:40:27",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Literally have no idea how incredible Grok Bot really is\n\nBasically any task you can think of that you want to do on a laptop it does it... I didn't see it do anything wrong tbh, such as with the tasks that required payment and with things like buying stuff online and booking flights booking hotels\n\nIt absolutely does it better... I was kind of shocked and impressed with all the things it does, and I'm still exploring how many things I can do with Grok Bot... and I just keep adding things",
+      "quote": null,
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-20 00:29:32",
+        "created_at_utc": "2026-10-19T16:29:32.000Z",
+        "id": "2112219607528251899",
+        "images": [
+          "https://pbs.twimg.com/media/HVAciFJXYAADLf1.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1080,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVAciFJXYAADLf1.jpg?name=small",
+            "width": 1920
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Literally have no idea how incredible Grok Bot really is\n\nBasically any task you can think of that you want to do on a laptop it does it... I didn't see it do anything wrong tbh, such as with the tasks that required payment and with things like buying stuff online and booking flights booking hotels\n\nIt absolutely does it better... I was kind of shocked and impressed with all the things it does, and I'm still exploring how many things I can do with Grok Bot... and I just keep adding things",
+        "url": "https://x.com/XFreeze/status/2112219607528251899",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 105,
+        "likes": 869,
+        "quotes": 12,
+        "replies": 104,
+        "retweets": 133,
+        "views": 163761
+      },
+      "url": "https://x.com/elonmusk/status/2112237454333788356",
+      "images": [
+        "https://pbs.twimg.com/media/HVAciFJXYAADLf1.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVAciFJXYAADLf1.jpg?name=small",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2112230439515779249",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -639,324 +981,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2112027329585090710",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-19T03:45:29.000Z",
-      "created_at_shanghai": "2026-10-19 11:45:29",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot has its own computer\n\nSo you can close your laptops and just use the app in your phone\n\nUnless, you need some file accessed from your laptop, just let it use its computer",
-      "quote": null,
-      "retweet": {
-        "author": "melvindvivas",
-        "avatar": "https://pbs.twimg.com/profile_images/2080587337994813440/rF40X6jM_200x200.jpg",
-        "created_at_shanghai": "2026-10-19 02:49:19",
-        "created_at_utc": "2026-10-18T18:49:19.000Z",
-        "id": "2111892400302108925",
-        "images": [],
-        "media": [],
-        "name": "Melvin Vivas",
-        "text": "Grok Bot has its own computer\n\nSo you can close your laptops and just use the app in your phone\n\nUnless, you need some file accessed from your laptop, just let it use its computer",
-        "url": "https://x.com/melvindvivas/status/2111892400302108925",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 52,
-        "likes": 839,
-        "quotes": 8,
-        "replies": 83,
-        "retweets": 88,
-        "views": 198633
-      },
-      "url": "https://x.com/elonmusk/status/2112027329585090710",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2112026728948531246",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-19T03:43:06.000Z",
-      "created_at_shanghai": "2026-10-19 11:43:06",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Here are the key features of Grok Bot! This is what makes Grok Bot different.\n\n- Grok Bot's dedicated email\n- Voice: talk by voice, even in the car\n- Its own computer: opens websites and fills out forms, 24/7 on\n- Connectors: Gmail, Calendar, Notion, Drive, X and more\n- Routines: works on a schedule while you sleep\n- A team of bots: one for email, one for shopping, one for trips\n- Proactive: It tells me first.",
-      "quote": null,
-      "retweet": {
-        "author": "Texas_Twins_Dad",
-        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
-        "created_at_shanghai": "2026-10-19 07:50:28",
-        "created_at_utc": "2026-10-18T23:50:28.000Z",
-        "id": "2111968185566077191",
-        "images": [
-          "https://pbs.twimg.com/media/HU8333nWYAAQaeD.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 675,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HU8333nWYAAQaeD.jpg?name=small",
-            "width": 1200
-          }
-        ],
-        "name": "Texas Twins Dad",
-        "text": "Here are the key features of Grok Bot! This is what makes Grok Bot different.\n\n- Grok Bot's dedicated email\n- Voice: talk by voice, even in the car\n- Its own computer: opens websites and fills out forms, 24/7 on\n- Connectors: Gmail, Calendar, Notion, Drive, X and more\n- Routines: works on a schedule while you sleep\n- A team of bots: one for email, one for shopping, one for trips\n- Proactive: It tells me first.",
-        "url": "https://x.com/Texas_Twins_Dad/status/2111968185566077191",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 288,
-        "likes": 841,
-        "quotes": 7,
-        "replies": 69,
-        "retweets": 83,
-        "views": 190756
-      },
-      "url": "https://x.com/elonmusk/status/2112026728948531246",
-      "images": [
-        "https://pbs.twimg.com/media/HU8333nWYAAQaeD.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HU8333nWYAAQaeD.jpg?name=small",
-          "width": 1200,
-          "height": 675
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2112017286764659176",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-19T03:05:35.000Z",
-      "created_at_shanghai": "2026-10-19 11:05:35",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "This describes the conversation SpaceX has had when we have tried to rent inference compute from AWS, GCP or anyone at, so that we can shift load off our training clusters!!",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 95,
-        "likes": 1431,
-        "quotes": 32,
-        "replies": 240,
-        "retweets": 124,
-        "views": 267943
-      },
-      "url": "https://x.com/elonmusk/status/2112017286764659176",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2112015643126165669",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-19T02:59:03.000Z",
-      "created_at_shanghai": "2026-10-19 10:59:03",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Control of the senate will decide the future of America",
-      "quote": {
-        "author": "ScottPresler",
-        "avatar": "https://pbs.twimg.com/profile_images/1321124227215491072/pIC0lG5M_200x200.jpg",
-        "created_at_shanghai": "2026-10-18 21:46:14",
-        "created_at_utc": "2026-10-18T13:46:14.000Z",
-        "id": "2111816123800780994",
-        "images": [],
-        "media": [],
-        "name": "ThePersistence",
-        "text": "Early in-person voting begins in Texas tomorrow. \n\nI ask for your votes for @KenPaxtonTX. \n\n🗓️ Monday, October 19th",
-        "url": "https://x.com/ScottPresler/status/2111816123800780994",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 320,
-        "likes": 25833,
-        "quotes": 227,
-        "replies": 2240,
-        "retweets": 3718,
-        "views": 1334418
-      },
-      "url": "https://x.com/elonmusk/status/2112015643126165669",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2112010443493367980",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-19T02:38:23.000Z",
-      "created_at_shanghai": "2026-10-19 10:38:23",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I’m hearing from a lot of Republicans in Texas that they are voting early in person tomorrow.",
-      "quote": null,
-      "retweet": {
-        "author": "ScottPresler",
-        "avatar": "https://pbs.twimg.com/profile_images/1321124227215491072/pIC0lG5M_200x200.jpg",
-        "created_at_shanghai": "2026-10-19 04:25:40",
-        "created_at_utc": "2026-10-18T20:25:40.000Z",
-        "id": "2111916646566920591",
-        "images": [],
-        "media": [],
-        "name": "ThePersistence",
-        "text": "I’m hearing from a lot of Republicans in Texas that they are voting early in person tomorrow.",
-        "url": "https://x.com/ScottPresler/status/2111916646566920591",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 104,
-        "likes": 27808,
-        "quotes": 97,
-        "replies": 1335,
-        "retweets": 2840,
-        "views": 502950
-      },
-      "url": "https://x.com/elonmusk/status/2112010443493367980",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2111940983143158088",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-18T22:02:23.000Z",
-      "created_at_shanghai": "2026-10-19 06:02:23",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "When @Starlink helped rescue four sailors and three dogs. ♥️\n\nFour people and three dogs were stranded after a storm badly damaged their boat in the South Pacific. They were more than 300 km from New Caledonia.\n\nThey had no radio contact. They sent their location through Starlink.\n\nA cruise ship changed course and travelled five hours to reach them. All four people and all three dogs were rescued.\n\nThis is why Starlink matters. When people need help, a working connection can save lives. This life-saving technology should be available in every part of the world.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-19 05:33:20",
-        "created_at_utc": "2026-10-18T21:33:20.000Z",
-        "id": "2111933674031902933",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2111933634966147072/img/eZS3amK0aIJ0ZERF.jpg"
-        ],
-        "media": [
-          {
-            "duration": 32.551,
-            "height": 618,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111933634966147072/img/eZS3amK0aIJ0ZERF.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2111933634966147072/vid/avc1/1126x618/nIb4CqyUXzwoMtRg.mp4?tag=29",
-            "width": 1126
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "When @Starlink helped rescue four sailors and three dogs. ♥️\n\nFour people and three dogs were stranded after a storm badly damaged their boat in the South Pacific. They were more than 300 km from New Caledonia.\n\nThey had no radio contact. They sent their location through Starlink.\n\nA cruise ship changed course and travelled five hours to reach them. All four people and all three dogs were rescued.\n\nThis is why Starlink matters. When people need help, a working connection can save lives. This life-saving technology should be available in every part of the world.",
-        "url": "https://x.com/cb_doge/status/2111933674031902933",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 45,
-        "likes": 1595,
-        "quotes": 21,
-        "replies": 153,
-        "retweets": 232,
-        "views": 173978
-      },
-      "url": "https://x.com/elonmusk/status/2111940983143158088",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2111933634966147072/img/eZS3amK0aIJ0ZERF.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2111933634966147072/vid/avc1/1126x618/nIb4CqyUXzwoMtRg.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111933634966147072/img/eZS3amK0aIJ0ZERF.jpg",
-          "width": 1126,
-          "height": 618,
-          "duration": 32.551
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2111930742615802163",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-18T21:21:41.000Z",
-      "created_at_shanghai": "2026-10-19 05:21:41",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "What it’s like trying to rent AI/SI compute",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 506,
-        "likes": 4848,
-        "quotes": 134,
-        "replies": 948,
-        "retweets": 562,
-        "views": 887760
-      },
-      "url": "https://x.com/elonmusk/status/2111930742615802163",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2111930714560049153/img/Pfzj023BGOGSvjeB.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2111930714560049153/vid/avc1/1280x720/BzjRBgybOiO7FqGd.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111930714560049153/img/Pfzj023BGOGSvjeB.jpg",
-          "width": 1280,
-          "height": 720,
-          "duration": 79.25
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 20,
-  "total": 1434,
-  "total_pages": 72,
-  "updated_at_shanghai": "2026-10-25 19:55:34",
+  "total": 1441,
+  "total_pages": 73,
+  "updated_at_shanghai": "2026-10-25 22:37:43",
   "account": "elonmusk"
 }
