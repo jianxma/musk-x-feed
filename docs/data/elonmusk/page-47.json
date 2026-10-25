@@ -1,6 +1,88 @@
 {
   "posts": [
     {
+      "id": "2107851390710415525",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T15:11:48.000Z",
+      "created_at_shanghai": "2026-10-07 23:11:48",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@xenocosmography TITS could be funded from merch sales alone!",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 23:11:10",
+        "created_at_utc": "2026-10-07T15:11:10.000Z",
+        "id": "2107851234439020966",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@xenocosmography TITS could be funded from merch sales alone!",
+        "url": "https://x.com/elonmusk/status/2107851234439020966",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "xenocosmography",
+      "engagement": {
+        "bookmarks": 348,
+        "likes": 12295,
+        "quotes": 134,
+        "replies": 1045,
+        "retweets": 464,
+        "views": 1811852
+      },
+      "url": "https://x.com/elonmusk/status/2107851390710415525",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107849623364895151",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T15:04:46.000Z",
+      "created_at_shanghai": "2026-10-07 23:04:46",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot will use whatever achieves the best outcome for users. \n\nSimple questions will route to small, fast models. Questions with complex answers will route to large models.",
+      "quote": {
+        "author": "Scobleizer",
+        "avatar": "https://pbs.twimg.com/profile_images/1915614118876504066/zVnfpAMf_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 15:27:17",
+        "created_at_utc": "2026-10-07T07:27:17.000Z",
+        "id": "2107734490747638013",
+        "images": [],
+        "media": [],
+        "name": "Robert Scoble",
+        "text": "Grok goes open. Holy shit.",
+        "url": "https://x.com/Scobleizer/status/2107734490747638013",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 321,
+        "likes": 6630,
+        "quotes": 118,
+        "replies": 913,
+        "retweets": 697,
+        "views": 1364550
+      },
+      "url": "https://x.com/elonmusk/status/2107849623364895151",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107848813201571866",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1028,134 +1110,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2107689502508781586",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T04:20:09.000Z",
-      "created_at_shanghai": "2026-10-07 12:20:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Build just got one of its biggest updates yet.....a massive upgrade touching almost every part of the agent stack\n\nCompact mode gets a major upgrade, timestamps are now configurable, shell commands clearly show when they’re running or finished, tables can export directly as TSV, CSV or Markdown, and the dashboard now gives much better visibility and control over worktrees\n\nUnder the hood, the update is even bigger: stalled model calls now retry, long sessions are more resilient, permission handling is much tighter, failed file writes preserve existing contents, CJK memory search improves, concurrent config edits are safer, MCP tool discovery is more reliable, and worktree creation + deletion gets a huge reliability pass\n\nThere’s even a breaking safety change: grok worktree rm now refuses to delete active worktrees or ones with unsaved changes unless you explicitly force it\n\nRelease Notes: v1.0.50\n\nBreaking Changes:\n• grok worktree rm without -f now refuses to delete worktrees that are in use or contain unsaved changes and exits with an error.\n\nFeatures:\n• Compact mode now collapses recaps and keeps inner spacing on tall terminals.\n• Clicking the git branch in the header now copies the full branch name.\n• Long branch names now abbreviate on narrow terminals while remaining copyable.\n• Targeted cancels now stop only the specific response when requested by clients.\n• Compact mode now hides the dock (or tasks pane) the same way Ctrl+G does.\n• New timestamps setting offers off, minimal, and on modes in Settings and /timestamps.\n• Shell command output now shows \"Running …\" while executing and \"Ran …\" when finished.\n• Live preview pins now include whether an app was observed behind the URL.\n• Command palette (Ctrl+P) and model picker now open at the same width as the settings modal.\n• Tables rendered by grok now show copy buttons underneath that export clean TSV, CSV or Markdown suitable for spreadsheets.\n• Dashboard now shows which worktree each session belongs to, displays the -m model in the new-agent box, and lets you toggle worktree mode in the folder picker.\n\nBug Fixes:\n• Shell permission decisions now correctly prompt or approve commands matching the permission manager.\n• Cancelled turns now correctly mark unanswered tool calls as cancelled instead of succeeded.\n• Long error messages in the /usage and /session-info modals now wrap instead of being truncated.\n• Em-dashes no longer appear in status messages and subagent rows.\n• Stalled model calls during turns now retry before failing the turn.\n• Queue pane and Ctrl+; now appear and work when the dock is hidden with Ctrl+G.\n• Long sessions no longer disconnect when the conversation exceeds 4 MiB.\n• Permission rules now accept native tool names such as run_terminal_command and Shell.\n• /rewind now places the cursor at the end of the restored prompt.\n• Failed file writes now leave the previous contents instead of an empty file.\n• Fixed /loop and scheduler_create so non-ASCII intervals like 5分 no longer crash the session.\n• Fixed --disallowed-tools when only one scheduler tool is named; the other two no longer cause startup failure.\n• Fixed closing a busy tab so queued prompts are no longer sent to the model.\n• Fixed relative --cwd so grok --cwd a no longer ends up running inside a/a.\n• The terminal title now shows \"Action Required\" for any background session waiting on approval.\n• grok now accepts a prompt via piped stdin in headless mode instead of trying to open the UI.\n• An admin-set [features] title_refresh = false in requirements.toml now correctly disables title refresh even when GROK_TITLE_REFRESH is set.\n• Custom notification commands defined under [[ui.notifications.hooks]] now execute on matching events.\n• An admin pin of [cli] use_leader = false now correctly prevents --leader from starting a leader process.\n• When multiple MCP servers expose a tool with the same name, search_tool now returns all of them.\n• Concurrent Grok windows editing settings no longer lose or corrupt config.toml entries such as MCP servers or permission rules.\n• web_fetch no longer downloads huge files into memory before rejecting them.\n• memory_get no longer returns huge files that exceed the read limit.\n• Continue to run no longer kills commands running inside background subagents.\n• memory_search now finds Japanese, Chinese, and Korean words inside longer notes.\n• Drafts saved by the model now appear under their actual titles in /feedback.\n• Imagine replies that are not valid images are now rejected instead of being saved as .jpg files.\n• A workflow file that fails to parse now reports the exact file and parse error instead of 'unknown workflow'.\n• Re-encoded images are now oriented correctly using their EXIF tags instead of appearing sideways.\n• Image and log paths reported after /fork --worktree now point to real files instead of missing locations.\n• Tab characters in terminal command output are now preserved when shown to the model.\n• Transparent images are now kept as PNG when re-encoded instead of turning black.\n• The bundled ripgrep is now available to terminal commands even on images that do not install it.\n• Request bodies now stay under a small configured max_request_bytes limit instead of growing past it.\n• Effort level now stays the same after a bare /model switch instead of jumping to the new model's default.\n• Ctrl+\\ and other modified digits no longer accidentally select options on permission or cancel cards.\n• Feedback submissions now show accurate success or failure messages without premature thanks or duplicated prefixes.\n• grok doctor now reports the exact config file or setting that prevents Grok from starting instead of saying zero issues.\n• Recap summaries now appear on screen automatically instead of requiring manual scrolling.\n• grok doctor fix now opens its confirmation card on Cancel to prevent accidental edits to shell or tmux config.\n• Slash commands now run regardless of case (e.g. /COMPACT or /Compact).\n• /context no longer shows an invented auto-compact threshold when the agent does not report one.\n• Agent text no longer keeps the pager redrawing when a tool call interrupts the sentence.\n• CLI tool calls no longer fail or overflow when the workspace directory is deleted or output is huge.\n• Logs written to files or when NO_COLOR is set are now plain text instead of containing color codes.\n• Prompts now fail immediately with a clear message if the session's working directory no longer exists instead of failing later or recreating it.\n• grok -w now works correctly with separate-git-dir repositories and shows clear errors when run outside a git repo or on an empty repo.\n• Shell tool descriptions now correctly state the actual output truncation limit, and grep respects globs relative to the current session directory.\n• Compaction messages now scroll into view instead of appearing below the bottom of the screen after a turn finishes.\n• Git-mode worktrees created with -w now preserve uncommitted changes instead of dropping them.\n• Worktrees created with --worktree-ref no longer contain wrong submodule contents or LFS pointer text.\n• Worktree creation now shows the same clear error messages on every code path.\n• Failed worktree creates now show a clear error on the home screen instead of being hidden.\n• Merge and rebase conflicts now appear in the changes list instead of being hidden.\n• Fixed a crash when starting a new session with durable rewind checkpoints enabled.\n• Managed permission files with one bad key no longer lose all their valid rules.\n• Simultaneous worktree creates with the same label now succeed instead of one failing with \"already exists\".\n• grok worktree rm without -f no longer deletes arbitrary folders that happen to share a name with a removed worktree.\n• Discard now affects only the exact files you select instead of also deleting or reverting similarly-named files.\n• Permission rules with one bad entry no longer lose the other rules in the same section.\n• Chat Completions streams that end without a finish reason are now retried instead of returning partial output.\n• grok worktree rm by label now refuses when the label exists in multiple repos.\n• Grep now respects Read deny rules that use a leading ./.\n\nPerformance:\n• Command hooks no longer cause large memory spikes when they print a lot of output.\n• Retry waits now vary between processes instead of being identical.",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-03 05:10:47",
-        "created_at_utc": "2026-10-02T21:10:47.000Z",
-        "id": "2106129795277103534",
-        "images": [
-          "https://pbs.twimg.com/media/HTp2fuXbUAAHQdW.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 980,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTp2fuXbUAAHQdW.jpg?name=small",
-            "width": 1742
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Grok Build just got another bug-fix update, this time focused heavily on permissions and tool safety\n\nHook permission prompts now show up regardless of approval mode, WebSearch/WebFetch and image generation properly respect prompt_policy and rule decisions, and “Allow once” now really means once......only the next shell command\n\nThere’s also an extra safeguard for pkill -f and pgrep -f patterns that could accidentally kill their own shell wrapper\n\nRelease Notes: v1.0.49\n\nBug Fixes:\n• Hook permission prompts now appear regardless of approval mode.\n• Web searches, fetches, and image generation now correctly respect the prompt_policy setting and rule decisions before prompting.\n• Allow once in permission cards now applies only to the next shell command instead of the whole session.\n• pkill -f and pgrep -f commands are now rejected earlier when the pattern would kill their own shell wrapper.",
-        "url": "https://x.com/XFreeze/status/2106129795277103534",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 12:20:09",
-        "created_at_utc": "2026-10-07T04:20:09.000Z",
-        "id": "2107687399509913967",
-        "images": [
-          "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 980,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small",
-            "width": 1742
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Grok Build just got one of its biggest updates yet.....a massive upgrade touching almost every part of the agent stack\n\nCompact mode gets a major upgrade, timestamps are now configurable, shell commands clearly show when they’re running or finished, tables can export directly as TSV, CSV or Markdown, and the dashboard now gives much better visibility and control over worktrees\n\nUnder the hood, the update is even bigger: stalled model calls now retry, long sessions are more resilient, permission handling is much tighter, failed file writes preserve existing contents, CJK memory search improves, concurrent config edits are safer, MCP tool discovery is more reliable, and worktree creation + deletion gets a huge reliability pass\n\nThere’s even a breaking safety change: grok worktree rm now refuses to delete active worktrees or ones with unsaved changes unless you explicitly force it\n\nRelease Notes: v1.0.50\n\nBreaking Changes:\n• grok worktree rm without -f now refuses to delete worktrees that are in use or contain unsaved changes and exits with an error.\n\nFeatures:\n• Compact mode now collapses recaps and keeps inner spacing on tall terminals.\n• Clicking the git branch in the header now copies the full branch name.\n• Long branch names now abbreviate on narrow terminals while remaining copyable.\n• Targeted cancels now stop only the specific response when requested by clients.\n• Compact mode now hides the dock (or tasks pane) the same way Ctrl+G does.\n• New timestamps setting offers off, minimal, and on modes in Settings and /timestamps.\n• Shell command output now shows \"Running …\" while executing and \"Ran …\" when finished.\n• Live preview pins now include whether an app was observed behind the URL.\n• Command palette (Ctrl+P) and model picker now open at the same width as the settings modal.\n• Tables rendered by grok now show copy buttons underneath that export clean TSV, CSV or Markdown suitable for spreadsheets.\n• Dashboard now shows which worktree each session belongs to, displays the -m model in the new-agent box, and lets you toggle worktree mode in the folder picker.\n\nBug Fixes:\n• Shell permission decisions now correctly prompt or approve commands matching the permission manager.\n• Cancelled turns now correctly mark unanswered tool calls as cancelled instead of succeeded.\n• Long error messages in the /usage and /session-info modals now wrap instead of being truncated.\n• Em-dashes no longer appear in status messages and subagent rows.\n• Stalled model calls during turns now retry before failing the turn.\n• Queue pane and Ctrl+; now appear and work when the dock is hidden with Ctrl+G.\n• Long sessions no longer disconnect when the conversation exceeds 4 MiB.\n• Permission rules now accept native tool names such as run_terminal_command and Shell.\n• /rewind now places the cursor at the end of the restored prompt.\n• Failed file writes now leave the previous contents instead of an empty file.\n• Fixed /loop and scheduler_create so non-ASCII intervals like 5分 no longer crash the session.\n• Fixed --disallowed-tools when only one scheduler tool is named; the other two no longer cause startup failure.\n• Fixed closing a busy tab so queued prompts are no longer sent to the model.\n• Fixed relative --cwd so grok --cwd a no longer ends up running inside a/a.\n• The terminal title now shows \"Action Required\" for any background session waiting on approval.\n• grok now accepts a prompt via piped stdin in headless mode instead of trying to open the UI.\n• An admin-set [features] title_refresh = false in requirements.toml now correctly disables title refresh even when GROK_TITLE_REFRESH is set.\n• Custom notification commands defined under [[ui.notifications.hooks]] now execute on matching events.\n• An admin pin of [cli] use_leader = false now correctly prevents --leader from starting a leader process.\n• When multiple MCP servers expose a tool with the same name, search_tool now returns all of them.\n• Concurrent Grok windows editing settings no longer lose or corrupt config.toml entries such as MCP servers or permission rules.\n• web_fetch no longer downloads huge files into memory before rejecting them.\n• memory_get no longer returns huge files that exceed the read limit.\n• Continue to run no longer kills commands running inside background subagents.\n• memory_search now finds Japanese, Chinese, and Korean words inside longer notes.\n• Drafts saved by the model now appear under their actual titles in /feedback.\n• Imagine replies that are not valid images are now rejected instead of being saved as .jpg files.\n• A workflow file that fails to parse now reports the exact file and parse error instead of 'unknown workflow'.\n• Re-encoded images are now oriented correctly using their EXIF tags instead of appearing sideways.\n• Image and log paths reported after /fork --worktree now point to real files instead of missing locations.\n• Tab characters in terminal command output are now preserved when shown to the model.\n• Transparent images are now kept as PNG when re-encoded instead of turning black.\n• The bundled ripgrep is now available to terminal commands even on images that do not install it.\n• Request bodies now stay under a small configured max_request_bytes limit instead of growing past it.\n• Effort level now stays the same after a bare /model switch instead of jumping to the new model's default.\n• Ctrl+\\ and other modified digits no longer accidentally select options on permission or cancel cards.\n• Feedback submissions now show accurate success or failure messages without premature thanks or duplicated prefixes.\n• grok doctor now reports the exact config file or setting that prevents Grok from starting instead of saying zero issues.\n• Recap summaries now appear on screen automatically instead of requiring manual scrolling.\n• grok doctor fix now opens its confirmation card on Cancel to prevent accidental edits to shell or tmux config.\n• Slash commands now run regardless of case (e.g. /COMPACT or /Compact).\n• /context no longer shows an invented auto-compact threshold when the agent does not report one.\n• Agent text no longer keeps the pager redrawing when a tool call interrupts the sentence.\n• CLI tool calls no longer fail or overflow when the workspace directory is deleted or output is huge.\n• Logs written to files or when NO_COLOR is set are now plain text instead of containing color codes.\n• Prompts now fail immediately with a clear message if the session's working directory no longer exists instead of failing later or recreating it.\n• grok -w now works correctly with separate-git-dir repositories and shows clear errors when run outside a git repo or on an empty repo.\n• Shell tool descriptions now correctly state the actual output truncation limit, and grep respects globs relative to the current session directory.\n• Compaction messages now scroll into view instead of appearing below the bottom of the screen after a turn finishes.\n• Git-mode worktrees created with -w now preserve uncommitted changes instead of dropping them.\n• Worktrees created with --worktree-ref no longer contain wrong submodule contents or LFS pointer text.\n• Worktree creation now shows the same clear error messages on every code path.\n• Failed worktree creates now show a clear error on the home screen instead of being hidden.\n• Merge and rebase conflicts now appear in the changes list instead of being hidden.\n• Fixed a crash when starting a new session with durable rewind checkpoints enabled.\n• Managed permission files with one bad key no longer lose all their valid rules.\n• Simultaneous worktree creates with the same label now succeed instead of one failing with \"already exists\".\n• grok worktree rm without -f no longer deletes arbitrary folders that happen to share a name with a removed worktree.\n• Discard now affects only the exact files you select instead of also deleting or reverting similarly-named files.\n• Permission rules with one bad entry no longer lose the other rules in the same section.\n• Chat Completions streams that end without a finish reason are now retried instead of returning partial output.\n• grok worktree rm by label now refuses when the label exists in multiple repos.\n• Grep now respects Read deny rules that use a leading ./.\n\nPerformance:\n• Command hooks no longer cause large memory spikes when they print a lot of output.\n• Retry waits now vary between processes instead of being identical.",
-        "url": "https://x.com/XFreeze/status/2107687399509913967",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 134,
-        "likes": 992,
-        "quotes": 14,
-        "replies": 88,
-        "retweets": 140,
-        "views": 335781
-      },
-      "url": "https://x.com/elonmusk/status/2107689502508781586",
-      "images": [
-        "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUACfTfbkAAah4C.jpg?name=small",
-          "width": 1742,
-          "height": 980
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2107722464591794325",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T04:00:55.000Z",
-      "created_at_shanghai": "2026-10-07 12:00:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok bot proactively helping every day is like having many executive assistants for each area of your life. \n\nThere hasn’t been a technology that’s this well put together in a long time. \n\nI can’t wait to see what else the @SpaceXAI team is cooking 👨‍🍳 🥔",
-      "quote": null,
-      "retweet": {
-        "author": "thecsguy",
-        "avatar": "https://pbs.twimg.com/profile_images/1880377637086064640/FT14IBXr_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 12:00:55",
-        "created_at_utc": "2026-10-07T04:00:55.000Z",
-        "id": "2107682560763654325",
-        "images": [],
-        "media": [],
-        "name": "nick",
-        "text": "Grok bot proactively helping every day is like having many executive assistants for each area of your life. \n\nThere hasn’t been a technology that’s this well put together in a long time. \n\nI can’t wait to see what else the @SpaceXAI team is cooking 👨‍🍳 🥔",
-        "url": "https://x.com/thecsguy/status/2107682560763654325",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 42,
-        "likes": 895,
-        "quotes": 5,
-        "replies": 49,
-        "retweets": 100,
-        "views": 277626
-      },
-      "url": "https://x.com/elonmusk/status/2107722464591794325",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 47,
   "page_size": 20,
-  "total": 1458,
+  "total": 1460,
   "total_pages": 73,
-  "updated_at_shanghai": "2026-10-26 05:01:09",
+  "updated_at_shanghai": "2026-10-26 07:06:53",
   "account": "elonmusk"
 }
