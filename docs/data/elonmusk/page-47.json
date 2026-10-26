@@ -1,6 +1,140 @@
 {
   "posts": [
     {
+      "id": "2107876928162275329",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:53:16.000Z",
+      "created_at_shanghai": "2026-10-08 00:53:16",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2450,
+        "likes": 14187,
+        "quotes": 209,
+        "replies": 831,
+        "retweets": 2440,
+        "views": 1568514
+      },
+      "url": "https://x.com/elonmusk/status/2107876928162275329",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2107869040718823424/img/JaL1AzI6T6WS6Tp8.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2107869040718823424/vid/avc1/1920x1080/jTrLKdnHVxhqE30x.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107869040718823424/img/JaL1AzI6T6WS6Tp8.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 1608.173
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2107876662138532294",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:52:13.000Z",
+      "created_at_shanghai": "2026-10-08 00:52:13",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "And yet again.\nI ask my family:\nDid you see or hear about what is going on in the world?\n\nOne answer keeps coming:\nNO.\n\nIf you aren’t on X, i\nYou oblivious to what is going on in the world.",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 00:25:40",
+        "created_at_utc": "2026-10-07T16:25:40.000Z",
+        "id": "2107869981035942207",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@KanekoaTheGreat And yet again it happens",
+        "url": "https://x.com/elonmusk/status/2107869981035942207",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "TheCaptainEli",
+        "avatar": "https://pbs.twimg.com/profile_images/1997753138426613760/EZDpm91Z_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 00:27:12",
+        "created_at_utc": "2026-10-07T16:27:12.000Z",
+        "id": "2107870365879795753",
+        "images": [],
+        "media": [],
+        "name": "Captain Eli",
+        "text": "And yet again.\nI ask my family:\nDid you see or hear about what is going on in the world?\n\nOne answer keeps coming:\nNO.\n\nIf you aren’t on X, i\nYou oblivious to what is going on in the world.",
+        "url": "https://x.com/TheCaptainEli/status/2107870365879795753",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 44,
+        "likes": 1384,
+        "quotes": 9,
+        "replies": 74,
+        "retweets": 174,
+        "views": 247355
+      },
+      "url": "https://x.com/elonmusk/status/2107876662138532294",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107876487454179416",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:51:31.000Z",
+      "created_at_shanghai": "2026-10-08 00:51:31",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Whatever it take for @Bot to deliver the best product experience for users",
+      "quote": {
+        "author": "farzyness",
+        "avatar": "https://pbs.twimg.com/profile_images/1863976029368270848/NccgxqmW_200x200.jpg",
+        "created_at_shanghai": "2026-08-28 21:54:34",
+        "created_at_utc": "2026-08-28T13:54:34.000Z",
+        "id": "2093336439819813198",
+        "images": [],
+        "media": [],
+        "name": "Farzad 🇺🇸 🇮🇷",
+        "text": "Grok @bot will be insanely powerful if it’s completely model agnostic and the @SpaceXAI simply hyper-focuses on creating the greatest orchestrator AI of all time.\n\nThat orchestrator AI will know what model is best at what at the best possible cost and fastest speed, and based on your prompt, Grok Bot will automatically use the best model(s).\n\nAnd over time SpaceXAI can hyper-optimize their own models to be extremely good at executing tasks in Grok Bot.\n\nIt’s getting WAY too hard for humans to know which AI model is best at what already, especially at what cost and at what speed. The only way to do this properly is with another AI that automatically does all of this for you.\n\nAnd since SpaceX is gonna own so much compute, in theory, those other models will likely be served from their own data centers either on the ground or in space!\n\n$SPCX",
+        "url": "https://x.com/farzyness/status/2093336439819813198",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 108,
+        "likes": 3698,
+        "quotes": 40,
+        "replies": 529,
+        "retweets": 375,
+        "views": 1036940
+      },
+      "url": "https://x.com/elonmusk/status/2107876487454179416",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107872672785084550",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -942,193 +1076,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107846706721427895",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T14:53:11.000Z",
-      "created_at_shanghai": "2026-10-07 22:53:11",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: SpaceX’s Vice President of @Starlink Business Operations, Lauren Dreyer, spoke at India Mobile Congress today, saying Starlink is ready to serve India. 🇮🇳\n\nStarlink has already built 20 gateway sites in India with hundreds of antennas, security controls tailored to India and Indian user data kept within the country. Final government approvals are pending.\n\nShe highlighted Starlink’s potential to help connect 100% of India, bringing people online in minutes.\n\n“We stand ready to serve India, as soon as India is ready!” https://x.com/ANI/status/2107734328780501192/video/1",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 20:27:31",
-        "created_at_utc": "2026-10-07T12:27:31.000Z",
-        "id": "2107810049418793288",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107734055886503936/img/dx7JJzFYCqjzMllb.jpg"
-        ],
-        "media": [
-          {
-            "duration": 138.92,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107734055886503936/img/dx7JJzFYCqjzMllb.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107734055886503936/vid/avc1/1920x1080/rjlCYGQQZb5alcKN.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: SpaceX’s Vice President of @Starlink Business Operations, Lauren Dreyer, spoke at India Mobile Congress today, saying Starlink is ready to serve India. 🇮🇳\n\nStarlink has already built 20 gateway sites in India with hundreds of antennas, security controls tailored to India and Indian user data kept within the country. Final government approvals are pending.\n\nShe highlighted Starlink’s potential to help connect 100% of India, bringing people online in minutes.\n\n“We stand ready to serve India, as soon as India is ready!” https://x.com/ANI/status/2107734328780501192/video/1",
-        "url": "https://x.com/cb_doge/status/2107810049418793288",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 338,
-        "likes": 4048,
-        "quotes": 104,
-        "replies": 517,
-        "retweets": 593,
-        "views": 537897
-      },
-      "url": "https://x.com/elonmusk/status/2107846706721427895",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2107734055886503936/img/dx7JJzFYCqjzMllb.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107734055886503936/vid/avc1/1920x1080/rjlCYGQQZb5alcKN.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107734055886503936/img/dx7JJzFYCqjzMllb.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 138.92
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2107846560155623569",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T10:35:04.000Z",
-      "created_at_shanghai": "2026-10-07 18:35:04",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: Intel CEO Lip-Bu Tan confirms the company will continue working with Elon Musk on Terafab.\n\nHe made the comments in Tokyo today, reaffirming Intel’s role as a development partner. Intel joined in April to help design, manufacture and package chips.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 18:35:04",
-        "created_at_utc": "2026-10-07T10:35:04.000Z",
-        "id": "2107781749724086318",
-        "images": [
-          "https://pbs.twimg.com/media/HUBYU28aAAA2cSJ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUBYU28aAAA2cSJ.jpg?name=small",
-            "width": 2048
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Intel CEO Lip-Bu Tan confirms the company will continue working with Elon Musk on Terafab.\n\nHe made the comments in Tokyo today, reaffirming Intel’s role as a development partner. Intel joined in April to help design, manufacture and package chips.",
-        "url": "https://x.com/cb_doge/status/2107781749724086318",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 175,
-        "likes": 4507,
-        "quotes": 68,
-        "replies": 225,
-        "retweets": 773,
-        "views": 282344
-      },
-      "url": "https://x.com/elonmusk/status/2107846560155623569",
-      "images": [
-        "https://pbs.twimg.com/media/HUBYU28aAAA2cSJ.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUBYU28aAAA2cSJ.jpg?name=small",
-          "width": 2048,
-          "height": 2048
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2107844435224809938",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T10:23:57.000Z",
-      "created_at_shanghai": "2026-10-07 18:23:57",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "People clearly prefer Grok Bot to Dots.",
-      "quote": null,
-      "retweet": {
-        "author": "NathanLands",
-        "avatar": "https://pbs.twimg.com/profile_images/2106327649048240128/lkHNZ7xZ_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 18:23:57",
-        "created_at_utc": "2026-10-07T10:23:57.000Z",
-        "id": "2107778953494794733",
-        "images": [
-          "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2000,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small",
-            "width": 1000
-          }
-        ],
-        "name": "Nathan Lands",
-        "text": "People clearly prefer Grok Bot to Dots.",
-        "url": "https://x.com/NathanLands/status/2107778953494794733",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 65,
-        "likes": 1162,
-        "quotes": 10,
-        "replies": 96,
-        "retweets": 136,
-        "views": 239497
-      },
-      "url": "https://x.com/elonmusk/status/2107844435224809938",
-      "images": [
-        "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small",
-          "width": 1000,
-          "height": 2000
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 47,
   "page_size": 20,
-  "total": 1469,
+  "total": 1472,
   "total_pages": 74,
-  "updated_at_shanghai": "2026-10-26 14:02:59",
+  "updated_at_shanghai": "2026-10-26 20:47:25",
   "account": "elonmusk"
 }
