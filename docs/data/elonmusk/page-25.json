@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2110945451746931077",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T04:06:29.000Z",
+      "created_at_shanghai": "2026-10-16 12:06:29",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Where we're going, we don't need roads",
+      "quote": null,
+      "retweet": {
+        "author": "wmorrill3",
+        "avatar": "https://pbs.twimg.com/profile_images/2099371785234112513/iegFehAO_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 10:40:19",
+        "created_at_utc": "2026-10-16T02:40:19.000Z",
+        "id": "2110923764070482132",
+        "images": [
+          "https://pbs.twimg.com/media/HUuB-d_aAAAiPni.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1600,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUuB-d_aAAAiPni.jpg?name=small",
+            "width": 1200
+          }
+        ],
+        "name": "Wes",
+        "text": "Where we're going, we don't need roads",
+        "url": "https://x.com/wmorrill3/status/2110923764070482132",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 78,
+        "likes": 2536,
+        "quotes": 15,
+        "replies": 92,
+        "retweets": 222,
+        "views": 95419
+      },
+      "url": "https://x.com/elonmusk/status/2110945451746931077",
+      "images": [
+        "https://pbs.twimg.com/media/HUuB-d_aAAAiPni.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUuB-d_aAAAiPni.jpg?name=small",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110941984881885262",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1131,53 +1190,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110894635904110632",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T00:44:34.000Z",
-      "created_at_shanghai": "2026-10-16 08:44:34",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla x SpaceX",
-      "quote": {
-        "author": "Tesla",
-        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-        "created_at_shanghai": "2026-10-16 01:41:04",
-        "created_at_utc": "2026-10-15T17:41:04.000Z",
-        "id": "2110788059008819215",
-        "images": [],
-        "media": [],
-        "name": "Tesla",
-        "text": "Roadster event livestream https://x.com/i/broadcasts/1yKAPwNggRaxb",
-        "url": "https://x.com/Tesla/status/2110788059008819215",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1667,
-        "likes": 36428,
-        "quotes": 759,
-        "replies": 2572,
-        "retweets": 3689,
-        "views": 2611768
-      },
-      "url": "https://x.com/elonmusk/status/2110894635904110632",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 20,
-  "total": 1520,
-  "total_pages": 76,
-  "updated_at_shanghai": "2026-10-27 14:49:50",
+  "total": 1521,
+  "total_pages": 77,
+  "updated_at_shanghai": "2026-10-27 20:44:51",
   "account": "elonmusk"
 }

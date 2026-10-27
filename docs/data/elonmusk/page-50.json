@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2107852404570062983",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T15:15:49.000Z",
+      "created_at_shanghai": "2026-10-07 23:15:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "After many years in top machine learning organizations, with friends at frontier labs, I still consider Tesla’s ML engineers the best—the only ones I would trust with my life.\n\nUnsatisfied with theory, they scrutinize every detail until it is proven in reality. They demand real-world miles, not charts. This culture exists nowhere else.\n\nThis week marks another anniversary at Tesla. I am honored to work with you all for many years to come.",
+      "quote": null,
+      "retweet": {
+        "author": "yunta_tsai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035915849819938816/b6kIsNMe_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 23:06:07",
+        "created_at_utc": "2026-10-07T15:06:07.000Z",
+        "id": "2107849961299980503",
+        "images": [],
+        "media": [],
+        "name": "Yun-Ta Tsai",
+        "text": "After many years in top machine learning organizations, with friends at frontier labs, I still consider Tesla’s ML engineers the best—the only ones I would trust with my life.\n\nUnsatisfied with theory, they scrutinize every detail until it is proven in reality. They demand real-world miles, not charts. This culture exists nowhere else.\n\nThis week marks another anniversary at Tesla. I am honored to work with you all for many years to come.",
+        "url": "https://x.com/yunta_tsai/status/2107849961299980503",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 215,
+        "likes": 4347,
+        "quotes": 21,
+        "replies": 158,
+        "retweets": 306,
+        "views": 358291
+      },
+      "url": "https://x.com/elonmusk/status/2107852404570062983",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107851390710415525",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1058,64 +1099,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2107695858259292561",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T04:53:46.000Z",
-      "created_at_shanghai": "2026-10-07 12:53:46",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla self-driving is magical",
-      "quote": {
-        "author": "Tesla",
-        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-        "created_at_shanghai": "2026-10-07 07:40:43",
-        "created_at_utc": "2026-10-06T23:40:43.000Z",
-        "id": "2107617079235060023",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107574774209630208/img/cg-I-e5eIhtdnPWa.jpg"
-        ],
-        "media": [
-          {
-            "duration": 52.614,
-            "height": 1280,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107574774209630208/img/cg-I-e5eIhtdnPWa.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107574774209630208/vid/avc1/720x1280/7Zwg7AexYEBVGIyb.mp4?tag=29",
-            "width": 720
-          }
-        ],
-        "name": "Tesla",
-        "text": "“I'm in a Model Y L, and using [FSD Supervised]. \n\nThis is the most unbelievable technology I have ever experienced in a car.”",
-        "url": "https://x.com/Tesla/status/2107617079235060023",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 95,
-        "likes": 2847,
-        "quotes": 40,
-        "replies": 440,
-        "retweets": 350,
-        "views": 589953
-      },
-      "url": "https://x.com/elonmusk/status/2107695858259292561",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 50,
   "page_size": 20,
-  "total": 1520,
-  "total_pages": 76,
-  "updated_at_shanghai": "2026-10-27 14:49:50",
+  "total": 1521,
+  "total_pages": 77,
+  "updated_at_shanghai": "2026-10-27 20:44:51",
   "account": "elonmusk"
 }
