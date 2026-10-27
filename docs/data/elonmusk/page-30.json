@@ -1,6 +1,115 @@
 {
   "posts": [
     {
+      "id": "2110518710964568453",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T23:50:46.000Z",
+      "created_at_shanghai": "2026-10-15 07:50:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "BREAKING: SpaceXSI just revealed that Starlink uses Grok Voice 3.0 to handle 20,000 daily calls in multiple languages.\n\nAbout 70% need no human &amp; 1 in 4 sales calls ends in a purchase. AI agent verifies customers, troubleshoots hardware, issues credits &amp; ships replacement.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 01:13:01",
+        "created_at_utc": "2026-10-14T17:13:01.000Z",
+        "id": "2110418612989415821",
+        "images": [
+          "https://pbs.twimg.com/media/HUm2ienbAAA0hP2.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1254,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUm2ienbAAA0hP2.jpg?name=small",
+            "width": 1254
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: SpaceXSI just revealed that Starlink uses Grok Voice 3.0 to handle 20,000 daily calls in multiple languages.\n\nAbout 70% need no human & 1 in 4 sales calls ends in a purchase. AI agent verifies customers, troubleshoots hardware, issues credits & ships replacement.",
+        "url": "https://x.com/cb_doge/status/2110418612989415821",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 68,
+        "likes": 1514,
+        "quotes": 22,
+        "replies": 179,
+        "retweets": 221,
+        "views": 175166
+      },
+      "url": "https://x.com/elonmusk/status/2110518710964568453",
+      "images": [
+        "https://pbs.twimg.com/media/HUm2ienbAAA0hP2.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUm2ienbAAA0hP2.jpg?name=small",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110512674673222058",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T23:26:47.000Z",
+      "created_at_shanghai": "2026-10-15 07:26:47",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink now available in Curaçao! 🛰️🇨🇼",
+      "quote": {
+        "author": "Starlink",
+        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 00:41:55",
+        "created_at_utc": "2026-10-14T16:41:55.000Z",
+        "id": "2110410786925641854",
+        "images": [
+          "https://pbs.twimg.com/media/HUmotnrbcAAN5Zc.png?name=small"
+        ],
+        "media": [
+          {
+            "height": 601,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUmotnrbcAAN5Zc.png?name=small",
+            "width": 866
+          }
+        ],
+        "name": "Starlink",
+        "text": "Starlink's high-speed, low-latency internet is now available in Curaçao! 🛰️🇨🇼❤️ → https://starlink.com/curacao",
+        "url": "https://x.com/Starlink/status/2110410786925641854",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 81,
+        "likes": 3801,
+        "quotes": 48,
+        "replies": 716,
+        "retweets": 440,
+        "views": 709827
+      },
+      "url": "https://x.com/elonmusk/status/2110512674673222058",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110512532389843324",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1036,94 +1145,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110397029650477363",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T15:47:15.000Z",
-      "created_at_shanghai": "2026-10-14 23:47:15",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "🎯",
-      "quote": {
-        "author": "fchollet",
-        "avatar": "https://pbs.twimg.com/profile_images/2006806326140350470/Kd5oZv-f_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 22:28:17",
-        "created_at_utc": "2026-10-14T14:28:17.000Z",
-        "id": "2110377155079385477",
-        "images": [],
-        "media": [],
-        "name": "François Chollet",
-        "text": "String theory is what happens when an intelligent system is starved of sensory input and starts hallucinating. Intelligence needs grounding.\n\nFor this reason, intelligence is practically never the bottleneck to solving impactful problems. The bottleneck is iterated contact with reality.",
-        "url": "https://x.com/fchollet/status/2110377155079385477",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 310,
-        "likes": 4035,
-        "quotes": 57,
-        "replies": 749,
-        "retweets": 386,
-        "views": 767544
-      },
-      "url": "https://x.com/elonmusk/status/2110397029650477363",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110370768697901279",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T14:02:54.000Z",
-      "created_at_shanghai": "2026-10-14 22:02:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Most people think Grok Bot is just a chat window.\n\nIt's not. Each bot has its own computer, with its own browser, email inbox and desktop. When I ask it to do something, it goes off and does it.\n\nI made a video explaining how it actually works 👇",
-      "quote": null,
-      "retweet": {
-        "author": "debs_obrien",
-        "avatar": "https://pbs.twimg.com/profile_images/1537114604278530048/FMrBa87o_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 21:29:32",
-        "created_at_utc": "2026-10-14T13:29:32.000Z",
-        "id": "2110362370342363207",
-        "images": [],
-        "media": [],
-        "name": "Debbie O'Brien",
-        "text": "Most people think Grok Bot is just a chat window.\n\nIt's not. Each bot has its own computer, with its own browser, email inbox and desktop. When I ask it to do something, it goes off and does it.\n\nI made a video explaining how it actually works 👇",
-        "url": "https://x.com/debs_obrien/status/2110362370342363207",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 464,
-        "likes": 1200,
-        "quotes": 12,
-        "replies": 138,
-        "retweets": 147,
-        "views": 251107
-      },
-      "url": "https://x.com/elonmusk/status/2110370768697901279",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 30,
   "page_size": 20,
-  "total": 1504,
+  "total": 1506,
   "total_pages": 76,
-  "updated_at_shanghai": "2026-10-27 06:54:56",
+  "updated_at_shanghai": "2026-10-27 09:41:21",
   "account": "elonmusk"
 }
