@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2115209678921838783",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-10-27T22:31:00.000Z",
+      "created_at_shanghai": "2026-10-28 06:31:00",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Enjoy the sights and sounds of shipping Neutron's Stage 2 and Thrust Module to Launch Complex 3.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 947,
+        "quotes": 17,
+        "replies": 39,
+        "retweets": 120,
+        "views": 43463
+      },
+      "url": "https://x.com/rocketlab/status/2115209678921838783",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115207910607446016/img/N9mTVyhETo00rlz7.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2115207910607446016/vid/avc1/1920x1080/dytsfYhwh6zwgmEx.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115207910607446016/img/N9mTVyhETo00rlz7.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 61.061
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2115180809514873024",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -728,49 +767,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2113376737358999883",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-10-22T21:07:33.000Z",
-      "created_at_shanghai": "2026-10-23 05:07:33",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "High cadence launch needs high cadence testing. With more than 100 launches in backlog (and counting), we're building a new state-of-the-art test facility to accelerate static fire stack testing for Electron and HASTE rockets.\n\nCheck out the new test pad underway within our Propulsion Test Complex 🧵👇",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 28,
-        "likes": 840,
-        "quotes": 21,
-        "replies": 36,
-        "retweets": 100,
-        "views": 26259
-      },
-      "url": "https://x.com/rocketlab/status/2113376737358999883",
-      "images": [
-        "https://pbs.twimg.com/media/HVQ4GESa0AA0xkU.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVQ4GESa0AA0xkU.jpg?name=small",
-          "width": 4032,
-          "height": 3024
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 94,
+  "total": 95,
   "total_pages": 5,
-  "updated_at_shanghai": "2026-10-28 06:24:14",
+  "updated_at_shanghai": "2026-10-28 09:29:22",
   "account": "rocketlab"
 }
