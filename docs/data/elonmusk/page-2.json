@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2115349948544020638",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-28T07:48:23.000Z",
+      "created_at_shanghai": "2026-10-28 15:48:23",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@elonmusk \"To love and be loved is to feel the sun from both sides.\"\nGrok Imagine",
+      "quote": null,
+      "retweet": {
+        "author": "KnightWorld",
+        "avatar": "https://pbs.twimg.com/profile_images/2007141565592907776/t1KXm89l_200x200.jpg",
+        "created_at_shanghai": "2026-10-28 15:35:17",
+        "created_at_utc": "2026-10-28T07:35:17.000Z",
+        "id": "2115346652718620688",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2042969398235832321/img/_rvkcoAm4TvixThP.jpg"
+        ],
+        "media": [
+          {
+            "duration": 10.746,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2042969398235832321/img/_rvkcoAm4TvixThP.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2042969398235832321/vid/avc1/1280x720/Pu-EnDSk4HFiTAS8.mp4?tag=21",
+            "width": 1280
+          }
+        ],
+        "name": "Knight World",
+        "text": "@elonmusk \"To love and be loved is to feel the sun from both sides.\"\nGrok Imagine",
+        "url": "https://x.com/KnightWorld/status/2115346652718620688",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 111,
+        "likes": 1147,
+        "quotes": 14,
+        "replies": 131,
+        "retweets": 157,
+        "views": 252341
+      },
+      "url": "https://x.com/elonmusk/status/2115349948544020638",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2042969398235832321/img/_rvkcoAm4TvixThP.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2042969398235832321/vid/avc1/1280x720/Pu-EnDSk4HFiTAS8.mp4?tag=21",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2042969398235832321/img/_rvkcoAm4TvixThP.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 10.746
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2115349513011646920",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1045,53 +1108,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2115261103970340987",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-28T01:55:21.000Z",
-      "created_at_shanghai": "2026-10-28 09:55:21",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "A new bot called \"Director,\" by Xi Yan, showed up in the Grok Bot Marketplace. It's a video director that takes a brief and plans, shoots, cuts and delivers short films, ads, explainers or music videos. Import it, it comes with a pack of video skills.\n\nhttps://x.ai/bot/marketplace/bots/video-director",
-      "quote": null,
-      "retweet": {
-        "author": "tetsuoai",
-        "avatar": "https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 02:29:35",
-        "created_at_utc": "2026-10-27T18:29:35.000Z",
-        "id": "2115148923337842788",
-        "images": [],
-        "media": [],
-        "name": "tetsuo",
-        "text": "A new bot called \"Director,\" by Xi Yan, showed up in the Grok Bot Marketplace. It's a video director that takes a brief and plans, shoots, cuts and delivers short films, ads, explainers or music videos. Import it, it comes with a pack of video skills.\n\nhttps://x.ai/bot/marketplace/bots/video-director",
-        "url": "https://x.com/tetsuoai/status/2115148923337842788",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2219,
-        "likes": 2547,
-        "quotes": 52,
-        "replies": 208,
-        "retweets": 255,
-        "views": 407993
-      },
-      "url": "https://x.com/elonmusk/status/2115261103970340987",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 1589,
+  "total": 1590,
   "total_pages": 80,
-  "updated_at_shanghai": "2026-10-29 03:21:09",
+  "updated_at_shanghai": "2026-10-29 07:20:01",
   "account": "elonmusk"
 }

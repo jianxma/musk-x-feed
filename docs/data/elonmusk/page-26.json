@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2111239205951086616",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T23:33:46.000Z",
+      "created_at_shanghai": "2026-10-17 07:33:46",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Also, ask Grok @Bot to connect to your 𝕏 DMs. Best way to use it.",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-17 03:55:30",
+        "created_at_utc": "2026-10-16T19:55:30.000Z",
+        "id": "2111184276662481202",
+        "images": [
+          "https://pbs.twimg.com/media/HUxt6XMbIAAOBNy.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2491,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUxt6XMbIAAOBNy.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Voice calls with Grok Bot are faster, more reliable, and better at remembering past conversations.",
+        "url": "https://x.com/bot/status/2111184276662481202",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 288,
+        "likes": 2172,
+        "quotes": 43,
+        "replies": 430,
+        "retweets": 283,
+        "views": 577885
+      },
+      "url": "https://x.com/elonmusk/status/2111239205951086616",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111238697370927596",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1191,75 +1241,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2111145925615947908",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T17:23:06.000Z",
-      "created_at_shanghai": "2026-10-17 01:23:06",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "America IS dominating the frontiers of science &amp; technology. 😤",
-      "quote": null,
-      "retweet": {
-        "author": "WhiteHouse",
-        "avatar": "https://pbs.twimg.com/profile_images/2062605835256127489/atNMwHxg_200x200.jpg",
-        "created_at_shanghai": "2026-10-17 00:34:32",
-        "created_at_utc": "2026-10-16T16:34:32.000Z",
-        "id": "2111133703019602016",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2111133056949952514/img/drRHVKO_i5N9UBWG.jpg"
-        ],
-        "media": [
-          {
-            "duration": 10,
-            "height": 1920,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111133056949952514/img/drRHVKO_i5N9UBWG.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2111133056949952514/vid/avc1/1080x1920/EPQsZ0pKAIVj2OpW.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "The White House",
-        "text": "America IS dominating the frontiers of science & technology. 😤",
-        "url": "https://x.com/WhiteHouse/status/2111133703019602016",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 258,
-        "likes": 5899,
-        "quotes": 85,
-        "replies": 673,
-        "retweets": 908,
-        "views": 223849
-      },
-      "url": "https://x.com/elonmusk/status/2111145925615947908",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2111133056949952514/img/drRHVKO_i5N9UBWG.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2111133056949952514/vid/avc1/1080x1920/EPQsZ0pKAIVj2OpW.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111133056949952514/img/drRHVKO_i5N9UBWG.jpg",
-          "width": 1080,
-          "height": 1920,
-          "duration": 10
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 26,
   "page_size": 20,
-  "total": 1589,
+  "total": 1590,
   "total_pages": 80,
-  "updated_at_shanghai": "2026-10-29 03:21:09",
+  "updated_at_shanghai": "2026-10-29 07:20:01",
   "account": "elonmusk"
 }

@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2110832317727973501",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T20:36:56.000Z",
+      "created_at_shanghai": "2026-10-16 04:36:56",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink is really that good",
+      "quote": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 22:49:18",
+        "created_at_utc": "2026-10-15T14:49:18.000Z",
+        "id": "2110744832184320388",
+        "images": [
+          "https://pbs.twimg.com/media/HUrdfBEWIAA9Qm2.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1950,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUrdfBEWIAA9Qm2.jpg?name=small",
+            "width": 2214
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "New opinion article about @Starlink from a 7-year Delta Airlines Diamond Medallion status member (their highest loyalty tier):\n\n\"After flying a United flight in July that included Starlink, it was enough reason for me to switch. It was amazing, like being on the internet at my house, that's how fast it is. For the two-hour flight, I was just doing work. As a founder, I don't get the luxury of being able to log off for a few hours in the middle of the day. When Slack and email are going, or I'm collaborating and working with teammates, or I'm building an app, I want to have fast internet.\n\nOn most Delta flights that I'm on, there's at least some segment of the flight during which the internet goes out for a period of time, whether for a few minutes or 20 minutes. The reliability of the uptime leaves a bit to be desired. Nearly all of Delta's peers went with Starlink, while Delta went with Amazon's Leo, which won't be out until 2028.\n\nI hope Delta takes stock of all the online chatter and listens to its customers. It has done a great job in the past of continually improving its product and listening to its customers. For the most profitable and what I feel is the most premium airline in America, it seems odd for Delta not to outfit its planes with the best in-flight internet.\"\n\nI think we'll see more and more stories like this. As people get a taste of Starlink wi-fi on planes, they won't want to go back, and will demand better internet from airlines that don't have it, and in some cases, just switch to flying other airlines that do have it.",
+        "url": "https://x.com/SawyerMerritt/status/2110744832184320388",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 44,
+        "likes": 3188,
+        "quotes": 26,
+        "replies": 422,
+        "retweets": 368,
+        "views": 605097
+      },
+      "url": "https://x.com/elonmusk/status/2110832317727973501",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110831939498254345",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1035,75 +1085,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110709851508687226",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T12:30:18.000Z",
-      "created_at_shanghai": "2026-10-15 20:30:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: United just launched a Starlink tracker so you can check if your next flight has Starlink Wi-Fi and follow its rollout across the fleet.\n\nWith 635+ United aircraft already connected, finding Starlink in the sky just got easier.\n\nhttps://starlinktracker.united.com/program/starlink",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 20:21:35",
-        "created_at_utc": "2026-10-15T12:21:35.000Z",
-        "id": "2110707656671539540",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110707359777742848/img/3mjN0tYbNL6gqxMe.jpg"
-        ],
-        "media": [
-          {
-            "duration": 10.766,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110707359777742848/img/3mjN0tYbNL6gqxMe.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110707359777742848/vid/avc1/1360x1080/lMZ7FOA4ADb6FBt4.mp4?tag=29",
-            "width": 1360
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: United just launched a Starlink tracker so you can check if your next flight has Starlink Wi-Fi and follow its rollout across the fleet.\n\nWith 635+ United aircraft already connected, finding Starlink in the sky just got easier.\n\nhttps://starlinktracker.united.com/program/starlink",
-        "url": "https://x.com/cb_doge/status/2110707656671539540",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 61,
-        "likes": 1399,
-        "quotes": 17,
-        "replies": 102,
-        "retweets": 185,
-        "views": 222012
-      },
-      "url": "https://x.com/elonmusk/status/2110709851508687226",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110707359777742848/img/3mjN0tYbNL6gqxMe.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110707359777742848/vid/avc1/1360x1080/lMZ7FOA4ADb6FBt4.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110707359777742848/img/3mjN0tYbNL6gqxMe.jpg",
-          "width": 1360,
-          "height": 1080,
-          "duration": 10.766
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 30,
   "page_size": 20,
-  "total": 1589,
+  "total": 1590,
   "total_pages": 80,
-  "updated_at_shanghai": "2026-10-29 03:21:09",
+  "updated_at_shanghai": "2026-10-29 07:20:01",
   "account": "elonmusk"
 }

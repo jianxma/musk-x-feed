@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2113861498577592543",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-24T05:13:49.000Z",
+      "created_at_shanghai": "2026-10-24 13:13:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "He is starting to believe",
+      "quote": null,
+      "retweet": {
+        "author": "kevinnbass",
+        "avatar": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_200x200.jpg",
+        "created_at_shanghai": "2026-10-24 12:21:36",
+        "created_at_utc": "2026-10-24T04:21:36.000Z",
+        "id": "2113848359437938888",
+        "images": [
+          "https://pbs.twimg.com/media/HVXl4UVWsAAvfoV.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1309,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVXl4UVWsAAvfoV.jpg?name=small",
+            "width": 1064
+          }
+        ],
+        "name": "Kevin Bass",
+        "text": "He is starting to believe",
+        "url": "https://x.com/kevinnbass/status/2113848359437938888",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 19,
+        "likes": 300,
+        "quotes": 3,
+        "replies": 31,
+        "retweets": 49,
+        "views": 13451
+      },
+      "url": "https://x.com/elonmusk/status/2113861498577592543",
+      "images": [
+        "https://pbs.twimg.com/media/HVXl4UVWsAAvfoV.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVXl4UVWsAAvfoV.jpg?name=small",
+          "width": 1064,
+          "height": 1309
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2113860032584667529",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -995,53 +1054,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2113679345562554445",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-23T17:10:00.000Z",
-      "created_at_shanghai": "2026-10-24 01:10:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@WR4NYGov By the way, Tesla ramping up Megapack production rapidly to meet increasing demand",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-24 01:09:36",
-        "created_at_utc": "2026-10-23T17:09:36.000Z",
-        "id": "2113679241439027551",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "@WR4NYGov By the way, Tesla ramping up Megapack production rapidly to meet increasing demand",
-        "url": "https://x.com/elonmusk/status/2113679241439027551",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 66,
-        "likes": 3650,
-        "quotes": 37,
-        "replies": 85,
-        "retweets": 239,
-        "views": 281932
-      },
-      "url": "https://x.com/elonmusk/status/2113679345562554445",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 12,
   "page_size": 20,
-  "total": 1589,
+  "total": 1590,
   "total_pages": 80,
-  "updated_at_shanghai": "2026-10-29 03:21:09",
+  "updated_at_shanghai": "2026-10-29 07:20:01",
   "account": "elonmusk"
 }

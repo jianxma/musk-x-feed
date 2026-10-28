@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2107844435224809938",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T10:23:57.000Z",
+      "created_at_shanghai": "2026-10-07 18:23:57",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "People clearly prefer Grok Bot to Dots.",
+      "quote": null,
+      "retweet": {
+        "author": "NathanLands",
+        "avatar": "https://pbs.twimg.com/profile_images/2106327649048240128/lkHNZ7xZ_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 18:23:57",
+        "created_at_utc": "2026-10-07T10:23:57.000Z",
+        "id": "2107778953494794733",
+        "images": [
+          "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2000,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small",
+            "width": 1000
+          }
+        ],
+        "name": "Nathan Lands",
+        "text": "People clearly prefer Grok Bot to Dots.",
+        "url": "https://x.com/NathanLands/status/2107778953494794733",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 65,
+        "likes": 1162,
+        "quotes": 10,
+        "replies": 96,
+        "retweets": 136,
+        "views": 239497
+      },
+      "url": "https://x.com/elonmusk/status/2107844435224809938",
+      "images": [
+        "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small",
+          "width": 1000,
+          "height": 2000
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2107724314451878104",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -989,75 +1048,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2107587206194098350",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T19:44:06.000Z",
-      "created_at_shanghai": "2026-10-07 03:44:06",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "This is why we shouldn't give mentally ill people copious amounts of synthetic chemicals and injectable hormones",
-      "quote": {
-        "author": "nypost",
-        "avatar": "https://pbs.twimg.com/profile_images/2073490215327715328/4wOfTM9__200x200.jpg",
-        "created_at_shanghai": "2026-10-06 20:04:22",
-        "created_at_utc": "2026-10-06T12:04:22.000Z",
-        "id": "2107441834913890454",
-        "images": [
-          "https://pbs.twimg.com/media/HT8jLQSWUAE74P-.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 799,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT8jLQSWUAE74P-.jpg?name=small",
-            "width": 1200
-          }
-        ],
-        "name": "New York Post",
-        "text": "Trans killer blames transition for stabbing hiker 15 times on trail: Victim was 'what I want to look like' https://trib.al/HjxzkhN",
-        "url": "https://x.com/nypost/status/2107441834913890454",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "Riley_Gaines_",
-        "avatar": "https://pbs.twimg.com/profile_images/2013820986903158784/LG0pDZpJ_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 03:44:06",
-        "created_at_utc": "2026-10-06T19:44:06.000Z",
-        "id": "2107557531489030157",
-        "images": [],
-        "media": [],
-        "name": "Riley Gaines",
-        "text": "This is why we shouldn't give mentally ill people copious amounts of synthetic chemicals and injectable hormones",
-        "url": "https://x.com/Riley_Gaines_/status/2107557531489030157",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 498,
-        "likes": 19762,
-        "quotes": 29,
-        "replies": 342,
-        "retweets": 2558,
-        "views": 728814
-      },
-      "url": "https://x.com/elonmusk/status/2107587206194098350",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 54,
   "page_size": 20,
-  "total": 1589,
+  "total": 1590,
   "total_pages": 80,
-  "updated_at_shanghai": "2026-10-29 03:21:09",
+  "updated_at_shanghai": "2026-10-29 07:20:01",
   "account": "elonmusk"
 }
