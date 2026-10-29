@@ -1,10 +1,727 @@
 {
   "posts": [
     {
-      "id": "2115690222608593378",
+      "id": "2115825787647496203",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T15:19:12.000Z",
+      "created_at_shanghai": "2026-10-29 23:19:12",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Our civilization would be winning wondrously if we are exploring the galaxy with Von Neumann probes by 2100!\n\nLarry Page might be right. He has correctly predicted many things.",
+      "quote": {
+        "author": "firesidealpha",
+        "avatar": "https://pbs.twimg.com/profile_images/2066254089756061697/MGnZGljz_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 21:52:58",
+        "created_at_utc": "2026-10-29T13:52:58.000Z",
+        "id": "2115804084901167404",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2115803424994611200/img/lCL3-lrxkYl9ukL9.jpg"
+        ],
+        "media": [
+          {
+            "duration": 85.885,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115803424994611200/img/lCL3-lrxkYl9ukL9.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2115803424994611200/vid/avc1/1920x1080/S5NyU6G8HB_blw_z.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Fireside Alpha",
+        "text": "Microsoft's Mustafa Suleyman reveals Larry Page told him at SpaceX that by the end of the century he’d be exploring the galaxies at the head of a von Neumann probe\n\n“Yeah, I remember in 2015 being in the canteen at SpaceX.”\n\n“And we had our first meeting of the Ethics and Safety Board. So when we sold DeepMind to Google, we made it a condition of our acquisition that we would have an Ethics and Safety Board with independent representation on the board.\"\n\n\"One of those independent members, because Google had to agree, which was obviously Larry, Sergey, and David Drummond at the time. And then me, Demis, and Shane had to jointly agree who those three independents would be. And so we jointly picked Elon as one of them.”\n\n“No idea if that had an influence on the founding of OpenAI or not. But so then we had our morning session and we were sitting down for lunch and I was sitting next to Larry. You know, obviously he was suspicious of me as well because he was like, you know, you’re one of those speciesists.”\n\n“And he said, you know, I think that what you don’t understand, Mustafa, is that by the end of the century, I’m going to be exploring the galaxies at the head of a von Neumann probe, which means a von Neumann probe is a kind of self-propelling kind of robot that is able to gather energy from space as it’s careening through the light years.”",
+        "url": "https://x.com/firesidealpha/status/2115804084901167404",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 131,
+        "likes": 1775,
+        "quotes": 38,
+        "replies": 492,
+        "retweets": 231,
+        "views": 495473
+      },
+      "url": "https://x.com/elonmusk/status/2115825787647496203",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2115823011399938182",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T15:08:10.000Z",
+      "created_at_shanghai": "2026-10-29 23:08:10",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Interesting",
+      "quote": {
+        "author": "standuquesne",
+        "avatar": "https://abs.twimg.com/sticky/default_profile_images/default_profile_200x200.png",
+        "created_at_shanghai": "2026-10-29 20:08:40",
+        "created_at_utc": "2026-10-29T12:08:40.000Z",
+        "id": "2115777839622689036",
+        "images": [],
+        "media": [],
+        "name": "Stan Druckenmiller",
+        "text": "I am excited to be an investor in trade(xyz) as they partner with ICE to bring 24/7 perpetual futures on Hyperliquid to the United States.   As a market participant, I am looking forward to to using their innovative product to enhance my investment process.",
+        "url": "https://x.com/standuquesne/status/2115777839622689036",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 473,
+        "likes": 7145,
+        "quotes": 978,
+        "replies": 1798,
+        "retweets": 1260,
+        "views": 844645
+      },
+      "url": "https://x.com/elonmusk/status/2115823011399938182",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2115821203239907550",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T15:00:59.000Z",
+      "created_at_shanghai": "2026-10-29 23:00:59",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@elonmusk @m_goes_distance True 😂",
+      "quote": null,
+      "retweet": {
+        "author": "AdamLowisz",
+        "avatar": "https://pbs.twimg.com/profile_images/1978953232698290176/EdCIw3PO_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 14:08:23",
+        "created_at_utc": "2026-10-29T06:08:23.000Z",
+        "id": "2115687168697880921",
+        "images": [
+          "https://pbs.twimg.com/media/HVxuRJ5XIAAgOaG.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1068,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVxuRJ5XIAAgOaG.jpg?name=small",
+            "width": 1004
+          }
+        ],
+        "name": "Adam Lowisz X Meetup 🇺🇸🇵🇱🇪🇺🇬🇧🇺🇦",
+        "text": "@elonmusk @m_goes_distance True 😂",
+        "url": "https://x.com/AdamLowisz/status/2115687168697880921",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 27,
+        "likes": 744,
+        "quotes": 9,
+        "replies": 64,
+        "retweets": 69,
+        "views": 129921
+      },
+      "url": "https://x.com/elonmusk/status/2115821203239907550",
+      "images": [
+        "https://pbs.twimg.com/media/HVxuRJ5XIAAgOaG.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVxuRJ5XIAAgOaG.jpg?name=small",
+          "width": 1004,
+          "height": 1068
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2115812515032486178",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T14:26:28.000Z",
+      "created_at_shanghai": "2026-10-29 22:26:28",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Anthropic has filed for a record $2 trillion IPO. In a talk uploaded November 30, 2025, a stockbroker asked Elon Musk which company he would buy. Musk said he has no portfolio, then named Google and Nvidia.\n\nThe man asking is Nikhil Kamath, who told Musk his primary job is stockbroker and stock investor. Musk runs Tesla, SpaceX, xAI and X, and says the output of AI and robotics \"will dwarf everything else.\"\n\nThe clip is three moments from a 114-minute conversation. The full talk is free on YouTube. In it Musk says US deficits run on the order of $2 trillion a year, and that interest payments on the debt exceed the entire US military budget.\n\nHis rules for money fit on a napkin.\n\nJudge the product, not the price. His test for any stock: do you like what the company makes, do you like the roadmap, do you believe in the team. A company, he says, is a group of people assembled to make products and services.\n\nExpect the swings. That test does not solve for daily moves, which he admits are sometimes pretty extreme. His advice is to hold and not worry about them.\n\nWatch the ratio. Inflation, he says, is goods and services output against growth in the money supply. AI has not yet raised output enough. He guesses output growth passes money growth in about three years.\n\nKnow the fix on offer. He says the only thing that can solve the US debt is AI and robotics. That is a bet, and he says so.\n\nMoney is a tool. He calls it an information system for labor allocation. A trillion dollars on a desert island buys nothing, because there is no labor to allocate.\n\nCheck who owns it. When he says AI, robotics and maybe spaceflight will hold almost all the value, he runs companies in each of those fields.\n\n\"I don't look for things to invest in. I just try to build things.\"\n\nListen from 86:12.\n\nBefore you buy into any IPO this month, write down what the company sells, what it ships next and who builds it. If you cannot fill in all three lines, you are not investing. You are buying a headline with your name on it.",
+      "quote": null,
+      "retweet": {
+        "author": "Vitaliyeyes",
+        "avatar": "https://pbs.twimg.com/profile_images/2050497562889658368/yPhFEcHt_200x200.jpg",
+        "created_at_shanghai": "2026-10-28 01:40:14",
+        "created_at_utc": "2026-10-27T17:40:14.000Z",
+        "id": "2115136502619349450",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2115136362898657280/img/Yty5YtLsSekcEKVz.jpg"
+        ],
+        "media": [
+          {
+            "duration": 234.021,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115136362898657280/img/Yty5YtLsSekcEKVz.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2115136362898657280/vid/avc1/1280x720/ZQyjY-ASiVP_Wt35.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "BagPat",
+        "text": "Anthropic has filed for a record $2 trillion IPO. In a talk uploaded November 30, 2025, a stockbroker asked Elon Musk which company he would buy. Musk said he has no portfolio, then named Google and Nvidia.\n\nThe man asking is Nikhil Kamath, who told Musk his primary job is stockbroker and stock investor. Musk runs Tesla, SpaceX, xAI and X, and says the output of AI and robotics \"will dwarf everything else.\"\n\nThe clip is three moments from a 114-minute conversation. The full talk is free on YouTube. In it Musk says US deficits run on the order of $2 trillion a year, and that interest payments on the debt exceed the entire US military budget.\n\nHis rules for money fit on a napkin.\n\nJudge the product, not the price. His test for any stock: do you like what the company makes, do you like the roadmap, do you believe in the team. A company, he says, is a group of people assembled to make products and services.\n\nExpect the swings. That test does not solve for daily moves, which he admits are sometimes pretty extreme. His advice is to hold and not worry about them.\n\nWatch the ratio. Inflation, he says, is goods and services output against growth in the money supply. AI has not yet raised output enough. He guesses output growth passes money growth in about three years.\n\nKnow the fix on offer. He says the only thing that can solve the US debt is AI and robotics. That is a bet, and he says so.\n\nMoney is a tool. He calls it an information system for labor allocation. A trillion dollars on a desert island buys nothing, because there is no labor to allocate.\n\nCheck who owns it. When he says AI, robotics and maybe spaceflight will hold almost all the value, he runs companies in each of those fields.\n\n\"I don't look for things to invest in. I just try to build things.\"\n\nListen from 86:12.\n\nBefore you buy into any IPO this month, write down what the company sells, what it ships next and who builds it. If you cannot fill in all three lines, you are not investing. You are buying a headline with your name on it.",
+        "url": "https://x.com/Vitaliyeyes/status/2115136502619349450",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 530,
+        "likes": 1313,
+        "quotes": 17,
+        "replies": 70,
+        "retweets": 184,
+        "views": 200187
+      },
+      "url": "https://x.com/elonmusk/status/2115812515032486178",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115136362898657280/img/Yty5YtLsSekcEKVz.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2115136362898657280/vid/avc1/1280x720/ZQyjY-ASiVP_Wt35.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115136362898657280/img/Yty5YtLsSekcEKVz.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 234.021
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2115810490157072405",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T14:18:25.000Z",
+      "created_at_shanghai": "2026-10-29 22:18:25",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "After SpaceX's very first Falcon 1 rocket failed in March 2006, the team was exhausted and heartbroken. Elon Musk instead of only pushing harder, spent more than $100,000 to book a private Zero-G flight, so his engineers could finally float weightless and get a real taste of the spaceflight they were working so hard to make possible. Many of them had joined SpaceX dreaming of becoming astronauts one day, and I love that in one of the hardest moments for the young company, Elon reminded them why they had started in the first place. \n\nElon understood that people building the future also need to feel it, even if only for a few seconds at a time.",
+      "quote": null,
+      "retweet": {
+        "author": "EvaFox",
+        "avatar": "https://pbs.twimg.com/profile_images/2049730010999627776/IsXmiZr5_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 22:13:02",
+        "created_at_utc": "2026-10-29T14:13:02.000Z",
+        "id": "2115809135652401343",
+        "images": [
+          "https://pbs.twimg.com/media/HVzdLlBWQAAxhIU.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 431,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVzdLlBWQAAxhIU.jpg?name=small",
+            "width": 650
+          }
+        ],
+        "name": "Eva Fo𝕏 🦊 Claudius Nero's Legion",
+        "text": "After SpaceX's very first Falcon 1 rocket failed in March 2006, the team was exhausted and heartbroken. Elon Musk instead of only pushing harder, spent more than $100,000 to book a private Zero-G flight, so his engineers could finally float weightless and get a real taste of the spaceflight they were working so hard to make possible. Many of them had joined SpaceX dreaming of becoming astronauts one day, and I love that in one of the hardest moments for the young company, Elon reminded them why they had started in the first place. \n\nElon understood that people building the future also need to feel it, even if only for a few seconds at a time.",
+        "url": "https://x.com/EvaFox/status/2115809135652401343",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 55,
+        "likes": 1339,
+        "quotes": 8,
+        "replies": 81,
+        "retweets": 165,
+        "views": 165902
+      },
+      "url": "https://x.com/elonmusk/status/2115810490157072405",
+      "images": [
+        "https://pbs.twimg.com/media/HVzdLlBWQAAxhIU.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVzdLlBWQAAxhIU.jpg?name=small",
+          "width": 650,
+          "height": 431
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2115810449077985591",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T14:18:15.000Z",
+      "created_at_shanghai": "2026-10-29 22:18:15",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "This is so incredibly lame. And every Princeton freshman was required to sit through this during orientation.",
+      "quote": null,
+      "retweet": {
+        "author": "sfmcguire79",
+        "avatar": "https://pbs.twimg.com/profile_images/1534327250061037572/FzUJV2Yy_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 09:55:00",
+        "created_at_utc": "2026-10-29T01:55:00.000Z",
+        "id": "2115623405223628929",
+        "images": [
+          "https://pbs.twimg.com/media/HVw0RiBWUAEs3dO.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1238,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVw0RiBWUAEs3dO.jpg?name=small",
+            "width": 1179
+          }
+        ],
+        "name": "Steve McGuire",
+        "text": "This is so incredibly lame. And every Princeton freshman was required to sit through this during orientation.",
+        "url": "https://x.com/sfmcguire79/status/2115623405223628929",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 486,
+        "likes": 5895,
+        "quotes": 94,
+        "replies": 197,
+        "retweets": 454,
+        "views": 268327
+      },
+      "url": "https://x.com/elonmusk/status/2115810449077985591",
+      "images": [
+        "https://pbs.twimg.com/media/HVw0RiBWUAEs3dO.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVw0RiBWUAEs3dO.jpg?name=small",
+          "width": 1179,
+          "height": 1238
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2115809922457931860",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T14:16:10.000Z",
+      "created_at_shanghai": "2026-10-29 22:16:10",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon Musk: \"The fundamental weakness of Western civilization is empathy… We've got civilizational su*cidal empathy going on.\"\n\n\"I believe in empathy… but you need to have empathy for civilization as a whole, and not commit to a civilizational su*cide.\"",
+      "quote": null,
+      "retweet": {
+        "author": "ResisttheMS",
+        "avatar": "https://pbs.twimg.com/profile_images/1777217835036495872/atU7ay85_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 20:01:00",
+        "created_at_utc": "2026-10-29T12:01:00.000Z",
+        "id": "2115775907952517190",
+        "images": [
+          "https://pbs.twimg.com/ext_tw_video_thumb/2074090596319297536/pu/img/BhF6H1jXoVMVP_CR.jpg"
+        ],
+        "media": [
+          {
+            "duration": 45.545,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2074090596319297536/pu/img/BhF6H1jXoVMVP_CR.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/ext_tw_video/2074090596319297536/pu/vid/avc1/1280x720/XZvtWqfyfQupbSW_.mp4?tag=12",
+            "width": 1920
+          }
+        ],
+        "name": "Resist the Mainstream",
+        "text": "Elon Musk: \"The fundamental weakness of Western civilization is empathy… We've got civilizational su*cidal empathy going on.\"\n\n\"I believe in empathy… but you need to have empathy for civilization as a whole, and not commit to a civilizational su*cide.\"",
+        "url": "https://x.com/ResisttheMS/status/2115775907952517190",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 65,
+        "likes": 1408,
+        "quotes": 18,
+        "replies": 122,
+        "retweets": 269,
+        "views": 146247
+      },
+      "url": "https://x.com/elonmusk/status/2115809922457931860",
+      "images": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2074090596319297536/pu/img/BhF6H1jXoVMVP_CR.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/ext_tw_video/2074090596319297536/pu/vid/avc1/1280x720/XZvtWqfyfQupbSW_.mp4?tag=12",
+          "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2074090596319297536/pu/img/BhF6H1jXoVMVP_CR.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 45.545
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2115809852081545381",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T14:15:53.000Z",
+      "created_at_shanghai": "2026-10-29 22:15:53",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "BREAKING: Medan City Government in Indonesia has announced plans to use @Starlink for flood emergencies. 🇮🇩\n\nThe move follows floods that affected 85,000 people and disrupted communications.\n\nStarlink can help keep rescue teams connected when lives are at risk.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 21:46:47",
+        "created_at_utc": "2026-10-29T13:46:47.000Z",
+        "id": "2115802530898907234",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2115802502218305536/img/tPGQj-WXQ6I8Lcqt.jpg"
+        ],
+        "media": [
+          {
+            "duration": 10.054,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115802502218305536/img/tPGQj-WXQ6I8Lcqt.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2115802502218305536/vid/avc1/1280x720/BioVdYTmldPMgHjb.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: Medan City Government in Indonesia has announced plans to use @Starlink for flood emergencies. 🇮🇩\n\nThe move follows floods that affected 85,000 people and disrupted communications.\n\nStarlink can help keep rescue teams connected when lives are at risk.",
+        "url": "https://x.com/cb_doge/status/2115802530898907234",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 19,
+        "likes": 841,
+        "quotes": 8,
+        "replies": 72,
+        "retweets": 126,
+        "views": 146880
+      },
+      "url": "https://x.com/elonmusk/status/2115809852081545381",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115802502218305536/img/tPGQj-WXQ6I8Lcqt.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2115802502218305536/vid/avc1/1280x720/BioVdYTmldPMgHjb.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115802502218305536/img/tPGQj-WXQ6I8Lcqt.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 10.054
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2115809804832940412",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T14:15:41.000Z",
+      "created_at_shanghai": "2026-10-29 22:15:41",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "How can @MIT and President Kornbluth sit back and allow Kristin Knouse to remain on the MIT faculty when she has been found by a jury of her peers to have falsely accused him of rape, and intentionally destroyed his life and career with the help of co-conspirators in the MIT administration?\n\nHow does this not violate MIT’s code of conduct?\n\nHow can one continue to trust the research she produces?\n\nWhy has MIT not immediately launched a formal investigation to reconsider the removal of @DMSabatini’s tenure and Knouse’s continued inclusion on the faculty?\n\nThe evidence from the case is now in the public record. It is a straightforward process for MIT to review the facts. \n\nJustice must be served.",
+      "quote": {
+        "author": "craig_s_bell",
+        "avatar": "https://pbs.twimg.com/profile_images/786058931093331969/nC3063lS_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 05:00:21",
+        "created_at_utc": "2026-10-28T21:00:21.000Z",
+        "id": "2115549252453810517",
+        "images": [],
+        "media": [],
+        "name": "Craig S. Bell",
+        "text": "Female MIT scientist climbed into famed professor's bed and 'aggressively' demanded sex... before making #MeToo allegation that almost ruined him after he dumped her\nhttps://www.dailymail.com/news/article-16245499/david-sabatini-kristin-knouse-mit-metoo.html",
+        "url": "https://x.com/craig_s_bell/status/2115549252453810517",
+        "verified": false,
+        "verified_type": ""
+      },
+      "retweet": {
+        "author": "BillAckman",
+        "avatar": "https://pbs.twimg.com/profile_images/1619837521059348481/9UeNLFmD_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 19:42:30",
+        "created_at_utc": "2026-10-29T11:42:30.000Z",
+        "id": "2115771252539261083",
+        "images": [],
+        "media": [],
+        "name": "Bill Ackman",
+        "text": "How can @MIT and President Kornbluth sit back and allow Kristin Knouse to remain on the MIT faculty when she has been found by a jury of her peers to have falsely accused him of rape, and intentionally destroyed his life and career with the help of co-conspirators in the MIT administration?\n\nHow does this not violate MIT’s code of conduct?\n\nHow can one continue to trust the research she produces?\n\nWhy has MIT not immediately launched a formal investigation to reconsider the removal of @DMSabatini’s tenure and Knouse’s continued inclusion on the faculty?\n\nThe evidence from the case is now in the public record. It is a straightforward process for MIT to review the facts. \n\nJustice must be served.",
+        "url": "https://x.com/BillAckman/status/2115771252539261083",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 332,
+        "likes": 8970,
+        "quotes": 37,
+        "replies": 261,
+        "retweets": 1307,
+        "views": 306025
+      },
+      "url": "https://x.com/elonmusk/status/2115809804832940412",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2115809735949832303",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T14:15:25.000Z",
+      "created_at_shanghai": "2026-10-29 22:15:25",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon Musk presenting about SpaceX rockets in 2008.\n\nNo slides. No notes. No PowerPoint. No teleprompter.\n\nJust his vision, his memory, the message he wants to convey, and his brain operating in its rawest form.\n\nAnd nearly two decades later, he still does the same way",
+      "quote": null,
+      "retweet": {
+        "author": "iam_smx",
+        "avatar": "https://pbs.twimg.com/profile_images/1785421156859719680/gSkjB7g7_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 18:33:34",
+        "created_at_utc": "2026-10-29T10:33:34.000Z",
+        "id": "2115753906366300532",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2115753551242665984/img/PXWXjbk_K7bmQd8e.jpg"
+        ],
+        "media": [
+          {
+            "duration": 95.566,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115753551242665984/img/PXWXjbk_K7bmQd8e.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2115753551242665984/vid/avc1/1920x1080/zj-G8h6KBC8LsG_4.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "SMX 🇺🇸",
+        "text": "Elon Musk presenting about SpaceX rockets in 2008.\n\nNo slides. No notes. No PowerPoint. No teleprompter.\n\nJust his vision, his memory, the message he wants to convey, and his brain operating in its rawest form.\n\nAnd nearly two decades later, he still does the same way",
+        "url": "https://x.com/iam_smx/status/2115753906366300532",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 144,
+        "likes": 1155,
+        "quotes": 15,
+        "replies": 75,
+        "retweets": 167,
+        "views": 144741
+      },
+      "url": "https://x.com/elonmusk/status/2115809735949832303",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115753551242665984/img/PXWXjbk_K7bmQd8e.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2115753551242665984/vid/avc1/1920x1080/zj-G8h6KBC8LsG_4.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115753551242665984/img/PXWXjbk_K7bmQd8e.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 95.566
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2115809614738436268",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T14:14:56.000Z",
+      "created_at_shanghai": "2026-10-29 22:14:56",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "As of October 26, Grok Bot has grown in DAUs for 16 consecutive days, its longest growth streak to date.",
+      "quote": null,
+      "retweet": {
+        "author": "Similarweb",
+        "avatar": "https://pbs.twimg.com/profile_images/1796148234060021760/iq5AA2vD_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 16:35:46",
+        "created_at_utc": "2026-10-29T08:35:46.000Z",
+        "id": "2115724259691471150",
+        "images": [
+          "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small"
+        ],
+        "media": [
+          {
+            "height": 610,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small",
+            "width": 700
+          }
+        ],
+        "name": "Similarweb",
+        "text": "As of October 26, Grok Bot has grown in DAUs for 16 consecutive days, its longest growth streak to date.",
+        "url": "https://x.com/Similarweb/status/2115724259691471150",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 559,
+        "quotes": 20,
+        "replies": 31,
+        "retweets": 74,
+        "views": 135139
+      },
+      "url": "https://x.com/elonmusk/status/2115809614738436268",
+      "images": [
+        "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small",
+          "width": 700,
+          "height": 610
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2115809559835197789",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T14:14:43.000Z",
+      "created_at_shanghai": "2026-10-29 22:14:43",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "NEW UNDERCOVER INVESTIGATION: I spent several months investigating a nationwide network of advocacy organizations and medical providers helping families continue medically transitioning their children in defiance of state laws.\n\nMy investigation centers on Campaign for Southern Equality (CSE), an LGBT advocacy nonprofit that connects families with cooperating medical providers across the country. CSE has distributed over $1 million in travel grants to more than 1,200 families, plus another $1 million to partner organizations, including funding for medical appointments.\n\nWith CSE's knowledge, providers in its referral network told me the ways that they circumvent state restrictions on gender-transition treatments for minors.\n\nSome discussed using alternative diagnosis codes, such as “endocrine disorder,” to facilitate prescriptions or insurance coverage. Others described mailing medications directly to families' homes or sending prescriptions to pharmacies in states where these interventions are banned.\n\nProviders also discussed conducting virtual appointments with patients in those states. Others required patients to cross state lines for telehealth but did not appear to have a reliable method for verifying their physical location.\n\nMy primary undercover scenario involved an 11-year-old girl in Tennessee who had only recently begun identifying as nonbinary, with no long history of gender-related distress. The providers I shared this scenario with seemed eager to treat her. Many indicated that puberty blockers could be prescribed after an initial evaluation lasting just one to several hours.\n\nMy investigation uncovered practices that may violate state and federal laws and pose medical risks to children living hundreds or thousands of miles from their treating physicians.\n\nRead my full @CityJournal investigation: https://www.city-journal.org/article/pediatric-gender-transition-treatments-bans",
+      "quote": null,
+      "retweet": {
+        "author": "buttonslives",
+        "avatar": "https://pbs.twimg.com/profile_images/2032155302301229057/YSXI5ZZY_200x200.png",
+        "created_at_shanghai": "2026-10-29 21:35:04",
+        "created_at_utc": "2026-10-29T13:35:04.000Z",
+        "id": "2115799582445605190",
+        "images": [],
+        "media": [],
+        "name": "Christina Buttons",
+        "text": "NEW UNDERCOVER INVESTIGATION: I spent several months investigating a nationwide network of advocacy organizations and medical providers helping families continue medically transitioning their children in defiance of state laws.\n\nMy investigation centers on Campaign for Southern Equality (CSE), an LGBT advocacy nonprofit that connects families with cooperating medical providers across the country. CSE has distributed over $1 million in travel grants to more than 1,200 families, plus another $1 million to partner organizations, including funding for medical appointments.\n\nWith CSE's knowledge, providers in its referral network told me the ways that they circumvent state restrictions on gender-transition treatments for minors.\n\nSome discussed using alternative diagnosis codes, such as “endocrine disorder,” to facilitate prescriptions or insurance coverage. Others described mailing medications directly to families' homes or sending prescriptions to pharmacies in states where these interventions are banned.\n\nProviders also discussed conducting virtual appointments with patients in those states. Others required patients to cross state lines for telehealth but did not appear to have a reliable method for verifying their physical location.\n\nMy primary undercover scenario involved an 11-year-old girl in Tennessee who had only recently begun identifying as nonbinary, with no long history of gender-related distress. The providers I shared this scenario with seemed eager to treat her. Many indicated that puberty blockers could be prescribed after an initial evaluation lasting just one to several hours.\n\nMy investigation uncovered practices that may violate state and federal laws and pose medical risks to children living hundreds or thousands of miles from their treating physicians.\n\nRead my full @CityJournal investigation: https://www.city-journal.org/article/pediatric-gender-transition-treatments-bans",
+        "url": "https://x.com/buttonslives/status/2115799582445605190",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 143,
+        "likes": 1097,
+        "quotes": 34,
+        "replies": 74,
+        "retweets": 294,
+        "views": 164524
+      },
+      "url": "https://x.com/elonmusk/status/2115809559835197789",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2115791378663743599",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T13:02:28.000Z",
+      "created_at_shanghai": "2026-10-29 21:02:28",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Very positive and constructive conversation with @elonmusk today.\n\nItaly is looking with great interest at the opportunities offered by assisted driving technologies, with a focus on innovation and road safety, and supports a swift EU approval of Tesla Assisted Driving.\n\nThanks for the exchange, Elon!",
+      "quote": null,
+      "retweet": {
+        "author": "matteosalvinimi",
+        "avatar": "https://pbs.twimg.com/profile_images/1581333609146900481/UJD84jRx_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 16:21:04",
+        "created_at_utc": "2026-10-29T08:21:04.000Z",
+        "id": "2115720560994836862",
+        "images": [],
+        "media": [],
+        "name": "Matteo Salvini",
+        "text": "Very positive and constructive conversation with @elonmusk today.\n\nItaly is looking with great interest at the opportunities offered by assisted driving technologies, with a focus on innovation and road safety, and supports a swift EU approval of Tesla Assisted Driving.\n\nThanks for the exchange, Elon!",
+        "url": "https://x.com/matteosalvinimi/status/2115720560994836862",
+        "verified": true,
+        "verified_type": "government"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 234,
+        "likes": 8130,
+        "quotes": 235,
+        "replies": 578,
+        "retweets": 708,
+        "views": 567980
+      },
+      "url": "https://x.com/elonmusk/status/2115791378663743599",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2115690222608593378",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-29T06:20:31.000Z",
@@ -67,7 +784,7 @@
       "id": "2115688273221923053",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-29T06:12:46.000Z",
@@ -108,7 +825,7 @@
       "id": "2115687257311232391",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-29T06:08:44.000Z",
@@ -149,14 +866,14 @@
       "id": "2115680990366765344",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-29T05:43:50.000Z",
       "created_at_shanghai": "2026-10-29 13:43:50",
       "type": "转发",
       "type_label": "转发",
-      "text": "You can get a used Model 3 for less than a fully loaded 16\" OLED MacBook Pro:\n\n• 2020 Model 3 Standard Range with 95k miles, no accidents/damage & clean title: $14,190\n• Fully loaded 16-inch MacBook Pro: $14,549",
+      "text": "You can get a used Model 3 for less than a fully loaded 16\" OLED MacBook Pro:\n\n• 2020 Model 3 Standard Range with 95k miles, no accidents/damage &amp; clean title: $14,190\n• Fully loaded 16-inch MacBook Pro: $14,549",
       "quote": null,
       "retweet": {
         "author": "SawyerMerritt",
@@ -208,7 +925,7 @@
       "id": "2115676754388103482",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-29T05:27:00.000Z",
@@ -267,7 +984,7 @@
       "id": "2115664319278973255",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-29T04:37:35.000Z",
@@ -319,7 +1036,7 @@
       "id": "2115660146542092332",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-10-29T04:21:00.000Z",
@@ -390,699 +1107,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2115659967868916156",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T04:20:18.000Z",
-      "created_at_shanghai": "2026-10-29 12:20:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon on why Starlink matters most when disaster hits\nFires, floods and storms knock out fiber and cell towers. Starlink keeps people connected.\n@elonmusk",
-      "quote": null,
-      "retweet": {
-        "author": "teslaownersSV",
-        "avatar": "https://pbs.twimg.com/profile_images/2114535933811032064/CX_COICx_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 11:05:13",
-        "created_at_utc": "2026-10-29T03:05:13.000Z",
-        "id": "2115641073150333229",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2115641049041563648/img/G-AqycrybA8OvC7B.jpg"
-        ],
-        "media": [
-          {
-            "duration": 23.1,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115641049041563648/img/G-AqycrybA8OvC7B.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2115641049041563648/vid/avc1/1920x1080/u_6dBM2apJDKJSy0.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Tesla Owners Silicon Valley",
-        "text": "Elon on why Starlink matters most when disaster hits\nFires, floods and storms knock out fiber and cell towers. Starlink keeps people connected.\n@elonmusk",
-        "url": "https://x.com/teslaownersSV/status/2115641073150333229",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 44,
-        "likes": 1001,
-        "quotes": 10,
-        "replies": 85,
-        "retweets": 150,
-        "views": 197715
-      },
-      "url": "https://x.com/elonmusk/status/2115659967868916156",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2115641049041563648/img/G-AqycrybA8OvC7B.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2115641049041563648/vid/avc1/1920x1080/u_6dBM2apJDKJSy0.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115641049041563648/img/G-AqycrybA8OvC7B.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 23.1
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2115642958108139809",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T03:12:42.000Z",
-      "created_at_shanghai": "2026-10-29 11:12:42",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "One of the great joys of AI is the ability to mix and match styles however I please.\n\nDo you have any ideas for style combinations that I could try out?",
-      "quote": null,
-      "retweet": {
-        "author": "dvorahfr",
-        "avatar": "https://pbs.twimg.com/profile_images/1605451924144373760/K27zpEfc_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 04:58:52",
-        "created_at_utc": "2026-10-28T20:58:52.000Z",
-        "id": "2115548879634518449",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2115548727049912320/img/1S23O8OY104NMFHV.jpg"
-        ],
-        "media": [
-          {
-            "duration": 60.07,
-            "height": 1612,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115548727049912320/img/1S23O8OY104NMFHV.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2115548727049912320/vid/avc1/1080x1612/raTnvybT6kSgB-oP.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "Déborah",
-        "text": "One of the great joys of AI is the ability to mix and match styles however I please.\n\nDo you have any ideas for style combinations that I could try out?",
-        "url": "https://x.com/dvorahfr/status/2115548879634518449",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 111,
-        "likes": 1162,
-        "quotes": 17,
-        "replies": 138,
-        "retweets": 120,
-        "views": 275798
-      },
-      "url": "https://x.com/elonmusk/status/2115642958108139809",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2115548727049912320/img/1S23O8OY104NMFHV.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2115548727049912320/vid/avc1/1080x1612/raTnvybT6kSgB-oP.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115548727049912320/img/1S23O8OY104NMFHV.jpg",
-          "width": 1080,
-          "height": 1612,
-          "duration": 60.07
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2115642175199350785",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T03:09:35.000Z",
-      "created_at_shanghai": "2026-10-29 11:09:35",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try Grok Bot",
-      "quote": {
-        "author": "0xgaut",
-        "avatar": "https://pbs.twimg.com/profile_images/1604808218135314432/3J-ABo1I_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 08:39:28",
-        "created_at_utc": "2026-10-29T00:39:28.000Z",
-        "id": "2115604396403015976",
-        "images": [],
-        "media": [],
-        "name": "gaut",
-        "text": "grok bot makes work feel like a video game",
-        "url": "https://x.com/0xgaut/status/2115604396403015976",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 105,
-        "likes": 3271,
-        "quotes": 65,
-        "replies": 862,
-        "retweets": 334,
-        "views": 1180431
-      },
-      "url": "https://x.com/elonmusk/status/2115642175199350785",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2115642019791896679",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T03:08:58.000Z",
-      "created_at_shanghai": "2026-10-29 11:08:58",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
-      "quote": {
-        "author": "Nate_Esparza",
-        "avatar": "https://pbs.twimg.com/profile_images/2103140809516498944/2Fq41oB7_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 14:08:53",
-        "created_at_utc": "2026-10-28T06:08:53.000Z",
-        "id": "2115324906049352145",
-        "images": [],
-        "media": [],
-        "name": "Nate Esparza",
-        "text": "people with the highest IQ are on 𝕏",
-        "url": "https://x.com/Nate_Esparza/status/2115324906049352145",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 390,
-        "likes": 16315,
-        "quotes": 245,
-        "replies": 1533,
-        "retweets": 1293,
-        "views": 1789919
-      },
-      "url": "https://x.com/elonmusk/status/2115642019791896679",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2115641480417313014",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T03:06:50.000Z",
-      "created_at_shanghai": "2026-10-29 11:06:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "44% of our @starlink installations are complete. \n\n(That’s 44 out of every 100 if you're reading this, Dan Orlovsky.)",
-      "quote": {
-        "author": "PatMcAfeeShow",
-        "avatar": "https://pbs.twimg.com/profile_images/2081699348430061568/-yF5SJL9_200x200.jpg",
-        "created_at_shanghai": "2026-10-27 02:04:28",
-        "created_at_utc": "2026-10-26T18:04:28.000Z",
-        "id": "2114780212583915915",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2114779860870569984/img/WiTVAQh_dxxXfkfV.jpg"
-        ],
-        "media": [
-          {
-            "duration": 226.066,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2114779860870569984/img/WiTVAQh_dxxXfkfV.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2114779860870569984/vid/avc1/1920x1080/ZhqqF1ow1VY5Db0z.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Pat McAfee",
-        "text": "There's no way @danorlovsky7 😂😂😂\n\n#PMSLive",
-        "url": "https://x.com/PatMcAfeeShow/status/2114780212583915915",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "united",
-        "avatar": "https://pbs.twimg.com/profile_images/1605596728966713345/6eXslF13_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 05:31:32",
-        "created_at_utc": "2026-10-28T21:31:32.000Z",
-        "id": "2115557099891761437",
-        "images": [],
-        "media": [],
-        "name": "United Airlines",
-        "text": "44% of our @starlink installations are complete. \n\n(That’s 44 out of every 100 if you're reading this, Dan Orlovsky.)",
-        "url": "https://x.com/united/status/2115557099891761437",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 552,
-        "likes": 18268,
-        "quotes": 130,
-        "replies": 301,
-        "retweets": 742,
-        "views": 1783993
-      },
-      "url": "https://x.com/elonmusk/status/2115641480417313014",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2115641455889035709",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T03:06:44.000Z",
-      "created_at_shanghai": "2026-10-29 11:06:44",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@danorlovsky7 @PatMcAfeeShow We have inflight Wi-Fi that actually works",
-      "quote": null,
-      "retweet": {
-        "author": "united",
-        "avatar": "https://pbs.twimg.com/profile_images/1605596728966713345/6eXslF13_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 06:18:53",
-        "created_at_utc": "2026-10-28T22:18:53.000Z",
-        "id": "2115569014214742456",
-        "images": [],
-        "media": [],
-        "name": "United Airlines",
-        "text": "@danorlovsky7 @PatMcAfeeShow We have inflight Wi-Fi that actually works",
-        "url": "https://x.com/united/status/2115569014214742456",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "danorlovsky7",
-      "engagement": {
-        "bookmarks": 101,
-        "likes": 6647,
-        "quotes": 21,
-        "replies": 120,
-        "retweets": 156,
-        "views": 698373
-      },
-      "url": "https://x.com/elonmusk/status/2115641455889035709",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2115641332035465243",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T03:06:14.000Z",
-      "created_at_shanghai": "2026-10-29 11:06:14",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Standard practice",
-      "quote": {
-        "author": "Starlink",
-        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 07:37:54",
-        "created_at_utc": "2026-10-28T23:37:54.000Z",
-        "id": "2115588901196984822",
-        "images": [],
-        "media": [],
-        "name": "Starlink",
-        "text": "Starlink Mobile is providing free connectivity to @orange_es and @Telefonica customers affected by the devastating train collision in Spain. Families, communities, and businesses with compatible LTE phones can stay connected via apps and texts even when cell towers are down 🛰️📱",
-        "url": "https://x.com/Starlink/status/2115588901196984822",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 80,
-        "likes": 4296,
-        "quotes": 24,
-        "replies": 375,
-        "retweets": 493,
-        "views": 828155
-      },
-      "url": "https://x.com/elonmusk/status/2115641332035465243",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2115640844216832143",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T03:04:18.000Z",
-      "created_at_shanghai": "2026-10-29 11:04:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Over the past few months, Anthropic scientists have engaged in deep research partnerships with six organizations developing new medicines. We've also begun drug discovery efforts of our own.\n\nIn doing so, we’ve learned much more about how Claude can support the many stages of drug development.\n\nIn this blog post, we share some early results from these efforts, and describe how this work fits in with our wider ambitions in the life sciences.\n\nhttps://www.anthropic.com/research/early-progress-drug-development",
-      "quote": null,
-      "retweet": {
-        "author": "AnthropicAI",
-        "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 04:27:48",
-        "created_at_utc": "2026-10-27T20:27:48.000Z",
-        "id": "2115178675050307942",
-        "images": [],
-        "media": [],
-        "name": "Anthropic",
-        "text": "Over the past few months, Anthropic scientists have engaged in deep research partnerships with six organizations developing new medicines. We've also begun drug discovery efforts of our own.\n\nIn doing so, we’ve learned much more about how Claude can support the many stages of drug development.\n\nIn this blog post, we share some early results from these efforts, and describe how this work fits in with our wider ambitions in the life sciences.\n\nhttps://www.anthropic.com/research/early-progress-drug-development",
-        "url": "https://x.com/AnthropicAI/status/2115178675050307942",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 3895,
-        "likes": 11162,
-        "quotes": 663,
-        "replies": 719,
-        "retweets": 1240,
-        "views": 3343219
-      },
-      "url": "https://x.com/elonmusk/status/2115640844216832143",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2115640738348208197",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T03:03:53.000Z",
-      "created_at_shanghai": "2026-10-29 11:03:53",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk: \"We should really look at anyone who permanently castr*tes a kid as right up there with Josef Mengele. They're mutil*ting children.\"\n\nJoe Rogan: \"And it's thought of as being kind. Would you rather have a live daughter or a dead son?\"\n\nMusk: \"That's the line they use… In fact, the probability of su*cide increases if you trans a kid. Not decreases. By some accounts, it triples. So, that is an evil lie.\" https://x.com/ElonClipsX/status/2034878727574724768/video/1",
-      "quote": null,
-      "retweet": {
-        "author": "ResisttheMS",
-        "avatar": "https://pbs.twimg.com/profile_images/1777217835036495872/atU7ay85_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 00:05:00",
-        "created_at_utc": "2026-10-28T16:05:00.000Z",
-        "id": "2115474924965875780",
-        "images": [
-          "https://pbs.twimg.com/ext_tw_video_thumb/2034878686873128960/pu/img/mBn9d9ZNViiSlGAw.jpg"
-        ],
-        "media": [
-          {
-            "duration": 30.296,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2034878686873128960/pu/img/mBn9d9ZNViiSlGAw.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/ext_tw_video/2034878686873128960/pu/vid/avc1/1280x720/3NfzvCAymvjI0i0K.mp4?tag=12",
-            "width": 1920
-          }
-        ],
-        "name": "Resist the Mainstream",
-        "text": "Elon Musk: \"We should really look at anyone who permanently castr*tes a kid as right up there with Josef Mengele. They're mutil*ting children.\"\n\nJoe Rogan: \"And it's thought of as being kind. Would you rather have a live daughter or a dead son?\"\n\nMusk: \"That's the line they use… In fact, the probability of su*cide increases if you trans a kid. Not decreases. By some accounts, it triples. So, that is an evil lie.\" https://x.com/ElonClipsX/status/2034878727574724768/video/1",
-        "url": "https://x.com/ResisttheMS/status/2115474924965875780",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 100,
-        "likes": 2371,
-        "quotes": 16,
-        "replies": 100,
-        "retweets": 418,
-        "views": 226558
-      },
-      "url": "https://x.com/elonmusk/status/2115640738348208197",
-      "images": [
-        "https://pbs.twimg.com/ext_tw_video_thumb/2034878686873128960/pu/img/mBn9d9ZNViiSlGAw.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/ext_tw_video/2034878686873128960/pu/vid/avc1/1280x720/3NfzvCAymvjI0i0K.mp4?tag=12",
-          "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2034878686873128960/pu/img/mBn9d9ZNViiSlGAw.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 30.296
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2115640651517939785",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T03:03:32.000Z",
-      "created_at_shanghai": "2026-10-29 11:03:32",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "If you look closely enough, breakthroughs in everything are accelerating exponentially. \n\nAn exponential always starts off looking small.",
-      "quote": {
-        "author": "m_goes_distance",
-        "avatar": "https://pbs.twimg.com/profile_images/1919598657047035904/BYOefMqX_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 00:01:19",
-        "created_at_utc": "2026-10-27T16:01:19.000Z",
-        "id": "2115111611652276717",
-        "images": [],
-        "media": [],
-        "name": "Mgoes (bio/acc 🤖💉)",
-        "text": "this might be my last normal tweet before biotech goes vertical\n\ni'm not a whistleblower. I don't work at Lilly, Novo or any of the big labs\n\nbut there is a massive shift happening in human biology right now. \n\nit's sitting in press releases and almost nobody reads them\n\nthe last 6 months alone:\n\n- a once-daily pill roughly doubled median survival in metastatic pancreatic cancer (13.2 vs 6.6 months)\n- a one-time gene editing infusion cut hereditary angioedema attacks 87%, and 62% of patients stayed attack-free and off all other prevention for 6 months\n- a one-time gene edit for cholesterol dropped LDL up to 62%, and it held for over a year\n- a personalized mrna vaccine beat keytruda alone in a 1,137 patient melanoma phase 3\n- retatrutide hit ~28% weight loss in a phase 3\n- an ai-designed drug entered phase 3\n- a pill that regrows hair passed its second phase 3\n- an immunotherapy that could let some rectal cancer patients skip surgery, chemo and radiation just got fda approved\n- a man lived 271 days off dialysis on a pig kidney\n- human cells were caught passing chromosome-sized chunks of DNA to their neighbors, and it changes how the neighbors behave\n\nwe are on the verge of an era where the human body is a software problem and the update cycle gets shorter everyday\n\nstick around, it's going to get weird\n\nbio/acc",
-        "url": "https://x.com/m_goes_distance/status/2115111611652276717",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 3626,
-        "likes": 27589,
-        "quotes": 262,
-        "replies": 1226,
-        "retweets": 2434,
-        "views": 2021861
-      },
-      "url": "https://x.com/elonmusk/status/2115640651517939785",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2115638705516171307",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T02:55:48.000Z",
-      "created_at_shanghai": "2026-10-29 10:55:48",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Movistar and Orange turned to SpaceX's Starlink satellites to keep phones connected at the site of Wednesday's deadly high-speed train crash near Urda, Toledo, Spain 🇪🇸\n\nAccording to an ADSLZone exclusive, both carriers switched on Starlink-based coverage around the crash, where a Renfe AVE and an Iryo train collided on the Madrid to Seville high-speed line. Orange separately confirmed it moved mobile units into the area and reinforced its network to support emergency crews.",
-      "quote": null,
-      "retweet": {
-        "author": "EvaFox",
-        "avatar": "https://pbs.twimg.com/profile_images/2049730010999627776/IsXmiZr5_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 05:03:25",
-        "created_at_utc": "2026-10-28T21:03:25.000Z",
-        "id": "2115550022687174677",
-        "images": [
-          "https://pbs.twimg.com/media/HVvxh-rXkAAJ6I2.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 900,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVvxh-rXkAAJ6I2.jpg?name=small",
-            "width": 1600
-          }
-        ],
-        "name": "Eva Fo𝕏 🦊 Claudius Nero's Legion",
-        "text": "Movistar and Orange turned to SpaceX's Starlink satellites to keep phones connected at the site of Wednesday's deadly high-speed train crash near Urda, Toledo, Spain 🇪🇸\n\nAccording to an ADSLZone exclusive, both carriers switched on Starlink-based coverage around the crash, where a Renfe AVE and an Iryo train collided on the Madrid to Seville high-speed line. Orange separately confirmed it moved mobile units into the area and reinforced its network to support emergency crews.",
-        "url": "https://x.com/EvaFox/status/2115550022687174677",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 67,
-        "likes": 1344,
-        "quotes": 12,
-        "replies": 54,
-        "retweets": 208,
-        "views": 256638
-      },
-      "url": "https://x.com/elonmusk/status/2115638705516171307",
-      "images": [
-        "https://pbs.twimg.com/media/HVvxh-rXkAAJ6I2.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVvxh-rXkAAJ6I2.jpg?name=small",
-          "width": 1600,
-          "height": 900
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2115638533830607323",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T02:55:07.000Z",
-      "created_at_shanghai": "2026-10-29 10:55:07",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Meet the Operations Team in the Global Ops Center in Bastrop, TX!\n\nToday, the team is remotely controlling machines in Vegas (tunneling), Nashville (tunneling), and San Antonio (commissioning; not yet tunneling).",
-      "quote": null,
-      "retweet": {
-        "author": "boringcompany",
-        "avatar": "https://pbs.twimg.com/profile_images/2039567764172820480/XfrLCXpv_200x200.png",
-        "created_at_shanghai": "2026-10-29 07:30:36",
-        "created_at_utc": "2026-10-28T23:30:36.000Z",
-        "id": "2115587065282982342",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2115586990871924736/img/645NAv2K6idNlW6w.jpg"
-        ],
-        "media": [
-          {
-            "duration": 45.325,
-            "height": 360,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115586990871924736/img/645NAv2K6idNlW6w.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2115586990871924736/vid/avc1/640x360/heVcdZRqG3tM7pmv.mp4?tag=29",
-            "width": 640
-          }
-        ],
-        "name": "The Boring Company",
-        "text": "Meet the Operations Team in the Global Ops Center in Bastrop, TX!\n\nToday, the team is remotely controlling machines in Vegas (tunneling), Nashville (tunneling), and San Antonio (commissioning; not yet tunneling).",
-        "url": "https://x.com/boringcompany/status/2115587065282982342",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 219,
-        "likes": 3414,
-        "quotes": 44,
-        "replies": 145,
-        "retweets": 379,
-        "views": 252321
-      },
-      "url": "https://x.com/elonmusk/status/2115638533830607323",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2115586990871924736/img/645NAv2K6idNlW6w.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2115586990871924736/vid/avc1/640x360/heVcdZRqG3tM7pmv.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115586990871924736/img/645NAv2K6idNlW6w.jpg",
-          "width": 640,
-          "height": 360,
-          "duration": 45.325
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2115637632890028454",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T02:51:32.000Z",
-      "created_at_shanghai": "2026-10-29 10:51:32",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Easy to be an Elon Stan in 2026\n\nReal ones were fans since the early 2000s",
-      "quote": {
-        "author": "Unnati_builds24",
-        "avatar": "https://pbs.twimg.com/profile_images/2091253907041472512/xcK-p-l-_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 00:46:36",
-        "created_at_utc": "2026-10-27T16:46:36.000Z",
-        "id": "2115123008583184718",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2115122883974631427/img/TovjcmMKvR2QNHY2.jpg"
-        ],
-        "media": [
-          {
-            "duration": 255.791,
-            "height": 590,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115122883974631427/img/TovjcmMKvR2QNHY2.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2115122883974631427/vid/avc1/814x590/v5I5DcJyTm_JVWzD.mp4?tag=29",
-            "width": 814
-          }
-        ],
-        "name": "Unnati",
-        "text": "Whenever I feel demotivated i rewatch this...\n\nElon Musk in a living room in 2008, 12 days from bankruptcy, pitching a $109,000 car to people...",
-        "url": "https://x.com/Unnati_builds24/status/2115123008583184718",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "beffjezos",
-        "avatar": "https://pbs.twimg.com/profile_images/2104068258311901184/vmbQ61I3_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 13:16:11",
-        "created_at_utc": "2026-10-28T05:16:11.000Z",
-        "id": "2115311645316485459",
-        "images": [],
-        "media": [],
-        "name": "Beff (e/acc)",
-        "text": "Easy to be an Elon Stan in 2026\n\nReal ones were fans since the early 2000s",
-        "url": "https://x.com/beffjezos/status/2115311645316485459",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 555,
-        "likes": 2610,
-        "quotes": 23,
-        "replies": 115,
-        "retweets": 203,
-        "views": 376502
-      },
-      "url": "https://x.com/elonmusk/status/2115637632890028454",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 1620,
-  "total_pages": 81,
-  "updated_at_shanghai": "2026-10-29 16:48:24",
+  "total": 1633,
+  "total_pages": 82,
+  "updated_at_shanghai": "2026-10-29 23:37:09",
   "account": "elonmusk"
 }
