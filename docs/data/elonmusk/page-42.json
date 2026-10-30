@@ -1,943 +1,1121 @@
 {
   "posts": [
     {
-      "id": "2110125116936060998",
+      "id": "2110483960312799675",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T21:46:46.000Z",
-      "created_at_shanghai": "2026-10-14 05:46:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Try the Supabase plugin in @bot to monitor, debug, and ship changes to your backend",
+      "created_at_utc": "2026-10-14T21:32:41.000Z",
+      "created_at_shanghai": "2026-10-15 05:32:41",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok Voice 3.0 is now the world’s leading conversational voice model",
       "quote": {
-        "author": "supabase",
-        "avatar": "https://pbs.twimg.com/profile_images/1822981431586439168/7xkKXRGQ_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 00:11:57",
-        "created_at_utc": "2026-10-13T16:11:57.000Z",
-        "id": "2110040855360741868",
+        "author": "ArtificialAnlys",
+        "avatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 01:26:20",
+        "created_at_utc": "2026-10-14T17:26:20.000Z",
+        "id": "2110421964095713743",
         "images": [
-          "https://pbs.twimg.com/ext_tw_video_thumb/2110040825669300224/pu/img/_k2fW5phbhJcePxL.jpg"
+          "https://pbs.twimg.com/tweet_video_thumb/HUm5JxhasAEq5rv.jpg"
         ],
         "media": [
           {
-            "duration": 14.5,
-            "height": 1008,
-            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2110040825669300224/pu/img/_k2fW5phbhJcePxL.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/ext_tw_video/2110040825669300224/pu/vid/avc1/1280x720/QLLqPvuRmV2YBfTe.mp4?tag=12",
-            "width": 1792
+            "duration": 0,
+            "height": 1524,
+            "thumbnail_url": "https://pbs.twimg.com/tweet_video_thumb/HUm5JxhasAEq5rv.jpg",
+            "type": "gif",
+            "url": "https://video.twimg.com/tweet_video/HUm5JxhasAEq5rv.mp4",
+            "width": 1620
           }
         ],
-        "name": "Supabase",
-        "text": "Supabase now works with Grok Bot. 🤖\n\nRequest a change in chat, and @cursor_ai builds and runs it on your Supabase backend through the Supabase MCP server.\n\nLearn more ↓\nhttps://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
-        "url": "https://x.com/supabase/status/2110040855360741868",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "grok",
-        "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 01:14:09",
-        "created_at_utc": "2026-10-13T17:14:09.000Z",
-        "id": "2110056511405949409",
-        "images": [],
-        "media": [],
-        "name": "Grok",
-        "text": "Try the Supabase plugin in @bot to monitor, debug, and ship changes to your backend",
-        "url": "https://x.com/grok/status/2110056511405949409",
+        "name": "Artificial Analysis",
+        "text": "SpaceXAI’s Grok Voice 3.0 is the new leading Speech to Speech model, debuting at #1 on the Artificial Analysis Speech to Speech Index at 86.9, while also being competitive on latency\n\nGrok Voice 3.0 is @SpaceXSI 's successor to Grok Voice 2.0, a Speech to Speech model available through the SpaceXAI Realtime API at $0.08 per minute. We evaluated Grok Voice 3.0 with the Rex voice through the SpaceXAI Realtime API.\n\nKey takeaways:\n\n➤ Speech to Speech Index: Grok Voice 3.0 debuts at #1 at 86.9, ahead of GPT-Live-1 (Astra, medium) at 83.2, Gemini 3.8 Live Extended Thinking (High) at 82.6 and GPT-Live-1 (Sol, low) at 80.1. It is up on Grok Voice 2.0 at 81.3 (+5.6 points) and Grok Voice 1.0 at 73.7 (+13.2 points), released just under six months ago. The Index averages Speech Reasoning (Big Bench Audio), Agentic Performance (Tau Voice), Arena Preference, and Task Success Rate\n\n➤ Speech Agent Arena: Grok Voice 3.0 ranks #3 in preference at Elo 1070, behind Gemini 3.1 Flash Live Minimal (1100) and Gemini 3.8 Live (1088) and ahead of GPT-Live-1 (Sol, low) at 1057, and #1 on Task Success Rate at 94.8%, highest on the board, just ahead of Grok Voice 2.0 at 94.6%. Grok Voice 2.0 trails at Elo 1011\n\n➤ Tau Voice: Grok Voice 3.0 takes the #2 spot on our Tau Voice benchmark implementation at 71.6%, behind GPT-Live-1 (Astra, medium) at 74.5% and ahead of Gemini 3.8 Live Extended Thinking (High) at 68.6% and GPT-Live-1 (Sol, low) at 59.3% - up from 56.5% for Grok Voice 2.0\n\n➤ Big Bench Audio: Grok Voice 3.0 scores 98.5% on audio reasoning, ahead of Gemini 3.8 Live Extended Thinking (High) at 97.7% and Grok Voice 2.0 at 97.2%\n\n➤ Speed: Average Time to First Audio on Big Bench Audio is 0.81 seconds for Grok Voice 3.0, well ahead of GPT-Live-1 (Sol, low) at 1.24s, GPT-Live-1 (Astra, medium) at 1.34s and Gemini 3.8 Live Extended Thinking (High) at 1.35s, though slower than Grok Voice 2.0 at 0.70s\n\n➤ Cost: Grok Voice 3.0 costs $4.80 per hour of input audio, the same as Grok Voice 2.0. That is above GPT-Live-1 (Sol, low) at $4.47 and Gemini 3.8 Live Extended Thinking (High) at $3.50, cheaper than GPT-Live-1 (Astra, medium) at $5.83, and ~2.2x cheaper than GPT-Realtime-2.1 High at $10.75\n\nCongrats to @elonmusk  and the @SpaceXSI  team 🚀\n\nSee below for more detail ⬇️",
+        "url": "https://x.com/ArtificialAnlys/status/2110421964095713743",
         "verified": true,
         "verified_type": "organization"
       },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 122,
-        "likes": 778,
-        "quotes": 12,
-        "replies": 71,
-        "retweets": 69,
-        "views": 269928
-      },
-      "url": "https://x.com/elonmusk/status/2110125116936060998",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110125050074669471",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T21:46:30.000Z",
-      "created_at_shanghai": "2026-10-14 05:46:30",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try @Starlink Internet!",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 21:07:17",
-        "created_at_utc": "2026-10-13T13:07:17.000Z",
-        "id": "2109994383110213691",
-        "images": [
-          "https://pbs.twimg.com/media/HUg0tL-bEAAyUU9.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1109,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUg0tL-bEAAyUU9.jpg?name=small",
-            "width": 1125
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Starlink ranks #1 for both download speed and Consistent Quality in rural UK, beating EE, Three and Vodafone in Opensignal’s study.\n\nStarlink also leads rural download speeds in all 14 European markets studied.",
-        "url": "https://x.com/cb_doge/status/2109994383110213691",
-        "verified": true,
-        "verified_type": "individual"
-      },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 20,
-        "likes": 838,
-        "quotes": 10,
-        "replies": 157,
-        "retweets": 133,
-        "views": 418367
-      },
-      "url": "https://x.com/elonmusk/status/2110125050074669471",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110124896089260384",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T21:45:54.000Z",
-      "created_at_shanghai": "2026-10-14 05:45:54",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Latest upgrades to Grok @Bot",
-      "quote": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 22:07:31",
-        "created_at_utc": "2026-10-13T14:07:31.000Z",
-        "id": "2110009541760839701",
-        "images": [
-          "https://pbs.twimg.com/media/HUg9VfMX0AAKqSi.jpg"
-        ],
-        "media": [
-          {
-            "duration": 373.733,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/media/HUg9VfMX0AAKqSi.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109999435157540864/vid/avc1/3840x2160/uLC5fODap-XytLzs.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "matt palmer",
-        "text": "What's new in Grok Bot\n\n0:00 Bot's very own email\n1:14 Better X!\n1:48 Connect Shopify\n2:20 More color\n2:45 Email drafts\n3:22 Bot's computer\n4:30 Template search\n4:48 PR previews and routine right-clicks\n5:24 5 new languages\n\nLots new in @bot this week! More on the way.",
-        "url": "https://x.com/mattyp/status/2110009541760839701",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 141,
-        "likes": 1276,
-        "quotes": 17,
-        "replies": 202,
-        "retweets": 151,
-        "views": 468601
-      },
-      "url": "https://x.com/elonmusk/status/2110124896089260384",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110123370159145228",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T21:39:50.000Z",
-      "created_at_shanghai": "2026-10-14 05:39:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I no longer see any compelling reason to believe that taste is some permanent boundary LLMs won’t cross. It’s already happening.",
-      "quote": null,
-      "retweet": {
-        "author": "benjitaylor",
-        "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
-        "created_at_shanghai": "2026-10-14 00:08:02",
-        "created_at_utc": "2026-10-13T16:08:02.000Z",
-        "id": "2110039872472010775",
-        "images": [],
-        "media": [],
-        "name": "Benji Taylor",
-        "text": "I no longer see any compelling reason to believe that taste is some permanent boundary LLMs won’t cross. It’s already happening.",
-        "url": "https://x.com/benjitaylor/status/2110039872472010775",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 356,
-        "likes": 3903,
-        "quotes": 124,
-        "replies": 350,
-        "retweets": 219,
-        "views": 241146
-      },
-      "url": "https://x.com/elonmusk/status/2110123370159145228",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110123302777995538",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T21:39:34.000Z",
-      "created_at_shanghai": "2026-10-14 05:39:34",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Cool Grok @Bot use case",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 03:24:09",
-        "created_at_utc": "2026-10-13T19:24:09.000Z",
-        "id": "2110089226733924364",
-        "images": [],
-        "media": [],
-        "name": "X Freeze",
-        "text": "Just made \"Explainer Video Bot\"... It will help you understand any topic visually by making a video\n\nIt just made me an incredible video for me explaining how SpaceX safely manages the world's largest satellite constellation and shares its space-safety data with other satellite operators for FREE\n\nThe video explains everything in amazing detail, yet it's so easy to understand.....even for someone who knows absolutely nothing about Starlink\n\nAnd the entire video was created by Grok Bot.......from the storytelling to the visuals and animations\n\nI loved it so much that I turned it into a reusable template anyone can try\n\nHere's the template:\nhttps://x.ai/bot/eTLAqnD45kW3h-THwU8XM",
-        "url": "https://x.com/XFreeze/status/2110089226733924364",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 179,
-        "likes": 1149,
-        "quotes": 20,
-        "replies": 242,
-        "retweets": 155,
-        "views": 490613
-      },
-      "url": "https://x.com/elonmusk/status/2110123302777995538",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110123131692048515",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T21:38:53.000Z",
-      "created_at_shanghai": "2026-10-14 05:38:53",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True, this is a very big deal",
-      "quote": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 05:18:35",
-        "created_at_utc": "2026-10-13T21:18:35.000Z",
-        "id": "2110118022988058637",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107494178984710145/img/PgL2_lgOLOLO7o2U.jpg"
-        ],
-        "media": [
-          {
-            "duration": 54.866,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107494178984710145/img/PgL2_lgOLOLO7o2U.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107494178984710145/vid/avc1/3840x2160/0It8TvRgYM9Bvb3e.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "Morgan Stanley's Adam Jonas in new @SpaceX note:\n\n\"The part of the SpaceX story that we believe holds the greatest growth potential, and that is being largely ignored/not contemplated by investors, is the Distributed Inference Cloud. Investors are already witnessing some degree of corporate/regulatory/social angst toward data centers. We see SPCX's efforts as instrumental in helping to get the Super Intelligence Economy and the Physical Intelligence Economy on the next leg of growth and economic development. As the 'density' of physical agents increases, we expect incrementally greater intelligence capability of the collective mobile swarm.\n\nWe ask investors to be prepared to hear about the Distributed Inference Cloud and physical AI swarms in the coming year. From our seat, we think this subject is very close to breaking out in the investor discussion. Gradually… then suddenly.\" https://x.com/SawyerMerritt/status/2107494345251107175/video/1",
-        "url": "https://x.com/SawyerMerritt/status/2110118022988058637",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 354,
-        "likes": 3841,
-        "quotes": 36,
-        "replies": 265,
-        "retweets": 471,
-        "views": 797432
-      },
-      "url": "https://x.com/elonmusk/status/2110123131692048515",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110122360825340322",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T21:35:49.000Z",
-      "created_at_shanghai": "2026-10-14 05:35:49",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It’s not that supercomputer data centers are not in high demand, as they definitely are. However, getting money to build complex hardware systems with massive power, cooling & networking is not the same as doing it. \n\nSpaceX has a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit and even we find it very difficult!",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 05:35:30",
-        "created_at_utc": "2026-10-13T21:35:30.000Z",
-        "id": "2110122281603326170",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "It’s not that supercomputer data centers are not in high demand, as they definitely are. However, getting money to build complex hardware systems with massive power, cooling & networking is not the same as doing it. \n\nSpaceX has a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit and even we find it very difficult!",
-        "url": "https://x.com/elonmusk/status/2110122281603326170",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "zerohedge",
-      "engagement": {
-        "bookmarks": 431,
-        "likes": 7746,
+        "bookmarks": 232,
+        "likes": 4148,
         "quotes": 59,
-        "replies": 310,
-        "retweets": 510,
-        "views": 465372
+        "replies": 700,
+        "retweets": 495,
+        "views": 666244
       },
-      "url": "https://x.com/elonmusk/status/2110122360825340322",
+      "url": "https://x.com/elonmusk/status/2110483960312799675",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2110121452892754267",
+      "id": "2110438877274259488",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T21:32:13.000Z",
-      "created_at_shanghai": "2026-10-14 05:32:13",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "The Super Intelligence era is here. 🇺🇸\n\nhttps://SI.gov",
-      "quote": null,
-      "retweet": {
-        "author": "mkratsios47",
-        "avatar": "https://pbs.twimg.com/profile_images/2036415476335833088/WPlUcJxT_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 00:32:32",
-        "created_at_utc": "2026-10-13T16:32:32.000Z",
-        "id": "2110046036601471060",
-        "images": [],
-        "media": [],
-        "name": "Director Michael Kratsios",
-        "text": "The Super Intelligence era is here. 🇺🇸\n\nhttps://SI.gov",
-        "url": "https://x.com/mkratsios47/status/2110046036601471060",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 356,
-        "likes": 3973,
-        "quotes": 139,
-        "replies": 387,
-        "retweets": 731,
-        "views": 508946
-      },
-      "url": "https://x.com/elonmusk/status/2110121452892754267",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110082016838328713",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T18:55:30.000Z",
-      "created_at_shanghai": "2026-10-14 02:55:30",
+      "created_at_utc": "2026-10-14T18:33:33.000Z",
+      "created_at_shanghai": "2026-10-15 02:33:33",
       "type": "引用",
       "type_label": "引用",
-      "text": "🍻 🤣\n\nFunny thing is that I hardly ever drink alcohol!",
+      "text": "Try Grok Voice",
       "quote": {
-        "author": "etnshow",
-        "avatar": "https://pbs.twimg.com/profile_images/2080306993810522112/vfPcOVGd_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 01:12:34",
-        "created_at_utc": "2026-10-13T17:12:34.000Z",
-        "id": "2110056110107337021",
+        "author": "SpaceXSI",
+        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 01:04:57",
+        "created_at_utc": "2026-10-14T17:04:57.000Z",
+        "id": "2110416580899168305",
         "images": [
-          "https://pbs.twimg.com/media/HUhqaJyXcAATaz-.jpg?name=small"
+          "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small"
         ],
         "media": [
           {
-            "height": 1600,
+            "height": 1180,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUhqaJyXcAATaz-.jpg?name=small",
-            "width": 2400
+            "url": "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small",
+            "width": 1974
           }
         ],
-        "name": "etn.",
-        "text": "Introducing The Cheeky Pint Benchmark.\n\nWe made our intern watch every episode of Cheeky Pint to bring you this breakdown of pints drank by guests to the nearest sixth.\n\nCongratulations to @elonmusk who is currently in the lead with three full pints of Guinness.",
-        "url": "https://x.com/etnshow/status/2110056110107337021",
+        "name": "SpaceX Super Intelligence",
+        "text": "Introducing Grok Voice 3.0, the world’s most intelligent speech-to-speech model.\n\nIt excels at resolving customer calls, responds in under a second, and costs less than other frontier models.",
+        "url": "https://x.com/SpaceXSI/status/2110416580899168305",
         "verified": true,
         "verified_type": "organization"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 543,
-        "likes": 10057,
-        "quotes": 125,
-        "replies": 1599,
-        "retweets": 617,
-        "views": 1552619
+        "bookmarks": 153,
+        "likes": 2818,
+        "quotes": 51,
+        "replies": 725,
+        "retweets": 306,
+        "views": 802253
       },
-      "url": "https://x.com/elonmusk/status/2110082016838328713",
+      "url": "https://x.com/elonmusk/status/2110438877274259488",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2110077948384735481",
+      "id": "2110413877024526603",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T18:39:20.000Z",
-      "created_at_shanghai": "2026-10-14 02:39:20",
+      "created_at_utc": "2026-10-14T16:54:12.000Z",
+      "created_at_shanghai": "2026-10-15 00:54:12",
       "type": "引用",
       "type_label": "引用",
-      "text": "Congrats!\n\nCEOs &amp; execs posting to the public directly on 𝕏 is the best way to get your message out and drive product sales. \n\nVastly more powerful and effective than a press release.",
+      "text": "Cool",
       "quote": {
-        "author": "sundarpichai",
-        "avatar": "https://pbs.twimg.com/profile_images/2051799620062429184/AL8CoAUG_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 00:04:10",
-        "created_at_utc": "2026-10-13T16:04:10.000Z",
-        "id": "2110038898009407584",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110037058651860992/img/lRklzTq-BBwr3fZ3.jpg"
-        ],
-        "media": [
-          {
-            "duration": 50.508,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110037058651860992/img/lRklzTq-BBwr3fZ3.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110037058651860992/vid/avc1/1920x1080/UhhqkEMBeS6RBMth.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Sundar Pichai",
-        "text": "Gemini 4 Argon is here.\n\nIt’s available globally today for developers and enterprises in the paid tier of the Gemini API and the Gemini platform, for Ultra subscribers in Google Antigravity, and Ultra and Pro subscribers in the Gemini app and Search.\n\nHope you all enjoy it!",
-        "url": "https://x.com/sundarpichai/status/2110038898009407584",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1208,
-        "likes": 22609,
-        "quotes": 170,
-        "replies": 1113,
-        "retweets": 1365,
-        "views": 1894110
-      },
-      "url": "https://x.com/elonmusk/status/2110077948384735481",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109966013714575870",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T11:14:33.000Z",
-      "created_at_shanghai": "2026-10-13 19:14:33",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "i'm seriously considering switching full-time over to grok bot.\n\nit's the closest thing i've found to hiring a real jarvis. i basically run a one-person company now.\n\n62 agents. 29 scheduled routines. they write my morning newsletter, pull my market news and audit their own team for duplicate work.\n\n[here is every grok bot that i run ]\n\n@bot",
-      "quote": null,
-      "retweet": {
         "author": "Av1dlive",
         "avatar": "https://pbs.twimg.com/profile_images/2010392290590912512/x7vtAe5W_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 19:00:22",
-        "created_at_utc": "2026-10-13T11:00:22.000Z",
-        "id": "2109962443850133930",
+        "created_at_shanghai": "2026-10-14 19:19:46",
+        "created_at_utc": "2026-10-14T11:19:46.000Z",
+        "id": "2110329712715182092",
         "images": [
-          "https://pbs.twimg.com/media/HUgXcPPbQAAfBhP.jpg?name=small"
+          "https://pbs.twimg.com/media/HUllraoXIAAsdaW.jpg?name=small"
         ],
         "media": [
           {
-            "height": 1920,
+            "height": 1350,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUgXcPPbQAAfBhP.jpg?name=small",
+            "url": "https://pbs.twimg.com/media/HUllraoXIAAsdaW.jpg?name=small",
             "width": 1080
           }
         ],
         "name": "Avid",
-        "text": "i'm seriously considering switching full-time over to grok bot.\n\nit's the closest thing i've found to hiring a real jarvis. i basically run a one-person company now.\n\n62 agents. 29 scheduled routines. they write my morning newsletter, pull my market news and audit their own team for duplicate work.\n\n[here is every grok bot that i run ]\n\n@bot",
-        "url": "https://x.com/Av1dlive/status/2109962443850133930",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1123,
-        "likes": 1843,
-        "quotes": 37,
-        "replies": 239,
-        "retweets": 215,
-        "views": 408266
-      },
-      "url": "https://x.com/elonmusk/status/2109966013714575870",
-      "images": [
-        "https://pbs.twimg.com/media/HUgXcPPbQAAfBhP.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUgXcPPbQAAfBhP.jpg?name=small",
-          "width": 1080,
-          "height": 1920
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109960773116252577",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T10:53:44.000Z",
-      "created_at_shanghai": "2026-10-13 18:53:44",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot is the strongest personal agent I've used yet.\n\nJust the usage on it increases so fast, and so I'm afraid to give it too much.\n\nReally hope there are some solutions to the overall 𝕏, Grok, Grok Bot subscriptions so they role into one.",
-      "quote": null,
-      "retweet": {
-        "author": "jerrod_lew",
-        "avatar": "https://pbs.twimg.com/profile_images/2037818589714202624/gM2tduRH_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 15:44:08",
-        "created_at_utc": "2026-10-12T07:44:08.000Z",
-        "id": "2109550671813128266",
-        "images": [],
-        "media": [],
-        "name": "Jerrod Lew",
-        "text": "Grok Bot is the strongest personal agent I've used yet.\n\nJust the usage on it increases so fast, and so I'm afraid to give it too much.\n\nReally hope there are some solutions to the overall 𝕏, Grok, Grok Bot subscriptions so they role into one.",
-        "url": "https://x.com/jerrod_lew/status/2109550671813128266",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 36,
-        "likes": 607,
-        "quotes": 18,
-        "replies": 100,
-        "retweets": 63,
-        "views": 648998
-      },
-      "url": "https://x.com/elonmusk/status/2109960773116252577",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109955246923641259",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T10:31:46.000Z",
-      "created_at_shanghai": "2026-10-13 18:31:46",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot is like hiring a super smart employee",
-      "quote": {
-        "author": "BrianRoemmele",
-        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
-        "created_at_shanghai": "2026-10-08 11:15:23",
-        "created_at_utc": "2026-10-08T03:15:23.000Z",
-        "id": "2108033488192774499",
-        "images": [
-          "https://pbs.twimg.com/media/HUE9SS0bgAAJeD9.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 400,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUE9SS0bgAAJeD9.jpg?name=small",
-            "width": 400
-          }
-        ],
-        "name": "Brian Roemmele",
-        "text": "As of tomorrow I will have brought 71 of my large clients to @Grok @Bot at their corporations. It has not failed to revolutionize each department across a wide spectrum of companies.\n\nNext week I hold a symposium for executives to map out the future.\n\nThis is the most important AI tool released thus far.",
-        "url": "https://x.com/BrianRoemmele/status/2108033488192774499",
+        "text": "grok bot pretty much replaced dots and muse for running my business...\n\nhere is why : insanely simple to set up, a MASSIVE plugin library, generous usage.\n\nhere's everything i use and what it costs:\n\nrequired ($165/mo + whop's cut per sale)\n\n> money → whop plugin\n> site → vercel + github plugins\n> inbox → gmail + inbox bot (drafts, never sends)\n> crm → notion inboxes built with grok bot\n> content → x plugin + draft-only writer bots\n> video → opus 5.5 + cursor cloud agents\n> numbers → notion\n> oversight → chief of staff morning report + DOGE audits every bot\n\noptional, add when you need it\n\n> support → intercom or plain + a support inbox bot\n> ads → whop ads\n> email → klaviyo and grok bot routines \n> books → notion\n> leads → treg, hunter + scout bots\n> code → builder + reviewer bots + pstack\n> design → claude opus 5.5 + cursor cloud\n> scheduling → routines on grok bot with content calendar built by grok bot",
+        "url": "https://x.com/Av1dlive/status/2110329712715182092",
         "verified": true,
         "verified_type": "individual"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 73,
-        "likes": 1500,
-        "quotes": 42,
-        "replies": 517,
-        "retweets": 236,
-        "views": 554615
+        "bookmarks": 46,
+        "likes": 742,
+        "quotes": 9,
+        "replies": 216,
+        "retweets": 91,
+        "views": 405802
       },
-      "url": "https://x.com/elonmusk/status/2109955246923641259",
+      "url": "https://x.com/elonmusk/status/2110413877024526603",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2109954637893964077",
+      "id": "2110407987856814183",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T10:29:21.000Z",
-      "created_at_shanghai": "2026-10-13 18:29:21",
+      "created_at_utc": "2026-10-14T16:30:48.000Z",
+      "created_at_shanghai": "2026-10-15 00:30:48",
       "type": "转发",
       "type_label": "转发",
-      "text": "The @SpaceX Dragon is counting down to its launch at 6:33 a.m. EDT today to resupply the Expedition 75 crew with over 6,300 pounds of science, supplies, and roll-out solar arrays. https://x.com/i/broadcasts/1DGleVQZqOdJL",
+      "text": "Wanted to read what emails my Grok bot has but Grok bot doesn’t have email UI … so I asked Grok bot to build it for me .. pretty cool 😎 everything is clickable and you can read all grok bot emails the old way if you want to ..",
       "quote": null,
       "retweet": {
-        "author": "Space_Station",
-        "avatar": "https://pbs.twimg.com/profile_images/1949871812176732160/ZesOirrR_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 18:15:00",
-        "created_at_utc": "2026-10-13T10:15:00.000Z",
-        "id": "2109951026300436803",
-        "images": [],
-        "media": [],
-        "name": "International Space Station",
-        "text": "The @SpaceX Dragon is counting down to its launch at 6:33 a.m. EDT today to resupply the Expedition 75 crew with over 6,300 pounds of science, supplies, and roll-out solar arrays. https://x.com/i/broadcasts/1DGleVQZqOdJL",
-        "url": "https://x.com/Space_Station/status/2109951026300436803",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 15,
-        "likes": 715,
-        "quotes": 14,
-        "replies": 82,
-        "retweets": 137,
-        "views": 104184
-      },
-      "url": "https://x.com/elonmusk/status/2109954637893964077",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109954513050505575",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T10:28:51.000Z",
-      "created_at_shanghai": "2026-10-13 18:28:51",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "https://x.com/i/article/2109486203926126592",
-      "quote": null,
-      "retweet": {
-        "author": "melvindvivas",
-        "avatar": "https://pbs.twimg.com/profile_images/2080587337994813440/rF40X6jM_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 13:20:29",
-        "created_at_utc": "2026-10-13T05:20:29.000Z",
-        "id": "2109876908934787127",
-        "images": [],
-        "media": [],
-        "name": "Melvin Vivas",
-        "text": "https://x.com/i/article/2109486203926126592",
-        "url": "https://x.com/melvindvivas/status/2109876908934787127",
+        "author": "mrfundman",
+        "avatar": "https://pbs.twimg.com/profile_images/1844590451933810701/SJ70OFpA_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 10:37:14",
+        "created_at_utc": "2026-10-14T02:37:14.000Z",
+        "id": "2110198216218067183",
+        "images": [
+          "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1714,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small",
+            "width": 1320
+          }
+        ],
+        "name": "mr fundman",
+        "text": "Wanted to read what emails my Grok bot has but Grok bot doesn’t have email UI … so I asked Grok bot to build it for me .. pretty cool 😎 everything is clickable and you can read all grok bot emails the old way if you want to ..",
+        "url": "https://x.com/mrfundman/status/2110198216218067183",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 69,
-        "likes": 282,
-        "quotes": 3,
-        "replies": 23,
-        "retweets": 53,
-        "views": 84440
+        "bookmarks": 70,
+        "likes": 547,
+        "quotes": 11,
+        "replies": 70,
+        "retweets": 46,
+        "views": 108239
       },
-      "url": "https://x.com/elonmusk/status/2109954513050505575",
-      "images": [],
-      "media": [],
+      "url": "https://x.com/elonmusk/status/2110407987856814183",
+      "images": [
+        "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUjuGExWkAASV5F.jpg?name=small",
+          "width": 1320,
+          "height": 1714
+        }
+      ],
       "enriched": true
     },
     {
-      "id": "2109953737569505669",
+      "id": "2110407280076402980",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T10:25:46.000Z",
-      "created_at_shanghai": "2026-10-13 18:25:46",
+      "created_at_utc": "2026-10-14T16:27:59.000Z",
+      "created_at_shanghai": "2026-10-15 00:27:59",
       "type": "转发",
       "type_label": "转发",
-      "text": "Watch Falcon 9 launch Dragon to the @Space_Station https://x.com/i/broadcasts/1aJbdEzoAvYKX",
+      "text": "Wokeism is the most sophisticated form of racism ever built. Not because it hates one group, but because it reduces every human being to their skin color and calls it justice.\n\nIts roots aren't mysterious. Critical theory from the Frankfurt School, French postmodernists like Foucault and Derrida, then critical legal studies on American campuses, distilled into Critical Race Theory in the 80s and 90s. The core idea: society is nothing but a power struggle between groups. The individual doesn't exist. Merit doesn't exist. Only oppressor and oppressed.\n\nAccept that premise and everything else follows. You're judged by your race before you open your mouth. Your success is privilege, your failure is oppression. That's not anti-racism. That's racism with a PhD.\n\nAnd look at who actually holds these views. Not most minorities. Only about 3% of Hispanic Americans use \"Latinx.\" Most Black Americans told Gallup they wanted the same or more police presence in their neighborhoods, not less. The \"Hidden Tribes\" study found the hard progressive activist wing is around 8% of the population, and whiter and wealthier than average. A small radicalized class speaks in the name of minorities who never asked it to.\n\nThe coalition doesn't even hold together. Feminists vs trans activists on women's sports. Asian Americans who had to go to the Supreme Court because Harvard discriminated against them in the name of diversity. A framework that keeps producing these contradictions isn't a moral philosophy. It's a hierarchy of grievances.\n\nAnd none of this grew organically. It's an industry. DEI became a multi-billion dollar market: corporate trainings, consultants, foundation grants, university bureaucracies whose budgets depend on the problem never being solved. Follow the incentives and you find an entire class of people paid to see racism everywhere. Cut the money and it starts collapsing, which is exactly what we've watched since companies began slashing DEI budgets.\n\nReal anti-racism is simple: judge people as individuals. MLK said it in 1963. Everything since that tried to replace it has been a step backwards. https://x.com/teslaownersSV/status/1884471785648972161/video/1",
       "quote": null,
       "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 18:13:56",
-        "created_at_utc": "2026-10-13T10:13:56.000Z",
-        "id": "2109950760054403371",
-        "images": [],
-        "media": [],
-        "name": "SpaceX",
-        "text": "Watch Falcon 9 launch Dragon to the @Space_Station https://x.com/i/broadcasts/1aJbdEzoAvYKX",
-        "url": "https://x.com/SpaceX/status/2109950760054403371",
+        "author": "brivael",
+        "avatar": "https://pbs.twimg.com/profile_images/2057241969403834368/PFPm3cxd_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 16:19:36",
+        "created_at_utc": "2026-10-14T08:19:36.000Z",
+        "id": "2110284375317271037",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/1884471726123503616/img/as4o8wUcEATu_yxv.jpg"
+        ],
+        "media": [
+          {
+            "duration": 87.348,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/1884471726123503616/img/as4o8wUcEATu_yxv.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/1884471726123503616/vid/avc1/1282x720/tKasO-_DrEIvuvcK.mp4?tag=16",
+            "width": 1282
+          }
+        ],
+        "name": "Brivael Le Pogam",
+        "text": "Wokeism is the most sophisticated form of racism ever built. Not because it hates one group, but because it reduces every human being to their skin color and calls it justice.\n\nIts roots aren't mysterious. Critical theory from the Frankfurt School, French postmodernists like Foucault and Derrida, then critical legal studies on American campuses, distilled into Critical Race Theory in the 80s and 90s. The core idea: society is nothing but a power struggle between groups. The individual doesn't exist. Merit doesn't exist. Only oppressor and oppressed.\n\nAccept that premise and everything else follows. You're judged by your race before you open your mouth. Your success is privilege, your failure is oppression. That's not anti-racism. That's racism with a PhD.\n\nAnd look at who actually holds these views. Not most minorities. Only about 3% of Hispanic Americans use \"Latinx.\" Most Black Americans told Gallup they wanted the same or more police presence in their neighborhoods, not less. The \"Hidden Tribes\" study found the hard progressive activist wing is around 8% of the population, and whiter and wealthier than average. A small radicalized class speaks in the name of minorities who never asked it to.\n\nThe coalition doesn't even hold together. Feminists vs trans activists on women's sports. Asian Americans who had to go to the Supreme Court because Harvard discriminated against them in the name of diversity. A framework that keeps producing these contradictions isn't a moral philosophy. It's a hierarchy of grievances.\n\nAnd none of this grew organically. It's an industry. DEI became a multi-billion dollar market: corporate trainings, consultants, foundation grants, university bureaucracies whose budgets depend on the problem never being solved. Follow the incentives and you find an entire class of people paid to see racism everywhere. Cut the money and it starts collapsing, which is exactly what we've watched since companies began slashing DEI budgets.\n\nReal anti-racism is simple: judge people as individuals. MLK said it in 1963. Everything since that tried to replace it has been a step backwards. https://x.com/teslaownersSV/status/1884471785648972161/video/1",
+        "url": "https://x.com/brivael/status/2110284375317271037",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 263,
+        "likes": 1457,
+        "quotes": 28,
+        "replies": 77,
+        "retweets": 340,
+        "views": 105630
+      },
+      "url": "https://x.com/elonmusk/status/2110407280076402980",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/1884471726123503616/img/as4o8wUcEATu_yxv.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/1884471726123503616/vid/avc1/1282x720/tKasO-_DrEIvuvcK.mp4?tag=16",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/1884471726123503616/img/as4o8wUcEATu_yxv.jpg",
+          "width": 1282,
+          "height": 720,
+          "duration": 87.348
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110403469249323449",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T16:12:51.000Z",
+      "created_at_shanghai": "2026-10-15 00:12:51",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "【速報🎉】世界で最も売れている車、テスラModel Yが、2026年9月度においても、引き続き国内外国車ブランド車種別No.1を獲得し、日本の皆さまから信頼されるブランドへと成長しています。\n\nテスラでは、皆さまの試乗体験を心よりお待ちしております。\n\n👨「EVって実際どうなんだろう？」\n👩「自分の生活でも充電の心配はない？」\n\nそんな素朴な質問からで大丈夫です。\nお客様のニーズやご懸念に応じて全てお答えできるプロのアドバイザーがお待ちしておりますので、ぜひお気軽に最寄りの店舗、お出かけ先の店舗にお立ち寄りください。\nスタッフともども、皆さまのご来店を心よりお待ちしております。\n\nhttps://www.tesla.com/ja_JP/drive",
+      "quote": null,
+      "retweet": {
+        "author": "teslajapan",
+        "avatar": "https://pbs.twimg.com/profile_images/1443955157322977284/Buzbx7DG_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 17:28:25",
+        "created_at_utc": "2026-10-14T09:28:25.000Z",
+        "id": "2110301690134179865",
+        "images": [
+          "https://pbs.twimg.com/media/HUlMM2cbUAA3SIF.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1080,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUlMM2cbUAA3SIF.jpg?name=small",
+            "width": 1920
+          }
+        ],
+        "name": "Tesla Japan",
+        "text": "【速報🎉】世界で最も売れている車、テスラModel Yが、2026年9月度においても、引き続き国内外国車ブランド車種別No.1を獲得し、日本の皆さまから信頼されるブランドへと成長しています。\n\nテスラでは、皆さまの試乗体験を心よりお待ちしております。\n\n👨「EVって実際どうなんだろう？」\n👩「自分の生活でも充電の心配はない？」\n\nそんな素朴な質問からで大丈夫です。\nお客様のニーズやご懸念に応じて全てお答えできるプロのアドバイザーがお待ちしておりますので、ぜひお気軽に最寄りの店舗、お出かけ先の店舗にお立ち寄りください。\nスタッフともども、皆さまのご来店を心よりお待ちしております。\n\nhttps://www.tesla.com/ja_JP/drive",
+        "url": "https://x.com/teslajapan/status/2110301690134179865",
         "verified": true,
         "verified_type": "organization"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 175,
-        "likes": 2890,
-        "quotes": 80,
-        "replies": 318,
-        "retweets": 487,
-        "views": 216320
+        "bookmarks": 28,
+        "likes": 1564,
+        "quotes": 23,
+        "replies": 92,
+        "retweets": 201,
+        "views": 151270
       },
-      "url": "https://x.com/elonmusk/status/2109953737569505669",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109881121047781430",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T05:37:13.000Z",
-      "created_at_shanghai": "2026-10-13 13:37:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try Grok @Bot",
-      "quote": {
-        "author": "heyitsyashu",
-        "avatar": "https://pbs.twimg.com/profile_images/1310433659518771200/T-aNTtz2_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 01:19:30",
-        "created_at_utc": "2026-10-12T17:19:30.000Z",
-        "id": "2109695466917302316",
-        "images": [],
-        "media": [],
-        "name": "Yashu Sharma 🍊",
-        "text": "Man Grok bot is just so good. After testing muse, dots and openclaw Grok bot mogs them all it’s not even a debate \n\nThe usage is crazy too. After 3 full days of computer use im only at 28% 👀",
-        "url": "https://x.com/heyitsyashu/status/2109695466917302316",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 111,
-        "likes": 3045,
-        "quotes": 63,
-        "replies": 798,
-        "retweets": 376,
-        "views": 1559135
-      },
-      "url": "https://x.com/elonmusk/status/2109881121047781430",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109879128573067414",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T05:29:18.000Z",
-      "created_at_shanghai": "2026-10-13 13:29:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot fixed a customer's bug while I was out with my family. My app user emailed me about an error. My Grok Bot handled it from A to Z. Found bugs, fixed them, and shipped on its own. So many use cases with Grok Bot. \nJust try it.",
-      "quote": null,
-      "retweet": {
-        "author": "Texas_Twins_Dad",
-        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 11:20:06",
-        "created_at_utc": "2026-10-13T03:20:06.000Z",
-        "id": "2109846615859372269",
-        "images": [
-          "https://pbs.twimg.com/media/HUesFTxWoAEYmuJ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 344,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUesFTxWoAEYmuJ.jpg?name=small",
-            "width": 1190
-          }
-        ],
-        "name": "Texas Twins Dad",
-        "text": "Grok Bot fixed a customer's bug while I was out with my family. My app user emailed me about an error. My Grok Bot handled it from A to Z. Found bugs, fixed them, and shipped on its own. So many use cases with Grok Bot. \nJust try it.",
-        "url": "https://x.com/Texas_Twins_Dad/status/2109846615859372269",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 42,
-        "likes": 873,
-        "quotes": 9,
-        "replies": 74,
-        "retweets": 96,
-        "views": 250494
-      },
-      "url": "https://x.com/elonmusk/status/2109879128573067414",
+      "url": "https://x.com/elonmusk/status/2110403469249323449",
       "images": [
-        "https://pbs.twimg.com/media/HUesFTxWoAEYmuJ.jpg?name=small"
+        "https://pbs.twimg.com/media/HUlMM2cbUAA3SIF.jpg?name=small"
       ],
       "media": [
         {
           "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUesFTxWoAEYmuJ.jpg?name=small",
-          "width": 1190,
-          "height": 344
+          "url": "https://pbs.twimg.com/media/HUlMM2cbUAA3SIF.jpg?name=small",
+          "width": 1920,
+          "height": 1080
         }
       ],
       "enriched": true
     },
     {
-      "id": "2109877500700455161",
+      "id": "2110403395203006770",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T05:22:50.000Z",
-      "created_at_shanghai": "2026-10-13 13:22:50",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "A kid in a village school in India studies from the same textbook as a kid in Mumbai. \n\nWhat they don't get is the internet. \n\nAbout one in three Indian schools still has none, by the government's own count.\n\nJio now wants its own satellite network for 600,000 villages, reportedly done around 2035. \n\nThose kids will have finished school by then.\n\nStarlink could serve them this year. Let it switch on.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2109877500700455161",
-      "images": [],
-      "media": [],
-      "enriched": false
-    },
-    {
-      "id": "2109875497316298977",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T05:14:52.000Z",
-      "created_at_shanghai": "2026-10-13 13:14:52",
+      "created_at_utc": "2026-10-14T16:12:33.000Z",
+      "created_at_shanghai": "2026-10-15 00:12:33",
       "type": "转发",
       "type_label": "转发",
-      "text": "When Starlink helped save five lives at sea.\n\nA boat called Magic Bus was sinking in a storm, far off the coast of North Carolina.\n\nThe captain tried to call for help using the boat’s radio, but couldn’t reach anyone. He then used @Starlink Mini to connect his phone and call the U.S. Coast Guard.\n\nThe five people left the sinking boat in a liferaft. Rescuers arrived by helicopter and brought everyone back safely. Starlink helped them reach help when their lives were in danger.\n\nThis life-saving technology should be available in every part of the world.",
+      "text": "Proud to partner with Rick Caruso to reopen The Bay theater in the Pacific Palisades.  \n\nhttps://www.hollywoodreporter.com/business/business-news/paramount-bay-theater-pacific-palisades-1236729134/",
       "quote": null,
       "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 13:11:49",
-        "created_at_utc": "2026-10-13T05:11:49.000Z",
-        "id": "2109874730325160288",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109874573135208448/img/GwOnlsYRe0s6HcKe.jpg"
-        ],
-        "media": [
-          {
-            "duration": 67.5,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109874573135208448/img/GwOnlsYRe0s6HcKe.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109874573135208448/vid/avc1/1920x1080/Zs4Qk7teboDsaWHh.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "When Starlink helped save five lives at sea.\n\nA boat called Magic Bus was sinking in a storm, far off the coast of North Carolina.\n\nThe captain tried to call for help using the boat’s radio, but couldn’t reach anyone. He then used @Starlink Mini to connect his phone and call the U.S. Coast Guard.\n\nThe five people left the sinking boat in a liferaft. Rescuers arrived by helicopter and brought everyone back safely. Starlink helped them reach help when their lives were in danger.\n\nThis life-saving technology should be available in every part of the world.",
-        "url": "https://x.com/cb_doge/status/2109874730325160288",
+        "author": "davidellison",
+        "avatar": "https://pbs.twimg.com/profile_images/2106002624713457664/qIDrMVmF_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 06:53:48",
+        "created_at_utc": "2026-10-13T22:53:48.000Z",
+        "id": "2110141985298563359",
+        "images": [],
+        "media": [],
+        "name": "David Ellison",
+        "text": "Proud to partner with Rick Caruso to reopen The Bay theater in the Pacific Palisades.  \n\nhttps://www.hollywoodreporter.com/business/business-news/paramount-bay-theater-pacific-palisades-1236729134/",
+        "url": "https://x.com/davidellison/status/2110141985298563359",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 117,
-        "likes": 3849,
-        "quotes": 36,
-        "replies": 210,
-        "retweets": 559,
-        "views": 322642
+        "bookmarks": 61,
+        "likes": 1753,
+        "quotes": 21,
+        "replies": 142,
+        "retweets": 171,
+        "views": 207777
       },
-      "url": "https://x.com/elonmusk/status/2109875497316298977",
+      "url": "https://x.com/elonmusk/status/2110403395203006770",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110402777755324760",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T16:10:06.000Z",
+      "created_at_shanghai": "2026-10-15 00:10:06",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I made a list of 63 of U.S. Senate candidate James Talafreako's most insane and deranged statements.\n\nSourced and referenced.\n\n1. \"Modern science obviously recognizes that there are many more than two biological sexes. In fact, there are six\" 2021-04-20, Texas House Public Education Committee\n\n2. \"God is non-binary.\" 2021-10-14, Texas House\n\n3. \"Our campaign has officially become a non-meat campaign.\" 2022-02, Texas Humane Legislation Network fundraiser\n\n4. \"I always think of myself as a Christian who hates Christianity, right?\" 2021-03-04, Activist Theology\n\n5. \"In context of abortion … God asks for Mary's consent … So, to me that is a an affirmation in one of our most central stories, that creation has to be done with consent. You cannot force someone to create.\" 2025-07-18, The Joe Rogan Experience\n\n6. \"Radicalized white men are the greatest domestic terrorist threat in our country.\" 2021-03-18, Twitter/X\n\n7. \"#AhmaudArbery is the latest American killed by the virus of racism. The virus kills our black neighbors if they’re jogging, playing music, sitting in church, selling CDs, or carrying a bag of Skittles... White skin gives me and every white American immunity from the virus. But we spread it wherever we go\" 2020-05-08, Twitter\n\n8. \"Young activists have really drawn the link between climate change and white supremacy and capitalism in our country and I think only by understanding the ways that all three of those oppressive systems work together, are we going to be able to begin the process of dismantling them.\" 2020-09-01, Austin Sierra Club climate forum\n\n9. \"Restoration, repairing past harms, is part of my faith tradition. … it's exactly why we need … to invest in black communities, to invest in black Texans\" 2026-07-20, DeSoto town hall\n\n10. \"I think the Confederate flag is a symbol of treason and terrorism, but the American flag is such a complicated symbol for most of us.\" 2019-09, St. Andrew’s Presbyterian Church, Austin\n\n11. \"Defund the police is considered off limits in our political debate when defunding health services, defunding public education has been the stated policy of our state government for decades now.\" 2020-08-02, Texas Rising\n\n12. \"Governor Abbott has filled this special session agenda with far right conspiracy theories about trans children causing problems on sports teams, which we know does not occur in the state of Texas\" 2021-07-19, FOX 7 Austin\n\n13. \"Are districts getting, you know, almost hopefully near unanimous consent for students to learn about [sex education,] maybe the most important topic that they'll learn about in school?\" 2022-07, Texas House Public Education Committee\n\n14. \"Every one of our neighbors with a uterus became the property of the state.\" 2022-10-02, St. Andrew’s Presbyterian Church, Austin\n\n15. \"God is not a Christian.\" 2023-10-22, St. Andrew’s Presbyterian Church, Austin\n\n16. \"So, this idea that to be a Christian means you have to be anti-gay and anti-abortion, there really is no historical, theological, biblical basis for that opinion.\" 2025-07-18, The Joe Rogan Experience\n\n17. \"Jesus is the prophetic voice in my own life, but it could be for you a different prophetic voice from a different faith tradition.\" 2019-09, St. Andrew’s Presbyterian Church, Austin\n\n18. \"I oppose voter ID.\" 2021-07-13, Fox News Primetime\n\n19. \"Leasing federal property to abortion clinics on federal lands or in federal offices\" 2022-06-24, Letter to President Biden\n\n20. \"Did they teach you in Sunday school that Jesus Christ himself was a radical feminist?\" 2022-10-02, St. Andrew’s Presbyterian Church, Austin\n\n21. \"I don't want you in my school doing discipline.\" 2019-02, The Trey Blocker Show\n\n22. \"For me, prophetic voices like Jesus have helped me reckon with my own whiteness, my own masculinity, my own certainty, my own ego.\" 2019-09, St. Andrew’s Presbyterian Church, Austin\n\n23. \"That [oil and gas] industry is not gonna last.\" 2020-09-01, Austin Sierra Club climate forum\n\n24. \"Our system of policing is deeply broken. We must replace it with something new and something better.\" 2020-09-02, Honest Austin\n\n25. \"The Bible doesn't mention abortion or gay marriage\" 2023-10-22, St. Andrew’s Presbyterian Church, Austin\n\n26. \"I'm not an expert on this particular case, but I know that there were no Black members of the jury [in Anthony’s case].\" 2026-08-05, The Breakfast Club\n\n27. \"Our office is the first in the history of the Capitol to add pronouns to our official business cards.\" 2021-03-31, Twitter/X\n\n28. \"If we took just half of what we spend on wars, prisons, and policing, and spent it on education, healthcare, and jobs, we could make prisons obsolete.\" 2022-04-11, Ferguson prison graduation\n\n29. \"Jesus came to transform the world. Christian nationalism is here to maintain the status quo. They have co-opted the son of God. They've turned this humble rabbi into a gun-toting, gay-bashing, science-denying, money-loving, fear-mongering fascist.\" 2023-10-22, St. Andrew’s Presbyterian Church, Austin\n\n30. \"In Genesis, God creates life by breathing life into the first human being, which we later call Adam. That life starts when you take your first breath.\" 2025-07-18, The Joe Rogan Experience\n\n31. \"ICE executed a man in broad daylight on our streets just this morning. It's time to tear down this secret police force and replace it with an agency that actually is going to focus on public safety.\" 2026-01-24, Texas AFL-CIO debate, Georgetown\n\n32. \"I'm Season 2 [of Judaism, Christianity and Islam]—the most violent season. My religion has done more damage to both of those religions than they've done to each other.\" 2026-02-23, The New Yorker\n\n33. \"I think there are some folks … that would think that if you deny your child's gender identity that that's incredibly harmful. And whether or not we can—we label it with the term abuse, I mean, it's abusive for sure.\" 2019-04-03, Texas House Juvenile Justice & Family Issues Committee\n\n34. \"Our system, our public education system, particularly here in Texas is not built for poor students. It's not built for students of color.\" 2020-08-02, Texas Rising\n\n35. \"I felt like I didn't have the time or space or training or resources to have the really important conversations with my students … I was trapped in a system that was focused purely on academics, reading, writing, arithmetic.\" 2020-08-02, Texas Rising\n\n36. \"Prison is violence.\" 2022-04-11, Ferguson prison graduation\n\n37. \"But inevitably we're going to spend hours hearing bills that are just kind of conspiracy theory, right, driven, and kind of kooky stuff.\" 2022-07-26, Texas House Public Education Committee\n\n38. \"I know personally that I've learned as much about my faith from Salman's tradition, from the Islamic mystics, from poets like Rumi, as much as I have from Christian authors and Christian writers.\" 2023-09-16, The State of Belief\n\n39. \"God is a verb.\" 2023-10-22, St. Andrew’s Presbyterian Church, Austin\n\n40. \"And again, I haven't studied this enough to say this definitively, but there are interpretations of certain passages from the Torah where some folks will even say that there is a, there is some subtle instructions for how to perform an abortion in the ancient world.\" 2025-07-18, The Joe Rogan Experience\n\n41. \"People who're like, \"You're in seminary, you're studying to become a minister. Why wouldn't you want the Ten Commandments in every classroom?\" … I said I thought the bill was un-Christian.\" 2025-07-18, The Joe Rogan Experience\n\n42. \"Incarnation, by the way, is not just limited to Jesus, it's everybody.\" 2025-07-18, The Joe Rogan Experience\n\n43. \"The Apostle Paul, in his letter to the Galatians, said that in Christ there is neither male nor female. And so, if someone's got a problem with that statement, they shouldn't take it up with me. They should take it up with the Apostle Paul.\" 2026-04-22, CNN The Lead\n\n44. \"An assault weapon ban, a large capacity magazine ban\" 2020, Virtual voter meet-and-greet\n\n45. \"I don't care what taxes you have to raise, but you're not going to make our students and our teachers, you're not going to make the sick and the elderly pay for this pandemic.\" 2020-08-02, Texas Rising\n\n46. \"Platforms like YouTube, 4chan, and Parlor are radicalizing an entire generation of white boys.\" 2021-03-18, Twitter/X\n\n47. \"Trans children are God's children, made in God's own image. There's nothing wrong with them. Nothing at all. They are perfect. They are beautiful, and they are sacred.\" 2021-10-14, Texas House\n\n48. \"The only person to teach Jesus something was a woman. Even the son of God had something to learn from one of God's daughters.\" 2022-10-02, St. Andrew’s Presbyterian Church, Austin\n\n49. \"We only have Jesus because a woman consented to creating him.\" 2022-10-02, St. Andrew’s Presbyterian Church, Austin\n\n50. \"Resurrection is when we see Christ in everyone and everything.\" 2025-04-20, St. Andrew’s Presbyterian Church, Austin\n\n51. \"Billions of people across the globe celebrate Passover, Easter, and Ramadan. We may use different lyrics, but we are singing the same hymn.\" 2025-04-20, St. Andrew’s Presbyterian Church, Austin\n\n52. \"The current administration has grown the size of ICE, Immigration and Customs Enforcement, except it's not people doing Immigration and Customs Enforcement. It is a secret police force that is terrorizing communities.\" 2025-12-14, Jubilee: Surrounded\n\n53. \"I will use every bit of financial and diplomatic leverage that this country has to end the atrocities in Palestine. … I will not use your tax dollars to fund these war crimes.\" 2025-12-19, Houston campaign town hall\n\n54. \"I would not vote to send any offensive weapons to Benjamin Netanyahu that he is currently using to slaughter children in Gaza.\" 2026-01-24, Texas AFL-CIO debate, Georgetown\n\n55. \"And I taught a lot of undocumented students. And those students tended to be my most patriotic students.\" 2026-03-19, The Bulwark Podcast, Dallas\n\n56. \"I think the Supreme Court needs to be overhauled. … I am open to a discussion about expanding the number of justices.\" 2026-09-09, Fox Special Report, Dallas\n\n57. \"The first thing is to elect candidates who recognize institutional racism and are committed to dismantling it.\" 2018, Reddit AMA\n\n58. \"As a Texas legislator, they’re also my constituents. Like so many immigrants throughout our history, undocumented Americans came to this country for the same simple reasons: life, liberty, and the pursuit of happiness.\" 2019-07-12, Twitter\n\n59. \"This bill [SB 14, restricting gender-transition care for minors,] I think is the most dangerous bill that's being heard on this floor this session.\" 2023-05-12, Texas House\n\n60. \"Meet Tim Dunn & Farris Wilks—two billionaires from West Texas. … Their ultimate goal is even more ambitious: transforming Texas into an authoritarian, Christian Nationalist state.\" 2023-10-05, Twitter/X\n\n61. \"Jesus lost, and Trump is obsessed with winning. … And on Good Friday, Jesus lost his reputation, lost his ministry, lost his friends, lost his life.\" 2025-04-20, St. Andrew’s Presbyterian Church, Austin\n\n62. \"Matthew 25 tells us how we will be judged and saved: by feeding the hungry, by healing the sick, by welcoming the stranger, by visiting the prisoner. Nothing about being a Christian. Nothing about going to church. Nothing about reading the Bible.\" 2025-04-20, St. Andrew’s Presbyterian Church, Austin\n\n63. \"It was a new state curriculum that would teach Christian Bible stories as historical fact, as the only truth to our youngest students, … And to push propaganda, to push indoctrination on those youngest students is deeply immoral and should trouble all of us.\" 2025-08-05, Faithfully (CAP Action / Interfaith Alliance)",
+      "quote": null,
+      "retweet": {
+        "author": "kevinnbass",
+        "avatar": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 11:06:05",
+        "created_at_utc": "2026-10-14T03:06:05.000Z",
+        "id": "2110205472452018653",
+        "images": [],
+        "media": [],
+        "name": "Kevin Bass",
+        "text": "I made a list of 63 of U.S. Senate candidate James Talafreako's most insane and deranged statements.\n\nSourced and referenced.\n\n1. \"Modern science obviously recognizes that there are many more than two biological sexes. In fact, there are six\" 2021-04-20, Texas House Public Education Committee\n\n2. \"God is non-binary.\" 2021-10-14, Texas House\n\n3. \"Our campaign has officially become a non-meat campaign.\" 2022-02, Texas Humane Legislation Network fundraiser\n\n4. \"I always think of myself as a Christian who hates Christianity, right?\" 2021-03-04, Activist Theology\n\n5. \"In context of abortion … God asks for Mary's consent … So, to me that is a an affirmation in one of our most central stories, that creation has to be done with consent. You cannot force someone to create.\" 2025-07-18, The Joe Rogan Experience\n\n6. \"Radicalized white men are the greatest domestic terrorist threat in our country.\" 2021-03-18, Twitter/X\n\n7. \"#AhmaudArbery is the latest American killed by the virus of racism. The virus kills our black neighbors if they’re jogging, playing music, sitting in church, selling CDs, or carrying a bag of Skittles... White skin gives me and every white American immunity from the virus. But we spread it wherever we go\" 2020-05-08, Twitter\n\n8. \"Young activists have really drawn the link between climate change and white supremacy and capitalism in our country and I think only by understanding the ways that all three of those oppressive systems work together, are we going to be able to begin the process of dismantling them.\" 2020-09-01, Austin Sierra Club climate forum\n\n9. \"Restoration, repairing past harms, is part of my faith tradition. … it's exactly why we need … to invest in black communities, to invest in black Texans\" 2026-07-20, DeSoto town hall\n\n10. \"I think the Confederate flag is a symbol of treason and terrorism, but the American flag is such a complicated symbol for most of us.\" 2019-09, St. Andrew’s Presbyterian Church, Austin\n\n11. \"Defund the police is considered off limits in our political debate when defunding health services, defunding public education has been the stated policy of our state government for decades now.\" 2020-08-02, Texas Rising\n\n12. \"Governor Abbott has filled this special session agenda with far right conspiracy theories about trans children causing problems on sports teams, which we know does not occur in the state of Texas\" 2021-07-19, FOX 7 Austin\n\n13. \"Are districts getting, you know, almost hopefully near unanimous consent for students to learn about [sex education,] maybe the most important topic that they'll learn about in school?\" 2022-07, Texas House Public Education Committee\n\n14. \"Every one of our neighbors with a uterus became the property of the state.\" 2022-10-02, St. Andrew’s Presbyterian Church, Austin\n\n15. \"God is not a Christian.\" 2023-10-22, St. Andrew’s Presbyterian Church, Austin\n\n16. \"So, this idea that to be a Christian means you have to be anti-gay and anti-abortion, there really is no historical, theological, biblical basis for that opinion.\" 2025-07-18, The Joe Rogan Experience\n\n17. \"Jesus is the prophetic voice in my own life, but it could be for you a different prophetic voice from a different faith tradition.\" 2019-09, St. Andrew’s Presbyterian Church, Austin\n\n18. \"I oppose voter ID.\" 2021-07-13, Fox News Primetime\n\n19. \"Leasing federal property to abortion clinics on federal lands or in federal offices\" 2022-06-24, Letter to President Biden\n\n20. \"Did they teach you in Sunday school that Jesus Christ himself was a radical feminist?\" 2022-10-02, St. Andrew’s Presbyterian Church, Austin\n\n21. \"I don't want you in my school doing discipline.\" 2019-02, The Trey Blocker Show\n\n22. \"For me, prophetic voices like Jesus have helped me reckon with my own whiteness, my own masculinity, my own certainty, my own ego.\" 2019-09, St. Andrew’s Presbyterian Church, Austin\n\n23. \"That [oil and gas] industry is not gonna last.\" 2020-09-01, Austin Sierra Club climate forum\n\n24. \"Our system of policing is deeply broken. We must replace it with something new and something better.\" 2020-09-02, Honest Austin\n\n25. \"The Bible doesn't mention abortion or gay marriage\" 2023-10-22, St. Andrew’s Presbyterian Church, Austin\n\n26. \"I'm not an expert on this particular case, but I know that there were no Black members of the jury [in Anthony’s case].\" 2026-08-05, The Breakfast Club\n\n27. \"Our office is the first in the history of the Capitol to add pronouns to our official business cards.\" 2021-03-31, Twitter/X\n\n28. \"If we took just half of what we spend on wars, prisons, and policing, and spent it on education, healthcare, and jobs, we could make prisons obsolete.\" 2022-04-11, Ferguson prison graduation\n\n29. \"Jesus came to transform the world. Christian nationalism is here to maintain the status quo. They have co-opted the son of God. They've turned this humble rabbi into a gun-toting, gay-bashing, science-denying, money-loving, fear-mongering fascist.\" 2023-10-22, St. Andrew’s Presbyterian Church, Austin\n\n30. \"In Genesis, God creates life by breathing life into the first human being, which we later call Adam. That life starts when you take your first breath.\" 2025-07-18, The Joe Rogan Experience\n\n31. \"ICE executed a man in broad daylight on our streets just this morning. It's time to tear down this secret police force and replace it with an agency that actually is going to focus on public safety.\" 2026-01-24, Texas AFL-CIO debate, Georgetown\n\n32. \"I'm Season 2 [of Judaism, Christianity and Islam]—the most violent season. My religion has done more damage to both of those religions than they've done to each other.\" 2026-02-23, The New Yorker\n\n33. \"I think there are some folks … that would think that if you deny your child's gender identity that that's incredibly harmful. And whether or not we can—we label it with the term abuse, I mean, it's abusive for sure.\" 2019-04-03, Texas House Juvenile Justice & Family Issues Committee\n\n34. \"Our system, our public education system, particularly here in Texas is not built for poor students. It's not built for students of color.\" 2020-08-02, Texas Rising\n\n35. \"I felt like I didn't have the time or space or training or resources to have the really important conversations with my students … I was trapped in a system that was focused purely on academics, reading, writing, arithmetic.\" 2020-08-02, Texas Rising\n\n36. \"Prison is violence.\" 2022-04-11, Ferguson prison graduation\n\n37. \"But inevitably we're going to spend hours hearing bills that are just kind of conspiracy theory, right, driven, and kind of kooky stuff.\" 2022-07-26, Texas House Public Education Committee\n\n38. \"I know personally that I've learned as much about my faith from Salman's tradition, from the Islamic mystics, from poets like Rumi, as much as I have from Christian authors and Christian writers.\" 2023-09-16, The State of Belief\n\n39. \"God is a verb.\" 2023-10-22, St. Andrew’s Presbyterian Church, Austin\n\n40. \"And again, I haven't studied this enough to say this definitively, but there are interpretations of certain passages from the Torah where some folks will even say that there is a, there is some subtle instructions for how to perform an abortion in the ancient world.\" 2025-07-18, The Joe Rogan Experience\n\n41. \"People who're like, \"You're in seminary, you're studying to become a minister. Why wouldn't you want the Ten Commandments in every classroom?\" … I said I thought the bill was un-Christian.\" 2025-07-18, The Joe Rogan Experience\n\n42. \"Incarnation, by the way, is not just limited to Jesus, it's everybody.\" 2025-07-18, The Joe Rogan Experience\n\n43. \"The Apostle Paul, in his letter to the Galatians, said that in Christ there is neither male nor female. And so, if someone's got a problem with that statement, they shouldn't take it up with me. They should take it up with the Apostle Paul.\" 2026-04-22, CNN The Lead\n\n44. \"An assault weapon ban, a large capacity magazine ban\" 2020, Virtual voter meet-and-greet\n\n45. \"I don't care what taxes you have to raise, but you're not going to make our students and our teachers, you're not going to make the sick and the elderly pay for this pandemic.\" 2020-08-02, Texas Rising\n\n46. \"Platforms like YouTube, 4chan, and Parlor are radicalizing an entire generation of white boys.\" 2021-03-18, Twitter/X\n\n47. \"Trans children are God's children, made in God's own image. There's nothing wrong with them. Nothing at all. They are perfect. They are beautiful, and they are sacred.\" 2021-10-14, Texas House\n\n48. \"The only person to teach Jesus something was a woman. Even the son of God had something to learn from one of God's daughters.\" 2022-10-02, St. Andrew’s Presbyterian Church, Austin\n\n49. \"We only have Jesus because a woman consented to creating him.\" 2022-10-02, St. Andrew’s Presbyterian Church, Austin\n\n50. \"Resurrection is when we see Christ in everyone and everything.\" 2025-04-20, St. Andrew’s Presbyterian Church, Austin\n\n51. \"Billions of people across the globe celebrate Passover, Easter, and Ramadan. We may use different lyrics, but we are singing the same hymn.\" 2025-04-20, St. Andrew’s Presbyterian Church, Austin\n\n52. \"The current administration has grown the size of ICE, Immigration and Customs Enforcement, except it's not people doing Immigration and Customs Enforcement. It is a secret police force that is terrorizing communities.\" 2025-12-14, Jubilee: Surrounded\n\n53. \"I will use every bit of financial and diplomatic leverage that this country has to end the atrocities in Palestine. … I will not use your tax dollars to fund these war crimes.\" 2025-12-19, Houston campaign town hall\n\n54. \"I would not vote to send any offensive weapons to Benjamin Netanyahu that he is currently using to slaughter children in Gaza.\" 2026-01-24, Texas AFL-CIO debate, Georgetown\n\n55. \"And I taught a lot of undocumented students. And those students tended to be my most patriotic students.\" 2026-03-19, The Bulwark Podcast, Dallas\n\n56. \"I think the Supreme Court needs to be overhauled. … I am open to a discussion about expanding the number of justices.\" 2026-09-09, Fox Special Report, Dallas\n\n57. \"The first thing is to elect candidates who recognize institutional racism and are committed to dismantling it.\" 2018, Reddit AMA\n\n58. \"As a Texas legislator, they’re also my constituents. Like so many immigrants throughout our history, undocumented Americans came to this country for the same simple reasons: life, liberty, and the pursuit of happiness.\" 2019-07-12, Twitter\n\n59. \"This bill [SB 14, restricting gender-transition care for minors,] I think is the most dangerous bill that's being heard on this floor this session.\" 2023-05-12, Texas House\n\n60. \"Meet Tim Dunn & Farris Wilks—two billionaires from West Texas. … Their ultimate goal is even more ambitious: transforming Texas into an authoritarian, Christian Nationalist state.\" 2023-10-05, Twitter/X\n\n61. \"Jesus lost, and Trump is obsessed with winning. … And on Good Friday, Jesus lost his reputation, lost his ministry, lost his friends, lost his life.\" 2025-04-20, St. Andrew’s Presbyterian Church, Austin\n\n62. \"Matthew 25 tells us how we will be judged and saved: by feeding the hungry, by healing the sick, by welcoming the stranger, by visiting the prisoner. Nothing about being a Christian. Nothing about going to church. Nothing about reading the Bible.\" 2025-04-20, St. Andrew’s Presbyterian Church, Austin\n\n63. \"It was a new state curriculum that would teach Christian Bible stories as historical fact, as the only truth to our youngest students, … And to push propaganda, to push indoctrination on those youngest students is deeply immoral and should trouble all of us.\" 2025-08-05, Faithfully (CAP Action / Interfaith Alliance)",
+        "url": "https://x.com/kevinnbass/status/2110205472452018653",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 886,
+        "likes": 3417,
+        "quotes": 176,
+        "replies": 176,
+        "retweets": 1416,
+        "views": 176005
+      },
+      "url": "https://x.com/elonmusk/status/2110402777755324760",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110402603008049460",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T16:09:24.000Z",
+      "created_at_shanghai": "2026-10-15 00:09:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Starlink connects families in rural areas. Seamlessly stream, game, study, and more with speeds up to 400+ Mbps. \n\nLearn more here.",
+      "quote": null,
+      "retweet": {
+        "author": "Starlink",
+        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 12:16:59",
+        "created_at_utc": "2026-10-14T04:16:59.000Z",
+        "id": "2110223317416423775",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110220657602752512/img/K6zEg3j91OALbNfP.jpg"
+        ],
+        "media": [
+          {
+            "duration": 90.09,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110220657602752512/img/K6zEg3j91OALbNfP.jpg",
+            "type": "video",
+            "url": "https://video-s.twimg.com/amplify_video/2110220657602752512/vid/avc1/1280x720/vnEbFt_ql7sneV9j.mp4?tag=14",
+            "width": 3840
+          }
+        ],
+        "name": "Starlink",
+        "text": "Starlink connects families in rural areas. Seamlessly stream, game, study, and more with speeds up to 400+ Mbps. \n\nLearn more here.",
+        "url": "https://x.com/Starlink/status/2110223317416423775",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 31,
+        "likes": 573,
+        "quotes": 3,
+        "replies": 58,
+        "retweets": 93,
+        "views": 2898163
+      },
+      "url": "https://x.com/elonmusk/status/2110402603008049460",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109874573135208448/img/GwOnlsYRe0s6HcKe.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2110220657602752512/img/K6zEg3j91OALbNfP.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109874573135208448/vid/avc1/1920x1080/Zs4Qk7teboDsaWHh.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109874573135208448/img/GwOnlsYRe0s6HcKe.jpg",
+          "url": "https://video-s.twimg.com/amplify_video/2110220657602752512/vid/avc1/1280x720/vnEbFt_ql7sneV9j.mp4?tag=14",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110220657602752512/img/K6zEg3j91OALbNfP.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 90.09
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110402125809549472",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T16:07:30.000Z",
+      "created_at_shanghai": "2026-10-15 00:07:30",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "When Starlink became a lifeline for a family fighting to save their dad. ❤️\n\nNigel Norwood suffered cardiac arrest while camping at a remote beach in Western Australia, about 100 kilometres from the nearest hospital.\n\nThere was no mobile signal. His wife, Lynne, spotted another camper’s @Starlink and used it to call emergency services.\n\n“This was the only way to get a call out from the campsite,” she later said.\n\nWhile she called for help, their 16-year-old son performed CPR with another camper, and their 19-year-old son brought a nearby defibrillator. After three shocks, Nigel’s pulse returned. He received hospital care and recovered.\n\nStarlink made that emergency call possible. When lives are at risk, a working connection can make all the difference.\n\nThis life-saving technology should be available in every part of the world.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 00:03:14",
+        "created_at_utc": "2026-10-14T16:03:14.000Z",
+        "id": "2110401049282678881",
+        "images": [
+          "https://pbs.twimg.com/media/HUmmkIYbYAA2FYL.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUmmkIYbYAA2FYL.jpg?name=small",
+            "width": 2048
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "When Starlink became a lifeline for a family fighting to save their dad. ❤️\n\nNigel Norwood suffered cardiac arrest while camping at a remote beach in Western Australia, about 100 kilometres from the nearest hospital.\n\nThere was no mobile signal. His wife, Lynne, spotted another camper’s @Starlink and used it to call emergency services.\n\n“This was the only way to get a call out from the campsite,” she later said.\n\nWhile she called for help, their 16-year-old son performed CPR with another camper, and their 19-year-old son brought a nearby defibrillator. After three shocks, Nigel’s pulse returned. He received hospital care and recovered.\n\nStarlink made that emergency call possible. When lives are at risk, a working connection can make all the difference.\n\nThis life-saving technology should be available in every part of the world.",
+        "url": "https://x.com/cb_doge/status/2110401049282678881",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 15,
+        "likes": 974,
+        "quotes": 18,
+        "replies": 120,
+        "retweets": 136,
+        "views": 131343
+      },
+      "url": "https://x.com/elonmusk/status/2110402125809549472",
+      "images": [
+        "https://pbs.twimg.com/media/HUmmkIYbYAA2FYL.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUmmkIYbYAA2FYL.jpg?name=small",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110401295073058923",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T16:04:12.000Z",
+      "created_at_shanghai": "2026-10-15 00:04:12",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "im 3 days into a multi-state road trip entirely on @Tesla FSD. \n\ncould not recommend this more. \n\nfor long stretches, it pulls into supercharger spots to charge right around when i need a break to stretch or get a snack, and i arrive at destinations way more relaxed than otherwise bc im basically just a passenger. \n\nmost of my hotels (average hotels near national parks) have had EV charging stations to top up for the next day.\n\nthink i touched the steering wheel for a confusing parking spot once and that's it. \n\noh and it saved me from a semi truck veering into my lane that i didn't notice until the car had already reacted",
+      "quote": {
+        "author": "paulg",
+        "avatar": "https://pbs.twimg.com/profile_images/1824002576/pg-railsconf_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 03:32:21",
+        "created_at_utc": "2026-10-13T19:32:21.000Z",
+        "id": "2110091290063090093",
+        "images": [],
+        "media": [],
+        "name": "Paul Graham",
+        "text": "The Tesla Model 3 with FSD is mind-blowing. Jessica and I drove to the gym without touching the controls once. It backed out of our driveway, drove there, and backed into a parking space. It's amazing that you can buy so much future for $40k.",
+        "url": "https://x.com/paulg/status/2110091290063090093",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "agupta",
+        "avatar": "https://pbs.twimg.com/profile_images/1933241281146171392/4V_WS7H2_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 14:12:13",
+        "created_at_utc": "2026-10-14T06:12:13.000Z",
+        "id": "2110252316070920641",
+        "images": [],
+        "media": [],
+        "name": "Ankit Gupta",
+        "text": "im 3 days into a multi-state road trip entirely on @Tesla FSD. \n\ncould not recommend this more. \n\nfor long stretches, it pulls into supercharger spots to charge right around when i need a break to stretch or get a snack, and i arrive at destinations way more relaxed than otherwise bc im basically just a passenger. \n\nmost of my hotels (average hotels near national parks) have had EV charging stations to top up for the next day.\n\nthink i touched the steering wheel for a confusing parking spot once and that's it. \n\noh and it saved me from a semi truck veering into my lane that i didn't notice until the car had already reacted",
+        "url": "https://x.com/agupta/status/2110252316070920641",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 30,
+        "likes": 895,
+        "quotes": 2,
+        "replies": 56,
+        "retweets": 98,
+        "views": 140062
+      },
+      "url": "https://x.com/elonmusk/status/2110401295073058923",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110400614526325021",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T16:01:30.000Z",
+      "created_at_shanghai": "2026-10-15 00:01:30",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceX uses ARGON ION PROPULSION to move Starlink satellites through space \n\nAnd the engineering is pretty wild\n\nStarlink satellites use argon Hall-effect thrusters  electric engines that ionize argon gas and accelerate the charged particles at extremely high speed\n\nThey allow Starlink satellites to:\n\n• Raise themselves into operational orbit\n• Maneuver around other spacecraft and debris\n• Maintain their position in space\n• Deorbit themselves at the end of their life\n\nSpaceX originally used krypton, but switched its next-generation Starlink satellites to argon\n\nThe V2 Mini argon thruster produces:\n\n• 170 mN of thrust\n• 2.4X the thrust of the first-generation system\n• 1.5X the specific impulse\n\nAnd Starlink became the first spacecraft system to fly using argon propulsion in space\n\nA Falcon 9 gets Starlink into space\n\nThen these tiny electric engines keep thousands of satellites exactly where they need to be",
+      "quote": null,
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 22:16:15",
+        "created_at_utc": "2026-10-14T14:16:15.000Z",
+        "id": "2110374125659410865",
+        "images": [
+          "https://pbs.twimg.com/media/HUmOE1aaQAASO61.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1080,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUmOE1aaQAASO61.jpg?name=small",
+            "width": 1920
+          }
+        ],
+        "name": "X Freeze",
+        "text": "SpaceX uses ARGON ION PROPULSION to move Starlink satellites through space \n\nAnd the engineering is pretty wild\n\nStarlink satellites use argon Hall-effect thrusters  electric engines that ionize argon gas and accelerate the charged particles at extremely high speed\n\nThey allow Starlink satellites to:\n\n• Raise themselves into operational orbit\n• Maneuver around other spacecraft and debris\n• Maintain their position in space\n• Deorbit themselves at the end of their life\n\nSpaceX originally used krypton, but switched its next-generation Starlink satellites to argon\n\nThe V2 Mini argon thruster produces:\n\n• 170 mN of thrust\n• 2.4X the thrust of the first-generation system\n• 1.5X the specific impulse\n\nAnd Starlink became the first spacecraft system to fly using argon propulsion in space\n\nA Falcon 9 gets Starlink into space\n\nThen these tiny electric engines keep thousands of satellites exactly where they need to be",
+        "url": "https://x.com/XFreeze/status/2110374125659410865",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 92,
+        "likes": 1142,
+        "quotes": 16,
+        "replies": 103,
+        "retweets": 163,
+        "views": 131096
+      },
+      "url": "https://x.com/elonmusk/status/2110400614526325021",
+      "images": [
+        "https://pbs.twimg.com/media/HUmOE1aaQAASO61.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUmOE1aaQAASO61.jpg?name=small",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110399537416475062",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T15:57:13.000Z",
+      "created_at_shanghai": "2026-10-14 23:57:13",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I have millions of files on just one laptop.\n\nI archive and curate all day long.\n\nThis is one of my power tools.\n\nUse it!\n\nNo operating system or even commercial software can make sense of your files like Grok Bot can.\n\nSo I built a solution.\n\nBeautiful and useful clickable reports plus PDF archives.\n\nLink: https://x.ai/bot/esUBlwCDVvKUlr77LY8Rs",
+      "quote": {
+        "author": "BrianRoemmele",
+        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
+        "created_at_shanghai": "2026-10-14 21:43:55",
+        "created_at_utc": "2026-10-14T13:43:55.000Z",
+        "id": "2110365988776804606",
+        "images": [],
+        "media": [],
+        "name": "Brian Roemmele",
+        "text": "WOW! GROK BOT MAKES SENSE OF YOUR LOCAL FILES.\n\nEver wonder what's actually hiding on your computer? This @Grok @Bot PRIVATELY scans your photos, videos, songs, and documents and turns them into a stunning, modern report in both HTML and PDF!\n\n- Photo thumbnails with date taken, camera, and location\n\n- Album covers pulled right from your music files\n\n- Video poster frames with length and resolution\n\n- First-page previews of your documents\n\n- One click opens any file\n\nAnd it's built with security first. It only reads your files, never moves or deletes anything without your okay, skips the private folders you choose, and keeps location data out of reports unless you ask for it.\n\nJust say \"find all my photos from 2024\" or \"show me every song I own\" and watch it go! https://x.ai/bot/esUBlwCDVvKUlr77LY8Rs",
+        "url": "https://x.com/BrianRoemmele/status/2110365988776804606",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "BrianRoemmele",
+        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
+        "created_at_shanghai": "2026-10-14 21:57:10",
+        "created_at_utc": "2026-10-14T13:57:10.000Z",
+        "id": "2110369324632326233",
+        "images": [
+          "https://pbs.twimg.com/media/HUmJt0naQAAvwTE.jpg?name=small",
+          "https://pbs.twimg.com/media/HUmJt0raMAAW_2P.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1053,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUmJt0naQAAvwTE.jpg?name=small",
+            "width": 744
+          },
+          {
+            "height": 1053,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUmJt0raMAAW_2P.jpg?name=small",
+            "width": 744
+          }
+        ],
+        "name": "Brian Roemmele",
+        "text": "I have millions of files on just one laptop.\n\nI archive and curate all day long.\n\nThis is one of my power tools.\n\nUse it!\n\nNo operating system or even commercial software can make sense of your files like Grok Bot can.\n\nSo I built a solution.\n\nBeautiful and useful clickable reports plus PDF archives.\n\nLink: https://x.ai/bot/esUBlwCDVvKUlr77LY8Rs",
+        "url": "https://x.com/BrianRoemmele/status/2110369324632326233",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 239,
+        "likes": 628,
+        "quotes": 6,
+        "replies": 47,
+        "retweets": 67,
+        "views": 141323
+      },
+      "url": "https://x.com/elonmusk/status/2110399537416475062",
+      "images": [
+        "https://pbs.twimg.com/media/HUmJt0naQAAvwTE.jpg?name=small",
+        "https://pbs.twimg.com/media/HUmJt0raMAAW_2P.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUmJt0naQAAvwTE.jpg?name=small",
+          "width": 744,
+          "height": 1053
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUmJt0raMAAW_2P.jpg?name=small",
+          "width": 744,
+          "height": 1053
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110397029650477363",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T15:47:15.000Z",
+      "created_at_shanghai": "2026-10-14 23:47:15",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "🎯",
+      "quote": {
+        "author": "fchollet",
+        "avatar": "https://pbs.twimg.com/profile_images/2006806326140350470/Kd5oZv-f_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 22:28:17",
+        "created_at_utc": "2026-10-14T14:28:17.000Z",
+        "id": "2110377155079385477",
+        "images": [],
+        "media": [],
+        "name": "François Chollet",
+        "text": "String theory is what happens when an intelligent system is starved of sensory input and starts hallucinating. Intelligence needs grounding.\n\nFor this reason, intelligence is practically never the bottleneck to solving impactful problems. The bottleneck is iterated contact with reality.",
+        "url": "https://x.com/fchollet/status/2110377155079385477",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 310,
+        "likes": 4035,
+        "quotes": 57,
+        "replies": 749,
+        "retweets": 386,
+        "views": 767544
+      },
+      "url": "https://x.com/elonmusk/status/2110397029650477363",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110370768697901279",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T14:02:54.000Z",
+      "created_at_shanghai": "2026-10-14 22:02:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Most people think Grok Bot is just a chat window.\n\nIt's not. Each bot has its own computer, with its own browser, email inbox and desktop. When I ask it to do something, it goes off and does it.\n\nI made a video explaining how it actually works 👇",
+      "quote": null,
+      "retweet": {
+        "author": "debs_obrien",
+        "avatar": "https://pbs.twimg.com/profile_images/1537114604278530048/FMrBa87o_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 21:29:32",
+        "created_at_utc": "2026-10-14T13:29:32.000Z",
+        "id": "2110362370342363207",
+        "images": [],
+        "media": [],
+        "name": "Debbie O'Brien",
+        "text": "Most people think Grok Bot is just a chat window.\n\nIt's not. Each bot has its own computer, with its own browser, email inbox and desktop. When I ask it to do something, it goes off and does it.\n\nI made a video explaining how it actually works 👇",
+        "url": "https://x.com/debs_obrien/status/2110362370342363207",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 464,
+        "likes": 1200,
+        "quotes": 12,
+        "replies": 138,
+        "retweets": 147,
+        "views": 251107
+      },
+      "url": "https://x.com/elonmusk/status/2110370768697901279",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110362754263736448",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T13:31:03.000Z",
+      "created_at_shanghai": "2026-10-14 21:31:03",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Imagine can now generate amazing custom music directly for your videos... and it's incredibly easy to use 🎵\n\nHere's how to add music:\n\n1. Generate your video in Grok Imagine\n2. Click the music icon at the top\n3. Select “+ Add music”\n4. Describe the music you want....mood, tempo, instruments, vocals or no vocals, or simply write your own prompt\n5. Click Generate\n6. Preview your generated music\n7. Select the section that fits your video\n8. Click Apply\n\nAnd the best part is that your generated music is automatically saved to your library, so you can reuse it in future videos too\n\nVideo generation and custom soundtracks in the same workflow\n\nGrok Imagine is now an incredibly powerful tool for creators",
+      "quote": null,
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 21:09:50",
+        "created_at_utc": "2026-10-14T13:09:50.000Z",
+        "id": "2110357411878027658",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110357285960900608/img/WcWmmydhWC4LM2-c.jpg"
+        ],
+        "media": [
+          {
+            "duration": 52.033,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110357285960900608/img/WcWmmydhWC4LM2-c.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110357285960900608/vid/avc1/1578x1080/ZCGakGyt8AtCwA-X.mp4?tag=29",
+            "width": 1578
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok Imagine can now generate amazing custom music directly for your videos... and it's incredibly easy to use 🎵\n\nHere's how to add music:\n\n1. Generate your video in Grok Imagine\n2. Click the music icon at the top\n3. Select “+ Add music”\n4. Describe the music you want....mood, tempo, instruments, vocals or no vocals, or simply write your own prompt\n5. Click Generate\n6. Preview your generated music\n7. Select the section that fits your video\n8. Click Apply\n\nAnd the best part is that your generated music is automatically saved to your library, so you can reuse it in future videos too\n\nVideo generation and custom soundtracks in the same workflow\n\nGrok Imagine is now an incredibly powerful tool for creators",
+        "url": "https://x.com/XFreeze/status/2110357411878027658",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 213,
+        "likes": 1100,
+        "quotes": 28,
+        "replies": 144,
+        "retweets": 160,
+        "views": 250680
+      },
+      "url": "https://x.com/elonmusk/status/2110362754263736448",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110357285960900608/img/WcWmmydhWC4LM2-c.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110357285960900608/vid/avc1/1578x1080/ZCGakGyt8AtCwA-X.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110357285960900608/img/WcWmmydhWC4LM2-c.jpg",
+          "width": 1578,
+          "height": 1080,
+          "duration": 52.033
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110261154622902471",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T06:47:20.000Z",
+      "created_at_shanghai": "2026-10-14 14:47:20",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Already Over\n\nInspired by @KeorUnreal \n\n@grok @imagine ❤️‍🔥",
+      "quote": null,
+      "retweet": {
+        "author": "keepgoingAnnie",
+        "avatar": "https://pbs.twimg.com/profile_images/2097413286228897792/JvY6vyBn_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 02:02:55",
+        "created_at_utc": "2026-10-13T18:02:55.000Z",
+        "id": "2110068783754740116",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110067612008726528/img/Om4F641Hz4jr0Q4N.jpg"
+        ],
+        "media": [
+          {
+            "duration": 47.368,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110067612008726528/img/Om4F641Hz4jr0Q4N.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110067612008726528/vid/avc1/1920x1080/bsEPhbZqMPMZrqG6.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Lala",
+        "text": "Already Over\n\nInspired by @KeorUnreal \n\n@grok @imagine ❤️‍🔥",
+        "url": "https://x.com/keepgoingAnnie/status/2110068783754740116",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 212,
+        "likes": 1020,
+        "quotes": 18,
+        "replies": 122,
+        "retweets": 93,
+        "views": 329280
+      },
+      "url": "https://x.com/elonmusk/status/2110261154622902471",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110067612008726528/img/Om4F641Hz4jr0Q4N.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110067612008726528/vid/avc1/1920x1080/bsEPhbZqMPMZrqG6.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110067612008726528/img/Om4F641Hz4jr0Q4N.jpg",
           "width": 1920,
           "height": 1080,
-          "duration": 67.5
+          "duration": 47.368
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110253157758673079",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T06:15:34.000Z",
+      "created_at_shanghai": "2026-10-14 14:15:34",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot can help with your taxes",
+      "quote": {
+        "author": "jasonfreedman",
+        "avatar": "https://pbs.twimg.com/profile_images/1855356848867799040/kVBUG5_m_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 03:34:00",
+        "created_at_utc": "2026-10-13T19:34:00.000Z",
+        "id": "2110091703419871393",
+        "images": [
+          "https://pbs.twimg.com/media/HUhWJlWboAATU3u.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 618,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUhWJlWboAATU3u.jpg?name=small",
+            "width": 1506
+          }
+        ],
+        "name": "Jason Freedman",
+        "text": "I just gave my a Grokbot four years of past tax returns and financial files.  Just a dump of folders and unlabled files.\n\nK-1s, 1099s, mortgage statements, HSA records, and every email with our CPA.  266 files.\n\nI just said, please double check my CPA's work.\n\nA few minutes later, it had found a lot of mistakes.\n\nMortgage interest left off our 2022 return entirely.\n\nHSA payroll contributions counted twice, four years in a row, which created a penalty tax that never should have existed.\n\nA missing IRA form for Jen that would have cost us.\n\nOn this year's return: home office errors, two K-1s missing, an outdated 1099, and startup losses we never claimed.\n\nAnd a retirement contribution the return already deducted...that we hadn't actually deposited.  \n\nI sent it all to our CPA.  They sent back an amended return.  The bot reviewed that too.\n\nOne fix went the wrong direction.  The explanation had typos.\n\nThree versions later, all in one afternoon, it said ready to sign.\n\nJust a few hours start to finish.  With about 90 seconds of my time and attention required. I was just the meat proxy hitting send as Grokbot watched the replies in my email.  \n\nOur CPA is great and turned every fix around the same day.  \n\nWe chatted afterwards.  He wanted to know what I was using - just normal ole' grokbot.\n\nI asked him what he was using?  No AI tools.  \n\nI set him up with @magnetictax for next season (we're an investor).  All CPAs should be using Magnetic Tax or something like it.  Every single one.\n\nAll individuals should be double checking the work and past work with Grokbot or something like that.  \n\nWant to copy the exact the prompt I used?  it was just this:\n\n\"Please do a thorough review of my taxes and help me understand if my CPA made any mistakes\"\n\n\"Think deeply\"\n\nOr just tag your bot into this thread.",
+        "url": "https://x.com/jasonfreedman/status/2110091703419871393",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 22,
+        "likes": 346,
+        "quotes": 6,
+        "replies": 137,
+        "retweets": 55,
+        "views": 312095
+      },
+      "url": "https://x.com/elonmusk/status/2110253157758673079",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110252838920360080",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T06:14:18.000Z",
+      "created_at_shanghai": "2026-10-14 14:14:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Robots. Servers. Machines that dream.\nAll shot on a film stock that remembers 1985.\nTomorrow, filmed like yesterday.\n\nWhat if AI had been filmed in 1985?\n\nVisuals: @grok  @imagine .  \nDirection assisted by Grok @bot .\n\nMusic: Suno +editing software",
+      "quote": null,
+      "retweet": {
+        "author": "dvorahfr",
+        "avatar": "https://pbs.twimg.com/profile_images/1605451924144373760/K27zpEfc_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 01:39:00",
+        "created_at_utc": "2026-10-13T17:39:00.000Z",
+        "id": "2110062762218926204",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110022641792753664/img/NQcxCgKv3iv8kiuD.jpg"
+        ],
+        "media": [
+          {
+            "duration": 59.234,
+            "height": 1440,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110022641792753664/img/NQcxCgKv3iv8kiuD.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110022641792753664/vid/avc1/2556x1440/q7zUjiLGl82mz1ip.mp4?tag=29",
+            "width": 2556
+          }
+        ],
+        "name": "Déborah",
+        "text": "Robots. Servers. Machines that dream.\nAll shot on a film stock that remembers 1985.\nTomorrow, filmed like yesterday.\n\nWhat if AI had been filmed in 1985?\n\nVisuals: @grok  @imagine .  \nDirection assisted by Grok @bot .\n\nMusic: Suno +editing software",
+        "url": "https://x.com/dvorahfr/status/2110062762218926204",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 31,
+        "likes": 237,
+        "quotes": 5,
+        "replies": 37,
+        "retweets": 46,
+        "views": 24259
+      },
+      "url": "https://x.com/elonmusk/status/2110252838920360080",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110022641792753664/img/NQcxCgKv3iv8kiuD.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110022641792753664/vid/avc1/2556x1440/q7zUjiLGl82mz1ip.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110022641792753664/img/NQcxCgKv3iv8kiuD.jpg",
+          "width": 2556,
+          "height": 1440,
+          "duration": 59.234
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110245096054747626",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T05:43:32.000Z",
+      "created_at_shanghai": "2026-10-14 13:43:32",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I made a Grok Bot that can use Suno, Midjourney, and Opus to make music videos\n\n\"Claudia\" (the Grok Bot) made this teaser autonomously with @imagine\n\nhttps://x.ai/bot/zvsgYtQHUcSKGRhAb_JzM",
+      "quote": null,
+      "retweet": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 12:23:29",
+        "created_at_utc": "2026-10-14T04:23:29.000Z",
+        "id": "2110224953287070195",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110224903857381376/img/brSaeVUvHQTw473m.jpg"
+        ],
+        "media": [
+          {
+            "duration": 20.2,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110224903857381376/img/brSaeVUvHQTw473m.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110224903857381376/vid/avc1/1920x1080/KuCi1eWClVKwEzW9.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "anabology",
+        "text": "I made a Grok Bot that can use Suno, Midjourney, and Opus to make music videos\n\n\"Claudia\" (the Grok Bot) made this teaser autonomously with @imagine\n\nhttps://x.ai/bot/zvsgYtQHUcSKGRhAb_JzM",
+        "url": "https://x.com/anabology/status/2110224953287070195",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 367,
+        "likes": 898,
+        "quotes": 34,
+        "replies": 108,
+        "retweets": 126,
+        "views": 212831
+      },
+      "url": "https://x.com/elonmusk/status/2110245096054747626",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110224903857381376/img/brSaeVUvHQTw473m.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110224903857381376/vid/avc1/1920x1080/KuCi1eWClVKwEzW9.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110224903857381376/img/brSaeVUvHQTw473m.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 20.2
         }
       ],
       "enriched": true
@@ -945,8 +1123,8 @@
   ],
   "page": 42,
   "page_size": 20,
-  "total": 1686,
-  "total_pages": 85,
-  "updated_at_shanghai": "2026-10-30 19:38:53",
+  "total": 1739,
+  "total_pages": 87,
+  "updated_at_shanghai": "2026-10-31 01:10:09",
   "account": "elonmusk"
 }

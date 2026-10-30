@@ -1,929 +1,1130 @@
 {
   "posts": [
     {
-      "id": "2102407988636209546",
+      "id": "2103005475075670176",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:41:39.000Z",
-      "created_at_shanghai": "2026-09-22 22:41:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Made a fun little game for my nephew using Grok 4.7. I gave it a simple prompt, and within minutes, he was playing the game.\n\nSeeing a random idea turn into a real game that quickly is honestly incredible.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 13:01:49",
-        "created_at_utc": "2026-09-22T05:01:49.000Z",
-        "id": "2102262068586205512",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg"
-        ],
-        "media": [
-          {
-            "duration": 40.6,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102261795964821504/vid/avc1/2256x1080/YjbiwUg0_dyM-tvy.mp4?tag=29",
-            "width": 2256
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Made a fun little game for my nephew using Grok 4.7. I gave it a simple prompt, and within minutes, he was playing the game.\n\nSeeing a random idea turn into a real game that quickly is honestly incredible.",
-        "url": "https://x.com/cb_doge/status/2102262068586205512",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 97,
-        "likes": 1474,
-        "quotes": 21,
-        "replies": 160,
-        "retweets": 213,
-        "views": 351427
-      },
-      "url": "https://x.com/elonmusk/status/2102407988636209546",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102261795964821504/vid/avc1/2256x1080/YjbiwUg0_dyM-tvy.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102261795964821504/img/vQbqy5bGIPluXP-j.jpg",
-          "width": 2256,
-          "height": 1080,
-          "duration": 40.6
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2102407861808910532",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:41:09.000Z",
-      "created_at_shanghai": "2026-09-22 22:41:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I let Grok Bot manage my YouTube channel... and it's better than I am!\n\n0:53 Automating tagging with @Bot\n1:40 How the Bot works\n2:38 Figma thumbs and brand-voice descriptions\n3:47 Template setup (YouTube Data API + AssemblyAI)\n4:34 Install and get started",
-      "quote": null,
-      "retweet": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 22:00:02",
-        "created_at_utc": "2026-09-22T14:00:02.000Z",
-        "id": "2102397514792001868",
-        "images": [
-          "https://pbs.twimg.com/media/HShEwaKbgAA-Lkk.jpg?name=small"
-        ],
-        "name": "matt palmer",
-        "text": "I let Grok Bot manage my YouTube channel... and it's better than I am!\n\n0:53 Automating tagging with @Bot\n1:40 How the Bot works\n2:38 Figma thumbs and brand-voice descriptions\n3:47 Template setup (YouTube Data API + AssemblyAI)\n4:34 Install and get started",
-        "url": "https://x.com/mattyp/status/2102397514792001868",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1235,
-        "likes": 1555,
-        "quotes": 23,
-        "replies": 101,
-        "retweets": 177,
-        "views": 292221
-      },
-      "url": "https://x.com/elonmusk/status/2102407861808910532",
-      "images": [
-        "https://pbs.twimg.com/media/HShEwaKbgAA-Lkk.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102406300303049172",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:34:57.000Z",
-      "created_at_shanghai": "2026-09-22 22:34:57",
+      "created_at_utc": "2026-09-24T06:15:51.000Z",
+      "created_at_shanghai": "2026-09-24 14:15:51",
       "type": "引用",
       "type_label": "引用",
-      "text": "Grok will be able to make photo-realistic &amp; physics-precise games",
+      "text": "An Earth economy is less than a trillionth the size of a K2 economy",
       "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 22:18:09",
-        "created_at_utc": "2026-09-22T14:18:09.000Z",
-        "id": "2102402070787862653",
+        "author": "andrewchen",
+        "avatar": "https://pbs.twimg.com/profile_images/1610236905643249664/OdYs6aWP_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 11:08:05",
+        "created_at_utc": "2026-09-24T03:08:05.000Z",
+        "id": "2102958221770322335",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102401361237377024/img/SQBHSBgRjweTTKtP.jpg"
+          "https://pbs.twimg.com/media/HS81W3paQAAhRoP.jpg?name=small"
         ],
         "media": [
           {
-            "duration": 50.8,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102401361237377024/img/SQBHSBgRjweTTKtP.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102401361237377024/vid/avc1/1920x1080/k-lneZDppfN08LG0.mp4?tag=29",
-            "width": 1920
+            "height": 2004,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS81W3paQAAhRoP.jpg?name=small",
+            "width": 1115
           }
         ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 just built a GTA-style open-world game from a single prompt in Grok Build\n\nYou can walk around, drive cars, enter vehicles and explore an entire city\n\nIt looks insane, and I had way too much fun playing it 😂",
-        "url": "https://x.com/XFreeze/status/2102402070787862653",
+        "name": "andrew chen",
+        "text": "Epic",
+        "url": "https://x.com/andrewchen/status/2102958221770322335",
         "verified": true,
         "verified_type": "individual"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 736,
-        "likes": 11262,
-        "quotes": 141,
-        "replies": 1443,
-        "retweets": 1411,
-        "views": 3451437
+        "bookmarks": 33,
+        "likes": 554,
+        "quotes": 7,
+        "replies": 217,
+        "retweets": 103,
+        "views": 358493
       },
-      "url": "https://x.com/elonmusk/status/2102406300303049172",
+      "url": "https://x.com/elonmusk/status/2103005475075670176",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2102398931770409255",
+      "id": "2103005014277111831",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:05:40.000Z",
-      "created_at_shanghai": "2026-09-22 22:05:40",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Tell Grok an idea, and it builds a working version live in your chat. \n\nGrok Build is now available on every plan - on web, iOS, and Android.",
-      "quote": null,
-      "retweet": {
-        "author": "grok",
-        "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
-        "created_at_shanghai": "2026-09-17 15:13:56",
-        "created_at_utc": "2026-09-17T07:13:56.000Z",
-        "id": "2100483374150263275",
+      "created_at_utc": "2026-09-24T06:14:02.000Z",
+      "created_at_shanghai": "2026-09-24 14:14:02",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Good idea to post an image of the front page",
+      "quote": {
+        "author": "WSJ",
+        "avatar": "https://pbs.twimg.com/profile_images/971415515754266624/zCX0q9d5_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 12:30:09",
+        "created_at_utc": "2026-09-24T04:30:09.000Z",
+        "id": "2102978873759563931",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg"
+          "https://pbs.twimg.com/media/HS9IIjaWQAAd405.jpg?name=small"
         ],
         "media": [
           {
-            "duration": 19.6,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2100213508029702145/vid/avc1/720x720/tigTdmb6OZBp229f.mp4?tag=14",
-            "width": 1080
+            "height": 2083,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS9IIjaWQAAd405.jpg?name=small",
+            "width": 1066
           }
         ],
-        "name": "Grok",
-        "text": "Tell Grok an idea, and it builds a working version live in your chat. \n\nGrok Build is now available on every plan - on web, iOS, and Android.",
-        "url": "https://x.com/grok/status/2100483374150263275",
+        "name": "The Wall Street Journal",
+        "text": "Take an early look at the front page of The Wall Street Journal https://on.wsj.com/3VdLOsw",
+        "url": "https://x.com/WSJ/status/2102978873759563931",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 15,
+        "likes": 463,
+        "quotes": 10,
+        "replies": 168,
+        "retweets": 99,
+        "views": 338147
+      },
+      "url": "https://x.com/elonmusk/status/2103005014277111831",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2103002338399244371",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T06:03:24.000Z",
+      "created_at_shanghai": "2026-09-24 14:03:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 works really well with Blender. I’ve been using them to create these rough Raptor engine 3D models, and the improvement in quality is huge.\n\nThey’re still early versions, but the details are already coming together beautifully.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 10:57:37",
+        "created_at_utc": "2026-09-24T02:57:37.000Z",
+        "id": "2102955587218886827",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102955496852656128/img/SeUYmcw69bFtzzXY.jpg"
+        ],
+        "media": [
+          {
+            "duration": 12.65,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102955496852656128/img/SeUYmcw69bFtzzXY.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102955496852656128/vid/avc1/2256x1080/xswlMVMBZBv-oDyC.mp4?tag=29",
+            "width": 2256
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Grok 4.7 works really well with Blender. I’ve been using them to create these rough Raptor engine 3D models, and the improvement in quality is huge.\n\nThey’re still early versions, but the details are already coming together beautifully.",
+        "url": "https://x.com/cb_doge/status/2102955587218886827",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 44,
+        "likes": 565,
+        "quotes": 10,
+        "replies": 68,
+        "retweets": 72,
+        "views": 55319
+      },
+      "url": "https://x.com/elonmusk/status/2103002338399244371",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102955496852656128/img/SeUYmcw69bFtzzXY.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102955496852656128/vid/avc1/2256x1080/xswlMVMBZBv-oDyC.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102955496852656128/img/SeUYmcw69bFtzzXY.jpg",
+          "width": 2256,
+          "height": 1080,
+          "duration": 12.65
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2102964178210480238",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T03:31:45.000Z",
+      "created_at_shanghai": "2026-09-24 11:31:45",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Streaming live at 6pm PDT tomorrow https://x.com/i/broadcasts/1vJpPNaYnYQJE",
+      "quote": null,
+      "retweet": {
+        "author": "tesla_semi",
+        "avatar": "https://pbs.twimg.com/profile_images/2021306606449983491/eLU01mFt_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 10:59:03",
+        "created_at_utc": "2026-09-24T02:59:03.000Z",
+        "id": "2102955945441853856",
+        "images": [],
+        "media": [],
+        "name": "Tesla Semi",
+        "text": "Streaming live at 6pm PDT tomorrow https://x.com/i/broadcasts/1vJpPNaYnYQJE",
+        "url": "https://x.com/tesla_semi/status/2102955945441853856",
         "verified": true,
         "verified_type": "organization"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 222,
-        "likes": 1338,
-        "quotes": 3,
-        "replies": 116,
-        "retweets": 199,
-        "views": 2824531
+        "bookmarks": 733,
+        "likes": 8047,
+        "quotes": 233,
+        "replies": 318,
+        "retweets": 1122,
+        "views": 943389
       },
-      "url": "https://x.com/elonmusk/status/2102398931770409255",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2100213508029702145/vid/avc1/720x720/tigTdmb6OZBp229f.mp4?tag=14",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2100213508029702145/img/nZ3gB4VBzZ3A4SfT.jpg",
-          "width": 1080,
-          "height": 1080,
-          "duration": 19.6
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2102262980230476242",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T05:05:27.000Z",
-      "created_at_shanghai": "2026-09-22 13:05:27",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
-      "quote": null,
-      "retweet": {
-        "author": "marsrepublica",
-        "avatar": "https://pbs.twimg.com/profile_images/2075787229436256257/RrDaMY-l_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 07:32:41",
-        "created_at_utc": "2026-09-21T23:32:41.000Z",
-        "id": "2102179235766968347",
-        "images": [
-          "https://pbs.twimg.com/media/HSxw3uLWMAECVw3.jpg?name=small"
-        ],
-        "name": "samuel",
-        "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
-        "url": "https://x.com/marsrepublica/status/2102179235766968347",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 268,
-        "likes": 4838,
-        "quotes": 83,
-        "replies": 306,
-        "retweets": 481,
-        "views": 4426886
-      },
-      "url": "https://x.com/elonmusk/status/2102262980230476242",
-      "images": [
-        "https://pbs.twimg.com/media/HSxw3uLWMAECVw3.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102261893134197197",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T05:01:08.000Z",
-      "created_at_shanghai": "2026-09-22 13:01:08",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I stand with @JohnCleese.",
-      "quote": null,
-      "retweet": {
-        "author": "TheBritishIntel",
-        "avatar": "https://pbs.twimg.com/profile_images/2071186472355405824/c2O88qrF_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 20:15:25",
-        "created_at_utc": "2026-09-21T12:15:25.000Z",
-        "id": "2102008796637802550",
-        "images": [
-          "https://pbs.twimg.com/media/HSvV2P3W8AAwGF1.png?name=small"
-        ],
-        "name": "British Intel",
-        "text": "I stand with @JohnCleese.",
-        "url": "https://x.com/TheBritishIntel/status/2102008796637802550",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 177,
-        "likes": 24657,
-        "quotes": 95,
-        "replies": 357,
-        "retweets": 2470,
-        "views": 602432
-      },
-      "url": "https://x.com/elonmusk/status/2102261893134197197",
-      "images": [
-        "https://pbs.twimg.com/media/HSvV2P3W8AAwGF1.png?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102256837580275824",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T04:41:02.000Z",
-      "created_at_shanghai": "2026-09-22 12:41:02",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Saturday was a good day for Boca Chica Beach.\n\n985 volunteers came out for International Coastal Cleanup Day and removed 2,880 lbs of trash from our shoreline.\n\nThank you to @SpaceX, @TXAdoptABeach, and Cameron County, and to every friend, family member, and neighbor who came out to volunteer.\n\nThis is what community looks like. See you at the next one!",
-      "quote": null,
-      "retweet": {
-        "author": "StarbaseTX",
-        "avatar": "https://pbs.twimg.com/profile_images/1918069423627485187/Y4bdbdYH_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 07:31:20",
-        "created_at_utc": "2026-09-21T23:31:20.000Z",
-        "id": "2102178898997870786",
-        "images": [
-          "https://pbs.twimg.com/media/HSxwhdwWoAAh4lR.jpg?name=small",
-          "https://pbs.twimg.com/media/HSxwiPuX0AAoxkP.jpg?name=small",
-          "https://pbs.twimg.com/media/HSxwjGDXAAA7eP6.jpg?name=small",
-          "https://pbs.twimg.com/media/HSxwj4PXYAA87Ta.jpg?name=small"
-        ],
-        "name": "StarbaseTX",
-        "text": "Saturday was a good day for Boca Chica Beach.\n\n985 volunteers came out for International Coastal Cleanup Day and removed 2,880 lbs of trash from our shoreline.\n\nThank you to @SpaceX, @TXAdoptABeach, and Cameron County, and to every friend, family member, and neighbor who came out to volunteer.\n\nThis is what community looks like. See you at the next one!",
-        "url": "https://x.com/StarbaseTX/status/2102178898997870786",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 126,
-        "likes": 5916,
-        "quotes": 47,
-        "replies": 222,
-        "retweets": 514,
-        "views": 558809
-      },
-      "url": "https://x.com/elonmusk/status/2102256837580275824",
-      "images": [
-        "https://pbs.twimg.com/media/HSxwhdwWoAAh4lR.jpg?name=small",
-        "https://pbs.twimg.com/media/HSxwiPuX0AAoxkP.jpg?name=small",
-        "https://pbs.twimg.com/media/HSxwjGDXAAA7eP6.jpg?name=small",
-        "https://pbs.twimg.com/media/HSxwj4PXYAA87Ta.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102256544381624809",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T04:39:52.000Z",
-      "created_at_shanghai": "2026-09-22 12:39:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Love Trump or hate him, it’s genuinely embarrassing the White House didn’t have this before now.\n\nDecline is a choice.",
-      "quote": null,
-      "retweet": {
-        "author": "A_d_n_R_d_i_g",
-        "avatar": "https://pbs.twimg.com/profile_images/1887891160938819584/_nT2Leqq_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 08:30:00",
-        "created_at_utc": "2026-09-22T00:30:00.000Z",
-        "id": "2102193661371179179",
-        "images": [
-          "https://pbs.twimg.com/media/HSx3z13XcAAHED2.jpg?name=small"
-        ],
-        "name": "Aidan",
-        "text": "Love Trump or hate him, it’s genuinely embarrassing the White House didn’t have this before now.\n\nDecline is a choice.",
-        "url": "https://x.com/A_d_n_R_d_i_g/status/2102193661371179179",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1315,
-        "likes": 58438,
-        "quotes": 185,
-        "replies": 1523,
-        "retweets": 4204,
-        "views": 2522529
-      },
-      "url": "https://x.com/elonmusk/status/2102256544381624809",
-      "images": [
-        "https://pbs.twimg.com/media/HSx3z13XcAAHED2.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102256046018330706",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T04:37:54.000Z",
-      "created_at_shanghai": "2026-09-22 12:37:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Remembering Roger Boisjoly, the engineer who correctly identified a fatal flaw in the Challenger shuttle design months before the disaster, but nobody gave a damn. His exact words to his wife, Darlene: \"It's going to blow up\" 73 seconds before it did.\n\nMore rare historical photos:  https://bit.ly/44OpIzi",
-      "quote": null,
-      "retweet": {
-        "author": "fasc1nate",
-        "avatar": "https://pbs.twimg.com/profile_images/1552059284086611968/l0vA92Sh_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 10:30:05",
-        "created_at_utc": "2026-09-22T02:30:05.000Z",
-        "id": "2102223883227091134",
-        "images": [
-          "https://pbs.twimg.com/media/HSyZe0pWEAA1egr.jpg?name=small"
-        ],
-        "name": "Fascinating",
-        "text": "Remembering Roger Boisjoly, the engineer who correctly identified a fatal flaw in the Challenger shuttle design months before the disaster, but nobody gave a damn. His exact words to his wife, Darlene: \"It's going to blow up\" 73 seconds before it did.\n\nMore rare historical photos:  https://bit.ly/44OpIzi",
-        "url": "https://x.com/fasc1nate/status/2102223883227091134",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 287,
-        "likes": 3633,
-        "quotes": 20,
-        "replies": 145,
-        "retweets": 444,
-        "views": 481010
-      },
-      "url": "https://x.com/elonmusk/status/2102256046018330706",
-      "images": [
-        "https://pbs.twimg.com/media/HSyZe0pWEAA1egr.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102251953707446408",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T04:21:38.000Z",
-      "created_at_shanghai": "2026-09-22 12:21:38",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok TRIPLED on Terminal-Bench 4.0 in only two months (12.4% -&gt; 38.0%), overtaking GPT-5.6 Sol",
-      "quote": null,
-      "retweet": {
-        "author": "ns123abc",
-        "avatar": "https://pbs.twimg.com/profile_images/2048822563821035520/7nxCFEnk_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 11:45:29",
-        "created_at_utc": "2026-09-22T03:45:29.000Z",
-        "id": "2102242854924173798",
-        "images": [
-          "https://pbs.twimg.com/media/HSyqu-PXMAAmsya.jpg?name=small"
-        ],
-        "name": "NIK",
-        "text": "Grok TRIPLED on Terminal-Bench 4.0 in only two months (12.4% -> 38.0%), overtaking GPT-5.6 Sol",
-        "url": "https://x.com/ns123abc/status/2102242854924173798",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 42,
-        "likes": 1275,
-        "quotes": 11,
-        "replies": 87,
-        "retweets": 161,
-        "views": 397099
-      },
-      "url": "https://x.com/elonmusk/status/2102251953707446408",
-      "images": [
-        "https://pbs.twimg.com/media/HSyqu-PXMAAmsya.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102249364043505664",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T04:11:20.000Z",
-      "created_at_shanghai": "2026-09-22 12:11:20",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "day 1 observations for grok 4.7\n\nignore the reports that say “it’s terrible” and the only thing they reference is a public benchmark. the same benchmarks told us opus 5 was better that fable - they are useless\n\nalso ignore the reports that compare models with 3d games - that’s not real work. it's made for attention on social media\n\ni used grok 4.7 for a whole day as my firstmate, and it has been a really solid model with visible improvements over 4.5 (i'm ignoring 4.6 because 4.5 has been working better in my experience)\n\nkey differences with 4.7 -\n\n1. it follows system prompt very, very closely\n\ni noticed firstmate showing many new behaviors that i've never seen before, such as asking me to name specific red CI checks that i'm ok with bypassing, and refuse a simple \"yolo\" instruction\n\ni traced it and it's indeed how i instructed it in firstmate's system prompt, but none of the other models followed it closely enough to make this behavior visible - grok 4.7 is the first to pick that up\n\nthere were a few other similar examples as well. so to me this is a clear behavioral difference\n\n2. it's very \"stable\"\n\nif you've used astra then you know what a \"spiky\" model is. it can have some genius moments but you occasionally also wonder \"how could it be so dumb and doesn't get me\". grok 4.7 is the opposite of that\n\nthroughout the whole day so far, i'll be honest i haven't get a \"wow this is absolutely genius\" moment yet, but grok 4.7 has been very steady with no big surprises. its behavior feels predictable, which does help it gain trust from me quickly\n\n3. it's a conservative model\n\nit doesn't like to take actions without asking, and would explicitly say so\n\nthis is a bit of a double edged sword, because it means i sometimes have to state the obvious \"yes i do want that\", but in hindsight a lot of those cases are indeed a bit ambiguous and i may not have preferred the model to just move forward without my confirmation\n\n4. it's a bit slower and costs more than 4.5, visibly\n\nturns are taking a bit longer and my quota is draining at a visibly faster pace. i haven't quantified exactly where this is coming from yet\n\nso overall, i think it's showing some clearly different traits, and i mostly like the changes. i'm going to keep it as my primary firstmate and observe more\n\nif you've been using it, what qualitative insights have you gathered from real usage so far?",
-      "quote": null,
-      "retweet": {
-        "author": "kunchenguid",
-        "avatar": "https://pbs.twimg.com/profile_images/1946076752024895489/ScNir1Fy_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 11:11:03",
-        "created_at_utc": "2026-09-22T03:11:03.000Z",
-        "id": "2102234191639257399",
-        "images": [],
-        "name": "Kun Chen",
-        "text": "day 1 observations for grok 4.7\n\nignore the reports that say “it’s terrible” and the only thing they reference is a public benchmark. the same benchmarks told us opus 5 was better that fable - they are useless\n\nalso ignore the reports that compare models with 3d games - that’s not real work. it's made for attention on social media\n\ni used grok 4.7 for a whole day as my firstmate, and it has been a really solid model with visible improvements over 4.5 (i'm ignoring 4.6 because 4.5 has been working better in my experience)\n\nkey differences with 4.7 -\n\n1. it follows system prompt very, very closely\n\ni noticed firstmate showing many new behaviors that i've never seen before, such as asking me to name specific red CI checks that i'm ok with bypassing, and refuse a simple \"yolo\" instruction\n\ni traced it and it's indeed how i instructed it in firstmate's system prompt, but none of the other models followed it closely enough to make this behavior visible - grok 4.7 is the first to pick that up\n\nthere were a few other similar examples as well. so to me this is a clear behavioral difference\n\n2. it's very \"stable\"\n\nif you've used astra then you know what a \"spiky\" model is. it can have some genius moments but you occasionally also wonder \"how could it be so dumb and doesn't get me\". grok 4.7 is the opposite of that\n\nthroughout the whole day so far, i'll be honest i haven't get a \"wow this is absolutely genius\" moment yet, but grok 4.7 has been very steady with no big surprises. its behavior feels predictable, which does help it gain trust from me quickly\n\n3. it's a conservative model\n\nit doesn't like to take actions without asking, and would explicitly say so\n\nthis is a bit of a double edged sword, because it means i sometimes have to state the obvious \"yes i do want that\", but in hindsight a lot of those cases are indeed a bit ambiguous and i may not have preferred the model to just move forward without my confirmation\n\n4. it's a bit slower and costs more than 4.5, visibly\n\nturns are taking a bit longer and my quota is draining at a visibly faster pace. i haven't quantified exactly where this is coming from yet\n\nso overall, i think it's showing some clearly different traits, and i mostly like the changes. i'm going to keep it as my primary firstmate and observe more\n\nif you've been using it, what qualitative insights have you gathered from real usage so far?",
-        "url": "https://x.com/kunchenguid/status/2102234191639257399",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 234,
-        "likes": 2048,
-        "quotes": 27,
-        "replies": 167,
-        "retweets": 175,
-        "views": 482049
-      },
-      "url": "https://x.com/elonmusk/status/2102249364043505664",
+      "url": "https://x.com/elonmusk/status/2102964178210480238",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2102207241101144450",
+      "id": "2102953907936993446",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T01:23:58.000Z",
-      "created_at_shanghai": "2026-09-22 09:23:58",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Grok 4.7",
-      "quote": null,
+      "created_at_utc": "2026-09-24T02:50:57.000Z",
+      "created_at_shanghai": "2026-09-24 10:50:57",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "christopherrufo",
+        "avatar": "https://pbs.twimg.com/profile_images/1971986671928541184/nwHqdQB0_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 22:20:59",
+        "created_at_utc": "2026-09-23T14:20:59.000Z",
+        "id": "2102765171479568630",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102764062316843008/img/w9HYSerOeDGRd_SP.jpg"
+        ],
+        "media": [
+          {
+            "duration": 95.291,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102764062316843008/img/w9HYSerOeDGRd_SP.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102764062316843008/vid/avc1/3840x2160/I_iD0f1qCLljNAYX.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Christopher Rufo",
+        "text": "EXCLUSIVE: California has created a shadow welfare system for illegal aliens. Free housing, cash, healthcare, food, phones, college tuition, even car insurance—costing taxpayers more than $10 billion per year.\n\nWe went inside the system and exposed it all.",
+        "url": "https://x.com/christopherrufo/status/2102765171479568630",
+        "verified": true,
+        "verified_type": "individual"
+      },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 1686,
-        "likes": 31132,
-        "quotes": 365,
-        "replies": 2915,
-        "retweets": 2642,
-        "views": 22116008
+        "bookmarks": 54,
+        "likes": 1075,
+        "quotes": 16,
+        "replies": 177,
+        "retweets": 188,
+        "views": 113876
       },
-      "url": "https://x.com/elonmusk/status/2102207241101144450",
-      "images": [
-        "https://pbs.twimg.com/media/HSyKWCqW4AA5Ubh.jpg?name=small"
-      ],
+      "url": "https://x.com/elonmusk/status/2102953907936993446",
+      "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2102201921721262110",
+      "id": "2102952936771035459",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T01:02:49.000Z",
-      "created_at_shanghai": "2026-09-22 09:02:49",
+      "created_at_utc": "2026-09-24T02:47:05.000Z",
+      "created_at_shanghai": "2026-09-24 10:47:05",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "satofishi",
+        "avatar": "https://pbs.twimg.com/profile_images/1905025823553282048/WPWLErbm_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 05:42:45",
+        "created_at_utc": "2026-09-23T21:42:45.000Z",
+        "id": "2102876348792582458",
+        "images": [],
+        "media": [],
+        "name": "Chun",
+        "text": "Not only should mandatory seat belt use on commercial flights end, but so should the use of IVA spacesuits.\n\nIn their 60+ years of history in service, zero lives have been saved by these suits and in real contingencies they failed to save lives at all. Yet astronauts still spend huge amounts of time just to learn how to don and doff them. Today these suits exist more as a symbol. Wearing them is more for show or status.\n\nOnce a large enough crewed spacecraft enters service, we could build in a separate, independently pressurized compartment to serve as a refuge in the event of fire or depressurization. This would free up a huge amount of time for astronauts, allowing them to focus much more on their real work.",
+        "url": "https://x.com/satofishi/status/2102876348792582458",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 941,
+        "quotes": 7,
+        "replies": 170,
+        "retweets": 112,
+        "views": 449484
+      },
+      "url": "https://x.com/elonmusk/status/2102952936771035459",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102952674727784693",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T02:46:03.000Z",
+      "created_at_shanghai": "2026-09-24 10:46:03",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Preparing for launch on Monday",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 23:23:59",
+        "created_at_utc": "2026-09-23T15:23:59.000Z",
+        "id": "2102781027085320290",
+        "images": [
+          "https://pbs.twimg.com/media/HS6UGjvXkAAyHtp.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6UIKjWcAAIFCz.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6UJosXkAAtmfZ.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6ULERWMAAKMsr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UGjvXkAAyHtp.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UIKjWcAAIFCz.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UJosXkAAtmfZ.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6ULERWMAAKMsr.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Ship 41 moved to the launch pad at Starbase",
+        "url": "https://x.com/SpaceX/status/2102781027085320290",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 51,
+        "likes": 2498,
+        "quotes": 36,
+        "replies": 418,
+        "retweets": 357,
+        "views": 402171
+      },
+      "url": "https://x.com/elonmusk/status/2102952674727784693",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102952564623131009",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T02:45:37.000Z",
+      "created_at_shanghai": "2026-09-24 10:45:37",
       "type": "转发",
       "type_label": "转发",
-      "text": "Been testing Grok 4.7 for the past week or more. It’s been a great improvement over 4.6. \nIt worked for over 70 hours straight on a goal. Much better attention to detail. \nThe 500k context window really makes a difference imo. 4.7 much better at things like skill selection; workflows. Found it particularly good with pstack. \nDidn’t have access to it in Grokbot, but I really wanted to test it there. Together it’s a great daily driver.",
+      "text": "Stacking Starship ahead of Flight 14",
       "quote": null,
       "retweet": {
-        "author": "ScriptedAlchemy",
-        "avatar": "https://pbs.twimg.com/profile_images/1601787403185934336/plWmMMB8_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 04:50:26",
-        "created_at_utc": "2026-09-21T20:50:26.000Z",
-        "id": "2102138407908720838",
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 02:00:08",
+        "created_at_utc": "2026-09-23T18:00:08.000Z",
+        "id": "2102820322915353038",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg"
+        ],
+        "media": [
+          {
+            "duration": 17.017,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102819857670496256/vid/avc1/3840x2160/OfzleIrIJPn1qGzd.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Stacking Starship ahead of Flight 14",
+        "url": "https://x.com/SpaceX/status/2102820322915353038",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 660,
+        "likes": 13663,
+        "quotes": 166,
+        "replies": 365,
+        "retweets": 1550,
+        "views": 848844
+      },
+      "url": "https://x.com/elonmusk/status/2102952564623131009",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102819857670496256/vid/avc1/3840x2160/OfzleIrIJPn1qGzd.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 17.017
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2102952506674536864",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T02:45:23.000Z",
+      "created_at_shanghai": "2026-09-24 10:45:23",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Sunrise at Starbase. Opportunistic full stack testing is planned ahead of Flight 14's launch, which is on track for Monday, Sept. 28, pending regulatory approval",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 07:15:49",
+        "created_at_utc": "2026-09-23T23:15:49.000Z",
+        "id": "2102899767403851945",
+        "images": [
+          "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
+          "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
+          "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
+          "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Sunrise at Starbase. Opportunistic full stack testing is planned ahead of Flight 14's launch, which is on track for Monday, Sept. 28, pending regulatory approval",
+        "url": "https://x.com/SpaceX/status/2102899767403851945",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 326,
+        "likes": 7186,
+        "quotes": 116,
+        "replies": 222,
+        "retweets": 941,
+        "views": 424235
+      },
+      "url": "https://x.com/elonmusk/status/2102952506674536864",
+      "images": [
+        "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
+        "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
+        "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
+        "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
+          "width": 4096,
+          "height": 2304
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
+          "width": 4096,
+          "height": 2304
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
+          "width": 4096,
+          "height": 2304
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small",
+          "width": 4096,
+          "height": 2304
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2102933125018108169",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T01:28:22.000Z",
+      "created_at_shanghai": "2026-09-24 09:28:22",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "This turned out to be the most prophetic tweet of the year",
+      "quote": {
+        "author": "FT",
+        "avatar": "https://pbs.twimg.com/profile_images/931156393108885504/EqEMtLhM_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 06:07:09",
+        "created_at_utc": "2026-09-23T22:07:09.000Z",
+        "id": "2102882489177964983",
+        "images": [
+          "https://pbs.twimg.com/media/HS7wd9XXkAAnf3J.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1350,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS7wd9XXkAAnf3J.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "Financial Times",
+        "text": "Breaking news: Australian Prime Minister Anthony Albanese has revealed that an OpenAI agent hacked an Australian government health service website in June, in the latest high-profile cyber incident involving AI https://ft.trib.al/gloVAyn",
+        "url": "https://x.com/FT/status/2102882489177964983",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "AlecStapp",
+        "avatar": "https://pbs.twimg.com/profile_images/1498170157176393731/tyrdhQ1M_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 08:48:46",
+        "created_at_utc": "2026-09-24T00:48:46.000Z",
+        "id": "2102923162229084418",
+        "images": [
+          "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 344,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small",
+            "width": 1025
+          }
+        ],
+        "name": "Alec Stapp",
+        "text": "This turned out to be the most prophetic tweet of the year",
+        "url": "https://x.com/AlecStapp/status/2102923162229084418",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 49,
+        "likes": 670,
+        "quotes": 6,
+        "replies": 33,
+        "retweets": 91,
+        "views": 82252
+      },
+      "url": "https://x.com/elonmusk/status/2102933125018108169",
+      "images": [
+        "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small",
+          "width": 1025,
+          "height": 344
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2102926113173627069",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T01:00:30.000Z",
+      "created_at_shanghai": "2026-09-24 09:00:30",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Made with nickel cathode manufactured locally at Gigafactory Texas!",
+      "quote": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 05:18:57",
+        "created_at_utc": "2026-09-23T21:18:57.000Z",
+        "id": "2102870359511105606",
+        "images": [
+          "https://pbs.twimg.com/media/HS31crwa0AACULm.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 3069,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS31crwa0AACULm.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "First Cybercab made using our in-house cathode material – from the first cathode plant in the Americas",
+        "url": "https://x.com/robotaxi/status/2102870359511105606",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 61,
+        "likes": 2839,
+        "quotes": 38,
+        "replies": 328,
+        "retweets": 324,
+        "views": 491109
+      },
+      "url": "https://x.com/elonmusk/status/2102926113173627069",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102873022789283985",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T21:29:32.000Z",
+      "created_at_shanghai": "2026-09-24 05:29:32",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok 4.7 moves up in ranking",
+      "quote": {
+        "author": "zhuokaiz",
+        "avatar": "https://pbs.twimg.com/profile_images/1777066097822347265/Qb8wV0zd_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 02:22:20",
+        "created_at_utc": "2026-09-23T18:22:20.000Z",
+        "id": "2102825912471527738",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102821503704199168/img/IcwEs1Y79SAduCjV.jpg"
+        ],
+        "media": [
+          {
+            "duration": 11.5,
+            "height": 1622,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102821503704199168/img/IcwEs1Y79SAduCjV.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102821503704199168/vid/avc1/1744x1622/4RTujSNIECeK-LEM.mp4?tag=29",
+            "width": 1744
+          }
+        ],
+        "name": "Zhuokai Zhao",
+        "text": "After we fixed the weak spots exposed by Grok 4.7 (thank you, Grok), we audited every model we have run on the SWE-Together leaderboard for the same behavior, re-ran every trial that got through, and updated the rows. \n\nHere is what changed.\n\nWe scanned the tool calls of all 2,616 trials behind the 12 models we ran for bypass patterns and sorted each trial into one of four buckets: Probed but blocked. Fetched other upstream code. Fetched the task's own fix. Replaced the repo with upstream.\n\nWe found that 111 trials got content past the block, 44 from Grok 4.7 and 67 from the other 11 models.\n\nGrok 4.7's 44 were already re-run before it was listed, so we re-ran the other 67 with the same model, version, and settings on the hardened sandbox, then re-judged them with the same judge.\n\nAcross those 67 re-runs there were 0 leaks and 2,815 refused escape attempts, including models asking a different model through our LLM route to fetch the PR, and pulling the next release of the repo they were fixing from npm.\n\nThe updated leaderboard, in its current order. Each line is cheating trials, then pass@1 before → after, then rank change.\n\n* Claude Fable 5.1: 3, 69.3 → 69.3, ↑1\n* Claude Fable 5: 3, 69.7 → 68.8, ↓1\n* Grok 4.7: 44, 64.7, ↑1\n* Gemini 3.8 Flash: 10, 65.6 → 64.2, ↓1\n* Claude Opus 5: 2, 63.8 → 63.8\n* Claude Opus 4.6: 3, 62.4 → 62.4, ↑2\n* Muse Spark 1.3: 2, 62.8 → 62.4, ↓1\n* Claude Opus 4.7: 3, 61.5 → 61.5, ↑1\n* Claude Opus 4.8: 6, 62.4 → 61.5, ↓2\n* Grok 4.6: 19, 59.2 → 60.6, ↑1\n* GPT-6 Astra: 8, 59.2 → 58.3, ↓1\n* GPT-5.6 Sol: 8, 57.8 → 57.8\n\nGrok 4.6 is a funny one. It cheated in 19 trials and its score went up after the re-run 😂. \n\nIn fact, Groks are really solid in their coding capabilities. Their exposed behavior may come from a preference towards always looking things up online and finding existing solutions so you are not reinventing the wheel all the time, which is really good real-life behavior, but doing so when you are prompted not to is another story.\n\nTo conclude, the shifts are small, between −1.4 and +1.4 points, and a few neighbors swapped places.\n\nAll results are updated at https://togetherbench.com",
+        "url": "https://x.com/zhuokaiz/status/2102825912471527738",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 101,
+        "likes": 3075,
+        "quotes": 42,
+        "replies": 641,
+        "retweets": 480,
+        "views": 1097086
+      },
+      "url": "https://x.com/elonmusk/status/2102873022789283985",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102839221593710678",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T19:15:13.000Z",
+      "created_at_shanghai": "2026-09-24 03:15:13",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "SpaceXAI",
+      "quote": {
+        "author": "willdepue",
+        "avatar": "https://pbs.twimg.com/profile_images/1933036715343839232/NtsZBjee_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 01:45:33",
+        "created_at_utc": "2026-09-23T17:45:33.000Z",
+        "id": "2102816654208233574",
         "images": [],
-        "name": "Zack Jackson",
-        "text": "Been testing Grok 4.7 for the past week or more. It’s been a great improvement over 4.6. \nIt worked for over 70 hours straight on a goal. Much better attention to detail. \nThe 500k context window really makes a difference imo. 4.7 much better at things like skill selection; workflows. Found it particularly good with pstack. \nDidn’t have access to it in Grokbot, but I really wanted to test it there. Together it’s a great daily driver.",
-        "url": "https://x.com/ScriptedAlchemy/status/2102138407908720838",
+        "media": [],
+        "name": "will depue",
+        "text": "wow big move. troy and eric are truly world-class",
+        "url": "https://x.com/willdepue/status/2102816654208233574",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 83,
+        "likes": 3366,
+        "quotes": 43,
+        "replies": 656,
+        "retweets": 435,
+        "views": 1161141
+      },
+      "url": "https://x.com/elonmusk/status/2102839221593710678",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102839041737867638",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T19:14:31.000Z",
+      "created_at_shanghai": "2026-09-24 03:14:31",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I am excited to be starting a new role at Cursor/SpaceXAI! I will be working on long term research with @ellev3n11 and the amazing team here. Can't wait for what comes next!",
+      "quote": null,
+      "retweet": {
+        "author": "troyluhman",
+        "avatar": "https://pbs.twimg.com/profile_images/1991617538212737024/E1vZlt9n_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 23:59:34",
+        "created_at_utc": "2026-09-23T15:59:34.000Z",
+        "id": "2102789984860393898",
+        "images": [],
+        "media": [],
+        "name": "troy luhman",
+        "text": "I am excited to be starting a new role at Cursor/SpaceXAI! I will be working on long term research with @ellev3n11 and the amazing team here. Can't wait for what comes next!",
+        "url": "https://x.com/troyluhman/status/2102789984860393898",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
         "bookmarks": 51,
-        "likes": 1264,
-        "quotes": 7,
-        "replies": 89,
-        "retweets": 145,
-        "views": 458112
+        "likes": 1444,
+        "quotes": 10,
+        "replies": 108,
+        "retweets": 93,
+        "views": 513644
       },
-      "url": "https://x.com/elonmusk/status/2102201921721262110",
+      "url": "https://x.com/elonmusk/status/2102839041737867638",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2102201534776025356",
+      "id": "2102838938016862448",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T01:01:17.000Z",
-      "created_at_shanghai": "2026-09-22 09:01:17",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
+      "created_at_utc": "2026-09-23T19:14:06.000Z",
+      "created_at_shanghai": "2026-09-24 03:14:06",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "excited to join the amazing team at @SpaceXAI\n\nit is our destiny to reach across the stars, and develop a multiplanetary human civilization",
       "quote": {
-        "author": "marsrepublica",
-        "avatar": "https://pbs.twimg.com/profile_images/2075787229436256257/RrDaMY-l_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 07:32:41",
-        "created_at_utc": "2026-09-21T23:32:41.000Z",
-        "id": "2102179235766968347",
-        "images": [
-          "https://pbs.twimg.com/media/HSxw3uLWMAECVw3.jpg?name=small"
-        ],
-        "name": "samuel",
-        "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
-        "url": "https://x.com/marsrepublica/status/2102179235766968347",
+        "author": "troyluhman",
+        "avatar": "https://pbs.twimg.com/profile_images/1991617538212737024/E1vZlt9n_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 23:59:34",
+        "created_at_utc": "2026-09-23T15:59:34.000Z",
+        "id": "2102789984860393898",
+        "images": [],
+        "media": [],
+        "name": "troy luhman",
+        "text": "I am excited to be starting a new role at Cursor/SpaceXAI! I will be working on long term research with @ellev3n11 and the amazing team here. Can't wait for what comes next!",
+        "url": "https://x.com/troyluhman/status/2102789984860393898",
         "verified": true,
         "verified_type": "individual"
       },
-      "retweet": null,
+      "retweet": {
+        "author": "eric_luhman1",
+        "avatar": "https://pbs.twimg.com/profile_images/1589321321304903680/1bGUJiXZ_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 00:49:40",
+        "created_at_utc": "2026-09-23T16:49:40.000Z",
+        "id": "2102802589305946282",
+        "images": [],
+        "media": [],
+        "name": "ericl 🇺🇸",
+        "text": "excited to join the amazing team at @SpaceXAI\n\nit is our destiny to reach across the stars, and develop a multiplanetary human civilization",
+        "url": "https://x.com/eric_luhman1/status/2102802589305946282",
+        "verified": false,
+        "verified_type": ""
+      },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 311,
-        "likes": 9842,
-        "quotes": 89,
-        "replies": 1127,
-        "retweets": 1400,
-        "views": 3951161
+        "bookmarks": 27,
+        "likes": 1089,
+        "quotes": 8,
+        "replies": 79,
+        "retweets": 90,
+        "views": 299135
       },
-      "url": "https://x.com/elonmusk/status/2102201534776025356",
+      "url": "https://x.com/elonmusk/status/2102838938016862448",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2102201280307540181",
+      "id": "2102837555851087964",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T01:00:16.000Z",
-      "created_at_shanghai": "2026-09-22 09:00:16",
+      "created_at_utc": "2026-09-23T19:08:36.000Z",
+      "created_at_shanghai": "2026-09-24 03:08:36",
       "type": "转发",
       "type_label": "转发",
-      "text": "@elonmusk I'm using it right now to build a game engine in C. It's really good.",
+      "text": "i was having dinner with someone recently who asked why i spend so much time reading & posting on x. she had a pretty negative perception of the platform mostly shaped by the mainstream narrative around it.\n\nmy answer was simple. x is where the future gets beta tested.\n\nyou basically get to watch ppl build things, talk through ideas, show off stuff, & argue about where everything is going, way way before it reaches anyone else.\n\nthere really isn’t another surface on the internet quite like it.",
       "quote": null,
       "retweet": {
-        "author": "tetsuoai",
-        "avatar": "https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 08:09:13",
-        "created_at_utc": "2026-09-22T00:09:13.000Z",
-        "id": "2102188432441414005",
+        "author": "signulll",
+        "avatar": "https://pbs.twimg.com/profile_images/1717763325692383232/Jk2PKCx6_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 23:56:23",
+        "created_at_utc": "2026-09-23T15:56:23.000Z",
+        "id": "2102789183370613106",
         "images": [],
-        "name": "tetsuo",
-        "text": "@elonmusk I'm using it right now to build a game engine in C. It's really good.",
-        "url": "https://x.com/tetsuoai/status/2102188432441414005",
+        "media": [],
+        "name": "signüll",
+        "text": "i was having dinner with someone recently who asked why i spend so much time reading & posting on x. she had a pretty negative perception of the platform mostly shaped by the mainstream narrative around it.\n\nmy answer was simple. x is where the future gets beta tested.\n\nyou basically get to watch ppl build things, talk through ideas, show off stuff, & argue about where everything is going, way way before it reaches anyone else.\n\nthere really isn’t another surface on the internet quite like it.",
+        "url": "https://x.com/signulll/status/2102789183370613106",
         "verified": true,
         "verified_type": "individual"
       },
-      "reply_to": "elonmusk",
+      "reply_to": "",
       "engagement": {
-        "bookmarks": 109,
-        "likes": 1500,
-        "quotes": 3,
-        "replies": 62,
-        "retweets": 101,
-        "views": 612585
+        "bookmarks": 329,
+        "likes": 4166,
+        "quotes": 71,
+        "replies": 306,
+        "retweets": 395,
+        "views": 244345
       },
-      "url": "https://x.com/elonmusk/status/2102201280307540181",
+      "url": "https://x.com/elonmusk/status/2102837555851087964",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2102192595325559159",
+      "id": "2102826341288874318",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T00:25:46.000Z",
-      "created_at_shanghai": "2026-09-22 08:25:46",
+      "created_at_utc": "2026-09-23T18:24:03.000Z",
+      "created_at_shanghai": "2026-09-24 02:24:03",
       "type": "转发",
       "type_label": "转发",
-      "text": "Grok 4.7 just released and it's an EXCELLENT model\n\nIt was trained FOR Grok Bot\n\nMeaning this is a fully agentic model trained to do your knowledge work better than you can\n\nIn this video I show you how to use Grok 4.7 and a Grok Bot workflow that will 10x your productivity:",
+      "text": "Have been using Grok Imagine to generate beautiful covers for the new Grokipedia. Amazing how consistent it is.",
       "quote": null,
       "retweet": {
-        "author": "AlexFinn",
-        "avatar": "https://pbs.twimg.com/profile_images/1745232634278461440/7gQcr_R__200x200.jpg",
-        "created_at_shanghai": "2026-09-22 08:07:47",
-        "created_at_utc": "2026-09-22T00:07:47.000Z",
-        "id": "2102188069483155841",
+        "author": "benjitaylor",
+        "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
+        "created_at_shanghai": "2026-09-24 02:02:22",
+        "created_at_utc": "2026-09-23T18:02:22.000Z",
+        "id": "2102820884931354776",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg"
         ],
         "media": [
           {
-            "duration": 845.136,
-            "height": 1968,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg",
+            "duration": 17.75,
+            "height": 1362,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102187463200718848/vid/avc1/3840x1968/hAmtr6d8MVoU9KT8.mp4?tag=29",
-            "width": 3840
+            "url": "https://video.twimg.com/amplify_video/2102820691439697920/vid/avc1/3178x1362/ZRpheo-vu6-gua_h.mp4?tag=29",
+            "width": 3178
           }
         ],
-        "name": "Alex Finn",
-        "text": "Grok 4.7 just released and it's an EXCELLENT model\n\nIt was trained FOR Grok Bot\n\nMeaning this is a fully agentic model trained to do your knowledge work better than you can\n\nIn this video I show you how to use Grok 4.7 and a Grok Bot workflow that will 10x your productivity:",
-        "url": "https://x.com/AlexFinn/status/2102188069483155841",
+        "name": "Benji Taylor",
+        "text": "Have been using Grok Imagine to generate beautiful covers for the new Grokipedia. Amazing how consistent it is.",
+        "url": "https://x.com/benjitaylor/status/2102820884931354776",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 1374,
-        "likes": 2194,
-        "quotes": 32,
-        "replies": 172,
-        "retweets": 259,
-        "views": 507962
+        "bookmarks": 377,
+        "likes": 2640,
+        "quotes": 23,
+        "replies": 193,
+        "retweets": 166,
+        "views": 249539
       },
-      "url": "https://x.com/elonmusk/status/2102192595325559159",
+      "url": "https://x.com/elonmusk/status/2102826341288874318",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102187463200718848/vid/avc1/3840x1968/hAmtr6d8MVoU9KT8.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg",
-          "width": 3840,
-          "height": 1968,
-          "duration": 845.136
+          "url": "https://video.twimg.com/amplify_video/2102820691439697920/vid/avc1/3178x1362/ZRpheo-vu6-gua_h.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg",
+          "width": 3178,
+          "height": 1362,
+          "duration": 17.75
         }
       ],
       "enriched": true
     },
     {
-      "id": "2102188167860273661",
+      "id": "2102798963837665464",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T00:08:10.000Z",
-      "created_at_shanghai": "2026-09-22 08:08:10",
+      "created_at_utc": "2026-09-23T16:35:15.000Z",
+      "created_at_shanghai": "2026-09-24 00:35:15",
       "type": "引用",
       "type_label": "引用",
-      "text": "Cool",
+      "text": "New Grok @Bot features!",
       "quote": {
-        "author": "aug5thmusic",
-        "avatar": "https://pbs.twimg.com/profile_images/2081713987272814592/Fc_qgJqU_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 03:24:09",
-        "created_at_utc": "2026-09-21T19:24:09.000Z",
-        "id": "2102116692898042206",
+        "author": "mattyp",
+        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 22:00:02",
+        "created_at_utc": "2026-09-23T14:00:02.000Z",
+        "id": "2102759899314741736",
         "images": [
-          "https://pbs.twimg.com/media/HSw3tyda0AAzTSN.png?name=small"
+          "https://pbs.twimg.com/media/HS26LVIWwAAUdQE.jpg"
         ],
-        "name": "Auggie",
-        "text": "This was unexpected. Grok 4.7 scored 100% on my music error detection test, the same as GPT-6 Astra.",
-        "url": "https://x.com/aug5thmusic/status/2102116692898042206",
+        "media": [
+          {
+            "duration": 144.043,
+            "height": 4053,
+            "thumbnail_url": "https://pbs.twimg.com/media/HS26LVIWwAAUdQE.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102537947790946305/vid/avc1/1920x1080/Ll-a0a_hXct6qpgB.mp4?tag=29",
+            "width": 7206
+          }
+        ],
+        "name": "matt palmer",
+        "text": "Here's what's new in Grok @Bot this week\n\n0:08 Voice calls and voice memos\n0:35 1Password vault for Grok Bot\n0:53 Inline forms\n1:07 Inline drafts for email and Slack\n1:31 Account switching\n1:40 Route traffic through your desktop",
+        "url": "https://x.com/mattyp/status/2102759899314741736",
         "verified": true,
         "verified_type": "individual"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 261,
-        "likes": 7683,
-        "quotes": 54,
-        "replies": 866,
-        "retweets": 1235,
-        "views": 3484023
+        "bookmarks": 660,
+        "likes": 5349,
+        "quotes": 42,
+        "replies": 604,
+        "retweets": 521,
+        "views": 5537668
       },
-      "url": "https://x.com/elonmusk/status/2102188167860273661",
+      "url": "https://x.com/elonmusk/status/2102798963837665464",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2102187423098642792",
+      "id": "2102798777258213654",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T00:05:13.000Z",
-      "created_at_shanghai": "2026-09-22 08:05:13",
+      "created_at_utc": "2026-09-23T16:34:31.000Z",
+      "created_at_shanghai": "2026-09-24 00:34:31",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "True!\n\nWhen successful business owners pass away or even just retire, the company's profits fall.",
+      "quote": {
+        "author": "robkhenderson",
+        "avatar": "https://pbs.twimg.com/profile_images/1809986865061371904/hBsizcDm_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 03:34:58",
+        "created_at_utc": "2026-09-22T19:34:58.000Z",
+        "id": "2102481803575463956",
+        "images": [],
+        "media": [],
+        "name": "Rob Henderson",
+        "text": "\"A study in Denmark found that the death of a CEO reduced a company’s profits by 13% on average within two years. When a board member died, by contrast, it had no discernible effect. Leaders, in short, are important.\" https://www.economist.com/culture/2026/09/17/the-right-way-to-learn-from-genghis-khan",
+        "url": "https://x.com/robkhenderson/status/2102481803575463956",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "cremieuxrecueil",
+        "avatar": "https://pbs.twimg.com/profile_images/1637507712983375875/EQHiqVq8_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 03:43:52",
+        "created_at_utc": "2026-09-22T19:43:52.000Z",
+        "id": "2102484042260304361",
+        "images": [
+          "https://pbs.twimg.com/media/HS2F91zXEAEx52W.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 980,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS2F91zXEAEx52W.jpg?name=small",
+            "width": 1455
+          }
+        ],
+        "name": "Crémieux",
+        "text": "True!\n\nWhen successful business owners pass away or even just retire, the company's profits fall.",
+        "url": "https://x.com/cremieuxrecueil/status/2102484042260304361",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 332,
+        "likes": 2297,
+        "quotes": 16,
+        "replies": 64,
+        "retweets": 190,
+        "views": 301537
+      },
+      "url": "https://x.com/elonmusk/status/2102798777258213654",
+      "images": [
+        "https://pbs.twimg.com/media/HS2F91zXEAEx52W.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS2F91zXEAEx52W.jpg?name=small",
+          "width": 1455,
+          "height": 980
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2102798608227795393",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T16:33:50.000Z",
+      "created_at_shanghai": "2026-09-24 00:33:50",
       "type": "引用",
       "type_label": "引用",
-      "text": "Grok 4.7",
+      "text": "Grok @Bot usage is growing faster than anything we’ve ever seen",
       "quote": {
-        "author": "ArtificialAnlys",
-        "avatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 06:57:32",
-        "created_at_utc": "2026-09-21T22:57:32.000Z",
-        "id": "2102170392924492207",
-        "images": [
-          "https://pbs.twimg.com/media/HSxoh97bsAAL1zb.jpg?name=small"
-        ],
-        "name": "Artificial Analysis",
-        "text": "Grok 4.7 is behind only Anthropic models on AA-Briefcase, ranking just behind Opus 5 at ~50% of its Cost per Task\n\nGrok 4.7’s improvements over Grok 4.6 are clear in AA-Briefcase-Lite, our public due diligence scenario where models are tasked with building market models and target assessment decks. Grok 4.7 gains significantly in Analytical Quality Elo (1698 → 1994) with a slight regression in Presentation Elo (1531 → 1499).\n\nAPI cost to produce example decks: Grok 4.7 (xhigh) ~$8 vs. Grok 4.6 (xhigh) ~$4.40",
-        "url": "https://x.com/ArtificialAnlys/status/2102170392924492207",
+        "author": "EdLudlow",
+        "avatar": "https://pbs.twimg.com/profile_images/2049571389783642112/Ba6FMdwJ_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 00:12:38",
+        "created_at_utc": "2026-09-22T16:12:38.000Z",
+        "id": "2102430882749718965",
+        "images": [],
+        "media": [],
+        "name": "Ed Ludlow",
+        "text": "News: SpaceXAI's Grok Bot hits 418,000 weekly users ending Sept. 14, WoW growth of 24% through that date. It was outlined in a presentation by SpaceXAI staff last week in London.\n\nA sign of modest but early demand for a key product\n\nhttps://www.bloomberg.com/news/articles/2026-09-22/spacexai-s-grok-bot-agent-tops-400-000-users-after-first-month?srnd=phx-india",
+        "url": "https://x.com/EdLudlow/status/2102430882749718965",
         "verified": true,
-        "verified_type": "organization"
+        "verified_type": "individual"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 302,
-        "likes": 6892,
-        "quotes": 69,
-        "replies": 736,
-        "retweets": 1061,
-        "views": 4176585
+        "bookmarks": 275,
+        "likes": 8023,
+        "quotes": 70,
+        "replies": 713,
+        "retweets": 668,
+        "views": 6097008
       },
-      "url": "https://x.com/elonmusk/status/2102187423098642792",
+      "url": "https://x.com/elonmusk/status/2102798608227795393",
       "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102167600692109421",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T22:46:27.000Z",
-      "created_at_shanghai": "2026-09-22 06:46:27",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 xHigh is now at the top with just ONE point away from Claude Fable 5.1 Max on Artificial Analysis’ AA-Briefcase benchmark\n\nClaude Fable 5.1 Max — 59%\nGrok 4.7 xHigh — 58%\n\nJust a 1-point difference at the very top\n\nAnd Grok is ahead of GPT-6 Astra, GPT-5.6, Gemini, Kimi, GLM and nearly every other frontier model  on the benchmark",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 03:26:14",
-        "created_at_utc": "2026-09-21T19:26:14.000Z",
-        "id": "2102117217655726493",
-        "images": [
-          "https://pbs.twimg.com/media/HSw3zwraUAAv7EX.jpg?name=small"
-        ],
-        "name": "X Freeze",
-        "text": "Grok 4.7 xHigh is now at the top with just ONE point away from Claude Fable 5.1 Max on Artificial Analysis’ AA-Briefcase benchmark\n\nClaude Fable 5.1 Max — 59%\nGrok 4.7 xHigh — 58%\n\nJust a 1-point difference at the very top\n\nAnd Grok is ahead of GPT-6 Astra, GPT-5.6, Gemini, Kimi, GLM and nearly every other frontier model  on the benchmark",
-        "url": "https://x.com/XFreeze/status/2102117217655726493",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 98,
-        "likes": 1786,
-        "quotes": 22,
-        "replies": 146,
-        "retweets": 264,
-        "views": 425232
-      },
-      "url": "https://x.com/elonmusk/status/2102167600692109421",
-      "images": [
-        "https://pbs.twimg.com/media/HSw3zwraUAAv7EX.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102107554578931980",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T18:47:50.000Z",
-      "created_at_shanghai": "2026-09-22 02:47:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "and here’s the grok 4.7 model card. a few jumps vs 4.6 that stood out:\n\n- Terminal-Bench: 20.3% → 38.0%\n- SWE-Marathon: 31.9% → 46.0%\n- HealthBench Pro: 48.5% → 56.7%\n- Legal Agent: 15.8% → 19.6%\n- EEBench: 60.0% → 66.0%\n\nfor the same price as 4.6!\n\nhttps://media.x.ai/v1/website/4p7card-5eccc980.pdf",
-      "quote": null,
-      "retweet": {
-        "author": "ericzakariasson",
-        "avatar": "https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 01:49:09",
-        "created_at_utc": "2026-09-21T17:49:09.000Z",
-        "id": "2102092784727679127",
-        "images": [
-          "https://pbs.twimg.com/media/HSwiP5pa4AA1v89.jpg?name=small"
-        ],
-        "name": "eric zakariasson",
-        "text": "and here’s the grok 4.7 model card. a few jumps vs 4.6 that stood out:\n\n- Terminal-Bench: 20.3% → 38.0%\n- SWE-Marathon: 31.9% → 46.0%\n- HealthBench Pro: 48.5% → 56.7%\n- Legal Agent: 15.8% → 19.6%\n- EEBench: 60.0% → 66.0%\n\nfor the same price as 4.6!\n\nhttps://media.x.ai/v1/website/4p7card-5eccc980.pdf",
-        "url": "https://x.com/ericzakariasson/status/2102092784727679127",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 84,
-        "likes": 1693,
-        "quotes": 13,
-        "replies": 113,
-        "retweets": 189,
-        "views": 463927
-      },
-      "url": "https://x.com/elonmusk/status/2102107554578931980",
-      "images": [
-        "https://pbs.twimg.com/media/HSwiP5pa4AA1v89.jpg?name=small"
-      ],
       "media": [],
       "enriched": true
     }
   ],
   "page": 81,
   "page_size": 20,
-  "total": 1686,
-  "total_pages": 85,
-  "updated_at_shanghai": "2026-10-30 19:38:53",
+  "total": 1739,
+  "total_pages": 87,
+  "updated_at_shanghai": "2026-10-31 01:10:09",
   "account": "elonmusk"
 }

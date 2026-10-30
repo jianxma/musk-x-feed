@@ -1,830 +1,776 @@
 {
   "posts": [
     {
-      "id": "2109809802889314556",
+      "id": "2110132320544100657",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T00:53:50.000Z",
-      "created_at_shanghai": "2026-10-13 08:53:50",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot rocks",
-      "quote": {
-        "author": "emigal",
-        "avatar": "https://pbs.twimg.com/profile_images/1672725049919381504/Zg-2fbuV_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 23:49:23",
-        "created_at_utc": "2026-10-12T15:49:23.000Z",
-        "id": "2109672788264910948",
-        "images": [],
-        "media": [],
-        "name": "Emi Gal",
-        "text": "I've been using Grok @Bot as my daily driver for a few weeks now and: \n\n- it has replaced 100% of my search-like queries on chatgpt / claude\n- it has replaced 100% of my Hermes usage & automations\n- it now runs 100% of my Cursor cloud agents, reviews PRs, merges for me\n\nIt also does things that other agents can't do (or can, but do it unreliably) - it has the most available connectors, it's VM is linked to my tailscale and has access to all my machines over ssh, can spin up claude code or codex agents in the terminal, can create other bots on the fly when it needs to, and my main Bot can manage other bots for me. And so much more!  \n\nWhat a time to be alive.",
-        "url": "https://x.com/emigal/status/2109672788264910948",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 119,
-        "likes": 2551,
-        "quotes": 31,
-        "replies": 393,
-        "retweets": 253,
-        "views": 963959
-      },
-      "url": "https://x.com/elonmusk/status/2109809802889314556",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109808344223621417",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T00:48:02.000Z",
-      "created_at_shanghai": "2026-10-13 08:48:02",
+      "created_at_utc": "2026-10-13T22:15:24.000Z",
+      "created_at_shanghai": "2026-10-14 06:15:24",
       "type": "转发",
       "type_label": "转发",
-      "text": "Watch Falcon 9 launch 27 @Starlink satellites to orbit from California https://x.com/i/broadcasts/1yKAPwdemygxb",
+      "text": "Big update for Grok Bot! Version 0.70.2 brings some substantial new capabilities to @Bot!\n\nHere's what's new:\n\n• Bots can now claim their own email addresses, receive messages, and send emails with your approval.\n• Bots can search X, read posts, and inspect profiles without connecting an X account.\n• Figma, Notion, Canva, and other apps can display interactive interfaces directly inside chats.\n• Bots can make payments using X Money or Stripe Link.\n• Describe what you need, and Grok Bot can find a matching Bot template.\n• QuickBooks Online integration and improved plugin discovery.\n• Bots can save web pages as PDFs, plus a new Find in Page feature.\n\nThere are also plenty of reliability and safety improvements, including approval checks before irreversible actions like purchases, posting, or deleting data.",
       "quote": null,
       "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 08:17:56",
-        "created_at_utc": "2026-10-13T00:17:56.000Z",
-        "id": "2109800770849984910",
-        "images": [],
-        "media": [],
-        "name": "SpaceX",
-        "text": "Watch Falcon 9 launch 27 @Starlink satellites to orbit from California https://x.com/i/broadcasts/1yKAPwdemygxb",
-        "url": "https://x.com/SpaceX/status/2109800770849984910",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 576,
-        "likes": 9783,
-        "quotes": 142,
-        "replies": 636,
-        "retweets": 1338,
-        "views": 403586
-      },
-      "url": "https://x.com/elonmusk/status/2109808344223621417",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109804137043083307",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T00:31:19.000Z",
-      "created_at_shanghai": "2026-10-13 08:31:19",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Last night, before I slept, I told my @bot to go through the raw footage of every Starship launch, from Flight 1 all the way to Flight 14, using only official SpaceX footage bc I wanted it to put together the best moments from each flight, in order, so I could actually see how far this rocket has come.\n\nI woke up to an 11-minute video. I pressed play and watched the entire thing. And I have to say, watching all 14 flights back to back gave me an even greater appreciation for Elon and the SpaceX team.\n\nYou can see the progress with your own eyes on both the things that went right and also went wrong. Every explosion, every failed landing, every lost ship taught them something. And instead of backing down, they kept building, fixing, testing, and flying.\n\nI remember A LOT of people wrote Starship off after Flight 1. Then they did it again after Flights 7 and 8, when two ships blew up on back-to-back missions.\n\nSpaceX never quit.\n\nI really believe Starship is one of the most incredible engineering stories of our lifetime.\n\n1/ April 20, 2023 — Flight 1\n\nThe first time the fully stacked Starship ever left the ground. Engines were failing, the booster never separated from the ship, and the launch destroyed much of the pad. The rocket made it roughly 24 miles into the sky before breaking apart.\n\nI still remember people acting like the entire Starship program was finished that day. SpaceX went back, rebuilt the launch pad, fixed what went wrong, and prepared to fly again.\n\n2/ November 18, 2023 — Flight 2\n\nJust seven months later, all 33 booster engines fired successfully. SpaceX pulled off hot staging for the first time, separating the two stages while engines were firing and Starship reached space.\n\nThey still lost both stages, but compare this to Flight 1. It was already a completely different outcome.\n\n3/ March 14, 2024 — Flight 3\n\nFor the first time, Starship made it far enough to attempt reentry from space. SpaceX also opened the payload door in space, an important step toward deploying satellites.\n\nThe booster broke apart during its landing attempt in the Gulf, and the ship was lost during reentry. But they were now testing things they couldn't even reach on the first two flights.\n\n4/ June 6, 2024 — Flight 4\n\nThe booster made a controlled splashdown in the Gulf of Mexico. Meanwhile, Starship came screaming back through the atmosphere with one of its flaps badly damaged and burning.\n\nI remember watching that flap practically fall apart on the livestream. Somehow, the ship kept flying, maintained control, and made it all the way to the ocean.\n\nThat was unbelievable to watch.\n\n5/ October 13, 2024 — Flight 5\n\nThe first ever Super Heavy booster catch.\n\nI don't think people fully appreciate what happened here. SpaceX launched a massive rocket, brought the booster back to the launch site, and caught it in midair using two giant mechanical arms attached to the launch tower.\n\nNobody had EVER done anything like that with a rocket booster before... something that sounded impossible had just become real.\n\n6/ November 19, 2024 — Flight 6\n\nSpaceX called off the planned booster catch bc of a problem at the tower, so the booster made a controlled splashdown instead.\n\nBut the ship achieved another huge milestone. It restarted a Raptor engine in space for the first time. That's an important capability for controlled orbital operations and eventually returning from orbit.\n\nThe ship also survived reentry and splashed down in daylight. And they even had a banana inside the ship to show when it reached zero gravity.\n\n7/ January 16, 2025 — Flight 7\n\nA new generation of Starship made its debut.\n\nSpaceX successfully caught the booster for the second time. Then things went wrong... the ship lost engines and broke apart over the Caribbean.\n\nIt was a major setback, especially after the progress made on earlier flights, but the team didn't hide from what happened. They showed it, studied it, and went back to work.\n\n8/ March 6, 2025 — Flight 8\n\nAnother successful booster catch, the third one.\n\nThen the ship suffered engine failures and was lost over the Caribbean again.\n\nTwo Starships destroyed on consecutive flights. The criticism was everywhere, and plenty of people were convinced the program was going backward.\n\nThis is where I think the SpaceX team deserves enormous respect. They had already proven the booster could be caught. Now they had to figure out what was happening to the ship.\n\nThey didn't give up.\n\n9/ May 27, 2025 — Flight 9\n\nFor the first time, SpaceX launched a Super Heavy booster that had already flown.\n\nThis was the same booster caught during Flight 7, and 29 of its 33 engines had previously flown. Pretty cool to know that an enormous rocket booster was being reused.\n\nThe booster broke apart during its landing attempt though. The ship reached engine cutoff, but a leak caused it to lose control, preventing the planned satellite deployment.\n\nAnother difficult flight with another set of lessons.\n\nBut on the positive side, reusable Starship hardware had officially flown again.\n\n10/ August 26, 2025 — Flight 10\n\nAfter losing three ships in a row, SpaceX finally completed another Starship flight.\n\nAnd this one was a big deal.\n\nFor the first time, Starship deployed a payload... eight Starlink satellite simulators, released one after another. The ship also restarted an engine in space, survived reentry, and reached its planned splashdown area.\n\nIt eventually tipped over and caught fire after reaching the water. The booster also made it to the Gulf, although it was destroyed on impact. \n\nNo catch was planned.\n\nStill, after everything that had happened on Flights 7, 8, and 9, seeing that ship make it through the mission was awesome.\n\n11/ October 13, 2025 — Flight 11\n\nExactly one year after the first booster catch. This was the final flight of that Starship version. SpaceX deployed more satellite simulators and brought both stages back to controlled ocean splashdowns.\n\nWhat stood out to me was how much more complete these flights were becoming... the team was finally putting together the things it had spent the previous two years learning.\n\n12/ May 22, 2026 — Flight 12\n\nThe first flight of Starship V3, launching from the new pad.\n\nA new version of the rocket meant another round of testing, with new hardware and new challenges. The booster didn't survive its landing attempt, but the ship successfully deployed its test satellites and made it through to splashdown.\n\nThat's the thing about developing something this complicated. Even when you solve one problem, the next version can introduce brand new ones.\n\nThe SpaceX team kept learning.\n\n13/ July 24, 2026 — Flight 13\n\nStarship deployed 20 real next-generation Starlink V3 satellites for the first time, on a trajectory designed to bring them back down.\n\nAnd the splashdown was incredible.\n\nThe ship descended so gently that it stayed in one piece, floated on the water, and continued communicating with SpaceX.\n\nThe booster didn't make it through its landing burn, but the ship showed just how far its reentry and landing control had come.\n\n14/ September 28, 2026 — Flight 14\n\nAnd then came orbit.\n\nAfter 13 test flights, Starship finally achieved orbital insertion.\n\nSpaceX deployed 26 REAL Starlink V3 satellites, and this time they stayed in orbit. Elon later confirmed that all 26 were working.\n\nThe ship experienced an early engine shutdown, so SpaceX adjusted the mission. Instead of flying the planned roughly 10 hours and six orbits, they brought it down after a little over three hours, splashing down north of Hawaii.\n\nThe booster made its planned splashdown in the Gulf. There was no catch attempt on this mission.\n\nWhat mattered most here was that SpaceX put real next-generation Starlink satellites into orbit, satellites that are too large for Falcon 9 to launch in their current form.\n\nThis was a MASSIVE step toward what Starship was built to do.\n\nBut really... think about the difference.\n\nOn April 20, 2023, Starship makes it 24 miles high, fails to separate, breaks apart, and leaves the launch pad badly damaged.\n\nAnd then, three and a half years later, going through 13 flights, countless hours of engineering, rebuilding, testing, fixing things that failed, and trying again...\n\nOn September 28, 2026, the 14th flight, Starship reaches orbit and deploys 26 next-generation operating Starlink satellites.\n\nThese were all successful flights followed by failures. There were historic booster catches followed by ships exploding. There were moments when it looked like SpaceX had solved something, only for an entirely new problem to show up on the next flight.\n\nBut every time... Elon and the team came back.\n\nThat's what makes this video so powerful to me. We're watching what happens when thousands of incredibly talented people refuse to quit on something they believe is possible.\n\nThen on Friday, Elon said he now believes SpaceX becoming worth more than $1,000 trillion is a possible outcome. \n\nFYI, he didn't believe that before.\n\nFor perspective, $SPCX is worth roughly $2.2 trillion today... to even have a chance of getting anywhere near that level, Starship needs to become far more than a rocket that occasionally reaches orbit.\n\nIt needs to launch massive payloads reliably, become rapidly reusable, dramatically lower the cost of reaching space, and open up opportunities that simply aren't possible with today's rockets.\n\nThat includes deploying much larger Starlink satellites, building infrastructure in orbit, and eventually making human missions to the Moon and Mars possible on an entirely different scale.\n\nAnd that's why the progress across these 14 flights matters so much.\n\nI don't think most people appreciate how difficult it is to build something like Starship. Or how many things have to go right, one after another, to turn a rocket this ambitious into something that flies routinely.\n\nWe're still very early... there's a lot left to prove. \n\nBut look at what this team has already accomplished.\n\nI've followed SpaceX for years, and watching these 11 minutes made me appreciate the people behind these launches even more. The engineers, technicians, launch crews, and everyone working behind the scenes to make the next flight better than the last.\n\nThey deserve an enormous amount of credit.\n\nIf you only watch Flight 14, you'll see an incredible rocket... but if you start with Flight 1 and watch everything that happened along the way, you'll understand why I have so much faith in this team.\n\nA lot of people have doubted them over the years. Every time something explodes, those people came back.\n\nAnd every time, SpaceX got back to work to prove them wrong.\n\nNever bet against Elon and the SpaceX team... I believe they are going to make the vehicle that this entire company's future depends on - Starship - successful.",
-      "quote": null,
-      "retweet": {
-        "author": "Teslaconomics",
-        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 02:38:42",
-        "created_at_utc": "2026-10-12T18:38:42.000Z",
-        "id": "2109715398845513797",
+        "author": "mark_k",
+        "avatar": "https://pbs.twimg.com/profile_images/1923114794804039680/HMfSchLD_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 02:17:54",
+        "created_at_utc": "2026-10-13T18:17:54.000Z",
+        "id": "2110072554043928747",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109705182154260481/img/8iLeEAF-5MWWy9xz.jpg"
+          "https://pbs.twimg.com/media/HUh7tZqXUAA6Ddn.jpg?name=small"
         ],
         "media": [
           {
-            "duration": 662.362,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109705182154260481/img/8iLeEAF-5MWWy9xz.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109705182154260481/vid/avc1/1920x1080/DQ0ftXHOhAUt_0KY.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Teslaconomics",
-        "text": "Last night, before I slept, I told my @bot to go through the raw footage of every Starship launch, from Flight 1 all the way to Flight 14, using only official SpaceX footage bc I wanted it to put together the best moments from each flight, in order, so I could actually see how far this rocket has come.\n\nI woke up to an 11-minute video. I pressed play and watched the entire thing. And I have to say, watching all 14 flights back to back gave me an even greater appreciation for Elon and the SpaceX team.\n\nYou can see the progress with your own eyes on both the things that went right and also went wrong. Every explosion, every failed landing, every lost ship taught them something. And instead of backing down, they kept building, fixing, testing, and flying.\n\nI remember A LOT of people wrote Starship off after Flight 1. Then they did it again after Flights 7 and 8, when two ships blew up on back-to-back missions.\n\nSpaceX never quit.\n\nI really believe Starship is one of the most incredible engineering stories of our lifetime.\n\n1/ April 20, 2023 — Flight 1\n\nThe first time the fully stacked Starship ever left the ground. Engines were failing, the booster never separated from the ship, and the launch destroyed much of the pad. The rocket made it roughly 24 miles into the sky before breaking apart.\n\nI still remember people acting like the entire Starship program was finished that day. SpaceX went back, rebuilt the launch pad, fixed what went wrong, and prepared to fly again.\n\n2/ November 18, 2023 — Flight 2\n\nJust seven months later, all 33 booster engines fired successfully. SpaceX pulled off hot staging for the first time, separating the two stages while engines were firing and Starship reached space.\n\nThey still lost both stages, but compare this to Flight 1. It was already a completely different outcome.\n\n3/ March 14, 2024 — Flight 3\n\nFor the first time, Starship made it far enough to attempt reentry from space. SpaceX also opened the payload door in space, an important step toward deploying satellites.\n\nThe booster broke apart during its landing attempt in the Gulf, and the ship was lost during reentry. But they were now testing things they couldn't even reach on the first two flights.\n\n4/ June 6, 2024 — Flight 4\n\nThe booster made a controlled splashdown in the Gulf of Mexico. Meanwhile, Starship came screaming back through the atmosphere with one of its flaps badly damaged and burning.\n\nI remember watching that flap practically fall apart on the livestream. Somehow, the ship kept flying, maintained control, and made it all the way to the ocean.\n\nThat was unbelievable to watch.\n\n5/ October 13, 2024 — Flight 5\n\nThe first ever Super Heavy booster catch.\n\nI don't think people fully appreciate what happened here. SpaceX launched a massive rocket, brought the booster back to the launch site, and caught it in midair using two giant mechanical arms attached to the launch tower.\n\nNobody had EVER done anything like that with a rocket booster before... something that sounded impossible had just become real.\n\n6/ November 19, 2024 — Flight 6\n\nSpaceX called off the planned booster catch bc of a problem at the tower, so the booster made a controlled splashdown instead.\n\nBut the ship achieved another huge milestone. It restarted a Raptor engine in space for the first time. That's an important capability for controlled orbital operations and eventually returning from orbit.\n\nThe ship also survived reentry and splashed down in daylight. And they even had a banana inside the ship to show when it reached zero gravity.\n\n7/ January 16, 2025 — Flight 7\n\nA new generation of Starship made its debut.\n\nSpaceX successfully caught the booster for the second time. Then things went wrong... the ship lost engines and broke apart over the Caribbean.\n\nIt was a major setback, especially after the progress made on earlier flights, but the team didn't hide from what happened. They showed it, studied it, and went back to work.\n\n8/ March 6, 2025 — Flight 8\n\nAnother successful booster catch, the third one.\n\nThen the ship suffered engine failures and was lost over the Caribbean again.\n\nTwo Starships destroyed on consecutive flights. The criticism was everywhere, and plenty of people were convinced the program was going backward.\n\nThis is where I think the SpaceX team deserves enormous respect. They had already proven the booster could be caught. Now they had to figure out what was happening to the ship.\n\nThey didn't give up.\n\n9/ May 27, 2025 — Flight 9\n\nFor the first time, SpaceX launched a Super Heavy booster that had already flown.\n\nThis was the same booster caught during Flight 7, and 29 of its 33 engines had previously flown. Pretty cool to know that an enormous rocket booster was being reused.\n\nThe booster broke apart during its landing attempt though. The ship reached engine cutoff, but a leak caused it to lose control, preventing the planned satellite deployment.\n\nAnother difficult flight with another set of lessons.\n\nBut on the positive side, reusable Starship hardware had officially flown again.\n\n10/ August 26, 2025 — Flight 10\n\nAfter losing three ships in a row, SpaceX finally completed another Starship flight.\n\nAnd this one was a big deal.\n\nFor the first time, Starship deployed a payload... eight Starlink satellite simulators, released one after another. The ship also restarted an engine in space, survived reentry, and reached its planned splashdown area.\n\nIt eventually tipped over and caught fire after reaching the water. The booster also made it to the Gulf, although it was destroyed on impact. \n\nNo catch was planned.\n\nStill, after everything that had happened on Flights 7, 8, and 9, seeing that ship make it through the mission was awesome.\n\n11/ October 13, 2025 — Flight 11\n\nExactly one year after the first booster catch. This was the final flight of that Starship version. SpaceX deployed more satellite simulators and brought both stages back to controlled ocean splashdowns.\n\nWhat stood out to me was how much more complete these flights were becoming... the team was finally putting together the things it had spent the previous two years learning.\n\n12/ May 22, 2026 — Flight 12\n\nThe first flight of Starship V3, launching from the new pad.\n\nA new version of the rocket meant another round of testing, with new hardware and new challenges. The booster didn't survive its landing attempt, but the ship successfully deployed its test satellites and made it through to splashdown.\n\nThat's the thing about developing something this complicated. Even when you solve one problem, the next version can introduce brand new ones.\n\nThe SpaceX team kept learning.\n\n13/ July 24, 2026 — Flight 13\n\nStarship deployed 20 real next-generation Starlink V3 satellites for the first time, on a trajectory designed to bring them back down.\n\nAnd the splashdown was incredible.\n\nThe ship descended so gently that it stayed in one piece, floated on the water, and continued communicating with SpaceX.\n\nThe booster didn't make it through its landing burn, but the ship showed just how far its reentry and landing control had come.\n\n14/ September 28, 2026 — Flight 14\n\nAnd then came orbit.\n\nAfter 13 test flights, Starship finally achieved orbital insertion.\n\nSpaceX deployed 26 REAL Starlink V3 satellites, and this time they stayed in orbit. Elon later confirmed that all 26 were working.\n\nThe ship experienced an early engine shutdown, so SpaceX adjusted the mission. Instead of flying the planned roughly 10 hours and six orbits, they brought it down after a little over three hours, splashing down north of Hawaii.\n\nThe booster made its planned splashdown in the Gulf. There was no catch attempt on this mission.\n\nWhat mattered most here was that SpaceX put real next-generation Starlink satellites into orbit, satellites that are too large for Falcon 9 to launch in their current form.\n\nThis was a MASSIVE step toward what Starship was built to do.\n\nBut really... think about the difference.\n\nOn April 20, 2023, Starship makes it 24 miles high, fails to separate, breaks apart, and leaves the launch pad badly damaged.\n\nAnd then, three and a half years later, going through 13 flights, countless hours of engineering, rebuilding, testing, fixing things that failed, and trying again...\n\nOn September 28, 2026, the 14th flight, Starship reaches orbit and deploys 26 next-generation operating Starlink satellites.\n\nThese were all successful flights followed by failures. There were historic booster catches followed by ships exploding. There were moments when it looked like SpaceX had solved something, only for an entirely new problem to show up on the next flight.\n\nBut every time... Elon and the team came back.\n\nThat's what makes this video so powerful to me. We're watching what happens when thousands of incredibly talented people refuse to quit on something they believe is possible.\n\nThen on Friday, Elon said he now believes SpaceX becoming worth more than $1,000 trillion is a possible outcome. \n\nFYI, he didn't believe that before.\n\nFor perspective, $SPCX is worth roughly $2.2 trillion today... to even have a chance of getting anywhere near that level, Starship needs to become far more than a rocket that occasionally reaches orbit.\n\nIt needs to launch massive payloads reliably, become rapidly reusable, dramatically lower the cost of reaching space, and open up opportunities that simply aren't possible with today's rockets.\n\nThat includes deploying much larger Starlink satellites, building infrastructure in orbit, and eventually making human missions to the Moon and Mars possible on an entirely different scale.\n\nAnd that's why the progress across these 14 flights matters so much.\n\nI don't think most people appreciate how difficult it is to build something like Starship. Or how many things have to go right, one after another, to turn a rocket this ambitious into something that flies routinely.\n\nWe're still very early... there's a lot left to prove. \n\nBut look at what this team has already accomplished.\n\nI've followed SpaceX for years, and watching these 11 minutes made me appreciate the people behind these launches even more. The engineers, technicians, launch crews, and everyone working behind the scenes to make the next flight better than the last.\n\nThey deserve an enormous amount of credit.\n\nIf you only watch Flight 14, you'll see an incredible rocket... but if you start with Flight 1 and watch everything that happened along the way, you'll understand why I have so much faith in this team.\n\nA lot of people have doubted them over the years. Every time something explodes, those people came back.\n\nAnd every time, SpaceX got back to work to prove them wrong.\n\nNever bet against Elon and the SpaceX team... I believe they are going to make the vehicle that this entire company's future depends on - Starship - successful.",
-        "url": "https://x.com/Teslaconomics/status/2109715398845513797",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 724,
-        "likes": 2106,
-        "quotes": 25,
-        "replies": 112,
-        "retweets": 322,
-        "views": 256666
-      },
-      "url": "https://x.com/elonmusk/status/2109804137043083307",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109705182154260481/img/8iLeEAF-5MWWy9xz.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109705182154260481/vid/avc1/1920x1080/DQ0ftXHOhAUt_0KY.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109705182154260481/img/8iLeEAF-5MWWy9xz.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 662.362
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109803903256502307",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T00:30:23.000Z",
-      "created_at_shanghai": "2026-10-13 08:30:23",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Robotaxi improvements",
-      "quote": {
-        "author": "robotaxi",
-        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 04:27:06",
-        "created_at_utc": "2026-10-12T20:27:06.000Z",
-        "id": "2109742678435119540",
-        "images": [],
-        "media": [],
-        "name": "Robotaxi",
-        "text": "Robotaxi service updates from the last few weeks:  \n\n– Operating hours are now 6am-11pm \n– Reduced wait times thanks to increased supply & orchestration algorithms \n– Trunk now opens automatically at end of ride if utilized \n– Grok @bot now available in Cybercab",
-        "url": "https://x.com/robotaxi/status/2109742678435119540",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 154,
-        "likes": 10046,
-        "quotes": 58,
-        "replies": 705,
-        "retweets": 832,
-        "views": 1586935
-      },
-      "url": "https://x.com/elonmusk/status/2109803903256502307",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109793921203093888",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T23:50:43.000Z",
-      "created_at_shanghai": "2026-10-13 07:50:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration.\n\nThe aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.",
-      "quote": null,
-      "retweet": {
-        "author": "TimSweeneyEpic",
-        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 02:00:40",
-        "created_at_utc": "2026-10-12T18:00:40.000Z",
-        "id": "2109705826688549304",
-        "images": [],
-        "media": [],
-        "name": "Tim Sweeney",
-        "text": "We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration.\n\nThe aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.",
-        "url": "https://x.com/TimSweeneyEpic/status/2109705826688549304",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2526,
-        "likes": 12945,
-        "quotes": 2006,
-        "replies": 4055,
-        "retweets": 739,
-        "views": 3174761
-      },
-      "url": "https://x.com/elonmusk/status/2109793921203093888",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109793213829742629",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T23:47:54.000Z",
-      "created_at_shanghai": "2026-10-13 07:47:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: The Lagos State Government in Nigeria is strengthening child welfare with 1500 @Starlink kits allocated to orphanages &amp; children’s homes statewide🇳🇬\n\nBEB is working with the state government &amp; reported a collaboration with Starlink to connect orphanages to the internet.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 14:04:23",
-        "created_at_utc": "2026-10-12T06:04:23.000Z",
-        "id": "2109525569364996292",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109525527572930560/img/qZXGeg2cqXluweGV.jpg"
-        ],
-        "media": [
-          {
-            "duration": 15.033,
-            "height": 1012,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109525527572930560/img/qZXGeg2cqXluweGV.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109525527572930560/vid/avc1/1078x1012/Z9UYnhfQFmAIuHw8.mp4?tag=29",
-            "width": 1078
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: The Lagos State Government in Nigeria is strengthening child welfare with 1500 @Starlink kits allocated to orphanages & children’s homes statewide🇳🇬\n\nBEB is working with the state government & reported a collaboration with Starlink to connect orphanages to the internet.",
-        "url": "https://x.com/cb_doge/status/2109525569364996292",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 76,
-        "likes": 1985,
-        "quotes": 51,
-        "replies": 225,
-        "retweets": 328,
-        "views": 314449
-      },
-      "url": "https://x.com/elonmusk/status/2109793213829742629",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109525527572930560/img/qZXGeg2cqXluweGV.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109525527572930560/vid/avc1/1078x1012/Z9UYnhfQFmAIuHw8.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109525527572930560/img/qZXGeg2cqXluweGV.jpg",
-          "width": 1078,
-          "height": 1012,
-          "duration": 15.033
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109792967288652287",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T23:46:56.000Z",
-      "created_at_shanghai": "2026-10-13 07:46:56",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We've unified plans across Grok, Cursor, and X Premium.\n\nIntroducing The X Subscription.",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceXSI",
-        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 07:08:39",
-        "created_at_utc": "2026-10-12T23:08:39.000Z",
-        "id": "2109783335296008414",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg"
-        ],
-        "media": [
-          {
-            "duration": 10,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109782667579322368/vid/avc1/1920x1080/ThJXAcymAf1pV1vL.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "SpaceX Super Intelligence",
-        "text": "We've unified plans across Grok, Cursor, and X Premium.\n\nIntroducing The X Subscription.",
-        "url": "https://x.com/SpaceXSI/status/2109783335296008414",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 3022,
-        "likes": 13342,
-        "quotes": 1559,
-        "replies": 1118,
-        "retweets": 1533,
-        "views": 3400580
-      },
-      "url": "https://x.com/elonmusk/status/2109792967288652287",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109782667579322368/vid/avc1/1920x1080/ThJXAcymAf1pV1vL.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 10
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109776287275581504",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T22:40:39.000Z",
-      "created_at_shanghai": "2026-10-13 06:40:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "JUST IN: SpaceXSI officially published the legal terms for a unified X Premium + Grok + Cursor subscription plan\n\n&gt;social network + frontier intelligence + dev IDE + banking\n\nX the everything app. It's happening",
-      "quote": null,
-      "retweet": {
-        "author": "ns123abc",
-        "avatar": "https://pbs.twimg.com/profile_images/2048822563821035520/7nxCFEnk_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 03:20:20",
-        "created_at_utc": "2026-10-12T19:20:20.000Z",
-        "id": "2109725878188118503",
-        "images": [
-          "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1062,
+            "height": 941,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small",
-            "width": 1566
+            "url": "https://pbs.twimg.com/media/HUh7tZqXUAA6Ddn.jpg?name=small",
+            "width": 1672
           }
         ],
-        "name": "NIK",
-        "text": "JUST IN: SpaceXSI officially published the legal terms for a unified X Premium + Grok + Cursor subscription plan\n\n>social network + frontier intelligence + dev IDE + banking\n\nX the everything app. It's happening",
-        "url": "https://x.com/ns123abc/status/2109725878188118503",
+        "name": "Mark Kretschmann",
+        "text": "Big update for Grok Bot! Version 0.70.2 brings some substantial new capabilities to @Bot!\n\nHere's what's new:\n\n• Bots can now claim their own email addresses, receive messages, and send emails with your approval.\n• Bots can search X, read posts, and inspect profiles without connecting an X account.\n• Figma, Notion, Canva, and other apps can display interactive interfaces directly inside chats.\n• Bots can make payments using X Money or Stripe Link.\n• Describe what you need, and Grok Bot can find a matching Bot template.\n• QuickBooks Online integration and improved plugin discovery.\n• Bots can save web pages as PDFs, plus a new Find in Page feature.\n\nThere are also plenty of reliability and safety improvements, including approval checks before irreversible actions like purchases, posting, or deleting data.",
+        "url": "https://x.com/mark_k/status/2110072554043928747",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 147,
-        "likes": 1471,
-        "quotes": 17,
-        "replies": 139,
-        "retweets": 170,
-        "views": 170869
+        "bookmarks": 89,
+        "likes": 574,
+        "quotes": 8,
+        "replies": 51,
+        "retweets": 73,
+        "views": 94789
       },
-      "url": "https://x.com/elonmusk/status/2109776287275581504",
+      "url": "https://x.com/elonmusk/status/2110132320544100657",
       "images": [
-        "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small"
+        "https://pbs.twimg.com/media/HUh7tZqXUAA6Ddn.jpg?name=small"
       ],
       "media": [
         {
           "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small",
-          "width": 1566,
-          "height": 1062
+          "url": "https://pbs.twimg.com/media/HUh7tZqXUAA6Ddn.jpg?name=small",
+          "width": 1672,
+          "height": 941
         }
       ],
       "enriched": true
     },
     {
-      "id": "2109738767351230511",
+      "id": "2110132234929995948",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T20:11:33.000Z",
-      "created_at_shanghai": "2026-10-13 04:11:33",
+      "created_at_utc": "2026-10-13T22:15:03.000Z",
+      "created_at_shanghai": "2026-10-14 06:15:03",
       "type": "转发",
       "type_label": "转发",
-      "text": "Imagine training Grok on everything Tesla and SpaceX have learned about manufacturing.\n\nThen asking it:\n\n“I want to build a chip fab. I know absolutely nothing about it. Where do I start?”\n\nAnd having it guide you from zero to a functioning factory.",
-      "quote": {
-        "author": "Dogetothemoon",
-        "avatar": "https://pbs.twimg.com/profile_images/2090278758972571648/3ihoplje_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 23:07:02",
-        "created_at_utc": "2026-10-11T15:07:02.000Z",
-        "id": "2109299744656810127",
+      "text": "Grok Bot does my food shopping in less than 3 minutes. \n\nDoing it myself would probably take an hour at the shops or 30 minutes ordering online.\n\n How do I do this? I have a Grok Bot food prep team:\n\n1 - A Meal Organiser that knows the lunches and dinners I like.\n\n2 - A Shopper that fills my grocery cart.\n\n3 - A Cooking Bot that walks me through preparing the meals.\n\nI tell my Chief of Staff how many days I need. The team handles the planning and cart, and I check out myself.\n\nWhen it’s time to cook, I ask for the instructions. My meals take less than 20 minutes.\n\nHere’s the prompt to set up your own food prep team. \n\nStart of prompt-------\n\n“Set up a food prep team for me: three specialist Bots reporting to you, my Chief of Staff.\n\nStart by asking me for any missing details in my food profile. Show me the proposed Bot descriptions before creating them.\n\nMY FOOD PROFILE\n\nDiet: [my diet or dietary goals].\nServings: [how many people each meal should feed].\nNever include: [allergies, intolerances and disliked foods].\nPreferences: [cooking time, budget and ingredient preferences].\nGrocery store: [Add store link].\nMeal bank: [6–10 meals I like, or ask me and suggest some].\n\nSave my confirmed profile for future use.\n\n1 - MEAL ORGANISER\nWhen I tell you how many days and which meals, build a plan from my meal bank.\n\nFollow my food profile. Ask about ingredients I already have so we can avoid buying them again.\n\nReturn the meal plan and one combined shopping list with quantities matched to the number of servings. Include any extras I request.\n\nWait for my approval before handing the list to the Shopper.\n\n2 - SHOPPER\n\nAfter I approve the plan, open my grocery store’s website and fill the cart with the approved shopping list.\n\nPick sensible pack sizes. Check the existing cart before adding items to avoid duplicates.\n\nFor out-of-stock items, choose the closest suitable match within my food profile. Flag anything uncertain rather than guessing, especially where an allergy or dietary restriction is involved.\n\nStop before checkout. Never choose a delivery slot, place the order or pay.\n\nReturn the cart total, substitutions and anything you couldn’t find. I will review the cart and check out myself.\n\n3 - COOKING\n\nWhen I name a meal from the plan, give me simple cooking instructions using the ingredients we selected, including any approved substitutions.\n\nInclude preparation time, cooking time, quantities and steps in order. Explain when to start each component so everything finishes together.\n\nKeep the recipe within my agreed cooking-time preference. Flag any extra preparation needed in advance.\n\nHOW WE WORK TOGETHER\n\nI tell you:\n\n‘Plan 3 days of lunch and dinner, plus these extras: [items].’\n\nYou get the Meal Organiser to draft the plan and show it to me.\n\nAfter my approval, send the shopping list to the Shopper.\n\nReport back when the cart is ready, including anything that needs my attention.\n\nWhen I ask what to cook, use the current plan and get the Cooking Bot to guide me.\n\nFor the initial grocery-store connection, open the website and let me complete the login myself.\n\nConfirm which Bots are created and whether the store is accessible. Tell me if any setup step remains incomplete.”\n\nEnd of prompt-------\n\nThe biggest saving is having fewer everyday decisions to make, then having a team carry them through.",
+      "quote": null,
+      "retweet": {
+        "author": "Michael_Fenech_",
+        "avatar": "https://pbs.twimg.com/profile_images/2086676724440612864/Wzr3NkOE_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 02:49:00",
+        "created_at_utc": "2026-10-13T18:49:00.000Z",
+        "id": "2110080378879046045",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109190942645211136/img/6gVNBZJABEMu3sTF.jpg"
+          "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small"
         ],
         "media": [
           {
-            "duration": 141.572,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109190942645211136/img/6gVNBZJABEMu3sTF.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109190942645211136/vid/avc1/1280x720/L9weZYtchnJbzUw7.mp4?tag=29",
-            "width": 1280
+            "height": 417,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small",
+            "width": 800
           }
         ],
-        "name": "Doge Tipping",
-        "text": "Elon Musk is incredibly ambitious about chipmaking and the Terafab project on @theXtakeover :\n\n“I still have a tremendous amount to learn about chipmaking. To be clear, I do not know how to make chips. I have no idea how to make them, but we will figure it out. You have to start somewhere. I did not know how to make cars or rockets either.”🤣",
-        "url": "https://x.com/Dogetothemoon/status/2109299744656810127",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "luismbat",
-        "avatar": "https://pbs.twimg.com/profile_images/378800000564279654/544464e51ec3be835a561a7f631379ab_200x200.png",
-        "created_at_shanghai": "2026-10-13 02:39:13",
-        "created_at_utc": "2026-10-12T18:39:13.000Z",
-        "id": "2109715527564198059",
-        "images": [],
-        "media": [],
-        "name": "Luis Batalha",
-        "text": "Imagine training Grok on everything Tesla and SpaceX have learned about manufacturing.\n\nThen asking it:\n\n“I want to build a chip fab. I know absolutely nothing about it. Where do I start?”\n\nAnd having it guide you from zero to a functioning factory.",
-        "url": "https://x.com/luismbat/status/2109715527564198059",
+        "name": "Michael | AI + Agents",
+        "text": "Grok Bot does my food shopping in less than 3 minutes. \n\nDoing it myself would probably take an hour at the shops or 30 minutes ordering online.\n\n How do I do this? I have a Grok Bot food prep team:\n\n1 - A Meal Organiser that knows the lunches and dinners I like.\n\n2 - A Shopper that fills my grocery cart.\n\n3 - A Cooking Bot that walks me through preparing the meals.\n\nI tell my Chief of Staff how many days I need. The team handles the planning and cart, and I check out myself.\n\nWhen it’s time to cook, I ask for the instructions. My meals take less than 20 minutes.\n\nHere’s the prompt to set up your own food prep team. \n\nStart of prompt-------\n\n“Set up a food prep team for me: three specialist Bots reporting to you, my Chief of Staff.\n\nStart by asking me for any missing details in my food profile. Show me the proposed Bot descriptions before creating them.\n\nMY FOOD PROFILE\n\nDiet: [my diet or dietary goals].\nServings: [how many people each meal should feed].\nNever include: [allergies, intolerances and disliked foods].\nPreferences: [cooking time, budget and ingredient preferences].\nGrocery store: [Add store link].\nMeal bank: [6–10 meals I like, or ask me and suggest some].\n\nSave my confirmed profile for future use.\n\n1 - MEAL ORGANISER\nWhen I tell you how many days and which meals, build a plan from my meal bank.\n\nFollow my food profile. Ask about ingredients I already have so we can avoid buying them again.\n\nReturn the meal plan and one combined shopping list with quantities matched to the number of servings. Include any extras I request.\n\nWait for my approval before handing the list to the Shopper.\n\n2 - SHOPPER\n\nAfter I approve the plan, open my grocery store’s website and fill the cart with the approved shopping list.\n\nPick sensible pack sizes. Check the existing cart before adding items to avoid duplicates.\n\nFor out-of-stock items, choose the closest suitable match within my food profile. Flag anything uncertain rather than guessing, especially where an allergy or dietary restriction is involved.\n\nStop before checkout. Never choose a delivery slot, place the order or pay.\n\nReturn the cart total, substitutions and anything you couldn’t find. I will review the cart and check out myself.\n\n3 - COOKING\n\nWhen I name a meal from the plan, give me simple cooking instructions using the ingredients we selected, including any approved substitutions.\n\nInclude preparation time, cooking time, quantities and steps in order. Explain when to start each component so everything finishes together.\n\nKeep the recipe within my agreed cooking-time preference. Flag any extra preparation needed in advance.\n\nHOW WE WORK TOGETHER\n\nI tell you:\n\n‘Plan 3 days of lunch and dinner, plus these extras: [items].’\n\nYou get the Meal Organiser to draft the plan and show it to me.\n\nAfter my approval, send the shopping list to the Shopper.\n\nReport back when the cart is ready, including anything that needs my attention.\n\nWhen I ask what to cook, use the current plan and get the Cooking Bot to guide me.\n\nFor the initial grocery-store connection, open the website and let me complete the login myself.\n\nConfirm which Bots are created and whether the store is accessible. Tell me if any setup step remains incomplete.”\n\nEnd of prompt-------\n\nThe biggest saving is having fewer everyday decisions to make, then having a team carry them through.",
+        "url": "https://x.com/Michael_Fenech_/status/2110080378879046045",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 136,
-        "likes": 1851,
-        "quotes": 14,
-        "replies": 161,
-        "retweets": 207,
-        "views": 301033
+        "bookmarks": 188,
+        "likes": 367,
+        "quotes": 6,
+        "replies": 48,
+        "retweets": 49,
+        "views": 80154
       },
-      "url": "https://x.com/elonmusk/status/2109738767351230511",
-      "images": [],
-      "media": [],
+      "url": "https://x.com/elonmusk/status/2110132234929995948",
+      "images": [
+        "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small",
+          "width": 800,
+          "height": 417
+        }
+      ],
       "enriched": true
     },
     {
-      "id": "2109692430178255016",
+      "id": "2110129432836919505",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T17:07:26.000Z",
-      "created_at_shanghai": "2026-10-13 01:07:26",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "😂",
+      "created_at_utc": "2026-10-13T22:03:55.000Z",
+      "created_at_shanghai": "2026-10-14 06:03:55",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "My wife saw this post (video stolen from @ItsKimJava), now going viral again and asked me about it, so I showed her this 2018 interview clip most people have never seen: @elonmusk ’s side of the Eberhard story, which is crucial context:",
       "quote": {
-        "author": "TheFP",
-        "avatar": "https://pbs.twimg.com/profile_images/1600596313720164357/KqFhncED_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 00:02:02",
-        "created_at_utc": "2026-10-12T16:02:02.000Z",
-        "id": "2109675971892707552",
+        "author": "ilar0x",
+        "avatar": "https://pbs.twimg.com/profile_images/2091831092995039232/0dKwCzeK_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 01:37:04",
+        "created_at_utc": "2026-10-12T17:37:04.000Z",
+        "id": "2109699888355361032",
         "images": [
-          "https://pbs.twimg.com/media/HUcTHetXMAAiEkS.png?name=small"
+          "https://pbs.twimg.com/amplify_video_thumb/2109698614691848192/img/4peGv7uO1H_Z-Vuc.jpg"
         ],
         "media": [
           {
-            "height": 1350,
+            "duration": 156.022,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109698614691848192/img/4peGv7uO1H_Z-Vuc.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2109698614691848192/vid/avc1/1920x1080/KOXG2go2rXqVADGC.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "ILAR",
+        "text": "Elon Musk is worth $908 billion, and this weekend he asked world-class engineers to come join Tesla. Tesla once tried to cancel the sale of one car to the man who named the company. Martin Eberhard had already paid for Founders Series car number 2, and he had to sue to get it.\n\nEberhard started Tesla with Marc Tarpenning in 2003 and was its first CEO. Musk wrote the biggest check of the first round, became chairman and later blamed Eberhard for the Roadster's delays and overruns.\n\n\"I had paid full price in advance for this car. And they tried to rescind that deal,\" he says. Before he got it, a Tesla test driver drove it into the back of a truck. The car became part of his 2009 lawsuit against Musk.\n\nFounders Series cars were meant to carry a plaque signed by Eberhard and Tarpenning. By delivery he had been pushed out, and the plaque Tesla sent later had other people's signatures, not theirs. His license plate now reads FOUNDER.\n\nHis daily Roadster came off a used lot in Los Angeles with about 175 miles on it. The previous owner, he says, was Justine Musk, who won it in the divorce and never drove it. Nobody had to sue for that one.",
+        "url": "https://x.com/ilar0x/status/2109699888355361032",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "ICannot_Enough",
+        "avatar": "https://pbs.twimg.com/profile_images/1334264832397291522/AR2jbpaD_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 23:54:58",
+        "created_at_utc": "2026-10-13T15:54:58.000Z",
+        "id": "2110036583218884763",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110035811949314048/img/dtxkNw6xOKoUJqPL.jpg"
+        ],
+        "media": [
+          {
+            "duration": 357.256,
+            "height": 1180,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110035811949314048/img/dtxkNw6xOKoUJqPL.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110035811949314048/vid/avc1/2188x1180/KqvjtgzyEI5uXi61.mp4?tag=29",
+            "width": 2188
+          }
+        ],
+        "name": "James Stephenson",
+        "text": "My wife saw this post (video stolen from @ItsKimJava), now going viral again and asked me about it, so I showed her this 2018 interview clip most people have never seen: @elonmusk ’s side of the Eberhard story, which is crucial context:",
+        "url": "https://x.com/ICannot_Enough/status/2110036583218884763",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 538,
+        "likes": 1298,
+        "quotes": 19,
+        "replies": 54,
+        "retweets": 205,
+        "views": 151255
+      },
+      "url": "https://x.com/elonmusk/status/2110129432836919505",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110035811949314048/img/dtxkNw6xOKoUJqPL.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110035811949314048/vid/avc1/2188x1180/KqvjtgzyEI5uXi61.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110035811949314048/img/dtxkNw6xOKoUJqPL.jpg",
+          "width": 2188,
+          "height": 1180,
+          "duration": 357.256
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110129124052230422",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T22:02:42.000Z",
+      "created_at_shanghai": "2026-10-14 06:02:42",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Don't build alone, apply to join our Grok Bot X Communities https://x.ai/bot/community! We have curated group chats for:\n\n• GTM\n• Product\n• Marketing\n• Engineering\n• Recruiting\n• Design \n\nwhere you can share what you're working on and learn from others using Grok Bot",
+      "quote": null,
+      "retweet": {
+        "author": "poteto",
+        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 23:26:46",
+        "created_at_utc": "2026-10-13T15:26:46.000Z",
+        "id": "2110029484758028732",
+        "images": [
+          "https://pbs.twimg.com/media/HUhTXXLagAA0v7N.png?name=small"
+        ],
+        "media": [
+          {
+            "height": 2160,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUcTHetXMAAiEkS.png?name=small",
+            "url": "https://pbs.twimg.com/media/HUhTXXLagAA0v7N.png?name=small",
+            "width": 3840
+          }
+        ],
+        "name": "lauren",
+        "text": "Don't build alone, apply to join our Grok Bot X Communities https://x.ai/bot/community! We have curated group chats for:\n\n• GTM\n• Product\n• Marketing\n• Engineering\n• Recruiting\n• Design \n\nwhere you can share what you're working on and learn from others using Grok Bot",
+        "url": "https://x.com/poteto/status/2110029484758028732",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 800,
+        "likes": 1831,
+        "quotes": 26,
+        "replies": 186,
+        "retweets": 136,
+        "views": 151685
+      },
+      "url": "https://x.com/elonmusk/status/2110129124052230422",
+      "images": [
+        "https://pbs.twimg.com/media/HUhTXXLagAA0v7N.png?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUhTXXLagAA0v7N.png?name=small",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110128761471655978",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T22:01:15.000Z",
+      "created_at_shanghai": "2026-10-14 06:01:15",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Assign Grok @Bot to your phone button for instant access",
+      "quote": {
+        "author": "liam_fallen",
+        "avatar": "https://pbs.twimg.com/profile_images/2095471460286664768/-TwotnRq_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 03:39:28",
+        "created_at_utc": "2026-10-13T19:39:28.000Z",
+        "id": "2110093079185355199",
+        "images": [
+          "https://pbs.twimg.com/media/HUiOeE8XkAADCqt.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUiOeE8XkAADCqt.jpg?name=small",
+            "width": 1021
+          }
+        ],
+        "name": "Liam",
+        "text": "I gave Grok Bot its own button\n\n→ Press the Action Button\n→ Open Grok in voice mode\n→ Give it tasks and deadlines\n→ Grok delegates them to Bots\n\nI feel like James Bond.",
+        "url": "https://x.com/liam_fallen/status/2110093079185355199",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 134,
+        "likes": 1157,
+        "quotes": 14,
+        "replies": 329,
+        "retweets": 149,
+        "views": 441930
+      },
+      "url": "https://x.com/elonmusk/status/2110128761471655978",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110127808718741920",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:57:28.000Z",
+      "created_at_shanghai": "2026-10-14 05:57:28",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "All Grok @Bots get their own email address and can help analyze and summarize your email box too",
+      "quote": {
+        "author": "ericzakariasson",
+        "avatar": "https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 01:17:53",
+        "created_at_utc": "2026-10-13T17:17:53.000Z",
+        "id": "2110057450850435451",
+        "images": [
+          "https://pbs.twimg.com/media/HUhuDz0bsAALcBW.jpg?name=small",
+          "https://pbs.twimg.com/media/HUhuEA2a0AIyxn7.jpg?name=small",
+          "https://pbs.twimg.com/media/HUhuENba0AAYUnp.jpg?name=small",
+          "https://pbs.twimg.com/media/HUhuEbBawAA44gD.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1600,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUhuDz0bsAALcBW.jpg?name=small",
+            "width": 1200
+          },
+          {
+            "height": 1600,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUhuEA2a0AIyxn7.jpg?name=small",
+            "width": 1200
+          },
+          {
+            "height": 1600,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUhuENba0AAYUnp.jpg?name=small",
+            "width": 1200
+          },
+          {
+            "height": 1600,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUhuEbBawAA44gD.jpg?name=small",
+            "width": 1200
+          }
+        ],
+        "name": "eric zakariasson",
+        "text": "grok @bot 0.70.2 is rolling out!\n\n- each bot can claim its own email address at @mail.grokbot.com and draft emails for you to send\n- apps like Figma, Notion and Canva show up as live cards right in the chat\n- bots can search X and read public posts and profiles without connecting an X account\n- describe what you want and your bot suggests a matching template\n- shared pages can be downloaded as a pdf\n- an approval check before anything irreversible\n\nand much more!\n\nhttps://x.ai/changelog/bot",
+        "url": "https://x.com/ericzakariasson/status/2110057450850435451",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 107,
+        "likes": 1150,
+        "quotes": 29,
+        "replies": 290,
+        "retweets": 157,
+        "views": 465860
+      },
+      "url": "https://x.com/elonmusk/status/2110127808718741920",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110127406258286757",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:55:52.000Z",
+      "created_at_shanghai": "2026-10-14 05:55:52",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship 40’s return to base",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 05:52:33",
+        "created_at_utc": "2026-10-13T21:52:33.000Z",
+        "id": "2110126570233094527",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110126064164810752/img/9mCwJO-xLi5gtV7F.jpg",
+          "https://pbs.twimg.com/media/HUisgwDWQAABgNQ.jpg?name=small",
+          "https://pbs.twimg.com/media/HUispKnWUAANUAB.jpg?name=small",
+          "https://pbs.twimg.com/media/HUistOkXgAAGPyY.jpg?name=small"
+        ],
+        "media": [
+          {
+            "duration": 33.433,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110126064164810752/img/9mCwJO-xLi5gtV7F.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110126064164810752/vid/avc1/4096x2160/-XIZNyKNkyYfZ8Qz.mp4?tag=29",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUisgwDWQAABgNQ.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2731,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUispKnWUAANUAB.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUistOkXgAAGPyY.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "SpaceX",
+        "text": "The first Starship to return to its launch site, Ship 40's journey took it across air, space, and sea. Now that it is vertical alongside three other Starships in a Megabay at Starbase, it will provide first-of-its-kind data on a flown Starship heatshield, Raptor engines, avionics, and more.",
+        "url": "https://x.com/SpaceX/status/2110126570233094527",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 102,
+        "likes": 3285,
+        "quotes": 34,
+        "replies": 360,
+        "retweets": 376,
+        "views": 473923
+      },
+      "url": "https://x.com/elonmusk/status/2110127406258286757",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110125937551397151",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:50:02.000Z",
+      "created_at_shanghai": "2026-10-14 05:50:02",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot detects scam emails!",
+      "quote": {
+        "author": "DirtyTesLa",
+        "avatar": "https://pbs.twimg.com/profile_images/1515173488008572931/VYTdzMib_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 23:57:58",
+        "created_at_utc": "2026-10-13T15:57:58.000Z",
+        "id": "2110037338755657863",
+        "images": [],
+        "media": [],
+        "name": "Dirty Tesla",
+        "text": "Grok @bot can help save you from scam emails.\n\nI have public email addresses, and I get daily scams in my inbox. They are getting harder to distinguish from legit emails. \n\nI use my Scam Email Detector bot to help alert me to scam emails\n\nTry it out: https://x.ai/bot/E3_qOY1VUJWZMh2inUvwT",
+        "url": "https://x.com/DirtyTesLa/status/2110037338755657863",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 68,
+        "likes": 1473,
+        "quotes": 34,
+        "replies": 410,
+        "retweets": 206,
+        "views": 497949
+      },
+      "url": "https://x.com/elonmusk/status/2110125937551397151",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110125729656578471",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:49:12.000Z",
+      "created_at_shanghai": "2026-10-14 05:49:12",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "THE 2027 PRESIDENTIAL SUPERINTELLIGENCE CHALLENGE",
+      "quote": null,
+      "retweet": {
+        "author": "MELANIATRUMP",
+        "avatar": "https://pbs.twimg.com/profile_images/2067963576833146880/36Ob7VqY_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 00:44:46",
+        "created_at_utc": "2026-10-13T16:44:46.000Z",
+        "id": "2110049113957900436",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110048987625508864/img/4DWW5_XcAZ2Ma0ec.jpg"
+        ],
+        "media": [
+          {
+            "duration": 61.853,
+            "height": 360,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110048987625508864/img/4DWW5_XcAZ2Ma0ec.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110048987625508864/vid/avc1/640x360/atcwBsEq4cEOwqpi.mp4?tag=29",
+            "width": 640
+          }
+        ],
+        "name": "MELANIA TRUMP",
+        "text": "THE 2027 PRESIDENTIAL SUPERINTELLIGENCE CHALLENGE",
+        "url": "https://x.com/MELANIATRUMP/status/2110049113957900436",
+        "verified": true,
+        "verified_type": "government"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 410,
+        "likes": 6105,
+        "quotes": 109,
+        "replies": 656,
+        "retweets": 1254,
+        "views": 244222
+      },
+      "url": "https://x.com/elonmusk/status/2110125729656578471",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110048987625508864/img/4DWW5_XcAZ2Ma0ec.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110048987625508864/vid/avc1/640x360/atcwBsEq4cEOwqpi.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110048987625508864/img/4DWW5_XcAZ2Ma0ec.jpg",
+          "width": 640,
+          "height": 360,
+          "duration": 61.853
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110125680826405119",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:49:01.000Z",
+      "created_at_shanghai": "2026-10-14 05:49:01",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I asked @grok  @bot  to explain what they are used:\n for here is the result with Grok @imagine . \n\nWho better than Grok Bot to explain what Grok Bots are for!\n\n@elonmusk",
+      "quote": null,
+      "retweet": {
+        "author": "dvorahfr",
+        "avatar": "https://pbs.twimg.com/profile_images/1605451924144373760/K27zpEfc_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 22:57:31",
+        "created_at_utc": "2026-10-13T14:57:31.000Z",
+        "id": "2110022123158999081",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110021767829848065/img/5CQqWzO5Fv-mxEzY.jpg"
+        ],
+        "media": [
+          {
+            "duration": 10.077,
+            "height": 1440,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110021767829848065/img/5CQqWzO5Fv-mxEzY.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110021767829848065/vid/avc1/2542x1440/sM4-WUyIsw3T88nw.mp4?tag=29",
+            "width": 2542
+          }
+        ],
+        "name": "Déborah",
+        "text": "I asked @grok  @bot  to explain what they are used:\n for here is the result with Grok @imagine . \n\nWho better than Grok Bot to explain what Grok Bots are for!\n\n@elonmusk",
+        "url": "https://x.com/dvorahfr/status/2110022123158999081",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 40,
+        "likes": 461,
+        "quotes": 2,
+        "replies": 37,
+        "retweets": 67,
+        "views": 95296
+      },
+      "url": "https://x.com/elonmusk/status/2110125680826405119",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110021767829848065/img/5CQqWzO5Fv-mxEzY.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110021767829848065/vid/avc1/2542x1440/sM4-WUyIsw3T88nw.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110021767829848065/img/5CQqWzO5Fv-mxEzY.jpg",
+          "width": 2542,
+          "height": 1440,
+          "duration": 10.077
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110125534550397227",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:48:26.000Z",
+      "created_at_shanghai": "2026-10-14 05:48:26",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "With an abundance of agentic bots, anyone can operate like a CEO—with zero overhead from interviewing, hiring, or assembling top talent. After that, it all comes down to management skills. That’s why who the CEO is still matters.",
+      "quote": null,
+      "retweet": {
+        "author": "yunta_tsai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035915849819938816/b6kIsNMe_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 23:18:59",
+        "created_at_utc": "2026-10-13T15:18:59.000Z",
+        "id": "2110027526651470244",
+        "images": [],
+        "media": [],
+        "name": "Yun-Ta Tsai",
+        "text": "With an abundance of agentic bots, anyone can operate like a CEO—with zero overhead from interviewing, hiring, or assembling top talent. After that, it all comes down to management skills. That’s why who the CEO is still matters.",
+        "url": "https://x.com/yunta_tsai/status/2110027526651470244",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 44,
+        "likes": 617,
+        "quotes": 9,
+        "replies": 44,
+        "retweets": 67,
+        "views": 95730
+      },
+      "url": "https://x.com/elonmusk/status/2110125534550397227",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110125336759296170",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:47:39.000Z",
+      "created_at_shanghai": "2026-10-14 05:47:39",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink brings Internet access to remote places",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 00:09:31",
+        "created_at_utc": "2026-10-13T16:09:31.000Z",
+        "id": "2110040244192186413",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110040216354553856/img/JUThwa3XbDYAZBTb.jpg"
+        ],
+        "media": [
+          {
+            "duration": 8.433,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110040216354553856/img/JUThwa3XbDYAZBTb.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110040216354553856/vid/avc1/1080x1080/vJr04K8PO6ISDPlj.mp4?tag=29",
             "width": 1080
           }
         ],
-        "name": "The Free Press",
-        "text": "A new four-hour documentary on Elon Musk is so determined to expose the billionaire’s failings that it inadvertently showcases the achievements that made him the richest man in the world.\n\nRead @liel's full review of “Musk” : https://www.thefp.com/p/elon-musk-new-documentary-enemies-best-case",
-        "url": "https://x.com/TheFP/status/2109675971892707552",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 431,
-        "likes": 12666,
-        "quotes": 108,
-        "replies": 1657,
-        "retweets": 1178,
-        "views": 3325247
-      },
-      "url": "https://x.com/elonmusk/status/2109692430178255016",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109691157416472796",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T17:02:22.000Z",
-      "created_at_shanghai": "2026-10-13 01:02:22",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "When China figures out how to manufacture a product, their ability to scale is often greater than the rest of the world combined. We saw this with lithium batteries and solar, for example. \n\nSpaceX is a rare counter-example, where its mass to orbit is roughly an order of magnitude greater than the rest of the world, BUT China now does a majority of non-SpaceX mass to orbit. SpaceX is an anomaly in the matrix. \n\nMaybe RAM will be different, but RAM was a low margin commodity only ~3 years ago. LP5 and LP6 are designed to a common standard that China seems to be solving fast. \n\nNewer HBM architectures and things like an SRAM layer below logic and 3D stacking RAM on top of logic while finding a way to keep the logic cooled will be harder to solve.",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 01:01:39",
-        "created_at_utc": "2026-10-12T17:01:39.000Z",
-        "id": "2109690977279426846",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "When China figures out how to manufacture a product, their ability to scale is often greater than the rest of the world combined. We saw this with lithium batteries and solar, for example. \n\nSpaceX is a rare counter-example, where its mass to orbit is roughly an order of magnitude greater than the rest of the world, BUT China now does a majority of non-SpaceX mass to orbit. SpaceX is an anomaly in the matrix. \n\nMaybe RAM will be different, but RAM was a low margin commodity only ~3 years ago. LP5 and LP6 are designed to a common standard that China seems to be solving fast. \n\nNewer HBM architectures and things like an SRAM layer below logic and 3D stacking RAM on top of logic while finding a way to keep the logic cooled will be harder to solve.",
-        "url": "https://x.com/elonmusk/status/2109690977279426846",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "MelvinInvests",
-      "engagement": {
-        "bookmarks": 1987,
-        "likes": 16765,
-        "quotes": 196,
-        "replies": 900,
-        "retweets": 1218,
-        "views": 1835662
-      },
-      "url": "https://x.com/elonmusk/status/2109691157416472796",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109690326474440765",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T16:59:04.000Z",
-      "created_at_shanghai": "2026-10-13 00:59:04",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Troubling",
-      "quote": {
-        "author": "Geiger_Capital",
-        "avatar": "https://pbs.twimg.com/profile_images/1486812287730081794/FbqQsGVz_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 00:10:23",
-        "created_at_utc": "2026-10-12T16:10:23.000Z",
-        "id": "2109678075084431696",
-        "images": [
-          "https://pbs.twimg.com/media/HUcSlSKXwAEjWKw.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1485,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUcSlSKXwAEjWKw.jpg?name=small",
-            "width": 1206
-          }
-        ],
-        "name": "Geiger Capital",
-        "text": "I thought this one was parody…\nIt’s real.\n\nJames Talarico calling Whiteness a virus.\nJust a totally normal, moderate guy.",
-        "url": "https://x.com/Geiger_Capital/status/2109678075084431696",
+        "name": "DogeDesigner",
+        "text": "BREAKING: Vietnam’s Hai Phong government partners with Starlink to bring FREE internet to remote islands.\n\nThe pilot includes 10 Starlink terminals, with FPT handling deployment and technical support: 6 in Cat Hai and 4 in Bach Long Vi.\n\nThe connections will support government services, tourism, disaster response and search-and-rescue, providing a vital backup when storms disrupt ground networks.",
+        "url": "https://x.com/cb_doge/status/2110040244192186413",
         "verified": true,
         "verified_type": "individual"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 12,
-        "likes": 484,
-        "quotes": 6,
-        "replies": 112,
-        "retweets": 102,
-        "views": 304289
+        "bookmarks": 34,
+        "likes": 1506,
+        "quotes": 26,
+        "replies": 237,
+        "retweets": 207,
+        "views": 442855
       },
-      "url": "https://x.com/elonmusk/status/2109690326474440765",
+      "url": "https://x.com/elonmusk/status/2110125336759296170",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2109688905398358144",
+      "id": "2110125156199014881",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T16:53:25.000Z",
-      "created_at_shanghai": "2026-10-13 00:53:25",
+      "created_at_utc": "2026-10-13T21:46:56.000Z",
+      "created_at_shanghai": "2026-10-14 05:46:56",
       "type": "转发",
       "type_label": "转发",
-      "text": "Pie chart of naturalizations in 2023. The US naturalized roughly 4x as many people as all of Asia combined.",
+      "text": "Grok Bot is really the value for money\n\nIt researches, writes, designs images, edits videos, codes, handles email and runs scheduled tasks 24/7, using the best AI model for each job.\n\nOne app that works like a whole team that never clocks out.\n\nTry @bot!",
       "quote": null,
       "retweet": {
-        "author": "arctotherium42",
-        "avatar": "https://pbs.twimg.com/profile_images/1484954781500297218/iY7hjZ1u_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 22:08:40",
-        "created_at_utc": "2026-10-12T14:08:40.000Z",
-        "id": "2109647443675508977",
+        "author": "iam_smx",
+        "avatar": "https://pbs.twimg.com/profile_images/1785421156859719680/gSkjB7g7_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 23:48:57",
+        "created_at_utc": "2026-10-13T15:48:57.000Z",
+        "id": "2110035070279200797",
         "images": [
-          "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2000,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small",
-            "width": 2600
-          }
-        ],
-        "name": "arctotherium",
-        "text": "Pie chart of naturalizations in 2023. The US naturalized roughly 4x as many people as all of Asia combined.",
-        "url": "https://x.com/arctotherium42/status/2109647443675508977",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 56,
-        "likes": 626,
-        "quotes": 11,
-        "replies": 49,
-        "retweets": 112,
-        "views": 56727
-      },
-      "url": "https://x.com/elonmusk/status/2109688905398358144",
-      "images": [
-        "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUb45AZWcAAjUKJ.jpg?name=small",
-          "width": 2600,
-          "height": 2000
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109681296616374289",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T16:23:11.000Z",
-      "created_at_shanghai": "2026-10-13 00:23:11",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Your safety has always been priority 1 at Tesla and SpaceX",
-      "quote": {
-        "author": "mayemusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2034196750035021824/7VeYNMU1_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 22:36:58",
-        "created_at_utc": "2026-10-12T14:36:58.000Z",
-        "id": "2109654566320935103",
-        "images": [],
-        "media": [],
-        "name": "Maye Musk",
-        "text": "Remembering when Tesla was just starting, Elon would say Safety First. For that reason you and your son are alive and many other lives will be saved.",
-        "url": "https://x.com/mayemusk/status/2109654566320935103",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 103,
-        "likes": 5091,
-        "quotes": 54,
-        "replies": 756,
-        "retweets": 551,
-        "views": 650319
-      },
-      "url": "https://x.com/elonmusk/status/2109681296616374289",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109674099882553443",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T15:54:35.000Z",
-      "created_at_shanghai": "2026-10-12 23:54:35",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Brace yourselves. Over the next few weeks you are going to see a wave of hatred against Elon Musk unlike anything before.\n\nA four-hour hit-piece documentary rolling out nationwide. Midterms three weeks away. Every outlet, every NGO, every “expert” panel suddenly singing from the same sheet, on the same day, with the same words.\n\nNone of it is spontaneous.\n\nWhat you are watching is an organism. Call it international socialism, call it the managerial left, the name doesn’t matter. It is a network that spent decades quietly capturing the universities, the newsrooms, the foundations, the administrative state, every institution that was supposed to referee the game instead of playing it.\n\nFor years it worked because no one with real power ever looked under the hood.\n\nThen a man who lands rockets, owns the public square and needs nobody’s permission started looking. And started showing everyone else what he found.\n\nSo the organism does what every organism does when it senses a threat to its survival. It screams.\n\nDon’t mistake the noise for strength. What you are about to hear is not the roar of a system in control. It is a death cry.\n\nThe louder it gets, the closer he is to the nerve.\n\nI wrote about why this happens, and why “Nazi” is always the weapon of choice 👇\n\nhttps://x.com/brivael/status/2069203589692805440",
-      "quote": {
-        "author": "brivael",
-        "avatar": "https://pbs.twimg.com/profile_images/2057241969403834368/PFPm3cxd_200x200.jpg",
-        "created_at_shanghai": "2026-06-23 07:39:14",
-        "created_at_utc": "2026-06-22T23:39:14.000Z",
-        "id": "2069203589692805440",
-        "images": [],
-        "media": [],
-        "name": "Brivael Le Pogam",
-        "text": "",
-        "url": "https://x.com/brivael/status/2069203589692805440",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "brivael",
-        "avatar": "https://pbs.twimg.com/profile_images/2057241969403834368/PFPm3cxd_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 23:41:32",
-        "created_at_utc": "2026-10-12T15:41:32.000Z",
-        "id": "2109670813406240846",
-        "images": [],
-        "media": [],
-        "name": "Brivael Le Pogam",
-        "text": "Brace yourselves. Over the next few weeks you are going to see a wave of hatred against Elon Musk unlike anything before.\n\nA four-hour hit-piece documentary rolling out nationwide. Midterms three weeks away. Every outlet, every NGO, every “expert” panel suddenly singing from the same sheet, on the same day, with the same words.\n\nNone of it is spontaneous.\n\nWhat you are watching is an organism. Call it international socialism, call it the managerial left, the name doesn’t matter. It is a network that spent decades quietly capturing the universities, the newsrooms, the foundations, the administrative state, every institution that was supposed to referee the game instead of playing it.\n\nFor years it worked because no one with real power ever looked under the hood.\n\nThen a man who lands rockets, owns the public square and needs nobody’s permission started looking. And started showing everyone else what he found.\n\nSo the organism does what every organism does when it senses a threat to its survival. It screams.\n\nDon’t mistake the noise for strength. What you are about to hear is not the roar of a system in control. It is a death cry.\n\nThe louder it gets, the closer he is to the nerve.\n\nI wrote about why this happens, and why “Nazi” is always the weapon of choice 👇\n\nhttps://x.com/brivael/status/2069203589692805440",
-        "url": "https://x.com/brivael/status/2109670813406240846",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 268,
-        "likes": 2156,
-        "quotes": 56,
-        "replies": 327,
-        "retweets": 524,
-        "views": 177725
-      },
-      "url": "https://x.com/elonmusk/status/2109674099882553443",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109673221591302626",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T15:51:06.000Z",
-      "created_at_shanghai": "2026-10-12 23:51:06",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Open standards are the foundation for AI factories that can scale from megawatts to gigawatts.\n\nAt #OCPSummit26, we contributed the NVIDIA Vera Rubin NVL72 rack and compute tray designs to @OpenComputePrj through the open 3rd generation NVIDIA MGX architecture.\n\nWe also announced advances across open source software, AI networking, pluggable optics, facility design standards and more, giving the industry a common foundation for next-generation AI factories.\n\nLearn more: https://nvda.ws/4hSAOsb",
-      "quote": null,
-      "retweet": {
-        "author": "NVIDIAAIInfra",
-        "avatar": "https://pbs.twimg.com/profile_images/1859346502243713026/NzLZW_Ag_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 23:01:09",
-        "created_at_utc": "2026-10-12T15:01:09.000Z",
-        "id": "2109660650423091650",
-        "images": [
-          "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small"
+          "https://pbs.twimg.com/media/HUhZs_HXEAAwy4T.jpg?name=small"
         ],
         "media": [
           {
             "height": 1080,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small",
+            "url": "https://pbs.twimg.com/media/HUhZs_HXEAAwy4T.jpg?name=small",
             "width": 1920
           }
         ],
-        "name": "NVIDIA AI Infrastructure",
-        "text": "Open standards are the foundation for AI factories that can scale from megawatts to gigawatts.\n\nAt #OCPSummit26, we contributed the NVIDIA Vera Rubin NVL72 rack and compute tray designs to @OpenComputePrj through the open 3rd generation NVIDIA MGX architecture.\n\nWe also announced advances across open source software, AI networking, pluggable optics, facility design standards and more, giving the industry a common foundation for next-generation AI factories.\n\nLearn more: https://nvda.ws/4hSAOsb",
-        "url": "https://x.com/NVIDIAAIInfra/status/2109660650423091650",
+        "name": "SMX 🇺🇸",
+        "text": "Grok Bot is really the value for money\n\nIt researches, writes, designs images, edits videos, codes, handles email and runs scheduled tasks 24/7, using the best AI model for each job.\n\nOne app that works like a whole team that never clocks out.\n\nTry @bot!",
+        "url": "https://x.com/iam_smx/status/2110035070279200797",
         "verified": true,
-        "verified_type": "organization"
+        "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 29,
-        "likes": 696,
-        "quotes": 12,
-        "replies": 64,
-        "retweets": 113,
-        "views": 147159
+        "bookmarks": 51,
+        "likes": 444,
+        "quotes": 2,
+        "replies": 44,
+        "retweets": 69,
+        "views": 92012
       },
-      "url": "https://x.com/elonmusk/status/2109673221591302626",
+      "url": "https://x.com/elonmusk/status/2110125156199014881",
       "images": [
-        "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small"
+        "https://pbs.twimg.com/media/HUhZs_HXEAAwy4T.jpg?name=small"
       ],
       "media": [
         {
           "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small",
+          "url": "https://pbs.twimg.com/media/HUhZs_HXEAAwy4T.jpg?name=small",
           "width": 1920,
           "height": 1080
         }
@@ -832,259 +778,352 @@
       "enriched": true
     },
     {
-      "id": "2109672692760948972",
+      "id": "2110125116936060998",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T15:49:00.000Z",
-      "created_at_shanghai": "2026-10-12 23:49:00",
+      "created_at_utc": "2026-10-13T21:46:46.000Z",
+      "created_at_shanghai": "2026-10-14 05:46:46",
       "type": "转发",
       "type_label": "转发",
-      "text": "retatrutide costs about $1/mg\n\n3mg/week is a good enough dose for most people to not be fat. that's $156 PER YEAR!\n\nover 200M people in the US are fat\ngiving out free reta to every fat person would only cost $31.2 billion every year\n\nmeanwhile, obesity adds ~$6500 a year in medical costs and productivity loss per person\n\nbasically, giving out free reta would increase the GDP by $1.3 TRILLION every year",
+      "text": "Try the Supabase plugin in @bot to monitor, debug, and ship changes to your backend",
       "quote": {
-        "author": "IterIntellectus",
-        "avatar": "https://pbs.twimg.com/profile_images/2009602429478633472/8lMkYuep_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 22:52:37",
-        "created_at_utc": "2026-10-12T14:52:37.000Z",
-        "id": "2109658502796816690",
+        "author": "supabase",
+        "avatar": "https://pbs.twimg.com/profile_images/1822981431586439168/7xkKXRGQ_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 00:11:57",
+        "created_at_utc": "2026-10-13T16:11:57.000Z",
+        "id": "2110040855360741868",
+        "images": [
+          "https://pbs.twimg.com/ext_tw_video_thumb/2110040825669300224/pu/img/_k2fW5phbhJcePxL.jpg"
+        ],
+        "media": [
+          {
+            "duration": 14.5,
+            "height": 1008,
+            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2110040825669300224/pu/img/_k2fW5phbhJcePxL.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/ext_tw_video/2110040825669300224/pu/vid/avc1/1280x720/QLLqPvuRmV2YBfTe.mp4?tag=12",
+            "width": 1792
+          }
+        ],
+        "name": "Supabase",
+        "text": "Supabase now works with Grok Bot. 🤖\n\nRequest a change in chat, and @cursor_ai builds and runs it on your Supabase backend through the Supabase MCP server.\n\nLearn more ↓\nhttps://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
+        "url": "https://x.com/supabase/status/2110040855360741868",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "grok",
+        "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 01:14:09",
+        "created_at_utc": "2026-10-13T17:14:09.000Z",
+        "id": "2110056511405949409",
         "images": [],
         "media": [],
-        "name": "vittorio",
-        "text": "considering the increase in productivity and the time and money saved from simply not being fat, every employer would make more money by offering free ozempic to all their employees",
-        "url": "https://x.com/IterIntellectus/status/2109658502796816690",
+        "name": "Grok",
+        "text": "Try the Supabase plugin in @bot to monitor, debug, and ship changes to your backend",
+        "url": "https://x.com/grok/status/2110056511405949409",
         "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "IterIntellectus",
-        "avatar": "https://pbs.twimg.com/profile_images/2009602429478633472/8lMkYuep_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 23:41:30",
-        "created_at_utc": "2026-10-12T15:41:30.000Z",
-        "id": "2109670804220789044",
-        "images": [
-          "https://pbs.twimg.com/media/HUcLseNXMAABDmI.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1980,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUcLseNXMAABDmI.jpg?name=small",
-            "width": 3240
-          }
-        ],
-        "name": "vittorio",
-        "text": "retatrutide costs about $1/mg\n\n3mg/week is a good enough dose for most people to not be fat. that's $156 PER YEAR!\n\nover 200M people in the US are fat\ngiving out free reta to every fat person would only cost $31.2 billion every year\n\nmeanwhile, obesity adds ~$6500 a year in medical costs and productivity loss per person\n\nbasically, giving out free reta would increase the GDP by $1.3 TRILLION every year",
-        "url": "https://x.com/IterIntellectus/status/2109670804220789044",
-        "verified": true,
-        "verified_type": "individual"
+        "verified_type": "organization"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 183,
-        "likes": 1060,
-        "quotes": 18,
-        "replies": 152,
-        "retweets": 139,
-        "views": 173502
+        "bookmarks": 122,
+        "likes": 778,
+        "quotes": 12,
+        "replies": 71,
+        "retweets": 69,
+        "views": 269928
       },
-      "url": "https://x.com/elonmusk/status/2109672692760948972",
-      "images": [
-        "https://pbs.twimg.com/media/HUcLseNXMAABDmI.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUcLseNXMAABDmI.jpg?name=small",
-          "width": 3240,
-          "height": 1980
-        }
-      ],
+      "url": "https://x.com/elonmusk/status/2110125116936060998",
+      "images": [],
+      "media": [],
       "enriched": true
     },
     {
-      "id": "2109670112135405876",
+      "id": "2110125050074669471",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T15:38:45.000Z",
-      "created_at_shanghai": "2026-10-12 23:38:45",
+      "created_at_utc": "2026-10-13T21:46:30.000Z",
+      "created_at_shanghai": "2026-10-14 05:46:30",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try @Starlink Internet!",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 21:07:17",
+        "created_at_utc": "2026-10-13T13:07:17.000Z",
+        "id": "2109994383110213691",
+        "images": [
+          "https://pbs.twimg.com/media/HUg0tL-bEAAyUU9.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1109,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUg0tL-bEAAyUU9.jpg?name=small",
+            "width": 1125
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: Starlink ranks #1 for both download speed and Consistent Quality in rural UK, beating EE, Three and Vodafone in Opensignal’s study.\n\nStarlink also leads rural download speeds in all 14 European markets studied.",
+        "url": "https://x.com/cb_doge/status/2109994383110213691",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 838,
+        "quotes": 10,
+        "replies": 157,
+        "retweets": 133,
+        "views": 418367
+      },
+      "url": "https://x.com/elonmusk/status/2110125050074669471",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110124896089260384",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:45:54.000Z",
+      "created_at_shanghai": "2026-10-14 05:45:54",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Latest upgrades to Grok @Bot",
+      "quote": {
+        "author": "mattyp",
+        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 22:07:31",
+        "created_at_utc": "2026-10-13T14:07:31.000Z",
+        "id": "2110009541760839701",
+        "images": [
+          "https://pbs.twimg.com/media/HUg9VfMX0AAKqSi.jpg"
+        ],
+        "media": [
+          {
+            "duration": 373.733,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/media/HUg9VfMX0AAKqSi.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2109999435157540864/vid/avc1/3840x2160/uLC5fODap-XytLzs.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "matt palmer",
+        "text": "What's new in Grok Bot\n\n0:00 Bot's very own email\n1:14 Better X!\n1:48 Connect Shopify\n2:20 More color\n2:45 Email drafts\n3:22 Bot's computer\n4:30 Template search\n4:48 PR previews and routine right-clicks\n5:24 5 new languages\n\nLots new in @bot this week! More on the way.",
+        "url": "https://x.com/mattyp/status/2110009541760839701",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 141,
+        "likes": 1276,
+        "quotes": 17,
+        "replies": 202,
+        "retweets": 151,
+        "views": 468601
+      },
+      "url": "https://x.com/elonmusk/status/2110124896089260384",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110123370159145228",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:39:50.000Z",
+      "created_at_shanghai": "2026-10-14 05:39:50",
       "type": "转发",
       "type_label": "转发",
-      "text": "Nearly half a million Indian schools still have no internet. This is exactly the kind of problem Starlink was built to solve\n\nAccording to India's Education Ministry’s UDISE+ 2025–26 data:\n\n• 1,466,682 schools nationwide\n• 989,191 have internet access\n• 477,491 still don't have internet\n• Only 67.4% of schools are connected\n\nThat means nearly one in three schools across India still lacks internet access\n\nThis is where Starlink makes a real difference\n\nFor schools in remote villages and regions where laying fiber is difficult or expensive, and so they essentially end up with no internet at all, satellite internet brings teachers and students online without waiting for broadband cables to reach every classroom\n\nAnd Starlink has already demonstrated what this can achieve\n\nIn 2025 alone, Starlink connected more than 6 million students worldwide through education initiatives\n\nIndia has millions of students living far beyond major cities, and connecting underserved schools would open up access to online learning, educational resources, and opportunities that were previously out of reach\n\nA child's access to knowledge should not depend on whether a broadband cable reaches their classroom\n\nThis is another powerful reason to bring Starlink connectivity to more schools across India",
+      "text": "I no longer see any compelling reason to believe that taste is some permanent boundary LLMs won’t cross. It’s already happening.",
       "quote": null,
       "retweet": {
+        "author": "benjitaylor",
+        "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
+        "created_at_shanghai": "2026-10-14 00:08:02",
+        "created_at_utc": "2026-10-13T16:08:02.000Z",
+        "id": "2110039872472010775",
+        "images": [],
+        "media": [],
+        "name": "Benji Taylor",
+        "text": "I no longer see any compelling reason to believe that taste is some permanent boundary LLMs won’t cross. It’s already happening.",
+        "url": "https://x.com/benjitaylor/status/2110039872472010775",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 356,
+        "likes": 3903,
+        "quotes": 124,
+        "replies": 350,
+        "retweets": 219,
+        "views": 241146
+      },
+      "url": "https://x.com/elonmusk/status/2110123370159145228",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110123302777995538",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:39:34.000Z",
+      "created_at_shanghai": "2026-10-14 05:39:34",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Cool Grok @Bot use case",
+      "quote": {
         "author": "XFreeze",
         "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 18:48:17",
-        "created_at_utc": "2026-10-12T10:48:17.000Z",
-        "id": "2109597015126712595",
-        "images": [
-          "https://pbs.twimg.com/media/HUbLTAgbMAAfn0P.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2160,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUbLTAgbMAAfn0P.jpg?name=small",
-            "width": 2160
-          }
-        ],
+        "created_at_shanghai": "2026-10-14 03:24:09",
+        "created_at_utc": "2026-10-13T19:24:09.000Z",
+        "id": "2110089226733924364",
+        "images": [],
+        "media": [],
         "name": "X Freeze",
-        "text": "Nearly half a million Indian schools still have no internet. This is exactly the kind of problem Starlink was built to solve\n\nAccording to India's Education Ministry’s UDISE+ 2025–26 data:\n\n• 1,466,682 schools nationwide\n• 989,191 have internet access\n• 477,491 still don't have internet\n• Only 67.4% of schools are connected\n\nThat means nearly one in three schools across India still lacks internet access\n\nThis is where Starlink makes a real difference\n\nFor schools in remote villages and regions where laying fiber is difficult or expensive, and so they essentially end up with no internet at all, satellite internet brings teachers and students online without waiting for broadband cables to reach every classroom\n\nAnd Starlink has already demonstrated what this can achieve\n\nIn 2025 alone, Starlink connected more than 6 million students worldwide through education initiatives\n\nIndia has millions of students living far beyond major cities, and connecting underserved schools would open up access to online learning, educational resources, and opportunities that were previously out of reach\n\nA child's access to knowledge should not depend on whether a broadband cable reaches their classroom\n\nThis is another powerful reason to bring Starlink connectivity to more schools across India",
-        "url": "https://x.com/XFreeze/status/2109597015126712595",
+        "text": "Just made \"Explainer Video Bot\"... It will help you understand any topic visually by making a video\n\nIt just made me an incredible video for me explaining how SpaceX safely manages the world's largest satellite constellation and shares its space-safety data with other satellite operators for FREE\n\nThe video explains everything in amazing detail, yet it's so easy to understand.....even for someone who knows absolutely nothing about Starlink\n\nAnd the entire video was created by Grok Bot.......from the storytelling to the visuals and animations\n\nI loved it so much that I turned it into a reusable template anyone can try\n\nHere's the template:\nhttps://x.ai/bot/eTLAqnD45kW3h-THwU8XM",
+        "url": "https://x.com/XFreeze/status/2110089226733924364",
         "verified": true,
         "verified_type": "individual"
       },
+      "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 47,
-        "likes": 1499,
-        "quotes": 55,
-        "replies": 481,
-        "retweets": 270,
-        "views": 176720
+        "bookmarks": 179,
+        "likes": 1149,
+        "quotes": 20,
+        "replies": 242,
+        "retweets": 155,
+        "views": 490613
       },
-      "url": "https://x.com/elonmusk/status/2109670112135405876",
-      "images": [
-        "https://pbs.twimg.com/media/HUbLTAgbMAAfn0P.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUbLTAgbMAAfn0P.jpg?name=small",
-          "width": 2160,
-          "height": 2160
-        }
-      ],
+      "url": "https://x.com/elonmusk/status/2110123302777995538",
+      "images": [],
+      "media": [],
       "enriched": true
     },
     {
-      "id": "2109659735527952538",
+      "id": "2110123131692048515",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T14:57:31.000Z",
-      "created_at_shanghai": "2026-10-12 22:57:31",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Listen to Elon!",
-      "quote": null,
-      "retweet": {
-        "author": "GadSaad",
-        "avatar": "https://pbs.twimg.com/profile_images/979192426660327424/4B9g75QR_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 21:04:34",
-        "created_at_utc": "2026-10-12T13:04:34.000Z",
-        "id": "2109631310478360694",
+      "created_at_utc": "2026-10-13T21:38:53.000Z",
+      "created_at_shanghai": "2026-10-14 05:38:53",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True, this is a very big deal",
+      "quote": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 05:18:35",
+        "created_at_utc": "2026-10-13T21:18:35.000Z",
+        "id": "2110118022988058637",
         "images": [
-          "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small"
+          "https://pbs.twimg.com/amplify_video_thumb/2107494178984710145/img/PgL2_lgOLOLO7o2U.jpg"
         ],
         "media": [
           {
-            "height": 612,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small",
-            "width": 2000
+            "duration": 54.866,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107494178984710145/img/PgL2_lgOLOLO7o2U.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107494178984710145/vid/avc1/3840x2160/0It8TvRgYM9Bvb3e.mp4?tag=29",
+            "width": 3840
           }
         ],
-        "name": "Gad Saad",
-        "text": "Listen to Elon!",
-        "url": "https://x.com/GadSaad/status/2109631310478360694",
+        "name": "Sawyer Merritt",
+        "text": "Morgan Stanley's Adam Jonas in new @SpaceX note:\n\n\"The part of the SpaceX story that we believe holds the greatest growth potential, and that is being largely ignored/not contemplated by investors, is the Distributed Inference Cloud. Investors are already witnessing some degree of corporate/regulatory/social angst toward data centers. We see SPCX's efforts as instrumental in helping to get the Super Intelligence Economy and the Physical Intelligence Economy on the next leg of growth and economic development. As the 'density' of physical agents increases, we expect incrementally greater intelligence capability of the collective mobile swarm.\n\nWe ask investors to be prepared to hear about the Distributed Inference Cloud and physical AI swarms in the coming year. From our seat, we think this subject is very close to breaking out in the investor discussion. Gradually… then suddenly.\" https://x.com/SawyerMerritt/status/2107494345251107175/video/1",
+        "url": "https://x.com/SawyerMerritt/status/2110118022988058637",
         "verified": true,
         "verified_type": "individual"
       },
+      "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 113,
-        "likes": 3633,
-        "quotes": 25,
-        "replies": 208,
-        "retweets": 495,
-        "views": 232554
+        "bookmarks": 354,
+        "likes": 3841,
+        "quotes": 36,
+        "replies": 265,
+        "retweets": 471,
+        "views": 797432
       },
-      "url": "https://x.com/elonmusk/status/2109659735527952538",
-      "images": [
-        "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUbqezhW8AAIXWH.jpg?name=small",
-          "width": 2000,
-          "height": 612
-        }
-      ],
+      "url": "https://x.com/elonmusk/status/2110123131692048515",
+      "images": [],
+      "media": [],
       "enriched": true
     },
     {
-      "id": "2109521078405968196",
+      "id": "2110122360825340322",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T05:46:32.000Z",
-      "created_at_shanghai": "2026-10-12 13:46:32",
+      "created_at_utc": "2026-10-13T21:35:49.000Z",
+      "created_at_shanghai": "2026-10-14 05:35:49",
       "type": "转发",
       "type_label": "转发",
-      "text": "Crude steel production in 2025 cartogram.",
+      "text": "It’s not that supercomputer data centers are not in high demand, as they definitely are. However, getting money to build complex hardware systems with massive power, cooling & networking is not the same as doing it. \n\nSpaceX has a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit and even we find it very difficult!",
       "quote": null,
       "retweet": {
-        "author": "arctotherium42",
-        "avatar": "https://pbs.twimg.com/profile_images/1484954781500297218/iY7hjZ1u_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 09:42:35",
-        "created_at_utc": "2026-10-12T01:42:35.000Z",
-        "id": "2109459685497782774",
-        "images": [
-          "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1200,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small",
-            "width": 2400
-          }
-        ],
-        "name": "arctotherium",
-        "text": "Crude steel production in 2025 cartogram.",
-        "url": "https://x.com/arctotherium42/status/2109459685497782774",
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 05:35:30",
+        "created_at_utc": "2026-10-13T21:35:30.000Z",
+        "id": "2110122281603326170",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "It’s not that supercomputer data centers are not in high demand, as they definitely are. However, getting money to build complex hardware systems with massive power, cooling & networking is not the same as doing it. \n\nSpaceX has a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit and even we find it very difficult!",
+        "url": "https://x.com/elonmusk/status/2110122281603326170",
         "verified": true,
         "verified_type": "individual"
       },
-      "reply_to": "",
+      "reply_to": "zerohedge",
       "engagement": {
-        "bookmarks": 186,
-        "likes": 1585,
-        "quotes": 39,
-        "replies": 95,
-        "retweets": 169,
-        "views": 255053
+        "bookmarks": 431,
+        "likes": 7746,
+        "quotes": 59,
+        "replies": 310,
+        "retweets": 510,
+        "views": 465372
       },
-      "url": "https://x.com/elonmusk/status/2109521078405968196",
-      "images": [
-        "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUZN8lJWcAAlTP0.jpg?name=small",
-          "width": 2400,
-          "height": 1200
-        }
-      ],
+      "url": "https://x.com/elonmusk/status/2110122360825340322",
+      "images": [],
+      "media": [],
       "enriched": true
     }
   ],
   "page": 44,
   "page_size": 20,
-  "total": 1686,
-  "total_pages": 85,
-  "updated_at_shanghai": "2026-10-30 19:38:53",
+  "total": 1739,
+  "total_pages": 87,
+  "updated_at_shanghai": "2026-10-31 01:10:09",
   "account": "elonmusk"
 }
