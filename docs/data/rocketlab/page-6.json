@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2095080430949240847",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-09-02T09:24:34.000Z",
+      "created_at_shanghai": "2026-09-02 17:24:34",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Less than 2 hours to liftoff for our 15th mission of the year and Electron's 94th launch.\n❄️LOX loading has begun\n🌤️ Weather: 70% go\n🚀 Range: Clear\n⏱️ Liftoff: scheduled for 11:12 pm NZT local time",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 8,
+        "likes": 943,
+        "quotes": 8,
+        "replies": 18,
+        "retweets": 81,
+        "views": 59243
+      },
+      "url": "https://x.com/rocketlab/status/2095080430949240847",
+      "images": [
+        "https://pbs.twimg.com/media/HRM4bq6akAA85bf.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRM4bq6akAA85bf.jpg?name=small",
+          "width": 1267,
+          "height": 704
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2095038975161553309",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -171,8 +208,8 @@
   ],
   "page": 6,
   "page_size": 20,
-  "total": 104,
+  "total": 105,
   "total_pages": 6,
-  "updated_at_shanghai": "2026-10-30 19:38:53",
+  "updated_at_shanghai": "2026-10-31 05:28:02",
   "account": "rocketlab"
 }

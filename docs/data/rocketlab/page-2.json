@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2113529232576131200",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-10-23T07:13:31.000Z",
+      "created_at_shanghai": "2026-10-23 15:13:31",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "LIFTOFF! Electron has launched for the 98th time.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 36,
+        "likes": 2434,
+        "quotes": 39,
+        "replies": 43,
+        "retweets": 218,
+        "views": 107120
+      },
+      "url": "https://x.com/rocketlab/status/2113529232576131200",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2113529026832658432/img/e2xJb7QpgzAIa9kI.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2113529026832658432/vid/avc1/1920x1080/rMv2TJ8dT27MXYSn.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113529026832658432/img/e2xJb7QpgzAIa9kI.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 21.54
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2113524134257082468",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -739,64 +778,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110805629266960529",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-10-15T18:50:53.000Z",
-      "created_at_shanghai": "2026-10-16 02:50:53",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "28.1 miles on Mars, powered by Rocket Lab hardware.\n\nNASA's Perseverance rover has now driven 28.1 miles (45.2 km) across the Red Planet in just five and a half years, breaking an off-world driving record that took Opportunity nearly 15 years to set.\n\nRocket Lab solar panels powered Perseverance's cruise to Mars, then on the surface, Rocket Lab Robotics (formerly Motiv Space Systems) hardware helps turn those miles into science — from the Mastcam-Z camera mechanisms that zoom in on targets, to the 7-foot robotic arm placing instruments against Martian rock with sub-millimeter precision.\n\nEvery mile is another step in the search for signs of ancient life.",
-      "quote": {
-        "author": "NASAMars",
-        "avatar": "https://pbs.twimg.com/profile_images/1273027228410867713/iTO6CkbM_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 05:32:24",
-        "created_at_utc": "2026-10-12T21:32:24.000Z",
-        "id": "2109759113941152026",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109759019175063552/img/fPJiSI866TkJWHCY.jpg"
-        ],
-        "media": [
-          {
-            "duration": 108.885,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109759019175063552/img/fPJiSI866TkJWHCY.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109759019175063552/vid/avc1/1920x1080/xz7VIwf7l-7Ln_mA.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "NASA Mars",
-        "text": "Perseverance has set a new off-world record! 🏅\n\nOn Oct. 11, the rover's odometer hit 28.10 miles (45.22 kilometers), eclipsing the distance record set by NASA's Opportunity rover.  1/2",
-        "url": "https://x.com/NASAMars/status/2109759113941152026",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 5,
-        "likes": 385,
-        "quotes": 10,
-        "replies": 15,
-        "retweets": 45,
-        "views": 11535
-      },
-      "url": "https://x.com/rocketlab/status/2110805629266960529",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 104,
+  "total": 105,
   "total_pages": 6,
-  "updated_at_shanghai": "2026-10-30 19:38:53",
+  "updated_at_shanghai": "2026-10-31 05:28:02",
   "account": "rocketlab"
 }
