@@ -1,6 +1,108 @@
 {
   "posts": [
     {
+      "id": "2113011511429902609",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T20:56:16.000Z",
+      "created_at_shanghai": "2026-10-22 04:56:16",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot is like hiring a super smart and fun employee!",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 03:42:13",
+        "created_at_utc": "2026-10-21T19:42:13.000Z",
+        "id": "2112992872857252082",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2112992722529226752/img/3vCQwgTBFW-Svcnq.jpg"
+        ],
+        "media": [
+          {
+            "duration": 26.8,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112992722529226752/img/3vCQwgTBFW-Svcnq.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2112992722529226752/vid/avc1/1920x1080/Pj0Pze4xLpjvRJgG.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now build reports, memos, and dashboards.\n\nAsk Bot for a page, then edit it together or have Bot keep it up to date.",
+        "url": "https://x.com/bot/status/2112992872857252082",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 229,
+        "likes": 3492,
+        "quotes": 40,
+        "replies": 720,
+        "retweets": 409,
+        "views": 713029
+      },
+      "url": "https://x.com/elonmusk/status/2113011511429902609",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2113011056847278486",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T20:54:28.000Z",
+      "created_at_shanghai": "2026-10-22 04:54:28",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "People are buying FSD with a car attached, not the other way around",
+      "quote": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 04:04:44",
+        "created_at_utc": "2026-10-21T20:04:44.000Z",
+        "id": "2112998543065600047",
+        "images": [
+          "https://pbs.twimg.com/media/HVLg0bgXsAAnRtf.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1302,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVLg0bgXsAAnRtf.jpg?name=small",
+            "width": 2304
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "Tesla has just released its Q3 earnings results.\n\nHighlights:\n• EPS (non-GAAP): $0.48 (vs. $0.45 est)\n• Revenue: $28.05B (vs. $28.3B est)\n• Adjusted EBITDA: $3.90B\n• Active FSD Subscriptions: 1.74M, up 67% YoY from 1.04M\n• Net income (GAAP): $787M\n• Free cash flow: $1.53B\n• Capex: $4.73B\n• Cash & marketable securities: $45.45B, up 9% YoY",
+        "url": "https://x.com/SawyerMerritt/status/2112998543065600047",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 170,
+        "likes": 7536,
+        "quotes": 100,
+        "replies": 722,
+        "retweets": 685,
+        "views": 736352
+      },
+      "url": "https://x.com/elonmusk/status/2113011056847278486",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2113010364178964616",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -919,99 +1021,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2112941047902843137",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T16:16:17.000Z",
-      "created_at_shanghai": "2026-10-22 00:16:17",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "with Grok Bot the future of computing is headless\n\nI never wake up thinking \"this will be a great day to open up the amazon app and have to click a bunch of buttons to find my order and fill out forms to return it\"\n\n(this is de-humanizing)\n\ninstead I just tell Grok to do it!",
-      "quote": null,
-      "retweet": {
-        "author": "KettlebellDan",
-        "avatar": "https://pbs.twimg.com/profile_images/2111928931851157504/R0V2OIS1_200x200.jpg",
-        "created_at_shanghai": "2026-10-22 00:00:18",
-        "created_at_utc": "2026-10-21T16:00:18.000Z",
-        "id": "2112937029436907551",
-        "images": [
-          "https://pbs.twimg.com/media/HVKopkSXwAEHuFc.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1507,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVKopkSXwAEHuFc.jpg?name=small",
-            "width": 1206
-          }
-        ],
-        "name": "Dan",
-        "text": "with Grok Bot the future of computing is headless\n\nI never wake up thinking \"this will be a great day to open up the amazon app and have to click a bunch of buttons to find my order and fill out forms to return it\"\n\n(this is de-humanizing)\n\ninstead I just tell Grok to do it!",
-        "url": "https://x.com/KettlebellDan/status/2112937029436907551",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 38,
-        "likes": 796,
-        "quotes": 9,
-        "replies": 98,
-        "retweets": 89,
-        "views": 176559
-      },
-      "url": "https://x.com/elonmusk/status/2112941047902843137",
-      "images": [
-        "https://pbs.twimg.com/media/HVKopkSXwAEHuFc.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVKopkSXwAEHuFc.jpg?name=small",
-          "width": 1206,
-          "height": 1507
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2112934688557818190",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T15:51:00.000Z",
-      "created_at_shanghai": "2026-10-21 23:51:00",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "There is something deeply wrong with Talarico",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 514,
-        "likes": 53116,
-        "quotes": 525,
-        "replies": 5643,
-        "retweets": 5439,
-        "views": 2140684
-      },
-      "url": "https://x.com/elonmusk/status/2112934688557818190",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 26,
   "page_size": 20,
-  "total": 1765,
+  "total": 1767,
   "total_pages": 89,
-  "updated_at_shanghai": "2026-10-31 08:56:52",
+  "updated_at_shanghai": "2026-10-31 14:33:08",
   "account": "elonmusk"
 }
