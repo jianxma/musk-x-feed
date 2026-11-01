@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110832405426933893",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T20:37:17.000Z",
+      "created_at_shanghai": "2026-10-16 04:37:17",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Makes sense",
+      "quote": {
+        "author": "tylerpalmer",
+        "avatar": "https://pbs.twimg.com/profile_images/2108324403293626368/nXmId6IP_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 23:56:57",
+        "created_at_utc": "2026-10-15T15:56:57.000Z",
+        "id": "2110761858231935251",
+        "images": [],
+        "media": [],
+        "name": "Tyler Palmer",
+        "text": "imagine an Amazon competitor that is:\n\n1) agent first - built for personal agents \n2) america first - sells only products from usa\n\nmight actually be a huge market for this.",
+        "url": "https://x.com/tylerpalmer/status/2110761858231935251",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 340,
+        "likes": 11522,
+        "quotes": 106,
+        "replies": 1168,
+        "retweets": 1013,
+        "views": 799906
+      },
+      "url": "https://x.com/elonmusk/status/2110832405426933893",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110832317727973501",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1057,40 +1098,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110711574121857208",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T12:37:09.000Z",
-      "created_at_shanghai": "2026-10-15 20:37:09",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "New Roadster is \nbeyond movies, \nbeyond imagination, \nbeyond human, \nyet still made\nby humans\non Earth",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1465,
-        "likes": 42864,
-        "quotes": 806,
-        "replies": 2879,
-        "retweets": 3675,
-        "views": 1845676
-      },
-      "url": "https://x.com/elonmusk/status/2110711574121857208",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 42,
   "page_size": 20,
-  "total": 1830,
+  "total": 1831,
   "total_pages": 92,
-  "updated_at_shanghai": "2026-11-01 10:34:20",
+  "updated_at_shanghai": "2026-11-01 17:38:35",
   "account": "elonmusk"
 }

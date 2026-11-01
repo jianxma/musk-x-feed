@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2116424602876338314",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-31T06:58:41.000Z",
+      "created_at_shanghai": "2026-10-31 14:58:41",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "5 minutes of James Talarico in his own words.\n\nSend this to your friends in Texas and let them know today is their last day to Vote Early.",
+      "quote": null,
+      "retweet": {
+        "author": "america",
+        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
+        "created_at_shanghai": "2026-10-31 01:53:32",
+        "created_at_utc": "2026-10-30T17:53:32.000Z",
+        "id": "2116227013551796385",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2114961961741959168/img/pYNIjmiCiQq1-Vka.jpg"
+        ],
+        "media": [
+          {
+            "duration": 306.166,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2114961961741959168/img/pYNIjmiCiQq1-Vka.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2114961961741959168/vid/avc1/1920x1080/0FE9PB_U5DHod22e.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "America",
+        "text": "5 minutes of James Talarico in his own words.\n\nSend this to your friends in Texas and let them know today is their last day to Vote Early.",
+        "url": "https://x.com/america/status/2116227013551796385",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 138,
+        "likes": 1985,
+        "quotes": 52,
+        "replies": 176,
+        "retweets": 568,
+        "views": 325457
+      },
+      "url": "https://x.com/elonmusk/status/2116424602876338314",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2114961961741959168/img/pYNIjmiCiQq1-Vka.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2114961961741959168/vid/avc1/1920x1080/0FE9PB_U5DHod22e.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2114961961741959168/img/pYNIjmiCiQq1-Vka.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 306.166
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116423611800269027",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1046,62 +1109,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116289989914787912",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T22:03:47.000Z",
-      "created_at_shanghai": "2026-10-31 06:03:47",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "You can now find out if any reach limitations have been applied to your account",
-      "quote": {
-        "author": "XOpenSource",
-        "avatar": "https://pbs.twimg.com/profile_images/2086823682895179776/inMppXhg_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 04:13:07",
-        "created_at_utc": "2026-10-30T20:13:07.000Z",
-        "id": "2116262141745565826",
-        "images": [
-          "https://pbs.twimg.com/media/HV54YvEXIAA44eX.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1302,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HV54YvEXIAA44eX.jpg?name=small",
-            "width": 1444
-          }
-        ],
-        "name": "X Open Source",
-        "text": "Under the Hood now shows you which posts received a visibility-limiting label, making it easier to see what’s affected: https://x.com/i/jf/under_the_hood\n\nThis was a top request — thanks for the feedback.\n\nYou’ll see the specific posts listed when fewer than 5% of your posts during the report period have that label.",
-        "url": "https://x.com/XOpenSource/status/2116262141745565826",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2175,
-        "likes": 6860,
-        "quotes": 229,
-        "replies": 1062,
-        "retweets": 990,
-        "views": 984304
-      },
-      "url": "https://x.com/elonmusk/status/2116289989914787912",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 1830,
+  "total": 1831,
   "total_pages": 92,
-  "updated_at_shanghai": "2026-11-01 10:34:20",
+  "updated_at_shanghai": "2026-11-01 17:38:35",
   "account": "elonmusk"
 }
