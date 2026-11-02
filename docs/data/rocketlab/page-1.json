@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2117002857912451283",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-11-01T21:16:27.000Z",
+      "created_at_shanghai": "2026-11-02 05:16:27",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Our last double-digit launch incoming! Less than 24 hours to go until our 99th Electron is scheduled to launch from LC-1 in New Zealand.\n\n\"The Sea God Surveys\" launch window for @QPS_Inc opens:\n🚀05:30am NZDT, Nov 3\n🚀01.30am JST, Nov 3\n🚀04:30pm UTC, Nov 2\n🚀11:30am EDT, Nov 2\n🚀08:30am  PT, Nov 2",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 8,
+        "likes": 1135,
+        "quotes": 27,
+        "replies": 31,
+        "retweets": 119,
+        "views": 43106
+      },
+      "url": "https://x.com/rocketlab/status/2117002857912451283",
+      "images": [
+        "https://pbs.twimg.com/media/HWEayGMboAEso2s.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWEayGMboAEso2s.jpg?name=small",
+          "width": 2672,
+          "height": 4000
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116249353136619680",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -805,40 +842,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2113531392609091709",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-10-23T07:22:06.000Z",
-      "created_at_shanghai": "2026-10-23 15:22:06",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "SECO confirmed. @hawkeye360 's HAWK satellites are now in a transfer orbit ahead of payload deployment within the hour.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "RocketLab",
-      "engagement": {
-        "bookmarks": 0,
-        "likes": 253,
-        "quotes": 1,
-        "replies": 3,
-        "retweets": 17,
-        "views": 12503
-      },
-      "url": "https://x.com/rocketlab/status/2113531392609091709",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 105,
+  "total": 106,
   "total_pages": 6,
-  "updated_at_shanghai": "2026-10-31 05:28:02",
+  "updated_at_shanghai": "2026-11-02 10:48:38",
   "account": "rocketlab"
 }
