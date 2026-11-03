@@ -1,1209 +1,1041 @@
 {
   "posts": [
     {
-      "id": "2117482570757656836",
+      "id": "2117667530923745731",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T05:02:40.000Z",
-      "created_at_shanghai": "2026-11-03 13:02:40",
+      "created_at_utc": "2026-11-03T17:17:38.000Z",
+      "created_at_shanghai": "2026-11-04 01:17:38",
       "type": "转发",
       "type_label": "转发",
-      "text": "Space datacenters actually make sense",
-      "quote": {
-        "author": "eliebakouch",
-        "avatar": "https://pbs.twimg.com/profile_images/1745893660099592193/MmYemsw6_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 00:45:33",
-        "created_at_utc": "2026-11-02T16:45:33.000Z",
-        "id": "2117297070155731058",
-        "images": [
-          "https://pbs.twimg.com/media/HWIlxVZWIAE-ogF.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2702,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWIlxVZWIAE-ogF.jpg?name=small",
-            "width": 2548
-          }
-        ],
-        "name": "elie",
-        "text": "distributed training in space ❤️‍🔥",
-        "url": "https://x.com/eliebakouch/status/2117297070155731058",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "MillionInt",
-        "avatar": "https://pbs.twimg.com/profile_images/1184690787419734016/7ija9HDY_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 11:53:19",
-        "created_at_utc": "2026-11-03T03:53:19.000Z",
-        "id": "2117465116858052725",
-        "images": [],
-        "media": [],
-        "name": "Jerry Tworek",
-        "text": "Space datacenters actually make sense",
-        "url": "https://x.com/MillionInt/status/2117465116858052725",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 136,
-        "likes": 1436,
-        "quotes": 17,
-        "replies": 137,
-        "retweets": 166,
-        "views": 321022
-      },
-      "url": "https://x.com/elonmusk/status/2117482570757656836",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2117480528618397848",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T04:54:33.000Z",
-      "created_at_shanghai": "2026-11-03 12:54:33",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "A lot of very smart people are tying themselves in knots trying to explain why dissipating heat from a compute satellite is impossible.\n\nAll they’ve really guaranteed is that they’ll never get a job at SpaceX.\n\nIt used to be:\n\n“You can’t build an EV that performs as well as an ICE vehicle.”\n“You can’t build EV batteries at scale.”\n“You can’t solve autonomous driving with cameras and vision alone.”\n“You can’t land and reuse an orbital-class rocket.”\n“You can’t build an electric semi.”\n“You can’t manufacture cars at that scale.”\n\nNow it’s:\n\n“You can’t build a space-based AI compute satellite.”\n“You can’t scale terrestrial compute that fast.”\n“You can’t manufacture advanced AI chips at scale.”\n“You can’t build AI models that challenge the frontier labs.”\n“You can’t build a general-purpose humanoid robot that works at scale.”\n“You can’t get to Mars.”",
-      "quote": {
-        "author": "pbeisel",
-        "avatar": "https://pbs.twimg.com/profile_images/1203351889288368128/wTDyAK0l_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 03:38:03",
-        "created_at_utc": "2026-11-02T19:38:03.000Z",
-        "id": "2117340482594562486",
-        "images": [
-          "https://pbs.twimg.com/media/HWJN6hSbQAAJEG4.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 784,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWJN6hSbQAAJEG4.jpg?name=small",
-            "width": 1168
-          }
-        ],
-        "name": "phil beisel",
-        "text": "Here we have the necessary 'I am smarter than Elon' post.\n\nI wonder if Jan realizes that there are 11,184 Starlink satellites in space, 'cooling' right now through their radiative structures.\n\nNot the same heat dissipation requirements as the Starmind sats, but I think it's reasonable to say Elon knows a thing or two about satellite thermal management.\n\nJan got his impression count, though I am not sure that was his objective.",
-        "url": "https://x.com/pbeisel/status/2117340482594562486",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "pbeisel",
-        "avatar": "https://pbs.twimg.com/profile_images/1203351889288368128/wTDyAK0l_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 12:17:05",
-        "created_at_utc": "2026-11-03T04:17:05.000Z",
-        "id": "2117471098820587582",
-        "images": [],
-        "media": [],
-        "name": "phil beisel",
-        "text": "A lot of very smart people are tying themselves in knots trying to explain why dissipating heat from a compute satellite is impossible.\n\nAll they’ve really guaranteed is that they’ll never get a job at SpaceX.\n\nIt used to be:\n\n“You can’t build an EV that performs as well as an ICE vehicle.”\n“You can’t build EV batteries at scale.”\n“You can’t solve autonomous driving with cameras and vision alone.”\n“You can’t land and reuse an orbital-class rocket.”\n“You can’t build an electric semi.”\n“You can’t manufacture cars at that scale.”\n\nNow it’s:\n\n“You can’t build a space-based AI compute satellite.”\n“You can’t scale terrestrial compute that fast.”\n“You can’t manufacture advanced AI chips at scale.”\n“You can’t build AI models that challenge the frontier labs.”\n“You can’t build a general-purpose humanoid robot that works at scale.”\n“You can’t get to Mars.”",
-        "url": "https://x.com/pbeisel/status/2117471098820587582",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 82,
-        "likes": 1466,
-        "quotes": 16,
-        "replies": 157,
-        "retweets": 157,
-        "views": 300725
-      },
-      "url": "https://x.com/elonmusk/status/2117480528618397848",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2117479668768981376",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T04:51:08.000Z",
-      "created_at_shanghai": "2026-11-03 12:51:08",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starlink saves lives",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 11:56:39",
-        "created_at_utc": "2026-11-03T03:56:39.000Z",
-        "id": "2117465958025674806",
-        "images": [
-          "https://pbs.twimg.com/media/HWLAD1ca4AAkE6u.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWLAD1ca4AAkE6u.jpg?name=small",
-            "width": 2048
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Starlink helped save FIVE lives in the Atlantic. ♥️\n\nTheir boat, Karolina Viking, was filling with water. Its power systems were failing. Rescuers couldn’t reach them by radio or satellite phone.\n\nThe sailors shared their location with rescuers through Starlink, helping another yacht find them.\n\nAll five were rescued from their liferaft and brought safely aboard.\n\nStarlink helped turn a desperate situation into five lives saved. This is what a lifeline from space looks like.",
-        "url": "https://x.com/cb_doge/status/2117465958025674806",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 166,
-        "likes": 7801,
-        "quotes": 89,
-        "replies": 1092,
-        "retweets": 1014,
-        "views": 975901
-      },
-      "url": "https://x.com/elonmusk/status/2117479668768981376",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2117478883175837856",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T04:48:01.000Z",
-      "created_at_shanghai": "2026-11-03 12:48:01",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It’s the same thing every time:\n\n1. A black person has the courage to point the objective truth about slavery.\n \n2. Person gets personally attacked with subjective opinions - “you hate black people, you’re a coon”\n\n3. But that person is saying what is needed to emancipate both black people and white people from the mental slavery that black victimhood and white guilt has us all in.\n\nNo, black people who say the truth do not hate black people.\n\nSomeone who loves you will tell you what you need to hear, even if you don’t want to hear it.\n\nGood video from @chadojackson",
-      "quote": {
-        "author": "chadojackson",
-        "avatar": "https://pbs.twimg.com/profile_images/1286150395140726790/9-_mAKdX_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 17:40:09",
-        "created_at_utc": "2026-11-02T09:40:09.000Z",
-        "id": "2117190014190916000",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2117189804798414848/img/OJJML9bgyBeQImtV.jpg"
-        ],
-        "media": [
-          {
-            "duration": 132.125,
-            "height": 1920,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117189804798414848/img/OJJML9bgyBeQImtV.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2117189804798414848/vid/avc1/1080x1920/3Zs_QGyuOrd8Xv11.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "Chad O. Jackson",
-        "text": "Full episode drops layered today.",
-        "url": "https://x.com/chadojackson/status/2117190014190916000",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "thatsKAIZEN",
-        "avatar": "https://pbs.twimg.com/profile_images/1963017992775860229/iu3ASFeK_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 09:58:45",
-        "created_at_utc": "2026-11-03T01:58:45.000Z",
-        "id": "2117436285824463021",
-        "images": [],
-        "media": [],
-        "name": "Kaizen D. Asiedu",
-        "text": "It’s the same thing every time:\n\n1. A black person has the courage to point the objective truth about slavery.\n \n2. Person gets personally attacked with subjective opinions - “you hate black people, you’re a coon”\n\n3. But that person is saying what is needed to emancipate both black people and white people from the mental slavery that black victimhood and white guilt has us all in.\n\nNo, black people who say the truth do not hate black people.\n\nSomeone who loves you will tell you what you need to hear, even if you don’t want to hear it.\n\nGood video from @chadojackson",
-        "url": "https://x.com/thatsKAIZEN/status/2117436285824463021",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 529,
-        "likes": 3578,
-        "quotes": 29,
-        "replies": 98,
-        "retweets": 496,
-        "views": 316011
-      },
-      "url": "https://x.com/elonmusk/status/2117478883175837856",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2117476969579163956",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T04:40:25.000Z",
-      "created_at_shanghai": "2026-11-03 12:40:25",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "The single most important thing I can share with you going into Election Day is the following website: \n\nhttps://protectthevote.com/report-fraud\n\nIf you encounter ANY problems related to voting, submit a report immediately.",
+      "text": "I’m gay. I voted straight Republican today. The party that secured the border and lets me live openly beats the one that puts me on a flag then opens the door to cultures that would kill me.",
       "quote": null,
       "retweet": {
-        "author": "ScottPresler",
-        "avatar": "https://pbs.twimg.com/profile_images/1321124227215491072/pIC0lG5M_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 23:37:47",
-        "created_at_utc": "2026-11-02T15:37:47.000Z",
-        "id": "2117280015179985030",
-        "images": [
-          "https://pbs.twimg.com/media/HWIW895XUAA1vuz.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1190,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWIW895XUAA1vuz.jpg?name=small",
-            "width": 1206
-          }
-        ],
-        "name": "ThePersistence",
-        "text": "The single most important thing I can share with you going into Election Day is the following website: \n\nhttps://protectthevote.com/report-fraud\n\nIf you encounter ANY problems related to voting, submit a report immediately.",
-        "url": "https://x.com/ScottPresler/status/2117280015179985030",
+        "author": "AlexToughTakes",
+        "avatar": "https://pbs.twimg.com/profile_images/2110098840661401600/7WuWxPoH_200x200.jpg",
+        "created_at_shanghai": "2026-11-04 00:15:00",
+        "created_at_utc": "2026-11-03T16:15:00.000Z",
+        "id": "2117651768788259139",
+        "images": [],
+        "media": [],
+        "name": "Alex",
+        "text": "I’m gay. I voted straight Republican today. The party that secured the border and lets me live openly beats the one that puts me on a flag then opens the door to cultures that would kill me.",
+        "url": "https://x.com/AlexToughTakes/status/2117651768788259139",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 363,
-        "likes": 6030,
-        "quotes": 90,
-        "replies": 153,
-        "retweets": 3100,
-        "views": 306073
+        "bookmarks": 12,
+        "likes": 828,
+        "quotes": 7,
+        "replies": 52,
+        "retweets": 88,
+        "views": 7594
       },
-      "url": "https://x.com/elonmusk/status/2117476969579163956",
-      "images": [
-        "https://pbs.twimg.com/media/HWIW895XUAA1vuz.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWIW895XUAA1vuz.jpg?name=small",
-          "width": 1206,
-          "height": 1190
-        }
-      ],
+      "url": "https://x.com/elonmusk/status/2117667530923745731",
+      "images": [],
+      "media": [],
       "enriched": true
     },
     {
-      "id": "2117475670745853964",
+      "id": "2117667496392307004",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T04:35:15.000Z",
-      "created_at_shanghai": "2026-11-03 12:35:15",
+      "created_at_utc": "2026-11-03T17:17:30.000Z",
+      "created_at_shanghai": "2026-11-04 01:17:30",
       "type": "转发",
       "type_label": "转发",
-      "text": "Elon Musk on going \"from the impossible to the merely late,\" his own description of how Starship got built:\n\n\"When we first started talking about Starship, people thought this was impossible. In fact, even within the company, we sort of thought it was impossible.\"\n\nHe says it had what he calls a \"giggle factor.\" People laughed at the idea.\n\n\"I guess I specialize in going from the impossible to the merely late. So that's my skill.\"\n\"It wasn't possible, now it's just late.\"\n@elonmusk",
+      "text": "United Airlines just reached a major milestone: Starlink Wi-Fi is now available on 50% of its DAILY flights\n\nUnited's official live tracker now shows:\n\n• 674 aircraft equipped with Starlink\n• 352 regional aircraft\n• 315 narrowbody aircraft\n• 7 widebody aircraft\n• 50% of daily flights now have Starlink\n\nAnd the rollout is accelerating\n\nUnited is targeting 61% of daily flights by the end of 2026, with its entire fleet expected to be equipped by the end of 2027\n\nStarlink is transforming in-flight connectivity, and millions more passengers are getting access to high-speed internet in the sky",
       "quote": null,
       "retweet": {
-        "author": "teslaownersSV",
-        "avatar": "https://pbs.twimg.com/profile_images/2114535933811032064/CX_COICx_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 08:36:16",
-        "created_at_utc": "2026-11-03T00:36:16.000Z",
-        "id": "2117415528449065099",
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-04 00:24:09",
+        "created_at_utc": "2026-11-03T16:24:09.000Z",
+        "id": "2117654071763189897",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2117415463684812800/img/Mc-CfT1EsDSo6s8W.jpg"
+          "https://pbs.twimg.com/media/HWNrJz1awAIH9cq.jpg?name=small"
         ],
         "media": [
           {
-            "duration": 24.4,
             "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117415463684812800/img/Mc-CfT1EsDSo6s8W.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2117415463684812800/vid/avc1/1920x1080/l2NaxkoLiEI-uJbt.mp4?tag=29",
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWNrJz1awAIH9cq.jpg?name=small",
             "width": 1920
           }
         ],
-        "name": "Tesla Owners Silicon Valley",
-        "text": "Elon Musk on going \"from the impossible to the merely late,\" his own description of how Starship got built:\n\n\"When we first started talking about Starship, people thought this was impossible. In fact, even within the company, we sort of thought it was impossible.\"\n\nHe says it had what he calls a \"giggle factor.\" People laughed at the idea.\n\n\"I guess I specialize in going from the impossible to the merely late. So that's my skill.\"\n\"It wasn't possible, now it's just late.\"\n@elonmusk",
-        "url": "https://x.com/teslaownersSV/status/2117415528449065099",
+        "name": "X Freeze",
+        "text": "United Airlines just reached a major milestone: Starlink Wi-Fi is now available on 50% of its DAILY flights\n\nUnited's official live tracker now shows:\n\n• 674 aircraft equipped with Starlink\n• 352 regional aircraft\n• 315 narrowbody aircraft\n• 7 widebody aircraft\n• 50% of daily flights now have Starlink\n\nAnd the rollout is accelerating\n\nUnited is targeting 61% of daily flights by the end of 2026, with its entire fleet expected to be equipped by the end of 2027\n\nStarlink is transforming in-flight connectivity, and millions more passengers are getting access to high-speed internet in the sky",
+        "url": "https://x.com/XFreeze/status/2117654071763189897",
         "verified": true,
-        "verified_type": "organization"
+        "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 72,
-        "likes": 1246,
-        "quotes": 10,
-        "replies": 100,
-        "retweets": 158,
-        "views": 239862
+        "bookmarks": 7,
+        "likes": 207,
+        "quotes": 1,
+        "replies": 22,
+        "retweets": 31,
+        "views": 8043
       },
-      "url": "https://x.com/elonmusk/status/2117475670745853964",
+      "url": "https://x.com/elonmusk/status/2117667496392307004",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2117415463684812800/img/Mc-CfT1EsDSo6s8W.jpg"
+        "https://pbs.twimg.com/media/HWNrJz1awAIH9cq.jpg?name=small"
       ],
       "media": [
         {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2117415463684812800/vid/avc1/1920x1080/l2NaxkoLiEI-uJbt.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117415463684812800/img/Mc-CfT1EsDSo6s8W.jpg",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWNrJz1awAIH9cq.jpg?name=small",
           "width": 1920,
-          "height": 1080,
-          "duration": 24.4
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2117473938024357953",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T04:28:22.000Z",
-      "created_at_shanghai": "2026-11-03 12:28:22",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "9 of America’s top 10 foreign aid recipients voted against us more than with us at the UN.\n\nJordan takes $1.74 billion and votes against America 52-24.\nEthiopia, Somalia, Nigeria, Kenya, same thing. \n\nBillions of our money, then they stab us in the back every chance they get.\n\nLiterally funding our own opposition.",
-      "quote": {
-        "author": "Rothmus",
-        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 08:45:36",
-        "created_at_utc": "2026-11-03T00:45:36.000Z",
-        "id": "2117417878156710180",
-        "images": [
-          "https://pbs.twimg.com/media/HWKUVq8WAAAPZ2_.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1350,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWKUVq8WAAAPZ2_.jpg?name=small",
-            "width": 1080
-          }
-        ],
-        "name": "Rothmus 🏴",
-        "text": "$329 BILLION in aid and they’re POORER than they were in 1960.\n\nThe “not enough aid” politicians and NGOs have poured more than enough cash into places with rotten institutions, elite theft, and zero accountability.\n\nAnd instead of building prosperity, your taxes subsidized failure.",
-        "url": "https://x.com/Rothmus/status/2117417878156710180",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "Rothmus",
-        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 09:40:38",
-        "created_at_utc": "2026-11-03T01:40:38.000Z",
-        "id": "2117431727689720217",
-        "images": [
-          "https://pbs.twimg.com/media/HWKg7yWW0AA8-QY.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1350,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWKg7yWW0AA8-QY.jpg?name=small",
-            "width": 1080
-          }
-        ],
-        "name": "Rothmus 🏴",
-        "text": "9 of America’s top 10 foreign aid recipients voted against us more than with us at the UN.\n\nJordan takes $1.74 billion and votes against America 52-24.\nEthiopia, Somalia, Nigeria, Kenya, same thing. \n\nBillions of our money, then they stab us in the back every chance they get.\n\nLiterally funding our own opposition.",
-        "url": "https://x.com/Rothmus/status/2117431727689720217",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 182,
-        "likes": 2170,
-        "quotes": 34,
-        "replies": 183,
-        "retweets": 510,
-        "views": 276678
-      },
-      "url": "https://x.com/elonmusk/status/2117473938024357953",
-      "images": [
-        "https://pbs.twimg.com/media/HWKg7yWW0AA8-QY.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWKg7yWW0AA8-QY.jpg?name=small",
-          "width": 1080,
-          "height": 1350
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2117464990579892594",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T03:52:49.000Z",
-      "created_at_shanghai": "2026-11-03 11:52:49",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Yeah, much easier to cool in space. \n\n~1300 W/m^2 is easily achievable for an aluminum radiator pointed away from the Sun, as it is mostly just seeing cosmic background radiation at ~3 degrees above absolute zero!\n\nSolar panels generate ~250 W/m^2, so you should expect them to have ~5 times the area of the radiator. Most of the mass of the satellite is solar panels.",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 11:43:14",
-        "created_at_utc": "2026-11-03T03:43:14.000Z",
-        "id": "2117462581371719779",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Yeah, much easier to cool in space. \n\n~1300 W/m^2 is easily achievable for an aluminum radiator pointed away from the Sun, as it is mostly just seeing cosmic background radiation at ~3 degrees above absolute zero!\n\nSolar panels generate ~250 W/m^2, so you should expect them to have ~5 times the area of the radiator. Most of the mass of the satellite is solar panels.",
-        "url": "https://x.com/elonmusk/status/2117462581371719779",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "shaunmmaguire",
-      "engagement": {
-        "bookmarks": 864,
-        "likes": 9290,
-        "quotes": 127,
-        "replies": 532,
-        "retweets": 577,
-        "views": 926477
-      },
-      "url": "https://x.com/elonmusk/status/2117464990579892594",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2117463822332314036",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T03:48:10.000Z",
-      "created_at_shanghai": "2026-11-03 11:48:10",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot",
-      "quote": {
-        "author": "dkmitc",
-        "avatar": "https://pbs.twimg.com/profile_images/2059732043903193096/4mHi6EnS_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 05:57:13",
-        "created_at_utc": "2026-11-02T21:57:13.000Z",
-        "id": "2117375502285721792",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2117374805699653632/img/LUQ7GilJPD9Df83y.jpg"
-        ],
-        "media": [
-          {
-            "duration": 112.733,
-            "height": 1920,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117374805699653632/img/LUQ7GilJPD9Df83y.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2117374805699653632/vid/avc1/1080x1920/ZOCWX1CUPcAwgqDc.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "Dylan",
-        "text": "I had my Grok Bot shop around new Auto Insurance. It couldn’t find info about Progressives Glass coverage and as all Tesla owners know Windshield replacements can be pricey. I had Grok Bot call Progressive and get additional information for me all while I picked my kids up from school without me ever having to talk to a person. \n\nHere is the transcript and actual recording from the call. Personal info was bleeped and some parts cut for time. While there’s some improvements that can be made it got the job done. \n\nMy mind is thoroughly blown!",
-        "url": "https://x.com/dkmitc/status/2117375502285721792",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 381,
-        "likes": 3037,
-        "quotes": 44,
-        "replies": 647,
-        "retweets": 382,
-        "views": 1114295
-      },
-      "url": "https://x.com/elonmusk/status/2117463822332314036",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2117463040060969417",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T03:45:03.000Z",
-      "created_at_shanghai": "2026-11-03 11:45:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I had my Grok Bot shop around new Auto Insurance. It couldn’t find info about Progressives Glass coverage and as all Tesla owners know Windshield replacements can be pricey. I had Grok Bot call Progressive and get additional information for me all while I picked my kids up from school without me ever having to talk to a person. \n\nHere is the transcript and actual recording from the call. Personal info was bleeped and some parts cut for time. While there’s some improvements that can be made it got the job done. \n\nMy mind is thoroughly blown!",
-      "quote": {
-        "author": "dkmitc",
-        "avatar": "https://pbs.twimg.com/profile_images/2059732043903193096/4mHi6EnS_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 04:52:35",
-        "created_at_utc": "2026-11-02T20:52:35.000Z",
-        "id": "2117359236963336514",
-        "images": [
-          "https://pbs.twimg.com/media/HWJfAD5WgAA99cx.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1517,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWJfAD5WgAA99cx.jpg?name=small",
-            "width": 1320
-          }
-        ],
-        "name": "Dylan",
-        "text": "Using Grok Bot to make calls to Progressive for additional info before I buy new insurance.",
-        "url": "https://x.com/dkmitc/status/2117359236963336514",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "dkmitc",
-        "avatar": "https://pbs.twimg.com/profile_images/2059732043903193096/4mHi6EnS_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 05:57:13",
-        "created_at_utc": "2026-11-02T21:57:13.000Z",
-        "id": "2117375502285721792",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2117374805699653632/img/LUQ7GilJPD9Df83y.jpg"
-        ],
-        "media": [
-          {
-            "duration": 112.733,
-            "height": 1920,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117374805699653632/img/LUQ7GilJPD9Df83y.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2117374805699653632/vid/avc1/1080x1920/ZOCWX1CUPcAwgqDc.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "Dylan",
-        "text": "I had my Grok Bot shop around new Auto Insurance. It couldn’t find info about Progressives Glass coverage and as all Tesla owners know Windshield replacements can be pricey. I had Grok Bot call Progressive and get additional information for me all while I picked my kids up from school without me ever having to talk to a person. \n\nHere is the transcript and actual recording from the call. Personal info was bleeped and some parts cut for time. While there’s some improvements that can be made it got the job done. \n\nMy mind is thoroughly blown!",
-        "url": "https://x.com/dkmitc/status/2117375502285721792",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 347,
-        "likes": 1036,
-        "quotes": 34,
-        "replies": 80,
-        "retweets": 129,
-        "views": 867995
-      },
-      "url": "https://x.com/elonmusk/status/2117463040060969417",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2117374805699653632/img/LUQ7GilJPD9Df83y.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2117374805699653632/vid/avc1/1080x1920/ZOCWX1CUPcAwgqDc.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117374805699653632/img/LUQ7GilJPD9Df83y.jpg",
-          "width": 1080,
-          "height": 1920,
-          "duration": 112.733
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2117450915875852697",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T02:56:53.000Z",
-      "created_at_shanghai": "2026-11-03 10:56:53",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Wow",
-      "quote": {
-        "author": "Rothmus",
-        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 06:00:26",
-        "created_at_utc": "2026-11-02T22:00:26.000Z",
-        "id": "2117376313879306471",
-        "images": [
-          "https://pbs.twimg.com/media/HWJuhxLa8AApkzE.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1350,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWJuhxLa8AApkzE.jpg?name=small",
-            "width": 1080
-          }
-        ],
-        "name": "Rothmus 🏴",
-        "text": "31% of the EU budget is farm subsidies. \n\nDefense gets 1.2%. \nBorders get 2%.\n\nFarm handouts get 25x what defense gets and 15x what borders get. \n\nEurope faces a land war on its eastern flank and years of uncontrolled migration. The response is a giant welfare machine, while actual security is ignored.\n\nThey’re not preparing for the next decade.",
-        "url": "https://x.com/Rothmus/status/2117376313879306471",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 382,
-        "likes": 6622,
-        "quotes": 55,
-        "replies": 833,
-        "retweets": 840,
-        "views": 1757032
-      },
-      "url": "https://x.com/elonmusk/status/2117450915875852697",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2117448110821585296",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T02:45:44.000Z",
-      "created_at_shanghai": "2026-11-03 10:45:44",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Talarico has outspent Paxton nearly 9-to-1 since July.\n\n$89.4 million vs $10 million.\n\nHe’s also spent $11.6M MORE THAN HE RAISED.\n\nLeftists love to lecture everyone about “money in politics” and “buying elections” until it’s their guy burning through cash like it’s Monopoly money. \n\nWhere’s it coming from? Out of state donors? Special interests? Or just the usual Democrat money machine trying to purchase Texas?\n\nPaxton is getting outspent almost 9-to-1 and they’re still worried. They will fail.",
-      "quote": {
-        "author": "Rothmus",
-        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 07:59:39",
-        "created_at_utc": "2026-11-01T23:59:39.000Z",
-        "id": "2117043924690747428",
-        "images": [
-          "https://pbs.twimg.com/media/HWFAOs-XMAAVE_y.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1350,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWFAOs-XMAAVE_y.jpg?name=small",
-            "width": 1080
-          }
-        ],
-        "name": "Rothmus 🏴",
-        "text": "California is trying to buy a Texas Senate seat.\n\nTalarico is getting 53% of his itemized money from outside the state. \n\nCalifornia alone dropped $7.8 million on him, more than Paxton raised from every other state combined. \n\nNew York added $3 million. \n\nMassachusetts another $2.1 million. \n\nPaxton’s campaign is 73% Texas money. \n\nTalarico’s is a coastal donor operation. \n\nThe left can’t win Texas on the merits, so they flooded the race with blue state cash instead. \n\nSo no, nothing “grassroots” about him.",
-        "url": "https://x.com/Rothmus/status/2117043924690747428",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "Rothmus",
-        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 23:03:13",
-        "created_at_utc": "2026-11-02T15:03:13.000Z",
-        "id": "2117271314540978483",
-        "images": [
-          "https://pbs.twimg.com/media/HWIPCGKWwAAyyzu.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1080,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWIPCGKWwAAyyzu.jpg?name=small",
-            "width": 1350
-          }
-        ],
-        "name": "Rothmus 🏴",
-        "text": "Talarico has outspent Paxton nearly 9-to-1 since July.\n\n$89.4 million vs $10 million.\n\nHe’s also spent $11.6M MORE THAN HE RAISED.\n\nLeftists love to lecture everyone about “money in politics” and “buying elections” until it’s their guy burning through cash like it’s Monopoly money. \n\nWhere’s it coming from? Out of state donors? Special interests? Or just the usual Democrat money machine trying to purchase Texas?\n\nPaxton is getting outspent almost 9-to-1 and they’re still worried. They will fail.",
-        "url": "https://x.com/Rothmus/status/2117271314540978483",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 163,
-        "likes": 2544,
-        "quotes": 31,
-        "replies": 198,
-        "retweets": 579,
-        "views": 354682
-      },
-      "url": "https://x.com/elonmusk/status/2117448110821585296",
-      "images": [
-        "https://pbs.twimg.com/media/HWIPCGKWwAAyyzu.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWIPCGKWwAAyyzu.jpg?name=small",
-          "width": 1350,
           "height": 1080
         }
       ],
       "enriched": true
     },
     {
-      "id": "2117447949051437342",
+      "id": "2117667421838274972",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T02:45:05.000Z",
-      "created_at_shanghai": "2026-11-03 10:45:05",
+      "created_at_utc": "2026-11-03T17:17:12.000Z",
+      "created_at_shanghai": "2026-11-04 01:17:12",
       "type": "转发",
       "type_label": "转发",
-      "text": "TO THE GREAT PEOPLE OF TEXAS, GET OUT AND VOTE for these Great Patriots! They have my Complete and Total Endorsement and will never let you down! President DONALD J. TRUMP\nhttps://swampthevoteusa.com/texas/",
+      "text": "They said Elon would destroy it. \n\nToday X is the #1 news app in 167 countries. \n\nAnd on Election Day, you can see it live: results, breaking updates, real people reporting from the ground, all happening right here, in real time.\n\nNot bought. Not forced. Organic. Real. Alive.\nHundreds of millions of views every single day.\n\nBreaking news doesn't happen on TV anymore. It happens on X, first.\n\nThey doubted. X delivered.",
       "quote": null,
       "retweet": {
-        "author": "realDonaldTrump",
-        "avatar": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 03:37:52",
-        "created_at_utc": "2026-11-02T19:37:52.000Z",
-        "id": "2117340433294807338",
-        "images": [
-          "https://pbs.twimg.com/media/HWJN5rrXAAAS3on.jpg?name=small",
-          "https://pbs.twimg.com/media/HWJN5rmXsAErXX9.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1350,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWJN5rrXAAAS3on.jpg?name=small",
-            "width": 1080
-          },
-          {
-            "height": 1350,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWJN5rmXsAErXX9.jpg?name=small",
-            "width": 1080
-          }
-        ],
-        "name": "Donald J. Trump",
-        "text": "TO THE GREAT PEOPLE OF TEXAS, GET OUT AND VOTE for these Great Patriots! They have my Complete and Total Endorsement and will never let you down! President DONALD J. TRUMP\nhttps://swampthevoteusa.com/texas/",
-        "url": "https://x.com/realDonaldTrump/status/2117340433294807338",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 469,
-        "likes": 29184,
-        "quotes": 255,
-        "replies": 1891,
-        "retweets": 6332,
-        "views": 2373475
-      },
-      "url": "https://x.com/elonmusk/status/2117447949051437342",
-      "images": [
-        "https://pbs.twimg.com/media/HWJN5rrXAAAS3on.jpg?name=small",
-        "https://pbs.twimg.com/media/HWJN5rmXsAErXX9.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWJN5rrXAAAS3on.jpg?name=small",
-          "width": 1080,
-          "height": 1350
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWJN5rmXsAErXX9.jpg?name=small",
-          "width": 1080,
-          "height": 1350
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2117441028756058232",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T02:17:36.000Z",
-      "created_at_shanghai": "2026-11-03 10:17:36",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "There is nothing moderate about James Talarico.\n\nTalarico is a left-wing extremist.\n\nJust listen to him in his own words.\n\nTexas, defeat this radical and elect @KenPaxtonTX!",
-      "quote": null,
-      "retweet": {
-        "author": "karolineleavitt",
-        "avatar": "https://pbs.twimg.com/profile_images/2113089336623136768/2Xp0-c_V_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 05:19:57",
-        "created_at_utc": "2026-11-02T21:19:57.000Z",
-        "id": "2117366124010709390",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2114961961741959168/img/pYNIjmiCiQq1-Vka.jpg"
-        ],
-        "media": [
-          {
-            "duration": 306.166,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2114961961741959168/img/pYNIjmiCiQq1-Vka.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2114961961741959168/vid/avc1/1920x1080/0FE9PB_U5DHod22e.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Karoline Leavitt",
-        "text": "There is nothing moderate about James Talarico.\n\nTalarico is a left-wing extremist.\n\nJust listen to him in his own words.\n\nTexas, defeat this radical and elect @KenPaxtonTX!",
-        "url": "https://x.com/karolineleavitt/status/2117366124010709390",
+        "author": "TheCaptainEli",
+        "avatar": "https://pbs.twimg.com/profile_images/1997753138426613760/EZDpm91Z_200x200.jpg",
+        "created_at_shanghai": "2026-11-04 00:46:25",
+        "created_at_utc": "2026-11-03T16:46:25.000Z",
+        "id": "2117659675709849612",
+        "images": [],
+        "media": [],
+        "name": "Captain Eli",
+        "text": "They said Elon would destroy it. \n\nToday X is the #1 news app in 167 countries. \n\nAnd on Election Day, you can see it live: results, breaking updates, real people reporting from the ground, all happening right here, in real time.\n\nNot bought. Not forced. Organic. Real. Alive.\nHundreds of millions of views every single day.\n\nBreaking news doesn't happen on TV anymore. It happens on X, first.\n\nThey doubted. X delivered.",
+        "url": "https://x.com/TheCaptainEli/status/2117659675709849612",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 158,
-        "likes": 8712,
-        "quotes": 75,
-        "replies": 1045,
-        "retweets": 2183,
-        "views": 406648
+        "bookmarks": 5,
+        "likes": 297,
+        "quotes": 3,
+        "replies": 17,
+        "retweets": 45,
+        "views": 4388
       },
-      "url": "https://x.com/elonmusk/status/2117441028756058232",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2114961961741959168/img/pYNIjmiCiQq1-Vka.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2114961961741959168/vid/avc1/1920x1080/0FE9PB_U5DHod22e.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2114961961741959168/img/pYNIjmiCiQq1-Vka.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 306.166
-        }
-      ],
+      "url": "https://x.com/elonmusk/status/2117667421838274972",
+      "images": [],
+      "media": [],
       "enriched": true
     },
     {
-      "id": "2117440734119039353",
+      "id": "2117667376229683454",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T02:16:25.000Z",
-      "created_at_shanghai": "2026-11-03 10:16:25",
+      "created_at_utc": "2026-11-03T17:17:01.000Z",
+      "created_at_shanghai": "2026-11-04 01:17:01",
       "type": "转发",
       "type_label": "转发",
-      "text": "Steven Bartlett asks James Talarico how Texas chases “equality” without chasing off figures like @ElonMusk.\n\nTalarico’s answer: Musk’s net worth is a “spiritual sickness,” and the rich should pay something closer to the 1950s rate of 90%.\n\nBARTLETT: “What would you have done to stop [Elon from becoming a trillionaire]?”\n\nTALARICO: “We at one point in this country, we had, I think it was in the 1950s, had a top marginal tax rate of 90%. I don’t think it needs to be that high, but we used to have a political system and an economic system that more fairly distributed the fruits of our labor.”\n\n“And I think the thing that really upsets people, particularly about the Elon example, is that Tesla was successful because of taxpayer dollars, right? Tesla got investment from the federal government, which is why it has been so successful.”\n\nCONTEXT: The taxpayer dollars Tesla received were a LOAN from the Department of Energy in 2010. Ford got $5,900,000,000, and Nissan got $1,400,000,000 from the same program.\n\nBut Tesla did something those automakers hadn’t. It repaid the full $465,000,000 it had borrowed, with interest, 9 years ahead of schedule, becoming the first automaker in the program to pay its loan back in full.",
+      "text": "Democrat Nominee for U.S. Senate Abdul El-Sayed calls for amnesty for illegal aliens: “We need a pathway to citizenship for folks stuck in limbo right now. This tough guy attitude to immigration is not keeping us safe.”\n\n10 million illegal aliens entered the U.S. in just four years under Biden alone.\n\nVote Republican.  https://x.com/america/status/2108343665462554955/video/1",
       "quote": null,
       "retweet": {
-        "author": "VigilantFox",
-        "avatar": "https://pbs.twimg.com/profile_images/2066968026881101824/ykU1_dqe_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 04:06:47",
-        "created_at_utc": "2026-11-02T20:06:47.000Z",
-        "id": "2117347709510181319",
+        "author": "america",
+        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 23:30:01",
+        "created_at_utc": "2026-11-03T15:30:01.000Z",
+        "id": "2117640446830948453",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2117345700673445888/img/grb2S-PlKRBMi4Lw.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2108343647414403072/img/x90r9mQYdwulpAai.jpg"
         ],
         "media": [
           {
-            "duration": 123.666,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117345700673445888/img/grb2S-PlKRBMi4Lw.jpg",
+            "duration": 18.317,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108343647414403072/img/x90r9mQYdwulpAai.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2117345700673445888/vid/avc1/1920x1080/ouSfGxY5C1ZJ5vGP.mp4?tag=29",
-            "width": 1920
+            "url": "https://video.twimg.com/amplify_video/2108343647414403072/vid/avc1/1280x720/hswLPqKvN2MU5wUw.mp4?tag=29",
+            "width": 1280
           }
         ],
-        "name": "The Vigilant Fox 🦊",
-        "text": "Steven Bartlett asks James Talarico how Texas chases “equality” without chasing off figures like @ElonMusk.\n\nTalarico’s answer: Musk’s net worth is a “spiritual sickness,” and the rich should pay something closer to the 1950s rate of 90%.\n\nBARTLETT: “What would you have done to stop [Elon from becoming a trillionaire]?”\n\nTALARICO: “We at one point in this country, we had, I think it was in the 1950s, had a top marginal tax rate of 90%. I don’t think it needs to be that high, but we used to have a political system and an economic system that more fairly distributed the fruits of our labor.”\n\n“And I think the thing that really upsets people, particularly about the Elon example, is that Tesla was successful because of taxpayer dollars, right? Tesla got investment from the federal government, which is why it has been so successful.”\n\nCONTEXT: The taxpayer dollars Tesla received were a LOAN from the Department of Energy in 2010. Ford got $5,900,000,000, and Nissan got $1,400,000,000 from the same program.\n\nBut Tesla did something those automakers hadn’t. It repaid the full $465,000,000 it had borrowed, with interest, 9 years ahead of schedule, becoming the first automaker in the program to pay its loan back in full.",
-        "url": "https://x.com/VigilantFox/status/2117347709510181319",
+        "name": "America",
+        "text": "Democrat Nominee for U.S. Senate Abdul El-Sayed calls for amnesty for illegal aliens: “We need a pathway to citizenship for folks stuck in limbo right now. This tough guy attitude to immigration is not keeping us safe.”\n\n10 million illegal aliens entered the U.S. in just four years under Biden alone.\n\nVote Republican.  https://x.com/america/status/2108343665462554955/video/1",
+        "url": "https://x.com/america/status/2117640446830948453",
         "verified": true,
         "verified_type": "organization"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 615,
-        "likes": 5553,
-        "quotes": 129,
-        "replies": 671,
-        "retweets": 1325,
-        "views": 229196
+        "bookmarks": 14,
+        "likes": 480,
+        "quotes": 13,
+        "replies": 119,
+        "retweets": 117,
+        "views": 26527
       },
-      "url": "https://x.com/elonmusk/status/2117440734119039353",
+      "url": "https://x.com/elonmusk/status/2117667376229683454",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2117345700673445888/img/grb2S-PlKRBMi4Lw.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2108343647414403072/img/x90r9mQYdwulpAai.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2117345700673445888/vid/avc1/1920x1080/ouSfGxY5C1ZJ5vGP.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117345700673445888/img/grb2S-PlKRBMi4Lw.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 123.666
+          "url": "https://video.twimg.com/amplify_video/2108343647414403072/vid/avc1/1280x720/hswLPqKvN2MU5wUw.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108343647414403072/img/x90r9mQYdwulpAai.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 18.317
         }
       ],
       "enriched": true
     },
     {
-      "id": "2117440577281347649",
+      "id": "2117667060646085073",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T02:15:48.000Z",
-      "created_at_shanghai": "2026-11-03 10:15:48",
+      "created_at_utc": "2026-11-03T17:15:46.000Z",
+      "created_at_shanghai": "2026-11-04 01:15:46",
       "type": "转发",
       "type_label": "转发",
-      "text": "FAR-LEFT VIOLENCE IN AUSTRALIA. \n\nOne Nation volunteer hospitalised in Australia with bleeding of the brain and multiple facial fractures after being bashed with a baseball bat in a targeted political attack by left wing extremists. \n\nThe two men who attacked him were migrants on visas - they assaulted him after he confronted them for ripping down One Nation signs on his property.\n\nThe victim’s family have started a fundraiser to support him while he recovers in hospital and cannot work.",
+      "text": "Voted today to keep Florida red. \n\nI left the failed politics from New York in New York.",
       "quote": null,
       "retweet": {
-        "author": "DrewPavlou",
-        "avatar": "https://pbs.twimg.com/profile_images/2117355242862043137/yyl95AAr_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 09:43:18",
-        "created_at_utc": "2026-11-03T01:43:18.000Z",
-        "id": "2117432396727632178",
+        "author": "ZeekArkham",
+        "avatar": "https://pbs.twimg.com/profile_images/2116588342779244544/Y4sG1VqW_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 22:05:58",
+        "created_at_utc": "2026-11-03T14:05:58.000Z",
+        "id": "2117619294813171762",
         "images": [
-          "https://pbs.twimg.com/media/HWKhipAaoAAJozV.jpg?name=small"
+          "https://pbs.twimg.com/media/HWNLhU5XEAAzk0h.jpg?name=small"
         ],
         "media": [
           {
-            "height": 900,
+            "height": 2048,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWKhipAaoAAJozV.jpg?name=small",
-            "width": 1200
+            "url": "https://pbs.twimg.com/media/HWNLhU5XEAAzk0h.jpg?name=small",
+            "width": 1536
           }
         ],
-        "name": "Drew Pavlou 🇦🇺🇺🇸🇫🇷🇺🇦🇹🇼",
-        "text": "FAR-LEFT VIOLENCE IN AUSTRALIA. \n\nOne Nation volunteer hospitalised in Australia with bleeding of the brain and multiple facial fractures after being bashed with a baseball bat in a targeted political attack by left wing extremists. \n\nThe two men who attacked him were migrants on visas - they assaulted him after he confronted them for ripping down One Nation signs on his property.\n\nThe victim’s family have started a fundraiser to support him while he recovers in hospital and cannot work.",
-        "url": "https://x.com/DrewPavlou/status/2117432396727632178",
+        "name": "Zeek Arkham 🇺🇸",
+        "text": "Voted today to keep Florida red. \n\nI left the failed politics from New York in New York.",
+        "url": "https://x.com/ZeekArkham/status/2117619294813171762",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 11,
-        "likes": 155,
-        "quotes": 5,
-        "replies": 23,
-        "retweets": 46,
-        "views": 23612
+        "bookmarks": 71,
+        "likes": 21128,
+        "quotes": 64,
+        "replies": 875,
+        "retweets": 1997,
+        "views": 141537
       },
-      "url": "https://x.com/elonmusk/status/2117440577281347649",
+      "url": "https://x.com/elonmusk/status/2117667060646085073",
       "images": [
-        "https://pbs.twimg.com/media/HWKhipAaoAAJozV.jpg?name=small"
+        "https://pbs.twimg.com/media/HWNLhU5XEAAzk0h.jpg?name=small"
       ],
       "media": [
         {
           "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWKhipAaoAAJozV.jpg?name=small",
-          "width": 1200,
-          "height": 900
+          "url": "https://pbs.twimg.com/media/HWNLhU5XEAAzk0h.jpg?name=small",
+          "width": 1536,
+          "height": 2048
         }
       ],
       "enriched": true
     },
     {
-      "id": "2117422818648555595",
+      "id": "2117666899844866098",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T01:05:14.000Z",
-      "created_at_shanghai": "2026-11-03 09:05:14",
+      "created_at_utc": "2026-11-03T17:15:07.000Z",
+      "created_at_shanghai": "2026-11-04 01:15:07",
       "type": "引用",
       "type_label": "引用",
-      "text": "Grok @Bot improvements",
+      "text": "🤨",
       "quote": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2111918243460030464/aVMpxoAo_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 01:07:47",
-        "created_at_utc": "2026-11-02T17:07:47.000Z",
-        "id": "2117302664799396177",
+        "author": "america",
+        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 22:30:00",
+        "created_at_utc": "2026-11-03T14:30:00.000Z",
+        "id": "2117625345503302015",
         "images": [
-          "https://pbs.twimg.com/media/HWIcU5pbIAIQ15R.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2108697277879500801/img/0kt9luJc22qlU_Tp.jpg"
         ],
         "media": [
           {
-            "duration": 265.045,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/media/HWIcU5pbIAIQ15R.jpg",
+            "duration": 94.327,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108697277879500801/img/0kt9luJc22qlU_Tp.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2117284064025772032/vid/avc1/3840x2160/Ir2RKulro-fYPEch.mp4?tag=29",
-            "width": 1280
+            "url": "https://video.twimg.com/amplify_video/2108697277879500801/vid/avc1/1920x1080/VZjibggAK1cchCEa.mp4?tag=29",
+            "width": 1920
           }
         ],
-        "name": "matt palmer",
-        "text": "What's New in Grok Bot\n\n00:14 Shopping cards\n00:27 Product pages\n00:39 Order tracking\n00:53 Payments\n01:33 Custom modes\n01:52 Team Bot logins and setup\n02:09 Share and find Team Bots\n02:51 Connector asks in Slack\n03:12 Contacts in Vault\n03:31 Rapid fire",
-        "url": "https://x.com/mattyp/status/2117302664799396177",
+        "name": "America",
+        "text": "Democrat Nominee for U.S. Senate in Michigan Abdul El-Sayed wants open borders and no deportations:\n\n“We as a country, I believe, owe it to the world to open our doors.”\n\nGet out and VOTE Republican against this.",
+        "url": "https://x.com/america/status/2117625345503302015",
         "verified": true,
-        "verified_type": "individual"
+        "verified_type": "organization"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 358,
-        "likes": 2771,
-        "quotes": 49,
-        "replies": 667,
-        "retweets": 331,
-        "views": 717072
+        "bookmarks": 26,
+        "likes": 937,
+        "quotes": 11,
+        "replies": 241,
+        "retweets": 175,
+        "views": 261314
       },
-      "url": "https://x.com/elonmusk/status/2117422818648555595",
+      "url": "https://x.com/elonmusk/status/2117666899844866098",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2117360990119506022",
+      "id": "2117666485875478803",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-02T20:59:33.000Z",
-      "created_at_shanghai": "2026-11-03 04:59:33",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "This is the way",
-      "quote": {
-        "author": "JasonBud",
-        "avatar": "https://pbs.twimg.com/profile_images/1907218106994286592/aCcU4Kbh_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 00:00:18",
-        "created_at_utc": "2026-11-02T16:00:18.000Z",
-        "id": "2117285679961096683",
-        "images": [],
-        "media": [],
-        "name": "Jason Ginsberg",
-        "text": "Treat Grok Bot like a teammate and give @bot an ambitious task you’d normally give to a new hire.",
-        "url": "https://x.com/JasonBud/status/2117285679961096683",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 430,
-        "likes": 7307,
-        "quotes": 93,
-        "replies": 1451,
-        "retweets": 764,
-        "views": 1621381
-      },
-      "url": "https://x.com/elonmusk/status/2117360990119506022",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2117273153676149033",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-02T15:10:31.000Z",
-      "created_at_shanghai": "2026-11-02 23:10:31",
+      "created_at_utc": "2026-11-03T17:13:29.000Z",
+      "created_at_shanghai": "2026-11-04 01:13:29",
       "type": "转发",
       "type_label": "转发",
-      "text": "Grok Bot is literally a game changer for me\n\nI can't say this enough, but Grok Bot has given me soo much peace of mind. It basically does everything for me that I don't want to do\n\nAll those little tasks that used to take up so much of my time and energy are now being handled by Grok Bot\n\nI don't even book my flights or hotels anymore. Grok Bot does it for me\n\nI literally boarded a plane right now, and the entire booking was handled by Grok Bot haha\n\nAnd the crazy part is that I actually feel much safer letting it handle everything\n\nIt goes through all the options, compares them, intelligently shortlists the best ones and shows me screenshots and relevant links so I can check everything myself\n\nAnd before spending any money, it asks me to approve the final payment\n\nI really feel like it does a better job than I would have done myself\n\nAnd it goes so much further than just booking things\n\nIt already knows my current location, where I'm staying, my travel plans, how to get to the airport and what time I should leave\n\nEverything is taken care of\n\nAnd whenever I need help with something, instead of spending time searching Google or figuring things out myself, I just talk to Grok Bot\n\nBecause it already planned and booked everything for me, it has all the context it needs and gives me answers that are actually useful for my situation\n\nIt even takes care of little things I wouldn't have thought about myself\n\nI really never imagined an SI agent would make my everyday life this much easier\n\nIt's not just about saving time anymore\n\nIt's about having so many things taken off my mind that I don't have to constantly worry about them\n\nAnd that feeling is absolutely incredible\n\nGrok Bot has completely changed how I get things done",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 17:38:06",
-        "created_at_utc": "2026-11-02T09:38:06.000Z",
-        "id": "2117189496391569784",
-        "images": [
-          "https://pbs.twimg.com/media/HWHEnKdbgAAkNJf.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 4000,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWHEnKdbgAAkNJf.jpg?name=small",
-            "width": 3000
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Boarding the flight Grok Bot booked for me 😁",
-        "url": "https://x.com/XFreeze/status/2117189496391569784",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 18:02:28",
-        "created_at_utc": "2026-11-02T10:02:28.000Z",
-        "id": "2117195631160660066",
-        "images": [],
-        "media": [],
-        "name": "X Freeze",
-        "text": "Grok Bot is literally a game changer for me\n\nI can't say this enough, but Grok Bot has given me soo much peace of mind. It basically does everything for me that I don't want to do\n\nAll those little tasks that used to take up so much of my time and energy are now being handled by Grok Bot\n\nI don't even book my flights or hotels anymore. Grok Bot does it for me\n\nI literally boarded a plane right now, and the entire booking was handled by Grok Bot haha\n\nAnd the crazy part is that I actually feel much safer letting it handle everything\n\nIt goes through all the options, compares them, intelligently shortlists the best ones and shows me screenshots and relevant links so I can check everything myself\n\nAnd before spending any money, it asks me to approve the final payment\n\nI really feel like it does a better job than I would have done myself\n\nAnd it goes so much further than just booking things\n\nIt already knows my current location, where I'm staying, my travel plans, how to get to the airport and what time I should leave\n\nEverything is taken care of\n\nAnd whenever I need help with something, instead of spending time searching Google or figuring things out myself, I just talk to Grok Bot\n\nBecause it already planned and booked everything for me, it has all the context it needs and gives me answers that are actually useful for my situation\n\nIt even takes care of little things I wouldn't have thought about myself\n\nI really never imagined an SI agent would make my everyday life this much easier\n\nIt's not just about saving time anymore\n\nIt's about having so many things taken off my mind that I don't have to constantly worry about them\n\nAnd that feeling is absolutely incredible\n\nGrok Bot has completely changed how I get things done",
-        "url": "https://x.com/XFreeze/status/2117195631160660066",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 112,
-        "likes": 1476,
-        "quotes": 17,
-        "replies": 175,
-        "retweets": 185,
-        "views": 344362
-      },
-      "url": "https://x.com/elonmusk/status/2117273153676149033",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2117272824830210391",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-02T15:09:13.000Z",
-      "created_at_shanghai": "2026-11-02 23:09:13",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@shaunmmaguire @uncovered_alpha Future super intelligence compute will obviously be overwhelmingly in space. \n\nBy “overwhelmingly”, I mean that it will round up to 100%!\n\nYou have to be an utter moron not to realize this.",
+      "text": "POV you’re a flying car",
       "quote": null,
       "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 23:08:54",
-        "created_at_utc": "2026-11-02T15:08:54.000Z",
-        "id": "2117272748112154651",
+        "author": "Tesla",
+        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
+        "created_at_shanghai": "2026-11-04 00:47:05",
+        "created_at_utc": "2026-11-03T16:47:05.000Z",
+        "id": "2117659842685128881",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2117659748313313280/img/rbqvN47omA7xzOn9.jpg"
+        ],
+        "media": [
+          {
+            "duration": 33.8,
+            "height": 1920,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117659748313313280/img/rbqvN47omA7xzOn9.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2117659748313313280/vid/avc1/1080x1920/P6fqvWpRH0xB-UDt.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "Tesla",
+        "text": "POV you’re a flying car",
+        "url": "https://x.com/Tesla/status/2117659842685128881",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 336,
+        "likes": 4185,
+        "quotes": 116,
+        "replies": 203,
+        "retweets": 555,
+        "views": 147539
+      },
+      "url": "https://x.com/elonmusk/status/2117666485875478803",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2117659748313313280/img/rbqvN47omA7xzOn9.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2117659748313313280/vid/avc1/1080x1920/P6fqvWpRH0xB-UDt.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117659748313313280/img/rbqvN47omA7xzOn9.jpg",
+          "width": 1080,
+          "height": 1920,
+          "duration": 33.8
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2117666429411766402",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T17:13:15.000Z",
+      "created_at_shanghai": "2026-11-04 01:13:15",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "BOOM: Lines are wrapping around polling places in Texas this morning as voters pour in.\n\nTexans do not stand in long lines for things they do not care about.\n\nIf you are in line, stay there. Texas polls are open until 7 PM, and everyone in line by 7 gets to vote.",
+      "quote": null,
+      "retweet": {
+        "author": "GuntherEagleman",
+        "avatar": "https://pbs.twimg.com/profile_images/1606836521784512512/Xb-_cXXi_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 23:46:44",
+        "created_at_utc": "2026-11-03T15:46:44.000Z",
+        "id": "2117644656469033331",
         "images": [],
         "media": [],
-        "name": "Elon Musk",
-        "text": "@shaunmmaguire @uncovered_alpha Future super intelligence compute will obviously be overwhelmingly in space. \n\nBy “overwhelmingly”, I mean that it will round up to 100%!\n\nYou have to be an utter moron not to realize this.",
-        "url": "https://x.com/elonmusk/status/2117272748112154651",
+        "name": "Gunther Eagleman™",
+        "text": "BOOM: Lines are wrapping around polling places in Texas this morning as voters pour in.\n\nTexans do not stand in long lines for things they do not care about.\n\nIf you are in line, stay there. Texas polls are open until 7 PM, and everyone in line by 7 gets to vote.",
+        "url": "https://x.com/GuntherEagleman/status/2117644656469033331",
         "verified": true,
         "verified_type": "individual"
       },
-      "reply_to": "shaunmmaguire",
+      "reply_to": "",
       "engagement": {
-        "bookmarks": 662,
-        "likes": 10099,
-        "quotes": 205,
-        "replies": 1085,
-        "retweets": 835,
-        "views": 990156
+        "bookmarks": 19,
+        "likes": 3628,
+        "quotes": 9,
+        "replies": 62,
+        "retweets": 694,
+        "views": 44442
       },
-      "url": "https://x.com/elonmusk/status/2117272824830210391",
+      "url": "https://x.com/elonmusk/status/2117666429411766402",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2117666334549201202",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T17:12:53.000Z",
+      "created_at_shanghai": "2026-11-04 01:12:53",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RED WAVE incoming!  \n\nIn Dallas, Tarrant, and Collin Counties, wait times at red precincts are significantly higher than at blue precincts.  \n\nDefinitely feels like the Democrats burned through their high-propensity voters on the first two days of early voting. \n\nCalled it.",
+      "quote": null,
+      "retweet": {
+        "author": "BlackLabelAdvsr",
+        "avatar": "https://pbs.twimg.com/profile_images/2086906029325910017/dhrPupS3_200x200.jpg",
+        "created_at_shanghai": "2026-11-04 00:22:03",
+        "created_at_utc": "2026-11-03T16:22:03.000Z",
+        "id": "2117653542311743802",
+        "images": [],
+        "media": [],
+        "name": "Jon Elder",
+        "text": "RED WAVE incoming!  \n\nIn Dallas, Tarrant, and Collin Counties, wait times at red precincts are significantly higher than at blue precincts.  \n\nDefinitely feels like the Democrats burned through their high-propensity voters on the first two days of early voting. \n\nCalled it.",
+        "url": "https://x.com/BlackLabelAdvsr/status/2117653542311743802",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 62,
+        "likes": 1676,
+        "quotes": 10,
+        "replies": 77,
+        "retweets": 208,
+        "views": 41922
+      },
+      "url": "https://x.com/elonmusk/status/2117666334549201202",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2117665964862939320",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T17:11:25.000Z",
+      "created_at_shanghai": "2026-11-04 01:11:25",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot can research which doctors are the best in your area, call them by phone and make an appointment!",
+      "quote": {
+        "author": "minchoi",
+        "avatar": "https://pbs.twimg.com/profile_images/1638359113221517312/CBZaJFyA_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 23:02:40",
+        "created_at_utc": "2026-11-03T15:02:40.000Z",
+        "id": "2117633564736938471",
+        "images": [
+          "https://pbs.twimg.com/media/HWNYeRmXQAA8HBX.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1526,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWNYeRmXQAA8HBX.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "Min Choi",
+        "text": "Grok Bot just made a doctor's appointment for me while I was driving...\n\nMy daughter hurt her foot landing a jump at dance practice.\n\nI told Grok Bot what happened, how she was feeling, and what I saw: not much swelling, iced, and her pain seemed manageable.\n\nIt gave me a few nearby options, including a pediatric orthopedist with X-rays on site, and offered to call when they opened.\n\nGrok Bot called and got her in at 9:30 the same day.\n\nThe whole call was transcribed live, and when the receptionist asked for more info, it asked me in real time.\n\nIt also got the insurance, payment options and pricing, had the intake forms sent to my email, and put it on my calendar.\n\nThe receptionist knew the call was recorded, and I could review the recording afterward.\n\nAll while I was driving.\n\nGrok Bot is going to completely change people's lives.",
+        "url": "https://x.com/minchoi/status/2117633564736938471",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 56,
+        "likes": 661,
+        "quotes": 20,
+        "replies": 203,
+        "retweets": 113,
+        "views": 336585
+      },
+      "url": "https://x.com/elonmusk/status/2117665964862939320",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2117664671813767516",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T17:06:16.000Z",
+      "created_at_shanghai": "2026-11-04 01:06:16",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot can do complex trips",
+      "quote": {
+        "author": "pud",
+        "avatar": "https://pbs.twimg.com/profile_images/2099743340900368384/u9rKI1S8_200x200.jpg",
+        "created_at_shanghai": "2026-11-04 00:59:26",
+        "created_at_utc": "2026-11-03T16:59:26.000Z",
+        "id": "2117662949137670591",
+        "images": [],
+        "media": [],
+        "name": "Philip Kaplan",
+        "text": "Used Grok @Bot to book flights for a relatively complex family trip. Incredible experience. I’ll likely never use an airline’s website again.",
+        "url": "https://x.com/pud/status/2117662949137670591",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 45,
+        "likes": 997,
+        "quotes": 17,
+        "replies": 262,
+        "retweets": 118,
+        "views": 420462
+      },
+      "url": "https://x.com/elonmusk/status/2117664671813767516",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2117663863856377923",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T17:03:04.000Z",
+      "created_at_shanghai": "2026-11-04 01:03:04",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Quest to understand the Universe",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 22:39:48",
+        "created_at_utc": "2026-11-03T14:39:48.000Z",
+        "id": "2117627809590030805",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2117627771514187776/img/XIMzhfgy_zeLHCd0.jpg"
+        ],
+        "media": [
+          {
+            "duration": 50.5,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117627771514187776/img/XIMzhfgy_zeLHCd0.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2117627771514187776/vid/avc1/1920x1080/ebNOoiIR5rB45Ljl.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "X Freeze",
+        "text": "When Chris Anderson asked Elon Musk what drives him every single day to do everything he does, Elon gave an incredibly deep and powerful answer\n\n“I really want to make sure that there is a good future for humanity, and that we're on a path to understanding the nature of the universe, the meaning of life. Why are we here? How do we get here?”\n\nAnd then he explained what motivates him more than anything:\n\n“I'm motivated by curiosity more than anything, and just a desire to think about the future and not be sad”",
+        "url": "https://x.com/XFreeze/status/2117627809590030805",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 141,
+        "likes": 1690,
+        "quotes": 25,
+        "replies": 409,
+        "retweets": 261,
+        "views": 428036
+      },
+      "url": "https://x.com/elonmusk/status/2117663863856377923",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2117663467511730395",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T17:01:29.000Z",
+      "created_at_shanghai": "2026-11-04 01:01:29",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "🚨 Texas, this is the day.\n\nKen Paxton has spent years fighting Washington for you. Today he needs you to fight for him.\n\nPolls stay open until 7 PM. Already in line at 7? You still vote, so do not leave. Bring a friend. Keep Texas red.",
+      "quote": null,
+      "retweet": {
+        "author": "GuntherEagleman",
+        "avatar": "https://pbs.twimg.com/profile_images/1606836521784512512/Xb-_cXXi_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 21:59:57",
+        "created_at_utc": "2026-11-03T13:59:57.000Z",
+        "id": "2117617780904382862",
+        "images": [
+          "https://pbs.twimg.com/media/HWNKJfFW8AAq_OI.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1254,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWNKJfFW8AAq_OI.jpg?name=small",
+            "width": 1254
+          }
+        ],
+        "name": "Gunther Eagleman™",
+        "text": "🚨 Texas, this is the day.\n\nKen Paxton has spent years fighting Washington for you. Today he needs you to fight for him.\n\nPolls stay open until 7 PM. Already in line at 7? You still vote, so do not leave. Bring a friend. Keep Texas red.",
+        "url": "https://x.com/GuntherEagleman/status/2117617780904382862",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 16,
+        "likes": 1525,
+        "quotes": 14,
+        "replies": 118,
+        "retweets": 455,
+        "views": 75913
+      },
+      "url": "https://x.com/elonmusk/status/2117663467511730395",
+      "images": [
+        "https://pbs.twimg.com/media/HWNKJfFW8AAq_OI.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWNKJfFW8AAq_OI.jpg?name=small",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2117663422246490160",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T17:01:18.000Z",
+      "created_at_shanghai": "2026-11-04 01:01:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Just voted red in PA\n\nGo vote!",
+      "quote": null,
+      "retweet": {
+        "author": "Wightout66",
+        "avatar": "https://pbs.twimg.com/profile_images/1907933458988515328/vie9Ha4J_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 22:07:38",
+        "created_at_utc": "2026-11-03T14:07:38.000Z",
+        "id": "2117619717368062287",
+        "images": [
+          "https://pbs.twimg.com/media/HWNL6LdWQAAadoq.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWNL6LdWQAAadoq.jpg?name=small",
+            "width": 1536
+          }
+        ],
+        "name": "Dwight",
+        "text": "Just voted red in PA\n\nGo vote!",
+        "url": "https://x.com/Wightout66/status/2117619717368062287",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 27,
+        "likes": 9058,
+        "quotes": 22,
+        "replies": 375,
+        "retweets": 777,
+        "views": 162496
+      },
+      "url": "https://x.com/elonmusk/status/2117663422246490160",
+      "images": [
+        "https://pbs.twimg.com/media/HWNL6LdWQAAadoq.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWNL6LdWQAAadoq.jpg?name=small",
+          "width": 1536,
+          "height": 2048
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2117663408883482938",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T17:01:15.000Z",
+      "created_at_shanghai": "2026-11-04 01:01:15",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Good work sir! Follow his example if you haven’t voted yet and go vote!",
+      "quote": {
+        "author": "Wightout66",
+        "avatar": "https://pbs.twimg.com/profile_images/1907933458988515328/vie9Ha4J_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 22:07:38",
+        "created_at_utc": "2026-11-03T14:07:38.000Z",
+        "id": "2117619717368062287",
+        "images": [
+          "https://pbs.twimg.com/media/HWNL6LdWQAAadoq.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWNL6LdWQAAadoq.jpg?name=small",
+            "width": 1536
+          }
+        ],
+        "name": "Dwight",
+        "text": "Just voted red in PA\n\nGo vote!",
+        "url": "https://x.com/Wightout66/status/2117619717368062287",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "the_jefferymead",
+        "avatar": "https://pbs.twimg.com/profile_images/1653093448822542336/eMRq3ayO_200x200.jpg",
+        "created_at_shanghai": "2026-11-04 00:46:25",
+        "created_at_utc": "2026-11-03T16:46:25.000Z",
+        "id": "2117659676850700415",
+        "images": [],
+        "media": [],
+        "name": "Jeffery Mead",
+        "text": "Good work sir! Follow his example if you haven’t voted yet and go vote!",
+        "url": "https://x.com/the_jefferymead/status/2117659676850700415",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 10,
+        "likes": 988,
+        "quotes": 1,
+        "replies": 24,
+        "retweets": 117,
+        "views": 62549
+      },
+      "url": "https://x.com/elonmusk/status/2117663408883482938",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2117657562057191874",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T16:38:01.000Z",
+      "created_at_shanghai": "2026-11-04 00:38:01",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "GO OUT AND VOTE‼️🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸",
+      "quote": null,
+      "retweet": {
+        "author": "RobSchneider",
+        "avatar": "https://pbs.twimg.com/profile_images/1587490892083974146/p3jL3LPH_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 23:47:41",
+        "created_at_utc": "2026-11-03T15:47:41.000Z",
+        "id": "2117644895561347224",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2117644754196512768/img/pUd0mNROr1NjVt0-.jpg"
+        ],
+        "media": [
+          {
+            "duration": 61.036,
+            "height": 1920,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117644754196512768/img/pUd0mNROr1NjVt0-.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2117644754196512768/vid/avc1/1080x1920/k6Z5hPEu9266p3sX.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "Rob Schneider 🇺🇸",
+        "text": "GO OUT AND VOTE‼️🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸",
+        "url": "https://x.com/RobSchneider/status/2117644895561347224",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 80,
+        "likes": 7600,
+        "quotes": 38,
+        "replies": 386,
+        "retweets": 1307,
+        "views": 176098
+      },
+      "url": "https://x.com/elonmusk/status/2117657562057191874",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2117644754196512768/img/pUd0mNROr1NjVt0-.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2117644754196512768/vid/avc1/1080x1920/k6Z5hPEu9266p3sX.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117644754196512768/img/pUd0mNROr1NjVt0-.jpg",
+          "width": 1080,
+          "height": 1920,
+          "duration": 61.036
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2117656478689775862",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T16:33:43.000Z",
+      "created_at_shanghai": "2026-11-04 00:33:43",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Prophetic",
+      "quote": {
+        "author": "AlcuinPress",
+        "avatar": "https://pbs.twimg.com/profile_images/2094559621868630016/tWc7q3J__200x200.jpg",
+        "created_at_shanghai": "2026-11-03 21:18:25",
+        "created_at_utc": "2026-11-03T13:18:25.000Z",
+        "id": "2117607331433496741",
+        "images": [
+          "https://pbs.twimg.com/media/HWNAnvVbAAENnjk.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 557,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWNAnvVbAAENnjk.jpg?name=small",
+            "width": 1336
+          }
+        ],
+        "name": "Alcuin Press",
+        "text": "J.R.R. Tolkien, holy cow this hits",
+        "url": "https://x.com/AlcuinPress/status/2117607331433496741",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 977,
+        "likes": 10395,
+        "quotes": 80,
+        "replies": 749,
+        "retweets": 1029,
+        "views": 792861
+      },
+      "url": "https://x.com/elonmusk/status/2117656478689775862",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2117651007538884899",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T16:11:58.000Z",
+      "created_at_shanghai": "2026-11-04 00:11:58",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot is like hiring a super competent employee. Treat Bot like you would a colleague.",
+      "quote": {
+        "author": "PeterDiamandis",
+        "avatar": "https://pbs.twimg.com/profile_images/1270804940936503296/oVhO8Njn_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 23:28:18",
+        "created_at_utc": "2026-11-03T15:28:18.000Z",
+        "id": "2117640018630217997",
+        "images": [],
+        "media": [],
+        "name": "Peter H. Diamandis, MD",
+        "text": "Got to say it.  GrokBot is AWESOME.  Actually addicting.",
+        "url": "https://x.com/PeterDiamandis/status/2117640018630217997",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 146,
+        "likes": 3966,
+        "quotes": 65,
+        "replies": 940,
+        "retweets": 395,
+        "views": 837885
+      },
+      "url": "https://x.com/elonmusk/status/2117651007538884899",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2117650707398664501",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T16:10:47.000Z",
+      "created_at_shanghai": "2026-11-04 00:10:47",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink grows customers for airlines",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-04 00:06:56",
+        "created_at_utc": "2026-11-03T16:06:56.000Z",
+        "id": "2117649738623496227",
+        "images": [
+          "https://pbs.twimg.com/media/HWNnNeYaoAAeW13.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 923,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWNnNeYaoAAeW13.jpg?name=small",
+            "width": 923
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: Starlink helped Japan’s ZIPAIR grow passenger revenue 12.3% YoY.\n\nJapan Airlines (JAL) says @Starlink improved ZIPAIR’s onboard experience and helped drive revenue growth alongside flexible pricing. \n\nZIPAIR became Asia’s first airline with Starlink across its entire fleet in May. April–September passenger revenue reached ¥42.9 billion, while seat occupancy jumped from 73.7% to 87.8%.",
+        "url": "https://x.com/cb_doge/status/2117649738623496227",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 45,
+        "likes": 2524,
+        "quotes": 28,
+        "replies": 346,
+        "retweets": 305,
+        "views": 632773
+      },
+      "url": "https://x.com/elonmusk/status/2117650707398664501",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2117649850644705591",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T16:07:23.000Z",
+      "created_at_shanghai": "2026-11-04 00:07:23",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "And electrical equipment, cooling, networking and batteries",
+      "quote": {
+        "author": "euwyn",
+        "avatar": "https://pbs.twimg.com/profile_images/2033571359117426688/MZRPvEvM_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 19:00:19",
+        "created_at_utc": "2026-11-03T11:00:19.000Z",
+        "id": "2117572576390349155",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2117572503589818368/img/W1ePJqajOzRNpz9x.jpg"
+        ],
+        "media": [
+          {
+            "duration": 68.651,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117572503589818368/img/W1ePJqajOzRNpz9x.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2117572503589818368/vid/avc1/1920x1080/Ku78wKr8uh9nnmN9.mp4?tag=16",
+            "width": 1920
+          }
+        ],
+        "name": "Euwyn",
+        "text": "Elon Musk says the AI boom will hit a WALL by the end of 2026.\n\nHe says the whole industry is about to learn a hard lesson in hardware.\n\nChip output is exploding, but electricity is nearly flat everywhere outside China.\n\nSo the two lines cross this year.\n\nHe says by the end of the year, we will be making more AI chips than we can actually turn on.\n\nMillions of them pile up with nowhere to plug in.\n\nIn his words, the bottleneck for the next year is not chips, it is raw power.\n\nWhoever can turn on the most chips fastest wins the race.\n\nIn the end, the AI race comes down to one thing:\n\nRaw electricity.\n\n— Elon Musk (.@elonmusk) on Dwarkesh Patel's (.@dwarkesh_sp) podcast",
+        "url": "https://x.com/euwyn/status/2117572576390349155",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1111,
+        "likes": 8981,
+        "quotes": 98,
+        "replies": 852,
+        "retweets": 978,
+        "views": 1038882
+      },
+      "url": "https://x.com/elonmusk/status/2117649850644705591",
       "images": [],
       "media": [],
       "enriched": true
@@ -1211,8 +1043,8 @@
   ],
   "page": 1,
   "page_size": 20,
-  "total": 1903,
-  "total_pages": 96,
-  "updated_at_shanghai": "2026-11-03 17:41:51",
+  "total": 1940,
+  "total_pages": 97,
+  "updated_at_shanghai": "2026-11-04 01:19:36",
   "account": "elonmusk"
 }
