@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2118870542820462827",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-07T00:57:58.000Z",
+      "created_at_shanghai": "2026-11-07 08:57:58",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Watch Falcon 9 launch the USSF-432 mission from pad 4E in California https://x.com/i/broadcasts/1kKzDPYrZNdJv",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-07 08:35:56",
+        "created_at_utc": "2026-11-07T00:35:56.000Z",
+        "id": "2118864998407852102",
+        "images": [],
+        "media": [],
+        "name": "SpaceX",
+        "text": "Watch Falcon 9 launch the USSF-432 mission from pad 4E in California https://x.com/i/broadcasts/1kKzDPYrZNdJv",
+        "url": "https://x.com/SpaceX/status/2118864998407852102",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 782,
+        "likes": 11691,
+        "quotes": 124,
+        "replies": 638,
+        "retweets": 1551,
+        "views": 633931
+      },
+      "url": "https://x.com/elonmusk/status/2118870542820462827",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2118858610881257680",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1067,64 +1108,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2118788513365954734",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-06T19:32:01.000Z",
-      "created_at_shanghai": "2026-11-07 03:32:01",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "~100 lasers per satellite, each operating above 10 Tb/s, with over 100k satellites should be able to outcompete undersea cables. \n\nSpeed of light in space is ~40% faster than cable and the path is direct, instead of following the outline of land masses.",
-      "quote": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 03:10:32",
-        "created_at_utc": "2026-11-06T19:10:32.000Z",
-        "id": "2118783107189076137",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2118782519420088320/img/gh5ZDqNun_QSCiW1.jpg"
-        ],
-        "media": [
-          {
-            "duration": 38.016,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118782519420088320/img/gh5ZDqNun_QSCiW1.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2118782519420088320/vid/avc1/1920x1080/vfMKgMN44jPxvHVc.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "Elon just teased SpaceX's next-gen V4 @Starlink satellites:\n\n\"Starlink version 4 will have 10x the capability of V3 (which itself is 10x better than V2), especially with the long-distance laser links. Our next-gen laser links will be 10-terabits per second. 100x better. And we'll put 10 of them on.\"",
-        "url": "https://x.com/SawyerMerritt/status/2118783107189076137",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 720,
-        "likes": 11500,
-        "quotes": 149,
-        "replies": 833,
-        "retweets": 1520,
-        "views": 933686
-      },
-      "url": "https://x.com/elonmusk/status/2118788513365954734",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 2108,
+  "total": 2109,
   "total_pages": 106,
-  "updated_at_shanghai": "2026-11-08 03:12:02",
+  "updated_at_shanghai": "2026-11-08 03:21:11",
   "account": "elonmusk"
 }
