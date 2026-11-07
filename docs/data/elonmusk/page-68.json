@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2109132465784930785",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-11T04:02:20.000Z",
+      "created_at_shanghai": "2026-10-11 12:02:20",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try Grok @Bot",
+      "quote": {
+        "author": "BrianRoemmele",
+        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
+        "created_at_shanghai": "2026-10-11 10:48:22",
+        "created_at_utc": "2026-10-11T02:48:22.000Z",
+        "id": "2109113853619691700",
+        "images": [
+          "https://pbs.twimg.com/tweet_video_thumb/HUUT3l4aAAAzHeR.jpg"
+        ],
+        "media": [
+          {
+            "duration": 0,
+            "height": 264,
+            "thumbnail_url": "https://pbs.twimg.com/tweet_video_thumb/HUUT3l4aAAAzHeR.jpg",
+            "type": "gif",
+            "url": "https://video.twimg.com/tweet_video/HUUT3l4aAAAzHeR.mp4",
+            "width": 500
+          }
+        ],
+        "name": "Brian Roemmele",
+        "text": "Here is what I know for sure. There is a new revolution with @Grok @Bot and although I am pioneering its use in physical industries like printing, packaging, beverage, injection mold, vitamin capsule and dozens of other clients in the pipeline, the world need millions of folks like me to do this. \n\nAny AI company that does not build an army of folks like me to make practical in the real world the use of this agentic AI in the real world will loose to those that do.\n\nAnd once Optimus is ready, folks like me are ready to extend this to a robot form.\n\nI will write more about this opportunity soon.\n\nFor now know it is not a theory, we are doing it out of my garage.\n\nToday was a massive success!",
+        "url": "https://x.com/BrianRoemmele/status/2109113853619691700",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 133,
+        "likes": 2456,
+        "quotes": 48,
+        "replies": 760,
+        "retweets": 301,
+        "views": 973808
+      },
+      "url": "https://x.com/elonmusk/status/2109132465784930785",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109028983299768825",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1083,75 +1135,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108927302704791932",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T14:27:05.000Z",
-      "created_at_shanghai": "2026-10-10 22:27:05",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Liftoff!",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-10 15:41:45",
-        "created_at_utc": "2026-10-10T07:41:45.000Z",
-        "id": "2108825295310475381",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108825189471387648/img/k04-BcanYRHHZiWE.jpg"
-        ],
-        "media": [
-          {
-            "duration": 26.96,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108825189471387648/img/k04-BcanYRHHZiWE.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108825189471387648/vid/avc1/3840x2160/h3xQRnjNyAO547xJ.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Liftoff!",
-        "url": "https://x.com/SpaceX/status/2108825295310475381",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 199,
-        "likes": 9227,
-        "quotes": 87,
-        "replies": 320,
-        "retweets": 954,
-        "views": 767076
-      },
-      "url": "https://x.com/elonmusk/status/2108927302704791932",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2108825189471387648/img/k04-BcanYRHHZiWE.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2108825189471387648/vid/avc1/3840x2160/h3xQRnjNyAO547xJ.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108825189471387648/img/k04-BcanYRHHZiWE.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 26.96
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 68,
   "page_size": 20,
-  "total": 2107,
+  "total": 2108,
   "total_pages": 106,
-  "updated_at_shanghai": "2026-11-08 03:02:28",
+  "updated_at_shanghai": "2026-11-08 03:12:02",
   "account": "elonmusk"
 }
