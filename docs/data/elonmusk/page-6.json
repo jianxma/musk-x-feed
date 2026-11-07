@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2118591028135686427",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-06T06:27:17.000Z",
+      "created_at_shanghai": "2026-11-06 14:27:17",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon Musk started his first company, Zip2, in a $500 a month office that doubled as his home.\n\nThe cheapest apartment he could find cost $800 a month, so he slept on a pullout couch and showered at the YMCA down the road.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-05 18:21:48",
+        "created_at_utc": "2026-11-05T10:21:48.000Z",
+        "id": "2118287658002858495",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2118287561206689792/img/DiOs0rOX_F6h-HDe.jpg"
+        ],
+        "media": [
+          {
+            "duration": 74,
+            "height": 996,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118287561206689792/img/DiOs0rOX_F6h-HDe.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2118287561206689792/vid/avc1/1682x996/tNQ39wZ6OUxPytd0.mp4?tag=29",
+            "width": 1682
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Elon Musk started his first company, Zip2, in a $500 a month office that doubled as his home.\n\nThe cheapest apartment he could find cost $800 a month, so he slept on a pullout couch and showered at the YMCA down the road.",
+        "url": "https://x.com/cb_doge/status/2118287658002858495",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 192,
+        "likes": 2688,
+        "quotes": 28,
+        "replies": 197,
+        "retweets": 453,
+        "views": 307918
+      },
+      "url": "https://x.com/elonmusk/status/2118591028135686427",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2118287561206689792/img/DiOs0rOX_F6h-HDe.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2118287561206689792/vid/avc1/1682x996/tNQ39wZ6OUxPytd0.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118287561206689792/img/DiOs0rOX_F6h-HDe.jpg",
+          "width": 1682,
+          "height": 996,
+          "duration": 74
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2118590274452758688",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1000,53 +1063,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2118388941267317134",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-05T17:04:16.000Z",
-      "created_at_shanghai": "2026-11-06 01:04:16",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
-      "quote": {
-        "author": "ID_AA_Carmack",
-        "avatar": "https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_200x200.jpg",
-        "created_at_shanghai": "2026-11-06 00:00:22",
-        "created_at_utc": "2026-11-05T16:00:22.000Z",
-        "id": "2118372864378146934",
-        "images": [],
-        "media": [],
-        "name": "John Carmack",
-        "text": "I’m all for championing excellence over mediocrity, but it is a mistake to imply that academic achievement is the only measure of it. Jocks and prom queens aren’t the antithesis of merit and striving, and in some ways, their arenas are more “real” than academic curriculums. Fight passivity and low standards!",
-        "url": "https://x.com/ID_AA_Carmack/status/2118372864378146934",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 193,
-        "likes": 4675,
-        "quotes": 16,
-        "replies": 421,
-        "retweets": 353,
-        "views": 366088
-      },
-      "url": "https://x.com/elonmusk/status/2118388941267317134",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 20,
-  "total": 2109,
+  "total": 2110,
   "total_pages": 106,
-  "updated_at_shanghai": "2026-11-08 03:21:11",
+  "updated_at_shanghai": "2026-11-08 03:45:43",
   "account": "elonmusk"
 }
