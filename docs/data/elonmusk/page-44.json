@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2113011056847278486",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T20:54:28.000Z",
+      "created_at_shanghai": "2026-10-22 04:54:28",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "People are buying FSD with a car attached, not the other way around",
+      "quote": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 04:04:44",
+        "created_at_utc": "2026-10-21T20:04:44.000Z",
+        "id": "2112998543065600047",
+        "images": [
+          "https://pbs.twimg.com/media/HVLg0bgXsAAnRtf.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1302,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVLg0bgXsAAnRtf.jpg?name=small",
+            "width": 2304
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "Tesla has just released its Q3 earnings results.\n\nHighlights:\n• EPS (non-GAAP): $0.48 (vs. $0.45 est)\n• Revenue: $28.05B (vs. $28.3B est)\n• Adjusted EBITDA: $3.90B\n• Active FSD Subscriptions: 1.74M, up 67% YoY from 1.04M\n• Net income (GAAP): $787M\n• Free cash flow: $1.53B\n• Capex: $4.73B\n• Cash & marketable securities: $45.45B, up 9% YoY",
+        "url": "https://x.com/SawyerMerritt/status/2112998543065600047",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 170,
+        "likes": 7536,
+        "quotes": 100,
+        "replies": 722,
+        "retweets": 685,
+        "views": 736352
+      },
+      "url": "https://x.com/elonmusk/status/2113011056847278486",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2113010364178964616",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -978,40 +1028,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2112934688557818190",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T15:51:00.000Z",
-      "created_at_shanghai": "2026-10-21 23:51:00",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "There is something deeply wrong with Talarico",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 514,
-        "likes": 53116,
-        "quotes": 525,
-        "replies": 5643,
-        "retweets": 5439,
-        "views": 2140684
-      },
-      "url": "https://x.com/elonmusk/status/2112934688557818190",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 44,
   "page_size": 20,
-  "total": 2125,
+  "total": 2126,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-08 23:28:13",
+  "updated_at_shanghai": "2026-11-09 00:22:54",
   "account": "elonmusk"
 }
