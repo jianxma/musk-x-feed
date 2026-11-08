@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2117651007538884899",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T16:11:58.000Z",
+      "created_at_shanghai": "2026-11-04 00:11:58",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot is like hiring a super competent employee. Treat Bot like you would a colleague.",
+      "quote": {
+        "author": "PeterDiamandis",
+        "avatar": "https://pbs.twimg.com/profile_images/1270804940936503296/oVhO8Njn_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 23:28:18",
+        "created_at_utc": "2026-11-03T15:28:18.000Z",
+        "id": "2117640018630217997",
+        "images": [],
+        "media": [],
+        "name": "Peter H. Diamandis, MD",
+        "text": "Got to say it.  GrokBot is AWESOME.  Actually addicting.",
+        "url": "https://x.com/PeterDiamandis/status/2117640018630217997",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 146,
+        "likes": 3966,
+        "quotes": 65,
+        "replies": 940,
+        "retweets": 395,
+        "views": 837885
+      },
+      "url": "https://x.com/elonmusk/status/2117651007538884899",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2117650707398664501",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1149,75 +1190,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2117482570757656836",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T05:02:40.000Z",
-      "created_at_shanghai": "2026-11-03 13:02:40",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Space datacenters actually make sense",
-      "quote": {
-        "author": "eliebakouch",
-        "avatar": "https://pbs.twimg.com/profile_images/1745893660099592193/MmYemsw6_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 00:45:33",
-        "created_at_utc": "2026-11-02T16:45:33.000Z",
-        "id": "2117297070155731058",
-        "images": [
-          "https://pbs.twimg.com/media/HWIlxVZWIAE-ogF.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2702,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWIlxVZWIAE-ogF.jpg?name=small",
-            "width": 2548
-          }
-        ],
-        "name": "elie",
-        "text": "distributed training in space ❤️‍🔥",
-        "url": "https://x.com/eliebakouch/status/2117297070155731058",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "MillionInt",
-        "avatar": "https://pbs.twimg.com/profile_images/1184690787419734016/7ija9HDY_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 11:53:19",
-        "created_at_utc": "2026-11-03T03:53:19.000Z",
-        "id": "2117465116858052725",
-        "images": [],
-        "media": [],
-        "name": "Jerry Tworek",
-        "text": "Space datacenters actually make sense",
-        "url": "https://x.com/MillionInt/status/2117465116858052725",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 136,
-        "likes": 1436,
-        "quotes": 17,
-        "replies": 137,
-        "retweets": 166,
-        "views": 321022
-      },
-      "url": "https://x.com/elonmusk/status/2117482570757656836",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 11,
   "page_size": 20,
-  "total": 2122,
+  "total": 2123,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-08 21:25:51",
+  "updated_at_shanghai": "2026-11-08 21:48:26",
   "account": "elonmusk"
 }

@@ -1,10 +1,51 @@
 {
   "posts": [
     {
-      "id": "2119420033113739525",
+      "id": "2119425068979937378",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T13:41:28.000Z",
+      "created_at_shanghai": "2026-11-08 21:41:28",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Many such stories",
+      "quote": {
+        "author": "AndyL5cc",
+        "avatar": "https://pbs.twimg.com/profile_images/2098063802919276544/5W6aaTVF_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 09:55:08",
+        "created_at_utc": "2026-11-08T01:55:08.000Z",
+        "id": "2119247317975060982",
+        "images": [],
+        "media": [],
+        "name": "Andy L",
+        "text": "笑死，一个朋友嫌每月 200 美元的 AI 订阅太贵。🤣\n\n转头花了十几万，买了 2 台 Mac Studio，专门部署开源大模型。\n\n昨天跟我吐槽：\n\n“折腾半天，发现还没每月 200 美元的闭源模型好用……”\n\n本来想省点订阅费，结果直接把未来十几年的会员费一次性交了。🤡",
+        "url": "https://x.com/AndyL5cc/status/2119247317975060982",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 35,
+        "likes": 761,
+        "quotes": 16,
+        "replies": 233,
+        "retweets": 90,
+        "views": 409501
+      },
+      "url": "https://x.com/elonmusk/status/2119425068979937378",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119420033113739525",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-08T13:21:27.000Z",
@@ -975,71 +1016,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119134963790725377",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T18:28:41.000Z",
-      "created_at_shanghai": "2026-11-08 02:28:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "🚨 What happened to the California EV market?\n$7,500 new EV federal tax credit expired\n\nWho lost EV market share?\nModels people only bought for the tax credit\n\nWho gained EV market share?\nTesla: up 1,020 basis points",
-      "quote": null,
-      "retweet": {
-        "author": "ICannot_Enough",
-        "avatar": "https://pbs.twimg.com/profile_images/1334264832397291522/AR2jbpaD_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 21:37:03",
-        "created_at_utc": "2026-11-07T13:37:03.000Z",
-        "id": "2119061570995065335",
-        "images": [
-          "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 3700,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small",
-            "width": 2300
-          }
-        ],
-        "name": "James Stephenson",
-        "text": "🚨 What happened to the California EV market?\n$7,500 new EV federal tax credit expired\n\nWho lost EV market share?\nModels people only bought for the tax credit\n\nWho gained EV market share?\nTesla: up 1,020 basis points",
-        "url": "https://x.com/ICannot_Enough/status/2119061570995065335",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 31,
-        "likes": 698,
-        "quotes": 10,
-        "replies": 44,
-        "retweets": 100,
-        "views": 72668
-      },
-      "url": "https://x.com/elonmusk/status/2119134963790725377",
-      "images": [
-        "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small",
-          "width": 2300,
-          "height": 3700
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2122,
+  "total": 2123,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-08 21:25:51",
+  "updated_at_shanghai": "2026-11-08 21:48:26",
   "account": "elonmusk"
 }

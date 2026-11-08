@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2118561136580939885",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-06T04:28:30.000Z",
+      "created_at_shanghai": "2026-11-06 12:28:30",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@yunta_tsai (The rules of English need to change to put spaces between the em dashes, as they presently too much resemble a hyphenated word, rather than a parenthetical phrase. Also, “—“ is an unpleasantly long a line. The en dash, “–“, is a better length.)",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-11-06 12:27:54",
+        "created_at_utc": "2026-11-06T04:27:54.000Z",
+        "id": "2118560985678234094",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@yunta_tsai (The rules of English need to change to put spaces between the em dashes, as they presently too much resemble a hyphenated word, rather than a parenthetical phrase. Also, “—“ is an unpleasantly long a line. The en dash, “–“, is a better length.)",
+        "url": "https://x.com/elonmusk/status/2118560985678234094",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "yunta_tsai",
+      "engagement": {
+        "bookmarks": 538,
+        "likes": 6107,
+        "quotes": 144,
+        "replies": 1005,
+        "retweets": 346,
+        "views": 1240348
+      },
+      "url": "https://x.com/elonmusk/status/2118561136580939885",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2118449567981310309",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1007,62 +1048,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2118251808179323102",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-05T07:59:20.000Z",
-      "created_at_shanghai": "2026-11-05 15:59:20",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot can call your dentist on the phone!",
-      "quote": {
-        "author": "ArthurMacwaters",
-        "avatar": "https://pbs.twimg.com/profile_images/1921033752140279808/TgndOxdb_200x200.jpg",
-        "created_at_shanghai": "2026-11-05 05:49:53",
-        "created_at_utc": "2026-11-04T21:49:53.000Z",
-        "id": "2118098432141431019",
-        "images": [
-          "https://pbs.twimg.com/media/HWT_TGzboAAh5SG.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWT_TGzboAAh5SG.jpg?name=small",
-            "width": 942
-          }
-        ],
-        "name": "Arthur MacWaters",
-        "text": "Grok @bot is calling a dentist for me to see if they take my insurance.  Incredible. This feels amazing.",
-        "url": "https://x.com/ArthurMacwaters/status/2118098432141431019",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 126,
-        "likes": 1991,
-        "quotes": 47,
-        "replies": 800,
-        "retweets": 261,
-        "views": 789837
-      },
-      "url": "https://x.com/elonmusk/status/2118251808179323102",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 2122,
+  "total": 2123,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-08 21:25:51",
+  "updated_at_shanghai": "2026-11-08 21:48:26",
   "account": "elonmusk"
 }

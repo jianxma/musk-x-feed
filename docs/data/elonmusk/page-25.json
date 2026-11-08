@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2115935413882048832",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T22:34:49.000Z",
+      "created_at_shanghai": "2026-10-30 06:34:49",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "The fraudsters always had outsized moral outrage and the most heart-breaking stories that were … totally false",
+      "quote": {
+        "author": "teslaownersSV",
+        "avatar": "https://pbs.twimg.com/profile_images/2114535933811032064/CX_COICx_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 12:28:30",
+        "created_at_utc": "2026-10-29T04:28:30.000Z",
+        "id": "2115662034557976765",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2005058607902052352/img/NvfJ87piUTPTR9_8.jpg"
+        ],
+        "media": [
+          {
+            "duration": 10.006,
+            "height": 664,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2005058607902052352/img/NvfJ87piUTPTR9_8.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2005058607902052352/vid/avc1/1206x664/xw_WfRX8lyF_d69K.mp4?tag=21",
+            "width": 1206
+          }
+        ],
+        "name": "Tesla Owners Silicon Valley",
+        "text": "Palantir cofounder\n\n“@elonmusk made a great point when I was involved as a kid at PayPal: whenever you turn off fraud or grift, the people who would scream the most were the fraudsters.”",
+        "url": "https://x.com/teslaownersSV/status/2115662034557976765",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 261,
+        "likes": 7238,
+        "quotes": 51,
+        "replies": 605,
+        "retweets": 1005,
+        "views": 854258
+      },
+      "url": "https://x.com/elonmusk/status/2115935413882048832",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2115935053347786773",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1138,71 +1190,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2115809614738436268",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T14:14:56.000Z",
-      "created_at_shanghai": "2026-10-29 22:14:56",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "As of October 26, Grok Bot has grown in DAUs for 16 consecutive days, its longest growth streak to date.",
-      "quote": null,
-      "retweet": {
-        "author": "Similarweb",
-        "avatar": "https://pbs.twimg.com/profile_images/1796148234060021760/iq5AA2vD_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 16:35:46",
-        "created_at_utc": "2026-10-29T08:35:46.000Z",
-        "id": "2115724259691471150",
-        "images": [
-          "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small"
-        ],
-        "media": [
-          {
-            "height": 610,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small",
-            "width": 700
-          }
-        ],
-        "name": "Similarweb",
-        "text": "As of October 26, Grok Bot has grown in DAUs for 16 consecutive days, its longest growth streak to date.",
-        "url": "https://x.com/Similarweb/status/2115724259691471150",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 29,
-        "likes": 559,
-        "quotes": 20,
-        "replies": 31,
-        "retweets": 74,
-        "views": 135139
-      },
-      "url": "https://x.com/elonmusk/status/2115809614738436268",
-      "images": [
-        "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small",
-          "width": 700,
-          "height": 610
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 20,
-  "total": 2122,
+  "total": 2123,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-08 21:25:51",
+  "updated_at_shanghai": "2026-11-08 21:48:26",
   "account": "elonmusk"
 }
