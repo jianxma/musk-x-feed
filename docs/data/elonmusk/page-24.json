@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2116005417591636319",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T03:12:59.000Z",
+      "created_at_shanghai": "2026-10-30 11:12:59",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@cryptoblaney Super intelligence agents will at some point do this to gain currency for themselves, not a human",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-30 11:12:51",
+        "created_at_utc": "2026-10-30T03:12:51.000Z",
+        "id": "2116005381205836098",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@cryptoblaney Super intelligence agents will at some point do this to gain currency for themselves, not a human",
+        "url": "https://x.com/elonmusk/status/2116005381205836098",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "cryptoblaney",
+      "engagement": {
+        "bookmarks": 1648,
+        "likes": 15482,
+        "quotes": 547,
+        "replies": 1416,
+        "retweets": 1368,
+        "views": 1567963
+      },
+      "url": "https://x.com/elonmusk/status/2116005417591636319",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116004241701818430",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1113,71 +1154,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2115860783800135853",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T17:38:16.000Z",
-      "created_at_shanghai": "2026-10-30 01:38:16",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Irony Man",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 20:20:44",
-        "created_at_utc": "2026-10-29T12:20:44.000Z",
-        "id": "2115780873169809855",
-        "images": [
-          "https://pbs.twimg.com/media/HVzDfFubQAAXwiq.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1390,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVzDfFubQAAXwiq.jpg?name=small",
-            "width": 1123
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Irony Man",
-        "url": "https://x.com/cb_doge/status/2115780873169809855",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 116,
-        "likes": 2999,
-        "quotes": 36,
-        "replies": 278,
-        "retweets": 370,
-        "views": 264272
-      },
-      "url": "https://x.com/elonmusk/status/2115860783800135853",
-      "images": [
-        "https://pbs.twimg.com/media/HVzDfFubQAAXwiq.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVzDfFubQAAXwiq.jpg?name=small",
-          "width": 1123,
-          "height": 1390
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 24,
   "page_size": 20,
-  "total": 2113,
+  "total": 2114,
   "total_pages": 106,
-  "updated_at_shanghai": "2026-11-08 13:40:37",
+  "updated_at_shanghai": "2026-11-08 13:45:16",
   "account": "elonmusk"
 }
