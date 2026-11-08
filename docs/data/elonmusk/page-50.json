@@ -1,6 +1,60 @@
 {
   "posts": [
     {
+      "id": "2111866500269174861",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T17:06:24.000Z",
+      "created_at_shanghai": "2026-10-19 01:06:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I have my banking connected to @bot. \n\nIt was a seamless process to connect and it now audits my credit card, tracks refunds and returns, and alerts me when the bill is due. \n\nMy favorite is when bot tells me a trial period moves into a full price subscription. \n\nThe future is now.",
+      "quote": {
+        "author": "melvindvivas",
+        "avatar": "https://pbs.twimg.com/profile_images/2080587337994813440/rF40X6jM_200x200.jpg",
+        "created_at_shanghai": "2026-10-18 19:39:38",
+        "created_at_utc": "2026-10-18T11:39:38.000Z",
+        "id": "2111784263591084433",
+        "images": [],
+        "media": [],
+        "name": "Melvin Vivas",
+        "text": "We’ll probably be able to add credit cards to Grok Bot in the future\n\nWill you add one?",
+        "url": "https://x.com/melvindvivas/status/2111784263591084433",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "KatieMiller",
+        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
+        "created_at_shanghai": "2026-10-18 23:37:49",
+        "created_at_utc": "2026-10-18T15:37:49.000Z",
+        "id": "2111844205714673717",
+        "images": [],
+        "media": [],
+        "name": "Katie Miller",
+        "text": "I have my banking connected to @bot. \n\nIt was a seamless process to connect and it now audits my credit card, tracks refunds and returns, and alerts me when the bill is due. \n\nMy favorite is when bot tells me a trial period moves into a full price subscription. \n\nThe future is now.",
+        "url": "https://x.com/KatieMiller/status/2111844205714673717",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 88,
+        "likes": 1126,
+        "quotes": 11,
+        "replies": 134,
+        "retweets": 112,
+        "views": 202178
+      },
+      "url": "https://x.com/elonmusk/status/2111866500269174861",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111865541472190881",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1090,53 +1144,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2111641377104650550",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-18T02:11:51.000Z",
-      "created_at_shanghai": "2026-10-18 10:11:51",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "When I was writing Unreal Engine 1, my time was divided as follows:\n\n- Around 30% went to seriously deep coding on hard problems: assembly language texture mappers, C++ BSP trees, data persistence, object oriented systems design, and networking.\n\n- Around 70% was just typing and refactoring large bodies of code needed for a complete engine feature set. This was not hard, and while I was doing it my mind was mostly on the deeper coding topics, thinking and planning for what's next. It didn't feel much different from vibe coding today, except that it was just me typing code on an IBM Model M keyboard rather than prompting it and reviewing the results.\n\nSo, it has always seemed perfectly logical that we would rely on AI for that 70%, once the AI could do it with a similar quality standard as we could, which has never been perfection. It came as no surprise that, after a few years of AI model evolution, it was able to take the reigns on that 70% and free up programmers' time for more valuable tasks.\n\nWhat's more of a surprise is the emergence of AI as a sort of insta-Carmack able to solve hard technical problems quite cleverly and often cleanly, and that it's able to reason about and work in complex 3D scenes both by operating the tools and by directly understanding the raw data files.\n\nI abandoned assembly language in 1998 when out-of-order CPUs made much simpler C/C++ code faster, and never I missed it. If prompting through architectural documents, concept art, and design plans can transcend typing code and tweaking vertices, that will enable developers to spend their time on higher-level, higher value technical and creative tasks.\n\nWhat matters is the end product, whether it's a game or an engine. Anything developers can do to try out more ideas and make better software and games faster is a win for everyone.",
-      "quote": null,
-      "retweet": {
-        "author": "TimSweeneyEpic",
-        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
-        "created_at_shanghai": "2026-10-18 09:39:26",
-        "created_at_utc": "2026-10-18T01:39:26.000Z",
-        "id": "2111633221725122769",
-        "images": [],
-        "media": [],
-        "name": "Tim Sweeney",
-        "text": "When I was writing Unreal Engine 1, my time was divided as follows:\n\n- Around 30% went to seriously deep coding on hard problems: assembly language texture mappers, C++ BSP trees, data persistence, object oriented systems design, and networking.\n\n- Around 70% was just typing and refactoring large bodies of code needed for a complete engine feature set. This was not hard, and while I was doing it my mind was mostly on the deeper coding topics, thinking and planning for what's next. It didn't feel much different from vibe coding today, except that it was just me typing code on an IBM Model M keyboard rather than prompting it and reviewing the results.\n\nSo, it has always seemed perfectly logical that we would rely on AI for that 70%, once the AI could do it with a similar quality standard as we could, which has never been perfection. It came as no surprise that, after a few years of AI model evolution, it was able to take the reigns on that 70% and free up programmers' time for more valuable tasks.\n\nWhat's more of a surprise is the emergence of AI as a sort of insta-Carmack able to solve hard technical problems quite cleverly and often cleanly, and that it's able to reason about and work in complex 3D scenes both by operating the tools and by directly understanding the raw data files.\n\nI abandoned assembly language in 1998 when out-of-order CPUs made much simpler C/C++ code faster, and never I missed it. If prompting through architectural documents, concept art, and design plans can transcend typing code and tweaking vertices, that will enable developers to spend their time on higher-level, higher value technical and creative tasks.\n\nWhat matters is the end product, whether it's a game or an engine. Anything developers can do to try out more ideas and make better software and games faster is a win for everyone.",
-        "url": "https://x.com/TimSweeneyEpic/status/2111633221725122769",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1138,
-        "likes": 5431,
-        "quotes": 111,
-        "replies": 396,
-        "retweets": 490,
-        "views": 365918
-      },
-      "url": "https://x.com/elonmusk/status/2111641377104650550",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 50,
   "page_size": 20,
-  "total": 2127,
+  "total": 2128,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-09 00:41:20",
+  "updated_at_shanghai": "2026-11-09 01:19:49",
   "account": "elonmusk"
 }

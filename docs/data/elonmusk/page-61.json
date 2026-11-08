@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2110521557886148903",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T00:02:05.000Z",
+      "created_at_shanghai": "2026-10-15 08:02:05",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok @bot now supports plus aliases! Send and receive email using dedicated aliases, or set up routines that only trigger for mail to a specific alias!",
+      "quote": null,
+      "retweet": {
+        "author": "SamSokolin",
+        "avatar": "https://pbs.twimg.com/profile_images/1992102498992046080/mzxbE_za_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 06:21:28",
+        "created_at_utc": "2026-10-14T22:21:28.000Z",
+        "id": "2110496237241667621",
+        "images": [
+          "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small"
+        ],
+        "media": [
+          {
+            "height": 2160,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small",
+            "width": 3840
+          }
+        ],
+        "name": "Sam Sokolin",
+        "text": "Grok @bot now supports plus aliases! Send and receive email using dedicated aliases, or set up routines that only trigger for mail to a specific alias!",
+        "url": "https://x.com/SamSokolin/status/2110496237241667621",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 507,
+        "likes": 1473,
+        "quotes": 47,
+        "replies": 193,
+        "retweets": 119,
+        "views": 180389
+      },
+      "url": "https://x.com/elonmusk/status/2110521557886148903",
+      "images": [
+        "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110520607276499109",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1050,71 +1109,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110400614526325021",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T16:01:30.000Z",
-      "created_at_shanghai": "2026-10-15 00:01:30",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "SpaceX uses ARGON ION PROPULSION to move Starlink satellites through space \n\nAnd the engineering is pretty wild\n\nStarlink satellites use argon Hall-effect thrusters  electric engines that ionize argon gas and accelerate the charged particles at extremely high speed\n\nThey allow Starlink satellites to:\n\n• Raise themselves into operational orbit\n• Maneuver around other spacecraft and debris\n• Maintain their position in space\n• Deorbit themselves at the end of their life\n\nSpaceX originally used krypton, but switched its next-generation Starlink satellites to argon\n\nThe V2 Mini argon thruster produces:\n\n• 170 mN of thrust\n• 2.4X the thrust of the first-generation system\n• 1.5X the specific impulse\n\nAnd Starlink became the first spacecraft system to fly using argon propulsion in space\n\nA Falcon 9 gets Starlink into space\n\nThen these tiny electric engines keep thousands of satellites exactly where they need to be",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 22:16:15",
-        "created_at_utc": "2026-10-14T14:16:15.000Z",
-        "id": "2110374125659410865",
-        "images": [
-          "https://pbs.twimg.com/media/HUmOE1aaQAASO61.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1080,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUmOE1aaQAASO61.jpg?name=small",
-            "width": 1920
-          }
-        ],
-        "name": "X Freeze",
-        "text": "SpaceX uses ARGON ION PROPULSION to move Starlink satellites through space \n\nAnd the engineering is pretty wild\n\nStarlink satellites use argon Hall-effect thrusters  electric engines that ionize argon gas and accelerate the charged particles at extremely high speed\n\nThey allow Starlink satellites to:\n\n• Raise themselves into operational orbit\n• Maneuver around other spacecraft and debris\n• Maintain their position in space\n• Deorbit themselves at the end of their life\n\nSpaceX originally used krypton, but switched its next-generation Starlink satellites to argon\n\nThe V2 Mini argon thruster produces:\n\n• 170 mN of thrust\n• 2.4X the thrust of the first-generation system\n• 1.5X the specific impulse\n\nAnd Starlink became the first spacecraft system to fly using argon propulsion in space\n\nA Falcon 9 gets Starlink into space\n\nThen these tiny electric engines keep thousands of satellites exactly where they need to be",
-        "url": "https://x.com/XFreeze/status/2110374125659410865",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 92,
-        "likes": 1142,
-        "quotes": 16,
-        "replies": 103,
-        "retweets": 163,
-        "views": 131096
-      },
-      "url": "https://x.com/elonmusk/status/2110400614526325021",
-      "images": [
-        "https://pbs.twimg.com/media/HUmOE1aaQAASO61.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUmOE1aaQAASO61.jpg?name=small",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 61,
   "page_size": 20,
-  "total": 2127,
+  "total": 2128,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-09 00:41:20",
+  "updated_at_shanghai": "2026-11-09 01:19:49",
   "account": "elonmusk"
 }

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108221292788981881",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T15:41:39.000Z",
+      "created_at_shanghai": "2026-10-08 23:41:39",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Thank you, Rahul. \n\nThis is indeed troubling.",
+      "quote": {
+        "author": "RahulGandhi",
+        "avatar": "https://pbs.twimg.com/profile_images/2048691685794930688/AEEaltaE_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 22:44:50",
+        "created_at_utc": "2026-10-08T14:44:50.000Z",
+        "id": "2108206994356355342",
+        "images": [],
+        "media": [],
+        "name": "Rahul Gandhi",
+        "text": "Welcome to India, Elon. \n\nWait till you discover the other guy.",
+        "url": "https://x.com/RahulGandhi/status/2108206994356355342",
+        "verified": true,
+        "verified_type": "government"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2513,
+        "likes": 35939,
+        "quotes": 3053,
+        "replies": 5674,
+        "retweets": 6502,
+        "views": 2236399
+      },
+      "url": "https://x.com/elonmusk/status/2108221292788981881",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108198900762837151",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1038,75 +1079,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108178487337169354",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T12:51:34.000Z",
-      "created_at_shanghai": "2026-10-08 20:51:34",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It's time to face the fact.\n\nAnyone can generate personalized music with Grok Bot.\n\nThis isn't just a post for me. It's already on my playlist.",
-      "quote": null,
-      "retweet": {
-        "author": "TheCaptainEli",
-        "avatar": "https://pbs.twimg.com/profile_images/1997753138426613760/EZDpm91Z_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 15:49:49",
-        "created_at_utc": "2026-10-08T07:49:49.000Z",
-        "id": "2108102549517857265",
-        "images": [
-          "https://pbs.twimg.com/media/HUF7q-5WUAAUvCm.jpg"
-        ],
-        "media": [
-          {
-            "duration": 150.016,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/media/HUF7q-5WUAAUvCm.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108102079000522753/vid/avc1/1280x720/LET7-11c7QuZYX3w.mp4?tag=29",
-            "width": 1280
-          }
-        ],
-        "name": "Captain Eli",
-        "text": "It's time to face the fact.\n\nAnyone can generate personalized music with Grok Bot.\n\nThis isn't just a post for me. It's already on my playlist.",
-        "url": "https://x.com/TheCaptainEli/status/2108102549517857265",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 135,
-        "likes": 962,
-        "quotes": 15,
-        "replies": 79,
-        "retweets": 129,
-        "views": 218244
-      },
-      "url": "https://x.com/elonmusk/status/2108178487337169354",
-      "images": [
-        "https://pbs.twimg.com/media/HUF7q-5WUAAUvCm.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2108102079000522753/vid/avc1/1280x720/LET7-11c7QuZYX3w.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/media/HUF7q-5WUAAUvCm.jpg",
-          "width": 1280,
-          "height": 720,
-          "duration": 150.016
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 75,
   "page_size": 20,
-  "total": 2127,
+  "total": 2128,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-09 00:41:20",
+  "updated_at_shanghai": "2026-11-09 01:19:49",
   "account": "elonmusk"
 }
