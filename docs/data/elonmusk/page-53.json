@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2111237421568299266",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T23:26:40.000Z",
+      "created_at_shanghai": "2026-10-17 07:26:40",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Neuralink will help millions of people",
+      "quote": {
+        "author": "PairedWith_P7",
+        "avatar": "https://pbs.twimg.com/profile_images/1943045876739420161/PNY3B7Jq_200x200.jpg",
+        "created_at_shanghai": "2026-10-17 00:43:31",
+        "created_at_utc": "2026-10-16T16:43:31.000Z",
+        "id": "2111135963116085559",
+        "images": [],
+        "media": [],
+        "name": "Jake Schneider",
+        "text": "I am connected to mine from the second I wake up to the second I go to sleep. It's become an extension of my body and a lifeline that has made me feel more human.\n\nNeuralink has given me some of the independence back that ALS has stolen from me.",
+        "url": "https://x.com/PairedWith_P7/status/2111135963116085559",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 139,
+        "likes": 7734,
+        "quotes": 81,
+        "replies": 927,
+        "retweets": 811,
+        "views": 727536
+      },
+      "url": "https://x.com/elonmusk/status/2111237421568299266",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111222445109858500",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1217,75 +1258,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2111136992884924702",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T16:47:36.000Z",
-      "created_at_shanghai": "2026-10-17 00:47:36",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Look at those thrusters go.",
-      "quote": null,
-      "retweet": {
-        "author": "SmokeAwayyy",
-        "avatar": "https://pbs.twimg.com/profile_images/1535493957953589249/qFzu0Dqt_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 15:34:15",
-        "created_at_utc": "2026-10-16T07:34:15.000Z",
-        "id": "2110997736783040632",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110997604544983040/img/NzUMJZd7QWA09kky.jpg"
-        ],
-        "media": [
-          {
-            "duration": 15.447,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110997604544983040/img/NzUMJZd7QWA09kky.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110997604544983040/vid/avc1/974x1080/VlScFRFn5pQKma3G.mp4?tag=29",
-            "width": 974
-          }
-        ],
-        "name": "Smoke-away",
-        "text": "Look at those thrusters go.",
-        "url": "https://x.com/SmokeAwayyy/status/2110997736783040632",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 3242,
-        "likes": 25313,
-        "quotes": 569,
-        "replies": 743,
-        "retweets": 1716,
-        "views": 4024166
-      },
-      "url": "https://x.com/elonmusk/status/2111136992884924702",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110997604544983040/img/NzUMJZd7QWA09kky.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110997604544983040/vid/avc1/974x1080/VlScFRFn5pQKma3G.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110997604544983040/img/NzUMJZd7QWA09kky.jpg",
-          "width": 974,
-          "height": 1080,
-          "duration": 15.447
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 53,
   "page_size": 20,
-  "total": 2126,
+  "total": 2127,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-09 00:22:54",
+  "updated_at_shanghai": "2026-11-09 00:41:20",
   "account": "elonmusk"
 }

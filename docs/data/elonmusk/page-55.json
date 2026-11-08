@@ -1,6 +1,63 @@
 {
   "posts": [
     {
+      "id": "2110947164512038931",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T04:13:18.000Z",
+      "created_at_shanghai": "2026-10-16 12:13:18",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "My OG Roadster is still orbiting Mars and Earth",
+      "quote": {
+        "author": "Tesla",
+        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
+        "created_at_shanghai": "2026-10-16 09:11:17",
+        "created_at_utc": "2026-10-16T01:11:17.000Z",
+        "id": "2110901359952408576",
+        "images": [
+          "https://pbs.twimg.com/media/HUttfpdawAAQMGK.jpg?name=small",
+          "https://pbs.twimg.com/media/HUtthGyaMAEkD-g.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1080,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUttfpdawAAQMGK.jpg?name=small",
+            "width": 1920
+          },
+          {
+            "height": 1722,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUtthGyaMAEkD-g.jpg?name=small",
+            "width": 3406
+          }
+        ],
+        "name": "Tesla",
+        "text": "Roadster and a rocket have shared a ride before",
+        "url": "https://x.com/Tesla/status/2110901359952408576",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 221,
+        "likes": 9826,
+        "quotes": 93,
+        "replies": 913,
+        "retweets": 744,
+        "views": 526560
+      },
+      "url": "https://x.com/elonmusk/status/2110947164512038931",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110946744230187048",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1133,66 +1190,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110913538134843634",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T01:59:41.000Z",
-      "created_at_shanghai": "2026-10-16 09:59:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "The thing I’m most grateful to Elon for is bringing back an age of wonder and excitement to humanity. That was jaw-dropping awesome! Screams and mouths wide open in the audience. Nuts.",
-      "quote": {
-        "author": "Tesla",
-        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-        "created_at_shanghai": "2026-10-16 08:54:57",
-        "created_at_utc": "2026-10-16T00:54:57.000Z",
-        "id": "2110897247663853658",
-        "images": [],
-        "media": [],
-        "name": "Tesla",
-        "text": "Roadster https://x.com/i/broadcasts/1yKAPwNggRaxb",
-        "url": "https://x.com/Tesla/status/2110897247663853658",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "davidmarcus",
-        "avatar": "https://pbs.twimg.com/profile_images/2099871699072348160/iJ6AyqBH_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 09:31:19",
-        "created_at_utc": "2026-10-16T01:31:19.000Z",
-        "id": "2110906399991701534",
-        "images": [],
-        "media": [],
-        "name": "David Marcus",
-        "text": "The thing I’m most grateful to Elon for is bringing back an age of wonder and excitement to humanity. That was jaw-dropping awesome! Screams and mouths wide open in the audience. Nuts.",
-        "url": "https://x.com/davidmarcus/status/2110906399991701534",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 233,
-        "likes": 9668,
-        "quotes": 46,
-        "replies": 161,
-        "retweets": 794,
-        "views": 349842
-      },
-      "url": "https://x.com/elonmusk/status/2110913538134843634",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 55,
   "page_size": 20,
-  "total": 2126,
+  "total": 2127,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-09 00:22:54",
+  "updated_at_shanghai": "2026-11-09 00:41:20",
   "account": "elonmusk"
 }
