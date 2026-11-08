@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2113507085728240091",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-23T05:45:30.000Z",
+      "created_at_shanghai": "2026-10-23 13:45:30",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot can now use Calendar, Reminders, Contacts, and more apps on your phone.\n\nRolling out now on iOS and Android.",
+      "quote": null,
+      "retweet": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 06:14:53",
+        "created_at_utc": "2026-10-22T22:14:53.000Z",
+        "id": "2113393684209176718",
+        "images": [
+          "https://pbs.twimg.com/media/HVRHn--W4AAI_uQ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVRHn--W4AAI_uQ.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now use Calendar, Reminders, Contacts, and more apps on your phone.\n\nRolling out now on iOS and Android.",
+        "url": "https://x.com/bot/status/2113393684209176718",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2247,
+        "likes": 11362,
+        "quotes": 675,
+        "replies": 3041,
+        "retweets": 884,
+        "views": 1629055
+      },
+      "url": "https://x.com/elonmusk/status/2113507085728240091",
+      "images": [
+        "https://pbs.twimg.com/media/HVRHn--W4AAI_uQ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVRHn--W4AAI_uQ.jpg?name=small",
+          "width": 4096,
+          "height": 2304
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2113506948012298688",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1130,64 +1189,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2113319277092642942",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-22T17:19:13.000Z",
-      "created_at_shanghai": "2026-10-23 01:19:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Talarico hates Texas and America",
-      "quote": {
-        "author": "america",
-        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
-        "created_at_shanghai": "2026-10-23 01:12:56",
-        "created_at_utc": "2026-10-22T17:12:56.000Z",
-        "id": "2113317694367748316",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2091368542977380352/img/-fxAi999PRx6bGas.jpg"
-        ],
-        "media": [
-          {
-            "duration": 45.28,
-            "height": 360,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2091368542977380352/img/-fxAi999PRx6bGas.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2091368542977380352/vid/avc1/640x360/dJHhvlo8TmoKhlxY.mp4?tag=29",
-            "width": 640
-          }
-        ],
-        "name": "America",
-        "text": "Democrat Nominee for U.S. Senate in Texas James Talarico says he hates Voter ID with every fiber of his being and calls it Anti-American.\n\n84% of Americans support Voter ID…",
-        "url": "https://x.com/america/status/2113317694367748316",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 585,
-        "likes": 21222,
-        "quotes": 242,
-        "replies": 2166,
-        "retweets": 2817,
-        "views": 10232373
-      },
-      "url": "https://x.com/elonmusk/status/2113319277092642942",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 40,
   "page_size": 20,
-  "total": 2112,
+  "total": 2113,
   "total_pages": 106,
-  "updated_at_shanghai": "2026-11-08 06:39:35",
+  "updated_at_shanghai": "2026-11-08 13:40:37",
   "account": "elonmusk"
 }

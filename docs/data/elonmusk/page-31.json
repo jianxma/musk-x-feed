@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2114931068365414757",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-27T04:03:54.000Z",
+      "created_at_shanghai": "2026-10-27 12:03:54",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "🤭",
+      "quote": {
+        "author": "RobotaxiRadar",
+        "avatar": "https://pbs.twimg.com/profile_images/1938424434152353793/M9qmT4lh_200x200.jpg",
+        "created_at_shanghai": "2026-10-26 23:54:22",
+        "created_at_utc": "2026-10-26T15:54:22.000Z",
+        "id": "2114747474950725796",
+        "images": [
+          "https://pbs.twimg.com/media/HVkXnl8WQAA6lVP.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1080,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVkXnl8WQAA6lVP.jpg?name=small",
+            "width": 1920
+          }
+        ],
+        "name": "Robotaxi Radar",
+        "text": "Waymo just got mogged by Tesla in Houston 😳",
+        "url": "https://x.com/RobotaxiRadar/status/2114747474950725796",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 188,
+        "likes": 6851,
+        "quotes": 58,
+        "replies": 688,
+        "retweets": 473,
+        "views": 883892
+      },
+      "url": "https://x.com/elonmusk/status/2114931068365414757",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2114930622238200202",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1026,53 +1076,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2114772843997351993",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-26T17:35:11.000Z",
-      "created_at_shanghai": "2026-10-27 01:35:11",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot is like hiring an incredibly competent chief of staff",
-      "quote": {
-        "author": "profstonge",
-        "avatar": "https://pbs.twimg.com/profile_images/1738594872125161472/oHWOsCs5_200x200.jpg",
-        "created_at_shanghai": "2026-10-27 00:47:00",
-        "created_at_utc": "2026-10-26T16:47:00.000Z",
-        "id": "2114760720466292743",
-        "images": [],
-        "media": [],
-        "name": "Peter St Onge, Ph.D.",
-        "text": "I've gone full Grokbot.\n\nIt checks email, DMs, mentions, and LinkedIn every hour. It flags anything interesting, drafts replies, and tosses the other 99%. \n\nIt literally feels like having a personal secretary 🤯\n\nAnd 2 days in I'm like how did I live without this 😂",
-        "url": "https://x.com/profstonge/status/2114760720466292743",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 285,
-        "likes": 4770,
-        "quotes": 37,
-        "replies": 409,
-        "retweets": 324,
-        "views": 5151027
-      },
-      "url": "https://x.com/elonmusk/status/2114772843997351993",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 31,
   "page_size": 20,
-  "total": 2112,
+  "total": 2113,
   "total_pages": 106,
-  "updated_at_shanghai": "2026-11-08 06:39:35",
+  "updated_at_shanghai": "2026-11-08 13:40:37",
   "account": "elonmusk"
 }

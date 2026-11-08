@@ -1,6 +1,101 @@
 {
   "posts": [
     {
+      "id": "2118044542628929913",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-04T18:15:44.000Z",
+      "created_at_shanghai": "2026-11-05 02:15:44",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "some fun slides from my upcoming talk @aiDotEngineer \n\nvery excited to share how we ship crazy amounts of code (30x'd) without reading it, yet perf is as good if not better then when we launched\n\nthere's a lot more to improve of course, and the ceiling is far from being reached, but given the relentless shipping speed and our high bar for polish, i think that our agent friendly architecture bets are paying off at taming the slop\n\nfun fact: ~230 people landed at least 1 PR to grok bot in october!",
+      "quote": {
+        "author": "aiDotEngineer",
+        "avatar": "https://pbs.twimg.com/profile_images/2088074761607987200/25voc1vQ_200x200.jpg",
+        "created_at_shanghai": "2026-10-20 04:17:00",
+        "created_at_utc": "2026-10-19T20:17:00.000Z",
+        "id": "2112276851355693315",
+        "images": [
+          "https://pbs.twimg.com/media/HVBPHSjWcAAHoHt.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2700,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVBPHSjWcAAHoHt.jpg?name=small",
+            "width": 2160
+          }
+        ],
+        "name": "AI.Engineer 🔜 Shanghai & SF CODE",
+        "text": "First AIE Code Summit speakers:\n\n@poteto, Principal Engineer @ SpaceX\n@steve_yegge, Engineer, Writer, Advisor\n@zachbruggeman, Principal Software Engineer @ Ramp\n\nNov 10-12, SF. Come hang out with us. Apply at https://ai.engineer/code",
+        "url": "https://x.com/aiDotEngineer/status/2112276851355693315",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "poteto",
+        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
+        "created_at_shanghai": "2026-11-05 00:26:40",
+        "created_at_utc": "2026-11-04T16:26:40.000Z",
+        "id": "2118017093677494706",
+        "images": [
+          "https://pbs.twimg.com/media/HWRMlavbAAAIOZZ.jpg?name=small",
+          "https://pbs.twimg.com/media/HWRMmOPa0AATwD-.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1194,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWRMlavbAAAIOZZ.jpg?name=small",
+            "width": 1762
+          },
+          {
+            "height": 1010,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWRMmOPa0AATwD-.jpg?name=small",
+            "width": 1422
+          }
+        ],
+        "name": "lauren",
+        "text": "some fun slides from my upcoming talk @aiDotEngineer \n\nvery excited to share how we ship crazy amounts of code (30x'd) without reading it, yet perf is as good if not better then when we launched\n\nthere's a lot more to improve of course, and the ceiling is far from being reached, but given the relentless shipping speed and our high bar for polish, i think that our agent friendly architecture bets are paying off at taming the slop\n\nfun fact: ~230 people landed at least 1 PR to grok bot in october!",
+        "url": "https://x.com/poteto/status/2118017093677494706",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 680,
+        "likes": 1698,
+        "quotes": 20,
+        "replies": 155,
+        "retweets": 106,
+        "views": 349300
+      },
+      "url": "https://x.com/elonmusk/status/2118044542628929913",
+      "images": [
+        "https://pbs.twimg.com/media/HWRMlavbAAAIOZZ.jpg?name=small",
+        "https://pbs.twimg.com/media/HWRMmOPa0AATwD-.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWRMlavbAAAIOZZ.jpg?name=small",
+          "width": 1762,
+          "height": 1194
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWRMmOPa0AATwD-.jpg?name=small",
+          "width": 1422,
+          "height": 1010
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2118036744662880439",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1063,53 +1158,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2117885940761059428",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-04T07:45:31.000Z",
-      "created_at_shanghai": "2026-11-04 15:45:31",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Texas results by group (NBC exit poll):\n\n🔴 White men: +23 Republican\n🔴 White women: +13 Republican\n🔵 Latino men: +19 Democrat\n🔵 Latino women: +42 Democrat\n🔵 Black men: +77 Democrat \n🔵 Black women: +84 Democrat\n🔵 All others: +10 Democrat\n\nLike it or not, demographics are destiny",
-      "quote": null,
-      "retweet": {
-        "author": "EndWokeness",
-        "avatar": "https://pbs.twimg.com/profile_images/1563691268793946117/OedvhFeS_200x200.jpg",
-        "created_at_shanghai": "2026-11-04 13:11:36",
-        "created_at_utc": "2026-11-04T05:11:36.000Z",
-        "id": "2117847205771944381",
-        "images": [],
-        "media": [],
-        "name": "End Wokeness",
-        "text": "Texas results by group (NBC exit poll):\n\n🔴 White men: +23 Republican\n🔴 White women: +13 Republican\n🔵 Latino men: +19 Democrat\n🔵 Latino women: +42 Democrat\n🔵 Black men: +77 Democrat \n🔵 Black women: +84 Democrat\n🔵 All others: +10 Democrat\n\nLike it or not, demographics are destiny",
-        "url": "https://x.com/EndWokeness/status/2117847205771944381",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 5982,
-        "likes": 40169,
-        "quotes": 761,
-        "replies": 1744,
-        "retweets": 4579,
-        "views": 3659293
-      },
-      "url": "https://x.com/elonmusk/status/2117885940761059428",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 8,
   "page_size": 20,
-  "total": 2112,
+  "total": 2113,
   "total_pages": 106,
-  "updated_at_shanghai": "2026-11-08 06:39:35",
+  "updated_at_shanghai": "2026-11-08 13:40:37",
   "account": "elonmusk"
 }
