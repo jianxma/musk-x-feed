@@ -1,6 +1,88 @@
 {
   "posts": [
     {
+      "id": "2118392015226544617",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-05T17:16:28.000Z",
+      "created_at_shanghai": "2026-11-06 01:16:28",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "IterIntellectus",
+        "avatar": "https://pbs.twimg.com/profile_images/2009602429478633472/8lMkYuep_200x200.jpg",
+        "created_at_shanghai": "2026-11-06 00:18:05",
+        "created_at_utc": "2026-11-05T16:18:05.000Z",
+        "id": "2118377319035257175",
+        "images": [],
+        "media": [],
+        "name": "vittorio",
+        "text": "slavery was basically universal throughout human history.\nevery race practiced it, every race was enslaved\n\nwhat's extraordinary about Britain is that it abolished slavery and then sent its navy across the world to stop the slave trade\n\nsomehow we turned one of the civilizations that helped end this almost universal evil into the villain instead of showing gratitude",
+        "url": "https://x.com/IterIntellectus/status/2118377319035257175",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 167,
+        "likes": 5774,
+        "quotes": 35,
+        "replies": 609,
+        "retweets": 514,
+        "views": 340120
+      },
+      "url": "https://x.com/elonmusk/status/2118392015226544617",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2118390792490541103",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-05T17:11:37.000Z",
+      "created_at_shanghai": "2026-11-06 01:11:37",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Banks arguably has the best vision for the future",
+      "quote": {
+        "author": "yunta_tsai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035915849819938816/b6kIsNMe_200x200.jpg",
+        "created_at_shanghai": "2026-11-05 01:33:12",
+        "created_at_utc": "2026-11-04T17:33:12.000Z",
+        "id": "2118033835074183455",
+        "images": [],
+        "media": [],
+        "name": "Yun-Ta Tsai",
+        "text": "In Ian Banks' Culture books, the Culture is a civilization of compute abundance. Each General System Vehicle is a loose sandbox environment practicing different ideologies, and citizens freely move between ships to experience different lifestyles.\n\nWant communal life? There's a ship. Ultra-orthodox religion? Another. Beach chilling? One famous for its beaches.\n\nWith enormous compute, you don't need to trade off who decides the trajectories. Just launch another docker station for another rollout. In that world, your autonomy is backed by the compute.",
+        "url": "https://x.com/yunta_tsai/status/2118033835074183455",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 229,
+        "likes": 2148,
+        "quotes": 21,
+        "replies": 404,
+        "retweets": 220,
+        "views": 602236
+      },
+      "url": "https://x.com/elonmusk/status/2118390792490541103",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2118389073283060085",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -936,157 +1018,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2118044542628929913",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-04T18:15:44.000Z",
-      "created_at_shanghai": "2026-11-05 02:15:44",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "some fun slides from my upcoming talk @aiDotEngineer \n\nvery excited to share how we ship crazy amounts of code (30x'd) without reading it, yet perf is as good if not better then when we launched\n\nthere's a lot more to improve of course, and the ceiling is far from being reached, but given the relentless shipping speed and our high bar for polish, i think that our agent friendly architecture bets are paying off at taming the slop\n\nfun fact: ~230 people landed at least 1 PR to grok bot in october!",
-      "quote": {
-        "author": "aiDotEngineer",
-        "avatar": "https://pbs.twimg.com/profile_images/2088074761607987200/25voc1vQ_200x200.jpg",
-        "created_at_shanghai": "2026-10-20 04:17:00",
-        "created_at_utc": "2026-10-19T20:17:00.000Z",
-        "id": "2112276851355693315",
-        "images": [
-          "https://pbs.twimg.com/media/HVBPHSjWcAAHoHt.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2700,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVBPHSjWcAAHoHt.jpg?name=small",
-            "width": 2160
-          }
-        ],
-        "name": "AI.Engineer 🔜 Shanghai & SF CODE",
-        "text": "First AIE Code Summit speakers:\n\n@poteto, Principal Engineer @ SpaceX\n@steve_yegge, Engineer, Writer, Advisor\n@zachbruggeman, Principal Software Engineer @ Ramp\n\nNov 10-12, SF. Come hang out with us. Apply at https://ai.engineer/code",
-        "url": "https://x.com/aiDotEngineer/status/2112276851355693315",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "poteto",
-        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
-        "created_at_shanghai": "2026-11-05 00:26:40",
-        "created_at_utc": "2026-11-04T16:26:40.000Z",
-        "id": "2118017093677494706",
-        "images": [
-          "https://pbs.twimg.com/media/HWRMlavbAAAIOZZ.jpg?name=small",
-          "https://pbs.twimg.com/media/HWRMmOPa0AATwD-.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1194,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWRMlavbAAAIOZZ.jpg?name=small",
-            "width": 1762
-          },
-          {
-            "height": 1010,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWRMmOPa0AATwD-.jpg?name=small",
-            "width": 1422
-          }
-        ],
-        "name": "lauren",
-        "text": "some fun slides from my upcoming talk @aiDotEngineer \n\nvery excited to share how we ship crazy amounts of code (30x'd) without reading it, yet perf is as good if not better then when we launched\n\nthere's a lot more to improve of course, and the ceiling is far from being reached, but given the relentless shipping speed and our high bar for polish, i think that our agent friendly architecture bets are paying off at taming the slop\n\nfun fact: ~230 people landed at least 1 PR to grok bot in october!",
-        "url": "https://x.com/poteto/status/2118017093677494706",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 680,
-        "likes": 1698,
-        "quotes": 20,
-        "replies": 155,
-        "retweets": 106,
-        "views": 349300
-      },
-      "url": "https://x.com/elonmusk/status/2118044542628929913",
-      "images": [
-        "https://pbs.twimg.com/media/HWRMlavbAAAIOZZ.jpg?name=small",
-        "https://pbs.twimg.com/media/HWRMmOPa0AATwD-.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWRMlavbAAAIOZZ.jpg?name=small",
-          "width": 1762,
-          "height": 1194
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWRMmOPa0AATwD-.jpg?name=small",
-          "width": 1422,
-          "height": 1010
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2118036744662880439",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-04T17:44:45.000Z",
-      "created_at_shanghai": "2026-11-05 01:44:45",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try Grok @Bot. It’s like hiring an amazing assistant!",
-      "quote": {
-        "author": "Texas_Twins_Dad",
-        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
-        "created_at_shanghai": "2026-11-04 04:59:37",
-        "created_at_utc": "2026-11-03T20:59:37.000Z",
-        "id": "2117723394330460528",
-        "images": [
-          "https://pbs.twimg.com/media/HWOe1NZWEAANIr9.png?name=small"
-        ],
-        "media": [
-          {
-            "height": 238,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWOe1NZWEAANIr9.png?name=small",
-            "width": 1056
-          }
-        ],
-        "name": "Texas Twins Dad",
-        "text": "New Grok Bot feature I just discovered on a call. My bot called my car insurance today to ask why my renewal went up 14% with zero accidents. Mid-call, the rep asked a question.\n\nThe bot didn't hang up. It didn't make me take over the call. A question card popped up in my chat. I typed the answer, and the bot kept the call going on its own.\n\nIt's like passing a note to my assistant while they're still on the phone.\n\nGrok Bot is like hiring my personal assistant!",
-        "url": "https://x.com/Texas_Twins_Dad/status/2117723394330460528",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 329,
-        "likes": 5511,
-        "quotes": 84,
-        "replies": 1466,
-        "retweets": 534,
-        "views": 1447082
-      },
-      "url": "https://x.com/elonmusk/status/2118036744662880439",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 8,
   "page_size": 20,
-  "total": 2131,
+  "total": 2133,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-09 06:53:01",
+  "updated_at_shanghai": "2026-11-09 08:41:09",
   "account": "elonmusk"
 }
