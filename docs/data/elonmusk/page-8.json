@@ -1,6 +1,87 @@
 {
   "posts": [
     {
+      "id": "2118786432471015511",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-06T19:23:45.000Z",
+      "created_at_shanghai": "2026-11-07 03:23:45",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon today on @SpaceX's upcoming Starship Flight 15, which will attempt to catch both the Super Heavy Booster and Starship's upper stage:\n\n\"You really want to watch this one. This one's cool. It's the largest flying object ever made. And then the giant thing comes back. Excitement is guaranteed.\" \n\nVideo below on what the ship catch will look like:",
+      "quote": null,
+      "retweet": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-11-07 02:59:59",
+        "created_at_utc": "2026-11-06T18:59:59.000Z",
+        "id": "2118780450512527793",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2118780234623221760/img/xY9trTGA0TECkDmx.jpg",
+          "https://pbs.twimg.com/amplify_video_thumb/2118780356232880128/img/4C6qFML7XQOzEYEz.jpg"
+        ],
+        "media": [
+          {
+            "duration": 158.7,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118780234623221760/img/xY9trTGA0TECkDmx.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2118780234623221760/vid/avc1/1920x1080/GJNqAwYJazAnqk_x.mp4?tag=29",
+            "width": 1920
+          },
+          {
+            "duration": 40.234,
+            "height": 1056,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118780356232880128/img/4C6qFML7XQOzEYEz.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2118780356232880128/vid/avc1/1886x1056/2rfi8YxdYzfqUOEz.mp4?tag=29",
+            "width": 1886
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "Elon today on @SpaceX's upcoming Starship Flight 15, which will attempt to catch both the Super Heavy Booster and Starship's upper stage:\n\n\"You really want to watch this one. This one's cool. It's the largest flying object ever made. And then the giant thing comes back. Excitement is guaranteed.\" \n\nVideo below on what the ship catch will look like:",
+        "url": "https://x.com/SawyerMerritt/status/2118780450512527793",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 92,
+        "likes": 1587,
+        "quotes": 11,
+        "replies": 73,
+        "retweets": 204,
+        "views": 198846
+      },
+      "url": "https://x.com/elonmusk/status/2118786432471015511",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2118780234623221760/img/xY9trTGA0TECkDmx.jpg",
+        "https://pbs.twimg.com/amplify_video_thumb/2118780356232880128/img/4C6qFML7XQOzEYEz.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2118780234623221760/vid/avc1/1920x1080/GJNqAwYJazAnqk_x.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118780234623221760/img/xY9trTGA0TECkDmx.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 158.7
+        },
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2118780356232880128/vid/avc1/1886x1056/2rfi8YxdYzfqUOEz.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118780356232880128/img/4C6qFML7XQOzEYEz.jpg",
+          "width": 1886,
+          "height": 1056,
+          "duration": 40.234
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2118786343958675697",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1087,64 +1168,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2118629153390158000",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-06T08:58:47.000Z",
-      "created_at_shanghai": "2026-11-06 16:58:47",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Seldon, Psychohistory",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-06 16:48:00",
-        "created_at_utc": "2026-11-06T08:48:00.000Z",
-        "id": "2118626440778244164",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2048772762576302080/img/DFUHjn74Lckdbj1i.jpg"
-        ],
-        "media": [
-          {
-            "duration": 25.133,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2048772762576302080/img/DFUHjn74Lckdbj1i.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2048772762576302080/vid/avc1/1080x1080/iNfBaGyfqJl1rs6z.mp4?tag=21",
-            "width": 1080
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Elon Musk on the life cycle of civilizations:\n\n“You do tend to see the same patterns… civilizations go through a life cycle like an organism\nJust like a human: zygote, fetus, baby, toddler, teenager… eventually it gets old and dies\nThe civilizations go through a life cycle\nNo civilization will last forever”\n\nThe only question is how long we can delay the inevitable",
-        "url": "https://x.com/XFreeze/status/2118626440778244164",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 156,
-        "likes": 1598,
-        "quotes": 28,
-        "replies": 443,
-        "retweets": 257,
-        "views": 510476
-      },
-      "url": "https://x.com/elonmusk/status/2118629153390158000",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 8,
   "page_size": 20,
-  "total": 2185,
+  "total": 2186,
   "total_pages": 110,
-  "updated_at_shanghai": "2026-11-10 05:54:41",
+  "updated_at_shanghai": "2026-11-10 06:09:16",
   "account": "elonmusk"
 }
