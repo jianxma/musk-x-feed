@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2118935230182805688",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-07T05:15:01.000Z",
+      "created_at_shanghai": "2026-11-07 13:15:01",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "5 years ago",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2021-08-13 23:08:59",
+        "created_at_utc": "2021-08-13T15:08:59.000Z",
+        "id": "1426199109585756163",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@ErcXspace And ship will be caught by Mechazilla too. As with booster, no landing legs. Those are only needed for moon & Mars until there is local infrastructure.",
+        "url": "https://x.com/elonmusk/status/1426199109585756163",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 334,
+        "likes": 11874,
+        "quotes": 64,
+        "replies": 981,
+        "retweets": 980,
+        "views": 4015049
+      },
+      "url": "https://x.com/elonmusk/status/2118935230182805688",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2118913260112273674",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -944,75 +985,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2118817952300683429",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-06T21:29:00.000Z",
-      "created_at_shanghai": "2026-11-07 05:29:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk in a new interview today on Terafab:\n\n\"There's three possible meanings to Terafab. One is terror. I think sometimes people ask, 'Why would you want a terror fab?' Haha. Then there's Terra, which just means Earth, but it's actually Tera for terawatt. But arguably, all three apply.\"",
-      "quote": null,
-      "retweet": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 02:19:24",
-        "created_at_utc": "2026-11-06T18:19:24.000Z",
-        "id": "2118770237625573489",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2118770171330342912/img/baB-H880VN2lBv8r.jpg"
-        ],
-        "media": [
-          {
-            "duration": 100.138,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118770171330342912/img/baB-H880VN2lBv8r.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2118770171330342912/vid/avc1/1320x720/5u-NLi9kSOce3RCo.mp4?tag=29",
-            "width": 1320
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "Elon Musk in a new interview today on Terafab:\n\n\"There's three possible meanings to Terafab. One is terror. I think sometimes people ask, 'Why would you want a terror fab?' Haha. Then there's Terra, which just means Earth, but it's actually Tera for terawatt. But arguably, all three apply.\"",
-        "url": "https://x.com/SawyerMerritt/status/2118770237625573489",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 198,
-        "likes": 2310,
-        "quotes": 9,
-        "replies": 109,
-        "retweets": 208,
-        "views": 208401
-      },
-      "url": "https://x.com/elonmusk/status/2118817952300683429",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2118770171330342912/img/baB-H880VN2lBv8r.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2118770171330342912/vid/avc1/1320x720/5u-NLi9kSOce3RCo.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118770171330342912/img/baB-H880VN2lBv8r.jpg",
-          "width": 1320,
-          "height": 720,
-          "duration": 100.138
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 2157,
+  "total": 2158,
   "total_pages": 108,
-  "updated_at_shanghai": "2026-11-09 18:17:48",
+  "updated_at_shanghai": "2026-11-09 18:23:26",
   "account": "elonmusk"
 }

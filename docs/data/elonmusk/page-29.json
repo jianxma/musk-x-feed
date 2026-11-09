@@ -1,6 +1,67 @@
 {
   "posts": [
     {
+      "id": "2115634093949911506",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T02:37:29.000Z",
+      "created_at_shanghai": "2026-10-29 10:37:29",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "As the prophecy foretold, Starship 42 will be the first tower catch",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 00:10:27",
+        "created_at_utc": "2026-10-28T16:10:27.000Z",
+        "id": "2115476295169814978",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2115475875122569216/img/05QhG1ixlpBhow6m.jpg",
+          "https://pbs.twimg.com/amplify_video_thumb/2115475945687535617/img/iL0aHe_7d4gDHl_s.jpg"
+        ],
+        "media": [
+          {
+            "duration": 77.327,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115475875122569216/img/05QhG1ixlpBhow6m.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2115475875122569216/vid/avc1/3840x2160/v5qIS5iJcnND9emk.mp4?tag=29",
+            "width": 3840
+          },
+          {
+            "duration": 24.733,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115475945687535617/img/iL0aHe_7d4gDHl_s.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2115475945687535617/vid/avc1/1920x1080/J017nOLJaAlUVy6Z.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Ship 42 static fires complete. The Starship preparing for Flight 15 performed a full duration, six-engine static fire, and fired a single Raptor engine to simulate a deorbit burn",
+        "url": "https://x.com/SpaceX/status/2115476295169814978",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1018,
+        "likes": 36133,
+        "quotes": 363,
+        "replies": 1810,
+        "retweets": 3316,
+        "views": 1653565
+      },
+      "url": "https://x.com/elonmusk/status/2115634093949911506",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2115632689722392818",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -971,71 +1032,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115450183060431234",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-28T14:26:41.000Z",
-      "created_at_shanghai": "2026-10-28 22:26:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 19:48:55",
-        "created_at_utc": "2026-10-28T11:48:55.000Z",
-        "id": "2115410477971026426",
-        "images": [
-          "https://pbs.twimg.com/media/HVtynWraUAAUrhz.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1462,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVtynWraUAAUrhz.jpg?name=small",
-            "width": 1125
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "",
-        "url": "https://x.com/cb_doge/status/2115410477971026426",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 151,
-        "likes": 3980,
-        "quotes": 94,
-        "replies": 392,
-        "retweets": 502,
-        "views": 317665
-      },
-      "url": "https://x.com/elonmusk/status/2115450183060431234",
-      "images": [
-        "https://pbs.twimg.com/media/HVtynWraUAAUrhz.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVtynWraUAAUrhz.jpg?name=small",
-          "width": 1125,
-          "height": 1462
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 29,
   "page_size": 20,
-  "total": 2157,
+  "total": 2158,
   "total_pages": 108,
-  "updated_at_shanghai": "2026-11-09 18:17:48",
+  "updated_at_shanghai": "2026-11-09 18:23:26",
   "account": "elonmusk"
 }

@@ -1,6 +1,34 @@
 {
   "posts": [
     {
+      "id": "2119629310969467053",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-09T03:13:03.000Z",
+      "created_at_shanghai": "2026-11-09 11:13:03",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Chinese 𝕏 is 牛逼",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 962,
+        "likes": 18013,
+        "quotes": 2017,
+        "replies": 5293,
+        "retweets": 1769,
+        "views": 1322399
+      },
+      "url": "https://x.com/elonmusk/status/2119629310969467053",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2119628426571338063",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -945,64 +973,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119406464372789396",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-08T12:27:32.000Z",
-      "created_at_shanghai": "2026-11-08 20:27:32",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Interesting",
-      "quote": {
-        "author": "RoundtableSpace",
-        "avatar": "https://pbs.twimg.com/profile_images/2012162102283407360/U-fPj6wg_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 23:45:00",
-        "created_at_utc": "2026-11-07T15:45:00.000Z",
-        "id": "2119093769991774480",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2116172888654897152/img/ITow9exFC64z1ZAY.jpg"
-        ],
-        "media": [
-          {
-            "duration": 3674.8,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116172888654897152/img/ITow9exFC64z1ZAY.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2116172888654897152/vid/avc1/1284x720/GTp4AVJ3pL2kiI7v.mp4?tag=29",
-            "width": 1284
-          }
-        ],
-        "name": "0xMarioNawfal",
-        "text": "DeepMind CEO Demis Hassabis:\n\n\"One person who really understands AI will outperform an entire startup team\n\nIn 5 years, the people who build with AI will run whole companies with a tenth of the headcount\"",
-        "url": "https://x.com/RoundtableSpace/status/2119093769991774480",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 57,
-        "likes": 434,
-        "quotes": 4,
-        "replies": 124,
-        "retweets": 68,
-        "views": 315031
-      },
-      "url": "https://x.com/elonmusk/status/2119406464372789396",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 2157,
+  "total": 2158,
   "total_pages": 108,
-  "updated_at_shanghai": "2026-11-09 18:17:48",
+  "updated_at_shanghai": "2026-11-09 18:23:26",
   "account": "elonmusk"
 }

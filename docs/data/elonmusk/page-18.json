@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2116615575791116356",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-31T19:37:32.000Z",
+      "created_at_shanghai": "2026-11-01 03:37:32",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot is the most useful app on my phone right now.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-01 03:19:17",
+        "created_at_utc": "2026-10-31T19:19:17.000Z",
+        "id": "2116610983997460897",
+        "images": [],
+        "media": [],
+        "name": "DogeDesigner",
+        "text": "Grok Bot is the most useful app on my phone right now.",
+        "url": "https://x.com/cb_doge/status/2116610983997460897",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 25,
+        "likes": 897,
+        "quotes": 15,
+        "replies": 164,
+        "retweets": 107,
+        "views": 155647
+      },
+      "url": "https://x.com/elonmusk/status/2116615575791116356",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116614930883334569",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -984,75 +1025,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116585031015502075",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-31T17:36:10.000Z",
-      "created_at_shanghai": "2026-11-01 01:36:10",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk points out that \"if we lower standards [because of DEI] for what it takes to become a board-certified surgeon… or something… where if you make a mistake, it causes someone to die, then more people will die than if we don't lower the standards.\"",
-      "quote": null,
-      "retweet": {
-        "author": "ResisttheMS",
-        "avatar": "https://pbs.twimg.com/profile_images/1777217835036495872/atU7ay85_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 07:59:00",
-        "created_at_utc": "2026-10-30T23:59:00.000Z",
-        "id": "2116318985952133136",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2041723147976896512/img/yt4F0TvAfFCXW-TQ.jpg"
-        ],
-        "media": [
-          {
-            "duration": 29.179,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2041723147976896512/img/yt4F0TvAfFCXW-TQ.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2041723147976896512/vid/avc1/1920x1080/iOqqnfePW_H7QCW5.mp4?tag=21",
-            "width": 1920
-          }
-        ],
-        "name": "Resist the Mainstream",
-        "text": "Elon Musk points out that \"if we lower standards [because of DEI] for what it takes to become a board-certified surgeon… or something… where if you make a mistake, it causes someone to die, then more people will die than if we don't lower the standards.\"",
-        "url": "https://x.com/ResisttheMS/status/2116318985952133136",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 62,
-        "likes": 1264,
-        "quotes": 8,
-        "replies": 62,
-        "retweets": 203,
-        "views": 199299
-      },
-      "url": "https://x.com/elonmusk/status/2116585031015502075",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2041723147976896512/img/yt4F0TvAfFCXW-TQ.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2041723147976896512/vid/avc1/1920x1080/iOqqnfePW_H7QCW5.mp4?tag=21",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2041723147976896512/img/yt4F0TvAfFCXW-TQ.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 29.179
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 20,
-  "total": 2157,
+  "total": 2158,
   "total_pages": 108,
-  "updated_at_shanghai": "2026-11-09 18:17:48",
+  "updated_at_shanghai": "2026-11-09 18:23:26",
   "account": "elonmusk"
 }

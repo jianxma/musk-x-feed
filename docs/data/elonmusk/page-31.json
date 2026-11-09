@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2115325413945987576",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-28T06:10:54.000Z",
+      "created_at_shanghai": "2026-10-28 14:10:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot just keeps getting better \n\nThe Vault feature is a game changer",
+      "quote": null,
+      "retweet": {
+        "author": "beffjezos",
+        "avatar": "https://pbs.twimg.com/profile_images/2104068258311901184/vmbQ61I3_200x200.jpg",
+        "created_at_shanghai": "2026-10-28 09:02:29",
+        "created_at_utc": "2026-10-28T01:02:29.000Z",
+        "id": "2115247800132972952",
+        "images": [],
+        "media": [],
+        "name": "Beff (e/acc)",
+        "text": "Grok Bot just keeps getting better \n\nThe Vault feature is a game changer",
+        "url": "https://x.com/beffjezos/status/2115247800132972952",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 56,
+        "likes": 898,
+        "quotes": 8,
+        "replies": 68,
+        "retweets": 62,
+        "views": 124904
+      },
+      "url": "https://x.com/elonmusk/status/2115325413945987576",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2115325367082979348",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1002,71 +1043,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115128129669009809",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-27T17:06:57.000Z",
-      "created_at_shanghai": "2026-10-28 01:06:57",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: The nation’s first-ever Detransition Clinic is now open as a result of my historic settlement with Texas Children’s Hospital.",
-      "quote": null,
-      "retweet": {
-        "author": "KenPaxtonTX",
-        "avatar": "https://pbs.twimg.com/profile_images/1488655496739500032/bhQuFaVo_200x200.jpg",
-        "created_at_shanghai": "2026-10-27 22:17:36",
-        "created_at_utc": "2026-10-27T14:17:36.000Z",
-        "id": "2115085510657863854",
-        "images": [
-          "https://pbs.twimg.com/media/HVpLDxlXMAAZvDs.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1612,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVpLDxlXMAAZvDs.jpg?name=small",
-            "width": 1249
-          }
-        ],
-        "name": "Attorney General Ken Paxton",
-        "text": "BREAKING: The nation’s first-ever Detransition Clinic is now open as a result of my historic settlement with Texas Children’s Hospital.",
-        "url": "https://x.com/KenPaxtonTX/status/2115085510657863854",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 273,
-        "likes": 13032,
-        "quotes": 199,
-        "replies": 579,
-        "retweets": 2437,
-        "views": 379775
-      },
-      "url": "https://x.com/elonmusk/status/2115128129669009809",
-      "images": [
-        "https://pbs.twimg.com/media/HVpLDxlXMAAZvDs.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVpLDxlXMAAZvDs.jpg?name=small",
-          "width": 1249,
-          "height": 1612
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 31,
   "page_size": 20,
-  "total": 2157,
+  "total": 2158,
   "total_pages": 108,
-  "updated_at_shanghai": "2026-11-09 18:17:48",
+  "updated_at_shanghai": "2026-11-09 18:23:26",
   "account": "elonmusk"
 }
