@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2119726824662122530",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-09T09:40:32.000Z",
+      "created_at_shanghai": "2026-11-09 17:40:32",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@elonmusk The difference.",
+      "quote": null,
+      "retweet": {
+        "author": "DefiantLs",
+        "avatar": "https://pbs.twimg.com/profile_images/1428167484406964229/Q8fS7M5X_200x200.jpg",
+        "created_at_shanghai": "2026-11-09 15:04:50",
+        "created_at_utc": "2026-11-09T07:04:50.000Z",
+        "id": "2119687643353301220",
+        "images": [
+          "https://pbs.twimg.com/media/HWqkphybkAAGmYH.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1280,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWqkphybkAAGmYH.jpg?name=small",
+            "width": 1252
+          }
+        ],
+        "name": "Defiant L’s",
+        "text": "@elonmusk The difference.",
+        "url": "https://x.com/DefiantLs/status/2119687643353301220",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 22,
+        "likes": 580,
+        "quotes": 6,
+        "replies": 40,
+        "retweets": 84,
+        "views": 42420
+      },
+      "url": "https://x.com/elonmusk/status/2119726824662122530",
+      "images": [
+        "https://pbs.twimg.com/media/HWqkphybkAAGmYH.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWqkphybkAAGmYH.jpg?name=small",
+          "width": 1252,
+          "height": 1280
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2119721189413372375",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -929,66 +988,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119484265671110904",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-08T17:36:41.000Z",
-      "created_at_shanghai": "2026-11-09 01:36:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Uhh… you mean the kids who were found innocent???",
-      "quote": {
-        "author": "Mediaite",
-        "avatar": "https://pbs.twimg.com/profile_images/882575964324208640/BtpGLHdx_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 04:11:15",
-        "created_at_utc": "2026-11-06T20:11:15.000Z",
-        "id": "2118798387747107227",
-        "images": [],
-        "media": [],
-        "name": "Mediaite",
-        "text": "FLASHBACK: Unearthed Video of Stephen Miller Defending Duke Lacrosse Players Accused of Rape\nhttps://www.mediaite.com/media/news/flashback-unearthed-video-of-stephen-miller-defending-duke-lacrosse-players-accused-of-rape",
-        "url": "https://x.com/Mediaite/status/2118798387747107227",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "CarlHigbie",
-        "avatar": "https://pbs.twimg.com/profile_images/1971223001854070784/VOyoMxX5_200x200.jpg",
-        "created_at_shanghai": "2026-11-08 03:20:45",
-        "created_at_utc": "2026-11-07T19:20:45.000Z",
-        "id": "2119148067442282988",
-        "images": [],
-        "media": [],
-        "name": "Carl Higbie",
-        "text": "Uhh… you mean the kids who were found innocent???",
-        "url": "https://x.com/CarlHigbie/status/2119148067442282988",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 258,
-        "likes": 22577,
-        "quotes": 17,
-        "replies": 82,
-        "retweets": 1974,
-        "views": 244203
-      },
-      "url": "https://x.com/elonmusk/status/2119484265671110904",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2149,
+  "total": 2150,
   "total_pages": 108,
-  "updated_at_shanghai": "2026-11-09 17:39:13",
+  "updated_at_shanghai": "2026-11-09 17:52:09",
   "account": "elonmusk"
 }
