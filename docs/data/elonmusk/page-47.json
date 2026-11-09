@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2112666467712073815",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-20T22:05:12.000Z",
+      "created_at_shanghai": "2026-10-21 06:05:12",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "As crazy as this sounds, $1T in SpaceX revenue in 2028 is no longer impossible",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 302,
+        "likes": 7901,
+        "quotes": 198,
+        "replies": 969,
+        "retweets": 833,
+        "views": 568955
+      },
+      "url": "https://x.com/elonmusk/status/2112666467712073815",
+      "images": [
+        "https://pbs.twimg.com/media/HVGy9IMXgAARk8a.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVGy9IMXgAARk8a.jpg?name=small",
+          "width": 1152,
+          "height": 481
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2112664502030541009",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1002,53 +1039,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2112583304738210216",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-20T16:34:44.000Z",
-      "created_at_shanghai": "2026-10-21 00:34:44",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Video call",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-20 23:00:41",
-        "created_at_utc": "2026-10-20T15:00:41.000Z",
-        "id": "2112559638579499258",
-        "images": [],
-        "media": [],
-        "name": "SpaceX",
-        "text": "Watch live as SpaceX discusses our Q3 2026 earnings at 3:30pm CT today → https://x.com/i/broadcasts/1PKqrNbLZbPGb",
-        "url": "https://x.com/SpaceX/status/2112559638579499258",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 575,
-        "likes": 9026,
-        "quotes": 87,
-        "replies": 1136,
-        "retweets": 1026,
-        "views": 2417893
-      },
-      "url": "https://x.com/elonmusk/status/2112583304738210216",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 47,
   "page_size": 20,
-  "total": 2133,
+  "total": 2134,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-09 08:41:09",
+  "updated_at_shanghai": "2026-11-09 10:06:41",
   "account": "elonmusk"
 }

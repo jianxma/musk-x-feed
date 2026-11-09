@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2118592599363817491",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-06T06:33:31.000Z",
+      "created_at_shanghai": "2026-11-06 14:33:31",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 371,
+        "likes": 8887,
+        "quotes": 238,
+        "replies": 985,
+        "retweets": 1011,
+        "views": 1036727
+      },
+      "url": "https://x.com/elonmusk/status/2118592599363817491",
+      "images": [
+        "https://pbs.twimg.com/media/HWbAvefa8AEBQVZ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWbAvefa8AEBQVZ.jpg?name=small",
+          "width": 1125,
+          "height": 1037
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2118591788701421573",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1013,62 +1050,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2118400203158163638",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-05T17:49:01.000Z",
-      "created_at_shanghai": "2026-11-06 01:49:01",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Interesting",
-      "quote": {
-        "author": "Smirkley",
-        "avatar": "https://pbs.twimg.com/profile_images/2083707920584179713/UfTI1u31_200x200.jpg",
-        "created_at_shanghai": "2026-11-05 12:37:20",
-        "created_at_utc": "2026-11-05T04:37:20.000Z",
-        "id": "2118200971050233952",
-        "images": [
-          "https://pbs.twimg.com/media/HWVcjnCXYAArlaV.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWVcjnCXYAArlaV.jpg?name=small",
-            "width": 1800
-          }
-        ],
-        "name": "Smirkley",
-        "text": "Here is a quadrant chart using CNN’s exit poll. It shows what issues hurt Republicans, by how many voters called each issue crucial and how they voted. Cost of living (49%, D+34), corruption (55%, D+28), & Iran (34%, D+46) made people vote D. Only immigration (36%, R+15) helped Rs.",
-        "url": "https://x.com/Smirkley/status/2118200971050233952",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 842,
-        "likes": 7628,
-        "quotes": 96,
-        "replies": 1756,
-        "retweets": 932,
-        "views": 1101443
-      },
-      "url": "https://x.com/elonmusk/status/2118400203158163638",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 2133,
+  "total": 2134,
   "total_pages": 107,
-  "updated_at_shanghai": "2026-11-09 08:41:09",
+  "updated_at_shanghai": "2026-11-09 10:06:41",
   "account": "elonmusk"
 }
