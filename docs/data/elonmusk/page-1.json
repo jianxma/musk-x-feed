@@ -1,10 +1,132 @@
 {
   "posts": [
     {
-      "id": "2119683889136349651",
+      "id": "2119686351474078187",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-09T06:59:42.000Z",
+      "created_at_shanghai": "2026-11-09 14:59:42",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Robotaxi available in San Antonio starting tomorrow, 5am",
+      "quote": null,
+      "retweet": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-11-09 14:27:14",
+        "created_at_utc": "2026-11-09T06:27:14.000Z",
+        "id": "2119678179963187564",
+        "images": [
+          "https://pbs.twimg.com/media/HWqcBhAagAArWe1.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 3072,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWqcBhAagAArWe1.jpg?name=small",
+            "width": 3072
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "Robotaxi available in San Antonio starting tomorrow, 5am",
+        "url": "https://x.com/robotaxi/status/2119678179963187564",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 63,
+        "likes": 2132,
+        "quotes": 122,
+        "replies": 141,
+        "retweets": 300,
+        "views": 65779
+      },
+      "url": "https://x.com/elonmusk/status/2119686351474078187",
+      "images": [
+        "https://pbs.twimg.com/media/HWqcBhAagAArWe1.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWqcBhAagAArWe1.jpg?name=small",
+          "width": 3072,
+          "height": 3072
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2119686284360749218",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-09T06:59:26.000Z",
+      "created_at_shanghai": "2026-11-09 14:59:26",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Starlink connected a remote village in Fiji to the world. 🇫🇯\n\nFor the first time, families in Naigani Village on Batiki Island have reliable internet. That makes it easier to call relatives off the island, find information and use services online.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-09 14:55:04",
+        "created_at_utc": "2026-11-09T06:55:04.000Z",
+        "id": "2119685184820056238",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2119685165228384256/img/M_2FCpaHn-ZYDjo4.jpg"
+        ],
+        "media": [
+          {
+            "duration": 9.666,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119685165228384256/img/M_2FCpaHn-ZYDjo4.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2119685165228384256/vid/avc1/720x720/YFtRR94yU_CAQoXf.mp4?tag=29",
+            "width": 720
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Starlink connected a remote village in Fiji to the world. 🇫🇯\n\nFor the first time, families in Naigani Village on Batiki Island have reliable internet. That makes it easier to call relatives off the island, find information and use services online.",
+        "url": "https://x.com/cb_doge/status/2119685184820056238",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 5,
+        "likes": 278,
+        "quotes": 5,
+        "replies": 37,
+        "retweets": 50,
+        "views": 33272
+      },
+      "url": "https://x.com/elonmusk/status/2119686284360749218",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2119685165228384256/img/M_2FCpaHn-ZYDjo4.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2119685165228384256/vid/avc1/720x720/YFtRR94yU_CAQoXf.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119685165228384256/img/M_2FCpaHn-ZYDjo4.jpg",
+          "width": 720,
+          "height": 720,
+          "duration": 9.666
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2119683889136349651",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-09T06:49:55.000Z",
@@ -67,7 +189,7 @@
       "id": "2119682340960039293",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-09T06:43:46.000Z",
@@ -891,103 +1013,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119464415410200981",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-08T16:17:49.000Z",
-      "created_at_shanghai": "2026-11-09 00:17:49",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "If Russell Brand is going to prison for rape that occurred 20 years ago, why isn’t anyone in the Epstein files going too?",
-      "quote": null,
-      "retweet": {
-        "author": "_rathbone",
-        "avatar": "https://pbs.twimg.com/profile_images/2117889247596490753/i_eVYdmH_200x200.jpg",
-        "created_at_shanghai": "2026-11-08 09:25:37",
-        "created_at_utc": "2026-11-08T01:25:37.000Z",
-        "id": "2119239887522255070",
-        "images": [],
-        "media": [],
-        "name": "Rathbone",
-        "text": "If Russell Brand is going to prison for rape that occurred 20 years ago, why isn’t anyone in the Epstein files going too?",
-        "url": "https://x.com/_rathbone/status/2119239887522255070",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 246,
-        "likes": 24386,
-        "quotes": 66,
-        "replies": 527,
-        "retweets": 2671,
-        "views": 459248
-      },
-      "url": "https://x.com/elonmusk/status/2119464415410200981",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2119450646143537211",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-08T15:23:06.000Z",
-      "created_at_shanghai": "2026-11-08 23:23:06",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Shame, shame, shame on Chappelle",
-      "quote": {
-        "author": "bennyjohnson",
-        "avatar": "https://pbs.twimg.com/profile_images/2117726643758170112/815JQOOz_200x200.jpg",
-        "created_at_shanghai": "2026-11-08 22:38:40",
-        "created_at_utc": "2026-11-08T14:38:40.000Z",
-        "id": "2119439465097691511",
-        "images": [
-          "https://pbs.twimg.com/media/HWnC9eiW0AERmzi.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1040,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWnC9eiW0AERmzi.jpg?name=small",
-            "width": 1294
-          }
-        ],
-        "name": "Benny Johnson",
-        "text": "When Dave Chappelle was attacked on stage,  Charlie stood up for him.\n\nAfter Charlie was murdered in an act of political violence himself, Chappelle is joking about it.",
-        "url": "https://x.com/bennyjohnson/status/2119439465097691511",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 48,
-        "likes": 2152,
-        "quotes": 12,
-        "replies": 260,
-        "retweets": 336,
-        "views": 367904
-      },
-      "url": "https://x.com/elonmusk/status/2119450646143537211",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2144,
+  "total": 2146,
   "total_pages": 108,
-  "updated_at_shanghai": "2026-11-09 14:55:18",
+  "updated_at_shanghai": "2026-11-09 15:08:18",
   "account": "elonmusk"
 }
