@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2111238267878449283",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T23:30:02.000Z",
+      "created_at_shanghai": "2026-10-17 07:30:02",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "This is what I do, but at 1.5X",
+      "quote": {
+        "author": "mrfundman",
+        "avatar": "https://pbs.twimg.com/profile_images/1844590451933810701/SJ70OFpA_200x200.jpg",
+        "created_at_shanghai": "2026-10-17 07:06:58",
+        "created_at_utc": "2026-10-16T23:06:58.000Z",
+        "id": "2111232463032725647",
+        "images": [
+          "https://pbs.twimg.com/media/HUyavMEXYAA3J7g.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 594,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUyavMEXYAA3J7g.jpg?name=small",
+            "width": 1320
+          }
+        ],
+        "name": "mr fundman",
+        "text": "Set you Grok bot voice to Ara on 1.25x and thank me later 😄",
+        "url": "https://x.com/mrfundman/status/2111232463032725647",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 351,
+        "likes": 3104,
+        "quotes": 30,
+        "replies": 617,
+        "retweets": 259,
+        "views": 624313
+      },
+      "url": "https://x.com/elonmusk/status/2111238267878449283",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111237421568299266",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1195,75 +1245,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2111137368186986837",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T16:49:06.000Z",
-      "created_at_shanghai": "2026-10-17 00:49:06",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Liftoff!",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 08:02:07",
-        "created_at_utc": "2026-10-16T00:02:07.000Z",
-        "id": "2110883955004035154",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110883883948314624/img/rnMeXkZcymbW9_Ou.jpg"
-        ],
-        "media": [
-          {
-            "duration": 32.64,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110883883948314624/img/rnMeXkZcymbW9_Ou.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110883883948314624/vid/avc1/3840x2160/1YiiWV_cnXmqa0Hr.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Liftoff!",
-        "url": "https://x.com/SpaceX/status/2110883955004035154",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 365,
-        "likes": 15441,
-        "quotes": 102,
-        "replies": 327,
-        "retweets": 1240,
-        "views": 1260142
-      },
-      "url": "https://x.com/elonmusk/status/2111137368186986837",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110883883948314624/img/rnMeXkZcymbW9_Ou.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110883883948314624/vid/avc1/3840x2160/1YiiWV_cnXmqa0Hr.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110883883948314624/img/rnMeXkZcymbW9_Ou.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 32.64
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 56,
   "page_size": 20,
-  "total": 2187,
+  "total": 2188,
   "total_pages": 110,
-  "updated_at_shanghai": "2026-11-10 10:39:03",
+  "updated_at_shanghai": "2026-11-10 10:59:43",
   "account": "elonmusk"
 }
