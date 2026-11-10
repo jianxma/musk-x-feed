@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2115619258579529929",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-10-29T01:38:32.000Z",
+      "created_at_shanghai": "2026-10-29 09:38:32",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Less than a week ago our 98th Electron delivered mission success for @hawkeye360 with another flawless launch. \n\nUp next: Our 99th launch is scheduled next week and our 100th rocket is close behind, scheduled for delivery to Launch Complex 1 soon.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 6,
+        "likes": 407,
+        "quotes": 5,
+        "replies": 12,
+        "retweets": 39,
+        "views": 12077
+      },
+      "url": "https://x.com/rocketlab/status/2115619258579529929",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115617935356227584/img/-Y3-J2AaPqqORs1Y.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2115617935356227584/vid/avc1/1920x1080/fwNuGHUqvjmOs34g.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115617935356227584/img/-Y3-J2AaPqqORs1Y.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 15.2
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2115595193768661408",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -773,40 +812,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2113464342897471827",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-10-23T02:55:40.000Z",
-      "created_at_shanghai": "2026-10-23 10:55:40",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Mission details for today's 98th Electron launch:\n🎯 Customer: @hawkeye360\n🛰️ Payload: 3x HAWK RF-sensing satellites\n🌏 Orbit: 520km LEO\n📍 Inclination: 97 degrees",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "RocketLab",
-      "engagement": {
-        "bookmarks": 0,
-        "likes": 51,
-        "quotes": 0,
-        "replies": 1,
-        "retweets": 1,
-        "views": 4948
-      },
-      "url": "https://x.com/rocketlab/status/2113464342897471827",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 139,
+  "total": 140,
   "total_pages": 7,
-  "updated_at_shanghai": "2026-11-11 05:27:48",
+  "updated_at_shanghai": "2026-11-11 06:37:39",
   "account": "rocketlab"
 }
