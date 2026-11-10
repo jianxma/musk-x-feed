@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2119636611633721811",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-09T03:42:03.000Z",
+      "created_at_shanghai": "2026-11-09 11:42:03",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Chappelle is just not funny anymore",
+      "quote": {
+        "author": "drjohnny__",
+        "avatar": "https://pbs.twimg.com/profile_images/1946264742500151298/JSXDCIgE_200x200.jpg",
+        "created_at_shanghai": "2026-11-09 10:37:43",
+        "created_at_utc": "2026-11-09T02:37:43.000Z",
+        "id": "2119620420123136001",
+        "images": [],
+        "media": [],
+        "name": "Dr. Johnny",
+        "text": "@JackPosobiec I was at the Chapelle show at MSG last night… can confirm. His whole set was about 80 mins and he spent about half of it ripping on Charlie Kirk, Trump, & Epstein. I kept waiting for the funny parts and then it just ended.",
+        "url": "https://x.com/drjohnny__/status/2119620420123136001",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 65,
+        "likes": 5312,
+        "quotes": 35,
+        "replies": 559,
+        "retweets": 423,
+        "views": 400204
+      },
+      "url": "https://x.com/elonmusk/status/2119636611633721811",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2119631955855606244",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -910,40 +951,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119419126045454531",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-08T13:17:51.000Z",
-      "created_at_shanghai": "2026-11-08 21:17:51",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Grok Bot fixes for improved token efficiency and smarter behavior are underway",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 35,
-        "likes": 1207,
-        "quotes": 57,
-        "replies": 356,
-        "retweets": 153,
-        "views": 353468
-      },
-      "url": "https://x.com/elonmusk/status/2119419126045454531",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 2200,
-  "total_pages": 110,
-  "updated_at_shanghai": "2026-11-10 18:21:18",
+  "total": 2201,
+  "total_pages": 111,
+  "updated_at_shanghai": "2026-11-10 18:37:12",
   "account": "elonmusk"
 }

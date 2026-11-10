@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2116046885559414996",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T05:57:46.000Z",
+      "created_at_shanghai": "2026-10-30 13:57:46",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "This is what really matters",
+      "quote": {
+        "author": "tyler",
+        "avatar": "https://pbs.twimg.com/profile_images/2111126889427570689/NlO0BiTJ_200x200.jpg",
+        "created_at_shanghai": "2026-10-30 13:53:18",
+        "created_at_utc": "2026-10-30T05:53:18.000Z",
+        "id": "2116045763839160614",
+        "images": [],
+        "media": [],
+        "name": "Tyler Winklevoss",
+        "text": "Why you should vote Republican.",
+        "url": "https://x.com/tyler/status/2116045763839160614",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 150,
+        "likes": 8438,
+        "quotes": 47,
+        "replies": 714,
+        "retweets": 1048,
+        "views": 1085643
+      },
+      "url": "https://x.com/elonmusk/status/2116046885559414996",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116045238317805599",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1048,40 +1089,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116026427128832140",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T04:36:28.000Z",
-      "created_at_shanghai": "2026-10-30 12:36:28",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Hopefully, in a few years, we will be able to shunt signals from the motor and sensory areas of the brain to the limbs and enable people to use their hands and walk again",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 109,
-        "likes": 2583,
-        "quotes": 26,
-        "replies": 219,
-        "retweets": 183,
-        "views": 115569
-      },
-      "url": "https://x.com/elonmusk/status/2116026427128832140",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 27,
   "page_size": 20,
-  "total": 2200,
-  "total_pages": 110,
-  "updated_at_shanghai": "2026-11-10 18:21:18",
+  "total": 2201,
+  "total_pages": 111,
+  "updated_at_shanghai": "2026-11-10 18:37:12",
   "account": "elonmusk"
 }
