@@ -1,6 +1,71 @@
 {
   "posts": [
     {
+      "id": "2115346914397069689",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-28T07:36:20.000Z",
+      "created_at_shanghai": "2026-10-28 15:36:20",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "F1 World Champion tries Cybercab",
+      "quote": {
+        "author": "CARN0N",
+        "avatar": "https://pbs.twimg.com/profile_images/2029713957599252480/fCPTd_Jb_200x200.jpg",
+        "created_at_shanghai": "2026-10-28 06:02:35",
+        "created_at_utc": "2026-10-27T22:02:35.000Z",
+        "id": "2115202524567437539",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2115202443307081728/img/B0GnGGBq8GT2cm2q.jpg"
+        ],
+        "media": [
+          {
+            "duration": 79.266,
+            "height": 1280,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115202443307081728/img/B0GnGGBq8GT2cm2q.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2115202443307081728/vid/avc1/720x1280/DVosdCBDNkyVmW3j.mp4?tag=29",
+            "width": 720
+          }
+        ],
+        "name": "Oli",
+        "text": "1996 Formula 1 World Champion Damon Hill takes his first ride in a Tesla Cybercab in Austin",
+        "url": "https://x.com/CARN0N/status/2115202524567437539",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-10-28 08:51:34",
+        "created_at_utc": "2026-10-28T00:51:34.000Z",
+        "id": "2115245051249062224",
+        "images": [],
+        "media": [],
+        "name": "Robotaxi",
+        "text": "F1 World Champion tries Cybercab",
+        "url": "https://x.com/robotaxi/status/2115245051249062224",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 251,
+        "likes": 4955,
+        "quotes": 42,
+        "replies": 125,
+        "retweets": 410,
+        "views": 349928
+      },
+      "url": "https://x.com/elonmusk/status/2115346914397069689",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2115346748730380385",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1014,53 +1079,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115147790234075236",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-27T18:25:05.000Z",
-      "created_at_shanghai": "2026-10-28 02:25:05",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "ty for 4 years of bangers",
-      "quote": null,
-      "retweet": {
-        "author": "X",
-        "avatar": "https://pbs.twimg.com/profile_images/1955359038532653056/OSHY3ewP_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 00:24:40",
-        "created_at_utc": "2026-10-27T16:24:40.000Z",
-        "id": "2115117485020135559",
-        "images": [],
-        "media": [],
-        "name": "X",
-        "text": "ty for 4 years of bangers",
-        "url": "https://x.com/X/status/2115117485020135559",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 444,
-        "likes": 20267,
-        "quotes": 496,
-        "replies": 2004,
-        "retweets": 1273,
-        "views": 1455811
-      },
-      "url": "https://x.com/elonmusk/status/2115147790234075236",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 33,
   "page_size": 20,
-  "total": 2205,
+  "total": 2206,
   "total_pages": 111,
-  "updated_at_shanghai": "2026-11-11 04:30:26",
+  "updated_at_shanghai": "2026-11-11 04:33:34",
   "account": "elonmusk"
 }
