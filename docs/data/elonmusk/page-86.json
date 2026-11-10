@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2107493516741939571",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-06T15:29:44.000Z",
+      "created_at_shanghai": "2026-10-06 23:29:44",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot tips",
+      "quote": {
+        "author": "mattyp",
+        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
+        "created_at_shanghai": "2026-10-06 23:00:03",
+        "created_at_utc": "2026-10-06T15:00:03.000Z",
+        "id": "2107486048154738995",
+        "images": [
+          "https://pbs.twimg.com/media/HTGOGoXbYAEvkCh.jpg"
+        ],
+        "media": [
+          {
+            "duration": 303.033,
+            "height": 4053,
+            "thumbnail_url": "https://pbs.twimg.com/media/HTGOGoXbYAEvkCh.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103607629490909184/vid/avc1/3840x2160/Thbk9YchK6iM5FM3.mp4?tag=29",
+            "width": 7206
+          }
+        ],
+        "name": "matt palmer",
+        "text": "I gave Grok Bot a printer. Now, it helps me plan my day\n\n1:18 Prototyping with @bot\n2:02 Printer access through desktop\n2:55 Pulling calendar, @X, and workouts\n3:46 Automating\n4:32 Why go physical",
+        "url": "https://x.com/mattyp/status/2107486048154738995",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 577,
+        "likes": 2872,
+        "quotes": 22,
+        "replies": 387,
+        "retweets": 322,
+        "views": 1870499
+      },
+      "url": "https://x.com/elonmusk/status/2107493516741939571",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107702262227415400",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1213,75 +1265,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107054599085654295",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T10:25:38.000Z",
-      "created_at_shanghai": "2026-10-05 18:25:38",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Why Are Judges Releasing Violent Criminals?  https://youtu.be/hWeee_3a2qk",
-      "quote": null,
-      "retweet": {
-        "author": "BasicLogicIQ",
-        "avatar": "https://pbs.twimg.com/profile_images/1957753669182529536/ehFgcTDL_200x200.jpg",
-        "created_at_shanghai": "2026-09-25 03:37:10",
-        "created_at_utc": "2026-09-24T19:37:10.000Z",
-        "id": "2103207132585943338",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103206476156223488/img/bVfmcWRL_lBP8okN.jpg"
-        ],
-        "media": [
-          {
-            "duration": 543.776,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103206476156223488/img/bVfmcWRL_lBP8okN.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103206476156223488/vid/avc1/1920x1080/ielr0hKp31A42Lto.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Basic Logic",
-        "text": "Why Are Judges Releasing Violent Criminals?  https://youtu.be/hWeee_3a2qk",
-        "url": "https://x.com/BasicLogicIQ/status/2103207132585943338",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 822,
-        "likes": 4440,
-        "quotes": 29,
-        "replies": 200,
-        "retweets": 708,
-        "views": 337172
-      },
-      "url": "https://x.com/elonmusk/status/2107054599085654295",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2103206476156223488/img/bVfmcWRL_lBP8okN.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2103206476156223488/vid/avc1/1920x1080/ielr0hKp31A42Lto.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103206476156223488/img/bVfmcWRL_lBP8okN.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 543.776
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 86,
   "page_size": 20,
-  "total": 2199,
+  "total": 2200,
   "total_pages": 110,
-  "updated_at_shanghai": "2026-11-10 17:24:50",
+  "updated_at_shanghai": "2026-11-10 17:51:46",
   "account": "elonmusk"
 }
