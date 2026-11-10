@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2118852742534082914",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-06T23:47:14.000Z",
+      "created_at_shanghai": "2026-11-07 07:47:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "This project would be an incredible benefit to the people of my home state.",
+      "quote": {
+        "author": "xdNiBoR",
+        "avatar": "https://pbs.twimg.com/profile_images/1743662850873147392/FxKvzTsJ_200x200.jpg",
+        "created_at_shanghai": "2026-11-06 02:25:28",
+        "created_at_utc": "2026-11-05T18:25:28.000Z",
+        "id": "2118409376767864888",
+        "images": [
+          "https://pbs.twimg.com/media/HWYaCYCXkAAhp8U.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWYaCYCXkAAhp8U.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Robin",
+        "text": "The next SpaceX datacenter will be in Cochise Arizona.\n\n~6 GW spread over 9 buildings. \n\n> No industrial water use.\n> No gas turbines and no on-site power generation.\n> ~3 miles away from the nearest homes",
+        "url": "https://x.com/xdNiBoR/status/2118409376767864888",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "BurnhamDC",
+        "avatar": "https://pbs.twimg.com/profile_images/2035439788396863488/9FIYa41g_200x200.jpg",
+        "created_at_shanghai": "2026-11-07 01:51:19",
+        "created_at_utc": "2026-11-06T17:51:19.000Z",
+        "id": "2118763171502772554",
+        "images": [],
+        "media": [],
+        "name": "James Burnham",
+        "text": "This project would be an incredible benefit to the people of my home state.",
+        "url": "https://x.com/BurnhamDC/status/2118763171502772554",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 55,
+        "likes": 1670,
+        "quotes": 5,
+        "replies": 54,
+        "retweets": 180,
+        "views": 315245
+      },
+      "url": "https://x.com/elonmusk/status/2118852742534082914",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2118850781696921977",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1104,62 +1167,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2118761981037723848",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-06T17:46:35.000Z",
-      "created_at_shanghai": "2026-11-07 01:46:35",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "SpaceX revenue this quarter alone will be substantially higher than NASA’s entire annual budget!",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 01:02:18",
-        "created_at_utc": "2026-11-06T17:02:18.000Z",
-        "id": "2118750838315499793",
-        "images": [
-          "https://pbs.twimg.com/media/HWdQp4hbAAAQXtF.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1125,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWdQp4hbAAAQXtF.jpg?name=small",
-            "width": 1125
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Many people claim SpaceX is subsidized by NASA, but that is false. NASA provided ~5% of SpaceX revenue.\n\nSpaceX earned its contracts by offering the best product at the lowest price, & it is the only astronaut transport option that meets NASA safety standards.",
-        "url": "https://x.com/cb_doge/status/2118750838315499793",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 516,
-        "likes": 20045,
-        "quotes": 202,
-        "replies": 1330,
-        "retweets": 2920,
-        "views": 1240424
-      },
-      "url": "https://x.com/elonmusk/status/2118761981037723848",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 8,
   "page_size": 20,
-  "total": 2203,
+  "total": 2204,
   "total_pages": 111,
-  "updated_at_shanghai": "2026-11-10 18:47:47",
+  "updated_at_shanghai": "2026-11-11 01:28:57",
   "account": "elonmusk"
 }

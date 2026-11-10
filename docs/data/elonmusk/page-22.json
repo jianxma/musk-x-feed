@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2116549447513763842",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-31T15:14:46.000Z",
+      "created_at_shanghai": "2026-10-31 23:14:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "“The most important thing in the world is family and love.”",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-31 09:28:30",
+        "created_at_utc": "2026-10-31T01:28:30.000Z",
+        "id": "2116341509612281911",
+        "images": [
+          "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1440,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small",
+            "width": 1440
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "“The most important thing in the world is family and love.”",
+        "url": "https://x.com/cb_doge/status/2116341509612281911",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 173,
+        "likes": 6471,
+        "quotes": 47,
+        "replies": 473,
+        "retweets": 655,
+        "views": 268133
+      },
+      "url": "https://x.com/elonmusk/status/2116549447513763842",
+      "images": [
+        "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small",
+          "width": 1440,
+          "height": 1440
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116549116746781118",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1118,64 +1177,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2116306579779731464",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T23:09:42.000Z",
-      "created_at_shanghai": "2026-10-31 07:09:42",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Cool",
-      "quote": {
-        "author": "everestchris6",
-        "avatar": "https://pbs.twimg.com/profile_images/1970372109202530305/A5Axp4ih_200x200.jpg",
-        "created_at_shanghai": "2026-10-30 23:02:18",
-        "created_at_utc": "2026-10-30T15:02:18.000Z",
-        "id": "2116183923747422477",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2116183407868973056/img/wSgccKH8bSwFINFR.jpg"
-        ],
-        "media": [
-          {
-            "duration": 21,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116183407868973056/img/wSgccKH8bSwFINFR.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2116183407868973056/vid/avc1/1920x1080/hMnnrxktEvbp7ScO.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Chris",
-        "text": "grok bot can now see what's on your phone and answer anything about it\n\njust hold the action button and ask what you need:\n\n> ask anything about the video you're watching\n> tell it to build what you saw in a reel for your business\n> ask it to break down the article you're reading\n\nit can watch videos, read posts, check the web, basically everything.\n\ni built it as a free iphone shortcut and made it open source, you can grab it below",
-        "url": "https://x.com/everestchris6/status/2116183923747422477",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 624,
-        "likes": 3388,
-        "quotes": 43,
-        "replies": 532,
-        "retweets": 355,
-        "views": 675117
-      },
-      "url": "https://x.com/elonmusk/status/2116306579779731464",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 22,
   "page_size": 20,
-  "total": 2203,
+  "total": 2204,
   "total_pages": 111,
-  "updated_at_shanghai": "2026-11-10 18:47:47",
+  "updated_at_shanghai": "2026-11-11 01:28:57",
   "account": "elonmusk"
 }
