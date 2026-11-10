@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2119469436092760547",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T16:37:46.000Z",
+      "created_at_shanghai": "2026-11-09 00:37:46",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Larry Page has made many accurate predictions and this is one of them",
+      "quote": {
+        "author": "hosun_chung",
+        "avatar": "https://pbs.twimg.com/profile_images/2089583453776064512/SIlquoiT_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 06:40:07",
+        "created_at_utc": "2026-11-07T22:40:07.000Z",
+        "id": "2119198237047590971",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2119198209885229056/img/MKhEMNMnywX4kDSo.jpg"
+        ],
+        "media": [
+          {
+            "duration": 42.575,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119198209885229056/img/MKhEMNMnywX4kDSo.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2119198209885229056/vid/avc1/1920x1080/DrtSeKNvcUxDrzk5.mp4?tag=16",
+            "width": 1920
+          }
+        ],
+        "name": "Hosun Chung",
+        "text": "Larry Page reportedly has a number for how much computing will end up in space: five nines. As in 99.999%.\n\n@patrick_oshag heard it secondhand: \"Someone asked Larry Page how much of compute will be orbital, and he said five-nines.\"\n\n@martin_casado's reason it might happen: \"It's just basically regulatory.\" He thinks there are 500 proposed bills to stop data center building in the US, Texas included.\n\nFrom @InvestLikeBest.",
+        "url": "https://x.com/hosun_chung/status/2119198237047590971",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 52,
+        "likes": 583,
+        "quotes": 9,
+        "replies": 102,
+        "retweets": 105,
+        "views": 330202
+      },
+      "url": "https://x.com/elonmusk/status/2119469436092760547",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2119464415410200981",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1006,47 +1058,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119142479501099386",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T18:58:33.000Z",
-      "created_at_shanghai": "2026-11-08 02:58:33",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "A statistic that sounds fake but isn't: Not one single white American man born after 1984 has published a work of literary fiction in The New Yorker.\n\nIt's not because they stopped writing. It's because The New Yorker has refused to publish them. The publishing industry has blacked out a generation of male writers & then they wonder why boys don't read.",
-      "quote": {
-        "author": "politicalmath",
-        "name": "PoIiMath",
-        "text": "A statistic that sounds fake but isn't: Not one single white American man born after 1984 has published a work of literary fiction in The New Yorker.\n\nIt's not because they stopped writing. It's because The New Yorker has refused to publish them. The publishing industry has blacked out a generation of male writers & then they wonder why boys don't read.",
-        "url": "https://x.com/politicalmath/status/2119105264569745683"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1110,
-        "likes": 6736,
-        "quotes": 42,
-        "replies": 125,
-        "retweets": 899,
-        "views": 127640
-      },
-      "url": "https://x.com/elonmusk/status/2119142479501099386",
-      "images": [
-        "https://pbs.twimg.com/media/HWd8YXWXYAEx2x4.png"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 2206,
+  "total": 2207,
   "total_pages": 111,
-  "updated_at_shanghai": "2026-11-11 04:33:34",
+  "updated_at_shanghai": "2026-11-11 04:39:21",
   "account": "elonmusk"
 }

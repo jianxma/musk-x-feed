@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2112593866461216942",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-20T17:16:42.000Z",
+      "created_at_shanghai": "2026-10-21 01:16:42",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "The fate of Texas and America is at stake. Vote for @KenPaxtonTX today.",
+      "quote": {
+        "author": "ScottPresler",
+        "avatar": "https://pbs.twimg.com/profile_images/1321124227215491072/pIC0lG5M_200x200.jpg",
+        "created_at_shanghai": "2026-10-20 20:38:45",
+        "created_at_utc": "2026-10-20T12:38:45.000Z",
+        "id": "2112523919282573650",
+        "images": [],
+        "media": [],
+        "name": "ThePersistence",
+        "text": "Today is a great day to vote early in person for @KenPaxtonTX in Texas.",
+        "url": "https://x.com/ScottPresler/status/2112523919282573650",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 413,
+        "likes": 32960,
+        "quotes": 307,
+        "replies": 2848,
+        "retweets": 4882,
+        "views": 6727949
+      },
+      "url": "https://x.com/elonmusk/status/2112593866461216942",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2112593364701045242",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1012,53 +1053,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2112403910908596503",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-20T04:41:53.000Z",
-      "created_at_shanghai": "2026-10-20 12:41:53",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True, try Grok @Bot",
-      "quote": {
-        "author": "KettlebellDan",
-        "avatar": "https://pbs.twimg.com/profile_images/2111928931851157504/R0V2OIS1_200x200.jpg",
-        "created_at_shanghai": "2026-10-20 09:33:02",
-        "created_at_utc": "2026-10-20T01:33:02.000Z",
-        "id": "2112356383425483117",
-        "images": [],
-        "media": [],
-        "name": "Dan",
-        "text": "People keep asking me for Grok Bot templates\n\nBut you can just spin up a new bot and tell it what you need\n\nIt’s indistinguishable from magic",
-        "url": "https://x.com/KettlebellDan/status/2112356383425483117",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 20,
-        "likes": 520,
-        "quotes": 10,
-        "replies": 158,
-        "retweets": 68,
-        "views": 314011
-      },
-      "url": "https://x.com/elonmusk/status/2112403910908596503",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 51,
   "page_size": 20,
-  "total": 2206,
+  "total": 2207,
   "total_pages": 111,
-  "updated_at_shanghai": "2026-11-11 04:33:34",
+  "updated_at_shanghai": "2026-11-11 04:39:21",
   "account": "elonmusk"
 }
