@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2117309714933711019",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-11-02T17:35:48.000Z",
+      "created_at_shanghai": "2026-11-03 01:35:48",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Mission success! Payload deployment confirmed from Electron's Kick Stage for the latest QPS-SAR satellite by @QPS_Inc - our tenth launch for their constellation with 100% mission success.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 15,
+        "likes": 1380,
+        "quotes": 31,
+        "replies": 35,
+        "retweets": 136,
+        "views": 44612
+      },
+      "url": "https://x.com/rocketlab/status/2117309714933711019",
+      "images": [
+        "https://pbs.twimg.com/media/HWIv74XaMAAZC0B.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWIv74XaMAAZC0B.jpg?name=small",
+          "width": 1767,
+          "height": 2650
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2117298613231718877",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -714,70 +751,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2115550147862257868",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-10-28T21:03:54.000Z",
-      "created_at_shanghai": "2026-10-29 05:03:54",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Neutron’s Stage 2 and Thrust Module have arrived to Virginia. After a short barge ride from the Neutron Factory, these major assemblies have now been offloaded on Wallops Island and are going through arrival checkouts.\n\nNext up: integrated fluids testing and launch mount interface checkouts for the Thrust Module, with Stage 2 to follow on the test stand beside it soon after.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 63,
-        "likes": 1766,
-        "quotes": 41,
-        "replies": 60,
-        "retweets": 191,
-        "views": 49106
-      },
-      "url": "https://x.com/rocketlab/status/2115550147862257868",
-      "images": [
-        "https://pbs.twimg.com/media/HVvwhpIa4AAODaj.jpg?name=small",
-        "https://pbs.twimg.com/media/HVvwmB-bgAAaJPm.jpg?name=small",
-        "https://pbs.twimg.com/media/HVvwnQia8AADgza.jpg?name=small",
-        "https://pbs.twimg.com/media/HVvwoT1acAAyGjr.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVvwhpIa4AAODaj.jpg?name=small",
-          "width": 2048,
-          "height": 1534
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVvwmB-bgAAaJPm.jpg?name=small",
-          "width": 2048,
-          "height": 1534
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVvwnQia8AADgza.jpg?name=small",
-          "width": 2048,
-          "height": 1535
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVvwoT1acAAyGjr.jpg?name=small",
-          "width": 2048,
-          "height": 1535
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 135,
+  "total": 136,
   "total_pages": 7,
-  "updated_at_shanghai": "2026-11-10 06:53:54",
+  "updated_at_shanghai": "2026-11-10 08:08:10",
   "account": "rocketlab"
 }

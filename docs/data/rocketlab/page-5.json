@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2105104624596480262",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-09-30T01:17:08.000Z",
+      "created_at_shanghai": "2026-09-30 09:17:08",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Our factories have never been busier as we scale production of rockets and spacecraft. \n\nManufacturing engineers are at the core of this and we’re hiring more in the US and New Zealand.\n\nJoin the team: https://bit.ly/47sPMQM",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 0,
+        "likes": 19,
+        "quotes": 1,
+        "replies": 0,
+        "retweets": 3,
+        "views": 1827
+      },
+      "url": "https://x.com/rocketlab/status/2105104624596480262",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2105104288347500544/img/Nb4pshApxUx8PvcB.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2105104288347500544/vid/avc1/1920x1080/n60Ihf5Zveq61_-f.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105104288347500544/img/Nb4pshApxUx8PvcB.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 56.222
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2104301889848520726",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -689,63 +728,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2103160351743410445",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-09-24T16:31:17.000Z",
-      "created_at_shanghai": "2026-09-25 00:31:17",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "CAPSTONE (Moon)\n\nRocket Lab launched the CAPSTONE spacecraft for @NASA in June 2022, setting it on course for a unique near-rectilinear halo orbit (NRHO) around the Moon.\n\nThe launch was powered by Electron, while the critical trans-lunar injection was carried out by our Lunar Photon spacecraft, one of the earliest operational designs in Rocket Lab’s family of spacecraft.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "RocketLab",
-      "engagement": {
-        "bookmarks": 0,
-        "likes": 6,
-        "quotes": 0,
-        "replies": 1,
-        "retweets": 1,
-        "views": 160
-      },
-      "url": "https://x.com/rocketlab/status/2103160351743410445",
-      "images": [
-        "https://pbs.twimg.com/media/HS_tEj4bYAQW-H-.jpg?name=small",
-        "https://pbs.twimg.com/media/HS_tKrSbYAA6H35.jpg?name=small",
-        "https://pbs.twimg.com/media/HS_tKrPbYAI2MMY.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS_tEj4bYAQW-H-.jpg?name=small",
-          "width": 1024,
-          "height": 819
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS_tKrSbYAA6H35.jpg?name=small",
-          "width": 480,
-          "height": 640
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS_tKrPbYAI2MMY.jpg?name=small",
-          "width": 800,
-          "height": 540
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 135,
+  "total": 136,
   "total_pages": 7,
-  "updated_at_shanghai": "2026-11-10 06:53:54",
+  "updated_at_shanghai": "2026-11-10 08:08:10",
   "account": "rocketlab"
 }
