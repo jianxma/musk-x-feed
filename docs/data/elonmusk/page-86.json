@@ -1,6 +1,60 @@
 {
   "posts": [
     {
+      "id": "2107568047964004648",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-05T21:02:45.000Z",
+      "created_at_shanghai": "2026-10-06 05:02:45",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Starship delivered its first commercial success last week in orbit. More importantly, SpaceX is making progress toward full reusability and a 100ton+ platform while the rest of the industry is catching up to Falcon 9. Read more here:",
+      "quote": {
+        "author": "ARKInvest",
+        "avatar": "https://pbs.twimg.com/profile_images/1189207021146509313/yvzyuloD_200x200.jpg",
+        "created_at_shanghai": "2026-10-06 04:09:58",
+        "created_at_utc": "2026-10-05T20:09:58.000Z",
+        "id": "2107201650687443127",
+        "images": [],
+        "media": [],
+        "name": "ARK Invest",
+        "text": "https://x.com/i/article/2107178855387865088",
+        "url": "https://x.com/ARKInvest/status/2107201650687443127",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "TashaARK",
+        "avatar": "https://pbs.twimg.com/profile_images/1619163541470060544/8IhIvkOn_200x200.jpg",
+        "created_at_shanghai": "2026-10-06 05:02:45",
+        "created_at_utc": "2026-10-05T21:02:45.000Z",
+        "id": "2107214936703160406",
+        "images": [],
+        "media": [],
+        "name": "Tasha Keeney",
+        "text": "Starship delivered its first commercial success last week in orbit. More importantly, SpaceX is making progress toward full reusability and a 100ton+ platform while the rest of the industry is catching up to Falcon 9. Read more here:",
+        "url": "https://x.com/TashaARK/status/2107214936703160406",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 73,
+        "likes": 1618,
+        "quotes": 19,
+        "replies": 77,
+        "retweets": 199,
+        "views": 378527
+      },
+      "url": "https://x.com/elonmusk/status/2107568047964004648",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107644308405039202",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1096,75 +1150,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2106907297624821870",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T00:40:18.000Z",
-      "created_at_shanghai": "2026-10-05 08:40:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Before vs after college (these are real)",
-      "quote": null,
-      "retweet": {
-        "author": "EndWokeness",
-        "avatar": "https://pbs.twimg.com/profile_images/1563691268793946117/OedvhFeS_200x200.jpg",
-        "created_at_shanghai": "2026-10-05 02:18:00",
-        "created_at_utc": "2026-10-04T18:18:00.000Z",
-        "id": "2106811085944705254",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2068780419172958208/img/93dHYoH88-oXv3jm.jpg"
-        ],
-        "media": [
-          {
-            "duration": 20.591,
-            "height": 1428,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2068780419172958208/img/93dHYoH88-oXv3jm.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2068780419172958208/vid/avc1/1080x1428/mtf3lbtT_SHxZGap.mp4?tag=28",
-            "width": 1080
-          }
-        ],
-        "name": "End Wokeness",
-        "text": "Before vs after college (these are real)",
-        "url": "https://x.com/EndWokeness/status/2106811085944705254",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 571,
-        "likes": 5438,
-        "quotes": 46,
-        "replies": 196,
-        "retweets": 677,
-        "views": 218008
-      },
-      "url": "https://x.com/elonmusk/status/2106907297624821870",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2068780419172958208/img/93dHYoH88-oXv3jm.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2068780419172958208/vid/avc1/1080x1428/mtf3lbtT_SHxZGap.mp4?tag=28",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2068780419172958208/img/93dHYoH88-oXv3jm.jpg",
-          "width": 1080,
-          "height": 1428,
-          "duration": 20.591
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 86,
   "page_size": 20,
-  "total": 2186,
+  "total": 2187,
   "total_pages": 110,
-  "updated_at_shanghai": "2026-11-10 06:53:54",
+  "updated_at_shanghai": "2026-11-10 10:10:03",
   "account": "elonmusk"
 }
