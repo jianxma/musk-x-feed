@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2118248670915404057",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-05T07:46:52.000Z",
+      "created_at_shanghai": "2026-11-05 15:46:52",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "It’s a Brave New World",
+      "quote": {
+        "author": "RepYassAnsari",
+        "avatar": "https://pbs.twimg.com/profile_images/1874962203461181440/69ThIn2J_200x200.jpg",
+        "created_at_shanghai": "2026-11-05 02:54:39",
+        "created_at_utc": "2026-11-04T18:54:39.000Z",
+        "id": "2118054336077127797",
+        "images": [],
+        "media": [],
+        "name": "Congresswoman Yassamin Ansari",
+        "text": "Top of the Democratic agenda on day 1 needs to be a pause on advanced AI development, regulation of this out of control industry, and a ban on artificial superintelligence.",
+        "url": "https://x.com/RepYassAnsari/status/2118054336077127797",
+        "verified": true,
+        "verified_type": "government"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 716,
+        "likes": 16144,
+        "quotes": 209,
+        "replies": 1929,
+        "retweets": 1359,
+        "views": 1237015
+      },
+      "url": "https://x.com/elonmusk/status/2118248670915404057",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2118214299391057973",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1169,49 +1210,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2117989734492537245",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-04T14:37:57.000Z",
-      "created_at_shanghai": "2026-11-04 22:37:57",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 432,
-        "likes": 15337,
-        "quotes": 192,
-        "replies": 922,
-        "retweets": 1760,
-        "views": 630601
-      },
-      "url": "https://x.com/elonmusk/status/2117989734492537245",
-      "images": [
-        "https://pbs.twimg.com/media/HWSccI6agAAdkHR.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWSccI6agAAdkHR.jpg?name=small",
-          "width": 480,
-          "height": 360
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 12,
   "page_size": 20,
-  "total": 2198,
+  "total": 2199,
   "total_pages": 110,
-  "updated_at_shanghai": "2026-11-10 12:13:21",
+  "updated_at_shanghai": "2026-11-10 17:24:50",
   "account": "elonmusk"
 }

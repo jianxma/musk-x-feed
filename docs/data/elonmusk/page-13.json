@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2117989734492537245",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-04T14:37:57.000Z",
+      "created_at_shanghai": "2026-11-04 22:37:57",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 432,
+        "likes": 15337,
+        "quotes": 192,
+        "replies": 922,
+        "retweets": 1760,
+        "views": 630601
+      },
+      "url": "https://x.com/elonmusk/status/2117989734492537245",
+      "images": [
+        "https://pbs.twimg.com/media/HWSccI6agAAdkHR.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWSccI6agAAdkHR.jpg?name=small",
+          "width": 480,
+          "height": 360
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2117989292144525474",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -933,71 +970,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2117667496392307004",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T17:17:30.000Z",
-      "created_at_shanghai": "2026-11-04 01:17:30",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "United Airlines just reached a major milestone: Starlink Wi-Fi is now available on 50% of its DAILY flights\n\nUnited's official live tracker now shows:\n\n• 674 aircraft equipped with Starlink\n• 352 regional aircraft\n• 315 narrowbody aircraft\n• 7 widebody aircraft\n• 50% of daily flights now have Starlink\n\nAnd the rollout is accelerating\n\nUnited is targeting 61% of daily flights by the end of 2026, with its entire fleet expected to be equipped by the end of 2027\n\nStarlink is transforming in-flight connectivity, and millions more passengers are getting access to high-speed internet in the sky",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-04 00:24:09",
-        "created_at_utc": "2026-11-03T16:24:09.000Z",
-        "id": "2117654071763189897",
-        "images": [
-          "https://pbs.twimg.com/media/HWNrJz1awAIH9cq.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1080,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWNrJz1awAIH9cq.jpg?name=small",
-            "width": 1920
-          }
-        ],
-        "name": "X Freeze",
-        "text": "United Airlines just reached a major milestone: Starlink Wi-Fi is now available on 50% of its DAILY flights\n\nUnited's official live tracker now shows:\n\n• 674 aircraft equipped with Starlink\n• 352 regional aircraft\n• 315 narrowbody aircraft\n• 7 widebody aircraft\n• 50% of daily flights now have Starlink\n\nAnd the rollout is accelerating\n\nUnited is targeting 61% of daily flights by the end of 2026, with its entire fleet expected to be equipped by the end of 2027\n\nStarlink is transforming in-flight connectivity, and millions more passengers are getting access to high-speed internet in the sky",
-        "url": "https://x.com/XFreeze/status/2117654071763189897",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 7,
-        "likes": 207,
-        "quotes": 1,
-        "replies": 22,
-        "retweets": 31,
-        "views": 8043
-      },
-      "url": "https://x.com/elonmusk/status/2117667496392307004",
-      "images": [
-        "https://pbs.twimg.com/media/HWNrJz1awAIH9cq.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWNrJz1awAIH9cq.jpg?name=small",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 13,
   "page_size": 20,
-  "total": 2198,
+  "total": 2199,
   "total_pages": 110,
-  "updated_at_shanghai": "2026-11-10 12:13:21",
+  "updated_at_shanghai": "2026-11-10 17:24:50",
   "account": "elonmusk"
 }
