@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2118388941267317134",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-05T17:04:16.000Z",
+      "created_at_shanghai": "2026-11-06 01:04:16",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "ID_AA_Carmack",
+        "avatar": "https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_200x200.jpg",
+        "created_at_shanghai": "2026-11-06 00:00:22",
+        "created_at_utc": "2026-11-05T16:00:22.000Z",
+        "id": "2118372864378146934",
+        "images": [],
+        "media": [],
+        "name": "John Carmack",
+        "text": "I’m all for championing excellence over mediocrity, but it is a mistake to imply that academic achievement is the only measure of it. Jocks and prom queens aren’t the antithesis of merit and striving, and in some ways, their arenas are more “real” than academic curriculums. Fight passivity and low standards!",
+        "url": "https://x.com/ID_AA_Carmack/status/2118372864378146934",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 193,
+        "likes": 4675,
+        "quotes": 16,
+        "replies": 421,
+        "retweets": 353,
+        "views": 366088
+      },
+      "url": "https://x.com/elonmusk/status/2118388941267317134",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2118381856454524939",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1044,75 +1085,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2118031685023604816",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-04T17:24:39.000Z",
-      "created_at_shanghai": "2026-11-05 01:24:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Pages in Grok Bot\n\n0:15 What are Pages?\n0:40 An example page\n1:34 Sharing a Page\n1:55 Tips: use your data\n2:46 @X posts\n3:44 Recap",
-      "quote": null,
-      "retweet": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2111918243460030464/aVMpxoAo_200x200.jpg",
-        "created_at_shanghai": "2026-11-05 00:44:36",
-        "created_at_utc": "2026-11-04T16:44:36.000Z",
-        "id": "2118021605544833173",
-        "images": [
-          "https://pbs.twimg.com/media/HWS4zxWaMAAcksB.png"
-        ],
-        "media": [
-          {
-            "duration": 250.816,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/media/HWS4zxWaMAAcksB.png",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2118017429741682688/vid/avc1/3840x2160/rgl19qAlMKPA_49v.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "matt palmer",
-        "text": "Pages in Grok Bot\n\n0:15 What are Pages?\n0:40 An example page\n1:34 Sharing a Page\n1:55 Tips: use your data\n2:46 @X posts\n3:44 Recap",
-        "url": "https://x.com/mattyp/status/2118021605544833173",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 336,
-        "likes": 490,
-        "quotes": 10,
-        "replies": 58,
-        "retweets": 57,
-        "views": 40590
-      },
-      "url": "https://x.com/elonmusk/status/2118031685023604816",
-      "images": [
-        "https://pbs.twimg.com/media/HWS4zxWaMAAcksB.png"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2118017429741682688/vid/avc1/3840x2160/rgl19qAlMKPA_49v.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/media/HWS4zxWaMAAcksB.png",
-          "width": 1920,
-          "height": 1080,
-          "duration": 250.816
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 12,
   "page_size": 20,
-  "total": 2209,
+  "total": 2210,
   "total_pages": 111,
-  "updated_at_shanghai": "2026-11-11 10:18:16",
+  "updated_at_shanghai": "2026-11-11 16:29:09",
   "account": "elonmusk"
 }
