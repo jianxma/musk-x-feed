@@ -1,10 +1,177 @@
 {
   "posts": [
     {
-      "id": "2120584535423565889",
+      "id": "2120591950961353125",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-11T18:58:14.000Z",
+      "created_at_shanghai": "2026-11-12 02:58:14",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Person for scale",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 32,
+        "likes": 1093,
+        "quotes": 21,
+        "replies": 256,
+        "retweets": 124,
+        "views": 311213
+      },
+      "url": "https://x.com/elonmusk/status/2120591950961353125",
+      "images": [
+        "https://pbs.twimg.com/media/HW3bG9vagAAwCcq.jpg?name=small",
+        "https://pbs.twimg.com/media/HW3bG9vbAAARZza.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW3bG9vagAAwCcq.jpg?name=small",
+          "width": 1176,
+          "height": 784
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW3bG9vbAAARZza.jpg?name=small",
+          "width": 942,
+          "height": 2048
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2120590521253126183",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-11T18:52:33.000Z",
+      "created_at_shanghai": "2026-11-12 02:52:33",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship Super Heavy rocket booster moved to launch pad",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-11 02:21:23",
+        "created_at_utc": "2026-11-10T18:21:23.000Z",
+        "id": "2120220290219208884",
+        "images": [
+          "https://pbs.twimg.com/media/HWyJCAYXcAAFtkn.jpg?name=small",
+          "https://pbs.twimg.com/media/HWyJD07XwAANxuA.jpg?name=small",
+          "https://pbs.twimg.com/media/HWyJFLKWIAAOuYn.jpg?name=small",
+          "https://pbs.twimg.com/media/HWyJGbQXcAAwXqr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1280,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJCAYXcAAFtkn.jpg?name=small",
+            "width": 1920
+          },
+          {
+            "height": 1280,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJD07XwAANxuA.jpg?name=small",
+            "width": 1920
+          },
+          {
+            "height": 1280,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJFLKWIAAOuYn.jpg?name=small",
+            "width": 1920
+          },
+          {
+            "height": 1280,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJGbQXcAAwXqr.jpg?name=small",
+            "width": 1920
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Super Heavy moved to the launch pad at Starbase. Booster 22 is the first Super Heavy V3 booster planned to return to the launch site for catch and was used for final catch testing upon arrival, including a suspended squeeze test at catch height",
+        "url": "https://x.com/SpaceX/status/2120220290219208884",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 1506,
+        "quotes": 25,
+        "replies": 269,
+        "retweets": 176,
+        "views": 379707
+      },
+      "url": "https://x.com/elonmusk/status/2120590521253126183",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2120589832963711162",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-11T18:49:49.000Z",
+      "created_at_shanghai": "2026-11-12 02:49:49",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Tesla Megapacks are designed to ensure grid stability, so that you never have a blackout",
+      "quote": {
+        "author": "Tesla_Megapack",
+        "avatar": "https://pbs.twimg.com/profile_images/1877130143715786752/5jFb1Ads_200x200.png",
+        "created_at_shanghai": "2026-11-11 08:59:04",
+        "created_at_utc": "2026-11-11T00:59:04.000Z",
+        "id": "2120320369282437219",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120314908789309440/img/YUtiKL7khDLrLOrT.jpg"
+        ],
+        "media": [
+          {
+            "duration": 145.562,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120314908789309440/img/YUtiKL7khDLrLOrT.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120314908789309440/vid/avc1/3840x2160/huhT0QlKIss9CyM4.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Tesla Megapack",
+        "text": "Tesla's Controller-Hardware-In-the-Loop (CHIL) is key to bringing Megapack sites online faster\n\nCHIL allows us to simulate the entire site in real time before it’s connected to the grid. We can see how the site will respond to faults, frequency changes or if a tree were to fall on a power line. \n\nCHIL validated 444 grid-forming Megapacks at Melbourne Renewable Energy Hub before grid connection, delivering 600 MW / 1.6 GWh of storage months ahead of schedule",
+        "url": "https://x.com/Tesla_Megapack/status/2120320369282437219",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 72,
+        "likes": 1748,
+        "quotes": 30,
+        "replies": 335,
+        "retweets": 256,
+        "views": 585978
+      },
+      "url": "https://x.com/elonmusk/status/2120589832963711162",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2120584535423565889",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-11T18:28:46.000Z",
@@ -56,7 +223,7 @@
       "id": "2120582866413514912",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-11T18:22:08.000Z",
@@ -1045,135 +1212,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2120102767624880364",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-10T10:34:24.000Z",
-      "created_at_shanghai": "2026-11-10 18:34:24",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Turns out that the Starlink software, built for managing the movement of vast amounts of data through space and to the ground, is also very well suited to training super intelligence",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 106,
-        "likes": 1804,
-        "quotes": 59,
-        "replies": 487,
-        "retweets": 251,
-        "views": 358890
-      },
-      "url": "https://x.com/elonmusk/status/2120102767624880364",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120101380144992635",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-10T10:28:53.000Z",
-      "created_at_shanghai": "2026-11-10 18:28:53",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk just revealed something huge about Grok's new SI training and inference infrastructure\n\nThe engineering behind Starlink is now helping power the development of Grok\n\nSpaceXSI has completely rewritten Grok's reinforcement learning and inference software from scratch, replacing JAX and SGLang with its own system built primarily in C, with a little C++\n\nAnd the most important part is where this engineering expertise comes from\n\nThe new stack is built on the incredible work of the engineers who created Starlink's incredibly complex satellite network\n\nElon explained:\n\n\"At SpaceX, we write our own headers and calculate our own time (includes leap seconds). Not many people will know what this means, but those that do will appreciate it.\"\n\nHere's why that's significant\n\nSpaceX engineers build and control critical parts of their software themselves, even down to the code interfaces and precise time calculations needed for satellite operations\n\nThis gives them much tighter control over how their systems operate, reducing unnecessary software dependencies and allowing them to optimize performance and reliability\n\nNow that same engineering philosophy is being applied to Grok",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-10 18:14:07",
-        "created_at_utc": "2026-11-10T10:14:07.000Z",
-        "id": "2120097663794483601",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "At SpaceX, we write our own headers and calculate our own time (includes leap seconds). Not many people will know what this means, but those that do will appreciate it.\n\nThe new Grok AI/SI training and inference stack is derived from incredible of work done by amazing engineers to create Starlink.",
-        "url": "https://x.com/elonmusk/status/2120097663794483601",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-10 18:27:43",
-        "created_at_utc": "2026-11-10T10:27:43.000Z",
-        "id": "2120101086988222653",
-        "images": [],
-        "media": [],
-        "name": "X Freeze",
-        "text": "Elon Musk just revealed something huge about Grok's new SI training and inference infrastructure\n\nThe engineering behind Starlink is now helping power the development of Grok\n\nSpaceXSI has completely rewritten Grok's reinforcement learning and inference software from scratch, replacing JAX and SGLang with its own system built primarily in C, with a little C++\n\nAnd the most important part is where this engineering expertise comes from\n\nThe new stack is built on the incredible work of the engineers who created Starlink's incredibly complex satellite network\n\nElon explained:\n\n\"At SpaceX, we write our own headers and calculate our own time (includes leap seconds). Not many people will know what this means, but those that do will appreciate it.\"\n\nHere's why that's significant\n\nSpaceX engineers build and control critical parts of their software themselves, even down to the code interfaces and precise time calculations needed for satellite operations\n\nThis gives them much tighter control over how their systems operate, reducing unnecessary software dependencies and allowing them to optimize performance and reliability\n\nNow that same engineering philosophy is being applied to Grok",
-        "url": "https://x.com/XFreeze/status/2120101086988222653",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 27,
-        "likes": 242,
-        "quotes": 3,
-        "replies": 35,
-        "retweets": 50,
-        "views": 30110
-      },
-      "url": "https://x.com/elonmusk/status/2120101380144992635",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120090806765932705",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-10T09:46:52.000Z",
-      "created_at_shanghai": "2026-11-10 17:46:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Taking the Shinkansen and all I can think about is how do we not have this between SF and LA...\n\n if only you knew how great things could be if we voted out the Decels",
-      "quote": null,
-      "retweet": {
-        "author": "beffjezos",
-        "avatar": "https://pbs.twimg.com/profile_images/2104068258311901184/vmbQ61I3_200x200.jpg",
-        "created_at_shanghai": "2026-11-10 09:50:09",
-        "created_at_utc": "2026-11-10T01:50:09.000Z",
-        "id": "2119970837302292728",
-        "images": [],
-        "media": [],
-        "name": "Beff (e/acc)",
-        "text": "Taking the Shinkansen and all I can think about is how do we not have this between SF and LA...\n\n if only you knew how great things could be if we voted out the Decels",
-        "url": "https://x.com/beffjezos/status/2119970837302292728",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 14,
-        "likes": 282,
-        "quotes": 0,
-        "replies": 40,
-        "retweets": 29,
-        "views": 25936
-      },
-      "url": "https://x.com/elonmusk/status/2120090806765932705",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2219,
-  "total_pages": 111,
-  "updated_at_shanghai": "2026-11-12 02:37:00",
+  "total": 2222,
+  "total_pages": 112,
+  "updated_at_shanghai": "2026-11-12 03:01:58",
   "account": "elonmusk"
 }
