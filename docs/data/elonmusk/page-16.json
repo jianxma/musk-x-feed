@@ -1,6 +1,160 @@
 {
   "posts": [
     {
+      "id": "2117626333974983007",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T14:33:56.000Z",
+      "created_at_shanghai": "2026-11-03 22:33:56",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I was at the beach with a couple of friends, and we were all hungry and wanted to find a really good restaurant for dinner\n\nBut we couldn't decide where to go. You know how it is when you're traveling, you end up spending so much time searching through Google trying to find the best place\n\nThen one of my friends said, \"Just ask Grok Bot\"\n\nSo we did, and it literally picked a restaurant nearby for us\n\nWe just had dinner there, and it turned out to be the BEST food we've had since arriving here last night 😂\n\nThe Pad Thai was great, the mango shake was great, and the dessert was absolutely amazing\n\nI'm telling you, Grok Bot is making even the little things in life sooo much easier",
+      "quote": null,
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 21:42:38",
+        "created_at_utc": "2026-11-03T13:42:38.000Z",
+        "id": "2117613423274111487",
+        "images": [
+          "https://pbs.twimg.com/media/HWNGKPnbQAAKO2A.jpg?name=small",
+          "https://pbs.twimg.com/media/HWNGLL0bIAAf0-2.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 3669,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWNGKPnbQAAKO2A.jpg?name=small",
+            "width": 1890
+          },
+          {
+            "height": 4096,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWNGLL0bIAAf0-2.jpg?name=small",
+            "width": 3072
+          }
+        ],
+        "name": "X Freeze",
+        "text": "I was at the beach with a couple of friends, and we were all hungry and wanted to find a really good restaurant for dinner\n\nBut we couldn't decide where to go. You know how it is when you're traveling, you end up spending so much time searching through Google trying to find the best place\n\nThen one of my friends said, \"Just ask Grok Bot\"\n\nSo we did, and it literally picked a restaurant nearby for us\n\nWe just had dinner there, and it turned out to be the BEST food we've had since arriving here last night 😂\n\nThe Pad Thai was great, the mango shake was great, and the dessert was absolutely amazing\n\nI'm telling you, Grok Bot is making even the little things in life sooo much easier",
+        "url": "https://x.com/XFreeze/status/2117613423274111487",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 36,
+        "likes": 963,
+        "quotes": 10,
+        "replies": 74,
+        "retweets": 107,
+        "views": 251892
+      },
+      "url": "https://x.com/elonmusk/status/2117626333974983007",
+      "images": [
+        "https://pbs.twimg.com/media/HWNGKPnbQAAKO2A.jpg?name=small",
+        "https://pbs.twimg.com/media/HWNGLL0bIAAf0-2.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWNGKPnbQAAKO2A.jpg?name=small",
+          "width": 1890,
+          "height": 3669
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWNGLL0bIAAf0-2.jpg?name=small",
+          "width": 3072,
+          "height": 4096
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2117626274365788210",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T14:33:42.000Z",
+      "created_at_shanghai": "2026-11-03 22:33:42",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Build just got a massive performance and reliability upgrade, with improvements across multi-agent workflows, terminal responsiveness, session recovery, and overall stability\n\nLong-running sessions now use less memory, large JSON and log pastes no longer freeze the terminal, Linux file watching uses significantly less CPU, and background subagent activity triggers far fewer unnecessary screen redraws\n\nSession resuming is also much faster, subagent conversations are easier to follow, shell approvals now explain why commands were blocked, and `@` file navigation can access files outside the workspace\n\nThere’s also a huge reliability pass covering safer updates, MCP authentication, context window handling, workflow execution, Windows and macOS stability, and more reliable headless sessions\n\nGrok Build keeps getting better at handling bigger projects, longer conversations, and increasingly complex multi-agent workloads without slowing down\n\nRelease Notes: v1.0.74\n\nFeatures:\n\n• Messages between subagents appear as left-aligned rows under the bullet that name the sender and recipient, replacing the centered rows\n• Shift+Enter inserts a newline in VS Code and other xterm.js-based terminals that use the Kitty keyboard protocol\n• `/mcps`: when a browser can't open an MCP server's sign-in URL, the URL shows in a panel you can copy with `c` or the [Copy the url] button\n• [Copy] button in a finished `/btw` panel and its folded transcript row copies the whole answer, even when only part of it is visible\n• Shell approval cards say when Auto-review blocked a command or couldn't review it, and Ctrl+F shows the reviewer's explanation\n• `!` mode Tab completion offers commands installed as symlinks, such as Homebrew, npm, rustup and Debian alternatives binaries\n• Quotes in replies get a [Copy] button that copies the whole quote as Markdown without its `>` markers\n• Named subagent links open on a plain click, so they work over SSH from macOS where a modified click can't reach Grok\n• `@` paths outside the workspace: an `@` path that starts with `/`, `~/` or `../` lists files from that folder; set `[ui] at_picker_outside_workspace = false` to turn it off.\n• Picked `@` files in the prompt can be edited in place: Backspace at the end of one reopens the picker on its path, and Left or Right puts the cursor inside it to change the path\n\nBug Fixes:\n\n• Built-in skills, agents and workflows are refreshed when their local cache's manifest is missing or corrupt, instead of staying outdated or failing every sync\n• Ctrl+Y on a question card no longer closes it without an answer; while you type an answer, it pastes back text cut with Ctrl+K\n• `/new` tabs show the context window you just switched to before the new session replies\n• Resumed sessions show a background command's completion in the turn that ran it, with its real run time instead of about 0.0s\n• `grok update` runs when GROK_SANDBOX, --sandbox, or config sets a sandbox profile, unless Grok is already running confined\n• `/btw` on a very short terminal no longer swallows arrow keys, Page Up/Down or clicks while its panel is too small to draw\n• A code block's [Copy] in the transcript copies while a queued prompt is open for editing, instead of copying nothing or closing the edit\n• `grok logout` stays signed out when another running Grok refreshes its sign-in, instead of signing you back in on the next launch\n• Opening links and files from the TUI no longer leaves a zombie process behind for each click\n• A failed session delete shows the \"Couldn't delete session\" prefix once, so the reason is no longer cut off\n• Windows: Grok exits fully after a startup error, a `/minimal` or `/fullscreen` switch, or a signal, instead of sometimes hanging\n• Grok running confined in a sandbox never starts an update on its own and tells you to run `grok update` instead\n• Quitting to install an update with Ctrl+U on the welcome screen exits within the usual exit deadline instead of sometimes hanging after \"Update installed\"\n• `grok update --force-reinstall`, or `grok update --version` with the installed version, keeps your working Grok on Linux and macOS when the download fails its checks, instead of deleting it\n• Windows installers check that the downloaded build runs before replacing grok.exe and agent.exe, and keep the existing install when it doesn't, such as when a proxy serves a blocked-download page\n• Command-line arguments that aren't valid UTF-8 no longer crash Grok at startup: paths such as --cwd accept them, and text such as -p gets a usage error\n• Installers keep the installed Grok when a proxy or cache returns an empty download, instead of replacing it with an empty file and reporting success\n• Environment variables with non-UTF-8 bytes no longer stop Grok from starting.\n• Workflow run lines in the transcript end with what the run returned instead of a bare colon, `/tasks` shows the time it was taken, and polling an unknown task id leaves a row with its error\n• Headless runs stopped by Ctrl+C or SIGTERM end their json, streaming-json or streaming-messages-json output with a closing record that keeps the run's outcome, instead of cutting off the stream\n• macOS: the TUI no longer freezes when it runs inside a sandbox that blocks the window server\n• `grok -p --resume` shows why a session couldn't load instead of always \"Session does not exist\", and with `--output-format json` a resume, continue or fork that fails before the session opens prints one JSON error\n• Sessions with an unrecognized reasoning effort or unreadable bytes in their history resume instead of failing: the session runs at the model's default effort and says so once, and the unreadable lines are left out of the transcript\n• Windows: on older consoles such as plain cmd.exe and Windows PowerShell windows, status marks and selection arrows in workflow views, the dashboard, and the feedback and extensions dialogs show as >, ·, √ or x instead of empty boxes\n• File paths with spaces in inline code, such as `~/Library/Application Support/...`, link to the whole path when it exists instead of stopping at the first space.\n• Feedback that can't be sent leads with the outcome, such as \"Couldn't send feedback. Saved to Drafts.\", then gives the reason and says to retry from `/feedback`.\n• Dialog tab labels, shortcuts and settings rows that don't fit end in … instead of being cut off\n• Prompt history search highlights matched letters in the same color as other fuzzy lists, and the counts on the `/` and `@` menu borders are dimmed like other border captions\n• Dashboard: the peek header reads Responding while a reply streams, and the Esc footer hint reads new agent like the other lowercase hints\n• Custom agent files saved with a UTF-8 byte order mark, as some Windows editors write them, load instead of being skipped\n• Running markers in workflow views and MCP servers that are still starting use the theme's running color, like other progress indicators\n• Minimal mode: \"Sign-in failed\" shows in the error color instead of the warning color.\n• Context window: a larger window picked with `/context-window` or set with `context_window` in a `[model.\"<id>\"]` table stays in effect, so compaction no longer starts early after the session sits idle, after a failed request such as a rate limit, or until you restart\n\nPerformance:\n\n• Long sessions use less memory: finished Markdown blocks far off screen release their rendered layout, and search still finds their text\n• Typing no longer lags when ffmpeg isn't installed and PATH holds slow directories, such as Windows drives under WSL\n• Long pastes that arrive as keystrokes, such as pastes on native Windows or in terminals without bracketed paste, no longer freeze the prompt for seconds while the plan-mode tip is on\n• Pasting long single-line text such as logs, JSON or base64 into the prompt no longer freezes the TUI for seconds\n• File watching on Linux no longer keeps a CPU core busy for about a minute after startup in large repositories.\n• Lower CPU use while subagents run: the TUI repaints only for animations on screen, about 7 times a second instead of 30 when no running row is visible\n• `grok --resume <id>` opens much faster on large session stores, reading only the resumed session instead of every session",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-28 07:44:17",
+        "created_at_utc": "2026-10-27T23:44:17.000Z",
+        "id": "2115228120001495117",
+        "images": [
+          "https://pbs.twimg.com/media/HVrMv10aYAA0TB2.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 849,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVrMv10aYAA0TB2.jpg?name=small",
+            "width": 1510
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok Build just got a powerful new update, turning its terminal into an even more interactive command center for multi-agent workflows.\n\nFile paths, subagent IDs, background tasks, and pull-request numbers are now clickable directly from agent replies, while workflow navigation makes it easier to jump between phases and individual agents without digging through transcripts.\n\nOne of the biggest improvements is under the hood: MCP tools built with FastMCP or the official MCP SDK no longer send duplicate results, cutting context usage for those calls roughly in half.\n\nThere are also safer session deletion prompts, better feedback handling, fixes for custom models, more reliable MCP responses, and improved terminal navigation.\n\nLess wasted context. Faster navigation. Much better control over complex agent workflows.\n\nRelease Notes: v1.0.72\n\nFeatures:\n\n• Relative file paths in the agent's output, such as src/app/main.rs, open on click when the file exists under the session's folder, as absolute paths already do.\n• Subagent and background task ids mentioned in the transcript open that subagent's view or the task's output on click.\n• Pull-request numbers such as #123 in the agent's replies open that pull request on the session repository's forge.\n• Subagents named in a reply show as the subagent's label instead of its raw id once the reply finishes, as a link that opens its transcript.\n• /workflow runs detail view: → or a click focuses a phase's agent list, ↑/↓ pick an agent, Enter opens it, and ← returns to the phases.\n• Feedback draft rows show on their own instead of inside a group of tool rows, and opening one shows the /feedback Drafts tab with that draft selected.\nBug Fixes:\n• Warp: clicking a URL that wraps across rows opens the whole URL instead of only its first row.\n• /delete confirmation starts on Cancel, so pressing Enter no longer deletes the session; press 1 to delete.\n• Max thoughts width (/settings, [ui].max_thoughts_width) sets how wide thinking blocks wrap; it previously had no effect.\n• Dashboard shows the new folder on the dispatch box's top border right after a Ctrl+L or /cd pick.\n• Custom models on the Responses API with a non-xAI base_url no longer fail every turn with an HTTP 400 schema error for use_tool.\n• /feedback Drafts tab keeps the selected draft when the list reloads, such as after leaving Drafts and coming back.\n• MCP tools built with FastMCP or the official MCP SDK send their result to the model once instead of twice, so each call uses about half the context.\n• Plan review notes accept every key, so a note that starts with a no longer approves the plan.\n• MCP servers over stdio no longer lose part of a long reply line, such as a large tool list, when a read is interrupted.",
+        "url": "https://x.com/XFreeze/status/2115228120001495117",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 15:36:04",
+        "created_at_utc": "2026-11-03T07:36:04.000Z",
+        "id": "2117521174406299738",
+        "images": [
+          "https://pbs.twimg.com/media/HWLyKd2aQAAn2bE.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 899,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWLyKd2aQAAn2bE.jpg?name=small",
+            "width": 1598
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok Build just got a massive performance and reliability upgrade, with improvements across multi-agent workflows, terminal responsiveness, session recovery, and overall stability\n\nLong-running sessions now use less memory, large JSON and log pastes no longer freeze the terminal, Linux file watching uses significantly less CPU, and background subagent activity triggers far fewer unnecessary screen redraws\n\nSession resuming is also much faster, subagent conversations are easier to follow, shell approvals now explain why commands were blocked, and `@` file navigation can access files outside the workspace\n\nThere’s also a huge reliability pass covering safer updates, MCP authentication, context window handling, workflow execution, Windows and macOS stability, and more reliable headless sessions\n\nGrok Build keeps getting better at handling bigger projects, longer conversations, and increasingly complex multi-agent workloads without slowing down\n\nRelease Notes: v1.0.74\n\nFeatures:\n\n• Messages between subagents appear as left-aligned rows under the bullet that name the sender and recipient, replacing the centered rows\n• Shift+Enter inserts a newline in VS Code and other xterm.js-based terminals that use the Kitty keyboard protocol\n• `/mcps`: when a browser can't open an MCP server's sign-in URL, the URL shows in a panel you can copy with `c` or the [Copy the url] button\n• [Copy] button in a finished `/btw` panel and its folded transcript row copies the whole answer, even when only part of it is visible\n• Shell approval cards say when Auto-review blocked a command or couldn't review it, and Ctrl+F shows the reviewer's explanation\n• `!` mode Tab completion offers commands installed as symlinks, such as Homebrew, npm, rustup and Debian alternatives binaries\n• Quotes in replies get a [Copy] button that copies the whole quote as Markdown without its `>` markers\n• Named subagent links open on a plain click, so they work over SSH from macOS where a modified click can't reach Grok\n• `@` paths outside the workspace: an `@` path that starts with `/`, `~/` or `../` lists files from that folder; set `[ui] at_picker_outside_workspace = false` to turn it off.\n• Picked `@` files in the prompt can be edited in place: Backspace at the end of one reopens the picker on its path, and Left or Right puts the cursor inside it to change the path\n\nBug Fixes:\n\n• Built-in skills, agents and workflows are refreshed when their local cache's manifest is missing or corrupt, instead of staying outdated or failing every sync\n• Ctrl+Y on a question card no longer closes it without an answer; while you type an answer, it pastes back text cut with Ctrl+K\n• `/new` tabs show the context window you just switched to before the new session replies\n• Resumed sessions show a background command's completion in the turn that ran it, with its real run time instead of about 0.0s\n• `grok update` runs when GROK_SANDBOX, --sandbox, or config sets a sandbox profile, unless Grok is already running confined\n• `/btw` on a very short terminal no longer swallows arrow keys, Page Up/Down or clicks while its panel is too small to draw\n• A code block's [Copy] in the transcript copies while a queued prompt is open for editing, instead of copying nothing or closing the edit\n• `grok logout` stays signed out when another running Grok refreshes its sign-in, instead of signing you back in on the next launch\n• Opening links and files from the TUI no longer leaves a zombie process behind for each click\n• A failed session delete shows the \"Couldn't delete session\" prefix once, so the reason is no longer cut off\n• Windows: Grok exits fully after a startup error, a `/minimal` or `/fullscreen` switch, or a signal, instead of sometimes hanging\n• Grok running confined in a sandbox never starts an update on its own and tells you to run `grok update` instead\n• Quitting to install an update with Ctrl+U on the welcome screen exits within the usual exit deadline instead of sometimes hanging after \"Update installed\"\n• `grok update --force-reinstall`, or `grok update --version` with the installed version, keeps your working Grok on Linux and macOS when the download fails its checks, instead of deleting it\n• Windows installers check that the downloaded build runs before replacing grok.exe and agent.exe, and keep the existing install when it doesn't, such as when a proxy serves a blocked-download page\n• Command-line arguments that aren't valid UTF-8 no longer crash Grok at startup: paths such as --cwd accept them, and text such as -p gets a usage error\n• Installers keep the installed Grok when a proxy or cache returns an empty download, instead of replacing it with an empty file and reporting success\n• Environment variables with non-UTF-8 bytes no longer stop Grok from starting.\n• Workflow run lines in the transcript end with what the run returned instead of a bare colon, `/tasks` shows the time it was taken, and polling an unknown task id leaves a row with its error\n• Headless runs stopped by Ctrl+C or SIGTERM end their json, streaming-json or streaming-messages-json output with a closing record that keeps the run's outcome, instead of cutting off the stream\n• macOS: the TUI no longer freezes when it runs inside a sandbox that blocks the window server\n• `grok -p --resume` shows why a session couldn't load instead of always \"Session does not exist\", and with `--output-format json` a resume, continue or fork that fails before the session opens prints one JSON error\n• Sessions with an unrecognized reasoning effort or unreadable bytes in their history resume instead of failing: the session runs at the model's default effort and says so once, and the unreadable lines are left out of the transcript\n• Windows: on older consoles such as plain cmd.exe and Windows PowerShell windows, status marks and selection arrows in workflow views, the dashboard, and the feedback and extensions dialogs show as >, ·, √ or x instead of empty boxes\n• File paths with spaces in inline code, such as `~/Library/Application Support/...`, link to the whole path when it exists instead of stopping at the first space.\n• Feedback that can't be sent leads with the outcome, such as \"Couldn't send feedback. Saved to Drafts.\", then gives the reason and says to retry from `/feedback`.\n• Dialog tab labels, shortcuts and settings rows that don't fit end in … instead of being cut off\n• Prompt history search highlights matched letters in the same color as other fuzzy lists, and the counts on the `/` and `@` menu borders are dimmed like other border captions\n• Dashboard: the peek header reads Responding while a reply streams, and the Esc footer hint reads new agent like the other lowercase hints\n• Custom agent files saved with a UTF-8 byte order mark, as some Windows editors write them, load instead of being skipped\n• Running markers in workflow views and MCP servers that are still starting use the theme's running color, like other progress indicators\n• Minimal mode: \"Sign-in failed\" shows in the error color instead of the warning color.\n• Context window: a larger window picked with `/context-window` or set with `context_window` in a `[model.\"<id>\"]` table stays in effect, so compaction no longer starts early after the session sits idle, after a failed request such as a rate limit, or until you restart\n\nPerformance:\n\n• Long sessions use less memory: finished Markdown blocks far off screen release their rendered layout, and search still finds their text\n• Typing no longer lags when ffmpeg isn't installed and PATH holds slow directories, such as Windows drives under WSL\n• Long pastes that arrive as keystrokes, such as pastes on native Windows or in terminals without bracketed paste, no longer freeze the prompt for seconds while the plan-mode tip is on\n• Pasting long single-line text such as logs, JSON or base64 into the prompt no longer freezes the TUI for seconds\n• File watching on Linux no longer keeps a CPU core busy for about a minute after startup in large repositories.\n• Lower CPU use while subagents run: the TUI repaints only for animations on screen, about 7 times a second instead of 30 when no running row is visible\n• `grok --resume <id>` opens much faster on large session stores, reading only the resumed session instead of every session",
+        "url": "https://x.com/XFreeze/status/2117521174406299738",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 101,
+        "likes": 783,
+        "quotes": 4,
+        "replies": 52,
+        "retweets": 103,
+        "views": 240578
+      },
+      "url": "https://x.com/elonmusk/status/2117626274365788210",
+      "images": [
+        "https://pbs.twimg.com/media/HWLyKd2aQAAn2bE.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWLyKd2aQAAn2bE.jpg?name=small",
+          "width": 1598,
+          "height": 899
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2117605474392854848",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1137,105 +1291,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2117464990579892594",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T03:52:49.000Z",
-      "created_at_shanghai": "2026-11-03 11:52:49",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Yeah, much easier to cool in space. \n\n~1300 W/m^2 is easily achievable for an aluminum radiator pointed away from the Sun, as it is mostly just seeing cosmic background radiation at ~3 degrees above absolute zero!\n\nSolar panels generate ~250 W/m^2, so you should expect them to have ~5 times the area of the radiator. Most of the mass of the satellite is solar panels.",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 11:43:14",
-        "created_at_utc": "2026-11-03T03:43:14.000Z",
-        "id": "2117462581371719779",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Yeah, much easier to cool in space. \n\n~1300 W/m^2 is easily achievable for an aluminum radiator pointed away from the Sun, as it is mostly just seeing cosmic background radiation at ~3 degrees above absolute zero!\n\nSolar panels generate ~250 W/m^2, so you should expect them to have ~5 times the area of the radiator. Most of the mass of the satellite is solar panels.",
-        "url": "https://x.com/elonmusk/status/2117462581371719779",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "shaunmmaguire",
-      "engagement": {
-        "bookmarks": 864,
-        "likes": 9290,
-        "quotes": 127,
-        "replies": 532,
-        "retweets": 577,
-        "views": 926477
-      },
-      "url": "https://x.com/elonmusk/status/2117464990579892594",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2117463822332314036",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T03:48:10.000Z",
-      "created_at_shanghai": "2026-11-03 11:48:10",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot",
-      "quote": {
-        "author": "dkmitc",
-        "avatar": "https://pbs.twimg.com/profile_images/2059732043903193096/4mHi6EnS_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 05:57:13",
-        "created_at_utc": "2026-11-02T21:57:13.000Z",
-        "id": "2117375502285721792",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2117374805699653632/img/LUQ7GilJPD9Df83y.jpg"
-        ],
-        "media": [
-          {
-            "duration": 112.733,
-            "height": 1920,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117374805699653632/img/LUQ7GilJPD9Df83y.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2117374805699653632/vid/avc1/1080x1920/ZOCWX1CUPcAwgqDc.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "Dylan",
-        "text": "I had my Grok Bot shop around new Auto Insurance. It couldn’t find info about Progressives Glass coverage and as all Tesla owners know Windshield replacements can be pricey. I had Grok Bot call Progressive and get additional information for me all while I picked my kids up from school without me ever having to talk to a person. \n\nHere is the transcript and actual recording from the call. Personal info was bleeped and some parts cut for time. While there’s some improvements that can be made it got the job done. \n\nMy mind is thoroughly blown!",
-        "url": "https://x.com/dkmitc/status/2117375502285721792",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 381,
-        "likes": 3037,
-        "quotes": 44,
-        "replies": 647,
-        "retweets": 382,
-        "views": 1114295
-      },
-      "url": "https://x.com/elonmusk/status/2117463822332314036",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 20,
-  "total": 2214,
+  "total": 2216,
   "total_pages": 111,
-  "updated_at_shanghai": "2026-11-11 17:33:09",
+  "updated_at_shanghai": "2026-11-12 01:18:58",
   "account": "elonmusk"
 }
