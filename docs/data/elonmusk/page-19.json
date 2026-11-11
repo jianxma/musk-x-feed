@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2116990933103509723",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-01T20:29:04.000Z",
+      "created_at_shanghai": "2026-11-02 04:29:04",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "This is what they stole from us",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 140,
+        "likes": 2828,
+        "quotes": 62,
+        "replies": 423,
+        "retweets": 375,
+        "views": 351601
+      },
+      "url": "https://x.com/elonmusk/status/2116990933103509723",
+      "images": [
+        "https://pbs.twimg.com/media/HWEQCFgWIAAYfY1.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWEQCFgWIAAYfY1.jpg?name=small",
+          "width": 1152,
+          "height": 1038
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116990584048984346",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -985,66 +1022,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2116887497384906779",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-01T13:38:03.000Z",
-      "created_at_shanghai": "2026-11-01 21:38:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "X is the only place where the Legacy Media can’t censor information. \n\nThey have to denigrate X in order to maintain their grip on the information flow to Americans. \n\nX is where you find the truth.",
-      "quote": {
-        "author": "TheAtlantic",
-        "avatar": "https://pbs.twimg.com/profile_images/1604927618775764993/WJdNY4fH_200x200.jpg",
-        "created_at_shanghai": "2026-11-01 16:15:07",
-        "created_at_utc": "2026-11-01T08:15:07.000Z",
-        "id": "2116806228663820548",
-        "images": [],
-        "media": [],
-        "name": "The Atlantic",
-        "text": "Elon Musk’s X has become the go-to place for MAGA supporters to hunt for examples of voter fraud, @WillOremus reports. He examines how the platform could play a central role in the midterm elections: https://www.theatlantic.com/technology/2026/10/x-midterm-election-ai-fact-check/689245/?taid=6ae6f50b1d3fbb0001703811&utm_campaign=the-atlantic&utm_content=edit-promo&utm_medium=social&utm_source=twitter",
-        "url": "https://x.com/TheAtlantic/status/2116806228663820548",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "KatieMiller",
-        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
-        "created_at_shanghai": "2026-11-01 21:31:39",
-        "created_at_utc": "2026-11-01T13:31:39.000Z",
-        "id": "2116885883899330882",
-        "images": [],
-        "media": [],
-        "name": "Katie Miller",
-        "text": "X is the only place where the Legacy Media can’t censor information. \n\nThey have to denigrate X in order to maintain their grip on the information flow to Americans. \n\nX is where you find the truth.",
-        "url": "https://x.com/KatieMiller/status/2116885883899330882",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 68,
-        "likes": 3855,
-        "quotes": 29,
-        "replies": 337,
-        "retweets": 658,
-        "views": 308619
-      },
-      "url": "https://x.com/elonmusk/status/2116887497384906779",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 19,
   "page_size": 20,
-  "total": 2223,
+  "total": 2224,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 05:12:35",
+  "updated_at_shanghai": "2026-11-12 06:07:36",
   "account": "elonmusk"
 }
