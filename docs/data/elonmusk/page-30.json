@@ -1,6 +1,117 @@
 {
   "posts": [
     {
+      "id": "2115860783800135853",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T17:38:16.000Z",
+      "created_at_shanghai": "2026-10-30 01:38:16",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Irony Man",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 20:20:44",
+        "created_at_utc": "2026-10-29T12:20:44.000Z",
+        "id": "2115780873169809855",
+        "images": [
+          "https://pbs.twimg.com/media/HVzDfFubQAAXwiq.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1390,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVzDfFubQAAXwiq.jpg?name=small",
+            "width": 1123
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Irony Man",
+        "url": "https://x.com/cb_doge/status/2115780873169809855",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 116,
+        "likes": 2999,
+        "quotes": 36,
+        "replies": 278,
+        "retweets": 370,
+        "views": 264272
+      },
+      "url": "https://x.com/elonmusk/status/2115860783800135853",
+      "images": [
+        "https://pbs.twimg.com/media/HVzDfFubQAAXwiq.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVzDfFubQAAXwiq.jpg?name=small",
+          "width": 1123,
+          "height": 1390
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2115825787647496203",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T15:19:12.000Z",
+      "created_at_shanghai": "2026-10-29 23:19:12",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Our civilization would be winning wondrously if we are exploring the galaxy with Von Neumann probes by 2100!\n\nLarry Page might be right. He has correctly predicted many things.",
+      "quote": {
+        "author": "firesidealpha",
+        "avatar": "https://pbs.twimg.com/profile_images/2066254089756061697/MGnZGljz_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 21:52:58",
+        "created_at_utc": "2026-10-29T13:52:58.000Z",
+        "id": "2115804084901167404",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2115803424994611200/img/lCL3-lrxkYl9ukL9.jpg"
+        ],
+        "media": [
+          {
+            "duration": 85.885,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115803424994611200/img/lCL3-lrxkYl9ukL9.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2115803424994611200/vid/avc1/1920x1080/S5NyU6G8HB_blw_z.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Fireside Alpha",
+        "text": "Microsoft's Mustafa Suleyman reveals Larry Page told him at SpaceX that by the end of the century he’d be exploring the galaxies at the head of a von Neumann probe\n\n“Yeah, I remember in 2015 being in the canteen at SpaceX.”\n\n“And we had our first meeting of the Ethics and Safety Board. So when we sold DeepMind to Google, we made it a condition of our acquisition that we would have an Ethics and Safety Board with independent representation on the board.\"\n\n\"One of those independent members, because Google had to agree, which was obviously Larry, Sergey, and David Drummond at the time. And then me, Demis, and Shane had to jointly agree who those three independents would be. And so we jointly picked Elon as one of them.”\n\n“No idea if that had an influence on the founding of OpenAI or not. But so then we had our morning session and we were sitting down for lunch and I was sitting next to Larry. You know, obviously he was suspicious of me as well because he was like, you know, you’re one of those speciesists.”\n\n“And he said, you know, I think that what you don’t understand, Mustafa, is that by the end of the century, I’m going to be exploring the galaxies at the head of a von Neumann probe, which means a von Neumann probe is a kind of self-propelling kind of robot that is able to gather energy from space as it’s careening through the light years.”",
+        "url": "https://x.com/firesidealpha/status/2115804084901167404",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 131,
+        "likes": 1775,
+        "quotes": 38,
+        "replies": 492,
+        "retweets": 231,
+        "views": 495473
+      },
+      "url": "https://x.com/elonmusk/status/2115825787647496203",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2115823011399938182",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -979,151 +1090,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115660146542092332",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T04:21:00.000Z",
-      "created_at_shanghai": "2026-10-29 12:21:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "The problems Neuralink are solving are almost “biblical in proportion.”\n\n“The lame can walk. The mute can speak.”\n\n— Thrive Capital’s Dr. Nworah Ayogu\n\n@elonmusk",
-      "quote": {
-        "author": "neuralink",
-        "avatar": "https://pbs.twimg.com/profile_images/1661856130535165953/zMoW6Sr1_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 04:02:06",
-        "created_at_utc": "2026-10-28T20:02:06.000Z",
-        "id": "2115534593147187397",
-        "images": [],
-        "media": [],
-        "name": "Neuralink",
-        "text": "Early Neuralink speech restoration data:\n\nWe are enabling speech to text and voice at conversational rates in participants with ALS. One participant achieved 75 WPM at 5.8% WER on a 125k-word vocabulary in their first week.",
-        "url": "https://x.com/neuralink/status/2115534593147187397",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "sourceryy",
-        "avatar": "https://pbs.twimg.com/profile_images/1983214024767553537/IenNgEX1_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 04:26:07",
-        "created_at_utc": "2026-10-28T20:26:07.000Z",
-        "id": "2115540638997590333",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110420761202814976/img/1XtWJ49Il72p6j0R.jpg"
-        ],
-        "media": [
-          {
-            "duration": 89.6,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110420761202814976/img/1XtWJ49Il72p6j0R.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110420761202814976/vid/avc1/3840x2160/MWSgETWImIUg4C6r.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "sourcery",
-        "text": "The problems Neuralink are solving are almost “biblical in proportion.”\n\n“The lame can walk. The mute can speak.”\n\n— Thrive Capital’s Dr. Nworah Ayogu\n\n@elonmusk",
-        "url": "https://x.com/sourceryy/status/2115540638997590333",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 100,
-        "likes": 1185,
-        "quotes": 11,
-        "replies": 82,
-        "retweets": 186,
-        "views": 262645
-      },
-      "url": "https://x.com/elonmusk/status/2115660146542092332",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110420761202814976/img/1XtWJ49Il72p6j0R.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110420761202814976/vid/avc1/3840x2160/MWSgETWImIUg4C6r.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110420761202814976/img/1XtWJ49Il72p6j0R.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 89.6
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2115659967868916156",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T04:20:18.000Z",
-      "created_at_shanghai": "2026-10-29 12:20:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon on why Starlink matters most when disaster hits\nFires, floods and storms knock out fiber and cell towers. Starlink keeps people connected.\n@elonmusk",
-      "quote": null,
-      "retweet": {
-        "author": "teslaownersSV",
-        "avatar": "https://pbs.twimg.com/profile_images/2114535933811032064/CX_COICx_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 11:05:13",
-        "created_at_utc": "2026-10-29T03:05:13.000Z",
-        "id": "2115641073150333229",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2115641049041563648/img/G-AqycrybA8OvC7B.jpg"
-        ],
-        "media": [
-          {
-            "duration": 23.1,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115641049041563648/img/G-AqycrybA8OvC7B.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2115641049041563648/vid/avc1/1920x1080/u_6dBM2apJDKJSy0.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Tesla Owners Silicon Valley",
-        "text": "Elon on why Starlink matters most when disaster hits\nFires, floods and storms knock out fiber and cell towers. Starlink keeps people connected.\n@elonmusk",
-        "url": "https://x.com/teslaownersSV/status/2115641073150333229",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 44,
-        "likes": 1001,
-        "quotes": 10,
-        "replies": 85,
-        "retweets": 150,
-        "views": 197715
-      },
-      "url": "https://x.com/elonmusk/status/2115659967868916156",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2115641049041563648/img/G-AqycrybA8OvC7B.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2115641049041563648/vid/avc1/1920x1080/u_6dBM2apJDKJSy0.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115641049041563648/img/G-AqycrybA8OvC7B.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 23.1
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 30,
   "page_size": 20,
-  "total": 2212,
+  "total": 2214,
   "total_pages": 111,
-  "updated_at_shanghai": "2026-11-11 16:53:21",
+  "updated_at_shanghai": "2026-11-11 17:00:43",
   "account": "elonmusk"
 }
