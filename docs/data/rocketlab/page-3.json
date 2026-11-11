@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2115957434485485650",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-10-30T00:02:19.000Z",
+      "created_at_shanghai": "2026-10-30 08:02:19",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Giving future space missions a leg up. Or an arm, rather.\n\nRocket Lab Robotics developed a robotic arm with @NASA that can walk across spacecraft, use tools, and perform repairs and upgrades in orbit.\n\nIt launches on NASA's Fly Foundational Robots mission in late 2027. https://rocketlabcorp.com/updates/a-robotic-arm-that-can-walk-across-spacecraft-rocket-lab-built-it/",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 33,
+        "likes": 1031,
+        "quotes": 26,
+        "replies": 39,
+        "retweets": 121,
+        "views": 29771
+      },
+      "url": "https://x.com/rocketlab/status/2115957434485485650",
+      "images": [
+        "https://pbs.twimg.com/media/HV1j-9waMAAZwmC.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HV1j-9waMAAZwmC.jpg?name=small",
+          "width": 967,
+          "height": 998
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2115942119278010549",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -780,51 +817,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2113521113674518980",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-10-23T06:41:15.000Z",
-      "created_at_shanghai": "2026-10-23 14:41:15",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "T-30 minutes until our 98th Electron takes to the skies. \n\n📺 Webcast: https://www.youtube.com/watch?v=LddRNoiKJ7U",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 9,
-        "likes": 657,
-        "quotes": 8,
-        "replies": 6,
-        "retweets": 51,
-        "views": 35008
-      },
-      "url": "https://x.com/rocketlab/status/2113521113674518980",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2113520371593011200/img/gXB5Y3u1gFx0Dqcy.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2113520371593011200/vid/avc1/1920x1080/-aVcKfNWSPMohfJG.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113520371593011200/img/gXB5Y3u1gFx0Dqcy.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 9.04
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 142,
+  "total": 143,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-11-12 05:13:39",
+  "updated_at_shanghai": "2026-11-12 05:25:26",
   "account": "rocketlab"
 }
