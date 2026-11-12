@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2120978084283531641",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-11-12T20:32:35.000Z",
+      "created_at_shanghai": "2026-11-13 04:32:35",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Rocket Lab’s avionics are up and running on @NASARoman.\n\nOur hardware is enabling Roman's coronagraph instrument, the system that blocks starlight to directly image planets orbiting distant stars.\n\nNext stop: first images!",
+      "quote": {
+        "author": "NASARoman",
+        "avatar": "https://pbs.twimg.com/profile_images/1263147701753044993/27RMFMi7_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 04:21:36",
+        "created_at_utc": "2026-10-22T20:21:36.000Z",
+        "id": "2113365173201199563",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2113365126807990273/img/blxel9EgwRZmzvk1.jpg"
+        ],
+        "media": [
+          {
+            "duration": 28.328,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113365126807990273/img/blxel9EgwRZmzvk1.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2113365126807990273/vid/avc1/1920x1080/CAzcLdw9yUPNg6B_.mp4?tag=16",
+            "width": 1920
+          }
+        ],
+        "name": "Nancy Grace Roman Space Telescope",
+        "text": "It's the final countdown 🎶\n\nWe're one step closer to Roman's first images! The observatory is now fully functional and the team is performing their final checks and calibrations before starting science observations.\n\nhttps://go.nasa.gov/4A9menV",
+        "url": "https://x.com/NASARoman/status/2113365173201199563",
+        "verified": true,
+        "verified_type": "government"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2,
+        "likes": 86,
+        "quotes": 1,
+        "replies": 0,
+        "retweets": 12,
+        "views": 3315
+      },
+      "url": "https://x.com/rocketlab/status/2120978084283531641",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2120636378035994664",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -763,49 +815,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2117762021366407539",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-11-03T23:33:06.000Z",
-      "created_at_shanghai": "2026-11-04 07:33:06",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Star trackers and reaction wheels, developed in Toronto, Canada.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "RocketLab",
-      "engagement": {
-        "bookmarks": 1,
-        "likes": 141,
-        "quotes": 1,
-        "replies": 2,
-        "retweets": 16,
-        "views": 7607
-      },
-      "url": "https://x.com/rocketlab/status/2117762021366407539",
-      "images": [
-        "https://pbs.twimg.com/media/HWPM8pRa8AAEgFy.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWPM8pRa8AAEgFy.jpg?name=small",
-          "width": 4096,
-          "height": 2731
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 145,
+  "total": 146,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-11-12 05:56:48",
+  "updated_at_shanghai": "2026-11-13 04:35:13",
   "account": "rocketlab"
 }
