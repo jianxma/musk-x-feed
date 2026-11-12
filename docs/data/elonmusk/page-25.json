@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2116360100134965332",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-31T02:42:22.000Z",
+      "created_at_shanghai": "2026-10-31 10:42:22",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Voted in Texas for Paxton!",
+      "quote": null,
+      "retweet": {
+        "author": "gailalfaratx",
+        "avatar": "https://pbs.twimg.com/profile_images/2114915452761575424/qvaS6KDi_200x200.jpg",
+        "created_at_shanghai": "2026-10-31 06:21:01",
+        "created_at_utc": "2026-10-30T22:21:01.000Z",
+        "id": "2116294330638074103",
+        "images": [
+          "https://pbs.twimg.com/media/HV6Wef9WMAAQolH.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1440,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HV6Wef9WMAAQolH.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "Gail Alfar",
+        "text": "Voted in Texas for Paxton!",
+        "url": "https://x.com/gailalfaratx/status/2116294330638074103",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 31,
+        "likes": 5135,
+        "quotes": 16,
+        "replies": 318,
+        "retweets": 399,
+        "views": 290513
+      },
+      "url": "https://x.com/elonmusk/status/2116360100134965332",
+      "images": [
+        "https://pbs.twimg.com/media/HV6Wef9WMAAQolH.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HV6Wef9WMAAQolH.jpg?name=small",
+          "width": 1080,
+          "height": 1440
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116306821808017785",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1009,53 +1068,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116242462582989090",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T18:54:55.000Z",
-      "created_at_shanghai": "2026-10-31 02:54:55",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Good video about @Neuralink",
-      "quote": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 02:21:57",
-        "created_at_utc": "2026-10-30T18:21:57.000Z",
-        "id": "2116234164600963206",
-        "images": [],
-        "media": [],
-        "name": "Sawyer Merritt",
-        "text": "Cleo Abram (15M followers across all platforms) just released a new video about @neuralink. She visited the company's Austin HQ.\n\n\"This is Neuralink’s Next-Gen R1 surgical robot. Its main job is to put a computer chip into people's brains, and this is the first time they're unveiling it.\"\nhttps://www.youtube.com/watch?v=Vna0hkq7U1g",
-        "url": "https://x.com/SawyerMerritt/status/2116234164600963206",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 153,
-        "likes": 3179,
-        "quotes": 37,
-        "replies": 393,
-        "retweets": 406,
-        "views": 816954
-      },
-      "url": "https://x.com/elonmusk/status/2116242462582989090",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 20,
-  "total": 2245,
+  "total": 2246,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 06:32:08",
+  "updated_at_shanghai": "2026-11-13 06:58:54",
   "account": "elonmusk"
 }

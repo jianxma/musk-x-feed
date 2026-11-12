@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2116993181405606125",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-01T20:38:00.000Z",
+      "created_at_shanghai": "2026-11-02 04:38:00",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@elonmusk",
+      "quote": null,
+      "retweet": {
+        "author": "KittyMidge",
+        "avatar": "https://pbs.twimg.com/profile_images/2104503516299509760/5kzcutY9_200x200.jpg",
+        "created_at_shanghai": "2026-11-02 04:35:43",
+        "created_at_utc": "2026-11-01T20:35:43.000Z",
+        "id": "2116992604466467181",
+        "images": [
+          "https://pbs.twimg.com/media/HWERjPpXwAAWHCK.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1042,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWERjPpXwAAWHCK.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "KittyKittyKitty",
+        "text": "@elonmusk",
+        "url": "https://x.com/KittyMidge/status/2116992604466467181",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 480,
+        "likes": 7762,
+        "quotes": 30,
+        "replies": 129,
+        "retweets": 458,
+        "views": 421923
+      },
+      "url": "https://x.com/elonmusk/status/2116993181405606125",
+      "images": [
+        "https://pbs.twimg.com/media/HWERjPpXwAAWHCK.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWERjPpXwAAWHCK.jpg?name=small",
+          "width": 1080,
+          "height": 1042
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116991729660575998",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -950,71 +1009,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116961340950753492",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-01T18:31:29.000Z",
-      "created_at_shanghai": "2026-11-02 02:31:29",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "HAPPENING NOW: Congresswoman Haley Stevens joins Mike Rogers at church in Detroit this morning. \n\nWe have a state to save, Michigan.",
-      "quote": null,
-      "retweet": {
-        "author": "abbyronson",
-        "avatar": "https://pbs.twimg.com/profile_images/2094922523334873088/sJMmTtHx_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 00:24:34",
-        "created_at_utc": "2026-11-01T16:24:34.000Z",
-        "id": "2116929399820022102",
-        "images": [
-          "https://pbs.twimg.com/media/HWDYDiYWUAArQrf.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWDYDiYWUAArQrf.jpg?name=small",
-            "width": 1536
-          }
-        ],
-        "name": "Abby Ronson",
-        "text": "HAPPENING NOW: Congresswoman Haley Stevens joins Mike Rogers at church in Detroit this morning. \n\nWe have a state to save, Michigan.",
-        "url": "https://x.com/abbyronson/status/2116929399820022102",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 183,
-        "likes": 7258,
-        "quotes": 328,
-        "replies": 542,
-        "retweets": 975,
-        "views": 1489792
-      },
-      "url": "https://x.com/elonmusk/status/2116961340950753492",
-      "images": [
-        "https://pbs.twimg.com/media/HWDYDiYWUAArQrf.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWDYDiYWUAArQrf.jpg?name=small",
-          "width": 1536,
-          "height": 2048
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 20,
-  "total": 2245,
+  "total": 2246,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 06:32:08",
+  "updated_at_shanghai": "2026-11-13 06:58:54",
   "account": "elonmusk"
 }
