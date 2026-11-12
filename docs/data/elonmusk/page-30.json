@@ -1,6 +1,34 @@
 {
   "posts": [
     {
+      "id": "2116026427128832140",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T04:36:28.000Z",
+      "created_at_shanghai": "2026-10-30 12:36:28",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Hopefully, in a few years, we will be able to shunt signals from the motor and sensory areas of the brain to the limbs and enable people to use their hands and walk again",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 109,
+        "likes": 2583,
+        "quotes": 26,
+        "replies": 219,
+        "retweets": 183,
+        "views": 115569
+      },
+      "url": "https://x.com/elonmusk/status/2116026427128832140",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116025645385867631",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -964,71 +992,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115934826825937358",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T22:32:29.000Z",
-      "created_at_shanghai": "2026-10-30 06:32:29",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk at Tesla’s headquarters in San Carlos, California, in 2009.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 13:51:20",
-        "created_at_utc": "2026-10-29T05:51:20.000Z",
-        "id": "2115682879833600229",
-        "images": [
-          "https://pbs.twimg.com/media/HVxqXQbaIAA_2oM.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 596,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVxqXQbaIAA_2oM.jpg?name=small",
-            "width": 950
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Elon Musk at Tesla’s headquarters in San Carlos, California, in 2009.",
-        "url": "https://x.com/cb_doge/status/2115682879833600229",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 100,
-        "likes": 2750,
-        "quotes": 23,
-        "replies": 194,
-        "retweets": 290,
-        "views": 221234
-      },
-      "url": "https://x.com/elonmusk/status/2115934826825937358",
-      "images": [
-        "https://pbs.twimg.com/media/HVxqXQbaIAA_2oM.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVxqXQbaIAA_2oM.jpg?name=small",
-          "width": 950,
-          "height": 596
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 30,
   "page_size": 20,
-  "total": 2240,
-  "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 14:34:28",
+  "total": 2241,
+  "total_pages": 113,
+  "updated_at_shanghai": "2026-11-12 16:36:09",
   "account": "elonmusk"
 }

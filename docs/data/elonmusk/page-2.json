@@ -1,6 +1,77 @@
 {
   "posts": [
     {
+      "id": "2120590521253126183",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-11T18:52:33.000Z",
+      "created_at_shanghai": "2026-11-12 02:52:33",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship Super Heavy rocket booster moved to launch pad",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-11 02:21:23",
+        "created_at_utc": "2026-11-10T18:21:23.000Z",
+        "id": "2120220290219208884",
+        "images": [
+          "https://pbs.twimg.com/media/HWyJCAYXcAAFtkn.jpg?name=small",
+          "https://pbs.twimg.com/media/HWyJD07XwAANxuA.jpg?name=small",
+          "https://pbs.twimg.com/media/HWyJFLKWIAAOuYn.jpg?name=small",
+          "https://pbs.twimg.com/media/HWyJGbQXcAAwXqr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1280,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJCAYXcAAFtkn.jpg?name=small",
+            "width": 1920
+          },
+          {
+            "height": 1280,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJD07XwAANxuA.jpg?name=small",
+            "width": 1920
+          },
+          {
+            "height": 1280,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJFLKWIAAOuYn.jpg?name=small",
+            "width": 1920
+          },
+          {
+            "height": 1280,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJGbQXcAAwXqr.jpg?name=small",
+            "width": 1920
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Super Heavy moved to the launch pad at Starbase. Booster 22 is the first Super Heavy V3 booster planned to return to the launch site for catch and was used for final catch testing upon arrival, including a suspended squeeze test at catch height",
+        "url": "https://x.com/SpaceX/status/2120220290219208884",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 1506,
+        "quotes": 25,
+        "replies": 269,
+        "retweets": 176,
+        "views": 379707
+      },
+      "url": "https://x.com/elonmusk/status/2120590521253126183",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2120589832963711162",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1125,66 +1196,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2120101380144992635",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-10T10:28:53.000Z",
-      "created_at_shanghai": "2026-11-10 18:28:53",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk just revealed something huge about Grok's new SI training and inference infrastructure\n\nThe engineering behind Starlink is now helping power the development of Grok\n\nSpaceXSI has completely rewritten Grok's reinforcement learning and inference software from scratch, replacing JAX and SGLang with its own system built primarily in C, with a little C++\n\nAnd the most important part is where this engineering expertise comes from\n\nThe new stack is built on the incredible work of the engineers who created Starlink's incredibly complex satellite network\n\nElon explained:\n\n\"At SpaceX, we write our own headers and calculate our own time (includes leap seconds). Not many people will know what this means, but those that do will appreciate it.\"\n\nHere's why that's significant\n\nSpaceX engineers build and control critical parts of their software themselves, even down to the code interfaces and precise time calculations needed for satellite operations\n\nThis gives them much tighter control over how their systems operate, reducing unnecessary software dependencies and allowing them to optimize performance and reliability\n\nNow that same engineering philosophy is being applied to Grok",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-10 18:14:07",
-        "created_at_utc": "2026-11-10T10:14:07.000Z",
-        "id": "2120097663794483601",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "At SpaceX, we write our own headers and calculate our own time (includes leap seconds). Not many people will know what this means, but those that do will appreciate it.\n\nThe new Grok AI/SI training and inference stack is derived from incredible of work done by amazing engineers to create Starlink.",
-        "url": "https://x.com/elonmusk/status/2120097663794483601",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-10 18:27:43",
-        "created_at_utc": "2026-11-10T10:27:43.000Z",
-        "id": "2120101086988222653",
-        "images": [],
-        "media": [],
-        "name": "X Freeze",
-        "text": "Elon Musk just revealed something huge about Grok's new SI training and inference infrastructure\n\nThe engineering behind Starlink is now helping power the development of Grok\n\nSpaceXSI has completely rewritten Grok's reinforcement learning and inference software from scratch, replacing JAX and SGLang with its own system built primarily in C, with a little C++\n\nAnd the most important part is where this engineering expertise comes from\n\nThe new stack is built on the incredible work of the engineers who created Starlink's incredibly complex satellite network\n\nElon explained:\n\n\"At SpaceX, we write our own headers and calculate our own time (includes leap seconds). Not many people will know what this means, but those that do will appreciate it.\"\n\nHere's why that's significant\n\nSpaceX engineers build and control critical parts of their software themselves, even down to the code interfaces and precise time calculations needed for satellite operations\n\nThis gives them much tighter control over how their systems operate, reducing unnecessary software dependencies and allowing them to optimize performance and reliability\n\nNow that same engineering philosophy is being applied to Grok",
-        "url": "https://x.com/XFreeze/status/2120101086988222653",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 27,
-        "likes": 242,
-        "quotes": 3,
-        "replies": 35,
-        "retweets": 50,
-        "views": 30110
-      },
-      "url": "https://x.com/elonmusk/status/2120101380144992635",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 2240,
-  "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 14:34:28",
+  "total": 2241,
+  "total_pages": 113,
+  "updated_at_shanghai": "2026-11-12 16:36:09",
   "account": "elonmusk"
 }
