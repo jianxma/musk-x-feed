@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2112966061284851739",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T17:55:40.000Z",
+      "created_at_shanghai": "2026-10-22 01:55:40",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "If there's one thing I can tell you about @SpaceX, it's that there's never been a company like this... \nMy thoughts on the earnings call with @SquawkCNBC.",
+      "quote": null,
+      "retweet": {
+        "author": "PeterDiamandis",
+        "avatar": "https://pbs.twimg.com/profile_images/1270804940936503296/oVhO8Njn_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 00:30:34",
+        "created_at_utc": "2026-10-21T16:30:34.000Z",
+        "id": "2112944642677244160",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2112943856475877376/img/Sum2IJWaF4hfpGc6.jpg"
+        ],
+        "media": [
+          {
+            "duration": 181.714,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112943856475877376/img/Sum2IJWaF4hfpGc6.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2112943856475877376/vid/avc1/1920x1080/MYqESvczWeMMxehv.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Peter H. Diamandis, MD",
+        "text": "If there's one thing I can tell you about @SpaceX, it's that there's never been a company like this... \nMy thoughts on the earnings call with @SquawkCNBC.",
+        "url": "https://x.com/PeterDiamandis/status/2112944642677244160",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 127,
+        "likes": 1091,
+        "quotes": 6,
+        "replies": 42,
+        "retweets": 122,
+        "views": 146015
+      },
+      "url": "https://x.com/elonmusk/status/2112966061284851739",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2112943856475877376/img/Sum2IJWaF4hfpGc6.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2112943856475877376/vid/avc1/1920x1080/MYqESvczWeMMxehv.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112943856475877376/img/Sum2IJWaF4hfpGc6.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 181.714
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2112965839263760393",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -873,53 +936,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2112932127901987225",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T15:40:50.000Z",
-      "created_at_shanghai": "2026-10-21 23:40:50",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try Grok @Bot",
-      "quote": {
-        "author": "ArthurMacwaters",
-        "avatar": "https://pbs.twimg.com/profile_images/1921033752140279808/TgndOxdb_200x200.jpg",
-        "created_at_shanghai": "2026-10-21 23:02:00",
-        "created_at_utc": "2026-10-21T15:02:00.000Z",
-        "id": "2112922355509174748",
-        "images": [],
-        "media": [],
-        "name": "Arthur MacWaters",
-        "text": "grok bot is by far my most used personal assistant. Apple level product design and seamlessness",
-        "url": "https://x.com/ArthurMacwaters/status/2112922355509174748",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 89,
-        "likes": 3026,
-        "quotes": 44,
-        "replies": 530,
-        "retweets": 383,
-        "views": 1226679
-      },
-      "url": "https://x.com/elonmusk/status/2112932127901987225",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 50,
   "page_size": 20,
-  "total": 2239,
+  "total": 2240,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 14:25:51",
+  "updated_at_shanghai": "2026-11-12 14:34:28",
   "account": "elonmusk"
 }

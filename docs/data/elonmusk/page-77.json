@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2108610275041562862",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-09T17:27:20.000Z",
+      "created_at_shanghai": "2026-10-10 01:27:20",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot now has its own email.\n\nBot can use it to sign up for services, contact businesses for you, or schedule time with someone.",
+      "quote": null,
+      "retweet": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 01:25:18",
+        "created_at_utc": "2026-10-09T17:25:18.000Z",
+        "id": "2108609764766908772",
+        "images": [
+          "https://pbs.twimg.com/media/HUNJGCXWsAA1hfT.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2364,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUNJGCXWsAA1hfT.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot now has its own email.\n\nBot can use it to sign up for services, contact businesses for you, or schedule time with someone.",
+        "url": "https://x.com/bot/status/2108609764766908772",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1481,
+        "likes": 7048,
+        "quotes": 487,
+        "replies": 1906,
+        "retweets": 555,
+        "views": 638813
+      },
+      "url": "https://x.com/elonmusk/status/2108610275041562862",
+      "images": [
+        "https://pbs.twimg.com/media/HUNJGCXWsAA1hfT.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUNJGCXWsAA1hfT.jpg?name=small",
+          "width": 4096,
+          "height": 2364
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2108609316286529861",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -991,62 +1050,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108319173851947042",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T22:10:36.000Z",
-      "created_at_shanghai": "2026-10-09 06:10:36",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "🤔",
-      "quote": {
-        "author": "Polymarket",
-        "avatar": "https://pbs.twimg.com/profile_images/2005664281002491904/bz2ZO_nU_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 03:34:39",
-        "created_at_utc": "2026-10-08T19:34:39.000Z",
-        "id": "2108279927019565240",
-        "images": [],
-        "media": [],
-        "name": "Polymarket",
-        "text": "JUST IN: Texas Democratic Senate candidate James Talarico has now been absent from the campaign trail for 12 days as he battles \"the flu.\"",
-        "url": "https://x.com/Polymarket/status/2108279927019565240",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 796,
-        "likes": 20369,
-        "quotes": 276,
-        "replies": 1782,
-        "retweets": 1947,
-        "views": 2601807
-      },
-      "url": "https://x.com/elonmusk/status/2108319173851947042",
-      "images": [
-        "https://pbs.twimg.com/media/HUJBHYCWwAAedF9.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUJBHYCWwAAedF9.jpg?name=small",
-          "width": 1206,
-          "height": 1340
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 77,
   "page_size": 20,
-  "total": 2239,
+  "total": 2240,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 14:25:51",
+  "updated_at_shanghai": "2026-11-12 14:34:28",
   "account": "elonmusk"
 }

@@ -1,6 +1,87 @@
 {
   "posts": [
     {
+      "id": "2110614316994941377",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T06:10:41.000Z",
+      "created_at_shanghai": "2026-10-15 14:10:41",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Great illustration of why @grok @bot is winning me over. Phil's post reminded me how much effort I've put into trying to connect my Apple apps to other assistants\n\nMy Grok Bot just... did it",
+      "quote": {
+        "author": "Phil_Holland",
+        "avatar": "https://pbs.twimg.com/profile_images/2109071365764517888/th85GTTD_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 02:42:21",
+        "created_at_utc": "2026-10-03T18:42:21.000Z",
+        "id": "2106454828134375496",
+        "images": [
+          "https://pbs.twimg.com/media/HTuhgLbWwAAio8c.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 842,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTuhgLbWwAAio8c.jpg?name=small",
+            "width": 936
+          }
+        ],
+        "name": "Phil",
+        "text": "Time to cook something for all us Apple walled garden residents @grok @bot",
+        "url": "https://x.com/Phil_Holland/status/2106454828134375496",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "madebydia",
+        "avatar": "https://pbs.twimg.com/profile_images/2090776477344124928/-W9cctxl_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 08:04:30",
+        "created_at_utc": "2026-10-15T00:04:30.000Z",
+        "id": "2110522167205175446",
+        "images": [
+          "https://pbs.twimg.com/media/HUoT96aXgAABmEo.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1434,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUoT96aXgAABmEo.jpg?name=small",
+            "width": 1760
+          }
+        ],
+        "name": "Diana Park",
+        "text": "Great illustration of why @grok @bot is winning me over. Phil's post reminded me how much effort I've put into trying to connect my Apple apps to other assistants\n\nMy Grok Bot just... did it",
+        "url": "https://x.com/madebydia/status/2110522167205175446",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 372,
+        "likes": 413,
+        "quotes": 1,
+        "replies": 40,
+        "retweets": 29,
+        "views": 62210
+      },
+      "url": "https://x.com/elonmusk/status/2110614316994941377",
+      "images": [
+        "https://pbs.twimg.com/media/HUoT96aXgAABmEo.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUoT96aXgAABmEo.jpg?name=small",
+          "width": 1760,
+          "height": 1434
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110613441815732581",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1092,53 +1173,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110567340069003542",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T03:04:00.000Z",
-      "created_at_shanghai": "2026-10-15 11:04:00",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Recursive Self-Improvement",
-      "quote": {
-        "author": "multiplanet1",
-        "avatar": "https://pbs.twimg.com/profile_images/2022016188021452802/mq6AXfN5_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 01:28:00",
-        "created_at_utc": "2026-10-11T17:28:00.000Z",
-        "id": "2109335218478108770",
-        "images": [],
-        "media": [],
-        "name": "Race 🕊️",
-        "text": "A retired NASA engineer who had worked on the Space Shuttle program for 25 years was hired by SpaceX at age 62. He described the first week as the most disorienting experience of his professional life.\n\nAt NASA, a design change required 3 meetings, 2 committees, a review board, and 6 to 18 months of documentation. At SpaceX, his new supervisor said \"if it works, build it. If it doesn't, change it by Friday.\"\n\nHe sat at his desk after the first day and called his wife. He told her he felt like a man who had been swimming with ankle weights for 25 years and someone just cut them off. He could move. He could decide. He could build something in the morning and test it in the afternoon. The constraint that he had accepted as the nature of aerospace engineering turned out to be the nature of bureaucracy.\n\nWithin 6 months he had contributed to more design iterations than he had completed in his last 5 years at NASA. Not because he was working harder. Because the time between having an idea and testing the idea collapsed from months to hours. The same brain. The same knowledge. A different operating system.\n\nHe described a specific moment where he proposed a modification to a Raptor engine component. At NASA, the proposal would have entered a queue. At SpaceX, the modification was machined by the end of the day and tested by the following morning. He watched his idea become a physical object in 18 hours. At NASA, 18 hours would not have been enough to schedule the first meeting to discuss whether to schedule a meeting.\n\nHe told an interviewer: \"I didn't get smarter when I went to SpaceX. I got faster. The intelligence was always there. The system was in the way.\"\n\nThe difference between SpaceX and NASA is not talent. NASA has extraordinary talent. The difference is the time between a thought and a test. SpaceX compresses it. NASA elongates it. The same engineer produces 10x more at SpaceX than at NASA because the bottleneck was never the engineer. It was the meetings about the meetings about the work.",
-        "url": "https://x.com/multiplanet1/status/2109335218478108770",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2022,
-        "likes": 21289,
-        "quotes": 94,
-        "replies": 639,
-        "retweets": 1439,
-        "views": 2247966
-      },
-      "url": "https://x.com/elonmusk/status/2110567340069003542",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 64,
   "page_size": 20,
-  "total": 2239,
+  "total": 2240,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 14:25:51",
+  "updated_at_shanghai": "2026-11-12 14:34:28",
   "account": "elonmusk"
 }

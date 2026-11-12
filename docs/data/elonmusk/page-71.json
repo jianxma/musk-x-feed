@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2109822476272455775",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T01:44:11.000Z",
+      "created_at_shanghai": "2026-10-13 09:44:11",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I think I have experienced “AGI”…\n\nJust did a 30-minute “phone call” with @bot. Together we got back to about 20 emails, organised my calendar for the week, wrote a proposal for my team, ordered lunch for my family, booked (and paid for) a hotel, and arranged a cab to the airport. It also gave me some great advice along the way. \n\nDid it all 100% “hands free” with my baby fast asleep on my chest. \n\nIf this is what life is like with superintelligence, I am all in.",
+      "quote": null,
+      "retweet": {
+        "author": "edleonklinger",
+        "avatar": "https://pbs.twimg.com/profile_images/1871621683368321024/lZ3yebfW_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 20:10:38",
+        "created_at_utc": "2026-10-12T12:10:38.000Z",
+        "id": "2109617740168167811",
+        "images": [],
+        "media": [],
+        "name": "Ed Leon Klinger",
+        "text": "I think I have experienced “AGI”…\n\nJust did a 30-minute “phone call” with @bot. Together we got back to about 20 emails, organised my calendar for the week, wrote a proposal for my team, ordered lunch for my family, booked (and paid for) a hotel, and arranged a cab to the airport. It also gave me some great advice along the way. \n\nDid it all 100% “hands free” with my baby fast asleep on my chest. \n\nIf this is what life is like with superintelligence, I am all in.",
+        "url": "https://x.com/edleonklinger/status/2109617740168167811",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 126,
+        "likes": 1037,
+        "quotes": 19,
+        "replies": 53,
+        "retweets": 103,
+        "views": 203311
+      },
+      "url": "https://x.com/elonmusk/status/2109822476272455775",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109822046813237395",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -917,75 +958,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109792967288652287",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T23:46:56.000Z",
-      "created_at_shanghai": "2026-10-13 07:46:56",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We've unified plans across Grok, Cursor, and X Premium.\n\nIntroducing The X Subscription.",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceXSI",
-        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 07:08:39",
-        "created_at_utc": "2026-10-12T23:08:39.000Z",
-        "id": "2109783335296008414",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg"
-        ],
-        "media": [
-          {
-            "duration": 10,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109782667579322368/vid/avc1/1920x1080/ThJXAcymAf1pV1vL.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "SpaceX Super Intelligence",
-        "text": "We've unified plans across Grok, Cursor, and X Premium.\n\nIntroducing The X Subscription.",
-        "url": "https://x.com/SpaceXSI/status/2109783335296008414",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 3022,
-        "likes": 13342,
-        "quotes": 1559,
-        "replies": 1118,
-        "retweets": 1533,
-        "views": 3400580
-      },
-      "url": "https://x.com/elonmusk/status/2109792967288652287",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109782667579322368/vid/avc1/1920x1080/ThJXAcymAf1pV1vL.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 10
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 71,
   "page_size": 20,
-  "total": 2239,
+  "total": 2240,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 14:25:51",
+  "updated_at_shanghai": "2026-11-12 14:34:28",
   "account": "elonmusk"
 }
