@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2115688273221923053",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T06:12:46.000Z",
+      "created_at_shanghai": "2026-10-29 14:12:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "The fact that I’m on an international flight, running Grok, replying to feedback on X, and building cool as shit with the team, all in parallel, is amazing. God bless Starlink. I love you @elonmusk",
+      "quote": null,
+      "retweet": {
+        "author": "EddiePast1",
+        "avatar": "https://pbs.twimg.com/profile_images/2092807727185645568/gde9CmDy_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 09:44:18",
+        "created_at_utc": "2026-10-29T01:44:18.000Z",
+        "id": "2115620709498286235",
+        "images": [],
+        "media": [],
+        "name": "Eduardo Pastrana",
+        "text": "The fact that I’m on an international flight, running Grok, replying to feedback on X, and building cool as shit with the team, all in parallel, is amazing. God bless Starlink. I love you @elonmusk",
+        "url": "https://x.com/EddiePast1/status/2115620709498286235",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 1130,
+        "quotes": 7,
+        "replies": 62,
+        "retweets": 105,
+        "views": 189520
+      },
+      "url": "https://x.com/elonmusk/status/2115688273221923053",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2115687257311232391",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1014,62 +1055,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115634265702678859",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T02:38:10.000Z",
-      "created_at_shanghai": "2026-10-29 10:38:10",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Buy from @Shopify!",
-      "quote": {
-        "author": "tobi",
-        "avatar": "https://pbs.twimg.com/profile_images/1999293930936909824/_HWYanot_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 10:36:47",
-        "created_at_utc": "2026-10-29T02:36:47.000Z",
-        "id": "2115633920180113785",
-        "images": [
-          "https://pbs.twimg.com/media/HVw91ouW8AAjxbe.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 810,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVw91ouW8AAjxbe.jpg?name=small",
-            "width": 648
-          }
-        ],
-        "name": "tobi lutke",
-        "text": "@elonmusk @bot Just in time for shop pay support and",
-        "url": "https://x.com/tobi/status/2115633920180113785",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 401,
-        "likes": 6360,
-        "quotes": 74,
-        "replies": 669,
-        "retweets": 557,
-        "views": 1442199
-      },
-      "url": "https://x.com/elonmusk/status/2115634265702678859",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 32,
   "page_size": 20,
-  "total": 2238,
+  "total": 2239,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 14:17:35",
+  "updated_at_shanghai": "2026-11-12 14:25:51",
   "account": "elonmusk"
 }
