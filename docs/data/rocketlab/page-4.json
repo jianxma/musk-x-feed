@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2113543139462189240",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-10-23T08:08:46.000Z",
+      "created_at_shanghai": "2026-10-23 16:08:46",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Payload deployment confirmed from Electron - all three HAWK satellites for @hawkeye360 are now on orbit 🛰️🛰️🛰️",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 18,
+        "likes": 1865,
+        "quotes": 30,
+        "replies": 38,
+        "retweets": 157,
+        "views": 51171
+      },
+      "url": "https://x.com/rocketlab/status/2113543139462189240",
+      "images": [
+        "https://pbs.twimg.com/media/HVTKqCxaUAARAWl.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVTKqCxaUAARAWl.jpg?name=small",
+          "width": 2731,
+          "height": 4096
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2113531392609091709",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -701,53 +738,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110921981583638766",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-10-16T02:33:14.000Z",
-      "created_at_shanghai": "2026-10-16 10:33:14",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Congratulations to the team in Munich who continue to deliver mission-critical communications capability to customers, while scaling production to meet growing demand.",
-      "quote": {
-        "author": "mynaric",
-        "avatar": "https://pbs.twimg.com/profile_images/1476961880119914499/0qHSgsFy_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 16:21:10",
-        "created_at_utc": "2026-10-15T08:21:10.000Z",
-        "id": "2110647154310349022",
-        "images": [],
-        "media": [],
-        "name": "Mynaric",
-        "text": "A proud moment for Mynaric as our optical communications terminals head to space on NGC satellites supporting the SDA's PWSA. The future of space connectivity depends on fast, secure, and resilient optical comms networks, and we're honored to play a role in enabling that vision.",
-        "url": "https://x.com/mynaric/status/2110647154310349022",
-        "verified": false,
-        "verified_type": ""
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 11,
-        "likes": 567,
-        "quotes": 6,
-        "replies": 7,
-        "retweets": 46,
-        "views": 21612
-      },
-      "url": "https://x.com/rocketlab/status/2110921981583638766",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 146,
+  "total": 147,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-11-13 04:35:13",
+  "updated_at_shanghai": "2026-11-13 06:01:51",
   "account": "rocketlab"
 }
