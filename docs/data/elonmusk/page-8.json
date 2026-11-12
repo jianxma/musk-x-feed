@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2118987688732926120",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-07T08:43:28.000Z",
+      "created_at_shanghai": "2026-11-07 16:43:28",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Yesterday, I was working on something with Grok Bot when a guy nearby noticed me using it\n\nHe immediately pulled out his phone and started showing me how he uses Grok Bot, how he had set up all his bots, and how he manages his usage limits\n\nhe just literally saw me using Grok Bot and came over out of curiosity. We ended up having a really nice conversation about how we’re both using it haha",
+      "quote": null,
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-07 16:41:49",
+        "created_at_utc": "2026-11-07T08:41:49.000Z",
+        "id": "2118987271965966564",
+        "images": [
+          "https://pbs.twimg.com/media/HWgnsFUbYAIcYQu.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWgnsFUbYAIcYQu.jpg?name=small",
+            "width": 1681
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Yesterday, I was working on something with Grok Bot when a guy nearby noticed me using it\n\nHe immediately pulled out his phone and started showing me how he uses Grok Bot, how he had set up all his bots, and how he manages his usage limits\n\nhe just literally saw me using Grok Bot and came over out of curiosity. We ended up having a really nice conversation about how we’re both using it haha",
+        "url": "https://x.com/XFreeze/status/2118987271965966564",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 180,
+        "likes": 2182,
+        "quotes": 20,
+        "replies": 238,
+        "retweets": 192,
+        "views": 436344
+      },
+      "url": "https://x.com/elonmusk/status/2118987688732926120",
+      "images": [
+        "https://pbs.twimg.com/media/HWgnsFUbYAIcYQu.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWgnsFUbYAIcYQu.jpg?name=small",
+          "width": 1681,
+          "height": 2048
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2118986909066371107",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -924,64 +983,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2118872598058860671",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T01:06:08.000Z",
-      "created_at_shanghai": "2026-11-07 09:06:08",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Of course I Still Love You",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 08:59:04",
-        "created_at_utc": "2026-11-07T00:59:04.000Z",
-        "id": "2118870818021097862",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2118870452604960768/img/K8U8zCZpZP3Hl_Yp.jpg"
-        ],
-        "media": [
-          {
-            "duration": 18.071,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118870452604960768/img/K8U8zCZpZP3Hl_Yp.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2118870452604960768/vid/avc1/3840x2160/XKz1ZToA4_23F12g.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Falcon 9’s first stage lands on the Of Course I Still Love You droneship",
-        "url": "https://x.com/SpaceX/status/2118870818021097862",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 820,
-        "likes": 26319,
-        "quotes": 249,
-        "replies": 2365,
-        "retweets": 2476,
-        "views": 3321635
-      },
-      "url": "https://x.com/elonmusk/status/2118872598058860671",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 8,
   "page_size": 20,
-  "total": 2229,
+  "total": 2230,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 12:37:20",
+  "updated_at_shanghai": "2026-11-12 12:44:33",
   "account": "elonmusk"
 }

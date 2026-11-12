@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2117664671813767516",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T17:06:16.000Z",
+      "created_at_shanghai": "2026-11-04 01:06:16",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot can do complex trips",
+      "quote": {
+        "author": "pud",
+        "avatar": "https://pbs.twimg.com/profile_images/2099743340900368384/u9rKI1S8_200x200.jpg",
+        "created_at_shanghai": "2026-11-04 00:59:26",
+        "created_at_utc": "2026-11-03T16:59:26.000Z",
+        "id": "2117662949137670591",
+        "images": [],
+        "media": [],
+        "name": "Philip Kaplan",
+        "text": "Used Grok @Bot to book flights for a relatively complex family trip. Incredible experience. I’ll likely never use an airline’s website again.",
+        "url": "https://x.com/pud/status/2117662949137670591",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 45,
+        "likes": 997,
+        "quotes": 17,
+        "replies": 262,
+        "retweets": 118,
+        "views": 420462
+      },
+      "url": "https://x.com/elonmusk/status/2117664671813767516",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2117663863856377923",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1090,75 +1131,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2117602985861636421",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T13:01:09.000Z",
-      "created_at_shanghai": "2026-11-03 21:01:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "This is why a SpaceX engineer chose to work with Elon Musk",
-      "quote": null,
-      "retweet": {
-        "author": "DimaZeniuk",
-        "avatar": "https://pbs.twimg.com/profile_images/1630993148380938246/rhnQ_j7Z_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 17:46:41",
-        "created_at_utc": "2026-11-03T09:46:41.000Z",
-        "id": "2117554045611106776",
-        "images": [
-          "https://pbs.twimg.com/ext_tw_video_thumb/1900243173785423874/pu/img/bVCRnTHNrFHpp0tr.jpg"
-        ],
-        "media": [
-          {
-            "duration": 26.912,
-            "height": 1920,
-            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/1900243173785423874/pu/img/bVCRnTHNrFHpp0tr.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/ext_tw_video/1900243173785423874/pu/vid/avc1/1080x1920/zmd2LZ76caEm9HaX.mp4?tag=14",
-            "width": 1080
-          }
-        ],
-        "name": "Dima Zeniuk",
-        "text": "This is why a SpaceX engineer chose to work with Elon Musk",
-        "url": "https://x.com/DimaZeniuk/status/2117554045611106776",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 171,
-        "likes": 1638,
-        "quotes": 7,
-        "replies": 46,
-        "retweets": 212,
-        "views": 285569
-      },
-      "url": "https://x.com/elonmusk/status/2117602985861636421",
-      "images": [
-        "https://pbs.twimg.com/ext_tw_video_thumb/1900243173785423874/pu/img/bVCRnTHNrFHpp0tr.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/ext_tw_video/1900243173785423874/pu/vid/avc1/1080x1920/zmd2LZ76caEm9HaX.mp4?tag=14",
-          "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/1900243173785423874/pu/img/bVCRnTHNrFHpp0tr.jpg",
-          "width": 1080,
-          "height": 1920,
-          "duration": 26.912
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 20,
-  "total": 2229,
+  "total": 2230,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 12:37:20",
+  "updated_at_shanghai": "2026-11-12 12:44:33",
   "account": "elonmusk"
 }
