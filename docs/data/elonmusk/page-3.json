@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2119989015957078096",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-10T03:02:23.000Z",
+      "created_at_shanghai": "2026-11-10 11:02:23",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We've reset weekly limits for all Grok Bot users.\n\nEnjoy!",
+      "quote": null,
+      "retweet": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 03:17:20",
+        "created_at_utc": "2026-11-09T19:17:20.000Z",
+        "id": "2119871982946971659",
+        "images": [],
+        "media": [],
+        "name": "Grok Bot",
+        "text": "We've reset weekly limits for all Grok Bot users.\n\nEnjoy!",
+        "url": "https://x.com/bot/status/2119871982946971659",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 640,
+        "likes": 28673,
+        "quotes": 1016,
+        "replies": 3251,
+        "retweets": 1652,
+        "views": 939868
+      },
+      "url": "https://x.com/elonmusk/status/2119989015957078096",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2119986275306586386",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1132,71 +1173,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119799146211393960",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-09T14:27:55.000Z",
-      "created_at_shanghai": "2026-11-09 22:27:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Bigger Austin service area now live",
-      "quote": null,
-      "retweet": {
-        "author": "robotaxi",
-        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-11-09 19:00:01",
-        "created_at_utc": "2026-11-09T11:00:01.000Z",
-        "id": "2119746828191027346",
-        "images": [
-          "https://pbs.twimg.com/media/HWqdWMNaIAAAkHG.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 800,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWqdWMNaIAAAkHG.jpg?name=small",
-            "width": 800
-          }
-        ],
-        "name": "Robotaxi",
-        "text": "Bigger Austin service area now live",
-        "url": "https://x.com/robotaxi/status/2119746828191027346",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 123,
-        "likes": 5355,
-        "quotes": 122,
-        "replies": 242,
-        "retweets": 472,
-        "views": 282845
-      },
-      "url": "https://x.com/elonmusk/status/2119799146211393960",
-      "images": [
-        "https://pbs.twimg.com/media/HWqdWMNaIAAAkHG.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWqdWMNaIAAAkHG.jpg?name=small",
-          "width": 800,
-          "height": 800
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 2228,
+  "total": 2229,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 12:34:30",
+  "updated_at_shanghai": "2026-11-12 12:37:20",
   "account": "elonmusk"
 }

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2115097260841431137",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-27T15:04:18.000Z",
+      "created_at_shanghai": "2026-10-27 23:04:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Watch Falcon 9 launch 27 @Starlink satellites to orbit from California https://x.com/i/broadcasts/1mGPaZgYgLDJN",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-27 15:14:56",
+        "created_at_utc": "2026-10-27T07:14:56.000Z",
+        "id": "2114979142638960965",
+        "images": [],
+        "media": [],
+        "name": "SpaceX",
+        "text": "Watch Falcon 9 launch 27 @Starlink satellites to orbit from California https://x.com/i/broadcasts/1mGPaZgYgLDJN",
+        "url": "https://x.com/SpaceX/status/2114979142638960965",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 520,
+        "likes": 9209,
+        "quotes": 114,
+        "replies": 493,
+        "retweets": 1152,
+        "views": 866235
+      },
+      "url": "https://x.com/elonmusk/status/2115097260841431137",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2115097100610572649",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1087,75 +1128,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2114928890355585199",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-27T03:55:15.000Z",
-      "created_at_shanghai": "2026-10-27 11:55:15",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "10x safer to not-drive FSD than to drive a non-Tesla. What are you waiting for, Europe? Save lives!",
-      "quote": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-10-27 11:37:54",
-        "created_at_utc": "2026-10-27T03:37:54.000Z",
-        "id": "2114924525536034869",
-        "images": [
-          "https://pbs.twimg.com/media/HVm4hjTXMAAeOZ8.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1540,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVm4hjTXMAAeOZ8.jpg?name=small",
-            "width": 2816
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "Tesla has released new FSD (Supervised) safety data.\n\nMiles per major collision:\n• Teslas Driven With FSD (Supervised): 6,006,200\n• Teslas Driven Manually (Active Safety Features): 2,031,221\n• Teslas Driven Manually (No Active Safety Features): 845,915\n• U.S. Average: 660,164\n\nTotal major collisions:\n• Teslas with FSD (Supervised): 1,579\n• Teslas driven manually with Active Safety: 17,775\n• Teslas driven manually without Active Safety: 239\n• U.S. average: 4,989,713\n\nTotal miles logged:\n• Teslas with FSD (Supervised): 9,483,790,215\n• Teslas driven manually with Active Safety: 36,104,958,020\n• Teslas driven manually without Active Safety: 202,173,600\n• U.S. drivers overall: 3,294,031,000,000\n\nTesla vehicles with FSD (Supervised) engaged experienced ~9x fewer major collisions than those driving without it on.\n\nThis is North America data across all road classes (highway and non-highway). The data reflects a rolling twelve-month aggregation of miles and collisions.",
-        "url": "https://x.com/SawyerMerritt/status/2114924525536034869",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "p_ferragu",
-        "avatar": "https://pbs.twimg.com/profile_images/1905334527821586432/Yz3rxBIX_200x200.jpg",
-        "created_at_shanghai": "2026-10-27 11:46:31",
-        "created_at_utc": "2026-10-27T03:46:31.000Z",
-        "id": "2114926690988081593",
-        "images": [],
-        "media": [],
-        "name": "Pierre Ferragu",
-        "text": "10x safer to not-drive FSD than to drive a non-Tesla. What are you waiting for, Europe? Save lives!",
-        "url": "https://x.com/p_ferragu/status/2114926690988081593",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 37,
-        "likes": 958,
-        "quotes": 4,
-        "replies": 55,
-        "retweets": 91,
-        "views": 187069
-      },
-      "url": "https://x.com/elonmusk/status/2114928890355585199",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 36,
   "page_size": 20,
-  "total": 2228,
+  "total": 2229,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 12:34:30",
+  "updated_at_shanghai": "2026-11-12 12:37:20",
   "account": "elonmusk"
 }
