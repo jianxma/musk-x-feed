@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2116291315432587740",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T22:09:03.000Z",
+      "created_at_shanghai": "2026-10-31 06:09:03",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-31 05:06:37",
+        "created_at_utc": "2026-10-30T21:06:37.000Z",
+        "id": "2116275605272695004",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2116273309876666369/img/ovApUL6eFvk_A9F_.jpg"
+        ],
+        "media": [
+          {
+            "duration": 93.133,
+            "height": 1920,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116273309876666369/img/ovApUL6eFvk_A9F_.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2116273309876666369/vid/avc1/1080x1920/z4AcG69gvuE4_rM7.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: Cathie Wood says SpaceX is severely undervalued.\n\nSpaceX brings together AI, robotics and energy storage. But traditional space, cloud and AI analysts work separately, making it harder to understand how these technologies strengthen one another.\n\nWood says firms are now assigning teams of analysts to SpaceX. As they collaborate and compare notes, she expects that undervaluation to clear up. https://x.com/ARKInvest/status/2116274183571227071/video/1",
+        "url": "https://x.com/cb_doge/status/2116275605272695004",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 184,
+        "likes": 4361,
+        "quotes": 35,
+        "replies": 447,
+        "retweets": 538,
+        "views": 709782
+      },
+      "url": "https://x.com/elonmusk/status/2116291315432587740",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116289989914787912",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -983,71 +1035,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116202620658586059",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T16:16:36.000Z",
-      "created_at_shanghai": "2026-10-31 00:16:36",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "\"I am a citizen of the United States and have only that passport. No matter what happens, I will fight for and die in America.\"\n\nElon Musk",
-      "quote": null,
-      "retweet": {
-        "author": "teslaownersSV",
-        "avatar": "https://pbs.twimg.com/profile_images/2114535933811032064/CX_COICx_200x200.jpg",
-        "created_at_shanghai": "2026-10-30 12:08:09",
-        "created_at_utc": "2026-10-30T04:08:09.000Z",
-        "id": "2116019298317844562",
-        "images": [
-          "https://pbs.twimg.com/media/GfHm7b2bsAE0nSZ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 826,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/GfHm7b2bsAE0nSZ.jpg?name=small",
-            "width": 1236
-          }
-        ],
-        "name": "Tesla Owners Silicon Valley",
-        "text": "\"I am a citizen of the United States and have only that passport. No matter what happens, I will fight for and die in America.\"\n\nElon Musk",
-        "url": "https://x.com/teslaownersSV/status/2116019298317844562",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 33,
-        "likes": 1868,
-        "quotes": 22,
-        "replies": 115,
-        "retweets": 233,
-        "views": 122898
-      },
-      "url": "https://x.com/elonmusk/status/2116202620658586059",
-      "images": [
-        "https://pbs.twimg.com/media/GfHm7b2bsAE0nSZ.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/GfHm7b2bsAE0nSZ.jpg?name=small",
-          "width": 1236,
-          "height": 826
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 20,
-  "total": 2231,
+  "total": 2232,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 13:02:30",
+  "updated_at_shanghai": "2026-11-12 13:17:09",
   "account": "elonmusk"
 }

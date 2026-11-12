@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2110222071229989249",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T04:12:02.000Z",
+      "created_at_shanghai": "2026-10-14 12:12:02",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Timing is everything",
+      "quote": {
+        "author": "Tesla",
+        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
+        "created_at_shanghai": "2026-10-14 08:25:40",
+        "created_at_utc": "2026-10-14T00:25:40.000Z",
+        "id": "2110165104713183485",
+        "images": [
+          "https://pbs.twimg.com/media/HUjPAwiW8AAEeUh.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2160,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUjPAwiW8AAEeUh.jpg?name=small",
+            "width": 3840
+          }
+        ],
+        "name": "Tesla",
+        "text": "Roadster event streaming live this Thursday at 7:55pm CST",
+        "url": "https://x.com/Tesla/status/2110165104713183485",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 482,
+        "likes": 10064,
+        "quotes": 177,
+        "replies": 1038,
+        "retweets": 983,
+        "views": 804023
+      },
+      "url": "https://x.com/elonmusk/status/2110222071229989249",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110220899999986110",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1017,53 +1067,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110125937551397151",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T21:50:02.000Z",
-      "created_at_shanghai": "2026-10-14 05:50:02",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot detects scam emails!",
-      "quote": {
-        "author": "DirtyTesLa",
-        "avatar": "https://pbs.twimg.com/profile_images/1515173488008572931/VYTdzMib_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 23:57:58",
-        "created_at_utc": "2026-10-13T15:57:58.000Z",
-        "id": "2110037338755657863",
-        "images": [],
-        "media": [],
-        "name": "Dirty Tesla",
-        "text": "Grok @bot can help save you from scam emails.\n\nI have public email addresses, and I get daily scams in my inbox. They are getting harder to distinguish from legit emails. \n\nI use my Scam Email Detector bot to help alert me to scam emails\n\nTry it out: https://x.ai/bot/E3_qOY1VUJWZMh2inUvwT",
-        "url": "https://x.com/DirtyTesLa/status/2110037338755657863",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 68,
-        "likes": 1473,
-        "quotes": 34,
-        "replies": 410,
-        "retweets": 206,
-        "views": 497949
-      },
-      "url": "https://x.com/elonmusk/status/2110125937551397151",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 68,
   "page_size": 20,
-  "total": 2231,
+  "total": 2232,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 13:02:30",
+  "updated_at_shanghai": "2026-11-12 13:17:09",
   "account": "elonmusk"
 }

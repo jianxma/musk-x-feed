@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2107876928162275329",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:53:16.000Z",
+      "created_at_shanghai": "2026-10-08 00:53:16",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2450,
+        "likes": 14187,
+        "quotes": 209,
+        "replies": 831,
+        "retweets": 2440,
+        "views": 1568514
+      },
+      "url": "https://x.com/elonmusk/status/2107876928162275329",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2107869040718823424/img/JaL1AzI6T6WS6Tp8.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2107869040718823424/vid/avc1/1920x1080/jTrLKdnHVxhqE30x.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107869040718823424/img/JaL1AzI6T6WS6Tp8.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 1608.173
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2107876662138532294",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1037,75 +1076,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107846706721427895",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T14:53:11.000Z",
-      "created_at_shanghai": "2026-10-07 22:53:11",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: SpaceX’s Vice President of @Starlink Business Operations, Lauren Dreyer, spoke at India Mobile Congress today, saying Starlink is ready to serve India. 🇮🇳\n\nStarlink has already built 20 gateway sites in India with hundreds of antennas, security controls tailored to India and Indian user data kept within the country. Final government approvals are pending.\n\nShe highlighted Starlink’s potential to help connect 100% of India, bringing people online in minutes.\n\n“We stand ready to serve India, as soon as India is ready!” https://x.com/ANI/status/2107734328780501192/video/1",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 20:27:31",
-        "created_at_utc": "2026-10-07T12:27:31.000Z",
-        "id": "2107810049418793288",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107734055886503936/img/dx7JJzFYCqjzMllb.jpg"
-        ],
-        "media": [
-          {
-            "duration": 138.92,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107734055886503936/img/dx7JJzFYCqjzMllb.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107734055886503936/vid/avc1/1920x1080/rjlCYGQQZb5alcKN.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: SpaceX’s Vice President of @Starlink Business Operations, Lauren Dreyer, spoke at India Mobile Congress today, saying Starlink is ready to serve India. 🇮🇳\n\nStarlink has already built 20 gateway sites in India with hundreds of antennas, security controls tailored to India and Indian user data kept within the country. Final government approvals are pending.\n\nShe highlighted Starlink’s potential to help connect 100% of India, bringing people online in minutes.\n\n“We stand ready to serve India, as soon as India is ready!” https://x.com/ANI/status/2107734328780501192/video/1",
-        "url": "https://x.com/cb_doge/status/2107810049418793288",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 338,
-        "likes": 4048,
-        "quotes": 104,
-        "replies": 517,
-        "retweets": 593,
-        "views": 537897
-      },
-      "url": "https://x.com/elonmusk/status/2107846706721427895",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2107734055886503936/img/dx7JJzFYCqjzMllb.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107734055886503936/vid/avc1/1920x1080/rjlCYGQQZb5alcKN.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107734055886503936/img/dx7JJzFYCqjzMllb.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 138.92
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 85,
   "page_size": 20,
-  "total": 2231,
+  "total": 2232,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 13:02:30",
+  "updated_at_shanghai": "2026-11-12 13:17:09",
   "account": "elonmusk"
 }

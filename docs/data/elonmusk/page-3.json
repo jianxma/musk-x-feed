@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2119989523748905221",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-10T03:04:24.000Z",
+      "created_at_shanghai": "2026-11-10 11:04:24",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok",
+      "quote": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 02:18:55",
+        "created_at_utc": "2026-11-09T18:18:55.000Z",
+        "id": "2119857279361073655",
+        "images": [
+          "https://pbs.twimg.com/media/HWs-Qd3WAAA1i5I.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 708,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWs-Qd3WAAA1i5I.jpg?name=small",
+            "width": 1436
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "SpaceX VP of Launch @TurkeyBeaver says Grok is now helping them identify foreign object debris in aerospace parts, and that Grok (99.9%) is better at it than humans (94%).\n\n\"We’ve automated being able to detect FOD. We’ll have an inspector go in and borescope a tube, and we find that humans are about 94% perfect (at) finding a piece of it. Grok analyzing the same video is 99.9% perfect.\"\n\nFull article: https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/",
+        "url": "https://x.com/SawyerMerritt/status/2119857279361073655",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 25,
+        "likes": 671,
+        "quotes": 8,
+        "replies": 180,
+        "retweets": 82,
+        "views": 322827
+      },
+      "url": "https://x.com/elonmusk/status/2119989523748905221",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2119989362725396589",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1123,62 +1173,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2119812607117062451",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-09T15:21:24.000Z",
-      "created_at_shanghai": "2026-11-09 23:21:24",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Project Crystal Sun",
-      "quote": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-11-09 22:55:04",
-        "created_at_utc": "2026-11-09T14:55:04.000Z",
-        "id": "2119805979583828413",
-        "images": [
-          "https://pbs.twimg.com/media/HWsPJTcXgAAIcjE.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1930,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWsPJTcXgAAIcjE.jpg?name=small",
-            "width": 3454
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "Tesla has officially started construction of its massive new $10 billion solar manufacturing facility near Houston, Texas!\n\nConstruction is expected to finish in 2028, with commercial operations starting in Q1 2029. Total direct and indirect economic impact of the project is estimated to generate ~$6.4B in state and local taxes, and increase State of Texas GDP by ~$107 billion.\n\nThe factory will be a vertically integrated solar manufacturing facility, and it'll include:\n• Wafer Manufacturing\n• Ingot Manufacturing\n• Coating\n• Metallization and Printing Lines\n• Cell Testing and QC\n• Automation and Material Handling\n• Cleanroom and Production Support\n• Site Infrastructure\n• Chemical Storage and Delivery\n• Utility Infrastructure\n• Environmental and Safety Systems",
-        "url": "https://x.com/SawyerMerritt/status/2119805979583828413",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 145,
-        "likes": 3565,
-        "quotes": 66,
-        "replies": 558,
-        "retweets": 439,
-        "views": 528027
-      },
-      "url": "https://x.com/elonmusk/status/2119812607117062451",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 2231,
+  "total": 2232,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 13:02:30",
+  "updated_at_shanghai": "2026-11-12 13:17:09",
   "account": "elonmusk"
 }

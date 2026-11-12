@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2114242922006897145",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-25T06:29:27.000Z",
+      "created_at_shanghai": "2026-10-25 14:29:27",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Cool",
+      "quote": {
+        "author": "Texas_Twins_Dad",
+        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
+        "created_at_shanghai": "2026-10-25 12:48:05",
+        "created_at_utc": "2026-10-25T04:48:05.000Z",
+        "id": "2114217410823688573",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2114217001547620352/img/-MHtuUnqdyqi72S_.jpg"
+        ],
+        "media": [
+          {
+            "duration": 46.2,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2114217001547620352/img/-MHtuUnqdyqi72S_.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2114217001547620352/vid/avc1/1080x1080/Uc6f_S2Cg0Jvncng.mp4?tag=29",
+            "width": 1080
+          }
+        ],
+        "name": "Texas Twins Dad",
+        "text": "Everyone said \"Hey Grok\" was impossible on iPhone. Even Grok said Apple keeps wake words for Siri only. So I kept digging, and I found a way. Now I just say \"Hey Grok\" and Grok Bot voice chat opens. No extra apps, no cost, all built into iOS.\n\nHow to set it up:\n\n1. Make sure your Grok Bot app is up to date\n\n2. Shortcuts app → + → Add Action → search \"Grok Bot\" → pick \"Start Voice Chat with Bot\"\n\n3. Settings → Accessibility → Vocal Shortcuts → Set Up → pick that shortcut → type \"Hey Grok\" and say it 3 times\n\n4. In the shortcut's details, turn on \"Allow Running When Locked\"\n\nIf your phone is locked, iOS asks for one tap first. If Face ID already unlocked it, it's fully hands-free.",
+        "url": "https://x.com/Texas_Twins_Dad/status/2114217410823688573",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2061,
+        "likes": 5835,
+        "quotes": 52,
+        "replies": 611,
+        "retweets": 593,
+        "views": 994811
+      },
+      "url": "https://x.com/elonmusk/status/2114242922006897145",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2114242798006517866",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -959,53 +1011,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2114164137035219426",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-25T01:16:24.000Z",
-      "created_at_shanghai": "2026-10-25 09:16:24",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
-      "quote": {
-        "author": "skscartoon",
-        "avatar": "https://pbs.twimg.com/profile_images/1960517073978974211/atpJ9Nr4_200x200.jpg",
-        "created_at_shanghai": "2026-10-25 07:25:25",
-        "created_at_utc": "2026-10-24T23:25:25.000Z",
-        "id": "2114136206430892494",
-        "images": [],
-        "media": [],
-        "name": "Skscartoon",
-        "text": "Elon Musk was one of the first to give Ukraine meaningful assistance, providing Starlink for civilian use in the early stage of the war.\n\nAt the same time, most of Europe was still sending billions to Russia for oil and gas, yet these are the same people who lecture him for not wanting to prolong a war that has already killed hundreds of thousands.\n\nThe audacity!",
-        "url": "https://x.com/skscartoon/status/2114136206430892494",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 30,
-        "likes": 1875,
-        "quotes": 21,
-        "replies": 291,
-        "retweets": 236,
-        "views": 343026
-      },
-      "url": "https://x.com/elonmusk/status/2114164137035219426",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 41,
   "page_size": 20,
-  "total": 2231,
+  "total": 2232,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 13:02:30",
+  "updated_at_shanghai": "2026-11-12 13:17:09",
   "account": "elonmusk"
 }
