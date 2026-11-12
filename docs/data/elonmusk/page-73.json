@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2109507243007979558",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T04:51:34.000Z",
+      "created_at_shanghai": "2026-10-12 12:51:34",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try Grok @Bot",
+      "quote": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 11:44:53",
+        "created_at_utc": "2026-10-12T03:44:53.000Z",
+        "id": "2109490463635914867",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2109490064350654464/img/bnCYYVwaqC10h9H0.jpg"
+        ],
+        "media": [
+          {
+            "duration": 23.066,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109490064350654464/img/bnCYYVwaqC10h9H0.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2109490064350654464/vid/avc1/3840x2160/ZFTgz332SwJrLM3u.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "You can now use Grok @Bot in a Tesla Cybercab.\n\nYou just sign into Grok once, and your Bots will be available on all future rides, and automatically logged out when you exit the vehicle to maintain privacy.\n\nI tried it tonight by adding laundry detergent to my Amazon cart. It can also send emails, place your coffee order, manage your calendar, finances, or other tasks using just your voice in the robotaxi.\n\nOn your next ride, you’ll automatically be signed in to all the apps you previously logged into as soon as you enter the vehicle.",
+        "url": "https://x.com/SawyerMerritt/status/2109490463635914867",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 78,
+        "likes": 2508,
+        "quotes": 63,
+        "replies": 666,
+        "retweets": 322,
+        "views": 913613
+      },
+      "url": "https://x.com/elonmusk/status/2109507243007979558",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109505761210425522",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1069,64 +1121,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109262612303314986",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T12:39:29.000Z",
-      "created_at_shanghai": "2026-10-11 20:39:29",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Cybercab is scaling",
-      "quote": {
-        "author": "robotaxi",
-        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 02:03:12",
-        "created_at_utc": "2026-10-10T18:03:12.000Z",
-        "id": "2108981691436224816",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108981082184196096/img/wGul5qsq-gD4zOtp.jpg"
-        ],
-        "media": [
-          {
-            "duration": 45.353,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108981082184196096/img/wGul5qsq-gD4zOtp.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108981082184196096/vid/avc1/3840x2160/JMXBg-QsjE5QIYbt.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Robotaxi",
-        "text": "One month after launch, we've scaled to 300+ Cybercabs serving Austin – an 8x increase in 30 days",
-        "url": "https://x.com/robotaxi/status/2108981691436224816",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 146,
-        "likes": 6321,
-        "quotes": 99,
-        "replies": 793,
-        "retweets": 685,
-        "views": 789376
-      },
-      "url": "https://x.com/elonmusk/status/2109262612303314986",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 73,
   "page_size": 20,
-  "total": 2243,
+  "total": 2244,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 00:13:19",
+  "updated_at_shanghai": "2026-11-13 00:59:33",
   "account": "elonmusk"
 }
