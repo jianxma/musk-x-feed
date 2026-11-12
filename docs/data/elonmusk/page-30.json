@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2116027121545904387",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T04:39:14.000Z",
+      "created_at_shanghai": "2026-10-30 12:39:14",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "It’s great @Bot",
+      "quote": {
+        "author": "profstonge",
+        "avatar": "https://pbs.twimg.com/profile_images/1738594872125161472/oHWOsCs5_200x200.jpg",
+        "created_at_shanghai": "2026-10-30 08:57:03",
+        "created_at_utc": "2026-10-30T00:57:03.000Z",
+        "id": "2115971209141670228",
+        "images": [],
+        "media": [],
+        "name": "Peter St Onge, Ph.D.",
+        "text": "My first week using Grokbot I'm blown away.   \n\nTonight I got tickets for a concert with the kids with 70 punk bands and told Grokbot to build a Youtube playlist of the top songs to send the kids.   \n\nIt took me 30 seconds 🤯\n\nMoreover, doing it by hand would have taken so long I wouldn't have done it and the kids would have no idea who the bands are 🤯",
+        "url": "https://x.com/profstonge/status/2115971209141670228",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 42,
+        "likes": 1234,
+        "quotes": 18,
+        "replies": 290,
+        "retweets": 130,
+        "views": 490526
+      },
+      "url": "https://x.com/elonmusk/status/2116027121545904387",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116026427128832140",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -951,53 +992,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115935053347786773",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T22:33:23.000Z",
-      "created_at_shanghai": "2026-10-30 06:33:23",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Everyday is Zeroday",
-      "quote": {
-        "author": "KobeissiLetter",
-        "avatar": "https://pbs.twimg.com/profile_images/1975243710846640128/fwYCe67Y_200x200.jpg",
-        "created_at_shanghai": "2026-10-30 05:58:23",
-        "created_at_utc": "2026-10-29T21:58:23.000Z",
-        "id": "2115926246916038921",
-        "images": [],
-        "media": [],
-        "name": "The Kobeissi Letter",
-        "text": "BREAKING: Binance has been hacked with wallets across the Ethereum, Bitcoin, and TRON networks seeing outflows of -$5.7 billion.\n\nThe hack includes $1.45 billion worth of Bitcoin and $875 million worth of ETH.\n\nIf confirmed, this would mark the biggest hack in crypto history.\n\nWe expect more information shortly.",
-        "url": "https://x.com/KobeissiLetter/status/2115926246916038921",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1430,
-        "likes": 23373,
-        "quotes": 656,
-        "replies": 2155,
-        "retweets": 2519,
-        "views": 1802014
-      },
-      "url": "https://x.com/elonmusk/status/2115935053347786773",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 30,
   "page_size": 20,
-  "total": 2241,
+  "total": 2242,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-12 16:36:09",
+  "updated_at_shanghai": "2026-11-12 16:45:24",
   "account": "elonmusk"
 }

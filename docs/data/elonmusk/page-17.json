@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2117650707398664501",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T16:10:47.000Z",
+      "created_at_shanghai": "2026-11-04 00:10:47",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink grows customers for airlines",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-04 00:06:56",
+        "created_at_utc": "2026-11-03T16:06:56.000Z",
+        "id": "2117649738623496227",
+        "images": [
+          "https://pbs.twimg.com/media/HWNnNeYaoAAeW13.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 923,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWNnNeYaoAAeW13.jpg?name=small",
+            "width": 923
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: Starlink helped Japan’s ZIPAIR grow passenger revenue 12.3% YoY.\n\nJapan Airlines (JAL) says @Starlink improved ZIPAIR’s onboard experience and helped drive revenue growth alongside flexible pricing. \n\nZIPAIR became Asia’s first airline with Starlink across its entire fleet in May. April–September passenger revenue reached ¥42.9 billion, while seat occupancy jumped from 73.7% to 87.8%.",
+        "url": "https://x.com/cb_doge/status/2117649738623496227",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 45,
+        "likes": 2524,
+        "quotes": 28,
+        "replies": 346,
+        "retweets": 305,
+        "views": 632773
+      },
+      "url": "https://x.com/elonmusk/status/2117650707398664501",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2117649850644705591",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1162,75 +1212,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2117480528618397848",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T04:54:33.000Z",
-      "created_at_shanghai": "2026-11-03 12:54:33",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "A lot of very smart people are tying themselves in knots trying to explain why dissipating heat from a compute satellite is impossible.\n\nAll they’ve really guaranteed is that they’ll never get a job at SpaceX.\n\nIt used to be:\n\n“You can’t build an EV that performs as well as an ICE vehicle.”\n“You can’t build EV batteries at scale.”\n“You can’t solve autonomous driving with cameras and vision alone.”\n“You can’t land and reuse an orbital-class rocket.”\n“You can’t build an electric semi.”\n“You can’t manufacture cars at that scale.”\n\nNow it’s:\n\n“You can’t build a space-based AI compute satellite.”\n“You can’t scale terrestrial compute that fast.”\n“You can’t manufacture advanced AI chips at scale.”\n“You can’t build AI models that challenge the frontier labs.”\n“You can’t build a general-purpose humanoid robot that works at scale.”\n“You can’t get to Mars.”",
-      "quote": {
-        "author": "pbeisel",
-        "avatar": "https://pbs.twimg.com/profile_images/1203351889288368128/wTDyAK0l_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 03:38:03",
-        "created_at_utc": "2026-11-02T19:38:03.000Z",
-        "id": "2117340482594562486",
-        "images": [
-          "https://pbs.twimg.com/media/HWJN6hSbQAAJEG4.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 784,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWJN6hSbQAAJEG4.jpg?name=small",
-            "width": 1168
-          }
-        ],
-        "name": "phil beisel",
-        "text": "Here we have the necessary 'I am smarter than Elon' post.\n\nI wonder if Jan realizes that there are 11,184 Starlink satellites in space, 'cooling' right now through their radiative structures.\n\nNot the same heat dissipation requirements as the Starmind sats, but I think it's reasonable to say Elon knows a thing or two about satellite thermal management.\n\nJan got his impression count, though I am not sure that was his objective.",
-        "url": "https://x.com/pbeisel/status/2117340482594562486",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "pbeisel",
-        "avatar": "https://pbs.twimg.com/profile_images/1203351889288368128/wTDyAK0l_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 12:17:05",
-        "created_at_utc": "2026-11-03T04:17:05.000Z",
-        "id": "2117471098820587582",
-        "images": [],
-        "media": [],
-        "name": "phil beisel",
-        "text": "A lot of very smart people are tying themselves in knots trying to explain why dissipating heat from a compute satellite is impossible.\n\nAll they’ve really guaranteed is that they’ll never get a job at SpaceX.\n\nIt used to be:\n\n“You can’t build an EV that performs as well as an ICE vehicle.”\n“You can’t build EV batteries at scale.”\n“You can’t solve autonomous driving with cameras and vision alone.”\n“You can’t land and reuse an orbital-class rocket.”\n“You can’t build an electric semi.”\n“You can’t manufacture cars at that scale.”\n\nNow it’s:\n\n“You can’t build a space-based AI compute satellite.”\n“You can’t scale terrestrial compute that fast.”\n“You can’t manufacture advanced AI chips at scale.”\n“You can’t build AI models that challenge the frontier labs.”\n“You can’t build a general-purpose humanoid robot that works at scale.”\n“You can’t get to Mars.”",
-        "url": "https://x.com/pbeisel/status/2117471098820587582",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 82,
-        "likes": 1466,
-        "quotes": 16,
-        "replies": 157,
-        "retweets": 157,
-        "views": 300725
-      },
-      "url": "https://x.com/elonmusk/status/2117480528618397848",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 20,
-  "total": 2241,
+  "total": 2242,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-12 16:36:09",
+  "updated_at_shanghai": "2026-11-12 16:45:24",
   "account": "elonmusk"
 }
