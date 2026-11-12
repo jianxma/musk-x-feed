@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2116602494831013909",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-31T18:45:33.000Z",
+      "created_at_shanghai": "2026-11-01 02:45:33",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "\"I'm sorry Anakin. The Tusken Raiders that killed your mother aren't fit to stand trial. Their midichlorian counts are too low.\"",
+      "quote": null,
+      "retweet": {
+        "author": "RealDixonUranus",
+        "avatar": "https://pbs.twimg.com/profile_images/2009870638207643652/bCPD33OF_200x200.jpg",
+        "created_at_shanghai": "2026-10-31 13:56:53",
+        "created_at_utc": "2026-10-31T05:56:53.000Z",
+        "id": "2116409050267373991",
+        "images": [
+          "https://pbs.twimg.com/media/HV7-t32bsAAo2AK.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 484,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HV7-t32bsAAo2AK.jpg?name=small",
+            "width": 860
+          }
+        ],
+        "name": "Dixon Uranus",
+        "text": "\"I'm sorry Anakin. The Tusken Raiders that killed your mother aren't fit to stand trial. Their midichlorian counts are too low.\"",
+        "url": "https://x.com/RealDixonUranus/status/2116409050267373991",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 682,
+        "likes": 14742,
+        "quotes": 30,
+        "replies": 86,
+        "retweets": 1099,
+        "views": 309395
+      },
+      "url": "https://x.com/elonmusk/status/2116602494831013909",
+      "images": [
+        "https://pbs.twimg.com/media/HV7-t32bsAAo2AK.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HV7-t32bsAAo2AK.jpg?name=small",
+          "width": 860,
+          "height": 484
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116598893886791944",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -921,53 +980,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116551882219090231",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-31T15:24:27.000Z",
-      "created_at_shanghai": "2026-10-31 23:24:27",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla and SpaceX have created meaningful wealth for hundreds of thousands of employees over time and improved the retirement savings of hundreds of millions of people",
-      "quote": {
-        "author": "TeslaLarry",
-        "avatar": "https://pbs.twimg.com/profile_images/1991840372314525696/cHOyCMBy_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 05:35:12",
-        "created_at_utc": "2026-10-01T21:35:12.000Z",
-        "id": "2105773551915548693",
-        "images": [],
-        "media": [],
-        "name": "Larry Goldberg",
-        "text": "https://x.com/i/article/2105766271497175040",
-        "url": "https://x.com/TeslaLarry/status/2105773551915548693",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 522,
-        "likes": 11361,
-        "quotes": 99,
-        "replies": 934,
-        "retweets": 1615,
-        "views": 885392
-      },
-      "url": "https://x.com/elonmusk/status/2116551882219090231",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 22,
   "page_size": 20,
-  "total": 2226,
+  "total": 2227,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 09:57:19",
+  "updated_at_shanghai": "2026-11-12 11:47:49",
   "account": "elonmusk"
 }
