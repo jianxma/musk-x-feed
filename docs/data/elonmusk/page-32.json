@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2115642175199350785",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T03:09:35.000Z",
+      "created_at_shanghai": "2026-10-29 11:09:35",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try Grok Bot",
+      "quote": {
+        "author": "0xgaut",
+        "avatar": "https://pbs.twimg.com/profile_images/1604808218135314432/3J-ABo1I_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 08:39:28",
+        "created_at_utc": "2026-10-29T00:39:28.000Z",
+        "id": "2115604396403015976",
+        "images": [],
+        "media": [],
+        "name": "gaut",
+        "text": "grok bot makes work feel like a video game",
+        "url": "https://x.com/0xgaut/status/2115604396403015976",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 105,
+        "likes": 3271,
+        "quotes": 65,
+        "replies": 862,
+        "retweets": 334,
+        "views": 1180431
+      },
+      "url": "https://x.com/elonmusk/status/2115642175199350785",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2115642019791896679",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -961,53 +1002,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2115624652454154559",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T01:59:58.000Z",
-      "created_at_shanghai": "2026-10-29 09:59:58",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
-      "quote": {
-        "author": "TheCaptainEli",
-        "avatar": "https://pbs.twimg.com/profile_images/1997753138426613760/EZDpm91Z_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 23:21:47",
-        "created_at_utc": "2026-10-28T15:21:47.000Z",
-        "id": "2115464047797698610",
-        "images": [],
-        "media": [],
-        "name": "Captain Eli",
-        "text": "Notice how the headlines work.\n\nA Toyota crashes: \"Driver injured in crash.\"\nA Ford crashes: \"Two cars collide on highway.\"\nA BMW crashes: \"Accident on Route 1.\"\n\nA Tesla crashes: \"TESLA crashes.\"\n\nNot the driver. Not \"a car.\" The brand, in the headline, every single time.\n\nMillions of crashes happen on the roads every year, and almost none come with a brand name. But when it's a Tesla, legacy media suddenly cares which car it was.\n\nMeanwhile, Tesla publishes its own safety data every quarter. With Autopilot engaged, Teslas go far more miles between crashes than the US average.\n\nThat's not journalism. That's a campaign.\n\nThe cars keep getting safer. The headlines just keep getting louder.",
-        "url": "https://x.com/TheCaptainEli/status/2115464047797698610",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 71,
-        "likes": 2903,
-        "quotes": 20,
-        "replies": 410,
-        "retweets": 259,
-        "views": 460770
-      },
-      "url": "https://x.com/elonmusk/status/2115624652454154559",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 32,
   "page_size": 20,
-  "total": 2230,
+  "total": 2231,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 12:44:33",
+  "updated_at_shanghai": "2026-11-12 13:02:30",
   "account": "elonmusk"
 }
