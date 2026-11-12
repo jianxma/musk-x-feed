@@ -1,10 +1,73 @@
 {
   "posts": [
     {
-      "id": "2120694603506733324",
+      "id": "2120696407917273571",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T01:53:18.000Z",
+      "created_at_shanghai": "2026-11-12 09:53:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Introducing Grok Bot 1.0.\n\nBots can be shared and are more collaborative and capable than ever.",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceXSI",
+        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 02:30:20",
+        "created_at_utc": "2026-11-11T18:30:20.000Z",
+        "id": "2120584928983441826",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg"
+        ],
+        "media": [
+          {
+            "duration": 79.1,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120584648887603200/vid/avc1/1920x1080/_5-Mr3wCmHhH2dyV.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "SpaceX Super Intelligence",
+        "text": "Introducing Grok Bot 1.0.\n\nBots can be shared and are more collaborative and capable than ever.",
+        "url": "https://x.com/SpaceXSI/status/2120584928983441826",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 736,
+        "likes": 5299,
+        "quotes": 133,
+        "replies": 233,
+        "retweets": 475,
+        "views": 1346695
+      },
+      "url": "https://x.com/elonmusk/status/2120696407917273571",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120584648887603200/vid/avc1/1920x1080/_5-Mr3wCmHhH2dyV.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 79.1
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2120694603506733324",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-12T01:46:08.000Z",
@@ -1110,75 +1173,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2120252018799563074",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-10T20:27:28.000Z",
-      "created_at_shanghai": "2026-11-11 04:27:28",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "SpaceX is making moves to become the first AI carrier $SPCX \n\n• Current cell towers are still mostly “dumb” radios. The Qualcomm deal is about making them AI-native.\n• Edge inference at the tower, like an updated Akamai for AI\n• Starlink Direct-to-Cell and V3 satellites alongside the terrestrial build\n\nQualcomm’s CEO said the SpaceX agreement is finalized — not an engagement. SpaceX will build the base stations. Qualcomm supplies the silicon and the RAN accelerator for a terrestrial network he called one of the largest 5G deployments in the United States, with an AI-native architecture.",
-      "quote": null,
-      "retweet": {
-        "author": "nextbigfuture",
-        "avatar": "https://pbs.twimg.com/profile_images/136366459/bwpic_200x200.JPG",
-        "created_at_shanghai": "2026-11-11 03:14:45",
-        "created_at_utc": "2026-11-10T19:14:45.000Z",
-        "id": "2120233719491612940",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120232906748813312/img/8HHfR4Uq6dXEEJjg.jpg"
-        ],
-        "media": [
-          {
-            "duration": 1968.304,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120232906748813312/img/8HHfR4Uq6dXEEJjg.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120232906748813312/vid/avc1/1920x1080/YFVcQQqQ5qCtrrSu.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "nextbigfuture",
-        "text": "SpaceX is making moves to become the first AI carrier $SPCX \n\n• Current cell towers are still mostly “dumb” radios. The Qualcomm deal is about making them AI-native.\n• Edge inference at the tower, like an updated Akamai for AI\n• Starlink Direct-to-Cell and V3 satellites alongside the terrestrial build\n\nQualcomm’s CEO said the SpaceX agreement is finalized — not an engagement. SpaceX will build the base stations. Qualcomm supplies the silicon and the RAN accelerator for a terrestrial network he called one of the largest 5G deployments in the United States, with an AI-native architecture.",
-        "url": "https://x.com/nextbigfuture/status/2120233719491612940",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 46,
-        "likes": 447,
-        "quotes": 8,
-        "replies": 32,
-        "retweets": 83,
-        "views": 42246
-      },
-      "url": "https://x.com/elonmusk/status/2120252018799563074",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2120232906748813312/img/8HHfR4Uq6dXEEJjg.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2120232906748813312/vid/avc1/1920x1080/YFVcQQqQ5qCtrrSu.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120232906748813312/img/8HHfR4Uq6dXEEJjg.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 1968.304
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2225,
+  "total": 2226,
   "total_pages": 112,
-  "updated_at_shanghai": "2026-11-12 09:49:37",
+  "updated_at_shanghai": "2026-11-12 09:57:19",
   "account": "elonmusk"
 }
