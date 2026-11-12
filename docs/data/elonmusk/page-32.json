@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2115809614738436268",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T14:14:56.000Z",
+      "created_at_shanghai": "2026-10-29 22:14:56",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "As of October 26, Grok Bot has grown in DAUs for 16 consecutive days, its longest growth streak to date.",
+      "quote": null,
+      "retweet": {
+        "author": "Similarweb",
+        "avatar": "https://pbs.twimg.com/profile_images/1796148234060021760/iq5AA2vD_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 16:35:46",
+        "created_at_utc": "2026-10-29T08:35:46.000Z",
+        "id": "2115724259691471150",
+        "images": [
+          "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small"
+        ],
+        "media": [
+          {
+            "height": 610,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small",
+            "width": 700
+          }
+        ],
+        "name": "Similarweb",
+        "text": "As of October 26, Grok Bot has grown in DAUs for 16 consecutive days, its longest growth streak to date.",
+        "url": "https://x.com/Similarweb/status/2115724259691471150",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 559,
+        "quotes": 20,
+        "replies": 31,
+        "retweets": 74,
+        "views": 135139
+      },
+      "url": "https://x.com/elonmusk/status/2115809614738436268",
+      "images": [
+        "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVyP4FSX0AA6Be7.png?name=small",
+          "width": 700,
+          "height": 610
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2115809559835197789",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -972,71 +1031,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115638705516171307",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T02:55:48.000Z",
-      "created_at_shanghai": "2026-10-29 10:55:48",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Movistar and Orange turned to SpaceX's Starlink satellites to keep phones connected at the site of Wednesday's deadly high-speed train crash near Urda, Toledo, Spain 🇪🇸\n\nAccording to an ADSLZone exclusive, both carriers switched on Starlink-based coverage around the crash, where a Renfe AVE and an Iryo train collided on the Madrid to Seville high-speed line. Orange separately confirmed it moved mobile units into the area and reinforced its network to support emergency crews.",
-      "quote": null,
-      "retweet": {
-        "author": "EvaFox",
-        "avatar": "https://pbs.twimg.com/profile_images/2049730010999627776/IsXmiZr5_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 05:03:25",
-        "created_at_utc": "2026-10-28T21:03:25.000Z",
-        "id": "2115550022687174677",
-        "images": [
-          "https://pbs.twimg.com/media/HVvxh-rXkAAJ6I2.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 900,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVvxh-rXkAAJ6I2.jpg?name=small",
-            "width": 1600
-          }
-        ],
-        "name": "Eva Fo𝕏 🦊 Claudius Nero's Legion",
-        "text": "Movistar and Orange turned to SpaceX's Starlink satellites to keep phones connected at the site of Wednesday's deadly high-speed train crash near Urda, Toledo, Spain 🇪🇸\n\nAccording to an ADSLZone exclusive, both carriers switched on Starlink-based coverage around the crash, where a Renfe AVE and an Iryo train collided on the Madrid to Seville high-speed line. Orange separately confirmed it moved mobile units into the area and reinforced its network to support emergency crews.",
-        "url": "https://x.com/EvaFox/status/2115550022687174677",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 67,
-        "likes": 1344,
-        "quotes": 12,
-        "replies": 54,
-        "retweets": 208,
-        "views": 256638
-      },
-      "url": "https://x.com/elonmusk/status/2115638705516171307",
-      "images": [
-        "https://pbs.twimg.com/media/HVvxh-rXkAAJ6I2.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVvxh-rXkAAJ6I2.jpg?name=small",
-          "width": 1600,
-          "height": 900
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 32,
   "page_size": 20,
-  "total": 2242,
+  "total": 2243,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-12 20:32:15",
+  "updated_at_shanghai": "2026-11-13 00:13:19",
   "account": "elonmusk"
 }

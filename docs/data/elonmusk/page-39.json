@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2114753927400808672",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-26T16:20:01.000Z",
+      "created_at_shanghai": "2026-10-27 00:20:01",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "They used LOG SCALE instead of linear to hide how extreme the differences really are…",
+      "quote": {
+        "author": "Geiger_Capital",
+        "avatar": "https://pbs.twimg.com/profile_images/1486812287730081794/FbqQsGVz_200x200.jpg",
+        "created_at_shanghai": "2026-10-26 22:42:35",
+        "created_at_utc": "2026-10-26T14:42:35.000Z",
+        "id": "2114729410406621339",
+        "images": [
+          "https://pbs.twimg.com/media/HVkHML0WQAA2wo0.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 712,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVkHML0WQAA2wo0.jpg?name=small",
+            "width": 608
+          }
+        ],
+        "name": "Geiger Capital",
+        "text": "I can’t believe The Economist put this out…\n\nRape and sexual assault by nationality:\nAfghanistan - 7x the British rate\nMiddle East - 4x the British rate\nNorth Africa - 4x the British rate\nSub Sahara - 3x the British rate",
+        "url": "https://x.com/Geiger_Capital/status/2114729410406621339",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "Geiger_Capital",
+        "avatar": "https://pbs.twimg.com/profile_images/1486812287730081794/FbqQsGVz_200x200.jpg",
+        "created_at_shanghai": "2026-10-26 23:03:27",
+        "created_at_utc": "2026-10-26T15:03:27.000Z",
+        "id": "2114734659158376650",
+        "images": [],
+        "media": [],
+        "name": "Geiger Capital",
+        "text": "They used LOG SCALE instead of linear to hide how extreme the differences really are…",
+        "url": "https://x.com/Geiger_Capital/status/2114734659158376650",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 153,
+        "likes": 2230,
+        "quotes": 6,
+        "replies": 80,
+        "retweets": 290,
+        "views": 229684
+      },
+      "url": "https://x.com/elonmusk/status/2114753927400808672",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2114753842134835435",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1002,73 +1065,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2114513919566033266",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-26T00:26:18.000Z",
-      "created_at_shanghai": "2026-10-26 08:26:18",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starship Flight 15 static fire",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-26 03:49:01",
-        "created_at_utc": "2026-10-25T19:49:01.000Z",
-        "id": "2114444137067844004",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2114442950600015872/img/ZlS2P1zA1XoYpvu9.jpg",
-          "https://pbs.twimg.com/amplify_video_thumb/2114442993151229953/img/u9-AQorDCh3sesXn.jpg"
-        ],
-        "media": [
-          {
-            "duration": 25.483,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2114442950600015872/img/ZlS2P1zA1XoYpvu9.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2114442950600015872/vid/avc1/3840x2160/SzLP9oFE1X2Gntq9.mp4?tag=29",
-            "width": 3840
-          },
-          {
-            "duration": 28.862,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2114442993151229953/img/u9-AQorDCh3sesXn.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2114442993151229953/vid/avc1/3840x2160/DoR3jpDynPqBRWDU.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Full duration 33-engine static fire for the Super Heavy booster preparing for Flight 15",
-        "url": "https://x.com/SpaceX/status/2114444137067844004",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 98,
-        "likes": 4843,
-        "quotes": 60,
-        "replies": 610,
-        "retweets": 503,
-        "views": 608595
-      },
-      "url": "https://x.com/elonmusk/status/2114513919566033266",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 39,
   "page_size": 20,
-  "total": 2242,
+  "total": 2243,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-12 20:32:15",
+  "updated_at_shanghai": "2026-11-13 00:13:19",
   "account": "elonmusk"
 }
