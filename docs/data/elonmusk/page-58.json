@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2111642226774417627",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T02:15:13.000Z",
+      "created_at_shanghai": "2026-10-18 10:15:13",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Sure",
+      "quote": {
+        "author": "Texas_Twins_Dad",
+        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
+        "created_at_shanghai": "2026-10-17 22:27:13",
+        "created_at_utc": "2026-10-17T14:27:13.000Z",
+        "id": "2111464049812873375",
+        "images": [],
+        "media": [],
+        "name": "Texas Twins Dad",
+        "text": "I should probably start a Grok Bot class for new users. There are so many people still don’t understand what Grok Bot is and what it can do",
+        "url": "https://x.com/Texas_Twins_Dad/status/2111464049812873375",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 328,
+        "likes": 5267,
+        "quotes": 28,
+        "replies": 533,
+        "retweets": 377,
+        "views": 1063024
+      },
+      "url": "https://x.com/elonmusk/status/2111642226774417627",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111642151138546118",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1028,53 +1069,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2111504835061178515",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-17T17:09:17.000Z",
-      "created_at_shanghai": "2026-10-18 01:09:17",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@XFreeze Steve Davis and his team deserve almost all the credit for @BoringCompany progress. \n\nMy role is providing engineering thoughts here and there, getting some permits unblocked and crazy merch ideas.",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-18 01:09:09",
-        "created_at_utc": "2026-10-17T17:09:09.000Z",
-        "id": "2111504802895061076",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "@XFreeze Steve Davis and his team deserve almost all the credit for @BoringCompany progress. \n\nMy role is providing engineering thoughts here and there, getting some permits unblocked and crazy merch ideas.",
-        "url": "https://x.com/elonmusk/status/2111504802895061076",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "XFreeze",
-      "engagement": {
-        "bookmarks": 135,
-        "likes": 4322,
-        "quotes": 30,
-        "replies": 279,
-        "retweets": 239,
-        "views": 285818
-      },
-      "url": "https://x.com/elonmusk/status/2111504835061178515",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 58,
   "page_size": 20,
-  "total": 2271,
+  "total": 2272,
   "total_pages": 114,
-  "updated_at_shanghai": "2026-11-13 23:46:31",
+  "updated_at_shanghai": "2026-11-13 23:59:15",
   "account": "elonmusk"
 }

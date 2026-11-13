@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2109387553010851887",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-11T20:55:57.000Z",
+      "created_at_shanghai": "2026-10-12 04:55:57",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Seriously, this actually works!\n\nThink of Grok @Bot like hiring a super smart employee who works 24/7 and is extremely resourceful. \n\nYou can use it through your phone effortlessly within minutes:\n\nhttps://apps.apple.com/app/id6794501026",
+      "quote": {
+        "author": "liam_fallen",
+        "avatar": "https://pbs.twimg.com/profile_images/2095471460286664768/-TwotnRq_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 01:16:05",
+        "created_at_utc": "2026-10-11T17:16:05.000Z",
+        "id": "2109332219126784098",
+        "images": [
+          "https://pbs.twimg.com/media/HUXaUknXQAA3JXn.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1800,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUXaUknXQAA3JXn.jpg?name=small",
+            "width": 3200
+          }
+        ],
+        "name": "Liam",
+        "text": "Grok Bot bought me an iPhone 18 Pro Max.\n\nIt was sold out everywhere.\n\nEven Apple said I'd have to wait until the end of October.\n\nSo I gave Grok Bot a virtual card and told it to find me one.\n\n→ It emailed stores\n→ Found one in stock\n→ Verified and ordered it\n→ Had it delivered to my house\n\nI'm writing this post from that iPhone.\n\nA month earlier than Apple could get me one.",
+        "url": "https://x.com/liam_fallen/status/2109332219126784098",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 566,
+        "likes": 4445,
+        "quotes": 91,
+        "replies": 1036,
+        "retweets": 500,
+        "views": 889664
+      },
+      "url": "https://x.com/elonmusk/status/2109387553010851887",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109369084865650898",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1081,71 +1131,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109147965537333266",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T05:03:55.000Z",
-      "created_at_shanghai": "2026-10-11 13:03:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk in dad mode. ♥️",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 12:51:11",
-        "created_at_utc": "2026-10-11T04:51:11.000Z",
-        "id": "2109144761131270369",
-        "images": [
-          "https://pbs.twimg.com/media/HUUv-jvaYAA1M2i.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUUv-jvaYAA1M2i.jpg?name=small",
-            "width": 2048
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Elon Musk in dad mode. ♥️",
-        "url": "https://x.com/cb_doge/status/2109144761131270369",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 123,
-        "likes": 4441,
-        "quotes": 55,
-        "replies": 440,
-        "retweets": 306,
-        "views": 219231
-      },
-      "url": "https://x.com/elonmusk/status/2109147965537333266",
-      "images": [
-        "https://pbs.twimg.com/media/HUUv-jvaYAA1M2i.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUUv-jvaYAA1M2i.jpg?name=small",
-          "width": 2048,
-          "height": 2048
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 75,
   "page_size": 20,
-  "total": 2271,
+  "total": 2272,
   "total_pages": 114,
-  "updated_at_shanghai": "2026-11-13 23:46:31",
+  "updated_at_shanghai": "2026-11-13 23:59:15",
   "account": "elonmusk"
 }

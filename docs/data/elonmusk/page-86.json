@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2107979289501344137",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T23:40:01.000Z",
+      "created_at_shanghai": "2026-10-08 07:40:01",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok x 𝕏",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 05:40:18",
+        "created_at_utc": "2026-10-07T21:40:18.000Z",
+        "id": "2107949161878606089",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg"
+        ],
+        "media": [
+          {
+            "duration": 12.166,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107948628950298624/vid/avc1/1920x1080/tlGtL_3iQXfm7WuO.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now search, read, and monitor X.",
+        "url": "https://x.com/bot/status/2107949161878606089",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 18,
+        "likes": 518,
+        "quotes": 9,
+        "replies": 185,
+        "retweets": 69,
+        "views": 249556
+      },
+      "url": "https://x.com/elonmusk/status/2107979289501344137",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107961709717807149",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1128,51 +1180,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107876928162275329",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T16:53:16.000Z",
-      "created_at_shanghai": "2026-10-08 00:53:16",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2450,
-        "likes": 14187,
-        "quotes": 209,
-        "replies": 831,
-        "retweets": 2440,
-        "views": 1568514
-      },
-      "url": "https://x.com/elonmusk/status/2107876928162275329",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2107869040718823424/img/JaL1AzI6T6WS6Tp8.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107869040718823424/vid/avc1/1920x1080/jTrLKdnHVxhqE30x.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107869040718823424/img/JaL1AzI6T6WS6Tp8.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 1608.173
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 86,
   "page_size": 20,
-  "total": 2271,
+  "total": 2272,
   "total_pages": 114,
-  "updated_at_shanghai": "2026-11-13 23:46:31",
+  "updated_at_shanghai": "2026-11-13 23:59:15",
   "account": "elonmusk"
 }

@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2106764483762717173",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T15:12:49.000Z",
+      "created_at_shanghai": "2026-10-04 23:12:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "MAJOR update for Grok Imagine by @SpaceXAI 🔥\n\nGrok Imagine now supports keyframes for video generation! You can choose images for the beginning, end, and specific moments in between, then let Grok generate the motion connecting them. Much more control over how your video unfolds.\n\nFirst Frame and Last Frame were already available, but intermediate keyframes are new. The feature has appeared in the interface without an official announcement yet. You heard it here first! 👀",
+      "quote": null,
+      "retweet": {
+        "author": "mark_k",
+        "avatar": "https://pbs.twimg.com/profile_images/1923114794804039680/HMfSchLD_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 03:51:55",
+        "created_at_utc": "2026-10-03T19:51:55.000Z",
+        "id": "2106472336048423128",
+        "images": [
+          "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 587,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small",
+            "width": 1317
+          }
+        ],
+        "name": "Mark Kretschmann",
+        "text": "MAJOR update for Grok Imagine by @SpaceXAI 🔥\n\nGrok Imagine now supports keyframes for video generation! You can choose images for the beginning, end, and specific moments in between, then let Grok generate the motion connecting them. Much more control over how your video unfolds.\n\nFirst Frame and Last Frame were already available, but intermediate keyframes are new. The feature has appeared in the interface without an official announcement yet. You heard it here first! 👀",
+        "url": "https://x.com/mark_k/status/2106472336048423128",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 84,
+        "likes": 879,
+        "quotes": 11,
+        "replies": 81,
+        "retweets": 92,
+        "views": 94296
+      },
+      "url": "https://x.com/elonmusk/status/2106764483762717173",
+      "images": [
+        "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small",
+          "width": 1317,
+          "height": 587
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2106764384924024964",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -989,53 +1048,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2106561605156864062",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-04T01:46:39.000Z",
-      "created_at_shanghai": "2026-10-04 09:46:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "In 2024, Canada euthanized 16,499 non-criminals. \n\nIn 2024, the United States executed 25 convinced criminals. \n\nIn 2025, Canada euthanized over 17,000 non-criminals. \n\nIn 2025, the United States executed 47 convinced criminals.",
-      "quote": null,
-      "retweet": {
-        "author": "KatieMiller",
-        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
-        "created_at_shanghai": "2026-10-04 00:53:02",
-        "created_at_utc": "2026-10-03T16:53:02.000Z",
-        "id": "2106427315593138227",
-        "images": [],
-        "media": [],
-        "name": "Katie Miller",
-        "text": "In 2024, Canada euthanized 16,499 non-criminals. \n\nIn 2024, the United States executed 25 convinced criminals. \n\nIn 2025, Canada euthanized over 17,000 non-criminals. \n\nIn 2025, the United States executed 47 convinced criminals.",
-        "url": "https://x.com/KatieMiller/status/2106427315593138227",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 73,
-        "likes": 1468,
-        "quotes": 30,
-        "replies": 118,
-        "retweets": 339,
-        "views": 59495
-      },
-      "url": "https://x.com/elonmusk/status/2106561605156864062",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 92,
   "page_size": 20,
-  "total": 2271,
+  "total": 2272,
   "total_pages": 114,
-  "updated_at_shanghai": "2026-11-13 23:46:31",
+  "updated_at_shanghai": "2026-11-13 23:59:15",
   "account": "elonmusk"
 }
