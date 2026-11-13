@@ -1,6 +1,132 @@
 {
   "posts": [
     {
+      "id": "2117482570757656836",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T05:02:40.000Z",
+      "created_at_shanghai": "2026-11-03 13:02:40",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Space datacenters actually make sense",
+      "quote": {
+        "author": "eliebakouch",
+        "avatar": "https://pbs.twimg.com/profile_images/1745893660099592193/MmYemsw6_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 00:45:33",
+        "created_at_utc": "2026-11-02T16:45:33.000Z",
+        "id": "2117297070155731058",
+        "images": [
+          "https://pbs.twimg.com/media/HWIlxVZWIAE-ogF.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2702,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWIlxVZWIAE-ogF.jpg?name=small",
+            "width": 2548
+          }
+        ],
+        "name": "elie",
+        "text": "distributed training in space ❤️‍🔥",
+        "url": "https://x.com/eliebakouch/status/2117297070155731058",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "MillionInt",
+        "avatar": "https://pbs.twimg.com/profile_images/1184690787419734016/7ija9HDY_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 11:53:19",
+        "created_at_utc": "2026-11-03T03:53:19.000Z",
+        "id": "2117465116858052725",
+        "images": [],
+        "media": [],
+        "name": "Jerry Tworek",
+        "text": "Space datacenters actually make sense",
+        "url": "https://x.com/MillionInt/status/2117465116858052725",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 136,
+        "likes": 1436,
+        "quotes": 17,
+        "replies": 137,
+        "retweets": 166,
+        "views": 321022
+      },
+      "url": "https://x.com/elonmusk/status/2117482570757656836",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2117480528618397848",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T04:54:33.000Z",
+      "created_at_shanghai": "2026-11-03 12:54:33",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "A lot of very smart people are tying themselves in knots trying to explain why dissipating heat from a compute satellite is impossible.\n\nAll they’ve really guaranteed is that they’ll never get a job at SpaceX.\n\nIt used to be:\n\n“You can’t build an EV that performs as well as an ICE vehicle.”\n“You can’t build EV batteries at scale.”\n“You can’t solve autonomous driving with cameras and vision alone.”\n“You can’t land and reuse an orbital-class rocket.”\n“You can’t build an electric semi.”\n“You can’t manufacture cars at that scale.”\n\nNow it’s:\n\n“You can’t build a space-based AI compute satellite.”\n“You can’t scale terrestrial compute that fast.”\n“You can’t manufacture advanced AI chips at scale.”\n“You can’t build AI models that challenge the frontier labs.”\n“You can’t build a general-purpose humanoid robot that works at scale.”\n“You can’t get to Mars.”",
+      "quote": {
+        "author": "pbeisel",
+        "avatar": "https://pbs.twimg.com/profile_images/1203351889288368128/wTDyAK0l_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 03:38:03",
+        "created_at_utc": "2026-11-02T19:38:03.000Z",
+        "id": "2117340482594562486",
+        "images": [
+          "https://pbs.twimg.com/media/HWJN6hSbQAAJEG4.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 784,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWJN6hSbQAAJEG4.jpg?name=small",
+            "width": 1168
+          }
+        ],
+        "name": "phil beisel",
+        "text": "Here we have the necessary 'I am smarter than Elon' post.\n\nI wonder if Jan realizes that there are 11,184 Starlink satellites in space, 'cooling' right now through their radiative structures.\n\nNot the same heat dissipation requirements as the Starmind sats, but I think it's reasonable to say Elon knows a thing or two about satellite thermal management.\n\nJan got his impression count, though I am not sure that was his objective.",
+        "url": "https://x.com/pbeisel/status/2117340482594562486",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "pbeisel",
+        "avatar": "https://pbs.twimg.com/profile_images/1203351889288368128/wTDyAK0l_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 12:17:05",
+        "created_at_utc": "2026-11-03T04:17:05.000Z",
+        "id": "2117471098820587582",
+        "images": [],
+        "media": [],
+        "name": "phil beisel",
+        "text": "A lot of very smart people are tying themselves in knots trying to explain why dissipating heat from a compute satellite is impossible.\n\nAll they’ve really guaranteed is that they’ll never get a job at SpaceX.\n\nIt used to be:\n\n“You can’t build an EV that performs as well as an ICE vehicle.”\n“You can’t build EV batteries at scale.”\n“You can’t solve autonomous driving with cameras and vision alone.”\n“You can’t land and reuse an orbital-class rocket.”\n“You can’t build an electric semi.”\n“You can’t manufacture cars at that scale.”\n\nNow it’s:\n\n“You can’t build a space-based AI compute satellite.”\n“You can’t scale terrestrial compute that fast.”\n“You can’t manufacture advanced AI chips at scale.”\n“You can’t build AI models that challenge the frontier labs.”\n“You can’t build a general-purpose humanoid robot that works at scale.”\n“You can’t get to Mars.”",
+        "url": "https://x.com/pbeisel/status/2117471098820587582",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 82,
+        "likes": 1466,
+        "quotes": 16,
+        "replies": 157,
+        "retweets": 157,
+        "views": 300725
+      },
+      "url": "https://x.com/elonmusk/status/2117480528618397848",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2117479668768981376",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1081,138 +1207,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2117257075810316342",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-02T14:06:38.000Z",
-      "created_at_shanghai": "2026-11-02 22:06:38",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk's naming choices for Colossus 2 are on a completely different level 😭\n\n• Macrohard\n• Macroharder\n• Minihard\n• Gun Range\n• Spam\n\nThis man built the most powerful SI data center on Earth, is building the future of superintelligence, and these are the names he comes up with 😂",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-01 03:53:13",
-        "created_at_utc": "2026-10-31T19:53:13.000Z",
-        "id": "2116619519989096450",
-        "images": [
-          "https://pbs.twimg.com/media/HV--Ou4aMAADVJW.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 900,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HV--Ou4aMAADVJW.jpg?name=small",
-            "width": 1600
-          }
-        ],
-        "name": "X Freeze",
-        "text": "SpaceXSI is building the most powerful SI training cluster on Earth, with Colossus 2 reaching around 1.2M Blackwell GPUs by the end of this year",
-        "url": "https://x.com/XFreeze/status/2116619519989096450",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 21:30:06",
-        "created_at_utc": "2026-11-02T13:30:06.000Z",
-        "id": "2117247883842084961",
-        "images": [],
-        "media": [],
-        "name": "X Freeze",
-        "text": "Elon Musk's naming choices for Colossus 2 are on a completely different level 😭\n\n• Macrohard\n• Macroharder\n• Minihard\n• Gun Range\n• Spam\n\nThis man built the most powerful SI data center on Earth, is building the future of superintelligence, and these are the names he comes up with 😂",
-        "url": "https://x.com/XFreeze/status/2117247883842084961",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 69,
-        "likes": 1577,
-        "quotes": 21,
-        "replies": 188,
-        "retweets": 180,
-        "views": 360972
-      },
-      "url": "https://x.com/elonmusk/status/2117257075810316342",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2117253374039232553",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-02T13:51:55.000Z",
-      "created_at_shanghai": "2026-11-02 21:51:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Fuck you if you hate on Elon Musk. \n\nJust imagine this was your son…\n\nALS took away Jake’s ability to use his wheelchair joystick and now, Neuralink lets him control his chair with his mind. \n\nHate on Elon all you want, he’s out here giving people their lives back.  https://x.com/pairedwith_p7/status/2116922250712535115/video/1",
-      "quote": null,
-      "retweet": {
-        "author": "Teslaconomics",
-        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 13:11:33",
-        "created_at_utc": "2026-11-02T05:11:33.000Z",
-        "id": "2117122417634250989",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2116921571847622656/img/HL1fRAEs2eX5Ra-F.jpg"
-        ],
-        "media": [
-          {
-            "duration": 27.253,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116921571847622656/img/HL1fRAEs2eX5Ra-F.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2116921571847622656/vid/avc1/1920x1080/cY06PgKtFtRBGPsx.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Teslaconomics",
-        "text": "Fuck you if you hate on Elon Musk. \n\nJust imagine this was your son…\n\nALS took away Jake’s ability to use his wheelchair joystick and now, Neuralink lets him control his chair with his mind. \n\nHate on Elon all you want, he’s out here giving people their lives back.  https://x.com/pairedwith_p7/status/2116922250712535115/video/1",
-        "url": "https://x.com/Teslaconomics/status/2117122417634250989",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 500,
-        "likes": 16465,
-        "quotes": 125,
-        "replies": 547,
-        "retweets": 2551,
-        "views": 584020
-      },
-      "url": "https://x.com/elonmusk/status/2117253374039232553",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2116921571847622656/img/HL1fRAEs2eX5Ra-F.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2116921571847622656/vid/avc1/1920x1080/cY06PgKtFtRBGPsx.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116921571847622656/img/HL1fRAEs2eX5Ra-F.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 27.253
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 20,
-  "total": 2281,
+  "total": 2283,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 04:13:13",
+  "updated_at_shanghai": "2026-11-14 04:17:25",
   "account": "elonmusk"
 }

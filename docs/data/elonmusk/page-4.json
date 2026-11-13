@@ -1,6 +1,91 @@
 {
   "posts": [
     {
+      "id": "2120613346596761630",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-11T20:23:15.000Z",
+      "created_at_shanghai": "2026-11-12 04:23:15",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@TheFlintFace @IterIntellectus 100GW in space is roughly equal to 800GW on Earth. \n\nMoreover, solar on Earth must be paired with massive batteries to continue powering compute at night and supplemented with combustion or nuclear power during winter. \n\nThese are not the same at all.",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 04:22:50",
+        "created_at_utc": "2026-11-11T20:22:50.000Z",
+        "id": "2120613240707420280",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@TheFlintFace @IterIntellectus 100GW in space is roughly equal to 800GW on Earth. \n\nMoreover, solar on Earth must be paired with massive batteries to continue powering compute at night and supplemented with combustion or nuclear power during winter. \n\nThese are not the same at all.",
+        "url": "https://x.com/elonmusk/status/2120613240707420280",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "TheFlintFace",
+      "engagement": {
+        "bookmarks": 41,
+        "likes": 712,
+        "quotes": 15,
+        "replies": 123,
+        "retweets": 79,
+        "views": 55719
+      },
+      "url": "https://x.com/elonmusk/status/2120613346596761630",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2120591950961353125",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-11T18:58:14.000Z",
+      "created_at_shanghai": "2026-11-12 02:58:14",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Person for scale",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 32,
+        "likes": 1093,
+        "quotes": 21,
+        "replies": 256,
+        "retweets": 124,
+        "views": 311213
+      },
+      "url": "https://x.com/elonmusk/status/2120591950961353125",
+      "images": [
+        "https://pbs.twimg.com/media/HW3bG9vagAAwCcq.jpg?name=small",
+        "https://pbs.twimg.com/media/HW3bG9vbAAARZza.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW3bG9vagAAwCcq.jpg?name=small",
+          "width": 1176,
+          "height": 784
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW3bG9vbAAARZza.jpg?name=small",
+          "width": 942,
+          "height": 2048
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2120590521253126183",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1096,112 +1181,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2120102894817173862",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-10T10:34:54.000Z",
-      "created_at_shanghai": "2026-11-10 18:34:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk just revealed a massive update on Grok 4.8, and SpaceXSI has completely rebuilt its reinforcement learning and inference infrastructure from scratch\n\nThe engineering team has abandoned JAX and SGLang, rewriting the entire RL and inference stack in C/C++\n\nHere’s where Grok 4.8 stands:\n\n• Pre-training is complete \n• Major cleanup of supervised fine-tuning data\n• Reinforcement learning now underway\n• Evaluation scores are starting to climb\n• Soft rollout to Grok Bot users planned for later this week\n\nAnd Elon also gave another imp update about Grok 4.8:\n\n“Grok 4.8 will bear no resemblance to 4.7 (thankfully)”\n\nHe also explained why the development took longer than expected:\n\n“It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special”\n\nThis is a fundamental engineering overhaul, not just another model upgrade\n\nSpaceXSI has rewritten the underlying infrastructure to build a much stronger foundation for Grok’s future development.\n\nAnd the first Grok Bot users are expected to get their hands on it this week",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-10 17:35:59",
-        "created_at_utc": "2026-11-10T09:35:59.000Z",
-        "id": "2120088070443655190",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "We have dumped JAX/SGLang and rewritten the entire RL and inference stack from scratch in C/C++, which took some extra time. \n\nTraining (aka pre-training) is done. Lot of cleanup was needed on the SFT data to get that mostly right. Now, 4.8 is in RL and the evals are starting to climb. We will do a soft rollout to Bot users later this week and see how it goes.\n\nGrok 4.8 will bear no resemblance to 4.7 (thankfully). It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special.",
-        "url": "https://x.com/elonmusk/status/2120088070443655190",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-10 18:01:28",
-        "created_at_utc": "2026-11-10T10:01:28.000Z",
-        "id": "2120094479797686513",
-        "images": [
-          "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 900,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small",
-            "width": 1008
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Elon Musk just revealed a massive update on Grok 4.8, and SpaceXSI has completely rebuilt its reinforcement learning and inference infrastructure from scratch\n\nThe engineering team has abandoned JAX and SGLang, rewriting the entire RL and inference stack in C/C++\n\nHere’s where Grok 4.8 stands:\n\n• Pre-training is complete \n• Major cleanup of supervised fine-tuning data\n• Reinforcement learning now underway\n• Evaluation scores are starting to climb\n• Soft rollout to Grok Bot users planned for later this week\n\nAnd Elon also gave another imp update about Grok 4.8:\n\n“Grok 4.8 will bear no resemblance to 4.7 (thankfully)”\n\nHe also explained why the development took longer than expected:\n\n“It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special”\n\nThis is a fundamental engineering overhaul, not just another model upgrade\n\nSpaceXSI has rewritten the underlying infrastructure to build a much stronger foundation for Grok’s future development.\n\nAnd the first Grok Bot users are expected to get their hands on it this week",
-        "url": "https://x.com/XFreeze/status/2120094479797686513",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 32,
-        "likes": 440,
-        "quotes": 2,
-        "replies": 42,
-        "retweets": 91,
-        "views": 49716
-      },
-      "url": "https://x.com/elonmusk/status/2120102894817173862",
-      "images": [
-        "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small",
-          "width": 1008,
-          "height": 900
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2120102767624880364",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-10T10:34:24.000Z",
-      "created_at_shanghai": "2026-11-10 18:34:24",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Turns out that the Starlink software, built for managing the movement of vast amounts of data through space and to the ground, is also very well suited to training super intelligence",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 106,
-        "likes": 1804,
-        "quotes": 59,
-        "replies": 487,
-        "retweets": 251,
-        "views": 358890
-      },
-      "url": "https://x.com/elonmusk/status/2120102767624880364",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 2281,
+  "total": 2283,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 04:13:13",
+  "updated_at_shanghai": "2026-11-14 04:17:25",
   "account": "elonmusk"
 }

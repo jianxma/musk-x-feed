@@ -1,10 +1,121 @@
 {
   "posts": [
     {
-      "id": "2121334760677298277",
+      "id": "2121335897744372073",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T20:14:25.000Z",
+      "created_at_shanghai": "2026-11-14 04:14:25",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try Grok @Bot today!",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-11-14 03:11:36",
+        "created_at_utc": "2026-11-13T19:11:36.000Z",
+        "id": "2121320089920430181",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2121319909422669824/img/3OQBsP-P67hEEtS_.jpg"
+        ],
+        "media": [
+          {
+            "duration": 28.666,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121319909422669824/img/3OQBsP-P67hEEtS_.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2121319909422669824/vid/avc1/1920x1080/IzkQAaspgiW_5WbT.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now join meetings.\n\nAsk it questions, assign it work, or have it keep track of what your team decides.",
+        "url": "https://x.com/bot/status/2121320089920430181",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 19,
+        "likes": 418,
+        "quotes": 8,
+        "replies": 163,
+        "retweets": 78,
+        "views": 272201
+      },
+      "url": "https://x.com/elonmusk/status/2121335897744372073",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121335021202256068",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T20:10:56.000Z",
+      "created_at_shanghai": "2026-11-14 04:10:56",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "if SpaceX achieves a double catch, it will be one of the single most important moments in the history of rocketry and mark a new era of humanity’s access to space. tune the fuck in! don’t miss it",
+      "quote": null,
+      "retweet": {
+        "author": "willdepue",
+        "avatar": "https://pbs.twimg.com/profile_images/1933036715343839232/NtsZBjee_200x200.jpg",
+        "created_at_shanghai": "2026-11-14 03:08:38",
+        "created_at_utc": "2026-11-13T19:08:38.000Z",
+        "id": "2121319344051544527",
+        "images": [
+          "https://pbs.twimg.com/media/HXBwruxXwAAJJ40.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXBwruxXwAAJJ40.jpg?name=small",
+            "width": 1536
+          }
+        ],
+        "name": "will depue",
+        "text": "if SpaceX achieves a double catch, it will be one of the single most important moments in the history of rocketry and mark a new era of humanity’s access to space. tune the fuck in! don’t miss it",
+        "url": "https://x.com/willdepue/status/2121319344051544527",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 845,
+        "quotes": 10,
+        "replies": 86,
+        "retweets": 117,
+        "views": 40234
+      },
+      "url": "https://x.com/elonmusk/status/2121335021202256068",
+      "images": [
+        "https://pbs.twimg.com/media/HXBwruxXwAAJJ40.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXBwruxXwAAJJ40.jpg?name=small",
+          "width": 1536,
+          "height": 2048
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2121334760677298277",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-13T20:09:54.000Z",
@@ -1221,116 +1332,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121243017084588373",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-13T14:05:20.000Z",
-      "created_at_shanghai": "2026-11-13 22:05:20",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "White farmer gives first account of terrifying South Africa raid: \"They put my testicles in bolt cutters, sliced my wife's nipples and said they'd gang-rape her - it's not just about robbing us\"!",
-      "quote": null,
-      "retweet": {
-        "author": "TRobinsonNewEra",
-        "avatar": "https://pbs.twimg.com/profile_images/2007262159403671552/-DltTmcT_200x200.jpg",
-        "created_at_shanghai": "2026-11-13 05:20:10",
-        "created_at_utc": "2026-11-12T21:20:10.000Z",
-        "id": "2120990056177381823",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120989884227690496/img/xux4m4xInkIo85dA.jpg"
-        ],
-        "media": [
-          {
-            "duration": 131.424,
-            "height": 1024,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120989884227690496/img/xux4m4xInkIo85dA.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120989884227690496/vid/avc1/576x1024/VLXh9e2QZ_sFzjJ3.mp4?tag=29",
-            "width": 576
-          }
-        ],
-        "name": "Tommy Robinson 🇬🇧",
-        "text": "White farmer gives first account of terrifying South Africa raid: \"They put my testicles in bolt cutters, sliced my wife's nipples and said they'd gang-rape her - it's not just about robbing us\"!",
-        "url": "https://x.com/TRobinsonNewEra/status/2120990056177381823",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 414,
-        "likes": 5413,
-        "quotes": 52,
-        "replies": 146,
-        "retweets": 1801,
-        "views": 167924
-      },
-      "url": "https://x.com/elonmusk/status/2121243017084588373",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2120989884227690496/img/xux4m4xInkIo85dA.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2120989884227690496/vid/avc1/576x1024/VLXh9e2QZ_sFzjJ3.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120989884227690496/img/xux4m4xInkIo85dA.jpg",
-          "width": 576,
-          "height": 1024,
-          "duration": 131.424
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2121242367684661286",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-13T14:02:45.000Z",
-      "created_at_shanghai": "2026-11-13 22:02:45",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok is a straight shooter",
-      "quote": {
-        "author": "sundarpichai",
-        "avatar": "https://pbs.twimg.com/profile_images/2051799620062429184/AL8CoAUG_200x200.jpg",
-        "created_at_shanghai": "2026-11-13 14:04:19",
-        "created_at_utc": "2026-11-13T06:04:19.000Z",
-        "id": "2121121962911273062",
-        "images": [],
-        "media": [],
-        "name": "Sundar Pichai",
-        "text": "Nice summary @grok !",
-        "url": "https://x.com/sundarpichai/status/2121121962911273062",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 51,
-        "likes": 1612,
-        "quotes": 19,
-        "replies": 432,
-        "retweets": 144,
-        "views": 425650
-      },
-      "url": "https://x.com/elonmusk/status/2121242367684661286",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2281,
+  "total": 2283,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 04:13:13",
+  "updated_at_shanghai": "2026-11-14 04:17:25",
   "account": "elonmusk"
 }
