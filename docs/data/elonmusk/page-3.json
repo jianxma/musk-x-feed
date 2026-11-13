@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2120737443267670220",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T04:36:22.000Z",
+      "created_at_shanghai": "2026-11-12 12:36:22",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "All systems are looking good, and weather is favorable for liftoff. Propellant load is about to begin for Falcon 9’s launch of the USSF-627 mission from California → https://spacex.com/launches/ussf627",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 11:47:08",
+        "created_at_utc": "2026-11-12T03:47:08.000Z",
+        "id": "2120725054933635188",
+        "images": [
+          "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2067,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small",
+            "width": 3100
+          }
+        ],
+        "name": "SpaceX",
+        "text": "All systems are looking good, and weather is favorable for liftoff. Propellant load is about to begin for Falcon 9’s launch of the USSF-627 mission from California → https://spacex.com/launches/ussf627",
+        "url": "https://x.com/SpaceX/status/2120725054933635188",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 58,
+        "likes": 2228,
+        "quotes": 18,
+        "replies": 144,
+        "retweets": 210,
+        "views": 173420
+      },
+      "url": "https://x.com/elonmusk/status/2120737443267670220",
+      "images": [
+        "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small",
+          "width": 3100,
+          "height": 2067
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2120737200799465946",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1074,64 +1133,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2120432718639145404",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T08:25:30.000Z",
-      "created_at_shanghai": "2026-11-11 16:25:30",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Portable, lightning-fast Internet that works anywhere on Earth where Starlink is legal!",
-      "quote": {
-        "author": "Starlink",
-        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
-        "created_at_shanghai": "2026-11-11 01:28:05",
-        "created_at_utc": "2026-11-10T17:28:05.000Z",
-        "id": "2120206875581186293",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120206805301432320/img/GfU1cb3_x6eq7W_n.jpg"
-        ],
-        "media": [
-          {
-            "duration": 42.542,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120206805301432320/img/GfU1cb3_x6eq7W_n.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120206805301432320/vid/avc1/3840x2160/ZgZw9IqkEhYoHROw.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Starlink",
-        "text": "Introducing Mini 2, the next-generation portable Starlink. Get up to 4.5 hours of connectivity on a single charge with the quick-swap battery, or plug in with USB-C.\n\nWith built-in Wi-Fi, all you need is a clear view of the sky to get online in 60 seconds.\n\nPreorders are now open by invitation in the US. Be the first to know when it's available → http://starlink.com/mini-2",
-        "url": "https://x.com/Starlink/status/2120206875581186293",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 26,
-        "likes": 527,
-        "quotes": 12,
-        "replies": 163,
-        "retweets": 79,
-        "views": 295292
-      },
-      "url": "https://x.com/elonmusk/status/2120432718639145404",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 2269,
+  "total": 2270,
   "total_pages": 114,
-  "updated_at_shanghai": "2026-11-13 23:27:11",
+  "updated_at_shanghai": "2026-11-13 23:45:27",
   "account": "elonmusk"
 }
