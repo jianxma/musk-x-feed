@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2115471764960735355",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-28T15:52:26.000Z",
+      "created_at_shanghai": "2026-10-28 23:52:26",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "They do",
+      "quote": {
+        "author": "BillboardChris",
+        "avatar": "https://pbs.twimg.com/profile_images/1901861685000081408/D7iobPHe_200x200.jpg",
+        "created_at_shanghai": "2026-10-28 00:53:11",
+        "created_at_utc": "2026-10-27T16:53:11.000Z",
+        "id": "2115124663018000791",
+        "images": [
+          "https://pbs.twimg.com/media/HVpuqvEWQAMi6h3.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 881,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVpuqvEWQAMi6h3.jpg?name=small",
+            "width": 1100
+          }
+        ],
+        "name": "Billboard Chris 🌎",
+        "text": "Vote like children’s lives depend on it.\n\nBecause they do.",
+        "url": "https://x.com/BillboardChris/status/2115124663018000791",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 214,
+        "likes": 23230,
+        "quotes": 127,
+        "replies": 2081,
+        "retweets": 3670,
+        "views": 1268326
+      },
+      "url": "https://x.com/elonmusk/status/2115471764960735355",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2115470191513702683",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1044,51 +1094,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115346075666325755",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-28T07:33:00.000Z",
-      "created_at_shanghai": "2026-10-28 15:33:00",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "I saw the worst of you\nAnd I still chose you",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2576,
-        "likes": 15976,
-        "quotes": 646,
-        "replies": 2744,
-        "retweets": 2161,
-        "views": 1780751
-      },
-      "url": "https://x.com/elonmusk/status/2115346075666325755",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2108692683363594240/img/6_cVCm3vcmoHsD_1.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2108692683363594240/vid/avc1/1920x1080/brq4ekALq0kGGGw7.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108692683363594240/img/6_cVCm3vcmoHsD_1.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 252.25
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 36,
   "page_size": 20,
-  "total": 2283,
+  "total": 2284,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 04:17:25",
+  "updated_at_shanghai": "2026-11-14 05:16:18",
   "account": "elonmusk"
 }

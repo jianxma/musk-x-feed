@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2116306579779731464",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T23:09:42.000Z",
+      "created_at_shanghai": "2026-10-31 07:09:42",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Cool",
+      "quote": {
+        "author": "everestchris6",
+        "avatar": "https://pbs.twimg.com/profile_images/1970372109202530305/A5Axp4ih_200x200.jpg",
+        "created_at_shanghai": "2026-10-30 23:02:18",
+        "created_at_utc": "2026-10-30T15:02:18.000Z",
+        "id": "2116183923747422477",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2116183407868973056/img/wSgccKH8bSwFINFR.jpg"
+        ],
+        "media": [
+          {
+            "duration": 21,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116183407868973056/img/wSgccKH8bSwFINFR.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2116183407868973056/vid/avc1/1920x1080/hMnnrxktEvbp7ScO.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Chris",
+        "text": "grok bot can now see what's on your phone and answer anything about it\n\njust hold the action button and ask what you need:\n\n> ask anything about the video you're watching\n> tell it to build what you saw in a reel for your business\n> ask it to break down the article you're reading\n\nit can watch videos, read posts, check the web, basically everything.\n\ni built it as a free iphone shortcut and made it open source, you can grab it below",
+        "url": "https://x.com/everestchris6/status/2116183923747422477",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 624,
+        "likes": 3388,
+        "quotes": 43,
+        "replies": 532,
+        "retweets": 355,
+        "views": 675117
+      },
+      "url": "https://x.com/elonmusk/status/2116306579779731464",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116306297041678675",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -969,64 +1021,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116240704393351411",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T18:47:56.000Z",
-      "created_at_shanghai": "2026-10-31 02:47:56",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "This would be the end of democracy in America",
-      "quote": {
-        "author": "KanekoaTheGreat",
-        "avatar": "https://pbs.twimg.com/profile_images/1612188077333835776/qxjhM55m_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 01:34:01",
-        "created_at_utc": "2026-10-30T17:34:01.000Z",
-        "id": "2116222104907764086",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2116220681394475008/img/JxzER-D5vjDvNXA3.jpg"
-        ],
-        "media": [
-          {
-            "duration": 80.2,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116220681394475008/img/JxzER-D5vjDvNXA3.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2116220681394475008/vid/avc1/1920x1080/deEIkto2pnt7Z1V0.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "KanekoaTheGreat",
-        "text": "James Talarico wants to end the filibuster, is open to packing the Supreme Court, and backs a pathway to citizenship for millions. In his own words:\n\n“We should abolish the filibuster in the U.S. Senate…”\n\n“I’m open to a discussion about expanding the number of justices.”\n\n“I think we should have a pathway for those folks to join us as full citizens.”\n\nTalarico now calls himself a “border security Democrat.”\n\nBut while millions crossed the border under Biden, he voted against border security eight times. \n\nThen in 2025, he voted no again.\n\nEnd the filibuster. Pack the Supreme Court. Open the border. Citizenship for millions.\n\nThat’s what James Talarico will vote for in Washington.\n\nElon Musk is right. Election Day is Nov. 3. Go vote, Texas!",
-        "url": "https://x.com/KanekoaTheGreat/status/2116222104907764086",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 153,
-        "likes": 8370,
-        "quotes": 74,
-        "replies": 1168,
-        "retweets": 1689,
-        "views": 1152749
-      },
-      "url": "https://x.com/elonmusk/status/2116240704393351411",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 27,
   "page_size": 20,
-  "total": 2283,
+  "total": 2284,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 04:17:25",
+  "updated_at_shanghai": "2026-11-14 05:16:18",
   "account": "elonmusk"
 }

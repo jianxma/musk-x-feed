@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2116589020104761487",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-31T17:52:01.000Z",
+      "created_at_shanghai": "2026-11-01 01:52:01",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I’m currently early voting. The line wraps through the building and pushes outside. It’s also raining outside.\n\nStaying in line.",
+      "quote": null,
+      "retweet": {
+        "author": "the_jefferymead",
+        "avatar": "https://pbs.twimg.com/profile_images/1653093448822542336/eMRq3ayO_200x200.jpg",
+        "created_at_shanghai": "2026-11-01 01:18:17",
+        "created_at_utc": "2026-10-31T17:18:17.000Z",
+        "id": "2116580530506666140",
+        "images": [],
+        "media": [],
+        "name": "Jeffery Mead",
+        "text": "I’m currently early voting. The line wraps through the building and pushes outside. It’s also raining outside.\n\nStaying in line.",
+        "url": "https://x.com/the_jefferymead/status/2116580530506666140",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 22,
+        "likes": 5659,
+        "quotes": 10,
+        "replies": 157,
+        "retweets": 595,
+        "views": 226262
+      },
+      "url": "https://x.com/elonmusk/status/2116589020104761487",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116588737022882138",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -943,71 +984,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116549447513763842",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-31T15:14:46.000Z",
-      "created_at_shanghai": "2026-10-31 23:14:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "“The most important thing in the world is family and love.”",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 09:28:30",
-        "created_at_utc": "2026-10-31T01:28:30.000Z",
-        "id": "2116341509612281911",
-        "images": [
-          "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1440,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small",
-            "width": 1440
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "“The most important thing in the world is family and love.”",
-        "url": "https://x.com/cb_doge/status/2116341509612281911",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 173,
-        "likes": 6471,
-        "quotes": 47,
-        "replies": 473,
-        "retweets": 655,
-        "views": 268133
-      },
-      "url": "https://x.com/elonmusk/status/2116549447513763842",
-      "images": [
-        "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small",
-          "width": 1440,
-          "height": 1440
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 20,
-  "total": 2283,
+  "total": 2284,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 04:17:25",
+  "updated_at_shanghai": "2026-11-14 05:16:18",
   "account": "elonmusk"
 }

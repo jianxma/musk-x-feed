@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2109262612303314986",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-11T12:39:29.000Z",
+      "created_at_shanghai": "2026-10-11 20:39:29",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Cybercab is scaling",
+      "quote": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-10-11 02:03:12",
+        "created_at_utc": "2026-10-10T18:03:12.000Z",
+        "id": "2108981691436224816",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108981082184196096/img/wGul5qsq-gD4zOtp.jpg"
+        ],
+        "media": [
+          {
+            "duration": 45.353,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108981082184196096/img/wGul5qsq-gD4zOtp.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108981082184196096/vid/avc1/3840x2160/JMXBg-QsjE5QIYbt.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "One month after launch, we've scaled to 300+ Cybercabs serving Austin – an 8x increase in 30 days",
+        "url": "https://x.com/robotaxi/status/2108981691436224816",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 146,
+        "likes": 6321,
+        "quotes": 99,
+        "replies": 793,
+        "retweets": 685,
+        "views": 789376
+      },
+      "url": "https://x.com/elonmusk/status/2109262612303314986",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109260604594856260",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1015,49 +1067,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109012639049244981",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T20:06:11.000Z",
-      "created_at_shanghai": "2026-10-11 04:06:11",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 535,
-        "likes": 17941,
-        "quotes": 505,
-        "replies": 2697,
-        "retweets": 1870,
-        "views": 1224252
-      },
-      "url": "https://x.com/elonmusk/status/2109012639049244981",
-      "images": [
-        "https://pbs.twimg.com/media/HUS30WJXgAAuTSo.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUS30WJXgAAuTSo.jpg?name=small",
-          "width": 1320,
-          "height": 762
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 76,
   "page_size": 20,
-  "total": 2283,
+  "total": 2284,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 04:17:25",
+  "updated_at_shanghai": "2026-11-14 05:16:18",
   "account": "elonmusk"
 }
