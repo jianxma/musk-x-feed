@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2114364277595488330",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-25T14:31:41.000Z",
+      "created_at_shanghai": "2026-10-25 22:31:41",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try Grok @Bot",
+      "quote": {
+        "author": "altcap",
+        "avatar": "https://pbs.twimg.com/profile_images/2062920101762838529/UbUmfkvG_200x200.jpg",
+        "created_at_shanghai": "2026-10-25 22:03:45",
+        "created_at_utc": "2026-10-25T14:03:45.000Z",
+        "id": "2114357249988505790",
+        "images": [],
+        "media": [],
+        "name": "Brad Gerstner",
+        "text": "Thanks for the overwhelming response.  @bot to the rescue - helping me process all these Sunday morning gifts - from gathering all the QR codes to processing the payments - @bot truly elite!  🤖💰🇺🇸",
+        "url": "https://x.com/altcap/status/2114357249988505790",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 13,
+        "likes": 576,
+        "quotes": 11,
+        "replies": 215,
+        "retweets": 87,
+        "views": 365088
+      },
+      "url": "https://x.com/elonmusk/status/2114364277595488330",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2114360600411218355",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1049,62 +1090,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2114205004340854795",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-25T03:58:47.000Z",
-      "created_at_shanghai": "2026-10-25 11:58:47",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "The way to think about this is:\n\nHow many super smart and dedicated people do you want to hire? And they keep getting better.",
-      "quote": {
-        "author": "a16z",
-        "avatar": "https://pbs.twimg.com/profile_images/1919488160125616128/QAZXTMEj_200x200.png",
-        "created_at_shanghai": "2026-10-24 21:30:05",
-        "created_at_utc": "2026-10-24T13:30:05.000Z",
-        "id": "2113986385908842870",
-        "images": [
-          "https://pbs.twimg.com/media/HVZjaU3bkAAv5Hj.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 4596,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVZjaU3bkAAv5Hj.jpg?name=small",
-            "width": 3000
-          }
-        ],
-        "name": "a16z",
-        "text": "Zooming out, GPUs are still renting ahead of a standard 6-year depreciation schedule\n\nRental price vs. schedule:\n- H200: +143%\n- B200: +111%\n- RTX PRO 6000: +73%\n- H100: +54%\n- A100: +9%\n\nMost of the gap opened up after April, when token demand took off\n\nCharts of the Week: https://www.a16z.news/p/charts-of-the-week-attention-is-all",
-        "url": "https://x.com/a16z/status/2113986385908842870",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 421,
-        "likes": 3688,
-        "quotes": 54,
-        "replies": 495,
-        "retweets": 363,
-        "views": 743256
-      },
-      "url": "https://x.com/elonmusk/status/2114205004340854795",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 42,
   "page_size": 20,
-  "total": 2259,
+  "total": 2260,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 14:15:29",
+  "updated_at_shanghai": "2026-11-13 14:22:04",
   "account": "elonmusk"
 }

@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2110941984881885262",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T03:52:43.000Z",
+      "created_at_shanghai": "2026-10-16 11:52:43",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Here is the @Tesla Roadster’s battery and drive unit, which is one-third more powerful than the Model S Plaid’s, with half the mass.\n\nTesla: “The new high-voltage battery and drive unit technology used to drive Roadster enables our most powerful and compact rear-wheel drive unit yet. Together, they deliver 1 MW of pure power-that's one third more power than Model S Plaid-with half the mass. The result is paradigm-shifting acceleration with amazing cornering and precise stopping power.”",
+      "quote": null,
+      "retweet": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 11:21:18",
+        "created_at_utc": "2026-10-16T03:21:18.000Z",
+        "id": "2110934079616987536",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110933840080367616/img/tm-OXlvM4Gtnp8Tc.jpg"
+        ],
+        "media": [
+          {
+            "duration": 32.468,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110933840080367616/img/tm-OXlvM4Gtnp8Tc.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110933840080367616/vid/avc1/3840x2160/6iILzKRGy8c0ixiw.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "Here is the @Tesla Roadster’s battery and drive unit, which is one-third more powerful than the Model S Plaid’s, with half the mass.\n\nTesla: “The new high-voltage battery and drive unit technology used to drive Roadster enables our most powerful and compact rear-wheel drive unit yet. Together, they deliver 1 MW of pure power-that's one third more power than Model S Plaid-with half the mass. The result is paradigm-shifting acceleration with amazing cornering and precise stopping power.”",
+        "url": "https://x.com/SawyerMerritt/status/2110934079616987536",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 474,
+        "likes": 4300,
+        "quotes": 53,
+        "replies": 147,
+        "retweets": 443,
+        "views": 216878
+      },
+      "url": "https://x.com/elonmusk/status/2110941984881885262",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110933840080367616/img/tm-OXlvM4Gtnp8Tc.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110933840080367616/vid/avc1/3840x2160/6iILzKRGy8c0ixiw.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110933840080367616/img/tm-OXlvM4Gtnp8Tc.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 32.468
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110939693445698038",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1109,33 +1172,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110893580743008563",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T00:40:22.000Z",
-      "created_at_shanghai": "2026-10-16 08:40:22",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Roadster livestream",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/elonmusk/status/2110893580743008563",
-      "images": [],
-      "media": [],
-      "enriched": false
     }
   ],
   "page": 62,
   "page_size": 20,
-  "total": 2259,
+  "total": 2260,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 14:15:29",
+  "updated_at_shanghai": "2026-11-13 14:22:04",
   "account": "elonmusk"
 }

@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2109255585829159174",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-11T12:11:34.000Z",
+      "created_at_shanghai": "2026-10-11 20:11:34",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try it out!",
+      "quote": {
+        "author": "minchoi",
+        "avatar": "https://pbs.twimg.com/profile_images/1638359113221517312/CBZaJFyA_200x200.jpg",
+        "created_at_shanghai": "2026-10-11 06:15:04",
+        "created_at_utc": "2026-10-10T22:15:04.000Z",
+        "id": "2109045075355504866",
+        "images": [
+          "https://pbs.twimg.com/media/HUTVAAaWsAA2k4X.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1080,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUTVAAaWsAA2k4X.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "Min Choi",
+        "text": "Okay, this is wild...\n\nI gave Grok Bot a photo of my credit card.\n\nIt figured out what I needed for work, found the best deal, and added it to my Amazon cart.\n\nI didn't even pick the product. 🤯",
+        "url": "https://x.com/minchoi/status/2109045075355504866",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 217,
+        "likes": 1731,
+        "quotes": 36,
+        "replies": 581,
+        "retweets": 239,
+        "views": 746748
+      },
+      "url": "https://x.com/elonmusk/status/2109255585829159174",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109254811254403387",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -980,62 +1030,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108952286030356925",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T16:06:22.000Z",
-      "created_at_shanghai": "2026-10-11 00:06:22",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Electricity production is the best metric for the true strength of any large-scale economy imo",
-      "quote": {
-        "author": "a16z",
-        "avatar": "https://pbs.twimg.com/profile_images/1919488160125616128/QAZXTMEj_200x200.png",
-        "created_at_shanghai": "2026-10-11 00:00:22",
-        "created_at_utc": "2026-10-10T16:00:22.000Z",
-        "id": "2108950777440165999",
-        "images": [
-          "https://pbs.twimg.com/media/HUR_jfCa0AARKBy.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1851,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUR_jfCa0AARKBy.jpg?name=small",
-            "width": 2000
-          }
-        ],
-        "name": "a16z",
-        "text": "Energy capacity = economic capacity, in one chart\n\nThere are no low electricity, rich countries",
-        "url": "https://x.com/a16z/status/2108950777440165999",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1441,
-        "likes": 13302,
-        "quotes": 218,
-        "replies": 1347,
-        "retweets": 1804,
-        "views": 1478102
-      },
-      "url": "https://x.com/elonmusk/status/2108952286030356925",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 75,
   "page_size": 20,
-  "total": 2259,
+  "total": 2260,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 14:15:29",
+  "updated_at_shanghai": "2026-11-13 14:22:04",
   "account": "elonmusk"
 }
