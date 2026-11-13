@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2121315229800030438",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-11-13T18:52:17.000Z",
+      "created_at_shanghai": "2026-11-14 02:52:17",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Proud to deliver tactically responsive space capabilities to the @USSpaceForce",
+      "quote": {
+        "author": "USSpaceForce",
+        "avatar": "https://pbs.twimg.com/profile_images/1839021693961990144/Lgi_WnUj_200x200.jpg",
+        "created_at_shanghai": "2026-11-14 01:45:03",
+        "created_at_utc": "2026-11-13T17:45:03.000Z",
+        "id": "2121298310757601345",
+        "images": [
+          "https://pbs.twimg.com/ext_tw_video_thumb/2121297088210194432/pu/img/NXgBR2YIHvRFNhaf.jpg"
+        ],
+        "media": [
+          {
+            "duration": 60.226,
+            "height": 1280,
+            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2121297088210194432/pu/img/NXgBR2YIHvRFNhaf.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/ext_tw_video/2121297088210194432/pu/vid/avc1/720x1280/1XWC-g16SXkfi1X5.mp4?tag=12",
+            "width": 720
+          }
+        ],
+        "name": "United States Space Force",
+        "text": "VICTUS HAZE is a multi-launch, multi-vehicle mission designed to demonstrate the Nation’s capability to rapidly acquire, launch, and operate space vehicles on operationally relevant timelines in response to urgent on-orbit threats.\n\nSpace Systems Command demonstrated a Tactically Responsive Space launch capability with the liftoff of Rocket Lab’s Electron launch vehicle from the company’s Launch Complex-1 back in June 2026, as part of the TacRS VICTUS HAZE mission.\n\nCheck out the clip below⬇️",
+        "url": "https://x.com/USSpaceForce/status/2121298310757601345",
+        "verified": true,
+        "verified_type": "government"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 5,
+        "likes": 108,
+        "quotes": 0,
+        "replies": 1,
+        "retweets": 11,
+        "views": 3791
+      },
+      "url": "https://x.com/rocketlab/status/2121315229800030438",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2121023245604602195",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -840,51 +892,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2118804214831042777",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-11-06T20:34:24.000Z",
-      "created_at_shanghai": "2026-11-07 04:34:24",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "✅ Neutron’s Stage 1 Forward Dome has been built and cured.\n\nThe dome has come off the AFP machine as planned and completed its heat and pressure processing cycle to cure the carbon composite material. \n\nNext step: analysis and material tests to confirm quality and strength, before it moves to the next phase of Stage 1 tank assembly.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 25,
-        "likes": 1128,
-        "quotes": 32,
-        "replies": 47,
-        "retweets": 120,
-        "views": 39404
-      },
-      "url": "https://x.com/rocketlab/status/2118804214831042777",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2118803810277810176/img/pXLnZLPUGVemZpE9.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2118803810277810176/vid/avc1/1920x1080/o_lmx7ZKIioBDJ5_.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118803810277810176/img/pXLnZLPUGVemZpE9.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 90.173
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 150,
+  "total": 151,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-11-13 07:35:33",
+  "updated_at_shanghai": "2026-11-14 02:56:13",
   "account": "rocketlab"
 }
