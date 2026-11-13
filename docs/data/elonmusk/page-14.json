@@ -1,6 +1,87 @@
 {
   "posts": [
     {
+      "id": "2118449282231799974",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-05T21:04:02.000Z",
+      "created_at_shanghai": "2026-11-06 05:04:02",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Build packed a serious upgrade into this release, making multi-agent workflows more reliable, easier to control, and much smoother to manage\n\nBackground agents and workflows now stay visible as active work on the dashboard, workflow status shows how many agents are still running, and stop controls work even when approval prompts are open. Permission rules that fail to load now trigger warnings instead of silently being ignored\n\nSession recovery is also more reliable, manually saved file edits are better protected, and Ctrl+L can now quote selected messages directly into your prompt. There’s also improved keyboard navigation, better terminal compatibility, and fixes across skills, hooks, file handling, and session management\n\nAnother strong push toward making Grok Build a dependable environment for running entire teams of AI agents\n\nRelease Notes: v1.0.75\n\nFeatures:\n\n• Permission rules that don't load, such as a rule that doesn't parse or a .claude/settings.json that isn't valid JSON, show a warning when a session opens instead of being skipped silently.\n• Cmd+Up / Cmd+Down and Ctrl+Home / Ctrl+End move the cursor to the start or end of the whole prompt, and with Shift they select to there.\n• Send now shows as Enter Enter in the footer where Ctrl+Enter arrives as plain Enter, such as inside tmux with its default settings.\n• Esc on a /btw side question that hasn't been answered yet cancels it, instead of letting it run on and reopening the panel when the answer arrives.\n• Clicking a link or file that can't open, such as over SSH with no display, shows why, for example \"Can't open links over SSH\".\n• Left on an empty prompt opens the dashboard from any session or the welcome screen, not only from a session you opened from the dashboard.\n• The /btw question in the panel's title can be selected with the mouse and is copied to the clipboard when you release, like the answer text.\n• Workflow status lines say how many agents are still running instead of how many exist.\n• Ctrl+L in the scrollback adds the selected message or highlighted text to the prompt as a quote. Open Extensions with /plugins.\n\nBug Fixes:\n\n• Notes above a queued prompt, such as a model switch result or a ready worktree, stay on screen when the prompt starts instead of scrolling out of view.\n• Stop buttons in the dock stop a background run while its approval card is open, instead of doing nothing until you answer the card.\n• Rejecting a change keeps edits you saved to the file yourself, even when Grok missed the save, instead of overwriting them.\n• grok --resume <id> opens the session in the folder it was recorded in, wherever you launch Grok from, instead of refusing.\n• Windows: on older consoles such as plain cmd.exe and Windows PowerShell windows, the ▶, ⏸ and ◌ marks in todo, workflow and list rows show as characters the console can draw instead of empty boxes.\n• Generated image and video paths with wide characters such as Chinese, Japanese or emoji fit their row and keep the file name, and Windows paths keep it too.\n• The rewind confirmation no longer crashes Grok on a short terminal or when you shrink the window while it's open.\n• Footer and status bars in narrow terminals drop or shorten the items that don't fit, instead of painting them over each other or cutting buttons off.\n• Cut-off Fetch, Web Search and MCP tool output ends with the same … +N lines · <key> to view all row as code cells, naming your viewer key, and one hidden line reads +1 line.\n• 16-color terminals show the paste label and tool accents in the muted gray other secondary text uses, and the paste label's brackets no longer vanish on the light theme.\n• A question card's Enter:submit button, the dashboard session popup's [✗] and collapsed workflow rows highlight under the mouse pointer like other clickable controls.\n• Emoji and keycap symbols such as ⚠️ or #️⃣ are measured at the width the terminal draws them, so rows no longer run past their box or lose their ….\n• /export to a named pipe that nothing is reading fails right away instead of freezing Grok until it is killed.\n• Typing a digit or symbol while the scrollback has focus, with vim keys off, moves focus to the prompt and types it there, as letters already do. ? still opens the command palette.\n• grok sessions delete no longer fails with \"Directory not empty\" when another process is still writing into the session's folder.\n• Dashboard rows stay in Working while a session's background subagents or workflow runs are going, and stopping the row ends them.\n• Code blocks inside quotes render every line under the quote's bars, quote copies turn reference links into inline links, and lines after multi-line math are numbered correctly.\n• Disabling a project's hook in /hooks applies only to that repository, instead of also skipping hooks with the same name in other repositories.\n• Turning a skill on or off in the Skills tab saves only [skills].disabled to config.toml, so an organization's managed skill folders and ignore list keep applying.\n• /btw starts a side question only when it begins the message. A /btw later in the text goes to the main conversation as typed.",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 15:36:04",
+        "created_at_utc": "2026-11-03T07:36:04.000Z",
+        "id": "2117521174406299738",
+        "images": [
+          "https://pbs.twimg.com/media/HWLyKd2aQAAn2bE.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 899,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWLyKd2aQAAn2bE.jpg?name=small",
+            "width": 1598
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok Build just got a massive performance and reliability upgrade, with improvements across multi-agent workflows, terminal responsiveness, session recovery, and overall stability\n\nLong-running sessions now use less memory, large JSON and log pastes no longer freeze the terminal, Linux file watching uses significantly less CPU, and background subagent activity triggers far fewer unnecessary screen redraws\n\nSession resuming is also much faster, subagent conversations are easier to follow, shell approvals now explain why commands were blocked, and `@` file navigation can access files outside the workspace\n\nThere’s also a huge reliability pass covering safer updates, MCP authentication, context window handling, workflow execution, Windows and macOS stability, and more reliable headless sessions\n\nGrok Build keeps getting better at handling bigger projects, longer conversations, and increasingly complex multi-agent workloads without slowing down\n\nRelease Notes: v1.0.74\n\nFeatures:\n\n• Messages between subagents appear as left-aligned rows under the bullet that name the sender and recipient, replacing the centered rows\n• Shift+Enter inserts a newline in VS Code and other xterm.js-based terminals that use the Kitty keyboard protocol\n• `/mcps`: when a browser can't open an MCP server's sign-in URL, the URL shows in a panel you can copy with `c` or the [Copy the url] button\n• [Copy] button in a finished `/btw` panel and its folded transcript row copies the whole answer, even when only part of it is visible\n• Shell approval cards say when Auto-review blocked a command or couldn't review it, and Ctrl+F shows the reviewer's explanation\n• `!` mode Tab completion offers commands installed as symlinks, such as Homebrew, npm, rustup and Debian alternatives binaries\n• Quotes in replies get a [Copy] button that copies the whole quote as Markdown without its `>` markers\n• Named subagent links open on a plain click, so they work over SSH from macOS where a modified click can't reach Grok\n• `@` paths outside the workspace: an `@` path that starts with `/`, `~/` or `../` lists files from that folder; set `[ui] at_picker_outside_workspace = false` to turn it off.\n• Picked `@` files in the prompt can be edited in place: Backspace at the end of one reopens the picker on its path, and Left or Right puts the cursor inside it to change the path\n\nBug Fixes:\n\n• Built-in skills, agents and workflows are refreshed when their local cache's manifest is missing or corrupt, instead of staying outdated or failing every sync\n• Ctrl+Y on a question card no longer closes it without an answer; while you type an answer, it pastes back text cut with Ctrl+K\n• `/new` tabs show the context window you just switched to before the new session replies\n• Resumed sessions show a background command's completion in the turn that ran it, with its real run time instead of about 0.0s\n• `grok update` runs when GROK_SANDBOX, --sandbox, or config sets a sandbox profile, unless Grok is already running confined\n• `/btw` on a very short terminal no longer swallows arrow keys, Page Up/Down or clicks while its panel is too small to draw\n• A code block's [Copy] in the transcript copies while a queued prompt is open for editing, instead of copying nothing or closing the edit\n• `grok logout` stays signed out when another running Grok refreshes its sign-in, instead of signing you back in on the next launch\n• Opening links and files from the TUI no longer leaves a zombie process behind for each click\n• A failed session delete shows the \"Couldn't delete session\" prefix once, so the reason is no longer cut off\n• Windows: Grok exits fully after a startup error, a `/minimal` or `/fullscreen` switch, or a signal, instead of sometimes hanging\n• Grok running confined in a sandbox never starts an update on its own and tells you to run `grok update` instead\n• Quitting to install an update with Ctrl+U on the welcome screen exits within the usual exit deadline instead of sometimes hanging after \"Update installed\"\n• `grok update --force-reinstall`, or `grok update --version` with the installed version, keeps your working Grok on Linux and macOS when the download fails its checks, instead of deleting it\n• Windows installers check that the downloaded build runs before replacing grok.exe and agent.exe, and keep the existing install when it doesn't, such as when a proxy serves a blocked-download page\n• Command-line arguments that aren't valid UTF-8 no longer crash Grok at startup: paths such as --cwd accept them, and text such as -p gets a usage error\n• Installers keep the installed Grok when a proxy or cache returns an empty download, instead of replacing it with an empty file and reporting success\n• Environment variables with non-UTF-8 bytes no longer stop Grok from starting.\n• Workflow run lines in the transcript end with what the run returned instead of a bare colon, `/tasks` shows the time it was taken, and polling an unknown task id leaves a row with its error\n• Headless runs stopped by Ctrl+C or SIGTERM end their json, streaming-json or streaming-messages-json output with a closing record that keeps the run's outcome, instead of cutting off the stream\n• macOS: the TUI no longer freezes when it runs inside a sandbox that blocks the window server\n• `grok -p --resume` shows why a session couldn't load instead of always \"Session does not exist\", and with `--output-format json` a resume, continue or fork that fails before the session opens prints one JSON error\n• Sessions with an unrecognized reasoning effort or unreadable bytes in their history resume instead of failing: the session runs at the model's default effort and says so once, and the unreadable lines are left out of the transcript\n• Windows: on older consoles such as plain cmd.exe and Windows PowerShell windows, status marks and selection arrows in workflow views, the dashboard, and the feedback and extensions dialogs show as >, ·, √ or x instead of empty boxes\n• File paths with spaces in inline code, such as `~/Library/Application Support/...`, link to the whole path when it exists instead of stopping at the first space.\n• Feedback that can't be sent leads with the outcome, such as \"Couldn't send feedback. Saved to Drafts.\", then gives the reason and says to retry from `/feedback`.\n• Dialog tab labels, shortcuts and settings rows that don't fit end in … instead of being cut off\n• Prompt history search highlights matched letters in the same color as other fuzzy lists, and the counts on the `/` and `@` menu borders are dimmed like other border captions\n• Dashboard: the peek header reads Responding while a reply streams, and the Esc footer hint reads new agent like the other lowercase hints\n• Custom agent files saved with a UTF-8 byte order mark, as some Windows editors write them, load instead of being skipped\n• Running markers in workflow views and MCP servers that are still starting use the theme's running color, like other progress indicators\n• Minimal mode: \"Sign-in failed\" shows in the error color instead of the warning color.\n• Context window: a larger window picked with `/context-window` or set with `context_window` in a `[model.\"<id>\"]` table stays in effect, so compaction no longer starts early after the session sits idle, after a failed request such as a rate limit, or until you restart\n\nPerformance:\n\n• Long sessions use less memory: finished Markdown blocks far off screen release their rendered layout, and search still finds their text\n• Typing no longer lags when ffmpeg isn't installed and PATH holds slow directories, such as Windows drives under WSL\n• Long pastes that arrive as keystrokes, such as pastes on native Windows or in terminals without bracketed paste, no longer freeze the prompt for seconds while the plan-mode tip is on\n• Pasting long single-line text such as logs, JSON or base64 into the prompt no longer freezes the TUI for seconds\n• File watching on Linux no longer keeps a CPU core busy for about a minute after startup in large repositories.\n• Lower CPU use while subagents run: the TUI repaints only for animations on screen, about 7 times a second instead of 30 when no running row is visible\n• `grok --resume <id>` opens much faster on large session stores, reading only the resumed session instead of every session",
+        "url": "https://x.com/XFreeze/status/2117521174406299738",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-05 10:58:54",
+        "created_at_utc": "2026-11-05T02:58:54.000Z",
+        "id": "2118176199746965741",
+        "images": [
+          "https://pbs.twimg.com/media/HWVF_8KbgAAkbc9.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 929,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWVF_8KbgAAkbc9.jpg?name=small",
+            "width": 1652
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok Build packed a serious upgrade into this release, making multi-agent workflows more reliable, easier to control, and much smoother to manage\n\nBackground agents and workflows now stay visible as active work on the dashboard, workflow status shows how many agents are still running, and stop controls work even when approval prompts are open. Permission rules that fail to load now trigger warnings instead of silently being ignored\n\nSession recovery is also more reliable, manually saved file edits are better protected, and Ctrl+L can now quote selected messages directly into your prompt. There’s also improved keyboard navigation, better terminal compatibility, and fixes across skills, hooks, file handling, and session management\n\nAnother strong push toward making Grok Build a dependable environment for running entire teams of AI agents\n\nRelease Notes: v1.0.75\n\nFeatures:\n\n• Permission rules that don't load, such as a rule that doesn't parse or a .claude/settings.json that isn't valid JSON, show a warning when a session opens instead of being skipped silently.\n• Cmd+Up / Cmd+Down and Ctrl+Home / Ctrl+End move the cursor to the start or end of the whole prompt, and with Shift they select to there.\n• Send now shows as Enter Enter in the footer where Ctrl+Enter arrives as plain Enter, such as inside tmux with its default settings.\n• Esc on a /btw side question that hasn't been answered yet cancels it, instead of letting it run on and reopening the panel when the answer arrives.\n• Clicking a link or file that can't open, such as over SSH with no display, shows why, for example \"Can't open links over SSH\".\n• Left on an empty prompt opens the dashboard from any session or the welcome screen, not only from a session you opened from the dashboard.\n• The /btw question in the panel's title can be selected with the mouse and is copied to the clipboard when you release, like the answer text.\n• Workflow status lines say how many agents are still running instead of how many exist.\n• Ctrl+L in the scrollback adds the selected message or highlighted text to the prompt as a quote. Open Extensions with /plugins.\n\nBug Fixes:\n\n• Notes above a queued prompt, such as a model switch result or a ready worktree, stay on screen when the prompt starts instead of scrolling out of view.\n• Stop buttons in the dock stop a background run while its approval card is open, instead of doing nothing until you answer the card.\n• Rejecting a change keeps edits you saved to the file yourself, even when Grok missed the save, instead of overwriting them.\n• grok --resume <id> opens the session in the folder it was recorded in, wherever you launch Grok from, instead of refusing.\n• Windows: on older consoles such as plain cmd.exe and Windows PowerShell windows, the ▶, ⏸ and ◌ marks in todo, workflow and list rows show as characters the console can draw instead of empty boxes.\n• Generated image and video paths with wide characters such as Chinese, Japanese or emoji fit their row and keep the file name, and Windows paths keep it too.\n• The rewind confirmation no longer crashes Grok on a short terminal or when you shrink the window while it's open.\n• Footer and status bars in narrow terminals drop or shorten the items that don't fit, instead of painting them over each other or cutting buttons off.\n• Cut-off Fetch, Web Search and MCP tool output ends with the same … +N lines · <key> to view all row as code cells, naming your viewer key, and one hidden line reads +1 line.\n• 16-color terminals show the paste label and tool accents in the muted gray other secondary text uses, and the paste label's brackets no longer vanish on the light theme.\n• A question card's Enter:submit button, the dashboard session popup's [✗] and collapsed workflow rows highlight under the mouse pointer like other clickable controls.\n• Emoji and keycap symbols such as ⚠️ or #️⃣ are measured at the width the terminal draws them, so rows no longer run past their box or lose their ….\n• /export to a named pipe that nothing is reading fails right away instead of freezing Grok until it is killed.\n• Typing a digit or symbol while the scrollback has focus, with vim keys off, moves focus to the prompt and types it there, as letters already do. ? still opens the command palette.\n• grok sessions delete no longer fails with \"Directory not empty\" when another process is still writing into the session's folder.\n• Dashboard rows stay in Working while a session's background subagents or workflow runs are going, and stopping the row ends them.\n• Code blocks inside quotes render every line under the quote's bars, quote copies turn reference links into inline links, and lines after multi-line math are numbered correctly.\n• Disabling a project's hook in /hooks applies only to that repository, instead of also skipping hooks with the same name in other repositories.\n• Turning a skill on or off in the Skills tab saves only [skills].disabled to config.toml, so an organization's managed skill folders and ignore list keep applying.\n• /btw starts a side question only when it begins the message. A /btw later in the text goes to the main conversation as typed.",
+        "url": "https://x.com/XFreeze/status/2118176199746965741",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 66,
+        "likes": 575,
+        "quotes": 4,
+        "replies": 44,
+        "retweets": 95,
+        "views": 210221
+      },
+      "url": "https://x.com/elonmusk/status/2118449282231799974",
+      "images": [
+        "https://pbs.twimg.com/media/HWVF_8KbgAAkbc9.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWVF_8KbgAAkbc9.jpg?name=small",
+          "width": 1652,
+          "height": 929
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2118432171102982650",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -976,53 +1057,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2118250642926141450",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-05T07:54:43.000Z",
-      "created_at_shanghai": "2026-11-05 15:54:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "A friend signed up for Grok Bot a month ago and was about to cancel. He couldn't see the real value.\n\nHe had 4 bots, but no plugins connected, no routines, and no skills.\n\nI showed him my 25 bots, what each one does, and how I manage the whole team. He was surprised by what Grok Bot can do, and he decided to keep his subscription.\n\nIf you don't know how to orchestrate Grok Bots, you won't see the value.\n\nBusinesses, companies, churches: if you need AI consulting, DM me.",
-      "quote": null,
-      "retweet": {
-        "author": "Texas_Twins_Dad",
-        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
-        "created_at_shanghai": "2026-11-05 00:16:53",
-        "created_at_utc": "2026-11-04T16:16:53.000Z",
-        "id": "2118014632480682487",
-        "images": [],
-        "media": [],
-        "name": "Texas Twins Dad",
-        "text": "A friend signed up for Grok Bot a month ago and was about to cancel. He couldn't see the real value.\n\nHe had 4 bots, but no plugins connected, no routines, and no skills.\n\nI showed him my 25 bots, what each one does, and how I manage the whole team. He was surprised by what Grok Bot can do, and he decided to keep his subscription.\n\nIf you don't know how to orchestrate Grok Bots, you won't see the value.\n\nBusinesses, companies, churches: if you need AI consulting, DM me.",
-        "url": "https://x.com/Texas_Twins_Dad/status/2118014632480682487",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 118,
-        "likes": 582,
-        "quotes": 2,
-        "replies": 58,
-        "retweets": 70,
-        "views": 145671
-      },
-      "url": "https://x.com/elonmusk/status/2118250642926141450",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 20,
-  "total": 2260,
-  "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 15:54:31",
+  "total": 2261,
+  "total_pages": 114,
+  "updated_at_shanghai": "2026-11-13 17:37:48",
   "account": "elonmusk"
 }
