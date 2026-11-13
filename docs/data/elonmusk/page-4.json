@@ -1,6 +1,106 @@
 {
   "posts": [
     {
+      "id": "2120102894817173862",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-10T10:34:54.000Z",
+      "created_at_shanghai": "2026-11-10 18:34:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon Musk just revealed a massive update on Grok 4.8, and SpaceXSI has completely rebuilt its reinforcement learning and inference infrastructure from scratch\n\nThe engineering team has abandoned JAX and SGLang, rewriting the entire RL and inference stack in C/C++\n\nHere’s where Grok 4.8 stands:\n\n• Pre-training is complete \n• Major cleanup of supervised fine-tuning data\n• Reinforcement learning now underway\n• Evaluation scores are starting to climb\n• Soft rollout to Grok Bot users planned for later this week\n\nAnd Elon also gave another imp update about Grok 4.8:\n\n“Grok 4.8 will bear no resemblance to 4.7 (thankfully)”\n\nHe also explained why the development took longer than expected:\n\n“It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special”\n\nThis is a fundamental engineering overhaul, not just another model upgrade\n\nSpaceXSI has rewritten the underlying infrastructure to build a much stronger foundation for Grok’s future development.\n\nAnd the first Grok Bot users are expected to get their hands on it this week",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 17:35:59",
+        "created_at_utc": "2026-11-10T09:35:59.000Z",
+        "id": "2120088070443655190",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "We have dumped JAX/SGLang and rewritten the entire RL and inference stack from scratch in C/C++, which took some extra time. \n\nTraining (aka pre-training) is done. Lot of cleanup was needed on the SFT data to get that mostly right. Now, 4.8 is in RL and the evals are starting to climb. We will do a soft rollout to Bot users later this week and see how it goes.\n\nGrok 4.8 will bear no resemblance to 4.7 (thankfully). It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special.",
+        "url": "https://x.com/elonmusk/status/2120088070443655190",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 18:01:28",
+        "created_at_utc": "2026-11-10T10:01:28.000Z",
+        "id": "2120094479797686513",
+        "images": [
+          "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 900,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small",
+            "width": 1008
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Elon Musk just revealed a massive update on Grok 4.8, and SpaceXSI has completely rebuilt its reinforcement learning and inference infrastructure from scratch\n\nThe engineering team has abandoned JAX and SGLang, rewriting the entire RL and inference stack in C/C++\n\nHere’s where Grok 4.8 stands:\n\n• Pre-training is complete \n• Major cleanup of supervised fine-tuning data\n• Reinforcement learning now underway\n• Evaluation scores are starting to climb\n• Soft rollout to Grok Bot users planned for later this week\n\nAnd Elon also gave another imp update about Grok 4.8:\n\n“Grok 4.8 will bear no resemblance to 4.7 (thankfully)”\n\nHe also explained why the development took longer than expected:\n\n“It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special”\n\nThis is a fundamental engineering overhaul, not just another model upgrade\n\nSpaceXSI has rewritten the underlying infrastructure to build a much stronger foundation for Grok’s future development.\n\nAnd the first Grok Bot users are expected to get their hands on it this week",
+        "url": "https://x.com/XFreeze/status/2120094479797686513",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 32,
+        "likes": 440,
+        "quotes": 2,
+        "replies": 42,
+        "retweets": 91,
+        "views": 49716
+      },
+      "url": "https://x.com/elonmusk/status/2120102894817173862",
+      "images": [
+        "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small",
+          "width": 1008,
+          "height": 900
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2120102767624880364",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-10T10:34:24.000Z",
+      "created_at_shanghai": "2026-11-10 18:34:24",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Turns out that the Starlink software, built for managing the movement of vast amounts of data through space and to the ground, is also very well suited to training super intelligence",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 106,
+        "likes": 1804,
+        "quotes": 59,
+        "replies": 487,
+        "retweets": 251,
+        "views": 358890
+      },
+      "url": "https://x.com/elonmusk/status/2120102767624880364",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2120101380144992635",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1078,129 +1178,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2119823862934482991",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-09T16:06:08.000Z",
-      "created_at_shanghai": "2026-11-10 00:06:08",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon has nearly 160,000 direct employees throughout his companies and supports almost 870,000 jobs. \n\nOver five years, based on conservative estimates, @elonmusk’s companies have injected $338 billion into the US economy. \n\n@Tesla makes the first and second most American made cars. \n\n@SpaceX made the first fully reusable rocket and the world’s largest satellite internet constellation. \n\nAs Axios says: his “companies are central to America's technological and military power.”\n\nIn the end, the only people the Democrats will hurt are the American people.",
-      "quote": {
-        "author": "axios",
-        "avatar": "https://pbs.twimg.com/profile_images/1641458976049995776/GtO-0zYe_200x200.jpg",
-        "created_at_shanghai": "2026-11-09 18:32:01",
-        "created_at_utc": "2026-11-09T10:32:01.000Z",
-        "id": "2119739781315756513",
-        "images": [],
-        "media": [],
-        "name": "Axios",
-        "text": "Elon Musk's empire braces for Democratic crackdown https://www.axios.com/2026/11/09/elon-musk-midterms-risks-empire?utm_campaign=mrf-utm_source=x&utm_medium=organic_social&utm_campaign=editorial&utm_source=twitter&utm_medium=social&mrfcid=202611096ae6f183601d62317a626741",
-        "url": "https://x.com/axios/status/2119739781315756513",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "KatieMiller",
-        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
-        "created_at_shanghai": "2026-11-10 00:03:04",
-        "created_at_utc": "2026-11-09T16:03:04.000Z",
-        "id": "2119823094663835711",
-        "images": [],
-        "media": [],
-        "name": "Katie Miller",
-        "text": "Elon has nearly 160,000 direct employees throughout his companies and supports almost 870,000 jobs. \n\nOver five years, based on conservative estimates, @elonmusk’s companies have injected $338 billion into the US economy. \n\n@Tesla makes the first and second most American made cars. \n\n@SpaceX made the first fully reusable rocket and the world’s largest satellite internet constellation. \n\nAs Axios says: his “companies are central to America's technological and military power.”\n\nIn the end, the only people the Democrats will hurt are the American people.",
-        "url": "https://x.com/KatieMiller/status/2119823094663835711",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 29,
-        "likes": 570,
-        "quotes": 9,
-        "replies": 66,
-        "retweets": 125,
-        "views": 32313
-      },
-      "url": "https://x.com/elonmusk/status/2119823862934482991",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2119823743212257504",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-09T16:05:39.000Z",
-      "created_at_shanghai": "2026-11-10 00:05:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Ron Baron describes Elon Musk as \"the biggest job creator in the\" US and a \"once in a lifetime person.\"\n\nBaron points out that Musk has the ability to build businesses at a scale and cost that almost nobody else can match.\n\nHe also notes the scale of Musk's businesses and projects like Terafab as examples of how he is pushing American industry forward. https://x.com/cb_doge/status/2118709668491235608/video/1",
-      "quote": null,
-      "retweet": {
-        "author": "ResisttheMS",
-        "avatar": "https://pbs.twimg.com/profile_images/1777217835036495872/atU7ay85_200x200.jpg",
-        "created_at_shanghai": "2026-11-09 21:02:00",
-        "created_at_utc": "2026-11-09T13:02:00.000Z",
-        "id": "2119777525757022584",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2118709242303770624/img/LxYd8KVY9wIGREho.jpg"
-        ],
-        "media": [
-          {
-            "duration": 305.005,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118709242303770624/img/LxYd8KVY9wIGREho.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2118709242303770624/vid/avc1/1918x1080/D_lmZfcewAtWsow6.mp4?tag=29",
-            "width": 1918
-          }
-        ],
-        "name": "Resist the Mainstream",
-        "text": "Ron Baron describes Elon Musk as \"the biggest job creator in the\" US and a \"once in a lifetime person.\"\n\nBaron points out that Musk has the ability to build businesses at a scale and cost that almost nobody else can match.\n\nHe also notes the scale of Musk's businesses and projects like Terafab as examples of how he is pushing American industry forward. https://x.com/cb_doge/status/2118709668491235608/video/1",
-        "url": "https://x.com/ResisttheMS/status/2119777525757022584",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 13,
-        "likes": 441,
-        "quotes": 1,
-        "replies": 19,
-        "retweets": 98,
-        "views": 32915
-      },
-      "url": "https://x.com/elonmusk/status/2119823743212257504",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2118709242303770624/img/LxYd8KVY9wIGREho.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2118709242303770624/vid/avc1/1918x1080/D_lmZfcewAtWsow6.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118709242303770624/img/LxYd8KVY9wIGREho.jpg",
-          "width": 1918,
-          "height": 1080,
-          "duration": 305.005
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 2261,
+  "total": 2263,
   "total_pages": 114,
-  "updated_at_shanghai": "2026-11-13 17:37:48",
+  "updated_at_shanghai": "2026-11-13 22:10:37",
   "account": "elonmusk"
 }
