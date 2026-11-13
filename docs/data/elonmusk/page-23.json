@@ -1,6 +1,162 @@
 {
   "posts": [
     {
+      "id": "2116617926472016007",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-31T19:46:53.000Z",
+      "created_at_shanghai": "2026-11-01 03:46:53",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "This will happen again",
+      "quote": {
+        "author": "skdh",
+        "avatar": "https://pbs.twimg.com/profile_images/2116552739090018304/LaB0s8BC_200x200.jpg",
+        "created_at_shanghai": "2026-10-31 23:13:08",
+        "created_at_utc": "2026-10-31T15:13:08.000Z",
+        "id": "2116549037864128678",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2116546879022346240/img/nysAIKH5rIISVTl_.jpg"
+        ],
+        "media": [
+          {
+            "duration": 303.24,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116546879022346240/img/nysAIKH5rIISVTl_.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2116546879022346240/vid/avc1/1920x1080/UHNEaZ8i7ybAdDJl.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Sabine Hossenfelder",
+        "text": "The dinosaurs probably died much faster -- and much more horribly -- than we thought.",
+        "url": "https://x.com/skdh/status/2116549037864128678",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 632,
+        "likes": 4360,
+        "quotes": 110,
+        "replies": 1294,
+        "retweets": 464,
+        "views": 691489
+      },
+      "url": "https://x.com/elonmusk/status/2116617926472016007",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2116615575791116356",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-31T19:37:32.000Z",
+      "created_at_shanghai": "2026-11-01 03:37:32",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot is the most useful app on my phone right now.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-01 03:19:17",
+        "created_at_utc": "2026-10-31T19:19:17.000Z",
+        "id": "2116610983997460897",
+        "images": [],
+        "media": [],
+        "name": "DogeDesigner",
+        "text": "Grok Bot is the most useful app on my phone right now.",
+        "url": "https://x.com/cb_doge/status/2116610983997460897",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 25,
+        "likes": 897,
+        "quotes": 15,
+        "replies": 164,
+        "retweets": 107,
+        "views": 155647
+      },
+      "url": "https://x.com/elonmusk/status/2116615575791116356",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2116614930883334569",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-31T19:34:58.000Z",
+      "created_at_shanghai": "2026-11-01 03:34:58",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Text your friends in Texas and make sure they vote on Election Day",
+      "quote": {
+        "author": "PollTracker2024",
+        "avatar": "https://pbs.twimg.com/profile_images/1827527827018690560/XQA9QAU2_200x200.jpg",
+        "created_at_shanghai": "2026-10-31 22:38:49",
+        "created_at_utc": "2026-10-31T14:38:49.000Z",
+        "id": "2116540398982091027",
+        "images": [
+          "https://pbs.twimg.com/media/HV92C8UXwAAlKWp.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 452,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HV92C8UXwAAlKWp.jpg?name=small",
+            "width": 678
+          }
+        ],
+        "name": "Politics & Poll Tracker 📡",
+        "text": "#TexasSenate \n\nNYT: James Talarico’s internals are within the margin of error. \n\nSome recent public surveys show Talarico either tied with Paxton or within the margin of error with a 2-point lead.\n\nThe candidate’s internal polls match those tighter surveys, people close to Talarico said, and may not be fully capturing the sentiments of rural conservative voters who support Trump.\n\nLink to article: https://www.nytimes.com/2026/10/31/us/politics/talarico-texas.html?eafs_enabled=false",
+        "url": "https://x.com/PollTracker2024/status/2116540398982091027",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "alx",
+        "avatar": "https://pbs.twimg.com/profile_images/2105508393213415424/ykMDJwKu_200x200.jpg",
+        "created_at_shanghai": "2026-10-31 23:59:34",
+        "created_at_utc": "2026-10-31T15:59:34.000Z",
+        "id": "2116560722469810622",
+        "images": [],
+        "media": [],
+        "name": "ALX 🎃🇺🇸",
+        "text": "Text your friends in Texas and make sure they vote on Election Day",
+        "url": "https://x.com/alx/status/2116560722469810622",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 831,
+        "quotes": 6,
+        "replies": 72,
+        "retweets": 141,
+        "views": 159355
+      },
+      "url": "https://x.com/elonmusk/status/2116614930883334569",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116614579136635120",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -871,177 +1027,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2116585219558109596",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-31T17:36:55.000Z",
-      "created_at_shanghai": "2026-11-01 01:36:55",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Exactly",
-      "quote": {
-        "author": "IterIntellectus",
-        "avatar": "https://pbs.twimg.com/profile_images/2009602429478633472/8lMkYuep_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 13:40:01",
-        "created_at_utc": "2026-10-31T05:40:01.000Z",
-        "id": "2116404807124856853",
-        "images": [
-          "https://pbs.twimg.com/media/HV7687XWsAA7oXr.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 408,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HV7687XWsAA7oXr.jpg?name=small",
-            "width": 640
-          }
-        ],
-        "name": "vittorio",
-        "text": "basically this",
-        "url": "https://x.com/IterIntellectus/status/2116404807124856853",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1429,
-        "likes": 20015,
-        "quotes": 139,
-        "replies": 1050,
-        "retweets": 2351,
-        "views": 1293616
-      },
-      "url": "https://x.com/elonmusk/status/2116585219558109596",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2116585031015502075",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-31T17:36:10.000Z",
-      "created_at_shanghai": "2026-11-01 01:36:10",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk points out that \"if we lower standards [because of DEI] for what it takes to become a board-certified surgeon… or something… where if you make a mistake, it causes someone to die, then more people will die than if we don't lower the standards.\"",
-      "quote": null,
-      "retweet": {
-        "author": "ResisttheMS",
-        "avatar": "https://pbs.twimg.com/profile_images/1777217835036495872/atU7ay85_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 07:59:00",
-        "created_at_utc": "2026-10-30T23:59:00.000Z",
-        "id": "2116318985952133136",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2041723147976896512/img/yt4F0TvAfFCXW-TQ.jpg"
-        ],
-        "media": [
-          {
-            "duration": 29.179,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2041723147976896512/img/yt4F0TvAfFCXW-TQ.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2041723147976896512/vid/avc1/1920x1080/iOqqnfePW_H7QCW5.mp4?tag=21",
-            "width": 1920
-          }
-        ],
-        "name": "Resist the Mainstream",
-        "text": "Elon Musk points out that \"if we lower standards [because of DEI] for what it takes to become a board-certified surgeon… or something… where if you make a mistake, it causes someone to die, then more people will die than if we don't lower the standards.\"",
-        "url": "https://x.com/ResisttheMS/status/2116318985952133136",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 62,
-        "likes": 1264,
-        "quotes": 8,
-        "replies": 62,
-        "retweets": 203,
-        "views": 199299
-      },
-      "url": "https://x.com/elonmusk/status/2116585031015502075",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2041723147976896512/img/yt4F0TvAfFCXW-TQ.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2041723147976896512/vid/avc1/1920x1080/iOqqnfePW_H7QCW5.mp4?tag=21",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2041723147976896512/img/yt4F0TvAfFCXW-TQ.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 29.179
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2116584911624708442",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-31T17:35:41.000Z",
-      "created_at_shanghai": "2026-11-01 01:35:41",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
-      "quote": {
-        "author": "ThomasSowell",
-        "avatar": "https://pbs.twimg.com/profile_images/1321093716464062468/DQuxAS-O_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 14:29:00",
-        "created_at_utc": "2026-10-31T06:29:00.000Z",
-        "id": "2116417132712141152",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2116237176346484736/img/p9HawWV65Q_TL76N.jpg"
-        ],
-        "media": [
-          {
-            "duration": 31.233,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116237176346484736/img/p9HawWV65Q_TL76N.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2116237176346484736/vid/avc1/1920x1080/YVFTi-oxqmLYyaV8.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Thomas Sowell Quotes",
-        "text": "Elon Musk claims the mainstream media rarely gives positive coverage to people who don’t align with its political views.\n\nHe argues that even something as extraordinary as saving a busload of orphans wouldn’t make the headlines.\n\n“Anything positive about someone who is not part of the far-left tribe will get no coverage.” https://x.com/teslaownersSV/status/2116237287449346543/video/1",
-        "url": "https://x.com/ThomasSowell/status/2116417132712141152",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 116,
-        "likes": 5468,
-        "quotes": 48,
-        "replies": 519,
-        "retweets": 1001,
-        "views": 817633
-      },
-      "url": "https://x.com/elonmusk/status/2116584911624708442",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 23,
   "page_size": 20,
-  "total": 2256,
+  "total": 2259,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 14:07:26",
+  "updated_at_shanghai": "2026-11-13 14:15:29",
   "account": "elonmusk"
 }
