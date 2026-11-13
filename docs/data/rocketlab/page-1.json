@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2121361123412959705",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-11-13T21:54:39.000Z",
+      "created_at_shanghai": "2026-11-14 05:54:39",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "New Zealand is where it all started for Electron - a country with no space heritage. \n\nToday, Rocket Lab is a global space company with teams across the United States, Canada, Europe and New Zealand. \n\nWe're about to launch our 100th rocket.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 5,
+        "likes": 217,
+        "quotes": 4,
+        "replies": 7,
+        "retweets": 30,
+        "views": 6580
+      },
+      "url": "https://x.com/rocketlab/status/2121361123412959705",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121360842730217472/img/sU5aXRSy6bW6KkWi.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2121360842730217472/vid/avc1/3840x2160/f5HlVbBb5vf-CQy5.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121360842730217472/img/sU5aXRSy6bW6KkWi.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 51.48
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121322099679879173",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -855,49 +894,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2119878450614026452",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-11-09T19:43:02.000Z",
-      "created_at_shanghai": "2026-11-10 03:43:02",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Tune in to our Q3 2026 financial results at 5:00 pm ET today.\n\n📺 https://edge.media-server.com/mmc/p/8ejctso4/",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 5,
-        "likes": 134,
-        "quotes": 7,
-        "replies": 3,
-        "retweets": 17,
-        "views": 4798
-      },
-      "url": "https://x.com/rocketlab/status/2119878450614026452",
-      "images": [
-        "https://pbs.twimg.com/media/HWtR9zSbQAAVN8R.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWtR9zSbQAAVN8R.jpg?name=small",
-          "width": 2250,
-          "height": 2250
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 152,
+  "total": 153,
   "total_pages": 8,
-  "updated_at_shanghai": "2026-11-14 03:26:09",
+  "updated_at_shanghai": "2026-11-14 06:00:01",
   "account": "rocketlab"
 }
