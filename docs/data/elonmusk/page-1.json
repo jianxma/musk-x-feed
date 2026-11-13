@@ -1,10 +1,144 @@
 {
   "posts": [
     {
-      "id": "2121244058379321642",
+      "id": "2121250645613429076",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T14:35:39.000Z",
+      "created_at_shanghai": "2026-11-13 22:35:39",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Bot can now spot and act on any texts you may have forgotten.",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 02:28:57",
+        "created_at_utc": "2026-11-12T18:28:57.000Z",
+        "id": "2120946968403095906",
+        "images": [
+          "https://pbs.twimg.com/media/HW8XKMOaUAAegaG.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8XKMOaUAAegaG.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot on Mac can now use Messages, Mail, Notes, Reminders, Calendar, Location, and Contacts.",
+        "url": "https://x.com/bot/status/2120946968403095906",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "mntruell",
+        "avatar": "https://pbs.twimg.com/profile_images/1887065642261737472/QdLiAFfD_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 02:38:50",
+        "created_at_utc": "2026-11-12T18:38:50.000Z",
+        "id": "2120949456518709744",
+        "images": [],
+        "media": [],
+        "name": "Michael Truell",
+        "text": "Bot can now spot and act on any texts you may have forgotten.",
+        "url": "https://x.com/mntruell/status/2120949456518709744",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 73,
+        "likes": 897,
+        "quotes": 3,
+        "replies": 56,
+        "retweets": 61,
+        "views": 42230
+      },
+      "url": "https://x.com/elonmusk/status/2121250645613429076",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121250205806772283",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T14:33:54.000Z",
+      "created_at_shanghai": "2026-11-13 22:33:54",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship 42 preparing for launch",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 08:56:49",
+        "created_at_utc": "2026-11-13T00:56:49.000Z",
+        "id": "2121044579470233638",
+        "images": [
+          "https://pbs.twimg.com/media/HW92p7AWgAA-N1n.jpg?name=small",
+          "https://pbs.twimg.com/media/HW92saPXUAAenRM.jpg?name=small",
+          "https://pbs.twimg.com/media/HW92tsGW4AA1FRd.jpg?name=small",
+          "https://pbs.twimg.com/media/HW92vD_WIAAmDOP.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92p7AWgAA-N1n.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92saPXUAAenRM.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2731,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92tsGW4AA1FRd.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92vD_WIAAmDOP.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Ship 42 moves to the Starbase pad ahead of launch",
+        "url": "https://x.com/SpaceX/status/2121044579470233638",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 54,
+        "likes": 2125,
+        "quotes": 36,
+        "replies": 382,
+        "retweets": 242,
+        "views": 343634
+      },
+      "url": "https://x.com/elonmusk/status/2121250205806772283",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121244058379321642",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-13T14:09:28.000Z",
@@ -63,7 +197,7 @@
       "id": "2121243784822309103",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-13T14:08:23.000Z",
@@ -1805,118 +1939,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121118775210868871",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-13T05:51:39.000Z",
-      "created_at_shanghai": "2026-11-13 13:51:39",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Jensen",
-      "quote": {
-        "author": "a16z",
-        "avatar": "https://pbs.twimg.com/profile_images/1919488160125616128/QAZXTMEj_200x200.png",
-        "created_at_shanghai": "2026-11-13 07:14:05",
-        "created_at_utc": "2026-11-12T23:14:05.000Z",
-        "id": "2121018724262293539",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2121018650459316224/img/ZqFbT5LPKY_bmi0w.jpg"
-        ],
-        "media": [
-          {
-            "duration": 138.6,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121018650459316224/img/ZqFbT5LPKY_bmi0w.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2121018650459316224/vid/avc1/1280x720/DRkIpKumGbm0s9IM.mp4?tag=16",
-            "width": 1280
-          }
-        ],
-        "name": "a16z",
-        "text": "\" You're gonna be remembered forever because some things are eternal.\"",
-        "url": "https://x.com/a16z/status/2121018724262293539",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 182,
-        "likes": 2588,
-        "quotes": 51,
-        "replies": 517,
-        "retweets": 305,
-        "views": 333839
-      },
-      "url": "https://x.com/elonmusk/status/2121118775210868871",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2121012954548326450",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T22:51:09.000Z",
-      "created_at_shanghai": "2026-11-13 06:51:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "A sad day for NVIDIA, developers, America, and all humanity. Jensen founded and ran one of the few companies to reach a massive scale while driving massive continued innovation and ubiquity, while others fell into the trap of ever-increasing extraction.",
-      "quote": {
-        "author": "TimSweeneyEpic",
-        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
-        "created_at_shanghai": "2024-06-19 04:43:37",
-        "created_at_utc": "2024-06-18T20:43:37.000Z",
-        "id": "1803166701174796711",
-        "images": [],
-        "media": [],
-        "name": "Tim Sweeney",
-        "text": "Congrats to everyone at NVIDIA, and to Jensen, the man who saved GDC 2015 by launching a new GPU line at State of Unreal! 😀 Now the world’s top 2 companies operate awesome untaxed pro-developer ecosystems.",
-        "url": "https://x.com/TimSweeneyEpic/status/1803166701174796711",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "TimSweeneyEpic",
-        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 22:31:56",
-        "created_at_utc": "2026-11-12T14:31:56.000Z",
-        "id": "2120887322312921465",
-        "images": [],
-        "media": [],
-        "name": "Tim Sweeney",
-        "text": "A sad day for NVIDIA, developers, America, and all humanity. Jensen founded and ran one of the few companies to reach a massive scale while driving massive continued innovation and ubiquity, while others fell into the trap of ever-increasing extraction.",
-        "url": "https://x.com/TimSweeneyEpic/status/2120887322312921465",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 609,
-        "likes": 9241,
-        "quotes": 112,
-        "replies": 551,
-        "retweets": 752,
-        "views": 381796
-      },
-      "url": "https://x.com/elonmusk/status/2121012954548326450",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2265,
+  "total": 2267,
   "total_pages": 114,
-  "updated_at_shanghai": "2026-11-13 22:16:01",
+  "updated_at_shanghai": "2026-11-13 22:38:47",
   "account": "elonmusk"
 }
