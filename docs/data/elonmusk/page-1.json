@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2121388517540716839",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T23:43:30.000Z",
+      "created_at_shanghai": "2026-11-14 07:43:30",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Live Starship video from space",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 147,
+        "likes": 3515,
+        "quotes": 52,
+        "replies": 443,
+        "retweets": 465,
+        "views": 331827
+      },
+      "url": "https://x.com/elonmusk/status/2121388517540716839",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121387246066569217/img/nmK86HcluJQTcgB_.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2121387246066569217/vid/avc1/3840x2160/-mCrgGsTsE7BnL5o.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121387246066569217/img/nmK86HcluJQTcgB_.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 61.31
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121354518852153704",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -551,7 +590,7 @@
       "id": "2121316611974185273",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-13T18:57:47.000Z",
@@ -1259,83 +1298,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2121250205806772283",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-13T14:33:54.000Z",
-      "created_at_shanghai": "2026-11-13 22:33:54",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starship 42 preparing for launch",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-11-13 08:56:49",
-        "created_at_utc": "2026-11-13T00:56:49.000Z",
-        "id": "2121044579470233638",
-        "images": [
-          "https://pbs.twimg.com/media/HW92p7AWgAA-N1n.jpg?name=small",
-          "https://pbs.twimg.com/media/HW92saPXUAAenRM.jpg?name=small",
-          "https://pbs.twimg.com/media/HW92tsGW4AA1FRd.jpg?name=small",
-          "https://pbs.twimg.com/media/HW92vD_WIAAmDOP.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW92p7AWgAA-N1n.jpg?name=small",
-            "width": 4096
-          },
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW92saPXUAAenRM.jpg?name=small",
-            "width": 4096
-          },
-          {
-            "height": 2731,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW92tsGW4AA1FRd.jpg?name=small",
-            "width": 4096
-          },
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW92vD_WIAAmDOP.jpg?name=small",
-            "width": 4096
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Ship 42 moves to the Starbase pad ahead of launch",
-        "url": "https://x.com/SpaceX/status/2121044579470233638",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 54,
-        "likes": 2125,
-        "quotes": 36,
-        "replies": 382,
-        "retweets": 242,
-        "views": 343634
-      },
-      "url": "https://x.com/elonmusk/status/2121250205806772283",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2285,
+  "total": 2286,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 06:00:01",
+  "updated_at_shanghai": "2026-11-14 07:48:27",
   "account": "elonmusk"
 }

@@ -1,6 +1,77 @@
 {
   "posts": [
     {
+      "id": "2121250205806772283",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T14:33:54.000Z",
+      "created_at_shanghai": "2026-11-13 22:33:54",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship 42 preparing for launch",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 08:56:49",
+        "created_at_utc": "2026-11-13T00:56:49.000Z",
+        "id": "2121044579470233638",
+        "images": [
+          "https://pbs.twimg.com/media/HW92p7AWgAA-N1n.jpg?name=small",
+          "https://pbs.twimg.com/media/HW92saPXUAAenRM.jpg?name=small",
+          "https://pbs.twimg.com/media/HW92tsGW4AA1FRd.jpg?name=small",
+          "https://pbs.twimg.com/media/HW92vD_WIAAmDOP.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92p7AWgAA-N1n.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92saPXUAAenRM.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2731,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92tsGW4AA1FRd.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92vD_WIAAmDOP.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Ship 42 moves to the Starbase pad ahead of launch",
+        "url": "https://x.com/SpaceX/status/2121044579470233638",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 54,
+        "likes": 2125,
+        "quotes": 36,
+        "replies": 382,
+        "retweets": 242,
+        "views": 343634
+      },
+      "url": "https://x.com/elonmusk/status/2121250205806772283",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2121244058379321642",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1857,66 +1928,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2121012954548326450",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T22:51:09.000Z",
-      "created_at_shanghai": "2026-11-13 06:51:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "A sad day for NVIDIA, developers, America, and all humanity. Jensen founded and ran one of the few companies to reach a massive scale while driving massive continued innovation and ubiquity, while others fell into the trap of ever-increasing extraction.",
-      "quote": {
-        "author": "TimSweeneyEpic",
-        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
-        "created_at_shanghai": "2024-06-19 04:43:37",
-        "created_at_utc": "2024-06-18T20:43:37.000Z",
-        "id": "1803166701174796711",
-        "images": [],
-        "media": [],
-        "name": "Tim Sweeney",
-        "text": "Congrats to everyone at NVIDIA, and to Jensen, the man who saved GDC 2015 by launching a new GPU line at State of Unreal! 😀 Now the world’s top 2 companies operate awesome untaxed pro-developer ecosystems.",
-        "url": "https://x.com/TimSweeneyEpic/status/1803166701174796711",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "TimSweeneyEpic",
-        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 22:31:56",
-        "created_at_utc": "2026-11-12T14:31:56.000Z",
-        "id": "2120887322312921465",
-        "images": [],
-        "media": [],
-        "name": "Tim Sweeney",
-        "text": "A sad day for NVIDIA, developers, America, and all humanity. Jensen founded and ran one of the few companies to reach a massive scale while driving massive continued innovation and ubiquity, while others fell into the trap of ever-increasing extraction.",
-        "url": "https://x.com/TimSweeneyEpic/status/2120887322312921465",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 609,
-        "likes": 9241,
-        "quotes": 112,
-        "replies": 551,
-        "retweets": 752,
-        "views": 381796
-      },
-      "url": "https://x.com/elonmusk/status/2121012954548326450",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 2285,
+  "total": 2286,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 06:00:01",
+  "updated_at_shanghai": "2026-11-14 07:48:27",
   "account": "elonmusk"
 }
