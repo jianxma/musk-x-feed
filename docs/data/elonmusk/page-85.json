@@ -1,6 +1,99 @@
 {
   "posts": [
     {
+      "id": "2108038296572137792",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T03:34:30.000Z",
+      "created_at_shanghai": "2026-10-08 11:34:30",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot is like hiring an extremely competent employee!",
+      "quote": {
+        "author": "Michael_Fenech_",
+        "avatar": "https://pbs.twimg.com/profile_images/2086676724440612864/Wzr3NkOE_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 23:36:00",
+        "created_at_utc": "2026-10-07T15:36:00.000Z",
+        "id": "2107857481342816437",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107719762285658112/img/4sUgW6AFJxi9slsx.jpg"
+        ],
+        "media": [
+          {
+            "duration": 53.2,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107719762285658112/img/4sUgW6AFJxi9slsx.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107719762285658112/vid/avc1/1920x1080/olmkPHtF7nST7RI4.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Michael | AI + Agents",
+        "text": "I keep hearing the same thing from people trying Grok Bot:\n\n“I’ve tried it. But I still don’t really understand what I’m supposed to use it for.”\n\nIf that’s you, give me 53 seconds.\n\nI’ll show you the mental model that makes Grok Bot click 👇🏻",
+        "url": "https://x.com/Michael_Fenech_/status/2107857481342816437",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 825,
+        "likes": 4062,
+        "quotes": 54,
+        "replies": 628,
+        "retweets": 491,
+        "views": 1010865
+      },
+      "url": "https://x.com/elonmusk/status/2108038296572137792",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108037853993439563",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T03:32:44.000Z",
+      "created_at_shanghai": "2026-10-08 11:32:44",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink connecting Bangladesh!",
+      "quote": {
+        "author": "SRBednarek",
+        "avatar": "https://pbs.twimg.com/profile_images/1766476355544215552/i-uh3NrF_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 08:26:47",
+        "created_at_utc": "2026-10-08T00:26:47.000Z",
+        "id": "2107991058625843284",
+        "images": [],
+        "media": [],
+        "name": "Stephanie Bednarek",
+        "text": "We're now connecting millions of people in Bangladesh with Starlink Mobile! Our technology provides an additional layer of connectivity in cellular dead zones so coastal communities, remote businesses, families and travelers can stay in touch no matter where they are.",
+        "url": "https://x.com/SRBednarek/status/2107991058625843284",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 129,
+        "likes": 4087,
+        "quotes": 135,
+        "replies": 1020,
+        "retweets": 489,
+        "views": 980788
+      },
+      "url": "https://x.com/elonmusk/status/2108037853993439563",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108036943879749830",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1048,129 +1141,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107894231922876510",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T18:02:02.000Z",
-      "created_at_shanghai": "2026-10-08 02:02:02",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "However, most @Bot requests are pretty simple and will be handled by a lightning-fast version of Grok 4.8 when that comes out. \n\nOperating principle is to give Grok Bot users the best possible combination of speed &amp; intelligence.",
-      "quote": {
-        "author": "minchoi",
-        "avatar": "https://pbs.twimg.com/profile_images/1638359113221517312/CBZaJFyA_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 20:45:12",
-        "created_at_utc": "2026-10-07T12:45:12.000Z",
-        "id": "2107814500061638750",
-        "images": [],
-        "media": [],
-        "name": "Min Choi",
-        "text": "This is wild...\n\nGrok Bot will now pick Claude Opus 5.5, Midjourney, Suno + more depending on the task.\n\nBest model wins.",
-        "url": "https://x.com/minchoi/status/2107814500061638750",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 242,
-        "likes": 5045,
-        "quotes": 76,
-        "replies": 715,
-        "retweets": 498,
-        "views": 1935478
-      },
-      "url": "https://x.com/elonmusk/status/2107894231922876510",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107892291637805325",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T17:54:19.000Z",
-      "created_at_shanghai": "2026-10-08 01:54:19",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk on why internet access is one of the most powerful tools humanity has for lifting people out of poverty:\n\n“The single biggest thing you can do to lift people out of poverty and help them is giving them an internet connection”\n\nBecause once someone gets connected, their opportunities completely change\n\n• they can learn almost anything for free\n• get access education and information\n• Find work and build businesses\n• Sell goods and services to the global market\n• Participate in an economy far beyond their local community\n\nThat is the bigger mission behind Starlink\n\nBringing low-cost, high-bandwidth internet to places where traditional connectivity is unavailable, too expensive or simply never reaches\n\nFor hundreds of millions of people, an internet connection is not just a convenience....it is access to new opportunity they never had before https://x.com/XFreeze/status/2015067284205916553/video/1",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 01:35:11",
-        "created_at_utc": "2026-10-07T17:35:11.000Z",
-        "id": "2107887475251458094",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Starlink in India would enable high-speed, affordable Internet connectivity for those who can’t afford current prices or who don’t have a connection at all!",
-        "url": "https://x.com/elonmusk/status/2107887475251458094",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 01:47:44",
-        "created_at_utc": "2026-10-07T17:47:44.000Z",
-        "id": "2107890635873345583",
-        "images": [
-          "https://pbs.twimg.com/ext_tw_video_thumb/2015067208188116992/pu/img/vS3izFlecLdF47AZ.jpg"
-        ],
-        "media": [
-          {
-            "duration": 47.378,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2015067208188116992/pu/img/vS3izFlecLdF47AZ.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/ext_tw_video/2015067208188116992/pu/vid/avc1/1080x1080/LXkDRFPYaleYbSsZ.mp4?tag=19",
-            "width": 1080
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Elon Musk on why internet access is one of the most powerful tools humanity has for lifting people out of poverty:\n\n“The single biggest thing you can do to lift people out of poverty and help them is giving them an internet connection”\n\nBecause once someone gets connected, their opportunities completely change\n\n• they can learn almost anything for free\n• get access education and information\n• Find work and build businesses\n• Sell goods and services to the global market\n• Participate in an economy far beyond their local community\n\nThat is the bigger mission behind Starlink\n\nBringing low-cost, high-bandwidth internet to places where traditional connectivity is unavailable, too expensive or simply never reaches\n\nFor hundreds of millions of people, an internet connection is not just a convenience....it is access to new opportunity they never had before https://x.com/XFreeze/status/2015067284205916553/video/1",
-        "url": "https://x.com/XFreeze/status/2107890635873345583",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 207,
-        "likes": 2736,
-        "quotes": 46,
-        "replies": 340,
-        "retweets": 488,
-        "views": 348768
-      },
-      "url": "https://x.com/elonmusk/status/2107892291637805325",
-      "images": [
-        "https://pbs.twimg.com/ext_tw_video_thumb/2015067208188116992/pu/img/vS3izFlecLdF47AZ.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/ext_tw_video/2015067208188116992/pu/vid/avc1/1080x1080/LXkDRFPYaleYbSsZ.mp4?tag=19",
-          "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2015067208188116992/pu/img/vS3izFlecLdF47AZ.jpg",
-          "width": 1080,
-          "height": 1080,
-          "duration": 47.378
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 85,
   "page_size": 20,
-  "total": 2263,
+  "total": 2265,
   "total_pages": 114,
-  "updated_at_shanghai": "2026-11-13 22:10:37",
+  "updated_at_shanghai": "2026-11-13 22:16:01",
   "account": "elonmusk"
 }
