@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108272088582676627",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T19:03:30.000Z",
+      "created_at_shanghai": "2026-10-09 03:03:30",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot works well on your phone. Just download the app from Apple or Android. \n\nhttps://apps.apple.com/app/id6794501026",
+      "quote": {
+        "author": "melvindvivas",
+        "avatar": "https://pbs.twimg.com/profile_images/2080587337994813440/rF40X6jM_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 01:33:12",
+        "created_at_utc": "2026-10-08T17:33:12.000Z",
+        "id": "2108249363432788364",
+        "images": [],
+        "media": [],
+        "name": "Melvin Vivas",
+        "text": "This feels unreal\n\nUsed Grok Bot today, mostly from my phone\n\nI got more done from my phone with Grok Bot than I usually do sitting at my desk\n\n- Colab notebooks for Google EmbeddingGemma 2, D1 by LiquidAI inference\n- Colab notebooks for open source decision models finetunes using Qwen3.5-4B and Gemma 4 E4B as base\n- Put up a Grok Bots page on my website with all the templates I've been sharing\n- Worked on the MiniMax H3 face-swap clip\n- Figured out what's eating my Windows drive and how to free space\n- Created Security bot and told it to treat outside content as hostile, especially anything that might touch my computers\n- Worked with my stocks bot on scheduled market updates, news and recommndations",
+        "url": "https://x.com/melvindvivas/status/2108249363432788364",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 274,
+        "likes": 4426,
+        "quotes": 55,
+        "replies": 637,
+        "retweets": 535,
+        "views": 1845722
+      },
+      "url": "https://x.com/elonmusk/status/2108272088582676627",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108270309824438588",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1059,40 +1100,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108225043419574573",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T15:56:33.000Z",
-      "created_at_shanghai": "2026-10-08 23:56:33",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Thank you on behalf of the amazing people of SpaceX, Tesla, Neuralink and Boring Company, without whom anything I have done would have been impossible",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 147,
-        "likes": 4771,
-        "quotes": 59,
-        "replies": 482,
-        "retweets": 525,
-        "views": 567986
-      },
-      "url": "https://x.com/elonmusk/status/2108225043419574573",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 81,
   "page_size": 20,
-  "total": 2270,
+  "total": 2271,
   "total_pages": 114,
-  "updated_at_shanghai": "2026-11-13 23:45:27",
+  "updated_at_shanghai": "2026-11-13 23:46:31",
   "account": "elonmusk"
 }

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2112858804195066183",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T10:49:28.000Z",
+      "created_at_shanghai": "2026-10-21 18:49:28",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "i fucking love grokbot",
+      "quote": null,
+      "retweet": {
+        "author": "peer_rich",
+        "avatar": "https://pbs.twimg.com/profile_images/2081985614895849472/c3ABtpLH_200x200.jpg",
+        "created_at_shanghai": "2026-10-20 21:31:30",
+        "created_at_utc": "2026-10-20T13:31:30.000Z",
+        "id": "2112537192132214845",
+        "images": [],
+        "media": [],
+        "name": "Peer Richelsen",
+        "text": "i fucking love grokbot",
+        "url": "https://x.com/peer_rich/status/2112537192132214845",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 55,
+        "likes": 2259,
+        "quotes": 19,
+        "replies": 211,
+        "retweets": 132,
+        "views": 376487
+      },
+      "url": "https://x.com/elonmusk/status/2112858804195066183",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2112858415961694269",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1168,53 +1209,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2112660258652832182",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-20T21:40:31.000Z",
-      "created_at_shanghai": "2026-10-21 05:40:31",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "In the age of super intelligence, the current standards of living will look medieval. \n\nThe problems that society worries about right now will be largely irrelevant. It’ll be the equivalent of current society worrying about the bubonic plague.",
-      "quote": null,
-      "retweet": {
-        "author": "aelluswamy",
-        "avatar": "https://pbs.twimg.com/profile_images/1561153006891978754/hvZ3Tm0d_200x200.jpg",
-        "created_at_shanghai": "2026-10-21 01:01:50",
-        "created_at_utc": "2026-10-20T17:01:50.000Z",
-        "id": "2112590126539030934",
-        "images": [],
-        "media": [],
-        "name": "Ashok Elluswamy",
-        "text": "In the age of super intelligence, the current standards of living will look medieval. \n\nThe problems that society worries about right now will be largely irrelevant. It’ll be the equivalent of current society worrying about the bubonic plague.",
-        "url": "https://x.com/aelluswamy/status/2112590126539030934",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 338,
-        "likes": 5703,
-        "quotes": 72,
-        "replies": 393,
-        "retweets": 459,
-        "views": 257744
-      },
-      "url": "https://x.com/elonmusk/status/2112660258652832182",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 53,
   "page_size": 20,
-  "total": 2270,
+  "total": 2271,
   "total_pages": 114,
-  "updated_at_shanghai": "2026-11-13 23:45:27",
+  "updated_at_shanghai": "2026-11-13 23:46:31",
   "account": "elonmusk"
 }
