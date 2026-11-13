@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2116985908268572975",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-01T20:09:06.000Z",
+      "created_at_shanghai": "2026-11-02 04:09:06",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "The people deserve to have their RAM too!",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 183,
+        "likes": 5111,
+        "quotes": 96,
+        "replies": 701,
+        "retweets": 459,
+        "views": 542807
+      },
+      "url": "https://x.com/elonmusk/status/2116985908268572975",
+      "images": [
+        "https://pbs.twimg.com/media/HWELdnLWkAAT83A.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWELdnLWkAAT83A.jpg?name=small",
+          "width": 2048,
+          "height": 1196
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116970675814482091",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -967,53 +1004,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2116872423215935970",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-01T12:38:09.000Z",
-      "created_at_shanghai": "2026-11-01 20:38:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@zephyr_z9 Silly analysis. \n\nRobot RAM needs will exceed everything else on Earth, as you need the robots to be on physical substates in order to shape atoms.  \n\nSuper intelligence needs will vastly exceed that, but ~100% of SI will be deep space compute. Obviously.",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-27 01:32:07",
-        "created_at_utc": "2026-10-26T17:32:07.000Z",
-        "id": "2114772074438988256",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "@zephyr_z9 Silly analysis. \n\nRobot RAM needs will exceed everything else on Earth, as you need the robots to be on physical substates in order to shape atoms.  \n\nSuper intelligence needs will vastly exceed that, but ~100% of SI will be deep space compute. Obviously.",
-        "url": "https://x.com/elonmusk/status/2114772074438988256",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "zephyr_z9",
-      "engagement": {
-        "bookmarks": 2575,
-        "likes": 12039,
-        "quotes": 285,
-        "replies": 572,
-        "retweets": 896,
-        "views": 2050067
-      },
-      "url": "https://x.com/elonmusk/status/2116872423215935970",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 20,
-  "total": 2255,
+  "total": 2256,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 14:05:22",
+  "updated_at_shanghai": "2026-11-13 14:07:26",
   "account": "elonmusk"
 }

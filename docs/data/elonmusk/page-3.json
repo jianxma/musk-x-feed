@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2120565179276832797",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-11T17:11:51.000Z",
+      "created_at_shanghai": "2026-11-12 01:11:51",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Tesla self-driving now approved in Finland",
+      "quote": {
+        "author": "teslaeurope",
+        "avatar": "https://pbs.twimg.com/profile_images/1620537591048163332/GSPAsKC5_200x200.jpg",
+        "created_at_shanghai": "2026-11-11 14:18:33",
+        "created_at_utc": "2026-11-11T06:18:33.000Z",
+        "id": "2120400770952745439",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120400638517649408/img/pv6JcEDdbtzA2f2N.jpg"
+        ],
+        "media": [
+          {
+            "duration": 25.876,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120400638517649408/img/pv6JcEDdbtzA2f2N.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120400638517649408/vid/avc1/3840x2160/DNJBCXQD-ZSvXUla.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Tesla Europe, Middle East & Africa",
+        "text": "Now approved in Finland 🇫🇮\n\nRollout begins soon",
+        "url": "https://x.com/teslaeurope/status/2120400770952745439",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 31,
+        "likes": 1552,
+        "quotes": 32,
+        "replies": 294,
+        "retweets": 182,
+        "views": 369564
+      },
+      "url": "https://x.com/elonmusk/status/2120565179276832797",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2120565056429814073",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1168,71 +1220,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2119992481156829218",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-10T03:16:09.000Z",
-      "created_at_shanghai": "2026-11-10 11:16:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "The Germans are learning what mass immigration really means.\n\n\"Wir schaffen das\"",
-      "quote": null,
-      "retweet": {
-        "author": "ricwe123",
-        "avatar": "https://pbs.twimg.com/profile_images/1519737260253622273/uMkvn0h3_200x200.jpg",
-        "created_at_shanghai": "2026-11-09 23:01:05",
-        "created_at_utc": "2026-11-09T15:01:05.000Z",
-        "id": "2119807494776078407",
-        "images": [
-          "https://pbs.twimg.com/media/HWsRrenWEAAvBhY.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1404,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWsRrenWEAAvBhY.jpg?name=small",
-            "width": 1271
-          }
-        ],
-        "name": "Richard",
-        "text": "The Germans are learning what mass immigration really means.\n\n\"Wir schaffen das\"",
-        "url": "https://x.com/ricwe123/status/2119807494776078407",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 162,
-        "likes": 4454,
-        "quotes": 34,
-        "replies": 183,
-        "retweets": 938,
-        "views": 99126
-      },
-      "url": "https://x.com/elonmusk/status/2119992481156829218",
-      "images": [
-        "https://pbs.twimg.com/media/HWsRrenWEAAvBhY.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWsRrenWEAAvBhY.jpg?name=small",
-          "width": 1271,
-          "height": 1404
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 2255,
+  "total": 2256,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 14:05:22",
+  "updated_at_shanghai": "2026-11-13 14:07:26",
   "account": "elonmusk"
 }

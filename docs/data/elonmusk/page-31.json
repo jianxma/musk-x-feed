@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2116017528036327934",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T04:01:07.000Z",
+      "created_at_shanghai": "2026-10-30 12:01:07",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "BABY, YOU FLEW",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 591,
+        "likes": 4082,
+        "quotes": 179,
+        "replies": 723,
+        "retweets": 674,
+        "views": 643987
+      },
+      "url": "https://x.com/elonmusk/status/2116017528036327934",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2111210612990865408/img/hzHZsL1s93JsKBii.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2111210612990865408/vid/avc1/1920x1080/FnzPZG0N7y2DIzyS.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111210612990865408/img/hzHZsL1s93JsKBii.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 158.569
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116006456763818028",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1064,71 +1103,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115896971521413486",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T20:02:04.000Z",
-      "created_at_shanghai": "2026-10-30 04:02:04",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "SpaceX is accusing T-Mobile and other legacy carriers of deliberately trying to harm the company and undermine @Starlink Mobile's expansion by pushing outdated, restrictive satellite-to-phone rules that could prevent millions of people in underserved communities from accessing the service.\n\n\"SpaceX has worked extensively with other operators, including T-Mobile. Unfortunately, the misplaced desire to harm a competitor has led many incumbents to oppose modernized rules that would bring direct-to-cell service to underserved border communities. The Commission should recognize that AFTRCC is now purely a lobbying organization whose mission is to protect legacy companies and their comments should not be viewed as independent or objective,\" SpaceX said in a new filing to the FCC.\n\nFull filing in thread below:",
-      "quote": null,
-      "retweet": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-10-30 02:51:51",
-        "created_at_utc": "2026-10-29T18:51:51.000Z",
-        "id": "2115879303489462625",
-        "images": [
-          "https://pbs.twimg.com/media/HV0c75aX0AEU110.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HV0c75aX0AEU110.jpg?name=small",
-            "width": 4096
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "SpaceX is accusing T-Mobile and other legacy carriers of deliberately trying to harm the company and undermine @Starlink Mobile's expansion by pushing outdated, restrictive satellite-to-phone rules that could prevent millions of people in underserved communities from accessing the service.\n\n\"SpaceX has worked extensively with other operators, including T-Mobile. Unfortunately, the misplaced desire to harm a competitor has led many incumbents to oppose modernized rules that would bring direct-to-cell service to underserved border communities. The Commission should recognize that AFTRCC is now purely a lobbying organization whose mission is to protect legacy companies and their comments should not be viewed as independent or objective,\" SpaceX said in a new filing to the FCC.\n\nFull filing in thread below:",
-        "url": "https://x.com/SawyerMerritt/status/2115879303489462625",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 139,
-        "likes": 2524,
-        "quotes": 46,
-        "replies": 193,
-        "retweets": 305,
-        "views": 164598
-      },
-      "url": "https://x.com/elonmusk/status/2115896971521413486",
-      "images": [
-        "https://pbs.twimg.com/media/HV0c75aX0AEU110.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HV0c75aX0AEU110.jpg?name=small",
-          "width": 4096,
-          "height": 2304
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 31,
   "page_size": 20,
-  "total": 2255,
+  "total": 2256,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 14:05:22",
+  "updated_at_shanghai": "2026-11-13 14:07:26",
   "account": "elonmusk"
 }

@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2117893633009651980",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-04T08:16:05.000Z",
+      "created_at_shanghai": "2026-11-04 16:16:05",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot shopping is great",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-11-04 05:50:42",
+        "created_at_utc": "2026-11-03T21:50:42.000Z",
+        "id": "2117736249444507834",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2117735046065070080/img/SdipeDltihzi-7WJ.jpg"
+        ],
+        "media": [
+          {
+            "duration": 16.733,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117735046065070080/img/SdipeDltihzi-7WJ.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2117735046065070080/vid/avc1/1920x1080/vzWGF2LuTlVA_3RB.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Try the new shopping experience in Grok Bot.\n\nFind the best deal, compare items, and have Bot track all your orders.",
+        "url": "https://x.com/bot/status/2117736249444507834",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 547,
+        "likes": 6387,
+        "quotes": 124,
+        "replies": 1405,
+        "retweets": 674,
+        "views": 1993229
+      },
+      "url": "https://x.com/elonmusk/status/2117893633009651980",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2117888389739634881",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -946,71 +998,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2117667060646085073",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T17:15:46.000Z",
-      "created_at_shanghai": "2026-11-04 01:15:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Voted today to keep Florida red. \n\nI left the failed politics from New York in New York.",
-      "quote": null,
-      "retweet": {
-        "author": "ZeekArkham",
-        "avatar": "https://pbs.twimg.com/profile_images/2116588342779244544/Y4sG1VqW_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 22:05:58",
-        "created_at_utc": "2026-11-03T14:05:58.000Z",
-        "id": "2117619294813171762",
-        "images": [
-          "https://pbs.twimg.com/media/HWNLhU5XEAAzk0h.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWNLhU5XEAAzk0h.jpg?name=small",
-            "width": 1536
-          }
-        ],
-        "name": "Zeek Arkham 🇺🇸",
-        "text": "Voted today to keep Florida red. \n\nI left the failed politics from New York in New York.",
-        "url": "https://x.com/ZeekArkham/status/2117619294813171762",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 71,
-        "likes": 21128,
-        "quotes": 64,
-        "replies": 875,
-        "retweets": 1997,
-        "views": 141537
-      },
-      "url": "https://x.com/elonmusk/status/2117667060646085073",
-      "images": [
-        "https://pbs.twimg.com/media/HWNLhU5XEAAzk0h.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWNLhU5XEAAzk0h.jpg?name=small",
-          "width": 1536,
-          "height": 2048
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 20,
-  "total": 2255,
+  "total": 2256,
   "total_pages": 113,
-  "updated_at_shanghai": "2026-11-13 14:05:22",
+  "updated_at_shanghai": "2026-11-13 14:07:26",
   "account": "elonmusk"
 }
