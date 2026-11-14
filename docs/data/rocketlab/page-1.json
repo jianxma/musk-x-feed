@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2121488840359862297",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-11-14T06:22:09.000Z",
+      "created_at_shanghai": "2026-11-14 14:22:09",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "MISSION SUCCESS. Payload deployment from the Kick Stage confirmed. Welcome back to space @QPS_Inc.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1,
+        "likes": 48,
+        "quotes": 1,
+        "replies": 1,
+        "retweets": 7,
+        "views": 2244
+      },
+      "url": "https://x.com/rocketlab/status/2121488840359862297",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121488683601690624/img/duI9NSSe_h09tzJM.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2121488683601690624/vid/avc1/1920x1080/aLXJwoHz-hyh_lTG.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121488683601690624/img/duI9NSSe_h09tzJM.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 34.03
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121482585469804565",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -630,33 +669,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2121407145187160569",
-      "author": "RocketLab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-11-14T00:57:31.000Z",
-      "created_at_shanghai": "2026-11-14 08:57:31",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "This occasion calls for formal wear. Our 100th Electron is all dressed up, so our pad technicians are too. \n\nThe launch window for \"The Mountain God Rises\" for @QPS_Inc  opens today: \n\n🚀6:30pm NZDT\n🚀02:30 pm JST\n🚀05:30 UTC\n🚀12:30 am ET\n🚀9:30 pm PT (Nov 13)",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {},
-      "url": "https://x.com/RocketLab/status/2121407145187160569",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 176,
+  "total": 177,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-11-14 14:01:43",
+  "updated_at_shanghai": "2026-11-14 14:23:33",
   "account": "rocketlab"
 }
