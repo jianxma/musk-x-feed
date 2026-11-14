@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2118732649426731409",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-06T15:50:02.000Z",
+      "created_at_shanghai": "2026-11-06 23:50:02",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 508,
+        "likes": 5206,
+        "quotes": 70,
+        "replies": 362,
+        "retweets": 753,
+        "views": 727660
+      },
+      "url": "https://x.com/elonmusk/status/2118732649426731409",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2118707284956303360/img/1_4LyKRyjDUdA3UI.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2118707284956303360/vid/avc1/1918x1080/-FFf2BOrAkaJKzuT.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118707284956303360/img/1_4LyKRyjDUdA3UI.jpg",
+          "width": 1918,
+          "height": 1080,
+          "duration": 73.978
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2118732400176083271",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1005,40 +1044,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2118595675374109154",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-06T06:45:45.000Z",
-      "created_at_shanghai": "2026-11-06 14:45:45",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Banger\nhttps://m.youtube.com/watch?v=Km91UtrSWx8&pp=ugUEEgJlbtIHCQkpDAGHKiGM7w%3D%3D&ra=m",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 279,
-        "likes": 2446,
-        "quotes": 43,
-        "replies": 513,
-        "retweets": 339,
-        "views": 930979
-      },
-      "url": "https://x.com/elonmusk/status/2118595675374109154",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 20,
-  "total": 2294,
+  "total": 2295,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 10:34:43",
+  "updated_at_shanghai": "2026-11-14 11:35:10",
   "account": "elonmusk"
 }

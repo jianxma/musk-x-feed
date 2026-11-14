@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2113870130799362063",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-24T05:48:07.000Z",
+      "created_at_shanghai": "2026-10-24 13:48:07",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 22:08:42",
+        "created_at_utc": "2026-10-23T14:08:42.000Z",
+        "id": "2113633718510494169",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2113633641515589632/img/ju1dzTE6VYRFAmyr.jpg"
+        ],
+        "media": [
+          {
+            "duration": 15.042,
+            "height": 1728,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113633641515589632/img/ju1dzTE6VYRFAmyr.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2113633641515589632/vid/avc1/1152x1728/XOW_lzgSs1NdH68Z.mp4?tag=25",
+            "width": 1152
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok Imagine has improved so ridiculously fast that it’s hard to believe how good it has become…it now even generates the best music that you can add to your videos\n\nIf you haven’t tried it recently, now is the time",
+        "url": "https://x.com/XFreeze/status/2113633718510494169",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 33,
+        "likes": 903,
+        "quotes": 12,
+        "replies": 231,
+        "retweets": 119,
+        "views": 368873
+      },
+      "url": "https://x.com/elonmusk/status/2113870130799362063",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2113870015430840662",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1019,53 +1071,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2113682653585293461",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-23T17:23:09.000Z",
-      "created_at_shanghai": "2026-10-24 01:23:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot is insanely cool, wow.",
-      "quote": null,
-      "retweet": {
-        "author": "Truthful_ast",
-        "avatar": "https://pbs.twimg.com/profile_images/2082148298811449344/FISSVeKZ_200x200.jpg",
-        "created_at_shanghai": "2026-10-23 08:31:26",
-        "created_at_utc": "2026-10-23T00:31:26.000Z",
-        "id": "2113428045004697651",
-        "images": [],
-        "media": [],
-        "name": "Truthful🛰️",
-        "text": "Grok Bot is insanely cool, wow.",
-        "url": "https://x.com/Truthful_ast/status/2113428045004697651",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 22,
-        "likes": 847,
-        "quotes": 4,
-        "replies": 65,
-        "retweets": 102,
-        "views": 142567
-      },
-      "url": "https://x.com/elonmusk/status/2113682653585293461",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 47,
   "page_size": 20,
-  "total": 2294,
+  "total": 2295,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 10:34:43",
+  "updated_at_shanghai": "2026-11-14 11:35:10",
   "account": "elonmusk"
 }

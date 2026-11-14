@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2114168469604245782",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-25T01:33:37.000Z",
+      "created_at_shanghai": "2026-10-25 09:33:37",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@Yuchenj_UW I think we’re going to see a lot of stranded compute in partially complete data centers",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-25 09:32:51",
+        "created_at_utc": "2026-10-25T01:32:51.000Z",
+        "id": "2114168277882581486",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@Yuchenj_UW I think we’re going to see a lot of stranded compute in partially complete data centers",
+        "url": "https://x.com/elonmusk/status/2114168277882581486",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "Yuchenj_UW",
+      "engagement": {
+        "bookmarks": 656,
+        "likes": 7803,
+        "quotes": 148,
+        "replies": 574,
+        "retweets": 383,
+        "views": 1047593
+      },
+      "url": "https://x.com/elonmusk/status/2114168469604245782",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2114167682283036687",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -974,66 +1015,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2114007570637836656",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-24T14:54:15.000Z",
-      "created_at_shanghai": "2026-10-24 22:54:15",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It’s very important to grasp this.",
-      "quote": {
-        "author": "ErikVoorhees",
-        "avatar": "https://pbs.twimg.com/profile_images/2076371776284577792/0y6mNWY3_200x200.jpg",
-        "created_at_shanghai": "2026-10-24 13:13:49",
-        "created_at_utc": "2026-10-24T05:13:49.000Z",
-        "id": "2113861496807817301",
-        "images": [],
-        "media": [],
-        "name": "Erik Voorhees",
-        "text": "Fascism is a leftist ideology\n\nState control of everything",
-        "url": "https://x.com/ErikVoorhees/status/2113861496807817301",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "TheAliceSmith",
-        "avatar": "https://pbs.twimg.com/profile_images/1270261256054812673/L2aMmq5v_200x200.jpg",
-        "created_at_shanghai": "2026-10-24 22:01:30",
-        "created_at_utc": "2026-10-24T14:01:30.000Z",
-        "id": "2113994292964241463",
-        "images": [],
-        "media": [],
-        "name": "Alice Smith",
-        "text": "It’s very important to grasp this.",
-        "url": "https://x.com/TheAliceSmith/status/2113994292964241463",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 18,
-        "likes": 651,
-        "quotes": 4,
-        "replies": 60,
-        "retweets": 116,
-        "views": 47228
-      },
-      "url": "https://x.com/elonmusk/status/2114007570637836656",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 45,
   "page_size": 20,
-  "total": 2294,
+  "total": 2295,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 10:34:43",
+  "updated_at_shanghai": "2026-11-14 11:35:10",
   "account": "elonmusk"
 }
