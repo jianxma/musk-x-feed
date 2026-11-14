@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2121118860107506168",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T05:51:59.000Z",
+      "created_at_shanghai": "2026-11-13 13:51:59",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "\"If something's important enough you should try. Even if the probable outcome is failure.\"\n\n- Elon, 2014\n\nFlight 15 pre-flight hype edit:",
+      "quote": null,
+      "retweet": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 08:38:53",
+        "created_at_utc": "2026-11-13T00:38:53.000Z",
+        "id": "2121040067930058897",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2121039928377188352/img/kJZ4dKSkDe5I2c6I.jpg"
+        ],
+        "media": [
+          {
+            "duration": 163.541,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121039928377188352/img/kJZ4dKSkDe5I2c6I.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2121039928377188352/vid/avc1/1920x1080/EYSMzhujVZCkBKUa.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "anabology",
+        "text": "\"If something's important enough you should try. Even if the probable outcome is failure.\"\n\n- Elon, 2014\n\nFlight 15 pre-flight hype edit:",
+        "url": "https://x.com/anabology/status/2121040067930058897",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 70,
+        "likes": 467,
+        "quotes": 4,
+        "replies": 42,
+        "retweets": 61,
+        "views": 29106
+      },
+      "url": "https://x.com/elonmusk/status/2121118860107506168",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121039928377188352/img/kJZ4dKSkDe5I2c6I.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2121039928377188352/vid/avc1/1920x1080/EYSMzhujVZCkBKUa.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121039928377188352/img/kJZ4dKSkDe5I2c6I.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 163.541
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121118775210868871",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1111,77 +1174,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2120735309424128325",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T04:27:53.000Z",
-      "created_at_shanghai": "2026-11-12 12:27:53",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Bot 1.0 is out. Our goal for this release was to make Bots a much more useful part of your team.\n\nSome new things we're excited about:\n\n- Bots can now join Zoom, Google Meet, and more. You can ask Bot questions in meetings and even assign it action items. We have ours taking standup notes every day in our shared Google Doc and doing background research on discussion themes. Soon, you'll be able to talk back and forth with it live in a meeting.\n\n- A new interface for managing your Bots. You can see and steer their responsibilities, what they're learning, and their impact. It's impossible to build trust in an AI teammate if it's a black box, so it should proactively flag when it's blocked or confused, take and learn from feedback across the company, and be able to succinctly summarize its contributions.\n\n- Better collaboration in Slack and Teams. Bots are more ambiently aware, carry context across conversations, and learn from your team over time. In our Slack, we regularly see threads between members of our team and multiple Bots, handing off work, context, and decisions. Bots should intuit your company's customs and how work gets done, not just execute on the specific tasks they're given.",
-      "quote": {
-        "author": "bot",
-        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 02:22:30",
-        "created_at_utc": "2026-11-11T18:22:30.000Z",
-        "id": "2120582957782200586",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg"
-        ],
-        "media": [
-          {
-            "duration": 79.1,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120580701489889280/vid/avc1/1920x1080/BDhW_GY4lPxCEeGk.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Grok Bot",
-        "text": "Introducing Grok Bot 1.0. AI teammates that work alongside your whole team.\n\nShare Bots, collaborate with them in Slack and Teams, invite them to meetings, and watch them learn and become more helpful.",
-        "url": "https://x.com/bot/status/2120582957782200586",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "romanugarte_",
-        "avatar": "https://pbs.twimg.com/profile_images/1899272966850125826/Nq5kbpgO_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 03:23:29",
-        "created_at_utc": "2026-11-11T19:23:29.000Z",
-        "id": "2120598306585989302",
-        "images": [],
-        "media": [],
-        "name": "Roman Ugarte",
-        "text": "Bot 1.0 is out. Our goal for this release was to make Bots a much more useful part of your team.\n\nSome new things we're excited about:\n\n- Bots can now join Zoom, Google Meet, and more. You can ask Bot questions in meetings and even assign it action items. We have ours taking standup notes every day in our shared Google Doc and doing background research on discussion themes. Soon, you'll be able to talk back and forth with it live in a meeting.\n\n- A new interface for managing your Bots. You can see and steer their responsibilities, what they're learning, and their impact. It's impossible to build trust in an AI teammate if it's a black box, so it should proactively flag when it's blocked or confused, take and learn from feedback across the company, and be able to succinctly summarize its contributions.\n\n- Better collaboration in Slack and Teams. Bots are more ambiently aware, carry context across conversations, and learn from your team over time. In our Slack, we regularly see threads between members of our team and multiple Bots, handing off work, context, and decisions. Bots should intuit your company's customs and how work gets done, not just execute on the specific tasks they're given.",
-        "url": "https://x.com/romanugarte_/status/2120598306585989302",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 169,
-        "likes": 717,
-        "quotes": 5,
-        "replies": 74,
-        "retweets": 51,
-        "views": 68239
-      },
-      "url": "https://x.com/elonmusk/status/2120735309424128325",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 2327,
+  "total": 2328,
   "total_pages": 117,
-  "updated_at_shanghai": "2026-11-14 22:50:24",
+  "updated_at_shanghai": "2026-11-14 22:57:45",
   "account": "elonmusk"
 }
