@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2121467119686877394",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-11-14T04:55:50.000Z",
+      "created_at_shanghai": "2026-11-14 12:55:50",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Black, white and GOLD. LOx fueling is underway on our 100th Electron rocket, which got a special paint job for this golden milestone. \n\nWe are T-35 minutes away from lift-off.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 0,
+        "likes": 79,
+        "quotes": 0,
+        "replies": 1,
+        "retweets": 12,
+        "views": 3488
+      },
+      "url": "https://x.com/rocketlab/status/2121467119686877394",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121466615833251840/img/enruO7iHhRL9FRv1.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2121466615833251840/vid/avc1/1920x1080/C4oaTe-514vn92cC.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121466615833251840/img/enruO7iHhRL9FRv1.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 20.78
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121463807688237499",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -734,70 +773,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2120636378035994664",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-11-11T21:54:46.000Z",
-      "created_at_shanghai": "2026-11-12 05:54:46",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "RocketLab",
-      "engagement": {
-        "bookmarks": 1,
-        "likes": 10,
-        "quotes": 0,
-        "replies": 0,
-        "retweets": 1,
-        "views": 435
-      },
-      "url": "https://x.com/rocketlab/status/2120636378035994664",
-      "images": [
-        "https://pbs.twimg.com/media/HW4CjxGbMAA7e8J.jpg?name=small",
-        "https://pbs.twimg.com/media/HW4CkfPaUAE1VwD.jpg?name=small",
-        "https://pbs.twimg.com/media/HW4CldJbcAAtup-.jpg?name=small",
-        "https://pbs.twimg.com/media/HW4CngsaEAAwnDL.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW4CjxGbMAA7e8J.jpg?name=small",
-          "width": 4096,
-          "height": 2731
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW4CkfPaUAE1VwD.jpg?name=small",
-          "width": 4032,
-          "height": 3024
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW4CldJbcAAtup-.jpg?name=small",
-          "width": 1880,
-          "height": 983
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW4CngsaEAAwnDL.jpg?name=small",
-          "width": 4096,
-          "height": 2732
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 164,
+  "total": 165,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-11-14 12:45:10",
+  "updated_at_shanghai": "2026-11-14 12:59:58",
   "account": "rocketlab"
 }
