@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2121361123412959705",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-11-13T21:54:39.000Z",
+      "created_at_shanghai": "2026-11-14 05:54:39",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "New Zealand is where it all started for Electron - a country with no space heritage. \n\nToday, Rocket Lab is a global space company with teams across the United States, Canada, Europe and New Zealand. \n\nWe're about to launch our 100th rocket.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 5,
+        "likes": 217,
+        "quotes": 4,
+        "replies": 7,
+        "retweets": 30,
+        "views": 6580
+      },
+      "url": "https://x.com/rocketlab/status/2121361123412959705",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121360842730217472/img/sU5aXRSy6bW6KkWi.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2121360842730217472/vid/avc1/3840x2160/f5HlVbBb5vf-CQy5.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121360842730217472/img/sU5aXRSy6bW6KkWi.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 51.48
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121322570364670251",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -846,40 +885,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2119925301472043485",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-11-09T22:49:12.000Z",
-      "created_at_shanghai": "2026-11-10 06:49:12",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Full details: https://rocketlabcorp.com/updates/rocket-lab-lands-over-515m-in-neutron-launch-deals-from-constellation-operators-in-q3/",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "RocketLab",
-      "engagement": {
-        "bookmarks": 0,
-        "likes": 35,
-        "quotes": 1,
-        "replies": 0,
-        "retweets": 5,
-        "views": 1291
-      },
-      "url": "https://x.com/rocketlab/status/2119925301472043485",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 174,
+  "total": 175,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-11-14 13:44:25",
+  "updated_at_shanghai": "2026-11-14 13:56:50",
   "account": "rocketlab"
 }
