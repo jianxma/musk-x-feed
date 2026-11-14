@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2121501709285638267",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-11-14T07:13:17.000Z",
+      "created_at_shanghai": "2026-11-14 15:13:17",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Triple digits 💯\n\nElectron has reached 100 launches faster than any commercially developed rocket in history. With another 100+ launches in backlog, we're just getting started.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 47,
+        "likes": 2263,
+        "quotes": 52,
+        "replies": 55,
+        "retweets": 241,
+        "views": 107934
+      },
+      "url": "https://x.com/rocketlab/status/2121501709285638267",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121500612642959360/img/4gFM57BRAZISWaQ2.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2121500612642959360/vid/avc1/1920x1080/lWHc0_8MvzEV3_bi.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121500612642959360/img/4gFM57BRAZISWaQ2.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 19.84
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121490530316272044",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -648,51 +687,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121443002002682366",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-11-14T03:20:00.000Z",
-      "created_at_shanghai": "2026-11-14 11:20:00",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Our 100th Electron is vertical on Pad A at Launch Complex-1. The same spot we launched our very first Electron way back in 2017.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 8,
-        "likes": 648,
-        "quotes": 3,
-        "replies": 18,
-        "retweets": 71,
-        "views": 23101
-      },
-      "url": "https://x.com/rocketlab/status/2121443002002682366",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2121442622107729920/img/yvwb6aWtPPC2Qmqx.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2121442622107729920/vid/avc1/1080x1920/jz7GtsVP8l21RDx-.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121442622107729920/img/yvwb6aWtPPC2Qmqx.jpg",
-          "width": 1080,
-          "height": 1920,
-          "duration": 15.6
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 178,
+  "total": 179,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-11-14 14:37:18",
+  "updated_at_shanghai": "2026-11-14 22:00:22",
   "account": "rocketlab"
 }
