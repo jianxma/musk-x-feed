@@ -1,6 +1,142 @@
 {
   "posts": [
     {
+      "id": "2120101380144992635",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-10T10:28:53.000Z",
+      "created_at_shanghai": "2026-11-10 18:28:53",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon Musk just revealed something huge about Grok's new SI training and inference infrastructure\n\nThe engineering behind Starlink is now helping power the development of Grok\n\nSpaceXSI has completely rewritten Grok's reinforcement learning and inference software from scratch, replacing JAX and SGLang with its own system built primarily in C, with a little C++\n\nAnd the most important part is where this engineering expertise comes from\n\nThe new stack is built on the incredible work of the engineers who created Starlink's incredibly complex satellite network\n\nElon explained:\n\n\"At SpaceX, we write our own headers and calculate our own time (includes leap seconds). Not many people will know what this means, but those that do will appreciate it.\"\n\nHere's why that's significant\n\nSpaceX engineers build and control critical parts of their software themselves, even down to the code interfaces and precise time calculations needed for satellite operations\n\nThis gives them much tighter control over how their systems operate, reducing unnecessary software dependencies and allowing them to optimize performance and reliability\n\nNow that same engineering philosophy is being applied to Grok",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 18:14:07",
+        "created_at_utc": "2026-11-10T10:14:07.000Z",
+        "id": "2120097663794483601",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "At SpaceX, we write our own headers and calculate our own time (includes leap seconds). Not many people will know what this means, but those that do will appreciate it.\n\nThe new Grok AI/SI training and inference stack is derived from incredible of work done by amazing engineers to create Starlink.",
+        "url": "https://x.com/elonmusk/status/2120097663794483601",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 18:27:43",
+        "created_at_utc": "2026-11-10T10:27:43.000Z",
+        "id": "2120101086988222653",
+        "images": [],
+        "media": [],
+        "name": "X Freeze",
+        "text": "Elon Musk just revealed something huge about Grok's new SI training and inference infrastructure\n\nThe engineering behind Starlink is now helping power the development of Grok\n\nSpaceXSI has completely rewritten Grok's reinforcement learning and inference software from scratch, replacing JAX and SGLang with its own system built primarily in C, with a little C++\n\nAnd the most important part is where this engineering expertise comes from\n\nThe new stack is built on the incredible work of the engineers who created Starlink's incredibly complex satellite network\n\nElon explained:\n\n\"At SpaceX, we write our own headers and calculate our own time (includes leap seconds). Not many people will know what this means, but those that do will appreciate it.\"\n\nHere's why that's significant\n\nSpaceX engineers build and control critical parts of their software themselves, even down to the code interfaces and precise time calculations needed for satellite operations\n\nThis gives them much tighter control over how their systems operate, reducing unnecessary software dependencies and allowing them to optimize performance and reliability\n\nNow that same engineering philosophy is being applied to Grok",
+        "url": "https://x.com/XFreeze/status/2120101086988222653",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 27,
+        "likes": 242,
+        "quotes": 3,
+        "replies": 35,
+        "retweets": 50,
+        "views": 30110
+      },
+      "url": "https://x.com/elonmusk/status/2120101380144992635",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2120090806765932705",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-10T09:46:52.000Z",
+      "created_at_shanghai": "2026-11-10 17:46:52",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Taking the Shinkansen and all I can think about is how do we not have this between SF and LA...\n\n if only you knew how great things could be if we voted out the Decels",
+      "quote": null,
+      "retweet": {
+        "author": "beffjezos",
+        "avatar": "https://pbs.twimg.com/profile_images/2104068258311901184/vmbQ61I3_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 09:50:09",
+        "created_at_utc": "2026-11-10T01:50:09.000Z",
+        "id": "2119970837302292728",
+        "images": [],
+        "media": [],
+        "name": "Beff (e/acc)",
+        "text": "Taking the Shinkansen and all I can think about is how do we not have this between SF and LA...\n\n if only you knew how great things could be if we voted out the Decels",
+        "url": "https://x.com/beffjezos/status/2119970837302292728",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 14,
+        "likes": 282,
+        "quotes": 0,
+        "replies": 40,
+        "retweets": 29,
+        "views": 25936
+      },
+      "url": "https://x.com/elonmusk/status/2120090806765932705",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2120082348398256182",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-10T09:13:15.000Z",
+      "created_at_shanghai": "2026-11-10 17:13:15",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "In February 2004 Elon Musk wrote the check that put Tesla Motors on the road: $6.5 million of a $7.5 million Series A, plus the chairman's seat.\n\nHe led the next round in February 2005. He co-led the $40 million round in May 2006 that brought in Larry Page and Sergey Brin. That August he published The Secret Tesla Motors Master Plan on the company blog, a sports car to pay for an affordable car, and so on down to the mass market. He pushed for the Roadster's carbon fiber body. By January 2009, Bloomberg reported, he had put $70 million of his own money into the company.\n\nCNBC still wrote this on September 10, 2018: \"Though Musk didn't found Tesla, his DNA is very much a part of the company.\"\n\nRead the very next sentence of the same article: \"He was one of its original investors and chairman of the board in 2004 before becoming CEO in 2008.\"\n\nOriginal investor. Chairman in 2004. CNBC typed both facts and still filed him under \"didn't found.\"\n\nThat question had been settled nine years earlier, in court and in writing. In 2009 Martin Eberhard sued, and one of the things he asked a San Mateo County judge for was a declaration that he and Marc Tarpenning were the only two founders. In July the judge struck that request. In September the case was settled and Tesla named five co-founders: Eberhard, Tarpenning, Elon Musk, JB Straubel and Ian Wright.\n\nEberhard's own statement that day: \"As a co-founder of the company, Elon's contributions to Tesla have been extraordinary.\"\n\nThe man who went to court over the title called Elon Musk a co-founder in his own words. A business network still decided it knew better.\n\nElon Musk has told his side too. In April 2022 he wrote that the Tesla he walked into was \"a shell corp\" with \"literally nothing but a biz plan to commercialize AC Propulsion's Tzero car, which was introduced to me by JB Straubel, *not* Eberhard.\" Then: \"If filing a shell corp constitutes 'founding a company', then I'd be the only founder of PayPal, since I filed the original incorporation docs for http://X.com (later renamed PayPal), but that's not what founding means.\"\n\nAnd the line that says the most: \"I put in all I had, whereas Eberhard, who was worth over $10M at the time, refused to invest a penny to help Tesla.\"\n\nSo why slip a false founder line into a 2018 piece? Look at the headline it sat under: \"Musk's defiant, rebel CEO persona is putting his company and its investors at risk, say management experts.\" The article argued Tesla needed \"someone to help keep Musk in line.\" Shrink his role at the birth of the company and it gets much easier to argue he is replaceable at the top of it. Legacy media has been running that play on Elon Musk for years.\n\nTesla closed at $19.03 a share, split-adjusted, the day that story ran. On November 9, 2026 it closed at $378.05. The investors CNBC's experts were so worried about made nearly twenty times their money by keeping him exactly where he was.",
+      "quote": null,
+      "retweet": {
+        "author": "TheCaptainEli",
+        "avatar": "https://pbs.twimg.com/profile_images/1997753138426613760/EZDpm91Z_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 16:34:28",
+        "created_at_utc": "2026-11-10T08:34:28.000Z",
+        "id": "2120072587883560986",
+        "images": [],
+        "media": [],
+        "name": "Captain Eli",
+        "text": "In February 2004 Elon Musk wrote the check that put Tesla Motors on the road: $6.5 million of a $7.5 million Series A, plus the chairman's seat.\n\nHe led the next round in February 2005. He co-led the $40 million round in May 2006 that brought in Larry Page and Sergey Brin. That August he published The Secret Tesla Motors Master Plan on the company blog, a sports car to pay for an affordable car, and so on down to the mass market. He pushed for the Roadster's carbon fiber body. By January 2009, Bloomberg reported, he had put $70 million of his own money into the company.\n\nCNBC still wrote this on September 10, 2018: \"Though Musk didn't found Tesla, his DNA is very much a part of the company.\"\n\nRead the very next sentence of the same article: \"He was one of its original investors and chairman of the board in 2004 before becoming CEO in 2008.\"\n\nOriginal investor. Chairman in 2004. CNBC typed both facts and still filed him under \"didn't found.\"\n\nThat question had been settled nine years earlier, in court and in writing. In 2009 Martin Eberhard sued, and one of the things he asked a San Mateo County judge for was a declaration that he and Marc Tarpenning were the only two founders. In July the judge struck that request. In September the case was settled and Tesla named five co-founders: Eberhard, Tarpenning, Elon Musk, JB Straubel and Ian Wright.\n\nEberhard's own statement that day: \"As a co-founder of the company, Elon's contributions to Tesla have been extraordinary.\"\n\nThe man who went to court over the title called Elon Musk a co-founder in his own words. A business network still decided it knew better.\n\nElon Musk has told his side too. In April 2022 he wrote that the Tesla he walked into was \"a shell corp\" with \"literally nothing but a biz plan to commercialize AC Propulsion's Tzero car, which was introduced to me by JB Straubel, *not* Eberhard.\" Then: \"If filing a shell corp constitutes 'founding a company', then I'd be the only founder of PayPal, since I filed the original incorporation docs for http://X.com (later renamed PayPal), but that's not what founding means.\"\n\nAnd the line that says the most: \"I put in all I had, whereas Eberhard, who was worth over $10M at the time, refused to invest a penny to help Tesla.\"\n\nSo why slip a false founder line into a 2018 piece? Look at the headline it sat under: \"Musk's defiant, rebel CEO persona is putting his company and its investors at risk, say management experts.\" The article argued Tesla needed \"someone to help keep Musk in line.\" Shrink his role at the birth of the company and it gets much easier to argue he is replaceable at the top of it. Legacy media has been running that play on Elon Musk for years.\n\nTesla closed at $19.03 a share, split-adjusted, the day that story ran. On November 9, 2026 it closed at $378.05. The investors CNBC's experts were so worried about made nearly twenty times their money by keeping him exactly where he was.",
+        "url": "https://x.com/TheCaptainEli/status/2120072587883560986",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 308,
+        "quotes": 3,
+        "replies": 37,
+        "retweets": 57,
+        "views": 43187
+      },
+      "url": "https://x.com/elonmusk/status/2120082348398256182",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2119996001490768028",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1059,216 +1195,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2119823433085358186",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-09T16:04:25.000Z",
-      "created_at_shanghai": "2026-11-10 00:04:25",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I responded to hundreds of you and will continue to monitor comments\n\nI’ll be using @bot to get aggregate feedback to the team\n\nof course, aggregate feedback is no substitute for talking to users. \n\nI will continue to talk with you all. Every response comes from me!",
-      "quote": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2111918243460030464/aVMpxoAo_200x200.jpg",
-        "created_at_shanghai": "2026-11-09 00:58:17",
-        "created_at_utc": "2026-11-08T16:58:17.000Z",
-        "id": "2119474599708827957",
-        "images": [],
-        "media": [],
-        "name": "matt palmer",
-        "text": "Improvements to token efficiency & behavior in Grok Bot are underway\n\nMany of you have built important workflows on @bot - we want to keep supporting you\n\nPlease reply with feedback on this post. I will read it all\n\nThank you sincerely for your support",
-        "url": "https://x.com/mattyp/status/2119474599708827957",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2111918243460030464/aVMpxoAo_200x200.jpg",
-        "created_at_shanghai": "2026-11-09 21:49:33",
-        "created_at_utc": "2026-11-09T13:49:33.000Z",
-        "id": "2119789494723649662",
-        "images": [],
-        "media": [],
-        "name": "matt palmer",
-        "text": "I responded to hundreds of you and will continue to monitor comments\n\nI’ll be using @bot to get aggregate feedback to the team\n\nof course, aggregate feedback is no substitute for talking to users. \n\nI will continue to talk with you all. Every response comes from me!",
-        "url": "https://x.com/mattyp/status/2119789494723649662",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 54,
-        "likes": 1473,
-        "quotes": 16,
-        "replies": 399,
-        "retweets": 84,
-        "views": 69374
-      },
-      "url": "https://x.com/elonmusk/status/2119823433085358186",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2119823115836678650",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-09T16:03:09.000Z",
-      "created_at_shanghai": "2026-11-10 00:03:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "No DNA. \nNo CCTV. \nNo forensic evidence.\n\nJust witness testimony.\n\n10 years and 6 months. \n\nThis is not justice.\n\nThis is a corrupt 2 tier system making an example of a man who spoke out against them.\n\nThe same system that protected the perpetrators of the grooming gangs, ignored the victims and arrest innocent citizens for posting their opinions online.  https://x.com/SkyNews/status/2119799469579358398/video/1",
-      "quote": null,
-      "retweet": {
-        "author": "TheJadeWarwick",
-        "avatar": "https://pbs.twimg.com/profile_images/2105125836944707584/34t54gYI_200x200.jpg",
-        "created_at_shanghai": "2026-11-10 00:00:04",
-        "created_at_utc": "2026-11-09T16:00:04.000Z",
-        "id": "2119822336337592584",
-        "images": [
-          "https://pbs.twimg.com/media/HWsKVCIW4AABjX9.jpg"
-        ],
-        "media": [
-          {
-            "duration": 59.861,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/media/HWsKVCIW4AABjX9.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2119799350654074880/vid/avc1/1920x1080/4VOULpQ51sMxDeMb.mp4?tag=16",
-            "width": 1920
-          }
-        ],
-        "name": "Jade Warwick",
-        "text": "No DNA. \nNo CCTV. \nNo forensic evidence.\n\nJust witness testimony.\n\n10 years and 6 months. \n\nThis is not justice.\n\nThis is a corrupt 2 tier system making an example of a man who spoke out against them.\n\nThe same system that protected the perpetrators of the grooming gangs, ignored the victims and arrest innocent citizens for posting their opinions online.  https://x.com/SkyNews/status/2119799469579358398/video/1",
-        "url": "https://x.com/TheJadeWarwick/status/2119822336337592584",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 33,
-        "likes": 530,
-        "quotes": 6,
-        "replies": 68,
-        "retweets": 117,
-        "views": 40313
-      },
-      "url": "https://x.com/elonmusk/status/2119823115836678650",
-      "images": [
-        "https://pbs.twimg.com/media/HWsKVCIW4AABjX9.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2119799350654074880/vid/avc1/1920x1080/4VOULpQ51sMxDeMb.mp4?tag=16",
-          "thumbnail_url": "https://pbs.twimg.com/media/HWsKVCIW4AABjX9.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 59.861
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2119819363331325983",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-09T15:48:15.000Z",
-      "created_at_shanghai": "2026-11-09 23:48:15",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Starlink is now delivering fast, reliable internet onboard @FlyingBrussels 🛰️✈️",
-      "quote": null,
-      "retweet": {
-        "author": "Starlink",
-        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
-        "created_at_shanghai": "2026-11-09 23:46:40",
-        "created_at_utc": "2026-11-09T15:46:40.000Z",
-        "id": "2119818965266612643",
-        "images": [
-          "https://pbs.twimg.com/media/HWscHOtawAA8NT-.jpg?name=small",
-          "https://pbs.twimg.com/media/HWscHOhbcAA_lnu.jpg?name=small",
-          "https://pbs.twimg.com/media/HWscHOnaUAAoe0l.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1366,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWscHOtawAA8NT-.jpg?name=small",
-            "width": 2048
-          },
-          {
-            "height": 1366,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWscHOhbcAA_lnu.jpg?name=small",
-            "width": 2048
-          },
-          {
-            "height": 960,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWscHOnaUAAoe0l.jpg?name=small",
-            "width": 1920
-          }
-        ],
-        "name": "Starlink",
-        "text": "Starlink is now delivering fast, reliable internet onboard @FlyingBrussels 🛰️✈️",
-        "url": "https://x.com/Starlink/status/2119818965266612643",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 22,
-        "likes": 722,
-        "quotes": 5,
-        "replies": 85,
-        "retweets": 96,
-        "views": 101526
-      },
-      "url": "https://x.com/elonmusk/status/2119819363331325983",
-      "images": [
-        "https://pbs.twimg.com/media/HWscHOtawAA8NT-.jpg?name=small",
-        "https://pbs.twimg.com/media/HWscHOhbcAA_lnu.jpg?name=small",
-        "https://pbs.twimg.com/media/HWscHOnaUAAoe0l.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWscHOtawAA8NT-.jpg?name=small",
-          "width": 2048,
-          "height": 1366
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWscHOhbcAA_lnu.jpg?name=small",
-          "width": 2048,
-          "height": 1366
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWscHOnaUAAoe0l.jpg?name=small",
-          "width": 1920,
-          "height": 960
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 2318,
-  "total_pages": 116,
-  "updated_at_shanghai": "2026-11-14 22:00:22",
+  "total": 2321,
+  "total_pages": 117,
+  "updated_at_shanghai": "2026-11-14 22:23:28",
   "account": "elonmusk"
 }
