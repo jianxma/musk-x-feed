@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2110551752252772649",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T02:02:04.000Z",
+      "created_at_shanghai": "2026-10-15 10:02:04",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Imagine is getting INSANELY good at music videos......and now it can generate music too\n\nThe level of realism, natural facial expressions, smooth movements and synchronization between visuals and audio is incredibly impressive\n\nYou can even create your own music and add it to videos already saved in your library",
+      "quote": null,
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 00:45:20",
+        "created_at_utc": "2026-10-14T16:45:20.000Z",
+        "id": "2110411646934139197",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110411581129650176/img/ny74aTTUCXCTfdiP.jpg"
+        ],
+        "media": [
+          {
+            "duration": 15.041,
+            "height": 1440,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110411581129650176/img/ny74aTTUCXCTfdiP.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110411581129650176/vid/avc1/1440x1440/DCZBghyTy5qsQ_OQ.mp4?tag=25",
+            "width": 1440
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok Imagine is getting INSANELY good at music videos......and now it can generate music too\n\nThe level of realism, natural facial expressions, smooth movements and synchronization between visuals and audio is incredibly impressive\n\nYou can even create your own music and add it to videos already saved in your library",
+        "url": "https://x.com/XFreeze/status/2110411646934139197",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 119,
+        "likes": 889,
+        "quotes": 14,
+        "replies": 93,
+        "retweets": 115,
+        "views": 220195
+      },
+      "url": "https://x.com/elonmusk/status/2110551752252772649",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110411581129650176/img/ny74aTTUCXCTfdiP.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110411581129650176/vid/avc1/1440x1440/DCZBghyTy5qsQ_OQ.mp4?tag=25",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110411581129650176/img/ny74aTTUCXCTfdiP.jpg",
+          "width": 1440,
+          "height": 1440,
+          "duration": 15.041
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110551366947213409",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1039,62 +1102,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110520607276499109",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T23:58:19.000Z",
-      "created_at_shanghai": "2026-10-15 07:58:19",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok is the best conversational voice model in the world",
-      "quote": {
-        "author": "SpaceXSI",
-        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 01:04:57",
-        "created_at_utc": "2026-10-14T17:04:57.000Z",
-        "id": "2110416580899168305",
-        "images": [
-          "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1180,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small",
-            "width": 1974
-          }
-        ],
-        "name": "SpaceX Super Intelligence",
-        "text": "Introducing Grok Voice 3.0, the world’s most intelligent speech-to-speech model.\n\nIt excels at resolving customer calls, responds in under a second, and costs less than other frontier models.",
-        "url": "https://x.com/SpaceXSI/status/2110416580899168305",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 105,
-        "likes": 2857,
-        "quotes": 42,
-        "replies": 545,
-        "retweets": 364,
-        "views": 592998
-      },
-      "url": "https://x.com/elonmusk/status/2110520607276499109",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 70,
   "page_size": 20,
-  "total": 2326,
+  "total": 2327,
   "total_pages": 117,
-  "updated_at_shanghai": "2026-11-14 22:43:59",
+  "updated_at_shanghai": "2026-11-14 22:50:24",
   "account": "elonmusk"
 }

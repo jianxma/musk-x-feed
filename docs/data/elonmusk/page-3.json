@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2121389916948939141",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T23:49:04.000Z",
+      "created_at_shanghai": "2026-11-14 07:49:04",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Select customers are now being invited to purchase Cybercab for personal use",
+      "quote": null,
+      "retweet": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-11-14 07:27:17",
+        "created_at_utc": "2026-11-13T23:27:17.000Z",
+        "id": "2121384435241402737",
+        "images": [
+          "https://pbs.twimg.com/media/HXCrorcbwAAQTq0.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1433,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXCrorcbwAAQTq0.jpg?name=small",
+            "width": 2172
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "Select customers are now being invited to purchase Cybercab for personal use",
+        "url": "https://x.com/robotaxi/status/2121384435241402737",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 468,
+        "likes": 5909,
+        "quotes": 592,
+        "replies": 682,
+        "retweets": 966,
+        "views": 244954
+      },
+      "url": "https://x.com/elonmusk/status/2121389916948939141",
+      "images": [
+        "https://pbs.twimg.com/media/HXCrorcbwAAQTq0.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXCrorcbwAAQTq0.jpg?name=small",
+          "width": 2172,
+          "height": 1433
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121388517540716839",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1235,75 +1294,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2121250645613429076",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-13T14:35:39.000Z",
-      "created_at_shanghai": "2026-11-13 22:35:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Bot can now spot and act on any texts you may have forgotten.",
-      "quote": {
-        "author": "bot",
-        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
-        "created_at_shanghai": "2026-11-13 02:28:57",
-        "created_at_utc": "2026-11-12T18:28:57.000Z",
-        "id": "2120946968403095906",
-        "images": [
-          "https://pbs.twimg.com/media/HW8XKMOaUAAegaG.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2304,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW8XKMOaUAAegaG.jpg?name=small",
-            "width": 4096
-          }
-        ],
-        "name": "Grok Bot",
-        "text": "Grok Bot on Mac can now use Messages, Mail, Notes, Reminders, Calendar, Location, and Contacts.",
-        "url": "https://x.com/bot/status/2120946968403095906",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "mntruell",
-        "avatar": "https://pbs.twimg.com/profile_images/1887065642261737472/QdLiAFfD_200x200.jpg",
-        "created_at_shanghai": "2026-11-13 02:38:50",
-        "created_at_utc": "2026-11-12T18:38:50.000Z",
-        "id": "2120949456518709744",
-        "images": [],
-        "media": [],
-        "name": "Michael Truell",
-        "text": "Bot can now spot and act on any texts you may have forgotten.",
-        "url": "https://x.com/mntruell/status/2120949456518709744",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 73,
-        "likes": 897,
-        "quotes": 3,
-        "replies": 56,
-        "retweets": 61,
-        "views": 42230
-      },
-      "url": "https://x.com/elonmusk/status/2121250645613429076",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 2326,
+  "total": 2327,
   "total_pages": 117,
-  "updated_at_shanghai": "2026-11-14 22:43:59",
+  "updated_at_shanghai": "2026-11-14 22:50:24",
   "account": "elonmusk"
 }
