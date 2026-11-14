@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2121476193673523698",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-11-14T05:31:54.000Z",
+      "created_at_shanghai": "2026-11-14 13:31:54",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "LIFT-OFF for the 100th time!",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 3,
+        "likes": 113,
+        "quotes": 3,
+        "replies": 9,
+        "retweets": 30,
+        "views": 3615
+      },
+      "url": "https://x.com/rocketlab/status/2121476193673523698",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121476023405412352/img/NOYxS4ez6mwLBmND.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2121476023405412352/vid/avc1/1920x1080/saPDSRnlA6VtZhzb.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121476023405412352/img/NOYxS4ez6mwLBmND.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 35.659
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121473450527392068",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -612,64 +651,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121315229800030438",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-11-13T18:52:17.000Z",
-      "created_at_shanghai": "2026-11-14 02:52:17",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Proud to deliver tactically responsive space capabilities to the @USSpaceForce",
-      "quote": {
-        "author": "USSpaceForce",
-        "avatar": "https://pbs.twimg.com/profile_images/1839021693961990144/Lgi_WnUj_200x200.jpg",
-        "created_at_shanghai": "2026-11-14 01:45:03",
-        "created_at_utc": "2026-11-13T17:45:03.000Z",
-        "id": "2121298310757601345",
-        "images": [
-          "https://pbs.twimg.com/ext_tw_video_thumb/2121297088210194432/pu/img/NXgBR2YIHvRFNhaf.jpg"
-        ],
-        "media": [
-          {
-            "duration": 60.226,
-            "height": 1280,
-            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2121297088210194432/pu/img/NXgBR2YIHvRFNhaf.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/ext_tw_video/2121297088210194432/pu/vid/avc1/720x1280/1XWC-g16SXkfi1X5.mp4?tag=12",
-            "width": 720
-          }
-        ],
-        "name": "United States Space Force",
-        "text": "VICTUS HAZE is a multi-launch, multi-vehicle mission designed to demonstrate the Nation’s capability to rapidly acquire, launch, and operate space vehicles on operationally relevant timelines in response to urgent on-orbit threats.\n\nSpace Systems Command demonstrated a Tactically Responsive Space launch capability with the liftoff of Rocket Lab’s Electron launch vehicle from the company’s Launch Complex-1 back in June 2026, as part of the TacRS VICTUS HAZE mission.\n\nCheck out the clip below⬇️",
-        "url": "https://x.com/USSpaceForce/status/2121298310757601345",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 5,
-        "likes": 108,
-        "quotes": 0,
-        "replies": 1,
-        "retweets": 11,
-        "views": 3791
-      },
-      "url": "https://x.com/rocketlab/status/2121315229800030438",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 171,
+  "total": 172,
   "total_pages": 9,
-  "updated_at_shanghai": "2026-11-14 13:21:01",
+  "updated_at_shanghai": "2026-11-14 13:38:40",
   "account": "rocketlab"
 }
