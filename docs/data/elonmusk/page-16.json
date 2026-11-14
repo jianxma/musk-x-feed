@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2118430454215041071",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-05T19:49:13.000Z",
+      "created_at_shanghai": "2026-11-06 03:49:13",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "In Iain M. Banks's books, the Culture solves envy—a crux of humanity—by letting every citizen experience what they have not yet via tremendous compute (a world where citizens have no token limit).\n\nCitizens quickly realize envy is pointless, as different life experiences mix good and bad; the grass of others is not any greener.",
+      "quote": null,
+      "retweet": {
+        "author": "yunta_tsai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035915849819938816/b6kIsNMe_200x200.jpg",
+        "created_at_shanghai": "2026-11-06 01:51:41",
+        "created_at_utc": "2026-11-05T17:51:41.000Z",
+        "id": "2118400877027635609",
+        "images": [],
+        "media": [],
+        "name": "Yun-Ta Tsai",
+        "text": "In Iain M. Banks's books, the Culture solves envy—a crux of humanity—by letting every citizen experience what they have not yet via tremendous compute (a world where citizens have no token limit).\n\nCitizens quickly realize envy is pointless, as different life experiences mix good and bad; the grass of others is not any greener.",
+        "url": "https://x.com/yunta_tsai/status/2118400877027635609",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 158,
+        "likes": 1213,
+        "quotes": 8,
+        "replies": 79,
+        "retweets": 140,
+        "views": 198849
+      },
+      "url": "https://x.com/elonmusk/status/2118430454215041071",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2118424403998552293",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -978,71 +1019,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2118050563145510979",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-04T18:39:40.000Z",
-      "created_at_shanghai": "2026-11-05 02:39:40",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "How much usage does a Grok Bot phone call take?\nSo I checked.\n\nMy bot just called an EV charger installer for a quote. 85 seconds on the phone.\n\nUsage before: 5.8%\nUsage after: 6.0%\n\nThat's 0.2% for a real call I didn't have to make myself.",
-      "quote": null,
-      "retweet": {
-        "author": "Texas_Twins_Dad",
-        "avatar": "https://pbs.twimg.com/profile_images/2001129830213967874/zFqUgDus_200x200.jpg",
-        "created_at_shanghai": "2026-11-04 02:54:41",
-        "created_at_utc": "2026-11-03T18:54:41.000Z",
-        "id": "2117691954578538798",
-        "images": [
-          "https://pbs.twimg.com/media/HWONnAcWkAA_CUw.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 675,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWONnAcWkAA_CUw.jpg?name=small",
-            "width": 1200
-          }
-        ],
-        "name": "Texas Twins Dad",
-        "text": "How much usage does a Grok Bot phone call take?\nSo I checked.\n\nMy bot just called an EV charger installer for a quote. 85 seconds on the phone.\n\nUsage before: 5.8%\nUsage after: 6.0%\n\nThat's 0.2% for a real call I didn't have to make myself.",
-        "url": "https://x.com/Texas_Twins_Dad/status/2117691954578538798",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 69,
-        "likes": 1096,
-        "quotes": 7,
-        "replies": 110,
-        "retweets": 115,
-        "views": 295475
-      },
-      "url": "https://x.com/elonmusk/status/2118050563145510979",
-      "images": [
-        "https://pbs.twimg.com/media/HWONnAcWkAA_CUw.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWONnAcWkAA_CUw.jpg?name=small",
-          "width": 1200,
-          "height": 675
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 20,
-  "total": 2295,
+  "total": 2296,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 12:28:08",
+  "updated_at_shanghai": "2026-11-14 14:17:21",
   "account": "elonmusk"
 }

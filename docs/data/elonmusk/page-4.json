@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2120760435813306525",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T06:07:44.000Z",
+      "created_at_shanghai": "2026-11-12 14:07:44",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Chill vibes",
+      "quote": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-11-11 05:34:23",
+        "created_at_utc": "2026-11-10T21:34:23.000Z",
+        "id": "2120268861669007562",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg"
+        ],
+        "media": [
+          {
+            "duration": 1725.696,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120267696961196032/vid/avc1/3840x2160/q-BKgDY7DyFbcYwR.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "Lofi beats to self-drive to",
+        "url": "https://x.com/robotaxi/status/2120268861669007562",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 43,
+        "likes": 1176,
+        "quotes": 10,
+        "replies": 272,
+        "retweets": 121,
+        "views": 327582
+      },
+      "url": "https://x.com/elonmusk/status/2120760435813306525",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2120759902230413789",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1048,64 +1100,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2120565179276832797",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T17:11:51.000Z",
-      "created_at_shanghai": "2026-11-12 01:11:51",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla self-driving now approved in Finland",
-      "quote": {
-        "author": "teslaeurope",
-        "avatar": "https://pbs.twimg.com/profile_images/1620537591048163332/GSPAsKC5_200x200.jpg",
-        "created_at_shanghai": "2026-11-11 14:18:33",
-        "created_at_utc": "2026-11-11T06:18:33.000Z",
-        "id": "2120400770952745439",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120400638517649408/img/pv6JcEDdbtzA2f2N.jpg"
-        ],
-        "media": [
-          {
-            "duration": 25.876,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120400638517649408/img/pv6JcEDdbtzA2f2N.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120400638517649408/vid/avc1/3840x2160/DNJBCXQD-ZSvXUla.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Tesla Europe, Middle East & Africa",
-        "text": "Now approved in Finland 🇫🇮\n\nRollout begins soon",
-        "url": "https://x.com/teslaeurope/status/2120400770952745439",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 31,
-        "likes": 1552,
-        "quotes": 32,
-        "replies": 294,
-        "retweets": 182,
-        "views": 369564
-      },
-      "url": "https://x.com/elonmusk/status/2120565179276832797",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 2295,
+  "total": 2296,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 12:28:08",
+  "updated_at_shanghai": "2026-11-14 14:17:21",
   "account": "elonmusk"
 }
