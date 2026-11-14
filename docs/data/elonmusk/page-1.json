@@ -1,10 +1,69 @@
 {
   "posts": [
     {
-      "id": "2121726288968720709",
+      "id": "2121729222804951066",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T22:17:21.000Z",
+      "created_at_shanghai": "2026-11-15 06:17:21",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "",
+      "quote": null,
+      "retweet": {
+        "author": "johnkrausphotos",
+        "avatar": "https://pbs.twimg.com/profile_images/1867700283582627840/U4taTSNO_200x200.jpg",
+        "created_at_shanghai": "2026-11-15 05:38:12",
+        "created_at_utc": "2026-11-14T21:38:12.000Z",
+        "id": "2121719372339454408",
+        "images": [
+          "https://pbs.twimg.com/media/HXHcgboWEAA_AGB.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1250,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXHcgboWEAA_AGB.jpg?name=small",
+            "width": 833
+          }
+        ],
+        "name": "John Kraus",
+        "text": "",
+        "url": "https://x.com/johnkrausphotos/status/2121719372339454408",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 79,
+        "likes": 2466,
+        "quotes": 27,
+        "replies": 93,
+        "retweets": 252,
+        "views": 65263
+      },
+      "url": "https://x.com/elonmusk/status/2121729222804951066",
+      "images": [
+        "https://pbs.twimg.com/media/HXHcgboWEAA_AGB.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXHcgboWEAA_AGB.jpg?name=small",
+          "width": 833,
+          "height": 1250
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2121726288968720709",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-14T22:05:41.000Z",
@@ -894,49 +953,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2121625731088445896",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T15:26:06.000Z",
-      "created_at_shanghai": "2026-11-14 23:26:06",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "https://grok.com/share/bGVnYWN5_035d778c-274e-4433-97c1-5f587762e736",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 12,
-        "likes": 193,
-        "quotes": 1,
-        "replies": 41,
-        "retweets": 14,
-        "views": 40080
-      },
-      "url": "https://x.com/elonmusk/status/2121625731088445896",
-      "images": [
-        "https://pbs.twimg.com/media/HXGHW0HXsAExxux.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HXGHW0HXsAExxux.jpg?name=small",
-          "width": 1177,
-          "height": 1783
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2349,
+  "total": 2350,
   "total_pages": 118,
-  "updated_at_shanghai": "2026-11-15 06:14:32",
+  "updated_at_shanghai": "2026-11-15 06:25:33",
   "account": "elonmusk"
 }
