@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2119305634688520262",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T05:46:52.000Z",
+      "created_at_shanghai": "2026-11-08 13:46:52",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Yes",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 08:21:00",
+        "created_at_utc": "2026-11-08T00:21:00.000Z",
+        "id": "2119223625396203785",
+        "images": [
+          "https://pbs.twimg.com/media/HWjw6UJbYAAOcav.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1254,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWjw6UJbYAAOcav.jpg?name=small",
+            "width": 1600
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Elon Musk at the Mars Society in 2006\nLong before Starship, the destination was always Mars",
+        "url": "https://x.com/XFreeze/status/2119223625396203785",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 40,
+        "likes": 1034,
+        "quotes": 17,
+        "replies": 261,
+        "retweets": 104,
+        "views": 311239
+      },
+      "url": "https://x.com/elonmusk/status/2119305634688520262",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2119304724209914069",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -977,49 +1027,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2119114815931039992",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T17:08:38.000Z",
-      "created_at_shanghai": "2026-11-08 01:08:38",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Starship flight maneuvers",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 99,
-        "likes": 1321,
-        "quotes": 32,
-        "replies": 249,
-        "retweets": 177,
-        "views": 351682
-      },
-      "url": "https://x.com/elonmusk/status/2119114815931039992",
-      "images": [
-        "https://pbs.twimg.com/media/HWibsJOW4AEDRv7.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWibsJOW4AEDRv7.jpg?name=small",
-          "width": 1793,
-          "height": 2048
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 11,
   "page_size": 20,
-  "total": 2314,
+  "total": 2315,
   "total_pages": 116,
-  "updated_at_shanghai": "2026-11-14 15:24:01",
+  "updated_at_shanghai": "2026-11-14 15:51:41",
   "account": "elonmusk"
 }
