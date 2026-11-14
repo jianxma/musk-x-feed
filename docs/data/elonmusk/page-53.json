@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2112950704327520260",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T16:54:39.000Z",
+      "created_at_shanghai": "2026-10-22 00:54:39",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink moves the needle",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 00:29:56",
+        "created_at_utc": "2026-10-21T16:29:56.000Z",
+        "id": "2112944486804545672",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2112944417724358662/img/i7KQli1TNb5R_5yi.jpg"
+        ],
+        "media": [
+          {
+            "duration": 51.841,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112944417724358662/img/i7KQli1TNb5R_5yi.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2112944417724358662/vid/avc1/1788x1080/3edybyh0oa2qrE-S.mp4?tag=29",
+            "width": 1788
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: United CEO says customers are switching from other airlines because of @Starlink\n\n“We already see customers moving from other airlines today”\n\nUnited will cross 50% of flights with Starlink this week and expects to finish its full fleet rollout by the end of next year.",
+        "url": "https://x.com/cb_doge/status/2112944486804545672",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 121,
+        "likes": 7887,
+        "quotes": 60,
+        "replies": 737,
+        "retweets": 838,
+        "views": 906488
+      },
+      "url": "https://x.com/elonmusk/status/2112950704327520260",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2112950560445845908",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -906,53 +958,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2112929016365691334",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T15:28:28.000Z",
-      "created_at_shanghai": "2026-10-21 23:28:28",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: Trump has revealed his new anti-fraud program set up to reward people who expose fraud with a 1% commission on the money uncovered.  \"If you turn somebody in and you, let's say report and you find $1 billion, we are giving a commission to that person of 1%.\"",
-      "quote": null,
-      "retweet": {
-        "author": "unusual_whales",
-        "avatar": "https://pbs.twimg.com/profile_images/1714107328134516736/dLZGJPm7_200x200.png",
-        "created_at_shanghai": "2026-10-21 03:46:00",
-        "created_at_utc": "2026-10-20T19:46:00.000Z",
-        "id": "2112631437694546207",
-        "images": [],
-        "media": [],
-        "name": "unusual_whales",
-        "text": "BREAKING: Trump has revealed his new anti-fraud program set up to reward people who expose fraud with a 1% commission on the money uncovered.  \"If you turn somebody in and you, let's say report and you find $1 billion, we are giving a commission to that person of 1%.\"",
-        "url": "https://x.com/unusual_whales/status/2112631437694546207",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1162,
-        "likes": 16116,
-        "quotes": 285,
-        "replies": 807,
-        "retweets": 1042,
-        "views": 2609211
-      },
-      "url": "https://x.com/elonmusk/status/2112929016365691334",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 53,
   "page_size": 20,
-  "total": 2293,
+  "total": 2294,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 10:28:37",
+  "updated_at_shanghai": "2026-11-14 10:34:43",
   "account": "elonmusk"
 }

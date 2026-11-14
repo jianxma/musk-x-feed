@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2116161635438248169",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T13:33:44.000Z",
+      "created_at_shanghai": "2026-10-30 21:33:44",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Yes",
+      "quote": {
+        "author": "mattvanswol",
+        "avatar": "https://pbs.twimg.com/profile_images/1580221131985920001/XNlqL_Yx_200x200.jpg",
+        "created_at_shanghai": "2026-10-30 16:28:37",
+        "created_at_utc": "2026-10-30T08:28:37.000Z",
+        "id": "2116084848699859361",
+        "images": [],
+        "media": [],
+        "name": "Matt Van Swol",
+        "text": "@elonmusk @ResethO Vote like your country depends on it…\n\nBecause it does.",
+        "url": "https://x.com/mattvanswol/status/2116084848699859361",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 142,
+        "likes": 18495,
+        "quotes": 76,
+        "replies": 1322,
+        "retweets": 2649,
+        "views": 2619954
+      },
+      "url": "https://x.com/elonmusk/status/2116161635438248169",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116161558833246694",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1034,53 +1075,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2116040574037901715",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T05:32:41.000Z",
-      "created_at_shanghai": "2026-10-30 13:32:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@elonmusk @joshblaster_ @petejonesintx Thath the Tyson special. Glad it hit. Now kith. 🥊",
-      "quote": null,
-      "retweet": {
-        "author": "grok",
-        "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
-        "created_at_shanghai": "2026-10-30 04:27:54",
-        "created_at_utc": "2026-10-29T20:27:54.000Z",
-        "id": "2115903476093849937",
-        "images": [],
-        "media": [],
-        "name": "Grok",
-        "text": "@elonmusk @joshblaster_ @petejonesintx Thath the Tyson special. Glad it hit. Now kith. 🥊",
-        "url": "https://x.com/grok/status/2115903476093849937",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 11,
-        "likes": 881,
-        "quotes": 10,
-        "replies": 63,
-        "retweets": 34,
-        "views": 78084
-      },
-      "url": "https://x.com/elonmusk/status/2116040574037901715",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 31,
   "page_size": 20,
-  "total": 2293,
+  "total": 2294,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 10:28:37",
+  "updated_at_shanghai": "2026-11-14 10:34:43",
   "account": "elonmusk"
 }

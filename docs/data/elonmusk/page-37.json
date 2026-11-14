@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2115354158127825365",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-28T08:05:07.000Z",
+      "created_at_shanghai": "2026-10-28 16:05:07",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "co-wrote a piece on how we're using @bot to supercharge deals at @SpaceXSI. We delegate \"jobs\" to specialized shared bots so they can collaborate independently, like an agent factory. \n\nhere's our bot team:\n- Account Intel Bot finds prospects, preps for calls, and manages opp tracking\n- Quote Bot builds pricing proposals and order forms\n- Deal Bot (my baby) reviews discounts, drafts terms, routes approvals, and checks signed contracts so reps can close faster\n\nDeal Bot has already helped my team save hundreds of hours this month. more bot teammates coming soon!\nhttp://x.ai/news/grok-bot-sales",
+      "quote": null,
+      "retweet": {
+        "author": "irislovesdeals",
+        "avatar": "https://pbs.twimg.com/profile_images/2113865514795827201/kcYhYjp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-27 23:38:31",
+        "created_at_utc": "2026-10-27T15:38:31.000Z",
+        "id": "2115105872687079815",
+        "images": [],
+        "media": [],
+        "name": "Iris Wang",
+        "text": "co-wrote a piece on how we're using @bot to supercharge deals at @SpaceXSI. We delegate \"jobs\" to specialized shared bots so they can collaborate independently, like an agent factory. \n\nhere's our bot team:\n- Account Intel Bot finds prospects, preps for calls, and manages opp tracking\n- Quote Bot builds pricing proposals and order forms\n- Deal Bot (my baby) reviews discounts, drafts terms, routes approvals, and checks signed contracts so reps can close faster\n\nDeal Bot has already helped my team save hundreds of hours this month. more bot teammates coming soon!\nhttp://x.ai/news/grok-bot-sales",
+        "url": "https://x.com/irislovesdeals/status/2115105872687079815",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 363,
+        "likes": 834,
+        "quotes": 9,
+        "replies": 58,
+        "retweets": 114,
+        "views": 311823
+      },
+      "url": "https://x.com/elonmusk/status/2115354158127825365",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2115353441954636214",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1033,75 +1074,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115324560174452879",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-28T06:07:30.000Z",
-      "created_at_shanghai": "2026-10-28 14:07:30",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "As featured by President @realDonaldTrump today, this is who James Talarico is.\n\nHe can’t outrun his record any longer.",
-      "quote": null,
-      "retweet": {
-        "author": "KenPaxtonTX",
-        "avatar": "https://pbs.twimg.com/profile_images/1488655496739500032/bhQuFaVo_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 12:00:25",
-        "created_at_utc": "2026-10-28T04:00:25.000Z",
-        "id": "2115292577469775946",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2115292396212899840/img/_qgUCrqAN7-vTDR1.jpg"
-        ],
-        "media": [
-          {
-            "duration": 129.838,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115292396212899840/img/_qgUCrqAN7-vTDR1.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2115292396212899840/vid/avc1/1920x1080/IIK5JO96kfBnZZUg.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Attorney General Ken Paxton",
-        "text": "As featured by President @realDonaldTrump today, this is who James Talarico is.\n\nHe can’t outrun his record any longer.",
-        "url": "https://x.com/KenPaxtonTX/status/2115292577469775946",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 57,
-        "likes": 1211,
-        "quotes": 20,
-        "replies": 131,
-        "retweets": 420,
-        "views": 95707
-      },
-      "url": "https://x.com/elonmusk/status/2115324560174452879",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2115292396212899840/img/_qgUCrqAN7-vTDR1.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2115292396212899840/vid/avc1/1920x1080/IIK5JO96kfBnZZUg.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115292396212899840/img/_qgUCrqAN7-vTDR1.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 129.838
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 37,
   "page_size": 20,
-  "total": 2293,
+  "total": 2294,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 10:28:37",
+  "updated_at_shanghai": "2026-11-14 10:34:43",
   "account": "elonmusk"
 }

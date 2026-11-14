@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2116295774485041336",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T22:26:46.000Z",
+      "created_at_shanghai": "2026-10-31 06:26:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "BREAKING: Google just proved AI data centers in space actually work\n\nProject Suncatcher's first satellite, built with @planet and launched on a SpaceX rocket with 4 TPUs on board, verified the physics: Google sent a prompt from Earth, a TPU in orbit ran Gemma inference, and the full answer was beamed back down. \n\nSpaceX is launching its StarMind satellites with NVIDIA GPUs on Starship in late 2027. \n\nKardashev Type II civilization INCOMING",
+      "quote": null,
+      "retweet": {
+        "author": "ns123abc",
+        "avatar": "https://pbs.twimg.com/profile_images/2048822563821035520/7nxCFEnk_200x200.jpg",
+        "created_at_shanghai": "2026-10-31 03:13:03",
+        "created_at_utc": "2026-10-30T19:13:03.000Z",
+        "id": "2116247027335966934",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2116245186216886272/img/xb4Cz21tMEow4NnI.jpg"
+        ],
+        "media": [
+          {
+            "duration": 82.499,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116245186216886272/img/xb4Cz21tMEow4NnI.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2116245186216886272/vid/avc1/1920x1080/yBEF0yNP2fXhqGCO.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "NIK",
+        "text": "BREAKING: Google just proved AI data centers in space actually work\n\nProject Suncatcher's first satellite, built with @planet and launched on a SpaceX rocket with 4 TPUs on board, verified the physics: Google sent a prompt from Earth, a TPU in orbit ran Gemma inference, and the full answer was beamed back down. \n\nSpaceX is launching its StarMind satellites with NVIDIA GPUs on Starship in late 2027. \n\nKardashev Type II civilization INCOMING",
+        "url": "https://x.com/ns123abc/status/2116247027335966934",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 323,
+        "likes": 2578,
+        "quotes": 71,
+        "replies": 127,
+        "retweets": 365,
+        "views": 499493
+      },
+      "url": "https://x.com/elonmusk/status/2116295774485041336",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116245186216886272/img/xb4Cz21tMEow4NnI.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2116245186216886272/vid/avc1/1920x1080/yBEF0yNP2fXhqGCO.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116245186216886272/img/xb4Cz21tMEow4NnI.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 82.499
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116291813732495578",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -972,75 +1035,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2116202800279376143",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T16:17:19.000Z",
-      "created_at_shanghai": "2026-10-31 00:17:19",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Totally blind, first ride in Robotaxi, the app was totally accessible, the ride accessible, the drop-off accessible, it felt unusually normal! @TeslaSI",
-      "quote": null,
-      "retweet": {
-        "author": "rlloken",
-        "avatar": "https://pbs.twimg.com/profile_images/1783568690501271552/ZDqhGYR2_200x200.jpg",
-        "created_at_shanghai": "2026-10-30 03:07:17",
-        "created_at_utc": "2026-10-29T19:07:17.000Z",
-        "id": "2115883184420163691",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2115882937056948224/img/9tohNRlYwLMrJtQd.jpg"
-        ],
-        "media": [
-          {
-            "duration": 143.046,
-            "height": 960,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115882937056948224/img/9tohNRlYwLMrJtQd.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2115882937056948224/vid/avc1/720x960/0FQJPJ_lVB46JZjf.mp4?tag=29",
-            "width": 720
-          }
-        ],
-        "name": "FSD unsupervised equals independence and freedom",
-        "text": "Totally blind, first ride in Robotaxi, the app was totally accessible, the ride accessible, the drop-off accessible, it felt unusually normal! @TeslaSI",
-        "url": "https://x.com/rlloken/status/2115883184420163691",
-        "verified": false,
-        "verified_type": ""
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 94,
-        "likes": 2322,
-        "quotes": 59,
-        "replies": 123,
-        "retweets": 259,
-        "views": 304927
-      },
-      "url": "https://x.com/elonmusk/status/2116202800279376143",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2115882937056948224/img/9tohNRlYwLMrJtQd.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2115882937056948224/vid/avc1/720x960/0FQJPJ_lVB46JZjf.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115882937056948224/img/9tohNRlYwLMrJtQd.jpg",
-          "width": 720,
-          "height": 960,
-          "duration": 143.046
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 28,
   "page_size": 20,
-  "total": 2293,
+  "total": 2294,
   "total_pages": 115,
-  "updated_at_shanghai": "2026-11-14 10:28:37",
+  "updated_at_shanghai": "2026-11-14 10:34:43",
   "account": "elonmusk"
 }
