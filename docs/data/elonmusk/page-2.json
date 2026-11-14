@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2121644169462681818",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T16:39:22.000Z",
+      "created_at_shanghai": "2026-11-15 00:39:22",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Text watermarking with Grok is only on where required by law or requested by the user",
+      "quote": {
+        "author": "techdevnotes",
+        "avatar": "https://pbs.twimg.com/profile_images/1618185418234646529/f9-GqDq1_200x200.jpg",
+        "created_at_shanghai": "2026-11-14 06:33:03",
+        "created_at_utc": "2026-11-13T22:33:03.000Z",
+        "id": "2121370786208375136",
+        "images": [
+          "https://pbs.twimg.com/media/HXCfc5MXAAAQCEQ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1572,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXCfc5MXAAAQCEQ.jpg?name=small",
+            "width": 2036
+          }
+        ],
+        "name": "Tech Dev Notes",
+        "text": "Text watermarking is now off by default in the SpaceXSI API",
+        "url": "https://x.com/techdevnotes/status/2121370786208375136",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 71,
+        "likes": 1269,
+        "quotes": 30,
+        "replies": 267,
+        "retweets": 143,
+        "views": 428131
+      },
+      "url": "https://x.com/elonmusk/status/2121644169462681818",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2121636671791992967",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1113,77 +1163,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121601112574959630",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T13:48:17.000Z",
-      "created_at_shanghai": "2026-11-14 21:48:17",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Made with @neuralink.\n\nSome live in the future already.",
-      "quote": {
-        "author": "Cyborg21",
-        "avatar": "https://pbs.twimg.com/profile_images/2013266691782848513/0TcBjmbK_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 08:00:00",
-        "created_at_utc": "2026-11-02T00:00:00.000Z",
-        "id": "2117044016621748292",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2116944868530593792/img/M69u2lKFwoF605cU.jpg"
-        ],
-        "media": [
-          {
-            "duration": 196.022,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116944868530593792/img/M69u2lKFwoF605cU.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2116944868530593792/vid/avc1/1920x1080/HEPqyV3I3jvSXpDO.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Kenneth Shock",
-        "text": "It's here. Claudia's \"ALLOW ALWAYS\" world premiere. Made by a guy with ALS, a brain implant, and too many AI friends. 😂",
-        "url": "https://x.com/Cyborg21/status/2117044016621748292",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "Scobleizer",
-        "avatar": "https://pbs.twimg.com/profile_images/1915614118876504066/zVnfpAMf_200x200.jpg",
-        "created_at_shanghai": "2026-11-14 18:19:47",
-        "created_at_utc": "2026-11-14T10:19:47.000Z",
-        "id": "2121548642805026939",
-        "images": [],
-        "media": [],
-        "name": "Robert Scoble",
-        "text": "Made with @neuralink.\n\nSome live in the future already.",
-        "url": "https://x.com/Scobleizer/status/2121548642805026939",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 23,
-        "likes": 299,
-        "quotes": 1,
-        "replies": 33,
-        "retweets": 51,
-        "views": 59191
-      },
-      "url": "https://x.com/elonmusk/status/2121601112574959630",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 2355,
+  "total": 2356,
   "total_pages": 118,
-  "updated_at_shanghai": "2026-11-15 07:24:56",
+  "updated_at_shanghai": "2026-11-15 07:37:46",
   "account": "elonmusk"
 }
