@@ -1,6 +1,455 @@
 {
   "posts": [
     {
+      "id": "2120760449906209222",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T06:07:47.000Z",
+      "created_at_shanghai": "2026-11-12 14:07:47",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Lofi beats to self-drive to",
+      "quote": null,
+      "retweet": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-11-11 05:34:23",
+        "created_at_utc": "2026-11-10T21:34:23.000Z",
+        "id": "2120268861669007562",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg"
+        ],
+        "media": [
+          {
+            "duration": 1725.696,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120267696961196032/vid/avc1/3840x2160/q-BKgDY7DyFbcYwR.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "Lofi beats to self-drive to",
+        "url": "https://x.com/robotaxi/status/2120268861669007562",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 467,
+        "likes": 5517,
+        "quotes": 61,
+        "replies": 182,
+        "retweets": 548,
+        "views": 268941
+      },
+      "url": "https://x.com/elonmusk/status/2120760449906209222",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120267696961196032/vid/avc1/3840x2160/q-BKgDY7DyFbcYwR.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 1725.696
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2120760435813306525",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T06:07:44.000Z",
+      "created_at_shanghai": "2026-11-12 14:07:44",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Chill vibes",
+      "quote": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-11-11 05:34:23",
+        "created_at_utc": "2026-11-10T21:34:23.000Z",
+        "id": "2120268861669007562",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg"
+        ],
+        "media": [
+          {
+            "duration": 1725.696,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120267696961196032/vid/avc1/3840x2160/q-BKgDY7DyFbcYwR.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "Lofi beats to self-drive to",
+        "url": "https://x.com/robotaxi/status/2120268861669007562",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 43,
+        "likes": 1176,
+        "quotes": 10,
+        "replies": 272,
+        "retweets": 121,
+        "views": 327582
+      },
+      "url": "https://x.com/elonmusk/status/2120760435813306525",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2120759902230413789",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T06:05:37.000Z",
+      "created_at_shanghai": "2026-11-12 14:05:37",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Lofi beats to self-drive to",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2120759902230413789",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
+      "id": "2120758321619542032",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T05:59:20.000Z",
+      "created_at_shanghai": "2026-11-12 13:59:20",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "grok bot is the BEST AI agent orchestrator right now\n\nand THIS is the best setup i’ve EVER seen\n\nhttps://youtu.be/1cWZ7Ekff6E?si=YkcMxxhffksv48LX\n\nit runs claude code for engineering and paper for design\n\nhere is the FULL setup and how to copy it:",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 02:22:30",
+        "created_at_utc": "2026-11-11T18:22:30.000Z",
+        "id": "2120582957782200586",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg"
+        ],
+        "media": [
+          {
+            "duration": 79.1,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120580701489889280/vid/avc1/1920x1080/BDhW_GY4lPxCEeGk.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Introducing Grok Bot 1.0. AI teammates that work alongside your whole team.\n\nShare Bots, collaborate with them in Slack and Teams, invite them to meetings, and watch them learn and become more helpful.",
+        "url": "https://x.com/bot/status/2120582957782200586",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "gregisenberg",
+        "avatar": "https://pbs.twimg.com/profile_images/1577116785656139776/5mi0qgTz_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 03:08:02",
+        "created_at_utc": "2026-11-11T19:08:02.000Z",
+        "id": "2120594418231398677",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120593723704643584/img/kwDGEdaSJ6uWQS0i.jpg"
+        ],
+        "media": [
+          {
+            "duration": 2911.375,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120593723704643584/img/kwDGEdaSJ6uWQS0i.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120593723704643584/vid/avc1/1280x720/fZz-yqopyImG0D_L.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "GREG ISENBERG",
+        "text": "grok bot is the BEST AI agent orchestrator right now\n\nand THIS is the best setup i’ve EVER seen\n\nhttps://youtu.be/1cWZ7Ekff6E?si=YkcMxxhffksv48LX\n\nit runs claude code for engineering and paper for design\n\nhere is the FULL setup and how to copy it:",
+        "url": "https://x.com/gregisenberg/status/2120594418231398677",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1321,
+        "likes": 776,
+        "quotes": 15,
+        "replies": 115,
+        "retweets": 58,
+        "views": 90859
+      },
+      "url": "https://x.com/elonmusk/status/2120758321619542032",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120593723704643584/img/kwDGEdaSJ6uWQS0i.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120593723704643584/vid/avc1/1280x720/fZz-yqopyImG0D_L.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120593723704643584/img/kwDGEdaSJ6uWQS0i.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 2911.375
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2120758305047904548",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T05:59:16.000Z",
+      "created_at_shanghai": "2026-11-12 13:59:16",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try Grok @Bot",
+      "quote": {
+        "author": "gregisenberg",
+        "avatar": "https://pbs.twimg.com/profile_images/1577116785656139776/5mi0qgTz_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 03:08:02",
+        "created_at_utc": "2026-11-11T19:08:02.000Z",
+        "id": "2120594418231398677",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120593723704643584/img/kwDGEdaSJ6uWQS0i.jpg"
+        ],
+        "media": [
+          {
+            "duration": 2911.375,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120593723704643584/img/kwDGEdaSJ6uWQS0i.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120593723704643584/vid/avc1/1280x720/fZz-yqopyImG0D_L.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "GREG ISENBERG",
+        "text": "grok bot is the BEST AI agent orchestrator right now\n\nand THIS is the best setup i’ve EVER seen\n\nhttps://youtu.be/1cWZ7Ekff6E?si=YkcMxxhffksv48LX\n\nit runs claude code for engineering and paper for design\n\nhere is the FULL setup and how to copy it:",
+        "url": "https://x.com/gregisenberg/status/2120594418231398677",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 45,
+        "likes": 310,
+        "quotes": 7,
+        "replies": 131,
+        "retweets": 44,
+        "views": 280959
+      },
+      "url": "https://x.com/elonmusk/status/2120758305047904548",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2120746428720988408",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T05:12:04.000Z",
+      "created_at_shanghai": "2026-11-12 13:12:04",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Robotaxi works 168 hours a week",
+      "quote": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 12:31:12",
+        "created_at_utc": "2026-11-12T04:31:12.000Z",
+        "id": "2120736143566344324",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120736100151177216/img/IdxK4IGj1PPNYciw.jpg"
+        ],
+        "media": [
+          {
+            "duration": 4.379,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120736100151177216/img/IdxK4IGj1PPNYciw.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120736100151177216/vid/avc1/3840x2160/FJgHPK8UnFcuLXfl.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "Robotaxi now runs 24/7\n\nEvery city we're available in",
+        "url": "https://x.com/robotaxi/status/2120736143566344324",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 46,
+        "likes": 1355,
+        "quotes": 31,
+        "replies": 277,
+        "retweets": 162,
+        "views": 323437
+      },
+      "url": "https://x.com/elonmusk/status/2120746428720988408",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2120742206529257928",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T04:55:18.000Z",
+      "created_at_shanghai": "2026-11-12 12:55:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Barbara Corcoran on Elon Musk:\n\"Any great leader has a strong opinion and isn't so smooth on the edges and drives it home. But that's what you want when you want to reinvent a category, and that's what he has done.\"",
+      "quote": null,
+      "retweet": {
+        "author": "teslaownersSV",
+        "avatar": "https://pbs.twimg.com/profile_images/2114535933811032064/CX_COICx_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 02:31:24",
+        "created_at_utc": "2026-11-11T18:31:24.000Z",
+        "id": "2120585198924628448",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120585176891998208/img/ngRlXb6V6Pf8Pznp.jpg"
+        ],
+        "media": [
+          {
+            "duration": 88.955,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120585176891998208/img/ngRlXb6V6Pf8Pznp.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120585176891998208/vid/avc1/1280x720/UFQ5XjK6q6l4hqeO.mp4?tag=29",
+            "width": 1280
+          }
+        ],
+        "name": "Tesla Owners Silicon Valley",
+        "text": "Barbara Corcoran on Elon Musk:\n\"Any great leader has a strong opinion and isn't so smooth on the edges and drives it home. But that's what you want when you want to reinvent a category, and that's what he has done.\"",
+        "url": "https://x.com/teslaownersSV/status/2120585198924628448",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 74,
+        "likes": 898,
+        "quotes": 16,
+        "replies": 50,
+        "retweets": 131,
+        "views": 54137
+      },
+      "url": "https://x.com/elonmusk/status/2120742206529257928",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120585176891998208/img/ngRlXb6V6Pf8Pznp.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120585176891998208/vid/avc1/1280x720/UFQ5XjK6q6l4hqeO.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120585176891998208/img/ngRlXb6V6Pf8Pznp.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 88.955
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2120737443267670220",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T04:36:22.000Z",
+      "created_at_shanghai": "2026-11-12 12:36:22",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "All systems are looking good, and weather is favorable for liftoff. Propellant load is about to begin for Falcon 9’s launch of the USSF-627 mission from California → https://spacex.com/launches/ussf627",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 11:47:08",
+        "created_at_utc": "2026-11-12T03:47:08.000Z",
+        "id": "2120725054933635188",
+        "images": [
+          "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2067,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small",
+            "width": 3100
+          }
+        ],
+        "name": "SpaceX",
+        "text": "All systems are looking good, and weather is favorable for liftoff. Propellant load is about to begin for Falcon 9’s launch of the USSF-627 mission from California → https://spacex.com/launches/ussf627",
+        "url": "https://x.com/SpaceX/status/2120725054933635188",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 58,
+        "likes": 2228,
+        "quotes": 18,
+        "replies": 144,
+        "retweets": 210,
+        "views": 173420
+      },
+      "url": "https://x.com/elonmusk/status/2120737443267670220",
+      "images": [
+        "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small",
+          "width": 3100,
+          "height": 2067
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2120737200799465946",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -686,452 +1135,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2120570459335131606",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T17:32:50.000Z",
-      "created_at_shanghai": "2026-11-12 01:32:50",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "This is not the smartest move from a profit-maximizing standpoint btw, but there must be some room in this world for sentimentality or what’s the point?",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 20,
-        "likes": 719,
-        "quotes": 5,
-        "replies": 133,
-        "retweets": 40,
-        "views": 31121
-      },
-      "url": "https://x.com/elonmusk/status/2120570459335131606",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120565179276832797",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T17:11:51.000Z",
-      "created_at_shanghai": "2026-11-12 01:11:51",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla self-driving now approved in Finland",
-      "quote": {
-        "author": "teslaeurope",
-        "avatar": "https://pbs.twimg.com/profile_images/1620537591048163332/GSPAsKC5_200x200.jpg",
-        "created_at_shanghai": "2026-11-11 14:18:33",
-        "created_at_utc": "2026-11-11T06:18:33.000Z",
-        "id": "2120400770952745439",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120400638517649408/img/pv6JcEDdbtzA2f2N.jpg"
-        ],
-        "media": [
-          {
-            "duration": 25.876,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120400638517649408/img/pv6JcEDdbtzA2f2N.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120400638517649408/vid/avc1/3840x2160/DNJBCXQD-ZSvXUla.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Tesla Europe, Middle East & Africa",
-        "text": "Now approved in Finland 🇫🇮\n\nRollout begins soon",
-        "url": "https://x.com/teslaeurope/status/2120400770952745439",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 31,
-        "likes": 1552,
-        "quotes": 32,
-        "replies": 294,
-        "retweets": 182,
-        "views": 369564
-      },
-      "url": "https://x.com/elonmusk/status/2120565179276832797",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120565056429814073",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T17:11:22.000Z",
-      "created_at_shanghai": "2026-11-12 01:11:22",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "In order to work through more of the Cybertruck order backlog, production will be extended through the end of summer 2027",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 43,
-        "likes": 1880,
-        "quotes": 70,
-        "replies": 373,
-        "retweets": 180,
-        "views": 325883
-      },
-      "url": "https://x.com/elonmusk/status/2120565056429814073",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120439345555660899",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T08:51:50.000Z",
-      "created_at_shanghai": "2026-11-11 16:51:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It seems wrong that ideology and idiot are unrelated words. They’re so perfect together.",
-      "quote": null,
-      "retweet": {
-        "author": "jamesdouma",
-        "avatar": "https://pbs.twimg.com/profile_images/988101297357258752/Kg-unit-_200x200.jpg",
-        "created_at_shanghai": "2026-11-10 23:49:12",
-        "created_at_utc": "2026-11-10T15:49:12.000Z",
-        "id": "2120181992574918849",
-        "images": [],
-        "media": [],
-        "name": "jimmah",
-        "text": "It seems wrong that ideology and idiot are unrelated words. They’re so perfect together.",
-        "url": "https://x.com/jamesdouma/status/2120181992574918849",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 13,
-        "likes": 475,
-        "quotes": 2,
-        "replies": 46,
-        "retweets": 42,
-        "views": 37228
-      },
-      "url": "https://x.com/elonmusk/status/2120439345555660899",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120439243478806562",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T08:51:26.000Z",
-      "created_at_shanghai": "2026-11-11 16:51:26",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk has a track record of calling hard problems early.\n\nIn a February 2026 interview, he warned: “Those who have lived in software land don’t realize they’re about to have a hard lesson in hardware.”\n\nBy late August, SpaceX confirmed it was bringing the casting of gas-turbine blades and vanes in-house — the single biggest bottleneck for new natural-gas power plants needed to feed AI data centers. Musk said the move could bring turbines online up to 18 months faster.\n\nToday he put it even more bluntly: SpaceX has “a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit — and even we find it very difficult.”\n\nHardware doesn’t care about demos, funding rounds, or slide decks. The teams that actually build the hard stuff keep winning.\n\nWhat a legend.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 05:35:30",
-        "created_at_utc": "2026-10-13T21:35:30.000Z",
-        "id": "2110122281603326170",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "It’s not that supercomputer data centers are not in high demand, as they definitely are. However, getting money to build complex hardware systems with massive power, cooling & networking is not the same as doing it. \n\nSpaceX has a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit and even we find it very difficult!",
-        "url": "https://x.com/elonmusk/status/2110122281603326170",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "Dogetothemoon",
-        "avatar": "https://pbs.twimg.com/profile_images/2090278758972571648/3ihoplje_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 06:46:54",
-        "created_at_utc": "2026-10-13T22:46:54.000Z",
-        "id": "2110140249141821578",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110136316113649665/img/Wo4geuwDhLSiSW_Y.jpg"
-        ],
-        "media": [
-          {
-            "duration": 68.9,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110136316113649665/img/Wo4geuwDhLSiSW_Y.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110136316113649665/vid/avc1/1280x720/6Zx-3vRMop3Qztuu.mp4?tag=29",
-            "width": 1280
-          }
-        ],
-        "name": "Doge Tipping",
-        "text": "Elon Musk has a track record of calling hard problems early.\n\nIn a February 2026 interview, he warned: “Those who have lived in software land don’t realize they’re about to have a hard lesson in hardware.”\n\nBy late August, SpaceX confirmed it was bringing the casting of gas-turbine blades and vanes in-house — the single biggest bottleneck for new natural-gas power plants needed to feed AI data centers. Musk said the move could bring turbines online up to 18 months faster.\n\nToday he put it even more bluntly: SpaceX has “a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit — and even we find it very difficult.”\n\nHardware doesn’t care about demos, funding rounds, or slide decks. The teams that actually build the hard stuff keep winning.\n\nWhat a legend.",
-        "url": "https://x.com/Dogetothemoon/status/2110140249141821578",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 112,
-        "likes": 566,
-        "quotes": 6,
-        "replies": 21,
-        "retweets": 88,
-        "views": 110674
-      },
-      "url": "https://x.com/elonmusk/status/2120439243478806562",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110136316113649665/img/Wo4geuwDhLSiSW_Y.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110136316113649665/vid/avc1/1280x720/6Zx-3vRMop3Qztuu.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110136316113649665/img/Wo4geuwDhLSiSW_Y.jpg",
-          "width": 1280,
-          "height": 720,
-          "duration": 68.9
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2120437887703601309",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T08:46:02.000Z",
-      "created_at_shanghai": "2026-11-11 16:46:02",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Taps the sign",
-      "quote": {
-        "author": "WSJbusiness",
-        "avatar": "https://pbs.twimg.com/profile_images/954403794057662464/kTFdxq55_200x200.jpg",
-        "created_at_shanghai": "2026-11-11 09:00:31",
-        "created_at_utc": "2026-11-11T01:00:31.000Z",
-        "id": "2120320733561672164",
-        "images": [],
-        "media": [],
-        "name": "WSJ Business News",
-        "text": "Masayoshi Son’s SoftBank reserved enough gas turbines to generate the power of six Hoover Dams. It cost the company billions of dollars in losses. https://on.wsj.com/4AkINFX",
-        "url": "https://x.com/WSJbusiness/status/2120320733561672164",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "KatieMiller",
-        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
-        "created_at_shanghai": "2026-11-11 10:26:33",
-        "created_at_utc": "2026-11-11T02:26:33.000Z",
-        "id": "2120342384445898866",
-        "images": [
-          "https://pbs.twimg.com/media/HWz4KQpWwAAGkdp.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 519,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWz4KQpWwAAGkdp.jpg?name=small",
-            "width": 1320
-          }
-        ],
-        "name": "Katie Miller",
-        "text": "Taps the sign",
-        "url": "https://x.com/KatieMiller/status/2120342384445898866",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 91,
-        "likes": 1671,
-        "quotes": 7,
-        "replies": 42,
-        "retweets": 163,
-        "views": 70343
-      },
-      "url": "https://x.com/elonmusk/status/2120437887703601309",
-      "images": [
-        "https://pbs.twimg.com/media/HWz4KQpWwAAGkdp.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWz4KQpWwAAGkdp.jpg?name=small",
-          "width": 1320,
-          "height": 519
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2120435998056476771",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T08:38:32.000Z",
-      "created_at_shanghai": "2026-11-11 16:38:32",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "29 days from completion of tunneling in Bastrop to initiation of tunneling in San Antonio.",
-      "quote": null,
-      "retweet": {
-        "author": "boringcompany",
-        "avatar": "https://pbs.twimg.com/profile_images/2039567764172820480/XfrLCXpv_200x200.png",
-        "created_at_shanghai": "2026-11-11 06:46:04",
-        "created_at_utc": "2026-11-10T22:46:04.000Z",
-        "id": "2120286900569456800",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120286885905874944/img/pR7boibwrEefs5uw.jpg",
-          "https://pbs.twimg.com/media/HWzFsF8WQAENGzg.jpg?name=small",
-          "https://pbs.twimg.com/media/HWzFsGAXoAAndY6.jpg?name=small"
-        ],
-        "media": [
-          {
-            "duration": 6.693,
-            "height": 640,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120286885905874944/img/pR7boibwrEefs5uw.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120286885905874944/vid/avc1/360x640/Bo49wnXXj15a0Zfn.mp4?tag=29",
-            "width": 360
-          },
-          {
-            "height": 1282,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWzFsF8WQAENGzg.jpg?name=small",
-            "width": 1018
-          },
-          {
-            "height": 1429,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWzFsGAXoAAndY6.jpg?name=small",
-            "width": 1212
-          }
-        ],
-        "name": "The Boring Company",
-        "text": "29 days from completion of tunneling in Bastrop to initiation of tunneling in San Antonio.",
-        "url": "https://x.com/boringcompany/status/2120286900569456800",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 111,
-        "likes": 3676,
-        "quotes": 37,
-        "replies": 132,
-        "retweets": 293,
-        "views": 173632
-      },
-      "url": "https://x.com/elonmusk/status/2120435998056476771",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2120286885905874944/img/pR7boibwrEefs5uw.jpg",
-        "https://pbs.twimg.com/media/HWzFsF8WQAENGzg.jpg?name=small",
-        "https://pbs.twimg.com/media/HWzFsGAXoAAndY6.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2120286885905874944/vid/avc1/360x640/Bo49wnXXj15a0Zfn.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120286885905874944/img/pR7boibwrEefs5uw.jpg",
-          "width": 360,
-          "height": 640,
-          "duration": 6.693
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWzFsF8WQAENGzg.jpg?name=small",
-          "width": 1018,
-          "height": 1282
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWzFsGAXoAAndY6.jpg?name=small",
-          "width": 1212,
-          "height": 1429
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2120432718639145404",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T08:25:30.000Z",
-      "created_at_shanghai": "2026-11-11 16:25:30",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Portable, lightning-fast Internet that works anywhere on Earth where Starlink is legal!",
-      "quote": {
-        "author": "Starlink",
-        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
-        "created_at_shanghai": "2026-11-11 01:28:05",
-        "created_at_utc": "2026-11-10T17:28:05.000Z",
-        "id": "2120206875581186293",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120206805301432320/img/GfU1cb3_x6eq7W_n.jpg"
-        ],
-        "media": [
-          {
-            "duration": 42.542,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120206805301432320/img/GfU1cb3_x6eq7W_n.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120206805301432320/vid/avc1/3840x2160/ZgZw9IqkEhYoHROw.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Starlink",
-        "text": "Introducing Mini 2, the next-generation portable Starlink. Get up to 4.5 hours of connectivity on a single charge with the quick-swap battery, or plug in with USB-C.\n\nWith built-in Wi-Fi, all you need is a clear view of the sky to get online in 60 seconds.\n\nPreorders are now open by invitation in the US. Be the first to know when it's available → http://starlink.com/mini-2",
-        "url": "https://x.com/Starlink/status/2120206875581186293",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 26,
-        "likes": 527,
-        "quotes": 12,
-        "replies": 163,
-        "retweets": 79,
-        "views": 295292
-      },
-      "url": "https://x.com/elonmusk/status/2120432718639145404",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 9,
   "page_size": 20,
-  "total": 2389,
+  "total": 2397,
   "total_pages": 120,
-  "updated_at_shanghai": "2026-11-16 00:48:46",
+  "updated_at_shanghai": "2026-11-16 05:21:29",
   "account": "elonmusk"
 }
