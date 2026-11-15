@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2121733992726802703",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T22:36:18.000Z",
+      "created_at_shanghai": "2026-11-15 06:36:18",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Inspecting ship 42 right now",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 552,
+        "likes": 7834,
+        "quotes": 127,
+        "replies": 835,
+        "retweets": 1098,
+        "views": 380285
+      },
+      "url": "https://x.com/elonmusk/status/2121733992726802703",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121733944974483457/img/82n1RF5mdUeNV0_1.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2121733944974483457/vid/avc1/1080x1920/w_aaCWBru-qRIwC3.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121733944974483457/img/82n1RF5mdUeNV0_1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "duration": 15.401
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121732719050977749",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -934,53 +973,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121628295234023654",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T15:36:18.000Z",
-      "created_at_shanghai": "2026-11-14 23:36:18",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Improvements to Grok @Bot efficiency",
-      "quote": {
-        "author": "SamSokolin",
-        "avatar": "https://pbs.twimg.com/profile_images/1992102498992046080/mzxbE_za_200x200.jpg",
-        "created_at_shanghai": "2026-11-14 02:04:00",
-        "created_at_utc": "2026-11-13T18:04:00.000Z",
-        "id": "2121303079803089179",
-        "images": [],
-        "media": [],
-        "name": "Sam Sokolin",
-        "text": "Shipped a few Grok Bot harness optimizations this week. You should get ~7% more usage out of your plan, and up to ~15% more on routine runs!\n\nEnjoy!",
-        "url": "https://x.com/SamSokolin/status/2121303079803089179",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 27,
-        "likes": 938,
-        "quotes": 8,
-        "replies": 279,
-        "retweets": 110,
-        "views": 393998
-      },
-      "url": "https://x.com/elonmusk/status/2121628295234023654",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 2371,
+  "total": 2372,
   "total_pages": 119,
-  "updated_at_shanghai": "2026-11-15 10:21:28",
+  "updated_at_shanghai": "2026-11-15 10:51:32",
   "account": "elonmusk"
 }
