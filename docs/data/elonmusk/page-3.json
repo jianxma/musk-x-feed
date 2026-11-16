@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2121896179944349736",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-15T09:20:46.000Z",
+      "created_at_shanghai": "2026-11-15 17:20:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "It's here. Claudia's \"ALLOW ALWAYS\" world premiere. Made by a guy with ALS, a brain implant, and too many AI friends. 😂",
+      "quote": null,
+      "retweet": {
+        "author": "Cyborg21",
+        "avatar": "https://pbs.twimg.com/profile_images/2013266691782848513/0TcBjmbK_200x200.jpg",
+        "created_at_shanghai": "2026-11-02 08:00:00",
+        "created_at_utc": "2026-11-02T00:00:00.000Z",
+        "id": "2117044016621748292",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2116944868530593792/img/M69u2lKFwoF605cU.jpg"
+        ],
+        "media": [
+          {
+            "duration": 196.022,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116944868530593792/img/M69u2lKFwoF605cU.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2116944868530593792/vid/avc1/1920x1080/HEPqyV3I3jvSXpDO.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Kenneth Shock",
+        "text": "It's here. Claudia's \"ALLOW ALWAYS\" world premiere. Made by a guy with ALS, a brain implant, and too many AI friends. 😂",
+        "url": "https://x.com/Cyborg21/status/2117044016621748292",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1286,
+        "likes": 4272,
+        "quotes": 127,
+        "replies": 343,
+        "retweets": 609,
+        "views": 929936
+      },
+      "url": "https://x.com/elonmusk/status/2121896179944349736",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116944868530593792/img/M69u2lKFwoF605cU.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2116944868530593792/vid/avc1/1920x1080/HEPqyV3I3jvSXpDO.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116944868530593792/img/M69u2lKFwoF605cU.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 196.022
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121884943529959468",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1169,64 +1232,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121770874885845044",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-15T01:02:51.000Z",
-      "created_at_shanghai": "2026-11-15 09:02:51",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try Grok @Bot",
-      "quote": {
-        "author": "iiiichigo_chan",
-        "avatar": "https://pbs.twimg.com/profile_images/2068640799537946624/MA1pfeg2_200x200.jpg",
-        "created_at_shanghai": "2026-11-15 01:59:44",
-        "created_at_utc": "2026-11-14T17:59:44.000Z",
-        "id": "2121664393725227299",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2121663710800330753/img/IK8ZuZEUGvvEiNyu.jpg"
-        ],
-        "media": [
-          {
-            "duration": 23.6,
-            "height": 1350,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121663710800330753/img/IK8ZuZEUGvvEiNyu.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2121663710800330753/vid/avc1/1080x1350/XhYvStgD5bGwgQPi.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "Ichigo",
-        "text": "holy f*ck... Elon Musk's team just made airport rebooking lines useless\n\nmy flight got cancelled and 187 people were ahead of me at the desk. my Grok Bot rebooked me before the line moved 17 people\n\nGrok Bot makes phone calls now. it sits on hold, talks to the agent and says up front it's an AI\n\nwhat it did while I stood in line:\n\n→ sat through 11 minutes of hold music\n→ got me on the 7:40 AM flight tomorrow\n→ the airline cancelled, so it asked for a hotel and meals. got both\n→ \"aisle seat is $49 extra\" it didn't pay. it asked me. I took the free middle seat\n→ texted my wife the new landing time (signed Grok Bot) and set my alarm\n\n14 minutes on the phone. I walked out of the line, 168 people still in it\n\nall it took was 3 rules I sent it once:\n\n1. on every call, say you're an AI calling for me\n2. ask for everything I'm owed, nothing made up\n3. anything that costs money: ask me first\n\nthe  Grok Bot Research Desk setup is in my article. read it below ↓",
-        "url": "https://x.com/iiiichigo_chan/status/2121664393725227299",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 73,
-        "likes": 742,
-        "quotes": 9,
-        "replies": 172,
-        "retweets": 88,
-        "views": 285149
-      },
-      "url": "https://x.com/elonmusk/status/2121770874885845044",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 20,
-  "total": 2428,
+  "total": 2429,
   "total_pages": 122,
-  "updated_at_shanghai": "2026-11-16 12:26:40",
+  "updated_at_shanghai": "2026-11-16 12:44:00",
   "account": "elonmusk"
 }
