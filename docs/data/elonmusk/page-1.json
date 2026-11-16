@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2122446366354096479",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-16T21:47:01.000Z",
+      "created_at_shanghai": "2026-11-17 05:47:01",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "As I was saying …\n\nFree Starlinks for FAA were offered to Sec Duffy, but he said they were not needed. As it turns out, they were.",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2025-02-28 03:24:35",
+        "created_at_utc": "2025-02-27T19:24:35.000Z",
+        "id": "1895193329647919417",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "Correction: the ancient system that is rapidly declining in capability was made L3Harris. The new system that is not yet operational is from Verizon.",
+        "url": "https://x.com/elonmusk/status/1895193329647919417",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 94,
+        "likes": 1847,
+        "quotes": 36,
+        "replies": 257,
+        "retweets": 296,
+        "views": 343176
+      },
+      "url": "https://x.com/elonmusk/status/2122446366354096479",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2122437555001930163",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1031,71 +1072,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2122179460435001423",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-16T04:06:26.000Z",
-      "created_at_shanghai": "2026-11-16 12:06:26",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@nbcsnl lol",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-16 12:03:25",
-        "created_at_utc": "2026-11-16T04:03:25.000Z",
-        "id": "2122178701039137144",
-        "images": [
-          "https://pbs.twimg.com/media/HXN-R7rWoAA0DuG.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 784,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HXN-R7rWoAA0DuG.jpg?name=small",
-            "width": 1168
-          }
-        ],
-        "name": "Elon Musk",
-        "text": "@nbcsnl lol",
-        "url": "https://x.com/elonmusk/status/2122178701039137144",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "nbcsnl",
-      "engagement": {
-        "bookmarks": 19,
-        "likes": 873,
-        "quotes": 13,
-        "replies": 158,
-        "retweets": 56,
-        "views": 70784
-      },
-      "url": "https://x.com/elonmusk/status/2122179460435001423",
-      "images": [
-        "https://pbs.twimg.com/media/HXN-R7rWoAA0DuG.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HXN-R7rWoAA0DuG.jpg?name=small",
-          "width": 1168,
-          "height": 784
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2446,
+  "total": 2447,
   "total_pages": 123,
-  "updated_at_shanghai": "2026-11-17 05:43:59",
+  "updated_at_shanghai": "2026-11-17 05:54:15",
   "account": "elonmusk"
 }
