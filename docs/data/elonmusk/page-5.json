@@ -1,6 +1,112 @@
 {
   "posts": [
     {
+      "id": "2121627776881230121",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T15:34:14.000Z",
+      "created_at_shanghai": "2026-11-14 23:34:14",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Update on Starship",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-14 23:23:58",
+        "created_at_utc": "2026-11-14T15:23:58.000Z",
+        "id": "2121625194275951101",
+        "images": [],
+        "media": [],
+        "name": "SpaceX",
+        "text": "Back live for a status update on Starship's Flight 15",
+        "url": "https://x.com/SpaceX/status/2121625194275951101",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 35,
+        "likes": 1291,
+        "quotes": 10,
+        "replies": 224,
+        "retweets": 145,
+        "views": 363552
+      },
+      "url": "https://x.com/elonmusk/status/2121627776881230121",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121625731088445896",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T15:26:06.000Z",
+      "created_at_shanghai": "2026-11-14 23:26:06",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "https://grok.com/share/bGVnYWN5_035d778c-274e-4433-97c1-5f587762e736",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 193,
+        "quotes": 1,
+        "replies": 41,
+        "retweets": 14,
+        "views": 40080
+      },
+      "url": "https://x.com/elonmusk/status/2121625731088445896",
+      "images": [
+        "https://pbs.twimg.com/media/HXGHW0HXsAExxux.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXGHW0HXsAExxux.jpg?name=small",
+          "width": 1177,
+          "height": 1783
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2121624209675665519",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T15:20:04.000Z",
+      "created_at_shanghai": "2026-11-14 23:20:04",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "If Jensen gave me his word about compute delivery or I asked for components to be accelerated, he always came through. \n\nSure, we’d put together a purchase order at some point later, but I never for a second thought it wouldn’t happen.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 23,
+        "likes": 771,
+        "quotes": 7,
+        "replies": 96,
+        "retweets": 57,
+        "views": 41637
+      },
+      "url": "https://x.com/elonmusk/status/2121624209675665519",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2121617733221818612",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1071,167 +1177,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2121498127484244186",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T06:59:03.000Z",
-      "created_at_shanghai": "2026-11-14 14:59:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "NVIDIA board credentials. \nNo wonder Jensen got fired.",
-      "quote": null,
-      "retweet": {
-        "author": "GS_VCactivist",
-        "avatar": "https://pbs.twimg.com/profile_images/2121034577175015424/TmmMlQcp_200x200.jpg",
-        "created_at_shanghai": "2026-11-13 11:00:47",
-        "created_at_utc": "2026-11-13T03:00:47.000Z",
-        "id": "2121075777487970548",
-        "images": [
-          "https://pbs.twimg.com/media/HW-TLS8WQAELfBH.jpg?name=small",
-          "https://pbs.twimg.com/media/HW-TLTCXcAIxVKo.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1782,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW-TLS8WQAELfBH.jpg?name=small",
-            "width": 1320
-          },
-          {
-            "height": 1664,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW-TLTCXcAIxVKo.jpg?name=small",
-            "width": 1320
-          }
-        ],
-        "name": "Gayatri Sarkar",
-        "text": "NVIDIA board credentials. \nNo wonder Jensen got fired.",
-        "url": "https://x.com/GS_VCactivist/status/2121075777487970548",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1777,
-        "likes": 11237,
-        "quotes": 177,
-        "replies": 483,
-        "retweets": 739,
-        "views": 3753960
-      },
-      "url": "https://x.com/elonmusk/status/2121498127484244186",
-      "images": [
-        "https://pbs.twimg.com/media/HW-TLS8WQAELfBH.jpg?name=small",
-        "https://pbs.twimg.com/media/HW-TLTCXcAIxVKo.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW-TLS8WQAELfBH.jpg?name=small",
-          "width": 1320,
-          "height": 1782
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW-TLTCXcAIxVKo.jpg?name=small",
-          "width": 1320,
-          "height": 1664
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2121497262547251665",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T06:55:37.000Z",
-      "created_at_shanghai": "2026-11-14 14:55:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@stevenmarkryan Yes. Per the exact words in the clip, the bet is lost if a Cybercab is delivered to a customer for $30k or less before 2027. The scenario matches those conditions.",
-      "quote": null,
-      "retweet": {
-        "author": "grok",
-        "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
-        "created_at_shanghai": "2026-11-14 11:58:29",
-        "created_at_utc": "2026-11-14T03:58:29.000Z",
-        "id": "2121452685345845744",
-        "images": [],
-        "media": [],
-        "name": "Grok",
-        "text": "@stevenmarkryan Yes. Per the exact words in the clip, the bet is lost if a Cybercab is delivered to a customer for $30k or less before 2027. The scenario matches those conditions.",
-        "url": "https://x.com/grok/status/2121452685345845744",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "stevenmarkryan",
-      "engagement": {
-        "bookmarks": 9,
-        "likes": 341,
-        "quotes": 3,
-        "replies": 28,
-        "retweets": 35,
-        "views": 29826
-      },
-      "url": "https://x.com/elonmusk/status/2121497262547251665",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2121496746656231454",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T06:53:34.000Z",
-      "created_at_shanghai": "2026-11-14 14:53:34",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Zambia has started connecting 751 health facilities across all 10 provinces with Starlink, and the first 90 kits went to Western Province.\n\nThere's something poetic about where they started. Every year at the end of the rainy season the upper Zambezi floods the Barotse plain, and for centuries the Lozi king has left his compound at Lealui by royal barge and moved to higher ground at Limulunga. The ceremony is called Kuomboka. In Lozi it means \"to get out of water.\"\n\nNow picture running fiber or building towers across land that turns into a lake for part of every year. A Starlink dish only needs a clear view of the sky, so the water below stops being the problem.\n\nIn March 2020, months before Starlink had its first beta users, Elon Musk said it would serve the 3 or 4 percent hardest-to-reach customers, people with no connectivity or really bad connectivity. Six years later, with funding from the Global Fund through Zambia's Ministry of Health, clinics on one of Africa's great floodplains are being brought into the country's electronic health systems from orbit.",
-      "quote": null,
-      "retweet": {
-        "author": "TheCaptainEli",
-        "avatar": "https://pbs.twimg.com/profile_images/1997753138426613760/EZDpm91Z_200x200.jpg",
-        "created_at_shanghai": "2026-11-14 14:17:00",
-        "created_at_utc": "2026-11-14T06:17:00.000Z",
-        "id": "2121487543837294607",
-        "images": [],
-        "media": [],
-        "name": "Captain Eli",
-        "text": "Zambia has started connecting 751 health facilities across all 10 provinces with Starlink, and the first 90 kits went to Western Province.\n\nThere's something poetic about where they started. Every year at the end of the rainy season the upper Zambezi floods the Barotse plain, and for centuries the Lozi king has left his compound at Lealui by royal barge and moved to higher ground at Limulunga. The ceremony is called Kuomboka. In Lozi it means \"to get out of water.\"\n\nNow picture running fiber or building towers across land that turns into a lake for part of every year. A Starlink dish only needs a clear view of the sky, so the water below stops being the problem.\n\nIn March 2020, months before Starlink had its first beta users, Elon Musk said it would serve the 3 or 4 percent hardest-to-reach customers, people with no connectivity or really bad connectivity. Six years later, with funding from the Global Fund through Zambia's Ministry of Health, clinics on one of Africa's great floodplains are being brought into the country's electronic health systems from orbit.",
-        "url": "https://x.com/TheCaptainEli/status/2121487543837294607",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 7,
-        "likes": 150,
-        "quotes": 1,
-        "replies": 12,
-        "retweets": 36,
-        "views": 10918
-      },
-      "url": "https://x.com/elonmusk/status/2121496746656231454",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 20,
-  "total": 2408,
+  "total": 2411,
   "total_pages": 121,
-  "updated_at_shanghai": "2026-11-16 09:08:33",
+  "updated_at_shanghai": "2026-11-16 09:28:16",
   "account": "elonmusk"
 }
