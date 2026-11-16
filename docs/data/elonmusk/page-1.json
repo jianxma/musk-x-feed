@@ -1,10 +1,51 @@
 {
   "posts": [
     {
-      "id": "2122179460435001423",
+      "id": "2122182607391920214",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-16T04:18:56.000Z",
+      "created_at_shanghai": "2026-11-16 12:18:56",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "The SpaceX engineers who caught the rocket don't write LinkedIn thought pieces about leadership.",
+      "quote": null,
+      "retweet": {
+        "author": "JohnLeFevre",
+        "avatar": "https://pbs.twimg.com/profile_images/1018935027814445056/bZuGVHZk_200x200.jpg",
+        "created_at_shanghai": "2026-11-16 11:45:45",
+        "created_at_utc": "2026-11-16T03:45:45.000Z",
+        "id": "2122174254787760534",
+        "images": [],
+        "media": [],
+        "name": "John LeFevre",
+        "text": "The SpaceX engineers who caught the rocket don't write LinkedIn thought pieces about leadership.",
+        "url": "https://x.com/JohnLeFevre/status/2122174254787760534",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 51,
+        "likes": 1509,
+        "quotes": 15,
+        "replies": 58,
+        "retweets": 136,
+        "views": 48743
+      },
+      "url": "https://x.com/elonmusk/status/2122182607391920214",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2122179460435001423",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-16T04:06:26.000Z",
@@ -996,64 +1037,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2122127527040712704",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-16T00:40:04.000Z",
-      "created_at_shanghai": "2026-11-16 08:40:04",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starlink helps rural schools with education",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-11-15 21:17:51",
-        "created_at_utc": "2026-11-15T13:17:51.000Z",
-        "id": "2121955840370614708",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2121955796431032320/img/A07_A9kkr1ta7KY5.jpg"
-        ],
-        "media": [
-          {
-            "duration": 10.133,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121955796431032320/img/A07_A9kkr1ta7KY5.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2121955796431032320/vid/avc1/720x720/tW2wcWiuNgn-spYw.mp4?tag=29",
-            "width": 720
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Every rural municipal school in Rondonópolis, Brazil, now has Starlink internet. 🇧🇷\n\nStudents and teachers can now access digital libraries, educational videos and online learning tools.\n\nSpaceX is bringing a world of knowledge to remote classrooms. ♥️",
-        "url": "https://x.com/cb_doge/status/2121955840370614708",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 75,
-        "likes": 3196,
-        "quotes": 33,
-        "replies": 405,
-        "retweets": 320,
-        "views": 499379
-      },
-      "url": "https://x.com/elonmusk/status/2122127527040712704",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2427,
+  "total": 2428,
   "total_pages": 122,
-  "updated_at_shanghai": "2026-11-16 12:16:07",
+  "updated_at_shanghai": "2026-11-16 12:26:40",
   "account": "elonmusk"
 }
