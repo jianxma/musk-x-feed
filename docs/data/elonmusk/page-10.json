@@ -1,6 +1,142 @@
 {
   "posts": [
     {
+      "id": "2120760449906209222",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T06:07:47.000Z",
+      "created_at_shanghai": "2026-11-12 14:07:47",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Lofi beats to self-drive to",
+      "quote": null,
+      "retweet": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-11-11 05:34:23",
+        "created_at_utc": "2026-11-10T21:34:23.000Z",
+        "id": "2120268861669007562",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg"
+        ],
+        "media": [
+          {
+            "duration": 1725.696,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120267696961196032/vid/avc1/3840x2160/q-BKgDY7DyFbcYwR.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "Lofi beats to self-drive to",
+        "url": "https://x.com/robotaxi/status/2120268861669007562",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 467,
+        "likes": 5517,
+        "quotes": 61,
+        "replies": 182,
+        "retweets": 548,
+        "views": 268941
+      },
+      "url": "https://x.com/elonmusk/status/2120760449906209222",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120267696961196032/vid/avc1/3840x2160/q-BKgDY7DyFbcYwR.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 1725.696
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2120760435813306525",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T06:07:44.000Z",
+      "created_at_shanghai": "2026-11-12 14:07:44",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Chill vibes",
+      "quote": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-11-11 05:34:23",
+        "created_at_utc": "2026-11-10T21:34:23.000Z",
+        "id": "2120268861669007562",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg"
+        ],
+        "media": [
+          {
+            "duration": 1725.696,
+            "height": 2160,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120267696961196032/vid/avc1/3840x2160/q-BKgDY7DyFbcYwR.mp4?tag=29",
+            "width": 3840
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "Lofi beats to self-drive to",
+        "url": "https://x.com/robotaxi/status/2120268861669007562",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 43,
+        "likes": 1176,
+        "quotes": 10,
+        "replies": 272,
+        "retweets": 121,
+        "views": 327582
+      },
+      "url": "https://x.com/elonmusk/status/2120760435813306525",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2120759902230413789",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T06:05:37.000Z",
+      "created_at_shanghai": "2026-11-12 14:05:37",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Lofi beats to self-drive to",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2120759902230413789",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
       "id": "2120758321619542032",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -999,120 +1135,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2120570459335131606",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T17:32:50.000Z",
-      "created_at_shanghai": "2026-11-12 01:32:50",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "This is not the smartest move from a profit-maximizing standpoint btw, but there must be some room in this world for sentimentality or what’s the point?",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 20,
-        "likes": 719,
-        "quotes": 5,
-        "replies": 133,
-        "retweets": 40,
-        "views": 31121
-      },
-      "url": "https://x.com/elonmusk/status/2120570459335131606",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120565179276832797",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T17:11:51.000Z",
-      "created_at_shanghai": "2026-11-12 01:11:51",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla self-driving now approved in Finland",
-      "quote": {
-        "author": "teslaeurope",
-        "avatar": "https://pbs.twimg.com/profile_images/1620537591048163332/GSPAsKC5_200x200.jpg",
-        "created_at_shanghai": "2026-11-11 14:18:33",
-        "created_at_utc": "2026-11-11T06:18:33.000Z",
-        "id": "2120400770952745439",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120400638517649408/img/pv6JcEDdbtzA2f2N.jpg"
-        ],
-        "media": [
-          {
-            "duration": 25.876,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120400638517649408/img/pv6JcEDdbtzA2f2N.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120400638517649408/vid/avc1/3840x2160/DNJBCXQD-ZSvXUla.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Tesla Europe, Middle East & Africa",
-        "text": "Now approved in Finland 🇫🇮\n\nRollout begins soon",
-        "url": "https://x.com/teslaeurope/status/2120400770952745439",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 31,
-        "likes": 1552,
-        "quotes": 32,
-        "replies": 294,
-        "retweets": 182,
-        "views": 369564
-      },
-      "url": "https://x.com/elonmusk/status/2120565179276832797",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120565056429814073",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T17:11:22.000Z",
-      "created_at_shanghai": "2026-11-12 01:11:22",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "In order to work through more of the Cybertruck order backlog, production will be extended through the end of summer 2027",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 43,
-        "likes": 1880,
-        "quotes": 70,
-        "replies": 373,
-        "retweets": 180,
-        "views": 325883
-      },
-      "url": "https://x.com/elonmusk/status/2120565056429814073",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 10,
   "page_size": 20,
-  "total": 2414,
+  "total": 2417,
   "total_pages": 121,
-  "updated_at_shanghai": "2026-11-16 09:48:53",
+  "updated_at_shanghai": "2026-11-16 09:58:02",
   "account": "elonmusk"
 }
