@@ -1,10 +1,101 @@
 {
   "posts": [
     {
-      "id": "2122138555137110487",
+      "id": "2122141116195877155",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-16T01:34:04.000Z",
+      "created_at_shanghai": "2026-11-16 09:34:04",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "aaronburnett",
+        "avatar": "https://pbs.twimg.com/profile_images/2049987217477513216/GJx9_LdR_200x200.jpg",
+        "created_at_shanghai": "2026-11-16 07:55:21",
+        "created_at_utc": "2026-11-15T23:55:21.000Z",
+        "id": "2122116272725037236",
+        "images": [],
+        "media": [],
+        "name": "Aaron Burnett",
+        "text": "Also why the same amount of money (~$15B) to build all of Starbase was used to build an overpass to nowhere for California’s high speed rail. Capital allocation efficiency is a thing.",
+        "url": "https://x.com/aaronburnett/status/2122116272725037236",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 902,
+        "quotes": 6,
+        "replies": 118,
+        "retweets": 93,
+        "views": 305442
+      },
+      "url": "https://x.com/elonmusk/status/2122141116195877155",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2122141019894383027",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-16T01:33:41.000Z",
+      "created_at_shanghai": "2026-11-16 09:33:41",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship V4 will be ~70m long, which is roughly a 40% length increase and allows >60% more propellant load.\n\nEngine count will be raised to 9, with 3 more Raptor-Vacuum engines added, and these will be higher thrust V4 engines.",
+      "quote": {
+        "author": "ApoStructura",
+        "avatar": "https://pbs.twimg.com/profile_images/2066259948938342400/o8X5jtKr_200x200.jpg",
+        "created_at_shanghai": "2026-11-16 05:25:08",
+        "created_at_utc": "2026-11-15T21:25:08.000Z",
+        "id": "2122078470121435372",
+        "images": [
+          "https://pbs.twimg.com/media/HXMjHvFWMAAhqHY.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1180,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXMjHvFWMAAhqHY.jpg?name=small",
+            "width": 1800
+          }
+        ],
+        "name": "ApoStructura",
+        "text": "The scale of Starship:",
+        "url": "https://x.com/ApoStructura/status/2122078470121435372",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 86,
+        "likes": 1395,
+        "quotes": 23,
+        "replies": 210,
+        "retweets": 185,
+        "views": 278605
+      },
+      "url": "https://x.com/elonmusk/status/2122141019894383027",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2122138555137110487",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-16T01:23:53.000Z",
@@ -45,7 +136,7 @@
       "id": "2122138040176894180",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-16T01:21:50.000Z",
@@ -95,7 +186,7 @@
       "id": "2122137991032529140",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-16T01:21:39.000Z",
@@ -986,121 +1077,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2122043427776819503",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-15T19:05:53.000Z",
-      "created_at_shanghai": "2026-11-16 03:05:53",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starlink",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-11-15 21:12:41",
-        "created_at_utc": "2026-11-15T13:12:41.000Z",
-        "id": "2121954541818310835",
-        "images": [
-          "https://pbs.twimg.com/media/HXKyZU6aMAAdX53.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HXKyZU6aMAAdX53.jpg?name=small",
-            "width": 2048
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Honduras’ government has installed 1,860 @Starlink antennas across 218 municipalities, prioritizing rural schools. 🇭🇳\n\nStarlink is bringing internet from space to remote classrooms, helping more children access a world of knowledge.",
-        "url": "https://x.com/cb_doge/status/2121954541818310835",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 110,
-        "likes": 6482,
-        "quotes": 47,
-        "replies": 620,
-        "retweets": 672,
-        "views": 904965
-      },
-      "url": "https://x.com/elonmusk/status/2122043427776819503",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2122043340044587303",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-15T19:05:32.000Z",
-      "created_at_shanghai": "2026-11-16 03:05:32",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "You work your ass off solving really hard problems day after day for decades, and this is what you get: anyone could have done it.\n\nAs an investor, I can tell you the limiting factor isn't investment. It's founder ability.",
-      "quote": null,
-      "retweet": {
-        "author": "paulg",
-        "avatar": "https://pbs.twimg.com/profile_images/1824002576/pg-railsconf_200x200.jpg",
-        "created_at_shanghai": "2026-11-16 02:26:32",
-        "created_at_utc": "2026-11-15T18:26:32.000Z",
-        "id": "2122033524857589799",
-        "images": [
-          "https://pbs.twimg.com/media/HXL6ETiXIAA8R9P.png?name=small"
-        ],
-        "media": [
-          {
-            "height": 288,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HXL6ETiXIAA8R9P.png?name=small",
-            "width": 591
-          }
-        ],
-        "name": "Paul Graham",
-        "text": "You work your ass off solving really hard problems day after day for decades, and this is what you get: anyone could have done it.\n\nAs an investor, I can tell you the limiting factor isn't investment. It's founder ability.",
-        "url": "https://x.com/paulg/status/2122033524857589799",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 899,
-        "likes": 13969,
-        "quotes": 95,
-        "replies": 626,
-        "retweets": 931,
-        "views": 535358
-      },
-      "url": "https://x.com/elonmusk/status/2122043340044587303",
-      "images": [
-        "https://pbs.twimg.com/media/HXL6ETiXIAA8R9P.png?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HXL6ETiXIAA8R9P.png?name=small",
-          "width": 591,
-          "height": 288
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2411,
+  "total": 2413,
   "total_pages": 121,
-  "updated_at_shanghai": "2026-11-16 09:28:16",
+  "updated_at_shanghai": "2026-11-16 09:39:12",
   "account": "elonmusk"
 }
