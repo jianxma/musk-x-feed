@@ -1,6 +1,63 @@
 {
   "posts": [
     {
+      "id": "2121802527524164015",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-15T03:08:38.000Z",
+      "created_at_shanghai": "2026-11-15 11:08:38",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Will the future that you want",
+      "quote": {
+        "author": "Geiger_Capital",
+        "avatar": "https://pbs.twimg.com/profile_images/1486812287730081794/FbqQsGVz_200x200.jpg",
+        "created_at_shanghai": "2026-11-15 08:58:56",
+        "created_at_utc": "2026-11-15T00:58:56.000Z",
+        "id": "2121769886770778182",
+        "images": [
+          "https://pbs.twimg.com/media/HXIKd3-W8AAVH8q.jpg?name=small",
+          "https://pbs.twimg.com/media/HXIKd4FXYAAlGVc.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1208,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXIKd3-W8AAVH8q.jpg?name=small",
+            "width": 1023
+          },
+          {
+            "height": 1152,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXIKd4FXYAAlGVc.jpg?name=small",
+            "width": 1018
+          }
+        ],
+        "name": "Geiger Capital",
+        "text": "Choose your path Western man.",
+        "url": "https://x.com/Geiger_Capital/status/2121769886770778182",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1229,
+        "likes": 41405,
+        "quotes": 238,
+        "replies": 1774,
+        "retweets": 3237,
+        "views": 2054047
+      },
+      "url": "https://x.com/elonmusk/status/2121802527524164015",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2121802386880753924",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1004,71 +1061,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121744423272988985",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T23:17:45.000Z",
-      "created_at_shanghai": "2026-11-15 07:17:45",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "",
-      "quote": null,
-      "retweet": {
-        "author": "johnkrausphotos",
-        "avatar": "https://pbs.twimg.com/profile_images/1867700283582627840/U4taTSNO_200x200.jpg",
-        "created_at_shanghai": "2026-11-15 06:39:35",
-        "created_at_utc": "2026-11-14T22:39:35.000Z",
-        "id": "2121734817524109692",
-        "images": [
-          "https://pbs.twimg.com/media/HXHqjesXkAAhN7P.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1250,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HXHqjesXkAAhN7P.jpg?name=small",
-            "width": 833
-          }
-        ],
-        "name": "John Kraus",
-        "text": "",
-        "url": "https://x.com/johnkrausphotos/status/2121734817524109692",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 66,
-        "likes": 1585,
-        "quotes": 11,
-        "replies": 57,
-        "retweets": 197,
-        "views": 37495
-      },
-      "url": "https://x.com/elonmusk/status/2121744423272988985",
-      "images": [
-        "https://pbs.twimg.com/media/HXHqjesXkAAhN7P.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HXHqjesXkAAhN7P.jpg?name=small",
-          "width": 833,
-          "height": 1250
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 20,
-  "total": 2433,
+  "total": 2434,
   "total_pages": 122,
-  "updated_at_shanghai": "2026-11-16 14:58:21",
+  "updated_at_shanghai": "2026-11-16 15:04:08",
   "account": "elonmusk"
 }
