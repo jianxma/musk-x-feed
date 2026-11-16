@@ -1,10 +1,83 @@
 {
   "posts": [
     {
-      "id": "2122164844107268542",
+      "id": "2122178893297905713",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-16T04:04:10.000Z",
+      "created_at_shanghai": "2026-11-16 12:04:10",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "The lesson of Icarus is not ‘don’t fly too close to the sun’ it’s ‘make better fucking wings’",
+      "quote": null,
+      "retweet": {
+        "author": "LukeLeisher",
+        "avatar": "https://pbs.twimg.com/profile_images/2121024678818893825/-ru33v2a_200x200.jpg",
+        "created_at_shanghai": "2026-11-15 11:13:41",
+        "created_at_utc": "2026-11-15T03:13:41.000Z",
+        "id": "2121803800482807822",
+        "images": [
+          "https://pbs.twimg.com/media/HXIpT24WwAA2NXb.jpg?name=small",
+          "https://pbs.twimg.com/media/HXIpT22WcAAC8y-.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 600,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXIpT24WwAA2NXb.jpg?name=small",
+            "width": 560
+          },
+          {
+            "height": 588,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXIpT22WcAAC8y-.jpg?name=small",
+            "width": 498
+          }
+        ],
+        "name": "Luke",
+        "text": "The lesson of Icarus is not ‘don’t fly too close to the sun’ it’s ‘make better fucking wings’",
+        "url": "https://x.com/LukeLeisher/status/2121803800482807822",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 212,
+        "likes": 3348,
+        "quotes": 12,
+        "replies": 49,
+        "retweets": 233,
+        "views": 87125
+      },
+      "url": "https://x.com/elonmusk/status/2122178893297905713",
+      "images": [
+        "https://pbs.twimg.com/media/HXIpT24WwAA2NXb.jpg?name=small",
+        "https://pbs.twimg.com/media/HXIpT22WcAAC8y-.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXIpT24WwAA2NXb.jpg?name=small",
+          "width": 560,
+          "height": 600
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXIpT22WcAAC8y-.jpg?name=small",
+          "width": 498,
+          "height": 588
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2122164844107268542",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-16T03:08:21.000Z",
@@ -67,7 +140,7 @@
       "id": "2122164455425327419",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-16T03:06:48.000Z",
@@ -130,7 +203,7 @@
       "id": "2122164224382447808",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-16T03:05:53.000Z",
@@ -182,7 +255,7 @@
       "id": "2122164088726016388",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-16T03:05:21.000Z",
@@ -241,7 +314,7 @@
       "id": "2122163777454166505",
       "author": "elonmusk",
       "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
       "created_at_utc": "2026-11-16T03:04:07.000Z",
@@ -975,53 +1048,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2122114501554086197",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-15T23:48:18.000Z",
-      "created_at_shanghai": "2026-11-16 07:48:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Let’s take this gentleman’s argument at face value that anyone can throw money at rockets and get something like Starship, Falcon or Dragon.\n\nPerhaps he can explain to everyone how SpaceX is able to catch giant starships from orbit with chopsticks and deliver 85% of all Earth payload to orbit with Falcon, while Blue Origin, which started before SpaceX and was funded by the immensely wealthy Jeff Bezos, is not yet able to launch reliably?\n\nAlso, why is it that Boeing and Lockheed received several times what SpaceX did from the government for development of their rockets and spacecraft, but the Boeing capsule is still not operational and ULA delivers less than 5% of SpaceX payload to orbit?\n\nI am genuinely curious about these questions.",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-16 07:47:27",
-        "created_at_utc": "2026-11-15T23:47:27.000Z",
-        "id": "2122114284779925897",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Let’s take this gentleman’s argument at face value that anyone can throw money at rockets and get something like Starship, Falcon or Dragon.\n\nPerhaps he can explain to everyone how SpaceX is able to catch giant starships from orbit with chopsticks and deliver 85% of all Earth payload to orbit with Falcon, while Blue Origin, which started before SpaceX and was funded by the immensely wealthy Jeff Bezos, is not yet able to launch reliably?\n\nAlso, why is it that Boeing and Lockheed received several times what SpaceX did from the government for development of their rockets and spacecraft, but the Boeing capsule is still not operational and ULA delivers less than 5% of SpaceX payload to orbit?\n\nI am genuinely curious about these questions.",
-        "url": "https://x.com/elonmusk/status/2122114284779925897",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "dhh",
-      "engagement": {
-        "bookmarks": 1695,
-        "likes": 31321,
-        "quotes": 371,
-        "replies": 2016,
-        "retweets": 3312,
-        "views": 809198
-      },
-      "url": "https://x.com/elonmusk/status/2122114501554086197",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 20,
-  "total": 2425,
+  "total": 2426,
   "total_pages": 122,
-  "updated_at_shanghai": "2026-11-16 11:13:04",
+  "updated_at_shanghai": "2026-11-16 12:08:41",
   "account": "elonmusk"
 }
