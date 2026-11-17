@@ -1,6 +1,106 @@
 {
   "posts": [
     {
+      "id": "2120102894817173862",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-10T10:34:54.000Z",
+      "created_at_shanghai": "2026-11-10 18:34:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon Musk just revealed a massive update on Grok 4.8, and SpaceXSI has completely rebuilt its reinforcement learning and inference infrastructure from scratch\n\nThe engineering team has abandoned JAX and SGLang, rewriting the entire RL and inference stack in C/C++\n\nHere’s where Grok 4.8 stands:\n\n• Pre-training is complete \n• Major cleanup of supervised fine-tuning data\n• Reinforcement learning now underway\n• Evaluation scores are starting to climb\n• Soft rollout to Grok Bot users planned for later this week\n\nAnd Elon also gave another imp update about Grok 4.8:\n\n“Grok 4.8 will bear no resemblance to 4.7 (thankfully)”\n\nHe also explained why the development took longer than expected:\n\n“It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special”\n\nThis is a fundamental engineering overhaul, not just another model upgrade\n\nSpaceXSI has rewritten the underlying infrastructure to build a much stronger foundation for Grok’s future development.\n\nAnd the first Grok Bot users are expected to get their hands on it this week",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 17:35:59",
+        "created_at_utc": "2026-11-10T09:35:59.000Z",
+        "id": "2120088070443655190",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "We have dumped JAX/SGLang and rewritten the entire RL and inference stack from scratch in C/C++, which took some extra time. \n\nTraining (aka pre-training) is done. Lot of cleanup was needed on the SFT data to get that mostly right. Now, 4.8 is in RL and the evals are starting to climb. We will do a soft rollout to Bot users later this week and see how it goes.\n\nGrok 4.8 will bear no resemblance to 4.7 (thankfully). It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special.",
+        "url": "https://x.com/elonmusk/status/2120088070443655190",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 18:01:28",
+        "created_at_utc": "2026-11-10T10:01:28.000Z",
+        "id": "2120094479797686513",
+        "images": [
+          "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 900,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small",
+            "width": 1008
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Elon Musk just revealed a massive update on Grok 4.8, and SpaceXSI has completely rebuilt its reinforcement learning and inference infrastructure from scratch\n\nThe engineering team has abandoned JAX and SGLang, rewriting the entire RL and inference stack in C/C++\n\nHere’s where Grok 4.8 stands:\n\n• Pre-training is complete \n• Major cleanup of supervised fine-tuning data\n• Reinforcement learning now underway\n• Evaluation scores are starting to climb\n• Soft rollout to Grok Bot users planned for later this week\n\nAnd Elon also gave another imp update about Grok 4.8:\n\n“Grok 4.8 will bear no resemblance to 4.7 (thankfully)”\n\nHe also explained why the development took longer than expected:\n\n“It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special”\n\nThis is a fundamental engineering overhaul, not just another model upgrade\n\nSpaceXSI has rewritten the underlying infrastructure to build a much stronger foundation for Grok’s future development.\n\nAnd the first Grok Bot users are expected to get their hands on it this week",
+        "url": "https://x.com/XFreeze/status/2120094479797686513",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 32,
+        "likes": 440,
+        "quotes": 2,
+        "replies": 42,
+        "retweets": 91,
+        "views": 49716
+      },
+      "url": "https://x.com/elonmusk/status/2120102894817173862",
+      "images": [
+        "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small",
+          "width": 1008,
+          "height": 900
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2120102767624880364",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-10T10:34:24.000Z",
+      "created_at_shanghai": "2026-11-10 18:34:24",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Turns out that the Starlink software, built for managing the movement of vast amounts of data through space and to the ground, is also very well suited to training super intelligence",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 106,
+        "likes": 1804,
+        "quotes": 59,
+        "replies": 487,
+        "retweets": 251,
+        "views": 358890
+      },
+      "url": "https://x.com/elonmusk/status/2120102767624880364",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2120101380144992635",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5255,99 +5355,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119134963790725377",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T18:28:41.000Z",
-      "created_at_shanghai": "2026-11-08 02:28:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "🚨 What happened to the California EV market?\n$7,500 new EV federal tax credit expired\n\nWho lost EV market share?\nModels people only bought for the tax credit\n\nWho gained EV market share?\nTesla: up 1,020 basis points",
-      "quote": null,
-      "retweet": {
-        "author": "ICannot_Enough",
-        "avatar": "https://pbs.twimg.com/profile_images/1334264832397291522/AR2jbpaD_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 21:37:03",
-        "created_at_utc": "2026-11-07T13:37:03.000Z",
-        "id": "2119061570995065335",
-        "images": [
-          "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 3700,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small",
-            "width": 2300
-          }
-        ],
-        "name": "James Stephenson",
-        "text": "🚨 What happened to the California EV market?\n$7,500 new EV federal tax credit expired\n\nWho lost EV market share?\nModels people only bought for the tax credit\n\nWho gained EV market share?\nTesla: up 1,020 basis points",
-        "url": "https://x.com/ICannot_Enough/status/2119061570995065335",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 31,
-        "likes": 698,
-        "quotes": 10,
-        "replies": 44,
-        "retweets": 100,
-        "views": 72668
-      },
-      "url": "https://x.com/elonmusk/status/2119134963790725377",
-      "images": [
-        "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small",
-          "width": 2300,
-          "height": 3700
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2119134648693322158",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T18:27:26.000Z",
-      "created_at_shanghai": "2026-11-08 02:27:26",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "SpaceX and Tesla have prospered in Texas, because we were not constantly operating under an oppressive and extractive state government. \n\nAnd I need to be close to the factories, so that I can walk the floor in person. That’s why the first major SpaceX factory was in LA and first major Tesla factory was in SF Bay Area.\n\nAs California became increasingly difficult, due to extreme taxes and overregulation, we moved our major domestic expansions and HQ to Texas.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "likes": 575,
-        "retweets": 80,
-        "replies": 94,
-        "bookmarks": 24,
-        "quotes": 6,
-        "views": 21154
-      },
-      "url": "https://x.com/elonmusk/status/2119134648693322158",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 100,
-  "total": 2515,
+  "total": 2517,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 00:34:21",
+  "updated_at_shanghai": "2026-11-18 00:48:05",
   "account": "elonmusk"
 }

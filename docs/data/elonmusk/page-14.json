@@ -1,6 +1,115 @@
 {
   "posts": [
     {
+      "id": "2112781132387529005",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T05:40:50.000Z",
+      "created_at_shanghai": "2026-10-21 13:40:50",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Congrats SpaceX team!",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-21 04:13:10",
+        "created_at_utc": "2026-10-20T20:13:10.000Z",
+        "id": "2112638276389790102",
+        "images": [
+          "https://pbs.twimg.com/media/HVGY6WqbEAAZNpZ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 3240,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVGY6WqbEAAZNpZ.jpg?name=small",
+            "width": 2478
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Q3 2026 highlights:\n- Delivered revenue of $14.6 billion, up 161% year-over-year\n\n- Successfully launched our first revenue-generating Starship mission, delivering 26 Starlink V3 satellites to our broadband constellation, representing approximately 10x the downlink capacity added by a Falcon 9 Starlink launch\n\n- Added $6.7 billion of incremental Super Intelligence solutions and infrastructure revenue year-over-year, driven by cloud services agreements, the acquisition of Cursor, and our growing SI models and software applications, including @Grok @Bot\n\n- Delivered year-over-year revenue growth of 69% and income from operations growth of 99% for the Connectivity segment, supported by strong momentum in enterprise and government adoption, and continued @Starlink consumer subscriber growth\n\n- Continued to scale nameplate compute, reaching 1.7 GW as of September 30, 2026",
+        "url": "https://x.com/SpaceX/status/2112638276389790102",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 58,
+        "likes": 2485,
+        "quotes": 27,
+        "replies": 377,
+        "retweets": 290,
+        "views": 425079
+      },
+      "url": "https://x.com/elonmusk/status/2112781132387529005",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2112779364303544352",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T05:33:48.000Z",
+      "created_at_shanghai": "2026-10-21 13:33:48",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We use Grok Bot to spot incidents in our support queue and quickly respond to every associated ticket.\n\nIn one incident, it cleared 204 tickets in about 10 minutes, with one engineer approving the batch.",
+      "quote": null,
+      "retweet": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-21 04:42:00",
+        "created_at_utc": "2026-10-20T20:42:00.000Z",
+        "id": "2112645531076096330",
+        "images": [
+          "https://pbs.twimg.com/media/HVGeeM2acAAOivv.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 3012,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVGeeM2acAAOivv.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "We use Grok Bot to spot incidents in our support queue and quickly respond to every associated ticket.\n\nIn one incident, it cleared 204 tickets in about 10 minutes, with one engineer approving the batch.",
+        "url": "https://x.com/bot/status/2112645531076096330",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 427,
+        "likes": 2593,
+        "quotes": 44,
+        "replies": 198,
+        "retweets": 179,
+        "views": 162339
+      },
+      "url": "https://x.com/elonmusk/status/2112779364303544352",
+      "images": [
+        "https://pbs.twimg.com/media/HVGeeM2acAAOivv.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVGeeM2acAAOivv.jpg?name=small",
+          "width": 4096,
+          "height": 3012
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2112770340942139675",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5190,112 +5299,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2111551063870570853",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-17T20:12:59.000Z",
-      "created_at_shanghai": "2026-10-18 04:12:59",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "The degree to which people in the West fall prey to suicidal empathy continues to astonish me. \n\nRead @GadSaad’s book about it!",
-      "quote": {
-        "author": "Ne_pas_couvrir",
-        "avatar": "https://pbs.twimg.com/profile_images/1383250983724019714/YOUeFrbi_200x200.jpg",
-        "created_at_shanghai": "2026-10-18 03:23:09",
-        "created_at_utc": "2026-10-17T19:23:09.000Z",
-        "id": "2111538525568930162",
-        "images": [],
-        "media": [],
-        "name": "Yuri Bezmenov's Ghost",
-        "text": "To be demoralized is to have your sense of reality so inverted that you fail to recognize you are in a state of war, mistake those attacking you for victims, and willingly assist them in undermining your own society while believing you are doing something good.",
-        "url": "https://x.com/Ne_pas_couvrir/status/2111538525568930162",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 259,
-        "likes": 8935,
-        "quotes": 46,
-        "replies": 753,
-        "retweets": 1239,
-        "views": 605925
-      },
-      "url": "https://x.com/elonmusk/status/2111551063870570853",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2111531984195354913",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-17T18:57:10.000Z",
-      "created_at_shanghai": "2026-10-18 02:57:10",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Teams encapsulated 32 payloads ahead of Falcon 9’s launch of the Bandwagon-5 rideshare mission from Florida → https://spacex.com/launches/bandwagon5",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-17 23:39:41",
-        "created_at_utc": "2026-10-17T15:39:41.000Z",
-        "id": "2111482288135446909",
-        "images": [
-          "https://pbs.twimg.com/media/HU19RN3XsAAZapQ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2000,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HU19RN3XsAAZapQ.jpg?name=small",
-            "width": 3000
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Teams encapsulated 32 payloads ahead of Falcon 9’s launch of the Bandwagon-5 rideshare mission from Florida → https://spacex.com/launches/bandwagon5",
-        "url": "https://x.com/SpaceX/status/2111482288135446909",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 92,
-        "likes": 4311,
-        "quotes": 71,
-        "replies": 234,
-        "retweets": 481,
-        "views": 527201
-      },
-      "url": "https://x.com/elonmusk/status/2111531984195354913",
-      "images": [
-        "https://pbs.twimg.com/media/HU19RN3XsAAZapQ.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HU19RN3XsAAZapQ.jpg?name=small",
-          "width": 3000,
-          "height": 2000
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 100,
-  "total": 2515,
+  "total": 2517,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 00:34:21",
+  "updated_at_shanghai": "2026-11-18 00:48:05",
   "account": "elonmusk"
 }
