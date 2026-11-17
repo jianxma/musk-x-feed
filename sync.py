@@ -17,6 +17,23 @@ import sys
 from feed_core import sync_incremental
 
 
+def publish_exit_code(accounts: list[dict], *, exported: bool, export_ok: bool) -> int:
+    """Exit 0 after a successful export even if one account fetch failed.
+
+    Callers that publish with ``set -e`` (the local Pages trigger) otherwise
+    skip ``git commit`` after ``CONTENT_CHANGED=yes``. A fetch gap is reported
+    with ``FETCH_INCOMPLETE=yes`` and does not roll back rows already upserted.
+    Export itself failing is still fatal. A fetch-only run (no export) stays
+    non-zero so the monitor notices the gap.
+    """
+    if exported and not export_ok:
+        return 1
+    fetch_failed = any(part.get("fetch_error") for part in accounts)
+    if fetch_failed and not (exported and export_ok):
+        return 1
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Incrementally sync every watched X account into SQLite"
@@ -32,7 +49,21 @@ def main() -> int:
         action="store_true",
         help="also write paginated docs/data/<handle> JSON for GitHub Pages",
     )
+    parser.add_argument(
+        "--export-only",
+        action="store_true",
+        help="write docs/data from the local SQLite DB without fetching",
+    )
     args = parser.parse_args()
+    if args.export_only:
+        from export_pages import export_pages
+
+        try:
+            export_pages()
+        except Exception as e:
+            print(f"FATAL: export failed: {e}", file=sys.stderr)
+            return 1
+        return 0
     try:
         result = sync_incremental(
             enrich_limit=max(0, args.enrich_limit),
@@ -75,18 +106,21 @@ def main() -> int:
                 f"SYNC_ACCOUNT @{handle} inserted={part.get('inserted')} "
                 f"updated={part.get('updated')} enriched={part.get('enriched')}"
             )
+    exported = False
+    export_ok = True
     if args.export:
         # Publish whichever account changed, even if the other fetch failed.
         from export_pages import export_pages
 
+        exported = True
         try:
             export_pages()
         except Exception as e:
             print(f"FATAL: export failed: {e}", file=sys.stderr)
-            return 1
+            export_ok = False
     if any(part.get("fetch_error") for part in accounts):
-        return 1
-    return 0
+        print("FETCH_INCOMPLETE=yes")
+    return publish_exit_code(accounts, exported=exported, export_ok=export_ok)
 
 
 if __name__ == "__main__":

@@ -3,8 +3,9 @@
 
 @elonmusk still comes from xtracker (list) plus api.fxtwitter.com (per-status
 enrich). Other watched accounts, starting with @rocketlab, use the FxTwitter
-v2 profile timeline (``/2/profile/{handle}/statuses``). xtracker returns 404
-for Rocket Lab.
+v2 profile timeline (``/2/profile/{screen_name}/statuses``). That path is
+case-sensitive: ``/rocketlab/`` is HTTP 404 and ``/RocketLab/`` is the live
+timeline. xtracker returns 404 for Rocket Lab, so it is not a Rocket Lab source.
 
 Retweets from api.fxtwitter.com come back as the *original* tweet with
 ``reposted_by`` set (the ``retweet`` object is often absent). Classification
@@ -60,6 +61,7 @@ SYNCED_ACCOUNTS: list[dict[str, Any]] = [
     },
     {
         "handle": "rocketlab",
+        "profile": "RocketLab",
         "name": "Rocket Lab",
         "avatar": DEFAULT_ROCKETLAB_AVATAR,
         "verified": True,
@@ -704,6 +706,31 @@ def _status_datetime(status: dict) -> datetime | None:
         return None
 
 
+def fxtwitter_profile_name(spec: dict | str) -> str:
+    """Screen name FxTwitter's profile route expects.
+
+    Watched handles are stored lowercase. ``api.fxtwitter.com/2/profile/rocketlab``
+    is HTTP 404; ``/RocketLab/`` is the timeline the monitor already uses.
+    """
+    if isinstance(spec, dict):
+        raw = str(spec.get("profile") or spec.get("handle") or "")
+    else:
+        raw = str(spec or "")
+    raw = raw.strip().lstrip("@")
+    if not raw:
+        raise RuntimeError("missing fxtwitter handle")
+    return raw
+
+
+def fxtwitter_timeline_url(profile: str, *, count: int = TIMELINE_PAGE_SIZE, cursor: str = "") -> str:
+    name = fxtwitter_profile_name(profile)
+    qs = urllib.parse.urlencode({"count": str(count)})
+    url = FXT_TIMELINE_URL.format(handle=urllib.parse.quote(name, safe="")) + "?" + qs
+    if cursor:
+        url += "&cursor=" + urllib.parse.quote(cursor, safe="")
+    return url
+
+
 def fetch_fxtwitter_statuses(
     handle: str,
     *,
@@ -712,22 +739,18 @@ def fetch_fxtwitter_statuses(
     max_pages: int = TIMELINE_MAX_PAGES,
     sleep_between: float = 0.1,
 ) -> list[dict]:
-    """Recent statuses from FxTwitter v2 ``/2/profile/{handle}/statuses``.
+    """Recent statuses from FxTwitter v2 ``/2/profile/{screen_name}/statuses``.
 
-    Pages until the window is older than ``days_back`` and at least ``min_posts``
-    are in hand (one page, so a quiet account still fills a site page).
+    ``handle`` may be a storage handle or the canonical screen name. Pages until
+    the window is older than ``days_back`` and at least ``min_posts`` are in
+    hand (one page, so a quiet account still fills a site page).
     """
-    handle = (handle or "").strip().lstrip("@")
-    if not handle:
-        raise RuntimeError("missing fxtwitter handle")
+    name = fxtwitter_profile_name(handle)
     cutoff = datetime.now(timezone.utc) - timedelta(days=days_back)
     collected: list[dict] = []
     cursor = ""
     for page in range(1, max_pages + 1):
-        qs = urllib.parse.urlencode({"count": str(TIMELINE_PAGE_SIZE)})
-        url = FXT_TIMELINE_URL.format(handle=urllib.parse.quote(handle)) + "?" + qs
-        if cursor:
-            url += "&cursor=" + urllib.parse.quote(cursor, safe="")
+        url = fxtwitter_timeline_url(name, cursor=cursor)
         data = http_json(url)
         if not isinstance(data, dict) or data.get("code") != 200:
             code = data.get("code") if isinstance(data, dict) else type(data)
@@ -845,7 +868,8 @@ def _sync_fxtwitter(dbmod: Any, spec: dict, *, sleep_between: float, verbose: bo
     where a later thin list upsert does not refresh engagement).
     """
     handle = str(spec["handle"])
-    statuses = fetch_fxtwitter_statuses(handle, sleep_between=sleep_between)
+    profile = fxtwitter_profile_name(spec)
+    statuses = fetch_fxtwitter_statuses(profile, sleep_between=sleep_between)
     built = posts_from_fxt_statuses(statuses, spec)
     known = dbmod.get_known_ids(account=handle)
     fresh = [post for post in built if post.get("id") and post["id"] not in known]

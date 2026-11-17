@@ -37,9 +37,14 @@ def main() -> int:
             print(f"SYNC_ACCOUNT @{handle} failed")
         else:
             print(f"SYNC_ACCOUNT @{handle} inserted={part.get('inserted')}")
-    export_pages()
-    if any(part.get("fetch_error") for part in result.get("accounts") or []):
+    try:
+        export_pages()
+    except Exception as e:
+        print(f"FATAL: export failed: {e}", file=sys.stderr)
         return 1
+    if any(part.get("fetch_error") for part in result.get("accounts") or []):
+        # Same contract as sync.py --export: the JSON is already written.
+        print("FETCH_INCOMPLETE=yes")
     return 0
 
 
