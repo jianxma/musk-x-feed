@@ -484,7 +484,7 @@ class DbTests(unittest.TestCase):
                 feed_core.enrich_one,
             ) = orig
         self.assertEqual([p["handle"] for p in result["accounts"]], ["elonmusk", "rocketlab"])
-        self.assertEqual(calls, ["elon", "rocketlab"])
+        self.assertEqual(calls, ["elon", "RocketLab"])
         elon = next(p for p in result["accounts"] if p["handle"] == "elonmusk")
         rocket = next(p for p in result["accounts"] if p["handle"] == "rocketlab")
         self.assertTrue(elon["fetch_error"])
@@ -689,6 +689,55 @@ class SpaContractTests(unittest.TestCase):
         self.assertIn("musk-x-feed-scroll", html)
         self.assertNotIn("bindReleaseStop", html)
         self.assertNotIn("overscroll-behavior: none", html)
+
+
+class PublishContractTests(unittest.TestCase):
+    def test_rocketlab_timeline_url_keeps_profile_casing(self):
+        from feed_core import SYNCED_ACCOUNTS, fxtwitter_timeline_url
+
+        spec = next(item for item in SYNCED_ACCOUNTS if item["handle"] == "rocketlab")
+        url = fxtwitter_timeline_url(spec)
+        self.assertIn("/2/profile/RocketLab/statuses?", url)
+        self.assertNotIn("/profile/rocketlab/", url)
+        self.assertEqual(spec["handle"], "rocketlab")
+
+    def test_publish_exit_code_keeps_successful_export(self):
+        import sync
+
+        failed = [{"handle": "rocketlab", "fetch_error": True}]
+        self.assertEqual(sync.publish_exit_code(failed, exported=True, export_ok=True), 0)
+        self.assertEqual(sync.publish_exit_code(failed, exported=False, export_ok=True), 1)
+        self.assertEqual(sync.publish_exit_code(failed, exported=True, export_ok=False), 1)
+        self.assertEqual(sync.publish_exit_code([], exported=True, export_ok=True), 0)
+
+    def test_export_only_does_not_fetch(self):
+        import export_pages
+        import sync
+
+        called = {"sync": 0, "export": 0}
+        orig_sync = sync.sync_incremental
+        orig_export = export_pages.export_pages
+
+        def boom(**_kwargs):
+            called["sync"] += 1
+            raise AssertionError("export-only must not fetch")
+
+        def exported(*_args, **_kwargs):
+            called["export"] += 1
+            return {"changed": False}
+
+        sync.sync_incremental = boom
+        export_pages.export_pages = exported
+        old_argv = sys.argv
+        sys.argv = ["sync.py", "--export-only"]
+        try:
+            code = sync.main()
+        finally:
+            sys.argv = old_argv
+            sync.sync_incremental = orig_sync
+            export_pages.export_pages = orig_export
+        self.assertEqual(code, 0)
+        self.assertEqual(called, {"sync": 0, "export": 1})
 
 
 if __name__ == "__main__":

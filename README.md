@@ -92,4 +92,12 @@ python3 export_pages.py
 
 转发卡片上方是「Elon Musk 转发了」，链接到 **马斯克自己的** status（`https://x.com/elonmusk/status/{platformId}`）。下面嵌套原作者、正文和媒体。引用用带边框的嵌套卡片，引用里的图片留在卡片内。
 
-`@elonmusk` 的列表来自 xtracker.polymarket.com，正文和媒体用 api.fxtwitter.com 补全。`@rocketlab` 不在 xtracker 上（该接口 404），时间线来自 FxTwitter v2 `https://api.fxtwitter.com/2/profile/RocketLab/statuses`，卡片字段与马斯克相同（正文、图片、视频、转发、引用）。时区 Asia/Shanghai。单次 enrich 失败会跳过，下次再试。仅供个人盯盘，请遵守各 API / X 的使用条款。
+`@elonmusk` 的列表来自 xtracker.polymarket.com，正文和媒体用 api.fxtwitter.com 补全。`@rocketlab` 不在 xtracker 上（该接口 404），时间线来自 FxTwitter v2 `https://api.fxtwitter.com/2/profile/RocketLab/statuses`。这条路径区分大小写，`/rocketlab/` 会返回 HTTP 404。卡片字段与马斯克相同（正文、图片、视频、转发、引用）。时区 Asia/Shanghai。单次 enrich 失败会跳过，下次再试。仅供个人盯盘，请遵守各 API / X 的使用条款。
+
+## 本机推到 Pages / Local publisher
+
+盯盘进程先跑 `/workspace/musk-feed/sync.py`（这份脚本不在本仓库里），再跑 `/workspace/musk-feed/trigger_pages_update.sh`。旧触发脚本会 `git checkout -B` 和 `git reset --hard`。检出里还有没推上去的 `docs/data` 或 `musk_feed.db` 时，checkout 直接失败，后面的提交也不会发生。Rocket Lab 用小写路径去抓时 HTTP 404，`sync.py --export` 非零退出，`set -e` 同样会在 `git commit` 之前停掉。
+
+`scripts/trigger_pages_update.sh` 不修改那份检出，也不为了发布再去抓 Rocket Lab。它把本地 SQLite 和检出里多出来的分页 JSON 并进一个单独的克隆：没有的 `(account, id)` 才插入，已有的行不覆盖，然后只跑 `export_pages.py`，再普通 `git push`（没有 `--force`）。认证用已经登录的 `gh`，或者 `GIT_ASKPASS` 读取 `GH_TOKEN` / `GITHUB_TOKEN` / `MUSK_X_FEED_GITHUB_TOKEN`。Token 不进 remote URL，也不写入 git config。若旧脚本把 token 留在 `http.extraheader` 里，新脚本会删掉这条配置并且不打印它的值。
+
+安装和把脏检出归档的步骤写在脚本开头。需要本机库里比 GitHub 更新的那些帖时，把 `MUSK_FEED_DB` 指到 `/workspace/musk-feed/sync.py` 实际写入的那个文件。两个默认路径（检出里的 `musk_feed.db` 和 `/workspace/musk-feed/musk_feed.db`）都会作为缺行来源并进去。

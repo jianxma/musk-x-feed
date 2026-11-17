@@ -38,9 +38,9 @@ jobs:
       - name: Incremental sync and static export
         id: build
         run: |
-          # Scrapes every watched account (elonmusk and rocketlab) and writes
-          # docs/data/<handle>/. A failed fetch exits non-zero after export so
-          # the other account can still be committed below.
+          # Scrapes every watched account and writes docs/data/<handle>/.
+          # A Rocket Lab (or other) fetch miss must not skip the commit: the
+          # export already ran. FETCH_INCOMPLETE is failed after the commit.
           set +e
           python sync.py --export > /tmp/build.log
           status=$?
@@ -50,7 +50,17 @@ jobs:
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
-          exit $status
+          if grep -q 'FETCH_INCOMPLETE=yes' /tmp/build.log; then
+            echo "fetch_incomplete=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "fetch_incomplete=false" >> "$GITHUB_OUTPUT"
+          fi
+          if [[ "$status" -ne 0 ]]; then
+            if grep -q 'FETCH_INCOMPLETE=yes' /tmp/build.log && grep -q 'CONTENT_CHANGED=' /tmp/build.log; then
+              exit 0
+            fi
+            exit "$status"
+          fi
 
       - name: Commit data if content changed
         if: always() && steps.build.outputs.changed == 'true'
@@ -64,3 +74,9 @@ jobs:
           fi
           git commit -m "chore: update X feed [skip ci]"
           git push
+
+      - name: Report incomplete fetch
+        if: always() && steps.build.outputs.fetch_incomplete == 'true'
+        run: |
+          echo "A watched-account fetch failed after export. Changed pages were still committed."
+          exit 1
