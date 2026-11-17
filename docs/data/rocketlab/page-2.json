@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2121469499031609589",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "organization",
+      "created_at_utc": "2026-11-14T05:05:18.000Z",
+      "created_at_shanghai": "2026-11-14 13:05:18",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "We've built 100 Electron rockets, powered by 999 Rutherford engines (one less than 1000 because we re-flew a recovered engine on our 40th launch).\n\nHere's more Electron facts and figures from Julian Spice LIVE at Range Control. 👇",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 4,
+        "likes": 110,
+        "quotes": 0,
+        "replies": 3,
+        "retweets": 11,
+        "views": 6704
+      },
+      "url": "https://x.com/rocketlab/status/2121469499031609589",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121468633092116480/img/SltbfZzIfxwA2cCT.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2121468633092116480/vid/avc1/1920x1080/HP-U0opONBagT4j_.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121468633092116480/img/SltbfZzIfxwA2cCT.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 94.35
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121467119686877394",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -672,113 +711,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2120728296208175401",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-11-12T04:00:01.000Z",
-      "created_at_shanghai": "2026-11-12 12:00:01",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Our 12th SAR satellite has successfully captured its first image 🛰️\nLaunched September 19, 2026, on @RocketLab’s Electron, the satellite acquired its first image over Rio de Janeiro, Perth, and Tokyo.\n\nRead the full announcement: https://www.synspective.com/news/12th_strix_firstimage/\n#SAR #EarthObservation #firstlight #StriX",
-      "quote": null,
-      "retweet": {
-        "author": "synspective",
-        "avatar": "https://pbs.twimg.com/profile_images/1856479550471057408/82--POHE_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 12:00:01",
-        "created_at_utc": "2026-11-12T04:00:01.000Z",
-        "id": "2120728296208175401",
-        "images": [
-          "https://pbs.twimg.com/media/HW4oWsRakAAZoBD.jpg?name=small",
-          "https://pbs.twimg.com/media/HW4olUebEAAGr9f.jpg?name=small",
-          "https://pbs.twimg.com/media/HW4opU-agAAQKTA.jpg?name=small",
-          "https://pbs.twimg.com/media/HW4orFAaQAA9JRN.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1690,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW4oWsRakAAZoBD.jpg?name=small",
-            "width": 3000
-          },
-          {
-            "height": 1386,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW4olUebEAAGr9f.jpg?name=small",
-            "width": 2576
-          },
-          {
-            "height": 1688,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW4opU-agAAQKTA.jpg?name=small",
-            "width": 3000
-          },
-          {
-            "height": 1382,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW4orFAaQAA9JRN.jpg?name=small",
-            "width": 2468
-          }
-        ],
-        "name": "Synspective",
-        "text": "Our 12th SAR satellite has successfully captured its first image 🛰️\nLaunched September 19, 2026, on @RocketLab’s Electron, the satellite acquired its first image over Rio de Janeiro, Perth, and Tokyo.\n\nRead the full announcement: https://www.synspective.com/news/12th_strix_firstimage/\n#SAR #EarthObservation #firstlight #StriX",
-        "url": "https://x.com/synspective/status/2120728296208175401",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 3,
-        "likes": 153,
-        "quotes": 7,
-        "replies": 2,
-        "retweets": 22,
-        "views": 6728
-      },
-      "url": "https://x.com/rocketlab",
-      "images": [
-        "https://pbs.twimg.com/media/HW4oWsRakAAZoBD.jpg?name=small",
-        "https://pbs.twimg.com/media/HW4olUebEAAGr9f.jpg?name=small",
-        "https://pbs.twimg.com/media/HW4opU-agAAQKTA.jpg?name=small",
-        "https://pbs.twimg.com/media/HW4orFAaQAA9JRN.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW4oWsRakAAZoBD.jpg?name=small",
-          "width": 3000,
-          "height": 1690
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW4olUebEAAGr9f.jpg?name=small",
-          "width": 2576,
-          "height": 1386
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW4opU-agAAQKTA.jpg?name=small",
-          "width": 3000,
-          "height": 1688
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW4orFAaQAA9JRN.jpg?name=small",
-          "width": 2468,
-          "height": 1382
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 20,
-  "total": 185,
+  "total": 188,
   "total_pages": 10,
-  "updated_at_shanghai": "2026-11-17 05:47:09",
+  "updated_at_shanghai": "2026-11-17 16:32:55",
   "account": "rocketlab"
 }
