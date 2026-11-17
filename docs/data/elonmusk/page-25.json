@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "2102454676688162857",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T17:47:11.000Z",
+      "created_at_shanghai": "2026-09-23 01:47:11",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I will admit, I am enjoying vibe coding. I may have been a teensy tiny bit wrong.",
+      "quote": null,
+      "retweet": {
+        "author": "notch",
+        "avatar": "https://pbs.twimg.com/profile_images/1523817638706700288/tVCx9ZP1_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 00:45:52",
+        "created_at_utc": "2026-09-22T16:45:52.000Z",
+        "id": "2102439244887453825",
+        "images": [],
+        "name": "notch",
+        "text": "I will admit, I am enjoying vibe coding. I may have been a teensy tiny bit wrong.",
+        "url": "https://x.com/notch/status/2102439244887453825",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1582,
+        "likes": 23960,
+        "quotes": 317,
+        "replies": 893,
+        "retweets": 959,
+        "views": 1589323
+      },
+      "url": "https://x.com/elonmusk/status/2102454676688162857",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102452256746701030",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4860,75 +4900,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2101517868995080418",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-20T01:52:00.000Z",
-      "created_at_shanghai": "2026-09-20 09:52:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Fairing separation confirmed. Today’s mission marks our first 40th flight of a fairing half!",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-09-20 09:52:00",
-        "created_at_utc": "2026-09-20T01:52:00.000Z",
-        "id": "2101489521615385011",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2101489385048879104/img/PkS8mE4RzLtV0tWQ.jpg"
-        ],
-        "media": [
-          {
-            "duration": 9.68,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101489385048879104/img/PkS8mE4RzLtV0tWQ.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2101489385048879104/vid/avc1/3840x2160/lc6rURi_AaWW4pC1.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Fairing separation confirmed. Today’s mission marks our first 40th flight of a fairing half!",
-        "url": "https://x.com/SpaceX/status/2101489521615385011",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 249,
-        "likes": 11272,
-        "quotes": 128,
-        "replies": 414,
-        "retweets": 1133,
-        "views": 1420494
-      },
-      "url": "https://x.com/elonmusk/status/2101517868995080418",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2101489385048879104/img/PkS8mE4RzLtV0tWQ.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2101489385048879104/vid/avc1/3840x2160/lc6rURi_AaWW4pC1.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101489385048879104/img/PkS8mE4RzLtV0tWQ.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 9.68
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 100,
-  "total": 2503,
+  "total": 2504,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-17 16:43:35",
+  "updated_at_shanghai": "2026-11-17 20:44:33",
   "account": "elonmusk"
 }
