@@ -170,6 +170,52 @@ class MergeTests(unittest.TestCase):
         self.assertEqual(monitor.read_bytes(), monitor_bytes)
         self.assertEqual(repo.read_bytes(), repo_bytes)
 
+    def test_monitor_database_does_not_drop_eva_rows_from_pages_db(self):
+        monitor = self._monitor_db("monitor-no-eva.db")
+        pages = self._repo_db("pages-with-eva.db")
+        conn = sqlite3.connect(pages)
+        conn.execute(
+            """INSERT INTO posts (
+                account, id, author, author_name, created_at_utc, type_label, text, url, enriched
+            ) VALUES (?,?,?,?,?,?,?,?,?)""",
+            (
+                "evavlaar",
+                "2122344327586426935",
+                "evavlaar",
+                "Eva Vlaardingerbroek",
+                "2026-11-16T15:01:33.000Z",
+                "原文",
+                "Berlin Christmas market 2026.",
+                "https://x.com/EvaVlaar/status/2122344327586426935",
+                1,
+            ),
+        )
+        conn.commit()
+        conn.close()
+        before = {path.name: path.read_bytes() for path in (monitor, pages)}
+        dest = self.root / "union-eva.db"
+        publisher.merge_databases(
+            monitor,
+            dest,
+            [pages],
+            [],
+            {"elonmusk", "rocketlab", "evavlaar"},
+        )
+        conn = sqlite3.connect(dest)
+        eva = conn.execute(
+            "SELECT text FROM posts WHERE account=? AND id=?",
+            ("evavlaar", "2122344327586426935"),
+        ).fetchone()
+        elon = conn.execute("SELECT COUNT(*) FROM posts WHERE account='elonmusk'").fetchone()[0]
+        rocket = conn.execute("SELECT COUNT(*) FROM posts WHERE account='rocketlab'").fetchone()[0]
+        conn.close()
+        self.assertIsNotNone(eva)
+        self.assertEqual(eva[0], "Berlin Christmas market 2026.")
+        self.assertGreaterEqual(elon, 1)
+        self.assertGreaterEqual(rocket, 1)
+        self.assertEqual(monitor.read_bytes(), before[monitor.name])
+        self.assertEqual(pages.read_bytes(), before[pages.name])
+
     def _monitor_db(self, name: str) -> Path:
         path = self.root / name
         conn = sqlite3.connect(path)

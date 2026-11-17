@@ -3,7 +3,7 @@
 
 Usage: python3 sync.py [--export]
 
-Default run scrapes @elonmusk and @rocketlab. ``--export`` writes
+Default run scrapes @elonmusk, @rocketlab, and @evavlaar. ``--export`` writes
 ``docs/data/<handle>/`` for each. One account failing does not skip the other
 or the export.
 """

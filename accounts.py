@@ -12,8 +12,9 @@ To add an account later:
 2. Put that account's pages at ``docs/data/<handle>/manifest.json`` and
    ``page-N.json`` (same shape as ``/api/feed``).
 3. ``sync.py --export`` writes that tree for handles in
-   ``feed_core.synced_handles``. Today that is ``elonmusk`` (xtracker) and
-   ``rocketlab`` (FxTwitter v2 timeline). Handles outside that set are left
+   ``feed_core.synced_handles``. Today that is ``elonmusk`` (xtracker),
+   ``rocketlab`` (FxTwitter ``/2/profile/RocketLab/statuses``), and
+   ``evavlaar`` (FxTwitter ``/2/profile/EvaVlaar/statuses``). Handles outside that set are left
    untouched under ``docs/data/<handle>/``.
 """
 

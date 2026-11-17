@@ -216,6 +216,23 @@ def export_all(page_size: int = PAGE_SIZE, data_root: Path | None = None) -> dic
             print(f"Skip @{handle}: no sync source; static files left in place")
             results.append({"handle": handle, "skipped": True, "changed": False})
             continue
+        # A watched account with an empty database must not erase pages that
+        # were already published. The monitor database only stores the original
+        # two accounts, so a later publish can see zero rows for a newer one.
+        existing_posts = _read_disk_posts(data_root / handle)
+        if not posts and existing_posts:
+            print(
+                f"Skip @{handle}: database has no rows; keeping {len(existing_posts)} posts on disk"
+            )
+            results.append(
+                {
+                    "handle": handle,
+                    "skipped": True,
+                    "changed": False,
+                    "preserved": len(existing_posts),
+                }
+            )
+            continue
         result = _export_dir(page_size, data_root / handle, posts, handle)
         result["skipped"] = False
         changed = changed or bool(result["changed"])
