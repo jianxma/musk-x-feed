@@ -51,7 +51,7 @@ python3 sync.py --export
 - `docs/data/<handle>/manifest.json`
 - `docs/data/<handle>/page-1.json`、`page-2.json`、…
 
-当前名单是 `@elonmusk`，然后 `@rocketlab`（目录 `docs/data/elonmusk/` 与 `docs/data/rocketlab/`）。handle 一律小写，和页面里的 `normalizeHandle` 一致。每页 JSON 与 `/api/feed` 同形（默认 100 条）。`docs/index.html` 先请求 `api/feed?account=<handle>`；没有这个接口时（即 github.io）就只读当前选中账号的分页文件。旧的扁平路径 `docs/data/manifest.json` + `docs/data/page-N.json` 仍可作为 `@elonmusk` 的后备。帖子内容没变时不写文件、也不产生空提交。
+当前名单是 `@elonmusk`、`@rocketlab`，然后 `@evavlaar`（艾娃，Eva Vlaardingerbroek）。目录是 `docs/data/elonmusk/`、`docs/data/rocketlab/` 与 `docs/data/evavlaar/`。handle 一律小写，和页面里的 `normalizeHandle` 一致。每页 JSON 与 `/api/feed` 同形（默认 100 条）。`docs/index.html` 先请求 `api/feed?account=<handle>`；没有这个接口时（即 github.io）就只读当前选中账号的分页文件。旧的扁平路径 `docs/data/manifest.json` + `docs/data/page-N.json` 仍可作为 `@elonmusk` 的后备。帖子内容没变时不写文件、也不产生空提交。标签前 4 个钉在横条上，所以这三个都会直接显示：Elon Musk、Rocket Lab、艾娃 `@evavlaar`。
 
 页面顶部用标签切换账号：名单前 4 个钉在横条上，其余进「更多」。当前是 Elon Musk 和 Rocket Lab 两个标签。上次选中的 handle 记在 `localStorage`（`musk-x-feed-account`）。定时任务每次都抓这两个账号；哪边有新帖，就更新 `docs/data/<handle>/` 并提交。一边的接口失败不会拦住另一边的导出。
 
@@ -59,7 +59,7 @@ python3 sync.py --export
 
 1. 在 `docs/data/accounts.json` 的 `accounts` 数组里追加一项，例如 `{"handle":"someuser","name":"Display Name","avatar":"https://..."}`。顺序就是标签顺序；第 5 个起进「更多」。不要在名单里放还没准备数据的占位账号。
 2. 为该 handle 提供 `docs/data/<handle>/manifest.json` 和 `page-N.json`（形状与现有页相同）。页面不用改，它会只加载当前选中的账号。
-3. 定时同步抓 `@elonmusk`（xtracker 列表 + fxtwitter 补全）和 `@rocketlab`（FxTwitter v2 `GET /2/profile/RocketLab/statuses`；xtracker 对该账号 404）。两者都进 `musk_feed.db` 的 `account` 列。`export_pages.posts_for_handle` 只对已接入的 handle 返回该账号自己的帖。别的 handle 返回 `None`，导出不会覆盖你已经放好的静态文件。
+3. 定时同步抓 `@elonmusk`（xtracker 列表 + fxtwitter 补全）、`@rocketlab`（FxTwitter v2 `GET /2/profile/RocketLab/statuses`；xtracker 对该账号 404）和 `@evavlaar`（FxTwitter v2 `GET /2/profile/EvaVlaar/statuses`，同样区分大小写）。三者都进 `musk_feed.db` 的 `account` 列。一个账号抓取失败不会清掉另外两个，也不会拦住导出。`export_pages.posts_for_handle` 只对已接入的 handle 返回该账号自己的帖。数据库里还没有这个账号的行、但磁盘上已经有分页时，导出不会把那些分页盖成空的。别的 handle 返回 `None`，导出不会覆盖你已经放好的静态文件。
 
 数据库 `musk_feed.db` 提交在仓库根目录，这样下一次 Actions 能接着增量 enrich，而不是每次把站点整页重做一遍。
 
@@ -92,7 +92,7 @@ python3 export_pages.py
 
 转发卡片上方是「Elon Musk 转发了」，链接到 **马斯克自己的** status（`https://x.com/elonmusk/status/{platformId}`）。下面嵌套原作者、正文和媒体。引用用带边框的嵌套卡片，引用里的图片留在卡片内。
 
-`@elonmusk` 的列表来自 xtracker.polymarket.com，正文和媒体用 api.fxtwitter.com 补全。`@rocketlab` 不在 xtracker 上（该接口 404），时间线来自 FxTwitter v2 `https://api.fxtwitter.com/2/profile/RocketLab/statuses`。这条路径区分大小写，`/rocketlab/` 会返回 HTTP 404。卡片字段与马斯克相同（正文、图片、视频、转发、引用）。时区 Asia/Shanghai。单次 enrich 失败会跳过，下次再试。仅供个人盯盘，请遵守各 API / X 的使用条款。
+`@elonmusk` 的列表来自 xtracker.polymarket.com，正文和媒体用 api.fxtwitter.com 补全。`@rocketlab` 和 `@evavlaar` 不走 xtracker。时间线分别来自 `https://api.fxtwitter.com/2/profile/RocketLab/statuses` 和 `https://api.fxtwitter.com/2/profile/EvaVlaar/statuses`。路径区分大小写。卡片字段相同（正文、图片、视频、转发、引用、互动数）。时区 Asia/Shanghai。单次 enrich 或某个账号的时间线失败会跳过该账号，下次再试，另外的账号照常写入。仅供个人盯盘，请遵守各 API / X 的使用条款。
 
 ## 本机推到 Pages / Local publisher
 
@@ -100,4 +100,4 @@ python3 export_pages.py
 
 `scripts/trigger_pages_update.sh` 不修改那份检出，也不为了发布再去抓 Rocket Lab。它把本地 SQLite 和检出里多出来的分页 JSON 并进一个单独的克隆：没有的 `(account, id)` 才插入，已有的行不覆盖，然后只跑 `export_pages.py`，再普通 `git push`（没有 `--force`）。认证用已经登录的 `gh`，或者 `GIT_ASKPASS` 读取 `GH_TOKEN` / `GITHUB_TOKEN` / `MUSK_X_FEED_GITHUB_TOKEN`。Token 不进 remote URL，也不写入 git config。若旧脚本把 token 留在 `http.extraheader` 里，新脚本会删掉这条配置并且不打印它的值。
 
-安装和把脏检出归档的步骤写在脚本开头。需要本机库里比 GitHub 更新的那些帖时，把 `MUSK_FEED_DB` 指到 `/workspace/musk-feed/sync.py` 实际写入的那个文件。两个默认路径（检出里的 `musk_feed.db` 和 `/workspace/musk-feed/musk_feed.db`）都会并进去。监控库没有 `account` 列，`author` 里的 `RocketLab` 会记成账号 `rocketlab`；它没有的头像、媒体、转发字段留空。检出里已经写过这些字段的行整行保留。两边都有的 id 保留更完整的那一行。缺的 id 才插入，包括只在监控库里的新帖。两个原始数据库都只读打开。
+安装和把脏检出归档的步骤写在脚本开头。需要本机库里比 GitHub 更新的那些帖时，把 `MUSK_FEED_DB` 指到 `/workspace/musk-feed/sync.py` 实际写入的那个文件。两个默认路径（检出里的 `musk_feed.db` 和 `/workspace/musk-feed/musk_feed.db`）都会并进去。监控库没有 `account` 列，而且目前只有 Elon 和 Rocket Lab；`author` 里的 `RocketLab` 会记成账号 `rocketlab`。`@evavlaar` 只存在于 Pages 数据库和 `docs/data/evavlaar/` 时也会被并进来，监控库缺这些行不会把她们删掉。检出里已经写过头像、媒体、转发字段的行整行保留。两边都有的 id 保留更完整的那一行。缺的 id 才插入。两个原始数据库都只读打开。

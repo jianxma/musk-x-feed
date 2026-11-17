@@ -47,6 +47,10 @@ DEFAULT_MUSK_AVATAR = (
 DEFAULT_ROCKETLAB_AVATAR = (
     "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg"
 )
+# From api.fxtwitter.com/EvaVlaar (avatar_url), upgraded _normal -> _200x200.
+DEFAULT_EVA_AVATAR = (
+    "https://pbs.twimg.com/profile_images/2076271674702405632/DfLkN7BC_200x200.jpg"
+)
 
 # source=xtracker keeps the Musk list+enrich path. source=fxtwitter reads the
 # v2 profile timeline in one shot (those payloads are already enriched).
@@ -66,6 +70,15 @@ SYNCED_ACCOUNTS: list[dict[str, Any]] = [
         "avatar": DEFAULT_ROCKETLAB_AVATAR,
         "verified": True,
         "verified_type": "organization",
+        "source": "fxtwitter",
+    },
+    {
+        "handle": "evavlaar",
+        "profile": "EvaVlaar",
+        "name": "艾娃",
+        "avatar": DEFAULT_EVA_AVATAR,
+        "verified": True,
+        "verified_type": "individual",
         "source": "fxtwitter",
     },
 ]
@@ -905,7 +918,7 @@ def sync_incremental(
     """Fetch every watched account into SQLite. Does not rewrite HTML.
 
     ``handles`` limits the run (lowercase). The default is every synced account
-    (``elonmusk`` and ``rocketlab``). One account's fetch error is recorded and
+    (``elonmusk``, ``rocketlab``, and ``evavlaar``). One account's fetch error is recorded and
     the others still run, so a new post on either side can be exported.
     """
     import db as dbmod

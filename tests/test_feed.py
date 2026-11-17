@@ -455,6 +455,24 @@ class DbTests(unittest.TestCase):
 
         def timeline(handle, **kwargs):
             calls.append(handle)
+            if handle == "EvaVlaar":
+                return [
+                    {
+                        "id": "2122344327586426935",
+                        "type": "status",
+                        "text": "Berlin Christmas market 2026.",
+                        "created_timestamp": 1763305293,
+                        "author": _author("Eva Vlaardingerbroek", "EvaVlaar"),
+                        "likes": 10,
+                        "reposts": 2,
+                        "quote": {
+                            "id": "1",
+                            "text": "quoted",
+                            "url": "https://x.com/someone/status/1",
+                            "author": _author("Someone", "someone"),
+                        },
+                    }
+                ]
             return [
                 {
                     "id": "900",
@@ -483,13 +501,17 @@ class DbTests(unittest.TestCase):
                 feed_core.fetch_fxtwitter_statuses,
                 feed_core.enrich_one,
             ) = orig
-        self.assertEqual([p["handle"] for p in result["accounts"]], ["elonmusk", "rocketlab"])
-        self.assertEqual(calls, ["elon", "RocketLab"])
+        self.assertEqual([p["handle"] for p in result["accounts"]], ["elonmusk", "rocketlab", "evavlaar"])
+        self.assertEqual(calls, ["elon", "RocketLab", "EvaVlaar"])
         elon = next(p for p in result["accounts"] if p["handle"] == "elonmusk")
         rocket = next(p for p in result["accounts"] if p["handle"] == "rocketlab")
+        eva = next(p for p in result["accounts"] if p["handle"] == "evavlaar")
         self.assertTrue(elon["fetch_error"])
         self.assertFalse(rocket.get("fetch_error"))
+        self.assertFalse(eva.get("fetch_error"))
         self.assertEqual(db.get_all_posts(account="rocketlab")[0]["text"], "Launch")
+        self.assertEqual(db.get_all_posts(account="evavlaar")[0]["text"], "Berlin Christmas market 2026.")
+        self.assertEqual(db.get_all_posts(account="evavlaar")[0]["quote"]["author"], "someone")
         self.assertEqual(db.get_all_posts(account="elonmusk"), [])
 
         def primary():
@@ -517,7 +539,9 @@ class DbTests(unittest.TestCase):
             ) = orig
         self.assertEqual(db.get_posts_page(1, 20, account="elonmusk")["posts"][0]["text"], "from elon")
         self.assertTrue(any(p.get("fetch_error") and p["handle"] == "rocketlab" for p in again["accounts"]))
+        self.assertTrue(any(p.get("fetch_error") and p["handle"] == "evavlaar" for p in again["accounts"]))
         self.assertEqual(db.get_all_posts(account="rocketlab")[0]["text"], "Launch")
+        self.assertEqual(db.get_all_posts(account="evavlaar")[0]["text"], "Berlin Christmas market 2026.")
 
 
 class ExportTests(unittest.TestCase):
@@ -609,13 +633,70 @@ class ExportTests(unittest.TestCase):
         self.assertFalse(second["changed"])
         self.assertTrue(any(item.get("handle") == "other" and item.get("skipped") for item in second["accounts"]))
 
+    def test_empty_database_does_not_erase_published_eva_pages(self):
+        root = Path(_TMP) / "keep-eva"
+        eva = root / "evavlaar"
+        eva.mkdir(parents=True)
+        page = {
+            "account": "evavlaar",
+            "page": 1,
+            "page_size": 100,
+            "total": 1,
+            "total_pages": 1,
+            "posts": [
+                {
+                    "id": "2122344327586426935",
+                    "author": "evavlaar",
+                    "text": "Berlin Christmas market 2026.",
+                    "type_label": "原文",
+                }
+            ],
+        }
+        (eva / "page-1.json").write_text(json.dumps(page), encoding="utf-8")
+        (eva / "manifest.json").write_text(
+            json.dumps({"account": "evavlaar", "page_size": 100, "total": 1, "total_pages": 1, "pages": ["page-1.json"]}),
+            encoding="utf-8",
+        )
+        (root / "accounts.json").write_text(
+            json.dumps(
+                {
+                    "accounts": [
+                        {"handle": "elonmusk", "name": "Elon Musk"},
+                        {"handle": "rocketlab", "name": "Rocket Lab"},
+                        {"handle": "evavlaar", "name": "艾娃"},
+                    ]
+                }
+            ),
+            encoding="utf-8",
+        )
+        db.upsert_posts(
+            [
+                {
+                    "id": "elon-1",
+                    "account": "elonmusk",
+                    "author": "elonmusk",
+                    "text": "elon stays",
+                    "created_at_utc": "2026-11-17T00:00:00.000Z",
+                    "type_label": "原文",
+                    "url": "https://x.com/elonmusk/status/elon-1",
+                    "enriched": True,
+                }
+            ]
+        )
+        export_pages.export_all(data_root=root)
+        kept = json.loads((eva / "page-1.json").read_text(encoding="utf-8"))
+        self.assertEqual(kept["posts"][0]["id"], "2122344327586426935")
+        elon_page = json.loads((root / "elonmusk" / "page-1.json").read_text(encoding="utf-8"))
+        self.assertEqual(elon_page["posts"][0]["text"], "elon stays")
+        self.assertEqual(elon_page["total"], 1)
+
 
 class AccountRegistryTests(unittest.TestCase):
     def test_normalize_and_seed(self):
         self.assertEqual(accounts.normalize_handle("@ElonMusk"), "elonmusk")
         self.assertEqual(accounts.normalize_handle("../etc"), "")
         self.assertEqual(accounts.normalize_handle("elon musk"), "")
-        self.assertEqual(accounts.live_handles(), {"elonmusk", "rocketlab"})
+        self.assertEqual(accounts.live_handles(), {"elonmusk", "rocketlab", "evavlaar"})
         missing = Path(_TMP) / "no-such-accounts.json"
         seeded = accounts.load_accounts(missing)
         self.assertEqual([a["handle"] for a in seeded], ["elonmusk"])
@@ -652,7 +733,9 @@ class SpaContractTests(unittest.TestCase):
         self.assertIn('id="statusText"', html)
         self.assertIn("backdrop-filter: blur(12px)", html)
         self.assertIn('data-handle="elonmusk"', html)
-        self.assertIn('data-handle="rocketlab"', html)
+        self.assertIn('data-handle="evavlaar"', html)
+        self.assertIn(">艾娃<", html)
+        self.assertIn("@evavlaar", html)
         self.assertIn("var PAGE_SIZE = 100;", html)
         self.assertIn("@elonmusk", html)
         self.assertIn("@rocketlab", html)
@@ -701,6 +784,12 @@ class PublishContractTests(unittest.TestCase):
         self.assertIn("/2/profile/RocketLab/statuses?", url)
         self.assertNotIn("/profile/rocketlab/", url)
         self.assertEqual(spec["handle"], "rocketlab")
+        eva = next(item for item in SYNCED_ACCOUNTS if item["handle"] == "evavlaar")
+        eva_url = fxtwitter_timeline_url(eva)
+        self.assertIn("/2/profile/EvaVlaar/statuses?", eva_url)
+        self.assertNotIn("/profile/evavlaar/", eva_url)
+        self.assertEqual(eva["source"], "fxtwitter")
+        self.assertEqual(eva["name"], "艾娃")
 
     def test_publish_exit_code_keeps_successful_export(self):
         import sync
