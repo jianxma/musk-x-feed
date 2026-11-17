@@ -26,7 +26,7 @@ from accounts import ensure_accounts_file, live_handles, load_accounts
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_DEST = ROOT / "docs" / "data"
-PAGE_SIZE = 20
+PAGE_SIZE = 100
 
 
 def content_fingerprint(posts: list[dict]) -> str:
@@ -52,6 +52,20 @@ def content_fingerprint(posts: list[dict]) -> str:
             }
         )
     return json.dumps(slim, ensure_ascii=False, sort_keys=True)
+
+
+def _manifest_page_size(dest: Path) -> int | None:
+    path = dest / "manifest.json"
+    if not path.is_file():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    try:
+        return int(data.get("page_size"))
+    except (TypeError, ValueError):
+        return None
 
 
 def _read_disk_posts(dest: Path) -> list[dict]:
@@ -131,7 +145,12 @@ def _export_dir(
     if dest.exists():
         keep = {f"page-{i}.json" for i in range(1, total_pages + 1)}
         stale = [p for p in dest.glob("page-*.json") if p.name not in keep]
-    changed = new_fp != old_fp or bool(stale) or not (dest / "manifest.json").exists()
+    changed = (
+        new_fp != old_fp
+        or bool(stale)
+        or not (dest / "manifest.json").exists()
+        or _manifest_page_size(dest) != page_size
+    )
 
     if changed:
         dest.mkdir(parents=True, exist_ok=True)

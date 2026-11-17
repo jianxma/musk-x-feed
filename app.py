@@ -4,7 +4,7 @@ Local Musk X feed server (SQLite + paginated API).
 
   python3 app.py
   GET /                              mobile-first timeline (docs/index.html)
-  GET /api/feed?page=1&page_size=20  paginated JSON from SQLite
+  GET /api/feed?page=1&page_size=100  paginated JSON from SQLite
 
 GitHub Pages cannot run this process. `python3 export_pages.py` writes the
 static JSON the same SPA reads when /api/feed is unavailable.
@@ -102,9 +102,9 @@ class Handler(SimpleHTTPRequestHandler):
             except ValueError:
                 page = 1
             try:
-                page_size = int((qs.get("page_size") or ["20"])[0])
+                page_size = int((qs.get("page_size") or ["100"])[0])
             except ValueError:
-                page_size = 20
+                page_size = 100
             account = normalize_handle((qs.get("account") or [DEFAULT_HANDLE])[0]) or DEFAULT_HANDLE
             # Unknown handles are static-only. 404 lets the SPA read
             # docs/data/<handle>/ instead of showing this database.
@@ -145,7 +145,7 @@ class Handler(SimpleHTTPRequestHandler):
                 {
                     "posts": [],
                     "page": 1,
-                    "page_size": 20,
+                    "page_size": 100,
                     "total": 0,
                     "total_pages": 1,
                     "updated_at_shanghai": now_shanghai(),
@@ -203,7 +203,7 @@ def main() -> None:
     server = ThreadingHTTPServer((HOST, PORT), Handler)
     print(f"musk-feed on http://{HOST}:{PORT}/")
     print(f"  UI  http://127.0.0.1:{PORT}/")
-    print(f"  API http://127.0.0.1:{PORT}/api/feed?page=1&page_size=20")
+    print(f"  API http://127.0.0.1:{PORT}/api/feed?page=1&page_size=100")
     try:
         server.serve_forever()
     except KeyboardInterrupt:

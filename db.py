@@ -513,9 +513,9 @@ def upsert_posts(posts: list[dict]) -> dict[str, int]:
     return {"inserted": inserted, "updated": updated}
 
 
-def get_posts_page(page: int = 1, page_size: int = 20, account: str | None = None) -> dict[str, Any]:
+def get_posts_page(page: int = 1, page_size: int = 100, account: str | None = None) -> dict[str, Any]:
     page = max(1, int(page or 1))
-    page_size = max(1, min(100, int(page_size or 20)))
+    page_size = max(1, min(100, int(page_size or 100)))
     total = count_posts(account)
     total_pages = max(1, math.ceil(total / page_size)) if total else 1
     if page > total_pages:
