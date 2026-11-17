@@ -100,4 +100,4 @@ python3 export_pages.py
 
 `scripts/trigger_pages_update.sh` 不修改那份检出，也不为了发布再去抓 Rocket Lab。它把本地 SQLite 和检出里多出来的分页 JSON 并进一个单独的克隆：没有的 `(account, id)` 才插入，已有的行不覆盖，然后只跑 `export_pages.py`，再普通 `git push`（没有 `--force`）。认证用已经登录的 `gh`，或者 `GIT_ASKPASS` 读取 `GH_TOKEN` / `GITHUB_TOKEN` / `MUSK_X_FEED_GITHUB_TOKEN`。Token 不进 remote URL，也不写入 git config。若旧脚本把 token 留在 `http.extraheader` 里，新脚本会删掉这条配置并且不打印它的值。
 
-安装和把脏检出归档的步骤写在脚本开头。需要本机库里比 GitHub 更新的那些帖时，把 `MUSK_FEED_DB` 指到 `/workspace/musk-feed/sync.py` 实际写入的那个文件。两个默认路径（检出里的 `musk_feed.db` 和 `/workspace/musk-feed/musk_feed.db`）都会作为缺行来源并进去。
+安装和把脏检出归档的步骤写在脚本开头。需要本机库里比 GitHub 更新的那些帖时，把 `MUSK_FEED_DB` 指到 `/workspace/musk-feed/sync.py` 实际写入的那个文件。两个默认路径（检出里的 `musk_feed.db` 和 `/workspace/musk-feed/musk_feed.db`）都会并进去。监控库没有 `account` 列，`author` 里的 `RocketLab` 会记成账号 `rocketlab`；它没有的头像、媒体、转发字段留空。检出里已经写过这些字段的行整行保留。两边都有的 id 保留更完整的那一行。缺的 id 才插入，包括只在监控库里的新帖。两个原始数据库都只读打开。

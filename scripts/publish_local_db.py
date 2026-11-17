@@ -3,8 +3,16 @@
 
 The Pages publisher starts from the canonical local database, then inserts
 ``(account, id)`` pairs that are missing from origin, from the monitor's
-database, and from paginated JSON still sitting in a dirty checkout. Existing
-rows are left as they are, including enriched text and media.
+database, and from paginated JSON still sitting in a dirty checkout.
+
+The live monitor database at ``/workspace/musk-feed/musk_feed.db`` is the older
+13-column table: ``id`` is the primary key and the handle lives in ``author``
+(``elonmusk`` or ``RocketLab``). It has no ``account``, ``retweet_json``,
+``media_json``, or avatar columns. Those rows are mapped onto the 20-column
+Pages schema. ``RocketLab`` becomes account ``rocketlab``. Columns the monitor
+does not have stay null. A Pages row that already has those fields is kept
+whole; a thinner monitor copy of the same post does not replace it. Neither
+source file is opened for writes.
 
 This file is stdlib only so the untracked runner can install it next to
 ``trigger_pages_update.sh`` before this branch is merged.
@@ -22,6 +30,67 @@ from pathlib import Path
 HANDLE_RE = re.compile(r"^[a-z0-9_]{1,15}$")
 COLUMN_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
 DEFAULT_ACCOUNTS = ("elonmusk", "rocketlab")
+# Same columns as db.py. Monitor rows leave the ones they do not store null.
+PAGES_COLUMNS = (
+    "account",
+    "id",
+    "author",
+    "author_name",
+    "author_avatar",
+    "author_verified",
+    "author_verified_type",
+    "created_at_utc",
+    "created_at_shanghai",
+    "type_label",
+    "text",
+    "quote_json",
+    "retweet_json",
+    "reply_to",
+    "engagement_json",
+    "url",
+    "images_json",
+    "media_json",
+    "enriched",
+    "updated_at",
+)
+RICH_FIELDS = (
+    "retweet_json",
+    "media_json",
+    "author_avatar",
+    "author_verified_type",
+    "reply_to",
+    "quote_json",
+    "images_json",
+    "engagement_json",
+    "text",
+    "author_verified",
+)
+PAGES_SCHEMA = """
+CREATE TABLE posts (
+    account TEXT NOT NULL DEFAULT 'elonmusk',
+    id TEXT NOT NULL,
+    author TEXT,
+    author_name TEXT,
+    author_avatar TEXT,
+    author_verified INTEGER DEFAULT 0,
+    author_verified_type TEXT,
+    created_at_utc TEXT,
+    created_at_shanghai TEXT,
+    type_label TEXT,
+    text TEXT,
+    quote_json TEXT,
+    retweet_json TEXT,
+    reply_to TEXT,
+    engagement_json TEXT,
+    url TEXT,
+    images_json TEXT,
+    media_json TEXT,
+    enriched INTEGER DEFAULT 0,
+    updated_at TEXT,
+    PRIMARY KEY (account, id)
+);
+CREATE INDEX idx_posts_account_created ON posts(account, created_at_utc DESC);
+"""
 
 
 def _quote_ident(name: str) -> str:
@@ -39,13 +108,84 @@ def connect(path: Path, *, readonly: bool = False) -> sqlite3.Connection:
     return sqlite3.connect(str(path))
 
 
-def table_columns(conn: sqlite3.Connection, schema: str | None = None) -> list[str]:
+def column_names(conn: sqlite3.Connection, schema: str | None = None) -> list[str]:
     prefix = f"{schema}." if schema else ""
     rows = conn.execute(f"PRAGMA {prefix}table_info(posts)").fetchall()
-    cols = [str(row[1]) for row in rows]
+    if not rows:
+        raise RuntimeError("posts table is missing")
+    return [str(row[1]) for row in rows]
+
+
+def table_columns(conn: sqlite3.Connection, schema: str | None = None) -> list[str]:
+    """Columns of a Pages-schema posts table (must include account and id)."""
+    cols = column_names(conn, schema)
     if "account" not in cols or "id" not in cols:
         raise RuntimeError("posts table is missing account or id")
     return cols
+
+
+def normalize_handle(value: object) -> str:
+    raw = str(value or "").strip()
+    if raw.startswith("@"):
+        raw = raw[1:]
+    return raw.strip().lower()
+
+
+def _filled(value: object) -> bool:
+    if value is None or isinstance(value, bool):
+        return bool(value)
+    if isinstance(value, (int, float)):
+        return value != 0
+    text = str(value).strip()
+    return text not in ("", "null", "[]", "{}", "None")
+
+
+def richness(row: dict) -> int:
+    """Prefer a row that still has media, retweet, or avatar fields.
+
+    The monitor table cannot store those columns, so its copy of a post is
+    always the thinner one.
+    """
+    return sum(2 for field in RICH_FIELDS if _filled(row.get(field)))
+
+
+def _drops_filled_fields(current: dict, projected: dict) -> bool:
+    """True when replacing ``current`` would blank a field it already has."""
+    for key, value in current.items():
+        if key in ("account", "id"):
+            continue
+        if _filled(value) and not _filled(projected.get(key)):
+            return True
+    return False
+
+
+def project_row(raw: dict, columns: list[str]) -> dict:
+    """Map one source row onto the Pages columns. Missing fields stay null."""
+    if "account" in columns and normalize_handle(raw.get("account")):
+        account = normalize_handle(raw.get("account"))
+    elif "author" in columns and normalize_handle(raw.get("author")):
+        account = normalize_handle(raw.get("author"))
+    else:
+        account = ""
+    post_id = str(raw.get("id") or "")
+    projected = {col: None for col in PAGES_COLUMNS}
+    projected["account"] = account
+    projected["id"] = post_id
+    for col in PAGES_COLUMNS:
+        if col in ("account", "id") or col not in columns:
+            continue
+        if raw.get(col) is not None:
+            projected[col] = raw.get(col)
+    author = projected.get("author")
+    if not _filled(author):
+        projected["author"] = account
+    elif normalize_handle(author) == account:
+        projected["author"] = account
+    if projected.get("author_verified") is None:
+        projected["author_verified"] = 0
+    if projected.get("enriched") is None:
+        projected["enriched"] = 0
+    return projected
 
 
 def _snapshot_files(src: Path, snapshot: Path) -> None:
@@ -105,38 +245,121 @@ def copy_db(src: Path, dest: Path) -> None:
                 side.unlink()
 
 
-def insert_missing(dest: Path, sources: list[Path]) -> int:
-    """Insert rows whose primary key is absent. Never UPDATE existing rows."""
+def peek_columns(path: Path) -> list[str]:
+    conn = connect(path, readonly=True)
+    try:
+        return column_names(conn)
+    finally:
+        conn.close()
+
+
+def iter_source_rows(path: Path):
+    """Read posts without writing ``path``.
+
+    Yields ``(account, id, pages_row)``. A monitor database has no ``account``
+    column; ``author`` ``RocketLab`` is stored as account ``rocketlab``.
+    """
+    if not path.is_file():
+        raise RuntimeError(f"missing database: {path}")
+    conn = connect(path, readonly=True)
+    try:
+        columns = column_names(conn)
+        if "id" not in columns:
+            raise RuntimeError(f"{path} posts table has no id column")
+        if "account" not in columns and "author" not in columns:
+            raise RuntimeError(f"{path} posts table has neither account nor author")
+        quoted = ", ".join(_quote_ident(col) for col in columns)
+        for row in conn.execute(f"SELECT {quoted} FROM posts"):
+            raw = {columns[index]: row[index] for index in range(len(columns))}
+            projected = project_row(raw, columns)
+            account = str(projected.get("account") or "")
+            post_id = str(projected.get("id") or "")
+            if not account or not post_id:
+                raise RuntimeError(f"{path} has a post with no id or author/account")
+            yield account, post_id, projected
+    finally:
+        conn.close()
+
+
+def _write_projected(conn: sqlite3.Connection, dest_cols: list[str], projected: dict, *, update: bool) -> None:
+    present = [col for col in dest_cols if col in projected]
+    if update:
+        changing = [col for col in present if col not in ("account", "id")]
+        assignments = ", ".join(f"{_quote_ident(col)}=?" for col in changing)
+        values = [projected[col] for col in changing]
+        values.extend([projected["account"], projected["id"]])
+        conn.execute(
+            f"UPDATE posts SET {assignments} WHERE {_quote_ident('account')}=? AND {_quote_ident('id')}=?",
+            values,
+        )
+        return
+    conn.execute(
+        f"INSERT INTO posts ({', '.join(_quote_ident(col) for col in present)}) "
+        f"VALUES ({', '.join('?' for _ in present)})",
+        [projected[col] for col in present],
+    )
+
+
+def create_pages_db(dest: Path) -> None:
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    if dest.exists():
+        dest.unlink()
+    for suffix in ("-wal", "-shm"):
+        side = Path(str(dest) + suffix)
+        if side.exists():
+            side.unlink()
+    conn = sqlite3.connect(str(dest))
+    try:
+        conn.executescript(PAGES_SCHEMA)
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def merge_source(dest: Path, src: Path) -> int:
+    """Insert ids ``dest`` lacks. Replace a row only when ``src`` is richer.
+
+    A monitor row never replaces a Pages row that already has retweet, media,
+    or avatar fields. Returns the number of newly inserted ids.
+    """
     inserted = 0
     conn = sqlite3.connect(str(dest))
     try:
-        dest_cols = table_columns(conn)
-        for index, src in enumerate(sources):
-            if not src.is_file():
-                raise RuntimeError(f"missing database: {src}")
-            alias = f"src{index}"
-            conn.execute("ATTACH DATABASE ? AS " + _quote_ident(alias), (str(src),))
-            try:
-                src_cols = table_columns(conn, alias)
-                common = [col for col in dest_cols if col in src_cols]
-                col_sql = ", ".join(_quote_ident(col) for col in common)
-                before = int(conn.execute("SELECT COUNT(*) FROM posts").fetchone()[0])
-                conn.execute(
-                    f"""INSERT INTO posts ({col_sql})
-                        SELECT {col_sql} FROM {_quote_ident(alias)}.posts AS s
-                        WHERE NOT EXISTS (
-                            SELECT 1 FROM posts AS p
-                            WHERE p.account = s.account AND p.id = s.id
-                        )"""
-                )
-                conn.commit()
-                after = int(conn.execute("SELECT COUNT(*) FROM posts").fetchone()[0])
-                inserted += after - before
-            finally:
-                conn.execute("DETACH DATABASE " + _quote_ident(alias))
+        dest_cols = column_names(conn)
+        if "account" not in dest_cols or "id" not in dest_cols:
+            raise RuntimeError(f"{dest} is not a Pages posts table")
+        quoted = ", ".join(_quote_ident(col) for col in dest_cols)
+        existing: dict[tuple[str, str], dict] = {}
+        for row in conn.execute(f"SELECT {quoted} FROM posts"):
+            current = {dest_cols[index]: row[index] for index in range(len(dest_cols))}
+            existing[(str(current["account"]), str(current["id"]))] = current
+        for account, post_id, projected in iter_source_rows(src):
+            key = (account, post_id)
+            current = existing.get(key)
+            if current is None:
+                _write_projected(conn, dest_cols, projected, update=False)
+                existing[key] = {col: projected.get(col) for col in dest_cols}
+                inserted += 1
+                continue
+            if _drops_filled_fields(current, projected):
+                continue
+            if richness(projected) > richness(current):
+                _write_projected(conn, dest_cols, projected, update=True)
+                existing[key] = {col: projected.get(col) for col in dest_cols}
+        conn.commit()
         return inserted
     finally:
         conn.close()
+
+
+def materialize_base(base: Path, dest: Path) -> None:
+    """Copy ``base`` into ``dest``. A monitor file is rewritten to Pages columns."""
+    columns = peek_columns(base)
+    if "account" in columns:
+        copy_db(base, dest)
+        return
+    create_pages_db(dest)
+    merge_source(dest, base)
 
 
 def _posts_in_dir(directory: Path, account: str) -> list[dict]:
@@ -241,15 +464,7 @@ def insert_missing_posts(dest: Path, posts: list[dict]) -> int:
 
 
 def post_keys(path: Path) -> set[tuple[str, str]]:
-    conn = connect(path, readonly=True)
-    try:
-        table_columns(conn)
-        return {
-            (str(account), str(post_id))
-            for account, post_id in conn.execute("SELECT account, id FROM posts")
-        }
-    finally:
-        conn.close()
+    return {(account, post_id) for account, post_id, _row in iter_source_rows(path)}
 
 
 def missing_keys(dest: Path, sources: list[Path], posts: list[dict]) -> list[tuple[str, str]]:
@@ -277,17 +492,17 @@ def db_keys_for_accounts(path: Path, accounts: set[str]) -> set[tuple[str, str]]
 
 
 def latest_id(path: Path, account: str) -> str:
-    conn = connect(path, readonly=True)
-    try:
-        columns = table_columns(conn)
-        order = "created_at_utc DESC" if "created_at_utc" in columns else "id DESC"
-        row = conn.execute(
-            f"SELECT id FROM posts WHERE account = ? ORDER BY {order} LIMIT 1",
-            (account,),
-        ).fetchone()
-        return str(row[0]) if row else ""
-    finally:
-        conn.close()
+    wanted = normalize_handle(account)
+    best_id = ""
+    best_created = ""
+    for row_account, post_id, projected in iter_source_rows(path):
+        if row_account != wanted:
+            continue
+        created = str(projected.get("created_at_utc") or "")
+        if created >= best_created:
+            best_created = created
+            best_id = post_id
+    return best_id
 
 
 def merge_databases(
@@ -297,8 +512,10 @@ def merge_databases(
     json_roots: list[Path],
     accounts: set[str],
 ) -> dict[str, int]:
-    copy_db(base, dest)
-    from_db = insert_missing(dest, sources)
+    materialize_base(base, dest)
+    from_db = 0
+    for src in sources:
+        from_db += merge_source(dest, src)
     posts = posts_from_json(json_roots, accounts)
     from_json = insert_missing_posts(dest, posts)
     absent = missing_keys(dest, [base, *sources], posts)
