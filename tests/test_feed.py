@@ -653,6 +653,7 @@ class SpaContractTests(unittest.TestCase):
         self.assertIn("backdrop-filter: blur(12px)", html)
         self.assertIn('data-handle="elonmusk"', html)
         self.assertIn('data-handle="rocketlab"', html)
+        self.assertIn("var PAGE_SIZE = 100;", html)
         self.assertIn("@elonmusk", html)
         self.assertIn("@rocketlab", html)
         self.assertIn("overflow-x: auto", html)
@@ -738,6 +739,134 @@ class PublishContractTests(unittest.TestCase):
             export_pages.export_pages = orig_export
         self.assertEqual(code, 0)
         self.assertEqual(called, {"sync": 0, "export": 1})
+
+
+class PageSizeTests(unittest.TestCase):
+    def setUp(self):
+        if db.DB_PATH.exists():
+            db.DB_PATH.unlink()
+        db.FEED_JSON = Path(_TMP) / "no-seed-feed.json"
+        db.init_db()
+
+    def _posts(self, account: str, count: int, start: int = 0):
+        rows = []
+        for offset in range(count):
+            n = start + offset
+            rows.append(
+                {
+                    "id": f"{account}-{n:05d}",
+                    "account": account,
+                    "author": account,
+                    "author_name": account,
+                    "created_at_utc": (
+                        f"2026-06-01T{(n // 3600) % 24:02d}:{(n // 60) % 60:02d}:{n % 60:02d}.000Z"
+                    ),
+                    "created_at_shanghai": "2026-06-01 08:00:00",
+                    "type_label": "原文",
+                    "text": f"{account} post {n}",
+                    "url": f"https://x.com/{account}/status/{n}",
+                    "enriched": True,
+                    "engagement": {"likes": n},
+                }
+            )
+        return rows
+
+    def test_default_is_one_hundred(self):
+        self.assertEqual(export_pages.PAGE_SIZE, 100)
+        html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+        self.assertIn("var PAGE_SIZE = 100;", html)
+        self.assertNotIn("var PAGE_SIZE = 20;", html)
+
+    def test_page_one_and_last_page_cover_every_post_once(self):
+        import time
+
+        db.upsert_posts(self._posts("elonmusk", 250) + self._posts("rocketlab", 30, start=1000))
+        dest = Path(_TMP) / "pages-100"
+        dest.mkdir(parents=True)
+        (dest / "accounts.json").write_text(
+            json.dumps(
+                {
+                    "accounts": [
+                        {"handle": "elonmusk", "name": "Elon Musk", "avatar": ""},
+                        {"handle": "rocketlab", "name": "Rocket Lab", "avatar": ""},
+                    ]
+                }
+            ),
+            encoding="utf-8",
+        )
+        started = time.perf_counter()
+        result = export_pages.export_all(data_root=dest)
+        elapsed = time.perf_counter() - started
+        self.assertLess(elapsed, 3.0, f"export took {elapsed:.2f}s")
+        self.assertTrue(result["changed"])
+
+        elon_ids = self._assert_pages(dest / "elonmusk", "elonmusk", 250)
+        rocket_ids = self._assert_pages(dest / "rocketlab", "rocketlab", 30)
+        self.assertTrue(set(elon_ids).isdisjoint(rocket_ids))
+        ordered = [p["id"] for p in db.get_all_posts(account="elonmusk")]
+        self.assertEqual(elon_ids, ordered)
+
+        api_first = db.get_posts_page(1, account="elonmusk")
+        api_last = db.get_posts_page(99, account="elonmusk")
+        self.assertEqual(api_first["page_size"], 100)
+        self.assertEqual(api_first["total"], 250)
+        self.assertEqual(api_first["total_pages"], 3)
+        self.assertEqual(len(api_first["posts"]), 100)
+        self.assertEqual([p["id"] for p in api_first["posts"]], elon_ids[:100])
+        self.assertEqual(api_last["page"], 3)
+        self.assertEqual(len(api_last["posts"]), 50)
+        self.assertEqual([p["id"] for p in api_last["posts"]], elon_ids[200:])
+        self.assertTrue(all(p.get("author") == "elonmusk" for p in api_first["posts"]))
+        rocket_page = db.get_posts_page(1, account="rocketlab")
+        self.assertEqual(rocket_page["total"], 30)
+        self.assertTrue(all(p.get("author") == "rocketlab" for p in rocket_page["posts"]))
+
+    def test_page_size_change_rewrites_even_when_posts_fit_one_page(self):
+        db.upsert_posts(self._posts("elonmusk", 5))
+        dest = Path(_TMP) / "resize"
+        first = export_pages.export_all(page_size=20, data_root=dest)
+        self.assertTrue(first["changed"])
+        self.assertEqual(
+            json.loads((dest / "elonmusk" / "manifest.json").read_text(encoding="utf-8"))["page_size"],
+            20,
+        )
+        second = export_pages.export_all(page_size=100, data_root=dest)
+        self.assertTrue(second["changed"])
+        manifest = json.loads((dest / "elonmusk" / "manifest.json").read_text(encoding="utf-8"))
+        page = json.loads((dest / "elonmusk" / "page-1.json").read_text(encoding="utf-8"))
+        self.assertEqual(manifest["page_size"], 100)
+        self.assertEqual(page["page_size"], 100)
+        self.assertEqual(page["total"], 5)
+        self.assertEqual(len(page["posts"]), 5)
+        third = export_pages.export_all(page_size=100, data_root=dest)
+        self.assertFalse(third["changed"])
+
+    def _assert_pages(self, dest: Path, account: str, total: int) -> list[str]:
+        manifest = json.loads((dest / "manifest.json").read_text(encoding="utf-8"))
+        self.assertEqual(manifest["account"], account)
+        self.assertEqual(manifest["page_size"], 100)
+        self.assertEqual(manifest["total"], total)
+        expected_pages = max(1, (total + 99) // 100)
+        self.assertEqual(manifest["total_pages"], expected_pages)
+        self.assertEqual(manifest["pages"], [f"page-{i}.json" for i in range(1, expected_pages + 1)])
+        seen: list[str] = []
+        for number, name in enumerate(manifest["pages"], start=1):
+            payload = json.loads((dest / name).read_text(encoding="utf-8"))
+            self.assertEqual(payload["page"], number)
+            self.assertEqual(payload["page_size"], 100)
+            self.assertEqual(payload["total"], total)
+            self.assertEqual(payload["total_pages"], expected_pages)
+            self.assertEqual(payload["account"], account)
+            chunk = payload["posts"]
+            if number < expected_pages:
+                self.assertEqual(len(chunk), 100)
+            else:
+                self.assertEqual(len(chunk), total - 100 * (expected_pages - 1))
+            self.assertTrue(all((post.get("account") or post.get("author")) == account for post in chunk))
+            seen.extend(post["id"] for post in chunk)
+        self.assertEqual(len(seen), total)
+        self.assertEqual(len(set(seen)), total)
+        return seen
 
 
 if __name__ == "__main__":
