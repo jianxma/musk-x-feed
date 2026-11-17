@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2109673221591302626",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T15:51:06.000Z",
+      "created_at_shanghai": "2026-10-12 23:51:06",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Open standards are the foundation for AI factories that can scale from megawatts to gigawatts.\n\nAt #OCPSummit26, we contributed the NVIDIA Vera Rubin NVL72 rack and compute tray designs to @OpenComputePrj through the open 3rd generation NVIDIA MGX architecture.\n\nWe also announced advances across open source software, AI networking, pluggable optics, facility design standards and more, giving the industry a common foundation for next-generation AI factories.\n\nLearn more: https://nvda.ws/4hSAOsb",
+      "quote": null,
+      "retweet": {
+        "author": "NVIDIAAIInfra",
+        "avatar": "https://pbs.twimg.com/profile_images/1859346502243713026/NzLZW_Ag_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 23:01:09",
+        "created_at_utc": "2026-10-12T15:01:09.000Z",
+        "id": "2109660650423091650",
+        "images": [
+          "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1080,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small",
+            "width": 1920
+          }
+        ],
+        "name": "NVIDIA AI Infrastructure",
+        "text": "Open standards are the foundation for AI factories that can scale from megawatts to gigawatts.\n\nAt #OCPSummit26, we contributed the NVIDIA Vera Rubin NVL72 rack and compute tray designs to @OpenComputePrj through the open 3rd generation NVIDIA MGX architecture.\n\nWe also announced advances across open source software, AI networking, pluggable optics, facility design standards and more, giving the industry a common foundation for next-generation AI factories.\n\nLearn more: https://nvda.ws/4hSAOsb",
+        "url": "https://x.com/NVIDIAAIInfra/status/2109660650423091650",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 696,
+        "quotes": 12,
+        "replies": 64,
+        "retweets": 113,
+        "views": 147159
+      },
+      "url": "https://x.com/elonmusk/status/2109673221591302626",
+      "images": [
+        "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUcFLeFXUAATXdy.jpg?name=small",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2109672692760948972",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5413,71 +5472,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108396951246958649",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-09T03:19:39.000Z",
-      "created_at_shanghai": "2026-10-09 11:19:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Tesla Super Intelligence is the only one dedicated to solving real-world intelligence, from large-scale bits to atoms.",
-      "quote": null,
-      "retweet": {
-        "author": "yunta_tsai",
-        "avatar": "https://pbs.twimg.com/profile_images/2035915849819938816/b6kIsNMe_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 10:02:34",
-        "created_at_utc": "2026-10-09T02:02:34.000Z",
-        "id": "2108377550116503695",
-        "images": [
-          "https://pbs.twimg.com/media/HUJ2NWYbkAAcpy2.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 960,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUJ2NWYbkAAcpy2.jpg?name=small",
-            "width": 1206
-          }
-        ],
-        "name": "Yun-Ta Tsai",
-        "text": "Tesla Super Intelligence is the only one dedicated to solving real-world intelligence, from large-scale bits to atoms.",
-        "url": "https://x.com/yunta_tsai/status/2108377550116503695",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 43,
-        "likes": 1834,
-        "quotes": 19,
-        "replies": 115,
-        "retweets": 185,
-        "views": 281942
-      },
-      "url": "https://x.com/elonmusk/status/2108396951246958649",
-      "images": [
-        "https://pbs.twimg.com/media/HUJ2NWYbkAAcpy2.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUJ2NWYbkAAcpy2.jpg?name=small",
-          "width": 1206,
-          "height": 960
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 100,
-  "total": 2510,
+  "total": 2511,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-17 21:15:19",
+  "updated_at_shanghai": "2026-11-18 00:12:58",
   "account": "elonmusk"
 }

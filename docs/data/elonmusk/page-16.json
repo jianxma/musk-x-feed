@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110832405426933893",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T20:37:17.000Z",
+      "created_at_shanghai": "2026-10-16 04:37:17",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Makes sense",
+      "quote": {
+        "author": "tylerpalmer",
+        "avatar": "https://pbs.twimg.com/profile_images/2108324403293626368/nXmId6IP_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 23:56:57",
+        "created_at_utc": "2026-10-15T15:56:57.000Z",
+        "id": "2110761858231935251",
+        "images": [],
+        "media": [],
+        "name": "Tyler Palmer",
+        "text": "imagine an Amazon competitor that is:\n\n1) agent first - built for personal agents \n2) america first - sells only products from usa\n\nmight actually be a huge market for this.",
+        "url": "https://x.com/tylerpalmer/status/2110761858231935251",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 340,
+        "likes": 11522,
+        "quotes": 106,
+        "replies": 1168,
+        "retweets": 1013,
+        "views": 799906
+      },
+      "url": "https://x.com/elonmusk/status/2110832405426933893",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110832317727973501",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5429,75 +5470,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110402603008049460",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T16:09:24.000Z",
-      "created_at_shanghai": "2026-10-15 00:09:24",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Starlink connects families in rural areas. Seamlessly stream, game, study, and more with speeds up to 400+ Mbps. \n\nLearn more here.",
-      "quote": null,
-      "retweet": {
-        "author": "Starlink",
-        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 12:16:59",
-        "created_at_utc": "2026-10-14T04:16:59.000Z",
-        "id": "2110223317416423775",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110220657602752512/img/K6zEg3j91OALbNfP.jpg"
-        ],
-        "media": [
-          {
-            "duration": 90.09,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110220657602752512/img/K6zEg3j91OALbNfP.jpg",
-            "type": "video",
-            "url": "https://video-s.twimg.com/amplify_video/2110220657602752512/vid/avc1/1280x720/vnEbFt_ql7sneV9j.mp4?tag=14",
-            "width": 3840
-          }
-        ],
-        "name": "Starlink",
-        "text": "Starlink connects families in rural areas. Seamlessly stream, game, study, and more with speeds up to 400+ Mbps. \n\nLearn more here.",
-        "url": "https://x.com/Starlink/status/2110223317416423775",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 31,
-        "likes": 573,
-        "quotes": 3,
-        "replies": 58,
-        "retweets": 93,
-        "views": 2898163
-      },
-      "url": "https://x.com/elonmusk/status/2110402603008049460",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110220657602752512/img/K6zEg3j91OALbNfP.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video-s.twimg.com/amplify_video/2110220657602752512/vid/avc1/1280x720/vnEbFt_ql7sneV9j.mp4?tag=14",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110220657602752512/img/K6zEg3j91OALbNfP.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 90.09
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 100,
-  "total": 2510,
+  "total": 2511,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-17 21:15:19",
+  "updated_at_shanghai": "2026-11-18 00:12:58",
   "account": "elonmusk"
 }
