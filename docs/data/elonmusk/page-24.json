@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2104286931194704092",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:07:54.000Z",
+      "created_at_shanghai": "2026-09-28 03:07:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Sam Altman was asked in 2023: “You have an incredible amount of power at this moment. Why should we trust you?”\n\nSam responds: “You shouldn’t.”\n\nNothing has changed. OpenAI isn’t to be trusted.",
+      "quote": null,
+      "retweet": {
+        "author": "KatieMiller",
+        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 21:58:35",
+        "created_at_utc": "2026-09-27T13:58:35.000Z",
+        "id": "2104209088636666348",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg"
+        ],
+        "media": [
+          {
+            "duration": 13.869,
+            "height": 746,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104209046848884736/vid/avc1/1320x746/Mt3wCnTGu720GZd3.mp4?tag=29",
+            "width": 1320
+          }
+        ],
+        "name": "Katie Miller",
+        "text": "Sam Altman was asked in 2023: “You have an incredible amount of power at this moment. Why should we trust you?”\n\nSam responds: “You shouldn’t.”\n\nNothing has changed. OpenAI isn’t to be trusted.",
+        "url": "https://x.com/KatieMiller/status/2104209088636666348",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 55,
+        "likes": 1331,
+        "quotes": 14,
+        "replies": 92,
+        "retweets": 215,
+        "views": 68427
+      },
+      "url": "https://x.com/elonmusk/status/2104286931194704092",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2104209046848884736/vid/avc1/1320x746/Mt3wCnTGu720GZd3.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg",
+          "width": 1320,
+          "height": 746,
+          "duration": 13.869
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2104286638079676914",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -6117,53 +6180,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102839221593710678",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T19:15:13.000Z",
-      "created_at_shanghai": "2026-09-24 03:15:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "SpaceXAI",
-      "quote": {
-        "author": "willdepue",
-        "avatar": "https://pbs.twimg.com/profile_images/1933036715343839232/NtsZBjee_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 01:45:33",
-        "created_at_utc": "2026-09-23T17:45:33.000Z",
-        "id": "2102816654208233574",
-        "images": [],
-        "media": [],
-        "name": "will depue",
-        "text": "wow big move. troy and eric are truly world-class",
-        "url": "https://x.com/willdepue/status/2102816654208233574",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 83,
-        "likes": 3366,
-        "quotes": 43,
-        "replies": 656,
-        "retweets": 435,
-        "views": 1161141
-      },
-      "url": "https://x.com/elonmusk/status/2102839221593710678",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 24,
   "page_size": 100,
-  "total": 2526,
+  "total": 2527,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 03:00:21",
+  "updated_at_shanghai": "2026-11-18 05:58:50",
   "account": "elonmusk"
 }

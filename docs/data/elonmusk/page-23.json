@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2105463042305667103",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T01:01:21.000Z",
+      "created_at_shanghai": "2026-10-01 09:01:21",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Worth trying",
+      "quote": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 06:30:19",
+        "created_at_utc": "2026-09-27T22:30:19.000Z",
+        "id": "2104337871259750819",
+        "images": [
+          "https://pbs.twimg.com/media/HTQbsazWIAAaLF-.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1206,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTQbsazWIAAaLF-.jpg?name=small",
+            "width": 1342
+          }
+        ],
+        "name": "anabology",
+        "text": "A 2021 systematic review found significant improvements in acid reflux symptoms within 6 weeks from inclined bed therapy, even when objectively measured via esophageal pH",
+        "url": "https://x.com/anabology/status/2104337871259750819",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 68,
+        "likes": 837,
+        "quotes": 13,
+        "replies": 256,
+        "retweets": 103,
+        "views": 331962
+      },
+      "url": "https://x.com/elonmusk/status/2105463042305667103",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2105457482424590592",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5749,75 +5799,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2104286931194704092",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-27T19:07:54.000Z",
-      "created_at_shanghai": "2026-09-28 03:07:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Sam Altman was asked in 2023: “You have an incredible amount of power at this moment. Why should we trust you?”\n\nSam responds: “You shouldn’t.”\n\nNothing has changed. OpenAI isn’t to be trusted.",
-      "quote": null,
-      "retweet": {
-        "author": "KatieMiller",
-        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
-        "created_at_shanghai": "2026-09-27 21:58:35",
-        "created_at_utc": "2026-09-27T13:58:35.000Z",
-        "id": "2104209088636666348",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg"
-        ],
-        "media": [
-          {
-            "duration": 13.869,
-            "height": 746,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2104209046848884736/vid/avc1/1320x746/Mt3wCnTGu720GZd3.mp4?tag=29",
-            "width": 1320
-          }
-        ],
-        "name": "Katie Miller",
-        "text": "Sam Altman was asked in 2023: “You have an incredible amount of power at this moment. Why should we trust you?”\n\nSam responds: “You shouldn’t.”\n\nNothing has changed. OpenAI isn’t to be trusted.",
-        "url": "https://x.com/KatieMiller/status/2104209088636666348",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 55,
-        "likes": 1331,
-        "quotes": 14,
-        "replies": 92,
-        "retweets": 215,
-        "views": 68427
-      },
-      "url": "https://x.com/elonmusk/status/2104286931194704092",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2104209046848884736/vid/avc1/1320x746/Mt3wCnTGu720GZd3.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg",
-          "width": 1320,
-          "height": 746,
-          "duration": 13.869
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 23,
   "page_size": 100,
-  "total": 2526,
+  "total": 2527,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 03:00:21",
+  "updated_at_shanghai": "2026-11-18 05:58:50",
   "account": "elonmusk"
 }
