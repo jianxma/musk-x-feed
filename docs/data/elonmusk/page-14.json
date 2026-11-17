@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2112781998624555086",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T05:44:16.000Z",
+      "created_at_shanghai": "2026-10-21 13:44:16",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Honest feedback from Grok and Fable",
+      "quote": {
+        "author": "AdamHoltererer",
+        "avatar": "https://pbs.twimg.com/profile_images/2093828048684544001/5JR0MimQ_200x200.jpg",
+        "created_at_shanghai": "2026-10-20 20:07:33",
+        "created_at_utc": "2026-10-20T12:07:33.000Z",
+        "id": "2112516066563829882",
+        "images": [
+          "https://pbs.twimg.com/media/HVEqHVrXAAATkl2.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1350,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVEqHVrXAAATkl2.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "Adam Holter",
+        "text": "4o was truly a special model",
+        "url": "https://x.com/AdamHoltererer/status/2112516066563829882",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 59,
+        "likes": 1116,
+        "quotes": 18,
+        "replies": 309,
+        "retweets": 121,
+        "views": 453013
+      },
+      "url": "https://x.com/elonmusk/status/2112781998624555086",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2112781132387529005",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5227,84 +5277,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2111553162641592515",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-17T20:21:19.000Z",
-      "created_at_shanghai": "2026-10-18 04:21:19",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It is an astonishing fact that half of all births in several Canadian provinces are to mothers not born in Canada. Immigration is 4-7 times native births.\n\nCanada is witnessing one of the fastest demographic transformation in history and will soon be less European than Mexico.",
-      "quote": {
-        "author": "MoreBirths",
-        "avatar": "https://pbs.twimg.com/profile_images/1600624955892408321/6KWA2WOg_200x200.png",
-        "created_at_shanghai": "2026-04-29 03:47:08",
-        "created_at_utc": "2026-04-28T19:47:08.000Z",
-        "id": "2049213847115043099",
-        "images": [],
-        "media": [],
-        "name": "More Births",
-        "text": "",
-        "url": "https://x.com/MoreBirths/status/2049213847115043099",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "MoreBirths",
-        "avatar": "https://pbs.twimg.com/profile_images/1600624955892408321/6KWA2WOg_200x200.png",
-        "created_at_shanghai": "2026-10-17 19:44:18",
-        "created_at_utc": "2026-10-17T11:44:18.000Z",
-        "id": "2111423052936257834",
-        "images": [
-          "https://pbs.twimg.com/media/HU1IDcrWQAAB86n.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1323,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HU1IDcrWQAAB86n.jpg?name=small",
-            "width": 1673
-          }
-        ],
-        "name": "More Births",
-        "text": "It is an astonishing fact that half of all births in several Canadian provinces are to mothers not born in Canada. Immigration is 4-7 times native births.\n\nCanada is witnessing one of the fastest demographic transformation in history and will soon be less European than Mexico.",
-        "url": "https://x.com/MoreBirths/status/2111423052936257834",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 450,
-        "likes": 2683,
-        "quotes": 47,
-        "replies": 173,
-        "retweets": 488,
-        "views": 174088
-      },
-      "url": "https://x.com/elonmusk/status/2111553162641592515",
-      "images": [
-        "https://pbs.twimg.com/media/HU1IDcrWQAAB86n.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HU1IDcrWQAAB86n.jpg?name=small",
-          "width": 1673,
-          "height": 1323
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 100,
-  "total": 2517,
+  "total": 2518,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 00:48:05",
+  "updated_at_shanghai": "2026-11-18 00:55:31",
   "account": "elonmusk"
 }
