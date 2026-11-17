@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2109809802889314556",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T00:53:50.000Z",
+      "created_at_shanghai": "2026-10-13 08:53:50",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot rocks",
+      "quote": {
+        "author": "emigal",
+        "avatar": "https://pbs.twimg.com/profile_images/1672725049919381504/Zg-2fbuV_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 23:49:23",
+        "created_at_utc": "2026-10-12T15:49:23.000Z",
+        "id": "2109672788264910948",
+        "images": [],
+        "media": [],
+        "name": "Emi Gal",
+        "text": "I've been using Grok @Bot as my daily driver for a few weeks now and: \n\n- it has replaced 100% of my search-like queries on chatgpt / claude\n- it has replaced 100% of my Hermes usage & automations\n- it now runs 100% of my Cursor cloud agents, reviews PRs, merges for me\n\nIt also does things that other agents can't do (or can, but do it unreliably) - it has the most available connectors, it's VM is linked to my tailscale and has access to all my machines over ssh, can spin up claude code or codex agents in the terminal, can create other bots on the fly when it needs to, and my main Bot can manage other bots for me. And so much more!  \n\nWhat a time to be alive.",
+        "url": "https://x.com/emigal/status/2109672788264910948",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 119,
+        "likes": 2551,
+        "quotes": 31,
+        "replies": 393,
+        "retweets": 253,
+        "views": 963959
+      },
+      "url": "https://x.com/elonmusk/status/2109809802889314556",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109808344223621417",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5439,66 +5480,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108717744090669456",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T00:34:22.000Z",
-      "created_at_shanghai": "2026-10-10 08:34:22",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "10 years ago this might have sounded crazy but today I have a Neuralink N1 BCI in my head that allows me to talk without moving my mouth so who's to say anymore what's crazy about your ideas.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 05:55:03",
-        "created_at_utc": "2026-10-08T21:55:03.000Z",
-        "id": "2108315261044445330",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "This will sound super crazy, but I see a path to SpaceX being worth orders of magnitude more than the current Earth economy",
-        "url": "https://x.com/elonmusk/status/2108315261044445330",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "Cyborg21",
-        "avatar": "https://pbs.twimg.com/profile_images/2013266691782848513/0TcBjmbK_200x200.jpg",
-        "created_at_shanghai": "2026-10-10 07:26:55",
-        "created_at_utc": "2026-10-09T23:26:55.000Z",
-        "id": "2108700768555700562",
-        "images": [],
-        "media": [],
-        "name": "Kenneth Shock",
-        "text": "10 years ago this might have sounded crazy but today I have a Neuralink N1 BCI in my head that allows me to talk without moving my mouth so who's to say anymore what's crazy about your ideas.",
-        "url": "https://x.com/Cyborg21/status/2108700768555700562",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 78,
-        "likes": 3305,
-        "quotes": 26,
-        "replies": 119,
-        "retweets": 315,
-        "views": 206653
-      },
-      "url": "https://x.com/elonmusk/status/2108717744090669456",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 100,
-  "total": 2525,
+  "total": 2526,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 02:41:09",
+  "updated_at_shanghai": "2026-11-18 03:00:21",
   "account": "elonmusk"
 }
