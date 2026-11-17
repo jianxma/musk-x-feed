@@ -1,6 +1,125 @@
 {
   "posts": [
     {
+      "id": "2121628295234023654",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T15:36:18.000Z",
+      "created_at_shanghai": "2026-11-14 23:36:18",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Improvements to Grok @Bot efficiency",
+      "quote": {
+        "author": "SamSokolin",
+        "avatar": "https://pbs.twimg.com/profile_images/1992102498992046080/mzxbE_za_200x200.jpg",
+        "created_at_shanghai": "2026-11-14 02:04:00",
+        "created_at_utc": "2026-11-13T18:04:00.000Z",
+        "id": "2121303079803089179",
+        "images": [],
+        "media": [],
+        "name": "Sam Sokolin",
+        "text": "Shipped a few Grok Bot harness optimizations this week. You should get ~7% more usage out of your plan, and up to ~15% more on routine runs!\n\nEnjoy!",
+        "url": "https://x.com/SamSokolin/status/2121303079803089179",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 27,
+        "likes": 938,
+        "quotes": 8,
+        "replies": 279,
+        "retweets": 110,
+        "views": 393998
+      },
+      "url": "https://x.com/elonmusk/status/2121628295234023654",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121627776881230121",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T15:34:14.000Z",
+      "created_at_shanghai": "2026-11-14 23:34:14",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Update on Starship",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-14 23:23:58",
+        "created_at_utc": "2026-11-14T15:23:58.000Z",
+        "id": "2121625194275951101",
+        "images": [],
+        "media": [],
+        "name": "SpaceX",
+        "text": "Back live for a status update on Starship's Flight 15",
+        "url": "https://x.com/SpaceX/status/2121625194275951101",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 35,
+        "likes": 1291,
+        "quotes": 10,
+        "replies": 224,
+        "retweets": 145,
+        "views": 363552
+      },
+      "url": "https://x.com/elonmusk/status/2121627776881230121",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121625731088445896",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T15:26:06.000Z",
+      "created_at_shanghai": "2026-11-14 23:26:06",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "https://grok.com/share/bGVnYWN5_035d778c-274e-4433-97c1-5f587762e736",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 193,
+        "quotes": 1,
+        "replies": 41,
+        "retweets": 14,
+        "views": 40080
+      },
+      "url": "https://x.com/elonmusk/status/2121625731088445896",
+      "images": [
+        "https://pbs.twimg.com/media/HXGHW0HXsAExxux.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXGHW0HXsAExxux.jpg?name=small",
+          "width": 1177,
+          "height": 1783
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121624209675665519",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -1058,167 +1177,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121501324663832873",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T07:11:46.000Z",
-      "created_at_shanghai": "2026-11-14 15:11:46",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Future Starship flights will carry over 50 Tb/s of Starlink bandwidth to orbit",
-      "quote": {
-        "author": "Starlink",
-        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
-        "created_at_shanghai": "2026-11-14 07:28:05",
-        "created_at_utc": "2026-11-13T23:28:05.000Z",
-        "id": "2121384634760220952",
-        "images": [],
-        "media": [],
-        "name": "Starlink",
-        "text": "Today’s Starlink payload will add up to 26 Terabits of capacity to the constellation",
-        "url": "https://x.com/Starlink/status/2121384634760220952",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 46,
-        "likes": 1472,
-        "quotes": 27,
-        "replies": 248,
-        "retweets": 195,
-        "views": 376274
-      },
-      "url": "https://x.com/elonmusk/status/2121501324663832873",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2121498127484244186",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T06:59:03.000Z",
-      "created_at_shanghai": "2026-11-14 14:59:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "NVIDIA board credentials. \nNo wonder Jensen got fired.",
-      "quote": null,
-      "retweet": {
-        "author": "GS_VCactivist",
-        "avatar": "https://pbs.twimg.com/profile_images/2121034577175015424/TmmMlQcp_200x200.jpg",
-        "created_at_shanghai": "2026-11-13 11:00:47",
-        "created_at_utc": "2026-11-13T03:00:47.000Z",
-        "id": "2121075777487970548",
-        "images": [
-          "https://pbs.twimg.com/media/HW-TLS8WQAELfBH.jpg?name=small",
-          "https://pbs.twimg.com/media/HW-TLTCXcAIxVKo.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1782,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW-TLS8WQAELfBH.jpg?name=small",
-            "width": 1320
-          },
-          {
-            "height": 1664,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW-TLTCXcAIxVKo.jpg?name=small",
-            "width": 1320
-          }
-        ],
-        "name": "Gayatri Sarkar",
-        "text": "NVIDIA board credentials. \nNo wonder Jensen got fired.",
-        "url": "https://x.com/GS_VCactivist/status/2121075777487970548",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1777,
-        "likes": 11237,
-        "quotes": 177,
-        "replies": 483,
-        "retweets": 739,
-        "views": 3753960
-      },
-      "url": "https://x.com/elonmusk/status/2121498127484244186",
-      "images": [
-        "https://pbs.twimg.com/media/HW-TLS8WQAELfBH.jpg?name=small",
-        "https://pbs.twimg.com/media/HW-TLTCXcAIxVKo.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW-TLS8WQAELfBH.jpg?name=small",
-          "width": 1320,
-          "height": 1782
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW-TLTCXcAIxVKo.jpg?name=small",
-          "width": 1320,
-          "height": 1664
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2121497262547251665",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T06:55:37.000Z",
-      "created_at_shanghai": "2026-11-14 14:55:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@stevenmarkryan Yes. Per the exact words in the clip, the bet is lost if a Cybercab is delivered to a customer for $30k or less before 2027. The scenario matches those conditions.",
-      "quote": null,
-      "retweet": {
-        "author": "grok",
-        "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
-        "created_at_shanghai": "2026-11-14 11:58:29",
-        "created_at_utc": "2026-11-14T03:58:29.000Z",
-        "id": "2121452685345845744",
-        "images": [],
-        "media": [],
-        "name": "Grok",
-        "text": "@stevenmarkryan Yes. Per the exact words in the clip, the bet is lost if a Cybercab is delivered to a customer for $30k or less before 2027. The scenario matches those conditions.",
-        "url": "https://x.com/grok/status/2121452685345845744",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "stevenmarkryan",
-      "engagement": {
-        "bookmarks": 9,
-        "likes": 341,
-        "quotes": 3,
-        "replies": 28,
-        "retweets": 35,
-        "views": 29826
-      },
-      "url": "https://x.com/elonmusk/status/2121497262547251665",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 20,
-  "total": 2449,
+  "total": 2452,
   "total_pages": 123,
-  "updated_at_shanghai": "2026-11-17 06:06:58",
+  "updated_at_shanghai": "2026-11-17 09:03:38",
   "account": "elonmusk"
 }
