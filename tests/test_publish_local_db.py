@@ -120,6 +120,235 @@ class MergeTests(unittest.TestCase):
         code = publisher.main(["check", "--dest", str(dest), "--source", str(base)])
         self.assertEqual(code, 2)
 
+    def test_monitor_schema_keeps_richer_repo_rows_and_new_monitor_posts(self):
+        """Regression for the sanitized 13-column monitor DB and 20-column repo DB."""
+        monitor = self._monitor_db("monitor.db")
+        repo = self._repo_db("repo.db")
+        monitor_bytes = monitor.read_bytes()
+        repo_bytes = repo.read_bytes()
+        for base, source, label in (
+            (repo, monitor, "repo-base"),
+            (monitor, repo, "monitor-base"),
+        ):
+            dest = self.root / f"out-{label}.db"
+            publisher.merge_databases(base, dest, [source], [], {"elonmusk", "rocketlab"})
+            conn = sqlite3.connect(dest)
+            rows = {
+                (account, post_id): (text, retweet, media, avatar, author)
+                for account, post_id, text, retweet, media, avatar, author in conn.execute(
+                    "SELECT account, id, text, retweet_json, media_json, author_avatar, author FROM posts"
+                )
+            }
+            columns = [row[1] for row in conn.execute("PRAGMA table_info(posts)")]
+            conn.close()
+            self.assertIn("account", columns, label)
+            self.assertIn("retweet_json", columns, label)
+            self.assertEqual(set(rows), {
+                ("elonmusk", "2122601053111677107"),
+                ("elonmusk", "2122472372552749426"),
+                ("rocketlab", "2122445908747100624"),
+                ("rocketlab", "older-rocketlab-only-in-repo"),
+            }, label)
+            new_elon = rows[("elonmusk", "2122601053111677107")]
+            self.assertEqual(new_elon[0], "RT @XFreeze", label)
+            quote = sqlite3.connect(dest).execute(
+                "SELECT quote_json FROM posts WHERE id=?",
+                ("2122601053111677107",),
+            ).fetchone()[0]
+            self.assertIn("Hitchhiker", quote)
+            overlap = rows[("elonmusk", "2122472372552749426")]
+            self.assertEqual(overlap[0], "Views from Mechazilla of the first ever Starship catch", label)
+            self.assertIn("SpaceX", overlap[1], label)
+            self.assertIn("video", overlap[2], label)
+            rocket = rows[("rocketlab", "2122445908747100624")]
+            self.assertEqual(rocket[4], "rocketlab", label)
+            self.assertIn("photo", rocket[2], label)
+            self.assertIn("profile_images", rocket[3], label)
+            only_repo = rows[("rocketlab", "older-rocketlab-only-in-repo")]
+            self.assertEqual(only_repo[0], "older rocket lab post", label)
+            self.assertNotIn(("RocketLab", "2122445908747100624"), rows, label)
+        self.assertEqual(monitor.read_bytes(), monitor_bytes)
+        self.assertEqual(repo.read_bytes(), repo_bytes)
+
+    def _monitor_db(self, name: str) -> Path:
+        path = self.root / name
+        conn = sqlite3.connect(path)
+        conn.execute(
+            """CREATE TABLE posts (
+                id TEXT PRIMARY KEY,
+                author TEXT,
+                author_name TEXT,
+                created_at_utc TEXT,
+                created_at_shanghai TEXT,
+                type_label TEXT,
+                text TEXT,
+                quote_json TEXT,
+                engagement_json TEXT,
+                url TEXT,
+                images_json TEXT,
+                enriched INTEGER DEFAULT 0,
+                updated_at TEXT
+            )"""
+        )
+        conn.execute(
+            """INSERT INTO posts (
+                id, author, author_name, created_at_utc, created_at_shanghai, type_label,
+                text, quote_json, engagement_json, url, images_json, enriched, updated_at
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            (
+                "2122601053111677107",
+                "elonmusk",
+                "Elon Musk",
+                "2026-11-17T08:01:41.000Z",
+                "2026-11-17 16:01:41",
+                "转发",
+                "RT @XFreeze",
+                json.dumps(
+                    {
+                        "author": "XFreeze",
+                        "name": "X Freeze",
+                        "text": "The Hitchhiker's Guide to the Galaxy",
+                        "url": "https://x.com/XFreeze/status/2122596768051548482",
+                    }
+                ),
+                json.dumps({"likes": 328, "views": 23044}),
+                "https://x.com/elonmusk/status/2122601053111677107",
+                json.dumps(["https://pbs.twimg.com/media/HXT6X8JaAAAKVRr.jpg?name=small"]),
+                1,
+                "2026-11-17 16:08:03",
+            ),
+        )
+        conn.execute(
+            """INSERT INTO posts (
+                id, author, author_name, created_at_utc, created_at_shanghai, type_label,
+                text, quote_json, engagement_json, url, images_json, enriched, updated_at
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            (
+                "2122472372552749426",
+                "elonmusk",
+                "Elon Musk",
+                "2026-11-16T23:30:21.000Z",
+                "2026-11-17 07:30:21",
+                "转发",
+                "RT thin",
+                None,
+                json.dumps({"likes": 1}),
+                "https://x.com/elonmusk/status/2122472372552749426",
+                json.dumps(["https://pbs.twimg.com/amplify_video_thumb/2122421373616185344/img/x.jpg"]),
+                1,
+                "2026-11-17 16:08:03",
+            ),
+        )
+        conn.execute(
+            """INSERT INTO posts (
+                id, author, author_name, created_at_utc, created_at_shanghai, type_label,
+                text, quote_json, engagement_json, url, images_json, enriched, updated_at
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            (
+                "2122445908747100624",
+                "RocketLab",
+                "Rocket Lab",
+                "2026-11-16T21:45:12.000Z",
+                "2026-11-17 05:45:12",
+                "原文",
+                "Launching rockets, breaking records 🚀",
+                None,
+                json.dumps({"likes": 1500, "views": 59138}),
+                "https://x.com/RocketLab/status/2122445908747100624",
+                json.dumps(["https://pbs.twimg.com/media/HXRwU7FbgAIg0H3.jpg?name=small"]),
+                1,
+                "2026-11-17 15:31:30",
+            ),
+        )
+        conn.commit()
+        conn.close()
+        return path
+
+    def _repo_db(self, name: str) -> Path:
+        path = self.root / name
+        conn = sqlite3.connect(path)
+        conn.executescript(publisher.PAGES_SCHEMA)
+        conn.execute(
+            """INSERT INTO posts (
+                account, id, author, author_name, author_avatar, author_verified,
+                author_verified_type, created_at_utc, created_at_shanghai, type_label,
+                text, quote_json, retweet_json, reply_to, engagement_json, url,
+                images_json, media_json, enriched, updated_at
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            (
+                "elonmusk",
+                "2122472372552749426",
+                "elonmusk",
+                "Elon Musk",
+                "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+                1,
+                "individual",
+                "2026-11-16T23:30:21.000Z",
+                "2026-11-17 07:30:21",
+                "转发",
+                "Views from Mechazilla of the first ever Starship catch",
+                None,
+                json.dumps({"author": "SpaceX", "text": "Views from Mechazilla of the first ever Starship catch"}),
+                "",
+                json.dumps({"likes": 16653, "views": 558288}),
+                "https://x.com/elonmusk/status/2122472372552749426",
+                json.dumps(["https://pbs.twimg.com/amplify_video_thumb/2122421373616185344/img/x.jpg"]),
+                json.dumps([{"type": "video", "url": "https://video.twimg.com/amplify_video/1.mp4"}]),
+                1,
+                "2026-11-17 07:32:52",
+            ),
+        )
+        conn.execute(
+            """INSERT INTO posts (
+                account, id, author, author_name, author_avatar, author_verified,
+                author_verified_type, created_at_utc, created_at_shanghai, type_label,
+                text, quote_json, retweet_json, reply_to, engagement_json, url,
+                images_json, media_json, enriched, updated_at
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            (
+                "rocketlab",
+                "2122445908747100624",
+                "rocketlab",
+                "Rocket Lab",
+                "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
+                1,
+                "organization",
+                "2026-11-16T21:45:12.000Z",
+                "2026-11-17 05:45:12",
+                "原文",
+                "Launching rockets, breaking records 🚀",
+                None,
+                None,
+                "",
+                json.dumps({"likes": 82, "views": 2721}),
+                "https://x.com/rocketlab/status/2122445908747100624",
+                json.dumps(["https://pbs.twimg.com/media/HXRwU7FbgAIg0H3.jpg?name=small"]),
+                json.dumps([{"type": "photo", "url": "https://pbs.twimg.com/media/HXRwU7FbgAIg0H3.jpg?name=small"}]),
+                1,
+                "2026-11-17 05:47:09",
+            ),
+        )
+        conn.execute(
+            """INSERT INTO posts (
+                account, id, author, author_name, created_at_utc, type_label, text,
+                url, enriched
+            ) VALUES (?,?,?,?,?,?,?,?,?)""",
+            (
+                "rocketlab",
+                "older-rocketlab-only-in-repo",
+                "rocketlab",
+                "Rocket Lab",
+                "2026-11-01T00:00:00.000Z",
+                "原文",
+                "older rocket lab post",
+                "https://x.com/rocketlab/status/older-rocketlab-only-in-repo",
+                1,
+            ),
+        )
+        conn.commit()
+        conn.close()
+        return path
+
 
 class TriggerScriptTests(unittest.TestCase):
     def test_script_does_not_reset_or_scrape_secrets(self):
