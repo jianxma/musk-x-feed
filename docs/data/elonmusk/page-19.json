@@ -1,1009 +1,1086 @@
 {
   "posts": [
     {
-      "id": "2119111445518430392",
+      "id": "2119479595921481923",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T16:55:14.000Z",
-      "created_at_shanghai": "2026-11-08 00:55:14",
+      "created_at_utc": "2026-11-08T17:18:08.000Z",
+      "created_at_shanghai": "2026-11-09 01:18:08",
       "type": "转发",
       "type_label": "转发",
-      "text": "SpaceX just released a detailed blog post explaining how Starship will return to Starbase for its first tower-catch attempt on Flight 15\n\nand it is going to be the first full recovery of an orbital launch system\n\nThe mission brings together both sides of Starship’s future: delivering a major payload to orbit and bringing the entire launch system home for reuse.\n\nSuper Heavy will return minutes after liftoff, while Starship will deploy 26 Starlink V3 satellites, fly a mission of more than 22 hours, then make its way back through the atmosphere toward the tower at Starbase, provided it passes the required vehicle-health checks\n\nThe update walks through the orbital safety checks, heatshield inspections, alternative splashdown locations, the precise approach over northern Mexico and southern Texas, and the final sequence of bellyflop, engine ignition, flip and catch\n\nFlight 15 is targeting launch as early as Friday, November 13, pending regulatory approval. The 75-minute launch window opens at 4:45 p.m. CT. Here is the full plan, from liftoff to bringing both stages home\n\n1. LAUNCH AND THE BOOSTER’S RETURN\n\nSuper Heavy will lift Starship from Starbase before the vehicles separate through hot-staging: Starship ignites its engines while still attached, then continues toward space as the booster turns back.\n\nThe booster will perform its boostback burn, descend toward Starbase and begin its landing burn roughly six minutes after liftoff. The catch is planned for approximately 6 minutes 35 seconds into flight.\n\nThis will be the first catch attempt for a V3 Super Heavy booster. SpaceX has already caught three V1 boosters, with two subsequently flown again.\n\n2. THE HARDWARE DESIGNED FOR CATCHING\n\nSuper Heavy V3 has three grid fins instead of four. Each is 50% larger and significantly stronger, with a new catch point and revised positioning to support lifting and catching operations.\n\nThe tower’s mechanical arms......the chopsticks are shorter to allow faster movement and better tracking during a catch. Their main actuators have changed from hydraulic to electromechanical, improving speed, redundancy and reliability\n\nThese changes are part of the broader V3 architecture, designed around making recovery and reuse routine operations.\n\n3. STARSHIP DOES NOT COMMIT TO ORBIT IMMEDIATELY\n\nThe ship initially follows a passively safe suborbital trajectory rather than entering a sustained orbit directly.\n\nThis is deliberate. If a problem occurs during ascent or shortly afterward, the trajectory takes Starship toward a cleared reentry area over the Indian Ocean without requiring a successful orbital mission.\n\nAfter ascent, flight controllers assess the vehicle’s health and make a go/no-go decision for orbit.\n\nWith a go, one sea-level Raptor performs an orbital insertion burn approximately 26 minutes after liftoff, increasing Starship’s speed enough to establish orbit.\n\n4. DEPLOYING 26 STARLINK V3 SATELLITES\n\nSatellite deployment is planned to begin around 35 minutes into flight and finish around 1 hour 18 minutes.\n\nEach Starlink V3 satellite adds approximately 1 terabit per second of network capacity. SpaceX compares this mission’s 26 satellites with roughly 10 Falcon 9 launches carrying V2 Mini satellites.\n\nAfter deployment, the satellites unfold their antennas and solar arrays, establish radio and laser communications, and use onboard propulsion to raise their orbits. Customer service is expected to begin as soon as a few weeks after launch.\n\nThree satellites have an additional job: photographing Starship’s heatshield.\n\nThose images will be transmitted to operators and become one of several sources of information used to assess whether the ship is ready to return to Starbase. SpaceX has already tested this inspection method on previous flights.\n\n5. ALMOST A DAY IN ORBIT\n\nThe planned mission lasts more than 22 hours, with approximately 14 orbits at an altitude of roughly 275 kilometers.\n\nAfter deploying the satellites, Starship will coast for around another 21 hours until its orbit aligns with Starbase for the return.\n\nThroughout that period, controllers will run continuous manual and automated checks. These cover engine health, power, communications, flight computers, navigation sensors, tank and feedline integrity, tank pressure and attitude control......the ability to maintain the ship’s intended orientation.\n\nThese checks are intentionally conservative. Returning to the tower is something the vehicle must qualify to do through its condition in flight.\n\n6. ALTERNATIVE RETURN OPTIONS THROUGHOUT THE MISSION\n\nThe flight includes opportunities to end the mission early in precleared Pacific Ocean areas if the vehicle is not suitable for a Starbase return.\n\nThese include early- and late-mission splashdown options around Hawaii and a mid-mission opportunity several hundred kilometers off Chile’s coast. The same areas were used during Flight 14.\n\nThe mission therefore has multiple decision points rather than a single commitment to return home regardless of the vehicle’s condition.\n\n7. THE DEORBIT BURN AND REENTRY\n\nStarship will proceed toward Starbase only if it meets SpaceX’s internally developed, FAA-approved conditions for return and catch.\n\nA single Raptor 3 engine will perform the deorbit burn, planned around 21 hours 36 minutes after launch. That changes the ship’s trajectory toward atmospheric entry over the Pacific Ocean, thousands of kilometers uprange from Starbase.\n\nReentry is planned to begin around 22 hours 11 minutes into flight.\n\nThe four control flaps will guide Starship along its intended trajectory while allowing small, deliberate turns to route it over sparsely populated areas of northern Mexico and southern Texas.\n\n8. THE FLIGHT PATH BACK TO STARBASE\n\nStarship will approach from the west and steer around the major cities of the Rio Grande Valley.\n\nIt will pass north of South Padre Island, continue out over the Gulf, then make its final turn south toward Starbase.\n\nThis is not an entirely untested maneuver: SpaceX has demonstrated the banking maneuver on previous Starship flights.\n\nResidents of Cameron County and nearby areas may hear one or more sonic booms. What people experience will depend on weather and other conditions.\n\nReentry over land also has extensive spaceflight precedent, including the Space Shuttle, Dragon’s previous Florida returns, and Soyuz and Shenzhou missions.\n\n9. HOW EARLIER FLIGHTS PREPARED THE HEATSHIELD\n\nPrevious ocean-return tests allowed SpaceX to deliberately push the heatshield, structure and control systems beyond the demands of a normal return to the launch site.\n\nExperiments included removing dozens of heatshield tiles from critical locations and flying maneuvers that subjected the vehicle and flaps to higher heating and aerodynamic forces than a nominal reentry.\n\nFlight 15 also retains Flight 14’s heatshield improvements, including additional tile-retention mechanisms in vulnerable areas, measures addressing plasma intrusion behind tiles, and curved tiles across a large portion of the shield to reduce heating between them.\n\nThe V3 rear-flap mechanism uses a single actuator with three motors per flap, improving redundancy while reducing mass and cost.\n\n10. THE FINAL BELLYFLOP, FLIP AND CATCH\n\nArriving over Starbase, Starship will descend toward the tower at Pad 2 in its bellyflop orientation.\n\nShortly before reaching the tower, it will ignite its three sea-level Raptors, flip upright and stow its flaps.\n\nOnce vertical, it will reduce to two engines and maneuver between the tower’s arms. It will then reduce to one engine as it approaches a near hover.\n\nThe arms will close rapidly around two catch fittings just below the forward flaps.\n\nOnce Starship detects contact with the arms, it will shut down its final engine.\n\nThe ship catch is planned for approximately 22 hours 32 minutes after liftoff. All mission timings are approximate and subject to change.\n\n11. SAFETY OPTIONS REMAIN AVAILABLE DURING REENTRY\n\nSpaceX has built in options to end reentry before the ship reaches land if necessary, including intentionally tumbling the vehicle to ensure atmospheric breakup.\n\nThere is also a late option to divert into the Gulf if either the ship or the tower develops a problem that prevents a safe catch.\n\nThe objective is ambitious, but the return is governed by explicit vehicle-health requirements and multiple alternatives throughout the flight.\n\n12. WHY THIS MISSION MATTERS\n\nCatching the booster solves one part of the recovery challenge. Bringing the upper stage back from orbit addresses the other.\n\nSpaceX described recovering the entire orbital launch system as the “Holy Grail of rocketry” the foundation for full and rapid reuse and an eventual airplane-like flight cadence.\n\nThat is the capability behind Starship’s larger mission: expanding Starlink, deploying the planned Starmind supercompute constellation, establishing a permanent human presence on the Moon and making life multiplanetary.\n\nFlight 15 is taking SpaceX another major step toward that future: launch, deploy, orbit, return and bring both stages home\n\nSpaceX’s full catch update:\nhttps://www.spacex.com/updates#starship-catch\n\nOfficial Flight 15 mission details:\nhttps://www.spacex.com/launches/starship-flight-15",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-08 00:29:42",
-        "created_at_utc": "2026-11-07T16:29:42.000Z",
-        "id": "2119105020423799051",
+      "text": "I will never forget how fiercely Charlie defended Dave Chapelle at the height of cancel culture, both publicly and privately. It didn’t matter if they had the same political beliefs — it mattered that they were subject to the same protections under the First Amendment as fellow Americans.\n\nEvery day it becomes more obvious… *that’s* the difference between the culture of the Right & the Left. \n\nOne side is literally willing to lay down their life to continue fighting for *everyone’s* right to express themselves. The other laughs on their podcasts about digging up that young man’s grave to “do it again,” dresses up as his corpse for Halloween, threatens to kill any and all other conservatives who agree with him, and sneers with the demonic ghouls in their audience about his death as a form of “comedy.”\n\nWe are not the same.\n\nShame on you, Dave. This is so beyond disgusting.",
+      "quote": {
+        "author": "bennyjohnson",
+        "avatar": "https://pbs.twimg.com/profile_images/2117726643758170112/815JQOOz_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 16:56:30",
+        "created_at_utc": "2026-11-08T08:56:30.000Z",
+        "id": "2119353354505633990",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2119104042584743936/img/szIDZN3k7EhYyb2h.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2119320354275635200/img/iPOr44J1AvvNOKMC.jpg"
         ],
         "media": [
           {
-            "duration": 49.864,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119104042584743936/img/szIDZN3k7EhYyb2h.jpg",
+            "duration": 29.228,
+            "height": 812,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119320354275635200/img/iPOr44J1AvvNOKMC.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2119104042584743936/vid/avc1/1920x1080/fcj2Ag2BmL5peeSg.mp4?tag=29",
+            "url": "https://video.twimg.com/amplify_video/2119320354275635200/vid/avc1/1206x812/qtFSzEOirTkaptjh.mp4?tag=29",
+            "width": 1206
+          }
+        ],
+        "name": "Benny Johnson",
+        "text": "Dave Chappelle: “Ever since that guy Charlie Kirk got murdered, and I shouldn’t say this publicly but…. I feel better.”\n\nThis isn’t even comedy. It’s just sick…",
+        "url": "https://x.com/bennyjohnson/status/2119353354505633990",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "theisabelb",
+        "avatar": "https://pbs.twimg.com/profile_images/1964394228387102720/HreecAc__200x200.jpg",
+        "created_at_shanghai": "2026-11-09 00:41:52",
+        "created_at_utc": "2026-11-08T16:41:52.000Z",
+        "id": "2119470468180709574",
+        "images": [],
+        "media": [],
+        "name": "Isabel Brown",
+        "text": "I will never forget how fiercely Charlie defended Dave Chapelle at the height of cancel culture, both publicly and privately. It didn’t matter if they had the same political beliefs — it mattered that they were subject to the same protections under the First Amendment as fellow Americans.\n\nEvery day it becomes more obvious… *that’s* the difference between the culture of the Right & the Left. \n\nOne side is literally willing to lay down their life to continue fighting for *everyone’s* right to express themselves. The other laughs on their podcasts about digging up that young man’s grave to “do it again,” dresses up as his corpse for Halloween, threatens to kill any and all other conservatives who agree with him, and sneers with the demonic ghouls in their audience about his death as a form of “comedy.”\n\nWe are not the same.\n\nShame on you, Dave. This is so beyond disgusting.",
+        "url": "https://x.com/theisabelb/status/2119470468180709574",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 70,
+        "likes": 1639,
+        "quotes": 24,
+        "replies": 159,
+        "retweets": 315,
+        "views": 121138
+      },
+      "url": "https://x.com/elonmusk/status/2119479595921481923",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119477926160650342",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T17:11:30.000Z",
+      "created_at_shanghai": "2026-11-09 01:11:30",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Republicans lost the midterms because of the war and its economic consequences. The good news is that job growth and GDP growth are still strong, and inflation will drop quickly if the war is ended now.",
+      "quote": null,
+      "retweet": {
+        "author": "DavidSacks",
+        "avatar": "https://pbs.twimg.com/profile_images/1879600809693917185/GkBxdTd9_200x200.jpg",
+        "created_at_shanghai": "2026-11-09 00:32:24",
+        "created_at_utc": "2026-11-08T16:32:24.000Z",
+        "id": "2119468088030884308",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2119241356119830528/img/HJ7F7EQF8KDhE5Gd.jpg"
+        ],
+        "media": [
+          {
+            "duration": 114.542,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119241356119830528/img/HJ7F7EQF8KDhE5Gd.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2119241356119830528/vid/avc1/1920x1080/wIXNBKt82qSa6Jnz.mp4?tag=29",
             "width": 1920
           }
         ],
-        "name": "X Freeze",
-        "text": "SpaceX just released a detailed blog post explaining how Starship will return to Starbase for its first tower-catch attempt on Flight 15\n\nand it is going to be the first full recovery of an orbital launch system\n\nThe mission brings together both sides of Starship’s future: delivering a major payload to orbit and bringing the entire launch system home for reuse.\n\nSuper Heavy will return minutes after liftoff, while Starship will deploy 26 Starlink V3 satellites, fly a mission of more than 22 hours, then make its way back through the atmosphere toward the tower at Starbase, provided it passes the required vehicle-health checks\n\nThe update walks through the orbital safety checks, heatshield inspections, alternative splashdown locations, the precise approach over northern Mexico and southern Texas, and the final sequence of bellyflop, engine ignition, flip and catch\n\nFlight 15 is targeting launch as early as Friday, November 13, pending regulatory approval. The 75-minute launch window opens at 4:45 p.m. CT. Here is the full plan, from liftoff to bringing both stages home\n\n1. LAUNCH AND THE BOOSTER’S RETURN\n\nSuper Heavy will lift Starship from Starbase before the vehicles separate through hot-staging: Starship ignites its engines while still attached, then continues toward space as the booster turns back.\n\nThe booster will perform its boostback burn, descend toward Starbase and begin its landing burn roughly six minutes after liftoff. The catch is planned for approximately 6 minutes 35 seconds into flight.\n\nThis will be the first catch attempt for a V3 Super Heavy booster. SpaceX has already caught three V1 boosters, with two subsequently flown again.\n\n2. THE HARDWARE DESIGNED FOR CATCHING\n\nSuper Heavy V3 has three grid fins instead of four. Each is 50% larger and significantly stronger, with a new catch point and revised positioning to support lifting and catching operations.\n\nThe tower’s mechanical arms......the chopsticks are shorter to allow faster movement and better tracking during a catch. Their main actuators have changed from hydraulic to electromechanical, improving speed, redundancy and reliability\n\nThese changes are part of the broader V3 architecture, designed around making recovery and reuse routine operations.\n\n3. STARSHIP DOES NOT COMMIT TO ORBIT IMMEDIATELY\n\nThe ship initially follows a passively safe suborbital trajectory rather than entering a sustained orbit directly.\n\nThis is deliberate. If a problem occurs during ascent or shortly afterward, the trajectory takes Starship toward a cleared reentry area over the Indian Ocean without requiring a successful orbital mission.\n\nAfter ascent, flight controllers assess the vehicle’s health and make a go/no-go decision for orbit.\n\nWith a go, one sea-level Raptor performs an orbital insertion burn approximately 26 minutes after liftoff, increasing Starship’s speed enough to establish orbit.\n\n4. DEPLOYING 26 STARLINK V3 SATELLITES\n\nSatellite deployment is planned to begin around 35 minutes into flight and finish around 1 hour 18 minutes.\n\nEach Starlink V3 satellite adds approximately 1 terabit per second of network capacity. SpaceX compares this mission’s 26 satellites with roughly 10 Falcon 9 launches carrying V2 Mini satellites.\n\nAfter deployment, the satellites unfold their antennas and solar arrays, establish radio and laser communications, and use onboard propulsion to raise their orbits. Customer service is expected to begin as soon as a few weeks after launch.\n\nThree satellites have an additional job: photographing Starship’s heatshield.\n\nThose images will be transmitted to operators and become one of several sources of information used to assess whether the ship is ready to return to Starbase. SpaceX has already tested this inspection method on previous flights.\n\n5. ALMOST A DAY IN ORBIT\n\nThe planned mission lasts more than 22 hours, with approximately 14 orbits at an altitude of roughly 275 kilometers.\n\nAfter deploying the satellites, Starship will coast for around another 21 hours until its orbit aligns with Starbase for the return.\n\nThroughout that period, controllers will run continuous manual and automated checks. These cover engine health, power, communications, flight computers, navigation sensors, tank and feedline integrity, tank pressure and attitude control......the ability to maintain the ship’s intended orientation.\n\nThese checks are intentionally conservative. Returning to the tower is something the vehicle must qualify to do through its condition in flight.\n\n6. ALTERNATIVE RETURN OPTIONS THROUGHOUT THE MISSION\n\nThe flight includes opportunities to end the mission early in precleared Pacific Ocean areas if the vehicle is not suitable for a Starbase return.\n\nThese include early- and late-mission splashdown options around Hawaii and a mid-mission opportunity several hundred kilometers off Chile’s coast. The same areas were used during Flight 14.\n\nThe mission therefore has multiple decision points rather than a single commitment to return home regardless of the vehicle’s condition.\n\n7. THE DEORBIT BURN AND REENTRY\n\nStarship will proceed toward Starbase only if it meets SpaceX’s internally developed, FAA-approved conditions for return and catch.\n\nA single Raptor 3 engine will perform the deorbit burn, planned around 21 hours 36 minutes after launch. That changes the ship’s trajectory toward atmospheric entry over the Pacific Ocean, thousands of kilometers uprange from Starbase.\n\nReentry is planned to begin around 22 hours 11 minutes into flight.\n\nThe four control flaps will guide Starship along its intended trajectory while allowing small, deliberate turns to route it over sparsely populated areas of northern Mexico and southern Texas.\n\n8. THE FLIGHT PATH BACK TO STARBASE\n\nStarship will approach from the west and steer around the major cities of the Rio Grande Valley.\n\nIt will pass north of South Padre Island, continue out over the Gulf, then make its final turn south toward Starbase.\n\nThis is not an entirely untested maneuver: SpaceX has demonstrated the banking maneuver on previous Starship flights.\n\nResidents of Cameron County and nearby areas may hear one or more sonic booms. What people experience will depend on weather and other conditions.\n\nReentry over land also has extensive spaceflight precedent, including the Space Shuttle, Dragon’s previous Florida returns, and Soyuz and Shenzhou missions.\n\n9. HOW EARLIER FLIGHTS PREPARED THE HEATSHIELD\n\nPrevious ocean-return tests allowed SpaceX to deliberately push the heatshield, structure and control systems beyond the demands of a normal return to the launch site.\n\nExperiments included removing dozens of heatshield tiles from critical locations and flying maneuvers that subjected the vehicle and flaps to higher heating and aerodynamic forces than a nominal reentry.\n\nFlight 15 also retains Flight 14’s heatshield improvements, including additional tile-retention mechanisms in vulnerable areas, measures addressing plasma intrusion behind tiles, and curved tiles across a large portion of the shield to reduce heating between them.\n\nThe V3 rear-flap mechanism uses a single actuator with three motors per flap, improving redundancy while reducing mass and cost.\n\n10. THE FINAL BELLYFLOP, FLIP AND CATCH\n\nArriving over Starbase, Starship will descend toward the tower at Pad 2 in its bellyflop orientation.\n\nShortly before reaching the tower, it will ignite its three sea-level Raptors, flip upright and stow its flaps.\n\nOnce vertical, it will reduce to two engines and maneuver between the tower’s arms. It will then reduce to one engine as it approaches a near hover.\n\nThe arms will close rapidly around two catch fittings just below the forward flaps.\n\nOnce Starship detects contact with the arms, it will shut down its final engine.\n\nThe ship catch is planned for approximately 22 hours 32 minutes after liftoff. All mission timings are approximate and subject to change.\n\n11. SAFETY OPTIONS REMAIN AVAILABLE DURING REENTRY\n\nSpaceX has built in options to end reentry before the ship reaches land if necessary, including intentionally tumbling the vehicle to ensure atmospheric breakup.\n\nThere is also a late option to divert into the Gulf if either the ship or the tower develops a problem that prevents a safe catch.\n\nThe objective is ambitious, but the return is governed by explicit vehicle-health requirements and multiple alternatives throughout the flight.\n\n12. WHY THIS MISSION MATTERS\n\nCatching the booster solves one part of the recovery challenge. Bringing the upper stage back from orbit addresses the other.\n\nSpaceX described recovering the entire orbital launch system as the “Holy Grail of rocketry” the foundation for full and rapid reuse and an eventual airplane-like flight cadence.\n\nThat is the capability behind Starship’s larger mission: expanding Starlink, deploying the planned Starmind supercompute constellation, establishing a permanent human presence on the Moon and making life multiplanetary.\n\nFlight 15 is taking SpaceX another major step toward that future: launch, deploy, orbit, return and bring both stages home\n\nSpaceX’s full catch update:\nhttps://www.spacex.com/updates#starship-catch\n\nOfficial Flight 15 mission details:\nhttps://www.spacex.com/launches/starship-flight-15",
-        "url": "https://x.com/XFreeze/status/2119105020423799051",
+        "name": "David Sacks",
+        "text": "Republicans lost the midterms because of the war and its economic consequences. The good news is that job growth and GDP growth are still strong, and inflation will drop quickly if the war is ended now.",
+        "url": "https://x.com/DavidSacks/status/2119468088030884308",
         "verified": true,
         "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 32,
-        "likes": 298,
-        "quotes": 2,
-        "replies": 34,
-        "retweets": 63,
-        "views": 30918
-      },
-      "url": "https://x.com/elonmusk/status/2119111445518430392",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2119104042584743936/img/szIDZN3k7EhYyb2h.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2119104042584743936/vid/avc1/1920x1080/fcj2Ag2BmL5peeSg.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119104042584743936/img/szIDZN3k7EhYyb2h.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 49.864
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2119111269718364631",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T16:54:32.000Z",
-      "created_at_shanghai": "2026-11-08 00:54:32",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Catching a giant rocket falling from space",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 23:44:34",
-        "created_at_utc": "2026-11-07T15:44:34.000Z",
-        "id": "2119093662957060389",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2119092960125956096/img/Z8AJUBX8VV0RDzzY.jpg"
-        ],
-        "media": [
-          {
-            "duration": 92.01,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119092960125956096/img/Z8AJUBX8VV0RDzzY.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2119092960125956096/vid/avc1/3840x2160/GDn_AtzP9a7swQuw.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Starship is preparing for catch\n \nFlight 15 is targeting to launch as early as Friday, November 13, pending regulatory approval → https://spacex.com/launches/starship-flight-15",
-        "url": "https://x.com/SpaceX/status/2119093662957060389",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 38,
-        "likes": 1245,
-        "quotes": 22,
-        "replies": 282,
-        "retweets": 183,
-        "views": 327702
-      },
-      "url": "https://x.com/elonmusk/status/2119111269718364631",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2118987688732926120",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T08:43:28.000Z",
-      "created_at_shanghai": "2026-11-07 16:43:28",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Yesterday, I was working on something with Grok Bot when a guy nearby noticed me using it\n\nHe immediately pulled out his phone and started showing me how he uses Grok Bot, how he had set up all his bots, and how he manages his usage limits\n\nhe just literally saw me using Grok Bot and came over out of curiosity. We ended up having a really nice conversation about how we’re both using it haha",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 16:41:49",
-        "created_at_utc": "2026-11-07T08:41:49.000Z",
-        "id": "2118987271965966564",
-        "images": [
-          "https://pbs.twimg.com/media/HWgnsFUbYAIcYQu.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2048,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWgnsFUbYAIcYQu.jpg?name=small",
-            "width": 1681
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Yesterday, I was working on something with Grok Bot when a guy nearby noticed me using it\n\nHe immediately pulled out his phone and started showing me how he uses Grok Bot, how he had set up all his bots, and how he manages his usage limits\n\nhe just literally saw me using Grok Bot and came over out of curiosity. We ended up having a really nice conversation about how we’re both using it haha",
-        "url": "https://x.com/XFreeze/status/2118987271965966564",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 180,
-        "likes": 2182,
-        "quotes": 20,
-        "replies": 238,
-        "retweets": 192,
-        "views": 436344
-      },
-      "url": "https://x.com/elonmusk/status/2118987688732926120",
-      "images": [
-        "https://pbs.twimg.com/media/HWgnsFUbYAIcYQu.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWgnsFUbYAIcYQu.jpg?name=small",
-          "width": 1681,
-          "height": 2048
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2118986909066371107",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T08:40:22.000Z",
-      "created_at_shanghai": "2026-11-07 16:40:22",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk is a free speech champion.",
-      "quote": null,
-      "retweet": {
-        "author": "Edison1HQ",
-        "avatar": "https://pbs.twimg.com/profile_images/2092355397289971713/9hXtsqbr_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 03:48:46",
-        "created_at_utc": "2026-11-06T19:48:46.000Z",
-        "id": "2118792729476174089",
-        "images": [
-          "https://pbs.twimg.com/media/HWd2wDvWMAASuFg.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 550,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWd2wDvWMAASuFg.jpg?name=small",
-            "width": 1024
-          }
-        ],
-        "name": "Edison",
-        "text": "Elon Musk is a free speech champion.",
-        "url": "https://x.com/Edison1HQ/status/2118792729476174089",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 119,
-        "likes": 4503,
-        "quotes": 28,
-        "replies": 201,
-        "retweets": 475,
-        "views": 364810
-      },
-      "url": "https://x.com/elonmusk/status/2118986909066371107",
-      "images": [
-        "https://pbs.twimg.com/media/HWd2wDvWMAASuFg.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWd2wDvWMAASuFg.jpg?name=small",
-          "width": 1024,
-          "height": 550
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2118984201160860070",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T08:29:37.000Z",
-      "created_at_shanghai": "2026-11-07 16:29:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "There is no fact-based argument for a reduction of data center build out due to an already expected split government midterm result or the state voting initiatives. \n\n1. If a local/state gov doesn’t want to make a deal, the cloud/hyperscaler will move to one who will . This isn’t binary, most locals are making deals. The builds over the next 1-1.5yrs are already permitted.\n2. If the US as a whole rejects enough land mass where the demand for AI factories cannot be fulfilled in the US, those AI factories will move offshore repeating the prior 3 decades of globalization and hollowing out of our middle class. It was dumb back then and even dumber now given the geopolitical national security implications of AI sovereignty…\n\n@HalftimeReport @TheJudgeCNBC",
-      "quote": null,
-      "retweet": {
-        "author": "thejefflutz",
-        "avatar": "https://pbs.twimg.com/profile_images/2038969696657997824/n7fDnIEU_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 01:27:34",
-        "created_at_utc": "2026-11-06T17:27:34.000Z",
-        "id": "2118757195877925050",
-        "images": [],
-        "media": [],
-        "name": "Jeff Lutz 🔋",
-        "text": "There is no fact-based argument for a reduction of data center build out due to an already expected split government midterm result or the state voting initiatives. \n\n1. If a local/state gov doesn’t want to make a deal, the cloud/hyperscaler will move to one who will . This isn’t binary, most locals are making deals. The builds over the next 1-1.5yrs are already permitted.\n2. If the US as a whole rejects enough land mass where the demand for AI factories cannot be fulfilled in the US, those AI factories will move offshore repeating the prior 3 decades of globalization and hollowing out of our middle class. It was dumb back then and even dumber now given the geopolitical national security implications of AI sovereignty…\n\n@HalftimeReport @TheJudgeCNBC",
-        "url": "https://x.com/thejefflutz/status/2118757195877925050",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 195,
-        "likes": 2717,
-        "quotes": 40,
-        "replies": 217,
-        "retweets": 363,
-        "views": 356535
-      },
-      "url": "https://x.com/elonmusk/status/2118984201160860070",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2118983206422589781",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T08:25:39.000Z",
-      "created_at_shanghai": "2026-11-07 16:25:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Tech CEO’s on January 3, 2027",
-      "quote": null,
-      "retweet": {
-        "author": "alifarhat79",
-        "avatar": "https://pbs.twimg.com/profile_images/1469441193209733127/Iuv1R7sk_200x200.jpg",
-        "created_at_shanghai": "2026-11-06 23:42:35",
-        "created_at_utc": "2026-11-06T15:42:35.000Z",
-        "id": "2118730774182768877",
-        "images": [
-          "https://pbs.twimg.com/media/HWc-aFkX0AAdeUK.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 941,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWc-aFkX0AAdeUK.jpg?name=small",
-            "width": 1672
-          }
-        ],
-        "name": "Not Jerome Powell",
-        "text": "Tech CEO’s on January 3, 2027",
-        "url": "https://x.com/alifarhat79/status/2118730774182768877",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1351,
-        "likes": 22484,
-        "quotes": 275,
-        "replies": 698,
-        "retweets": 1675,
-        "views": 1333537
-      },
-      "url": "https://x.com/elonmusk/status/2118983206422589781",
-      "images": [
-        "https://pbs.twimg.com/media/HWc-aFkX0AAdeUK.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWc-aFkX0AAdeUK.jpg?name=small",
-          "width": 1672,
-          "height": 941
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2118981577388568654",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T08:19:11.000Z",
-      "created_at_shanghai": "2026-11-07 16:19:11",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@wholemars Not quite betting the company, but going balls to the wall for autonomy is a blindingly obvious move. \n\nEverything else is like variations on a horse carriage.",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2024-04-17 07:23:41",
-        "created_at_utc": "2024-04-16T23:23:41.000Z",
-        "id": "1780376546148327690",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "@wholemars Not quite betting the company, but going balls to the wall for autonomy is a blindingly obvious move. \n\nEverything else is like variations on a horse carriage.",
-        "url": "https://x.com/elonmusk/status/1780376546148327690",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "wholemars",
-      "engagement": {
-        "bookmarks": 920,
-        "likes": 16130,
-        "quotes": 419,
-        "replies": 973,
-        "retweets": 1236,
-        "views": 2377582
-      },
-      "url": "https://x.com/elonmusk/status/2118981577388568654",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2118978424840876093",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T08:06:39.000Z",
-      "created_at_shanghai": "2026-11-07 16:06:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "JUST IN: Google to invest $15 billion in Malaysia data centers",
-      "quote": null,
-      "retweet": {
-        "author": "Kalshi",
-        "avatar": "https://pbs.twimg.com/profile_images/2061243841957502981/FZGJ4D6K_200x200.jpg",
-        "created_at_shanghai": "2026-11-04 18:50:00",
-        "created_at_utc": "2026-11-04T10:50:00.000Z",
-        "id": "2117932367587504589",
-        "images": [],
-        "media": [],
-        "name": "Kalshi",
-        "text": "JUST IN: Google to invest $15 billion in Malaysia data centers",
-        "url": "https://x.com/Kalshi/status/2117932367587504589",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 730,
-        "likes": 7276,
-        "quotes": 749,
-        "replies": 334,
-        "retweets": 964,
-        "views": 2669923
-      },
-      "url": "https://x.com/elonmusk/status/2118978424840876093",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2118975995269296438",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T07:57:00.000Z",
-      "created_at_shanghai": "2026-11-07 15:57:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Gavin Baker owned 15% of Nvidia and 10% of Tesla before either was worth $2 billion. He’s 50. And he just admitted Claude Code was too hard for him, so he switched to Grok Bot.\n\n“I glued together all this stuff with Claude Code and, you know, I’m sure it was user error on my part. 50 years old. I’m doing my best.”\n\nThen he tried Grok Bot.\n\n“Grok Bot is the most impactful AI product to me and to the firm that we’ve had yet.”\n\n“It just makes it so easy. I think I’m up to like 17 Grok Bots, and every day I think of a new one to add.”\n\nAnd it’s not a toy for him. It’s how he runs money:\n\n“For the more professional use cases, Grok Bot has just been transformative for me.”\n\n“So much of investing is making sure that the right information gets to the right person at the right time, and Grok Bot is so good at that.”\n\nOne of the best tech investors alive runs his firm on 17 AI agents. And he’s adding a new one every day.",
-      "quote": {
-        "author": "stark0xbt",
-        "avatar": "https://pbs.twimg.com/profile_images/2110743456372957184/lsioAQWc_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 01:30:02",
-        "created_at_utc": "2026-10-13T17:30:02.000Z",
-        "id": "2110060506782253061",
-        "images": [],
-        "media": [],
-        "name": "stark0xbt",
-        "text": "https://x.com/i/article/2109986286463234048",
-        "url": "https://x.com/stark0xbt/status/2110060506782253061",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "stark0xbt",
-        "avatar": "https://pbs.twimg.com/profile_images/2110743456372957184/lsioAQWc_200x200.jpg",
-        "created_at_shanghai": "2026-11-06 05:16:16",
-        "created_at_utc": "2026-11-05T21:16:16.000Z",
-        "id": "2118452360066355485",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2118452199051173888/img/bdUWAikkvpzEu7rz.jpg"
-        ],
-        "media": [
-          {
-            "duration": 56.866,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118452199051173888/img/bdUWAikkvpzEu7rz.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2118452199051173888/vid/avc1/1920x1080/6ctPGiSJQ58NbCEf.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "stark0xbt",
-        "text": "Gavin Baker owned 15% of Nvidia and 10% of Tesla before either was worth $2 billion. He’s 50. And he just admitted Claude Code was too hard for him, so he switched to Grok Bot.\n\n“I glued together all this stuff with Claude Code and, you know, I’m sure it was user error on my part. 50 years old. I’m doing my best.”\n\nThen he tried Grok Bot.\n\n“Grok Bot is the most impactful AI product to me and to the firm that we’ve had yet.”\n\n“It just makes it so easy. I think I’m up to like 17 Grok Bots, and every day I think of a new one to add.”\n\nAnd it’s not a toy for him. It’s how he runs money:\n\n“For the more professional use cases, Grok Bot has just been transformative for me.”\n\n“So much of investing is making sure that the right information gets to the right person at the right time, and Grok Bot is so good at that.”\n\nOne of the best tech investors alive runs his firm on 17 AI agents. And he’s adding a new one every day.",
-        "url": "https://x.com/stark0xbt/status/2118452360066355485",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 362,
-        "likes": 1265,
-        "quotes": 19,
-        "replies": 53,
-        "retweets": 152,
-        "views": 414622
-      },
-      "url": "https://x.com/elonmusk/status/2118975995269296438",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2118452199051173888/img/bdUWAikkvpzEu7rz.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2118452199051173888/vid/avc1/1920x1080/6ctPGiSJQ58NbCEf.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118452199051173888/img/bdUWAikkvpzEu7rz.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 56.866
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2118975571812327503",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T07:55:19.000Z",
-      "created_at_shanghai": "2026-11-07 15:55:19",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "If you’re right wing and you can’t admit liberals (not communists) are way better at art and design and boutique coffee shops and restaurants, you’re not living in reality. \n\nIf you’re left wing and you can’t admit conservatives are way better at running cities and businesses and police departments, you’re not living in reality. \n\nYou step inside a beautiful coffee shop in the PNW and think “man, these liberals are great at this stuff…conservatives should take notes.” Then the moment you step outside and trip over a homeless drug zombie shooting up fentanyl on the sidewalk, you think “man these liberals are terrible at this stuff…they should really take notes from conservatives”\n\nCommunists make disgusting anti-beauty art, but classical liberals aren’t like that. Put the libs in charge of the coffee shops, put the conservatives in charge of city hall. This is how you get a city that is beautiful, clean, and functional. \n\nIf you can’t accept that, you need to check your tribalism. We are never getting rid of each other, so figure out how we strike a balance or else the communists swoop in and take everything from us while we quarrel over stupid bullshit…which is exactly what’s happening now.",
-      "quote": {
-        "author": "spencerpratt",
-        "avatar": "https://pbs.twimg.com/profile_images/2087563439225159680/pRMJRkqz_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 00:12:54",
-        "created_at_utc": "2026-11-06T16:12:54.000Z",
-        "id": "2118738403919568925",
-        "images": [],
-        "media": [],
-        "name": "Spencer Pratt",
-        "text": "Conservatives make society functional. Liberals make society beautiful. \n\nWe really do need each other.",
-        "url": "https://x.com/spencerpratt/status/2118738403919568925",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "spencerpratt",
-        "avatar": "https://pbs.twimg.com/profile_images/2087563439225159680/pRMJRkqz_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 01:48:33",
-        "created_at_utc": "2026-11-06T17:48:33.000Z",
-        "id": "2118762477060251823",
-        "images": [],
-        "media": [],
-        "name": "Spencer Pratt",
-        "text": "If you’re right wing and you can’t admit liberals (not communists) are way better at art and design and boutique coffee shops and restaurants, you’re not living in reality. \n\nIf you’re left wing and you can’t admit conservatives are way better at running cities and businesses and police departments, you’re not living in reality. \n\nYou step inside a beautiful coffee shop in the PNW and think “man, these liberals are great at this stuff…conservatives should take notes.” Then the moment you step outside and trip over a homeless drug zombie shooting up fentanyl on the sidewalk, you think “man these liberals are terrible at this stuff…they should really take notes from conservatives”\n\nCommunists make disgusting anti-beauty art, but classical liberals aren’t like that. Put the libs in charge of the coffee shops, put the conservatives in charge of city hall. This is how you get a city that is beautiful, clean, and functional. \n\nIf you can’t accept that, you need to check your tribalism. We are never getting rid of each other, so figure out how we strike a balance or else the communists swoop in and take everything from us while we quarrel over stupid bullshit…which is exactly what’s happening now.",
-        "url": "https://x.com/spencerpratt/status/2118762477060251823",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 3247,
-        "likes": 41777,
-        "quotes": 497,
-        "replies": 2540,
-        "retweets": 4237,
-        "views": 1612397
-      },
-      "url": "https://x.com/elonmusk/status/2118975571812327503",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2118959379982479658",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T06:50:59.000Z",
-      "created_at_shanghai": "2026-11-07 14:50:59",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "“They put a pump in the anus of a 12 year old girl to expand it so multiple men could rape her and your country covered that up and then told me Tommy was the bad guy.”\n\nTim Pool pushes back on Piers Morgan demonizing Elon Musk’s defense of Tommy Robinson for exposing the UK police’s grooming gang coverup.",
-      "quote": null,
-      "retweet": {
-        "author": "DTruthsQ",
-        "avatar": "https://pbs.twimg.com/profile_images/2115159690451746817/ATUW_dcb_200x200.jpg",
-        "created_at_shanghai": "2026-11-06 04:05:27",
-        "created_at_utc": "2026-11-05T20:05:27.000Z",
-        "id": "2118434538762432752",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2118433722538049537/img/jxtU1rzVdZUFzhmp.jpg"
-        ],
-        "media": [
-          {
-            "duration": 346.673,
-            "height": 482,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118433722538049537/img/jxtU1rzVdZUFzhmp.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2118433722538049537/vid/avc1/884x482/cGvzHnKMEUdG6YTg.mp4?tag=29",
-            "width": 884
-          }
-        ],
-        "name": "Truth Org",
-        "text": "“They put a pump in the anus of a 12 year old girl to expand it so multiple men could rape her and your country covered that up and then told me Tommy was the bad guy.”\n\nTim Pool pushes back on Piers Morgan demonizing Elon Musk’s defense of Tommy Robinson for exposing the UK police’s grooming gang coverup.",
-        "url": "https://x.com/DTruthsQ/status/2118434538762432752",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 7552,
-        "likes": 53940,
-        "quotes": 367,
-        "replies": 2605,
-        "retweets": 11120,
-        "views": 2625451
-      },
-      "url": "https://x.com/elonmusk/status/2118959379982479658",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2118433722538049537/img/jxtU1rzVdZUFzhmp.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2118433722538049537/vid/avc1/884x482/cGvzHnKMEUdG6YTg.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118433722538049537/img/jxtU1rzVdZUFzhmp.jpg",
-          "width": 884,
-          "height": 482,
-          "duration": 346.673
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2118957318473974210",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T06:42:47.000Z",
-      "created_at_shanghai": "2026-11-07 14:42:47",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Here's some fuel for all the Europoor haters:\n\nGermany just told us we'd have to fire one of our 3 founders to qualify for funding.\n\nI was in talks with a German state-backed fund of fund managing billions, with one single mandate: invest in German funds to drive innovation and economic growth in the country.\n\nThey literally told me they like us a lot and are also impressed by our track record and performance so far, and even though not everyone in their team is a fan of our thesis, they believe in it.\n\nBut they passed for a whole different reason:\n\nBecause our all-male team of 3 people isn't \"diverse enough\" lol.\n\nthey literally told me: hire two more female partners (impossible on the economics of a fund our size), or let one of the three of us go to make room for a quota hire. do that, and they'd strongly consider investing.\n\nI won't even get into how discriminatory this is toward men in the first place. nobody takes that seriously anyway, and honestly I don't care.\n\nbut what actually gets me is something bigger: as a German, I have to face the fact that the whole world continuing to laugh at Germany and overall Europe is completely justified.\n\na system that quietly kills the smallest, hungriest teams, the exact ones this money was created to support. and then everyone acts surprised that talent and capital keep leaving the country.",
-      "quote": null,
-      "retweet": {
-        "author": "sjdedic",
-        "avatar": "https://pbs.twimg.com/profile_images/2077683341206188032/nEDZAhD9_200x200.jpg",
-        "created_at_shanghai": "2026-11-06 20:55:18",
-        "created_at_utc": "2026-11-06T12:55:18.000Z",
-        "id": "2118688674548265131",
-        "images": [],
-        "media": [],
-        "name": "Simon Dedic",
-        "text": "Here's some fuel for all the Europoor haters:\n\nGermany just told us we'd have to fire one of our 3 founders to qualify for funding.\n\nI was in talks with a German state-backed fund of fund managing billions, with one single mandate: invest in German funds to drive innovation and economic growth in the country.\n\nThey literally told me they like us a lot and are also impressed by our track record and performance so far, and even though not everyone in their team is a fan of our thesis, they believe in it.\n\nBut they passed for a whole different reason:\n\nBecause our all-male team of 3 people isn't \"diverse enough\" lol.\n\nthey literally told me: hire two more female partners (impossible on the economics of a fund our size), or let one of the three of us go to make room for a quota hire. do that, and they'd strongly consider investing.\n\nI won't even get into how discriminatory this is toward men in the first place. nobody takes that seriously anyway, and honestly I don't care.\n\nbut what actually gets me is something bigger: as a German, I have to face the fact that the whole world continuing to laugh at Germany and overall Europe is completely justified.\n\na system that quietly kills the smallest, hungriest teams, the exact ones this money was created to support. and then everyone acts surprised that talent and capital keep leaving the country.",
-        "url": "https://x.com/sjdedic/status/2118688674548265131",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1735,
-        "likes": 17229,
-        "quotes": 186,
-        "replies": 685,
-        "retweets": 1965,
-        "views": 968077
-      },
-      "url": "https://x.com/elonmusk/status/2118957318473974210",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2118956856978653374",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T06:40:57.000Z",
-      "created_at_shanghai": "2026-11-07 14:40:57",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
-      "quote": {
-        "author": "cremieuxrecueil",
-        "avatar": "https://pbs.twimg.com/profile_images/1637507712983375875/EQHiqVq8_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 14:26:03",
-        "created_at_utc": "2026-11-07T06:26:03.000Z",
-        "id": "2118953104637141072",
-        "images": [
-          "https://pbs.twimg.com/media/HWgIm0ua8AAuaFi.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2442,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWgIm0ua8AAuaFi.jpg?name=small",
-            "width": 3901
-          }
-        ],
-        "name": "Crémieux",
-        "text": "Whenever people say the U.S. has a lot of starvation, it's like they're saying they don't realize the poor have obesity issues these days.",
-        "url": "https://x.com/cremieuxrecueil/status/2118953104637141072",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 240,
-        "likes": 6395,
-        "quotes": 70,
-        "replies": 1098,
-        "retweets": 869,
-        "views": 1113571
-      },
-      "url": "https://x.com/elonmusk/status/2118956856978653374",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2118955209757962425",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T06:34:24.000Z",
-      "created_at_shanghai": "2026-11-07 14:34:24",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "When computers and robots advance enough, legacy governance will look awkwardly quaint.\n\nIf they can build almost everything, why can't residents submit proposals, vote on them, and have them built?\n\nInstead of years of theater, projects can be completed in days.\n\nWant a high-speed railway? It costs X joules and hours to construct and Y joules per day to operate, with options A, B, and C. The full blueprint is attached for verification. No endless fake tax-raising campaign to fund something that does not exist. You pay with the electricity bill. No additional income or property taxes. Obviously, places with cheap electricity would have more build-out than places that don’t.\n\nOnce started, every agent can access the real-time status.\n\nIt may seem like fantasy, but the technology is almost there.",
-      "quote": null,
-      "retweet": {
-        "author": "yunta_tsai",
-        "avatar": "https://pbs.twimg.com/profile_images/2035915849819938816/b6kIsNMe_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 00:02:33",
-        "created_at_utc": "2026-11-06T16:02:33.000Z",
-        "id": "2118735799953101194",
-        "images": [],
-        "media": [],
-        "name": "Yun-Ta Tsai",
-        "text": "When computers and robots advance enough, legacy governance will look awkwardly quaint.\n\nIf they can build almost everything, why can't residents submit proposals, vote on them, and have them built?\n\nInstead of years of theater, projects can be completed in days.\n\nWant a high-speed railway? It costs X joules and hours to construct and Y joules per day to operate, with options A, B, and C. The full blueprint is attached for verification. No endless fake tax-raising campaign to fund something that does not exist. You pay with the electricity bill. No additional income or property taxes. Obviously, places with cheap electricity would have more build-out than places that don’t.\n\nOnce started, every agent can access the real-time status.\n\nIt may seem like fantasy, but the technology is almost there.",
-        "url": "https://x.com/yunta_tsai/status/2118735799953101194",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 172,
-        "likes": 1758,
-        "quotes": 32,
-        "replies": 129,
-        "retweets": 224,
-        "views": 308857
-      },
-      "url": "https://x.com/elonmusk/status/2118955209757962425",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2118935230182805688",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T05:15:01.000Z",
-      "created_at_shanghai": "2026-11-07 13:15:01",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "5 years ago",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2021-08-13 23:08:59",
-        "created_at_utc": "2021-08-13T15:08:59.000Z",
-        "id": "1426199109585756163",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "@ErcXspace And ship will be caught by Mechazilla too. As with booster, no landing legs. Those are only needed for moon & Mars until there is local infrastructure.",
-        "url": "https://x.com/elonmusk/status/1426199109585756163",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 334,
-        "likes": 11874,
-        "quotes": 64,
-        "replies": 981,
-        "retweets": 980,
-        "views": 4015049
-      },
-      "url": "https://x.com/elonmusk/status/2118935230182805688",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2118913260112273674",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T03:47:43.000Z",
-      "created_at_shanghai": "2026-11-07 11:47:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It’s time to put all the pieces together, the early tests to see how crazy it was to build a vehicle this size, the suborbital hops to practice subsonic maneuvering, the first real booster, expendable flight tests, trips to the Indian Ocean, and last flight with payload to orbit. We are one step away from the full mission, and that step is the double catch.\n\nWe will try for the first time on flight 15. I don’t think and of us can promise it will work the first time, but getting here feels like a turning point. I still feel like there’s so much to review (and we will be doing that continuously between now and launch) but when I take a moment to stop and think about it, it is overwhelmingly exciting. This is the rocket that will build a human civilization on another planet.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-06 23:47:47",
-        "created_at_utc": "2026-11-06T15:47:47.000Z",
-        "id": "2118732082843435305",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "SpaceX will attempt to catch both the Super Heavy booster and Starship on the upcoming flight. \n\nIf both are successful, it will mark the first time that all parts of an orbital rocket return to Earth intact. \n\nThis is the critical breakthrough needed to make life multiplanetary.",
-        "url": "https://x.com/elonmusk/status/2118732082843435305",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "ShanaDiez",
-        "avatar": "https://pbs.twimg.com/profile_images/1895606220326670336/9vlQI_K9_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 10:42:21",
-        "created_at_utc": "2026-11-07T02:42:21.000Z",
-        "id": "2118896809263169862",
-        "images": [],
-        "media": [],
-        "name": "Shana Diez",
-        "text": "It’s time to put all the pieces together, the early tests to see how crazy it was to build a vehicle this size, the suborbital hops to practice subsonic maneuvering, the first real booster, expendable flight tests, trips to the Indian Ocean, and last flight with payload to orbit. We are one step away from the full mission, and that step is the double catch.\n\nWe will try for the first time on flight 15. I don’t think and of us can promise it will work the first time, but getting here feels like a turning point. I still feel like there’s so much to review (and we will be doing that continuously between now and launch) but when I take a moment to stop and think about it, it is overwhelmingly exciting. This is the rocket that will build a human civilization on another planet.",
-        "url": "https://x.com/ShanaDiez/status/2118896809263169862",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 111,
-        "likes": 2989,
+        "bookmarks": 59,
+        "likes": 948,
         "quotes": 16,
-        "replies": 116,
-        "retweets": 323,
-        "views": 426908
+        "replies": 256,
+        "retweets": 112,
+        "views": 92458
       },
-      "url": "https://x.com/elonmusk/status/2118913260112273674",
-      "images": [],
-      "media": [],
+      "url": "https://x.com/elonmusk/status/2119477926160650342",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2119241356119830528/img/HJ7F7EQF8KDhE5Gd.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2119241356119830528/vid/avc1/1920x1080/wIXNBKt82qSa6Jnz.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119241356119830528/img/HJ7F7EQF8KDhE5Gd.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 114.542
+        }
+      ],
       "enriched": true
     },
     {
-      "id": "2118884500201787770",
+      "id": "2119469436092760547",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T01:53:26.000Z",
-      "created_at_shanghai": "2026-11-07 09:53:26",
+      "created_at_utc": "2026-11-08T16:37:46.000Z",
+      "created_at_shanghai": "2026-11-09 00:37:46",
       "type": "引用",
       "type_label": "引用",
-      "text": "In the coming years, @Neuralink will enable people to walk and use their hands again",
+      "text": "Larry Page has made many accurate predictions and this is one of them",
       "quote": {
+        "author": "hosun_chung",
+        "avatar": "https://pbs.twimg.com/profile_images/2089583453776064512/SIlquoiT_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 06:40:07",
+        "created_at_utc": "2026-11-07T22:40:07.000Z",
+        "id": "2119198237047590971",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2119198209885229056/img/MKhEMNMnywX4kDSo.jpg"
+        ],
+        "media": [
+          {
+            "duration": 42.575,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119198209885229056/img/MKhEMNMnywX4kDSo.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2119198209885229056/vid/avc1/1920x1080/DrtSeKNvcUxDrzk5.mp4?tag=16",
+            "width": 1920
+          }
+        ],
+        "name": "Hosun Chung",
+        "text": "Larry Page reportedly has a number for how much computing will end up in space: five nines. As in 99.999%.\n\n@patrick_oshag heard it secondhand: \"Someone asked Larry Page how much of compute will be orbital, and he said five-nines.\"\n\n@martin_casado's reason it might happen: \"It's just basically regulatory.\" He thinks there are 500 proposed bills to stop data center building in the US, Texas included.\n\nFrom @InvestLikeBest.",
+        "url": "https://x.com/hosun_chung/status/2119198237047590971",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 52,
+        "likes": 583,
+        "quotes": 9,
+        "replies": 102,
+        "retweets": 105,
+        "views": 330202
+      },
+      "url": "https://x.com/elonmusk/status/2119469436092760547",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119464415410200981",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T16:17:49.000Z",
+      "created_at_shanghai": "2026-11-09 00:17:49",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "If Russell Brand is going to prison for rape that occurred 20 years ago, why isn’t anyone in the Epstein files going too?",
+      "quote": null,
+      "retweet": {
+        "author": "_rathbone",
+        "avatar": "https://pbs.twimg.com/profile_images/2117889247596490753/i_eVYdmH_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 09:25:37",
+        "created_at_utc": "2026-11-08T01:25:37.000Z",
+        "id": "2119239887522255070",
+        "images": [],
+        "media": [],
+        "name": "Rathbone",
+        "text": "If Russell Brand is going to prison for rape that occurred 20 years ago, why isn’t anyone in the Epstein files going too?",
+        "url": "https://x.com/_rathbone/status/2119239887522255070",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 246,
+        "likes": 24386,
+        "quotes": 66,
+        "replies": 527,
+        "retweets": 2671,
+        "views": 459248
+      },
+      "url": "https://x.com/elonmusk/status/2119464415410200981",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119450646143537211",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T15:23:06.000Z",
+      "created_at_shanghai": "2026-11-08 23:23:06",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Shame, shame, shame on Chappelle",
+      "quote": {
+        "author": "bennyjohnson",
+        "avatar": "https://pbs.twimg.com/profile_images/2117726643758170112/815JQOOz_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 22:38:40",
+        "created_at_utc": "2026-11-08T14:38:40.000Z",
+        "id": "2119439465097691511",
+        "images": [
+          "https://pbs.twimg.com/media/HWnC9eiW0AERmzi.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1040,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWnC9eiW0AERmzi.jpg?name=small",
+            "width": 1294
+          }
+        ],
+        "name": "Benny Johnson",
+        "text": "When Dave Chappelle was attacked on stage,  Charlie stood up for him.\n\nAfter Charlie was murdered in an act of political violence himself, Chappelle is joking about it.",
+        "url": "https://x.com/bennyjohnson/status/2119439465097691511",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 48,
+        "likes": 2152,
+        "quotes": 12,
+        "replies": 260,
+        "retweets": 336,
+        "views": 367904
+      },
+      "url": "https://x.com/elonmusk/status/2119450646143537211",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119450198007337418",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T15:21:19.000Z",
+      "created_at_shanghai": "2026-11-08 23:21:19",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink saves lives",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 22:03:58",
+        "created_at_utc": "2026-11-08T14:03:58.000Z",
+        "id": "2119430733525815742",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2119430694980169728/img/hUWEEsWKAcHvthb4.jpg"
+        ],
+        "media": [
+          {
+            "duration": 7.826,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119430694980169728/img/hUWEEsWKAcHvthb4.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2119430694980169728/vid/avc1/1690x1080/4FSGJHvLKJejOrhe.mp4?tag=29",
+            "width": 1690
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Starlink helped save five people stranded in Kazakhstan’s snowy mountains. ♥️\n\nTheir SUV broke down about 15 km from the village of Kystau Kurchum. There was no mobile network they could use. Starlink got their call for help through and kept them in touch with rescuers, who used the connection to find them.\n\nCrews drove about 100 km in an all-terrain vehicle and brought all five safely back to the village.\n\nFor people stranded far from help, Starlink can be lifesaving technology.",
+        "url": "https://x.com/cb_doge/status/2119430733525815742",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 27,
+        "likes": 1272,
+        "quotes": 16,
+        "replies": 242,
+        "retweets": 165,
+        "views": 371396
+      },
+      "url": "https://x.com/elonmusk/status/2119450198007337418",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119425068979937378",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T13:41:28.000Z",
+      "created_at_shanghai": "2026-11-08 21:41:28",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Many such stories",
+      "quote": {
+        "author": "AndyL5cc",
+        "avatar": "https://pbs.twimg.com/profile_images/2098063802919276544/5W6aaTVF_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 09:55:08",
+        "created_at_utc": "2026-11-08T01:55:08.000Z",
+        "id": "2119247317975060982",
+        "images": [],
+        "media": [],
+        "name": "Andy L",
+        "text": "笑死，一个朋友嫌每月 200 美元的 AI 订阅太贵。🤣\n\n转头花了十几万，买了 2 台 Mac Studio，专门部署开源大模型。\n\n昨天跟我吐槽：\n\n“折腾半天，发现还没每月 200 美元的闭源模型好用……”\n\n本来想省点订阅费，结果直接把未来十几年的会员费一次性交了。🤡",
+        "url": "https://x.com/AndyL5cc/status/2119247317975060982",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 35,
+        "likes": 761,
+        "quotes": 16,
+        "replies": 233,
+        "retweets": 90,
+        "views": 409501
+      },
+      "url": "https://x.com/elonmusk/status/2119425068979937378",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119420033113739525",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T13:21:27.000Z",
+      "created_at_shanghai": "2026-11-08 21:21:27",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Yup",
+      "quote": {
+        "author": "niccruzpatane",
+        "avatar": "https://pbs.twimg.com/profile_images/1805666868071391232/1qAqAOng_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 03:40:13",
+        "created_at_utc": "2026-11-07T19:40:13.000Z",
+        "id": "2119152965101781174",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2119152855193985024/img/TtjNFWpuf-hysGtb.jpg"
+        ],
+        "media": [
+          {
+            "duration": 64.46,
+            "height": 1440,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119152855193985024/img/TtjNFWpuf-hysGtb.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2119152855193985024/vid/avc1/2560x1440/GRWfdTadjUox36q9.mp4?tag=29",
+            "width": 2560
+          }
+        ],
+        "name": "Nic Cruz Patane",
+        "text": "Elon Musk said at 100 GW/year of orbital AI compute (@ $10 per watt), @SpaceX would add $1 trillion in annual revenue every year, and at higher pricing it could be $3–5 trillion, stacking each year because the satellites will keep running in space. \n\nBullish on space. 🚀",
+        "url": "https://x.com/niccruzpatane/status/2119152965101781174",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 22,
+        "likes": 713,
+        "quotes": 10,
+        "replies": 162,
+        "retweets": 88,
+        "views": 345451
+      },
+      "url": "https://x.com/elonmusk/status/2119420033113739525",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119419126045454531",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T13:17:51.000Z",
+      "created_at_shanghai": "2026-11-08 21:17:51",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Grok Bot fixes for improved token efficiency and smarter behavior are underway",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 35,
+        "likes": 1207,
+        "quotes": 57,
+        "replies": 356,
+        "retweets": 153,
+        "views": 353468
+      },
+      "url": "https://x.com/elonmusk/status/2119419126045454531",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119414305686761847",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T12:58:41.000Z",
+      "created_at_shanghai": "2026-11-08 20:58:41",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Super Heavy’s Raptor engines lifting the booster off the pad.\n\nFilmed with a high-speed camera so you can see the detail in slow motion.",
+      "quote": null,
+      "retweet": {
         "author": "teslaownersSV",
         "avatar": "https://pbs.twimg.com/profile_images/2114535933811032064/CX_COICx_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 09:42:15",
-        "created_at_utc": "2026-11-07T01:42:15.000Z",
-        "id": "2118881685521740104",
+        "created_at_shanghai": "2026-11-08 01:29:15",
+        "created_at_utc": "2026-11-07T17:29:15.000Z",
+        "id": "2119120008211292352",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2118881638407135232/img/JImkC5uj1WABmbn2.jpg"
+          "https://pbs.twimg.com/amplify_video_thumb/2119119940708081664/img/kYssxewOJ6EccmZU.jpg"
         ],
         "media": [
           {
-            "duration": 22.033,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118881638407135232/img/JImkC5uj1WABmbn2.jpg",
+            "duration": 12.012,
+            "height": 1920,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119119940708081664/img/kYssxewOJ6EccmZU.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2118881638407135232/vid/avc1/1920x1080/yAqcq3qlCk3ufglU.mp4?tag=29",
-            "width": 1920
+            "url": "https://video.twimg.com/amplify_video/2119119940708081664/vid/avc1/1080x1920/_9tym-VPiBz5TdxH.mp4?tag=29",
+            "width": 1080
           }
         ],
         "name": "Tesla Owners Silicon Valley",
-        "text": "Neuralink gave Noland Arbaugh something to wake up for.\n\n“I didn’t have anything to wake up for in the morning, and this has changed that for me.”\n\n@elonmusk  says he’s fairly confident Neuralink could restore full-body functionality at some point in the future—not a capability achieved today.",
-        "url": "https://x.com/teslaownersSV/status/2118881685521740104",
+        "text": "Super Heavy’s Raptor engines lifting the booster off the pad.\n\nFilmed with a high-speed camera so you can see the detail in slow motion.",
+        "url": "https://x.com/teslaownersSV/status/2119120008211292352",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 92,
+        "likes": 1775,
+        "quotes": 26,
+        "replies": 153,
+        "retweets": 263,
+        "views": 110795
+      },
+      "url": "https://x.com/elonmusk/status/2119414305686761847",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2119119940708081664/img/kYssxewOJ6EccmZU.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2119119940708081664/vid/avc1/1080x1920/_9tym-VPiBz5TdxH.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119119940708081664/img/kYssxewOJ6EccmZU.jpg",
+          "width": 1080,
+          "height": 1920,
+          "duration": 12.012
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2119414103709978703",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T12:57:53.000Z",
+      "created_at_shanghai": "2026-11-08 20:57:53",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "If one of y'all makes a Starlink ad with a Claudia cameo that wins this contest...\n\nI will personally give you $5000 in @XMoney",
+      "quote": {
+        "author": "Starlink",
+        "avatar": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_200x200.jpg",
+        "created_at_shanghai": "2026-11-07 06:23:15",
+        "created_at_utc": "2026-11-06T22:23:15.000Z",
+        "id": "2118831607650136119",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2118822027205509120/img/yRq_NfaEVL55KqGB.jpg"
+        ],
+        "media": [
+          {
+            "duration": 57.29,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118822027205509120/img/yRq_NfaEVL55KqGB.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2118822027205509120/vid/avc1/1920x1080/5zFCzLpi9KLT4Ew5.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Starlink",
+        "text": "Imagine. Create. Share.\n\nDream up a Starlink ad with Grok @Imagine. Post on @X for the opportunity to be featured by Starlink during the big game.\n\nLearn more → https://starlink.com/imagine",
+        "url": "https://x.com/Starlink/status/2118831607650136119",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 13:56:51",
+        "created_at_utc": "2026-11-08T05:56:51.000Z",
+        "id": "2119308146053116250",
+        "images": [],
+        "media": [],
+        "name": "anabology",
+        "text": "If one of y'all makes a Starlink ad with a Claudia cameo that wins this contest...\n\nI will personally give you $5000 in @XMoney",
+        "url": "https://x.com/anabology/status/2119308146053116250",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 53,
+        "likes": 408,
+        "quotes": 10,
+        "replies": 45,
+        "retweets": 84,
+        "views": 89868
+      },
+      "url": "https://x.com/elonmusk/status/2119414103709978703",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119406464372789396",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T12:27:32.000Z",
+      "created_at_shanghai": "2026-11-08 20:27:32",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Interesting",
+      "quote": {
+        "author": "RoundtableSpace",
+        "avatar": "https://pbs.twimg.com/profile_images/2012162102283407360/U-fPj6wg_200x200.jpg",
+        "created_at_shanghai": "2026-11-07 23:45:00",
+        "created_at_utc": "2026-11-07T15:45:00.000Z",
+        "id": "2119093769991774480",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2116172888654897152/img/ITow9exFC64z1ZAY.jpg"
+        ],
+        "media": [
+          {
+            "duration": 3674.8,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116172888654897152/img/ITow9exFC64z1ZAY.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2116172888654897152/vid/avc1/1284x720/GTp4AVJ3pL2kiI7v.mp4?tag=29",
+            "width": 1284
+          }
+        ],
+        "name": "0xMarioNawfal",
+        "text": "DeepMind CEO Demis Hassabis:\n\n\"One person who really understands AI will outperform an entire startup team\n\nIn 5 years, the people who build with AI will run whole companies with a tenth of the headcount\"",
+        "url": "https://x.com/RoundtableSpace/status/2119093769991774480",
         "verified": true,
         "verified_type": "organization"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 559,
-        "likes": 19529,
-        "quotes": 234,
-        "replies": 1649,
-        "retweets": 2970,
-        "views": 1473620
+        "bookmarks": 57,
+        "likes": 434,
+        "quotes": 4,
+        "replies": 124,
+        "retweets": 68,
+        "views": 315031
       },
-      "url": "https://x.com/elonmusk/status/2118884500201787770",
+      "url": "https://x.com/elonmusk/status/2119406464372789396",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2118884257053684077",
+      "id": "2119406258902224899",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T01:52:28.000Z",
-      "created_at_shanghai": "2026-11-07 09:52:28",
+      "created_at_utc": "2026-11-08T12:26:43.000Z",
+      "created_at_shanghai": "2026-11-08 20:26:43",
       "type": "转发",
       "type_label": "转发",
-      "text": "I'm telling you Grok's speech-to-text literally the best there is\n\nI was literally talking to Grok with music blasting right next to my ears. It was so loud that the person next to me could barely hear me talking\n\nYet Grok was transcribing everything incredibly accurately\n\nIt's gotten so good that I trust it way too much now. I don't even bother checking the text after talking to Grok Bot anymore\n\nYou can try it it's unbelievably good",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-11-06 21:26:44",
-        "created_at_utc": "2026-11-06T13:26:44.000Z",
-        "id": "2118696586213756935",
-        "images": [],
-        "media": [],
-        "name": "X Freeze",
-        "text": "I'm telling you Grok's speech-to-text literally the best there is\n\nI was literally talking to Grok with music blasting right next to my ears. It was so loud that the person next to me could barely hear me talking\n\nYet Grok was transcribing everything incredibly accurately\n\nIt's gotten so good that I trust it way too much now. I don't even bother checking the text after talking to Grok Bot anymore\n\nYou can try it it's unbelievably good",
-        "url": "https://x.com/XFreeze/status/2118696586213756935",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 83,
-        "likes": 1375,
-        "quotes": 7,
-        "replies": 124,
-        "retweets": 148,
-        "views": 352599
-      },
-      "url": "https://x.com/elonmusk/status/2118884257053684077",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2118881284743483488",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T01:40:39.000Z",
-      "created_at_shanghai": "2026-11-07 09:40:39",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Super intelligence leads to abundance",
+      "text": "This is how every US launch ever looks like vs SpaceX’s 2030 launch target for Starship (10,000):",
       "quote": {
-        "author": "firesidealpha",
-        "avatar": "https://pbs.twimg.com/profile_images/2066254089756061697/MGnZGljz_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 00:11:12",
-        "created_at_utc": "2026-11-06T16:11:12.000Z",
-        "id": "2118737977824395524",
+        "author": "ApoStructura",
+        "avatar": "https://pbs.twimg.com/profile_images/2066259948938342400/o8X5jtKr_200x200.jpg",
+        "created_at_shanghai": "2026-11-07 04:24:28",
+        "created_at_utc": "2026-11-06T20:24:28.000Z",
+        "id": "2118801712169304459",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2118736205609340928/img/KWeruYCF6AbYAMdV.jpg"
+          "https://pbs.twimg.com/media/HWd-uG8XUAANb1j.jpg?name=small"
         ],
         "media": [
           {
-            "duration": 81.399,
-            "height": 640,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118736205609340928/img/KWeruYCF6AbYAMdV.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2118736205609340928/vid/avc1/360x640/kOYzqVDBLgaiawu1.mp4?tag=29",
-            "width": 360
+            "height": 3840,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWd-uG8XUAANb1j.jpg?name=small",
+            "width": 3072
           }
         ],
-        "name": "Fireside Alpha",
-        "text": "SpaceX’s Arizona data center, per a county supervisor: “We could be reducing property taxes across the board in Cochise County, the entire county, by 20%”\n\nFrank Antenori, whose district includes the site, brought up the county’s tax math during a live Q&A:\n\n“Here’s just something to just chew on. Arizona has an expenditure limit requirement that is placed on counties. If we exceed that expenditure, we have to rebate back to the taxpayers a certain amount.”\n\n“So, if we’re receiving revenue in from SpaceX, by law, we have to offset that to the taxpayers. We have the potential to reduce, based on the projected revenue they’re creating, as much as 20%.”\n\n“Let me just say it again. We could be reducing property taxes across the board in Cochise County, the entire county, by 20% to offset for the revenue here, because we can’t spend all that money. So, we have to give that money back to the taxpayers. The law says we have to.”\n\n“So, you could see a potential significant impact to local property taxes. What that is, I don’t know. We’re going to have to do the math on it. But the law, if we have this large increase in property tax revenue, we have to balance those rates. So that will reduce dramatically the property tax burden of every resident in the county.”\n\n“The construction sales tax, which also is the TPT, the transaction privilege tax, the retail tax, and the jail excise tax. So that will be part of the construction tax. We could literally use that money to pay the jail off in 2 to 3 years, as opposed to the 13 to 20 years.”\n\n“So this could be a revenue to eliminate the half-cent sales tax in 2 to 3 years. We can get rid of that half-cent sales tax.”",
-        "url": "https://x.com/firesidealpha/status/2118737977824395524",
+        "name": "ApoStructura",
+        "text": "Every US launch ever",
+        "url": "https://x.com/ApoStructura/status/2118801712169304459",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "ApoStructura",
+        "avatar": "https://pbs.twimg.com/profile_images/2066259948938342400/o8X5jtKr_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 04:38:59",
+        "created_at_utc": "2026-11-07T20:38:59.000Z",
+        "id": "2119167754955612456",
+        "images": [
+          "https://pbs.twimg.com/media/HWjLhOUWcAAmmPi.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2560,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWjLhOUWcAAmmPi.jpg?name=small",
+            "width": 3840
+          }
+        ],
+        "name": "ApoStructura",
+        "text": "This is how every US launch ever looks like vs SpaceX’s 2030 launch target for Starship (10,000):",
+        "url": "https://x.com/ApoStructura/status/2119167754955612456",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 185,
+        "likes": 1154,
+        "quotes": 7,
+        "replies": 43,
+        "retweets": 86,
+        "views": 82347
+      },
+      "url": "https://x.com/elonmusk/status/2119406258902224899",
+      "images": [
+        "https://pbs.twimg.com/media/HWjLhOUWcAAmmPi.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWjLhOUWcAAmmPi.jpg?name=small",
+          "width": 3840,
+          "height": 2560
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2119305975987650786",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T05:48:14.000Z",
+      "created_at_shanghai": "2026-11-08 13:48:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "When Elon Musk talks about abundance, I think about people having more room to breathe because the things they need become less expensive to provide.\n\nThat is the possibility I find compelling in Terafab. Its planned chips are meant to support AI and robots, and if those systems help us produce goods and deliver services more efficiently, the benefits could reach far beyond the technology industry, into the cost of everyday life.\n\nFor me, that is what makes a chip factory worth caring about. The meaningful version of abundance is not simply having more impressive machines, but building a future in which meeting ordinary needs puts less pressure on ordinary people.",
+      "quote": null,
+      "retweet": {
+        "author": "EvaFox",
+        "avatar": "https://pbs.twimg.com/profile_images/2049730010999627776/IsXmiZr5_200x200.jpg",
+        "created_at_shanghai": "2026-11-07 21:44:07",
+        "created_at_utc": "2026-11-07T13:44:07.000Z",
+        "id": "2119063349186970048",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2119063113316139008/img/e9-0LQsl_vAReIOQ.jpg"
+        ],
+        "media": [
+          {
+            "duration": 24.65,
+            "height": 850,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119063113316139008/img/e9-0LQsl_vAReIOQ.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2119063113316139008/vid/avc1/1380x850/leTjabp35wh84wIT.mp4?tag=29",
+            "width": 1380
+          }
+        ],
+        "name": "Eva Fo𝕏 🦊 Claudius Nero's Legion",
+        "text": "When Elon Musk talks about abundance, I think about people having more room to breathe because the things they need become less expensive to provide.\n\nThat is the possibility I find compelling in Terafab. Its planned chips are meant to support AI and robots, and if those systems help us produce goods and deliver services more efficiently, the benefits could reach far beyond the technology industry, into the cost of everyday life.\n\nFor me, that is what makes a chip factory worth caring about. The meaningful version of abundance is not simply having more impressive machines, but building a future in which meeting ordinary needs puts less pressure on ordinary people.",
+        "url": "https://x.com/EvaFox/status/2119063349186970048",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 16,
+        "likes": 302,
+        "quotes": 7,
+        "replies": 32,
+        "retweets": 52,
+        "views": 24883
+      },
+      "url": "https://x.com/elonmusk/status/2119305975987650786",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2119063113316139008/img/e9-0LQsl_vAReIOQ.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2119063113316139008/vid/avc1/1380x850/leTjabp35wh84wIT.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119063113316139008/img/e9-0LQsl_vAReIOQ.jpg",
+          "width": 1380,
+          "height": 850,
+          "duration": 24.65
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2119305634688520262",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T05:46:52.000Z",
+      "created_at_shanghai": "2026-11-08 13:46:52",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Yes",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 08:21:00",
+        "created_at_utc": "2026-11-08T00:21:00.000Z",
+        "id": "2119223625396203785",
+        "images": [
+          "https://pbs.twimg.com/media/HWjw6UJbYAAOcav.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1254,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWjw6UJbYAAOcav.jpg?name=small",
+            "width": 1600
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Elon Musk at the Mars Society in 2006\nLong before Starship, the destination was always Mars",
+        "url": "https://x.com/XFreeze/status/2119223625396203785",
         "verified": true,
         "verified_type": "individual"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 393,
-        "likes": 10320,
-        "quotes": 143,
-        "replies": 1447,
-        "retweets": 1589,
-        "views": 1251907
+        "bookmarks": 40,
+        "likes": 1034,
+        "quotes": 17,
+        "replies": 261,
+        "retweets": 104,
+        "views": 311239
       },
-      "url": "https://x.com/elonmusk/status/2118881284743483488",
+      "url": "https://x.com/elonmusk/status/2119305634688520262",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2118880932014997910",
+      "id": "2119304724209914069",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T01:39:15.000Z",
-      "created_at_shanghai": "2026-11-07 09:39:15",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "It is so tempting to make a 500 ton thrust Raptor 4 in place of the 250 ton Raptor 3 for the outer ring of the Starship booster",
+      "created_at_utc": "2026-11-08T05:43:15.000Z",
+      "created_at_shanghai": "2026-11-08 13:43:15",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Why is Russell Brand the only one found guilty when there are entire grooming gangs who have faced zero prosecution?! 🇬🇧",
       "quote": null,
-      "retweet": null,
+      "retweet": {
+        "author": "Jenniferarcuri",
+        "avatar": "https://pbs.twimg.com/profile_images/2066895406756175872/ScssamWV_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 03:08:48",
+        "created_at_utc": "2026-11-07T19:08:48.000Z",
+        "id": "2119145059668914317",
+        "images": [],
+        "media": [],
+        "name": "Jennifer Arcuri",
+        "text": "Why is Russell Brand the only one found guilty when there are entire grooming gangs who have faced zero prosecution?! 🇬🇧",
+        "url": "https://x.com/Jenniferarcuri/status/2119145059668914317",
+        "verified": true,
+        "verified_type": "individual"
+      },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 1077,
-        "likes": 41072,
-        "quotes": 371,
-        "replies": 4288,
-        "retweets": 2142,
-        "views": 6189599
+        "bookmarks": 42,
+        "likes": 6596,
+        "quotes": 22,
+        "replies": 360,
+        "retweets": 722,
+        "views": 62130
       },
-      "url": "https://x.com/elonmusk/status/2118880932014997910",
+      "url": "https://x.com/elonmusk/status/2119304724209914069",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119302996224082049",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-08T05:36:23.000Z",
+      "created_at_shanghai": "2026-11-08 13:36:23",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "BREAKING: The local government of La Serena, Chile, is bringing @Starlink to rural clinics to help them stay connected during emergencies. 🇨🇱\n\nMedical teams can use Starlink to access patient records, arrange referrals through Chile’s Digital Hospital and stay in touch with residents during emergencies, helping patients get care sooner. ♥️",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 12:57:45",
+        "created_at_utc": "2026-11-08T04:57:45.000Z",
+        "id": "2119293271180734870",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2119293247663292416/img/iIDGxe0bEqynGBUE.jpg"
+        ],
+        "media": [
+          {
+            "duration": 9.733,
+            "height": 720,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119293247663292416/img/iIDGxe0bEqynGBUE.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2119293247663292416/vid/avc1/720x720/g3MVEUlh8UbgDqAu.mp4?tag=29",
+            "width": 720
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: The local government of La Serena, Chile, is bringing @Starlink to rural clinics to help them stay connected during emergencies. 🇨🇱\n\nMedical teams can use Starlink to access patient records, arrange referrals through Chile’s Digital Hospital and stay in touch with residents during emergencies, helping patients get care sooner. ♥️",
+        "url": "https://x.com/cb_doge/status/2119293271180734870",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 14,
+        "likes": 438,
+        "quotes": 7,
+        "replies": 50,
+        "retweets": 81,
+        "views": 29409
+      },
+      "url": "https://x.com/elonmusk/status/2119302996224082049",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2119293247663292416/img/iIDGxe0bEqynGBUE.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2119293247663292416/vid/avc1/720x720/g3MVEUlh8UbgDqAu.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119293247663292416/img/iIDGxe0bEqynGBUE.jpg",
+          "width": 720,
+          "height": 720,
+          "duration": 9.733
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2119179405436366943",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-07T21:25:17.000Z",
+      "created_at_shanghai": "2026-11-08 05:25:17",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Announcing a contest! 💸💸\n\nI'll give $420.69 in @XMoney to someone who makes the best Claudia music video by Friday, 10pm EST USA!\n\n$69.42 for runner up\n\nTo make it easy: use the Claudia MCP at https://claudia.gallery",
+      "quote": null,
+      "retweet": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-11-02 11:03:15",
+        "created_at_utc": "2026-11-02T03:03:15.000Z",
+        "id": "2117090131207410074",
+        "images": [
+          "https://pbs.twimg.com/media/HWFqJK7XIAEZbSa.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 675,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWFqJK7XIAEZbSa.jpg?name=small",
+            "width": 1200
+          }
+        ],
+        "name": "anabology",
+        "text": "Announcing a contest! 💸💸\n\nI'll give $420.69 in @XMoney to someone who makes the best Claudia music video by Friday, 10pm EST USA!\n\n$69.42 for runner up\n\nTo make it easy: use the Claudia MCP at https://claudia.gallery",
+        "url": "https://x.com/anabology/status/2117090131207410074",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 178,
+        "likes": 654,
+        "quotes": 26,
+        "replies": 102,
+        "retweets": 110,
+        "views": 120781
+      },
+      "url": "https://x.com/elonmusk/status/2119179405436366943",
+      "images": [
+        "https://pbs.twimg.com/media/HWFqJK7XIAEZbSa.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWFqJK7XIAEZbSa.jpg?name=small",
+          "width": 1200,
+          "height": 675
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2119179384376762623",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-07T21:25:12.000Z",
+      "created_at_shanghai": "2026-11-08 05:25:12",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Judging will take place this weekend!\n\nAlso - make sure your video you submitted is included at https://sxsi.com. If not, reach out to me or @SXSIcom! \n\nLegitimate community voting there will receive another prize, but that's the list we're also working off of for judging",
+      "quote": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-11-02 11:03:15",
+        "created_at_utc": "2026-11-02T03:03:15.000Z",
+        "id": "2117090131207410074",
+        "images": [
+          "https://pbs.twimg.com/media/HWFqJK7XIAEZbSa.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 675,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWFqJK7XIAEZbSa.jpg?name=small",
+            "width": 1200
+          }
+        ],
+        "name": "anabology",
+        "text": "Announcing a contest! 💸💸\n\nI'll give $420.69 in @XMoney to someone who makes the best Claudia music video by Friday, 10pm EST USA!\n\n$69.42 for runner up\n\nTo make it easy: use the Claudia MCP at https://claudia.gallery",
+        "url": "https://x.com/anabology/status/2117090131207410074",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-11-07 03:27:04",
+        "created_at_utc": "2026-11-06T19:27:04.000Z",
+        "id": "2118787265912856803",
+        "images": [],
+        "media": [],
+        "name": "anabology",
+        "text": "Judging will take place this weekend!\n\nAlso - make sure your video you submitted is included at https://sxsi.com. If not, reach out to me or @SXSIcom! \n\nLegitimate community voting there will receive another prize, but that's the list we're also working off of for judging",
+        "url": "https://x.com/anabology/status/2118787265912856803",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 203,
+        "quotes": 5,
+        "replies": 33,
+        "retweets": 40,
+        "views": 38174
+      },
+      "url": "https://x.com/elonmusk/status/2119179384376762623",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2119152897057599947",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-07T19:39:57.000Z",
+      "created_at_shanghai": "2026-11-08 03:39:57",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "There are efficiency improvements coming that will allow for a 40kWh Cybercab pack. We will make this in liquid silver, so the colors are not too monotonous. \n\nThe biggest thing most people fail to understand is that there are a very limited number of smart, dedicated people! They can only do so many things. \n\nIf we have to maintain a complex production line, supply chain and allocate engineering for Cybertruck, we can’t use those people or factory space and machinery for scaling Cybercab, which is the vehicle that will PROFOUNDLY transform the world of terrestrial transport!",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-11-08 03:39:43",
+        "created_at_utc": "2026-11-07T19:39:43.000Z",
+        "id": "2119152839813456261",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "There are efficiency improvements coming that will allow for a 40kWh Cybercab pack. We will make this in liquid silver, so the colors are not too monotonous. \n\nThe biggest thing most people fail to understand is that there are a very limited number of smart, dedicated people! They can only do so many things. \n\nIf we have to maintain a complex production line, supply chain and allocate engineering for Cybertruck, we can’t use those people or factory space and machinery for scaling Cybercab, which is the vehicle that will PROFOUNDLY transform the world of terrestrial transport!",
+        "url": "https://x.com/elonmusk/status/2119152839813456261",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "WR4NYGov",
+      "engagement": {
+        "bookmarks": 32,
+        "likes": 569,
+        "quotes": 14,
+        "replies": 43,
+        "retweets": 69,
+        "views": 50713
+      },
+      "url": "https://x.com/elonmusk/status/2119152897057599947",
       "images": [],
       "media": [],
       "enriched": true
@@ -1011,8 +1088,8 @@
   ],
   "page": 19,
   "page_size": 20,
-  "total": 2452,
-  "total_pages": 123,
-  "updated_at_shanghai": "2026-11-17 09:03:38",
+  "total": 2489,
+  "total_pages": 125,
+  "updated_at_shanghai": "2026-11-17 16:25:21",
   "account": "elonmusk"
 }

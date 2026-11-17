@@ -1,482 +1,756 @@
 {
   "posts": [
     {
-      "id": "2120746428720988408",
+      "id": "2121261314580574291",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T05:12:04.000Z",
-      "created_at_shanghai": "2026-11-12 13:12:04",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Robotaxi works 168 hours a week",
-      "quote": {
-        "author": "robotaxi",
-        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 12:31:12",
-        "created_at_utc": "2026-11-12T04:31:12.000Z",
-        "id": "2120736143566344324",
+      "created_at_utc": "2026-11-13T15:18:03.000Z",
+      "created_at_shanghai": "2026-11-13 23:18:03",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "",
+      "quote": null,
+      "retweet": {
+        "author": "justinbieber",
+        "avatar": "https://pbs.twimg.com/profile_images/2047810066091479040/DEKoJKUM_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 22:39:52",
+        "created_at_utc": "2026-11-13T14:39:52.000Z",
+        "id": "2121251707393024486",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120736100151177216/img/IdxK4IGj1PPNYciw.jpg"
+          "https://pbs.twimg.com/media/HXAzFJabcAAXQUI.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJXbkAA9x1p.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJdbYAAs03n.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJaaIAAtVc6.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJTb0AEVWZ7.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJVbYAAGgZM.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJWbQAAoU17.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJabYAEHhpq.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJfaMAAN190.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJsbkAAd6Ux.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJYbAAAGX5Q.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJcaUAA_8QN.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJXawAA5RMC.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJbagAAsfne.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJkbcAIAnlb.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJmaEAAaZ8u.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJjbwAEXW_h.jpg?name=small",
+          "https://pbs.twimg.com/media/HXAzFJZbAAA9TSw.jpg?name=small"
         ],
         "media": [
           {
-            "duration": 4.379,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120736100151177216/img/IdxK4IGj1PPNYciw.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120736100151177216/vid/avc1/3840x2160/FJgHPK8UnFcuLXfl.mp4?tag=29",
-            "width": 3840
+            "height": 462,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJabcAAXQUI.jpg?name=small",
+            "width": 460
+          },
+          {
+            "height": 462,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJXbkAA9x1p.jpg?name=small",
+            "width": 460
+          },
+          {
+            "height": 462,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJdbYAAs03n.jpg?name=small",
+            "width": 460
+          },
+          {
+            "height": 1084,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJaaIAAtVc6.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1085,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJTb0AEVWZ7.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1084,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJVbYAAGgZM.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 462,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJWbQAAoU17.jpg?name=small",
+            "width": 460
+          },
+          {
+            "height": 1084,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJabYAEHhpq.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1084,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJfaMAAN190.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1084,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJsbkAAd6Ux.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1084,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJYbAAAGX5Q.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1084,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJcaUAA_8QN.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1084,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJXawAA5RMC.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1080,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJbagAAsfne.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1080,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJkbcAIAnlb.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1084,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJmaEAAaZ8u.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1080,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJjbwAEXW_h.jpg?name=small",
+            "width": 1080
+          },
+          {
+            "height": 1084,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXAzFJZbAAA9TSw.jpg?name=small",
+            "width": 1080
           }
         ],
-        "name": "Robotaxi",
-        "text": "Robotaxi now runs 24/7\n\nEvery city we're available in",
-        "url": "https://x.com/robotaxi/status/2120736143566344324",
+        "name": "Justin Bieber",
+        "text": "",
+        "url": "https://x.com/justinbieber/status/2121251707393024486",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 87,
+        "likes": 5924,
+        "quotes": 81,
+        "replies": 283,
+        "retweets": 734,
+        "views": 232923
+      },
+      "url": "https://x.com/elonmusk/status/2121261314580574291",
+      "images": [
+        "https://pbs.twimg.com/media/HXAzFJabcAAXQUI.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJXbkAA9x1p.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJdbYAAs03n.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJaaIAAtVc6.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJTb0AEVWZ7.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJVbYAAGgZM.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJWbQAAoU17.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJabYAEHhpq.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJfaMAAN190.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJsbkAAd6Ux.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJYbAAAGX5Q.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJcaUAA_8QN.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJXawAA5RMC.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJbagAAsfne.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJkbcAIAnlb.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJmaEAAaZ8u.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJjbwAEXW_h.jpg?name=small",
+        "https://pbs.twimg.com/media/HXAzFJZbAAA9TSw.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJabcAAXQUI.jpg?name=small",
+          "width": 460,
+          "height": 462
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJXbkAA9x1p.jpg?name=small",
+          "width": 460,
+          "height": 462
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJdbYAAs03n.jpg?name=small",
+          "width": 460,
+          "height": 462
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJaaIAAtVc6.jpg?name=small",
+          "width": 1080,
+          "height": 1084
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJTb0AEVWZ7.jpg?name=small",
+          "width": 1080,
+          "height": 1085
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJVbYAAGgZM.jpg?name=small",
+          "width": 1080,
+          "height": 1084
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJWbQAAoU17.jpg?name=small",
+          "width": 460,
+          "height": 462
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJabYAEHhpq.jpg?name=small",
+          "width": 1080,
+          "height": 1084
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJfaMAAN190.jpg?name=small",
+          "width": 1080,
+          "height": 1084
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJsbkAAd6Ux.jpg?name=small",
+          "width": 1080,
+          "height": 1084
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJYbAAAGX5Q.jpg?name=small",
+          "width": 1080,
+          "height": 1084
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJcaUAA_8QN.jpg?name=small",
+          "width": 1080,
+          "height": 1084
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJXawAA5RMC.jpg?name=small",
+          "width": 1080,
+          "height": 1084
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJbagAAsfne.jpg?name=small",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJkbcAIAnlb.jpg?name=small",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJmaEAAaZ8u.jpg?name=small",
+          "width": 1080,
+          "height": 1084
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJjbwAEXW_h.jpg?name=small",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXAzFJZbAAA9TSw.jpg?name=small",
+          "width": 1080,
+          "height": 1084
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2121250804447445203",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T14:36:17.000Z",
+      "created_at_shanghai": "2026-11-13 22:36:17",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Hmm",
+      "quote": {
+        "author": "TimSweeneyEpic",
+        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 11:31:08",
+        "created_at_utc": "2026-11-13T03:31:08.000Z",
+        "id": "2121083415487205652",
+        "images": [],
+        "media": [],
+        "name": "Tim Sweeney",
+        "text": "What?! So journalists with sketchy motives portrayed rumors from god-knows-who (lobbyists?) as facts sourced from intelligence officials and gaslit the NVIDIA board to push out the founder, CEO, and once-in-generation visionary?\n\nThis raises serious corporate governance issues.",
+        "url": "https://x.com/TimSweeneyEpic/status/2121083415487205652",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 61,
+        "likes": 1455,
+        "quotes": 28,
+        "replies": 300,
+        "retweets": 182,
+        "views": 413912
+      },
+      "url": "https://x.com/elonmusk/status/2121250804447445203",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121250645613429076",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T14:35:39.000Z",
+      "created_at_shanghai": "2026-11-13 22:35:39",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Bot can now spot and act on any texts you may have forgotten.",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 02:28:57",
+        "created_at_utc": "2026-11-12T18:28:57.000Z",
+        "id": "2120946968403095906",
+        "images": [
+          "https://pbs.twimg.com/media/HW8XKMOaUAAegaG.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8XKMOaUAAegaG.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot on Mac can now use Messages, Mail, Notes, Reminders, Calendar, Location, and Contacts.",
+        "url": "https://x.com/bot/status/2120946968403095906",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "mntruell",
+        "avatar": "https://pbs.twimg.com/profile_images/1887065642261737472/QdLiAFfD_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 02:38:50",
+        "created_at_utc": "2026-11-12T18:38:50.000Z",
+        "id": "2120949456518709744",
+        "images": [],
+        "media": [],
+        "name": "Michael Truell",
+        "text": "Bot can now spot and act on any texts you may have forgotten.",
+        "url": "https://x.com/mntruell/status/2120949456518709744",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 73,
+        "likes": 897,
+        "quotes": 3,
+        "replies": 56,
+        "retweets": 61,
+        "views": 42230
+      },
+      "url": "https://x.com/elonmusk/status/2121250645613429076",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121250205806772283",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T14:33:54.000Z",
+      "created_at_shanghai": "2026-11-13 22:33:54",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship 42 preparing for launch",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 08:56:49",
+        "created_at_utc": "2026-11-13T00:56:49.000Z",
+        "id": "2121044579470233638",
+        "images": [
+          "https://pbs.twimg.com/media/HW92p7AWgAA-N1n.jpg?name=small",
+          "https://pbs.twimg.com/media/HW92saPXUAAenRM.jpg?name=small",
+          "https://pbs.twimg.com/media/HW92tsGW4AA1FRd.jpg?name=small",
+          "https://pbs.twimg.com/media/HW92vD_WIAAmDOP.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92p7AWgAA-N1n.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92saPXUAAenRM.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2731,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92tsGW4AA1FRd.jpg?name=small",
+            "width": 4096
+          },
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW92vD_WIAAmDOP.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Ship 42 moves to the Starbase pad ahead of launch",
+        "url": "https://x.com/SpaceX/status/2121044579470233638",
         "verified": true,
         "verified_type": "organization"
       },
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 46,
-        "likes": 1355,
-        "quotes": 31,
-        "replies": 277,
-        "retweets": 162,
-        "views": 323437
+        "bookmarks": 54,
+        "likes": 2125,
+        "quotes": 36,
+        "replies": 382,
+        "retweets": 242,
+        "views": 343634
       },
-      "url": "https://x.com/elonmusk/status/2120746428720988408",
+      "url": "https://x.com/elonmusk/status/2121250205806772283",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2120742206529257928",
+      "id": "2121244058379321642",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T04:55:18.000Z",
-      "created_at_shanghai": "2026-11-12 12:55:18",
+      "created_at_utc": "2026-11-13T14:09:28.000Z",
+      "created_at_shanghai": "2026-11-13 22:09:28",
       "type": "转发",
       "type_label": "转发",
-      "text": "Barbara Corcoran on Elon Musk:\n\"Any great leader has a strong opinion and isn't so smooth on the edges and drives it home. But that's what you want when you want to reinvent a category, and that's what he has done.\"",
+      "text": "The REAL story finally came out. And THIS is exactly why I waited before jumping on the outrage bandwagon.\n\nNot only had these individuals pulled the same stupid prank in front of FOUR other Ring cameras before reaching this apartment, but BOTH sides have now acknowledged that they didn’t even know each other. The pranksters didn’t even know the race of the people living inside the apartment. \n\nNow these individuals are being threatened, doxxed, and dragged across the internet. One even left the university. \n\nWas the prank stupid? Absolutely. Does that justify what is happening to them now? NOT EVEN CLOSE.\n\nImagine living in a world where making monkey noises into a Ring camera can potentially land you in more trouble than k*lling your own THREE CHILDREN.\n\nImagine living in a world where a woman pulled a stupid prank and is forced to step away from her education, but a MURDERER who admitted to k*lling a student at a track meet is not expelled and is allowed to graduate. \n\nThe world is backwards.",
       "quote": null,
       "retweet": {
-        "author": "teslaownersSV",
-        "avatar": "https://pbs.twimg.com/profile_images/2114535933811032064/CX_COICx_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 02:31:24",
-        "created_at_utc": "2026-11-11T18:31:24.000Z",
-        "id": "2120585198924628448",
+        "author": "SarahisCensored",
+        "avatar": "https://pbs.twimg.com/profile_images/2104418248582180865/LUqUIXu4_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 05:31:02",
+        "created_at_utc": "2026-11-12T21:31:02.000Z",
+        "id": "2120992791425581120",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120585176891998208/img/ngRlXb6V6Pf8Pznp.jpg"
+          "https://pbs.twimg.com/media/HW9HYcaXAAAv7Za.jpg?name=small"
         ],
         "media": [
           {
-            "duration": 88.955,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120585176891998208/img/ngRlXb6V6Pf8Pznp.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120585176891998208/vid/avc1/1280x720/UFQ5XjK6q6l4hqeO.mp4?tag=29",
-            "width": 1280
+            "height": 900,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW9HYcaXAAAv7Za.jpg?name=small",
+            "width": 1200
           }
         ],
-        "name": "Tesla Owners Silicon Valley",
-        "text": "Barbara Corcoran on Elon Musk:\n\"Any great leader has a strong opinion and isn't so smooth on the edges and drives it home. But that's what you want when you want to reinvent a category, and that's what he has done.\"",
-        "url": "https://x.com/teslaownersSV/status/2120585198924628448",
+        "name": "Sarah Fields",
+        "text": "The REAL story finally came out. And THIS is exactly why I waited before jumping on the outrage bandwagon.\n\nNot only had these individuals pulled the same stupid prank in front of FOUR other Ring cameras before reaching this apartment, but BOTH sides have now acknowledged that they didn’t even know each other. The pranksters didn’t even know the race of the people living inside the apartment. \n\nNow these individuals are being threatened, doxxed, and dragged across the internet. One even left the university. \n\nWas the prank stupid? Absolutely. Does that justify what is happening to them now? NOT EVEN CLOSE.\n\nImagine living in a world where making monkey noises into a Ring camera can potentially land you in more trouble than k*lling your own THREE CHILDREN.\n\nImagine living in a world where a woman pulled a stupid prank and is forced to step away from her education, but a MURDERER who admitted to k*lling a student at a track meet is not expelled and is allowed to graduate. \n\nThe world is backwards.",
+        "url": "https://x.com/SarahisCensored/status/2120992791425581120",
         "verified": true,
-        "verified_type": "organization"
+        "verified_type": "individual"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 74,
-        "likes": 898,
-        "quotes": 16,
-        "replies": 50,
-        "retweets": 131,
-        "views": 54137
+        "bookmarks": 3387,
+        "likes": 42883,
+        "quotes": 393,
+        "replies": 2116,
+        "retweets": 7044,
+        "views": 3095738
       },
-      "url": "https://x.com/elonmusk/status/2120742206529257928",
+      "url": "https://x.com/elonmusk/status/2121244058379321642",
       "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2120585176891998208/img/ngRlXb6V6Pf8Pznp.jpg"
+        "https://pbs.twimg.com/media/HW9HYcaXAAAv7Za.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW9HYcaXAAAv7Za.jpg?name=small",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2121243784822309103",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T14:08:23.000Z",
+      "created_at_shanghai": "2026-11-13 22:08:23",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SPACEX FLIGHT 15\n\nTOMORROW",
+      "quote": null,
+      "retweet": {
+        "author": "anabology",
+        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 02:52:32",
+        "created_at_utc": "2026-11-12T18:52:32.000Z",
+        "id": "2120952906207670615",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120952763534245888/img/rUU-kF-EraOgfD-V.jpg"
+        ],
+        "media": [
+          {
+            "duration": 34.5,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120952763534245888/img/rUU-kF-EraOgfD-V.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120952763534245888/vid/avc1/1920x1080/d1cWCwKik569P9gH.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "anabology",
+        "text": "SPACEX FLIGHT 15\n\nTOMORROW",
+        "url": "https://x.com/anabology/status/2120952906207670615",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 16,
+        "likes": 643,
+        "quotes": 13,
+        "replies": 80,
+        "retweets": 91,
+        "views": 44602
+      },
+      "url": "https://x.com/elonmusk/status/2121243784822309103",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120952763534245888/img/rUU-kF-EraOgfD-V.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2120585176891998208/vid/avc1/1280x720/UFQ5XjK6q6l4hqeO.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120585176891998208/img/ngRlXb6V6Pf8Pznp.jpg",
-          "width": 1280,
-          "height": 720,
-          "duration": 88.955
+          "url": "https://video.twimg.com/amplify_video/2120952763534245888/vid/avc1/1920x1080/d1cWCwKik569P9gH.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120952763534245888/img/rUU-kF-EraOgfD-V.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 34.5
         }
       ],
       "enriched": true
     },
     {
-      "id": "2120737443267670220",
+      "id": "2121243017084588373",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T04:36:22.000Z",
-      "created_at_shanghai": "2026-11-12 12:36:22",
+      "created_at_utc": "2026-11-13T14:05:20.000Z",
+      "created_at_shanghai": "2026-11-13 22:05:20",
       "type": "转发",
       "type_label": "转发",
-      "text": "All systems are looking good, and weather is favorable for liftoff. Propellant load is about to begin for Falcon 9’s launch of the USSF-627 mission from California → https://spacex.com/launches/ussf627",
+      "text": "White farmer gives first account of terrifying South Africa raid: \"They put my testicles in bolt cutters, sliced my wife's nipples and said they'd gang-rape her - it's not just about robbing us\"!",
       "quote": null,
       "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 11:47:08",
-        "created_at_utc": "2026-11-12T03:47:08.000Z",
-        "id": "2120725054933635188",
+        "author": "TRobinsonNewEra",
+        "avatar": "https://pbs.twimg.com/profile_images/2007262159403671552/-DltTmcT_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 05:20:10",
+        "created_at_utc": "2026-11-12T21:20:10.000Z",
+        "id": "2120990056177381823",
         "images": [
-          "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small"
+          "https://pbs.twimg.com/amplify_video_thumb/2120989884227690496/img/xux4m4xInkIo85dA.jpg"
         ],
         "media": [
           {
-            "height": 2067,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small",
-            "width": 3100
-          }
-        ],
-        "name": "SpaceX",
-        "text": "All systems are looking good, and weather is favorable for liftoff. Propellant load is about to begin for Falcon 9’s launch of the USSF-627 mission from California → https://spacex.com/launches/ussf627",
-        "url": "https://x.com/SpaceX/status/2120725054933635188",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 58,
-        "likes": 2228,
-        "quotes": 18,
-        "replies": 144,
-        "retweets": 210,
-        "views": 173420
-      },
-      "url": "https://x.com/elonmusk/status/2120737443267670220",
-      "images": [
-        "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW5RIOWWEAEvZ_b.jpg?name=small",
-          "width": 3100,
-          "height": 2067
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2120737200799465946",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T04:35:24.000Z",
-      "created_at_shanghai": "2026-11-12 12:35:24",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Thank you to all those who have served, including the veterans we're proud to call members of the SpaceX family. Happy Veterans Day!",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 02:29:26",
-        "created_at_utc": "2026-11-11T18:29:26.000Z",
-        "id": "2120584703082446863",
-        "images": [
-          "https://pbs.twimg.com/media/HW3S_BLb0AEYAQd.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 3152,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW3S_BLb0AEYAQd.jpg?name=small",
-            "width": 3760
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Thank you to all those who have served, including the veterans we're proud to call members of the SpaceX family. Happy Veterans Day!",
-        "url": "https://x.com/SpaceX/status/2120584703082446863",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 181,
-        "likes": 10473,
-        "quotes": 62,
-        "replies": 261,
-        "retweets": 1089,
-        "views": 444408
-      },
-      "url": "https://x.com/elonmusk/status/2120737200799465946",
-      "images": [
-        "https://pbs.twimg.com/media/HW3S_BLb0AEYAQd.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW3S_BLb0AEYAQd.jpg?name=small",
-          "width": 3760,
-          "height": 3152
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2120735309424128325",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T04:27:53.000Z",
-      "created_at_shanghai": "2026-11-12 12:27:53",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Bot 1.0 is out. Our goal for this release was to make Bots a much more useful part of your team.\n\nSome new things we're excited about:\n\n- Bots can now join Zoom, Google Meet, and more. You can ask Bot questions in meetings and even assign it action items. We have ours taking standup notes every day in our shared Google Doc and doing background research on discussion themes. Soon, you'll be able to talk back and forth with it live in a meeting.\n\n- A new interface for managing your Bots. You can see and steer their responsibilities, what they're learning, and their impact. It's impossible to build trust in an AI teammate if it's a black box, so it should proactively flag when it's blocked or confused, take and learn from feedback across the company, and be able to succinctly summarize its contributions.\n\n- Better collaboration in Slack and Teams. Bots are more ambiently aware, carry context across conversations, and learn from your team over time. In our Slack, we regularly see threads between members of our team and multiple Bots, handing off work, context, and decisions. Bots should intuit your company's customs and how work gets done, not just execute on the specific tasks they're given.",
-      "quote": {
-        "author": "bot",
-        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 02:22:30",
-        "created_at_utc": "2026-11-11T18:22:30.000Z",
-        "id": "2120582957782200586",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg"
-        ],
-        "media": [
-          {
-            "duration": 79.1,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg",
+            "duration": 131.424,
+            "height": 1024,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120989884227690496/img/xux4m4xInkIo85dA.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120580701489889280/vid/avc1/1920x1080/BDhW_GY4lPxCEeGk.mp4?tag=29",
-            "width": 1920
+            "url": "https://video.twimg.com/amplify_video/2120989884227690496/vid/avc1/576x1024/VLXh9e2QZ_sFzjJ3.mp4?tag=29",
+            "width": 576
           }
         ],
-        "name": "Grok Bot",
-        "text": "Introducing Grok Bot 1.0. AI teammates that work alongside your whole team.\n\nShare Bots, collaborate with them in Slack and Teams, invite them to meetings, and watch them learn and become more helpful.",
-        "url": "https://x.com/bot/status/2120582957782200586",
+        "name": "Tommy Robinson 🇬🇧",
+        "text": "White farmer gives first account of terrifying South Africa raid: \"They put my testicles in bolt cutters, sliced my wife's nipples and said they'd gang-rape her - it's not just about robbing us\"!",
+        "url": "https://x.com/TRobinsonNewEra/status/2120990056177381823",
         "verified": true,
-        "verified_type": "organization"
+        "verified_type": "individual"
       },
-      "retweet": {
-        "author": "romanugarte_",
-        "avatar": "https://pbs.twimg.com/profile_images/1899272966850125826/Nq5kbpgO_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 03:23:29",
-        "created_at_utc": "2026-11-11T19:23:29.000Z",
-        "id": "2120598306585989302",
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 414,
+        "likes": 5413,
+        "quotes": 52,
+        "replies": 146,
+        "retweets": 1801,
+        "views": 167924
+      },
+      "url": "https://x.com/elonmusk/status/2121243017084588373",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120989884227690496/img/xux4m4xInkIo85dA.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120989884227690496/vid/avc1/576x1024/VLXh9e2QZ_sFzjJ3.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120989884227690496/img/xux4m4xInkIo85dA.jpg",
+          "width": 576,
+          "height": 1024,
+          "duration": 131.424
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2121242367684661286",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T14:02:45.000Z",
+      "created_at_shanghai": "2026-11-13 22:02:45",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok is a straight shooter",
+      "quote": {
+        "author": "sundarpichai",
+        "avatar": "https://pbs.twimg.com/profile_images/2051799620062429184/AL8CoAUG_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 14:04:19",
+        "created_at_utc": "2026-11-13T06:04:19.000Z",
+        "id": "2121121962911273062",
         "images": [],
         "media": [],
-        "name": "Roman Ugarte",
-        "text": "Bot 1.0 is out. Our goal for this release was to make Bots a much more useful part of your team.\n\nSome new things we're excited about:\n\n- Bots can now join Zoom, Google Meet, and more. You can ask Bot questions in meetings and even assign it action items. We have ours taking standup notes every day in our shared Google Doc and doing background research on discussion themes. Soon, you'll be able to talk back and forth with it live in a meeting.\n\n- A new interface for managing your Bots. You can see and steer their responsibilities, what they're learning, and their impact. It's impossible to build trust in an AI teammate if it's a black box, so it should proactively flag when it's blocked or confused, take and learn from feedback across the company, and be able to succinctly summarize its contributions.\n\n- Better collaboration in Slack and Teams. Bots are more ambiently aware, carry context across conversations, and learn from your team over time. In our Slack, we regularly see threads between members of our team and multiple Bots, handing off work, context, and decisions. Bots should intuit your company's customs and how work gets done, not just execute on the specific tasks they're given.",
-        "url": "https://x.com/romanugarte_/status/2120598306585989302",
+        "name": "Sundar Pichai",
+        "text": "Nice summary @grok !",
+        "url": "https://x.com/sundarpichai/status/2121121962911273062",
         "verified": true,
         "verified_type": "individual"
       },
+      "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 169,
-        "likes": 717,
-        "quotes": 5,
-        "replies": 74,
-        "retweets": 51,
-        "views": 68239
+        "bookmarks": 51,
+        "likes": 1612,
+        "quotes": 19,
+        "replies": 432,
+        "retweets": 144,
+        "views": 425650
       },
-      "url": "https://x.com/elonmusk/status/2120735309424128325",
+      "url": "https://x.com/elonmusk/status/2121242367684661286",
       "images": [],
       "media": [],
       "enriched": true
     },
     {
-      "id": "2120724711474692497",
+      "id": "2121174767562551693",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T03:45:47.000Z",
-      "created_at_shanghai": "2026-11-12 11:45:47",
+      "created_at_utc": "2026-11-13T09:34:08.000Z",
+      "created_at_shanghai": "2026-11-13 17:34:08",
       "type": "转发",
       "type_label": "转发",
-      "text": "Russell Brand's longtime friend and one-time fling @SammiePressdee speaks out to @MegynKelly about the TRUTH: \"I said no, and he was a perfect gentleman about it... Not one single person ever warned me to be careful around Russell Brand. So, I don't buy the 'open secret'...”\n\nMore:\nhttps://youtube.com/c/MegynKelly/?sub_confirmation=1",
+      "text": "From the Rio Grande Valley, TX to Cochise County, AZ, we’re building more than supercomputers. We’re creating jobs, investing in critical infrastructure, expanding local tax bases, and working alongside communities to build a future that benefits the people who live there → http://spacex.com/sites/cochise-county",
       "quote": null,
       "retweet": {
-        "author": "MegynKellyShow",
-        "avatar": "https://pbs.twimg.com/profile_images/2001732915177123841/4gaUBN4b_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 04:21:58",
-        "created_at_utc": "2026-11-11T20:21:58.000Z",
-        "id": "2120613021907112358",
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 00:09:08",
+        "created_at_utc": "2026-11-12T16:09:08.000Z",
+        "id": "2120911785217986739",
         "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120612725386604544/img/WKcDSU-_643M96Jn.jpg"
-        ],
-        "media": [
-          {
-            "duration": 697.463,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120612725386604544/img/WKcDSU-_643M96Jn.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120612725386604544/vid/avc1/1920x1080/8ydvRK1tTPA6SF3p.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "The Megyn Kelly Show",
-        "text": "Russell Brand's longtime friend and one-time fling @SammiePressdee speaks out to @MegynKelly about the TRUTH: \"I said no, and he was a perfect gentleman about it... Not one single person ever warned me to be careful around Russell Brand. So, I don't buy the 'open secret'...”\n\nMore:\nhttps://youtube.com/c/MegynKelly/?sub_confirmation=1",
-        "url": "https://x.com/MegynKellyShow/status/2120613021907112358",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 214,
-        "likes": 1634,
-        "quotes": 23,
-        "replies": 155,
-        "retweets": 287,
-        "views": 97573
-      },
-      "url": "https://x.com/elonmusk/status/2120724711474692497",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2120612725386604544/img/WKcDSU-_643M96Jn.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2120612725386604544/vid/avc1/1920x1080/8ydvRK1tTPA6SF3p.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120612725386604544/img/WKcDSU-_643M96Jn.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 697.463
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2120696407917273571",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T01:53:18.000Z",
-      "created_at_shanghai": "2026-11-12 09:53:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Introducing Grok Bot 1.0.\n\nBots can be shared and are more collaborative and capable than ever.",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceXSI",
-        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 02:30:20",
-        "created_at_utc": "2026-11-11T18:30:20.000Z",
-        "id": "2120584928983441826",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg"
-        ],
-        "media": [
-          {
-            "duration": 79.1,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120584648887603200/vid/avc1/1920x1080/_5-Mr3wCmHhH2dyV.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "SpaceX Super Intelligence",
-        "text": "Introducing Grok Bot 1.0.\n\nBots can be shared and are more collaborative and capable than ever.",
-        "url": "https://x.com/SpaceXSI/status/2120584928983441826",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 736,
-        "likes": 5299,
-        "quotes": 133,
-        "replies": 233,
-        "retweets": 475,
-        "views": 1346695
-      },
-      "url": "https://x.com/elonmusk/status/2120696407917273571",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2120584648887603200/vid/avc1/1920x1080/_5-Mr3wCmHhH2dyV.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 79.1
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2120694603506733324",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T01:46:08.000Z",
-      "created_at_shanghai": "2026-11-12 09:46:08",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot can now join your personal or company tailnets on Tailscale.\n\nUse it to securely reach private MCP servers, internal tools, and apps on your network.",
-      "quote": null,
-      "retweet": {
-        "author": "bot",
-        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
-        "created_at_shanghai": "2026-11-11 06:16:43",
-        "created_at_utc": "2026-11-10T22:16:43.000Z",
-        "id": "2120279511707386263",
-        "images": [
-          "https://pbs.twimg.com/media/HWy-eg_bwAARy5W.jpg?name=small"
+          "https://pbs.twimg.com/media/HW79_tHWIAA01z9.jpg?name=small"
         ],
         "media": [
           {
             "height": 2304,
             "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWy-eg_bwAARy5W.jpg?name=small",
+            "url": "https://pbs.twimg.com/media/HW79_tHWIAA01z9.jpg?name=small",
             "width": 4096
           }
         ],
-        "name": "Grok Bot",
-        "text": "Grok Bot can now join your personal or company tailnets on Tailscale.\n\nUse it to securely reach private MCP servers, internal tools, and apps on your network.",
-        "url": "https://x.com/bot/status/2120279511707386263",
+        "name": "SpaceX",
+        "text": "From the Rio Grande Valley, TX to Cochise County, AZ, we’re building more than supercomputers. We’re creating jobs, investing in critical infrastructure, expanding local tax bases, and working alongside communities to build a future that benefits the people who live there → http://spacex.com/sites/cochise-county",
+        "url": "https://x.com/SpaceX/status/2120911785217986739",
         "verified": true,
         "verified_type": "organization"
       },
       "reply_to": "",
       "engagement": {
-        "bookmarks": 2429,
-        "likes": 7817,
-        "quotes": 209,
-        "replies": 1183,
-        "retweets": 472,
-        "views": 651284
+        "bookmarks": 236,
+        "likes": 6594,
+        "quotes": 57,
+        "replies": 181,
+        "retweets": 686,
+        "views": 359731
       },
-      "url": "https://x.com/elonmusk/status/2120694603506733324",
+      "url": "https://x.com/elonmusk/status/2121174767562551693",
       "images": [
-        "https://pbs.twimg.com/media/HWy-eg_bwAARy5W.jpg?name=small"
+        "https://pbs.twimg.com/media/HW79_tHWIAA01z9.jpg?name=small"
       ],
       "media": [
         {
           "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWy-eg_bwAARy5W.jpg?name=small",
+          "url": "https://pbs.twimg.com/media/HW79_tHWIAA01z9.jpg?name=small",
           "width": 4096,
           "height": 2304
         }
@@ -484,604 +758,1263 @@
       "enriched": true
     },
     {
-      "id": "2120638269994263035",
+      "id": "2121125074740859017",
       "author": "elonmusk",
       "author_name": "Elon Musk",
       "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
       "author_verified": true,
       "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T22:02:17.000Z",
-      "created_at_shanghai": "2026-11-12 06:02:17",
+      "created_at_utc": "2026-11-13T06:16:41.000Z",
+      "created_at_shanghai": "2026-11-13 14:16:41",
       "type": "转发",
       "type_label": "转发",
-      "text": "Thanks to @elonmusk & @SpaceX, the City of Memphis finished its Fiscal Year ahead of budget for the first time in a long time. \n\nThe City is tracking roughly $5.6 million ahead for the current year. \n\nMemphis Mayor Paul Young said this week that SpaceX generated $54 million in taxes for the City and County this year.",
+      "text": "In 2014, Elon Musk stood in front of an audience at MIT and told the whole world exactly where AI was going.\n\nEveryone missed it. Because he used one word, and that's the only thing the internet remembered: \"demon.\"\n\nThe headlines called him scared of killer robots. Tech blogs called it hyperbole. People moved on.\n\nI went back and watched that moment. It's barely 2 minutes long. You'll never hear the word \"AI\" the same way again.\n\nHere's what I took away.\n\n1. He called it before almost anyone.\n\nSomeone in the audience asks about AI. His face goes serious.\n\n\"If I were to guess like what our biggest existential threat is, it's probably that. So we need to be very careful with the artificial intelligence.\"\n\nThis was 2014. No ChatGPT. Most people had never heard the word \"chatbot.\"\n\n2. He asked for rules 12 years ago.\n\n\"I'm increasingly inclined to think that there should be some regulatory oversight, maybe at the national and international level, just to make sure that we don't do something very foolish.\"\n\nNational AND international. In 2014.\n\nGovernments are still arguing about it today.\n\n3. The demon line wasn't a joke.\n\n\"With artificial intelligence we are summoning the demon.\"\n\nAnd then the part almost nobody quotes:\n\n\"In all those stories where there's the guy with the pentagram and the holy water, it's like, yeah, he's sure he can control the demon. Doesn't work out.\"\n\nRead that again.\n\nHis warning wasn't about the demon. It was about the guy who thinks he can control it.\n\n4. Now here's what got me.\n\nIn 2014 he said: summoning the demon.\n\nIn 2018 he told Joe Rogan: \"Nobody listened.\"\n\nIn 2023 he signed a letter asking AI labs to pause.\n\nIn 2026 he told The Economist he can't see any way to stop it anymore. His new philosophy? \"Let's enjoy the ride.\" And: \"If you can't beat them, join them.\"\n\nToday he's building one of the most powerful AIs on Earth.\n\n12 years later, the man who warned us about the guy with the pentagram is holding one.\n\nMy takeaway:\n\nHe wasn't wrong in 2014. He just realized nobody was going to stop it. So he decided to build it himself.\n\nWhether that's genius or the exact ending of his own story, I honestly don't know.\n\nSo now I'm asking you:\n\nWas Musk right in 2014?\n\nOr did he become the guy in his own warning?\n\nTell me below. I genuinely want to know where people land on this.",
       "quote": null,
       "retweet": {
-        "author": "KatieMiller",
-        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 04:40:30",
-        "created_at_utc": "2026-11-11T20:40:30.000Z",
-        "id": "2120617686887801175",
+        "author": "Yuvelir_22",
+        "avatar": "https://pbs.twimg.com/profile_images/2109013801563570176/y5IcQD0Q_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 04:40:02",
+        "created_at_utc": "2026-11-12T20:40:02.000Z",
+        "id": "2120979958474412037",
         "images": [
-          "https://pbs.twimg.com/media/HW3yi_GW4AEq3KV.jpg?name=small"
+          "https://pbs.twimg.com/amplify_video_thumb/2120979808284803072/img/RT6hRHNP3RwV7lch.jpg"
         ],
         "media": [
           {
-            "height": 1068,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW3yi_GW4AEq3KV.jpg?name=small",
-            "width": 1320
-          }
-        ],
-        "name": "Katie Miller",
-        "text": "Thanks to @elonmusk & @SpaceX, the City of Memphis finished its Fiscal Year ahead of budget for the first time in a long time. \n\nThe City is tracking roughly $5.6 million ahead for the current year. \n\nMemphis Mayor Paul Young said this week that SpaceX generated $54 million in taxes for the City and County this year.",
-        "url": "https://x.com/KatieMiller/status/2120617686887801175",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 34,
-        "likes": 1675,
-        "quotes": 10,
-        "replies": 69,
-        "retweets": 316,
-        "views": 45275
-      },
-      "url": "https://x.com/elonmusk/status/2120638269994263035",
-      "images": [
-        "https://pbs.twimg.com/media/HW3yi_GW4AEq3KV.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW3yi_GW4AEq3KV.jpg?name=small",
-          "width": 1320,
-          "height": 1068
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2120613346596761630",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T20:23:15.000Z",
-      "created_at_shanghai": "2026-11-12 04:23:15",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@TheFlintFace @IterIntellectus 100GW in space is roughly equal to 800GW on Earth. \n\nMoreover, solar on Earth must be paired with massive batteries to continue powering compute at night and supplemented with combustion or nuclear power during winter. \n\nThese are not the same at all.",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 04:22:50",
-        "created_at_utc": "2026-11-11T20:22:50.000Z",
-        "id": "2120613240707420280",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "@TheFlintFace @IterIntellectus 100GW in space is roughly equal to 800GW on Earth. \n\nMoreover, solar on Earth must be paired with massive batteries to continue powering compute at night and supplemented with combustion or nuclear power during winter. \n\nThese are not the same at all.",
-        "url": "https://x.com/elonmusk/status/2120613240707420280",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "TheFlintFace",
-      "engagement": {
-        "bookmarks": 41,
-        "likes": 712,
-        "quotes": 15,
-        "replies": 123,
-        "retweets": 79,
-        "views": 55719
-      },
-      "url": "https://x.com/elonmusk/status/2120613346596761630",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120591950961353125",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T18:58:14.000Z",
-      "created_at_shanghai": "2026-11-12 02:58:14",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Person for scale",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 32,
-        "likes": 1093,
-        "quotes": 21,
-        "replies": 256,
-        "retweets": 124,
-        "views": 311213
-      },
-      "url": "https://x.com/elonmusk/status/2120591950961353125",
-      "images": [
-        "https://pbs.twimg.com/media/HW3bG9vagAAwCcq.jpg?name=small",
-        "https://pbs.twimg.com/media/HW3bG9vbAAARZza.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW3bG9vagAAwCcq.jpg?name=small",
-          "width": 1176,
-          "height": 784
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW3bG9vbAAARZza.jpg?name=small",
-          "width": 942,
-          "height": 2048
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2120590521253126183",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T18:52:33.000Z",
-      "created_at_shanghai": "2026-11-12 02:52:33",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starship Super Heavy rocket booster moved to launch pad",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-11-11 02:21:23",
-        "created_at_utc": "2026-11-10T18:21:23.000Z",
-        "id": "2120220290219208884",
-        "images": [
-          "https://pbs.twimg.com/media/HWyJCAYXcAAFtkn.jpg?name=small",
-          "https://pbs.twimg.com/media/HWyJD07XwAANxuA.jpg?name=small",
-          "https://pbs.twimg.com/media/HWyJFLKWIAAOuYn.jpg?name=small",
-          "https://pbs.twimg.com/media/HWyJGbQXcAAwXqr.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1280,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWyJCAYXcAAFtkn.jpg?name=small",
-            "width": 1920
-          },
-          {
-            "height": 1280,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWyJD07XwAANxuA.jpg?name=small",
-            "width": 1920
-          },
-          {
-            "height": 1280,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWyJFLKWIAAOuYn.jpg?name=small",
-            "width": 1920
-          },
-          {
-            "height": 1280,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWyJGbQXcAAwXqr.jpg?name=small",
-            "width": 1920
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Super Heavy moved to the launch pad at Starbase. Booster 22 is the first Super Heavy V3 booster planned to return to the launch site for catch and was used for final catch testing upon arrival, including a suspended squeeze test at catch height",
-        "url": "https://x.com/SpaceX/status/2120220290219208884",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 29,
-        "likes": 1506,
-        "quotes": 25,
-        "replies": 269,
-        "retweets": 176,
-        "views": 379707
-      },
-      "url": "https://x.com/elonmusk/status/2120590521253126183",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120589832963711162",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T18:49:49.000Z",
-      "created_at_shanghai": "2026-11-12 02:49:49",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla Megapacks are designed to ensure grid stability, so that you never have a blackout",
-      "quote": {
-        "author": "Tesla_Megapack",
-        "avatar": "https://pbs.twimg.com/profile_images/1877130143715786752/5jFb1Ads_200x200.png",
-        "created_at_shanghai": "2026-11-11 08:59:04",
-        "created_at_utc": "2026-11-11T00:59:04.000Z",
-        "id": "2120320369282437219",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120314908789309440/img/YUtiKL7khDLrLOrT.jpg"
-        ],
-        "media": [
-          {
-            "duration": 145.562,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120314908789309440/img/YUtiKL7khDLrLOrT.jpg",
+            "duration": 1496.154,
+            "height": 356,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120979808284803072/img/RT6hRHNP3RwV7lch.jpg",
             "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120314908789309440/vid/avc1/3840x2160/huhT0QlKIss9CyM4.mp4?tag=29",
-            "width": 3840
+            "url": "https://video.twimg.com/amplify_video/2120979808284803072/vid/avc1/640x356/Lhd5-FloNZUOVaHL.mp4?tag=29",
+            "width": 640
           }
         ],
-        "name": "Tesla Megapack",
-        "text": "Tesla's Controller-Hardware-In-the-Loop (CHIL) is key to bringing Megapack sites online faster\n\nCHIL allows us to simulate the entire site in real time before it’s connected to the grid. We can see how the site will respond to faults, frequency changes or if a tree were to fall on a power line. \n\nCHIL validated 444 grid-forming Megapacks at Melbourne Renewable Energy Hub before grid connection, delivering 600 MW / 1.6 GWh of storage months ahead of schedule",
-        "url": "https://x.com/Tesla_Megapack/status/2120320369282437219",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 72,
-        "likes": 1748,
-        "quotes": 30,
-        "replies": 335,
-        "retweets": 256,
-        "views": 585978
-      },
-      "url": "https://x.com/elonmusk/status/2120589832963711162",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120584535423565889",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T18:28:46.000Z",
-      "created_at_shanghai": "2026-11-12 02:28:46",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Hire Grok @Bot as a colleague and give it your hardest tasks!",
-      "quote": {
-        "author": "bot",
-        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 02:22:30",
-        "created_at_utc": "2026-11-11T18:22:30.000Z",
-        "id": "2120582957782200586",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg"
-        ],
-        "media": [
-          {
-            "duration": 79.1,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120580701489889280/vid/avc1/1920x1080/BDhW_GY4lPxCEeGk.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "Grok Bot",
-        "text": "Introducing Grok Bot 1.0. AI teammates that work alongside your whole team.\n\nShare Bots, collaborate with them in Slack and Teams, invite them to meetings, and watch them learn and become more helpful.",
-        "url": "https://x.com/bot/status/2120582957782200586",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 63,
-        "likes": 1059,
-        "quotes": 23,
-        "replies": 333,
-        "retweets": 128,
-        "views": 384536
-      },
-      "url": "https://x.com/elonmusk/status/2120584535423565889",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120582866413514912",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T18:22:08.000Z",
-      "created_at_shanghai": "2026-11-12 02:22:08",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Bernie is the meme",
-      "quote": {
-        "author": "MarkSimoneNY",
-        "avatar": "https://pbs.twimg.com/profile_images/1342556306478084098/lVX3LlnV_200x200.jpg",
-        "created_at_shanghai": "2026-11-06 22:28:12",
-        "created_at_utc": "2026-11-06T14:28:12.000Z",
-        "id": "2118712057088647405",
-        "images": [
-          "https://pbs.twimg.com/media/HWctYw0XgAAu3F4.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1006,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWctYw0XgAAu3F4.jpg?name=small",
-            "width": 1200
-          }
-        ],
-        "name": "MARK SIMONE",
-        "text": "You might not want to take Bernie too seriously on tech issues.",
-        "url": "https://x.com/MarkSimoneNY/status/2118712057088647405",
+        "name": "Yuvelir",
+        "text": "In 2014, Elon Musk stood in front of an audience at MIT and told the whole world exactly where AI was going.\n\nEveryone missed it. Because he used one word, and that's the only thing the internet remembered: \"demon.\"\n\nThe headlines called him scared of killer robots. Tech blogs called it hyperbole. People moved on.\n\nI went back and watched that moment. It's barely 2 minutes long. You'll never hear the word \"AI\" the same way again.\n\nHere's what I took away.\n\n1. He called it before almost anyone.\n\nSomeone in the audience asks about AI. His face goes serious.\n\n\"If I were to guess like what our biggest existential threat is, it's probably that. So we need to be very careful with the artificial intelligence.\"\n\nThis was 2014. No ChatGPT. Most people had never heard the word \"chatbot.\"\n\n2. He asked for rules 12 years ago.\n\n\"I'm increasingly inclined to think that there should be some regulatory oversight, maybe at the national and international level, just to make sure that we don't do something very foolish.\"\n\nNational AND international. In 2014.\n\nGovernments are still arguing about it today.\n\n3. The demon line wasn't a joke.\n\n\"With artificial intelligence we are summoning the demon.\"\n\nAnd then the part almost nobody quotes:\n\n\"In all those stories where there's the guy with the pentagram and the holy water, it's like, yeah, he's sure he can control the demon. Doesn't work out.\"\n\nRead that again.\n\nHis warning wasn't about the demon. It was about the guy who thinks he can control it.\n\n4. Now here's what got me.\n\nIn 2014 he said: summoning the demon.\n\nIn 2018 he told Joe Rogan: \"Nobody listened.\"\n\nIn 2023 he signed a letter asking AI labs to pause.\n\nIn 2026 he told The Economist he can't see any way to stop it anymore. His new philosophy? \"Let's enjoy the ride.\" And: \"If you can't beat them, join them.\"\n\nToday he's building one of the most powerful AIs on Earth.\n\n12 years later, the man who warned us about the guy with the pentagram is holding one.\n\nMy takeaway:\n\nHe wasn't wrong in 2014. He just realized nobody was going to stop it. So he decided to build it himself.\n\nWhether that's genius or the exact ending of his own story, I honestly don't know.\n\nSo now I'm asking you:\n\nWas Musk right in 2014?\n\nOr did he become the guy in his own warning?\n\nTell me below. I genuinely want to know where people land on this.",
+        "url": "https://x.com/Yuvelir_22/status/2120979958474412037",
         "verified": true,
         "verified_type": "individual"
       },
-      "retweet": null,
       "reply_to": "",
       "engagement": {
-        "bookmarks": 136,
-        "likes": 4039,
-        "quotes": 108,
-        "replies": 618,
-        "retweets": 440,
-        "views": 495121
+        "bookmarks": 69,
+        "likes": 231,
+        "quotes": 1,
+        "replies": 37,
+        "retweets": 45,
+        "views": 27365
       },
-      "url": "https://x.com/elonmusk/status/2120582866413514912",
+      "url": "https://x.com/elonmusk/status/2121125074740859017",
       "images": [
-        "https://pbs.twimg.com/media/HW3S4DpaAAAReGN.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HW3S4DpaAAAReGN.jpg?name=small",
-          "width": 680,
-          "height": 383
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2120570459335131606",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T17:32:50.000Z",
-      "created_at_shanghai": "2026-11-12 01:32:50",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "This is not the smartest move from a profit-maximizing standpoint btw, but there must be some room in this world for sentimentality or what’s the point?",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 20,
-        "likes": 719,
-        "quotes": 5,
-        "replies": 133,
-        "retweets": 40,
-        "views": 31121
-      },
-      "url": "https://x.com/elonmusk/status/2120570459335131606",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120565179276832797",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T17:11:51.000Z",
-      "created_at_shanghai": "2026-11-12 01:11:51",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla self-driving now approved in Finland",
-      "quote": {
-        "author": "teslaeurope",
-        "avatar": "https://pbs.twimg.com/profile_images/1620537591048163332/GSPAsKC5_200x200.jpg",
-        "created_at_shanghai": "2026-11-11 14:18:33",
-        "created_at_utc": "2026-11-11T06:18:33.000Z",
-        "id": "2120400770952745439",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120400638517649408/img/pv6JcEDdbtzA2f2N.jpg"
-        ],
-        "media": [
-          {
-            "duration": 25.876,
-            "height": 2160,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120400638517649408/img/pv6JcEDdbtzA2f2N.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120400638517649408/vid/avc1/3840x2160/DNJBCXQD-ZSvXUla.mp4?tag=29",
-            "width": 3840
-          }
-        ],
-        "name": "Tesla Europe, Middle East & Africa",
-        "text": "Now approved in Finland 🇫🇮\n\nRollout begins soon",
-        "url": "https://x.com/teslaeurope/status/2120400770952745439",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 31,
-        "likes": 1552,
-        "quotes": 32,
-        "replies": 294,
-        "retweets": 182,
-        "views": 369564
-      },
-      "url": "https://x.com/elonmusk/status/2120565179276832797",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120565056429814073",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T17:11:22.000Z",
-      "created_at_shanghai": "2026-11-12 01:11:22",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "In order to work through more of the Cybertruck order backlog, production will be extended through the end of summer 2027",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 43,
-        "likes": 1880,
-        "quotes": 70,
-        "replies": 373,
-        "retweets": 180,
-        "views": 325883
-      },
-      "url": "https://x.com/elonmusk/status/2120565056429814073",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120439345555660899",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T08:51:50.000Z",
-      "created_at_shanghai": "2026-11-11 16:51:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It seems wrong that ideology and idiot are unrelated words. They’re so perfect together.",
-      "quote": null,
-      "retweet": {
-        "author": "jamesdouma",
-        "avatar": "https://pbs.twimg.com/profile_images/988101297357258752/Kg-unit-_200x200.jpg",
-        "created_at_shanghai": "2026-11-10 23:49:12",
-        "created_at_utc": "2026-11-10T15:49:12.000Z",
-        "id": "2120181992574918849",
-        "images": [],
-        "media": [],
-        "name": "jimmah",
-        "text": "It seems wrong that ideology and idiot are unrelated words. They’re so perfect together.",
-        "url": "https://x.com/jamesdouma/status/2120181992574918849",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 13,
-        "likes": 475,
-        "quotes": 2,
-        "replies": 46,
-        "retweets": 42,
-        "views": 37228
-      },
-      "url": "https://x.com/elonmusk/status/2120439345555660899",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2120439243478806562",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T08:51:26.000Z",
-      "created_at_shanghai": "2026-11-11 16:51:26",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk has a track record of calling hard problems early.\n\nIn a February 2026 interview, he warned: “Those who have lived in software land don’t realize they’re about to have a hard lesson in hardware.”\n\nBy late August, SpaceX confirmed it was bringing the casting of gas-turbine blades and vanes in-house — the single biggest bottleneck for new natural-gas power plants needed to feed AI data centers. Musk said the move could bring turbines online up to 18 months faster.\n\nToday he put it even more bluntly: SpaceX has “a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit — and even we find it very difficult.”\n\nHardware doesn’t care about demos, funding rounds, or slide decks. The teams that actually build the hard stuff keep winning.\n\nWhat a legend.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 05:35:30",
-        "created_at_utc": "2026-10-13T21:35:30.000Z",
-        "id": "2110122281603326170",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "It’s not that supercomputer data centers are not in high demand, as they definitely are. However, getting money to build complex hardware systems with massive power, cooling & networking is not the same as doing it. \n\nSpaceX has a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit and even we find it very difficult!",
-        "url": "https://x.com/elonmusk/status/2110122281603326170",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "Dogetothemoon",
-        "avatar": "https://pbs.twimg.com/profile_images/2090278758972571648/3ihoplje_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 06:46:54",
-        "created_at_utc": "2026-10-13T22:46:54.000Z",
-        "id": "2110140249141821578",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110136316113649665/img/Wo4geuwDhLSiSW_Y.jpg"
-        ],
-        "media": [
-          {
-            "duration": 68.9,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110136316113649665/img/Wo4geuwDhLSiSW_Y.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110136316113649665/vid/avc1/1280x720/6Zx-3vRMop3Qztuu.mp4?tag=29",
-            "width": 1280
-          }
-        ],
-        "name": "Doge Tipping",
-        "text": "Elon Musk has a track record of calling hard problems early.\n\nIn a February 2026 interview, he warned: “Those who have lived in software land don’t realize they’re about to have a hard lesson in hardware.”\n\nBy late August, SpaceX confirmed it was bringing the casting of gas-turbine blades and vanes in-house — the single biggest bottleneck for new natural-gas power plants needed to feed AI data centers. Musk said the move could bring turbines online up to 18 months faster.\n\nToday he put it even more bluntly: SpaceX has “a super cracked team that is outperforming the rest of the world by an order of magnitude in mass to orbit — and even we find it very difficult.”\n\nHardware doesn’t care about demos, funding rounds, or slide decks. The teams that actually build the hard stuff keep winning.\n\nWhat a legend.",
-        "url": "https://x.com/Dogetothemoon/status/2110140249141821578",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 112,
-        "likes": 566,
-        "quotes": 6,
-        "replies": 21,
-        "retweets": 88,
-        "views": 110674
-      },
-      "url": "https://x.com/elonmusk/status/2120439243478806562",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110136316113649665/img/Wo4geuwDhLSiSW_Y.jpg"
+        "https://pbs.twimg.com/amplify_video_thumb/2120979808284803072/img/RT6hRHNP3RwV7lch.jpg"
       ],
       "media": [
         {
           "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110136316113649665/vid/avc1/1280x720/6Zx-3vRMop3Qztuu.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110136316113649665/img/Wo4geuwDhLSiSW_Y.jpg",
-          "width": 1280,
-          "height": 720,
-          "duration": 68.9
+          "url": "https://video.twimg.com/amplify_video/2120979808284803072/vid/avc1/640x356/Lhd5-FloNZUOVaHL.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120979808284803072/img/RT6hRHNP3RwV7lch.jpg",
+          "width": 640,
+          "height": 356,
+          "duration": 1496.154
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2121123425213399408",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T06:10:07.000Z",
+      "created_at_shanghai": "2026-11-13 14:10:07",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok Bot",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 02:28:57",
+        "created_at_utc": "2026-11-12T18:28:57.000Z",
+        "id": "2120946968403095906",
+        "images": [
+          "https://pbs.twimg.com/media/HW8XKMOaUAAegaG.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2304,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8XKMOaUAAegaG.jpg?name=small",
+            "width": 4096
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot on Mac can now use Messages, Mail, Notes, Reminders, Calendar, Location, and Contacts.",
+        "url": "https://x.com/bot/status/2120946968403095906",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 52,
+        "likes": 769,
+        "quotes": 11,
+        "replies": 243,
+        "retweets": 70,
+        "views": 331085
+      },
+      "url": "https://x.com/elonmusk/status/2121123425213399408",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121122950342738431",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T06:08:14.000Z",
+      "created_at_shanghai": "2026-11-13 14:08:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Since apparently we can post up to 20 photos/videos now here are a bunch of mine",
+      "quote": null,
+      "retweet": {
+        "author": "AJamesMcCarthy",
+        "avatar": "https://pbs.twimg.com/profile_images/465979126185091072/ukRk-mfd_200x200.jpeg",
+        "created_at_shanghai": "2026-11-13 04:00:31",
+        "created_at_utc": "2026-11-12T20:00:31.000Z",
+        "id": "2120970013456949756",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120969881461862400/img/d1BA5j62adm7X32k.jpg",
+          "https://pbs.twimg.com/media/HW8y3qcXcAE8z3L.jpg?name=small",
+          "https://pbs.twimg.com/amplify_video_thumb/2120969881457704960/img/bDZ9L3kgZzhdSVT1.jpg",
+          "https://pbs.twimg.com/media/HW8y3qbXwAEvjtw.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3qjW0AEysHB.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3qgW4AANugk.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3qnWwAAMdOI.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3rJWwAEYkM-.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3qgWMAAC9L_.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3qeX0AAB9hr.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3q8XEAA-YOC.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3rBXMAAY1TW.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3qsXgAAnOom.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3rIWgAA9gfH.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3rHWkAAQix3.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3qeXQAABKp1.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3q-XQAAo1go.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3q8WgAAabJO.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3qfXIAEUY1y.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8y3q8WcAA5fGT.jpg?name=small"
+        ],
+        "media": [
+          {
+            "duration": 6.416,
+            "height": 1468,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120969881461862400/img/d1BA5j62adm7X32k.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120969881461862400/vid/avc1/826x1468/SAZy8a2Cj1JV3xxV.mp4?tag=29",
+            "width": 826
+          },
+          {
+            "height": 1448,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3qcXcAE8z3L.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "duration": 11.856,
+            "height": 780,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120969881457704960/img/bDZ9L3kgZzhdSVT1.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120969881457704960/vid/avc1/780x780/alCgke_kjs1HGR2x.mp4?tag=29",
+            "width": 780
+          },
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3qbXwAEvjtw.jpg?name=small",
+            "width": 1638
+          },
+          {
+            "height": 1152,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3qjW0AEysHB.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3qgW4AANugk.jpg?name=small",
+            "width": 992
+          },
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3qnWwAAMdOI.jpg?name=small",
+            "width": 1639
+          },
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3rJWwAEYkM-.jpg?name=small",
+            "width": 1639
+          },
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3qgWMAAC9L_.jpg?name=small",
+            "width": 1638
+          },
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3qeX0AAB9hr.jpg?name=small",
+            "width": 1639
+          },
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3q8XEAA-YOC.jpg?name=small",
+            "width": 1638
+          },
+          {
+            "height": 1079,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3rBXMAAY1TW.jpg?name=small",
+            "width": 1481
+          },
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3qsXgAAnOom.jpg?name=small",
+            "width": 1638
+          },
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3rIWgAA9gfH.jpg?name=small",
+            "width": 1638
+          },
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3rHWkAAQix3.jpg?name=small",
+            "width": 944
+          },
+          {
+            "height": 1152,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3qeXQAABKp1.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 2048,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3q-XQAAo1go.jpg?name=small",
+            "width": 1782
+          },
+          {
+            "height": 1280,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3q8WgAAabJO.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 1280,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3qfXIAEUY1y.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 1152,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8y3q8WcAA5fGT.jpg?name=small",
+            "width": 2048
+          }
+        ],
+        "name": "Andrew McCarthy",
+        "text": "Since apparently we can post up to 20 photos/videos now here are a bunch of mine",
+        "url": "https://x.com/AJamesMcCarthy/status/2120970013456949756",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2259,
+        "likes": 16554,
+        "quotes": 194,
+        "replies": 617,
+        "retweets": 2026,
+        "views": 281719
+      },
+      "url": "https://x.com/elonmusk/status/2121122950342738431",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120969881461862400/img/d1BA5j62adm7X32k.jpg",
+        "https://pbs.twimg.com/media/HW8y3qcXcAE8z3L.jpg?name=small",
+        "https://pbs.twimg.com/amplify_video_thumb/2120969881457704960/img/bDZ9L3kgZzhdSVT1.jpg",
+        "https://pbs.twimg.com/media/HW8y3qbXwAEvjtw.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3qjW0AEysHB.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3qgW4AANugk.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3qnWwAAMdOI.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3rJWwAEYkM-.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3qgWMAAC9L_.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3qeX0AAB9hr.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3q8XEAA-YOC.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3rBXMAAY1TW.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3qsXgAAnOom.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3rIWgAA9gfH.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3rHWkAAQix3.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3qeXQAABKp1.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3q-XQAAo1go.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3q8WgAAabJO.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3qfXIAEUY1y.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8y3q8WcAA5fGT.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120969881461862400/vid/avc1/826x1468/SAZy8a2Cj1JV3xxV.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120969881461862400/img/d1BA5j62adm7X32k.jpg",
+          "width": 826,
+          "height": 1468,
+          "duration": 6.416
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3qcXcAE8z3L.jpg?name=small",
+          "width": 2048,
+          "height": 1448
+        },
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120969881457704960/vid/avc1/780x780/alCgke_kjs1HGR2x.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120969881457704960/img/bDZ9L3kgZzhdSVT1.jpg",
+          "width": 780,
+          "height": 780,
+          "duration": 11.856
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3qbXwAEvjtw.jpg?name=small",
+          "width": 1638,
+          "height": 2048
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3qjW0AEysHB.jpg?name=small",
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3qgW4AANugk.jpg?name=small",
+          "width": 992,
+          "height": 2048
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3qnWwAAMdOI.jpg?name=small",
+          "width": 1639,
+          "height": 2048
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3rJWwAEYkM-.jpg?name=small",
+          "width": 1639,
+          "height": 2048
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3qgWMAAC9L_.jpg?name=small",
+          "width": 1638,
+          "height": 2048
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3qeX0AAB9hr.jpg?name=small",
+          "width": 1639,
+          "height": 2048
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3q8XEAA-YOC.jpg?name=small",
+          "width": 1638,
+          "height": 2048
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3rBXMAAY1TW.jpg?name=small",
+          "width": 1481,
+          "height": 1079
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3qsXgAAnOom.jpg?name=small",
+          "width": 1638,
+          "height": 2048
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3rIWgAA9gfH.jpg?name=small",
+          "width": 1638,
+          "height": 2048
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3rHWkAAQix3.jpg?name=small",
+          "width": 944,
+          "height": 2048
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3qeXQAABKp1.jpg?name=small",
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3q-XQAAo1go.jpg?name=small",
+          "width": 1782,
+          "height": 2048
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3q8WgAAabJO.jpg?name=small",
+          "width": 2048,
+          "height": 1280
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3qfXIAEUY1y.jpg?name=small",
+          "width": 2048,
+          "height": 1280
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8y3q8WcAA5fGT.jpg?name=small",
+          "width": 2048,
+          "height": 1152
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2121122917387751579",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T06:08:06.000Z",
+      "created_at_shanghai": "2026-11-13 14:08:06",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceX has committed $220 million to expand water and wastewater infrastructure for Brownsville and Cameron County -- the largest private contribution to Brownsville’s water future in the city’s history.\n\nThis investment addresses one of the region’s most urgent challenges: securing a reliable, sustainable supply of drinking water for generations to come",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 00:10:20",
+        "created_at_utc": "2026-11-12T16:10:20.000Z",
+        "id": "2120912086989426746",
+        "images": [],
+        "media": [],
+        "name": "SpaceX",
+        "text": "SpaceX has committed $220 million to expand water and wastewater infrastructure for Brownsville and Cameron County -- the largest private contribution to Brownsville’s water future in the city’s history.\n\nThis investment addresses one of the region’s most urgent challenges: securing a reliable, sustainable supply of drinking water for generations to come",
+        "url": "https://x.com/SpaceX/status/2120912086989426746",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 425,
+        "likes": 13137,
+        "quotes": 100,
+        "replies": 328,
+        "retweets": 1208,
+        "views": 1068720
+      },
+      "url": "https://x.com/elonmusk/status/2121122917387751579",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121121983996031068",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T06:04:24.000Z",
+      "created_at_shanghai": "2026-11-13 14:04:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Cybertruck Retiring Early for Cybercab... do you support this decision?",
+      "quote": null,
+      "retweet": {
+        "author": "esherifftv",
+        "avatar": "https://pbs.twimg.com/profile_images/1439112554912038917/JazqTHGO_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 04:35:27",
+        "created_at_utc": "2026-11-12T20:35:27.000Z",
+        "id": "2120978802742571067",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120978233612984321/img/iI5a9fMlDDjSIzIx.jpg"
+        ],
+        "media": [
+          {
+            "duration": 1804.777,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120978233612984321/img/iI5a9fMlDDjSIzIx.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120978233612984321/vid/avc1/1920x1080/ZJYDyXi6RglKC4Vx.mp4?tag=29",
+            "width": 1920
+          }
+        ],
+        "name": "Ellie in Space 🚀💫",
+        "text": "Cybertruck Retiring Early for Cybercab... do you support this decision?",
+        "url": "https://x.com/esherifftv/status/2120978802742571067",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 43,
+        "likes": 374,
+        "quotes": 0,
+        "replies": 66,
+        "retweets": 35,
+        "views": 23781
+      },
+      "url": "https://x.com/elonmusk/status/2121121983996031068",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120978233612984321/img/iI5a9fMlDDjSIzIx.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120978233612984321/vid/avc1/1920x1080/ZJYDyXi6RglKC4Vx.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120978233612984321/img/iI5a9fMlDDjSIzIx.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 1804.777
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2121120631647334778",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T05:59:01.000Z",
+      "created_at_shanghai": "2026-11-13 13:59:01",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "The first 16K image shared on 𝕏\n\nCarousels now supports up to 20 images!\n\nSo here's an uuuultra-wide piece from me:",
+      "quote": null,
+      "retweet": {
+        "author": "doganuraldesign",
+        "avatar": "https://pbs.twimg.com/profile_images/1840794096291442688/JrhE7vnL_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 04:05:33",
+        "created_at_utc": "2026-11-12T20:05:33.000Z",
+        "id": "2120971278165414385",
+        "images": [
+          "https://pbs.twimg.com/media/HW8z2vzXkAAmkRn.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8z33xXQAAF2lR.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8z4vBWoAIfz3A.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8z5v_WsAAjh1b.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8z6rYXkAAFV4o.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8z7hrWQAA4rM6.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8z8fMXEAAnwm1.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8z9UkXMAAReOI.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 4096,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8z2vzXkAAmkRn.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 4096,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8z33xXQAAF2lR.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 4096,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8z4vBWoAIfz3A.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 4096,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8z5v_WsAAjh1b.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 4096,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8z6rYXkAAFV4o.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 4096,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8z7hrWQAA4rM6.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 4096,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8z8fMXEAAnwm1.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 4096,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8z9UkXMAAReOI.jpg?name=small",
+            "width": 2048
+          }
+        ],
+        "name": "Dogan Ural",
+        "text": "The first 16K image shared on 𝕏\n\nCarousels now supports up to 20 images!\n\nSo here's an uuuultra-wide piece from me:",
+        "url": "https://x.com/doganuraldesign/status/2120971278165414385",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1045,
+        "likes": 4166,
+        "quotes": 33,
+        "replies": 129,
+        "retweets": 482,
+        "views": 148813
+      },
+      "url": "https://x.com/elonmusk/status/2121120631647334778",
+      "images": [
+        "https://pbs.twimg.com/media/HW8z2vzXkAAmkRn.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8z33xXQAAF2lR.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8z4vBWoAIfz3A.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8z5v_WsAAjh1b.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8z6rYXkAAFV4o.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8z7hrWQAA4rM6.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8z8fMXEAAnwm1.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8z9UkXMAAReOI.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8z2vzXkAAmkRn.jpg?name=small",
+          "width": 2048,
+          "height": 4096
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8z33xXQAAF2lR.jpg?name=small",
+          "width": 2048,
+          "height": 4096
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8z4vBWoAIfz3A.jpg?name=small",
+          "width": 2048,
+          "height": 4096
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8z5v_WsAAjh1b.jpg?name=small",
+          "width": 2048,
+          "height": 4096
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8z6rYXkAAFV4o.jpg?name=small",
+          "width": 2048,
+          "height": 4096
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8z7hrWQAA4rM6.jpg?name=small",
+          "width": 2048,
+          "height": 4096
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8z8fMXEAAnwm1.jpg?name=small",
+          "width": 2048,
+          "height": 4096
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8z9UkXMAAReOI.jpg?name=small",
+          "width": 2048,
+          "height": 4096
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2121120295884837183",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T05:57:41.000Z",
+      "created_at_shanghai": "2026-11-13 13:57:41",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Give Grok @Bot your most laborious tasks!",
+      "quote": {
+        "author": "mayemusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2034196750035021824/7VeYNMU1_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 23:06:37",
+        "created_at_utc": "2026-11-12T15:06:37.000Z",
+        "id": "2120896049946501238",
+        "images": [],
+        "media": [],
+        "name": "Maye Musk",
+        "text": "I asked @bot the best way to move 2000 photos in @Dropbox from Camera Uploads to Folders. She said, “would you like me to do it for you?” I was surprised as I had booked out the week to start sorting through them, a painful task. She did it in five minutes. I went to my Folders and saw they were there. Now I can spend my time scrolling on @X 🤓🤓🤣🤣",
+        "url": "https://x.com/mayemusk/status/2120896049946501238",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 48,
+        "likes": 980,
+        "quotes": 30,
+        "replies": 371,
+        "retweets": 84,
+        "views": 357681
+      },
+      "url": "https://x.com/elonmusk/status/2121120295884837183",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121119975792632119",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T05:56:25.000Z",
+      "created_at_shanghai": "2026-11-13 13:56:25",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Ship 42 has a name!\n\nDON’T PANIC ♥️ \n\nFrom the book The Hitchhiker’s Guide to the Galaxy by Douglas Adams and the words on the cover of the Guide itself. \n\n42 is the Answer to Life, the Universe, and Everything.\n\n“Don’t Panic” was also on the dashboard of Elon’s Tesla Roadster when it launched into space in 2018 -along with a copy of the book and a towel in the glovebox (I never travel without these).\n\nFull circle ♥️ It’s the perfect name for the first ship going for the tower catch ♥️",
+      "quote": {
+        "author": "Miss1onControl",
+        "avatar": "https://pbs.twimg.com/profile_images/2073943106618302464/FE2cHrk6_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 00:02:51",
+        "created_at_utc": "2026-11-12T16:02:51.000Z",
+        "id": "2120910201738141802",
+        "images": [
+          "https://pbs.twimg.com/media/HW78lp0a8AESBdr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 960,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW78lp0a8AESBdr.jpg?name=small",
+            "width": 960
+          }
+        ],
+        "name": "MissionControl",
+        "text": "Oh my god she has name………\n\nSHE HAS A NAME!!!!!!",
+        "url": "https://x.com/Miss1onControl/status/2120910201738141802",
+        "verified": false,
+        "verified_type": ""
+      },
+      "retweet": {
+        "author": "paranoidream",
+        "avatar": "https://pbs.twimg.com/profile_images/2112324671593230336/8mlU0NST_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 05:58:08",
+        "created_at_utc": "2026-11-12T21:58:08.000Z",
+        "id": "2120999612131774807",
+        "images": [],
+        "media": [],
+        "name": "paranoidream ♡︎",
+        "text": "Ship 42 has a name!\n\nDON’T PANIC ♥️ \n\nFrom the book The Hitchhiker’s Guide to the Galaxy by Douglas Adams and the words on the cover of the Guide itself. \n\n42 is the Answer to Life, the Universe, and Everything.\n\n“Don’t Panic” was also on the dashboard of Elon’s Tesla Roadster when it launched into space in 2018 -along with a copy of the book and a towel in the glovebox (I never travel without these).\n\nFull circle ♥️ It’s the perfect name for the first ship going for the tower catch ♥️",
+        "url": "https://x.com/paranoidream/status/2120999612131774807",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 31,
+        "likes": 487,
+        "quotes": 11,
+        "replies": 59,
+        "retweets": 70,
+        "views": 34954
+      },
+      "url": "https://x.com/elonmusk/status/2121119975792632119",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121119850231955918",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T05:55:55.000Z",
+      "created_at_shanghai": "2026-11-13 13:55:55",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "A lot of people are becoming very sceptical about our police and our judiciary\n\nHow is this possible ?",
+      "quote": {
+        "author": "welshmaan",
+        "avatar": "https://pbs.twimg.com/profile_images/2103844246289580033/r4BoFz18_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 18:44:51",
+        "created_at_utc": "2026-11-12T10:44:51.000Z",
+        "id": "2120830175332249963",
+        "images": [
+          "https://pbs.twimg.com/media/HW6zsmhWQAAC546.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 675,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW6zsmhWQAAC546.jpg?name=small",
+            "width": 1200
+          }
+        ],
+        "name": "welshman",
+        "text": "Just to be clear, Danny Tommo is going to be sentenced for damaging the illegal property of human traffickers who continuously flood our country with some of the worst people you could ever imagine.",
+        "url": "https://x.com/welshmaan/status/2120830175332249963",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "JohnCleese",
+        "avatar": "https://pbs.twimg.com/profile_images/2622284361/1emzqsaz3t5glbyndf66_200x200.jpeg",
+        "created_at_shanghai": "2026-11-12 22:59:30",
+        "created_at_utc": "2026-11-12T14:59:30.000Z",
+        "id": "2120894260891255155",
+        "images": [],
+        "media": [],
+        "name": "John Cleese",
+        "text": "A lot of people are becoming very sceptical about our police and our judiciary\n\nHow is this possible ?",
+        "url": "https://x.com/JohnCleese/status/2120894260891255155",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 162,
+        "likes": 12541,
+        "quotes": 22,
+        "replies": 362,
+        "retweets": 1976,
+        "views": 144838
+      },
+      "url": "https://x.com/elonmusk/status/2121119850231955918",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121119443698979136",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T05:54:18.000Z",
+      "created_at_shanghai": "2026-11-13 13:54:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceX is building a supercomputer near Brownsville, Texas.\n\nThe first job on site was cleaning up sixty years of other people's trash.\n\nScrap metal, rusting tanks, old appliances and thousands of illegal tires, hauled out of the mud.\n\nThink about that for a second.\n\nThis site will train frontier AI for medical research, emergency response, advanced manufacturing and national security.\n\nIt will make its own electricity, so the neighbors' power bills stay their own.\n\nSpaceX is also putting $220 million into Brownsville's water and wastewater system, adding 20 million gallons of capacity every day for the city.\n\nMore than 3,000 construction jobs already, with more than 500 permanent ones to come.\n\nElon Musk summed it up in three words: \"SpaceX community benefits.\"\n\nA company spends $15 billion on Starship and another $24 billion on a supercomputer in one corner of Texas when it plans to stay for decades.\n\nElon Musk builds the place up first, because he believes the future will be built right there.",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 00:09:52",
+        "created_at_utc": "2026-11-12T16:09:52.000Z",
+        "id": "2120911969087607288",
+        "images": [
+          "https://pbs.twimg.com/media/HW7-HFYXEAA-Q-H.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2161,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW7-HFYXEAA-Q-H.jpg?name=small",
+            "width": 3838
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Development of the Starbase supercompute site is creating an opportunity to address decades of environmental neglect. \n\nPortions of the property were used for unauthorized dumping dating back to the 1960s. We're undertaking cleanup efforts to remove decades of accumulated debris, including scrap metal, discarded appliances, old tanks, fiberglass insulation, construction materials, and thousands of illegally dumped tires",
+        "url": "https://x.com/SpaceX/status/2120911969087607288",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "TheCaptainEli",
+        "avatar": "https://pbs.twimg.com/profile_images/1997753138426613760/EZDpm91Z_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 13:50:28",
+        "created_at_utc": "2026-11-13T05:50:28.000Z",
+        "id": "2121118479537394105",
+        "images": [],
+        "media": [],
+        "name": "Captain Eli",
+        "text": "SpaceX is building a supercomputer near Brownsville, Texas.\n\nThe first job on site was cleaning up sixty years of other people's trash.\n\nScrap metal, rusting tanks, old appliances and thousands of illegal tires, hauled out of the mud.\n\nThink about that for a second.\n\nThis site will train frontier AI for medical research, emergency response, advanced manufacturing and national security.\n\nIt will make its own electricity, so the neighbors' power bills stay their own.\n\nSpaceX is also putting $220 million into Brownsville's water and wastewater system, adding 20 million gallons of capacity every day for the city.\n\nMore than 3,000 construction jobs already, with more than 500 permanent ones to come.\n\nElon Musk summed it up in three words: \"SpaceX community benefits.\"\n\nA company spends $15 billion on Starship and another $24 billion on a supercomputer in one corner of Texas when it plans to stay for decades.\n\nElon Musk builds the place up first, because he believes the future will be built right there.",
+        "url": "https://x.com/TheCaptainEli/status/2121118479537394105",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 14,
+        "likes": 259,
+        "quotes": 2,
+        "replies": 21,
+        "retweets": 40,
+        "views": 16407
+      },
+      "url": "https://x.com/elonmusk/status/2121119443698979136",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2121119182402273414",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T05:53:16.000Z",
+      "created_at_shanghai": "2026-11-13 13:53:16",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "",
+      "quote": null,
+      "retweet": {
+        "author": "justinbieber",
+        "avatar": "https://pbs.twimg.com/profile_images/2047810066091479040/DEKoJKUM_200x200.jpg",
+        "created_at_shanghai": "2026-11-13 03:00:27",
+        "created_at_utc": "2026-11-12T19:00:27.000Z",
+        "id": "2120954896363200630",
+        "images": [
+          "https://pbs.twimg.com/media/HW8lO8gaYAAqflH.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8ha0AER4Uw.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8VbsAAVq3y.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8ibAAAo2ve.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8hbkAA6J46.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8tbEAAq5LW.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8eaMAAgSAi.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8jaAAAhGtc.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8dagAAUsrg.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8ja8AAWCkJ.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8rbAAA3fm5.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8fbIAACLEd.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8hacAAZk1s.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8ja4AAn-31.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8hbEAAJEqt.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8uaYAAa5Q3.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8haEAA7m0O.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8qbIAELMKg.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8ha0AAntOB.jpg?name=small",
+          "https://pbs.twimg.com/media/HW8lO8ma0AAmjm5.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 1356,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8gaYAAqflH.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 1356,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8ha0AER4Uw.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 1356,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8VbsAAVq3y.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 1356,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8ibAAAo2ve.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 1356,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8hbkAA6J46.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 1356,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8tbEAAq5LW.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 1534,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8eaMAAgSAi.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 539,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8jaAAAhGtc.jpg?name=small",
+            "width": 720
+          },
+          {
+            "height": 539,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8dagAAUsrg.jpg?name=small",
+            "width": 720
+          },
+          {
+            "height": 539,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8ja8AAWCkJ.jpg?name=small",
+            "width": 720
+          },
+          {
+            "height": 1356,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8rbAAA3fm5.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 1356,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8fbIAACLEd.jpg?name=small",
+            "width": 2048
+          },
+          {
+            "height": 767,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8hacAAZk1s.jpg?name=small",
+            "width": 1024
+          },
+          {
+            "height": 767,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8ja4AAn-31.jpg?name=small",
+            "width": 1024
+          },
+          {
+            "height": 767,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8hbEAAJEqt.jpg?name=small",
+            "width": 1024
+          },
+          {
+            "height": 767,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8uaYAAa5Q3.jpg?name=small",
+            "width": 1024
+          },
+          {
+            "height": 687,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8haEAA7m0O.jpg?name=small",
+            "width": 917
+          },
+          {
+            "height": 1159,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8qbIAELMKg.jpg?name=small",
+            "width": 1548
+          },
+          {
+            "height": 446,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8ha0AAntOB.jpg?name=small",
+            "width": 596
+          },
+          {
+            "height": 715,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HW8lO8ma0AAmjm5.jpg?name=small",
+            "width": 1080
+          }
+        ],
+        "name": "Justin Bieber",
+        "text": "",
+        "url": "https://x.com/justinbieber/status/2120954896363200630",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 933,
+        "likes": 39660,
+        "quotes": 674,
+        "replies": 675,
+        "retweets": 4239,
+        "views": 2041622
+      },
+      "url": "https://x.com/elonmusk/status/2121119182402273414",
+      "images": [
+        "https://pbs.twimg.com/media/HW8lO8gaYAAqflH.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8ha0AER4Uw.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8VbsAAVq3y.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8ibAAAo2ve.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8hbkAA6J46.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8tbEAAq5LW.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8eaMAAgSAi.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8jaAAAhGtc.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8dagAAUsrg.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8ja8AAWCkJ.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8rbAAA3fm5.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8fbIAACLEd.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8hacAAZk1s.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8ja4AAn-31.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8hbEAAJEqt.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8uaYAAa5Q3.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8haEAA7m0O.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8qbIAELMKg.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8ha0AAntOB.jpg?name=small",
+        "https://pbs.twimg.com/media/HW8lO8ma0AAmjm5.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8gaYAAqflH.jpg?name=small",
+          "width": 2048,
+          "height": 1356
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8ha0AER4Uw.jpg?name=small",
+          "width": 2048,
+          "height": 1356
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8VbsAAVq3y.jpg?name=small",
+          "width": 2048,
+          "height": 1356
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8ibAAAo2ve.jpg?name=small",
+          "width": 2048,
+          "height": 1356
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8hbkAA6J46.jpg?name=small",
+          "width": 2048,
+          "height": 1356
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8tbEAAq5LW.jpg?name=small",
+          "width": 2048,
+          "height": 1356
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8eaMAAgSAi.jpg?name=small",
+          "width": 2048,
+          "height": 1534
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8jaAAAhGtc.jpg?name=small",
+          "width": 720,
+          "height": 539
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8dagAAUsrg.jpg?name=small",
+          "width": 720,
+          "height": 539
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8ja8AAWCkJ.jpg?name=small",
+          "width": 720,
+          "height": 539
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8rbAAA3fm5.jpg?name=small",
+          "width": 2048,
+          "height": 1356
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8fbIAACLEd.jpg?name=small",
+          "width": 2048,
+          "height": 1356
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8hacAAZk1s.jpg?name=small",
+          "width": 1024,
+          "height": 767
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8ja4AAn-31.jpg?name=small",
+          "width": 1024,
+          "height": 767
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8hbEAAJEqt.jpg?name=small",
+          "width": 1024,
+          "height": 767
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8uaYAAa5Q3.jpg?name=small",
+          "width": 1024,
+          "height": 767
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8haEAA7m0O.jpg?name=small",
+          "width": 917,
+          "height": 687
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8qbIAELMKg.jpg?name=small",
+          "width": 1548,
+          "height": 1159
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8ha0AAntOB.jpg?name=small",
+          "width": 596,
+          "height": 446
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW8lO8ma0AAmjm5.jpg?name=small",
+          "width": 1080,
+          "height": 715
         }
       ],
       "enriched": true
@@ -1089,8 +2022,8 @@
   ],
   "page": 12,
   "page_size": 20,
-  "total": 2452,
-  "total_pages": 123,
-  "updated_at_shanghai": "2026-11-17 09:03:38",
+  "total": 2489,
+  "total_pages": 125,
+  "updated_at_shanghai": "2026-11-17 16:25:21",
   "account": "elonmusk"
 }
