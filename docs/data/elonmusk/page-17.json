@@ -1,6 +1,117 @@
 {
   "posts": [
     {
+      "id": "2110483996568351061",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T21:32:50.000Z",
+      "created_at_shanghai": "2026-10-15 05:32:50",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Voice is one of our fastest growing segments on API. Exciting to see companies switching to Grok from providers like ElevenLabs, seeing better naturalness across languages and lower cost.\n\nWe just dropped Grok Voice 3.0, which is back at #1 on the AA Speech to Speech Index. Don't sleep on Grok!",
+      "quote": null,
+      "retweet": {
+        "author": "veggie_eric",
+        "avatar": "https://pbs.twimg.com/profile_images/1863076230775373824/BysAhNNK_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 02:29:37",
+        "created_at_utc": "2026-10-14T18:29:37.000Z",
+        "id": "2110437888106414133",
+        "images": [
+          "https://pbs.twimg.com/media/HUnHrmZagAA6Hhx.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 872,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUnHrmZagAA6Hhx.jpg?name=small",
+            "width": 2464
+          }
+        ],
+        "name": "Eric Jiang",
+        "text": "Grok Voice is one of our fastest growing segments on API. Exciting to see companies switching to Grok from providers like ElevenLabs, seeing better naturalness across languages and lower cost.\n\nWe just dropped Grok Voice 3.0, which is back at #1 on the AA Speech to Speech Index. Don't sleep on Grok!",
+        "url": "https://x.com/veggie_eric/status/2110437888106414133",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 50,
+        "likes": 998,
+        "quotes": 11,
+        "replies": 57,
+        "retweets": 115,
+        "views": 186342
+      },
+      "url": "https://x.com/elonmusk/status/2110483996568351061",
+      "images": [
+        "https://pbs.twimg.com/media/HUnHrmZagAA6Hhx.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUnHrmZagAA6Hhx.jpg?name=small",
+          "width": 2464,
+          "height": 872
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110483960312799675",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T21:32:41.000Z",
+      "created_at_shanghai": "2026-10-15 05:32:41",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok Voice 3.0 is now the world’s leading conversational voice model",
+      "quote": {
+        "author": "ArtificialAnlys",
+        "avatar": "https://pbs.twimg.com/profile_images/2042402069320290304/A8C1lP07_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 01:26:20",
+        "created_at_utc": "2026-10-14T17:26:20.000Z",
+        "id": "2110421964095713743",
+        "images": [
+          "https://pbs.twimg.com/tweet_video_thumb/HUm5JxhasAEq5rv.jpg"
+        ],
+        "media": [
+          {
+            "duration": 0,
+            "height": 1524,
+            "thumbnail_url": "https://pbs.twimg.com/tweet_video_thumb/HUm5JxhasAEq5rv.jpg",
+            "type": "gif",
+            "url": "https://video.twimg.com/tweet_video/HUm5JxhasAEq5rv.mp4",
+            "width": 1620
+          }
+        ],
+        "name": "Artificial Analysis",
+        "text": "SpaceXAI’s Grok Voice 3.0 is the new leading Speech to Speech model, debuting at #1 on the Artificial Analysis Speech to Speech Index at 86.9, while also being competitive on latency\n\nGrok Voice 3.0 is @SpaceXSI 's successor to Grok Voice 2.0, a Speech to Speech model available through the SpaceXAI Realtime API at $0.08 per minute. We evaluated Grok Voice 3.0 with the Rex voice through the SpaceXAI Realtime API.\n\nKey takeaways:\n\n➤ Speech to Speech Index: Grok Voice 3.0 debuts at #1 at 86.9, ahead of GPT-Live-1 (Astra, medium) at 83.2, Gemini 3.8 Live Extended Thinking (High) at 82.6 and GPT-Live-1 (Sol, low) at 80.1. It is up on Grok Voice 2.0 at 81.3 (+5.6 points) and Grok Voice 1.0 at 73.7 (+13.2 points), released just under six months ago. The Index averages Speech Reasoning (Big Bench Audio), Agentic Performance (Tau Voice), Arena Preference, and Task Success Rate\n\n➤ Speech Agent Arena: Grok Voice 3.0 ranks #3 in preference at Elo 1070, behind Gemini 3.1 Flash Live Minimal (1100) and Gemini 3.8 Live (1088) and ahead of GPT-Live-1 (Sol, low) at 1057, and #1 on Task Success Rate at 94.8%, highest on the board, just ahead of Grok Voice 2.0 at 94.6%. Grok Voice 2.0 trails at Elo 1011\n\n➤ Tau Voice: Grok Voice 3.0 takes the #2 spot on our Tau Voice benchmark implementation at 71.6%, behind GPT-Live-1 (Astra, medium) at 74.5% and ahead of Gemini 3.8 Live Extended Thinking (High) at 68.6% and GPT-Live-1 (Sol, low) at 59.3% - up from 56.5% for Grok Voice 2.0\n\n➤ Big Bench Audio: Grok Voice 3.0 scores 98.5% on audio reasoning, ahead of Gemini 3.8 Live Extended Thinking (High) at 97.7% and Grok Voice 2.0 at 97.2%\n\n➤ Speed: Average Time to First Audio on Big Bench Audio is 0.81 seconds for Grok Voice 3.0, well ahead of GPT-Live-1 (Sol, low) at 1.24s, GPT-Live-1 (Astra, medium) at 1.34s and Gemini 3.8 Live Extended Thinking (High) at 1.35s, though slower than Grok Voice 2.0 at 0.70s\n\n➤ Cost: Grok Voice 3.0 costs $4.80 per hour of input audio, the same as Grok Voice 2.0. That is above GPT-Live-1 (Sol, low) at $4.47 and Gemini 3.8 Live Extended Thinking (High) at $3.50, cheaper than GPT-Live-1 (Astra, medium) at $5.83, and ~2.2x cheaper than GPT-Realtime-2.1 High at $10.75\n\nCongrats to @elonmusk  and the @SpaceXSI  team 🚀\n\nSee below for more detail ⬇️",
+        "url": "https://x.com/ArtificialAnlys/status/2110421964095713743",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 232,
+        "likes": 4148,
+        "quotes": 59,
+        "replies": 700,
+        "retweets": 495,
+        "views": 666244
+      },
+      "url": "https://x.com/elonmusk/status/2110483960312799675",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110438877274259488",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5050,134 +5161,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109792967288652287",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T23:46:56.000Z",
-      "created_at_shanghai": "2026-10-13 07:46:56",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We've unified plans across Grok, Cursor, and X Premium.\n\nIntroducing The X Subscription.",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceXSI",
-        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 07:08:39",
-        "created_at_utc": "2026-10-12T23:08:39.000Z",
-        "id": "2109783335296008414",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg"
-        ],
-        "media": [
-          {
-            "duration": 10,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109782667579322368/vid/avc1/1920x1080/ThJXAcymAf1pV1vL.mp4?tag=29",
-            "width": 1920
-          }
-        ],
-        "name": "SpaceX Super Intelligence",
-        "text": "We've unified plans across Grok, Cursor, and X Premium.\n\nIntroducing The X Subscription.",
-        "url": "https://x.com/SpaceXSI/status/2109783335296008414",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 3022,
-        "likes": 13342,
-        "quotes": 1559,
-        "replies": 1118,
-        "retweets": 1533,
-        "views": 3400580
-      },
-      "url": "https://x.com/elonmusk/status/2109792967288652287",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109782667579322368/vid/avc1/1920x1080/ThJXAcymAf1pV1vL.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109782667579322368/img/mg9FwK4PAT7m7_mU.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 10
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2109776287275581504",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T22:40:39.000Z",
-      "created_at_shanghai": "2026-10-13 06:40:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "JUST IN: SpaceXSI officially published the legal terms for a unified X Premium + Grok + Cursor subscription plan\n\n&gt;social network + frontier intelligence + dev IDE + banking\n\nX the everything app. It's happening",
-      "quote": null,
-      "retweet": {
-        "author": "ns123abc",
-        "avatar": "https://pbs.twimg.com/profile_images/2048822563821035520/7nxCFEnk_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 03:20:20",
-        "created_at_utc": "2026-10-12T19:20:20.000Z",
-        "id": "2109725878188118503",
-        "images": [
-          "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1062,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small",
-            "width": 1566
-          }
-        ],
-        "name": "NIK",
-        "text": "JUST IN: SpaceXSI officially published the legal terms for a unified X Premium + Grok + Cursor subscription plan\n\n>social network + frontier intelligence + dev IDE + banking\n\nX the everything app. It's happening",
-        "url": "https://x.com/ns123abc/status/2109725878188118503",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 147,
-        "likes": 1471,
-        "quotes": 17,
-        "replies": 139,
-        "retweets": 170,
-        "views": 170869
-      },
-      "url": "https://x.com/elonmusk/status/2109776287275581504",
-      "images": [
-        "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUc82E5XsAAttlv.jpg?name=small",
-          "width": 1566,
-          "height": 1062
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 100,
-  "total": 2518,
+  "total": 2520,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 00:55:31",
+  "updated_at_shanghai": "2026-11-18 01:54:55",
   "account": "elonmusk"
 }
