@@ -1,6 +1,34 @@
 {
   "posts": [
     {
+      "id": "2114973768473039185",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-27T06:53:35.000Z",
+      "created_at_shanghai": "2026-10-27 14:53:35",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Everyone should have at least a few penchants",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1074,
+        "likes": 19287,
+        "quotes": 437,
+        "replies": 3385,
+        "retweets": 1500,
+        "views": 3324611
+      },
+      "url": "https://x.com/elonmusk/status/2114973768473039185",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2114967042952687676",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5348,93 +5376,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2114205779070763050",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-25T04:01:52.000Z",
-      "created_at_shanghai": "2026-10-25 12:01:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Good data showing that NVIDIA AI infrastructure is a durable, investable asset that retains value.\n\nNew applications and workloads keep landing on our fungible platform, increasing demand because of its productivity.\n\nChart by @a16z",
-      "quote": {
-        "author": "a16z",
-        "avatar": "https://pbs.twimg.com/profile_images/1919488160125616128/QAZXTMEj_200x200.png",
-        "created_at_shanghai": "2026-10-24 05:15:02",
-        "created_at_utc": "2026-10-23T21:15:02.000Z",
-        "id": "2113741008550990191",
-        "images": [
-          "https://pbs.twimg.com/media/HVWEPkEaoAAWOvH.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2904,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVWEPkEaoAAWOvH.jpg?name=small",
-            "width": 3000
-          }
-        ],
-        "name": "a16z",
-        "text": "GPUs are aging like fine wine, with rental rates up across the board since January 1st\n\nApproximate change YTD:\n- H200: +160%\n- B200: +120%\n- RTX PRO 6000: +65%\n- H100: +35%\n\nEven the 6-year-old A100 rents for more than it did at the start of the year\n\nCharts of the Week: https://www.a16z.news/p/charts-of-the-week-attention-is-all",
-        "url": "https://x.com/a16z/status/2113741008550990191",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "NVIDIAAIInfra",
-        "avatar": "https://pbs.twimg.com/profile_images/1859346502243713026/NzLZW_Ag_200x200.jpg",
-        "created_at_shanghai": "2026-10-25 03:29:54",
-        "created_at_utc": "2026-10-24T19:29:54.000Z",
-        "id": "2114076938407194786",
-        "images": [
-          "https://pbs.twimg.com/media/HVaUG8XWIAAlVrB.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1949,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVaUG8XWIAAlVrB.jpg?name=small",
-            "width": 1272
-          }
-        ],
-        "name": "NVIDIA AI Infrastructure",
-        "text": "Good data showing that NVIDIA AI infrastructure is a durable, investable asset that retains value.\n\nNew applications and workloads keep landing on our fungible platform, increasing demand because of its productivity.\n\nChart by @a16z",
-        "url": "https://x.com/NVIDIAAIInfra/status/2114076938407194786",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 100,
-        "likes": 851,
-        "quotes": 15,
-        "replies": 54,
-        "retweets": 133,
-        "views": 209121
-      },
-      "url": "https://x.com/elonmusk/status/2114205779070763050",
-      "images": [
-        "https://pbs.twimg.com/media/HVaUG8XWIAAlVrB.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVaUG8XWIAAlVrB.jpg?name=small",
-          "width": 1272,
-          "height": 1949
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 11,
   "page_size": 100,
-  "total": 2520,
+  "total": 2521,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 01:54:55",
+  "updated_at_shanghai": "2026-11-18 02:07:59",
   "account": "elonmusk"
 }
