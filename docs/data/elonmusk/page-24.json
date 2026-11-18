@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2104290292761497884",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:21:16.000Z",
+      "created_at_shanghai": "2026-09-28 03:21:16",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "How is this real life? Seriously wtf man.",
+      "quote": null,
+      "retweet": {
+        "author": "mikepat711",
+        "avatar": "https://pbs.twimg.com/profile_images/2006022578251419649/krgWrQpt_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 01:06:28",
+        "created_at_utc": "2026-09-27T17:06:28.000Z",
+        "id": "2104256370757521502",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104255905206341632/img/I4ADx7iIVO4VslHQ.jpg"
+        ],
+        "media": [
+          {
+            "duration": 163.763,
+            "height": 1512,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104255905206341632/img/I4ADx7iIVO4VslHQ.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104255905206341632/vid/avc1/2486x1512/lz13Wmh2NlgKWv6X.mp4?tag=29",
+            "width": 2486
+          }
+        ],
+        "name": "Mike P",
+        "text": "How is this real life? Seriously wtf man.",
+        "url": "https://x.com/mikepat711/status/2104256370757521502",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 567,
+        "likes": 1671,
+        "quotes": 34,
+        "replies": 104,
+        "retweets": 155,
+        "views": 124459
+      },
+      "url": "https://x.com/elonmusk/status/2104290292761497884",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104255905206341632/img/I4ADx7iIVO4VslHQ.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2104255905206341632/vid/avc1/2486x1512/lz13Wmh2NlgKWv6X.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104255905206341632/img/I4ADx7iIVO4VslHQ.jpg",
+          "width": 2486,
+          "height": 1512,
+          "duration": 163.763
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2104287632330990060",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -6125,93 +6188,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2102933125018108169",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-24T01:28:22.000Z",
-      "created_at_shanghai": "2026-09-24 09:28:22",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "This turned out to be the most prophetic tweet of the year",
-      "quote": {
-        "author": "FT",
-        "avatar": "https://pbs.twimg.com/profile_images/931156393108885504/EqEMtLhM_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 06:07:09",
-        "created_at_utc": "2026-09-23T22:07:09.000Z",
-        "id": "2102882489177964983",
-        "images": [
-          "https://pbs.twimg.com/media/HS7wd9XXkAAnf3J.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 1350,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HS7wd9XXkAAnf3J.jpg?name=small",
-            "width": 1080
-          }
-        ],
-        "name": "Financial Times",
-        "text": "Breaking news: Australian Prime Minister Anthony Albanese has revealed that an OpenAI agent hacked an Australian government health service website in June, in the latest high-profile cyber incident involving AI https://ft.trib.al/gloVAyn",
-        "url": "https://x.com/FT/status/2102882489177964983",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "AlecStapp",
-        "avatar": "https://pbs.twimg.com/profile_images/1498170157176393731/tyrdhQ1M_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 08:48:46",
-        "created_at_utc": "2026-09-24T00:48:46.000Z",
-        "id": "2102923162229084418",
-        "images": [
-          "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 344,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small",
-            "width": 1025
-          }
-        ],
-        "name": "Alec Stapp",
-        "text": "This turned out to be the most prophetic tweet of the year",
-        "url": "https://x.com/AlecStapp/status/2102923162229084418",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 49,
-        "likes": 670,
-        "quotes": 6,
-        "replies": 33,
-        "retweets": 91,
-        "views": 82252
-      },
-      "url": "https://x.com/elonmusk/status/2102933125018108169",
-      "images": [
-        "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small",
-          "width": 1025,
-          "height": 344
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 24,
   "page_size": 100,
-  "total": 2529,
+  "total": 2530,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 09:38:43",
+  "updated_at_shanghai": "2026-11-18 09:42:10",
   "account": "elonmusk"
 }

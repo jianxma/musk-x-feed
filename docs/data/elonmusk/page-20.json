@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108180318842736942",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T12:58:50.000Z",
+      "created_at_shanghai": "2026-10-08 20:58:50",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "People who oppose @Starlink hurt only the least-served. \n\nThe wealthy or those living in large cities already have good Internet, so they don’t understand.",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 20:55:11",
+        "created_at_utc": "2026-10-08T12:55:11.000Z",
+        "id": "2108179398700757378",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "Starlink provides Internet connectivity to the least-served, enabling self-education and prosperity by giving people access to sell their products worldwide!",
+        "url": "https://x.com/elonmusk/status/2108179398700757378",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 752,
+        "likes": 25601,
+        "quotes": 586,
+        "replies": 3103,
+        "retweets": 2913,
+        "views": 11075975
+      },
+      "url": "https://x.com/elonmusk/status/2108180318842736942",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108179398700757378",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5521,71 +5562,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107844435224809938",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T10:23:57.000Z",
-      "created_at_shanghai": "2026-10-07 18:23:57",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "People clearly prefer Grok Bot to Dots.",
-      "quote": null,
-      "retweet": {
-        "author": "NathanLands",
-        "avatar": "https://pbs.twimg.com/profile_images/2106327649048240128/lkHNZ7xZ_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 18:23:57",
-        "created_at_utc": "2026-10-07T10:23:57.000Z",
-        "id": "2107778953494794733",
-        "images": [
-          "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small"
-        ],
-        "media": [
-          {
-            "height": 2000,
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small",
-            "width": 1000
-          }
-        ],
-        "name": "Nathan Lands",
-        "text": "People clearly prefer Grok Bot to Dots.",
-        "url": "https://x.com/NathanLands/status/2107778953494794733",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 65,
-        "likes": 1162,
-        "quotes": 10,
-        "replies": 96,
-        "retweets": 136,
-        "views": 239497
-      },
-      "url": "https://x.com/elonmusk/status/2107844435224809938",
-      "images": [
-        "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUBUpmTa4AAMrAU.jpg?name=small",
-          "width": 1000,
-          "height": 2000
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 100,
-  "total": 2529,
+  "total": 2530,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 09:38:43",
+  "updated_at_shanghai": "2026-11-18 09:42:10",
   "account": "elonmusk"
 }
