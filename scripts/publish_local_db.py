@@ -29,12 +29,16 @@ leaves the stored row in place.
 from __future__ import annotations
 
 import argparse
+import importlib
+import inspect
 import json
+import os
 import re
 import shutil
 import sqlite3
 import sys
 from pathlib import Path
+from types import ModuleType
 from typing import Any, Callable
 
 HANDLE_RE = re.compile(r"^[a-z0-9_]{1,15}$")
@@ -639,27 +643,102 @@ def _is_stub_block(block: object) -> bool:
     return True
 
 
-def repair_plan(existing: dict, enriched: dict) -> dict | None:
+def load_pages_runtime(worktree: Path) -> tuple[ModuleType, ModuleType]:
+    """Import ``feed_core`` and ``db`` from the Pages worktree only.
+
+    ``python3 /path/publish_local_db.py`` puts that script's directory on
+    ``sys.path[0]``, ahead of ``PYTHONPATH``. Next to the ops copy that
+    directory is the legacy monitor tree, whose ``build_post`` has no
+    ``owner`` argument. A missing or legacy worktree is an error. This never
+    falls back to the script directory.
+    """
+    root = Path(worktree).resolve()
+    if not root.is_dir():
+        raise RuntimeError(f"worktree does not exist: {root}")
+    feed_path = root / "feed_core.py"
+    db_path = root / "db.py"
+    if not feed_path.is_file() or not db_path.is_file():
+        raise RuntimeError(
+            f"worktree {root} is missing feed_core.py or db.py; "
+            "refusing to import either module from the script directory"
+        )
+    script_dir = Path(__file__).resolve().parent
+    cleaned: list[str] = []
+    for entry in sys.path:
+        if not entry:
+            cleaned.append(entry)
+            continue
+        try:
+            if Path(entry).resolve() == script_dir and script_dir != root:
+                continue
+        except OSError:
+            pass
+        cleaned.append(entry)
+    sys.path = [str(root), *cleaned]
+    # Drop a module already loaded from somewhere else (the legacy tree).
+    for name in ("feed_core", "db"):
+        loaded = sys.modules.get(name)
+        origin = Path(getattr(loaded, "__file__", "") or "") if loaded is not None else None
+        if origin is not None and (not origin.is_file() or origin.resolve().parent != root):
+            del sys.modules[name]
+    # db.py reads MUSK_FEED_DB at import. The operator may point that at the
+    # monitor file. Preserve helpers do not open it, and the env var is restored.
+    saved_db = os.environ.pop("MUSK_FEED_DB", None)
+    try:
+        feed_core = importlib.import_module("feed_core")
+        database = importlib.import_module("db")
+    finally:
+        if saved_db is not None:
+            os.environ["MUSK_FEED_DB"] = saved_db
+    feed_from = Path(feed_core.__file__ or "").resolve()
+    db_from = Path(database.__file__ or "").resolve()
+    if feed_from.parent != root or db_from.parent != root:
+        raise RuntimeError(
+            f"refusing mixed imports: feed_core={feed_from} db={db_from} worktree={root}"
+        )
+    if "owner" not in inspect.signature(feed_core.build_post).parameters:
+        raise RuntimeError(
+            f"{feed_from} build_post has no owner parameter; refusing the legacy monitor module"
+        )
+    if not hasattr(database, "_preserve_playable_media") or not hasattr(database, "_preserve_nested_media"):
+        raise RuntimeError(f"{db_from} is not the Pages db.py")
+    print(f"VIDEO_REPAIR_MODULES feed_core={feed_from} db={db_from}", flush=True)
+    return feed_core, database
+
+
+def repair_plan(
+    existing: dict,
+    enriched: dict,
+    *,
+    preserve_media: Callable[..., list] | None = None,
+    preserve_nested: Callable[..., Any] | None = None,
+) -> dict | None:
     """Fields to store when ``enriched`` actually contains a playable file.
 
     Returns None when there is nothing safe to add. An existing mp4/HLS url is
-    never replaced by a poster.
+    never replaced by a poster. Callers that already loaded the Pages worktree
+    pass its preserve helpers. Otherwise the repo ``db`` on ``sys.path`` is used,
+    which unit tests set up. The CLI never uses that fallback.
     """
     if not _row_needs_repair(existing) or not _row_has_playable(enriched):
         return None
-    from db import _preserve_nested_media, _preserve_playable_media
+    if preserve_media is None or preserve_nested is None:
+        from db import _preserve_nested_media, _preserve_playable_media
 
-    media = _preserve_playable_media(existing.get("media"), enriched.get("media"))
+        preserve_media = _preserve_playable_media
+        preserve_nested = _preserve_nested_media
+
+    media = preserve_media(existing.get("media"), enriched.get("media"))
     incoming_quote = enriched.get("quote")
     if incoming_quote is None and _is_stub_block(existing.get("quote")):
         quote = None
     elif isinstance(incoming_quote, dict):
-        quote = _preserve_nested_media(existing.get("quote"), incoming_quote)
+        quote = preserve_nested(existing.get("quote"), incoming_quote)
     else:
         quote = existing.get("quote")
     incoming_retweet = enriched.get("retweet")
     if isinstance(incoming_retweet, dict):
-        retweet = _preserve_nested_media(existing.get("retweet"), incoming_retweet)
+        retweet = preserve_nested(existing.get("retweet"), incoming_retweet)
     else:
         retweet = existing.get("retweet")
     images = enriched.get("images") or existing.get("images") or []
@@ -686,14 +765,18 @@ def _post_from_sql(row: sqlite3.Row) -> dict:
     }
 
 
-def default_video_fetch(account: str, post_id: str, existing_url: str) -> dict:
-    """Read one status from FxTwitter. Raises when the status cannot be read."""
-    from feed_core import build_post, enrich_one
-
-    tweet, err = enrich_one(post_id, account)
+def default_video_fetch(
+    account: str,
+    post_id: str,
+    existing_url: str,
+    *,
+    feed_core: ModuleType,
+) -> dict:
+    """Read one status from FxTwitter using the Pages worktree's feed_core."""
+    tweet, err = feed_core.enrich_one(post_id, account)
     if not isinstance(tweet, dict):
         raise RuntimeError(err or "missing tweet")
-    return build_post(
+    return feed_core.build_post(
         {
             "platformId": post_id,
             "content": "",
@@ -712,6 +795,8 @@ def repair_thin_videos(
     limit: int = DEFAULT_REPAIR_LIMIT,
     ids: list[str] | None = None,
     accounts: set[str] | None = None,
+    preserve_media: Callable[..., list] | None = None,
+    preserve_nested: Callable[..., Any] | None = None,
 ) -> dict[str, int]:
     """Fill playable media on Pages rows that only have a video poster.
 
@@ -761,7 +846,12 @@ def repair_thin_videos(
                 failed += 1
                 print(f"VIDEO_ENRICH_INCOMPLETE {label} empty", flush=True)
                 continue
-            plan = repair_plan(post, enriched)
+            plan = repair_plan(
+                post,
+                enriched,
+                preserve_media=preserve_media,
+                preserve_nested=preserve_nested,
+            )
             if plan is None:
                 no_video += 1
                 print(f"VIDEO_REPAIR_UNAVAILABLE {label}", flush=True)
@@ -828,6 +918,7 @@ def main(argv: list[str] | None = None) -> int:
 
     repair = sub.add_parser("repair-videos")
     repair.add_argument("--db", required=True)
+    repair.add_argument("--worktree", required=True)
     repair.add_argument("--limit", type=int, default=DEFAULT_REPAIR_LIMIT)
     repair.add_argument("--id", action="append", default=[])
     repair.add_argument("--account", action="append", default=[])
@@ -844,12 +935,21 @@ def main(argv: list[str] | None = None) -> int:
             if item.strip()
         }
         try:
+            feed_core, database = load_pages_runtime(Path(args.worktree))
+
+            def fetch(account: str, post_id: str, existing_url: str) -> dict:
+                return default_video_fetch(
+                    account, post_id, existing_url, feed_core=feed_core
+                )
+
             repair_thin_videos(
                 Path(args.db),
-                fetch=default_video_fetch,
+                fetch=fetch,
                 limit=max(0, args.limit),
                 ids=list(args.id or []),
                 accounts=repair_accounts or None,
+                preserve_media=database._preserve_playable_media,
+                preserve_nested=database._preserve_nested_media,
             )
         except RuntimeError as exc:
             print(f"ABORT: {exc}", file=sys.stderr)
