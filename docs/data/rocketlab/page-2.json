@@ -849,22 +849,22 @@
         ],
         "media": [
           {
-            "height": 2731,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HUtAZAtbMAAREwY.jpg?name=small",
-            "width": 4096
+            "width": 4096,
+            "height": 2731
           },
           {
-            "height": 1067,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HUtAZAia8AA_c5F.jpg?name=small",
-            "width": 1600
+            "width": 1600,
+            "height": 1067
           },
           {
-            "height": 2731,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HUtAZAibkAA2SjQ.jpg?name=small",
-            "width": 4096
+            "width": 4096,
+            "height": 2731
           }
         ],
         "name": "Governor Gavin Newsom",
@@ -911,12 +911,12 @@
         ],
         "media": [
           {
-            "duration": 108.885,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109759019175063552/img/fPJiSI866TkJWHCY.jpg",
             "type": "video",
             "url": "https://video.twimg.com/amplify_video/2109759019175063552/vid/avc1/1920x1080/xz7VIwf7l-7Ln_mA.mp4?tag=29",
-            "width": 1920
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109759019175063552/img/fPJiSI866TkJWHCY.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 108.885
           }
         ],
         "name": "NASA Mars",
@@ -1274,28 +1274,28 @@
         ],
         "media": [
           {
-            "height": 2048,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HTdipmLWEAAQ-CA.jpg?name=small",
-            "width": 1536
+            "width": 1536,
+            "height": 2048
           },
           {
-            "height": 2048,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HTdipkhXcAASW4U.jpg?name=small",
-            "width": 1536
+            "width": 1536,
+            "height": 2048
           },
           {
-            "height": 2048,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HTdipkgXQAAphwV.jpg?name=small",
-            "width": 1536
+            "width": 1536,
+            "height": 2048
           },
           {
-            "height": 2048,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HTdipkxXwAA7KxT.jpg?name=small",
-            "width": 1536
+            "width": 1536,
+            "height": 2048
           }
         ],
         "name": "Vince is Bullish",
@@ -2294,12 +2294,12 @@
         ],
         "media": [
           {
-            "duration": 92.7,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102201716682997760/img/roxlhZZ_wi6QY0YO.jpg",
             "type": "video",
             "url": "https://video.twimg.com/amplify_video/2102201716682997760/vid/avc1/1280x720/oZ_U95L-IFZkkvKP.mp4?tag=16",
-            "width": 1280
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102201716682997760/img/roxlhZZ_wi6QY0YO.jpg",
+            "width": 1280,
+            "height": 720,
+            "duration": 92.7
           }
         ],
         "name": "MTS",
@@ -2385,10 +2385,10 @@
         ],
         "media": [
           {
-            "height": 2500,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HR0L2QUbQAA_vFx.jpg?name=small",
-            "width": 2250
+            "width": 2250,
+            "height": 2500
           }
         ],
         "name": "Rocket Lab",
@@ -2436,12 +2436,12 @@
         ],
         "media": [
           {
-            "duration": 30.56,
-            "height": 1280,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101199884787515392/img/e1r6Zi9yz7ddeUKl.jpg",
             "type": "video",
             "url": "https://video.twimg.com/amplify_video/2101199884787515392/vid/avc1/720x1280/uDFOY7wDjUxVnqVs.mp4?tag=29",
-            "width": 720
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101199884787515392/img/e1r6Zi9yz7ddeUKl.jpg",
+            "width": 720,
+            "height": 1280,
+            "duration": 30.56
           }
         ],
         "name": "Peter Beck",
@@ -3465,10 +3465,10 @@
         ],
         "media": [
           {
-            "height": 2480,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HQ_-pjBacAAiNP1.jpg?name=small",
-            "width": 2480
+            "width": 2480,
+            "height": 2480
           }
         ],
         "name": "Rocket Lab",
@@ -3497,6 +3497,6 @@
   "page_size": 100,
   "total": 189,
   "total_pages": 2,
-  "updated_at_shanghai": "2026-11-18 05:24:10",
+  "updated_at_shanghai": "2026-11-18 15:11:35",
   "account": "rocketlab"
 }

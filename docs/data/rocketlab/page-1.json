@@ -27,7 +27,17 @@
       "images": [
         "https://pbs.twimg.com/amplify_video_thumb/2122794618249170944/img/7dSFOChIxhJtW5pk.jpg"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2122794618249170944/vid/avc1/3840x2160/YD5bZfAXSvgBDvVb.mp4?tag=29",
+          "hls_url": "https://video.twimg.com/amplify_video/2122794618249170944/pl/Pmu36b0lhoq042nn.m3u8?tag=29&v=cfc",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122794618249170944/img/7dSFOChIxhJtW5pk.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 135.552
+        }
+      ],
       "enriched": true
     },
     {
@@ -131,22 +141,22 @@
         ],
         "media": [
           {
-            "height": 4096,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HXM_yzEasAAns6x.jpg?name=small",
-            "width": 2730
+            "width": 2730,
+            "height": 4096
           },
           {
-            "height": 4096,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HXNA8jpa4AAYB3W.jpg?name=small",
-            "width": 2730
+            "width": 2730,
+            "height": 4096
           },
           {
-            "height": 4096,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HXNBKAJbQAAllKC.jpg?name=small",
-            "width": 2730
+            "width": 2730,
+            "height": 4096
           }
         ],
         "name": "Joseph Baxter",
@@ -270,12 +280,12 @@
         ],
         "media": [
           {
-            "duration": 17.72,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121775717092634625/img/XsvTKAzswdZd_lck.jpg",
             "type": "video",
             "url": "https://video.twimg.com/amplify_video/2121775717092634625/vid/avc1/1280x720/ECK3qpymWbPHDkh0.mp4?tag=29",
-            "width": 1280
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121775717092634625/img/XsvTKAzswdZd_lck.jpg",
+            "width": 1280,
+            "height": 720,
+            "duration": 17.72
           }
         ],
         "name": "Peter Beck",
@@ -1263,12 +1273,12 @@
         ],
         "media": [
           {
-            "duration": 60.226,
-            "height": 1280,
-            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2121297088210194432/pu/img/NXgBR2YIHvRFNhaf.jpg",
             "type": "video",
             "url": "https://video.twimg.com/ext_tw_video/2121297088210194432/pu/vid/avc1/720x1280/1XWC-g16SXkfi1X5.mp4?tag=12",
-            "width": 720
+            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2121297088210194432/pu/img/NXgBR2YIHvRFNhaf.jpg",
+            "width": 720,
+            "height": 1280,
+            "duration": 60.226
           }
         ],
         "name": "United States Space Force",
@@ -1470,12 +1480,12 @@
         ],
         "media": [
           {
-            "duration": 28.328,
-            "height": 1080,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113365126807990273/img/blxel9EgwRZmzvk1.jpg",
             "type": "video",
             "url": "https://video.twimg.com/amplify_video/2113365126807990273/vid/avc1/1920x1080/CAzcLdw9yUPNg6B_.mp4?tag=16",
-            "width": 1920
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113365126807990273/img/blxel9EgwRZmzvk1.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 28.328
           }
         ],
         "name": "Nancy Grace Roman Space Telescope",
@@ -1526,28 +1536,28 @@
         ],
         "media": [
           {
-            "height": 1690,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HW4oWsRakAAZoBD.jpg?name=small",
-            "width": 3000
+            "width": 3000,
+            "height": 1690
           },
           {
-            "height": 1386,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HW4olUebEAAGr9f.jpg?name=small",
-            "width": 2576
+            "width": 2576,
+            "height": 1386
           },
           {
-            "height": 1688,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HW4opU-agAAQKTA.jpg?name=small",
-            "width": 3000
+            "width": 3000,
+            "height": 1688
           },
           {
-            "height": 1382,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HW4orFAaQAA9JRN.jpg?name=small",
-            "width": 2468
+            "width": 2468,
+            "height": 1382
           }
         ],
         "name": "Synspective",
@@ -1776,10 +1786,10 @@
         ],
         "media": [
           {
-            "height": 666,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HW2AjNSW0AAPuvp.jpg?name=small",
-            "width": 2000
+            "width": 2000,
+            "height": 666
           }
         ],
         "name": "Mynaric",
@@ -2567,10 +2577,10 @@
         ],
         "media": [
           {
-            "height": 667,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HWOgOv3WcAA5JSY.jpg?name=small",
-            "width": 800
+            "width": 800,
+            "height": 667
           }
         ],
         "name": "Viasat",
@@ -2741,12 +2751,12 @@
         ],
         "media": [
           {
-            "duration": 24.48,
-            "height": 720,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117334315843649536/img/wt0sFCKa5I_o9cd7.jpg",
             "type": "video",
             "url": "https://video.twimg.com/amplify_video/2117334315843649536/vid/avc1/1280x720/qLK-G3mM9dCc2t3O.mp4?tag=29",
-            "width": 1280
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117334315843649536/img/wt0sFCKa5I_o9cd7.jpg",
+            "width": 1280,
+            "height": 720,
+            "duration": 24.48
           }
         ],
         "name": "Peter Beck",
@@ -3447,10 +3457,10 @@
         ],
         "media": [
           {
-            "height": 1365,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HVlMsylboAA6fx8.jpg?name=small",
-            "width": 2048
+            "width": 2048,
+            "height": 1365
           }
         ],
         "name": "NASA Solar System",
@@ -3805,10 +3815,10 @@
         ],
         "media": [
           {
-            "height": 4096,
             "type": "photo",
             "url": "https://pbs.twimg.com/media/HVdV1ExWwAANU8I.jpg?name=small",
-            "width": 3072
+            "width": 3072,
+            "height": 4096
           }
         ],
         "name": "Jacklyn Dallas - The Next Big Thing",
@@ -3912,6 +3922,6 @@
   "page_size": 100,
   "total": 189,
   "total_pages": 2,
-  "updated_at_shanghai": "2026-11-18 05:24:10",
+  "updated_at_shanghai": "2026-11-18 15:11:35",
   "account": "rocketlab"
 }
