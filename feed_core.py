@@ -363,24 +363,38 @@ def _canonical_type(raw: str) -> str:
     return ""
 
 
-def _best_stream(item: dict, kind: str) -> str:
-    """Highest-bitrate direct file. Skips HLS playlists, which <video> cannot play everywhere."""
-    ranked: list[tuple[int, str]] = []
+def _variant_pools(item: dict) -> list[dict]:
+    out: list[dict] = []
     for key in ("variants", "formats"):
         pool = item.get(key)
         if not isinstance(pool, list):
             continue
         for variant in pool:
-            if not isinstance(variant, dict):
-                continue
-            url = _as_http(variant.get("url"))
-            if not url:
-                continue
-            ct = str(variant.get("content_type") or variant.get("format") or "")
-            container = str(variant.get("container") or "")
-            ok = _is_audio_url(url, ct, container) if kind == "audio" else _is_playable_video(url, ct, container)
-            if ok:
-                ranked.append((_bitrate(variant), url))
+            if isinstance(variant, dict):
+                out.append(variant)
+    return out
+
+
+def _is_hls_url(url: str, content_type: str = "", container: str = "") -> bool:
+    ct = (content_type or "").lower()
+    box = (container or "").lower()
+    if "mpegurl" in ct or box in {"m3u8", "hls"} or _path_ext(url) == "m3u8":
+        return True
+    return False
+
+
+def _best_stream(item: dict, kind: str) -> str:
+    """Highest-bitrate direct file. Skips HLS playlists, which <video> cannot play everywhere."""
+    ranked: list[tuple[int, str]] = []
+    for variant in _variant_pools(item):
+        url = _as_http(variant.get("url"))
+        if not url:
+            continue
+        ct = str(variant.get("content_type") or variant.get("format") or "")
+        container = str(variant.get("container") or "")
+        ok = _is_audio_url(url, ct, container) if kind == "audio" else _is_playable_video(url, ct, container)
+        if ok:
+            ranked.append((_bitrate(variant), url))
     if ranked:
         ranked.sort(key=lambda pair: pair[0])
         return ranked[-1][1]
@@ -391,6 +405,23 @@ def _best_stream(item: dict, kind: str) -> str:
     if kind == "audio" and _is_audio_url(url, fmt):
         return url
     if kind != "audio" and _is_playable_video(url, fmt):
+        return url
+    return ""
+
+
+def _hls_stream(item: dict) -> str:
+    """Master playlist, kept beside the mp4 so Safari can fall back to HLS."""
+    for variant in _variant_pools(item):
+        url = _as_http(variant.get("url"))
+        if not url:
+            continue
+        ct = str(variant.get("content_type") or variant.get("format") or "")
+        container = str(variant.get("container") or "")
+        if _is_hls_url(url, ct, container):
+            return url
+    url = _as_http(item.get("url"))
+    fmt = str(item.get("format") or "")
+    if url and _is_hls_url(url, fmt):
         return url
     return ""
 
@@ -413,9 +444,12 @@ def _media_record(item: dict, default_type: str = "") -> dict | None:
         rec: dict[str, Any] = {"type": "photo", "url": url}
     else:
         url = _best_stream(item, "audio" if mtype == "audio" else "video")
-        if not url and not thumb:
+        hls = _hls_stream(item) if mtype in ("video", "gif") else ""
+        if not url and not hls and not thumb:
             return None
         rec = {"type": mtype, "url": url}
+        if hls:
+            rec["hls_url"] = hls
         if thumb:
             rec["thumbnail_url"] = thumb
     for key in ("width", "height", "duration"):
@@ -443,9 +477,10 @@ def _iter_media_dicts(media: dict) -> list[tuple[dict, str]]:
 def extract_media(tweet: dict | None) -> list[dict]:
     """Typed attachments on this status only. Does not walk nested quote/retweet.
 
-    Each item is ``{type, url, thumbnail_url?, width?, height?, duration?}``
+    Each item is ``{type, url, hls_url?, thumbnail_url?, width?, height?, duration?}``
     with type photo, video, gif, or audio. Video/gif ``url`` is a playable file
-    (highest-bitrate mp4/webm), not the thumbnail.
+    (highest-bitrate mp4/webm), not the thumbnail. ``hls_url`` is the m3u8
+    playlist when the source still has one.
     """
     if not isinstance(tweet, dict):
         return []

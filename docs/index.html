@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <!-- video.twimg.com returns 403 when the media element sends a non-X Referer -->
+  <!-- video.twimg.com returns 403 if the request Referer is this page.
+       An empty Referer is accepted. The video src also sets referrerpolicy,
+       because WebKit does not apply it to a nested source element. -->
   <meta name="referrer" content="no-referrer">
   <title>马斯克 X 盯盘</title>
   <style>
@@ -466,6 +468,17 @@
       pointer-events: none;
     }
     .play svg { width: 22px; height: 22px; fill: #fff; margin-left: 2px; }
+    button.play-btn {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+    button.play-btn[hidden] { display: none !important; }
     .quote {
       display: block;
       margin-top: 12px;
@@ -835,6 +848,10 @@
 
   function isPlayableVideoUrl(url) {
     return /\.(mp4|m4v|webm)(\?|#|$)/i.test(url || '') || /video\.twimg\.com\/.+\.(mp4|webm)(\?|#|$)/i.test(url || '');
+  }
+
+  function isHlsUrl(url) {
+    return /\.m3u8(\?|#|$)/i.test(url || '');
   }
 
   function isAudioUrl(url) {
@@ -1263,14 +1280,13 @@
   function coerceMedia(list) {
     var items = Array.isArray(list) ? list : [];
     if (items.length && typeof items[0] === 'string') {
+      /* A bare thumbnail URL is a still. Do not invent a video from it. */
       items = items.map(function (url) {
-        return isVideoThumb(url)
-          ? { type: 'video', url: url, thumbnail_url: url }
-          : { type: 'photo', url: url };
+        return { type: 'photo', url: url };
       });
     }
     return items.filter(function (item) {
-      return item && (item.url || item.thumbnail_url);
+      return item && (item.url || item.thumbnail_url || item.hls_url);
     }).slice(0, 4);
   }
 
@@ -1280,29 +1296,34 @@
     var shots = items.map(function (item) {
       var type = String(item.type || '').toLowerCase();
       var url = safeUrl(item.url);
+      var hls = safeUrl(item.hls_url);
       var thumb = safeUrl(item.thumbnail_url);
-      if ((type === 'video' || type === 'gif') && isPlayableVideoUrl(url)) {
-        var mime = /\.webm(\?|#|$)/i.test(url) ? 'video/webm' : 'video/mp4';
+      var file = isPlayableVideoUrl(url) ? url : '';
+      var playlist = isHlsUrl(hls) ? hls : (isHlsUrl(url) ? url : '');
+      if ((type === 'video' || type === 'gif') && (file || playlist)) {
+        /* src sits on the video element so mobile Safari sends no Referer.
+           Nested <source> ignores referrerpolicy there, and a github.io
+           Referer makes video.twimg.com answer 403 — only the poster remains. */
+        var src = file || playlist;
+        var hlsAttr = (playlist && playlist !== src) ? ' data-hls="' + esc(playlist) + '"' : '';
         var poster = thumb ? ' poster="' + esc(thumb) + '"' : '';
         var loop = type === 'gif' ? ' loop muted' : '';
-        return '<div class="shot"><video class="photo" controls playsinline preload="metadata"' +
-          loop + poster + ' referrerpolicy="no-referrer" aria-label="' + (type === 'gif' ? '动图' : '视频') + '">' +
-          '<source src="' + esc(url) + '" type="' + mime + '"></video></div>';
+        return '<div class="shot shot-play"><video class="photo" playsinline webkit-playsinline preload="metadata"' +
+          loop + poster + ' referrerpolicy="no-referrer"' + hlsAttr + ' src="' + esc(src) +
+          '" aria-label="' + (type === 'gif' ? '动图' : '视频') + '"></video>' +
+          '<button type="button" class="play-btn" aria-label="播放"><span class="play">' + ICON.play + '</span></button></div>';
       }
       if (type === 'audio' && url && (isAudioUrl(url) || type === 'audio')) {
         var audioType = /\.m4a(\?|#|$)/i.test(url) ? 'audio/mp4' : (/\.wav(\?|#|$)/i.test(url) ? 'audio/wav' : 'audio/mpeg');
         return '<div class="shot audio"><audio controls preload="metadata" src="' + esc(url) +
           '" type="' + audioType + '" referrerpolicy="no-referrer" aria-label="音频"></audio></div>';
       }
-      /* Still photos (and non-playable posters) open in-page. Video/audio above stay inline. */
-      var src = type === 'photo' ? url : (thumb || url);
-      if (!src) return '';
-      var play = (type === 'video' || type === 'gif' || isVideoThumb(src))
-        ? '<span class="play">' + ICON.play + '</span>' : '';
-      var label = play ? '查看封面' : '查看图片';
+      /* Stills open in the lightbox. A video with no mp4/HLS stays a poster, with no play badge. */
+      var src = type === 'photo' ? url : (thumb || (isPlayableVideoUrl(url) ? '' : url));
+      if (!src || isHlsUrl(src)) return '';
+      var label = (type === 'video' || type === 'gif' || isVideoThumb(src)) ? '视频封面' : '查看图片';
       return '<button type="button" class="shot" data-full="' + esc(src) + '" aria-label="' + label + '">' +
-        '<img class="photo" src="' + esc(src) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' +
-        play + '</button>';
+        '<img class="photo" src="' + esc(src) + '" alt="" loading="lazy" referrerpolicy="no-referrer"></button>';
     }).filter(Boolean);
     if (!shots.length) return '';
     return '<div class="media n' + shots.length + '">' + shots.join('') + '</div>';
@@ -2156,7 +2177,44 @@
     showIndex(galIndex + delta);
   }
 
+  feedEl.addEventListener('error', function (e) {
+    var video = e.target;
+    if (!video || video.tagName !== 'VIDEO' || !feedEl.contains(video)) return;
+    if (video.getAttribute('data-gave-up') === '1') return;
+    var hls = video.getAttribute('data-hls') || '';
+    if (hls && video.getAttribute('data-tried-hls') !== '1' &&
+        video.canPlayType && video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.setAttribute('data-tried-hls', '1');
+      video.src = hls;
+      return;
+    }
+    video.setAttribute('data-gave-up', '1');
+    video.controls = false;
+    video.removeAttribute('src');
+    var playBtn = video.parentElement && video.parentElement.querySelector('button.play-btn');
+    if (playBtn) playBtn.remove();
+    try { video.load(); } catch (err) {}
+  }, true);
+
   feedEl.addEventListener('click', function (e) {
+    var playBtn = e.target.closest('button.play-btn');
+    if (playBtn && feedEl.contains(playBtn)) {
+      e.preventDefault();
+      e.stopPropagation();
+      var video = playBtn.parentElement && playBtn.parentElement.querySelector('video');
+      if (!video || video.getAttribute('data-gave-up') === '1') return;
+      playBtn.hidden = true;
+      video.controls = true;
+      var started = video.play();
+      if (started && started.catch) {
+        started.catch(function () {
+          if (video.getAttribute('data-gave-up') === '1') return;
+          video.controls = false;
+          playBtn.hidden = false;
+        });
+      }
+      return;
+    }
     var more = e.target.closest('button.text-more');
     if (more && feedEl.contains(more)) {
       e.preventDefault();

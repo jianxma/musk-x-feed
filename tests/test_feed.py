@@ -122,6 +122,7 @@ class ClassifyTests(unittest.TestCase):
         self.assertEqual(kinds, ["video", "gif", "photo"])
         self.assertEqual(post["media"][0]["url"], video)
         self.assertNotIn("m3u8", post["media"][0]["url"])
+        self.assertEqual(post["media"][0]["hls_url"], "https://video.twimg.com/amplify_video/1/pl/master.m3u8")
         self.assertEqual(post["media"][0]["thumbnail_url"].rsplit("/", 1)[-1], "x.jpg")
         self.assertEqual(post["media"][0]["duration"], 12.5)
         self.assertEqual(post["media"][1]["url"], gif)
@@ -171,6 +172,54 @@ class ClassifyTests(unittest.TestCase):
         self.assertEqual(len(post["quote"]["images"]), 1)
         self.assertIn("name=small", post["quote"]["images"][0])
         self.assertTrue(post["quote"]["verified"])
+
+    def test_quote_video_keeps_mp4_and_hls_on_the_quote(self):
+        tid = "2122587577274237129"
+        mp4 = "https://video.twimg.com/amplify_video/2122452224093937664/vid/avc1/1920x1080/IfmF2GJWktLZClQi.mp4?tag=29"
+        hls = "https://video.twimg.com/amplify_video/2122452224093937664/pl/RTGvpp4_JYrouBQQ.m3u8?tag=29&v=bec"
+        thumb = "https://pbs.twimg.com/amplify_video_thumb/2122452224093937664/img/hH1u-8mcRlq3i7Rk.jpg"
+        low = "https://video.twimg.com/amplify_video/2122452224093937664/vid/avc1/480x270/oaymzOgcbSC12eRy.mp4?tag=29"
+        tweet = {
+            "id": tid,
+            "text": "Was good to see them.",
+            "url": musk_status_url(tid),
+            "author": _author("Elon Musk", "elonmusk"),
+            "likes": 1,
+            "views": 2,
+            "quote": {
+                "id": "2122452622519230711",
+                "text": "really gets the best out of everybody",
+                "url": "https://x.com/teslaownersSV/status/2122452622519230711",
+                "author": _author("Tesla Owners Silicon Valley", "teslaownersSV"),
+                "media": {
+                    "videos": [
+                        {
+                            "type": "video",
+                            "thumbnail_url": thumb,
+                            "url": hls,
+                            "variants": [
+                                {"url": hls, "bitrate": 0, "content_type": "application/x-mpegURL"},
+                                {"url": low, "bitrate": 256000, "content_type": "video/mp4"},
+                                {"url": mp4, "bitrate": 10368000, "content_type": "video/mp4"},
+                            ],
+                        }
+                    ]
+                },
+            },
+        }
+        post = build_post(
+            {"platformId": tid, "createdAt": "2026-11-17T00:00:00.000Z", "content": "Was good to see them."},
+            tweet,
+        )
+        self.assertEqual(post["type_label"], "引用")
+        self.assertEqual(post["media"], [])
+        self.assertEqual(post["images"], [])
+        quoted = post["quote"]["media"][0]
+        self.assertEqual(quoted["type"], "video")
+        self.assertEqual(quoted["url"], mp4)
+        self.assertEqual(quoted["hls_url"], hls)
+        self.assertEqual(quoted["thumbnail_url"], thumb)
+        self.assertEqual(post["quote"]["images"], [thumb])
 
     def test_repost_via_reposted_by(self):
         musk_id = "300"
@@ -402,6 +451,65 @@ class DbTests(unittest.TestCase):
         self.assertEqual(row["retweet"]["author"], "bot")
         self.assertEqual(row["images"], ["https://pbs.twimg.com/media/a.jpg"])
         self.assertEqual(row["media"][0]["url"], "https://video.twimg.com/amplify_video/1/vid/a.mp4")
+
+    def test_enrich_keeps_quote_video_when_later_payload_is_only_a_thumbnail(self):
+        mp4 = "https://video.twimg.com/amplify_video/2122452224093937664/vid/avc1/1920x1080/clip.mp4?tag=29"
+        hls = "https://video.twimg.com/amplify_video/2122452224093937664/pl/master.m3u8?tag=29"
+        thumb = "https://pbs.twimg.com/amplify_video_thumb/2122452224093937664/img/poster.jpg"
+        quote = {
+            "id": "2122452622519230711",
+            "author": "teslaownersSV",
+            "name": "Tesla Owners Silicon Valley",
+            "text": "really gets the best out of everybody",
+            "url": "https://x.com/teslaownersSV/status/2122452622519230711",
+            "images": [thumb],
+            "media": [{
+                "type": "video",
+                "url": mp4,
+                "hls_url": hls,
+                "thumbnail_url": thumb,
+            }],
+        }
+        db.upsert_posts([self._post(9, type_label="引用", text="Was good to see them.", quote=quote, enriched=True)])
+        thin_quote = {
+            "id": "2122452622519230711",
+            "author": "teslaownersSV",
+            "name": "Tesla Owners Silicon Valley",
+            "text": "really gets the best out of everybody",
+            "url": "https://x.com/teslaownersSV/status/2122452622519230711",
+            "images": [thumb],
+            "media": [{"type": "video", "url": "", "thumbnail_url": thumb}],
+        }
+        stats = db.upsert_posts([
+            self._post(9, type_label="引用", text="Was good to see them.", quote=thin_quote, enriched=True)
+        ])
+        self.assertEqual(stats["updated"], 0)
+        row = db.get_posts_page(1, 20)["posts"][0]
+        self.assertEqual(row["quote"]["media"][0]["url"], mp4)
+        self.assertEqual(row["quote"]["media"][0]["hls_url"], hls)
+        self.assertEqual(row["quote"]["media"][0]["thumbnail_url"], thumb)
+        self.assertEqual(row["media"], [])
+        replacement = "https://video.twimg.com/amplify_video/2122452224093937664/vid/avc1/1280x720/newer.mp4?tag=29"
+        replaced = {
+            "id": "2122452622519230711",
+            "author": "teslaownersSV",
+            "name": "Tesla Owners Silicon Valley",
+            "text": "really gets the best out of everybody",
+            "url": "https://x.com/teslaownersSV/status/2122452622519230711",
+            "images": [thumb],
+            "media": [{
+                "type": "video",
+                "url": replacement,
+                "hls_url": hls,
+                "thumbnail_url": thumb,
+            }],
+        }
+        db.upsert_posts([
+            self._post(9, type_label="引用", text="Was good to see them.", quote=replaced, enriched=True)
+        ])
+        again = db.get_posts_page(1, 20)["posts"][0]
+        self.assertEqual(again["quote"]["media"][0]["url"], replacement)
+        self.assertEqual(again["quote"]["media"][0]["hls_url"], hls)
 
     def test_refresh_queue_keeps_quote_until_enrich_returns(self):
         db.upsert_posts(
@@ -755,10 +863,22 @@ class SpaContractTests(unittest.TestCase):
 
     def test_renderer_plays_typed_media_inline(self):
         html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
-        self.assertIn('controls playsinline preload="metadata"', html)
+        self.assertIn('playsinline webkit-playsinline preload="metadata"', html)
+        self.assertIn('referrerpolicy="no-referrer"', html)
+        self.assertIn('class="play-btn"', html)
+        self.assertIn("video.play()", html)
+        self.assertIn("data-hls", html)
+        self.assertIn("isHlsUrl", html)
+        self.assertIn("button.play-btn", html)
+        self.assertNotIn("autoplay", html)
+        self.assertNotIn("<source src=", html)
         self.assertIn("<audio controls preload=\"metadata\"", html)
-        self.assertIn("p.media", html)
+        self.assertIn("q.media", html)
         self.assertIn("isPlayableVideoUrl", html)
+        self.assertIn("'<div class=\"quote\">'", html)
+        self.assertNotIn("'<a class=\"quote\"", html)
+        self.assertNotIn("isVideoThumb(url)\n          ? { type: 'video'", html)
+        self.assertIn("视频封面", html)
 
     def test_visited_account_views_stay_mounted(self):
         html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
