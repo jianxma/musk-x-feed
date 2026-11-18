@@ -733,6 +733,155 @@ class LegacyVideoRepairTests(unittest.TestCase):
         self.assertEqual(legacy.read_bytes(), before)
 
 
+class RepairImportPathTests(unittest.TestCase):
+    """The ops copy of publish_local_db.py sits beside the legacy modules.
+
+    Python puts that directory on sys.path[0], ahead of PYTHONPATH. The
+    production failure was ``build_post() got an unexpected keyword argument
+    'owner'`` from that old feed_core.
+    """
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        self.legacy = self.root / "musk-feed"
+        self.wt = self.root / "wt"
+        self.legacy.mkdir()
+        self.wt.mkdir()
+        (self.legacy / "feed_core.py").write_text(
+            "def enrich_one(tweet_id, handle='elonmusk'):\n"
+            "    return {'id': tweet_id, 'legacy': True}, None\n"
+            "def build_post(raw, tweet, author='', author_name=''):\n"
+            "    raise TypeError(\"build_post() got an unexpected keyword argument 'owner'\")\n",
+            encoding="utf-8",
+        )
+        (self.legacy / "db.py").write_text(
+            "SENTINEL = 'legacy-db'\n",
+            encoding="utf-8",
+        )
+        (self.wt / "feed_core.py").write_text(
+            "def enrich_one(tweet_id, handle='elonmusk'):\n"
+            "    return {'id': tweet_id, 'screen': handle}, None\n"
+            "def build_post(raw, tweet, owner=None):\n"
+            "    handle = (owner or {}).get('handle') or 'elonmusk'\n"
+            "    thumb = 'https://pbs.twimg.com/amplify_video_thumb/2122813666642825216/img/x.jpg'\n"
+            "    media = [{'type': 'video', 'url': 'https://video.twimg.com/amplify_video/from-worktree.mp4', 'thumbnail_url': thumb}]\n"
+            "    return {\n"
+            "        'id': raw.get('platformId'),\n"
+            "        'type_label': '转发',\n"
+            "        'text': 'from-worktree',\n"
+            "        'images': [thumb],\n"
+            "        'media': media,\n"
+            "        'quote': None,\n"
+            "        'retweet': {'author': 'SpaceX', 'text': 'from-worktree', 'images': [thumb], 'media': media},\n"
+            "        'loaded_from': __file__,\n"
+            "        'handle': handle,\n"
+            "    }\n",
+            encoding="utf-8",
+        )
+        (self.wt / "db.py").write_text(
+            "import feed_core\n"
+            "LOADED_FEED = feed_core.__file__\n"
+            "def _preserve_playable_media(old, new):\n"
+            "    return list(new or [])\n"
+            "def _preserve_nested_media(old, new):\n"
+            "    return new\n",
+            encoding="utf-8",
+        )
+        import shutil
+
+        shutil.copy(ROOT / "scripts" / "publish_local_db.py", self.legacy / "publish_local_db.py")
+        self.db = self.root / "pages.db"
+        conn = sqlite3.connect(self.db)
+        conn.executescript(publisher.PAGES_SCHEMA)
+        conn.execute(
+            """INSERT INTO posts (
+                account, id, author, type_label, text, url, images_json, quote_json, enriched
+            ) VALUES (?,?,?,?,?,?,?,?,?)""",
+            (
+                "elonmusk",
+                "2122897540882542782",
+                "elonmusk",
+                "转发",
+                "The Starbase tower chopsticks catching their first Starship.",
+                "https://x.com/elonmusk/status/2122897540882542782",
+                json.dumps(["https://pbs.twimg.com/amplify_video_thumb/2122813666642825216/img/0xnS9d7S-MNoi-Gl.jpg"]),
+                json.dumps({"author": "SpaceX", "text": "", "images": []}),
+                1,
+            ),
+        )
+        conn.commit()
+        conn.close()
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def _run(self, *extra: str, worktree: str | None = "") -> subprocess.CompletedProcess[str]:
+        cmd = [
+            sys.executable,
+            str(self.legacy / "publish_local_db.py"),
+            "repair-videos",
+            "--db",
+            str(self.db),
+            "--id",
+            "2122897540882542782",
+        ]
+        if worktree is not None:
+            cmd.extend(["--worktree", worktree if worktree != "" else str(self.wt)])
+        cmd.extend(extra)
+        env = os.environ.copy()
+        # Production set PYTHONPATH to the good tree. That still loses to sys.path[0].
+        env["PYTHONPATH"] = str(self.wt)
+        env["MUSK_FEED_DB"] = str(self.legacy / "must-not-open.db")
+        return subprocess.run(cmd, env=env, text=True, capture_output=True)
+
+    def test_cli_uses_worktree_modules_not_the_legacy_siblings(self):
+        proc = self._run()
+        self.assertEqual(proc.returncode, 0, proc.stdout + "\n" + proc.stderr)
+        self.assertNotIn("unexpected keyword argument 'owner'", proc.stdout + proc.stderr)
+        self.assertIn(f"VIDEO_REPAIR_MODULES feed_core={self.wt / 'feed_core.py'}", proc.stdout)
+        self.assertIn(f"db={self.wt / 'db.py'}", proc.stdout)
+        self.assertNotIn(str(self.legacy / "feed_core.py"), proc.stdout)
+        conn = sqlite3.connect(self.db)
+        row = conn.execute(
+            "SELECT media_json, retweet_json, quote_json FROM posts WHERE id=?",
+            ("2122897540882542782",),
+        ).fetchone()
+        conn.close()
+        media = json.loads(row[0])
+        retweet = json.loads(row[1])
+        self.assertEqual(media[0]["url"], "https://video.twimg.com/amplify_video/from-worktree.mp4")
+        self.assertEqual(retweet["author"], "SpaceX")
+        self.assertIsNone(row[2])
+        self.assertFalse((self.legacy / "must-not-open.db").exists())
+
+    def test_missing_worktree_fails_without_calling_legacy_build_post(self):
+        proc = self._run(worktree=None)
+        self.assertNotEqual(proc.returncode, 0)
+        combined = proc.stdout + proc.stderr
+        self.assertIn("worktree", combined.lower())
+        self.assertNotIn("unexpected keyword argument 'owner'", combined)
+        conn = sqlite3.connect(self.db)
+        media = conn.execute(
+            "SELECT media_json FROM posts WHERE id=?",
+            ("2122897540882542782",),
+        ).fetchone()[0]
+        conn.close()
+        self.assertFalse(media)
+
+    def test_legacy_directory_as_worktree_is_refused(self):
+        proc = self._run(worktree=str(self.legacy))
+        self.assertEqual(proc.returncode, 1, proc.stdout + "\n" + proc.stderr)
+        self.assertIn("no owner parameter", proc.stderr)
+        conn = sqlite3.connect(self.db)
+        media = conn.execute(
+            "SELECT media_json FROM posts WHERE id=?",
+            ("2122897540882542782",),
+        ).fetchone()[0]
+        conn.close()
+        self.assertFalse(media)
+
+
 class TriggerScriptTests(unittest.TestCase):
     def test_script_does_not_reset_or_scrape_secrets(self):
         text = (ROOT / "scripts" / "trigger_pages_update.sh").read_text(encoding="utf-8")
@@ -755,6 +904,8 @@ class TriggerScriptTests(unittest.TestCase):
         self.assertIn("GIT_ASKPASS", code)
         self.assertIn("publish_local_db.py", code)
         self.assertIn("repair-videos", code)
+        self.assertIn('--worktree "$WT"', text)
+        self.assertNotIn('PYTHONPATH="$WT', code)
         self.assertIn("keeping stored rows and continuing export", code)
         self.assertIn('git -C "$WT" add -- musk_feed.db docs/data', text)
         self.assertNotIn("docs/index.html", code)
@@ -906,6 +1057,118 @@ def _page_posts(data_root: Path) -> dict[tuple[str, str], dict]:
         for post in payload.get("posts") or []:
             found[(account, str(post["id"]))] = post
     return found
+
+
+class LiveWorktreeRepairTests(unittest.TestCase):
+    """Real subprocess, legacy siblings, and FxTwitter. Not a mocked build_post."""
+
+    IDS = (
+        "2122897540882542782",
+        "2122928184119161018",
+        "2122895004045861065",
+    )
+
+    def test_cli_fetches_real_mp4_without_loading_legacy_feed_core(self):
+        import shutil
+
+        tmp = tempfile.TemporaryDirectory()
+        try:
+            root = Path(tmp.name)
+            legacy = root / "musk-feed"
+            legacy.mkdir()
+            (legacy / "feed_core.py").write_text(
+                "def enrich_one(tweet_id, handle='elonmusk'):\n"
+                "    return {'id': tweet_id}, None\n"
+                "def build_post(raw, tweet, author='', author_name=''):\n"
+                "    raise TypeError(\"build_post() got an unexpected keyword argument 'owner'\")\n",
+                encoding="utf-8",
+            )
+            (legacy / "db.py").write_text("SENTINEL = 'legacy'\n", encoding="utf-8")
+            shutil.copy(ROOT / "scripts" / "publish_local_db.py", legacy / "publish_local_db.py")
+            db_path = root / "pages.db"
+            conn = sqlite3.connect(db_path)
+            conn.executescript(publisher.PAGES_SCHEMA)
+            for post_id in self.IDS:
+                conn.execute(
+                    """INSERT INTO posts (
+                        account, id, author, type_label, text, url, images_json, quote_json, enriched,
+                        created_at_utc
+                    ) VALUES (?,?,?,?,?,?,?,?,?,?)""",
+                    (
+                        "elonmusk",
+                        post_id,
+                        "elonmusk",
+                        "转发",
+                        "poster only",
+                        f"https://x.com/elonmusk/status/{post_id}",
+                        json.dumps(["https://pbs.twimg.com/amplify_video_thumb/1/img/x.jpg"]),
+                        json.dumps({"author": "someone", "text": "", "images": []}),
+                        1,
+                        "2026-11-18T06:00:00.000Z",
+                    ),
+                )
+            conn.commit()
+            conn.close()
+            env = os.environ.copy()
+            env["PYTHONPATH"] = str(ROOT)
+            env["MUSK_FEED_DB"] = str(legacy / "monitor.db")
+            cmd = [
+                sys.executable,
+                str(legacy / "publish_local_db.py"),
+                "repair-videos",
+                "--db",
+                str(db_path),
+                "--worktree",
+                str(ROOT),
+            ]
+            for post_id in self.IDS:
+                cmd.extend(["--id", post_id])
+            proc = subprocess.run(
+                cmd,
+                env=env,
+                text=True,
+                capture_output=True,
+            )
+            print(proc.stdout)
+            print(proc.stderr, file=sys.stderr)
+            self.assertEqual(proc.returncode, 0, proc.stdout + proc.stderr)
+            self.assertNotIn("unexpected keyword argument 'owner'", proc.stdout + proc.stderr)
+            self.assertIn(f"feed_core={(ROOT / 'feed_core.py').resolve()}", proc.stdout)
+            self.assertIn(f"db={(ROOT / 'db.py').resolve()}", proc.stdout)
+            conn = sqlite3.connect(db_path)
+            conn.row_factory = sqlite3.Row
+            for post_id in self.IDS:
+                row = conn.execute("SELECT * FROM posts WHERE id=?", (post_id,)).fetchone()
+                media = json.loads(row["media_json"] or "[]")
+                retweet = json.loads(row["retweet_json"]) if row["retweet_json"] else None
+                quote = json.loads(row["quote_json"]) if row["quote_json"] else None
+                urls = [item.get("url") for item in media if isinstance(item, dict)]
+                if isinstance(retweet, dict):
+                    urls += [item.get("url") for item in (retweet.get("media") or []) if isinstance(item, dict)]
+                if isinstance(quote, dict):
+                    urls += [item.get("url") for item in (quote.get("media") or []) if isinstance(item, dict)]
+                playable = [url for url in urls if isinstance(url, str) and ".mp4" in url.split("?", 1)[0]]
+                self.assertTrue(playable, f"{post_id} urls={urls}")
+                where = "post" if any(
+                    isinstance(item, dict) and item.get("url") in playable for item in media
+                ) else "nested"
+                print(
+                    f"LIVE {post_id} where={where} "
+                    f"retweet={(retweet or {}).get('author') if isinstance(retweet, dict) else None} "
+                    f"quote={(quote or {}).get('author') if isinstance(quote, dict) else None} "
+                    f"mp4={playable[0]}"
+                )
+            spacex = conn.execute(
+                "SELECT retweet_json, media_json FROM posts WHERE id=?",
+                ("2122897540882542782",),
+            ).fetchone()
+            retweet = json.loads(spacex["retweet_json"])
+            self.assertEqual(retweet["author"], "SpaceX")
+            self.assertIn(".mp4", retweet["media"][0]["url"])
+            conn.close()
+            self.assertFalse((legacy / "monitor.db").exists())
+        finally:
+            tmp.cleanup()
 
 
 if __name__ == "__main__":

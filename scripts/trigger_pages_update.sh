@@ -8,9 +8,11 @@
 #
 # It does not replace /workspace/musk-feed/db.py or sync.py. The monitor keeps
 # its 13-column table. After the union, repair-videos re-reads only Pages rows
-# whose images are video posters and which have no mp4/HLS url. That fetch uses
-# feed_core from the publish worktree. A failed fetch keeps the stored row and
-# does not stop the export. git add is still only musk_feed.db and docs/data.
+# whose images are video posters and which have no mp4/HLS url. repair-videos
+# is passed --worktree, because python puts the script directory ahead of
+# PYTHONPATH and would otherwise import the legacy feed_core next to the ops
+# copy. A failed fetch keeps the stored row and does not stop the export.
+# git add is still only musk_feed.db and docs/data.
 #
 # Install (do this before deleting the dirty checkout):
 #   cp scripts/trigger_pages_update.sh scripts/publish_local_db.py /workspace/musk-feed/
@@ -221,8 +223,9 @@ publish_once() {
   # export. Network errors are reported and do not abort the publish.
   local repair_limit="${MUSK_VIDEO_REPAIR_LIMIT:-40}"
   set +e
-  PYTHONPATH="$WT${PYTHONPATH:+:$PYTHONPATH}" python3 "$PUBLISH_PY" repair-videos \
+  python3 "$PUBLISH_PY" repair-videos \
     --db "$WT/musk_feed.db" \
+    --worktree "$WT" \
     --limit "$repair_limit"
   local repair_status=$?
   set -e
