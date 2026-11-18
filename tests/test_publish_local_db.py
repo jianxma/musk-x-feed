@@ -396,6 +396,343 @@ class MergeTests(unittest.TestCase):
         return path
 
 
+THUMB_A = "https://pbs.twimg.com/amplify_video_thumb/2122813666642825216/img/0xnS9d7S-MNoi-Gl.jpg"
+MP4_A = "https://video.twimg.com/amplify_video/2122813666642825216/vid/avc1/3840x2160/R_ovrsC9lTeNHskU.mp4?tag=29"
+HLS_A = "https://video.twimg.com/amplify_video/2122813666642825216/pl/master.m3u8?tag=29"
+THUMB_B = "https://pbs.twimg.com/amplify_video_thumb/2122887107714887682/img/dJJ__gMrB_YyO6MJ.jpg"
+MP4_B = "https://video.twimg.com/amplify_video/2122887107714887682/vid/avc1/1280x720/supercut.mp4?tag=29"
+HLS_B = "https://video.twimg.com/amplify_video/2122887107714887682/pl/supercut.m3u8?tag=29"
+
+
+def _video_media(thumb: str, playlist: str, low: str, high: str) -> dict:
+    """FxTwitter-shaped video, not an already-normalized Pages record."""
+    return {
+        "type": "video",
+        "thumbnail_url": thumb,
+        "url": playlist,
+        "variants": [
+            {"url": playlist, "bitrate": 0, "content_type": "application/x-mpegURL"},
+            {"url": low, "bitrate": 832000, "content_type": "video/mp4"},
+            {"url": high, "bitrate": 25128000, "content_type": "video/mp4"},
+        ],
+    }
+
+
+REPOST_TWEET = {
+    "id": "2122814338893332591",
+    "text": "The Starbase tower chopsticks catching their first Starship.",
+    "url": "https://x.com/SpaceX/status/2122814338893332591",
+    "author": {"name": "SpaceX", "screen_name": "SpaceX", "avatar_url": "https://pbs.twimg.com/profile_images/sx.jpg"},
+    "reposted_by": {"name": "Elon Musk", "screen_name": "elonmusk", "avatar_url": ""},
+    "likes": 10,
+    "views": 20,
+    "media": {
+        "videos": [
+            _video_media(
+                THUMB_A,
+                HLS_A,
+                "https://video.twimg.com/amplify_video/2122813666642825216/vid/avc1/1280x720/low.mp4?tag=29",
+                MP4_A,
+            )
+        ]
+    },
+}
+
+QUOTE_TWEET = {
+    "id": "2122928184119161018",
+    "text": "Worth watching.",
+    "url": "https://x.com/elonmusk/status/2122928184119161018",
+    "author": {"name": "Elon Musk", "screen_name": "elonmusk"},
+    "likes": 3,
+    "views": 4,
+    "quote": {
+        "id": "2122887107714887682",
+        "text": "SpaceX Investors MUST Watch This",
+        "url": "https://x.com/stevenmarkryan/status/2122887107714887682",
+        "author": {"name": "Steven", "screen_name": "stevenmarkryan"},
+        "media": {"videos": [_video_media(THUMB_B, HLS_B, "https://video.twimg.com/amplify_video/2122887107714887682/vid/avc1/480x270/low.mp4?tag=29", MP4_B)]},
+    },
+}
+
+
+def _built(post_id: str, tweet: dict, url: str = "") -> dict:
+    from feed_core import build_post
+
+    return build_post(
+        {"platformId": post_id, "content": "", "createdAt": "", "url": url},
+        tweet,
+        owner={"handle": "elonmusk"},
+    )
+
+
+class LegacyVideoRepairTests(unittest.TestCase):
+    """A 13-column monitor row must not freeze a video poster into Pages."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def _legacy(self) -> Path:
+        path = self.root / "monitor.db"
+        conn = sqlite3.connect(path)
+        conn.execute(
+            """CREATE TABLE posts (
+                id TEXT PRIMARY KEY,
+                author TEXT,
+                author_name TEXT,
+                created_at_utc TEXT,
+                created_at_shanghai TEXT,
+                type_label TEXT,
+                text TEXT,
+                quote_json TEXT,
+                engagement_json TEXT,
+                url TEXT,
+                images_json TEXT,
+                enriched INTEGER DEFAULT 0,
+                updated_at TEXT
+            )"""
+        )
+        rows = [
+            (
+                "2122897540882542782",
+                "elonmusk",
+                "Elon Musk",
+                "2026-11-18T06:40:00.000Z",
+                "2026-11-18 14:40:00",
+                "转发",
+                "The Starbase tower chopsticks catching their first Starship.",
+                json.dumps({"author": "SpaceX", "name": "SpaceX", "text": "", "images": [], "media": None}),
+                json.dumps({"likes": 10}),
+                "https://x.com/elonmusk/status/2122897540882542782",
+                json.dumps([THUMB_A]),
+                1,
+                "2026-11-18 14:40:00",
+            ),
+            (
+                "2122928184119161018",
+                "elonmusk",
+                "Elon Musk",
+                "2026-11-18T07:10:00.000Z",
+                "2026-11-18 15:10:00",
+                "引用",
+                "Worth watching.",
+                json.dumps(
+                    {
+                        "author": "stevenmarkryan",
+                        "name": "Steven",
+                        "id": "2122887107714887682",
+                        "text": "SpaceX Investors MUST Watch This",
+                        "images": [THUMB_B],
+                        "media": None,
+                    }
+                ),
+                json.dumps({"likes": 3}),
+                "https://x.com/elonmusk/status/2122928184119161018",
+                json.dumps([]),
+                1,
+                "2026-11-18 15:10:00",
+            ),
+            (
+                "photo-only",
+                "elonmusk",
+                "Elon Musk",
+                "2026-11-18T05:00:00.000Z",
+                "2026-11-18 13:00:00",
+                "原文",
+                "A still.",
+                None,
+                json.dumps({"likes": 1}),
+                "https://x.com/elonmusk/status/photo-only",
+                json.dumps(["https://pbs.twimg.com/media/still.jpg?name=small"]),
+                1,
+                "2026-11-18 13:00:00",
+            ),
+            (
+                "already-playable",
+                "elonmusk",
+                "Elon Musk",
+                "2026-11-18T04:00:00.000Z",
+                "2026-11-18 12:00:00",
+                "转发",
+                "Kept.",
+                None,
+                json.dumps({"likes": 2}),
+                "https://x.com/elonmusk/status/already-playable",
+                json.dumps([THUMB_A]),
+                1,
+                "2026-11-18 12:00:00",
+            ),
+        ]
+        conn.executemany(
+            """INSERT INTO posts (
+                id, author, author_name, created_at_utc, created_at_shanghai, type_label,
+                text, quote_json, engagement_json, url, images_json, enriched, updated_at
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            rows,
+        )
+        conn.commit()
+        conn.close()
+        return path
+
+    def _pages_with_playable(self) -> Path:
+        path = self.root / "pages.db"
+        conn = sqlite3.connect(path)
+        conn.executescript(publisher.PAGES_SCHEMA)
+        conn.execute(
+            """INSERT INTO posts (
+                account, id, author, type_label, text, url, images_json, media_json, enriched
+            ) VALUES (?,?,?,?,?,?,?,?,?)""",
+            (
+                "elonmusk",
+                "already-playable",
+                "elonmusk",
+                "转发",
+                "Kept.",
+                "https://x.com/elonmusk/status/already-playable",
+                json.dumps([THUMB_A]),
+                json.dumps([{"type": "video", "url": "https://video.twimg.com/amplify_video/kept.mp4", "thumbnail_url": THUMB_A}]),
+                1,
+            ),
+        )
+        conn.commit()
+        conn.close()
+        return path
+
+    def test_legacy_insert_stays_thin_until_offline_repair(self):
+        legacy = self._legacy()
+        before = legacy.read_bytes()
+        pages = self._pages_with_playable()
+        dest = self.root / "out.db"
+        publisher.merge_databases(pages, dest, [legacy], [], {"elonmusk"})
+        self.assertEqual(legacy.read_bytes(), before)
+        conn = sqlite3.connect(dest)
+        thin = conn.execute(
+            "SELECT media_json, retweet_json, quote_json FROM posts WHERE id=?",
+            ("2122897540882542782",),
+        ).fetchone()
+        conn.close()
+        self.assertFalse(thin[0])
+        self.assertFalse(thin[1])
+
+        calls: list[str] = []
+
+        def fetch(account: str, post_id: str, url: str) -> dict:
+            calls.append(post_id)
+            if post_id == "2122897540882542782":
+                return _built(post_id, REPOST_TWEET, url)
+            if post_id == "2122928184119161018":
+                return _built(post_id, QUOTE_TWEET, url)
+            raise AssertionError(post_id)
+
+        stats = publisher.repair_thin_videos(dest, fetch=fetch, limit=40, accounts={"elonmusk"})
+        self.assertEqual(stats["repaired"], 2)
+        self.assertEqual(stats["failed"], 0)
+        self.assertEqual(set(calls), {"2122897540882542782", "2122928184119161018"})
+        self.assertEqual(legacy.read_bytes(), before)
+
+        conn = sqlite3.connect(dest)
+        conn.row_factory = sqlite3.Row
+        repost = dict(conn.execute("SELECT * FROM posts WHERE id=?", ("2122897540882542782",)).fetchone())
+        quoted = dict(conn.execute("SELECT * FROM posts WHERE id=?", ("2122928184119161018",)).fetchone())
+        kept = json.loads(conn.execute("SELECT media_json FROM posts WHERE id=?", ("already-playable",)).fetchone()[0])
+        photo = json.loads(conn.execute("SELECT images_json FROM posts WHERE id=?", ("photo-only",)).fetchone()[0])
+        conn.close()
+
+        media = json.loads(repost["media_json"])
+        self.assertEqual(media[0]["url"], MP4_A)
+        self.assertEqual(media[0]["hls_url"], HLS_A)
+        self.assertNotIn("m3u8", media[0]["url"])
+        retweet = json.loads(repost["retweet_json"])
+        self.assertEqual(retweet["author"], "SpaceX")
+        self.assertEqual(retweet["media"][0]["url"], MP4_A)
+        self.assertIsNone(repost["quote_json"])
+        self.assertEqual(repost["text"], "The Starbase tower chopsticks catching their first Starship.")
+
+        quote = json.loads(quoted["quote_json"])
+        self.assertEqual(quote["media"][0]["url"], MP4_B)
+        self.assertEqual(quote["author"], "stevenmarkryan")
+        self.assertEqual(json.loads(quoted["media_json"]), [])
+        self.assertEqual(kept[0]["url"], "https://video.twimg.com/amplify_video/kept.mp4")
+        self.assertEqual(photo, ["https://pbs.twimg.com/media/still.jpg?name=small"])
+
+        def downgrade(*_args):
+            raise AssertionError("playable row must not be fetched again")
+
+        again = publisher.repair_thin_videos(dest, fetch=downgrade, limit=40, accounts={"elonmusk"})
+        self.assertEqual(again["candidates"], 0)
+        self.assertEqual(again["repaired"], 0)
+
+    def test_unreachable_source_keeps_the_poster_and_continues(self):
+        legacy = self._legacy()
+        dest = self.root / "out.db"
+        publisher.merge_databases(self._pages_with_playable(), dest, [legacy], [], {"elonmusk"})
+
+        def fetch(account: str, post_id: str, url: str) -> dict:
+            if post_id == "2122897540882542782":
+                raise OSError("upstream timed out")
+            if post_id == "2122928184119161018":
+                return {
+                    "type_label": "引用",
+                    "images": [THUMB_B],
+                    "media": [],
+                    "quote": {
+                        "author": "stevenmarkryan",
+                        "text": "SpaceX Investors MUST Watch This",
+                        "images": [THUMB_B],
+                        "media": [{"type": "video", "url": "", "thumbnail_url": THUMB_B}],
+                    },
+                    "retweet": None,
+                }
+            raise AssertionError(post_id)
+
+        stats = publisher.repair_thin_videos(
+            dest,
+            fetch=fetch,
+            limit=1,
+            accounts={"elonmusk"},
+        )
+        # Newest thin row is the quote. Limit 1 must not fetch the older repost,
+        # and a payload with only a poster must not be stored as a video.
+        self.assertEqual(stats["candidates"], 1)
+        self.assertEqual(stats["repaired"], 0)
+        self.assertEqual(stats["no_video"], 1)
+        self.assertEqual(stats["failed"], 0)
+        conn = sqlite3.connect(dest)
+        media = conn.execute(
+            "SELECT media_json FROM posts WHERE id=?",
+            ("2122928184119161018",),
+        ).fetchone()[0]
+        conn.close()
+        self.assertFalse(media)
+
+        failed = publisher.repair_thin_videos(
+            dest,
+            fetch=fetch,
+            ids=["2122897540882542782"],
+            accounts={"elonmusk"},
+        )
+        self.assertEqual(failed["failed"], 1)
+        self.assertEqual(failed["repaired"], 0)
+        conn = sqlite3.connect(dest)
+        still = conn.execute(
+            "SELECT images_json, media_json FROM posts WHERE id=?",
+            ("2122897540882542782",),
+        ).fetchone()
+        conn.close()
+        self.assertIn("amplify_video_thumb", still[0])
+        self.assertFalse(still[1])
+
+    def test_monitor_schema_is_not_rewritten(self):
+        legacy = self._legacy()
+        before = legacy.read_bytes()
+        with self.assertRaises(RuntimeError):
+            publisher.repair_thin_videos(legacy, fetch=lambda *_a: {}, limit=5)
+        self.assertEqual(legacy.read_bytes(), before)
+
+
 class TriggerScriptTests(unittest.TestCase):
     def test_script_does_not_reset_or_scrape_secrets(self):
         text = (ROOT / "scripts" / "trigger_pages_update.sh").read_text(encoding="utf-8")
@@ -417,6 +754,10 @@ class TriggerScriptTests(unittest.TestCase):
         self.assertNotRegex(code, re.compile(r"git config[^\n]*extraheader[^\n]*AUTHORIZATION"))
         self.assertIn("GIT_ASKPASS", code)
         self.assertIn("publish_local_db.py", code)
+        self.assertIn("repair-videos", code)
+        self.assertIn("keeping stored rows and continuing export", code)
+        self.assertIn('git -C "$WT" add -- musk_feed.db docs/data', text)
+        self.assertNotIn("docs/index.html", code)
         self.assertNotRegex(code, re.compile(r"^\s*python3\s+sync\.py\s+--export", re.M))
 
     def test_trigger_publishes_union_without_touching_dirty_checkout(self):

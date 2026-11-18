@@ -6,9 +6,11 @@
 # `sync.py --export`. A dirty docs/data tree aborted the checkout, and a
 # Rocket Lab HTTP 404 made `set -e` skip the commit. This script does neither.
 #
-# It does not fetch @rocketlab or @elonmusk. The monitor's sync.py already
-# wrote the canonical rows. This process only unions those rows with origin
-# and exports paginated JSON.
+# It does not replace /workspace/musk-feed/db.py or sync.py. The monitor keeps
+# its 13-column table. After the union, repair-videos re-reads only Pages rows
+# whose images are video posters and which have no mp4/HLS url. That fetch uses
+# feed_core from the publish worktree. A failed fetch keeps the stored row and
+# does not stop the export. git add is still only musk_feed.db and docs/data.
 #
 # Install (do this before deleting the dirty checkout):
 #   cp scripts/trigger_pages_update.sh scripts/publish_local_db.py /workspace/musk-feed/
@@ -21,6 +23,7 @@
 #   MUSK_FEED_DIR=/workspace/musk-feed
 #   MUSK_X_FEED_WORKDIR=/workspace/musk-x-feed
 #   MUSK_X_FEED_PUBLISH_DIR=/workspace/musk-x-feed-publish
+#   MUSK_VIDEO_REPAIR_LIMIT=40     # newest poster-only rows re-fetched per publish
 #
 # Recovery after a successful push shows the new post on the site:
 #   mv /workspace/musk-x-feed /workspace/musk-x-feed.dirty-YYYYMMDD
@@ -213,6 +216,19 @@ publish_once() {
     check_args+=(--account "$account")
   done
   python3 "${check_args[@]}"
+
+  # Legacy rows are inserted without media_json. Fill playable files before
+  # export. Network errors are reported and do not abort the publish.
+  local repair_limit="${MUSK_VIDEO_REPAIR_LIMIT:-40}"
+  set +e
+  PYTHONPATH="$WT${PYTHONPATH:+:$PYTHONPATH}" python3 "$PUBLISH_PY" repair-videos \
+    --db "$WT/musk_feed.db" \
+    --limit "$repair_limit"
+  local repair_status=$?
+  set -e
+  if [[ "$repair_status" -ne 0 ]]; then
+    echo "WARN: video repair exited ${repair_status}; keeping stored rows and continuing export" >&2
+  fi
 
   : >"$LOG"
   set +e

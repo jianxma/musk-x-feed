@@ -15,7 +15,15 @@ whole; a thinner monitor copy of the same post does not replace it. Neither
 source file is opened for writes.
 
 This file is stdlib only so the untracked runner can install it next to
-``trigger_pages_update.sh`` before this branch is merged.
+``trigger_pages_update.sh``. ``repair-videos`` is the exception: it imports
+``feed_core`` from the publish worktree only when a row still needs a file,
+and it never opens the monitor database for writes.
+
+A legacy monitor row has video posters in ``images_json`` and no ``media_json``.
+Inserting that row used to freeze the poster, because a later merge will not
+replace an existing id. ``repair-videos`` re-fetches only those rows and fills
+a real mp4/HLS url. A row that already has one is left alone. A failed fetch
+leaves the stored row in place.
 """
 
 from __future__ import annotations
@@ -25,10 +33,18 @@ import json
 import re
 import shutil
 import sqlite3
+import sys
 from pathlib import Path
+from typing import Any, Callable
 
 HANDLE_RE = re.compile(r"^[a-z0-9_]{1,15}$")
 COLUMN_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
+_VIDEO_THUMB = re.compile(
+    r"amplify_video_thumb|ext_tw_video_thumb|tweet_video_thumb",
+    re.IGNORECASE,
+)
+_PLAYABLE_EXT = (".mp4", ".m4v", ".webm", ".m3u8")
+DEFAULT_REPAIR_LIMIT = 40
 DEFAULT_ACCOUNTS = ("elonmusk", "rocketlab")
 # Same columns as db.py. Monitor rows leave the ones they do not store null.
 PAGES_COLUMNS = (
@@ -532,6 +548,257 @@ def merge_databases(
     return {"total": total, "inserted_db": from_db, "inserted_json": from_json}
 
 
+def _json_or(value: object, default: Any) -> Any:
+    if value is None or value == "":
+        return default
+    if isinstance(value, (dict, list)):
+        return value
+    try:
+        parsed = json.loads(str(value))
+    except (TypeError, json.JSONDecodeError):
+        return default
+    return default if parsed is None else parsed
+
+
+def _dump_json(value: Any) -> str | None:
+    if value is None:
+        return None
+    return json.dumps(value, ensure_ascii=False, sort_keys=True)
+
+
+def _playable_url(url: str) -> bool:
+    path = str(url or "").split("?", 1)[0].lower()
+    return path.endswith(_PLAYABLE_EXT)
+
+
+def _media_playable(media: object) -> bool:
+    if not isinstance(media, list):
+        return False
+    for item in media:
+        if not isinstance(item, dict):
+            continue
+        if _playable_url(str(item.get("url") or "")) or _playable_url(str(item.get("hls_url") or "")):
+            return True
+    return False
+
+
+def _is_video_thumb(url: object) -> bool:
+    return isinstance(url, str) and bool(_VIDEO_THUMB.search(url))
+
+
+def _block_needs_repair(images: object, media: object) -> bool:
+    """True when a poster is stored and no mp4/HLS url is."""
+    if _media_playable(media):
+        return False
+    if isinstance(images, list) and any(_is_video_thumb(url) for url in images):
+        return True
+    if not isinstance(media, list):
+        return False
+    for item in media:
+        if not isinstance(item, dict):
+            continue
+        if item.get("type") in ("video", "gif"):
+            return True
+        if _is_video_thumb(item.get("url")) or _is_video_thumb(item.get("thumbnail_url")):
+            return True
+    return False
+
+
+def _row_needs_repair(post: dict) -> bool:
+    if _block_needs_repair(post.get("images") or [], post.get("media") or []):
+        return True
+    for key in ("quote", "retweet"):
+        block = post.get(key)
+        if isinstance(block, dict) and _block_needs_repair(block.get("images") or [], block.get("media") or []):
+            return True
+    return False
+
+
+def _row_has_playable(post: dict) -> bool:
+    if _media_playable(post.get("media")):
+        return True
+    for key in ("quote", "retweet"):
+        block = post.get(key)
+        if isinstance(block, dict) and _media_playable(block.get("media")):
+            return True
+    return False
+
+
+def _is_stub_block(block: object) -> bool:
+    """Author-only quote left by the legacy table. It has no status id or text."""
+    if not isinstance(block, dict):
+        return False
+    if _media_playable(block.get("media")):
+        return False
+    if str(block.get("text") or "").strip():
+        return False
+    if block.get("images"):
+        return False
+    if str(block.get("id") or "").strip():
+        return False
+    return True
+
+
+def repair_plan(existing: dict, enriched: dict) -> dict | None:
+    """Fields to store when ``enriched`` actually contains a playable file.
+
+    Returns None when there is nothing safe to add. An existing mp4/HLS url is
+    never replaced by a poster.
+    """
+    if not _row_needs_repair(existing) or not _row_has_playable(enriched):
+        return None
+    from db import _preserve_nested_media, _preserve_playable_media
+
+    media = _preserve_playable_media(existing.get("media"), enriched.get("media"))
+    incoming_quote = enriched.get("quote")
+    if incoming_quote is None and _is_stub_block(existing.get("quote")):
+        quote = None
+    elif isinstance(incoming_quote, dict):
+        quote = _preserve_nested_media(existing.get("quote"), incoming_quote)
+    else:
+        quote = existing.get("quote")
+    incoming_retweet = enriched.get("retweet")
+    if isinstance(incoming_retweet, dict):
+        retweet = _preserve_nested_media(existing.get("retweet"), incoming_retweet)
+    else:
+        retweet = existing.get("retweet")
+    images = enriched.get("images") or existing.get("images") or []
+    return {
+        "type_label": enriched.get("type_label") or existing.get("type_label") or "",
+        "images": images,
+        "media": media or [],
+        "quote": quote,
+        "retweet": retweet,
+    }
+
+
+def _post_from_sql(row: sqlite3.Row) -> dict:
+    return {
+        "account": str(row["account"] or ""),
+        "id": str(row["id"] or ""),
+        "type_label": row["type_label"] or "",
+        "url": row["url"] or "",
+        "created_at_utc": row["created_at_utc"] or "",
+        "images": _json_or(row["images_json"], []),
+        "media": _json_or(row["media_json"], []),
+        "quote": _json_or(row["quote_json"], None),
+        "retweet": _json_or(row["retweet_json"], None),
+    }
+
+
+def default_video_fetch(account: str, post_id: str, existing_url: str) -> dict:
+    """Read one status from FxTwitter. Raises when the status cannot be read."""
+    from feed_core import build_post, enrich_one
+
+    tweet, err = enrich_one(post_id, account)
+    if not isinstance(tweet, dict):
+        raise RuntimeError(err or "missing tweet")
+    return build_post(
+        {
+            "platformId": post_id,
+            "content": "",
+            "createdAt": "",
+            "url": existing_url or "",
+        },
+        tweet,
+        owner={"handle": account},
+    )
+
+
+def repair_thin_videos(
+    db_path: Path,
+    *,
+    fetch: Callable[[str, str, str], dict],
+    limit: int = DEFAULT_REPAIR_LIMIT,
+    ids: list[str] | None = None,
+    accounts: set[str] | None = None,
+) -> dict[str, int]:
+    """Fill playable media on Pages rows that only have a video poster.
+
+    ``fetch(account, id, url)`` returns a ``build_post`` dict or raises.
+    The database at ``db_path`` must already be the Pages schema. This never
+    opens the legacy monitor file.
+    """
+    wanted = {str(item) for item in ids or [] if str(item).strip()}
+    conn = sqlite3.connect(str(db_path))
+    conn.row_factory = sqlite3.Row
+    try:
+        cols = {str(row[1]) for row in conn.execute("PRAGMA table_info(posts)")}
+        required = {"account", "id", "images_json", "media_json", "quote_json", "retweet_json", "type_label"}
+        if not required <= cols:
+            raise RuntimeError(
+                "repair-videos needs the Pages posts table; refusing to alter a legacy monitor database"
+            )
+        selected: list[dict] = []
+        for row in conn.execute(
+            """SELECT account, id, type_label, url, created_at_utc,
+                      images_json, media_json, quote_json, retweet_json
+               FROM posts"""
+        ):
+            post = _post_from_sql(row)
+            if accounts and post["account"] not in accounts:
+                continue
+            if wanted and post["id"] not in wanted:
+                continue
+            if not _row_needs_repair(post):
+                continue
+            selected.append(post)
+        selected.sort(key=lambda item: (item.get("created_at_utc") or "", item["id"]), reverse=True)
+        if not wanted:
+            selected = selected[: max(0, limit)]
+        repaired = 0
+        failed = 0
+        no_video = 0
+        for post in selected:
+            label = f"{post['account']}:{post['id']}"
+            try:
+                enriched = fetch(post["account"], post["id"], post.get("url") or "")
+            except Exception as exc:
+                failed += 1
+                print(f"VIDEO_ENRICH_INCOMPLETE {label} {exc}", flush=True)
+                continue
+            if not isinstance(enriched, dict):
+                failed += 1
+                print(f"VIDEO_ENRICH_INCOMPLETE {label} empty", flush=True)
+                continue
+            plan = repair_plan(post, enriched)
+            if plan is None:
+                no_video += 1
+                print(f"VIDEO_REPAIR_UNAVAILABLE {label}", flush=True)
+                continue
+            conn.execute(
+                """UPDATE posts SET type_label=?, images_json=?, media_json=?,
+                                    quote_json=?, retweet_json=?
+                   WHERE account=? AND id=?""",
+                (
+                    plan["type_label"],
+                    _dump_json(plan["images"]),
+                    _dump_json(plan["media"]),
+                    _dump_json(plan["quote"]),
+                    _dump_json(plan["retweet"]),
+                    post["account"],
+                    post["id"],
+                ),
+            )
+            repaired += 1
+            print(f"VIDEO_REPAIR {label}", flush=True)
+        conn.commit()
+        stats = {
+            "candidates": len(selected),
+            "repaired": repaired,
+            "failed": failed,
+            "no_video": no_video,
+        }
+        print(
+            f"VIDEO_REPAIR repaired={repaired} failed={failed} "
+            f"no_video={no_video} candidates={len(selected)}",
+            flush=True,
+        )
+        return stats
+    finally:
+        conn.close()
+
+
 def _account_set(values: list[str]) -> set[str]:
     accounts = {item.strip().lstrip("@").lower() for item in values if item.strip()}
     return accounts or set(DEFAULT_ACCOUNTS)
@@ -559,8 +826,35 @@ def main(argv: list[str] | None = None) -> int:
     exported.add_argument("--data-root", required=True)
     exported.add_argument("--account", action="append", default=[])
 
+    repair = sub.add_parser("repair-videos")
+    repair.add_argument("--db", required=True)
+    repair.add_argument("--limit", type=int, default=DEFAULT_REPAIR_LIMIT)
+    repair.add_argument("--id", action="append", default=[])
+    repair.add_argument("--account", action="append", default=[])
+
     args = parser.parse_args(argv)
     accounts = _account_set(getattr(args, "account", []) or [])
+    if args.cmd == "repair-videos":
+        # An empty --account list means every account in the database.
+        # _account_set would otherwise fill the historical default pair and
+        # skip a third watched account such as evavlaar.
+        repair_accounts = {
+            item.strip().lstrip("@").lower()
+            for item in (args.account or [])
+            if item.strip()
+        }
+        try:
+            repair_thin_videos(
+                Path(args.db),
+                fetch=default_video_fetch,
+                limit=max(0, args.limit),
+                ids=list(args.id or []),
+                accounts=repair_accounts or None,
+            )
+        except RuntimeError as exc:
+            print(f"ABORT: {exc}", file=sys.stderr)
+            return 1
+        return 0
     if args.cmd == "merge":
         merge_databases(
             Path(args.base),
