@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2104572192247984493",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T14:01:26.000Z",
+      "created_at_shanghai": "2026-09-28 22:01:26",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "First orbital flight of Starship successful!",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 21:15:48",
+        "created_at_utc": "2026-09-28T13:15:48.000Z",
+        "id": "2104560708969259344",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104560614626766848/img/WR9uvl1CQ0MlhUhG.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104560614626766848/vid/avc1/3840x2160/WMLBYlBCU0AQ5vn3.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104560614626766848/img/WR9uvl1CQ0MlhUhG.jpg",
+            "width": 3840,
+            "height": 2160,
+            "duration": 55.33
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Starship performs its orbital insertion burn and enters orbit of Earth for the first time",
+        "url": "https://x.com/SpaceX/status/2104560708969259344",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 140,
+        "likes": 6848,
+        "quotes": 107,
+        "replies": 769,
+        "retweets": 831,
+        "views": 570734
+      },
+      "url": "https://x.com/elonmusk/status/2104572192247984493",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2104545383640629321",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5907,64 +5959,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2103322398862778827",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-25T03:15:12.000Z",
-      "created_at_shanghai": "2026-09-25 11:15:12",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Congratulations to the @Tesla_Semi team on engineering and, even harder, bringing to production an amazing machine!",
-      "quote": {
-        "author": "tesla_semi",
-        "avatar": "https://pbs.twimg.com/profile_images/2021306606449983491/eLU01mFt_200x200.jpg",
-        "created_at_shanghai": "2026-09-25 09:04:19",
-        "created_at_utc": "2026-09-25T01:04:19.000Z",
-        "id": "2103289460767203424",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103288633558249472/img/N_gt7Irdqsm_Bshi.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103288633558249472/vid/avc1/3840x2160/N8gz1XInzV59-uCG.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103288633558249472/img/N_gt7Irdqsm_Bshi.jpg",
-            "width": 3840,
-            "height": 2160,
-            "duration": 98.958
-          }
-        ],
-        "name": "Tesla Semi",
-        "text": "Semi is here\n\nToday, we're launching high volume production",
-        "url": "https://x.com/tesla_semi/status/2103289460767203424",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 17,
-        "likes": 522,
-        "quotes": 7,
-        "replies": 104,
-        "retweets": 78,
-        "views": 261266
-      },
-      "url": "https://x.com/elonmusk/status/2103322398862778827",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 24,
   "page_size": 100,
-  "total": 2551,
+  "total": 2552,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 15:11:35",
+  "updated_at_shanghai": "2026-11-18 17:22:15",
   "account": "elonmusk"
 }

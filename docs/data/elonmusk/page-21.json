@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2107876928162275329",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:53:16.000Z",
+      "created_at_shanghai": "2026-10-08 00:53:16",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2450,
+        "likes": 14187,
+        "quotes": 209,
+        "replies": 831,
+        "retweets": 2440,
+        "views": 1568514
+      },
+      "url": "https://x.com/elonmusk/status/2107876928162275329",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2107869040718823424/img/JaL1AzI6T6WS6Tp8.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2107869040718823424/vid/avc1/1920x1080/jTrLKdnHVxhqE30x.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107869040718823424/img/JaL1AzI6T6WS6Tp8.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 1608.173
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2107876662138532294",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5602,71 +5641,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2106764483762717173",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-04T15:12:49.000Z",
-      "created_at_shanghai": "2026-10-04 23:12:49",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "MAJOR update for Grok Imagine by @SpaceXAI 🔥\n\nGrok Imagine now supports keyframes for video generation! You can choose images for the beginning, end, and specific moments in between, then let Grok generate the motion connecting them. Much more control over how your video unfolds.\n\nFirst Frame and Last Frame were already available, but intermediate keyframes are new. The feature has appeared in the interface without an official announcement yet. You heard it here first! 👀",
-      "quote": null,
-      "retweet": {
-        "author": "mark_k",
-        "avatar": "https://pbs.twimg.com/profile_images/1923114794804039680/HMfSchLD_200x200.jpg",
-        "created_at_shanghai": "2026-10-04 03:51:55",
-        "created_at_utc": "2026-10-03T19:51:55.000Z",
-        "id": "2106472336048423128",
-        "images": [
-          "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small",
-            "width": 1317,
-            "height": 587
-          }
-        ],
-        "name": "Mark Kretschmann",
-        "text": "MAJOR update for Grok Imagine by @SpaceXAI 🔥\n\nGrok Imagine now supports keyframes for video generation! You can choose images for the beginning, end, and specific moments in between, then let Grok generate the motion connecting them. Much more control over how your video unfolds.\n\nFirst Frame and Last Frame were already available, but intermediate keyframes are new. The feature has appeared in the interface without an official announcement yet. You heard it here first! 👀",
-        "url": "https://x.com/mark_k/status/2106472336048423128",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 84,
-        "likes": 879,
-        "quotes": 11,
-        "replies": 81,
-        "retweets": 92,
-        "views": 94296
-      },
-      "url": "https://x.com/elonmusk/status/2106764483762717173",
-      "images": [
-        "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTuv66eWAAAFy9t.jpg?name=small",
-          "width": 1317,
-          "height": 587
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 100,
-  "total": 2551,
+  "total": 2552,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 15:11:35",
+  "updated_at_shanghai": "2026-11-18 17:22:15",
   "account": "elonmusk"
 }
