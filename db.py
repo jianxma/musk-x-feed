@@ -286,11 +286,115 @@ def _material(row: dict[str, Any]) -> str:
     return json.dumps(slim, ensure_ascii=False, sort_keys=True)
 
 
+def _is_hls_url(url: str) -> bool:
+    path = str(url or "").split("?", 1)[0].lower()
+    return path.endswith(".m3u8")
+
+
+def _is_file_video(url: str) -> bool:
+    path = str(url or "").split("?", 1)[0].lower()
+    return path.endswith((".mp4", ".m4v", ".webm"))
+
+
+def _clean_media(value: Any) -> list:
+    if not isinstance(value, list):
+        return []
+    out: list[dict] = []
+    for item in value:
+        if not isinstance(item, dict):
+            continue
+        mtype = item.get("type")
+        if mtype not in {"photo", "video", "gif", "audio"}:
+            continue
+        url = str(item.get("url") or "")
+        hls = str(item.get("hls_url") or "")
+        if _is_hls_url(url):
+            if not _is_hls_url(hls):
+                hls = url
+            url = ""
+        if url and not url.startswith("http"):
+            continue
+        if hls and not (hls.startswith("http") and _is_hls_url(hls)):
+            hls = ""
+        thumb = item.get("thumbnail_url") or ""
+        if not url and not hls and not (isinstance(thumb, str) and thumb.startswith("http")):
+            continue
+        rec: dict[str, Any] = {"type": mtype, "url": url}
+        if hls:
+            rec["hls_url"] = hls
+        if isinstance(thumb, str) and thumb.startswith("http"):
+            rec["thumbnail_url"] = thumb
+        for key in ("width", "height", "duration"):
+            num = item.get(key)
+            if isinstance(num, (int, float)) and not isinstance(num, bool):
+                rec[key] = num
+        out.append(rec)
+    return out
+
+
+def _playable_saved(item: dict) -> bool:
+    return _is_file_video(str(item.get("url") or "")) or _is_hls_url(str(item.get("hls_url") or ""))
+
+
+def _preserve_playable_media(old: Any, new: Any) -> list:
+    """Keep an mp4/HLS url when a later write only has the thumbnail.
+
+    Match on the poster. A real new file replaces the old one. An empty url,
+    a jpeg, or a dropped playlist does not.
+    """
+    old_list = [item for item in (old or []) if isinstance(item, dict)]
+    new_list = [dict(item) for item in (new or []) if isinstance(item, dict)]
+    if not new_list:
+        if any(_playable_saved(item) for item in old_list):
+            return old_list
+        return []
+    by_thumb: dict[str, dict] = {}
+    for item in old_list:
+        thumb = str(item.get("thumbnail_url") or "")
+        if thumb:
+            by_thumb[thumb] = item
+    out: list[dict] = []
+    for item in new_list:
+        if item.get("type") in ("video", "gif"):
+            thumb = str(item.get("thumbnail_url") or "")
+            prev = by_thumb.get(thumb) if thumb else None
+            url = str(item.get("url") or "")
+            if _is_hls_url(url):
+                if not _is_hls_url(str(item.get("hls_url") or "")):
+                    item["hls_url"] = url
+                item["url"] = ""
+                url = ""
+            if not _is_file_video(url) and prev and _is_file_video(str(prev.get("url") or "")):
+                item["url"] = prev["url"]
+            if not _is_hls_url(str(item.get("hls_url") or "")) and prev and _is_hls_url(str(prev.get("hls_url") or "")):
+                item["hls_url"] = prev["hls_url"]
+            if not item.get("thumbnail_url") and prev and prev.get("thumbnail_url"):
+                item["thumbnail_url"] = prev["thumbnail_url"]
+        out.append(item)
+    return out
+
+
+def _preserve_nested_media(old: Any, new: Any) -> Any:
+    if not isinstance(new, dict) or not isinstance(old, dict):
+        return new
+    old_media = old.get("media") if isinstance(old.get("media"), list) else None
+    new_media = new.get("media") if isinstance(new.get("media"), list) else None
+    # A quote/repost that never had attachments must stay that way. Injecting
+    # media: [] makes a no-op upsert look like an edit.
+    if not old_media and not new_media:
+        return new
+    merged = dict(new)
+    merged["media"] = _preserve_playable_media(old_media or [], new_media or [])
+    return merged
+
+
 def _normalize_quote(quote: Any) -> Any:
     if not isinstance(quote, dict):
         return None
     out = dict(quote)
     out["text"] = normalize_text(out.get("text") or "")
+    if "media" in out:
+        out["media"] = _clean_media(out.get("media"))
     return out
 
 
@@ -381,33 +485,10 @@ def _merge(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]
         pass
     elif existing.get("images") and not _http_images(out["images"]) and _http_images(existing["images"]):
         out["images"] = existing["images"]
-    return out
-
-
-def _clean_media(value: Any) -> list:
-    if not isinstance(value, list):
-        return []
-    out: list[dict] = []
-    for item in value:
-        if not isinstance(item, dict):
-            continue
-        mtype = item.get("type")
-        if mtype not in {"photo", "video", "gif", "audio"}:
-            continue
-        url = item.get("url") or ""
-        thumb = item.get("thumbnail_url") or ""
-        if url and not str(url).startswith("http"):
-            continue
-        if not url and not (isinstance(thumb, str) and thumb.startswith("http")):
-            continue
-        rec: dict[str, Any] = {"type": mtype, "url": str(url)}
-        if isinstance(thumb, str) and thumb.startswith("http"):
-            rec["thumbnail_url"] = thumb
-        for key in ("width", "height", "duration"):
-            num = item.get(key)
-            if isinstance(num, (int, float)) and not isinstance(num, bool):
-                rec[key] = num
-        out.append(rec)
+    # A later enrich that only stored the poster must not erase an mp4/HLS url.
+    out["media"] = _preserve_playable_media(existing.get("media"), out.get("media"))
+    out["quote"] = _preserve_nested_media(existing.get("quote"), out.get("quote"))
+    out["retweet"] = _preserve_nested_media(existing.get("retweet"), out.get("retweet"))
     return out
 
 
