@@ -1,6 +1,63 @@
 {
   "posts": [
     {
+      "id": "2116968674590441904",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-01T19:00:38.000Z",
+      "created_at_shanghai": "2026-11-02 03:00:38",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "“Best way to sandbox an AI,” said Musk. “Put it on a Delta flight: No escape is possible.”",
+      "quote": {
+        "author": "ns123abc",
+        "avatar": "https://pbs.twimg.com/profile_images/2048822563821035520/7nxCFEnk_200x200.jpg",
+        "created_at_shanghai": "2026-11-02 02:09:42",
+        "created_at_utc": "2026-11-01T18:09:42.000Z",
+        "id": "2116955860073414760",
+        "images": [
+          "https://pbs.twimg.com/media/HWDuTByXwAAZCrE.jpg?name=small",
+          "https://pbs.twimg.com/media/HWDuTCAWsAAtyqk.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWDuTByXwAAZCrE.jpg?name=small",
+            "width": 1200,
+            "height": 800
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWDuTCAWsAAtyqk.jpg?name=small",
+            "width": 1053,
+            "height": 1200
+          }
+        ],
+        "name": "NIK",
+        "text": "be Greg Brockman\ngo to White House dinner to beg your enemies for compute \n\n> \"h-hey Elon... got any spare compute bro?\"\n\nElon calls you out in front of the entire room: \"DUDE, you stole my charity! You can't be a huge dick then ask for favors, hello?\"\n\nSergey Brin: “He was asking me for compute too. How many grown men do you know that keep a diary? If I did I’d burn it.” \n\nLMAOOOOOOOO",
+        "url": "https://x.com/ns123abc/status/2116955860073414760",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 184,
+        "likes": 3611,
+        "quotes": 44,
+        "replies": 421,
+        "retweets": 313,
+        "views": 852107
+      },
+      "url": "https://x.com/elonmusk/status/2116968674590441904",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116966775523053954",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5277,62 +5334,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116289989914787912",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T22:03:47.000Z",
-      "created_at_shanghai": "2026-10-31 06:03:47",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "You can now find out if any reach limitations have been applied to your account",
-      "quote": {
-        "author": "XOpenSource",
-        "avatar": "https://pbs.twimg.com/profile_images/2086823682895179776/inMppXhg_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 04:13:07",
-        "created_at_utc": "2026-10-30T20:13:07.000Z",
-        "id": "2116262141745565826",
-        "images": [
-          "https://pbs.twimg.com/media/HV54YvEXIAA44eX.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HV54YvEXIAA44eX.jpg?name=small",
-            "width": 1444,
-            "height": 1302
-          }
-        ],
-        "name": "X Open Source",
-        "text": "Under the Hood now shows you which posts received a visibility-limiting label, making it easier to see what’s affected: https://x.com/i/jf/under_the_hood\n\nThis was a top request — thanks for the feedback.\n\nYou’ll see the specific posts listed when fewer than 5% of your posts during the report period have that label.",
-        "url": "https://x.com/XOpenSource/status/2116262141745565826",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2175,
-        "likes": 6860,
-        "quotes": 229,
-        "replies": 1062,
-        "retweets": 990,
-        "views": 984304
-      },
-      "url": "https://x.com/elonmusk/status/2116289989914787912",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 8,
   "page_size": 100,
-  "total": 2556,
+  "total": 2557,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 18:15:37",
+  "updated_at_shanghai": "2026-11-18 18:59:03",
   "account": "elonmusk"
 }
