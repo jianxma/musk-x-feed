@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2108952286030356925",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T16:06:22.000Z",
+      "created_at_shanghai": "2026-10-11 00:06:22",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Electricity production is the best metric for the true strength of any large-scale economy imo",
+      "quote": {
+        "author": "a16z",
+        "avatar": "https://pbs.twimg.com/profile_images/1919488160125616128/QAZXTMEj_200x200.png",
+        "created_at_shanghai": "2026-10-11 00:00:22",
+        "created_at_utc": "2026-10-10T16:00:22.000Z",
+        "id": "2108950777440165999",
+        "images": [
+          "https://pbs.twimg.com/media/HUR_jfCa0AARKBy.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUR_jfCa0AARKBy.jpg?name=small",
+            "width": 2000,
+            "height": 1851
+          }
+        ],
+        "name": "a16z",
+        "text": "Energy capacity = economic capacity, in one chart\n\nThere are no low electricity, rich countries",
+        "url": "https://x.com/a16z/status/2108950777440165999",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1441,
+        "likes": 13302,
+        "quotes": 218,
+        "replies": 1347,
+        "retweets": 1804,
+        "views": 1478102
+      },
+      "url": "https://x.com/elonmusk/status/2108952286030356925",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108948867974594577",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5366,75 +5416,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108255956274450789",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T17:59:24.000Z",
-      "created_at_shanghai": "2026-10-09 01:59:24",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Starlink just launched a new referral program\n\nRefer a friend to Starlink and both of you can receive $100\n\nAvailable in most countries, with rewards varying by market\n\nMore people get connected, and existing Starlink customers get rewarded for helping make it happen\n\nhttp://starlink.com/referral\n https://x.com/Starlink/status/2108240018598994384/video/1",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 01:03:59",
-        "created_at_utc": "2026-10-08T17:03:59.000Z",
-        "id": "2108242012185198612",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108236493991161856/img/PegTe5C0l4ibrWRB.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108236493991161856/vid/avc1/1080x1080/2H6EECKk7GR3paxV.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108236493991161856/img/PegTe5C0l4ibrWRB.jpg",
-            "width": 1080,
-            "height": 1080,
-            "duration": 23.168
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Starlink just launched a new referral program\n\nRefer a friend to Starlink and both of you can receive $100\n\nAvailable in most countries, with rewards varying by market\n\nMore people get connected, and existing Starlink customers get rewarded for helping make it happen\n\nhttp://starlink.com/referral\n https://x.com/Starlink/status/2108240018598994384/video/1",
-        "url": "https://x.com/XFreeze/status/2108242012185198612",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 48,
-        "likes": 935,
-        "quotes": 8,
-        "replies": 62,
-        "retweets": 135,
-        "views": 202333
-      },
-      "url": "https://x.com/elonmusk/status/2108255956274450789",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2108236493991161856/img/PegTe5C0l4ibrWRB.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2108236493991161856/vid/avc1/1080x1080/2H6EECKk7GR3paxV.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108236493991161856/img/PegTe5C0l4ibrWRB.jpg",
-          "width": 1080,
-          "height": 1080,
-          "duration": 23.168
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 19,
   "page_size": 100,
-  "total": 2559,
+  "total": 2560,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 19:08:24",
+  "updated_at_shanghai": "2026-11-18 19:32:57",
   "account": "elonmusk"
 }
