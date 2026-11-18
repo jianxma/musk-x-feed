@@ -1,6 +1,41 @@
 {
   "posts": [
     {
+      "id": "2123098921534689762",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "",
+      "author_verified": false,
+      "author_verified_type": "",
+      "created_at_utc": "2026-11-18T17:00:02.000Z",
+      "created_at_shanghai": "2026-11-19 01:00:02",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @Virginia_Space",
+      "quote": {
+        "author": "Virginia_Space",
+        "name": "Virginia Spaceport Authority",
+        "text": "A Blast from the Past: A Run at Hypersonic Speed 🚀\n\nOne year ago today, VSA supported the launch of Rocket Lab’s HASTE Prometheus Run rocket mission from the Mid-Atlantic Regional Spaceport’s Pad 0-C.",
+        "url": "https://x.com/Virginia_Space/status/2123098921534689762"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 20,
+        "retweets": 1,
+        "replies": 2,
+        "bookmarks": 0,
+        "quotes": 1,
+        "views": 716
+      },
+      "url": "https://x.com/RocketLab/status/2123098921534689762",
+      "images": [
+        "https://pbs.twimg.com/media/HXVu-JXXwAAQnG4.jpg?name=small"
+      ],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2123072571625320536",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -3770,51 +3805,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2115570296908587050",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-10-28T22:23:58.000Z",
-      "created_at_shanghai": "2026-10-29 06:23:58",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Make parts that go to space 🚀\n \nWe’re hiring CNC Operators and Programmers in Auckland, New Zealand, and Long Beach, CA.\n \nBe part of the high performance team bringing designs for spacecraft and rockets to life using advanced manufacturing technology.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 11,
-        "likes": 676,
-        "quotes": 9,
-        "replies": 18,
-        "retweets": 69,
-        "views": 24937
-      },
-      "url": "https://x.com/rocketlab/status/2115570296908587050",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2115569904749539328/img/6mxUmuyF-PI9OPYp.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2115569904749539328/vid/avc1/1920x1080/1ew5BdxbuxejV5gU.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2115569904749539328/img/6mxUmuyF-PI9OPYp.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 31.56
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 197,
+  "total": 198,
   "total_pages": 2,
-  "updated_at_shanghai": "2026-11-18 23:17:11",
+  "updated_at_shanghai": "2026-11-19 03:26:54",
   "account": "rocketlab"
 }
