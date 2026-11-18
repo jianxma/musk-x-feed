@@ -1,6 +1,119 @@
 {
   "posts": [
     {
+      "id": "2108232824520319175",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T16:27:29.000Z",
+      "created_at_shanghai": "2026-10-09 00:27:29",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Hire Grok @Bot to manage your @Shopify store. He will do an amazing job!",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 00:11:46",
+        "created_at_utc": "2026-10-08T16:11:46.000Z",
+        "id": "2108228871938359347",
+        "images": [
+          "https://pbs.twimg.com/media/HUHumrUacAAT6di.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUHumrUacAAT6di.jpg?name=small",
+            "width": 4096,
+            "height": 2746
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now help run your Shopify store.\n\nConnect Shopify, then ask it to check orders, track inventory, and keep product listings up to date.",
+        "url": "https://x.com/bot/status/2108228871938359347",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 112,
+        "likes": 1272,
+        "quotes": 23,
+        "replies": 273,
+        "retweets": 169,
+        "views": 611020
+      },
+      "url": "https://x.com/elonmusk/status/2108232824520319175",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108232145927848062",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T16:24:47.000Z",
+      "created_at_shanghai": "2026-10-09 00:24:47",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Splashdown of Dragon confirmed!",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 23:36:55",
+        "created_at_utc": "2026-10-08T15:36:55.000Z",
+        "id": "2108220101614850436",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108219960799424512/img/HeHDtLeAzPKVISdo.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108219960799424512/vid/avc1/3840x2160/6WHRXyHfLWdrxmS9.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108219960799424512/img/HeHDtLeAzPKVISdo.jpg",
+            "width": 3840,
+            "height": 2160,
+            "duration": 21.47
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Splashdown of Dragon confirmed!",
+        "url": "https://x.com/SpaceX/status/2108220101614850436",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 349,
+        "likes": 15548,
+        "quotes": 254,
+        "replies": 522,
+        "retweets": 1809,
+        "views": 3821828
+      },
+      "url": "https://x.com/elonmusk/status/2108232145927848062",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2108219960799424512/img/HeHDtLeAzPKVISdo.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2108219960799424512/vid/avc1/3840x2160/6WHRXyHfLWdrxmS9.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108219960799424512/img/HeHDtLeAzPKVISdo.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 21.47
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2108231815366656468",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5425,125 +5538,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2107878899518742933",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T17:01:06.000Z",
-      "created_at_shanghai": "2026-10-08 01:01:06",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Manual driving is like riding a horse or hand-coding in Perl and PHP.\n\nYou can still do it. You just don’t have to.",
-      "quote": {
-        "author": "nickgraynews",
-        "avatar": "https://pbs.twimg.com/profile_images/1526349506874331137/k9iwben__200x200.jpg",
-        "created_at_shanghai": "2026-10-07 02:41:28",
-        "created_at_utc": "2026-10-06T18:41:28.000Z",
-        "id": "2107541767235235921",
-        "images": [],
-        "media": [],
-        "name": "Nick Gray",
-        "text": "I'm still amazed there are people who use Claude Code and Codex on the daily yet don't own a Tesla\n\nTesla's FSD v14.3 is like Opus 5.5. It just works and it is just so good and buttery smooth\n\nImagine Astra-level computer use, but for driving your car\n\n\"but I love mah car, vroom vroom in my Lambo, it's a machine!\"\n\nplease sit down. if you drive 30 or more mins per day and you haven't gotten a Tesla yet bc you \"love to drive,\" I'm telling you that you sound like a programmer still hand-coding lines of Perl and PHP\n\nYou owe it to yourself to take a test drive of a new Tesla to see how far they have come and what FSD feels like",
-        "url": "https://x.com/nickgraynews/status/2107541767235235921",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "pduan",
-        "avatar": "https://pbs.twimg.com/profile_images/1518641980649066496/WLsqZfOg_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 00:49:28",
-        "created_at_utc": "2026-10-07T16:49:28.000Z",
-        "id": "2107875970929865183",
-        "images": [],
-        "media": [],
-        "name": "Phil Duan",
-        "text": "Manual driving is like riding a horse or hand-coding in Perl and PHP.\n\nYou can still do it. You just don’t have to.",
-        "url": "https://x.com/pduan/status/2107875970929865183",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 66,
-        "likes": 1782,
-        "quotes": 9,
-        "replies": 136,
-        "retweets": 169,
-        "views": 334717
-      },
-      "url": "https://x.com/elonmusk/status/2107878899518742933",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107878471636861204",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T16:59:24.000Z",
-      "created_at_shanghai": "2026-10-08 00:59:24",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@KatieMiller Hall of Fame community note",
-      "quote": null,
-      "retweet": {
-        "author": "NotTomBrown",
-        "avatar": "https://pbs.twimg.com/profile_images/1285266774267555840/LicLFbt3_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 23:18:59",
-        "created_at_utc": "2026-10-07T15:18:59.000Z",
-        "id": "2107853200913203351",
-        "images": [
-          "https://pbs.twimg.com/media/HUCZUHKbIAAGDWg.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUCZUHKbIAAGDWg.jpg?name=small",
-            "width": 1206,
-            "height": 1830
-          }
-        ],
-        "name": "Tom Brown",
-        "text": "@KatieMiller Hall of Fame community note",
-        "url": "https://x.com/NotTomBrown/status/2107853200913203351",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "KatieMiller",
-      "engagement": {
-        "bookmarks": 73,
-        "likes": 2315,
-        "quotes": 7,
-        "replies": 72,
-        "retweets": 190,
-        "views": 255637
-      },
-      "url": "https://x.com/elonmusk/status/2107878471636861204",
-      "images": [
-        "https://pbs.twimg.com/media/HUCZUHKbIAAGDWg.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUCZUHKbIAAGDWg.jpg?name=small",
-          "width": 1206,
-          "height": 1830
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 100,
-  "total": 2554,
+  "total": 2556,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 17:52:52",
+  "updated_at_shanghai": "2026-11-18 18:15:37",
   "account": "elonmusk"
 }

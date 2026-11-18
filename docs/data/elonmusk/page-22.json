@@ -1,6 +1,136 @@
 {
   "posts": [
     {
+      "id": "2106770444468797749",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T15:36:30.000Z",
+      "created_at_shanghai": "2026-10-04 23:36:30",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok is now making all boring stuff for me.\n\nFor Argil.\n\nFor personal stuff.\n\nIt’s like having a 10-person S-tier team working for me.",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 23:01:38",
+        "created_at_utc": "2026-10-04T15:01:38.000Z",
+        "id": "2106761668256759878",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "Grok",
+        "url": "https://x.com/elonmusk/status/2106761668256759878",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "brivael",
+        "avatar": "https://pbs.twimg.com/profile_images/2057241969403834368/PFPm3cxd_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 23:14:05",
+        "created_at_utc": "2026-10-04T15:14:05.000Z",
+        "id": "2106764802643161266",
+        "images": [],
+        "media": [],
+        "name": "Brivael Le Pogam",
+        "text": "Grok is now making all boring stuff for me.\n\nFor Argil.\n\nFor personal stuff.\n\nIt’s like having a 10-person S-tier team working for me.",
+        "url": "https://x.com/brivael/status/2106764802643161266",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 15,
+        "likes": 250,
+        "quotes": 0,
+        "replies": 38,
+        "retweets": 35,
+        "views": 33408
+      },
+      "url": "https://x.com/elonmusk/status/2106770444468797749",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2106769935615897708",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T15:34:29.000Z",
+      "created_at_shanghai": "2026-10-04 23:34:29",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceXAI just released a free 53-minute Grok Bot workshop\n\ntheir GTM team shows exactly how they run a team of bots:\n\n01:11 - give every bot one clear job\n06:38 - automate inbox + meeting prep\n08:01 - automate prospect research + outreach\n19:35 - split work between specialized bots\n37:04 - run multiple tasks in parallel\n51:35 - onboard bots like real employees\n\nthe setup:\n\nrole → tools → skill → feedback → routine\n\nmost people are still building one giant agent\n\nSpaceXAI is building a team\n\nsave this before you build another coordinator bot 👇",
+      "quote": {
+        "author": "unicodef1wn",
+        "avatar": "https://pbs.twimg.com/profile_images/2069360360763576321/Id-DSoyU_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 20:34:07",
+        "created_at_utc": "2026-09-22T12:34:07.000Z",
+        "id": "2102375891875581966",
+        "images": [],
+        "media": [],
+        "name": "unicode",
+        "text": "https://x.com/i/article/2102350203118395392",
+        "url": "https://x.com/unicodef1wn/status/2102375891875581966",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "spectnfa",
+        "avatar": "https://pbs.twimg.com/profile_images/2088997909928812544/iegJFfNm_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 04:56:02",
+        "created_at_utc": "2026-10-03T20:56:02.000Z",
+        "id": "2106488470185316723",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2106486781864525824/img/C2LReGRb4vd1uUSZ.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2106486781864525824/vid/avc1/1256x720/ge2Q7x6JZCWBsU97.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106486781864525824/img/C2LReGRb4vd1uUSZ.jpg",
+            "width": 1257,
+            "height": 720,
+            "duration": 3181.08
+          }
+        ],
+        "name": "spect",
+        "text": "SpaceXAI just released a free 53-minute Grok Bot workshop\n\ntheir GTM team shows exactly how they run a team of bots:\n\n01:11 - give every bot one clear job\n06:38 - automate inbox + meeting prep\n08:01 - automate prospect research + outreach\n19:35 - split work between specialized bots\n37:04 - run multiple tasks in parallel\n51:35 - onboard bots like real employees\n\nthe setup:\n\nrole → tools → skill → feedback → routine\n\nmost people are still building one giant agent\n\nSpaceXAI is building a team\n\nsave this before you build another coordinator bot 👇",
+        "url": "https://x.com/spectnfa/status/2106488470185316723",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 478,
+        "likes": 366,
+        "quotes": 6,
+        "replies": 34,
+        "retweets": 71,
+        "views": 40191
+      },
+      "url": "https://x.com/elonmusk/status/2106769935615897708",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2106486781864525824/img/C2LReGRb4vd1uUSZ.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2106486781864525824/vid/avc1/1256x720/ge2Q7x6JZCWBsU97.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2106486781864525824/img/C2LReGRb4vd1uUSZ.jpg",
+          "width": 1257,
+          "height": 720,
+          "duration": 3181.08
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2106769853575000431",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5559,118 +5689,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2105739243322527922",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-01T19:18:53.000Z",
-      "created_at_shanghai": "2026-10-02 03:18:53",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "For a given range of expected IRR, SpaceX is without equal in its intangibles as a public investment. \n\nIn many ways, investing is about exerting what control you have today on the future. In some small way if you can nudge the future in the direction you want to see what direction would that be?\n\nGenerally speaking SpaceX’s future vision is the most compelling.",
-      "quote": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-10-01 13:21:00",
-        "created_at_utc": "2026-10-01T05:21:00.000Z",
-        "id": "2105528385413976565",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2105526774998151168/img/Phg56ntE9c2WepKS.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2105526774998151168/vid/avc1/3840x2160/VAKGBrU2CbCsKyCA.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105526774998151168/img/Phg56ntE9c2WepKS.jpg",
-            "width": 3840,
-            "height": 2160,
-            "duration": 97.25
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "No company inspires me more than @SpaceX.",
-        "url": "https://x.com/SawyerMerritt/status/2105528385413976565",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "aaronburnett",
-        "avatar": "https://pbs.twimg.com/profile_images/2049987217477513216/GJx9_LdR_200x200.jpg",
-        "created_at_shanghai": "2026-10-01 17:45:43",
-        "created_at_utc": "2026-10-01T09:45:43.000Z",
-        "id": "2105595003208634383",
-        "images": [],
-        "media": [],
-        "name": "Aaron Burnett",
-        "text": "For a given range of expected IRR, SpaceX is without equal in its intangibles as a public investment. \n\nIn many ways, investing is about exerting what control you have today on the future. In some small way if you can nudge the future in the direction you want to see what direction would that be?\n\nGenerally speaking SpaceX’s future vision is the most compelling.",
-        "url": "https://x.com/aaronburnett/status/2105595003208634383",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 15,
-        "likes": 367,
-        "quotes": 4,
-        "replies": 27,
-        "retweets": 47,
-        "views": 54262
-      },
-      "url": "https://x.com/elonmusk/status/2105739243322527922",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2105738982768435595",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-01T19:17:50.000Z",
-      "created_at_shanghai": "2026-10-02 03:17:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Watch Falcon 9 launch the Transporter-18 mission to orbit https://x.com/i/broadcasts/1RJjpbyQpOBKw",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 02:20:56",
-        "created_at_utc": "2026-10-01T18:20:56.000Z",
-        "id": "2105724663423009159",
-        "images": [],
-        "media": [],
-        "name": "SpaceX",
-        "text": "Watch Falcon 9 launch the Transporter-18 mission to orbit https://x.com/i/broadcasts/1RJjpbyQpOBKw",
-        "url": "https://x.com/SpaceX/status/2105724663423009159",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 243,
-        "likes": 4609,
-        "quotes": 100,
-        "replies": 265,
-        "retweets": 644,
-        "views": 189891
-      },
-      "url": "https://x.com/elonmusk/status/2105738982768435595",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 22,
   "page_size": 100,
-  "total": 2554,
+  "total": 2556,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 17:52:52",
+  "updated_at_shanghai": "2026-11-18 18:15:37",
   "account": "elonmusk"
 }
