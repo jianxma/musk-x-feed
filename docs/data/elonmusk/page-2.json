@@ -1,6 +1,63 @@
 {
   "posts": [
     {
+      "id": "2122406902827245831",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-16T19:10:12.000Z",
+      "created_at_shanghai": "2026-11-17 03:10:12",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "We’ve come a long way",
+      "quote": {
+        "author": "basti_vkl",
+        "avatar": "https://pbs.twimg.com/profile_images/1832128825465171972/N7qDkTIN_200x200.jpg",
+        "created_at_shanghai": "2026-11-16 02:35:22",
+        "created_at_utc": "2026-11-15T18:35:22.000Z",
+        "id": "2122035748648202492",
+        "images": [
+          "https://pbs.twimg.com/media/HXL8QLobkAA-mjv.jpg?name=small",
+          "https://pbs.twimg.com/media/HXL8QLpaYAA2fsz.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXL8QLobkAA-mjv.jpg?name=small",
+            "width": 1206,
+            "height": 1458
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXL8QLpaYAA2fsz.jpg?name=small",
+            "width": 1206,
+            "height": 1766
+          }
+        ],
+        "name": "Sebastian Völkl",
+        "text": "100 years",
+        "url": "https://x.com/basti_vkl/status/2122035748648202492",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 71,
+        "likes": 2870,
+        "quotes": 21,
+        "replies": 353,
+        "retweets": 282,
+        "views": 334484
+      },
+      "url": "https://x.com/elonmusk/status/2122406902827245831",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2122340022665797812",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5261,53 +5318,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2121648602539782187",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T16:56:59.000Z",
-      "created_at_shanghai": "2026-11-15 00:56:59",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Yes, the green flame is caused by burning copper from depleting fuel in the regenerative cooling circuit and going oxygen-rich (closer to stoichiometric temperature) in the main combustion chamber. \n\nSlight underperformance of engines on this flight is the reason. The booster is meant to land with tiny residuals, so the solution is to improve engine performance and performance consistency (underway with Raptor V3.2), as well as adjust flight software to do MECO1 about one second earlier to ensure enough propellant for boostback and landing (tiny change).\n\nThese early ships and boosters are already outdated by improved designs in production or on the test stand, so this booster loss does not change our timeline to reach high volume, fully reusable Starship flights.",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-15 00:56:20",
-        "created_at_utc": "2026-11-14T16:56:20.000Z",
-        "id": "2121648438144024943",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Yes, the green flame is caused by burning copper from depleting fuel in the regenerative cooling circuit and going oxygen-rich (closer to stoichiometric temperature) in the main combustion chamber. \n\nSlight underperformance of engines on this flight is the reason. The booster is meant to land with tiny residuals, so the solution is to improve engine performance and performance consistency (underway with Raptor V3.2), as well as adjust flight software to do MECO1 about one second earlier to ensure enough propellant for boostback and landing (tiny change).\n\nThese early ships and boosters are already outdated by improved designs in production or on the test stand, so this booster loss does not change our timeline to reach high volume, fully reusable Starship flights.",
-        "url": "https://x.com/elonmusk/status/2121648438144024943",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "DJSnM",
-      "engagement": {
-        "bookmarks": 865,
-        "likes": 13181,
-        "quotes": 181,
-        "replies": 434,
-        "retweets": 1210,
-        "views": 485165
-      },
-      "url": "https://x.com/elonmusk/status/2121648602539782187",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 100,
-  "total": 2552,
+  "total": 2553,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 17:22:15",
+  "updated_at_shanghai": "2026-11-18 17:42:43",
   "account": "elonmusk"
 }

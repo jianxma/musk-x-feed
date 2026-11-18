@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2117722703738310713",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T20:56:52.000Z",
+      "created_at_shanghai": "2026-11-04 04:56:52",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try asking Grok @Bot to make calls!",
+      "quote": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-11-04 03:17:42",
+        "created_at_utc": "2026-11-03T19:17:42.000Z",
+        "id": "2117697749009207386",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2117697012804071425/img/r0qPOeLOX_QcUrHq.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2117697012804071425/vid/avc1/3840x2160/Ntn9DjhQ9dH5pV4c.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2117697012804071425/img/r0qPOeLOX_QcUrHq.jpg",
+            "width": 3840,
+            "height": 2160,
+            "duration": 95.266
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "Grok @Bot's new calling feature is very impressive.\n\nYou just tell it who to call and why, and it handles the conversation for you. It shows a real-time transcript of the call, and if Grok needs additional info from you, a little answer box pops up where you type/select your response, and Grok relays it to the person on the phone. Pretty incredible.\n\nHere's an example (with the call audio) of what's it's like to use:",
+        "url": "https://x.com/SawyerMerritt/status/2117697749009207386",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 344,
+        "likes": 2684,
+        "quotes": 59,
+        "replies": 844,
+        "retweets": 348,
+        "views": 726572
+      },
+      "url": "https://x.com/elonmusk/status/2117722703738310713",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2117722468257529958",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5667,53 +5719,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116961866681590246",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-01T18:33:34.000Z",
-      "created_at_shanghai": "2026-11-02 02:33:34",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@Grummz Most important of all",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-11-01 01:54:45",
-        "created_at_utc": "2026-10-31T17:54:45.000Z",
-        "id": "2116589708180640207",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "@Grummz Most important of all",
-        "url": "https://x.com/elonmusk/status/2116589708180640207",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "Grummz",
-      "engagement": {
-        "bookmarks": 145,
-        "likes": 3203,
-        "quotes": 46,
-        "replies": 278,
-        "retweets": 180,
-        "views": 431850
-      },
-      "url": "https://x.com/elonmusk/status/2116961866681590246",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 100,
-  "total": 2552,
+  "total": 2553,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 17:22:15",
+  "updated_at_shanghai": "2026-11-18 17:42:43",
   "account": "elonmusk"
 }
