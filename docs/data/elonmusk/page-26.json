@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "id": "2102071839690252484",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-21T16:25:55.000Z",
+      "created_at_shanghai": "2026-09-22 00:25:55",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 00:17:53",
+        "created_at_utc": "2026-09-21T16:17:53.000Z",
+        "id": "2102069815225586149",
+        "images": [
+          "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is here.\n\nIt's a notable improvement over Grok 4.6 at the same price and speed.",
+        "url": "https://x.com/SpaceXAI/status/2102069815225586149",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2471,
+        "likes": 28133,
+        "quotes": 1889,
+        "replies": 1428,
+        "retweets": 3035,
+        "views": 14210717
+      },
+      "url": "https://x.com/elonmusk/status/2102071839690252484",
+      "images": [
+        "https://pbs.twimg.com/media/HSwLcNqXIAAwNtz.png?name=small"
+      ],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102068833729052707",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -2443,8 +2487,8 @@
   ],
   "page": 26,
   "page_size": 100,
-  "total": 2548,
+  "total": 2549,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 13:34:37",
+  "updated_at_shanghai": "2026-11-18 13:50:01",
   "account": "elonmusk"
 }
