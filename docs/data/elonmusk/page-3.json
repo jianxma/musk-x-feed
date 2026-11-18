@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2121510962901483584",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T07:50:03.000Z",
+      "created_at_shanghai": "2026-11-14 15:50:03",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "So funny",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 14,
+        "likes": 289,
+        "quotes": 3,
+        "replies": 90,
+        "retweets": 33,
+        "views": 249446
+      },
+      "url": "https://x.com/elonmusk/status/2121510962901483584",
+      "images": [
+        "https://pbs.twimg.com/media/HXEe-l1XIAA1znR.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXEe-l1XIAA1znR.jpg?name=small",
+          "width": 472,
+          "height": 650
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121502131056177514",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -6754,40 +6791,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2120565056429814073",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-11T17:11:22.000Z",
-      "created_at_shanghai": "2026-11-12 01:11:22",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "In order to work through more of the Cybertruck order backlog, production will be extended through the end of summer 2027",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 43,
-        "likes": 1880,
-        "quotes": 70,
-        "replies": 373,
-        "retweets": 180,
-        "views": 325883
-      },
-      "url": "https://x.com/elonmusk/status/2120565056429814073",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 3,
   "page_size": 100,
-  "total": 2528,
+  "total": 2529,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 09:03:34",
+  "updated_at_shanghai": "2026-11-18 09:38:43",
   "account": "elonmusk"
 }
