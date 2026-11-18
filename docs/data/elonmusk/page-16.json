@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2110934548049731681",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T03:23:10.000Z",
+      "created_at_shanghai": "2026-10-16 11:23:10",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "One of my favorite shows as a kid!",
+      "quote": {
+        "author": "mazemoore",
+        "avatar": "https://pbs.twimg.com/profile_images/1615800151750152208/qeY0l05r_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 10:10:36",
+        "created_at_utc": "2026-10-16T02:10:36.000Z",
+        "id": "2110916285353845114",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110915816107524096/img/5XxFrR44uqAfKQRk.jpg"
+        ],
+        "media": [
+          {
+            "duration": 31.13,
+            "height": 1080,
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110915816107524096/img/5XxFrR44uqAfKQRk.jpg",
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110915816107524096/vid/avc1/958x1080/AEIC_tSFapiDPFaE.mp4?tag=29",
+            "width": 958
+          }
+        ],
+        "name": "MAZE",
+        "text": "Elon Musk just made Turbo Boost a reality.\n\nA bunch of guys my age have been waiting our whole lives for this.",
+        "url": "https://x.com/mazemoore/status/2110916285353845114",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1201,
+        "likes": 24385,
+        "quotes": 239,
+        "replies": 1826,
+        "retweets": 2393,
+        "views": 1061906
+      },
+      "url": "https://x.com/elonmusk/status/2110934548049731681",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110934342323343365",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5442,64 +5494,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110543151349870751",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T01:27:53.000Z",
-      "created_at_shanghai": "2026-10-15 09:27:53",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Imagine",
-      "quote": {
-        "author": "dvorahfr",
-        "avatar": "https://pbs.twimg.com/profile_images/1605451924144373760/K27zpEfc_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 04:44:54",
-        "created_at_utc": "2026-10-14T20:44:54.000Z",
-        "id": "2110471933015801856",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110471796440858624/img/vmIiHvg5Sp6fjoH9.jpg"
-        ],
-        "media": [
-          {
-            "duration": 94.966,
-            "height": 1620,
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110471796440858624/img/vmIiHvg5Sp6fjoH9.jpg",
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110471796440858624/vid/avc1/1080x1620/Yzt7O4k5vL6FV6nq.mp4?tag=29",
-            "width": 1080
-          }
-        ],
-        "name": "Déborah",
-        "text": "Video created from a single image I generated using Grok Imagine's text-to-image tool.\nAll other shots are derived from that base image, animated by Grok Imagine.",
-        "url": "https://x.com/dvorahfr/status/2110471933015801856",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 19,
-        "likes": 405,
-        "quotes": 6,
-        "replies": 158,
-        "retweets": 48,
-        "views": 266386
-      },
-      "url": "https://x.com/elonmusk/status/2110543151349870751",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 100,
-  "total": 2537,
+  "total": 2538,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 11:25:35",
+  "updated_at_shanghai": "2026-11-18 11:36:30",
   "account": "elonmusk"
 }

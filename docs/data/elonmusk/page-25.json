@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2103005014277111831",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T06:14:02.000Z",
+      "created_at_shanghai": "2026-09-24 14:14:02",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Good idea to post an image of the front page",
+      "quote": {
+        "author": "WSJ",
+        "avatar": "https://pbs.twimg.com/profile_images/971415515754266624/zCX0q9d5_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 12:30:09",
+        "created_at_utc": "2026-09-24T04:30:09.000Z",
+        "id": "2102978873759563931",
+        "images": [
+          "https://pbs.twimg.com/media/HS9IIjaWQAAd405.jpg?name=small"
+        ],
+        "media": [
+          {
+            "height": 2083,
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS9IIjaWQAAd405.jpg?name=small",
+            "width": 1066
+          }
+        ],
+        "name": "The Wall Street Journal",
+        "text": "Take an early look at the front page of The Wall Street Journal https://on.wsj.com/3VdLOsw",
+        "url": "https://x.com/WSJ/status/2102978873759563931",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 15,
+        "likes": 463,
+        "quotes": 10,
+        "replies": 168,
+        "retweets": 99,
+        "views": 338147
+      },
+      "url": "https://x.com/elonmusk/status/2103005014277111831",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2103002338399244371",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4976,66 +5026,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2101922448501264660",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T06:32:18.000Z",
-      "created_at_shanghai": "2026-09-21 14:32:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "The only thing that matters is that the customer never feels the need to run a speed test. I ran speed tests far more on cable than I do on Starlink. It just works.",
-      "quote": {
-        "author": "BassonBrain",
-        "avatar": "https://pbs.twimg.com/profile_images/2080740182546903040/kujG_BH5_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 01:59:27",
-        "created_at_utc": "2026-09-20T17:59:27.000Z",
-        "id": "2101732988505706706",
-        "images": [
-          "https://pbs.twimg.com/media/HSra-w-WwAAQ5nz.jpg?name=small"
-        ],
-        "name": "Brian Basson",
-        "text": "STARLINK IS NOW COMPETING WITH THE BEST-RATED ISPs 🔥\n\nThe latest CNET People’s Picks study gives Starlink an overall satisfaction score of 4.47 out of 5, \n\ncompared with 4.20 for T-Mobile Home Internet and 4.16 for Verizon Fios. \n\nThe reliability result is even more interesting:\n\n@Starlink scores 4.59 out of 5, only slightly behind GFiber at 4.70. A few years ago it would have been difficult to imagine a satellite broadband provider being perceived as this reliable.\n\n\"Satellite broadband was supposed to be the compromise. Now Starlink sits alongside some of America’s highest-rated broadband providers, revealing what customers actually value most.\"",
-        "url": "https://x.com/BassonBrain/status/2101732988505706706",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "aaronburnett",
-        "avatar": "https://pbs.twimg.com/profile_images/2049987217477513216/GJx9_LdR_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 02:23:14",
-        "created_at_utc": "2026-09-20T18:23:14.000Z",
-        "id": "2101738976004448717",
-        "images": [],
-        "name": "Aaron Burnett",
-        "text": "The only thing that matters is that the customer never feels the need to run a speed test. I ran speed tests far more on cable than I do on Starlink. It just works.",
-        "url": "https://x.com/aaronburnett/status/2101738976004448717",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 48,
-        "likes": 1791,
-        "quotes": 8,
-        "replies": 122,
-        "retweets": 206,
-        "views": 786264
-      },
-      "url": "https://x.com/elonmusk/status/2101922448501264660",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 100,
-  "total": 2537,
+  "total": 2538,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-18 11:25:35",
+  "updated_at_shanghai": "2026-11-18 11:36:30",
   "account": "elonmusk"
 }
