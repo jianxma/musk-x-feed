@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2111571645131534641",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-17T21:34:45.000Z",
+      "created_at_shanghai": "2026-10-18 05:34:45",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "TimSweeneyEpic",
+        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
+        "created_at_shanghai": "2026-10-18 05:10:43",
+        "created_at_utc": "2026-10-17T21:10:43.000Z",
+        "id": "2111565595594375353",
+        "images": [],
+        "media": [],
+        "name": "Tim Sweeney",
+        "text": "The games we've long wanted, which didn't exist because they'd cost several times more to make than they'd earn back, will soon become possible. As will the games developers wanted to build, but couldn't with the resources available. It'll be a new golden age of gaming.",
+        "url": "https://x.com/TimSweeneyEpic/status/2111565595594375353",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 141,
+        "likes": 3209,
+        "quotes": 48,
+        "replies": 556,
+        "retweets": 323,
+        "views": 680182
+      },
+      "url": "https://x.com/elonmusk/status/2111571645131534641",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111553162641592515",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5805,64 +5846,12 @@
       "images": [],
       "media": [],
       "enriched": false
-    },
-    {
-      "id": "2110877572011844019",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T23:36:46.000Z",
-      "created_at_shanghai": "2026-10-16 07:36:46",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Maybe more than 10GW",
-      "quote": {
-        "author": "bg2clips",
-        "avatar": "https://pbs.twimg.com/profile_images/1917796804264857600/kplN8Vg7_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 05:12:20",
-        "created_at_utc": "2026-10-15T21:12:20.000Z",
-        "id": "2110841224986812828",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110840823176679424/img/BDIxIXH4F-jILUQf.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110840823176679424/vid/avc1/1920x1080/jsxv0aISCEDq76p5.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110840823176679424/img/BDIxIXH4F-jILUQf.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 285.133
-          }
-        ],
-        "name": "bg2clips",
-        "text": "🛰️ @elonmusk wants 10 gigawatts of compute by the end of 2027. @JensenHuang says Nvidia now counts @SpaceX alongside its cloud provider customers, and the two companies' engineers are designing a server for space:\n\n\"In the two parts of our chart, Elon used to be under enterprise. That's the way we reported the numbers. Now he's part of our CSPs... They're massive.\n\nHe's using our technology for his own AI in training models and such, deploying models, of course... And the demand for GrokBot, the consumption for GrokBot is really skyrocketing. And then, of course, he rents it. And so the combination of these three things, he's fairly unique in doing that...\n\nHe loves the intersection between computing and the physical build-outs... And nobody knows more about energy than he does.\n\nAnd one particular new market that we're going to go explore together is putting data centers out in space. So our two engineering teams are working super closely together to create a new type of server, a new type of architecture that might be super good... in space and on Earth.\"\n\n— @JensenHuang, CEO of @nvidia on @BG2Pod with @altcap",
-        "url": "https://x.com/bg2clips/status/2110841224986812828",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 127,
-        "likes": 2540,
-        "quotes": 34,
-        "replies": 419,
-        "retweets": 294,
-        "views": 588255
-      },
-      "url": "https://x.com/elonmusk/status/2110877572011844019",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 100,
-  "total": 2618,
+  "total": 2619,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 01:24:07",
+  "updated_at_shanghai": "2026-11-20 01:37:48",
   "account": "elonmusk"
 }
