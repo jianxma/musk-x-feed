@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2105118281803960612",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-30T02:11:24.000Z",
+      "created_at_shanghai": "2026-09-30 10:11:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "i still think about this ngl",
+      "quote": null,
+      "retweet": {
+        "author": "alpaysh",
+        "avatar": "https://pbs.twimg.com/profile_images/2066494530690420736/TiqvoU1w_200x200.jpg",
+        "created_at_shanghai": "2026-09-29 21:51:02",
+        "created_at_utc": "2026-09-29T13:51:02.000Z",
+        "id": "2104931962465206731",
+        "images": [
+          "https://pbs.twimg.com/media/HTY4dLFakAEvWPz.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTY4dLFakAEvWPz.jpg?name=small",
+            "width": 960,
+            "height": 919
+          }
+        ],
+        "name": "Alps (e/acc)",
+        "text": "i still think about this ngl",
+        "url": "https://x.com/alpaysh/status/2104931962465206731",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1630,
+        "likes": 7283,
+        "quotes": 16,
+        "replies": 56,
+        "retweets": 362,
+        "views": 275463
+      },
+      "url": "https://x.com/elonmusk/status/2105118281803960612",
+      "images": [
+        "https://pbs.twimg.com/media/HTY4dLFakAEvWPz.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTY4dLFakAEvWPz.jpg?name=small",
+          "width": 960,
+          "height": 919
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2105115000591286666",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5818,75 +5877,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2104141117302182185",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-27T09:28:30.000Z",
-      "created_at_shanghai": "2026-09-27 17:28:30",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Opus 5.5 created an animation highlighting one of the biggest risks for superintelligence...",
-      "quote": null,
-      "retweet": {
-        "author": "AndrewOnXYZ",
-        "avatar": "https://pbs.twimg.com/profile_images/2049559711821799424/nJ4aYdQq_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 23:12:44",
-        "created_at_utc": "2026-09-26T15:12:44.000Z",
-        "id": "2103865359988125706",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2103865017187655680/img/njhDk0Ghusud3ara.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2103865017187655680/vid/avc1/1920x1080/OQF_KBLI3ONRw3BI.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103865017187655680/img/njhDk0Ghusud3ara.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 316
-          }
-        ],
-        "name": "AndrewOnXYZ",
-        "text": "Opus 5.5 created an animation highlighting one of the biggest risks for superintelligence...",
-        "url": "https://x.com/AndrewOnXYZ/status/2103865359988125706",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 405,
-        "likes": 740,
-        "quotes": 12,
-        "replies": 49,
-        "retweets": 103,
-        "views": 39131
-      },
-      "url": "https://x.com/elonmusk/status/2104141117302182185",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2103865017187655680/img/njhDk0Ghusud3ara.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2103865017187655680/vid/avc1/1920x1080/OQF_KBLI3ONRw3BI.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103865017187655680/img/njhDk0Ghusud3ara.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 316
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 24,
   "page_size": 100,
-  "total": 2607,
+  "total": 2608,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-19 16:31:43",
+  "updated_at_shanghai": "2026-11-19 16:35:51",
   "account": "elonmusk"
 }
