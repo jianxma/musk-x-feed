@@ -1,6 +1,71 @@
 {
   "posts": [
     {
+      "id": "2112770340942139675",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T04:57:57.000Z",
+      "created_at_shanghai": "2026-10-21 12:57:57",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Unsurprising. Up to this point I’ve run my podcast completely solo with Grok Bot and Riverside, and the more I use Grok Bot, the more problems I find it is able to solve. Incredible tech",
+      "quote": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-21 04:52:24",
+        "created_at_utc": "2026-10-20T20:52:24.000Z",
+        "id": "2112648148036317249",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2112647973863657472/img/W6qFivqJfHpDfKub.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2112647973863657472/vid/avc1/1320x730/ozP3DRSlm6sBqZQq.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112647973863657472/img/W6qFivqJfHpDfKub.jpg",
+            "width": 1320,
+            "height": 730,
+            "duration": 98.601
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "Elon Musk on Grok Bot: \"We're seeing the fastest growth of a product that I've ever seen in my life. I've never seen anything growth this fast. The usage of Grok Bot per user actually has been growing over time. They are using it more per week, not less. Enterprise Grok Bot will be in wide deployment in a few weeks. I think Grok Bot will use most of SI compute.\"",
+        "url": "https://x.com/SawyerMerritt/status/2112648148036317249",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "willchamberlain",
+        "avatar": "https://pbs.twimg.com/profile_images/2089336661586968576/LgjU8KLh_200x200.jpg",
+        "created_at_shanghai": "2026-10-21 06:15:53",
+        "created_at_utc": "2026-10-20T22:15:53.000Z",
+        "id": "2112669158064218114",
+        "images": [],
+        "media": [],
+        "name": "Will Chamberlain",
+        "text": "Unsurprising. Up to this point I’ve run my podcast completely solo with Grok Bot and Riverside, and the more I use Grok Bot, the more problems I find it is able to solve. Incredible tech",
+        "url": "https://x.com/willchamberlain/status/2112669158064218114",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 31,
+        "likes": 454,
+        "quotes": 2,
+        "replies": 29,
+        "retweets": 46,
+        "views": 25598
+      },
+      "url": "https://x.com/elonmusk/status/2112770340942139675",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2112666467712073815",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5225,40 +5290,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2111507692045148515",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-17T17:20:38.000Z",
-      "created_at_shanghai": "2026-10-18 01:20:38",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Since fate maximizes for ironic entertainment, it was inevitable that the “Roadster” would be a flying car",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 414,
-        "likes": 13676,
-        "quotes": 189,
-        "replies": 1740,
-        "retweets": 1078,
-        "views": 922021
-      },
-      "url": "https://x.com/elonmusk/status/2111507692045148515",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 15,
   "page_size": 100,
-  "total": 2614,
+  "total": 2615,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 00:55:18",
+  "updated_at_shanghai": "2026-11-20 01:04:16",
   "account": "elonmusk"
 }
