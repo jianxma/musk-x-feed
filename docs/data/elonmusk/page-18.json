@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2110438877274259488",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T18:33:33.000Z",
+      "created_at_shanghai": "2026-10-15 02:33:33",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try Grok Voice",
+      "quote": {
+        "author": "SpaceXSI",
+        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 01:04:57",
+        "created_at_utc": "2026-10-14T17:04:57.000Z",
+        "id": "2110416580899168305",
+        "images": [
+          "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small",
+            "width": 1974,
+            "height": 1180
+          }
+        ],
+        "name": "SpaceX Super Intelligence",
+        "text": "Introducing Grok Voice 3.0, the world’s most intelligent speech-to-speech model.\n\nIt excels at resolving customer calls, responds in under a second, and costs less than other frontier models.",
+        "url": "https://x.com/SpaceXSI/status/2110416580899168305",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 153,
+        "likes": 2818,
+        "quotes": 51,
+        "replies": 725,
+        "retweets": 306,
+        "views": 802253
+      },
+      "url": "https://x.com/elonmusk/status/2110438877274259488",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110413877024526603",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5122,77 +5172,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109738767351230511",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T20:11:33.000Z",
-      "created_at_shanghai": "2026-10-13 04:11:33",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Imagine training Grok on everything Tesla and SpaceX have learned about manufacturing.\n\nThen asking it:\n\n“I want to build a chip fab. I know absolutely nothing about it. Where do I start?”\n\nAnd having it guide you from zero to a functioning factory.",
-      "quote": {
-        "author": "Dogetothemoon",
-        "avatar": "https://pbs.twimg.com/profile_images/2090278758972571648/3ihoplje_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 23:07:02",
-        "created_at_utc": "2026-10-11T15:07:02.000Z",
-        "id": "2109299744656810127",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109190942645211136/img/6gVNBZJABEMu3sTF.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109190942645211136/vid/avc1/1280x720/L9weZYtchnJbzUw7.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109190942645211136/img/6gVNBZJABEMu3sTF.jpg",
-            "width": 1280,
-            "height": 720,
-            "duration": 141.572
-          }
-        ],
-        "name": "Doge Tipping",
-        "text": "Elon Musk is incredibly ambitious about chipmaking and the Terafab project on @theXtakeover :\n\n“I still have a tremendous amount to learn about chipmaking. To be clear, I do not know how to make chips. I have no idea how to make them, but we will figure it out. You have to start somewhere. I did not know how to make cars or rockets either.”🤣",
-        "url": "https://x.com/Dogetothemoon/status/2109299744656810127",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "luismbat",
-        "avatar": "https://pbs.twimg.com/profile_images/378800000564279654/544464e51ec3be835a561a7f631379ab_200x200.png",
-        "created_at_shanghai": "2026-10-13 02:39:13",
-        "created_at_utc": "2026-10-12T18:39:13.000Z",
-        "id": "2109715527564198059",
-        "images": [],
-        "media": [],
-        "name": "Luis Batalha",
-        "text": "Imagine training Grok on everything Tesla and SpaceX have learned about manufacturing.\n\nThen asking it:\n\n“I want to build a chip fab. I know absolutely nothing about it. Where do I start?”\n\nAnd having it guide you from zero to a functioning factory.",
-        "url": "https://x.com/luismbat/status/2109715527564198059",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 136,
-        "likes": 1851,
-        "quotes": 14,
-        "replies": 161,
-        "retweets": 207,
-        "views": 301033
-      },
-      "url": "https://x.com/elonmusk/status/2109738767351230511",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 100,
-  "total": 2617,
+  "total": 2618,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 01:14:09",
+  "updated_at_shanghai": "2026-11-20 01:24:07",
   "account": "elonmusk"
 }
