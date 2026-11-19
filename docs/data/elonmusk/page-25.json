@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2103841089765384503",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-26T13:36:17.000Z",
+      "created_at_shanghai": "2026-09-26 21:36:17",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We’re building Copilot as a new OS for work that spans every model, every form factor, and every task. Today, we’re announcing our biggest update to Copilot to date, bringing four things together:\n\n· Autopilot: proactive and long-running agent built for the enterprise\n· Code: build apps with Copilot, hosted inside your company’s tenant\n· Home: Chat + Cowork together\n· Office: now fully embedded in Copilot (and Copilot embedded in Office, of course!)\n\nPlus, you can invoke Copilot in Teams, and we’re introducing Today, a proactive experience that surfaces the most important information from across M365 without needing to ask for it.\n\nThe way we work is changing and so are our workflows. This update brings AI into that flow, from answering a question, to building an app, to getting work done on your behalf.",
+      "quote": null,
+      "retweet": {
+        "author": "satyanadella",
+        "avatar": "https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_200x200.jpg",
+        "created_at_shanghai": "2026-09-25 20:05:37",
+        "created_at_utc": "2026-09-25T12:05:37.000Z",
+        "id": "2103455884366188544",
+        "images": [
+          "https://pbs.twimg.com/media/HTD6LIeacAAeCcB.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103453733275512832/vid/avc1/3840x2160/1jnP6xbWuAAN0xfb.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/media/HTD6LIeacAAeCcB.jpg",
+            "width": 1280,
+            "height": 720,
+            "duration": 93.033
+          }
+        ],
+        "name": "Satya Nadella",
+        "text": "We’re building Copilot as a new OS for work that spans every model, every form factor, and every task. Today, we’re announcing our biggest update to Copilot to date, bringing four things together:\n\n· Autopilot: proactive and long-running agent built for the enterprise\n· Code: build apps with Copilot, hosted inside your company’s tenant\n· Home: Chat + Cowork together\n· Office: now fully embedded in Copilot (and Copilot embedded in Office, of course!)\n\nPlus, you can invoke Copilot in Teams, and we’re introducing Today, a proactive experience that surfaces the most important information from across M365 without needing to ask for it.\n\nThe way we work is changing and so are our workflows. This update brings AI into that flow, from answering a question, to building an app, to getting work done on your behalf.",
+        "url": "https://x.com/satyanadella/status/2103455884366188544",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 3590,
+        "likes": 9826,
+        "quotes": 739,
+        "replies": 1080,
+        "retweets": 1252,
+        "views": 2367604
+      },
+      "url": "https://x.com/elonmusk/status/2103841089765384503",
+      "images": [
+        "https://pbs.twimg.com/media/HTD6LIeacAAeCcB.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2103453733275512832/vid/avc1/3840x2160/1jnP6xbWuAAN0xfb.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/media/HTD6LIeacAAeCcB.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 93.033
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103759131907932302",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5592,52 +5655,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102412363332805078",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T14:59:03.000Z",
-      "created_at_shanghai": "2026-09-22 22:59:03",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7 with our Build harness is a strong daily workhorse",
-      "quote": {
-        "author": "WR4NYGov",
-        "avatar": "https://pbs.twimg.com/profile_images/2094269019662798849/W_67we2g_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 19:57:33",
-        "created_at_utc": "2026-09-22T11:57:33.000Z",
-        "id": "2102366688608149618",
-        "images": [],
-        "name": "Warren Redlich - Chasing Dreams 🇺🇸",
-        "text": "I’ve been building with Grok 4.7 extra high in Grok Build today for hours. It’s fantastic and my usage percent (Cursor Ultra) is barely moving. \n\nGetting so much done. \n\nWhile Build works on one thing, I discuss the next feature/change with my Grok Bot team and have Engineer Bot explain our conclusion so I can give that to Build. \n\nAt the start of the day I had 4.7 do a full code review in Cursor, then had Fable 5.1 review the review and it largely agreed with only a slight change in priorities.",
-        "url": "https://x.com/WR4NYGov/status/2102366688608149618",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 145,
-        "likes": 4452,
-        "quotes": 38,
-        "replies": 625,
-        "retweets": 648,
-        "views": 4065788
-      },
-      "url": "https://x.com/elonmusk/status/2102412363332805078",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 100,
-  "total": 2587,
+  "total": 2588,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-19 09:55:50",
+  "updated_at_shanghai": "2026-11-19 10:36:02",
   "account": "elonmusk"
 }
