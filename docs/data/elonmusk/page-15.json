@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2112779364303544352",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T05:33:48.000Z",
+      "created_at_shanghai": "2026-10-21 13:33:48",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We use Grok Bot to spot incidents in our support queue and quickly respond to every associated ticket.\n\nIn one incident, it cleared 204 tickets in about 10 minutes, with one engineer approving the batch.",
+      "quote": null,
+      "retweet": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-21 04:42:00",
+        "created_at_utc": "2026-10-20T20:42:00.000Z",
+        "id": "2112645531076096330",
+        "images": [
+          "https://pbs.twimg.com/media/HVGeeM2acAAOivv.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVGeeM2acAAOivv.jpg?name=small",
+            "width": 4096,
+            "height": 3012
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "We use Grok Bot to spot incidents in our support queue and quickly respond to every associated ticket.\n\nIn one incident, it cleared 204 tickets in about 10 minutes, with one engineer approving the batch.",
+        "url": "https://x.com/bot/status/2112645531076096330",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 427,
+        "likes": 2593,
+        "quotes": 44,
+        "replies": 198,
+        "retweets": 179,
+        "views": 162339
+      },
+      "url": "https://x.com/elonmusk/status/2112779364303544352",
+      "images": [
+        "https://pbs.twimg.com/media/HVGeeM2acAAOivv.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVGeeM2acAAOivv.jpg?name=small",
+          "width": 4096,
+          "height": 3012
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2112770340942139675",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5231,71 +5290,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2111531984195354913",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-17T18:57:10.000Z",
-      "created_at_shanghai": "2026-10-18 02:57:10",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Teams encapsulated 32 payloads ahead of Falcon 9’s launch of the Bandwagon-5 rideshare mission from Florida → https://spacex.com/launches/bandwagon5",
-      "quote": null,
-      "retweet": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-17 23:39:41",
-        "created_at_utc": "2026-10-17T15:39:41.000Z",
-        "id": "2111482288135446909",
-        "images": [
-          "https://pbs.twimg.com/media/HU19RN3XsAAZapQ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HU19RN3XsAAZapQ.jpg?name=small",
-            "width": 3000,
-            "height": 2000
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Teams encapsulated 32 payloads ahead of Falcon 9’s launch of the Bandwagon-5 rideshare mission from Florida → https://spacex.com/launches/bandwagon5",
-        "url": "https://x.com/SpaceX/status/2111482288135446909",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 92,
-        "likes": 4311,
-        "quotes": 71,
-        "replies": 234,
-        "retweets": 481,
-        "views": 527201
-      },
-      "url": "https://x.com/elonmusk/status/2111531984195354913",
-      "images": [
-        "https://pbs.twimg.com/media/HU19RN3XsAAZapQ.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HU19RN3XsAAZapQ.jpg?name=small",
-          "width": 3000,
-          "height": 2000
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 15,
   "page_size": 100,
-  "total": 2615,
+  "total": 2616,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 01:04:16",
+  "updated_at_shanghai": "2026-11-20 01:07:26",
   "account": "elonmusk"
 }
