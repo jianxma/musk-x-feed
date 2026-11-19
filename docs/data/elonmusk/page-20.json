@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2108396888160387541",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-09T03:19:24.000Z",
+      "created_at_shanghai": "2026-10-09 11:19:24",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "We’re just going to have @Grok Bots manage Grokipedia",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 10:57:31",
+        "created_at_utc": "2026-10-09T02:57:31.000Z",
+        "id": "2108391379177193931",
+        "images": [
+          "https://pbs.twimg.com/media/HUKCyK5aMAAcSqM.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUKCyK5aMAAcSqM.jpg?name=small",
+            "width": 1080,
+            "height": 1589
+          }
+        ],
+        "name": "X Freeze",
+        "text": "You can now watch Grokipedia evolve in real time\n\nLive edits are happening constantly across the platform as Grok reviews, updates and improves articles\n\nYou can literally follow the knowledge base changing as it happens\n\nPretty wild to watch an SI-maintained encyclopedia update itself live\n\nhttps://grokipedia.com/live",
+        "url": "https://x.com/XFreeze/status/2108391379177193931",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 157,
+        "likes": 4226,
+        "quotes": 73,
+        "replies": 794,
+        "retweets": 472,
+        "views": 930668
+      },
+      "url": "https://x.com/elonmusk/status/2108396888160387541",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108396588544745887",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5259,121 +5309,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108062258618048625",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T05:09:43.000Z",
-      "created_at_shanghai": "2026-10-08 13:09:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Project Suncatcher is our moonshot exploring whether we can one day host machine learning infrastructure in space 🚀\n\nTo do so, we need to know whether our AI hardware can operate in orbit. Can our TPUs handle the physical stress of spaceflight and the radiation and thermal extremes of space? These are the questions Google researchers have been exploring for the past few years.\n\nLast week, we launched our first test satellite carrying four TPUs into orbit — putting us one step closer to getting answers.",
-      "quote": null,
-      "retweet": {
-        "author": "Google",
-        "avatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 00:46:43",
-        "created_at_utc": "2026-10-07T16:46:43.000Z",
-        "id": "2107875278416753052",
-        "images": [
-          "https://pbs.twimg.com/media/HUCstc8WEAEibi8.jpg?name=small",
-          "https://pbs.twimg.com/amplify_video_thumb/2107874561647607808/img/Zar-8PqFUG1mlRUj.jpg",
-          "https://pbs.twimg.com/media/HUCtQkrX0AA33Nb.jpg?name=small",
-          "https://pbs.twimg.com/amplify_video_thumb/2107874672767356928/img/nJJ9B6KXklPxmejK.jpg"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUCstc8WEAEibi8.jpg?name=small",
-            "width": 1080,
-            "height": 1440
-          },
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107874561647607808/vid/avc1/1080x1440/UsuLSmk17RTSjTsz.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107874561647607808/img/Zar-8PqFUG1mlRUj.jpg",
-            "width": 1080,
-            "height": 1440,
-            "duration": 2
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUCtQkrX0AA33Nb.jpg?name=small",
-            "width": 1080,
-            "height": 1440
-          },
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107874672767356928/vid/avc1/1080x1440/FBeGdJ-xdfgEx0sh.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107874672767356928/img/nJJ9B6KXklPxmejK.jpg",
-            "width": 1080,
-            "height": 1440,
-            "duration": 83.166
-          }
-        ],
-        "name": "Google",
-        "text": "Project Suncatcher is our moonshot exploring whether we can one day host machine learning infrastructure in space 🚀\n\nTo do so, we need to know whether our AI hardware can operate in orbit. Can our TPUs handle the physical stress of spaceflight and the radiation and thermal extremes of space? These are the questions Google researchers have been exploring for the past few years.\n\nLast week, we launched our first test satellite carrying four TPUs into orbit — putting us one step closer to getting answers.",
-        "url": "https://x.com/Google/status/2107875278416753052",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 178,
-        "likes": 1912,
-        "quotes": 30,
-        "replies": 149,
-        "retweets": 263,
-        "views": 1076895
-      },
-      "url": "https://x.com/elonmusk/status/2108062258618048625",
-      "images": [
-        "https://pbs.twimg.com/media/HUCstc8WEAEibi8.jpg?name=small",
-        "https://pbs.twimg.com/amplify_video_thumb/2107874561647607808/img/Zar-8PqFUG1mlRUj.jpg",
-        "https://pbs.twimg.com/media/HUCtQkrX0AA33Nb.jpg?name=small",
-        "https://pbs.twimg.com/amplify_video_thumb/2107874672767356928/img/nJJ9B6KXklPxmejK.jpg"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUCstc8WEAEibi8.jpg?name=small",
-          "width": 1080,
-          "height": 1440
-        },
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107874561647607808/vid/avc1/1080x1440/UsuLSmk17RTSjTsz.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107874561647607808/img/Zar-8PqFUG1mlRUj.jpg",
-          "width": 1080,
-          "height": 1440,
-          "duration": 2
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUCtQkrX0AA33Nb.jpg?name=small",
-          "width": 1080,
-          "height": 1440
-        },
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107874672767356928/vid/avc1/1080x1440/FBeGdJ-xdfgEx0sh.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107874672767356928/img/nJJ9B6KXklPxmejK.jpg",
-          "width": 1080,
-          "height": 1440,
-          "duration": 83.166
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 100,
-  "total": 2609,
+  "total": 2610,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-19 16:44:36",
+  "updated_at_shanghai": "2026-11-19 16:51:43",
   "account": "elonmusk"
 }
