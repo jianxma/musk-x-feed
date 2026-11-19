@@ -1,6 +1,115 @@
 {
   "posts": [
     {
+      "id": "2103958249922072840",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-26T21:21:51.000Z",
+      "created_at_shanghai": "2026-09-27 05:21:51",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot can manage your finances",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 03:54:25",
+        "created_at_utc": "2026-09-26T19:54:25.000Z",
+        "id": "2103936247995752705",
+        "images": [
+          "https://pbs.twimg.com/media/HTKt7P3aUAAZptd.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTKt7P3aUAAZptd.jpg?name=small",
+            "width": 4096,
+            "height": 2305
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot now connects to your finances.\n\nLink your bank, card, and investment accounts with the new Finance integration, then ask Bot to help manage your spending, investments, and more.",
+        "url": "https://x.com/bot/status/2103936247995752705",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 38,
+        "likes": 504,
+        "quotes": 9,
+        "replies": 196,
+        "retweets": 82,
+        "views": 293673
+      },
+      "url": "https://x.com/elonmusk/status/2103958249922072840",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2103942735334178816",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-26T20:20:12.000Z",
+      "created_at_shanghai": "2026-09-27 04:20:12",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "A trans person in Manaus, Brazil has been arrested after allegedly biting off his stepfather's eyes, gouging the victim's eyes out and r—ping him. https://www.thesun.co.uk/news/40485308/trans-woman-stepdad-attack-brazil/?utm_medium=Social&utm_campaign=sunmaintwitter&utm_source=Twitter#Echobox=1790284699",
+      "quote": null,
+      "retweet": {
+        "author": "MrAndyNgo",
+        "avatar": "https://pbs.twimg.com/profile_images/1265070746931302401/2w71OcJP_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 02:47:44",
+        "created_at_utc": "2026-09-26T18:47:44.000Z",
+        "id": "2103919465800900669",
+        "images": [
+          "https://pbs.twimg.com/media/HTKedvcXYAAv9lN.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTKedvcXYAAv9lN.jpg?name=small",
+            "width": 930,
+            "height": 1024
+          }
+        ],
+        "name": "Andy Ngo",
+        "text": "A trans person in Manaus, Brazil has been arrested after allegedly biting off his stepfather's eyes, gouging the victim's eyes out and r—ping him. https://www.thesun.co.uk/news/40485308/trans-woman-stepdad-attack-brazil/?utm_medium=Social&utm_campaign=sunmaintwitter&utm_source=Twitter#Echobox=1790284699",
+        "url": "https://x.com/MrAndyNgo/status/2103919465800900669",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 33,
+        "likes": 721,
+        "quotes": 25,
+        "replies": 137,
+        "retweets": 158,
+        "views": 52974
+      },
+      "url": "https://x.com/elonmusk/status/2103942735334178816",
+      "images": [
+        "https://pbs.twimg.com/media/HTKedvcXYAAv9lN.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTKedvcXYAAv9lN.jpg?name=small",
+          "width": 930,
+          "height": 1024
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103894760838897922",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5666,127 +5775,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102437848549147065",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T16:40:19.000Z",
-      "created_at_shanghai": "2026-09-23 00:40:19",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot has just officially launched in @Tesla vehicles.\n\nI got early access a couple weeks ago. You can order stuff on online (such as Amazon), manage your email, calendar, finances, or other tasks through Grok @Bot using just your voice in your Tesla.\n\nThere is no separate app, everything just lives within the existing Grok Voice interface in your Tesla (as shown in my Model Y below).\n\nOne good use case for Grok Bot in your Tesla: You get in, tell Grok Bot to order coffee at a location of your choice, and while your Tesla drives you to the coffee shop using FSD (Supervised), Grok places the order so it’s ready when you arrive.\n\nGrok Bot in Tesla vehicles is currently only available to SuperGrok Heavy users, but will expand to more owners later. Connectors are available to all users.",
-      "quote": null,
-      "retweet": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 00:17:48",
-        "created_at_utc": "2026-09-22T16:17:48.000Z",
-        "id": "2102432181666590951",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102432035864272896/img/lyxy4Sg4GJe8kRUY.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102432035864272896/vid/avc1/3840x2160/gDIl9vdGIdeu6V9l.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102432035864272896/img/lyxy4Sg4GJe8kRUY.jpg",
-            "width": 3840,
-            "height": 2160,
-            "duration": 96.128
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "Grok Bot has just officially launched in @Tesla vehicles.\n\nI got early access a couple weeks ago. You can order stuff on online (such as Amazon), manage your email, calendar, finances, or other tasks through Grok @Bot using just your voice in your Tesla.\n\nThere is no separate app, everything just lives within the existing Grok Voice interface in your Tesla (as shown in my Model Y below).\n\nOne good use case for Grok Bot in your Tesla: You get in, tell Grok Bot to order coffee at a location of your choice, and while your Tesla drives you to the coffee shop using FSD (Supervised), Grok places the order so it’s ready when you arrive.\n\nGrok Bot in Tesla vehicles is currently only available to SuperGrok Heavy users, but will expand to more owners later. Connectors are available to all users.",
-        "url": "https://x.com/SawyerMerritt/status/2102432181666590951",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1212,
-        "likes": 7645,
-        "quotes": 180,
-        "replies": 392,
-        "retweets": 777,
-        "views": 908793
-      },
-      "url": "https://x.com/elonmusk/status/2102437848549147065",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102432035864272896/img/lyxy4Sg4GJe8kRUY.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102432035864272896/vid/avc1/3840x2160/gDIl9vdGIdeu6V9l.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102432035864272896/img/lyxy4Sg4GJe8kRUY.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 96.128
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2102430276450390482",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T16:10:13.000Z",
-      "created_at_shanghai": "2026-09-23 00:10:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Interesting",
-      "quote": {
-        "author": "herbertong",
-        "avatar": "https://pbs.twimg.com/profile_images/2006760109674999809/DCuTxqri_200x200.jpg",
-        "created_at_shanghai": "2026-09-20 21:46:35",
-        "created_at_utc": "2026-09-20T13:46:35.000Z",
-        "id": "2101669351778902086",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2101669229900828672/img/h_dwG7HjrLakjaHQ.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2101669229900828672/vid/avc1/1280x720/mlPFeqJ5NP14lD-u.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101669229900828672/img/h_dwG7HjrLakjaHQ.jpg",
-            "width": 1280,
-            "height": 720,
-            "duration": 340.2
-          }
-        ],
-        "name": "Herbert Ong",
-        "text": "🚨 Cathie Wood’s Starship math gets crazy very quickly!\n\nLarry Goldberg  @TeslaLarry breaks down ARK’s estimate that a single Starship launch could eventually generate around $1 BILLION in connectivity revenue.\n\nNow combine that with Elon’s goal of 10,000 Starship flights per year.\n\nThe theoretical math? Up to $10 TRILLION in annual revenue.\n\nOf course, there are huge assumptions here. Bandwidth demand, launch cadence, pricing, and network capacity all have to scale.\n\nBut that’s the bigger point.\n\nIf Starship goes from occasional launches to multiple flights per day, SpaceX starts looking like something very different from a rocket company.\n\nAnd orbital data centers could add another layer on top.\n\nThe numbers are speculative. The scale of the idea isn’t. $SPCX",
-        "url": "https://x.com/herbertong/status/2101669351778902086",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 643,
-        "likes": 6481,
-        "quotes": 60,
-        "replies": 628,
-        "retweets": 1033,
-        "views": 3249754
-      },
-      "url": "https://x.com/elonmusk/status/2102430276450390482",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 100,
-  "total": 2596,
+  "total": 2598,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-19 14:04:59",
+  "updated_at_shanghai": "2026-11-19 14:12:55",
   "account": "elonmusk"
 }
