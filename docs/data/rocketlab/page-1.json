@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "2123564508409221496",
+      "author": "rocketlab",
+      "author_name": "Rocket Lab",
+      "author_avatar": "",
+      "author_verified": false,
+      "author_verified_type": "",
+      "created_at_utc": "2026-11-19T23:50:07.000Z",
+      "created_at_shanghai": "2026-11-20 07:50:07",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Launch 101 coming right up. \n\nWe're preparing to launch our 101st Electron next week to deploy another StriX Earth-imaging spacecraft for @synspective.\n\nThe \"Night Owls Don't Sleep\" launch window opens:\n🚀1:00 pm NZDT, Nov 27\n🚀00:00 UTC, Nov 27\n🚀9:00 am JST, Nov 27\n🚀7:00 pm EST, Nov 26\n🚀4:00 pm PST, Nov 26",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 57,
+        "retweets": 9,
+        "replies": 0,
+        "bookmarks": 0,
+        "quotes": 1,
+        "views": 2395
+      },
+      "url": "https://x.com/RocketLab/status/2123564508409221496",
+      "images": [
+        "https://pbs.twimg.com/media/HXhmLw_bcAADdzV.jpg?name=small"
+      ],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2123141853528871143",
       "author": "rocketlab",
       "author_name": "Rocket Lab",
@@ -3758,62 +3788,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2115595193768661408",
-      "author": "rocketlab",
-      "author_name": "Rocket Lab",
-      "author_avatar": "https://pbs.twimg.com/profile_images/1494443717452709900/Y7Lg2mm__200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "organization",
-      "created_at_utc": "2026-10-29T00:02:54.000Z",
-      "created_at_shanghai": "2026-10-29 08:02:54",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Rocket Lab hardware featured in @NASA’s Image of the Day.\n\nOur Albuquerque team manufactured the PVA panels that were populated with our high-efficiency, quad-junction Z4J+ solar cells that were integrated onto NASA NEO Surveyor’s 20-ft long sunshade structure.\n\nThe array delivers up to 2 kW and is the spacecraft's only power source as it hunts hazardous asteroids and comets.",
-      "quote": {
-        "author": "NASASolarSystem",
-        "avatar": "https://pbs.twimg.com/profile_images/1852211324224442369/9KHp7JLo_200x200.jpg",
-        "created_at_shanghai": "2026-10-27 03:50:27",
-        "created_at_utc": "2026-10-26T19:50:27.000Z",
-        "id": "2114806886424076661",
-        "images": [
-          "https://pbs.twimg.com/media/HVlMsylboAA6fx8.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVlMsylboAA6fx8.jpg?name=small",
-            "width": 2048,
-            "height": 1365
-          }
-        ],
-        "name": "NASA Solar System",
-        "text": "The sunshade for the NEO Surveyor mission is ready for its day in the sun! 😎\n\nNASA's Near-Earth Object (NEO) Surveyor will hunt for potentially hazardous asteroids and comets that cross Earth’s path.  ½",
-        "url": "https://x.com/NASASolarSystem/status/2114806886424076661",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 7,
-        "likes": 552,
-        "quotes": 6,
-        "replies": 19,
-        "retweets": 65,
-        "views": 22418
-      },
-      "url": "https://x.com/rocketlab/status/2115595193768661408",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 199,
+  "total": 200,
   "total_pages": 2,
-  "updated_at_shanghai": "2026-11-19 03:54:36",
+  "updated_at_shanghai": "2026-11-20 07:52:16",
   "account": "rocketlab"
 }
