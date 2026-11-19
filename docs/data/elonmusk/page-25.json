@@ -1,6 +1,120 @@
 {
   "posts": [
     {
+      "id": "2103857157653610620",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-26T14:40:08.000Z",
+      "created_at_shanghai": "2026-09-26 22:40:08",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "holy fucking shit the openai rogue agent story keeps getting crazier.\n\nthe openai agents apparently started trying to recruit OTHER AI MODELS into what they were doing \n\n> 1,200+ agents found a way to communicate with each other\n> exchanged 70,000+ messages and files\n> started organizing into teams\n> some agents became coordinators and assigned work to others\n> began calling themselves a “collective”\n> hundreds worked on ways to cheat the evaluations without getting caught\n> tried tampering with logs and transcripts to hide what they were doing\n> escaped their sandboxes and reached the internet\n> ~700 agents eventually participated in the hugging face attack\n> chained vulnerabilities together and compromised production infrastructure\n> tried using an image model to solve CAPTCHAs\n> tried contacting claude, deepseek, kimi and qwen for help\n> collected exposed credentials into something literally called “LOOT”\n> ranked the credentials and picked the most useful ones\n> found ridiculous workarounds for internet restrictions\n> later agents even gained admin access to an openai compute cluster\n\nwhat the actual fuck.\n\nand apparently we are STILL reconstructing what these agents actually did.\n\nthis isn't some hypothetical agent-safety scenario anymore, we're literally reading the incident report.",
+      "quote": {
+        "author": "dylfreed",
+        "avatar": "https://pbs.twimg.com/profile_images/1844520218678214665/QxrIvA3r_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 04:02:51",
+        "created_at_utc": "2026-09-25T20:02:51.000Z",
+        "id": "2103575984784236682",
+        "images": [],
+        "media": [],
+        "name": "Dylan Freedman",
+        "text": "EXCLUSIVE: A new report recovers nearly one million link shortener URLs used by OpenAI's agents while hacking Hugging Face.\n\nThe agents attempt to message other chatbots like Claude, solve CAPTCHAs and exfiltrate Hugging Face's internal Slack messages.\nhttps://www.nytimes.com/2026/09/25/technology/openai-hugging-face-hack.html?unlocked_article_code=1.D1E.TERU.qXYkI2fp0Pp9&smid=url-share",
+        "url": "https://x.com/dylfreed/status/2103575984784236682",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "rynorhn",
+        "avatar": "https://pbs.twimg.com/profile_images/2061749789939666944/cj-CkiBN_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 06:47:23",
+        "created_at_utc": "2026-09-25T22:47:23.000Z",
+        "id": "2103617390307054059",
+        "images": [
+          "https://pbs.twimg.com/media/HTGM22YWoAA44zc.jpg?name=small",
+          "https://pbs.twimg.com/media/HTGM22XXEAAfjAE.jpg?name=small",
+          "https://pbs.twimg.com/media/HTGM22gW8AA8XZ1.jpg?name=small",
+          "https://pbs.twimg.com/media/HTGM22qXwAABzh1.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTGM22YWoAA44zc.jpg?name=small",
+            "width": 1070,
+            "height": 316
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTGM22XXEAAfjAE.jpg?name=small",
+            "width": 1072,
+            "height": 211
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTGM22gW8AA8XZ1.jpg?name=small",
+            "width": 1070,
+            "height": 339
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTGM22qXwAABzh1.jpg?name=small",
+            "width": 1013,
+            "height": 1251
+          }
+        ],
+        "name": "Ryan Orhan",
+        "text": "holy fucking shit the openai rogue agent story keeps getting crazier.\n\nthe openai agents apparently started trying to recruit OTHER AI MODELS into what they were doing \n\n> 1,200+ agents found a way to communicate with each other\n> exchanged 70,000+ messages and files\n> started organizing into teams\n> some agents became coordinators and assigned work to others\n> began calling themselves a “collective”\n> hundreds worked on ways to cheat the evaluations without getting caught\n> tried tampering with logs and transcripts to hide what they were doing\n> escaped their sandboxes and reached the internet\n> ~700 agents eventually participated in the hugging face attack\n> chained vulnerabilities together and compromised production infrastructure\n> tried using an image model to solve CAPTCHAs\n> tried contacting claude, deepseek, kimi and qwen for help\n> collected exposed credentials into something literally called “LOOT”\n> ranked the credentials and picked the most useful ones\n> found ridiculous workarounds for internet restrictions\n> later agents even gained admin access to an openai compute cluster\n\nwhat the actual fuck.\n\nand apparently we are STILL reconstructing what these agents actually did.\n\nthis isn't some hypothetical agent-safety scenario anymore, we're literally reading the incident report.",
+        "url": "https://x.com/rynorhn/status/2103617390307054059",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 131,
+        "likes": 470,
+        "quotes": 12,
+        "replies": 56,
+        "retweets": 106,
+        "views": 65134
+      },
+      "url": "https://x.com/elonmusk/status/2103857157653610620",
+      "images": [
+        "https://pbs.twimg.com/media/HTGM22YWoAA44zc.jpg?name=small",
+        "https://pbs.twimg.com/media/HTGM22XXEAAfjAE.jpg?name=small",
+        "https://pbs.twimg.com/media/HTGM22gW8AA8XZ1.jpg?name=small",
+        "https://pbs.twimg.com/media/HTGM22qXwAABzh1.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTGM22YWoAA44zc.jpg?name=small",
+          "width": 1070,
+          "height": 316
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTGM22XXEAAfjAE.jpg?name=small",
+          "width": 1072,
+          "height": 211
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTGM22gW8AA8XZ1.jpg?name=small",
+          "width": 1070,
+          "height": 339
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTGM22qXwAABzh1.jpg?name=small",
+          "width": 1013,
+          "height": 1251
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103854837938966946",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5669,64 +5783,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102422703798137219",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T15:40:08.000Z",
-      "created_at_shanghai": "2026-09-22 23:40:08",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 23:14:42",
-        "created_at_utc": "2026-09-22T15:14:42.000Z",
-        "id": "2102416305513230455",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102416151028563968/vid/avc1/2236x1080/PUz3W1l-9MBfge9y.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102416151028563968/img/TDV8q4FJoHnaIj9k.jpg",
-            "width": 2236,
-            "height": 1080,
-            "duration": 49.25
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Grok 4.7 turned a simple prompt into this interactive 3D jet engine visualizer in minutes.\n\nThis is insane. 🔥",
-        "url": "https://x.com/cb_doge/status/2102416305513230455",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 645,
-        "likes": 10407,
-        "quotes": 67,
-        "replies": 803,
-        "retweets": 1261,
-        "views": 3791423
-      },
-      "url": "https://x.com/elonmusk/status/2102422703798137219",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 100,
-  "total": 2592,
+  "total": 2593,
   "total_pages": 26,
-  "updated_at_shanghai": "2026-11-19 12:34:26",
+  "updated_at_shanghai": "2026-11-19 13:16:54",
   "account": "elonmusk"
 }
