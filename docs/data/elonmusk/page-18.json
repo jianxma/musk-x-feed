@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2110521557886148903",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T00:02:05.000Z",
+      "created_at_shanghai": "2026-10-15 08:02:05",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok @bot now supports plus aliases! Send and receive email using dedicated aliases, or set up routines that only trigger for mail to a specific alias!",
+      "quote": null,
+      "retweet": {
+        "author": "SamSokolin",
+        "avatar": "https://pbs.twimg.com/profile_images/1992102498992046080/mzxbE_za_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 06:21:28",
+        "created_at_utc": "2026-10-14T22:21:28.000Z",
+        "id": "2110496237241667621",
+        "images": [
+          "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small",
+            "width": 3840,
+            "height": 2160
+          }
+        ],
+        "name": "Sam Sokolin",
+        "text": "Grok @bot now supports plus aliases! Send and receive email using dedicated aliases, or set up routines that only trigger for mail to a specific alias!",
+        "url": "https://x.com/SamSokolin/status/2110496237241667621",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 507,
+        "likes": 1473,
+        "quotes": 47,
+        "replies": 193,
+        "retweets": 119,
+        "views": 180389
+      },
+      "url": "https://x.com/elonmusk/status/2110521557886148903",
+      "images": [
+        "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110520607276499109",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5172,71 +5231,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109811103525958068",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T00:59:00.000Z",
-      "created_at_shanghai": "2026-10-13 08:59:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Finally my X bookmarks doing something. My Grok bot looks at what I bookmark, processes it and saves into my Second brain on Notion. From there all agents and workflows have access to it and I can also use notion ai to make sense of lots of new information",
-      "quote": null,
-      "retweet": {
-        "author": "mrfundman",
-        "avatar": "https://pbs.twimg.com/profile_images/1844590451933810701/SJ70OFpA_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 22:50:23",
-        "created_at_utc": "2026-10-12T14:50:23.000Z",
-        "id": "2109657940244480282",
-        "images": [
-          "https://pbs.twimg.com/media/HUcCt0zX0AA0Fy4.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUcCt0zX0AA0Fy4.jpg?name=small",
-            "width": 1320,
-            "height": 593
-          }
-        ],
-        "name": "mr fundman",
-        "text": "Finally my X bookmarks doing something. My Grok bot looks at what I bookmark, processes it and saves into my Second brain on Notion. From there all agents and workflows have access to it and I can also use notion ai to make sense of lots of new information",
-        "url": "https://x.com/mrfundman/status/2109657940244480282",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 156,
-        "likes": 579,
-        "quotes": 6,
-        "replies": 38,
-        "retweets": 57,
-        "views": 167439
-      },
-      "url": "https://x.com/elonmusk/status/2109811103525958068",
-      "images": [
-        "https://pbs.twimg.com/media/HUcCt0zX0AA0Fy4.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUcCt0zX0AA0Fy4.jpg?name=small",
-          "width": 1320,
-          "height": 593
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 100,
-  "total": 2627,
+  "total": 2628,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 18:26:15",
+  "updated_at_shanghai": "2026-11-20 18:38:06",
   "account": "elonmusk"
 }

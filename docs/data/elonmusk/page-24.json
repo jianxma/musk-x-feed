@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2105533964480086036",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T05:43:10.000Z",
+      "created_at_shanghai": "2026-10-01 13:43:10",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "No company inspires me more than @SpaceX.",
+      "quote": null,
+      "retweet": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 13:21:00",
+        "created_at_utc": "2026-10-01T05:21:00.000Z",
+        "id": "2105528385413976565",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2105526774998151168/img/Phg56ntE9c2WepKS.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105526774998151168/vid/avc1/3840x2160/VAKGBrU2CbCsKyCA.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105526774998151168/img/Phg56ntE9c2WepKS.jpg",
+            "width": 3840,
+            "height": 2160,
+            "duration": 97.25
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "No company inspires me more than @SpaceX.",
+        "url": "https://x.com/SawyerMerritt/status/2105528385413976565",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 44,
+        "likes": 1063,
+        "quotes": 18,
+        "replies": 97,
+        "retweets": 123,
+        "views": 43952
+      },
+      "url": "https://x.com/elonmusk/status/2105533964480086036",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2105526774998151168/img/Phg56ntE9c2WepKS.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2105526774998151168/vid/avc1/3840x2160/VAKGBrU2CbCsKyCA.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105526774998151168/img/Phg56ntE9c2WepKS.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 97.25
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2105463042305667103",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5758,53 +5821,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2104287530606907824",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-27T19:10:17.000Z",
-      "created_at_shanghai": "2026-09-28 03:10:17",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok 4.7 is insanely good.\n\nThe model is not the bottleneck anymore. I believe harness reliability and everything around it is...\n\nI read almost every comment on my \"Week 1 at SpaceXAI\" post, and one thing surprised me.\n\nNot many people said \"make Grok smarter\", but rather make the agents and bots finish the work 😅\n\n> don't stop halfway through\n> don't lose the browser\n> don't forget what you're doing\n> don't get stuck and wait for me to notice\n\nThat's actually a great problem to have. People are already using Grok for real work (love that!). Now the rest of the system needs to be as reliable as the model is capable.\n\nTools, browser, memory, state, retries, errors... There are so many ways an agent can fail even when the model knows exactly what to do.\n\nBeen working on some of that 👀",
-      "quote": null,
-      "retweet": {
-        "author": "larsencc",
-        "avatar": "https://pbs.twimg.com/profile_images/1903676613335937024/ZHHPeMPx_200x200.jpg",
-        "created_at_shanghai": "2026-09-28 01:55:33",
-        "created_at_utc": "2026-09-27T17:55:33.000Z",
-        "id": "2104268724480209018",
-        "images": [],
-        "media": [],
-        "name": "Larsen Cundric",
-        "text": "Grok 4.7 is insanely good.\n\nThe model is not the bottleneck anymore. I believe harness reliability and everything around it is...\n\nI read almost every comment on my \"Week 1 at SpaceXAI\" post, and one thing surprised me.\n\nNot many people said \"make Grok smarter\", but rather make the agents and bots finish the work 😅\n\n> don't stop halfway through\n> don't lose the browser\n> don't forget what you're doing\n> don't get stuck and wait for me to notice\n\nThat's actually a great problem to have. People are already using Grok for real work (love that!). Now the rest of the system needs to be as reliable as the model is capable.\n\nTools, browser, memory, state, retries, errors... There are so many ways an agent can fail even when the model knows exactly what to do.\n\nBeen working on some of that 👀",
-        "url": "https://x.com/larsencc/status/2104268724480209018",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 12,
-        "likes": 198,
-        "quotes": 0,
-        "replies": 38,
-        "retweets": 25,
-        "views": 16960
-      },
-      "url": "https://x.com/elonmusk/status/2104287530606907824",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 24,
   "page_size": 100,
-  "total": 2627,
+  "total": 2628,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 18:26:15",
+  "updated_at_shanghai": "2026-11-20 18:38:06",
   "account": "elonmusk"
 }

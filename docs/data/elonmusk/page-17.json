@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110913612030329197",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T01:59:58.000Z",
+      "created_at_shanghai": "2026-10-16 09:59:58",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "so we got flying cars before GTA 6 😂",
+      "quote": null,
+      "retweet": {
+        "author": "veggie_eric",
+        "avatar": "https://pbs.twimg.com/profile_images/1863076230775373824/BysAhNNK_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 09:55:24",
+        "created_at_utc": "2026-10-16T01:55:24.000Z",
+        "id": "2110912461591413217",
+        "images": [],
+        "media": [],
+        "name": "Eric Jiang",
+        "text": "so we got flying cars before GTA 6 😂",
+        "url": "https://x.com/veggie_eric/status/2110912461591413217",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 197,
+        "likes": 17643,
+        "quotes": 77,
+        "replies": 271,
+        "retweets": 1112,
+        "views": 448994
+      },
+      "url": "https://x.com/elonmusk/status/2110913612030329197",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110913538134843634",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5385,71 +5426,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110521557886148903",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T00:02:05.000Z",
-      "created_at_shanghai": "2026-10-15 08:02:05",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok @bot now supports plus aliases! Send and receive email using dedicated aliases, or set up routines that only trigger for mail to a specific alias!",
-      "quote": null,
-      "retweet": {
-        "author": "SamSokolin",
-        "avatar": "https://pbs.twimg.com/profile_images/1992102498992046080/mzxbE_za_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 06:21:28",
-        "created_at_utc": "2026-10-14T22:21:28.000Z",
-        "id": "2110496237241667621",
-        "images": [
-          "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small",
-            "width": 3840,
-            "height": 2160
-          }
-        ],
-        "name": "Sam Sokolin",
-        "text": "Grok @bot now supports plus aliases! Send and receive email using dedicated aliases, or set up routines that only trigger for mail to a specific alias!",
-        "url": "https://x.com/SamSokolin/status/2110496237241667621",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 507,
-        "likes": 1473,
-        "quotes": 47,
-        "replies": 193,
-        "retweets": 119,
-        "views": 180389
-      },
-      "url": "https://x.com/elonmusk/status/2110521557886148903",
-      "images": [
-        "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_.png?name=small",
-          "width": 3840,
-          "height": 2160
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 100,
-  "total": 2627,
+  "total": 2628,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 18:26:15",
+  "updated_at_shanghai": "2026-11-20 18:38:06",
   "account": "elonmusk"
 }
