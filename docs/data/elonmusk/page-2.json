@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2122757100434780301",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-17T18:21:46.000Z",
+      "created_at_shanghai": "2026-11-18 02:21:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Not \"pretty darn close\".\n\nStarlink: \n~100 Mbps down\n~20 Mbps up, \nLatency ~30 ms\n\nViaSat: \n~`10 Mbps down \n~2 Mbps up\nLatency > 600 ms as the floor (can't get better).\n\nOrder of magnitude difference.",
+      "quote": {
+        "author": "pbeisel",
+        "name": "phil beisel",
+        "text": "Not \"pretty darn close\".\n\nStarlink: \n~100 Mbps down\n~20 Mbps up, \nLatency ~30 ms\n\nViaSat: \n~`10 Mbps down \n~2 Mbps up\nLatency > 600 ms as the floor (can't get better).\n\nOrder of magnitude difference.",
+        "url": "https://x.com/pbeisel/status/2122697537693872373"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 21,
+        "likes": 1149,
+        "quotes": 10,
+        "replies": 61,
+        "retweets": 114,
+        "views": 52239
+      },
+      "url": "https://x.com/elonmusk/status/2122757100434780301",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2122750913991631109",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5311,64 +5344,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2122127527040712704",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-16T00:40:04.000Z",
-      "created_at_shanghai": "2026-11-16 08:40:04",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starlink helps rural schools with education",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-11-15 21:17:51",
-        "created_at_utc": "2026-11-15T13:17:51.000Z",
-        "id": "2121955840370614708",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2121955796431032320/img/A07_A9kkr1ta7KY5.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2121955796431032320/vid/avc1/720x720/tW2wcWiuNgn-spYw.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121955796431032320/img/A07_A9kkr1ta7KY5.jpg",
-            "width": 720,
-            "height": 720,
-            "duration": 10.133
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Every rural municipal school in Rondonópolis, Brazil, now has Starlink internet. 🇧🇷\n\nStudents and teachers can now access digital libraries, educational videos and online learning tools.\n\nSpaceX is bringing a world of knowledge to remote classrooms. ♥️",
-        "url": "https://x.com/cb_doge/status/2121955840370614708",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 75,
-        "likes": 3196,
-        "quotes": 33,
-        "replies": 405,
-        "retweets": 320,
-        "views": 499379
-      },
-      "url": "https://x.com/elonmusk/status/2122127527040712704",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 100,
-  "total": 2621,
+  "total": 2622,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 07:58:26",
+  "updated_at_shanghai": "2026-11-20 08:06:45",
   "account": "elonmusk"
 }
