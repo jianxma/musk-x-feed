@@ -1,6 +1,60 @@
 {
   "posts": [
     {
+      "id": "2107876662138532294",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T16:52:13.000Z",
+      "created_at_shanghai": "2026-10-08 00:52:13",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "And yet again.\nI ask my family:\nDid you see or hear about what is going on in the world?\n\nOne answer keeps coming:\nNO.\n\nIf you aren’t on X, i\nYou oblivious to what is going on in the world.",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 00:25:40",
+        "created_at_utc": "2026-10-07T16:25:40.000Z",
+        "id": "2107869981035942207",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@KanekoaTheGreat And yet again it happens",
+        "url": "https://x.com/elonmusk/status/2107869981035942207",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "TheCaptainEli",
+        "avatar": "https://pbs.twimg.com/profile_images/1997753138426613760/EZDpm91Z_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 00:27:12",
+        "created_at_utc": "2026-10-07T16:27:12.000Z",
+        "id": "2107870365879795753",
+        "images": [],
+        "media": [],
+        "name": "Captain Eli",
+        "text": "And yet again.\nI ask my family:\nDid you see or hear about what is going on in the world?\n\nOne answer keeps coming:\nNO.\n\nIf you aren’t on X, i\nYou oblivious to what is going on in the world.",
+        "url": "https://x.com/TheCaptainEli/status/2107870365879795753",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 44,
+        "likes": 1384,
+        "quotes": 9,
+        "replies": 74,
+        "retweets": 174,
+        "views": 247355
+      },
+      "url": "https://x.com/elonmusk/status/2107876662138532294",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107876487454179416",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5607,71 +5661,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2106764384924024964",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-04T15:12:25.000Z",
-      "created_at_shanghai": "2026-10-04 23:12:25",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It looks like I might have underestimated Grok 4.7, this is a very good model.\n\nIt just scored the highest on Frontier v4 beating GPT-6.1 Sol, Opus 5.5, and GPT-6 Astra at every effort level.",
-      "quote": null,
-      "retweet": {
-        "author": "morganlinton",
-        "avatar": "https://pbs.twimg.com/profile_images/2058612692580184064/h0dOdYSc_200x200.jpg",
-        "created_at_shanghai": "2026-10-04 21:24:53",
-        "created_at_utc": "2026-10-04T13:24:53.000Z",
-        "id": "2106737322255622550",
-        "images": [
-          "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small",
-            "width": 2400,
-            "height": 2475
-          }
-        ],
-        "name": "Morgan",
-        "text": "It looks like I might have underestimated Grok 4.7, this is a very good model.\n\nIt just scored the highest on Frontier v4 beating GPT-6.1 Sol, Opus 5.5, and GPT-6 Astra at every effort level.",
-        "url": "https://x.com/morganlinton/status/2106737322255622550",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 57,
-        "likes": 670,
-        "quotes": 17,
-        "replies": 81,
-        "retweets": 76,
-        "views": 88484
-      },
-      "url": "https://x.com/elonmusk/status/2106764384924024964",
-      "images": [
-        "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small",
-          "width": 2400,
-          "height": 2475
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 22,
   "page_size": 100,
-  "total": 2650,
+  "total": 2651,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 02:03:36",
+  "updated_at_shanghai": "2026-11-21 02:31:44",
   "account": "elonmusk"
 }

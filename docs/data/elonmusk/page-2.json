@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2122936375762936124",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-18T06:14:08.000Z",
+      "created_at_shanghai": "2026-11-18 14:14:08",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "It was the smartest of times\nIt was the dumbest of times",
+      "quote": {
+        "author": "elonmusk",
+        "name": "Elon Musk",
+        "text": "It was the smartest of times\nIt was the dumbest of times",
+        "url": "https://x.com/elonmusk/status/2122925042400895056"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 557,
+        "likes": 17027,
+        "quotes": 292,
+        "replies": 1970,
+        "retweets": 1663,
+        "views": 875772
+      },
+      "url": "https://x.com/elonmusk/status/2122936375762936124",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2122936119448764559",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5156,71 +5189,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2122334993737240623",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-16T14:24:28.000Z",
-      "created_at_shanghai": "2026-11-16 22:24:28",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "If Starship were its own launch company, it would already be number 2 in the US by payload to orbit.\n\n(behind SpaceX Falcon 9).",
-      "quote": null,
-      "retweet": {
-        "author": "ApoStructura",
-        "avatar": "https://pbs.twimg.com/profile_images/2066259948938342400/o8X5jtKr_200x200.jpg",
-        "created_at_shanghai": "2026-11-16 17:44:05",
-        "created_at_utc": "2026-11-16T09:44:05.000Z",
-        "id": "2122264436069339575",
-        "images": [
-          "https://pbs.twimg.com/media/HXPMBjDWQAE9PHQ.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HXPMBjDWQAE9PHQ.jpg?name=small",
-            "width": 3000,
-            "height": 3840
-          }
-        ],
-        "name": "ApoStructura",
-        "text": "If Starship were its own launch company, it would already be number 2 in the US by payload to orbit.\n\n(behind SpaceX Falcon 9).",
-        "url": "https://x.com/ApoStructura/status/2122264436069339575",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 136,
-        "likes": 1875,
-        "quotes": 10,
-        "replies": 50,
-        "retweets": 146,
-        "views": 63610
-      },
-      "url": "https://x.com/elonmusk/status/2122334993737240623",
-      "images": [
-        "https://pbs.twimg.com/media/HXPMBjDWQAE9PHQ.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HXPMBjDWQAE9PHQ.jpg?name=small",
-          "width": 3000,
-          "height": 3840
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 100,
-  "total": 2650,
+  "total": 2651,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 02:03:36",
+  "updated_at_shanghai": "2026-11-21 02:31:44",
   "account": "elonmusk"
 }
