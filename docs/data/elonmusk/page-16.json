@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2111864930815402428",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T17:00:10.000Z",
+      "created_at_shanghai": "2026-10-19 01:00:10",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Talarico hates Texas",
+      "quote": {
+        "author": "KanekoaTheGreat",
+        "avatar": "https://pbs.twimg.com/profile_images/1612188077333835776/qxjhM55m_200x200.jpg",
+        "created_at_shanghai": "2026-10-19 00:26:42",
+        "created_at_utc": "2026-10-18T16:26:42.000Z",
+        "id": "2111856505977016757",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2111854119657058304/img/SQ-50OTu880No_7M.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2111854119657058304/vid/avc1/1080x1920/3z6xgtKqVEO4W3Km.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111854119657058304/img/SQ-50OTu880No_7M.jpg",
+            "width": 1080,
+            "height": 1920,
+            "duration": 91.033
+          }
+        ],
+        "name": "KanekoaTheGreat",
+        "text": "James Talarico, in his own words:\n\n\"God is non-binary.\"\n\n\"In fact, there are six\" biological sexes.\n\nWhat he calls women: \"neighbors with a uterus.\"\n\nParents who deny a child's gender identity: \"abusive for sure.\"\n\nEarly voting starts tomorrow, Texas.",
+        "url": "https://x.com/KanekoaTheGreat/status/2111856505977016757",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 455,
+        "likes": 13185,
+        "quotes": 174,
+        "replies": 1805,
+        "retweets": 2052,
+        "views": 3230226
+      },
+      "url": "https://x.com/elonmusk/status/2111864930815402428",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111842588126818619",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5761,75 +5813,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110946744230187048",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T04:11:37.000Z",
-      "created_at_shanghai": "2026-10-16 12:11:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Do a kickflip!",
-      "quote": null,
-      "retweet": {
-        "author": "Tesla",
-        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-        "created_at_shanghai": "2026-10-16 10:49:51",
-        "created_at_utc": "2026-10-16T02:49:51.000Z",
-        "id": "2110926164306931860",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110926020517732352/img/WPmLVVlfDd59KSqU.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110926020517732352/vid/avc1/3840x2160/MgRkcNHatljPDcgd.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110926020517732352/img/WPmLVVlfDd59KSqU.jpg",
-            "width": 3840,
-            "height": 2160,
-            "duration": 43.877
-          }
-        ],
-        "name": "Tesla",
-        "text": "Do a kickflip!",
-        "url": "https://x.com/Tesla/status/2110926164306931860",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 4848,
-        "likes": 46792,
-        "quotes": 2230,
-        "replies": 1237,
-        "retweets": 6445,
-        "views": 1828295
-      },
-      "url": "https://x.com/elonmusk/status/2110946744230187048",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110926020517732352/img/WPmLVVlfDd59KSqU.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110926020517732352/vid/avc1/3840x2160/MgRkcNHatljPDcgd.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110926020517732352/img/WPmLVVlfDd59KSqU.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 43.877
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 100,
-  "total": 2645,
+  "total": 2646,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 00:57:41",
+  "updated_at_shanghai": "2026-11-21 01:21:59",
   "account": "elonmusk"
 }
