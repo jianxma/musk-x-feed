@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108768021527613825",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T03:54:10.000Z",
+      "created_at_shanghai": "2026-10-10 11:54:10",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Obviously",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 11:53:21",
+        "created_at_utc": "2026-10-10T03:53:21.000Z",
+        "id": "2108767817390592266",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@ArthurMacwaters I stole the plan from @SouthPark",
+        "url": "https://x.com/elonmusk/status/2108767817390592266",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 174,
+        "likes": 5396,
+        "quotes": 48,
+        "replies": 683,
+        "retweets": 414,
+        "views": 1892618
+      },
+      "url": "https://x.com/elonmusk/status/2108768021527613825",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108761471056515429",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5319,62 +5360,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108182754969928184",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T13:08:31.000Z",
-      "created_at_shanghai": "2026-10-08 21:08:31",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starlink coming to KLM!",
-      "quote": {
-        "author": "SPCX100T",
-        "avatar": "https://pbs.twimg.com/profile_images/2059379945898450945/mdca7HgW_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 11:16:47",
-        "created_at_utc": "2026-10-08T03:16:47.000Z",
-        "id": "2108033839683739655",
-        "images": [
-          "https://pbs.twimg.com/media/HUE9mvkbYAAQ47G.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUE9mvkbYAAQ47G.jpg?name=small",
-            "width": 2048,
-            "height": 1374
-          }
-        ],
-        "name": "vincent",
-        "text": "📰 News: KLM has selected SpaceX $SPCX Starlink for fleet connectivity. CEO Marjan Rintel announced today that free high-speed Wi-Fi will roll out on intercontinental flights from mid-2027, with the full fleet targeted by mid-2028. Sister airline Air France is already flying",
-        "url": "https://x.com/SPCX100T/status/2108033839683739655",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 152,
-        "likes": 12219,
-        "quotes": 94,
-        "replies": 667,
-        "retweets": 1110,
-        "views": 1230709
-      },
-      "url": "https://x.com/elonmusk/status/2108182754969928184",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 100,
-  "total": 2632,
+  "total": 2633,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 19:24:12",
+  "updated_at_shanghai": "2026-11-20 19:34:13",
   "account": "elonmusk"
 }

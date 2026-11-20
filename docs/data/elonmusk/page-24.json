@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2105543480663806451",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T06:20:59.000Z",
+      "created_at_shanghai": "2026-10-01 14:20:59",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Introducing the newly refreshed Grokipedia. https://grokipedia.com/",
+      "quote": null,
+      "retweet": {
+        "author": "benjitaylor",
+        "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
+        "created_at_shanghai": "2026-10-01 05:45:38",
+        "created_at_utc": "2026-09-30T21:45:38.000Z",
+        "id": "2105413789256687696",
+        "images": [],
+        "media": [],
+        "name": "Benji Taylor",
+        "text": "Introducing the newly refreshed Grokipedia. https://grokipedia.com/",
+        "url": "https://x.com/benjitaylor/status/2105413789256687696",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 377,
+        "likes": 2909,
+        "quotes": 43,
+        "replies": 202,
+        "retweets": 200,
+        "views": 117031
+      },
+      "url": "https://x.com/elonmusk/status/2105543480663806451",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2105543421712843238",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5762,53 +5803,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2104361390123430335",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-28T00:03:47.000Z",
-      "created_at_shanghai": "2026-09-28 08:03:47",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starship Flight 14 aiming to launch tomorrow morning",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-09-28 07:38:07",
-        "created_at_utc": "2026-09-27T23:38:07.000Z",
-        "id": "2104354931595423762",
-        "images": [],
-        "media": [],
-        "name": "SpaceX",
-        "text": "Starship’s 14th flight is set to launch on Monday, Sept 28. The 75-minute launch window opens at 7:15 a.m. CT. Live coverage of the mission starts ~35 minutes before launch → https://x.com/i/broadcasts/1qxvvenMPMQxB",
-        "url": "https://x.com/SpaceX/status/2104354931595423762",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 381,
-        "likes": 18886,
-        "quotes": 205,
-        "replies": 1122,
-        "retweets": 1935,
-        "views": 3202051
-      },
-      "url": "https://x.com/elonmusk/status/2104361390123430335",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 24,
   "page_size": 100,
-  "total": 2632,
+  "total": 2633,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 19:24:12",
+  "updated_at_shanghai": "2026-11-20 19:34:13",
   "account": "elonmusk"
 }

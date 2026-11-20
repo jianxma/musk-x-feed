@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2113507085728240091",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-23T05:45:30.000Z",
+      "created_at_shanghai": "2026-10-23 13:45:30",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot can now use Calendar, Reminders, Contacts, and more apps on your phone.\n\nRolling out now on iOS and Android.",
+      "quote": null,
+      "retweet": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 06:14:53",
+        "created_at_utc": "2026-10-22T22:14:53.000Z",
+        "id": "2113393684209176718",
+        "images": [
+          "https://pbs.twimg.com/media/HVRHn--W4AAI_uQ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVRHn--W4AAI_uQ.jpg?name=small",
+            "width": 4096,
+            "height": 2304
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now use Calendar, Reminders, Contacts, and more apps on your phone.\n\nRolling out now on iOS and Android.",
+        "url": "https://x.com/bot/status/2113393684209176718",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2247,
+        "likes": 11362,
+        "quotes": 675,
+        "replies": 3041,
+        "retweets": 884,
+        "views": 1629055
+      },
+      "url": "https://x.com/elonmusk/status/2113507085728240091",
+      "images": [
+        "https://pbs.twimg.com/media/HVRHn--W4AAI_uQ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVRHn--W4AAI_uQ.jpg?name=small",
+          "width": 4096,
+          "height": 2304
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2113506948012298688",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5500,113 +5559,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2112916569282261152",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T14:39:00.000Z",
-      "created_at_shanghai": "2026-10-21 22:39:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I’ve been using Grok Bot to prototype physical product ideas faster. I give it sketches and 3D models, and it helps me create technical diagrams, prepare RFQs, and communicate with manufacturers to bring them to life.\n\nHere’s one of the pieces I worked on: Hyperbole",
-      "quote": null,
-      "retweet": {
-        "author": "benjitaylor",
-        "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
-        "created_at_shanghai": "2026-10-21 02:11:57",
-        "created_at_utc": "2026-10-20T18:11:57.000Z",
-        "id": "2112607770986029172",
-        "images": [
-          "https://pbs.twimg.com/media/HVF9Z7Eb0AENS4a.jpg?name=small",
-          "https://pbs.twimg.com/media/HVF9akDa8AAFMAL.jpg?name=small",
-          "https://pbs.twimg.com/media/HVF9bULacAAO2CE.jpg?name=small",
-          "https://pbs.twimg.com/media/HVF9b-1bsAAQnFG.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVF9Z7Eb0AENS4a.jpg?name=small",
-            "width": 1638,
-            "height": 2048
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVF9akDa8AAFMAL.jpg?name=small",
-            "width": 1638,
-            "height": 2048
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVF9bULacAAO2CE.jpg?name=small",
-            "width": 1638,
-            "height": 2048
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVF9b-1bsAAQnFG.jpg?name=small",
-            "width": 1638,
-            "height": 2048
-          }
-        ],
-        "name": "Benji Taylor",
-        "text": "I’ve been using Grok Bot to prototype physical product ideas faster. I give it sketches and 3D models, and it helps me create technical diagrams, prepare RFQs, and communicate with manufacturers to bring them to life.\n\nHere’s one of the pieces I worked on: Hyperbole",
-        "url": "https://x.com/benjitaylor/status/2112607770986029172",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 319,
-        "likes": 1803,
-        "quotes": 15,
-        "replies": 141,
-        "retweets": 103,
-        "views": 164448
-      },
-      "url": "https://x.com/elonmusk/status/2112916569282261152",
-      "images": [
-        "https://pbs.twimg.com/media/HVF9Z7Eb0AENS4a.jpg?name=small",
-        "https://pbs.twimg.com/media/HVF9akDa8AAFMAL.jpg?name=small",
-        "https://pbs.twimg.com/media/HVF9bULacAAO2CE.jpg?name=small",
-        "https://pbs.twimg.com/media/HVF9b-1bsAAQnFG.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVF9Z7Eb0AENS4a.jpg?name=small",
-          "width": 1638,
-          "height": 2048
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVF9akDa8AAFMAL.jpg?name=small",
-          "width": 1638,
-          "height": 2048
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVF9bULacAAO2CE.jpg?name=small",
-          "width": 1638,
-          "height": 2048
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVF9b-1bsAAQnFG.jpg?name=small",
-          "width": 1638,
-          "height": 2048
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 100,
-  "total": 2632,
+  "total": 2633,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 19:24:12",
+  "updated_at_shanghai": "2026-11-20 19:34:13",
   "account": "elonmusk"
 }
