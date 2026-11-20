@@ -1,6 +1,305 @@
 {
   "posts": [
     {
+      "id": "2113506948012298688",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-23T05:44:58.000Z",
+      "created_at_shanghai": "2026-10-23 13:44:58",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot 0.75.2 is awesome.\n\nSpaceXSI is moving fast with new features daily.",
+      "quote": {
+        "author": "ericzakariasson",
+        "avatar": "https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 08:13:41",
+        "created_at_utc": "2026-10-23T00:13:41.000Z",
+        "id": "2113423577408278903",
+        "images": [
+          "https://pbs.twimg.com/media/HVRjiT9aUAAoKDf.jpg?name=small",
+          "https://pbs.twimg.com/media/HVRjifCaAAAi0sl.jpg?name=small",
+          "https://pbs.twimg.com/media/HVRjipSa0AA0W-H.jpg?name=small",
+          "https://pbs.twimg.com/media/HVRji0SbQAAvLcv.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVRjiT9aUAAoKDf.jpg?name=small",
+            "width": 1080,
+            "height": 1350
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVRjifCaAAAi0sl.jpg?name=small",
+            "width": 1080,
+            "height": 1350
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVRjipSa0AA0W-H.jpg?name=small",
+            "width": 1080,
+            "height": 1350
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVRji0SbQAAvLcv.jpg?name=small",
+            "width": 1080,
+            "height": 1350
+          }
+        ],
+        "name": "eric zakariasson",
+        "text": "grok @bot 0.75.2 is out!\n\n- pages: reports, memos and dashboards your bot builds and keeps up to date\n- new cards in every desktop chat\n- bots can make videos from a description or an image\n\nand a lot more! read everything in the changelog: https://x.ai/changelog/bot",
+        "url": "https://x.com/ericzakariasson/status/2113423577408278903",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "BrianRoemmele",
+        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
+        "created_at_shanghai": "2026-10-23 10:12:17",
+        "created_at_utc": "2026-10-23T02:12:17.000Z",
+        "id": "2113453425400898020",
+        "images": [],
+        "media": [],
+        "name": "Brian Roemmele",
+        "text": "Grok Bot 0.75.2 is awesome.\n\nSpaceXSI is moving fast with new features daily.",
+        "url": "https://x.com/BrianRoemmele/status/2113453425400898020",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 48,
+        "likes": 536,
+        "quotes": 5,
+        "replies": 28,
+        "retweets": 67,
+        "views": 191211
+      },
+      "url": "https://x.com/elonmusk/status/2113506948012298688",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2113506760006984102",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-23T05:44:13.000Z",
+      "created_at_shanghai": "2026-10-23 13:44:13",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Intel CTO explains why Intel is helping Elon Musk build Terafab, and what a new fab needs besides tools\n\nDWARKESH: “I think it’ll be interesting to discuss the partnership you guys have with Elon on Terafab. What’s going on there?”\n\nPUSHKAR RANADE (CTO): “Well, I think Elon’s publicly talked about his desire to build a fab.”\n\n[Musk clip spliced in]: “We either build the Terafab or we don’t have the chips. And we need the chips, so we’re going to build the Terafab.”\n\nRANADE: “Sort of the same thinking. I think he’s seeing just an enormous increase in demand for silicon, for compute and for memory. And I think he came to the conclusion that his own businesses are going to require a lot of silicon. And so he thought maybe he should just do it all on his own. Unlike building a car, for example, this is such an intricate and complicated process. We thought we could work together to help accelerate his bringing up his fab.”\n\nDWARKESH: “But because of the bottleneck at the tool level, it seems like the net amount of silicon in the world won’t increase. It’s just that maybe if somebody were to start a new fab, they would get access to guaranteed supply in a way that they wouldn’t have if they’re working with another person’s foundry.”\n\nRANADE: “It’s actually not just tools. I mean, a fab does require a lot of power, a lot of water, a lot of consumables. There’s many other input variables as well.”\n\nDWARKESH: “But those can be scaled in the way that tools cannot.”\n\nRANADE: “Yea. Some more than others, but yes. In one sense, yes, we need a lot more equipment. But it is true, we also need a lot more just raw fab space, raw clean room capacity.”",
+      "quote": {
+        "author": "firesidealpha",
+        "avatar": "https://pbs.twimg.com/profile_images/2066254089756061697/MGnZGljz_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 00:39:29",
+        "created_at_utc": "2026-10-22T16:39:29.000Z",
+        "id": "2113309275594576095",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2113308519147655174/img/5aZDOkiCh7J0VDjM.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2113308519147655174/vid/avc1/1920x1080/lkkneDvsUH10x6bB.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113308519147655174/img/5aZDOkiCh7J0VDjM.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 44.01
+          }
+        ],
+        "name": "Fireside Alpha",
+        "text": "DEVELOPING: American Airlines CEO backs Starlink when pressed on Elon Musk and Ukraine, saying customers demand the \"best\" connectivity\n\nLEBEAU: “...But it raises the question, are you comfortable doing business with Starlink?”\n\nROBERT ISOM (CEO): “American has always been the leader in satellite Wi-Fi. We’ve had more aircraft equipped with satellite Wi-Fi than anybody for longer. As we take a look forward, our customers, they want connectivity. They demand it. And this is something that we are going to make sure that our customers have the best product in the marketplace.”\n\nLEBEAU: “And that means Starlink?”\n\nISOM: “It’s Starlink.”",
+        "url": "https://x.com/firesidealpha/status/2113309275594576095",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "firesidealpha",
+        "avatar": "https://pbs.twimg.com/profile_images/2066254089756061697/MGnZGljz_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 01:34:21",
+        "created_at_utc": "2026-10-22T17:34:21.000Z",
+        "id": "2113323085252415883",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2113322560637284352/img/DNgRykubDgGpgeLs.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2113322560637284352/vid/avc1/1920x1080/p5t2X0g9HONtxoeu.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113322560637284352/img/DNgRykubDgGpgeLs.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 104.187
+          }
+        ],
+        "name": "Fireside Alpha",
+        "text": "Intel CTO explains why Intel is helping Elon Musk build Terafab, and what a new fab needs besides tools\n\nDWARKESH: “I think it’ll be interesting to discuss the partnership you guys have with Elon on Terafab. What’s going on there?”\n\nPUSHKAR RANADE (CTO): “Well, I think Elon’s publicly talked about his desire to build a fab.”\n\n[Musk clip spliced in]: “We either build the Terafab or we don’t have the chips. And we need the chips, so we’re going to build the Terafab.”\n\nRANADE: “Sort of the same thinking. I think he’s seeing just an enormous increase in demand for silicon, for compute and for memory. And I think he came to the conclusion that his own businesses are going to require a lot of silicon. And so he thought maybe he should just do it all on his own. Unlike building a car, for example, this is such an intricate and complicated process. We thought we could work together to help accelerate his bringing up his fab.”\n\nDWARKESH: “But because of the bottleneck at the tool level, it seems like the net amount of silicon in the world won’t increase. It’s just that maybe if somebody were to start a new fab, they would get access to guaranteed supply in a way that they wouldn’t have if they’re working with another person’s foundry.”\n\nRANADE: “It’s actually not just tools. I mean, a fab does require a lot of power, a lot of water, a lot of consumables. There’s many other input variables as well.”\n\nDWARKESH: “But those can be scaled in the way that tools cannot.”\n\nRANADE: “Yea. Some more than others, but yes. In one sense, yes, we need a lot more equipment. But it is true, we also need a lot more just raw fab space, raw clean room capacity.”",
+        "url": "https://x.com/firesidealpha/status/2113323085252415883",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 185,
+        "likes": 752,
+        "quotes": 11,
+        "replies": 26,
+        "retweets": 113,
+        "views": 232248
+      },
+      "url": "https://x.com/elonmusk/status/2113506760006984102",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2113322560637284352/img/DNgRykubDgGpgeLs.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2113322560637284352/vid/avc1/1920x1080/p5t2X0g9HONtxoeu.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113322560637284352/img/DNgRykubDgGpgeLs.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 104.187
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2113506640288694445",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-23T05:43:44.000Z",
+      "created_at_shanghai": "2026-10-23 13:43:44",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "You can tell a lot about James Talarico by who he compares to al Qaeda and the Taliban—roughly half of American voters \n\nTexas, please don’t send Mr. Talarico to the U.S. Senate",
+      "quote": {
+        "author": "america",
+        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 00:00:01",
+        "created_at_utc": "2026-10-22T16:00:01.000Z",
+        "id": "2113299342186426434",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2090075300767924224/img/2JoTSPH5re_IdYvV.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2090075300767924224/vid/avc1/1920x1080/4OjEteY7_m434ppr.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2090075300767924224/img/2JoTSPH5re_IdYvV.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 55.704
+          }
+        ],
+        "name": "America",
+        "text": "Democrat Nominee for U.S. Senate in Texas James Talarico compares Republicans to Taliban and al-Qaeda",
+        "url": "https://x.com/america/status/2113299342186426434",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "BasedMikeLee",
+        "avatar": "https://pbs.twimg.com/profile_images/2097379040512643072/TUWueQG8_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 02:25:42",
+        "created_at_utc": "2026-10-22T18:25:42.000Z",
+        "id": "2113336007949238579",
+        "images": [],
+        "media": [],
+        "name": "Mike Lee",
+        "text": "You can tell a lot about James Talarico by who he compares to al Qaeda and the Taliban—roughly half of American voters \n\nTexas, please don’t send Mr. Talarico to the U.S. Senate",
+        "url": "https://x.com/BasedMikeLee/status/2113336007949238579",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 43,
+        "likes": 2415,
+        "quotes": 10,
+        "replies": 154,
+        "retweets": 558,
+        "views": 184231
+      },
+      "url": "https://x.com/elonmusk/status/2113506640288694445",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2113506512475718001",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-23T05:43:14.000Z",
+      "created_at_shanghai": "2026-10-23 13:43:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I asked Grok Bot to make a video about itself. \n\nIt did everything - set the storyline, found clips, cut and stitched them, and added the titles and music.\n\nI was particularly delighted by how it chose to end the video - @bot has a sense of humor 😂",
+      "quote": null,
+      "retweet": {
+        "author": "venturetwins",
+        "avatar": "https://pbs.twimg.com/profile_images/2080756230893838336/q4VqZuw2_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 08:28:02",
+        "created_at_utc": "2026-10-23T00:28:02.000Z",
+        "id": "2113427192382373931",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2113426813401911296/img/F5SlTz7X6JFECiaB.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2113426813401911296/vid/avc1/1280x720/gN8h9cUV-dnMH5IT.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113426813401911296/img/F5SlTz7X6JFECiaB.jpg",
+            "width": 1280,
+            "height": 720,
+            "duration": 71.509
+          }
+        ],
+        "name": "Justine Moore",
+        "text": "I asked Grok Bot to make a video about itself. \n\nIt did everything - set the storyline, found clips, cut and stitched them, and added the titles and music.\n\nI was particularly delighted by how it chose to end the video - @bot has a sense of humor 😂",
+        "url": "https://x.com/venturetwins/status/2113427192382373931",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 119,
+        "likes": 500,
+        "quotes": 6,
+        "replies": 39,
+        "retweets": 64,
+        "views": 160954
+      },
+      "url": "https://x.com/elonmusk/status/2113506512475718001",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2113426813401911296/img/F5SlTz7X6JFECiaB.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2113426813401911296/vid/avc1/1280x720/gN8h9cUV-dnMH5IT.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113426813401911296/img/F5SlTz7X6JFECiaB.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 71.509
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2113506269260595431",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5302,237 +5601,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2112913053536977052",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T14:25:02.000Z",
-      "created_at_shanghai": "2026-10-21 22:25:02",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "In just the first 72 hours since Gemini 4 Argon launched, we processed ~25 trillion tokens, the demand for intelligence is incredible and still under appreciated!",
-      "quote": null,
-      "retweet": {
-        "author": "OfficialLoganK",
-        "avatar": "https://pbs.twimg.com/profile_images/1943787288955084800/QOl7OJMc_200x200.jpg",
-        "created_at_shanghai": "2026-10-21 12:45:18",
-        "created_at_utc": "2026-10-21T04:45:18.000Z",
-        "id": "2112767157746688480",
-        "images": [],
-        "media": [],
-        "name": "Logan Kilpatrick",
-        "text": "In just the first 72 hours since Gemini 4 Argon launched, we processed ~25 trillion tokens, the demand for intelligence is incredible and still under appreciated!",
-        "url": "https://x.com/OfficialLoganK/status/2112767157746688480",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 193,
-        "likes": 4022,
-        "quotes": 70,
-        "replies": 409,
-        "retweets": 219,
-        "views": 394168
-      },
-      "url": "https://x.com/elonmusk/status/2112913053536977052",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2112858804195066183",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T10:49:28.000Z",
-      "created_at_shanghai": "2026-10-21 18:49:28",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "i fucking love grokbot",
-      "quote": null,
-      "retweet": {
-        "author": "peer_rich",
-        "avatar": "https://pbs.twimg.com/profile_images/2081985614895849472/c3ABtpLH_200x200.jpg",
-        "created_at_shanghai": "2026-10-20 21:31:30",
-        "created_at_utc": "2026-10-20T13:31:30.000Z",
-        "id": "2112537192132214845",
-        "images": [],
-        "media": [],
-        "name": "Peer Richelsen",
-        "text": "i fucking love grokbot",
-        "url": "https://x.com/peer_rich/status/2112537192132214845",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 55,
-        "likes": 2259,
-        "quotes": 19,
-        "replies": 211,
-        "retweets": 132,
-        "views": 376487
-      },
-      "url": "https://x.com/elonmusk/status/2112858804195066183",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2112858415961694269",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T10:47:56.000Z",
-      "created_at_shanghai": "2026-10-21 18:47:56",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "New X Money Grok Bot!\n\nFew understand how powerful it is to have Grok Bot understand your finances and your financial goals.\n\nThe X Money MCP connection to Grok Bot is just the beginning of where this will go.\n\nThe power to see connections you may not see to long horizon goals is just one Grok Bot away.\n\nYou are living in the future with how powerful this Bot is.\n\nReports like you never seen in any bank statement.\n\nGive it a try",
-      "quote": {
-        "author": "BrianRoemmele",
-        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
-        "created_at_shanghai": "2026-10-21 12:28:54",
-        "created_at_utc": "2026-10-21T04:28:54.000Z",
-        "id": "2112763030648062096",
-        "images": [
-          "https://pbs.twimg.com/media/HVIJX1AaAAAgufb.jpg?name=small",
-          "https://pbs.twimg.com/media/HVIJaInbYAAcP-3.jpg?name=small",
-          "https://pbs.twimg.com/media/HVIJby2boAA-EQq.jpg?name=small",
-          "https://pbs.twimg.com/media/HVIJddbbkAAl2bp.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVIJX1AaAAAgufb.jpg?name=small",
-            "width": 1280,
-            "height": 1400
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVIJaInbYAAcP-3.jpg?name=small",
-            "width": 1280,
-            "height": 1400
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVIJby2boAA-EQq.jpg?name=small",
-            "width": 1280,
-            "height": 1400
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVIJddbbkAAl2bp.jpg?name=small",
-            "width": 1280,
-            "height": 1400
-          }
-        ],
-        "name": "Brian Roemmele",
-        "text": "ONLY GROK BOT DOES THIS!\n\nX MONEY + GROK BOT = WOW!\n\nEvery Monday morning your Grok Bot reads your X Money account and gives you a deep weekly report 💸\n\nGet in now: https://x.ai/bot/cMpw0zb2v9RRtQPDfsVFm\n\n- Balances across every account, with the week's net change\n\n- Every transaction sorted into categories automatically\n\n- Top spending categories, week-over-week trends, and my biggest charges\n\n- Cash-back and interest earned, tracked as they add up\n\n- Recurring subscriptions flagged so nothing slips by\n\n- Three habit tips drawn from my actual numbers\n\n- Progress rings for my savings rate, monthly investing, and spending cap\n\nINVEST: Then it asks me about my goals: am I on track, do I want to change a target, and should it set up automatic investing in Coinbase? It prepares the buy, I tap Approve, and only then is the order placed.\n\nIt all comes as a dark-mode dashboard with charts, plus a PDF.\n\nThe bot only reads my account by default. No money moves and no trade is placed without my Approve, every time.\n\nTry it out, you will never go back to boring credit card statements: https://x.ai/bot/cMpw0zb2v9RRtQPDfsVFm\n\nHere's a sample report (example data) 👇",
-        "url": "https://x.com/BrianRoemmele/status/2112763030648062096",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "BrianRoemmele",
-        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
-        "created_at_shanghai": "2026-10-21 15:00:41",
-        "created_at_utc": "2026-10-21T07:00:41.000Z",
-        "id": "2112801229508383074",
-        "images": [
-          "https://pbs.twimg.com/media/HVIthU4bIAAawIl.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVIthU4bIAAawIl.jpg?name=small",
-            "width": 769,
-            "height": 841
-          }
-        ],
-        "name": "Brian Roemmele",
-        "text": "New X Money Grok Bot!\n\nFew understand how powerful it is to have Grok Bot understand your finances and your financial goals.\n\nThe X Money MCP connection to Grok Bot is just the beginning of where this will go.\n\nThe power to see connections you may not see to long horizon goals is just one Grok Bot away.\n\nYou are living in the future with how powerful this Bot is.\n\nReports like you never seen in any bank statement.\n\nGive it a try",
-        "url": "https://x.com/BrianRoemmele/status/2112801229508383074",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 839,
-        "likes": 1148,
-        "quotes": 10,
-        "replies": 105,
-        "retweets": 117,
-        "views": 350008
-      },
-      "url": "https://x.com/elonmusk/status/2112858415961694269",
-      "images": [
-        "https://pbs.twimg.com/media/HVIthU4bIAAawIl.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVIthU4bIAAawIl.jpg?name=small",
-          "width": 769,
-          "height": 841
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2112858261380825322",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T10:47:19.000Z",
-      "created_at_shanghai": "2026-10-21 18:47:19",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "A Europa será destruída por mulheres que projetam naqueles animais a maternidade que cabia aos filhos que elas abortaram.",
-      "quote": null,
-      "retweet": {
-        "author": "NelsonRedPill",
-        "avatar": "https://pbs.twimg.com/profile_images/2091855275971985408/QT6OleHS_200x200.jpg",
-        "created_at_shanghai": "2026-10-20 09:03:46",
-        "created_at_utc": "2026-10-20T01:03:46.000Z",
-        "id": "2112349020454559771",
-        "images": [],
-        "media": [],
-        "name": "Nelson Rodrigues",
-        "text": "A Europa será destruída por mulheres que projetam naqueles animais a maternidade que cabia aos filhos que elas abortaram.",
-        "url": "https://x.com/NelsonRedPill/status/2112349020454559771",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 13118,
-        "likes": 91896,
-        "quotes": 1636,
-        "replies": 1781,
-        "retweets": 14071,
-        "views": 2815717
-      },
-      "url": "https://x.com/elonmusk/status/2112858261380825322",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 100,
-  "total": 2628,
+  "total": 2632,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 18:38:06",
+  "updated_at_shanghai": "2026-11-20 19:24:12",
   "account": "elonmusk"
 }
