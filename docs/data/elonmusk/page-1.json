@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2123616915650404431",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-20T03:18:22.000Z",
+      "created_at_shanghai": "2026-11-20 11:18:22",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @yunta_tsai",
+      "quote": {
+        "author": "yunta_tsai",
+        "name": "Yun-Ta Tsai",
+        "text": "In retrospect, barely needing to drive came long before barely needing to code, a testament to Tesla engineering. \n\n10/10 was two years ago (Sonnet 3.5), and the Robotaxi service (Opus 4) began last year.\n\nBut I couldn’t remember the last time I needed to babysit the steering wheel.",
+        "url": "https://x.com/yunta_tsai/status/2123602995200024895"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 460,
+        "retweets": 46,
+        "replies": 31,
+        "bookmarks": 14,
+        "quotes": 3,
+        "views": 33772
+      },
+      "url": "https://x.com/elonmusk/status/2123616915650404431",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2123613563394867533",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4406,82 +4439,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2122759967413567648",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-17T18:33:09.000Z",
-      "created_at_shanghai": "2026-11-18 02:33:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Tesla’s Annual Meeting is coming up on December 3 &amp; we need your vote\n\nVoting is quick &amp; easy – you can vote online, by mail, by QR code or by phone\n\n@Tesla_Optimus can show you how\n\nhttps://VoteTesla.com",
-      "quote": {
-        "author": "Tesla",
-        "name": "Tesla",
-        "text": "Tesla’s Annual Meeting is coming up on December 3 & we need your vote\n\nVoting is quick & easy – you can vote online, by mail, by QR code or by phone\n\n@Tesla_Optimus can show you how\n\nhttps://VoteTesla.com",
-        "url": "https://x.com/Tesla/status/2122721430596997348"
-      },
-      "retweet": {
-        "author": "Tesla",
-        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-        "created_at_shanghai": "2026-11-18 00:00:01",
-        "created_at_utc": "2026-11-17T16:00:01.000Z",
-        "id": "2122721430596997348",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2122580756962893824/img/ndUpTOurO63HNgpR.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2122580756962893824/vid/avc1/3840x2160/jn--YrEcKzwuRTXP.mp4?tag=29",
-            "hls_url": "https://video.twimg.com/amplify_video/2122580756962893824/pl/4-sCL5o0QFg1xIl2.m3u8?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122580756962893824/img/ndUpTOurO63HNgpR.jpg",
-            "width": 3840,
-            "height": 2160,
-            "duration": 227.041
-          }
-        ],
-        "name": "Tesla",
-        "text": "Tesla’s Annual Meeting is coming up on December 3 & we need your vote\n\nVoting is quick & easy – you can vote online, by mail, by QR code or by phone\n\n@Tesla_Optimus can show you how\n\nhttps://VoteTesla.com",
-        "url": "https://x.com/Tesla/status/2122721430596997348",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 172,
-        "likes": 2358,
-        "quotes": 48,
-        "replies": 155,
-        "retweets": 320,
-        "views": 204590
-      },
-      "url": "https://x.com/elonmusk/status/2122759967413567648",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2122580756962893824/img/ndUpTOurO63HNgpR.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2122580756962893824/vid/avc1/3840x2160/jn--YrEcKzwuRTXP.mp4?tag=29",
-          "hls_url": "https://video.twimg.com/amplify_video/2122580756962893824/pl/4-sCL5o0QFg1xIl2.m3u8?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122580756962893824/img/ndUpTOurO63HNgpR.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 227.041
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2624,
+  "total": 2625,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-20 11:08:00",
+  "updated_at_shanghai": "2026-11-20 11:23:42",
   "account": "elonmusk"
 }
