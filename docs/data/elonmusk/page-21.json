@@ -1,6 +1,140 @@
 {
   "posts": [
     {
+      "id": "2108223791138734327",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T15:51:35.000Z",
+      "created_at_shanghai": "2026-10-08 23:51:35",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Welcome home!",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 23:36:55",
+        "created_at_utc": "2026-10-08T15:36:55.000Z",
+        "id": "2108220101614850436",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108219960799424512/img/HeHDtLeAzPKVISdo.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108219960799424512/vid/avc1/3840x2160/6WHRXyHfLWdrxmS9.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108219960799424512/img/HeHDtLeAzPKVISdo.jpg",
+            "width": 3840,
+            "height": 2160,
+            "duration": 21.47
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Splashdown of Dragon confirmed!",
+        "url": "https://x.com/SpaceX/status/2108220101614850436",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 132,
+        "likes": 9765,
+        "quotes": 60,
+        "replies": 626,
+        "retweets": 928,
+        "views": 707280
+      },
+      "url": "https://x.com/elonmusk/status/2108223791138734327",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108221942658638265",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T15:44:14.000Z",
+      "created_at_shanghai": "2026-10-08 23:44:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot team shipped in the last few days:\n\n• Proactive primary bot\n• X search and monitoring, no API key needed\n• Faster replies + speed improvements\n• Slide deck creation in the chat\n• Tag @bot on X with instructions for your Bot\n• Best model for each task",
+      "quote": null,
+      "retweet": {
+        "author": "benln",
+        "avatar": "https://pbs.twimg.com/profile_images/1713995709916012544/GHmSl9EK_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 21:54:07",
+        "created_at_utc": "2026-10-08T13:54:07.000Z",
+        "id": "2108194230938247627",
+        "images": [],
+        "media": [],
+        "name": "Ben Lang",
+        "text": "Grok Bot team shipped in the last few days:\n\n• Proactive primary bot\n• X search and monitoring, no API key needed\n• Faster replies + speed improvements\n• Slide deck creation in the chat\n• Tag @bot on X with instructions for your Bot\n• Best model for each task",
+        "url": "https://x.com/benln/status/2108194230938247627",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 119,
+        "likes": 1365,
+        "quotes": 10,
+        "replies": 124,
+        "retweets": 121,
+        "views": 248299
+      },
+      "url": "https://x.com/elonmusk/status/2108221942658638265",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108221292788981881",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T15:41:39.000Z",
+      "created_at_shanghai": "2026-10-08 23:41:39",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Thank you, Rahul. \n\nThis is indeed troubling.",
+      "quote": {
+        "author": "RahulGandhi",
+        "avatar": "https://pbs.twimg.com/profile_images/2048691685794930688/AEEaltaE_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 22:44:50",
+        "created_at_utc": "2026-10-08T14:44:50.000Z",
+        "id": "2108206994356355342",
+        "images": [],
+        "media": [],
+        "name": "Rahul Gandhi",
+        "text": "Welcome to India, Elon. \n\nWait till you discover the other guy.",
+        "url": "https://x.com/RahulGandhi/status/2108206994356355342",
+        "verified": true,
+        "verified_type": "government"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2513,
+        "likes": 35939,
+        "quotes": 3053,
+        "replies": 5674,
+        "retweets": 6502,
+        "views": 2236399
+      },
+      "url": "https://x.com/elonmusk/status/2108221292788981881",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108198900762837151",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5402,155 +5536,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2107876487454179416",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T16:51:31.000Z",
-      "created_at_shanghai": "2026-10-08 00:51:31",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Whatever it take for @Bot to deliver the best product experience for users",
-      "quote": {
-        "author": "farzyness",
-        "avatar": "https://pbs.twimg.com/profile_images/1863976029368270848/NccgxqmW_200x200.jpg",
-        "created_at_shanghai": "2026-08-28 21:54:34",
-        "created_at_utc": "2026-08-28T13:54:34.000Z",
-        "id": "2093336439819813198",
-        "images": [],
-        "media": [],
-        "name": "Farzad 🇺🇸 🇮🇷",
-        "text": "Grok @bot will be insanely powerful if it’s completely model agnostic and the @SpaceXAI simply hyper-focuses on creating the greatest orchestrator AI of all time.\n\nThat orchestrator AI will know what model is best at what at the best possible cost and fastest speed, and based on your prompt, Grok Bot will automatically use the best model(s).\n\nAnd over time SpaceXAI can hyper-optimize their own models to be extremely good at executing tasks in Grok Bot.\n\nIt’s getting WAY too hard for humans to know which AI model is best at what already, especially at what cost and at what speed. The only way to do this properly is with another AI that automatically does all of this for you.\n\nAnd since SpaceX is gonna own so much compute, in theory, those other models will likely be served from their own data centers either on the ground or in space!\n\n$SPCX",
-        "url": "https://x.com/farzyness/status/2093336439819813198",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 108,
-        "likes": 3698,
-        "quotes": 40,
-        "replies": 529,
-        "retweets": 375,
-        "views": 1036940
-      },
-      "url": "https://x.com/elonmusk/status/2107876487454179416",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107872672785084550",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T16:36:22.000Z",
-      "created_at_shanghai": "2026-10-08 00:36:22",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "💯",
-      "quote": {
-        "author": "the_jefferymead",
-        "avatar": "https://pbs.twimg.com/profile_images/1653093448822542336/eMRq3ayO_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 08:56:06",
-        "created_at_utc": "2026-10-07T00:56:06.000Z",
-        "id": "2107636049187123683",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107635859063296000/img/lhilmbYbXfKs62g1.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107635859063296000/vid/avc1/1080x1920/D7ucyKZd-_RxZpW3.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107635859063296000/img/lhilmbYbXfKs62g1.jpg",
-            "width": 1080,
-            "height": 1920,
-            "duration": 178.815
-          }
-        ],
-        "name": "Jeffery Mead",
-        "text": "Talarico is very obviously just lying about what he supports in order to try and win an election.\n\nWe have his voting record and things he has said. He’s hoping people don’t understand these things.",
-        "url": "https://x.com/the_jefferymead/status/2107636049187123683",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 146,
-        "likes": 5155,
-        "quotes": 30,
-        "replies": 393,
-        "retweets": 1179,
-        "views": 850113
-      },
-      "url": "https://x.com/elonmusk/status/2107872672785084550",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2107872596465446922",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-07T16:36:04.000Z",
-      "created_at_shanghai": "2026-10-08 00:36:04",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
-      "quote": {
-        "author": "ezralevant",
-        "avatar": "https://pbs.twimg.com/profile_images/1861157785053835264/5MN6Mndo_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 08:30:14",
-        "created_at_utc": "2026-10-07T00:30:14.000Z",
-        "id": "2107629537064260093",
-        "images": [
-          "https://pbs.twimg.com/media/HT_N5QYWgAA337V.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HT_N5QYWgAA337V.jpg?name=small",
-            "width": 1080,
-            "height": 1350
-          }
-        ],
-        "name": "Ezra Levant 🍁🚛",
-        "text": "Quebec just handed power to a party that wants out of Canada.\n\nThe Parti Québécois won Monday's election, projected at 56 seats. That's a minority.\n\nPaul St-Pierre Plamondon will be premier. \n\nHe's promised a referendum on leaving Canada in his first term, but not before January 20, 2029.\n\nThe governing CAQ fell to third.\n\nIf Quebec can put leaving Canada on a ballot, so can Alberta.",
-        "url": "https://x.com/ezralevant/status/2107629537064260093",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 150,
-        "likes": 3883,
-        "quotes": 36,
-        "replies": 396,
-        "retweets": 561,
-        "views": 942947
-      },
-      "url": "https://x.com/elonmusk/status/2107872596465446922",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 100,
-  "total": 2647,
+  "total": 2650,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 01:54:14",
+  "updated_at_shanghai": "2026-11-21 02:03:36",
   "account": "elonmusk"
 }
