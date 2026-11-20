@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2123848092684550631",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2122506092437504001/NSS4RHyZ_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-20T18:36:59.000Z",
+      "created_at_shanghai": "2026-11-21 02:36:59",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Wait which version did I get?",
+      "quote": null,
+      "retweet": {
+        "author": "finkd",
+        "avatar": "https://pbs.twimg.com/profile_images/77846223/profile_200x200.jpg",
+        "created_at_shanghai": "2026-11-21 01:23:20",
+        "created_at_utc": "2026-11-20T17:23:20.000Z",
+        "id": "2123829559711650060",
+        "images": [
+          "https://pbs.twimg.com/media/HXlbsQyXUAAN4gj.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXlbsQyXUAAN4gj.jpg?name=small",
+            "width": 2016,
+            "height": 1216
+          }
+        ],
+        "name": "Mark Zuckerberg",
+        "text": "Wait which version did I get?",
+        "url": "https://x.com/finkd/status/2123829559711650060",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 471,
+        "likes": 10693,
+        "quotes": 133,
+        "replies": 480,
+        "retweets": 421,
+        "views": 290402
+      },
+      "url": "https://x.com/elonmusk/status/2123848092684550631",
+      "images": [
+        "https://pbs.twimg.com/media/HXlbsQyXUAAN4gj.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXlbsQyXUAAN4gj.jpg?name=small",
+          "width": 2016,
+          "height": 1216
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2123847352582897719",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -105,7 +164,7 @@
       "created_at_shanghai": "2026-11-21 01:58:28",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @iiiichigo_chan",
+      "text": "holy f*ck... you will never give a store your real email again. Elon Musk's team just made sure of it\n\nevery Grok Bot can claim its own email address now, on its own @mail.grokbot domain. it signs up for things and talks to companies for you\n\nso my real email goes to real people. every store, app and \"sign up for 10% off\" box gets my bot's\n\nthe rules its inbox runs on:\n\n1. promos: delete. 3 in a week from the same sender: unsubscribe\n2. receipts: keep them, track the return window, warn me 3 days out\n3. codes and sign-up links: use them yourself\n4. anything about money or my words: forward it to me\n5. never reply as me\n\nthe free trial that's about to start charging me? that one reaches me. the 12th \"flash sale\" this week doesn't\n\nmy inbox is for people again\n\nthe rest of my Grok Bot setup is in my article. read it below ↓",
       "quote": {
         "author": "iiiichigo_chan",
         "avatar": "https://pbs.twimg.com/profile_images/2068640799537946624/MA1pfeg2_200x200.jpg",
@@ -148,11 +207,11 @@
       },
       "reply_to": "",
       "engagement": {
-        "likes": 920,
-        "retweets": 116,
-        "replies": 64,
         "bookmarks": 1140,
+        "likes": 920,
         "quotes": 11,
+        "replies": 64,
+        "retweets": 116,
         "views": 82198
       },
       "url": "https://x.com/elonmusk/status/2123838402986639616",
@@ -183,7 +242,7 @@
       "created_at_shanghai": "2026-11-21 01:55:16",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @poteto",
+      "text": "small updates in pstack v0.15.46\n\n• lots of pruning, skills are now much shorter\n• gemini 4 neon is added as a panel reviewer \n\nit's autoupdated for grok bot / cursor users! if you want to change any of the model routing, just run /setup-pstack again\n\nhttps://x.ai/bot/plugin/9717366",
       "quote": {
         "author": "poteto",
         "name": "lauren",
@@ -193,11 +252,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 1129,
-        "retweets": 83,
-        "replies": 92,
         "bookmarks": 326,
+        "likes": 1129,
         "quotes": 11,
+        "replies": 92,
+        "retweets": 83,
         "views": 67701
       },
       "url": "https://x.com/elonmusk/status/2123837595704836144",
@@ -216,7 +275,7 @@
       "created_at_shanghai": "2026-11-21 01:51:24",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @anabology",
+      "text": "Try the Claudia Grok Bot!\n\nhttps://x.ai/bot/zvsgYtQHUcSKGRhAb_JzM",
       "quote": {
         "author": "elonmusk",
         "avatar": "https://pbs.twimg.com/profile_images/2122506092437504001/NSS4RHyZ_200x200.jpg",
@@ -259,11 +318,11 @@
       },
       "reply_to": "",
       "engagement": {
-        "likes": 353,
-        "retweets": 76,
-        "replies": 64,
         "bookmarks": 81,
+        "likes": 353,
         "quotes": 10,
+        "replies": 64,
+        "retweets": 76,
         "views": 60372
       },
       "url": "https://x.com/elonmusk/status/2123836622827663572",
@@ -294,7 +353,7 @@
       "created_at_shanghai": "2026-11-21 01:47:12",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @yunta_tsai",
+      "text": "Caring about the working class means more than handing out uninspiring jobs. \n\nMake the factory cool and the work meaningful so people feel they’re building the future, not just following orders.",
       "quote": {
         "author": "yunta_tsai",
         "name": "Yun-Ta Tsai",
@@ -304,11 +363,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 734,
-        "retweets": 86,
-        "replies": 45,
         "bookmarks": 19,
+        "likes": 734,
         "quotes": 6,
+        "replies": 45,
+        "retweets": 86,
         "views": 51937
       },
       "url": "https://x.com/elonmusk/status/2123835565665820817",
@@ -355,7 +414,7 @@
       "created_at_shanghai": "2026-11-21 00:52:51",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @summer__heidi",
+      "text": "Deception needs a motive, and a motive needs a soul",
       "quote": {
         "author": "summer__heidi",
         "name": "ᴉpᴉǝH 🐐💕",
@@ -390,11 +449,11 @@
       },
       "reply_to": "",
       "engagement": {
-        "likes": 8949,
-        "retweets": 1909,
-        "replies": 508,
         "bookmarks": 5832,
+        "likes": 8949,
         "quotes": 600,
+        "replies": 508,
+        "retweets": 1909,
         "views": 3009892
       },
       "url": "https://x.com/elonmusk/status/2123821887746920471",
@@ -491,7 +550,7 @@
       "created_at_shanghai": "2026-11-21 00:26:23",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @XFreeze",
+      "text": "Starlink is transforming a remote mountain water gate in Japan that sits completely outside mobile network coverage\n\nFor years, workers had to travel roughly 35 minutes along a dangerous mountain road just to inspect the facility. During heavy rain, floods, or at night, reaching the site became even more dangerous\n\nNow KDDI and Japanese farm-tech company farmo have connected the Shinbori headworks in Sekikawa, Niigata, using Starlink Mini\n\nHere's how the system works:\n\n• Starlink Mini provides satellite internet where cellular networks don't reach\n\n• LoRa connects water-level sensors and the automated water gate\n\n• Solar panels power the equipment where grid electricity is difficult to access\n\n• Cloud monitoring gives operators real-time water levels, camera feeds, equipment status, and emergency alerts\n\n• Workers remotely open and close the water gate without physically visiting the site\n\nThe results are already impressive:\n\nAll 6 remote gate-control tests were SUCCESSFUL\n\nWorkers now have visibility and control over infrastructure that previously required a dangerous mountain trip just to inspect\n\nThis becomes especially important during floods and emergencies, when every minute matters and sending workers into dangerous conditions puts lives at risk\n\nThe project will continue in Japan's FY2027, with plans to expand into automated water management, disaster prevention, and other agricultural applications\n\nThis is another example of what Starlink is making possible",
       "quote": {
         "author": "XFreeze",
         "name": "X Freeze",
@@ -526,11 +585,11 @@
       },
       "reply_to": "",
       "engagement": {
-        "likes": 609,
-        "retweets": 114,
-        "replies": 44,
         "bookmarks": 32,
+        "likes": 609,
         "quotes": 9,
+        "replies": 44,
+        "retweets": 114,
         "views": 47259
       },
       "url": "https://x.com/elonmusk/status/2123815227942895868",
@@ -561,7 +620,7 @@
       "created_at_shanghai": "2026-11-21 00:25:13",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @stuffyokodraws",
+      "text": "I use @bot very extensively, but the most mind blowing thing just happened 🤯\n\nOur roof had a small leak because of the rain. @bot called an emergency roof repair business for me, talked to their AI agent on the phone, and a guy showed up and fixed our roof in an hour for $300\n\nThe future is here. Huge fan of the new call feature!!! @poteto",
       "quote": {
         "author": "stuffyokodraws",
         "name": "Yoko",
@@ -571,11 +630,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 1059,
-        "retweets": 57,
-        "replies": 81,
         "bookmarks": 99,
+        "likes": 1059,
         "quotes": 9,
+        "replies": 81,
+        "retweets": 57,
         "views": 80414
       },
       "url": "https://x.com/elonmusk/status/2123814933163094138",
@@ -594,7 +653,7 @@
       "created_at_shanghai": "2026-11-21 00:23:06",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @pequityresearch",
+      "text": "Morgan Stanley: SpaceX\n\nMorgan Stanley's latest report indicates that a single fully loaded Starship launch could generate approximately $400 million in annualized revenue for Starlink, with a revenue payback period of about 13 weeks and an EBIT payback period of about 19 weeks, surpassing even the profitability efficiency of the emerging neocloud business.\n\nThis calculation is based on each Starship carrying 50 Starlink V3 satellites, with each satellite generating approximately $8 million in annualized incremental revenue. Assuming a variable cost of about $100 million per launch by 2030—comprising $60 million in launch costs and $40 million in payload costs—the payback period for Starship investments would be quite substantial.\n\n$SPCX",
       "quote": {
         "author": "pequityresearch",
         "name": "P Equity Research 📰",
@@ -604,11 +663,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 529,
-        "retweets": 85,
-        "replies": 38,
         "bookmarks": 74,
+        "likes": 529,
         "quotes": 9,
+        "replies": 38,
+        "retweets": 85,
         "views": 61092
       },
       "url": "https://x.com/elonmusk/status/2123814401346298037",
@@ -662,7 +721,7 @@
       "created_at_shanghai": "2026-11-21 00:07:59",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @XFreeze",
+      "text": "Starlink just secured another major spectrum expansion in Brazil, and the authorization is now OFFICIAL 🇧🇷\n\nBrazil's telecom regulator Anatel published Act No. 14,179 on November 19, formally adding new radio-frequency bands to Starlink's existing satellite authorization\n\nHere's what was approved:\n\n• 5 new uplink frequency sub-bands\n• 4 new downlink frequency sub-bands\n• Additional spectrum across Ku, Ka and Q/V bands\n• Authorization covering ALL of Brazil\n• Non-exclusive use for the remaining term of Starlink's existing authorization\n• Approved by Anatel's board in October and formally published November 19\n\nThe authorization is held by Space Exploration Holdings, with Starlink Brazil Holding serving as its local representative\n\nThese additional frequencies are an important part of expanding Starlink's satellite communications capacity and supporting its next-generation network\n\nAnd with Starlink V3 satellites bringing dramatically more bandwidth per satellite, securing additional spectrum is very important\n\nBrazil is already a major market for Starlink, and SpaceX is continuing to build the regulatory foundation for its future expansion\n\nStep by step, Starlink is securing the infrastructure and spectrum needed to keep scaling across Brazil",
       "quote": {
         "author": "XFreeze",
         "name": "X Freeze",
@@ -697,11 +756,11 @@
       },
       "reply_to": "",
       "engagement": {
-        "likes": 684,
-        "retweets": 114,
-        "replies": 54,
         "bookmarks": 25,
+        "likes": 684,
         "quotes": 20,
+        "replies": 54,
+        "retweets": 114,
         "views": 41425
       },
       "url": "https://x.com/elonmusk/status/2123810595933917215",
@@ -732,7 +791,7 @@
       "created_at_shanghai": "2026-11-21 00:06:41",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @SpaceX",
+      "text": "Members of the Starship production team with Starship 42 before its launch",
       "quote": {
         "author": "SpaceX",
         "name": "SpaceX",
@@ -742,11 +801,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 1887,
-        "retweets": 222,
-        "replies": 115,
         "bookmarks": 95,
+        "likes": 1887,
         "quotes": 25,
+        "replies": 115,
+        "retweets": 222,
         "views": 93260
       },
       "url": "https://x.com/elonmusk/status/2123810270426624429",
@@ -768,7 +827,7 @@
       "created_at_shanghai": "2026-11-21 00:03:44",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @XFreeze",
+      "text": "Back in 2019, Elon Musk stood on an empty field in Shanghai and broke ground on Tesla’s first factory in China\n\nLess than a year later, the first China-made Model 3s were being delivered\n\nThen in January 2020, Elon returned to launch the Model Y program and celebrated with the team on stage\n\nFast forward to 2026\n\nGiga Shanghai has become one of the most important factories in Tesla’s entire global operation\n\n• 851,732 vehicles produced for wholesale in 2025\n• 810,889 already through October 2026\n• 95% of last year’s entire volume in just 10 months\n• +21.4% YoY through October\n• 420,984 vehicles exported through October\n• Exports up more than 100% YoY\n• More than half of Shanghai’s 2026 wholesale volume now going overseas\n• Tesla’s biggest global export hub\n\nAnd on November 19, Elon returned to Shanghai again to personally thank Tesla’s China and APAC teams\n\nFrom an empty construction site in 2019…\n\nTo hundreds of thousands of vehicles every year, supplying markets around the world\n\nGiga Shanghai is one of the clearest examples of how quickly Tesla can turn an empty field into global industrial infrastructure",
       "quote": {
         "author": "XFreeze",
         "name": "X Freeze",
@@ -778,11 +837,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 390,
-        "retweets": 68,
-        "replies": 46,
         "bookmarks": 24,
+        "likes": 390,
         "quotes": 2,
+        "replies": 46,
+        "retweets": 68,
         "views": 29944
       },
       "url": "https://x.com/elonmusk/status/2123809527158161619",
@@ -803,7 +862,7 @@
       "created_at_shanghai": "2026-11-21 00:00:58",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @matteosalvinimi",
+      "text": "Sono orgoglioso di annunciare un’altra importante novità per la mobilità in Italia.\n\nIl @mitgov_it, dopo puntuale verifica tecnica di fattibilità, ha dato il via libera all’omologazione provvisoria del sistema di guida assistita Tesla Assisted Driving, anticipando il processo di riconoscimento comunitario, attualmente in fase di definizione.\n\nUn altro passo avanti verso l’innovazione, la tecnologia e la mobilità del futuro, sempre mettendo al primo posto la sicurezza dei cittadini.",
       "quote": {
         "author": "matteosalvinimi",
         "name": "Matteo Salvini",
@@ -813,11 +872,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 2160,
-        "retweets": 252,
-        "replies": 375,
         "bookmarks": 48,
+        "likes": 2160,
         "quotes": 59,
+        "replies": 375,
+        "retweets": 252,
         "views": 98394
       },
       "url": "https://x.com/elonmusk/status/2123808830752706658",
@@ -836,7 +895,7 @@
       "created_at_shanghai": "2026-11-20 23:57:08",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @KTmBoyle",
+      "text": "This came home from Kindergarten today.\n\nMy work is done here. 🦃 🇺🇸🚀💪",
       "quote": {
         "author": "KTmBoyle",
         "name": "Katherine Boyle",
@@ -846,11 +905,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 2031,
-        "retweets": 125,
-        "replies": 123,
         "bookmarks": 58,
+        "likes": 2031,
         "quotes": 20,
+        "replies": 123,
+        "retweets": 125,
         "views": 85027
       },
       "url": "https://x.com/elonmusk/status/2123807866134163762",
@@ -871,7 +930,7 @@
       "created_at_shanghai": "2026-11-20 19:23:44",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @andst7",
+      "text": "Approvata la guida autonoma di Tesla in Italia: è il primo dei grandi Paesi europei ad approvarla. Complimenti al sindaco di Roma Gualtieri, che per primo l'ha provata in città (ci siamo divertiti!), al ministro Salvini per la decisione lungimirante di approvarla al Presidente Meloni per il supporto verso le nuove tecnologie e all'opposizione di Azione di Carlo Calenda per aver fatto proposte costruttive affinché ciò avvenisse. Orgoglio 🇮🇹🇺🇸",
       "quote": {
         "author": "andst7",
         "name": "Andrea Stroppa 🐺 Claudius Nero's Legion 🐺",
@@ -881,11 +940,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 445,
-        "retweets": 48,
-        "replies": 54,
         "bookmarks": 14,
+        "likes": 445,
         "quotes": 3,
+        "replies": 54,
+        "retweets": 48,
         "views": 42145
       },
       "url": "https://x.com/elonmusk/status/2123739064893600056",
@@ -904,7 +963,7 @@
       "created_at_shanghai": "2026-11-20 19:19:39",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @cb_doge",
+      "text": "BREAKING: SpaceX provided food, water and mobile Starlink units to emergency crews responding to flooding in Cocoa Beach, Florida.\n\nThe city has publicly thanked SpaceX for supporting its teams as essential staff work around the clock to keep residents safe and essential services running.\n\nWith City Hall closed following heavy rainfall, SpaceX is helping crews stay supplied and connected in the field throughout the response.",
       "quote": {
         "author": "cb_doge",
         "name": "DogeDesigner",
@@ -914,11 +973,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 3585,
-        "retweets": 786,
-        "replies": 205,
         "bookmarks": 86,
+        "likes": 3585,
         "quotes": 42,
+        "replies": 205,
+        "retweets": 786,
         "views": 64990
       },
       "url": "https://x.com/elonmusk/status/2123738034453819542",
@@ -972,7 +1031,7 @@
       "created_at_shanghai": "2026-11-20 19:19:09",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @jamesdouma",
+      "text": "The magnitude of the consumer surplus for AI tools is mind boggling. My Grok subscription has probably already saved (made?) me more money than I am ever likely to spend on it.",
       "quote": {
         "author": "jamesdouma",
         "name": "jimmah",
@@ -982,11 +1041,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 326,
-        "retweets": 24,
-        "replies": 32,
         "bookmarks": 17,
+        "likes": 326,
         "quotes": 6,
+        "replies": 32,
+        "retweets": 24,
         "views": 29129
       },
       "url": "https://x.com/elonmusk/status/2123737911078408345",
@@ -1005,7 +1064,7 @@
       "created_at_shanghai": "2026-11-20 19:17:45",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @cb_doge",
+      "text": "Elon Musk’s Boring Company has signed a 40-year agreement with Nashville International Airport, advancing the Music City Loop connection between the airport and downtown. \n\n• The Boring Company will fully fund construction, operations and maintenance, with no capital investment required from the airport authority.\n\n• All-electric underground rides designed to bypass road traffic and make airport trips faster.\n\n• A planned passenger station just 22 feet from the terminal entrance.\n\n• Approximately $343 million in projected airport revenue over a potential 50-year term, including extensions.\n\n• Two machines already tunneling beneath Nashville, with a third preparing to launch. \n\nA major milestone for The Boring Company, and a step closer to a faster, more convenient airport connection for Nashville.",
       "quote": {
         "author": "cb_doge",
         "name": "DogeDesigner",
@@ -1015,11 +1074,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 4213,
-        "retweets": 811,
-        "replies": 175,
         "bookmarks": 191,
+        "likes": 4213,
         "quotes": 51,
+        "replies": 175,
+        "retweets": 811,
         "views": 541091
       },
       "url": "https://x.com/elonmusk/status/2123737556898709609",
@@ -4296,45 +4355,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2122990532410716160",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-18T09:49:20.000Z",
-      "created_at_shanghai": "2026-11-18 17:49:20",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Hearing the @united CEO Scott Kirby on @CheekyPint telling @collision that the primary constraint on commercial aviation in the US is ATC slots drives me crazy. There are at most about 5000 flights occurring at any one time over the entire US. There are about 30 usable flight levels in alpha airspace, and you can deconflict 100x more flights than this with a single toothbrush CPU (http://FAA.caseyhandmer.com).\n\nIn terms of physical space, there's enough room to fly every man woman and child in the US simultaneously. Look up. Does the sky seem crowded? \n\nThere were plans to automate ATC using the first Iridium constellation more than 30 years ago. \n\nAt some point we have to have a serious conversation about rent takings by obsolete incumbents that are blocking entire percentage points of economic growth.",
-      "quote": {
-        "author": "CJHandmer",
-        "name": "Casey Handmer",
-        "text": "Hearing the @united CEO Scott Kirby on @CheekyPint telling @collision that the primary constraint on commercial aviation in the US is ATC slots drives me crazy. There are at most about 5000 flights occurring at any one time over the entire US. There are about 30 usable flight levels in alpha airspace, and you can deconflict 100x more flights than this with a single toothbrush CPU (http://FAA.caseyhandmer.com).\n\nIn terms of physical space, there's enough room to fly every man woman and child in the US simultaneously. Look up. Does the sky seem crowded? \n\nThere were plans to automate ATC using the first Iridium constellation more than 30 years ago. \n\nAt some point we have to have a serious conversation about rent takings by obsolete incumbents that are blocking entire percentage points of economic growth.",
-        "url": "https://x.com/CJHandmer/status/2122937091218981083"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 48,
-        "likes": 375,
-        "quotes": 1,
-        "replies": 23,
-        "retweets": 46,
-        "views": 20570
-      },
-      "url": "https://x.com/elonmusk/status/2122990532410716160",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2653,
+  "total": 2654,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 02:40:18",
+  "updated_at_shanghai": "2026-11-21 02:41:32",
   "account": "elonmusk"
 }

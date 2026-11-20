@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2121648757456662970",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T16:57:36.000Z",
+      "created_at_shanghai": "2026-11-15 00:57:36",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-15 00:37:28",
+        "created_at_utc": "2026-11-14T16:37:28.000Z",
+        "id": "2121643690913644780",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2121643662753021952/img/2tvwVUNQUurybaAU.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2121643662753021952/vid/avc1/720x720/vYO9rUdTrj7mwpBx.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121643662753021952/img/2tvwVUNQUurybaAU.jpg",
+            "width": 720,
+            "height": 720,
+            "duration": 15.066
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: SpaceX donates @Starlink kits to help vulnerable children. Lagos State’s Ministry of Youth and Social Development received Starlink devices to improve care services via BEB Global.\n\nSpaceX’s wider grant covers 750 kits in 16 countries and 12 months of free internet.",
+        "url": "https://x.com/cb_doge/status/2121643690913644780",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 100,
+        "likes": 4818,
+        "quotes": 65,
+        "replies": 759,
+        "retweets": 708,
+        "views": 787477
+      },
+      "url": "https://x.com/elonmusk/status/2121648757456662970",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2121648602539782187",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -6793,77 +6845,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2120765326233137566",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T06:27:10.000Z",
-      "created_at_shanghai": "2026-11-12 14:27:10",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Bot 1.0 is out!",
-      "quote": {
-        "author": "bot",
-        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 02:22:30",
-        "created_at_utc": "2026-11-11T18:22:30.000Z",
-        "id": "2120582957782200586",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120580701489889280/vid/avc1/1920x1080/BDhW_GY4lPxCEeGk.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 79.1
-          }
-        ],
-        "name": "Grok Bot",
-        "text": "Introducing Grok Bot 1.0. AI teammates that work alongside your whole team.\n\nShare Bots, collaborate with them in Slack and Teams, invite them to meetings, and watch them learn and become more helpful.",
-        "url": "https://x.com/bot/status/2120582957782200586",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "mntruell",
-        "avatar": "https://pbs.twimg.com/profile_images/1887065642261737472/QdLiAFfD_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 12:31:18",
-        "created_at_utc": "2026-11-12T04:31:18.000Z",
-        "id": "2120736167385788749",
-        "images": [],
-        "media": [],
-        "name": "Michael Truell",
-        "text": "Bot 1.0 is out!",
-        "url": "https://x.com/mntruell/status/2120736167385788749",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 31,
-        "likes": 622,
-        "quotes": 7,
-        "replies": 39,
-        "retweets": 40,
-        "views": 36705
-      },
-      "url": "https://x.com/elonmusk/status/2120765326233137566",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 100,
-  "total": 2653,
+  "total": 2654,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 02:40:18",
+  "updated_at_shanghai": "2026-11-21 02:41:32",
   "account": "elonmusk"
 }

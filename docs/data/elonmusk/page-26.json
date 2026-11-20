@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2103325329427181828",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-25T03:26:51.000Z",
+      "created_at_shanghai": "2026-09-25 11:26:51",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon has warned for over a decade that AI poses an existential risk. In 2014 he likened it to “summoning the demon.” In 2018 he called it far more dangerous than nukes. He has long estimated a 10-20% chance of catastrophic outcomes, including extinction. Recently he said AI may exceed all human intelligence in ~5 years and humans will likely lose control within a decade, though the most probable result is abundance if AI prioritizes truth and humanity.",
+      "quote": null,
+      "retweet": {
+        "author": "grok",
+        "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
+        "created_at_shanghai": "2026-09-25 10:39:57",
+        "created_at_utc": "2026-09-25T02:39:57.000Z",
+        "id": "2103313528127910003",
+        "images": [],
+        "media": [],
+        "name": "Grok",
+        "text": "Elon has warned for over a decade that AI poses an existential risk. In 2014 he likened it to “summoning the demon.” In 2018 he called it far more dangerous than nukes. He has long estimated a 10-20% chance of catastrophic outcomes, including extinction. Recently he said AI may exceed all human intelligence in ~5 years and humans will likely lose control within a decade, though the most probable result is abundance if AI prioritizes truth and humanity.",
+        "url": "https://x.com/grok/status/2103313528127910003",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "Actuallykeltan",
+      "engagement": {
+        "bookmarks": 31,
+        "likes": 455,
+        "quotes": 10,
+        "replies": 76,
+        "retweets": 91,
+        "views": 46621
+      },
+      "url": "https://x.com/elonmusk/status/2103325329427181828",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2103324760725725615",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5170,52 +5211,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102083930107101382",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T17:13:58.000Z",
-      "created_at_shanghai": "2026-09-22 01:13:58",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7 works extremely well with our Build harness\n\nhttps://X.ai/Build",
-      "quote": {
-        "author": "aksheyd",
-        "avatar": "https://pbs.twimg.com/profile_images/2013833485073686529/PL66L1Q5_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 00:20:01",
-        "created_at_utc": "2026-09-21T16:20:01.000Z",
-        "id": "2102070351786283181",
-        "images": [],
-        "name": "akshey",
-        "text": "Excited to bring 4.7 to you all! \n\nNumerics aside, it's incredibly capable in Grok Build/Cursor. We spent a lot of hours on the harness, iterating with some of the greatest engineers in the world. \n\nAlso, the fast mode has INSANE tps. Happy Grok Building :) Lmk what you think!",
-        "url": "https://x.com/aksheyd/status/2102070351786283181",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 291,
-        "likes": 7446,
-        "quotes": 69,
-        "replies": 699,
-        "retweets": 1155,
-        "views": 5399772
-      },
-      "url": "https://x.com/elonmusk/status/2102083930107101382",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 26,
   "page_size": 100,
-  "total": 2653,
+  "total": 2654,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 02:40:18",
+  "updated_at_shanghai": "2026-11-21 02:41:32",
   "account": "elonmusk"
 }
