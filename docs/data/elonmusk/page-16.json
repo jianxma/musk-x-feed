@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2111842588126818619",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T15:31:23.000Z",
+      "created_at_shanghai": "2026-10-18 23:31:23",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "𝕏 is seeing all-time high usage",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-18 20:29:29",
+        "created_at_utc": "2026-10-18T12:29:29.000Z",
+        "id": "2111796810889204064",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2111796739523121152/img/Sfjj_GWye_bAS2ec.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2111796739523121152/vid/avc1/2160x2160/6060Rq0-jSN3RO9R.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111796739523121152/img/Sfjj_GWye_bAS2ec.jpg",
+            "width": 2160,
+            "height": 2160,
+            "duration": 10.233
+          }
+        ],
+        "name": "X Freeze",
+        "text": "𝕏 keeps growing\n\n𝕏 recorded 13.43 BILLION website visits in Q3 2026, up from 12.67 billion in Q2, per Similarweb\n\n• 13.43B total visits\n• +6% quarter-over-quarter growth\n• +760M additional visits in a single quarter\n\n𝕏 continues to grow as it evolves into much more than a social platform, with SI, payments, creators, video and real-time news all coming together in one ecosystem",
+        "url": "https://x.com/XFreeze/status/2111796810889204064",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 88,
+        "likes": 4280,
+        "quotes": 89,
+        "replies": 980,
+        "retweets": 514,
+        "views": 716839
+      },
+      "url": "https://x.com/elonmusk/status/2111842588126818619",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111838943016833235",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5772,71 +5824,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110946421243318583",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T04:10:20.000Z",
-      "created_at_shanghai": "2026-10-16 12:10:20",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Tesla now runs half of America’s public DC fast chargers with over 40,000 ports, while the $7.5B federal NEVI program had opened just 384 by April 2025.\n\nOne company built the backbone of the national network with its own capital while the government spent billions and produced a rounding error. \n\nPrivate industry is still outpacing the mandate, and that gap isn’t narrowing anytime soon.",
-      "quote": null,
-      "retweet": {
-        "author": "Rothmus",
-        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 00:22:33",
-        "created_at_utc": "2026-10-15T16:22:33.000Z",
-        "id": "2110768298916991173",
-        "images": [
-          "https://pbs.twimg.com/media/HUr0lE6XcAA7CJx.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUr0lE6XcAA7CJx.jpg?name=small",
-            "width": 1600,
-            "height": 900
-          }
-        ],
-        "name": "Rothmus 🏴",
-        "text": "Tesla now runs half of America’s public DC fast chargers with over 40,000 ports, while the $7.5B federal NEVI program had opened just 384 by April 2025.\n\nOne company built the backbone of the national network with its own capital while the government spent billions and produced a rounding error. \n\nPrivate industry is still outpacing the mandate, and that gap isn’t narrowing anytime soon.",
-        "url": "https://x.com/Rothmus/status/2110768298916991173",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 85,
-        "likes": 1343,
-        "quotes": 15,
-        "replies": 49,
-        "retweets": 188,
-        "views": 116097
-      },
-      "url": "https://x.com/elonmusk/status/2110946421243318583",
-      "images": [
-        "https://pbs.twimg.com/media/HUr0lE6XcAA7CJx.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUr0lE6XcAA7CJx.jpg?name=small",
-          "width": 1600,
-          "height": 900
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 100,
-  "total": 2644,
+  "total": 2645,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 00:39:03",
+  "updated_at_shanghai": "2026-11-21 00:57:41",
   "account": "elonmusk"
 }
