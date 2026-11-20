@@ -1,6 +1,63 @@
 {
   "posts": [
     {
+      "id": "2110947164512038931",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T04:13:18.000Z",
+      "created_at_shanghai": "2026-10-16 12:13:18",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "My OG Roadster is still orbiting Mars and Earth",
+      "quote": {
+        "author": "Tesla",
+        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
+        "created_at_shanghai": "2026-10-16 09:11:17",
+        "created_at_utc": "2026-10-16T01:11:17.000Z",
+        "id": "2110901359952408576",
+        "images": [
+          "https://pbs.twimg.com/media/HUttfpdawAAQMGK.jpg?name=small",
+          "https://pbs.twimg.com/media/HUtthGyaMAEkD-g.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUttfpdawAAQMGK.jpg?name=small",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUtthGyaMAEkD-g.jpg?name=small",
+            "width": 3406,
+            "height": 1722
+          }
+        ],
+        "name": "Tesla",
+        "text": "Roadster and a rocket have shared a ride before",
+        "url": "https://x.com/Tesla/status/2110901359952408576",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 221,
+        "likes": 9826,
+        "quotes": 93,
+        "replies": 913,
+        "retweets": 744,
+        "views": 526560
+      },
+      "url": "https://x.com/elonmusk/status/2110947164512038931",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110946744230187048",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5475,75 +5532,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110551752252772649",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T02:02:04.000Z",
-      "created_at_shanghai": "2026-10-15 10:02:04",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Imagine is getting INSANELY good at music videos......and now it can generate music too\n\nThe level of realism, natural facial expressions, smooth movements and synchronization between visuals and audio is incredibly impressive\n\nYou can even create your own music and add it to videos already saved in your library",
-      "quote": null,
-      "retweet": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 00:45:20",
-        "created_at_utc": "2026-10-14T16:45:20.000Z",
-        "id": "2110411646934139197",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110411581129650176/img/ny74aTTUCXCTfdiP.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110411581129650176/vid/avc1/1440x1440/DCZBghyTy5qsQ_OQ.mp4?tag=25",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110411581129650176/img/ny74aTTUCXCTfdiP.jpg",
-            "width": 1440,
-            "height": 1440,
-            "duration": 15.041
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Grok Imagine is getting INSANELY good at music videos......and now it can generate music too\n\nThe level of realism, natural facial expressions, smooth movements and synchronization between visuals and audio is incredibly impressive\n\nYou can even create your own music and add it to videos already saved in your library",
-        "url": "https://x.com/XFreeze/status/2110411646934139197",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 119,
-        "likes": 889,
-        "quotes": 14,
-        "replies": 93,
-        "retweets": 115,
-        "views": 220195
-      },
-      "url": "https://x.com/elonmusk/status/2110551752252772649",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110411581129650176/img/ny74aTTUCXCTfdiP.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110411581129650176/vid/avc1/1440x1440/DCZBghyTy5qsQ_OQ.mp4?tag=25",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110411581129650176/img/ny74aTTUCXCTfdiP.jpg",
-          "width": 1440,
-          "height": 1440,
-          "duration": 15.041
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 100,
-  "total": 2646,
+  "total": 2647,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 01:21:59",
+  "updated_at_shanghai": "2026-11-21 01:54:14",
   "account": "elonmusk"
 }

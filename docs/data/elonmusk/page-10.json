@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2116215659214561518",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T17:08:25.000Z",
+      "created_at_shanghai": "2026-10-31 01:08:25",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Cool",
+      "quote": {
+        "author": "sundarpichai",
+        "avatar": "https://pbs.twimg.com/profile_images/2051799620062429184/AL8CoAUG_200x200.jpg",
+        "created_at_shanghai": "2026-10-31 01:05:16",
+        "created_at_utc": "2026-10-30T17:05:16.000Z",
+        "id": "2116214866444943853",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2116214727835828224/img/b4pQhbjRd5EDKtkl.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2116214727835828224/vid/avc1/1920x1080/pEIO6vAh51GKep_W.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116214727835828224/img/b4pQhbjRd5EDKtkl.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 16.021
+          }
+        ],
+        "name": "Sundar Pichai",
+        "text": "A ‘hello world’ milestone for Project Suncatcher 🚀\n\nAfter launching our prototype satellite a few weeks ago, we’ve now successfully sent a command up to orbit, booted up the TPU, ran the prompt, and received our first complete response back on earth - a haiku!",
+        "url": "https://x.com/sundarpichai/status/2116214866444943853",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 263,
+        "likes": 5570,
+        "quotes": 45,
+        "replies": 483,
+        "retweets": 430,
+        "views": 1120767
+      },
+      "url": "https://x.com/elonmusk/status/2116215659214561518",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116215529866486180",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5141,75 +5193,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115941864939405753",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-29T23:00:27.000Z",
-      "created_at_shanghai": "2026-10-30 07:00:27",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "\"The most diverse cabinet in history…\"\n\n88% Black. Virginia is 20% black.\n0% White men. Virginia is 30% White men.\n\nFriendly reminder when these people say \"diversity\", they just mean anti-White.",
-      "quote": {
-        "author": "GovernorVA",
-        "avatar": "https://pbs.twimg.com/profile_images/2026174130614087693/nt76Sf7f_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 23:24:19",
-        "created_at_utc": "2026-10-29T15:24:19.000Z",
-        "id": "2115827073994412437",
-        "images": [
-          "https://pbs.twimg.com/media/HVzkiR8XMAESYso.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVzkiR8XMAESYso.jpg?name=small",
-            "width": 3331,
-            "height": 3331
-          }
-        ],
-        "name": "Governor Abigail Spanberger",
-        "text": "I’m proud to have the most talented, hardest-working cabinet in Virginia’s history. They are also the most diverse cabinet Virginia has ever seen.\n\nEvery single one of our cabinet secretaries were selected because they’re the best of the best in their respective fields. They also bring invaluable perspectives from across the Commonwealth — from Danville, Hampton Roads, Richmond, NOVA, and more. \n\nI’m grateful to get to work with these incredibly dedicated, hard-working, and talented cabinet officials to serve the Commonwealth of Virginia.\n\nhttps://richmond.com/opinion/column/article_4f9af304-0b0c-46c3-a701-21cccec6a78c.html",
-        "url": "https://x.com/GovernorVA/status/2115827073994412437",
-        "verified": true,
-        "verified_type": "government"
-      },
-      "retweet": {
-        "author": "Geiger_Capital",
-        "avatar": "https://pbs.twimg.com/profile_images/1486812287730081794/FbqQsGVz_200x200.jpg",
-        "created_at_shanghai": "2026-10-30 01:22:40",
-        "created_at_utc": "2026-10-29T17:22:40.000Z",
-        "id": "2115856856942002562",
-        "images": [],
-        "media": [],
-        "name": "Geiger Capital",
-        "text": "\"The most diverse cabinet in history…\"\n\n88% Black. Virginia is 20% black.\n0% White men. Virginia is 30% White men.\n\nFriendly reminder when these people say \"diversity\", they just mean anti-White.",
-        "url": "https://x.com/Geiger_Capital/status/2115856856942002562",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 612,
-        "likes": 16088,
-        "quotes": 64,
-        "replies": 273,
-        "retweets": 1799,
-        "views": 385519
-      },
-      "url": "https://x.com/elonmusk/status/2115941864939405753",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 10,
   "page_size": 100,
-  "total": 2646,
+  "total": 2647,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 01:21:59",
+  "updated_at_shanghai": "2026-11-21 01:54:14",
   "account": "elonmusk"
 }
