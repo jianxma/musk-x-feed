@@ -1,6 +1,152 @@
 {
   "posts": [
     {
+      "id": "2110132234929995948",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T22:15:03.000Z",
+      "created_at_shanghai": "2026-10-14 06:15:03",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot does my food shopping in less than 3 minutes. \n\nDoing it myself would probably take an hour at the shops or 30 minutes ordering online.\n\n How do I do this? I have a Grok Bot food prep team:\n\n1 - A Meal Organiser that knows the lunches and dinners I like.\n\n2 - A Shopper that fills my grocery cart.\n\n3 - A Cooking Bot that walks me through preparing the meals.\n\nI tell my Chief of Staff how many days I need. The team handles the planning and cart, and I check out myself.\n\nWhen it’s time to cook, I ask for the instructions. My meals take less than 20 minutes.\n\nHere’s the prompt to set up your own food prep team. \n\nStart of prompt-------\n\n“Set up a food prep team for me: three specialist Bots reporting to you, my Chief of Staff.\n\nStart by asking me for any missing details in my food profile. Show me the proposed Bot descriptions before creating them.\n\nMY FOOD PROFILE\n\nDiet: [my diet or dietary goals].\nServings: [how many people each meal should feed].\nNever include: [allergies, intolerances and disliked foods].\nPreferences: [cooking time, budget and ingredient preferences].\nGrocery store: [Add store link].\nMeal bank: [6–10 meals I like, or ask me and suggest some].\n\nSave my confirmed profile for future use.\n\n1 - MEAL ORGANISER\nWhen I tell you how many days and which meals, build a plan from my meal bank.\n\nFollow my food profile. Ask about ingredients I already have so we can avoid buying them again.\n\nReturn the meal plan and one combined shopping list with quantities matched to the number of servings. Include any extras I request.\n\nWait for my approval before handing the list to the Shopper.\n\n2 - SHOPPER\n\nAfter I approve the plan, open my grocery store’s website and fill the cart with the approved shopping list.\n\nPick sensible pack sizes. Check the existing cart before adding items to avoid duplicates.\n\nFor out-of-stock items, choose the closest suitable match within my food profile. Flag anything uncertain rather than guessing, especially where an allergy or dietary restriction is involved.\n\nStop before checkout. Never choose a delivery slot, place the order or pay.\n\nReturn the cart total, substitutions and anything you couldn’t find. I will review the cart and check out myself.\n\n3 - COOKING\n\nWhen I name a meal from the plan, give me simple cooking instructions using the ingredients we selected, including any approved substitutions.\n\nInclude preparation time, cooking time, quantities and steps in order. Explain when to start each component so everything finishes together.\n\nKeep the recipe within my agreed cooking-time preference. Flag any extra preparation needed in advance.\n\nHOW WE WORK TOGETHER\n\nI tell you:\n\n‘Plan 3 days of lunch and dinner, plus these extras: [items].’\n\nYou get the Meal Organiser to draft the plan and show it to me.\n\nAfter my approval, send the shopping list to the Shopper.\n\nReport back when the cart is ready, including anything that needs my attention.\n\nWhen I ask what to cook, use the current plan and get the Cooking Bot to guide me.\n\nFor the initial grocery-store connection, open the website and let me complete the login myself.\n\nConfirm which Bots are created and whether the store is accessible. Tell me if any setup step remains incomplete.”\n\nEnd of prompt-------\n\nThe biggest saving is having fewer everyday decisions to make, then having a team carry them through.",
+      "quote": null,
+      "retweet": {
+        "author": "Michael_Fenech_",
+        "avatar": "https://pbs.twimg.com/profile_images/2086676724440612864/Wzr3NkOE_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 02:49:00",
+        "created_at_utc": "2026-10-13T18:49:00.000Z",
+        "id": "2110080378879046045",
+        "images": [
+          "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small",
+            "width": 800,
+            "height": 417
+          }
+        ],
+        "name": "Michael | AI + Agents",
+        "text": "Grok Bot does my food shopping in less than 3 minutes. \n\nDoing it myself would probably take an hour at the shops or 30 minutes ordering online.\n\n How do I do this? I have a Grok Bot food prep team:\n\n1 - A Meal Organiser that knows the lunches and dinners I like.\n\n2 - A Shopper that fills my grocery cart.\n\n3 - A Cooking Bot that walks me through preparing the meals.\n\nI tell my Chief of Staff how many days I need. The team handles the planning and cart, and I check out myself.\n\nWhen it’s time to cook, I ask for the instructions. My meals take less than 20 minutes.\n\nHere’s the prompt to set up your own food prep team. \n\nStart of prompt-------\n\n“Set up a food prep team for me: three specialist Bots reporting to you, my Chief of Staff.\n\nStart by asking me for any missing details in my food profile. Show me the proposed Bot descriptions before creating them.\n\nMY FOOD PROFILE\n\nDiet: [my diet or dietary goals].\nServings: [how many people each meal should feed].\nNever include: [allergies, intolerances and disliked foods].\nPreferences: [cooking time, budget and ingredient preferences].\nGrocery store: [Add store link].\nMeal bank: [6–10 meals I like, or ask me and suggest some].\n\nSave my confirmed profile for future use.\n\n1 - MEAL ORGANISER\nWhen I tell you how many days and which meals, build a plan from my meal bank.\n\nFollow my food profile. Ask about ingredients I already have so we can avoid buying them again.\n\nReturn the meal plan and one combined shopping list with quantities matched to the number of servings. Include any extras I request.\n\nWait for my approval before handing the list to the Shopper.\n\n2 - SHOPPER\n\nAfter I approve the plan, open my grocery store’s website and fill the cart with the approved shopping list.\n\nPick sensible pack sizes. Check the existing cart before adding items to avoid duplicates.\n\nFor out-of-stock items, choose the closest suitable match within my food profile. Flag anything uncertain rather than guessing, especially where an allergy or dietary restriction is involved.\n\nStop before checkout. Never choose a delivery slot, place the order or pay.\n\nReturn the cart total, substitutions and anything you couldn’t find. I will review the cart and check out myself.\n\n3 - COOKING\n\nWhen I name a meal from the plan, give me simple cooking instructions using the ingredients we selected, including any approved substitutions.\n\nInclude preparation time, cooking time, quantities and steps in order. Explain when to start each component so everything finishes together.\n\nKeep the recipe within my agreed cooking-time preference. Flag any extra preparation needed in advance.\n\nHOW WE WORK TOGETHER\n\nI tell you:\n\n‘Plan 3 days of lunch and dinner, plus these extras: [items].’\n\nYou get the Meal Organiser to draft the plan and show it to me.\n\nAfter my approval, send the shopping list to the Shopper.\n\nReport back when the cart is ready, including anything that needs my attention.\n\nWhen I ask what to cook, use the current plan and get the Cooking Bot to guide me.\n\nFor the initial grocery-store connection, open the website and let me complete the login myself.\n\nConfirm which Bots are created and whether the store is accessible. Tell me if any setup step remains incomplete.”\n\nEnd of prompt-------\n\nThe biggest saving is having fewer everyday decisions to make, then having a team carry them through.",
+        "url": "https://x.com/Michael_Fenech_/status/2110080378879046045",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 188,
+        "likes": 367,
+        "quotes": 6,
+        "replies": 48,
+        "retweets": 49,
+        "views": 80154
+      },
+      "url": "https://x.com/elonmusk/status/2110132234929995948",
+      "images": [
+        "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUeWjMPbUAAlHC4.jpg?name=small",
+          "width": 800,
+          "height": 417
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110129432836919505",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T22:03:55.000Z",
+      "created_at_shanghai": "2026-10-14 06:03:55",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "My wife saw this post (video stolen from @ItsKimJava), now going viral again and asked me about it, so I showed her this 2018 interview clip most people have never seen: @elonmusk ’s side of the Eberhard story, which is crucial context:",
+      "quote": {
+        "author": "ilar0x",
+        "avatar": "https://pbs.twimg.com/profile_images/2091831092995039232/0dKwCzeK_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 01:37:04",
+        "created_at_utc": "2026-10-12T17:37:04.000Z",
+        "id": "2109699888355361032",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2109698614691848192/img/4peGv7uO1H_Z-Vuc.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2109698614691848192/vid/avc1/1920x1080/KOXG2go2rXqVADGC.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109698614691848192/img/4peGv7uO1H_Z-Vuc.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 156.022
+          }
+        ],
+        "name": "ILAR",
+        "text": "Elon Musk is worth $908 billion, and this weekend he asked world-class engineers to come join Tesla. Tesla once tried to cancel the sale of one car to the man who named the company. Martin Eberhard had already paid for Founders Series car number 2, and he had to sue to get it.\n\nEberhard started Tesla with Marc Tarpenning in 2003 and was its first CEO. Musk wrote the biggest check of the first round, became chairman and later blamed Eberhard for the Roadster's delays and overruns.\n\n\"I had paid full price in advance for this car. And they tried to rescind that deal,\" he says. Before he got it, a Tesla test driver drove it into the back of a truck. The car became part of his 2009 lawsuit against Musk.\n\nFounders Series cars were meant to carry a plaque signed by Eberhard and Tarpenning. By delivery he had been pushed out, and the plaque Tesla sent later had other people's signatures, not theirs. His license plate now reads FOUNDER.\n\nHis daily Roadster came off a used lot in Los Angeles with about 175 miles on it. The previous owner, he says, was Justine Musk, who won it in the divorce and never drove it. Nobody had to sue for that one.",
+        "url": "https://x.com/ilar0x/status/2109699888355361032",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "ICannot_Enough",
+        "avatar": "https://pbs.twimg.com/profile_images/1334264832397291522/AR2jbpaD_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 23:54:58",
+        "created_at_utc": "2026-10-13T15:54:58.000Z",
+        "id": "2110036583218884763",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110035811949314048/img/dtxkNw6xOKoUJqPL.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110035811949314048/vid/avc1/2188x1180/KqvjtgzyEI5uXi61.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110035811949314048/img/dtxkNw6xOKoUJqPL.jpg",
+            "width": 2188,
+            "height": 1180,
+            "duration": 357.256
+          }
+        ],
+        "name": "James Stephenson",
+        "text": "My wife saw this post (video stolen from @ItsKimJava), now going viral again and asked me about it, so I showed her this 2018 interview clip most people have never seen: @elonmusk ’s side of the Eberhard story, which is crucial context:",
+        "url": "https://x.com/ICannot_Enough/status/2110036583218884763",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 538,
+        "likes": 1298,
+        "quotes": 19,
+        "replies": 54,
+        "retweets": 205,
+        "views": 151255
+      },
+      "url": "https://x.com/elonmusk/status/2110129432836919505",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110035811949314048/img/dtxkNw6xOKoUJqPL.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110035811949314048/vid/avc1/2188x1180/KqvjtgzyEI5uXi61.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110035811949314048/img/dtxkNw6xOKoUJqPL.jpg",
+          "width": 2188,
+          "height": 1180,
+          "duration": 357.256
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110129124052230422",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5153,123 +5299,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109250878247195075",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T11:52:52.000Z",
-      "created_at_shanghai": "2026-10-11 19:52:52",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try Grok @Bot!",
-      "quote": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 01:49:06",
-        "created_at_utc": "2026-10-10T17:49:06.000Z",
-        "id": "2108978141968638224",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108977689423966208/img/AMXAMFO0GD6iaYx_.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108977689423966208/vid/avc1/2160x3840/pLtEHT6w9j0jkyE_.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108977689423966208/img/AMXAMFO0GD6iaYx_.jpg",
-            "width": 2160,
-            "height": 3840,
-            "duration": 42.743
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "Nicki Minaj at @theXtakeover today: “Grok @Bot has changed my life. It’s amazing. You’re able to create employees for your company, assistants. It probably has been used to save my life recently.”",
-        "url": "https://x.com/SawyerMerritt/status/2108978141968638224",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 81,
-        "likes": 1987,
-        "quotes": 27,
-        "replies": 529,
-        "retweets": 292,
-        "views": 805266
-      },
-      "url": "https://x.com/elonmusk/status/2109250878247195075",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109248013994697184",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T11:41:29.000Z",
-      "created_at_shanghai": "2026-10-11 19:41:29",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk is a great dad",
-      "quote": null,
-      "retweet": {
-        "author": "gailalfaratx",
-        "avatar": "https://pbs.twimg.com/profile_images/2107536713169981440/pmbpIjFp_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 07:02:29",
-        "created_at_utc": "2026-10-10T23:02:29.000Z",
-        "id": "2109057005994586244",
-        "images": [
-          "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small",
-            "width": 1536,
-            "height": 2048
-          }
-        ],
-        "name": "Gail Alfar",
-        "text": "Elon Musk is a great dad",
-        "url": "https://x.com/gailalfaratx/status/2109057005994586244",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 65,
-        "likes": 2407,
-        "quotes": 16,
-        "replies": 214,
-        "retweets": 194,
-        "views": 214411
-      },
-      "url": "https://x.com/elonmusk/status/2109248013994697184",
-      "images": [
-        "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUTgKvRWgAAY9ba.jpg?name=small",
-          "width": 1536,
-          "height": 2048
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 19,
   "page_size": 100,
-  "total": 2676,
+  "total": 2678,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 17:23:19",
+  "updated_at_shanghai": "2026-11-21 17:33:19",
   "account": "elonmusk"
 }
