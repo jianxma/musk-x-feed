@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2115347175261847750",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-28T07:37:22.000Z",
+      "created_at_shanghai": "2026-10-28 15:37:22",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Even the East German communists weren’t that shameless when rigging elections.",
+      "quote": null,
+      "retweet": {
+        "author": "goddek",
+        "avatar": "https://pbs.twimg.com/profile_images/2049137708036227072/44MqWOx0_200x200.jpg",
+        "created_at_shanghai": "2026-10-28 03:28:01",
+        "created_at_utc": "2026-10-27T19:28:01.000Z",
+        "id": "2115163627183595554",
+        "images": [
+          "https://pbs.twimg.com/media/HVqRxt1WcAEu3Z4.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVqRxt1WcAEu3Z4.jpg?name=small",
+            "width": 1197,
+            "height": 1315
+          }
+        ],
+        "name": "Dr. Simon",
+        "text": "Even the East German communists weren’t that shameless when rigging elections.",
+        "url": "https://x.com/goddek/status/2115163627183595554",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1767,
+        "likes": 28650,
+        "quotes": 288,
+        "replies": 473,
+        "retweets": 4840,
+        "views": 1092349
+      },
+      "url": "https://x.com/elonmusk/status/2115347175261847750",
+      "images": [
+        "https://pbs.twimg.com/media/HVqRxt1WcAEu3Z4.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVqRxt1WcAEu3Z4.jpg?name=small",
+          "width": 1197,
+          "height": 1315
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2115346914397069689",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5367,64 +5426,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2114560002157654414",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-26T03:29:25.000Z",
-      "created_at_shanghai": "2026-10-26 11:29:25",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Yes",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-26 11:17:28",
-        "created_at_utc": "2026-10-26T03:17:28.000Z",
-        "id": "2114556995030372711",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2114556969533251584/img/k8CAg7G6sX-E5GHw.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2114556969533251584/vid/avc1/1080x1080/c9MVhh47GHW3zhx6.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2114556969533251584/img/k8CAg7G6sX-E5GHw.jpg",
-            "width": 1080,
-            "height": 1080,
-            "duration": 6.292
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "\"We should send rockets not at each other, but rather to the stars.\"\n\n一 Elon Musk",
-        "url": "https://x.com/cb_doge/status/2114556995030372711",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 236,
-        "likes": 10028,
-        "quotes": 90,
-        "replies": 1039,
-        "retweets": 993,
-        "views": 820870
-      },
-      "url": "https://x.com/elonmusk/status/2114560002157654414",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 12,
   "page_size": 100,
-  "total": 2666,
+  "total": 2667,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 16:24:08",
+  "updated_at_shanghai": "2026-11-21 16:32:44",
   "account": "elonmusk"
 }

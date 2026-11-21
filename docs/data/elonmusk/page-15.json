@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2113011511429902609",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T20:56:16.000Z",
+      "created_at_shanghai": "2026-10-22 04:56:16",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot is like hiring a super smart and fun employee!",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 03:42:13",
+        "created_at_utc": "2026-10-21T19:42:13.000Z",
+        "id": "2112992872857252082",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2112992722529226752/img/3vCQwgTBFW-Svcnq.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2112992722529226752/vid/avc1/1920x1080/Pj0Pze4xLpjvRJgG.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112992722529226752/img/3vCQwgTBFW-Svcnq.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 26.8
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now build reports, memos, and dashboards.\n\nAsk Bot for a page, then edit it together or have Bot keep it up to date.",
+        "url": "https://x.com/bot/status/2112992872857252082",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 229,
+        "likes": 3492,
+        "quotes": 40,
+        "replies": 720,
+        "retweets": 409,
+        "views": 713029
+      },
+      "url": "https://x.com/elonmusk/status/2113011511429902609",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2113011056847278486",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5227,53 +5279,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2112080134778069414",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-19T07:15:19.000Z",
-      "created_at_shanghai": "2026-10-19 15:15:19",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Important",
-      "quote": {
-        "author": "america",
-        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
-        "created_at_shanghai": "2026-10-19 10:40:02",
-        "created_at_utc": "2026-10-19T02:40:02.000Z",
-        "id": "2112010856816894116",
-        "images": [],
-        "media": [],
-        "name": "America",
-        "text": "Early Voting Starts in Texas tomorrow \n\nMake your plan to Vote in the midterms:\n\n-Get voter registration information.\n-Find where you can vote.\n-Get election reminders.\n\n https://votesafe.org/",
-        "url": "https://x.com/america/status/2112010856816894116",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 108,
-        "likes": 9091,
-        "quotes": 48,
-        "replies": 667,
-        "retweets": 1571,
-        "views": 992691
-      },
-      "url": "https://x.com/elonmusk/status/2112080134778069414",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 15,
   "page_size": 100,
-  "total": 2666,
+  "total": 2667,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 16:24:08",
+  "updated_at_shanghai": "2026-11-21 16:32:44",
   "account": "elonmusk"
 }

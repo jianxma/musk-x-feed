@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2103523122989166661",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-25T16:32:48.000Z",
+      "created_at_shanghai": "2026-09-26 00:32:48",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceX has introduced a new website for its AI training clusters in Tennessee/Mississippi.\n\nNew info:\n• Tesla Megapacks will provide 3.3 GWh to Colossus 2, enough to power Memphis for two hours, making it America’s largest grid-connected battery pack.\n• SpaceX has invested millions of dollars in sound walls, silencers, and next-gen turbines with advanced quieting technologies.\n• Since joining the community in 2024, SpaceXAI is investing more than $90 billion in the region. Estimated 2026 tax revenue will be $60M+\n• 7,500 local jobs supported\n• SpaceXAI is investing $360 million, at no cost to the city, in a clean water recycling plant. It is designed to process up to 10 million gallons of wastewater a day and would offset ~3.64 billion gallons a year from the Memphis Aquifer.\n• In Memphis, SpaceXAI is investing $35 million in a 150 MW substation to support MLGW and another $20 million in a second substation. Both come online at no cost to MLGW or homeowners.\n• Temporary power is coming off. Under an agreed order with the Mississippi Department of Environmental Quality, all remaining temporary turbines must be removed by July 2027. SpaceXAI is already taking units offline and expects to complete removal well ahead of that deadline.\n\nWebsite: https://spacex.com/Mid-South",
+      "quote": null,
+      "retweet": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 00:01:31",
+        "created_at_utc": "2026-09-25T16:01:31.000Z",
+        "id": "2103515250737758442",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2103513014800392192/img/c6kUW2docHSLtTOO.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103513014800392192/vid/avc1/3456x1944/SyLoWCO7aXLgRBbn.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103513014800392192/img/c6kUW2docHSLtTOO.jpg",
+            "width": 3456,
+            "height": 1944,
+            "duration": 43.303
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "SpaceX has introduced a new website for its AI training clusters in Tennessee/Mississippi.\n\nNew info:\n• Tesla Megapacks will provide 3.3 GWh to Colossus 2, enough to power Memphis for two hours, making it America’s largest grid-connected battery pack.\n• SpaceX has invested millions of dollars in sound walls, silencers, and next-gen turbines with advanced quieting technologies.\n• Since joining the community in 2024, SpaceXAI is investing more than $90 billion in the region. Estimated 2026 tax revenue will be $60M+\n• 7,500 local jobs supported\n• SpaceXAI is investing $360 million, at no cost to the city, in a clean water recycling plant. It is designed to process up to 10 million gallons of wastewater a day and would offset ~3.64 billion gallons a year from the Memphis Aquifer.\n• In Memphis, SpaceXAI is investing $35 million in a 150 MW substation to support MLGW and another $20 million in a second substation. Both come online at no cost to MLGW or homeowners.\n• Temporary power is coming off. Under an agreed order with the Mississippi Department of Environmental Quality, all remaining temporary turbines must be removed by July 2027. SpaceXAI is already taking units offline and expects to complete removal well ahead of that deadline.\n\nWebsite: https://spacex.com/Mid-South",
+        "url": "https://x.com/SawyerMerritt/status/2103515250737758442",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 46,
+        "likes": 608,
+        "quotes": 6,
+        "replies": 39,
+        "retweets": 84,
+        "views": 63703
+      },
+      "url": "https://x.com/elonmusk/status/2103523122989166661",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2103513014800392192/img/c6kUW2docHSLtTOO.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2103513014800392192/vid/avc1/3456x1944/SyLoWCO7aXLgRBbn.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2103513014800392192/img/c6kUW2docHSLtTOO.jpg",
+          "width": 3456,
+          "height": 1944,
+          "duration": 43.303
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103506652263780535",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5326,56 +5389,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102107554578931980",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T18:47:50.000Z",
-      "created_at_shanghai": "2026-09-22 02:47:50",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "and here’s the grok 4.7 model card. a few jumps vs 4.6 that stood out:\n\n- Terminal-Bench: 20.3% → 38.0%\n- SWE-Marathon: 31.9% → 46.0%\n- HealthBench Pro: 48.5% → 56.7%\n- Legal Agent: 15.8% → 19.6%\n- EEBench: 60.0% → 66.0%\n\nfor the same price as 4.6!\n\nhttps://media.x.ai/v1/website/4p7card-5eccc980.pdf",
-      "quote": null,
-      "retweet": {
-        "author": "ericzakariasson",
-        "avatar": "https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 01:49:09",
-        "created_at_utc": "2026-09-21T17:49:09.000Z",
-        "id": "2102092784727679127",
-        "images": [
-          "https://pbs.twimg.com/media/HSwiP5pa4AA1v89.jpg?name=small"
-        ],
-        "name": "eric zakariasson",
-        "text": "and here’s the grok 4.7 model card. a few jumps vs 4.6 that stood out:\n\n- Terminal-Bench: 20.3% → 38.0%\n- SWE-Marathon: 31.9% → 46.0%\n- HealthBench Pro: 48.5% → 56.7%\n- Legal Agent: 15.8% → 19.6%\n- EEBench: 60.0% → 66.0%\n\nfor the same price as 4.6!\n\nhttps://media.x.ai/v1/website/4p7card-5eccc980.pdf",
-        "url": "https://x.com/ericzakariasson/status/2102092784727679127",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 84,
-        "likes": 1693,
-        "quotes": 13,
-        "replies": 113,
-        "retweets": 189,
-        "views": 463927
-      },
-      "url": "https://x.com/elonmusk/status/2102107554578931980",
-      "images": [
-        "https://pbs.twimg.com/media/HSwiP5pa4AA1v89.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 26,
   "page_size": 100,
-  "total": 2666,
+  "total": 2667,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 16:24:08",
+  "updated_at_shanghai": "2026-11-21 16:32:44",
   "account": "elonmusk"
 }
