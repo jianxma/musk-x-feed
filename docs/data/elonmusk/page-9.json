@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2116986769774374981",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-01T20:12:32.000Z",
+      "created_at_shanghai": "2026-11-02 04:12:32",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "AnakinCore keeps hitting",
+      "quote": null,
+      "retweet": {
+        "author": "Jason",
+        "avatar": "https://pbs.twimg.com/profile_images/1828870492633104384/o37xorx4_200x200.jpg",
+        "created_at_shanghai": "2026-11-02 00:44:46",
+        "created_at_utc": "2026-11-01T16:44:46.000Z",
+        "id": "2116934482515083564",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2116302509337935872/img/4lXOyajJcHzZzFSY.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2116302509337935872/vid/avc1/750x1114/Vn8YeUZ3l9eqm3RO.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116302509337935872/img/4lXOyajJcHzZzFSY.jpg",
+            "width": 750,
+            "height": 1114,
+            "duration": 30.346
+          }
+        ],
+        "name": "@jason",
+        "text": "AnakinCore keeps hitting",
+        "url": "https://x.com/Jason/status/2116934482515083564",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 200,
+        "likes": 1161,
+        "quotes": 35,
+        "replies": 0,
+        "retweets": 132,
+        "views": 143527
+      },
+      "url": "https://x.com/elonmusk/status/2116986769774374981",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116302509337935872/img/4lXOyajJcHzZzFSY.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2116302509337935872/vid/avc1/750x1114/Vn8YeUZ3l9eqm3RO.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116302509337935872/img/4lXOyajJcHzZzFSY.jpg",
+          "width": 750,
+          "height": 1114,
+          "duration": 30.346
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116985908268572975",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5259,53 +5322,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2116296438942765394",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T22:29:24.000Z",
-      "created_at_shanghai": "2026-10-31 06:29:24",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Eli Lilly has some banger drugs coming out!",
-      "quote": {
-        "author": "DaveARicks",
-        "avatar": "https://pbs.twimg.com/profile_images/2093152443215306752/Oq9ste_Q_200x200.jpg",
-        "created_at_shanghai": "2026-10-30 21:35:19",
-        "created_at_utc": "2026-10-30T13:35:19.000Z",
-        "id": "2116162031376015786",
-        "images": [],
-        "media": [],
-        "name": "Dave A Ricks",
-        "text": "I’ll take that bet.",
-        "url": "https://x.com/DaveARicks/status/2116162031376015786",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 792,
-        "likes": 7813,
-        "quotes": 132,
-        "replies": 734,
-        "retweets": 524,
-        "views": 1166380
-      },
-      "url": "https://x.com/elonmusk/status/2116296438942765394",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 9,
   "page_size": 100,
-  "total": 2662,
+  "total": 2663,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 15:45:33",
+  "updated_at_shanghai": "2026-11-21 15:52:58",
   "account": "elonmusk"
 }
