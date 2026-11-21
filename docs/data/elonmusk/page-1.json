@@ -11,7 +11,7 @@
       "created_at_shanghai": "2026-11-21 14:53:14",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @kcoleman",
+      "text": "This is not accurate: \"one report erases 468 likes.\" That's not what the code is doing. The weights are a multiple on your own predicted probability of Liking, Reporting, etc, which is substantially driven by your own behavior. And the baseline probability of a Report is more than 1000x lower. \n\nAlso: https://x.com/nikitabier/status/2087992223648682249",
       "quote": {
         "author": "kcoleman",
         "name": "Keith Coleman 🌱😀🙌",
@@ -21,11 +21,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 113,
-        "retweets": 27,
-        "replies": 10,
         "bookmarks": 16,
+        "likes": 113,
         "quotes": 1,
+        "replies": 10,
+        "retweets": 27,
         "views": 56918
       },
       "url": "https://x.com/elonmusk/status/2124033377208865278",
@@ -44,7 +44,7 @@
       "created_at_shanghai": "2026-11-21 14:38:03",
       "type": "转发",
       "type_label": "转发",
-      "text": "RT @cb_doge",
+      "text": "BREAKING: Tesla has released more photos from Elon Musk’s visit to Giga Shanghai, including moments with the team and a special gift designed and handmade by factory employees using leftover materials.",
       "quote": {
         "author": "cb_doge",
         "name": "DogeDesigner",
@@ -54,11 +54,11 @@
       "retweet": null,
       "reply_to": "",
       "engagement": {
-        "likes": 3463,
-        "retweets": 391,
-        "replies": 225,
         "bookmarks": 212,
+        "likes": 3463,
         "quotes": 46,
+        "replies": 225,
+        "retweets": 391,
         "views": 173645
       },
       "url": "https://x.com/elonmusk/status/2124029554570272948",
@@ -4314,6 +4314,6 @@
   "page_size": 100,
   "total": 2659,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 14:57:23",
+  "updated_at_shanghai": "2026-11-21 15:06:27",
   "account": "elonmusk"
 }
