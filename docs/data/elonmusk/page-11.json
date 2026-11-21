@@ -1,6 +1,119 @@
 {
   "posts": [
     {
+      "id": "2116003755078381762",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T03:06:23.000Z",
+      "created_at_shanghai": "2026-10-30 11:06:23",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "AI may well be able to write massive software projects “from scratch”, but that almost certainly isn’t the fastest / highest performance / highest security / most token efficient way to do things. Good building blocks matter.\n\nIn addition to RL’ing the agents on final task loss, we should try to get them to regularize the building blocks as well. What would the standard library look like that makes the agents most effective?\n\nIt is likely at the limit that it turns out to be some alien organization of code, but given the existing human-bias in training, I bet that in the near term it would be lovely code that old programmers would appreciate.\n\nI suspect the same could be said for mathematics, but that is out of my lane.",
+      "quote": null,
+      "retweet": {
+        "author": "ID_AA_Carmack",
+        "avatar": "https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_200x200.jpg",
+        "created_at_shanghai": "2026-10-30 05:24:18",
+        "created_at_utc": "2026-10-29T21:24:18.000Z",
+        "id": "2115917666955497608",
+        "images": [],
+        "media": [],
+        "name": "John Carmack",
+        "text": "AI may well be able to write massive software projects “from scratch”, but that almost certainly isn’t the fastest / highest performance / highest security / most token efficient way to do things. Good building blocks matter.\n\nIn addition to RL’ing the agents on final task loss, we should try to get them to regularize the building blocks as well. What would the standard library look like that makes the agents most effective?\n\nIt is likely at the limit that it turns out to be some alien organization of code, but given the existing human-bias in training, I bet that in the near term it would be lovely code that old programmers would appreciate.\n\nI suspect the same could be said for mathematics, but that is out of my lane.",
+        "url": "https://x.com/ID_AA_Carmack/status/2115917666955497608",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 930,
+        "likes": 4273,
+        "quotes": 56,
+        "replies": 285,
+        "retweets": 343,
+        "views": 469121
+      },
+      "url": "https://x.com/elonmusk/status/2116003755078381762",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2116003300898111598",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T03:04:35.000Z",
+      "created_at_shanghai": "2026-10-30 11:04:35",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon and Larry Page, mid-2000s, just two friends at lunch.\n\nPage later called him a “speciesist.” Musk started OpenAI partly because of it.\n\nThis photo is from the “still friends” era.\nHow time flies.",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 23:19:12",
+        "created_at_utc": "2026-10-29T15:19:12.000Z",
+        "id": "2115825787647496203",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "Our civilization would be winning wondrously if we are exploring the galaxy with Von Neumann probes by 2100!\n\nLarry Page might be right. He has correctly predicted many things.",
+        "url": "https://x.com/elonmusk/status/2115825787647496203",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "Dogetothemoon",
+        "avatar": "https://pbs.twimg.com/profile_images/2090278758972571648/3ihoplje_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 23:41:49",
+        "created_at_utc": "2026-10-29T15:41:49.000Z",
+        "id": "2115831476952719486",
+        "images": [
+          "https://pbs.twimg.com/media/HVzxhBXa8AE2gdK.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVzxhBXa8AE2gdK.jpg?name=small",
+            "width": 1024,
+            "height": 768
+          }
+        ],
+        "name": "Doge Tipping",
+        "text": "Elon and Larry Page, mid-2000s, just two friends at lunch.\n\nPage later called him a “speciesist.” Musk started OpenAI partly because of it.\n\nThis photo is from the “still friends” era.\nHow time flies.",
+        "url": "https://x.com/Dogetothemoon/status/2115831476952719486",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 382,
+        "likes": 1781,
+        "quotes": 8,
+        "replies": 80,
+        "retweets": 146,
+        "views": 463102
+      },
+      "url": "https://x.com/elonmusk/status/2116003300898111598",
+      "images": [
+        "https://pbs.twimg.com/media/HVzxhBXa8AE2gdK.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVzxhBXa8AE2gdK.jpg?name=small",
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116002781647499653",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5183,112 +5296,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115325413945987576",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-28T06:10:54.000Z",
-      "created_at_shanghai": "2026-10-28 14:10:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot just keeps getting better \n\nThe Vault feature is a game changer",
-      "quote": null,
-      "retweet": {
-        "author": "beffjezos",
-        "avatar": "https://pbs.twimg.com/profile_images/2104068258311901184/vmbQ61I3_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 09:02:29",
-        "created_at_utc": "2026-10-28T01:02:29.000Z",
-        "id": "2115247800132972952",
-        "images": [],
-        "media": [],
-        "name": "Beff (e/acc)",
-        "text": "Grok Bot just keeps getting better \n\nThe Vault feature is a game changer",
-        "url": "https://x.com/beffjezos/status/2115247800132972952",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 56,
-        "likes": 898,
-        "quotes": 8,
-        "replies": 68,
-        "retweets": 62,
-        "views": 124904
-      },
-      "url": "https://x.com/elonmusk/status/2115325413945987576",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2115325367082979348",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-28T06:10:43.000Z",
-      "created_at_shanghai": "2026-10-28 14:10:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I JUST GAVE GROK BOT A VOICE MAIL AND TEXT MESSAGING!\n\nAND YOU CAN TOO—ITS FREE!\n\nYour phone number is a front door. Most people leave it unlocked and unattended.\n\nMeet Grok Bot Text & Voicemail, a front desk for your phone number that never takes a lunch break.\n\nGET IT: https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4\n\nThink of it as a receptionist sitting between the world and your pocket. \n\nTexts and voicemails come in to a separate Google Voice number (this is until Grok Bot gets his own number from SpaceXSI).\n\nIt reads each one, figures out what the person wants and how urgent it is, and hands you a short note: \"Joe’ Hair appointment wants to reschedule, medium urgency, here's a reply ready to go.\" You tap yes and it goes out as a text from your business number.\n\nIt works like a mail sorter for your attention. Real customers go to the top of the pile, spam goes in the trash, and urgent messages get flagged right away.\n\nWhere it shines:\n\nBarbers and salons: \"Got anything Thursday?\" gets back three open slots from your calendar.\n\nContractors: It turns a rambling voicemail from a job site into one line: \"Leak under kitchen sink, wants a quote, call back today.\"\n\nRealtors: It sorts showing requests from people who are just curious.\n\nRestaurants and food trucks: Hours, location, and catering questions get a reply ready in seconds.\n\nTherapists and coaches: Clients book appointments without ever getting your personal cell.\n\nLandlords: A maintenance emergency gets flagged as urgent, and \"is it still available?\" gets a draft reply.\n\nTutors, trainers, and photographers: Bookings land on a calendar just for the bot, and nothing gets double-booked.\n\nAnyone selling on Marketplace or meeting people from dating apps: Hand out the bot's number, not yours.\n\nIt books appointments too. It reads your calendar, offers only real openings that fit your rules, and puts confirmed bookings on a calendar of their own.\n\nYou stay in charge. \n\nEvery reply waits for your OK. \n\nTexts are capped to keep your number in good standing. You can raise the cap.\n\nIt's a seatbelt, not a megaphone. \n\nIt's built to handle incoming messages well, not to blast texts out.\n\nBut wait, there's more!\n\nIt doesn't just answer your texts. It books appointments on your calendar.\n\nSomeone texts \"Can I come in Thursday?\" and in the old days that meant a game of phone tag: you check your calendar, text back, wait, they can't make it, and you check again.\n\nNow it's like having a scheduler who already knows your whole week. \n\nThe bot looks privately at every calendar you have, including work, family, and the kids' practices, and offers only times that are actually open. It follows your rules, too: your hours, how long appointments run, and the breathing room you want between them. Your family dinners won't get booked over, and neither will your lunch.\n\nBookings land on a calendar just for the bot, color-coded and kept separate from your other events, so you can see at a glance what your front desk booked.\n\nWant the final say? Approve each booking with one tap. Ready to let it fly? Turn on auto-confirm and appointments book themselves while you work.\n\nHaircuts: \"Thursday at 2:15 works, see you then!\" ✂️\nLessons: \"Booked you for Tuesday at 3:40.\" 🎸\nEstimates: \"You're on for Friday at 1:20, address noted.\" 🔧\nNo booking apps, no back-and-forth, no double-booking. Just text in and appointment booked.\nYour calendar finally answers the phone. 📅\n\nComing soon: outbound calls, and real Grok Bot phone numbers that will replace the Google Voice stand-in.\nYour number is the front door. Put someone at the desk.\n\nGET IT: https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4",
-      "quote": null,
-      "retweet": {
-        "author": "BrianRoemmele",
-        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
-        "created_at_shanghai": "2026-10-28 01:08:50",
-        "created_at_utc": "2026-10-27T17:08:50.000Z",
-        "id": "2115128602140577967",
-        "images": [
-          "https://pbs.twimg.com/media/HVpyQNBa4AAA2nI.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVpyQNBa4AAA2nI.jpg?name=small",
-            "width": 1024,
-            "height": 1024
-          }
-        ],
-        "name": "Brian Roemmele",
-        "text": "I JUST GAVE GROK BOT A VOICE MAIL AND TEXT MESSAGING!\n\nAND YOU CAN TOO—ITS FREE!\n\nYour phone number is a front door. Most people leave it unlocked and unattended.\n\nMeet Grok Bot Text & Voicemail, a front desk for your phone number that never takes a lunch break.\n\nGET IT: https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4\n\nThink of it as a receptionist sitting between the world and your pocket. \n\nTexts and voicemails come in to a separate Google Voice number (this is until Grok Bot gets his own number from SpaceXSI).\n\nIt reads each one, figures out what the person wants and how urgent it is, and hands you a short note: \"Joe’ Hair appointment wants to reschedule, medium urgency, here's a reply ready to go.\" You tap yes and it goes out as a text from your business number.\n\nIt works like a mail sorter for your attention. Real customers go to the top of the pile, spam goes in the trash, and urgent messages get flagged right away.\n\nWhere it shines:\n\nBarbers and salons: \"Got anything Thursday?\" gets back three open slots from your calendar.\n\nContractors: It turns a rambling voicemail from a job site into one line: \"Leak under kitchen sink, wants a quote, call back today.\"\n\nRealtors: It sorts showing requests from people who are just curious.\n\nRestaurants and food trucks: Hours, location, and catering questions get a reply ready in seconds.\n\nTherapists and coaches: Clients book appointments without ever getting your personal cell.\n\nLandlords: A maintenance emergency gets flagged as urgent, and \"is it still available?\" gets a draft reply.\n\nTutors, trainers, and photographers: Bookings land on a calendar just for the bot, and nothing gets double-booked.\n\nAnyone selling on Marketplace or meeting people from dating apps: Hand out the bot's number, not yours.\n\nIt books appointments too. It reads your calendar, offers only real openings that fit your rules, and puts confirmed bookings on a calendar of their own.\n\nYou stay in charge. \n\nEvery reply waits for your OK. \n\nTexts are capped to keep your number in good standing. You can raise the cap.\n\nIt's a seatbelt, not a megaphone. \n\nIt's built to handle incoming messages well, not to blast texts out.\n\nBut wait, there's more!\n\nIt doesn't just answer your texts. It books appointments on your calendar.\n\nSomeone texts \"Can I come in Thursday?\" and in the old days that meant a game of phone tag: you check your calendar, text back, wait, they can't make it, and you check again.\n\nNow it's like having a scheduler who already knows your whole week. \n\nThe bot looks privately at every calendar you have, including work, family, and the kids' practices, and offers only times that are actually open. It follows your rules, too: your hours, how long appointments run, and the breathing room you want between them. Your family dinners won't get booked over, and neither will your lunch.\n\nBookings land on a calendar just for the bot, color-coded and kept separate from your other events, so you can see at a glance what your front desk booked.\n\nWant the final say? Approve each booking with one tap. Ready to let it fly? Turn on auto-confirm and appointments book themselves while you work.\n\nHaircuts: \"Thursday at 2:15 works, see you then!\" ✂️\nLessons: \"Booked you for Tuesday at 3:40.\" 🎸\nEstimates: \"You're on for Friday at 1:20, address noted.\" 🔧\nNo booking apps, no back-and-forth, no double-booking. Just text in and appointment booked.\nYour calendar finally answers the phone. 📅\n\nComing soon: outbound calls, and real Grok Bot phone numbers that will replace the Google Voice stand-in.\nYour number is the front door. Put someone at the desk.\n\nGET IT: https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4",
-        "url": "https://x.com/BrianRoemmele/status/2115128602140577967",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 546,
-        "likes": 570,
-        "quotes": 6,
-        "replies": 46,
-        "retweets": 71,
-        "views": 133179
-      },
-      "url": "https://x.com/elonmusk/status/2115325367082979348",
-      "images": [
-        "https://pbs.twimg.com/media/HVpyQNBa4AAA2nI.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVpyQNBa4AAA2nI.jpg?name=small",
-          "width": 1024,
-          "height": 1024
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 11,
   "page_size": 100,
-  "total": 2656,
+  "total": 2658,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 14:39:01",
+  "updated_at_shanghai": "2026-11-21 14:44:09",
   "account": "elonmusk"
 }
