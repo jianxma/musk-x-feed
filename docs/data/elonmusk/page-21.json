@@ -1,6 +1,130 @@
 {
   "posts": [
     {
+      "id": "2108306628390932872",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T21:20:45.000Z",
+      "created_at_shanghai": "2026-10-09 05:20:45",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I love @bot 🤖\n\nI’m using it to clean up one of my Shopify stores and remove the worst-performing products.\n\nSomething that would normally take me hours can now be done in minutes.\n\nAI is getting ridiculously good. 🤯",
+      "quote": null,
+      "retweet": {
+        "author": "ClownWorld",
+        "avatar": "https://pbs.twimg.com/profile_images/2007190860690046977/ZAITQvgd_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 04:01:50",
+        "created_at_utc": "2026-10-08T20:01:50.000Z",
+        "id": "2108286770031067221",
+        "images": [],
+        "media": [],
+        "name": "Clown World ™ 🤡",
+        "text": "I love @bot 🤖\n\nI’m using it to clean up one of my Shopify stores and remove the worst-performing products.\n\nSomething that would normally take me hours can now be done in minutes.\n\nAI is getting ridiculously good. 🤯",
+        "url": "https://x.com/ClownWorld/status/2108286770031067221",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 23,
+        "likes": 530,
+        "quotes": 3,
+        "replies": 53,
+        "retweets": 55,
+        "views": 94757
+      },
+      "url": "https://x.com/elonmusk/status/2108306628390932872",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108303850650443930",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T21:09:43.000Z",
+      "created_at_shanghai": "2026-10-09 05:09:43",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "doing deep research with Grok Bot’s new X integration",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 05:40:18",
+        "created_at_utc": "2026-10-07T21:40:18.000Z",
+        "id": "2107949161878606089",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107948628950298624/vid/avc1/1920x1080/tlGtL_3iQXfm7WuO.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 12.166
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now search, read, and monitor X.",
+        "url": "https://x.com/bot/status/2107949161878606089",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "TrungTPhan",
+        "avatar": "https://pbs.twimg.com/profile_images/1506362585448296448/LJg8kVSD_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 22:42:28",
+        "created_at_utc": "2026-10-08T14:42:28.000Z",
+        "id": "2108206397569822815",
+        "images": [
+          "https://pbs.twimg.com/media/HUHai4KacAArvoQ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUHai4KacAArvoQ.jpg?name=small",
+            "width": 1320,
+            "height": 1950
+          }
+        ],
+        "name": "Trung Phan",
+        "text": "doing deep research with Grok Bot’s new X integration",
+        "url": "https://x.com/TrungTPhan/status/2108206397569822815",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 31,
+        "likes": 344,
+        "quotes": 3,
+        "replies": 33,
+        "retweets": 62,
+        "views": 117662
+      },
+      "url": "https://x.com/elonmusk/status/2108303850650443930",
+      "images": [
+        "https://pbs.twimg.com/media/HUHai4KacAArvoQ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUHai4KacAArvoQ.jpg?name=small",
+          "width": 1320,
+          "height": 1950
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2108301316451922073",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5369,94 +5493,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108050637766492433",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T04:23:32.000Z",
-      "created_at_shanghai": "2026-10-08 12:23:32",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Two biggest life hacks today: \n1) FSD\n2) @bot",
-      "quote": null,
-      "retweet": {
-        "author": "Alex_J_Mandel",
-        "avatar": "https://pbs.twimg.com/profile_images/1740968879684571136/xCYJECPn_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 11:20:12",
-        "created_at_utc": "2026-10-08T03:20:12.000Z",
-        "id": "2108034701294481862",
-        "images": [],
-        "media": [],
-        "name": "Alex Mandel",
-        "text": "Two biggest life hacks today: \n1) FSD\n2) @bot",
-        "url": "https://x.com/Alex_J_Mandel/status/2108034701294481862",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 33,
-        "likes": 957,
-        "quotes": 11,
-        "replies": 65,
-        "retweets": 110,
-        "views": 211890
-      },
-      "url": "https://x.com/elonmusk/status/2108050637766492433",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108050298505990362",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T04:22:11.000Z",
-      "created_at_shanghai": "2026-10-08 12:22:11",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon Musk spoke these words 14 years ago. \n\n\"Manufacturing is building the machine that makes the machine. If you think the machine is important, building the machine that makes the machine is also extremely important. And more often than not, what I found is that the manufacturing is harder than the original product. At Tesla, we can make one car very easily, but to make thousands of cars with high reliability and quality and where the cost is affordable is extremely hard. I’d say 10 times harder, maybe more… I really think a lot more smart people should be getting into manufacturing. And it’s kind of fun\".\n\nElon at MIT AeroAstro talk on October 24, 2014",
-      "quote": null,
-      "retweet": {
-        "author": "gailalfaratx",
-        "avatar": "https://pbs.twimg.com/profile_images/2107536713169981440/pmbpIjFp_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 08:56:00",
-        "created_at_utc": "2026-10-08T00:56:00.000Z",
-        "id": "2107998409852420584",
-        "images": [],
-        "media": [],
-        "name": "Gail Alfar",
-        "text": "Elon Musk spoke these words 14 years ago. \n\n\"Manufacturing is building the machine that makes the machine. If you think the machine is important, building the machine that makes the machine is also extremely important. And more often than not, what I found is that the manufacturing is harder than the original product. At Tesla, we can make one car very easily, but to make thousands of cars with high reliability and quality and where the cost is affordable is extremely hard. I’d say 10 times harder, maybe more… I really think a lot more smart people should be getting into manufacturing. And it’s kind of fun\".\n\nElon at MIT AeroAstro talk on October 24, 2014",
-        "url": "https://x.com/gailalfaratx/status/2107998409852420584",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 194,
-        "likes": 1648,
-        "quotes": 12,
-        "replies": 48,
-        "retweets": 215,
-        "views": 226297
-      },
-      "url": "https://x.com/elonmusk/status/2108050298505990362",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 100,
-  "total": 2689,
+  "total": 2691,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-22 05:57:46",
+  "updated_at_shanghai": "2026-11-22 06:38:57",
   "account": "elonmusk"
 }
