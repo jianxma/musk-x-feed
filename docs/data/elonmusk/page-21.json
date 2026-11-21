@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108301316451922073",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T20:59:38.000Z",
+      "created_at_shanghai": "2026-10-09 04:59:38",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "As easy as asking",
+      "quote": {
+        "author": "AndrewWarner",
+        "avatar": "https://pbs.twimg.com/profile_images/652279268043436038/OB4hhHyA_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 00:43:53",
+        "created_at_utc": "2026-10-08T16:43:53.000Z",
+        "id": "2108236955188068385",
+        "images": [],
+        "media": [],
+        "name": "Andrew Warner",
+        "text": "After @elonmusk tweeted my guide to connecting Claude and ChatGPT to Grok @Bot, people had 5 questions.\n\n1. Do I need an API key?\nNah. Just log into Claude or ChatGPT, like you do in VS Code, terminal, etc.\n\n2. Do I need new subscriptions?\nNope. Just use the Claude and ChatGPT plans you already pay for. Now you get more for your $\n\n3. What's the point?\nClaude writes closer to my taste. And some projects only come out right on certain models.\n\n4. Won't Claude or ChatGPT log me out when Grok logs in?\nI never got logged out. My Grok @Bot & my Mac both access those subscrptions.\n\n5. How do I set it up?\nEasy! Just send your Grok Bot this:\n\n\"Connect to my Claude and ChatGPT subscriptions using Claude Code and Codex.\"\n\nIt opens a terminal on its computer, installs both command-line tools, and asks you to log in. That's it.",
+        "url": "https://x.com/AndrewWarner/status/2108236955188068385",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 123,
+        "likes": 1140,
+        "quotes": 12,
+        "replies": 259,
+        "retweets": 151,
+        "views": 488398
+      },
+      "url": "https://x.com/elonmusk/status/2108301316451922073",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108301193219133873",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5410,53 +5451,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108050093916164568",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T04:21:22.000Z",
-      "created_at_shanghai": "2026-10-08 12:21:22",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Yes",
-      "quote": {
-        "author": "chribjel",
-        "avatar": "https://pbs.twimg.com/profile_images/2025969298695426048/tKttpJao_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 22:37:07",
-        "created_at_utc": "2026-10-07T14:37:07.000Z",
-        "id": "2107842663500099834",
-        "images": [],
-        "media": [],
-        "name": "Christoffer Bjelke",
-        "text": "something just unlocked for me in my brain\n\ngrok bot + cursor cloud agents is actually an insane productivity boost holy shit",
-        "url": "https://x.com/chribjel/status/2107842663500099834",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 251,
-        "likes": 1802,
-        "quotes": 14,
-        "replies": 211,
-        "retweets": 221,
-        "views": 955285
-      },
-      "url": "https://x.com/elonmusk/status/2108050093916164568",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 100,
-  "total": 2688,
+  "total": 2689,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-22 04:54:55",
+  "updated_at_shanghai": "2026-11-22 05:57:46",
   "account": "elonmusk"
 }
