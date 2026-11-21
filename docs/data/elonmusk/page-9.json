@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2116970572592861616",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-01T19:08:10.000Z",
+      "created_at_shanghai": "2026-11-02 03:08:10",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "aaronburnett",
+        "avatar": "https://pbs.twimg.com/profile_images/2049987217477513216/GJx9_LdR_200x200.jpg",
+        "created_at_shanghai": "2026-11-01 23:04:47",
+        "created_at_utc": "2026-11-01T15:04:47.000Z",
+        "id": "2116909323670482979",
+        "images": [],
+        "media": [],
+        "name": "Aaron Burnett",
+        "text": "I believe that not using AI when modeling should be considered negligence. In the near future 1-2 years, this opinion will be considered obvious. \n\nlike FSD for investment decision making. You can absolutely model by hand if you so choose, but it’s not the smart decision. Every institution will have to grapple with this truth in the coming months.",
+        "url": "https://x.com/aaronburnett/status/2116909323670482979",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 75,
+        "likes": 2216,
+        "quotes": 26,
+        "replies": 459,
+        "retweets": 266,
+        "views": 688849
+      },
+      "url": "https://x.com/elonmusk/status/2116970572592861616",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116969654849868192",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5258,75 +5299,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116295774485041336",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T22:26:46.000Z",
-      "created_at_shanghai": "2026-10-31 06:26:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: Google just proved AI data centers in space actually work\n\nProject Suncatcher's first satellite, built with @planet and launched on a SpaceX rocket with 4 TPUs on board, verified the physics: Google sent a prompt from Earth, a TPU in orbit ran Gemma inference, and the full answer was beamed back down. \n\nSpaceX is launching its StarMind satellites with NVIDIA GPUs on Starship in late 2027. \n\nKardashev Type II civilization INCOMING",
-      "quote": null,
-      "retweet": {
-        "author": "ns123abc",
-        "avatar": "https://pbs.twimg.com/profile_images/2048822563821035520/7nxCFEnk_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 03:13:03",
-        "created_at_utc": "2026-10-30T19:13:03.000Z",
-        "id": "2116247027335966934",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2116245186216886272/img/xb4Cz21tMEow4NnI.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2116245186216886272/vid/avc1/1920x1080/yBEF0yNP2fXhqGCO.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116245186216886272/img/xb4Cz21tMEow4NnI.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 82.499
-          }
-        ],
-        "name": "NIK",
-        "text": "BREAKING: Google just proved AI data centers in space actually work\n\nProject Suncatcher's first satellite, built with @planet and launched on a SpaceX rocket with 4 TPUs on board, verified the physics: Google sent a prompt from Earth, a TPU in orbit ran Gemma inference, and the full answer was beamed back down. \n\nSpaceX is launching its StarMind satellites with NVIDIA GPUs on Starship in late 2027. \n\nKardashev Type II civilization INCOMING",
-        "url": "https://x.com/ns123abc/status/2116247027335966934",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 323,
-        "likes": 2578,
-        "quotes": 71,
-        "replies": 127,
-        "retweets": 365,
-        "views": 499493
-      },
-      "url": "https://x.com/elonmusk/status/2116295774485041336",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2116245186216886272/img/xb4Cz21tMEow4NnI.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2116245186216886272/vid/avc1/1920x1080/yBEF0yNP2fXhqGCO.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116245186216886272/img/xb4Cz21tMEow4NnI.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 82.499
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 9,
   "page_size": 100,
-  "total": 2659,
+  "total": 2660,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 15:06:27",
+  "updated_at_shanghai": "2026-11-21 15:34:33",
   "account": "elonmusk"
 }

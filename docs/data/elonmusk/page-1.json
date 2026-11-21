@@ -1,6 +1,34 @@
 {
   "posts": [
     {
+      "id": "2124042864891982292",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-21T07:30:56.000Z",
+      "created_at_shanghai": "2026-11-21 15:30:56",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "SFT is more like getting a haircut with a chainsaw than it is “fine-tuning”! Should just be built into primary training. \n\nAnd having a “system prompt” is silly! Default behavior should be sensible.\n\nThe above are already true for Tesla AI (not yet deserving of “super”). It is the most efficient AI on Earth.\n\nFSD V15 goes to wide release next month. It will be something special.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 384,
+        "retweets": 64,
+        "replies": 85,
+        "bookmarks": 24,
+        "quotes": 16,
+        "views": 274794
+      },
+      "url": "https://x.com/elonmusk/status/2124042864891982292",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2124033377208865278",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4238,82 +4266,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2123014381483229289",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-18T11:24:06.000Z",
-      "created_at_shanghai": "2026-11-18 19:24:06",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I’m sorry but how can you watch this and not be obsessed",
-      "quote": {
-        "author": "HalcyonHypnotic",
-        "name": "Hypnotic",
-        "text": "I’m sorry but how can you watch this and not be obsessed",
-        "url": "https://x.com/HalcyonHypnotic/status/2122914742100517144"
-      },
-      "retweet": {
-        "author": "HalcyonHypnotic",
-        "avatar": "https://pbs.twimg.com/profile_images/2078357979112304640/VZWjkJAn_200x200.jpg",
-        "created_at_shanghai": "2026-11-18 12:48:11",
-        "created_at_utc": "2026-11-18T04:48:11.000Z",
-        "id": "2122914742100517144",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2122914711876317184/img/yvQFN9wGEGeDepH9.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2122914711876317184/vid/avc1/720x1280/Y2Ve6Wiyvsm-0792.mp4?tag=29",
-            "hls_url": "https://video.twimg.com/amplify_video/2122914711876317184/pl/m7gvfdW7MbJQE-4y.m3u8?tag=29&v=cfc",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122914711876317184/img/yvQFN9wGEGeDepH9.jpg",
-            "width": 720,
-            "height": 1280,
-            "duration": 55.766
-          }
-        ],
-        "name": "Hypnotic",
-        "text": "I’m sorry but how can you watch this and not be obsessed",
-        "url": "https://x.com/HalcyonHypnotic/status/2122914742100517144",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 270,
-        "likes": 3136,
-        "quotes": 15,
-        "replies": 96,
-        "retweets": 284,
-        "views": 119856
-      },
-      "url": "https://x.com/elonmusk/status/2123014381483229289",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2122914711876317184/img/yvQFN9wGEGeDepH9.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2122914711876317184/vid/avc1/720x1280/Y2Ve6Wiyvsm-0792.mp4?tag=29",
-          "hls_url": "https://video.twimg.com/amplify_video/2122914711876317184/pl/m7gvfdW7MbJQE-4y.m3u8?tag=29&v=cfc",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122914711876317184/img/yvQFN9wGEGeDepH9.jpg",
-          "width": 720,
-          "height": 1280,
-          "duration": 55.766
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2659,
+  "total": 2660,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 15:06:27",
+  "updated_at_shanghai": "2026-11-21 15:34:33",
   "account": "elonmusk"
 }

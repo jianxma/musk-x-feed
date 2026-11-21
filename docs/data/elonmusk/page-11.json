@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2116005417591636319",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T03:12:59.000Z",
+      "created_at_shanghai": "2026-10-30 11:12:59",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@cryptoblaney Super intelligence agents will at some point do this to gain currency for themselves, not a human",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-30 11:12:51",
+        "created_at_utc": "2026-10-30T03:12:51.000Z",
+        "id": "2116005381205836098",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@cryptoblaney Super intelligence agents will at some point do this to gain currency for themselves, not a human",
+        "url": "https://x.com/elonmusk/status/2116005381205836098",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "cryptoblaney",
+      "engagement": {
+        "bookmarks": 1648,
+        "likes": 15482,
+        "quotes": 547,
+        "replies": 1416,
+        "retweets": 1368,
+        "views": 1567963
+      },
+      "url": "https://x.com/elonmusk/status/2116005417591636319",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116004241701818430",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5279,53 +5320,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2115330067241062574",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-28T06:29:23.000Z",
-      "created_at_shanghai": "2026-10-28 14:29:23",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "i've gotten a lot of questions about how i manage my X account with grok bot, so i'm sharing my bot tibot today! he watches your mentions and:\n\n• finds every post about you or any keywords, tagged or not\n• gives one short, sorted digest a day (or hourly, your call)\n• skips spam and noise\n• translates non-English posts\n• can auto block trolls and abuse\n• never posts for you\n\ni still write all my posts and articles by hand but tibot has been very helpful with keeping me in the loop.\n\nhire tibot today!\n\nhttps://x.ai/bot/xZ4wRvomWqzCXnyYFr7i3",
-      "quote": null,
-      "retweet": {
-        "author": "poteto",
-        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 06:16:12",
-        "created_at_utc": "2026-10-27T22:16:12.000Z",
-        "id": "2115205951649423585",
-        "images": [],
-        "media": [],
-        "name": "lauren",
-        "text": "i've gotten a lot of questions about how i manage my X account with grok bot, so i'm sharing my bot tibot today! he watches your mentions and:\n\n• finds every post about you or any keywords, tagged or not\n• gives one short, sorted digest a day (or hourly, your call)\n• skips spam and noise\n• translates non-English posts\n• can auto block trolls and abuse\n• never posts for you\n\ni still write all my posts and articles by hand but tibot has been very helpful with keeping me in the loop.\n\nhire tibot today!\n\nhttps://x.ai/bot/xZ4wRvomWqzCXnyYFr7i3",
-        "url": "https://x.com/poteto/status/2115205951649423585",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2422,
-        "likes": 3924,
-        "quotes": 126,
-        "replies": 369,
-        "retweets": 172,
-        "views": 333536
-      },
-      "url": "https://x.com/elonmusk/status/2115330067241062574",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 11,
   "page_size": 100,
-  "total": 2659,
+  "total": 2660,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 15:06:27",
+  "updated_at_shanghai": "2026-11-21 15:34:33",
   "account": "elonmusk"
 }
