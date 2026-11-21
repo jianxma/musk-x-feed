@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2106827340084887945",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T19:22:35.000Z",
+      "created_at_shanghai": "2026-10-05 03:22:35",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "BrianRoemmele",
+        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
+        "created_at_shanghai": "2026-10-05 02:36:00",
+        "created_at_utc": "2026-10-04T18:36:00.000Z",
+        "id": "2106815617466855807",
+        "images": [],
+        "media": [],
+        "name": "Brian Roemmele",
+        "text": "https://x.com/i/article/2106802779742507008",
+        "url": "https://x.com/BrianRoemmele/status/2106815617466855807",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 143,
+        "likes": 626,
+        "quotes": 12,
+        "replies": 177,
+        "retweets": 94,
+        "views": 331513
+      },
+      "url": "https://x.com/elonmusk/status/2106827340084887945",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2106827233650147822",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5546,75 +5587,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2105744599184740464",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-01T19:40:09.000Z",
-      "created_at_shanghai": "2026-10-02 03:40:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "All-time Supercharger energy delivered: 28.9 TWh",
-      "quote": {
-        "author": "TeslaCharging",
-        "avatar": "https://pbs.twimg.com/profile_images/1362134815844294661/vKTmG2CO_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 01:53:41",
-        "created_at_utc": "2026-10-01T17:53:41.000Z",
-        "id": "2105717803118694886",
-        "images": [
-          "https://pbs.twimg.com/media/HTkDIQdaAAAPSUt.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTkDIQdaAAAPSUt.jpg?name=small",
-            "width": 2370,
-            "height": 2370
-          }
-        ],
-        "name": "Tesla Charging",
-        "text": "",
-        "url": "https://x.com/TeslaCharging/status/2105717803118694886",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "MdeZegher",
-        "avatar": "https://pbs.twimg.com/profile_images/2005385520273072128/ydHg_H4m_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 01:55:18",
-        "created_at_utc": "2026-10-01T17:55:18.000Z",
-        "id": "2105718209869762593",
-        "images": [],
-        "media": [],
-        "name": "Max",
-        "text": "All-time Supercharger energy delivered: 28.9 TWh",
-        "url": "https://x.com/MdeZegher/status/2105718209869762593",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 14,
-        "likes": 742,
-        "quotes": 4,
-        "replies": 45,
-        "retweets": 67,
-        "views": 48087
-      },
-      "url": "https://x.com/elonmusk/status/2105744599184740464",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 23,
   "page_size": 100,
-  "total": 2661,
+  "total": 2662,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 15:38:45",
+  "updated_at_shanghai": "2026-11-21 15:45:33",
   "account": "elonmusk"
 }

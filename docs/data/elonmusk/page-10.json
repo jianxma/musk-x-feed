@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2116296050168508726",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-30T22:27:51.000Z",
+      "created_at_shanghai": "2026-10-31 06:27:51",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Yes",
+      "quote": {
+        "author": "fnthawar",
+        "avatar": "https://pbs.twimg.com/profile_images/2067264886468669440/JoGhMazB_200x200.jpg",
+        "created_at_shanghai": "2026-10-30 21:13:08",
+        "created_at_utc": "2026-10-30T13:13:08.000Z",
+        "id": "2116156450233819385",
+        "images": [],
+        "media": [],
+        "name": "Farhan Thawar",
+        "text": "People ought to think more about who wrote the software that's running in their head (sigh). It probably wasn't them\n\n-- Elon Musk",
+        "url": "https://x.com/fnthawar/status/2116156450233819385",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 306,
+        "likes": 5117,
+        "quotes": 51,
+        "replies": 523,
+        "retweets": 591,
+        "views": 744492
+      },
+      "url": "https://x.com/elonmusk/status/2116296050168508726",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116295922644619729",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5198,51 +5239,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2116017528036327934",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T04:01:07.000Z",
-      "created_at_shanghai": "2026-10-30 12:01:07",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "BABY, YOU FLEW",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 591,
-        "likes": 4082,
-        "quotes": 179,
-        "replies": 723,
-        "retweets": 674,
-        "views": 643987
-      },
-      "url": "https://x.com/elonmusk/status/2116017528036327934",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2111210612990865408/img/hzHZsL1s93JsKBii.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2111210612990865408/vid/avc1/1920x1080/FnzPZG0N7y2DIzyS.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111210612990865408/img/hzHZsL1s93JsKBii.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 158.569
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 10,
   "page_size": 100,
-  "total": 2661,
+  "total": 2662,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-21 15:38:45",
+  "updated_at_shanghai": "2026-11-21 15:45:33",
   "account": "elonmusk"
 }
