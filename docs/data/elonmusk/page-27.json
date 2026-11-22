@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2102797715453411758",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T16:30:18.000Z",
+      "created_at_shanghai": "2026-09-24 00:30:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "A CS undergrad asked me where he could have most effect in the AI age. I said probably at either extreme: either close to the technology, actually making LLMs, or close to the customer, using AI to give them exactly what they want. Or maybe both if you can stretch that far.",
+      "quote": null,
+      "retweet": {
+        "author": "paulg",
+        "avatar": "https://pbs.twimg.com/profile_images/1824002576/pg-railsconf_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 17:15:20",
+        "created_at_utc": "2026-09-23T09:15:20.000Z",
+        "id": "2102688252473782422",
+        "images": [],
+        "media": [],
+        "name": "Paul Graham",
+        "text": "A CS undergrad asked me where he could have most effect in the AI age. I said probably at either extreme: either close to the technology, actually making LLMs, or close to the customer, using AI to give them exactly what they want. Or maybe both if you can stretch that far.",
+        "url": "https://x.com/paulg/status/2102688252473782422",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1903,
+        "likes": 6211,
+        "quotes": 58,
+        "replies": 262,
+        "retweets": 517,
+        "views": 377425
+      },
+      "url": "https://x.com/elonmusk/status/2102797715453411758",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102784148977201241",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4816,66 +4857,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101754878297247939",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-20T19:26:26.000Z",
-      "created_at_shanghai": "2026-09-21 03:26:26",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "TBC would be excited and honored to build this massive infrastructure project. \n\nBecause Loop/Hyperloop is express (i.e. no intermediate stops), one could travel from an Austin parking lot to a favorite San Antonio restaurant in ~30 min.  As long as they both have Loop stations!",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 01:57:30",
-        "created_at_utc": "2026-09-20T17:57:30.000Z",
-        "id": "2101732496396439751",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Boring Company is working on a simple, precursor Hyperloop tunnel between Austin and San Antonio (>200 mph). \n\nDue to traffic congestion, that journey can currently take up to 2.5 hours. @BoringCompany can reduce that to a consistent <30 mins.",
-        "url": "https://x.com/elonmusk/status/2101732496396439751",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "boringcompany",
-        "avatar": "https://pbs.twimg.com/profile_images/2039567764172820480/XfrLCXpv_200x200.png",
-        "created_at_shanghai": "2026-09-21 02:39:53",
-        "created_at_utc": "2026-09-20T18:39:53.000Z",
-        "id": "2101743162838647183",
-        "images": [],
-        "media": [],
-        "name": "The Boring Company",
-        "text": "TBC would be excited and honored to build this massive infrastructure project. \n\nBecause Loop/Hyperloop is express (i.e. no intermediate stops), one could travel from an Austin parking lot to a favorite San Antonio restaurant in ~30 min.  As long as they both have Loop stations!",
-        "url": "https://x.com/boringcompany/status/2101743162838647183",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 193,
-        "likes": 5145,
-        "quotes": 54,
-        "replies": 250,
-        "retweets": 474,
-        "views": 791960
-      },
-      "url": "https://x.com/elonmusk/status/2101754878297247939",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 27,
   "page_size": 100,
-  "total": 2718,
+  "total": 2719,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 19:27:21",
+  "updated_at_shanghai": "2026-11-22 19:39:43",
   "account": "elonmusk"
 }
