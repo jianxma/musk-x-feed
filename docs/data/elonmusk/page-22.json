@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2108071705122111819",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T05:47:15.000Z",
+      "created_at_shanghai": "2026-10-08 13:47:15",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "davidsenra",
+        "avatar": "https://pbs.twimg.com/profile_images/1970530587510231040/wbVXBu_Q_200x200.jpg",
+        "created_at_shanghai": "2026-10-07 22:52:42",
+        "created_at_utc": "2026-10-07T14:52:42.000Z",
+        "id": "2107846587246604683",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107846489028575233/img/0wAAOlOy_D55Tpn2.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107846489028575233/vid/avc1/3840x2160/KaRIFJX4exBxgJLu.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107846489028575233/img/0wAAOlOy_D55Tpn2.jpg",
+            "width": 3840,
+            "height": 2160,
+            "duration": 45.336
+          }
+        ],
+        "name": "David Senra",
+        "text": ".@elonmusk was telling me about where AI was going back in 2007. \n\nHe told me the only thing that can’t be disintermediated by AI is sports and live events. \n\nThat’s what gave the idea to start Mari:",
+        "url": "https://x.com/davidsenra/status/2107846587246604683",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 162,
+        "likes": 1501,
+        "quotes": 17,
+        "replies": 252,
+        "retweets": 264,
+        "views": 731200
+      },
+      "url": "https://x.com/elonmusk/status/2108071705122111819",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108071231413198857",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5570,53 +5622,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2107717867064209705",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T22:19:32.000Z",
-      "created_at_shanghai": "2026-10-07 06:19:32",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I talk a lot about Grok Bot on Slack, but did you know you can also add @MicrosoftTeams?\n\nhttps://x.ai/bot/plugin/63354504",
-      "quote": null,
-      "retweet": {
-        "author": "poteto",
-        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 06:19:32",
-        "created_at_utc": "2026-10-06T22:19:32.000Z",
-        "id": "2107596645122875439",
-        "images": [],
-        "media": [],
-        "name": "lauren",
-        "text": "I talk a lot about Grok Bot on Slack, but did you know you can also add @MicrosoftTeams?\n\nhttps://x.ai/bot/plugin/63354504",
-        "url": "https://x.com/poteto/status/2107596645122875439",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 178,
-        "likes": 1601,
-        "quotes": 12,
-        "replies": 162,
-        "retweets": 128,
-        "views": 353069
-      },
-      "url": "https://x.com/elonmusk/status/2107717867064209705",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 22,
   "page_size": 100,
-  "total": 2714,
+  "total": 2715,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 18:39:34",
+  "updated_at_shanghai": "2026-11-22 18:46:52",
   "account": "elonmusk"
 }
