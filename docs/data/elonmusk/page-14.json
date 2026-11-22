@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2114235125496250766",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-25T05:58:29.000Z",
+      "created_at_shanghai": "2026-10-25 13:58:29",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "kevinnbass",
+        "avatar": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_200x200.jpg",
+        "created_at_shanghai": "2026-10-25 13:26:58",
+        "created_at_utc": "2026-10-25T05:26:58.000Z",
+        "id": "2114227193488515508",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2114226276726665216/img/1clvHXU-SjcOgsFw.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2114226276726665216/vid/avc1/1920x1080/rbxdr6YV_FVDKRwh.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2114226276726665216/img/1clvHXU-SjcOgsFw.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 334.037
+          }
+        ],
+        "name": "Kevin Bass",
+        "text": "James Talarico says he is a moderate.\n\nIt is easy to find out if that is true.\n\nTalarico voted on 9,612 bills during his six years in the Texas House of Representatives.\n\nThat record shows what Talarico believes.\n\nIt shows that Talarico is a bald-faced liar and extremist.",
+        "url": "https://x.com/kevinnbass/status/2114227193488515508",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 31,
+        "likes": 1334,
+        "quotes": 12,
+        "replies": 322,
+        "retweets": 211,
+        "views": 425078
+      },
+      "url": "https://x.com/elonmusk/status/2114235125496250766",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2114211239760957481",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5294,53 +5346,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2113480525679866281",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-23T03:59:58.000Z",
-      "created_at_shanghai": "2026-10-23 11:59:58",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot team shipped in the last few days:\n\n• Reports, memos, dashboards in the chat\n• iPhone action button to talk to Bot\n• 3x faster computer tasks\n• Aliases for your Bot email\n• Connectors for Robinhood, Coinbase, Runway\n• Notifications only on the device you're using",
-      "quote": null,
-      "retweet": {
-        "author": "benln",
-        "avatar": "https://pbs.twimg.com/profile_images/1713995709916012544/GHmSl9EK_200x200.jpg",
-        "created_at_shanghai": "2026-10-22 21:16:46",
-        "created_at_utc": "2026-10-22T13:16:46.000Z",
-        "id": "2113258261977928050",
-        "images": [],
-        "media": [],
-        "name": "Ben Lang",
-        "text": "Grok Bot team shipped in the last few days:\n\n• Reports, memos, dashboards in the chat\n• iPhone action button to talk to Bot\n• 3x faster computer tasks\n• Aliases for your Bot email\n• Connectors for Robinhood, Coinbase, Runway\n• Notifications only on the device you're using",
-        "url": "https://x.com/benln/status/2113258261977928050",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 109,
-        "likes": 1177,
-        "quotes": 10,
-        "replies": 122,
-        "retweets": 102,
-        "views": 167379
-      },
-      "url": "https://x.com/elonmusk/status/2113480525679866281",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 100,
-  "total": 2723,
+  "total": 2724,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 20:04:31",
+  "updated_at_shanghai": "2026-11-22 20:10:00",
   "account": "elonmusk"
 }
