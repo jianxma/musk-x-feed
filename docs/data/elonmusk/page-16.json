@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2112666467712073815",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-20T22:05:12.000Z",
+      "created_at_shanghai": "2026-10-21 06:05:12",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "As crazy as this sounds, $1T in SpaceX revenue in 2028 is no longer impossible",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 302,
+        "likes": 7901,
+        "quotes": 198,
+        "replies": 969,
+        "retweets": 833,
+        "views": 568955
+      },
+      "url": "https://x.com/elonmusk/status/2112666467712073815",
+      "images": [
+        "https://pbs.twimg.com/media/HVGy9IMXgAARk8a.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVGy9IMXgAARk8a.jpg?name=small",
+          "width": 1152,
+          "height": 481
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2112664502030541009",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5216,64 +5253,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2111507158215057620",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-17T17:18:31.000Z",
-      "created_at_shanghai": "2026-10-18 01:18:31",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Future fun Roadster demos will include flying over the Snake River or maybe Grand Canyon and landing on its wheels and exceeding half the speed of sound",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 09:57:58",
-        "created_at_utc": "2026-10-16T01:57:58.000Z",
-        "id": "2110913107094606330",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110913027490934784/img/Ya3Xqn9K4XmCb-h5.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110913027490934784/vid/avc1/1920x1080/7uHmJ8z8q4rZ1hDX.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110913027490934784/img/Ya3Xqn9K4XmCb-h5.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 15.395
-          }
-        ],
-        "name": "Elon Musk",
-        "text": "Turns out the future does have flying cars",
-        "url": "https://x.com/elonmusk/status/2110913107094606330",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 965,
-        "likes": 27916,
-        "quotes": 383,
-        "replies": 2197,
-        "retweets": 2691,
-        "views": 982275
-      },
-      "url": "https://x.com/elonmusk/status/2111507158215057620",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 100,
-  "total": 2713,
+  "total": 2714,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 18:32:32",
+  "updated_at_shanghai": "2026-11-22 18:39:34",
   "account": "elonmusk"
 }
