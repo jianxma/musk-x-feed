@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2114356830776476033",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-25T14:02:05.000Z",
+      "created_at_shanghai": "2026-10-25 22:02:05",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "For the fools out there, Zelensky himself posted about using Starlink for offensive drone strikes, which has always been against Starlink’s terms of service:",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 107,
+        "likes": 2215,
+        "quotes": 57,
+        "replies": 221,
+        "retweets": 455,
+        "views": 117256
+      },
+      "url": "https://x.com/elonmusk/status/2114356830776476033",
+      "images": [
+        "https://pbs.twimg.com/media/HVe0VHPWYAAkVVi.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVe0VHPWYAAkVVi.jpg?name=small",
+          "width": 1213,
+          "height": 2048
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2114243303994486876",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5156,64 +5193,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2113508214243573866",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-23T05:50:00.000Z",
-      "created_at_shanghai": "2026-10-23 13:50:00",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Talarico supports voting fraud",
-      "quote": {
-        "author": "WesternLensman",
-        "avatar": "https://pbs.twimg.com/profile_images/1744453002168045569/Q9ZomyTL_200x200.jpg",
-        "created_at_shanghai": "2026-10-23 08:28:33",
-        "created_at_utc": "2026-10-23T00:28:33.000Z",
-        "id": "2113427318723195095",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2030269576051658752/img/7N2x72b27HjE_Akc.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2030269576051658752/vid/avc1/1280x720/NOTxfP89EMfwHOuV.mp4?tag=21",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2030269576051658752/img/7N2x72b27HjE_Akc.jpg",
-            "width": 1280,
-            "height": 720,
-            "duration": 29.5
-          }
-        ],
-        "name": "Western Lensman",
-        "text": "Talarico, 2021: “I oppose voter ID.\"\n\nHe’s been very clear on this. \n\nVote accordingly, Texas.",
-        "url": "https://x.com/WesternLensman/status/2113427318723195095",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 211,
-        "likes": 10962,
-        "quotes": 80,
-        "replies": 1345,
-        "retweets": 1758,
-        "views": 871455
-      },
-      "url": "https://x.com/elonmusk/status/2113508214243573866",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 100,
-  "total": 2734,
+  "total": 2735,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 23:34:48",
+  "updated_at_shanghai": "2026-11-23 03:28:03",
   "account": "elonmusk"
 }
