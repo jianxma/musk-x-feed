@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108351149103271986",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-09T00:17:39.000Z",
+      "created_at_shanghai": "2026-10-09 08:17:39",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "One of my favorite and totally underrated @bot features is canvas.\n\nJust ask your Chief of Staff to present you an updates on the canvas, relax, and enjoy the results 😉",
+      "quote": null,
+      "retweet": {
+        "author": "stepango",
+        "avatar": "https://pbs.twimg.com/profile_images/1324014015597568002/YYNmRAZ6_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 08:06:36",
+        "created_at_utc": "2026-10-09T00:06:36.000Z",
+        "id": "2108348368447778862",
+        "images": [],
+        "media": [],
+        "name": "Stepan Goncharov",
+        "text": "One of my favorite and totally underrated @bot features is canvas.\n\nJust ask your Chief of Staff to present you an updates on the canvas, relax, and enjoy the results 😉",
+        "url": "https://x.com/stepango/status/2108348368447778862",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 66,
+        "likes": 493,
+        "quotes": 1,
+        "replies": 78,
+        "retweets": 74,
+        "views": 141313
+      },
+      "url": "https://x.com/elonmusk/status/2108351149103271986",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108341931499536698",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5314,77 +5355,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108061083499905428",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T05:05:02.000Z",
-      "created_at_shanghai": "2026-10-08 13:05:02",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Huge differentiator for Grok @bot here because it'll give you access to search, read and monitor @X for free.\n\nSo one thing you can do is use @mvanhorn's Agent Tincan project (https://github.com/mvanhorn/agent-tincan) to get your other agents use your grok @bot for X functions if you prefer to use those day to day while not missing out on this.",
-      "quote": {
-        "author": "bot",
-        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 05:40:18",
-        "created_at_utc": "2026-10-07T21:40:18.000Z",
-        "id": "2107949161878606089",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107948628950298624/vid/avc1/1920x1080/tlGtL_3iQXfm7WuO.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 12.166
-          }
-        ],
-        "name": "Grok Bot",
-        "text": "Grok Bot can now search, read, and monitor X.",
-        "url": "https://x.com/bot/status/2107949161878606089",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "trevin",
-        "avatar": "https://pbs.twimg.com/profile_images/2049354574516178944/OKHe6Ocu_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 07:39:34",
-        "created_at_utc": "2026-10-07T23:39:34.000Z",
-        "id": "2107979176049619375",
-        "images": [],
-        "media": [],
-        "name": "Trevin Chow",
-        "text": "Huge differentiator for Grok @bot here because it'll give you access to search, read and monitor @X for free.\n\nSo one thing you can do is use @mvanhorn's Agent Tincan project (https://github.com/mvanhorn/agent-tincan) to get your other agents use your grok @bot for X functions if you prefer to use those day to day while not missing out on this.",
-        "url": "https://x.com/trevin/status/2107979176049619375",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 324,
-        "likes": 809,
-        "quotes": 15,
-        "replies": 59,
-        "retweets": 86,
-        "views": 318554
-      },
-      "url": "https://x.com/elonmusk/status/2108061083499905428",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 100,
-  "total": 2706,
+  "total": 2707,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 10:31:53",
+  "updated_at_shanghai": "2026-11-22 10:41:24",
   "account": "elonmusk"
 }

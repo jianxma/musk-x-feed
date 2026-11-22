@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2102463325045145978",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T18:21:33.000Z",
+      "created_at_shanghai": "2026-09-23 02:21:33",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build.\n\nThe update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent performance. It also adds new subagent controls, configurable request limits and long-reasoning reminders.\n\nRelease Notes\n\nVersion 1.0.41 — September 22, 2026\n\nFeatures\n\n• Added a new sports_search tool that can look up live NFL scores, standings, schedules, player stats and team records directly from X data.\n\n• Added a subagent model inheritance setting to /settings. It persists in config.toml and respects managed and overlay layers.\n\n• Per-model request size limits can now be configured to match provider HTTP body caps and control inline image eviction.\n\n• A long-reasoning reminder can now be enabled through config to nudge the model after lengthy hidden-reasoning steps.\n\nBug Fixes\n\n• Fixed the subagent fullscreen view so it no longer shows a stray [Dashboard] button in the header.\n\n• Fixed agent frontmatter mcpServers so headers and URLs from the active agent’s agent.md correctly override config.toml and survive config reloads or agent switches.\n\n• Ctrl+P now opens the command palette immediately from the welcome screen.\n\n• The Dashboard now focuses the “+ New Agent” row instead of leaving the previous session selected.\n\n• Sessions interrupted by a crash now show a clear marker instead of silently dropping the turn.\n\n• Pressing Ctrl+Z immediately after stashing a prompt now restores it.\n\n• The collapsed edit blocks setting now correctly collapses edits even when expanded_by_default is pinned to true.\n\n• Interjections now receive a visible reply before the agent resumes its previous tasks.\n\n• Cancelling a turn blocked on spawn_subagent now tells the model that the child moved to the background instead of claiming it was never executed.\n\n• Saving a queued-prompt edit now returns focus to the composer so the next keystrokes type the next message.\n\n• Subagent activation is now consistent between the TUI and Grok Agent Studio. Tables that only set limits or models no longer disable subagents.\n\n• Effort-level selection now accepts menu labels in addition to IDs.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 01:21:57",
+        "created_at_utc": "2026-09-22T17:21:57.000Z",
+        "id": "2102448328638382234",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102448025805488128/vid/avc1/1284x1080/gvmCUPk-G1LTDpLr.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg",
+            "width": 1284,
+            "height": 1080,
+            "duration": 13.183
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build.\n\nThe update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent performance. It also adds new subagent controls, configurable request limits and long-reasoning reminders.\n\nRelease Notes\n\nVersion 1.0.41 — September 22, 2026\n\nFeatures\n\n• Added a new sports_search tool that can look up live NFL scores, standings, schedules, player stats and team records directly from X data.\n\n• Added a subagent model inheritance setting to /settings. It persists in config.toml and respects managed and overlay layers.\n\n• Per-model request size limits can now be configured to match provider HTTP body caps and control inline image eviction.\n\n• A long-reasoning reminder can now be enabled through config to nudge the model after lengthy hidden-reasoning steps.\n\nBug Fixes\n\n• Fixed the subagent fullscreen view so it no longer shows a stray [Dashboard] button in the header.\n\n• Fixed agent frontmatter mcpServers so headers and URLs from the active agent’s agent.md correctly override config.toml and survive config reloads or agent switches.\n\n• Ctrl+P now opens the command palette immediately from the welcome screen.\n\n• The Dashboard now focuses the “+ New Agent” row instead of leaving the previous session selected.\n\n• Sessions interrupted by a crash now show a clear marker instead of silently dropping the turn.\n\n• Pressing Ctrl+Z immediately after stashing a prompt now restores it.\n\n• The collapsed edit blocks setting now correctly collapses edits even when expanded_by_default is pinned to true.\n\n• Interjections now receive a visible reply before the agent resumes its previous tasks.\n\n• Cancelling a turn blocked on spawn_subagent now tells the model that the child moved to the background instead of claiming it was never executed.\n\n• Saving a queued-prompt edit now returns focus to the composer so the next keystrokes type the next message.\n\n• Subagent activation is now consistent between the TUI and Grok Agent Studio. Tables that only set limits or models no longer disable subagents.\n\n• Effort-level selection now accepts menu labels in addition to IDs.",
+        "url": "https://x.com/cb_doge/status/2102448328638382234",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 84,
+        "likes": 1412,
+        "quotes": 9,
+        "replies": 94,
+        "retweets": 177,
+        "views": 339807
+      },
+      "url": "https://x.com/elonmusk/status/2102463325045145978",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102448025805488128/vid/avc1/1284x1080/gvmCUPk-G1LTDpLr.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102448025805488128/img/hzT1WGymzfgMjvYp.jpg",
+          "width": 1284,
+          "height": 1080,
+          "duration": 13.183
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2102460533433909417",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4842,62 +4905,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2101538675284676696",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-20T05:07:19.000Z",
-      "created_at_shanghai": "2026-09-20 13:07:19",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla has a Semi 😂",
-      "quote": {
-        "author": "tesla_semi",
-        "avatar": "https://pbs.twimg.com/profile_images/2021306606449983491/eLU01mFt_200x200.jpg",
-        "created_at_shanghai": "2026-09-19 10:54:36",
-        "created_at_utc": "2026-09-19T02:54:36.000Z",
-        "id": "2101142889434841509",
-        "images": [
-          "https://pbs.twimg.com/media/HSjCUnJa8AA17Lx.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HSjCUnJa8AA17Lx.jpg?name=small",
-            "width": 2048,
-            "height": 1153
-          }
-        ],
-        "name": "Tesla Semi",
-        "text": "Top Gear tours factory & rides in production Semi w/ @danWpriestley \n \n\"Maybe the most significant Tesla since the Model 3\"\n \nAt 1.7 kWh/mi, Semi is using only ~7× as much energy as a Model Y, at ~20× the weight. \n\nA comparable diesel is using ~3× as much as Semi\n\nhttps://youtu.be/0WP9HizHCrk?si=g8v8DcY1SBxGUILN",
-        "url": "https://x.com/tesla_semi/status/2101142889434841509",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 431,
-        "likes": 16693,
-        "quotes": 122,
-        "replies": 1355,
-        "retweets": 1975,
-        "views": 5758652
-      },
-      "url": "https://x.com/elonmusk/status/2101538675284676696",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 27,
   "page_size": 100,
-  "total": 2706,
+  "total": 2707,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 10:31:53",
+  "updated_at_shanghai": "2026-11-22 10:41:24",
   "account": "elonmusk"
 }

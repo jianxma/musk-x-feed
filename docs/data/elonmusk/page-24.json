@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2106239692866019479",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-03T04:27:29.000Z",
+      "created_at_shanghai": "2026-10-03 12:27:29",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Robotaxi operating hours moved from 10pm to 11pm. \n\nThe main thing we’re trying to solve is making sure that we don’t run over pets when they’re hard to see at night. Literally trying to avoid grey kittens on grey tarmac in the dark.",
+      "quote": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-10-03 11:52:02",
+        "created_at_utc": "2026-10-03T03:52:02.000Z",
+        "id": "2106230772051157467",
+        "images": [],
+        "media": [],
+        "name": "Robotaxi",
+        "text": "Robotaxi in Austin now available until 11pm",
+        "url": "https://x.com/robotaxi/status/2106230772051157467",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 27,
+        "likes": 855,
+        "quotes": 23,
+        "replies": 207,
+        "retweets": 113,
+        "views": 290326
+      },
+      "url": "https://x.com/elonmusk/status/2106239692866019479",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2106163371930427777",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -6003,75 +6044,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2105115000591286666",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-30T01:58:21.000Z",
-      "created_at_shanghai": "2026-09-30 09:58:21",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "From concept to reality.\n\n@SpaceX has successfully deployed Starlink V3 satellites into Earth’s orbit and made contact with them for the first time.\n\nAt scale, one Starship carries 60 V3 satellites, the same network capacity as about 20 Falcon 9 launches.",
-      "quote": null,
-      "retweet": {
-        "author": "niccruzpatane",
-        "avatar": "https://pbs.twimg.com/profile_images/1805666868071391232/1qAqAOng_200x200.jpg",
-        "created_at_shanghai": "2026-09-28 21:45:11",
-        "created_at_utc": "2026-09-28T13:45:11.000Z",
-        "id": "2104568103174566043",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2104568062095540224/img/hGNOk2sbhMGFd7A4.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2104568062095540224/vid/avc1/1264x1080/ICXbngdEhBFtmFA-.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104568062095540224/img/hGNOk2sbhMGFd7A4.jpg",
-            "width": 1264,
-            "height": 1080,
-            "duration": 14.55
-          }
-        ],
-        "name": "Nic Cruz Patane",
-        "text": "From concept to reality.\n\n@SpaceX has successfully deployed Starlink V3 satellites into Earth’s orbit and made contact with them for the first time.\n\nAt scale, one Starship carries 60 V3 satellites, the same network capacity as about 20 Falcon 9 launches.",
-        "url": "https://x.com/niccruzpatane/status/2104568103174566043",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 3092,
-        "likes": 23919,
-        "quotes": 849,
-        "replies": 556,
-        "retweets": 3238,
-        "views": 4064815
-      },
-      "url": "https://x.com/elonmusk/status/2105115000591286666",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2104568062095540224/img/hGNOk2sbhMGFd7A4.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2104568062095540224/vid/avc1/1264x1080/ICXbngdEhBFtmFA-.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104568062095540224/img/hGNOk2sbhMGFd7A4.jpg",
-          "width": 1264,
-          "height": 1080,
-          "duration": 14.55
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 24,
   "page_size": 100,
-  "total": 2706,
+  "total": 2707,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 10:31:53",
+  "updated_at_shanghai": "2026-11-22 10:41:24",
   "account": "elonmusk"
 }

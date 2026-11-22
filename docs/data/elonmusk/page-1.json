@@ -1,6 +1,76 @@
 {
   "posts": [
     {
+      "id": "2124330470653465023",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-22T02:33:47.000Z",
+      "created_at_shanghai": "2026-11-22 10:33:47",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @DillonLoomis",
+      "quote": {
+        "author": "DillonLoomis",
+        "name": "Dillon Loomis",
+        "text": "The chevrons also show you where FSD V15 intends to park and Elon said you can just tap the screen to adjust the precise location if you want it to choose a different spot/area",
+        "url": "https://x.com/DillonLoomis/status/2124303507570221181"
+      },
+      "retweet": {
+        "author": "DillonLoomis",
+        "avatar": "https://pbs.twimg.com/profile_images/1524763456171393024/12NGFmGR_200x200.jpg",
+        "created_at_shanghai": "2026-11-22 08:46:38",
+        "created_at_utc": "2026-11-22T00:46:38.000Z",
+        "id": "2124303507570221181",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2124293866505240576/img/o4u-ybqq7CLC3eaA.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2124293866505240576/vid/avc1/1920x1080/cVWd8C7BzkwSpfVF.mp4?tag=29",
+            "hls_url": "https://video.twimg.com/amplify_video/2124293866505240576/pl/gWnd_Wjm6MVZmQUx.m3u8?tag=29&v=121",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2124293866505240576/img/o4u-ybqq7CLC3eaA.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 103.102
+          }
+        ],
+        "name": "Dillon Loomis",
+        "text": "The chevrons also show you where FSD V15 intends to park and Elon said you can just tap the screen to adjust the precise location if you want it to choose a different spot/area",
+        "url": "https://x.com/DillonLoomis/status/2124303507570221181",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "likes": 523,
+        "retweets": 46,
+        "replies": 38,
+        "bookmarks": 36,
+        "quotes": 9,
+        "views": 53021
+      },
+      "url": "https://x.com/elonmusk/status/2124330470653465023",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124293866505240576/img/o4u-ybqq7CLC3eaA.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2124293866505240576/vid/avc1/1920x1080/cVWd8C7BzkwSpfVF.mp4?tag=29",
+          "hls_url": "https://video.twimg.com/amplify_video/2124293866505240576/pl/gWnd_Wjm6MVZmQUx.m3u8?tag=29&v=121",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2124293866505240576/img/o4u-ybqq7CLC3eaA.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 103.102
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2124329068716077191",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -3977,45 +4047,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2123332718218125495",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-19T08:29:04.000Z",
-      "created_at_shanghai": "2026-11-19 16:29:04",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "What I fixed in the last 24h from your replies:\n\n> take over your bot's computer and stay in control until you hand it back\n> photos from your phone actually reach your bot\n> VPN desktop uploads stop failing\n> a safety check hiccup now asks you to approve instead of dead-ending\n> dictation keeps the word you fixed\n> saving a big file stops asking permission\n> one iPhone shows up once, and old phones can be removed\n\nAll merged and rolling out. \n\nA lot more from the comments is being worked on right now, and I'll keep posting what gets fixed.\n\nKeep tagging me, quoting, or replying with anything @bot related and I will make sure the right people see it.\n\nAlso thanks for all the new follows! Welcome 🙏",
-      "quote": {
-        "author": "larsencc",
-        "name": "Larsen Cundric",
-        "text": "What I fixed in the last 24h from your replies:\n\n> take over your bot's computer and stay in control until you hand it back\n> photos from your phone actually reach your bot\n> VPN desktop uploads stop failing\n> a safety check hiccup now asks you to approve instead of dead-ending\n> dictation keeps the word you fixed\n> saving a big file stops asking permission\n> one iPhone shows up once, and old phones can be removed\n\nAll merged and rolling out. \n\nA lot more from the comments is being worked on right now, and I'll keep posting what gets fixed.\n\nKeep tagging me, quoting, or replying with anything @bot related and I will make sure the right people see it.\n\nAlso thanks for all the new follows! Welcome 🙏",
-        "url": "https://x.com/larsencc/status/2123189115147759725"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 93,
-        "likes": 1004,
-        "quotes": 7,
-        "replies": 192,
-        "retweets": 43,
-        "views": 30008
-      },
-      "url": "https://x.com/elonmusk/status/2123332718218125495",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2706,
+  "total": 2707,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 10:31:53",
+  "updated_at_shanghai": "2026-11-22 10:41:24",
   "account": "elonmusk"
 }
