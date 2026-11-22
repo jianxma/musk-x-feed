@@ -1,6 +1,128 @@
 {
   "posts": [
     {
+      "id": "2120696407917273571",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T01:53:18.000Z",
+      "created_at_shanghai": "2026-11-12 09:53:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Introducing Grok Bot 1.0.\n\nBots can be shared and are more collaborative and capable than ever.",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceXSI",
+        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 02:30:20",
+        "created_at_utc": "2026-11-11T18:30:20.000Z",
+        "id": "2120584928983441826",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120584648887603200/vid/avc1/1920x1080/_5-Mr3wCmHhH2dyV.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 79.1
+          }
+        ],
+        "name": "SpaceX Super Intelligence",
+        "text": "Introducing Grok Bot 1.0.\n\nBots can be shared and are more collaborative and capable than ever.",
+        "url": "https://x.com/SpaceXSI/status/2120584928983441826",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 736,
+        "likes": 5299,
+        "quotes": 133,
+        "replies": 233,
+        "retweets": 475,
+        "views": 1346695
+      },
+      "url": "https://x.com/elonmusk/status/2120696407917273571",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120584648887603200/vid/avc1/1920x1080/_5-Mr3wCmHhH2dyV.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 79.1
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2120694603506733324",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T01:46:08.000Z",
+      "created_at_shanghai": "2026-11-12 09:46:08",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot can now join your personal or company tailnets on Tailscale.\n\nUse it to securely reach private MCP servers, internal tools, and apps on your network.",
+      "quote": null,
+      "retweet": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-11-11 06:16:43",
+        "created_at_utc": "2026-11-10T22:16:43.000Z",
+        "id": "2120279511707386263",
+        "images": [
+          "https://pbs.twimg.com/media/HWy-eg_bwAARy5W.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWy-eg_bwAARy5W.jpg?name=small",
+            "width": 4096,
+            "height": 2304
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now join your personal or company tailnets on Tailscale.\n\nUse it to securely reach private MCP servers, internal tools, and apps on your network.",
+        "url": "https://x.com/bot/status/2120279511707386263",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2429,
+        "likes": 7817,
+        "quotes": 209,
+        "replies": 1183,
+        "retweets": 472,
+        "views": 651284
+      },
+      "url": "https://x.com/elonmusk/status/2120694603506733324",
+      "images": [
+        "https://pbs.twimg.com/media/HWy-eg_bwAARy5W.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWy-eg_bwAARy5W.jpg?name=small",
+          "width": 4096,
+          "height": 2304
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2120638269994263035",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5436,103 +5558,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119464415410200981",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-08T16:17:49.000Z",
-      "created_at_shanghai": "2026-11-09 00:17:49",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "If Russell Brand is going to prison for rape that occurred 20 years ago, why isn’t anyone in the Epstein files going too?",
-      "quote": null,
-      "retweet": {
-        "author": "_rathbone",
-        "avatar": "https://pbs.twimg.com/profile_images/2117889247596490753/i_eVYdmH_200x200.jpg",
-        "created_at_shanghai": "2026-11-08 09:25:37",
-        "created_at_utc": "2026-11-08T01:25:37.000Z",
-        "id": "2119239887522255070",
-        "images": [],
-        "media": [],
-        "name": "Rathbone",
-        "text": "If Russell Brand is going to prison for rape that occurred 20 years ago, why isn’t anyone in the Epstein files going too?",
-        "url": "https://x.com/_rathbone/status/2119239887522255070",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 246,
-        "likes": 24386,
-        "quotes": 66,
-        "replies": 527,
-        "retweets": 2671,
-        "views": 459248
-      },
-      "url": "https://x.com/elonmusk/status/2119464415410200981",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2119450646143537211",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-08T15:23:06.000Z",
-      "created_at_shanghai": "2026-11-08 23:23:06",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Shame, shame, shame on Chappelle",
-      "quote": {
-        "author": "bennyjohnson",
-        "avatar": "https://pbs.twimg.com/profile_images/2117726643758170112/815JQOOz_200x200.jpg",
-        "created_at_shanghai": "2026-11-08 22:38:40",
-        "created_at_utc": "2026-11-08T14:38:40.000Z",
-        "id": "2119439465097691511",
-        "images": [
-          "https://pbs.twimg.com/media/HWnC9eiW0AERmzi.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWnC9eiW0AERmzi.jpg?name=small",
-            "width": 1294,
-            "height": 1040
-          }
-        ],
-        "name": "Benny Johnson",
-        "text": "When Dave Chappelle was attacked on stage,  Charlie stood up for him.\n\nAfter Charlie was murdered in an act of political violence himself, Chappelle is joking about it.",
-        "url": "https://x.com/bennyjohnson/status/2119439465097691511",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 48,
-        "likes": 2152,
-        "quotes": 12,
-        "replies": 260,
-        "retweets": 336,
-        "views": 367904
-      },
-      "url": "https://x.com/elonmusk/status/2119450646143537211",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 100,
-  "total": 2738,
+  "total": 2740,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 04:45:25",
+  "updated_at_shanghai": "2026-11-23 04:59:36",
   "account": "elonmusk"
 }
