@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2109816487775219916",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T01:20:23.000Z",
+      "created_at_shanghai": "2026-10-13 09:20:23",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "It’s awesome",
+      "quote": {
+        "author": "georgehayworth",
+        "avatar": "https://pbs.twimg.com/profile_images/2096600142312841218/wtdThbwT_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 23:03:03",
+        "created_at_utc": "2026-10-12T15:03:03.000Z",
+        "id": "2109661129832292760",
+        "images": [],
+        "media": [],
+        "name": "George Hayworth 🇺🇸",
+        "text": "I've started  using Grok Bot and I can definitively say this is the best AI agent I have used to date.\n\nI highly recommend you try it out.",
+        "url": "https://x.com/georgehayworth/status/2109661129832292760",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 82,
+        "likes": 3342,
+        "quotes": 38,
+        "replies": 518,
+        "retweets": 295,
+        "views": 997796
+      },
+      "url": "https://x.com/elonmusk/status/2109816487775219916",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109815966079041899",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5353,51 +5394,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108775514194473144",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T04:23:56.000Z",
-      "created_at_shanghai": "2026-10-10 12:23:56",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Super Persuasion",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1090,
-        "likes": 5834,
-        "quotes": 266,
-        "replies": 1025,
-        "retweets": 965,
-        "views": 2295989
-      },
-      "url": "https://x.com/elonmusk/status/2108775514194473144",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2105324983178219522/img/X1lNuUHgbHP3nNW1.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2105324983178219522/vid/avc1/1920x1080/uDu9-HjrfOw6-gN0.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105324983178219522/img/X1lNuUHgbHP3nNW1.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 191.583
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 100,
-  "total": 2733,
+  "total": 2734,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 20:24:54",
+  "updated_at_shanghai": "2026-11-22 20:34:33",
   "account": "elonmusk"
 }
