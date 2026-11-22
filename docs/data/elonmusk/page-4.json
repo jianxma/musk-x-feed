@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2122092646294581460",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-15T22:21:28.000Z",
+      "created_at_shanghai": "2026-11-16 06:21:28",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "🍌 4 scale",
+      "quote": {
+        "author": "yunta_tsai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035915849819938816/b6kIsNMe_200x200.jpg",
+        "created_at_shanghai": "2026-11-16 02:35:15",
+        "created_at_utc": "2026-11-15T18:35:15.000Z",
+        "id": "2122035716763062681",
+        "images": [],
+        "media": [],
+        "name": "Yun-Ta Tsai",
+        "text": "S-tier Engineering\nS-tier Humor 🍌\n\nLove this company.",
+        "url": "https://x.com/yunta_tsai/status/2122035716763062681",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 201,
+        "likes": 4823,
+        "quotes": 71,
+        "replies": 555,
+        "retweets": 452,
+        "views": 842371
+      },
+      "url": "https://x.com/elonmusk/status/2122092646294581460",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2122092374016806969",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5477,40 +5518,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121489571213168758",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T06:25:03.000Z",
-      "created_at_shanghai": "2026-11-14 14:25:03",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Starship is traveling around the world every ~90 minutes right now",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 78,
-        "likes": 3122,
-        "quotes": 66,
-        "replies": 622,
-        "retweets": 365,
-        "views": 363600
-      },
-      "url": "https://x.com/elonmusk/status/2121489571213168758",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 100,
-  "total": 2712,
+  "total": 2713,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 15:59:38",
+  "updated_at_shanghai": "2026-11-22 18:32:32",
   "account": "elonmusk"
 }
