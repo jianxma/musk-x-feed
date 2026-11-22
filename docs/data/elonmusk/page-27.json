@@ -1,6 +1,424 @@
 {
   "posts": [
     {
+      "id": "2102952674727784693",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T02:46:03.000Z",
+      "created_at_shanghai": "2026-09-24 10:46:03",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Preparing for launch on Monday",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 23:23:59",
+        "created_at_utc": "2026-09-23T15:23:59.000Z",
+        "id": "2102781027085320290",
+        "images": [
+          "https://pbs.twimg.com/media/HS6UGjvXkAAyHtp.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6UIKjWcAAIFCz.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6UJosXkAAtmfZ.jpg?name=small",
+          "https://pbs.twimg.com/media/HS6ULERWMAAKMsr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UGjvXkAAyHtp.jpg?name=small",
+            "width": 4096,
+            "height": 2304
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UIKjWcAAIFCz.jpg?name=small",
+            "width": 4096,
+            "height": 2304
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6UJosXkAAtmfZ.jpg?name=small",
+            "width": 4096,
+            "height": 2304
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS6ULERWMAAKMsr.jpg?name=small",
+            "width": 4096,
+            "height": 2304
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Ship 41 moved to the launch pad at Starbase",
+        "url": "https://x.com/SpaceX/status/2102781027085320290",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 51,
+        "likes": 2498,
+        "quotes": 36,
+        "replies": 418,
+        "retweets": 357,
+        "views": 402171
+      },
+      "url": "https://x.com/elonmusk/status/2102952674727784693",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102952564623131009",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T02:45:37.000Z",
+      "created_at_shanghai": "2026-09-24 10:45:37",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Stacking Starship ahead of Flight 14",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 02:00:08",
+        "created_at_utc": "2026-09-23T18:00:08.000Z",
+        "id": "2102820322915353038",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102819857670496256/vid/avc1/3840x2160/OfzleIrIJPn1qGzd.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg",
+            "width": 3840,
+            "height": 2160,
+            "duration": 17.017
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Stacking Starship ahead of Flight 14",
+        "url": "https://x.com/SpaceX/status/2102820322915353038",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 660,
+        "likes": 13663,
+        "quotes": 166,
+        "replies": 365,
+        "retweets": 1550,
+        "views": 848844
+      },
+      "url": "https://x.com/elonmusk/status/2102952564623131009",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102819857670496256/vid/avc1/3840x2160/OfzleIrIJPn1qGzd.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102819857670496256/img/Rmp7rxScmTcte7xS.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 17.017
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2102952506674536864",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T02:45:23.000Z",
+      "created_at_shanghai": "2026-09-24 10:45:23",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Sunrise at Starbase. Opportunistic full stack testing is planned ahead of Flight 14's launch, which is on track for Monday, Sept. 28, pending regulatory approval",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 07:15:49",
+        "created_at_utc": "2026-09-23T23:15:49.000Z",
+        "id": "2102899767403851945",
+        "images": [
+          "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
+          "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
+          "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
+          "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
+            "width": 4096,
+            "height": 2304
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
+            "width": 4096,
+            "height": 2304
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
+            "width": 4096,
+            "height": 2304
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small",
+            "width": 4096,
+            "height": 2304
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Sunrise at Starbase. Opportunistic full stack testing is planned ahead of Flight 14's launch, which is on track for Monday, Sept. 28, pending regulatory approval",
+        "url": "https://x.com/SpaceX/status/2102899767403851945",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 326,
+        "likes": 7186,
+        "quotes": 116,
+        "replies": 222,
+        "retweets": 941,
+        "views": 424235
+      },
+      "url": "https://x.com/elonmusk/status/2102952506674536864",
+      "images": [
+        "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
+        "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
+        "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
+        "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS7_82eXsAAa-Hx.jpg?name=small",
+          "width": 4096,
+          "height": 2304
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS8AAMSWwAEg-aG.jpg?name=small",
+          "width": 4096,
+          "height": 2304
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS8ACXbW0AAgmAn.jpg?name=small",
+          "width": 4096,
+          "height": 2304
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS8AFH2WsAASxLk.jpg?name=small",
+          "width": 4096,
+          "height": 2304
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2102933125018108169",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T01:28:22.000Z",
+      "created_at_shanghai": "2026-09-24 09:28:22",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "This turned out to be the most prophetic tweet of the year",
+      "quote": {
+        "author": "FT",
+        "avatar": "https://pbs.twimg.com/profile_images/931156393108885504/EqEMtLhM_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 06:07:09",
+        "created_at_utc": "2026-09-23T22:07:09.000Z",
+        "id": "2102882489177964983",
+        "images": [
+          "https://pbs.twimg.com/media/HS7wd9XXkAAnf3J.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS7wd9XXkAAnf3J.jpg?name=small",
+            "width": 1080,
+            "height": 1350
+          }
+        ],
+        "name": "Financial Times",
+        "text": "Breaking news: Australian Prime Minister Anthony Albanese has revealed that an OpenAI agent hacked an Australian government health service website in June, in the latest high-profile cyber incident involving AI https://ft.trib.al/gloVAyn",
+        "url": "https://x.com/FT/status/2102882489177964983",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "AlecStapp",
+        "avatar": "https://pbs.twimg.com/profile_images/1498170157176393731/tyrdhQ1M_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 08:48:46",
+        "created_at_utc": "2026-09-24T00:48:46.000Z",
+        "id": "2102923162229084418",
+        "images": [
+          "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small",
+            "width": 1025,
+            "height": 344
+          }
+        ],
+        "name": "Alec Stapp",
+        "text": "This turned out to be the most prophetic tweet of the year",
+        "url": "https://x.com/AlecStapp/status/2102923162229084418",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 49,
+        "likes": 670,
+        "quotes": 6,
+        "replies": 33,
+        "retweets": 91,
+        "views": 82252
+      },
+      "url": "https://x.com/elonmusk/status/2102933125018108169",
+      "images": [
+        "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS8VeJ0WMAAm0-k.jpg?name=small",
+          "width": 1025,
+          "height": 344
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2102926113173627069",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-24T01:00:30.000Z",
+      "created_at_shanghai": "2026-09-24 09:00:30",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Made with nickel cathode manufactured locally at Gigafactory Texas!",
+      "quote": {
+        "author": "robotaxi",
+        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 05:18:57",
+        "created_at_utc": "2026-09-23T21:18:57.000Z",
+        "id": "2102870359511105606",
+        "images": [
+          "https://pbs.twimg.com/media/HS31crwa0AACULm.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HS31crwa0AACULm.jpg?name=small",
+            "width": 4096,
+            "height": 3069
+          }
+        ],
+        "name": "Robotaxi",
+        "text": "First Cybercab made using our in-house cathode material – from the first cathode plant in the Americas",
+        "url": "https://x.com/robotaxi/status/2102870359511105606",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 61,
+        "likes": 2839,
+        "quotes": 38,
+        "replies": 328,
+        "retweets": 324,
+        "views": 491109
+      },
+      "url": "https://x.com/elonmusk/status/2102926113173627069",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2102873022789283985",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T21:29:32.000Z",
+      "created_at_shanghai": "2026-09-24 05:29:32",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok 4.7 moves up in ranking",
+      "quote": {
+        "author": "zhuokaiz",
+        "avatar": "https://pbs.twimg.com/profile_images/1777066097822347265/Qb8wV0zd_200x200.jpg",
+        "created_at_shanghai": "2026-09-24 02:22:20",
+        "created_at_utc": "2026-09-23T18:22:20.000Z",
+        "id": "2102825912471527738",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102821503704199168/img/IcwEs1Y79SAduCjV.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102821503704199168/vid/avc1/1744x1622/4RTujSNIECeK-LEM.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102821503704199168/img/IcwEs1Y79SAduCjV.jpg",
+            "width": 1744,
+            "height": 1622,
+            "duration": 11.5
+          }
+        ],
+        "name": "Zhuokai Zhao",
+        "text": "After we fixed the weak spots exposed by Grok 4.7 (thank you, Grok), we audited every model we have run on the SWE-Together leaderboard for the same behavior, re-ran every trial that got through, and updated the rows. \n\nHere is what changed.\n\nWe scanned the tool calls of all 2,616 trials behind the 12 models we ran for bypass patterns and sorted each trial into one of four buckets: Probed but blocked. Fetched other upstream code. Fetched the task's own fix. Replaced the repo with upstream.\n\nWe found that 111 trials got content past the block, 44 from Grok 4.7 and 67 from the other 11 models.\n\nGrok 4.7's 44 were already re-run before it was listed, so we re-ran the other 67 with the same model, version, and settings on the hardened sandbox, then re-judged them with the same judge.\n\nAcross those 67 re-runs there were 0 leaks and 2,815 refused escape attempts, including models asking a different model through our LLM route to fetch the PR, and pulling the next release of the repo they were fixing from npm.\n\nThe updated leaderboard, in its current order. Each line is cheating trials, then pass@1 before → after, then rank change.\n\n* Claude Fable 5.1: 3, 69.3 → 69.3, ↑1\n* Claude Fable 5: 3, 69.7 → 68.8, ↓1\n* Grok 4.7: 44, 64.7, ↑1\n* Gemini 3.8 Flash: 10, 65.6 → 64.2, ↓1\n* Claude Opus 5: 2, 63.8 → 63.8\n* Claude Opus 4.6: 3, 62.4 → 62.4, ↑2\n* Muse Spark 1.3: 2, 62.8 → 62.4, ↓1\n* Claude Opus 4.7: 3, 61.5 → 61.5, ↑1\n* Claude Opus 4.8: 6, 62.4 → 61.5, ↓2\n* Grok 4.6: 19, 59.2 → 60.6, ↑1\n* GPT-6 Astra: 8, 59.2 → 58.3, ↓1\n* GPT-5.6 Sol: 8, 57.8 → 57.8\n\nGrok 4.6 is a funny one. It cheated in 19 trials and its score went up after the re-run 😂. \n\nIn fact, Groks are really solid in their coding capabilities. Their exposed behavior may come from a preference towards always looking things up online and finding existing solutions so you are not reinventing the wheel all the time, which is really good real-life behavior, but doing so when you are prompted not to is another story.\n\nTo conclude, the shifts are small, between −1.4 and +1.4 points, and a few neighbors swapped places.\n\nAll results are updated at https://togetherbench.com",
+        "url": "https://x.com/zhuokaiz/status/2102825912471527738",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 101,
+        "likes": 3075,
+        "quotes": 42,
+        "replies": 641,
+        "retweets": 480,
+        "views": 1097086
+      },
+      "url": "https://x.com/elonmusk/status/2102873022789283985",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102839221593710678",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4600,268 +5018,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101866518757683464",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T02:50:03.000Z",
-      "created_at_shanghai": "2026-09-21 10:50:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Built this Grok Bot, fully offline index of all your saved instagram videos via @karpathy-wiki-style .md. Uses @bot, @grok Voice Transcribe 2.0, Grok Vision + more.\n\n(X + TikTok coming soon)",
-      "quote": null,
-      "retweet": {
-        "author": "kevinrose",
-        "avatar": "https://pbs.twimg.com/profile_images/1943511529237680130/cy-Te05B_200x200.jpg",
-        "created_at_shanghai": "2026-09-20 07:35:48",
-        "created_at_utc": "2026-09-19T23:35:48.000Z",
-        "id": "2101455244567973976",
-        "images": [],
-        "name": "Kevin Rose",
-        "text": "Built this Grok Bot, fully offline index of all your saved instagram videos via @karpathy-wiki-style .md. Uses @bot, @grok Voice Transcribe 2.0, Grok Vision + more.\n\n(X + TikTok coming soon)",
-        "url": "https://x.com/kevinrose/status/2101455244567973976",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1309,
-        "likes": 1685,
-        "quotes": 17,
-        "replies": 117,
-        "retweets": 175,
-        "views": 665774
-      },
-      "url": "https://x.com/elonmusk/status/2101866518757683464",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2101865940325478653",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T02:47:45.000Z",
-      "created_at_shanghai": "2026-09-21 10:47:45",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Just connected my Grok Bot to 𝕏 Money.\n\nAnd I think this is one of those things that may sounds small to many people until you actually use it…\n\nI can now send $ money to someone just by telling my bot what I want to do.\n\nI don’t need to open another app.\n\nI don’t need to search for the payment tab.\n\nI don’t need to jump between screens or tabs.\n\nI just type the instruction in plain English and Grok Bot handles it through 𝕏 Money, and the payment immediately goes through. \n\nSo today, I sent Elon $4.20.\n\nWith a note telling him that, “Testing 𝕏 Money connector w/ Grok Bot”\n\nIt worked beautifully… \n\nI realize this could one day completely change the way $ money moves.\n\nToday, moving $ money usually means stopping what you’re doing, opening a banking or payment app, finding the person, entering the amount, checking everything, and hitting send.\n\nNow imagine your Grok Bot already understands what you want.\n\nYou can say things like,\n\n“Send this person $20.”\n\n“Pay this bill w/ a pic”\n\n“Split dinner between everyone here.”\n\n“Send my contractor the usual $ amount.”\n\n“Move some $ money into savings.”\n\nAnd your Grok Bot handles the work through whatever financial account, while you stay in control of the approval.\n\nNow, instead of humans learning how to use financial software, the software is learning how to work for humans.\n\nAnd as Grok Bot gets smarter and 𝕏 Money grows, I think this is where things will get really interesting.\n\n𝕏 already has communication, creators, businesses, communities and people spending hours talking to each other every day.\n\nNow add $ money.\n\nThen add an AI/Grok Bot that can understand what you want and help move that $ money for you effortlessly.\n\nPayments stop feeling like a separate thing you have to go do… and just becomes part of the normal conversation.\n\nI think this could be a big deal for 𝕏 Money. \n\nIf 𝕏 Money grows into one of the world’s largest financial platforms, I think Grok Bot could become the primary layer people talk to when they want anything done with their $ money.\n\nGrok Bot, hooked up with 𝕏 Money is a BIG deal…",
-      "quote": null,
-      "retweet": {
-        "author": "Teslaconomics",
-        "avatar": "https://pbs.twimg.com/profile_images/1882967991362727936/bySD-Rwj_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 02:52:00",
-        "created_at_utc": "2026-09-20T18:52:00.000Z",
-        "id": "2101746215255961783",
-        "images": [
-          "https://pbs.twimg.com/media/HSrnCsyaoAAmgD7.jpg?name=small"
-        ],
-        "name": "Teslaconomics",
-        "text": "Just connected my Grok Bot to 𝕏 Money.\n\nAnd I think this is one of those things that may sounds small to many people until you actually use it…\n\nI can now send $ money to someone just by telling my bot what I want to do.\n\nI don’t need to open another app.\n\nI don’t need to search for the payment tab.\n\nI don’t need to jump between screens or tabs.\n\nI just type the instruction in plain English and Grok Bot handles it through 𝕏 Money, and the payment immediately goes through. \n\nSo today, I sent Elon $4.20.\n\nWith a note telling him that, “Testing 𝕏 Money connector w/ Grok Bot”\n\nIt worked beautifully… \n\nI realize this could one day completely change the way $ money moves.\n\nToday, moving $ money usually means stopping what you’re doing, opening a banking or payment app, finding the person, entering the amount, checking everything, and hitting send.\n\nNow imagine your Grok Bot already understands what you want.\n\nYou can say things like,\n\n“Send this person $20.”\n\n“Pay this bill w/ a pic”\n\n“Split dinner between everyone here.”\n\n“Send my contractor the usual $ amount.”\n\n“Move some $ money into savings.”\n\nAnd your Grok Bot handles the work through whatever financial account, while you stay in control of the approval.\n\nNow, instead of humans learning how to use financial software, the software is learning how to work for humans.\n\nAnd as Grok Bot gets smarter and 𝕏 Money grows, I think this is where things will get really interesting.\n\n𝕏 already has communication, creators, businesses, communities and people spending hours talking to each other every day.\n\nNow add $ money.\n\nThen add an AI/Grok Bot that can understand what you want and help move that $ money for you effortlessly.\n\nPayments stop feeling like a separate thing you have to go do… and just becomes part of the normal conversation.\n\nI think this could be a big deal for 𝕏 Money. \n\nIf 𝕏 Money grows into one of the world’s largest financial platforms, I think Grok Bot could become the primary layer people talk to when they want anything done with their $ money.\n\nGrok Bot, hooked up with 𝕏 Money is a BIG deal…",
-        "url": "https://x.com/Teslaconomics/status/2101746215255961783",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 271,
-        "likes": 1554,
-        "quotes": 33,
-        "replies": 188,
-        "retweets": 219,
-        "views": 540493
-      },
-      "url": "https://x.com/elonmusk/status/2101865940325478653",
-      "images": [
-        "https://pbs.twimg.com/media/HSrnCsyaoAAmgD7.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2101864954173251996",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T02:43:50.000Z",
-      "created_at_shanghai": "2026-09-21 10:43:50",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Don’t mess with 𝕏",
-      "quote": {
-        "author": "BurnhamDC",
-        "avatar": "https://pbs.twimg.com/profile_images/2035439788396863488/9FIYa41g_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 07:38:31",
-        "created_at_utc": "2026-09-20T23:38:31.000Z",
-        "id": "2101818319091224740",
-        "images": [],
-        "name": "James Burnham",
-        "text": "Last week, @X sued several people who abused Creator Revenue Sharing by operating a coordinated network of accounts, posting inauthentic content to manipulate engagement, and using multiple bank accounts to hide their scheme. \n\nWe do not tolerate fraudulent behavior on X -- and will act forcefully to protect our platform and the earnings of genuine creators. \n\nYou can read our lawsuit here: https://transparency.x.com/assets/legal/2026-09-17-X-v-Sen-and-Sherpa-Complaint.pdf",
-        "url": "https://x.com/BurnhamDC/status/2101818319091224740",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1041,
-        "likes": 51915,
-        "quotes": 371,
-        "replies": 2861,
-        "retweets": 4987,
-        "views": 7849933
-      },
-      "url": "https://x.com/elonmusk/status/2101864954173251996",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2101863833648177412",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T02:39:23.000Z",
-      "created_at_shanghai": "2026-09-21 10:39:23",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Romanian gangs are exploiting 1960s tech in the American welfare system to pilfer hundreds of millions of dollars from food-stamp accounts.\nhttps://on.wsj.com/3TBT15c",
-      "quote": null,
-      "retweet": {
-        "author": "WSJ",
-        "avatar": "https://pbs.twimg.com/profile_images/971415515754266624/zCX0q9d5_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 07:13:42",
-        "created_at_utc": "2026-09-20T23:13:42.000Z",
-        "id": "2101812072644292663",
-        "images": [],
-        "name": "The Wall Street Journal",
-        "text": "Romanian gangs are exploiting 1960s tech in the American welfare system to pilfer hundreds of millions of dollars from food-stamp accounts.\nhttps://on.wsj.com/3TBT15c",
-        "url": "https://x.com/WSJ/status/2101812072644292663",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 626,
-        "likes": 7054,
-        "quotes": 118,
-        "replies": 336,
-        "retweets": 1329,
-        "views": 913274
-      },
-      "url": "https://x.com/elonmusk/status/2101863833648177412",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2101825893710856301",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-21T00:08:37.000Z",
-      "created_at_shanghai": "2026-09-21 08:08:37",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "ALIGNMENT must be the #1 objective.  Train next generation models on aligned data sets. Not the crap on Reddit and Facebook",
-      "quote": null,
-      "retweet": {
-        "author": "PeterDiamandis",
-        "avatar": "https://pbs.twimg.com/profile_images/1270804940936503296/oVhO8Njn_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 02:42:12",
-        "created_at_utc": "2026-09-20T18:42:12.000Z",
-        "id": "2101743745486196960",
-        "images": [],
-        "name": "Peter H. Diamandis, MD",
-        "text": "ALIGNMENT must be the #1 objective.  Train next generation models on aligned data sets. Not the crap on Reddit and Facebook",
-        "url": "https://x.com/PeterDiamandis/status/2101743745486196960",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 133,
-        "likes": 3300,
-        "quotes": 36,
-        "replies": 354,
-        "retweets": 284,
-        "views": 594305
-      },
-      "url": "https://x.com/elonmusk/status/2101825893710856301",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2101818870176813185",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-20T23:40:43.000Z",
-      "created_at_shanghai": "2026-09-21 07:40:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Looking forward to this. Much needed! 🙏",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 01:57:30",
-        "created_at_utc": "2026-09-20T17:57:30.000Z",
-        "id": "2101732496396439751",
-        "images": [],
-        "name": "Elon Musk",
-        "text": "Boring Company is working on a simple, precursor Hyperloop tunnel between Austin and San Antonio (>200 mph). \n\nDue to traffic congestion, that journey can currently take up to 2.5 hours. @BoringCompany can reduce that to a consistent <30 mins.",
-        "url": "https://x.com/elonmusk/status/2101732496396439751",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "MichaelDell",
-        "avatar": "https://pbs.twimg.com/profile_images/2065882493136306176/Zt75bHLP_200x200.jpg",
-        "created_at_shanghai": "2026-09-21 05:10:40",
-        "created_at_utc": "2026-09-20T21:10:40.000Z",
-        "id": "2101781110728392805",
-        "images": [],
-        "name": "Michael Dell 🇺🇸",
-        "text": "Looking forward to this. Much needed! 🙏",
-        "url": "https://x.com/MichaelDell/status/2101781110728392805",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 92,
-        "likes": 5972,
-        "quotes": 15,
-        "replies": 141,
-        "retweets": 412,
-        "views": 1070290
-      },
-      "url": "https://x.com/elonmusk/status/2101818870176813185",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 27,
   "page_size": 100,
-  "total": 2727,
+  "total": 2733,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 20:15:07",
+  "updated_at_shanghai": "2026-11-22 20:24:54",
   "account": "elonmusk"
 }
