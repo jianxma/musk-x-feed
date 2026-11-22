@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2112950704327520260",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-21T16:54:39.000Z",
+      "created_at_shanghai": "2026-10-22 00:54:39",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink moves the needle",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 00:29:56",
+        "created_at_utc": "2026-10-21T16:29:56.000Z",
+        "id": "2112944486804545672",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2112944417724358662/img/i7KQli1TNb5R_5yi.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2112944417724358662/vid/avc1/1788x1080/3edybyh0oa2qrE-S.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112944417724358662/img/i7KQli1TNb5R_5yi.jpg",
+            "width": 1788,
+            "height": 1080,
+            "duration": 51.841
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: United CEO says customers are switching from other airlines because of @Starlink\n\n“We already see customers moving from other airlines today”\n\nUnited will cross 50% of flights with Starlink this week and expects to finish its full fleet rollout by the end of next year.",
+        "url": "https://x.com/cb_doge/status/2112944486804545672",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 121,
+        "likes": 7887,
+        "quotes": 60,
+        "replies": 737,
+        "retweets": 838,
+        "views": 906488
+      },
+      "url": "https://x.com/elonmusk/status/2112950704327520260",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2112950560445845908",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5138,62 +5190,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2111914748648296655",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-18T20:18:08.000Z",
-      "created_at_shanghai": "2026-10-19 04:18:08",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot is like hiring an incredibly competent employee",
-      "quote": {
-        "author": "Rothmus",
-        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
-        "created_at_shanghai": "2026-10-19 02:33:40",
-        "created_at_utc": "2026-10-18T18:33:40.000Z",
-        "id": "2111888458314879221",
-        "images": [
-          "https://pbs.twimg.com/media/HU7vW_BWYAA2dR_.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HU7vW_BWYAA2dR_.jpg?name=small",
-            "width": 1280,
-            "height": 720
-          }
-        ],
-        "name": "Rothmus 🏴",
-        "text": "Use Grok @Bot \n\nThis is a public service announcement.",
-        "url": "https://x.com/Rothmus/status/2111888458314879221",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 103,
-        "likes": 2359,
-        "quotes": 65,
-        "replies": 624,
-        "retweets": 313,
-        "views": 623105
-      },
-      "url": "https://x.com/elonmusk/status/2111914748648296655",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 100,
-  "total": 2753,
+  "total": 2754,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 06:09:50",
+  "updated_at_shanghai": "2026-11-23 06:33:56",
   "account": "elonmusk"
 }

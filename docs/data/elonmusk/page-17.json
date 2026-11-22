@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2111914748648296655",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T20:18:08.000Z",
+      "created_at_shanghai": "2026-10-19 04:18:08",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot is like hiring an incredibly competent employee",
+      "quote": {
+        "author": "Rothmus",
+        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
+        "created_at_shanghai": "2026-10-19 02:33:40",
+        "created_at_utc": "2026-10-18T18:33:40.000Z",
+        "id": "2111888458314879221",
+        "images": [
+          "https://pbs.twimg.com/media/HU7vW_BWYAA2dR_.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HU7vW_BWYAA2dR_.jpg?name=small",
+            "width": 1280,
+            "height": 720
+          }
+        ],
+        "name": "Rothmus 🏴",
+        "text": "Use Grok @Bot \n\nThis is a public service announcement.",
+        "url": "https://x.com/Rothmus/status/2111888458314879221",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 103,
+        "likes": 2359,
+        "quotes": 65,
+        "replies": 624,
+        "retweets": 313,
+        "views": 623105
+      },
+      "url": "https://x.com/elonmusk/status/2111914748648296655",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111877649513529345",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5753,75 +5803,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110966717199351862",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T05:30:59.000Z",
-      "created_at_shanghai": "2026-10-16 13:30:59",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "0-60 mph in 0.81 seconds",
-      "quote": null,
-      "retweet": {
-        "author": "Tesla",
-        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-        "created_at_shanghai": "2026-10-16 13:19:17",
-        "created_at_utc": "2026-10-16T05:19:17.000Z",
-        "id": "2110963770763649487",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110963566559797248/img/67wjoNBFeaEmGaxN.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110963566559797248/vid/avc1/3840x2160/8n3hpoZxk7Jt6Yeq.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110963566559797248/img/67wjoNBFeaEmGaxN.jpg",
-            "width": 3840,
-            "height": 2160,
-            "duration": 1.042
-          }
-        ],
-        "name": "Tesla",
-        "text": "0-60 mph in 0.81 seconds",
-        "url": "https://x.com/Tesla/status/2110963770763649487",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1144,
-        "likes": 19175,
-        "quotes": 426,
-        "replies": 539,
-        "retweets": 1837,
-        "views": 1006268
-      },
-      "url": "https://x.com/elonmusk/status/2110966717199351862",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110963566559797248/img/67wjoNBFeaEmGaxN.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110963566559797248/vid/avc1/3840x2160/8n3hpoZxk7Jt6Yeq.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110963566559797248/img/67wjoNBFeaEmGaxN.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 1.042
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 100,
-  "total": 2753,
+  "total": 2754,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 06:09:50",
+  "updated_at_shanghai": "2026-11-23 06:33:56",
   "account": "elonmusk"
 }
