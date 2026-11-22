@@ -1,6 +1,97 @@
 {
   "posts": [
     {
+      "id": "2110512477582795125",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T23:26:00.000Z",
+      "created_at_shanghai": "2026-10-15 07:26:00",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot can detect scam emails",
+      "quote": {
+        "author": "wmorrill3",
+        "avatar": "https://pbs.twimg.com/profile_images/2099371785234112513/iegFehAO_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 07:00:00",
+        "created_at_utc": "2026-10-14T23:00:00.000Z",
+        "id": "2110505932174045466",
+        "images": [
+          "https://pbs.twimg.com/media/HUnLkBlawAAlc9h.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUnLkBlawAAlc9h.jpg?name=small",
+            "width": 1200,
+            "height": 565
+          }
+        ],
+        "name": "Wes",
+        "text": "An email from noreply@x.ai landed in my inbox, passed SPF, DKIM, DMARC, and had the blue check \n\nSomething felt off, so I asked @bot to do a security review. It found a hidden phishing link, explained why every safety check passed, wrote a report to xAI - including proposed fix!",
+        "url": "https://x.com/wmorrill3/status/2110505932174045466",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 102,
+        "likes": 2374,
+        "quotes": 27,
+        "replies": 396,
+        "retweets": 310,
+        "views": 622779
+      },
+      "url": "https://x.com/elonmusk/status/2110512477582795125",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110511855731159239",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T23:23:32.000Z",
+      "created_at_shanghai": "2026-10-15 07:23:32",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Major threshold passed. Almost all cars will be electric in the future.",
+      "quote": {
+        "author": "Polymarket",
+        "avatar": "https://pbs.twimg.com/profile_images/2005664281002491904/bz2ZO_nU_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 05:29:37",
+        "created_at_utc": "2026-10-14T21:29:37.000Z",
+        "id": "2110483188174946476",
+        "images": [],
+        "media": [],
+        "name": "Polymarket",
+        "text": "BREAKING: Gasoline-only cars fall below 50% of global new vehicle sales for the first time in history.",
+        "url": "https://x.com/Polymarket/status/2110483188174946476",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 807,
+        "likes": 19516,
+        "quotes": 286,
+        "replies": 2290,
+        "retweets": 1505,
+        "views": 1398331
+      },
+      "url": "https://x.com/elonmusk/status/2110511855731159239",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110510090155708658",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5079,94 +5170,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109803903256502307",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T00:30:23.000Z",
-      "created_at_shanghai": "2026-10-13 08:30:23",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Robotaxi improvements",
-      "quote": {
-        "author": "robotaxi",
-        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 04:27:06",
-        "created_at_utc": "2026-10-12T20:27:06.000Z",
-        "id": "2109742678435119540",
-        "images": [],
-        "media": [],
-        "name": "Robotaxi",
-        "text": "Robotaxi service updates from the last few weeks:  \n\n– Operating hours are now 6am-11pm \n– Reduced wait times thanks to increased supply & orchestration algorithms \n– Trunk now opens automatically at end of ride if utilized \n– Grok @bot now available in Cybercab",
-        "url": "https://x.com/robotaxi/status/2109742678435119540",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 154,
-        "likes": 10046,
-        "quotes": 58,
-        "replies": 705,
-        "retweets": 832,
-        "views": 1586935
-      },
-      "url": "https://x.com/elonmusk/status/2109803903256502307",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109793921203093888",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T23:50:43.000Z",
-      "created_at_shanghai": "2026-10-13 07:50:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration.\n\nThe aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.",
-      "quote": null,
-      "retweet": {
-        "author": "TimSweeneyEpic",
-        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 02:00:40",
-        "created_at_utc": "2026-10-12T18:00:40.000Z",
-        "id": "2109705826688549304",
-        "images": [],
-        "media": [],
-        "name": "Tim Sweeney",
-        "text": "We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration.\n\nThe aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.",
-        "url": "https://x.com/TimSweeneyEpic/status/2109705826688549304",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2526,
-        "likes": 12945,
-        "quotes": 2006,
-        "replies": 4055,
-        "retweets": 739,
-        "views": 3174761
-      },
-      "url": "https://x.com/elonmusk/status/2109793921203093888",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 19,
   "page_size": 100,
-  "total": 2721,
+  "total": 2723,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-22 19:53:42",
+  "updated_at_shanghai": "2026-11-22 20:04:31",
   "account": "elonmusk"
 }
