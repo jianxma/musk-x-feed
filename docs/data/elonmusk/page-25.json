@@ -1,6 +1,82 @@
 {
   "posts": [
     {
+      "id": "2105555039133561242",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T07:06:55.000Z",
+      "created_at_shanghai": "2026-10-01 15:06:55",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "WHAT THE F*CK. SpaceXAI is using Grok Bot to build Grok Bot. Its agents design, code, test, and ship the product.\n\nIn this 45-minute session, Peng Zheng and Lauren Tanshowed their internal setup across design, engineering, user feedback, and bot management.\n\nOne key frame becomes a complete Figma flow. One project gets split across four engineer bots. Repeated bug reports from X become fix proposals without anyone copying the context by hand.\n\nSome PRs merge before a human reads them. This talk alone replaces a $500 course on building AI agent teams.\n\nWatch it today, then read the article on building your own Grok Bot team from scratch below.",
+      "quote": {
+        "author": "0xGenAi",
+        "avatar": "https://pbs.twimg.com/profile_images/2083289176343027712/63iXpID5_200x200.jpg",
+        "created_at_shanghai": "2026-08-23 00:21:45",
+        "created_at_utc": "2026-08-22T16:21:45.000Z",
+        "id": "2091199153942495683",
+        "images": [],
+        "media": [],
+        "name": "GenAI",
+        "text": "",
+        "url": "https://x.com/0xGenAi/status/2091199153942495683",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "0xGenAi",
+        "avatar": "https://pbs.twimg.com/profile_images/2083289176343027712/63iXpID5_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 03:01:54",
+        "created_at_utc": "2026-09-30T19:01:54.000Z",
+        "id": "2105372581725356099",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2105370735065591809/img/Qs1BGK4-l4UfQSX_.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105370735065591809/vid/avc1/1920x1080/flpGzJqlKugJ-WL5.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105370735065591809/img/Qs1BGK4-l4UfQSX_.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 2659.126
+          }
+        ],
+        "name": "GenAI",
+        "text": "WHAT THE F*CK. SpaceXAI is using Grok Bot to build Grok Bot. Its agents design, code, test, and ship the product.\n\nIn this 45-minute session, Peng Zheng and Lauren Tanshowed their internal setup across design, engineering, user feedback, and bot management.\n\nOne key frame becomes a complete Figma flow. One project gets split across four engineer bots. Repeated bug reports from X become fix proposals without anyone copying the context by hand.\n\nSome PRs merge before a human reads them. This talk alone replaces a $500 course on building AI agent teams.\n\nWatch it today, then read the article on building your own Grok Bot team from scratch below.",
+        "url": "https://x.com/0xGenAi/status/2105372581725356099",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 236,
+        "likes": 298,
+        "quotes": 4,
+        "replies": 35,
+        "retweets": 54,
+        "views": 36634
+      },
+      "url": "https://x.com/elonmusk/status/2105555039133561242",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2105370735065591809/img/Qs1BGK4-l4UfQSX_.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2105370735065591809/vid/avc1/1920x1080/flpGzJqlKugJ-WL5.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105370735065591809/img/Qs1BGK4-l4UfQSX_.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 2659.126
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2105544504535396482",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5781,53 +5857,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2104375332048613752",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-28T00:59:11.000Z",
-      "created_at_shanghai": "2026-09-28 08:59:11",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Accurate",
-      "quote": {
-        "author": "Dr_Singularity",
-        "avatar": "https://pbs.twimg.com/profile_images/1607111366397120514/j4XzXC27_200x200.jpg",
-        "created_at_shanghai": "2026-09-28 08:39:20",
-        "created_at_utc": "2026-09-28T00:39:20.000Z",
-        "id": "2104370335885717793",
-        "images": [],
-        "media": [],
-        "name": "Dr Singularity",
-        "text": "Feeling the AGI/ASI, few observations\n\n1. Opus 5.5 really gives strong vibes of AGI (maybe not fully there, but we're very close, like 80%-90%). \n\nFor example, few breakthoughs in training humanoids are needed. We need to move this intelligence into physical world.\n\n2. I don't think Anthropic has discovered any magical formula.\n\n3. Which means, SpaceXAI, Google, and others will soon follow. This prediction is based on the amount of compute they already have + additional compute being added all the time.\n\n4. Never was more confident that Anthropic, SpaceXAI, Google, OpenAI, likely Meta, basically all big US AGI labs will have proper AGI in 2027.\n\n5. And from there we'll move quickly to ASI territory (likely also in 2027).\n\nIt looks like few GW of compute are enough for strong AGI, now imagine what we will able to do with 10-20GW of compute which are rapidly coming online.\n\nAnd then with 100GW-200GW...\n\n2027 will be an utterly insane year.",
-        "url": "https://x.com/Dr_Singularity/status/2104370335885717793",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 33,
-        "likes": 655,
-        "quotes": 6,
-        "replies": 130,
-        "retweets": 85,
-        "views": 357748
-      },
-      "url": "https://x.com/elonmusk/status/2104375332048613752",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 25,
   "page_size": 100,
-  "total": 2736,
+  "total": 2737,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 03:53:08",
+  "updated_at_shanghai": "2026-11-23 04:35:19",
   "account": "elonmusk"
 }

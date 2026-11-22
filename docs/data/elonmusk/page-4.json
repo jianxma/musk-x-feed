@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2122164224382447808",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-16T03:05:53.000Z",
+      "created_at_shanghai": "2026-11-16 11:05:53",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot can do almost anything",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-16 02:26:54",
+        "created_at_utc": "2026-11-15T18:26:54.000Z",
+        "id": "2122033615362302355",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2122033423560986624/img/234q8xWRvwxddD_g.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2122033423560986624/vid/avc1/1080x1080/HlR_PwkJYnfvtOsY.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122033423560986624/img/234q8xWRvwxddD_g.jpg",
+            "width": 1080,
+            "height": 1080,
+            "duration": 60
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Grok Bot made this Starship Flight 15 highlight reel for me. 🚀\n\nIt downloaded the 23-hour livestream, picked out the best moments, edited the clips together, added effects and music, all so quickly.\n\nYou don’t need a video editor anymore. Just ask Grok Bot.",
+        "url": "https://x.com/cb_doge/status/2122033615362302355",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 40,
+        "likes": 870,
+        "quotes": 14,
+        "replies": 245,
+        "retweets": 126,
+        "views": 305499
+      },
+      "url": "https://x.com/elonmusk/status/2122164224382447808",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2122164088726016388",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5285,64 +5337,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121611711278981147",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T14:30:24.000Z",
-      "created_at_shanghai": "2026-11-14 22:30:24",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starship is currently completing 14 orbits of Earth, before initiating deorbit and attempting to land in Starbase",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-11-14 21:53:18",
-        "created_at_utc": "2026-11-14T13:53:18.000Z",
-        "id": "2121602376532742611",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2121601548824510464/img/0aJ8a6jPC3uGzRTu.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2121601548824510464/vid/avc1/3840x2160/3s-tPQrkfVHZ9Tuu.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121601548824510464/img/0aJ8a6jPC3uGzRTu.jpg",
-            "width": 3840,
-            "height": 2160,
-            "duration": 82.72
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Starship in orbit over Africa",
-        "url": "https://x.com/SpaceX/status/2121602376532742611",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 92,
-        "likes": 3936,
-        "quotes": 45,
-        "replies": 565,
-        "retweets": 493,
-        "views": 415889
-      },
-      "url": "https://x.com/elonmusk/status/2121611711278981147",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 100,
-  "total": 2736,
+  "total": 2737,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 03:53:08",
+  "updated_at_shanghai": "2026-11-23 04:35:19",
   "account": "elonmusk"
 }

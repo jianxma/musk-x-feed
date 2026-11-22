@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110542945481039913",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T01:27:04.000Z",
+      "created_at_shanghai": "2026-10-15 09:27:04",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "My Grok @bot bots have their own email inbox now. Getting one is easy. Just ask your chief of staff: \"Claim an email inbox for me.\" You get one @mail.grokbot.com address per account and all your bots share it, so pick the name carefully. It's permanent.",
+      "quote": null,
+      "retweet": {
+        "author": "debs_obrien",
+        "avatar": "https://pbs.twimg.com/profile_images/1537114604278530048/FMrBa87o_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 05:05:43",
+        "created_at_utc": "2026-10-14T21:05:43.000Z",
+        "id": "2110477175069798427",
+        "images": [],
+        "media": [],
+        "name": "Debbie O'Brien",
+        "text": "My Grok @bot bots have their own email inbox now. Getting one is easy. Just ask your chief of staff: \"Claim an email inbox for me.\" You get one @mail.grokbot.com address per account and all your bots share it, so pick the name carefully. It's permanent.",
+        "url": "https://x.com/debs_obrien/status/2110477175069798427",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 200,
+        "quotes": 4,
+        "replies": 21,
+        "retweets": 32,
+        "views": 31569
+      },
+      "url": "https://x.com/elonmusk/status/2110542945481039913",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110542728631349528",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5254,88 +5295,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109821251820855397",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T01:39:19.000Z",
-      "created_at_shanghai": "2026-10-13 09:39:19",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "If you're not using Grok Bot to automate your work 24/7, sorry bro, you're ngmi.",
-      "quote": {
-        "author": "karanC_12",
-        "avatar": "https://pbs.twimg.com/profile_images/2099414876355735552/XpwRExm6_200x200.jpg",
-        "created_at_shanghai": "2026-10-10 22:03:27",
-        "created_at_utc": "2026-10-10T14:03:27.000Z",
-        "id": "2108921353256698298",
-        "images": [],
-        "media": [],
-        "name": "KC",
-        "text": "https://x.com/i/article/2108914347804442624",
-        "url": "https://x.com/karanC_12/status/2108921353256698298",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "karanC_12",
-        "avatar": "https://pbs.twimg.com/profile_images/2099414876355735552/XpwRExm6_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 12:24:11",
-        "created_at_utc": "2026-10-12T04:24:11.000Z",
-        "id": "2109500354098524325",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109500311413088256/img/zxsbP0si0HNAfup-.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109500311413088256/vid/avc1/2160x1440/teDskF705QHqTuBb.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109500311413088256/img/zxsbP0si0HNAfup-.jpg",
-            "width": 2160,
-            "height": 1440,
-            "duration": 8.057
-          }
-        ],
-        "name": "KC",
-        "text": "If you're not using Grok Bot to automate your work 24/7, sorry bro, you're ngmi.",
-        "url": "https://x.com/karanC_12/status/2109500354098524325",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 266,
-        "likes": 679,
-        "quotes": 18,
-        "replies": 43,
-        "retweets": 83,
-        "views": 203524
-      },
-      "url": "https://x.com/elonmusk/status/2109821251820855397",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109500311413088256/img/zxsbP0si0HNAfup-.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109500311413088256/vid/avc1/2160x1440/teDskF705QHqTuBb.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109500311413088256/img/zxsbP0si0HNAfup-.jpg",
-          "width": 2160,
-          "height": 1440,
-          "duration": 8.057
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 19,
   "page_size": 100,
-  "total": 2736,
+  "total": 2737,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 03:53:08",
+  "updated_at_shanghai": "2026-11-23 04:35:19",
   "account": "elonmusk"
 }

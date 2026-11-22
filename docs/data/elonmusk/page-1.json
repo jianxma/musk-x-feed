@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2124600936609841396",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-22T20:28:31.000Z",
+      "created_at_shanghai": "2026-11-23 04:28:31",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "😂",
+      "quote": {
+        "author": "X_Grace_G",
+        "name": "Grace🇺🇸",
+        "text": "",
+        "url": "https://x.com/X_Grace_G/status/2124409423821205663"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 1302,
+        "retweets": 134,
+        "replies": 276,
+        "bookmarks": 62,
+        "quotes": 31,
+        "views": 337643
+      },
+      "url": "https://x.com/elonmusk/status/2124600936609841396",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2124589255565680900",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4059,48 +4092,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2123810270426624429",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-20T16:06:41.000Z",
-      "created_at_shanghai": "2026-11-21 00:06:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Members of the Starship production team with Starship 42 before its launch",
-      "quote": {
-        "author": "SpaceX",
-        "name": "SpaceX",
-        "text": "Members of the Starship production team with Starship 42 before its launch",
-        "url": "https://x.com/SpaceX/status/2123809508187078839"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 95,
-        "likes": 1887,
-        "quotes": 25,
-        "replies": 115,
-        "retweets": 222,
-        "views": 93260
-      },
-      "url": "https://x.com/elonmusk/status/2123810270426624429",
-      "images": [
-        "https://pbs.twimg.com/media/HXlJcyAXcAABal7.jpg?name=small",
-        "https://pbs.twimg.com/media/HXlJeEtWQAAyCHO.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2736,
+  "total": 2737,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 03:53:08",
+  "updated_at_shanghai": "2026-11-23 04:35:19",
   "account": "elonmusk"
 }

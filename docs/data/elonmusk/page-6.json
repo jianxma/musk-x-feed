@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2120613346596761630",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-11T20:23:15.000Z",
+      "created_at_shanghai": "2026-11-12 04:23:15",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@TheFlintFace @IterIntellectus 100GW in space is roughly equal to 800GW on Earth. \n\nMoreover, solar on Earth must be paired with massive batteries to continue powering compute at night and supplemented with combustion or nuclear power during winter. \n\nThese are not the same at all.",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 04:22:50",
+        "created_at_utc": "2026-11-11T20:22:50.000Z",
+        "id": "2120613240707420280",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@TheFlintFace @IterIntellectus 100GW in space is roughly equal to 800GW on Earth. \n\nMoreover, solar on Earth must be paired with massive batteries to continue powering compute at night and supplemented with combustion or nuclear power during winter. \n\nThese are not the same at all.",
+        "url": "https://x.com/elonmusk/status/2120613240707420280",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "TheFlintFace",
+      "engagement": {
+        "bookmarks": 41,
+        "likes": 712,
+        "quotes": 15,
+        "replies": 123,
+        "retweets": 79,
+        "views": 55719
+      },
+      "url": "https://x.com/elonmusk/status/2120613346596761630",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2120591950961353125",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5479,53 +5520,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119425068979937378",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-08T13:41:28.000Z",
-      "created_at_shanghai": "2026-11-08 21:41:28",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Many such stories",
-      "quote": {
-        "author": "AndyL5cc",
-        "avatar": "https://pbs.twimg.com/profile_images/2098063802919276544/5W6aaTVF_200x200.jpg",
-        "created_at_shanghai": "2026-11-08 09:55:08",
-        "created_at_utc": "2026-11-08T01:55:08.000Z",
-        "id": "2119247317975060982",
-        "images": [],
-        "media": [],
-        "name": "Andy L",
-        "text": "笑死，一个朋友嫌每月 200 美元的 AI 订阅太贵。🤣\n\n转头花了十几万，买了 2 台 Mac Studio，专门部署开源大模型。\n\n昨天跟我吐槽：\n\n“折腾半天，发现还没每月 200 美元的闭源模型好用……”\n\n本来想省点订阅费，结果直接把未来十几年的会员费一次性交了。🤡",
-        "url": "https://x.com/AndyL5cc/status/2119247317975060982",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 35,
-        "likes": 761,
-        "quotes": 16,
-        "replies": 233,
-        "retweets": 90,
-        "views": 409501
-      },
-      "url": "https://x.com/elonmusk/status/2119425068979937378",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 100,
-  "total": 2736,
+  "total": 2737,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 03:53:08",
+  "updated_at_shanghai": "2026-11-23 04:35:19",
   "account": "elonmusk"
 }
