@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2110543151349870751",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T01:27:53.000Z",
+      "created_at_shanghai": "2026-10-15 09:27:53",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Imagine",
+      "quote": {
+        "author": "dvorahfr",
+        "avatar": "https://pbs.twimg.com/profile_images/1605451924144373760/K27zpEfc_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 04:44:54",
+        "created_at_utc": "2026-10-14T20:44:54.000Z",
+        "id": "2110471933015801856",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110471796440858624/img/vmIiHvg5Sp6fjoH9.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110471796440858624/vid/avc1/1080x1620/Yzt7O4k5vL6FV6nq.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110471796440858624/img/vmIiHvg5Sp6fjoH9.jpg",
+            "width": 1080,
+            "height": 1620,
+            "duration": 94.966
+          }
+        ],
+        "name": "Déborah",
+        "text": "Video created from a single image I generated using Grok Imagine's text-to-image tool.\nAll other shots are derived from that base image, animated by Grok Imagine.",
+        "url": "https://x.com/dvorahfr/status/2110471933015801856",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 19,
+        "likes": 405,
+        "quotes": 6,
+        "replies": 158,
+        "retweets": 48,
+        "views": 266386
+      },
+      "url": "https://x.com/elonmusk/status/2110543151349870751",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110542945481039913",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5241,66 +5293,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109821369643114558",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T01:39:47.000Z",
-      "created_at_shanghai": "2026-10-13 09:39:47",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot is best thought of as a highly capable employee that works around the clock and handles tasks efficiently. From research and outreach to finding hard to get items and managing day to day work",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 04:55:57",
-        "created_at_utc": "2026-10-11T20:55:57.000Z",
-        "id": "2109387553010851887",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Seriously, this actually works!\n\nThink of Grok @Bot like hiring a super smart employee who works 24/7 and is extremely resourceful. \n\nYou can use it through your phone effortlessly within minutes:\n\nhttps://apps.apple.com/app/id6794501026",
-        "url": "https://x.com/elonmusk/status/2109387553010851887",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "Cicily_aura",
-        "avatar": "https://pbs.twimg.com/profile_images/2033581275987013632/Hude9biF_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 19:46:11",
-        "created_at_utc": "2026-10-12T11:46:11.000Z",
-        "id": "2109611585585193294",
-        "images": [],
-        "media": [],
-        "name": "Cicily",
-        "text": "Grok Bot is best thought of as a highly capable employee that works around the clock and handles tasks efficiently. From research and outreach to finding hard to get items and managing day to day work",
-        "url": "https://x.com/Cicily_aura/status/2109611585585193294",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 92,
-        "likes": 577,
-        "quotes": 1,
-        "replies": 30,
-        "retweets": 83,
-        "views": 179701
-      },
-      "url": "https://x.com/elonmusk/status/2109821369643114558",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 19,
   "page_size": 100,
-  "total": 2737,
+  "total": 2738,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 04:35:19",
+  "updated_at_shanghai": "2026-11-23 04:45:25",
   "account": "elonmusk"
 }
