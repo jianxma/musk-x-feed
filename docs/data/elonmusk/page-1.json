@@ -1,6 +1,210 @@
 {
   "posts": [
     {
+      "id": "2124295793280450870",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-22T00:15:59.000Z",
+      "created_at_shanghai": "2026-11-22 08:15:59",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "This is so fun that it’s worth just having your car drive you around for the sake of driving around",
+      "quote": {
+        "author": "DirtyTesLa",
+        "name": "Dirty Tesla",
+        "text": "FSD V15.0.1 is downloading now AHHHH",
+        "url": "https://x.com/DirtyTesLa/status/2124271724812279866"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 514,
+        "retweets": 65,
+        "replies": 117,
+        "bookmarks": 19,
+        "quotes": 4,
+        "views": 222072
+      },
+      "url": "https://x.com/elonmusk/status/2124295793280450870",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2124295027988005264",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-22T00:12:56.000Z",
+      "created_at_shanghai": "2026-11-22 08:12:56",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @RafelineK",
+      "quote": {
+        "author": "RafelineK",
+        "name": "Ardullo",
+        "text": "@tobi Crazy work.",
+        "url": "https://x.com/RafelineK/status/2124285994073809252"
+      },
+      "retweet": {
+        "author": "RafelineK",
+        "avatar": "https://pbs.twimg.com/profile_images/2099474867687145473/g_eEAXsJ_200x200.jpg",
+        "created_at_shanghai": "2026-11-22 07:37:02",
+        "created_at_utc": "2026-11-21T23:37:02.000Z",
+        "id": "2124285994073809252",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2124285962721144832/img/oITDF3_VSkNaz-I0.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2124285962721144832/vid/avc1/1080x1080/qeoSJJxctBgHNxWn.mp4?tag=29",
+            "hls_url": "https://video.twimg.com/amplify_video/2124285962721144832/pl/NjHuT9QpCcamDrAL.m3u8?tag=29&v=cfc",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2124285962721144832/img/oITDF3_VSkNaz-I0.jpg",
+            "width": 1080,
+            "height": 1080,
+            "duration": 10.066
+          }
+        ],
+        "name": "Ardullo",
+        "text": "@tobi Crazy work.",
+        "url": "https://x.com/RafelineK/status/2124285994073809252",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "likes": 224,
+        "retweets": 40,
+        "replies": 24,
+        "bookmarks": 6,
+        "quotes": 3,
+        "views": 33034
+      },
+      "url": "https://x.com/elonmusk/status/2124295027988005264",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124285962721144832/img/oITDF3_VSkNaz-I0.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2124285962721144832/vid/avc1/1080x1080/qeoSJJxctBgHNxWn.mp4?tag=29",
+          "hls_url": "https://video.twimg.com/amplify_video/2124285962721144832/pl/NjHuT9QpCcamDrAL.m3u8?tag=29&v=cfc",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2124285962721144832/img/oITDF3_VSkNaz-I0.jpg",
+          "width": 1080,
+          "height": 1080,
+          "duration": 10.066
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2124294755316310346",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-22T00:11:51.000Z",
+      "created_at_shanghai": "2026-11-22 08:11:51",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Tesla FSD V15 is a banger release!\n\nCompletely new architecture that deserves being called “super” intelligence, as it drives better than human intelligence.",
+      "quote": {
+        "author": "TeslaSI",
+        "name": "Tesla Super Intelligence",
+        "text": "Full release notes below\n\n– – –  \n\nv15 upgrades every part of the end-to-end driving network. Includes:\n\nUpgraded vision encoder shared between FSD, Robotaxi, and Optimus, which is trained on millions of internet videos for improved generalization and data efficiency, improving the critical intervention rate by 25x.\n\nIntroduced Tesla Reality View, replacing all of the explicit model signals into a single end-to-end visualization using less total compute.\n\nImproved navigation by using an end-to-end learned model based on route preference data from the fleet.\n\nImproved parking location selection by using personalized parking history, and the map will now display multiple parking options at your destination.\n\nImproved driver monitoring by increasing vision-based attention monitoring availability with hats and sunglasses and decreasing strictness in higher speed driver profiles.\n\nImproved detection of road signs, small animals, road debris, and chains.\n\nImproved detection of potholes, road details, and avoidance of deep standing water.\n\nImproved speed handling for each driver profile, school zones and speed limits, and inclement weather.  \n\nImproved Autoshift functionality by unifying with FSD-based gear predictions.",
+        "url": "https://x.com/TeslaSI/status/2124229673056113100"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 977,
+        "retweets": 141,
+        "replies": 231,
+        "bookmarks": 46,
+        "quotes": 26,
+        "views": 272941
+      },
+      "url": "https://x.com/elonmusk/status/2124294755316310346",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2124293999704015018",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-22T00:08:51.000Z",
+      "created_at_shanghai": "2026-11-22 08:08:51",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @SawyerMerritt",
+      "quote": {
+        "author": "SawyerMerritt",
+        "name": "Sawyer Merritt",
+        "text": "Tesla FSD V15 is officially downloading on my Model Y!",
+        "url": "https://x.com/SawyerMerritt/status/2124271378073530460"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 3136,
+        "retweets": 151,
+        "replies": 283,
+        "bookmarks": 87,
+        "quotes": 43,
+        "views": 145553
+      },
+      "url": "https://x.com/elonmusk/status/2124293999704015018",
+      "images": [
+        "https://pbs.twimg.com/media/HXrtjxCWoAAtnbo.jpg?name=small"
+      ],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2124293755813638376",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-22T00:07:53.000Z",
+      "created_at_shanghai": "2026-11-22 08:07:53",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @elonmusk",
+      "quote": {
+        "author": "elonmusk",
+        "name": "Elon Musk",
+        "text": "@jamesdouma It is mesmerizing to watch. \n\nWhere this is actually useful is when you want to tap the exact drop-off or parking location on the screen that you want your car to target.",
+        "url": "https://x.com/elonmusk/status/2124293720728346919"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 664,
+        "retweets": 62,
+        "replies": 117,
+        "bookmarks": 18,
+        "quotes": 7,
+        "views": 62917
+      },
+      "url": "https://x.com/elonmusk/status/2124293755813638376",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2124293060322599045",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -3732,188 +3936,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2123316265175728588",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-19T07:23:41.000Z",
-      "created_at_shanghai": "2026-11-19 15:23:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "HMD Trucking has taken delivery of its FIRST Tesla Semi from a 50-truck order in Illinois\n\nBefore committing to the order, HMD tested the Semi for 4,000 miles hauling real freight\n\nThe results:\n\n• 1.74 kWh/mile average efficiency\n• Significantly lower estimated energy costs than diesel on regional routes\n• No engine oil, fuel filters, or exhaust aftertreatment\n• Reduced brake wear thanks to regenerative braking\n\nThe first truck arrived on November 2, becoming the first Tesla Semi officially registered in Illinois\n\nAnd the other 49 are on their way\n\nNow comes one of the toughest real-world tests yet\n\nA full Chicago winter\n\nFreezing temperatures, heavy snow, icy roads, and demanding freight operations\n\nHMD is putting Tesla Semi to work in conditions that will truly test its capabilities\n\nFrom summer testing to commercial freight operations in the Midwest, Tesla Semi is entering an entirely new chapter",
-      "quote": {
-        "author": "XFreeze",
-        "name": "X Freeze",
-        "text": "HMD Trucking has taken delivery of its FIRST Tesla Semi from a 50-truck order in Illinois\n\nBefore committing to the order, HMD tested the Semi for 4,000 miles hauling real freight\n\nThe results:\n\n• 1.74 kWh/mile average efficiency\n• Significantly lower estimated energy costs than diesel on regional routes\n• No engine oil, fuel filters, or exhaust aftertreatment\n• Reduced brake wear thanks to regenerative braking\n\nThe first truck arrived on November 2, becoming the first Tesla Semi officially registered in Illinois\n\nAnd the other 49 are on their way\n\nNow comes one of the toughest real-world tests yet\n\nA full Chicago winter\n\nFreezing temperatures, heavy snow, icy roads, and demanding freight operations\n\nHMD is putting Tesla Semi to work in conditions that will truly test its capabilities\n\nFrom summer testing to commercial freight operations in the Midwest, Tesla Semi is entering an entirely new chapter",
-        "url": "https://x.com/XFreeze/status/2123098403882319946"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 23,
-        "likes": 473,
-        "quotes": 4,
-        "replies": 33,
-        "retweets": 78,
-        "views": 27397
-      },
-      "url": "https://x.com/elonmusk/status/2123316265175728588",
-      "images": [
-        "https://pbs.twimg.com/media/HXbCvbAbQAAwDpF.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2123298515573207075",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-19T06:13:09.000Z",
-      "created_at_shanghai": "2026-11-19 14:13:09",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Yes. \n\nOnly questions are how fast the singularity will grow and to what size.",
-      "quote": {
-        "author": "willdepue",
-        "name": "will depue",
-        "text": "guys we're in the fucking singularity. oh my god. i just forget sometimes and then wake up in the middle of the night like oh my god its all happening",
-        "url": "https://x.com/willdepue/status/2123069165334675742"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "likes": 761,
-        "retweets": 108,
-        "replies": 228,
-        "bookmarks": 61,
-        "quotes": 19,
-        "views": 336152
-      },
-      "url": "https://x.com/elonmusk/status/2123298515573207075",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2123297185160933681",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-19T06:07:52.000Z",
-      "created_at_shanghai": "2026-11-19 14:07:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Ford is officially in the battery business.  We’ll be the first to deliver LFP batteries in the U.S. for mainstream consumer automotive use and I couldn’t be prouder of the @Ford team. They've started battery cell production at BlueOval Battery Park Michigan and are shipping our first LFP prismatic cells to Louisville Assembly Plant where they'll power #FordFathom prototypes.\n\nThis is a significant step for us. We’re building capability to deliver batteries for more affordable electric vehicles and applying that same LFP technology and manufacturing expertise to build a new energy storage business with Ford Energy.\n\nCongratulations to our talented team on this milestone!\n\nLearn more from Charles Poon, vice president of Hardware Engineering at Ford: https://www.fromtheroad.ford.com/us/en/articles/2026/ford-fathom-lfp-prismatic-battery-cells-ship",
-      "quote": {
-        "author": "jimfarley98",
-        "name": "Jim Farley",
-        "text": "Ford is officially in the battery business.  We’ll be the first to deliver LFP batteries in the U.S. for mainstream consumer automotive use and I couldn’t be prouder of the @Ford team. They've started battery cell production at BlueOval Battery Park Michigan and are shipping our first LFP prismatic cells to Louisville Assembly Plant where they'll power #FordFathom prototypes.\n\nThis is a significant step for us. We’re building capability to deliver batteries for more affordable electric vehicles and applying that same LFP technology and manufacturing expertise to build a new energy storage business with Ford Energy.\n\nCongratulations to our talented team on this milestone!\n\nLearn more from Charles Poon, vice president of Hardware Engineering at Ford: https://www.fromtheroad.ford.com/us/en/articles/2026/ford-fathom-lfp-prismatic-battery-cells-ship",
-        "url": "https://x.com/jimfarley98/status/2123114023810166928"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 88,
-        "likes": 1929,
-        "quotes": 44,
-        "replies": 177,
-        "retweets": 153,
-        "views": 121295
-      },
-      "url": "https://x.com/elonmusk/status/2123297185160933681",
-      "images": [
-        "https://pbs.twimg.com/media/HXbOoffWEAAaTMo.jpg?name=small",
-        "https://pbs.twimg.com/media/HXbOu-9WQAAlJQ6.jpg?name=small",
-        "https://pbs.twimg.com/media/HXbPOH4XoAAbfz8.jpg?name=small",
-        "https://pbs.twimg.com/media/HXbPPuxWgAAvalI.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2123297089946034502",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-19T06:07:29.000Z",
-      "created_at_shanghai": "2026-11-19 14:07:29",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "$SPCX: Satya Nadella says Microsoft would rent SpaceX compute.\n\nAsked at DealBook whether Musk is right about data centers in space:\n\"If he has SpaceX capacity that I can lease, I would lease it.\"",
-      "quote": {
-        "author": "SpaceInvestor_D",
-        "name": "Space Investor",
-        "text": "$SPCX: Satya Nadella says Microsoft would rent SpaceX compute.\n\nAsked at DealBook whether Musk is right about data centers in space:\n\"If he has SpaceX capacity that I can lease, I would lease it.\"",
-        "url": "https://x.com/SpaceInvestor_D/status/2123211962289176891"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 20,
-        "likes": 432,
-        "quotes": 3,
-        "replies": 17,
-        "retweets": 42,
-        "views": 29291
-      },
-      "url": "https://x.com/elonmusk/status/2123297089946034502",
-      "images": [
-        "https://pbs.twimg.com/media/HXcqBvRWkAAWwa-.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2123295424056598774",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-19T06:00:52.000Z",
-      "created_at_shanghai": "2026-11-19 14:00:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon gave two talks today at DealBook and TomorrowX Summit, revealing more about SpaceX's plans than most earnings calls. Here are the 11 key takeaways:\n\n1. SpaceX is scaling AI compute at an extraordinary pace:\n\nSpaceX is adding roughly 500 MW monthly, equivalent to 220,000 GB300s. Elon expects over 1 GW monthly by end-2027: a 6 GW annualized pace today, doubling to 12 GW. \n\n2. Its build costs are far below industry estimates:\n\nElon says outside estimates are off by up to 2x, with SpaceX building at roughly 60% of industry costs. Its in-house \"Army X\" builds the data centers, while Tesla Megapacks smooth training power. I'd already been modeling a 25–30% SpaceX cost advantage. \n\n3. Anthropic could become a 10 GW customer:\n\nAnthropic told Elon its most likely outcome is renting another 10 GW from SpaceX, on top of existing capacity. Contracts allow termination with 3–6 months' notice, but Anthropic says staying is \"extremely likely.\" This reinforces my model that Anthropic will take most upcoming capacity.\n\n4. SpaceX is targeting a vastly larger telecom market:\n\nElon argues AT&T and Verizon won't disappear as bandwidth demand explodes. Humans communicate at roughly 100 bits per second, while superintelligence and robots could require a trillion. SpaceX is targeting a market orders of magnitude larger than existing telecom revenue, as I'd modeled. Even more interestingly, this creates an opportunity to push its AI business further.\n\n5. Its next-generation satellite network arrives next year:\n\nDirect to Cell V2 launches with 40x V1's bandwidth. Micro cell towers using 800 MHz and rooftop units resembling Starlink dishes will extend indoor coverage, with rooftop hardware entering production next year. Starlink is becoming a full scale carrier. \n\n6. SpaceXSI has rebuilt its entire AI software stack:\n\nOver six to eight months, it rewrote training, reinforcement learning, and inference from scratch, close to the metal in C and C++. Elon thinks it \"might have the best training stack software in the world.\" Grok 4.8 is also being built for practical usefulness rather than benchmark leadership, which is great for Grokbot.\n\n7. Terafab could become the largest project on Earth:\n\nThe facility is planned to reach 100 million square feet, with phase-one volume production targeted for late 2028. Elon says established chipmakers are risk-averse because of massive capex, while SpaceX will take risks and iterate rapidly toward a better chip process by 2028.\n\n8. Optimus is moving toward industrial work:\n\nElon expects an unstaged demonstration in a month or two and says Optimus could do dishes within 12–18 months. Its first major industrial role will be mining and refining ore for national security.\n\n9. A Tesla–SpaceX merger is becoming increasingly logical:\n\nElon says the companies are \"probably\" better together as AI and robotics bring them closer. Both have AI software teams and advanced chip-design capabilities, while superintelligence compute could eventually move into orbit. Shareholders will decide; Elon says he shouldn't receive an award simply for merging them.\n\n10. Ship 42 could accelerate the entire Starship reuse program:\n\nShip 42 needed only minor repairs before flying again, but SpaceX is retiring it for public display. This brings rapid reuse much closer.\n\n11. SpaceX is targeting 200 GW of annual solar manufacturing for space:\n\nThat's roughly 40% of average US electricity consumption. Its Starmind compute unit delivers the same capability at roughly a quarter the size of a Vera Rubin NVL72 rack, which is a win in space. Elon says it's also simpler than Starlink V3, which is already in production.\n\nSimply put, SpaceX is building toward a trillion-dollar annual revenue business within just a few years, at scale never seen before.\n\nMany of these numbers I've already modeled and shared over the past few months. Yesterday's announcements bring those projections closer to reality.\n\nThe scale of what's coming is extraordinary!",
-      "quote": {
-        "author": "marsrepublica",
-        "name": "samuel",
-        "text": "Elon gave two talks today at DealBook and TomorrowX Summit, revealing more about SpaceX's plans than most earnings calls. Here are the 11 key takeaways:\n\n1. SpaceX is scaling AI compute at an extraordinary pace:\n\nSpaceX is adding roughly 500 MW monthly, equivalent to 220,000 GB300s. Elon expects over 1 GW monthly by end-2027: a 6 GW annualized pace today, doubling to 12 GW. \n\n2. Its build costs are far below industry estimates:\n\nElon says outside estimates are off by up to 2x, with SpaceX building at roughly 60% of industry costs. Its in-house \"Army X\" builds the data centers, while Tesla Megapacks smooth training power. I'd already been modeling a 25–30% SpaceX cost advantage. \n\n3. Anthropic could become a 10 GW customer:\n\nAnthropic told Elon its most likely outcome is renting another 10 GW from SpaceX, on top of existing capacity. Contracts allow termination with 3–6 months' notice, but Anthropic says staying is \"extremely likely.\" This reinforces my model that Anthropic will take most upcoming capacity.\n\n4. SpaceX is targeting a vastly larger telecom market:\n\nElon argues AT&T and Verizon won't disappear as bandwidth demand explodes. Humans communicate at roughly 100 bits per second, while superintelligence and robots could require a trillion. SpaceX is targeting a market orders of magnitude larger than existing telecom revenue, as I'd modeled. Even more interestingly, this creates an opportunity to push its AI business further.\n\n5. Its next-generation satellite network arrives next year:\n\nDirect to Cell V2 launches with 40x V1's bandwidth. Micro cell towers using 800 MHz and rooftop units resembling Starlink dishes will extend indoor coverage, with rooftop hardware entering production next year. Starlink is becoming a full scale carrier. \n\n6. SpaceXSI has rebuilt its entire AI software stack:\n\nOver six to eight months, it rewrote training, reinforcement learning, and inference from scratch, close to the metal in C and C++. Elon thinks it \"might have the best training stack software in the world.\" Grok 4.8 is also being built for practical usefulness rather than benchmark leadership, which is great for Grokbot.\n\n7. Terafab could become the largest project on Earth:\n\nThe facility is planned to reach 100 million square feet, with phase-one volume production targeted for late 2028. Elon says established chipmakers are risk-averse because of massive capex, while SpaceX will take risks and iterate rapidly toward a better chip process by 2028.\n\n8. Optimus is moving toward industrial work:\n\nElon expects an unstaged demonstration in a month or two and says Optimus could do dishes within 12–18 months. Its first major industrial role will be mining and refining ore for national security.\n\n9. A Tesla–SpaceX merger is becoming increasingly logical:\n\nElon says the companies are \"probably\" better together as AI and robotics bring them closer. Both have AI software teams and advanced chip-design capabilities, while superintelligence compute could eventually move into orbit. Shareholders will decide; Elon says he shouldn't receive an award simply for merging them.\n\n10. Ship 42 could accelerate the entire Starship reuse program:\n\nShip 42 needed only minor repairs before flying again, but SpaceX is retiring it for public display. This brings rapid reuse much closer.\n\n11. SpaceX is targeting 200 GW of annual solar manufacturing for space:\n\nThat's roughly 40% of average US electricity consumption. Its Starmind compute unit delivers the same capability at roughly a quarter the size of a Vera Rubin NVL72 rack, which is a win in space. Elon says it's also simpler than Starlink V3, which is already in production.\n\nSimply put, SpaceX is building toward a trillion-dollar annual revenue business within just a few years, at scale never seen before.\n\nMany of these numbers I've already modeled and shared over the past few months. Yesterday's announcements bring those projections closer to reality.\n\nThe scale of what's coming is extraordinary!",
-        "url": "https://x.com/marsrepublica/status/2123274994952065291"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 36,
-        "likes": 174,
-        "quotes": 0,
-        "replies": 13,
-        "retweets": 42,
-        "views": 16765
-      },
-      "url": "https://x.com/elonmusk/status/2123295424056598774",
-      "images": [
-        "https://pbs.twimg.com/media/HXdjWT8WIAAWttm.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2695,
+  "total": 2700,
   "total_pages": 27,
-  "updated_at_shanghai": "2026-11-22 08:10:06",
+  "updated_at_shanghai": "2026-11-22 08:18:08",
   "account": "elonmusk"
 }
