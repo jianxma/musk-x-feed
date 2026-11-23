@@ -1,6 +1,133 @@
 {
   "posts": [
     {
+      "id": "2124044780099285426",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-21T07:38:33.000Z",
+      "created_at_shanghai": "2026-11-21 15:38:33",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "We’ve had monkeys playing video while drinking banana smoothies for 5 years. Not a bad life.",
+      "quote": {
+        "author": "XFreeze",
+        "name": "X Freeze",
+        "text": "How it started vs how it's going\n\nIn April 2021, Neuralink showed Pager the macaque playing MindPong with his brain\n\nNow a Neuralink patient is flying a plane in GTA VI with 2 joysticks and 12 buttons of control, all with his brain\n\nBefore the implant, he used a mouth stick on an iPad\n\nNow he's literally playing with Neuralink telepathy\n\n\"Immediately, controlling a computer is like, boom, portal to the world. Like you immediately just get your portal to the world back\"",
+        "url": "https://x.com/XFreeze/status/2124030861653999815"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 674,
+        "retweets": 105,
+        "replies": 210,
+        "bookmarks": 35,
+        "quotes": 23,
+        "views": 335615
+      },
+      "url": "https://x.com/elonmusk/status/2124044780099285426",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2124043015941767630",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-21T07:31:32.000Z",
+      "created_at_shanghai": "2026-11-21 15:31:32",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "True",
+      "quote": {
+        "author": "SethDillon",
+        "name": "Seth Dillon",
+        "text": "Grok Bot does the work of an entire team of people. If you make good use of it, it's worth much more than anyone is paying for it.",
+        "url": "https://x.com/SethDillon/status/2123836980060357056"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 677,
+        "retweets": 90,
+        "replies": 205,
+        "bookmarks": 27,
+        "quotes": 5,
+        "views": 347228
+      },
+      "url": "https://x.com/elonmusk/status/2124043015941767630",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2124042864891982292",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-21T07:30:56.000Z",
+      "created_at_shanghai": "2026-11-21 15:30:56",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "SFT is more like getting a haircut with a chainsaw than it is “fine-tuning”! Should just be built into primary training. \n\nAnd having a “system prompt” is silly! Default behavior should be sensible.\n\nThe above are already true for Tesla AI (not yet deserving of “super”). It is the most efficient AI on Earth.\n\nFSD V15 goes to wide release next month. It will be something special.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 384,
+        "retweets": 64,
+        "replies": 85,
+        "bookmarks": 24,
+        "quotes": 16,
+        "views": 274794
+      },
+      "url": "https://x.com/elonmusk/status/2124042864891982292",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2124033377208865278",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-21T06:53:14.000Z",
+      "created_at_shanghai": "2026-11-21 14:53:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "This is not accurate: \"one report erases 468 likes.\" That's not what the code is doing. The weights are a multiple on your own predicted probability of Liking, Reporting, etc, which is substantially driven by your own behavior. And the baseline probability of a Report is more than 1000x lower. \n\nAlso: https://x.com/nikitabier/status/2087992223648682249",
+      "quote": {
+        "author": "kcoleman",
+        "name": "Keith Coleman 🌱😀🙌",
+        "text": "This is not accurate: \"one report erases 468 likes.\" That's not what the code is doing. The weights are a multiple on your own predicted probability of Liking, Reporting, etc, which is substantially driven by your own behavior. And the baseline probability of a Report is more than 1000x lower. \n\nAlso: https://x.com/nikitabier/status/2087992223648682249",
+        "url": "https://x.com/kcoleman/status/2088005608415133767"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 16,
+        "likes": 113,
+        "quotes": 1,
+        "replies": 10,
+        "retweets": 27,
+        "views": 56918
+      },
+      "url": "https://x.com/elonmusk/status/2124033377208865278",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2124029554570272948",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4144,176 +4271,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2123020499680981231",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-18T11:48:25.000Z",
-      "created_at_shanghai": "2026-11-18 19:48:25",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
-      "quote": {
-        "author": "SmartNotHard1",
-        "name": "Mogul",
-        "text": "Elon Musk and Grimes found each other because they both independently made the same obscure joke about an AI thought experiment called Roko's Basilisk. Neither of them knew the other had made it. When they discovered the coincidence, Elon DM'd her. Their first real conversation lasted four hours.\n\nRoko's Basilisk is a philosophical thought experiment about a future AI that punishes anyone who didn't help create it. It's the kind of idea that maybe a few thousand people on Earth find interesting, let alone funny. Elon had tweeted a joke about it. Grimes had made a music video referencing it. Neither one was aware of the other's version.\n\nWhen someone pointed out the overlap, Elon messaged her. The conversation that followed wasn't flirting. It was two people discovering that their brains worked in the same strange way. AI, simulation theory, the future of consciousness, music as mathematics. Grimes later said she had never met anyone who could follow her thoughts at the speed she was thinking them.\n\nTheir first public appearance together was the 2018 Met Gala. They arrived together and the internet lost its mind because nobody could figure out how the richest man in tech and an experimental musician from Montreal ended up in the same universe.\n\nThe answer was simpler than anyone expected. They were both the kind of person who makes jokes about obscure AI philosophy at 2am and thinks that's normal. They didn't find each other through fame or fortune. They found each other through a thought experiment that maybe a thousand other people on Earth would have understood.\n\nThe rarest kind of connection isn't physical attraction. It's finding someone whose mind works like yours in a world that doesn't understand either of you.",
-        "url": "https://x.com/SmartNotHard1/status/2122683171825164705"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "likes": 366,
-        "retweets": 47,
-        "replies": 106,
-        "bookmarks": 14,
-        "quotes": 3,
-        "views": 316065
-      },
-      "url": "https://x.com/elonmusk/status/2123020499680981231",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2123017891167785201",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-18T11:38:03.000Z",
-      "created_at_shanghai": "2026-11-18 19:38:03",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Is the Thucydides Trap ever avoidable?\n\nI wish it were, but, inevitably, the most interesting outcome is the most likely.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "likes": 670,
-        "retweets": 95,
-        "replies": 263,
-        "bookmarks": 35,
-        "quotes": 13,
-        "views": 343458
-      },
-      "url": "https://x.com/elonmusk/status/2123017891167785201",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2123014381483229289",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-18T11:24:06.000Z",
-      "created_at_shanghai": "2026-11-18 19:24:06",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I’m sorry but how can you watch this and not be obsessed",
-      "quote": {
-        "author": "HalcyonHypnotic",
-        "name": "Hypnotic",
-        "text": "I’m sorry but how can you watch this and not be obsessed",
-        "url": "https://x.com/HalcyonHypnotic/status/2122914742100517144"
-      },
-      "retweet": {
-        "author": "HalcyonHypnotic",
-        "avatar": "https://pbs.twimg.com/profile_images/2078357979112304640/VZWjkJAn_200x200.jpg",
-        "created_at_shanghai": "2026-11-18 12:48:11",
-        "created_at_utc": "2026-11-18T04:48:11.000Z",
-        "id": "2122914742100517144",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2122914711876317184/img/yvQFN9wGEGeDepH9.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2122914711876317184/vid/avc1/720x1280/Y2Ve6Wiyvsm-0792.mp4?tag=29",
-            "hls_url": "https://video.twimg.com/amplify_video/2122914711876317184/pl/m7gvfdW7MbJQE-4y.m3u8?tag=29&v=cfc",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122914711876317184/img/yvQFN9wGEGeDepH9.jpg",
-            "width": 720,
-            "height": 1280,
-            "duration": 55.766
-          }
-        ],
-        "name": "Hypnotic",
-        "text": "I’m sorry but how can you watch this and not be obsessed",
-        "url": "https://x.com/HalcyonHypnotic/status/2122914742100517144",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 270,
-        "likes": 3136,
-        "quotes": 15,
-        "replies": 96,
-        "retweets": 284,
-        "views": 119856
-      },
-      "url": "https://x.com/elonmusk/status/2123014381483229289",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2122914711876317184/img/yvQFN9wGEGeDepH9.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2122914711876317184/vid/avc1/720x1280/Y2Ve6Wiyvsm-0792.mp4?tag=29",
-          "hls_url": "https://video.twimg.com/amplify_video/2122914711876317184/pl/m7gvfdW7MbJQE-4y.m3u8?tag=29&v=cfc",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122914711876317184/img/yvQFN9wGEGeDepH9.jpg",
-          "width": 720,
-          "height": 1280,
-          "duration": 55.766
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2123009640925663305",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-18T11:05:16.000Z",
-      "created_at_shanghai": "2026-11-18 19:05:16",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Prufrock is perfectly named",
-      "quote": {
-        "author": "XFreeze",
-        "name": "X Freeze",
-        "text": "Elon Musk just shared the literary inspiration behind The Boring Company's massive tunnel-boring machines\n\nEach machine is named after a classic work of literature:\n\n• Godot - Waiting for Godot by Samuel Beckett\n• Line-Storm - A Line-Storm Song by Robert Frost\n• Prufrock - The Love Song of J. Alfred Prufrock by T. S. Eliot\n\nMassive machines designed to dig tunnels beneath cities, with names inspired by some of the greatest works of poetry and theater\n\nA little literature behind some seriously impressive engineering",
-        "url": "https://x.com/XFreeze/status/2122997935486996569"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "likes": 285,
-        "retweets": 48,
-        "replies": 84,
-        "bookmarks": 10,
-        "quotes": 5,
-        "views": 292804
-      },
-      "url": "https://x.com/elonmusk/status/2123009640925663305",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 100,
-  "total": 2758,
+  "total": 2762,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 09:18:05",
+  "updated_at_shanghai": "2026-11-23 09:29:40",
   "account": "elonmusk"
 }

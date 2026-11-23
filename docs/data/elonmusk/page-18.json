@@ -1,6 +1,298 @@
 {
   "posts": [
     {
+      "id": "2111131160348688395",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T16:24:26.000Z",
+      "created_at_shanghai": "2026-10-17 00:24:26",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Going forward, all advertising on 𝕏 will be subject to a reasonable esthetic standard. \n\nAdvertisers who post ads that are ugly, shrill, strident or overstate claims about their product will be barred from advertising.",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1546,
+        "likes": 68714,
+        "quotes": 821,
+        "replies": 3747,
+        "retweets": 4182,
+        "views": 1753514
+      },
+      "url": "https://x.com/elonmusk/status/2111131160348688395",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2111110917177954747",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T15:03:59.000Z",
+      "created_at_shanghai": "2026-10-16 23:03:59",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceXAI's Grok Bot team put their own bot templates in the marketplace, and this is a f*c*ing goldmine\n\nyou can import a setup built for a specific job, connect your tools and adapt it to your own work\n\nhere are 10 worth looking at:\n\nbot 1 → dr eggbot designs and creates other Grok Bots. describe the job you need covered and it helps build a specialist for it.\n\nbot 2 → Lingxi's Engineer Bot supervises cloud coding agents and watches their PRs. you handle the merge.\n\nbot 3 → Stalk Bot watches competitors and reports changes to their products, pricing and positioning, with sources attached.\n\nbot 4 → Haggle Bot finds wasted SaaS spend and drafts vendor negotiations for your review.\n\nbot 5 → Proto Bot turns feature ideas into prototypes inside your actual app, delivered as draft PRs.\n\nbot 6 → Video Editor picks takes from raw footage and builds captioned vertical videos, with an edit plan you approve first.\n\nbot 7 → figma bro turns Figma frames into build specs and checks your components and design tokens.\n\nbot 8 → Distro Bot works on your marketing campaigns and creative, with approval before spending, posting or sending.\n\nbot 9 → Startup QA Bot walks through your product in a test account and reports bugs with screenshots and steps to reproduce them.\n\nbot 10 → Signal Prospector finds buying signals in your CRM and product data, then drafts outreach around the evidence.\n\nworth looking through before spending another evening writing a giant system prompt from scratch",
+      "quote": {
+        "author": "gippp69",
+        "avatar": "https://pbs.twimg.com/profile_images/2086516032408104960/2Io2TYZc_200x200.jpg",
+        "created_at_shanghai": "2026-10-11 18:51:35",
+        "created_at_utc": "2026-10-11T10:51:35.000Z",
+        "id": "2109235458383216811",
+        "images": [],
+        "media": [],
+        "name": "Gipp 🦅",
+        "text": "https://x.com/i/article/2108906694768017408",
+        "url": "https://x.com/gippp69/status/2109235458383216811",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "monokern",
+        "avatar": "https://pbs.twimg.com/profile_images/2097691987491397632/Spfiovyf_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 20:37:34",
+        "created_at_utc": "2026-10-16T12:37:34.000Z",
+        "id": "2111074067461611540",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2111073917674676225/img/U_MOgMPXXDJL3YcR.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2111073917674676225/vid/avc1/1080x1350/nMWuRKudbCwhMW6K.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111073917674676225/img/U_MOgMPXXDJL3YcR.jpg",
+            "width": 1080,
+            "height": 1350,
+            "duration": 32
+          }
+        ],
+        "name": "monokern",
+        "text": "SpaceXAI's Grok Bot team put their own bot templates in the marketplace, and this is a f*c*ing goldmine\n\nyou can import a setup built for a specific job, connect your tools and adapt it to your own work\n\nhere are 10 worth looking at:\n\nbot 1 → dr eggbot designs and creates other Grok Bots. describe the job you need covered and it helps build a specialist for it.\n\nbot 2 → Lingxi's Engineer Bot supervises cloud coding agents and watches their PRs. you handle the merge.\n\nbot 3 → Stalk Bot watches competitors and reports changes to their products, pricing and positioning, with sources attached.\n\nbot 4 → Haggle Bot finds wasted SaaS spend and drafts vendor negotiations for your review.\n\nbot 5 → Proto Bot turns feature ideas into prototypes inside your actual app, delivered as draft PRs.\n\nbot 6 → Video Editor picks takes from raw footage and builds captioned vertical videos, with an edit plan you approve first.\n\nbot 7 → figma bro turns Figma frames into build specs and checks your components and design tokens.\n\nbot 8 → Distro Bot works on your marketing campaigns and creative, with approval before spending, posting or sending.\n\nbot 9 → Startup QA Bot walks through your product in a test account and reports bugs with screenshots and steps to reproduce them.\n\nbot 10 → Signal Prospector finds buying signals in your CRM and product data, then drafts outreach around the evidence.\n\nworth looking through before spending another evening writing a giant system prompt from scratch",
+        "url": "https://x.com/monokern/status/2111074067461611540",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2111,
+        "likes": 1636,
+        "quotes": 22,
+        "replies": 129,
+        "retweets": 214,
+        "views": 314638
+      },
+      "url": "https://x.com/elonmusk/status/2111110917177954747",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2111073917674676225/img/U_MOgMPXXDJL3YcR.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2111073917674676225/vid/avc1/1080x1350/nMWuRKudbCwhMW6K.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111073917674676225/img/U_MOgMPXXDJL3YcR.jpg",
+          "width": 1080,
+          "height": 1350,
+          "duration": 32
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110990708664410539",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T07:06:19.000Z",
+      "created_at_shanghai": "2026-10-16 15:06:19",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Falcon 9 launches USSF-481 to orbit from pad 4E in California",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 13:08:15",
+        "created_at_utc": "2026-10-16T05:08:15.000Z",
+        "id": "2110960995703341477",
+        "images": [
+          "https://pbs.twimg.com/media/HUujI7-WgAAr2Xc.jpg?name=small",
+          "https://pbs.twimg.com/media/HUujJamXcAAb5xP.jpg?name=small",
+          "https://pbs.twimg.com/media/HUujJ11WYAAgbR1.jpg?name=small",
+          "https://pbs.twimg.com/media/HUujKPXWkAAnfzN.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUujI7-WgAAr2Xc.jpg?name=small",
+            "width": 3901,
+            "height": 2602
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUujJamXcAAb5xP.jpg?name=small",
+            "width": 3500,
+            "height": 2628
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUujJ11WYAAgbR1.jpg?name=small",
+            "width": 3600,
+            "height": 2400
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUujKPXWkAAnfzN.jpg?name=small",
+            "width": 1400,
+            "height": 2100
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Falcon 9 launches USSF-481 to orbit from pad 4E in California",
+        "url": "https://x.com/SpaceX/status/2110960995703341477",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 78,
+        "likes": 3289,
+        "quotes": 31,
+        "replies": 201,
+        "retweets": 376,
+        "views": 351455
+      },
+      "url": "https://x.com/elonmusk/status/2110990708664410539",
+      "images": [
+        "https://pbs.twimg.com/media/HUujI7-WgAAr2Xc.jpg?name=small",
+        "https://pbs.twimg.com/media/HUujJamXcAAb5xP.jpg?name=small",
+        "https://pbs.twimg.com/media/HUujJ11WYAAgbR1.jpg?name=small",
+        "https://pbs.twimg.com/media/HUujKPXWkAAnfzN.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUujI7-WgAAr2Xc.jpg?name=small",
+          "width": 3901,
+          "height": 2602
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUujJamXcAAb5xP.jpg?name=small",
+          "width": 3500,
+          "height": 2628
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUujJ11WYAAgbR1.jpg?name=small",
+          "width": 3600,
+          "height": 2400
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUujKPXWkAAnfzN.jpg?name=small",
+          "width": 1400,
+          "height": 2100
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2110988635264950570",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T06:58:05.000Z",
+      "created_at_shanghai": "2026-10-16 14:58:05",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Holy smokes",
+      "quote": null,
+      "retweet": {
+        "author": "Tesla",
+        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
+        "created_at_shanghai": "2026-10-16 14:08:45",
+        "created_at_utc": "2026-10-16T06:08:45.000Z",
+        "id": "2110976221362430186",
+        "images": [
+          "https://pbs.twimg.com/media/HUuw-rwXoAAQf9r.jpg?name=small",
+          "https://pbs.twimg.com/media/HUuxFBiWUAItIYj.jpg?name=small",
+          "https://pbs.twimg.com/media/HUuxI9gXoAAtrZC.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUuw-rwXoAAQf9r.jpg?name=small",
+            "width": 3840,
+            "height": 2560
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUuxFBiWUAItIYj.jpg?name=small",
+            "width": 3840,
+            "height": 2560
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUuxI9gXoAAtrZC.jpg?name=small",
+            "width": 3840,
+            "height": 2560
+          }
+        ],
+        "name": "Tesla",
+        "text": "Holy smokes",
+        "url": "https://x.com/Tesla/status/2110976221362430186",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 735,
+        "likes": 15929,
+        "quotes": 520,
+        "replies": 606,
+        "retweets": 1694,
+        "views": 639124
+      },
+      "url": "https://x.com/elonmusk/status/2110988635264950570",
+      "images": [
+        "https://pbs.twimg.com/media/HUuw-rwXoAAQf9r.jpg?name=small",
+        "https://pbs.twimg.com/media/HUuxFBiWUAItIYj.jpg?name=small",
+        "https://pbs.twimg.com/media/HUuxI9gXoAAtrZC.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUuw-rwXoAAQf9r.jpg?name=small",
+          "width": 3840,
+          "height": 2560
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUuxFBiWUAItIYj.jpg?name=small",
+          "width": 3840,
+          "height": 2560
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUuxI9gXoAAtrZC.jpg?name=small",
+          "width": 3840,
+          "height": 2560
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110971772975894862",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5431,248 +5723,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110568956100841655",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T03:10:26.000Z",
-      "created_at_shanghai": "2026-10-15 11:10:26",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Exactly what I predicted has happened",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 10:43:42",
-        "created_at_utc": "2026-10-15T02:43:42.000Z",
-        "id": "2110562231289315386",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2047274819872309248/img/memc_-thHFleJTmS.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2047274819872309248/vid/avc1/1080x1080/jvrWZCSUoshpY1V9.mp4?tag=21",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2047274819872309248/img/memc_-thHFleJTmS.jpg",
-            "width": 1080,
-            "height": 1080,
-            "duration": 101.933
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Elon laid out a path to peace between Ukraine and Russia back in October 2022, and he was attacked for it by almost everyone\n\nIn November 2023, he explained to Lex Fridman why he had proposed peace: “a lot of people dying for basically almost no changes in land,” with an entire generation of young Ukrainians and Russians paying the price\n\nTwo and a half years after his original proposal, he warned that Ukraine should seek peace or suffer severe loss of life for no gains, and called continuing the war cruel and inhumane\n\nToday the world is talking about the same kind of deal he proposed, only after hundreds of thousands more lives were thrown into a meat grinder for almost nothing\n\nHe was right then, and he is right now\n https://x.com/XFreeze/status/2047275614969692537/video/1",
-        "url": "https://x.com/XFreeze/status/2110562231289315386",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 862,
-        "likes": 12425,
-        "quotes": 136,
-        "replies": 1673,
-        "retweets": 1601,
-        "views": 1189194
-      },
-      "url": "https://x.com/elonmusk/status/2110568956100841655",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110567895709155334",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T03:06:13.000Z",
-      "created_at_shanghai": "2026-10-15 11:06:13",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "JUST IN: Tesla Model Y ranks as Japan's #1 imported car model for September 2026.",
-      "quote": null,
-      "retweet": {
-        "author": "Polymarket",
-        "avatar": "https://pbs.twimg.com/profile_images/2005664281002491904/bz2ZO_nU_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 01:56:37",
-        "created_at_utc": "2026-10-14T17:56:37.000Z",
-        "id": "2110429583539380297",
-        "images": [],
-        "media": [],
-        "name": "Polymarket",
-        "text": "JUST IN: Tesla Model Y ranks as Japan's #1 imported car model for September 2026.",
-        "url": "https://x.com/Polymarket/status/2110429583539380297",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 34,
-        "likes": 2218,
-        "quotes": 16,
-        "replies": 76,
-        "retweets": 158,
-        "views": 227305
-      },
-      "url": "https://x.com/elonmusk/status/2110567895709155334",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110567340069003542",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T03:04:00.000Z",
-      "created_at_shanghai": "2026-10-15 11:04:00",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Recursive Self-Improvement",
-      "quote": {
-        "author": "multiplanet1",
-        "avatar": "https://pbs.twimg.com/profile_images/2022016188021452802/mq6AXfN5_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 01:28:00",
-        "created_at_utc": "2026-10-11T17:28:00.000Z",
-        "id": "2109335218478108770",
-        "images": [],
-        "media": [],
-        "name": "Race 🕊️",
-        "text": "A retired NASA engineer who had worked on the Space Shuttle program for 25 years was hired by SpaceX at age 62. He described the first week as the most disorienting experience of his professional life.\n\nAt NASA, a design change required 3 meetings, 2 committees, a review board, and 6 to 18 months of documentation. At SpaceX, his new supervisor said \"if it works, build it. If it doesn't, change it by Friday.\"\n\nHe sat at his desk after the first day and called his wife. He told her he felt like a man who had been swimming with ankle weights for 25 years and someone just cut them off. He could move. He could decide. He could build something in the morning and test it in the afternoon. The constraint that he had accepted as the nature of aerospace engineering turned out to be the nature of bureaucracy.\n\nWithin 6 months he had contributed to more design iterations than he had completed in his last 5 years at NASA. Not because he was working harder. Because the time between having an idea and testing the idea collapsed from months to hours. The same brain. The same knowledge. A different operating system.\n\nHe described a specific moment where he proposed a modification to a Raptor engine component. At NASA, the proposal would have entered a queue. At SpaceX, the modification was machined by the end of the day and tested by the following morning. He watched his idea become a physical object in 18 hours. At NASA, 18 hours would not have been enough to schedule the first meeting to discuss whether to schedule a meeting.\n\nHe told an interviewer: \"I didn't get smarter when I went to SpaceX. I got faster. The intelligence was always there. The system was in the way.\"\n\nThe difference between SpaceX and NASA is not talent. NASA has extraordinary talent. The difference is the time between a thought and a test. SpaceX compresses it. NASA elongates it. The same engineer produces 10x more at SpaceX than at NASA because the bottleneck was never the engineer. It was the meetings about the meetings about the work.",
-        "url": "https://x.com/multiplanet1/status/2109335218478108770",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2022,
-        "likes": 21289,
-        "quotes": 94,
-        "replies": 639,
-        "retweets": 1439,
-        "views": 2247966
-      },
-      "url": "https://x.com/elonmusk/status/2110567340069003542",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110566590748258731",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T03:01:02.000Z",
-      "created_at_shanghai": "2026-10-15 11:01:02",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Raymond James reiterates Strong Buy on $SPCX with a Street-high $800 price target!\n\nThe reason is SpaceX's FAA filing for up to 456 Starship launches and 912 landings a year at Boca Chica\n\nAt 60 V3 Starlink satellites per Starship, phase one's 100 flights a year means about 6,000 satellites. The full 456 flights means about 27,400\n\nAt 100 tons of payload and 100 kW per ton, Raymond James says 100 flights could deploy about 1 GW of orbital AI compute every year\n\nThat's before counting the Florida pads (44 a year at LC-39A, 76 at SLC-37) and Louisiana's planned $100 billion 10-pad spaceport\n\nAnd Elon confirmed the upper stage catch is coming on the next flight, about 4-6 weeks out\n\nStarlink and Orbital Compute are the future products of SpaceX and the competition is many years behind these products (and the ability to deploy them)\n\nSpaceX is building the strongest moats in the world and that's why the stock deserves to be much higher than it is today",
-      "quote": {
-        "author": "KyleReidhead",
-        "avatar": "https://pbs.twimg.com/profile_images/2084682301842067456/aAj4ZDbR_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 00:30:05",
-        "created_at_utc": "2026-10-13T16:30:05.000Z",
-        "id": "2110045421020323959",
-        "images": [
-          "https://pbs.twimg.com/media/HUhjICQaMAA6yK5.png?name=small",
-          "https://pbs.twimg.com/media/HUhjINOaAAA-cS8.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUhjICQaMAA6yK5.png?name=small",
-            "width": 1200,
-            "height": 1200
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUhjINOaAAA-cS8.jpg?name=small",
-            "width": 1745,
-            "height": 2000
-          }
-        ],
-        "name": "Kyle Reidhead | Milk Road",
-        "text": "SpaceX is asking the FAA to approve up to 456 Starship launches and 912 landings a year at Starbase\n\nThe current approval is just 25 launches and 50 landings, so that's roughly 18x more\n\nThe FAA is reviewing it now, and the first phase would allow 100 launches and 200 landings a year\n\nElon previously said he expects Starship to begin daily launches by the 2nd half of next year\n\nWhich is wild when you account for the fact that starship launches carrying Starlink satellites could yield approx $1B in ARR\n\nSpaceX is building one of the most robust business with so much optionality baked into its core services, from rocket launches to compute\n\nWe are going MUCH HIGHER imo",
-        "url": "https://x.com/KyleReidhead/status/2110045421020323959",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "KyleReidhead",
-        "avatar": "https://pbs.twimg.com/profile_images/2084682301842067456/aAj4ZDbR_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 02:43:33",
-        "created_at_utc": "2026-10-14T18:43:33.000Z",
-        "id": "2110441395869945979",
-        "images": [
-          "https://pbs.twimg.com/media/HUnLQ2va4AAxn1V.jpg?name=small",
-          "https://pbs.twimg.com/media/HUnLRAVaYAEmdI6.png?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUnLQ2va4AAxn1V.jpg?name=small",
-            "width": 1080,
-            "height": 1440
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUnLRAVaYAEmdI6.png?name=small",
-            "width": 1200,
-            "height": 1200
-          }
-        ],
-        "name": "Kyle Reidhead | Milk Road",
-        "text": "Raymond James reiterates Strong Buy on $SPCX with a Street-high $800 price target!\n\nThe reason is SpaceX's FAA filing for up to 456 Starship launches and 912 landings a year at Boca Chica\n\nAt 60 V3 Starlink satellites per Starship, phase one's 100 flights a year means about 6,000 satellites. The full 456 flights means about 27,400\n\nAt 100 tons of payload and 100 kW per ton, Raymond James says 100 flights could deploy about 1 GW of orbital AI compute every year\n\nThat's before counting the Florida pads (44 a year at LC-39A, 76 at SLC-37) and Louisiana's planned $100 billion 10-pad spaceport\n\nAnd Elon confirmed the upper stage catch is coming on the next flight, about 4-6 weeks out\n\nStarlink and Orbital Compute are the future products of SpaceX and the competition is many years behind these products (and the ability to deploy them)\n\nSpaceX is building the strongest moats in the world and that's why the stock deserves to be much higher than it is today",
-        "url": "https://x.com/KyleReidhead/status/2110441395869945979",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 143,
-        "likes": 1187,
-        "quotes": 9,
-        "replies": 38,
-        "retweets": 161,
-        "views": 275084
-      },
-      "url": "https://x.com/elonmusk/status/2110566590748258731",
-      "images": [
-        "https://pbs.twimg.com/media/HUnLQ2va4AAxn1V.jpg?name=small",
-        "https://pbs.twimg.com/media/HUnLRAVaYAEmdI6.png?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUnLQ2va4AAxn1V.jpg?name=small",
-          "width": 1080,
-          "height": 1440
-        },
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUnLRAVaYAEmdI6.png?name=small",
-          "width": 1200,
-          "height": 1200
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 100,
-  "total": 2758,
+  "total": 2762,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 09:18:05",
+  "updated_at_shanghai": "2026-11-23 09:29:40",
   "account": "elonmusk"
 }
