@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2112080069732479400",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-19T07:15:03.000Z",
+      "created_at_shanghai": "2026-10-19 15:15:03",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Mace Windu fell out of a window by Lil Vader 😂 (AI Ruins Everything)",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1521,
+        "likes": 7694,
+        "quotes": 168,
+        "replies": 918,
+        "retweets": 836,
+        "views": 1445272
+      },
+      "url": "https://x.com/elonmusk/status/2112080069732479400",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2112079931882545152/img/61VtT0Ro-Qfm5O9g.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2112079931882545152/vid/avc1/1280x720/W4p_xZPCTpnxuorL.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112079931882545152/img/61VtT0Ro-Qfm5O9g.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 108.166
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2112076928098181448",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5592,71 +5631,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2111135858216902816",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T16:43:06.000Z",
-      "created_at_shanghai": "2026-10-17 00:43:06",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "My favorite Grok Bot use case so far:\n\nI wake up to hundreds of comments. I try to answer everyone, but some always slip through. Now Grok Bot sends me links to every comment I haven't answered, and I reply to each one myself. No automated replies, just no one left behind 💛",
-      "quote": null,
-      "retweet": {
-        "author": "icreatelife",
-        "avatar": "https://pbs.twimg.com/profile_images/1716038944981504000/veXq0uCL_200x200.jpg",
-        "created_at_shanghai": "2026-10-17 00:10:17",
-        "created_at_utc": "2026-10-16T16:10:17.000Z",
-        "id": "2111127599028076885",
-        "images": [
-          "https://pbs.twimg.com/media/HUw7VN-WkAARLMr.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUw7VN-WkAARLMr.jpg?name=small",
-            "width": 1522,
-            "height": 2204
-          }
-        ],
-        "name": "Kris Kashtanova",
-        "text": "My favorite Grok Bot use case so far:\n\nI wake up to hundreds of comments. I try to answer everyone, but some always slip through. Now Grok Bot sends me links to every comment I haven't answered, and I reply to each one myself. No automated replies, just no one left behind 💛",
-        "url": "https://x.com/icreatelife/status/2111127599028076885",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 78,
-        "likes": 640,
-        "quotes": 6,
-        "replies": 66,
-        "retweets": 71,
-        "views": 140349
-      },
-      "url": "https://x.com/elonmusk/status/2111135858216902816",
-      "images": [
-        "https://pbs.twimg.com/media/HUw7VN-WkAARLMr.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUw7VN-WkAARLMr.jpg?name=small",
-          "width": 1522,
-          "height": 2204
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 100,
-  "total": 2765,
+  "total": 2766,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 10:01:37",
+  "updated_at_shanghai": "2026-11-23 13:09:49",
   "account": "elonmusk"
 }

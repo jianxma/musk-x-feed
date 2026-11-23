@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2121733992726802703",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T22:36:18.000Z",
+      "created_at_shanghai": "2026-11-15 06:36:18",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Inspecting ship 42 right now",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 552,
+        "likes": 7834,
+        "quotes": 127,
+        "replies": 835,
+        "retweets": 1098,
+        "views": 380285
+      },
+      "url": "https://x.com/elonmusk/status/2121733992726802703",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121733944974483457/img/82n1RF5mdUeNV0_1.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2121733944974483457/vid/avc1/1080x1920/w_aaCWBru-qRIwC3.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121733944974483457/img/82n1RF5mdUeNV0_1.jpg",
+          "width": 1080,
+          "height": 1920,
+          "duration": 15.401
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121732719050977749",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -6199,75 +6238,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2121119850231955918",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-13T05:55:55.000Z",
-      "created_at_shanghai": "2026-11-13 13:55:55",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "A lot of people are becoming very sceptical about our police and our judiciary\n\nHow is this possible ?",
-      "quote": {
-        "author": "welshmaan",
-        "avatar": "https://pbs.twimg.com/profile_images/2103844246289580033/r4BoFz18_200x200.jpg",
-        "created_at_shanghai": "2026-11-12 18:44:51",
-        "created_at_utc": "2026-11-12T10:44:51.000Z",
-        "id": "2120830175332249963",
-        "images": [
-          "https://pbs.twimg.com/media/HW6zsmhWQAAC546.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HW6zsmhWQAAC546.jpg?name=small",
-            "width": 1200,
-            "height": 675
-          }
-        ],
-        "name": "welshman",
-        "text": "Just to be clear, Danny Tommo is going to be sentenced for damaging the illegal property of human traffickers who continuously flood our country with some of the worst people you could ever imagine.",
-        "url": "https://x.com/welshmaan/status/2120830175332249963",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "JohnCleese",
-        "avatar": "https://pbs.twimg.com/profile_images/2622284361/1emzqsaz3t5glbyndf66_200x200.jpeg",
-        "created_at_shanghai": "2026-11-12 22:59:30",
-        "created_at_utc": "2026-11-12T14:59:30.000Z",
-        "id": "2120894260891255155",
-        "images": [],
-        "media": [],
-        "name": "John Cleese",
-        "text": "A lot of people are becoming very sceptical about our police and our judiciary\n\nHow is this possible ?",
-        "url": "https://x.com/JohnCleese/status/2120894260891255155",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 162,
-        "likes": 12541,
-        "quotes": 22,
-        "replies": 362,
-        "retweets": 1976,
-        "views": 144838
-      },
-      "url": "https://x.com/elonmusk/status/2121119850231955918",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 100,
-  "total": 2765,
+  "total": 2766,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 10:01:37",
+  "updated_at_shanghai": "2026-11-23 13:09:49",
   "account": "elonmusk"
 }
