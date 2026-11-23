@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2118855489828356147",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-06T23:58:09.000Z",
+      "created_at_shanghai": "2026-11-07 07:58:09",
+      "type": "回复 @aaronburnett",
+      "type_label": "回复 @aaronburnett",
+      "text": "@aaronburnett NASA FY2027 budget request is ~$18.8B",
+      "quote": {
+        "author": "aaronburnett",
+        "id": "2118768071120744638",
+        "text": "i believe this is guidance toward $25B+ in Q4 $SPCX  revenue. ~$25B is Nasa's full year budget.",
+        "url": "https://x.com/aaronburnett/status/2118768071120744638",
+        "quoted": {
+          "author": "elonmusk",
+          "id": "2118761981037723848",
+          "text": "SpaceX revenue this quarter alone will be substantially higher than NASA’s entire annual budget!"
+        }
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 75,
+        "retweets": 10,
+        "replies": 25,
+        "quotes": 0,
+        "views": 12531
+      },
+      "url": "https://x.com/elonmusk/status/2118855489828356147",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2118855011388268872",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5330,84 +5367,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2118031642786930832",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-04T17:24:29.000Z",
-      "created_at_shanghai": "2026-11-05 01:24:29",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Quick update:  Starlink Mobile is continuing to provide service with Orange and Telefónica following the tragic train derailment in Spain.  We've connected more than 36,000 people in the region so far. Thank you to @mintradigital for your continued support.",
-      "quote": {
-        "author": "davesgoldman",
-        "avatar": "https://pbs.twimg.com/profile_images/1887978959729799168/uvbv_Ury_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 08:49:34",
-        "created_at_utc": "2026-10-29T00:49:34.000Z",
-        "id": "2115606937127764092",
-        "images": [],
-        "media": [],
-        "name": "David Goldman",
-        "text": "Our thoughts are with everyone affected by this tragedy. Starlink Mobile connected nearly 2k messages with @orange_es and @Telefonica in the first few hours. Thank you to @mintradigital and Secretary González Martín for your support. 🇪🇸",
-        "url": "https://x.com/davesgoldman/status/2115606937127764092",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "davesgoldman",
-        "avatar": "https://pbs.twimg.com/profile_images/1887978959729799168/uvbv_Ury_200x200.jpg",
-        "created_at_shanghai": "2026-11-04 10:20:40",
-        "created_at_utc": "2026-11-04T02:20:40.000Z",
-        "id": "2117804190378365250",
-        "images": [
-          "https://pbs.twimg.com/media/HWPwkUaXAAAHjgJ.png?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWPwkUaXAAAHjgJ.png?name=small",
-            "width": 774,
-            "height": 548
-          }
-        ],
-        "name": "David Goldman",
-        "text": "Quick update:  Starlink Mobile is continuing to provide service with Orange and Telefónica following the tragic train derailment in Spain.  We've connected more than 36,000 people in the region so far. Thank you to @mintradigital for your continued support.",
-        "url": "https://x.com/davesgoldman/status/2117804190378365250",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 14,
-        "likes": 341,
-        "quotes": 2,
-        "replies": 16,
-        "retweets": 52,
-        "views": 30458
-      },
-      "url": "https://x.com/elonmusk/status/2118031642786930832",
-      "images": [
-        "https://pbs.twimg.com/media/HWPwkUaXAAAHjgJ.png?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWPwkUaXAAAHjgJ.png?name=small",
-          "width": 774,
-          "height": 548
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 8,
   "page_size": 100,
-  "total": 2774,
+  "total": 2775,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 23:08:05",
+  "updated_at_shanghai": "2026-11-23 23:49:05",
   "account": "elonmusk"
 }

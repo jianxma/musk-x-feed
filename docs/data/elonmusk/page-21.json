@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2109156083302539363",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-11T05:36:11.000Z",
+      "created_at_shanghai": "2026-10-11 13:36:11",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I don't think I know a single person who owns a Tesla and drives anymore. They use full self driving 90%+ of the time. \n\nIncredible to think that our kids are going to grow up in a future where all they will know is autonomous driving",
+      "quote": null,
+      "retweet": {
+        "author": "anothercohen",
+        "avatar": "https://pbs.twimg.com/profile_images/1886413225786232832/CjFMSLAg_200x200.jpg",
+        "created_at_shanghai": "2026-10-11 04:17:29",
+        "created_at_utc": "2026-10-10T20:17:29.000Z",
+        "id": "2109015482657603703",
+        "images": [],
+        "media": [],
+        "name": "Alex Cohen",
+        "text": "I don't think I know a single person who owns a Tesla and drives anymore. They use full self driving 90%+ of the time. \n\nIncredible to think that our kids are going to grow up in a future where all they will know is autonomous driving",
+        "url": "https://x.com/anothercohen/status/2109015482657603703",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 42,
+        "likes": 1459,
+        "quotes": 18,
+        "replies": 226,
+        "retweets": 113,
+        "views": 187893
+      },
+      "url": "https://x.com/elonmusk/status/2109156083302539363",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109155867983786382",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5340,62 +5381,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108294950492553464",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T20:34:21.000Z",
-      "created_at_shanghai": "2026-10-09 04:34:21",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Give Grok @Bot your toughest problems",
-      "quote": {
-        "author": "UpdatingOnRome",
-        "avatar": "https://pbs.twimg.com/profile_images/1608931718689591296/ztEUxeFh_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 04:31:01",
-        "created_at_utc": "2026-10-08T20:31:01.000Z",
-        "id": "2108294113372058105",
-        "images": [
-          "https://pbs.twimg.com/media/HUIqUQXWwAAxNfz.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUIqUQXWwAAxNfz.jpg?name=small",
-            "width": 1179,
-            "height": 658
-          }
-        ],
-        "name": "Daily Roman Updates",
-        "text": "Emulation handhelds are becoming more and more popular. Being able to play all the old classic games and even some of the new ones on a handheld at the tip of your fingers. \n\nThe main issue some people have is the set process can be difficult. You have to download emulators and mess with settings. Missing BIOS files. If you aren’t tech savvy these can be a pain in the ass. \n\nLuckily I have a solution. And that’s @bot \n\nI plugged my new handheld into my computer. I gave Grok bot instructions on how I wanted it set up. \n\nWhat it did:\n✔️ Installed emulators for NES, SNES, N64, GameCube, Wii, Switch, Game Boy, GBA, DS, 3DS, Genesis, Dreamcast, PS1, PS2, PSP and Vita\n✔️ Set up DS and 3DS games to use both screens\n✔️ Picked the best graphics settings for every system\n✔️ Installed a clean front end to launch everything\n✔️ Sorted my games into the right folders with clean names\n✔️ Pulled box art for every game automatically\n✔️ Moved my old saves over from my last handheld\n✔️ Made sure everything was on the newest version first\n\nDidn't touch a single settings menu.\n\nIf you buy one of these new handhelds let @bot set it up for you.",
-        "url": "https://x.com/UpdatingOnRome/status/2108294113372058105",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 309,
-        "likes": 2470,
-        "quotes": 34,
-        "replies": 325,
-        "retweets": 379,
-        "views": 1218992
-      },
-      "url": "https://x.com/elonmusk/status/2108294950492553464",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 100,
-  "total": 2774,
+  "total": 2775,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 23:08:05",
+  "updated_at_shanghai": "2026-11-23 23:49:05",
   "account": "elonmusk"
 }
