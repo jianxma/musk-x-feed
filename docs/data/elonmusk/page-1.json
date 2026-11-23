@@ -1,6 +1,76 @@
 {
   "posts": [
     {
+      "id": "2124923405179007015",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-23T17:49:53.000Z",
+      "created_at_shanghai": "2026-11-24 01:49:53",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @cb_doge",
+      "quote": {
+        "author": "cb_doge",
+        "name": "DogeDesigner",
+        "text": "BREAKING: President Trump says he spoke with Elon Musk about Jensen Huang before his return as NVIDIA CEO, revealing Elon’s support for Jensen.\n\n“I spoke to him over the last week or so about it, and all he said is, Jensen’s a smart guy. Elon respects Jensen a lot. He respects him a lot.”",
+        "url": "https://x.com/cb_doge/status/2124906448476094686"
+      },
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-24 00:42:30",
+        "created_at_utc": "2026-11-23T16:42:30.000Z",
+        "id": "2124906448476094686",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2124906417564028928/img/egL515blYLSINkkl.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2124906417564028928/vid/avc1/1080x1080/yZ1euO4XimVYWUgc.mp4?tag=29",
+            "hls_url": "https://video.twimg.com/amplify_video/2124906417564028928/pl/5M-5xzzq2SANrTiv.m3u8?tag=29&v=e27",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2124906417564028928/img/egL515blYLSINkkl.jpg",
+            "width": 1080,
+            "height": 1080,
+            "duration": 20.958
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: President Trump says he spoke with Elon Musk about Jensen Huang before his return as NVIDIA CEO, revealing Elon’s support for Jensen.\n\n“I spoke to him over the last week or so about it, and all he said is, Jensen’s a smart guy. Elon respects Jensen a lot. He respects him a lot.”",
+        "url": "https://x.com/cb_doge/status/2124906448476094686",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "likes": 1439,
+        "retweets": 211,
+        "replies": 101,
+        "bookmarks": 95,
+        "quotes": 17,
+        "views": 68038
+      },
+      "url": "https://x.com/elonmusk/status/2124923405179007015",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124906417564028928/img/egL515blYLSINkkl.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2124906417564028928/vid/avc1/1080x1080/yZ1euO4XimVYWUgc.mp4?tag=29",
+          "hls_url": "https://video.twimg.com/amplify_video/2124906417564028928/pl/5M-5xzzq2SANrTiv.m3u8?tag=29&v=e27",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2124906417564028928/img/egL515blYLSINkkl.jpg",
+          "width": 1080,
+          "height": 1080,
+          "duration": 20.958
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2124918561617694750",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4015,45 +4085,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2124075608938324344",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-21T09:41:03.000Z",
-      "created_at_shanghai": "2026-11-21 17:41:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I always have my Grok Bot audit my other bots. That way, I know everything is optimized and running efficiently.\n\nDon't just hand a workflow to a bot and walk away. Set up an audit bot to watch over your other bots and follow up on their projects.",
-      "quote": {
-        "author": "Texas_Twins_Dad",
-        "name": "Texas Twins Dad",
-        "text": "I always have my Grok Bot audit my other bots. That way, I know everything is optimized and running efficiently.\n\nDon't just hand a workflow to a bot and walk away. Set up an audit bot to watch over your other bots and follow up on their projects.",
-        "url": "https://x.com/Texas_Twins_Dad/status/2123926569076887570"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 27,
-        "likes": 221,
-        "quotes": 0,
-        "replies": 29,
-        "retweets": 37,
-        "views": 33764
-      },
-      "url": "https://x.com/elonmusk/status/2124075608938324344",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2778,
+  "total": 2779,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 01:38:36",
+  "updated_at_shanghai": "2026-11-24 01:54:53",
   "account": "elonmusk"
 }
