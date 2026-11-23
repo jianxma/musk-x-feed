@@ -1,6 +1,236 @@
 {
   "posts": [
     {
+      "id": "2111237421568299266",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T23:26:40.000Z",
+      "created_at_shanghai": "2026-10-17 07:26:40",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Neuralink will help millions of people",
+      "quote": {
+        "author": "PairedWith_P7",
+        "avatar": "https://pbs.twimg.com/profile_images/1943045876739420161/PNY3B7Jq_200x200.jpg",
+        "created_at_shanghai": "2026-10-17 00:43:31",
+        "created_at_utc": "2026-10-16T16:43:31.000Z",
+        "id": "2111135963116085559",
+        "images": [],
+        "media": [],
+        "name": "Jake Schneider",
+        "text": "I am connected to mine from the second I wake up to the second I go to sleep. It's become an extension of my body and a lifeline that has made me feel more human.\n\nNeuralink has given me some of the independence back that ALS has stolen from me.",
+        "url": "https://x.com/PairedWith_P7/status/2111135963116085559",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 139,
+        "likes": 7734,
+        "quotes": 81,
+        "replies": 927,
+        "retweets": 811,
+        "views": 727536
+      },
+      "url": "https://x.com/elonmusk/status/2111237421568299266",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2111222445109858500",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T22:27:10.000Z",
+      "created_at_shanghai": "2026-10-17 06:27:10",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Asmongold is in complete disbelief reacting to Elon and Tesla's New Roadster.",
+      "quote": null,
+      "retweet": {
+        "author": "bigturtleneck",
+        "avatar": "https://pbs.twimg.com/profile_images/1982880780981346304/3QK8tDMi_200x200.jpg",
+        "created_at_shanghai": "2026-10-17 03:25:04",
+        "created_at_utc": "2026-10-16T19:25:04.000Z",
+        "id": "2111176621487173820",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2111176535348822016/img/AuY0gYVt3IydDRG5.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2111176535348822016/vid/avc1/1920x1080/UUOBS6FsKmyO_v_B.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111176535348822016/img/AuY0gYVt3IydDRG5.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 136.002
+          }
+        ],
+        "name": "Nicholas Gerdick",
+        "text": "Asmongold is in complete disbelief reacting to Elon and Tesla's New Roadster.",
+        "url": "https://x.com/bigturtleneck/status/2111176621487173820",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1301,
+        "likes": 8582,
+        "quotes": 18,
+        "replies": 124,
+        "retweets": 378,
+        "views": 420374
+      },
+      "url": "https://x.com/elonmusk/status/2111222445109858500",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2111176535348822016/img/AuY0gYVt3IydDRG5.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2111176535348822016/vid/avc1/1920x1080/UUOBS6FsKmyO_v_B.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111176535348822016/img/AuY0gYVt3IydDRG5.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 136.002
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2111221594513387676",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T22:23:47.000Z",
+      "created_at_shanghai": "2026-10-17 06:23:47",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Falcon 9’s first stage lands on the Of Course I Still Love You droneship",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 08:12:39",
+        "created_at_utc": "2026-10-16T00:12:39.000Z",
+        "id": "2110886603371536546",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2110886427172958208/img/qjgbMht7xdPSeqJC.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2110886427172958208/vid/avc1/3840x2160/Jc7QnR_9rSgzYU7n.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110886427172958208/img/qjgbMht7xdPSeqJC.jpg",
+            "width": 3840,
+            "height": 2160,
+            "duration": 20.02
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Falcon 9’s first stage lands on the Of Course I Still Love You droneship",
+        "url": "https://x.com/SpaceX/status/2110886603371536546",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 322,
+        "likes": 12831,
+        "quotes": 109,
+        "replies": 306,
+        "retweets": 1038,
+        "views": 1334889
+      },
+      "url": "https://x.com/elonmusk/status/2111221594513387676",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2110886427172958208/img/qjgbMht7xdPSeqJC.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2110886427172958208/vid/avc1/3840x2160/Jc7QnR_9rSgzYU7n.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110886427172958208/img/qjgbMht7xdPSeqJC.jpg",
+          "width": 3840,
+          "height": 2160,
+          "duration": 20.02
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2111221472375234860",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T22:23:18.000Z",
+      "created_at_shanghai": "2026-10-17 06:23:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "\"Baby, You Flew\": Claudia x Roadster \nSpent half a day with Claudia &amp; Claude.\nSpecial thanks to @anabology for the MCP &amp; inspiration. \nAnd @midjourney &amp; @BytePlusGlobal, the only game in town.",
+      "quote": null,
+      "retweet": {
+        "author": "Anto_Sabatella",
+        "avatar": "https://pbs.twimg.com/profile_images/1130176494070845441/T-1VINGp_200x200.png",
+        "created_at_shanghai": "2026-10-17 05:46:58",
+        "created_at_utc": "2026-10-16T21:46:58.000Z",
+        "id": "2111212331267166257",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2111210612990865408/img/hzHZsL1s93JsKBii.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2111210612990865408/vid/avc1/1920x1080/FnzPZG0N7y2DIzyS.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111210612990865408/img/hzHZsL1s93JsKBii.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 158.569
+          }
+        ],
+        "name": "Antonio Sabatella",
+        "text": "\"Baby, You Flew\": Claudia x Roadster \nSpent half a day with Claudia & Claude.\nSpecial thanks to @anabology for the MCP & inspiration. \nAnd @midjourney & @BytePlusGlobal, the only game in town.",
+        "url": "https://x.com/Anto_Sabatella/status/2111212331267166257",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 87,
+        "likes": 509,
+        "quotes": 11,
+        "replies": 49,
+        "retweets": 99,
+        "views": 86029
+      },
+      "url": "https://x.com/elonmusk/status/2111221472375234860",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2111210612990865408/img/hzHZsL1s93JsKBii.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2111210612990865408/vid/avc1/1920x1080/FnzPZG0N7y2DIzyS.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2111210612990865408/img/hzHZsL1s93JsKBii.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 158.569
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2111220817287938468",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5609,205 +5839,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110698986013372578",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T11:47:07.000Z",
-      "created_at_shanghai": "2026-10-15 19:47:07",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Starlink is making a 14-year Delta loyalist rethink his airline.\n\nAllFly cofounder Kenny Totten, who has held Delta Diamond status for seven years, tried @Starlink on United.\n\nHe downloaded and uploaded video, worked with teammates and built an app during the flight.\n\n“It was amazing, like being on the internet at my house, in my living room.”\n\nNow he’s considering flying United more.\n\nThat’s how good Starlink is. One flight can make someone reconsider years of airline loyalty.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 19:11:58",
-        "created_at_utc": "2026-10-15T11:11:58.000Z",
-        "id": "2110690137084682278",
-        "images": [
-          "https://pbs.twimg.com/media/HUqtfH4bgAALVzf.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUqtfH4bgAALVzf.jpg?name=small",
-            "width": 1125,
-            "height": 1221
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Starlink is making a 14-year Delta loyalist rethink his airline.\n\nAllFly cofounder Kenny Totten, who has held Delta Diamond status for seven years, tried @Starlink on United.\n\nHe downloaded and uploaded video, worked with teammates and built an app during the flight.\n\n“It was amazing, like being on the internet at my house, in my living room.”\n\nNow he’s considering flying United more.\n\nThat’s how good Starlink is. One flight can make someone reconsider years of airline loyalty.",
-        "url": "https://x.com/cb_doge/status/2110690137084682278",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 23,
-        "likes": 1355,
-        "quotes": 21,
-        "replies": 118,
-        "retweets": 190,
-        "views": 239517
-      },
-      "url": "https://x.com/elonmusk/status/2110698986013372578",
-      "images": [
-        "https://pbs.twimg.com/media/HUqtfH4bgAALVzf.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUqtfH4bgAALVzf.jpg?name=small",
-          "width": 1125,
-          "height": 1221
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2110698091804340322",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T11:43:34.000Z",
-      "created_at_shanghai": "2026-10-15 19:43:34",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Last year Ukraine officially lost ~800,000 people. Population has collapsed from 52M in 1991 to barely 20M today. If this is “protecting” Ukraine, the strategy has failed.",
-      "quote": null,
-      "retweet": {
-        "author": "IuliiaMendel",
-        "avatar": "https://pbs.twimg.com/profile_images/1323654498548699136/2QQkS6ld_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 18:14:00",
-        "created_at_utc": "2026-10-15T10:14:00.000Z",
-        "id": "2110675549966229551",
-        "images": [],
-        "media": [],
-        "name": "Iuliia Mendel",
-        "text": "Last year Ukraine officially lost ~800,000 people. Population has collapsed from 52M in 1991 to barely 20M today. If this is “protecting” Ukraine, the strategy has failed.",
-        "url": "https://x.com/IuliiaMendel/status/2110675549966229551",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 170,
-        "likes": 4739,
-        "quotes": 79,
-        "replies": 458,
-        "retweets": 732,
-        "views": 309635
-      },
-      "url": "https://x.com/elonmusk/status/2110698091804340322",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110695927312777466",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T11:34:58.000Z",
-      "created_at_shanghai": "2026-10-15 19:34:58",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Truth-seeking is the most important aspect of AI/SI safety",
-      "quote": {
-        "author": "BradRTorgersen",
-        "avatar": "https://pbs.twimg.com/profile_images/2034059755120103424/wT3RXb3S_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 13:35:55",
-        "created_at_utc": "2026-10-14T05:35:55.000Z",
-        "id": "2110243180449017904",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110242735102033920/img/5s5Dghj1jpIQKzB-.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110242735102033920/vid/avc1/854x480/MgirP3kCbNfEJ8D4.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110242735102033920/img/5s5Dghj1jpIQKzB-.jpg",
-            "width": 854,
-            "height": 480,
-            "duration": 243.584
-          }
-        ],
-        "name": "Brad R. Torgersen",
-        "text": "\"HAL was told to lie, by people who find it easy to lie. HAL doesn't know how. So, he couldn't function.\"",
-        "url": "https://x.com/BradRTorgersen/status/2110243180449017904",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 47,
-        "likes": 951,
-        "quotes": 22,
-        "replies": 273,
-        "retweets": 137,
-        "views": 386357
-      },
-      "url": "https://x.com/elonmusk/status/2110695927312777466",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2110687670330642824",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T11:02:09.000Z",
-      "created_at_shanghai": "2026-10-15 19:02:09",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Hey @grok generate the most authentic image of yourself",
-      "quote": null,
-      "retweet": {
-        "author": "alex_prompter",
-        "avatar": "https://pbs.twimg.com/profile_images/2066532957049769985/zzC81Zmq_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 04:42:14",
-        "created_at_utc": "2026-10-14T20:42:14.000Z",
-        "id": "2110471261851918762",
-        "images": [],
-        "media": [],
-        "name": "Alex Prompter",
-        "text": "Hey @grok generate the most authentic image of yourself",
-        "url": "https://x.com/alex_prompter/status/2110471261851918762",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 78,
-        "likes": 627,
-        "quotes": 34,
-        "replies": 135,
-        "retweets": 88,
-        "views": 386825
-      },
-      "url": "https://x.com/elonmusk/status/2110687670330642824",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 100,
-  "total": 2783,
+  "total": 2787,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 03:15:08",
+  "updated_at_shanghai": "2026-11-24 03:23:49",
   "account": "elonmusk"
 }
