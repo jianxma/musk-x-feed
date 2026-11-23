@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2107921069126672602",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-07T19:48:40.000Z",
+      "created_at_shanghai": "2026-10-08 03:48:40",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try the latest Grok @Bot!",
+      "quote": {
+        "author": "ericzakariasson",
+        "avatar": "https://pbs.twimg.com/profile_images/1841151626456801283/HnXqy3TQ_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 01:36:21",
+        "created_at_utc": "2026-10-07T17:36:21.000Z",
+        "id": "2107887770937283028",
+        "images": [
+          "https://pbs.twimg.com/media/HUC4wcPaEAAT-O0.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUC4wcPaEAAT-O0.jpg?name=small",
+            "width": 1600,
+            "height": 900
+          }
+        ],
+        "name": "eric zakariasson",
+        "text": "grok @bot 0.68.1 is out!\n\n- Bots can build slide decks with you and deliver them as PowerPoint or Google Slides\n- send formatted emails straight from a draft card\n- your messages in a 1:1 chat take that Bot's color\n- faster computer use, now on a 1920x1200 screen\n\nhttps://x.ai/changelog/bot",
+        "url": "https://x.com/ericzakariasson/status/2107887770937283028",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 211,
+        "likes": 3914,
+        "quotes": 55,
+        "replies": 694,
+        "retweets": 514,
+        "views": 2640340
+      },
+      "url": "https://x.com/elonmusk/status/2107921069126672602",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107920000346661264",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5612,75 +5662,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2106907297624821870",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-05T00:40:18.000Z",
-      "created_at_shanghai": "2026-10-05 08:40:18",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Before vs after college (these are real)",
-      "quote": null,
-      "retweet": {
-        "author": "EndWokeness",
-        "avatar": "https://pbs.twimg.com/profile_images/1563691268793946117/OedvhFeS_200x200.jpg",
-        "created_at_shanghai": "2026-10-05 02:18:00",
-        "created_at_utc": "2026-10-04T18:18:00.000Z",
-        "id": "2106811085944705254",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2068780419172958208/img/93dHYoH88-oXv3jm.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2068780419172958208/vid/avc1/1080x1428/mtf3lbtT_SHxZGap.mp4?tag=28",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2068780419172958208/img/93dHYoH88-oXv3jm.jpg",
-            "width": 1080,
-            "height": 1428,
-            "duration": 20.591
-          }
-        ],
-        "name": "End Wokeness",
-        "text": "Before vs after college (these are real)",
-        "url": "https://x.com/EndWokeness/status/2106811085944705254",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 571,
-        "likes": 5438,
-        "quotes": 46,
-        "replies": 196,
-        "retweets": 677,
-        "views": 218008
-      },
-      "url": "https://x.com/elonmusk/status/2106907297624821870",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2068780419172958208/img/93dHYoH88-oXv3jm.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2068780419172958208/vid/avc1/1080x1428/mtf3lbtT_SHxZGap.mp4?tag=28",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2068780419172958208/img/93dHYoH88-oXv3jm.jpg",
-          "width": 1080,
-          "height": 1428,
-          "duration": 20.591
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 23,
   "page_size": 100,
-  "total": 2766,
+  "total": 2767,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 17:44:51",
+  "updated_at_shanghai": "2026-11-23 22:33:54",
   "account": "elonmusk"
 }
