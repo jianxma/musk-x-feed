@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2113130565700313123",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-22T04:49:21.000Z",
+      "created_at_shanghai": "2026-10-22 12:49:21",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Today I early voted in Texas. Straight Republican. Dems are not worth the risk to all the great builders and projects here. Can't stop, won't stop.",
+      "quote": null,
+      "retweet": {
+        "author": "SERobinsonJr",
+        "avatar": "https://pbs.twimg.com/profile_images/2074281454016569344/RSVw3v5W_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 09:46:22",
+        "created_at_utc": "2026-10-22T01:46:22.000Z",
+        "id": "2113084517674254688",
+        "images": [],
+        "media": [],
+        "name": "S.E. Robinson, Jr.",
+        "text": "Today I early voted in Texas. Straight Republican. Dems are not worth the risk to all the great builders and projects here. Can't stop, won't stop.",
+        "url": "https://x.com/SERobinsonJr/status/2113084517674254688",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 41,
+        "likes": 3316,
+        "quotes": 9,
+        "replies": 145,
+        "retweets": 271,
+        "views": 300566
+      },
+      "url": "https://x.com/elonmusk/status/2113130565700313123",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2113129951453208795",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5360,49 +5401,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2112373713937084809",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-20T02:41:54.000Z",
-      "created_at_shanghai": "2026-10-20 10:41:54",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Two important changes to timeline recommendations:\n\n- New AI/SI ranking model that predicts probable time spent much better\n\n- Retrieval model trained to surface posts people read all the way through\n\nUser active seconds is growing exponentially and hitting all-time highs almost every day:",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 59,
-        "likes": 812,
-        "quotes": 19,
-        "replies": 177,
-        "retweets": 103,
-        "views": 281458
-      },
-      "url": "https://x.com/elonmusk/status/2112373713937084809",
-      "images": [
-        "https://pbs.twimg.com/media/HVCoslqWwAA_j6K.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVCoslqWwAA_j6K.jpg?name=small",
-          "width": 2048,
-          "height": 953
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 16,
   "page_size": 100,
-  "total": 2780,
+  "total": 2781,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 01:57:27",
+  "updated_at_shanghai": "2026-11-24 02:42:42",
   "account": "elonmusk"
 }
