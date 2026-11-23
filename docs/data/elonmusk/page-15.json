@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2113796183688982771",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-24T00:54:17.000Z",
+      "created_at_shanghai": "2026-10-24 08:54:17",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot saves sensitive info in a vault",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-24 03:43:23",
+        "created_at_utc": "2026-10-23T19:43:23.000Z",
+        "id": "2113717946019397910",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2113716259032592384/img/VaJnG-mAE4BdDEDX.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2113716259032592384/vid/avc1/1920x1080/uQ9fIn2WHi8Bn54Y.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2113716259032592384/img/VaJnG-mAE4BdDEDX.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 18.933
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now save your logins, cards, and contact information.\n\nAdd them once, and Bot securely remembers them for the future.",
+        "url": "https://x.com/bot/status/2113717946019397910",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 430,
+        "likes": 4401,
+        "quotes": 77,
+        "replies": 717,
+        "retweets": 440,
+        "views": 782882
+      },
+      "url": "https://x.com/elonmusk/status/2113796183688982771",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2113755127882649730",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5501,53 +5553,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2113010364178964616",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T20:51:43.000Z",
-      "created_at_shanghai": "2026-10-22 04:51:43",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try Grok @Bot, you will love it!",
-      "quote": {
-        "author": "Scobleizer",
-        "avatar": "https://pbs.twimg.com/profile_images/1915614118876504066/zVnfpAMf_200x200.jpg",
-        "created_at_shanghai": "2026-10-22 00:54:53",
-        "created_at_utc": "2026-10-21T16:54:53.000Z",
-        "id": "2112950764348014878",
-        "images": [],
-        "media": [],
-        "name": "Robert Scoble",
-        "text": "I've been GrokBot pilled.\n\nFirst of all, Grok knows me better than other bots, like Meta Muse, thanks to the 300,000 posts I've done here for 20 years. \n\nBut now that GrokBot @bot can read lists, it opens up powerful new personalized news capabilities. \n\nI've done this for about a year over on https://alignednews.com -- but last month my X API bill alone was $6,000. \n\nFor a couple of hundred a month you can do the same with lists, either you create, or ones other people have created.\n\nLast night I stuck in my \"best in AI\" list and had it write me this news page: https://docs.google.com/document/d/1PEfkIbGmvw_SIJJSDvJ-gSbBM5KwXWKVeimiMsQUW-Y/edit?usp=sharing\n\nEvery hour my bot reads that list and builds me a new news page. Now I've only put about 10 minutes of effort into this so far. So it's not the prettiest thing you ever have seen, but my bots are working on other ways to present them to me. \n\nAnd you can do the same for any topic you care about. You just need to build a list, or find one that's already built and there are millions of lists here on X on literally any topic.\n\nPut your favorite football team onto a list, along with all your favorite journalists or other fans. Then have Grok bot read them for you. \n\nAnd that's just the start. You can have it write you a script based on the news, then copy that into, say, @Gemini_Notebook and then you get a podcast, or a video. Based on what people are saying on your topic here on X.\n\nThank you so much X for making lists far more powerful than they ever were before. Makes the thousands of hours I've put into mine over 20 years so much more useful.\n\nTips? \n\nStart small. You can chew through your tokens very quickly. It's amazing how good it is with a small list, like this one, which is what created the page up above: https://x.com/i/lists/1953536336675365173?s=20 (Best AI accounts I've found out of 70,000 here on X).\n\nDon't over hit it. You only need your bot to read the list every hour. Maybe even less. If anything is really important it gets reshared into lists, so the bot doesn't need to hit it often to build you a really great set of things that are important to pay attention to.\n\nI've been begging for this capability for years. THANK YOU X!",
-        "url": "https://x.com/Scobleizer/status/2112950764348014878",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 505,
-        "likes": 6966,
-        "quotes": 55,
-        "replies": 543,
-        "retweets": 449,
-        "views": 7535014
-      },
-      "url": "https://x.com/elonmusk/status/2113010364178964616",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 15,
   "page_size": 100,
-  "total": 2764,
+  "total": 2765,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 09:39:56",
+  "updated_at_shanghai": "2026-11-23 10:01:37",
   "account": "elonmusk"
 }

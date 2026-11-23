@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2111135753732301178",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-16T16:42:41.000Z",
+      "created_at_shanghai": "2026-10-17 00:42:41",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Southwest Airlines going all-in with @Starlink!",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 18:38:07",
+        "created_at_utc": "2026-10-16T10:38:07.000Z",
+        "id": "2111044010047615022",
+        "images": [
+          "https://pbs.twimg.com/media/HUvvVhBaYAAg7GL.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUvvVhBaYAAg7GL.jpg?name=small",
+            "width": 1125,
+            "height": 1125
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: Southwest Airlines has announced it will expand Starlink to its entire fleet by fall 2027.\n\nIt expects to become the first major U.S. airline to complete a fleetwide Starlink rollout.",
+        "url": "https://x.com/cb_doge/status/2111044010047615022",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 71,
+        "likes": 6344,
+        "quotes": 54,
+        "replies": 590,
+        "retweets": 629,
+        "views": 646700
+      },
+      "url": "https://x.com/elonmusk/status/2111135753732301178",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111135460861038952",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5682,53 +5732,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110571294534361551",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T03:19:43.000Z",
-      "created_at_shanghai": "2026-10-15 11:19:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Let’s just say that this demo will be a BANGER, probably metaphorically, though some chance literally",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 11:19:37",
-        "created_at_utc": "2026-10-15T03:19:37.000Z",
-        "id": "2110571266889646239",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Let’s just say that this demo will be a BANGER, probably metaphorically, though some chance literally",
-        "url": "https://x.com/elonmusk/status/2110571266889646239",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 284,
-        "likes": 8431,
-        "quotes": 95,
-        "replies": 541,
-        "retweets": 432,
-        "views": 506240
-      },
-      "url": "https://x.com/elonmusk/status/2110571294534361551",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 100,
-  "total": 2764,
+  "total": 2765,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 09:39:56",
+  "updated_at_shanghai": "2026-11-23 10:01:37",
   "account": "elonmusk"
 }

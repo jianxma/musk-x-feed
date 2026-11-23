@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110571294534361551",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T03:19:43.000Z",
+      "created_at_shanghai": "2026-10-15 11:19:43",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Let’s just say that this demo will be a BANGER, probably metaphorically, though some chance literally",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 11:19:37",
+        "created_at_utc": "2026-10-15T03:19:37.000Z",
+        "id": "2110571266889646239",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "Let’s just say that this demo will be a BANGER, probably metaphorically, though some chance literally",
+        "url": "https://x.com/elonmusk/status/2110571266889646239",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 284,
+        "likes": 8431,
+        "quotes": 95,
+        "replies": 541,
+        "retweets": 432,
+        "views": 506240
+      },
+      "url": "https://x.com/elonmusk/status/2110571294534361551",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110571266889646239",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5385,62 +5426,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110125050074669471",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T21:46:30.000Z",
-      "created_at_shanghai": "2026-10-14 05:46:30",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try @Starlink Internet!",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 21:07:17",
-        "created_at_utc": "2026-10-13T13:07:17.000Z",
-        "id": "2109994383110213691",
-        "images": [
-          "https://pbs.twimg.com/media/HUg0tL-bEAAyUU9.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUg0tL-bEAAyUU9.jpg?name=small",
-            "width": 1125,
-            "height": 1109
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Starlink ranks #1 for both download speed and Consistent Quality in rural UK, beating EE, Three and Vodafone in Opensignal’s study.\n\nStarlink also leads rural download speeds in all 14 European markets studied.",
-        "url": "https://x.com/cb_doge/status/2109994383110213691",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 20,
-        "likes": 838,
-        "quotes": 10,
-        "replies": 157,
-        "retweets": 133,
-        "views": 418367
-      },
-      "url": "https://x.com/elonmusk/status/2110125050074669471",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 19,
   "page_size": 100,
-  "total": 2764,
+  "total": 2765,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 09:39:56",
+  "updated_at_shanghai": "2026-11-23 10:01:37",
   "account": "elonmusk"
 }
