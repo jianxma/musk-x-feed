@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2109257757958238715",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-11T12:20:12.000Z",
+      "created_at_shanghai": "2026-10-11 20:20:12",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Nicki Minaj on Grok, \"Using Grok Bot made me feel like I was cheating in life!\"",
+      "quote": null,
+      "retweet": {
+        "author": "teslaownersSV",
+        "avatar": "https://pbs.twimg.com/profile_images/2089050162710929408/Xy5O8i3g_200x200.jpg",
+        "created_at_shanghai": "2026-10-11 03:24:50",
+        "created_at_utc": "2026-10-10T19:24:50.000Z",
+        "id": "2109002233253605799",
+        "images": [
+          "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/ext_tw_video/2109002148302245889/pu/vid/avc1/720x1280/z5CpWB-mC8s0Yo90.mp4?tag=12",
+            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg",
+            "width": 1080,
+            "height": 1920,
+            "duration": 64.798
+          }
+        ],
+        "name": "Tesla Owners Silicon Valley",
+        "text": "Nicki Minaj on Grok, \"Using Grok Bot made me feel like I was cheating in life!\"",
+        "url": "https://x.com/teslaownersSV/status/2109002233253605799",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 217,
+        "likes": 2211,
+        "quotes": 19,
+        "replies": 90,
+        "retweets": 263,
+        "views": 227074
+      },
+      "url": "https://x.com/elonmusk/status/2109257757958238715",
+      "images": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/ext_tw_video/2109002148302245889/pu/vid/avc1/720x1280/z5CpWB-mC8s0Yo90.mp4?tag=12",
+          "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg",
+          "width": 1080,
+          "height": 1920,
+          "duration": 64.798
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2109255680339394843",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5320,71 +5383,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108299836126801979",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T20:53:45.000Z",
-      "created_at_shanghai": "2026-10-09 04:53:45",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "SpaceX has released an update: Building the World's Most Advanced Mobile Network",
-      "quote": null,
-      "retweet": {
-        "author": "techdevnotes",
-        "avatar": "https://pbs.twimg.com/profile_images/1618185418234646529/f9-GqDq1_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 04:51:18",
-        "created_at_utc": "2026-10-08T20:51:18.000Z",
-        "id": "2108299217458589790",
-        "images": [
-          "https://pbs.twimg.com/media/HUIu59PXsAAjpqj.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUIu59PXsAAjpqj.jpg?name=small",
-            "width": 2484,
-            "height": 1964
-          }
-        ],
-        "name": "Tech Dev Notes",
-        "text": "SpaceX has released an update: Building the World's Most Advanced Mobile Network",
-        "url": "https://x.com/techdevnotes/status/2108299217458589790",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 43,
-        "likes": 699,
-        "quotes": 1,
-        "replies": 47,
-        "retweets": 104,
-        "views": 96216
-      },
-      "url": "https://x.com/elonmusk/status/2108299836126801979",
-      "images": [
-        "https://pbs.twimg.com/media/HUIu59PXsAAjpqj.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUIu59PXsAAjpqj.jpg?name=small",
-          "width": 2484,
-          "height": 1964
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 100,
-  "total": 2781,
+  "total": 2782,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 02:42:42",
+  "updated_at_shanghai": "2026-11-24 03:03:48",
   "account": "elonmusk"
 }

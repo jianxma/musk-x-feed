@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2103743759565660223",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-26T07:09:32.000Z",
+      "created_at_shanghai": "2026-09-26 15:09:32",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Take an early look at the front page of The Wall Street Journal's weekend edition. https://on.wsj.com/4d79g0H",
+      "quote": null,
+      "retweet": {
+        "author": "WSJ",
+        "avatar": "https://pbs.twimg.com/profile_images/971415515754266624/zCX0q9d5_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 12:30:07",
+        "created_at_utc": "2026-09-26T04:30:07.000Z",
+        "id": "2103703639030223033",
+        "images": [
+          "https://pbs.twimg.com/media/HTHbTU4WgAAZDXr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTHbTU4WgAAZDXr.jpg?name=small",
+            "width": 1066,
+            "height": 2083
+          }
+        ],
+        "name": "The Wall Street Journal",
+        "text": "Take an early look at the front page of The Wall Street Journal's weekend edition. https://on.wsj.com/4d79g0H",
+        "url": "https://x.com/WSJ/status/2103703639030223033",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 10,
+        "likes": 122,
+        "quotes": 4,
+        "replies": 30,
+        "retweets": 36,
+        "views": 42769
+      },
+      "url": "https://x.com/elonmusk/status/2103743759565660223",
+      "images": [
+        "https://pbs.twimg.com/media/HTHbTU4WgAAZDXr.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTHbTU4WgAAZDXr.jpg?name=small",
+          "width": 1066,
+          "height": 2083
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2103743032054972887",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5550,56 +5609,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2102262980230476242",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-22T05:05:27.000Z",
-      "created_at_shanghai": "2026-09-22 13:05:27",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
-      "quote": null,
-      "retweet": {
-        "author": "marsrepublica",
-        "avatar": "https://pbs.twimg.com/profile_images/2075787229436256257/RrDaMY-l_200x200.jpg",
-        "created_at_shanghai": "2026-09-22 07:32:41",
-        "created_at_utc": "2026-09-21T23:32:41.000Z",
-        "id": "2102179235766968347",
-        "images": [
-          "https://pbs.twimg.com/media/HSxw3uLWMAECVw3.jpg?name=small"
-        ],
-        "name": "samuel",
-        "text": "In just the last 90 days:\n\n1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”\n\n2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”\n\n3. Grok 4.6 — they’re frontier. “Still not top 3.”\n\n4. Grok 4.7 — now top 3 in frontier coding, while being much cheaper & faster. \n\n5. Grok 4.8 next month.....\n\nThe model machine is just starting up.\n\nGrok will be the workhorse of the upcoming agentic era.",
-        "url": "https://x.com/marsrepublica/status/2102179235766968347",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 268,
-        "likes": 4838,
-        "quotes": 83,
-        "replies": 306,
-        "retweets": 481,
-        "views": 4426886
-      },
-      "url": "https://x.com/elonmusk/status/2102262980230476242",
-      "images": [
-        "https://pbs.twimg.com/media/HSxw3uLWMAECVw3.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 27,
   "page_size": 100,
-  "total": 2781,
+  "total": 2782,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 02:42:42",
+  "updated_at_shanghai": "2026-11-24 03:03:48",
   "account": "elonmusk"
 }

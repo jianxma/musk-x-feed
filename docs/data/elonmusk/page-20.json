@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2110138164811833534",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T22:38:37.000Z",
+      "created_at_shanghai": "2026-10-14 06:38:37",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Lego sets that were researched and bought for me by @Grok @Bot have arrived and Bot automatically stopped checking the shipping status!",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 156,
+        "likes": 4687,
+        "quotes": 101,
+        "replies": 798,
+        "retweets": 392,
+        "views": 857199
+      },
+      "url": "https://x.com/elonmusk/status/2110138164811833534",
+      "images": [
+        "https://pbs.twimg.com/media/HUi3eh5bIAALdj8.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUi3eh5bIAALdj8.jpg?name=small",
+          "width": 942,
+          "height": 2048
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110137566871900530",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5205,75 +5242,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109257757958238715",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T12:20:12.000Z",
-      "created_at_shanghai": "2026-10-11 20:20:12",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Nicki Minaj on Grok, \"Using Grok Bot made me feel like I was cheating in life!\"",
-      "quote": null,
-      "retweet": {
-        "author": "teslaownersSV",
-        "avatar": "https://pbs.twimg.com/profile_images/2089050162710929408/Xy5O8i3g_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 03:24:50",
-        "created_at_utc": "2026-10-10T19:24:50.000Z",
-        "id": "2109002233253605799",
-        "images": [
-          "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/ext_tw_video/2109002148302245889/pu/vid/avc1/720x1280/z5CpWB-mC8s0Yo90.mp4?tag=12",
-            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg",
-            "width": 1080,
-            "height": 1920,
-            "duration": 64.798
-          }
-        ],
-        "name": "Tesla Owners Silicon Valley",
-        "text": "Nicki Minaj on Grok, \"Using Grok Bot made me feel like I was cheating in life!\"",
-        "url": "https://x.com/teslaownersSV/status/2109002233253605799",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 217,
-        "likes": 2211,
-        "quotes": 19,
-        "replies": 90,
-        "retweets": 263,
-        "views": 227074
-      },
-      "url": "https://x.com/elonmusk/status/2109257757958238715",
-      "images": [
-        "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/ext_tw_video/2109002148302245889/pu/vid/avc1/720x1280/z5CpWB-mC8s0Yo90.mp4?tag=12",
-          "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2109002148302245889/pu/img/_hLr2Bwr4Iwma2bL.jpg",
-          "width": 1080,
-          "height": 1920,
-          "duration": 64.798
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 100,
-  "total": 2781,
+  "total": 2782,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 02:42:42",
+  "updated_at_shanghai": "2026-11-24 03:03:48",
   "account": "elonmusk"
 }
