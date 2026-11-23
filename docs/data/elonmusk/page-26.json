@@ -1,6 +1,182 @@
 {
   "posts": [
     {
+      "id": "2104715842319786148",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T23:32:15.000Z",
+      "created_at_shanghai": "2026-09-29 07:32:15",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Not bad",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-09-29 02:48:52",
+        "created_at_utc": "2026-09-28T18:48:52.000Z",
+        "id": "2104644527655145565",
+        "images": [
+          "https://pbs.twimg.com/media/HTUzCm7a0AAn0rC.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTUzCm7a0AAn0rC.jpg?name=small",
+            "width": 4000,
+            "height": 2500
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok 4.7 xHigh ranks #1 in Artificial Analysis Cyber Index\n\nIt's a powerful frontier model performing at the highest level in enterprise cyber defense\n\nOutperforming Fable 5.1 Max, Opus 5.5, Astra 6, GPT-6 and other leading AI systems",
+        "url": "https://x.com/XFreeze/status/2104644527655145565",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 23,
+        "likes": 623,
+        "quotes": 6,
+        "replies": 158,
+        "retweets": 89,
+        "views": 295755
+      },
+      "url": "https://x.com/elonmusk/status/2104715842319786148",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104715560734838855",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T23:31:08.000Z",
+      "created_at_shanghai": "2026-09-29 07:31:08",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 is now on Amazon Bedrock",
+      "quote": null,
+      "retweet": {
+        "author": "SpaceXAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2074224934159876096/aelorWHq_200x200.jpg",
+        "created_at_shanghai": "2026-09-29 07:10:53",
+        "created_at_utc": "2026-09-28T23:10:53.000Z",
+        "id": "2104710467512058027",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104710247701270528/vid/avc1/2400x1260/2RcQYXqRchHNsU-q.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg",
+            "width": 2400,
+            "height": 1260,
+            "duration": 19.233
+          }
+        ],
+        "name": "SpaceXAI",
+        "text": "Grok 4.7 is now on Amazon Bedrock",
+        "url": "https://x.com/SpaceXAI/status/2104710467512058027",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 489,
+        "quotes": 9,
+        "replies": 56,
+        "retweets": 65,
+        "views": 51165
+      },
+      "url": "https://x.com/elonmusk/status/2104715560734838855",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2104710247701270528/vid/avc1/2400x1260/2RcQYXqRchHNsU-q.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104710247701270528/img/OalW3xOGeRtf4xSm.jpg",
+          "width": 2400,
+          "height": 1260,
+          "duration": 19.233
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104715520759271702",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-28T23:30:58.000Z",
+      "created_at_shanghai": "2026-09-29 07:30:58",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "in case you missed it over the weekend, grok @bot can help with your finances! combined with the other connectors available in grok bot you can build custom dashboards for your business, budgeting tools for you and your family, and even find more ways to save you money\n\ntry looking through all the subs you pay for and forgot about and save and make money today with grok bot!",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 03:54:25",
+        "created_at_utc": "2026-09-26T19:54:25.000Z",
+        "id": "2103936247995752705",
+        "images": [
+          "https://pbs.twimg.com/media/HTKt7P3aUAAZptd.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTKt7P3aUAAZptd.jpg?name=small",
+            "width": 4096,
+            "height": 2305
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot now connects to your finances.\n\nLink your bank, card, and investment accounts with the new Finance integration, then ask Bot to help manage your spending, investments, and more.",
+        "url": "https://x.com/bot/status/2103936247995752705",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "poteto",
+        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
+        "created_at_shanghai": "2026-09-29 02:55:10",
+        "created_at_utc": "2026-09-28T18:55:10.000Z",
+        "id": "2104646114427457941",
+        "images": [],
+        "media": [],
+        "name": "lauren",
+        "text": "in case you missed it over the weekend, grok @bot can help with your finances! combined with the other connectors available in grok bot you can build custom dashboards for your business, budgeting tools for you and your family, and even find more ways to save you money\n\ntry looking through all the subs you pay for and forgot about and save and make money today with grok bot!",
+        "url": "https://x.com/poteto/status/2104646114427457941",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 78,
+        "likes": 510,
+        "quotes": 0,
+        "replies": 65,
+        "retweets": 52,
+        "views": 64597
+      },
+      "url": "https://x.com/elonmusk/status/2104715520759271702",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2104709892762120484",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5865,175 +6041,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2103592493119930675",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-25T21:08:27.000Z",
-      "created_at_shanghai": "2026-09-26 05:08:27",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "2017: Austin spent $35 million on homelessness. 2,036 homeless counted.\n\n2025: $118 million. 3,238 homeless.\n\nSpending more than tripled and homelessness went up 59%.\n\nIf you service the homeless lifestyle, you will get more of it.\n\nThe NGOs that run this system get paid by the problem of homelessness, so they have no reason to end it -- in fact, their only incentive is to make sure the problem grows.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-09-25 13:11:44",
-        "created_at_utc": "2026-09-25T05:11:44.000Z",
-        "id": "2103351727734829090",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "The NGOs end up increasing the number of homeless people they manage, because that’s the only way to increase their revenue! Incentives drive outcomes. \n\n“Homeless” is a propaganda word used to describe people on the street who are mentally ill or severely addicted to drugs. The word implies that this is someone who fell a little behind on their mortgage payment and they’re one job offer away from getting back on their feet, which is obviously false if you’ve ever tried talking to a “homeless” person in SF, LA, NY, Austin or anywhere else.\n\nThe honest reality is that we need to bring back asylums for extreme mental illness or drug addiction for those who are a serious danger to themselves or others.",
-        "url": "https://x.com/elonmusk/status/2103351727734829090",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "AustinJustice",
-        "avatar": "https://pbs.twimg.com/profile_images/2092291921720832001/V7lKZFtt_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 02:50:42",
-        "created_at_utc": "2026-09-25T18:50:42.000Z",
-        "id": "2103557827453227394",
-        "images": [
-          "https://pbs.twimg.com/media/HTFWh8oXgAANQRz.png?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTFWh8oXgAANQRz.png?name=small",
-            "width": 2800,
-            "height": 1700
-          }
-        ],
-        "name": "Austin Justice",
-        "text": "2017: Austin spent $35 million on homelessness. 2,036 homeless counted.\n\n2025: $118 million. 3,238 homeless.\n\nSpending more than tripled and homelessness went up 59%.\n\nIf you service the homeless lifestyle, you will get more of it.\n\nThe NGOs that run this system get paid by the problem of homelessness, so they have no reason to end it -- in fact, their only incentive is to make sure the problem grows.",
-        "url": "https://x.com/AustinJustice/status/2103557827453227394",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 59,
-        "likes": 789,
-        "quotes": 12,
-        "replies": 75,
-        "retweets": 213,
-        "views": 60104
-      },
-      "url": "https://x.com/elonmusk/status/2103592493119930675",
-      "images": [
-        "https://pbs.twimg.com/media/HTFWh8oXgAANQRz.png?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTFWh8oXgAANQRz.png?name=small",
-          "width": 2800,
-          "height": 1700
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2103590779385954434",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-25T21:01:39.000Z",
-      "created_at_shanghai": "2026-09-26 05:01:39",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "So beautiful",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 4,
-        "likes": 220,
-        "quotes": 1,
-        "replies": 50,
-        "retweets": 6,
-        "views": 27006
-      },
-      "url": "https://x.com/elonmusk/status/2103590779385954434",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2103538201105481848",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-25T17:32:43.000Z",
-      "created_at_shanghai": "2026-09-26 01:32:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Tesla Semi Pre-Reveal Revealed!\n\nExcited to share this segment of the drone flight one day prior to the Tesla Semi Reveal event.\n\nThey have added branding to several Tesla new generation semis. \n\nIncluding:\nPepsico\nUS Foods\nEinride\nLTS\nNevoya\nOK Produce\nABF Freight\nDHL \nWattEV\nIMC Logistics\nHMD\n\nSome of these we knew about and some are previously unknown.\n@tesla_semi \n@danWpriestley",
-      "quote": null,
-      "retweet": {
-        "author": "HinrichsZane",
-        "avatar": "https://pbs.twimg.com/profile_images/2007447714372763648/HsYVUm1U_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 10:23:19",
-        "created_at_utc": "2026-09-24T02:23:19.000Z",
-        "id": "2102946955857166793",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102944949725790208/img/yxYDRBb0ZcYpQ78r.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102944949725790208/vid/avc1/3840x2160/kqXhmWfEnkOzAxa2.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102944949725790208/img/yxYDRBb0ZcYpQ78r.jpg",
-            "width": 3840,
-            "height": 2160,
-            "duration": 251.3
-          }
-        ],
-        "name": "Zanegler",
-        "text": "Tesla Semi Pre-Reveal Revealed!\n\nExcited to share this segment of the drone flight one day prior to the Tesla Semi Reveal event.\n\nThey have added branding to several Tesla new generation semis. \n\nIncluding:\nPepsico\nUS Foods\nEinride\nLTS\nNevoya\nOK Produce\nABF Freight\nDHL \nWattEV\nIMC Logistics\nHMD\n\nSome of these we knew about and some are previously unknown.\n@tesla_semi \n@danWpriestley",
-        "url": "https://x.com/HinrichsZane/status/2102946955857166793",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 73,
-        "likes": 1664,
-        "quotes": 50,
-        "replies": 85,
-        "retweets": 232,
-        "views": 406508
-      },
-      "url": "https://x.com/elonmusk/status/2103538201105481848",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2102944949725790208/img/yxYDRBb0ZcYpQ78r.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2102944949725790208/vid/avc1/3840x2160/kqXhmWfEnkOzAxa2.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102944949725790208/img/yxYDRBb0ZcYpQ78r.jpg",
-          "width": 3840,
-          "height": 2160,
-          "duration": 251.3
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 26,
   "page_size": 100,
-  "total": 2771,
+  "total": 2774,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 22:59:41",
+  "updated_at_shanghai": "2026-11-23 23:08:05",
   "account": "elonmusk"
 }
