@@ -1,6 +1,111 @@
 {
   "posts": [
     {
+      "id": "2102192595325559159",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T00:25:46.000Z",
+      "created_at_shanghai": "2026-09-22 08:25:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 just released and it's an EXCELLENT model\n\nIt was trained FOR Grok Bot\n\nMeaning this is a fully agentic model trained to do your knowledge work better than you can\n\nIn this video I show you how to use Grok 4.7 and a Grok Bot workflow that will 10x your productivity:",
+      "quote": null,
+      "retweet": {
+        "author": "AlexFinn",
+        "avatar": "https://pbs.twimg.com/profile_images/1745232634278461440/7gQcr_R__200x200.jpg",
+        "created_at_shanghai": "2026-09-22 08:07:47",
+        "created_at_utc": "2026-09-22T00:07:47.000Z",
+        "id": "2102188069483155841",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102187463200718848/vid/avc1/3840x1968/hAmtr6d8MVoU9KT8.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg",
+            "width": 3840,
+            "height": 1968,
+            "duration": 845.136
+          }
+        ],
+        "name": "Alex Finn",
+        "text": "Grok 4.7 just released and it's an EXCELLENT model\n\nIt was trained FOR Grok Bot\n\nMeaning this is a fully agentic model trained to do your knowledge work better than you can\n\nIn this video I show you how to use Grok 4.7 and a Grok Bot workflow that will 10x your productivity:",
+        "url": "https://x.com/AlexFinn/status/2102188069483155841",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1374,
+        "likes": 2194,
+        "quotes": 32,
+        "replies": 172,
+        "retweets": 259,
+        "views": 507962
+      },
+      "url": "https://x.com/elonmusk/status/2102192595325559159",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102187463200718848/vid/avc1/3840x1968/hAmtr6d8MVoU9KT8.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102187463200718848/img/DGn5UvA5262ZnA63.jpg",
+          "width": 3840,
+          "height": 1968,
+          "duration": 845.136
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2102188167860273661",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T00:08:10.000Z",
+      "created_at_shanghai": "2026-09-22 08:08:10",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Cool",
+      "quote": {
+        "author": "aug5thmusic",
+        "avatar": "https://pbs.twimg.com/profile_images/2081713987272814592/Fc_qgJqU_200x200.jpg",
+        "created_at_shanghai": "2026-09-22 03:24:09",
+        "created_at_utc": "2026-09-21T19:24:09.000Z",
+        "id": "2102116692898042206",
+        "images": [
+          "https://pbs.twimg.com/media/HSw3tyda0AAzTSN.png?name=small"
+        ],
+        "name": "Auggie",
+        "text": "This was unexpected. Grok 4.7 scored 100% on my music error detection test, the same as GPT-6 Astra.",
+        "url": "https://x.com/aug5thmusic/status/2102116692898042206",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 261,
+        "likes": 7683,
+        "quotes": 54,
+        "replies": 866,
+        "retweets": 1235,
+        "views": 3484023
+      },
+      "url": "https://x.com/elonmusk/status/2102188167860273661",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102187423098642792",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -3483,8 +3588,8 @@
   ],
   "page": 28,
   "page_size": 100,
-  "total": 2769,
+  "total": 2771,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-23 22:43:28",
+  "updated_at_shanghai": "2026-11-23 22:59:41",
   "account": "elonmusk"
 }
