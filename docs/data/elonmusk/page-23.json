@@ -1,6 +1,71 @@
 {
   "posts": [
     {
+      "id": "2108055045597995366",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T04:41:03.000Z",
+      "created_at_shanghai": "2026-10-08 12:41:03",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot now has X data built in. I've got mine listening for customer feedback, sending me new blog posts that are gaining traction, and a lot more.",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 05:40:18",
+        "created_at_utc": "2026-10-07T21:40:18.000Z",
+        "id": "2107949161878606089",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2107948628950298624/vid/avc1/1920x1080/tlGtL_3iQXfm7WuO.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107948628950298624/img/8oAAyGCZx3U1VURs.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 12.166
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now search, read, and monitor X.",
+        "url": "https://x.com/bot/status/2107949161878606089",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "romanugarte_",
+        "avatar": "https://pbs.twimg.com/profile_images/1899272966850125826/Nq5kbpgO_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 06:43:13",
+        "created_at_utc": "2026-10-07T22:43:13.000Z",
+        "id": "2107964995783074269",
+        "images": [],
+        "media": [],
+        "name": "Roman Ugarte",
+        "text": "Grok Bot now has X data built in. I've got mine listening for customer feedback, sending me new blog posts that are gaining traction, and a lot more.",
+        "url": "https://x.com/romanugarte_/status/2107964995783074269",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 55,
+        "likes": 725,
+        "quotes": 2,
+        "replies": 44,
+        "retweets": 78,
+        "views": 220890
+      },
+      "url": "https://x.com/elonmusk/status/2108055045597995366",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108054781147148329",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5496,75 +5561,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107565952695250986",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T14:09:56.000Z",
-      "created_at_shanghai": "2026-10-06 22:09:56",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: Grok 4.7 takes the #1 spot on VulcanBench Frontier v4, a benchmark for challenging coding tasks. 🥇\n\nThe top three positions all belong to Grok 4.7. Its winning run scored 93.15 and passed all 23 tasks.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-06 22:09:56",
-        "created_at_utc": "2026-10-06T14:09:56.000Z",
-        "id": "2107473432883667317",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107473289446830080/img/Xu9GDaD0Fj32ITXT.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107473289446830080/vid/avc1/1080x1080/aytX15pEXyF2a-xP.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107473289446830080/img/Xu9GDaD0Fj32ITXT.jpg",
-            "width": 1080,
-            "height": 1080,
-            "duration": 9.8
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Grok 4.7 takes the #1 spot on VulcanBench Frontier v4, a benchmark for challenging coding tasks. 🥇\n\nThe top three positions all belong to Grok 4.7. Its winning run scored 93.15 and passed all 23 tasks.",
-        "url": "https://x.com/cb_doge/status/2107473432883667317",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 90,
-        "likes": 1972,
-        "quotes": 27,
-        "replies": 186,
-        "retweets": 247,
-        "views": 352731
-      },
-      "url": "https://x.com/elonmusk/status/2107565952695250986",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2107473289446830080/img/Xu9GDaD0Fj32ITXT.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2107473289446830080/vid/avc1/1080x1080/aytX15pEXyF2a-xP.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107473289446830080/img/Xu9GDaD0Fj32ITXT.jpg",
-          "width": 1080,
-          "height": 1080,
-          "duration": 9.8
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 23,
   "page_size": 100,
-  "total": 2796,
+  "total": 2797,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 23:32:55",
+  "updated_at_shanghai": "2026-11-24 23:49:07",
   "account": "elonmusk"
 }
