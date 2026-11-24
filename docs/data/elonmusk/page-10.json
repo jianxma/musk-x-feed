@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2117422818648555595",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-03T01:05:14.000Z",
+      "created_at_shanghai": "2026-11-03 09:05:14",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot improvements",
+      "quote": {
+        "author": "mattyp",
+        "avatar": "https://pbs.twimg.com/profile_images/2111918243460030464/aVMpxoAo_200x200.jpg",
+        "created_at_shanghai": "2026-11-03 01:07:47",
+        "created_at_utc": "2026-11-02T17:07:47.000Z",
+        "id": "2117302664799396177",
+        "images": [
+          "https://pbs.twimg.com/media/HWIcU5pbIAIQ15R.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2117284064025772032/vid/avc1/3840x2160/Ir2RKulro-fYPEch.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/media/HWIcU5pbIAIQ15R.jpg",
+            "width": 1280,
+            "height": 720,
+            "duration": 265.045
+          }
+        ],
+        "name": "matt palmer",
+        "text": "What's New in Grok Bot\n\n00:14 Shopping cards\n00:27 Product pages\n00:39 Order tracking\n00:53 Payments\n01:33 Custom modes\n01:52 Team Bot logins and setup\n02:09 Share and find Team Bots\n02:51 Connector asks in Slack\n03:12 Contacts in Vault\n03:31 Rapid fire",
+        "url": "https://x.com/mattyp/status/2117302664799396177",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 358,
+        "likes": 2771,
+        "quotes": 49,
+        "replies": 667,
+        "retweets": 331,
+        "views": 717072
+      },
+      "url": "https://x.com/elonmusk/status/2117422818648555595",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2117360990119506022",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5316,53 +5368,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116551882219090231",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-31T15:24:27.000Z",
-      "created_at_shanghai": "2026-10-31 23:24:27",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla and SpaceX have created meaningful wealth for hundreds of thousands of employees over time and improved the retirement savings of hundreds of millions of people",
-      "quote": {
-        "author": "TeslaLarry",
-        "avatar": "https://pbs.twimg.com/profile_images/1991840372314525696/cHOyCMBy_200x200.jpg",
-        "created_at_shanghai": "2026-10-02 05:35:12",
-        "created_at_utc": "2026-10-01T21:35:12.000Z",
-        "id": "2105773551915548693",
-        "images": [],
-        "media": [],
-        "name": "Larry Goldberg",
-        "text": "https://x.com/i/article/2105766271497175040",
-        "url": "https://x.com/TeslaLarry/status/2105773551915548693",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 522,
-        "likes": 11361,
-        "quotes": 99,
-        "replies": 934,
-        "retweets": 1615,
-        "views": 885392
-      },
-      "url": "https://x.com/elonmusk/status/2116551882219090231",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 10,
   "page_size": 100,
-  "total": 2792,
+  "total": 2793,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 17:40:02",
+  "updated_at_shanghai": "2026-11-24 18:47:35",
   "account": "elonmusk"
 }

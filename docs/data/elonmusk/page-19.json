@@ -1,6 +1,60 @@
 {
   "posts": [
     {
+      "id": "2110711866985230838",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T12:38:18.000Z",
+      "created_at_shanghai": "2026-10-15 20:38:18",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Adding a guarantee that you’ll be ok if something goes wrong makes me much more likely to try @bot out for a shopping run!",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 13:57:20",
+        "created_at_utc": "2026-10-15T05:57:20.000Z",
+        "id": "2110610960474079445",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "This works well. If Grok @Bot makes a mistake with a purchase or leaks your card (never happened yet), SpaceX will make you whole.",
+        "url": "https://x.com/elonmusk/status/2110610960474079445",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "DrKnowItAll16",
+        "avatar": "https://pbs.twimg.com/profile_images/1394714611673403393/FpfhW_mM_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 19:19:32",
+        "created_at_utc": "2026-10-15T11:19:32.000Z",
+        "id": "2110692041583734825",
+        "images": [],
+        "media": [],
+        "name": "DrKnowItAll",
+        "text": "Adding a guarantee that you’ll be ok if something goes wrong makes me much more likely to try @bot out for a shopping run!",
+        "url": "https://x.com/DrKnowItAll16/status/2110692041583734825",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 24,
+        "likes": 836,
+        "quotes": 2,
+        "replies": 53,
+        "retweets": 84,
+        "views": 214547
+      },
+      "url": "https://x.com/elonmusk/status/2110711866985230838",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110711793337135550",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5434,71 +5488,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110222367263977851",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T04:13:13.000Z",
-      "created_at_shanghai": "2026-10-14 12:13:13",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Today, we’re open sourcing the full NVIDIA Run:ai platform as part of the NVIDIA DSX AI Factory Platform.\n\nDevelopers, platform teams, and partners can build on production-grade AI workloads and GPU orchestration to improve GPU utilization, increase workload throughput, and bring AI factory solutions to market faster.\n\nDeploy the integrated NVIDIA Run:ai platform or adopt individual components to fit your needs.\n\nSee what’s included, how to get started, and how to contribute: https://nvda.ws/4hRTubt",
-      "quote": null,
-      "retweet": {
-        "author": "NVIDIAAIInfra",
-        "avatar": "https://pbs.twimg.com/profile_images/1859346502243713026/NzLZW_Ag_200x200.jpg",
-        "created_at_shanghai": "2026-10-13 22:27:59",
-        "created_at_utc": "2026-10-13T14:27:59.000Z",
-        "id": "2110014692420706667",
-        "images": [
-          "https://pbs.twimg.com/media/HUhHLd0XIAAtmCo.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUhHLd0XIAAtmCo.jpg?name=small",
-            "width": 1920,
-            "height": 1080
-          }
-        ],
-        "name": "NVIDIA AI Infrastructure",
-        "text": "Today, we’re open sourcing the full NVIDIA Run:ai platform as part of the NVIDIA DSX AI Factory Platform.\n\nDevelopers, platform teams, and partners can build on production-grade AI workloads and GPU orchestration to improve GPU utilization, increase workload throughput, and bring AI factory solutions to market faster.\n\nDeploy the integrated NVIDIA Run:ai platform or adopt individual components to fit your needs.\n\nSee what’s included, how to get started, and how to contribute: https://nvda.ws/4hRTubt",
-        "url": "https://x.com/NVIDIAAIInfra/status/2110014692420706667",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 118,
-        "likes": 835,
-        "quotes": 24,
-        "replies": 40,
-        "retweets": 106,
-        "views": 150763
-      },
-      "url": "https://x.com/elonmusk/status/2110222367263977851",
-      "images": [
-        "https://pbs.twimg.com/media/HUhHLd0XIAAtmCo.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUhHLd0XIAAtmCo.jpg?name=small",
-          "width": 1920,
-          "height": 1080
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 19,
   "page_size": 100,
-  "total": 2792,
+  "total": 2793,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 17:40:02",
+  "updated_at_shanghai": "2026-11-24 18:47:35",
   "account": "elonmusk"
 }
