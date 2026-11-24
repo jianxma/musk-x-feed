@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2110715556328579219",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-15T12:52:58.000Z",
+      "created_at_shanghai": "2026-10-15 20:52:58",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Maybe we should start a competitor to Amazon 🤔",
+      "quote": {
+        "author": "thecsguy",
+        "avatar": "https://pbs.twimg.com/profile_images/1880377637086064640/FT14IBXr_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 19:24:00",
+        "created_at_utc": "2026-10-15T11:24:00.000Z",
+        "id": "2110693166059851836",
+        "images": [],
+        "media": [],
+        "name": "nick",
+        "text": "amazon is blocking grok @bots from ordering, and elon's answer is just have your bot buy it somewhere else.\n\none of my grok bots only handles my amazon returns, so i'm watching this one closely.\n\nwould you switch stores for your bot? 🛒\n\nElon, i think its time for an X Shop? 👀",
+        "url": "https://x.com/thecsguy/status/2110693166059851836",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 2061,
+        "likes": 69944,
+        "quotes": 1597,
+        "replies": 9607,
+        "retweets": 6259,
+        "views": 2379422
+      },
+      "url": "https://x.com/elonmusk/status/2110715556328579219",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110715206657798321",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5447,71 +5488,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2110225444717174932",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-14T04:25:26.000Z",
-      "created_at_shanghai": "2026-10-14 12:25:26",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot or ChatGPT Dots?\n\nBe honest…",
-      "quote": null,
-      "retweet": {
-        "author": "ConnorTalksAI",
-        "avatar": "https://pbs.twimg.com/profile_images/2072770014290059264/WE2Iad86_200x200.jpg",
-        "created_at_shanghai": "2026-10-14 08:08:04",
-        "created_at_utc": "2026-10-14T00:08:04.000Z",
-        "id": "2110160673586008537",
-        "images": [
-          "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small",
-            "width": 1672,
-            "height": 941
-          }
-        ],
-        "name": "Connor",
-        "text": "Grok Bot or ChatGPT Dots?\n\nBe honest…",
-        "url": "https://x.com/ConnorTalksAI/status/2110160673586008537",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 37,
-        "likes": 610,
-        "quotes": 9,
-        "replies": 228,
-        "retweets": 61,
-        "views": 174940
-      },
-      "url": "https://x.com/elonmusk/status/2110225444717174932",
-      "images": [
-        "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small",
-          "width": 1672,
-          "height": 941
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 19,
   "page_size": 100,
-  "total": 2795,
+  "total": 2796,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 23:29:58",
+  "updated_at_shanghai": "2026-11-24 23:32:55",
   "account": "elonmusk"
 }

@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2110225444717174932",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T04:25:26.000Z",
+      "created_at_shanghai": "2026-10-14 12:25:26",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot or ChatGPT Dots?\n\nBe honest…",
+      "quote": null,
+      "retweet": {
+        "author": "ConnorTalksAI",
+        "avatar": "https://pbs.twimg.com/profile_images/2072770014290059264/WE2Iad86_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 08:08:04",
+        "created_at_utc": "2026-10-14T00:08:04.000Z",
+        "id": "2110160673586008537",
+        "images": [
+          "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small",
+            "width": 1672,
+            "height": 941
+          }
+        ],
+        "name": "Connor",
+        "text": "Grok Bot or ChatGPT Dots?\n\nBe honest…",
+        "url": "https://x.com/ConnorTalksAI/status/2110160673586008537",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 37,
+        "likes": 610,
+        "quotes": 9,
+        "replies": 228,
+        "retweets": 61,
+        "views": 174940
+      },
+      "url": "https://x.com/elonmusk/status/2110225444717174932",
+      "images": [
+        "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUjL8toW0AA4431.jpg?name=small",
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2110223292430967050",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5093,75 +5152,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109460125471715428",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-12T01:44:20.000Z",
-      "created_at_shanghai": "2026-10-12 09:44:20",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Asked Grok Bot to build itself an Apple Vision Pro app. I now have interactive bots that I can talk to and place around my apartment.",
-      "quote": null,
-      "retweet": {
-        "author": "Baconbrix",
-        "avatar": "https://pbs.twimg.com/profile_images/2102652233762709504/LOuSkpLB_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 06:11:37",
-        "created_at_utc": "2026-10-11T22:11:37.000Z",
-        "id": "2109406594241060901",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2109406307308781568/img/ho1nZwtsBLfiUWVl.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2109406307308781568/vid/avc1/1920x1080/zA-ydN72zM63dMJY.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109406307308781568/img/ho1nZwtsBLfiUWVl.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 37.918
-          }
-        ],
-        "name": "Evan Bacon",
-        "text": "Asked Grok Bot to build itself an Apple Vision Pro app. I now have interactive bots that I can talk to and place around my apartment.",
-        "url": "https://x.com/Baconbrix/status/2109406594241060901",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1213,
-        "likes": 5828,
-        "quotes": 106,
-        "replies": 284,
-        "retweets": 430,
-        "views": 487319
-      },
-      "url": "https://x.com/elonmusk/status/2109460125471715428",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2109406307308781568/img/ho1nZwtsBLfiUWVl.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2109406307308781568/vid/avc1/1920x1080/zA-ydN72zM63dMJY.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109406307308781568/img/ho1nZwtsBLfiUWVl.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 37.918
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 100,
-  "total": 2795,
+  "total": 2796,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 23:29:58",
+  "updated_at_shanghai": "2026-11-24 23:32:55",
   "account": "elonmusk"
 }

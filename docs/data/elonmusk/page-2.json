@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2124293755813638376",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-22T00:07:53.000Z",
+      "created_at_shanghai": "2026-11-22 08:07:53",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@jamesdouma It is mesmerizing to watch. \n\nWhere this is actually useful is when you want to tap the exact drop-off or parking location on the screen that you want your car to target.",
+      "quote": {
+        "author": "elonmusk",
+        "name": "Elon Musk",
+        "text": "@jamesdouma It is mesmerizing to watch. \n\nWhere this is actually useful is when you want to tap the exact drop-off or parking location on the screen that you want your car to target.",
+        "url": "https://x.com/elonmusk/status/2124293720728346919"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 18,
+        "likes": 664,
+        "quotes": 7,
+        "replies": 117,
+        "retweets": 62,
+        "views": 62917
+      },
+      "url": "https://x.com/elonmusk/status/2124293755813638376",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2124293060322599045",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -3873,47 +3906,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2123295424056598774",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-19T06:00:52.000Z",
-      "created_at_shanghai": "2026-11-19 14:00:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Elon gave two talks today at DealBook and TomorrowX Summit, revealing more about SpaceX's plans than most earnings calls. Here are the 11 key takeaways:\n\n1. SpaceX is scaling AI compute at an extraordinary pace:\n\nSpaceX is adding roughly 500 MW monthly, equivalent to 220,000 GB300s. Elon expects over 1 GW monthly by end-2027: a 6 GW annualized pace today, doubling to 12 GW. \n\n2. Its build costs are far below industry estimates:\n\nElon says outside estimates are off by up to 2x, with SpaceX building at roughly 60% of industry costs. Its in-house \"Army X\" builds the data centers, while Tesla Megapacks smooth training power. I'd already been modeling a 25–30% SpaceX cost advantage. \n\n3. Anthropic could become a 10 GW customer:\n\nAnthropic told Elon its most likely outcome is renting another 10 GW from SpaceX, on top of existing capacity. Contracts allow termination with 3–6 months' notice, but Anthropic says staying is \"extremely likely.\" This reinforces my model that Anthropic will take most upcoming capacity.\n\n4. SpaceX is targeting a vastly larger telecom market:\n\nElon argues AT&T and Verizon won't disappear as bandwidth demand explodes. Humans communicate at roughly 100 bits per second, while superintelligence and robots could require a trillion. SpaceX is targeting a market orders of magnitude larger than existing telecom revenue, as I'd modeled. Even more interestingly, this creates an opportunity to push its AI business further.\n\n5. Its next-generation satellite network arrives next year:\n\nDirect to Cell V2 launches with 40x V1's bandwidth. Micro cell towers using 800 MHz and rooftop units resembling Starlink dishes will extend indoor coverage, with rooftop hardware entering production next year. Starlink is becoming a full scale carrier. \n\n6. SpaceXSI has rebuilt its entire AI software stack:\n\nOver six to eight months, it rewrote training, reinforcement learning, and inference from scratch, close to the metal in C and C++. Elon thinks it \"might have the best training stack software in the world.\" Grok 4.8 is also being built for practical usefulness rather than benchmark leadership, which is great for Grokbot.\n\n7. Terafab could become the largest project on Earth:\n\nThe facility is planned to reach 100 million square feet, with phase-one volume production targeted for late 2028. Elon says established chipmakers are risk-averse because of massive capex, while SpaceX will take risks and iterate rapidly toward a better chip process by 2028.\n\n8. Optimus is moving toward industrial work:\n\nElon expects an unstaged demonstration in a month or two and says Optimus could do dishes within 12–18 months. Its first major industrial role will be mining and refining ore for national security.\n\n9. A Tesla–SpaceX merger is becoming increasingly logical:\n\nElon says the companies are \"probably\" better together as AI and robotics bring them closer. Both have AI software teams and advanced chip-design capabilities, while superintelligence compute could eventually move into orbit. Shareholders will decide; Elon says he shouldn't receive an award simply for merging them.\n\n10. Ship 42 could accelerate the entire Starship reuse program:\n\nShip 42 needed only minor repairs before flying again, but SpaceX is retiring it for public display. This brings rapid reuse much closer.\n\n11. SpaceX is targeting 200 GW of annual solar manufacturing for space:\n\nThat's roughly 40% of average US electricity consumption. Its Starmind compute unit delivers the same capability at roughly a quarter the size of a Vera Rubin NVL72 rack, which is a win in space. Elon says it's also simpler than Starlink V3, which is already in production.\n\nSimply put, SpaceX is building toward a trillion-dollar annual revenue business within just a few years, at scale never seen before.\n\nMany of these numbers I've already modeled and shared over the past few months. Yesterday's announcements bring those projections closer to reality.\n\nThe scale of what's coming is extraordinary!",
-      "quote": {
-        "author": "marsrepublica",
-        "name": "samuel",
-        "text": "Elon gave two talks today at DealBook and TomorrowX Summit, revealing more about SpaceX's plans than most earnings calls. Here are the 11 key takeaways:\n\n1. SpaceX is scaling AI compute at an extraordinary pace:\n\nSpaceX is adding roughly 500 MW monthly, equivalent to 220,000 GB300s. Elon expects over 1 GW monthly by end-2027: a 6 GW annualized pace today, doubling to 12 GW. \n\n2. Its build costs are far below industry estimates:\n\nElon says outside estimates are off by up to 2x, with SpaceX building at roughly 60% of industry costs. Its in-house \"Army X\" builds the data centers, while Tesla Megapacks smooth training power. I'd already been modeling a 25–30% SpaceX cost advantage. \n\n3. Anthropic could become a 10 GW customer:\n\nAnthropic told Elon its most likely outcome is renting another 10 GW from SpaceX, on top of existing capacity. Contracts allow termination with 3–6 months' notice, but Anthropic says staying is \"extremely likely.\" This reinforces my model that Anthropic will take most upcoming capacity.\n\n4. SpaceX is targeting a vastly larger telecom market:\n\nElon argues AT&T and Verizon won't disappear as bandwidth demand explodes. Humans communicate at roughly 100 bits per second, while superintelligence and robots could require a trillion. SpaceX is targeting a market orders of magnitude larger than existing telecom revenue, as I'd modeled. Even more interestingly, this creates an opportunity to push its AI business further.\n\n5. Its next-generation satellite network arrives next year:\n\nDirect to Cell V2 launches with 40x V1's bandwidth. Micro cell towers using 800 MHz and rooftop units resembling Starlink dishes will extend indoor coverage, with rooftop hardware entering production next year. Starlink is becoming a full scale carrier. \n\n6. SpaceXSI has rebuilt its entire AI software stack:\n\nOver six to eight months, it rewrote training, reinforcement learning, and inference from scratch, close to the metal in C and C++. Elon thinks it \"might have the best training stack software in the world.\" Grok 4.8 is also being built for practical usefulness rather than benchmark leadership, which is great for Grokbot.\n\n7. Terafab could become the largest project on Earth:\n\nThe facility is planned to reach 100 million square feet, with phase-one volume production targeted for late 2028. Elon says established chipmakers are risk-averse because of massive capex, while SpaceX will take risks and iterate rapidly toward a better chip process by 2028.\n\n8. Optimus is moving toward industrial work:\n\nElon expects an unstaged demonstration in a month or two and says Optimus could do dishes within 12–18 months. Its first major industrial role will be mining and refining ore for national security.\n\n9. A Tesla–SpaceX merger is becoming increasingly logical:\n\nElon says the companies are \"probably\" better together as AI and robotics bring them closer. Both have AI software teams and advanced chip-design capabilities, while superintelligence compute could eventually move into orbit. Shareholders will decide; Elon says he shouldn't receive an award simply for merging them.\n\n10. Ship 42 could accelerate the entire Starship reuse program:\n\nShip 42 needed only minor repairs before flying again, but SpaceX is retiring it for public display. This brings rapid reuse much closer.\n\n11. SpaceX is targeting 200 GW of annual solar manufacturing for space:\n\nThat's roughly 40% of average US electricity consumption. Its Starmind compute unit delivers the same capability at roughly a quarter the size of a Vera Rubin NVL72 rack, which is a win in space. Elon says it's also simpler than Starlink V3, which is already in production.\n\nSimply put, SpaceX is building toward a trillion-dollar annual revenue business within just a few years, at scale never seen before.\n\nMany of these numbers I've already modeled and shared over the past few months. Yesterday's announcements bring those projections closer to reality.\n\nThe scale of what's coming is extraordinary!",
-        "url": "https://x.com/marsrepublica/status/2123274994952065291"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 36,
-        "likes": 174,
-        "quotes": 0,
-        "replies": 13,
-        "retweets": 42,
-        "views": 16765
-      },
-      "url": "https://x.com/elonmusk/status/2123295424056598774",
-      "images": [
-        "https://pbs.twimg.com/media/HXdjWT8WIAAWttm.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 100,
-  "total": 2795,
+  "total": 2796,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 23:29:58",
+  "updated_at_shanghai": "2026-11-24 23:32:55",
   "account": "elonmusk"
 }

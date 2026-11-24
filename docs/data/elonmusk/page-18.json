@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2111323638238515408",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-17T05:09:16.000Z",
+      "created_at_shanghai": "2026-10-17 13:09:16",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Designed, engineered, and made in America",
+      "quote": null,
+      "retweet": {
+        "author": "woodhaus2",
+        "avatar": "https://pbs.twimg.com/profile_images/938856614567624704/BR1_Brla_200x200.jpg",
+        "created_at_shanghai": "2026-10-17 12:57:30",
+        "created_at_utc": "2026-10-17T04:57:30.000Z",
+        "id": "2111320679090102695",
+        "images": [
+          "https://pbs.twimg.com/media/HUzq91ZaAAAROoh.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUzq91ZaAAAROoh.jpg?name=small",
+            "width": 2048,
+            "height": 1536
+          }
+        ],
+        "name": "Franz von Holzhausen",
+        "text": "Designed, engineered, and made in America",
+        "url": "https://x.com/woodhaus2/status/2111320679090102695",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 68,
+        "likes": 2659,
+        "quotes": 36,
+        "replies": 200,
+        "retweets": 261,
+        "views": 67442
+      },
+      "url": "https://x.com/elonmusk/status/2111323638238515408",
+      "images": [
+        "https://pbs.twimg.com/media/HUzq91ZaAAAROoh.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUzq91ZaAAAROoh.jpg?name=small",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2111321125384790078",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5792,53 +5851,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110715556328579219",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-15T12:52:58.000Z",
-      "created_at_shanghai": "2026-10-15 20:52:58",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Maybe we should start a competitor to Amazon 🤔",
-      "quote": {
-        "author": "thecsguy",
-        "avatar": "https://pbs.twimg.com/profile_images/1880377637086064640/FT14IBXr_200x200.jpg",
-        "created_at_shanghai": "2026-10-15 19:24:00",
-        "created_at_utc": "2026-10-15T11:24:00.000Z",
-        "id": "2110693166059851836",
-        "images": [],
-        "media": [],
-        "name": "nick",
-        "text": "amazon is blocking grok @bots from ordering, and elon's answer is just have your bot buy it somewhere else.\n\none of my grok bots only handles my amazon returns, so i'm watching this one closely.\n\nwould you switch stores for your bot? 🛒\n\nElon, i think its time for an X Shop? 👀",
-        "url": "https://x.com/thecsguy/status/2110693166059851836",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2061,
-        "likes": 69944,
-        "quotes": 1597,
-        "replies": 9607,
-        "retweets": 6259,
-        "views": 2379422
-      },
-      "url": "https://x.com/elonmusk/status/2110715556328579219",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 100,
-  "total": 2795,
+  "total": 2796,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 23:29:58",
+  "updated_at_shanghai": "2026-11-24 23:32:55",
   "account": "elonmusk"
 }

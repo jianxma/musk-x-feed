@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108313143533306024",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T21:46:38.000Z",
+      "created_at_shanghai": "2026-10-09 05:46:38",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "heard you have other apps...that's cute",
+      "quote": null,
+      "retweet": {
+        "author": "X",
+        "avatar": "https://pbs.twimg.com/profile_images/1955359038532653056/OSHY3ewP_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 04:51:27",
+        "created_at_utc": "2026-10-08T20:51:27.000Z",
+        "id": "2108299253655257139",
+        "images": [],
+        "media": [],
+        "name": "X",
+        "text": "heard you have other apps...that's cute",
+        "url": "https://x.com/X/status/2108299253655257139",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 127,
+        "likes": 3532,
+        "quotes": 156,
+        "replies": 801,
+        "retweets": 355,
+        "views": 275056
+      },
+      "url": "https://x.com/elonmusk/status/2108313143533306024",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108311744255021547",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5425,64 +5466,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108054781147148329",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T04:40:00.000Z",
-      "created_at_shanghai": "2026-10-08 12:40:00",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Exactly",
-      "quote": {
-        "author": "AsFoundX",
-        "avatar": "https://pbs.twimg.com/profile_images/2095292024899465217/wOMt6_bi_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 19:08:20",
-        "created_at_utc": "2026-10-07T11:08:20.000Z",
-        "id": "2107790120015335908",
-        "images": [
-          "https://pbs.twimg.com/ext_tw_video_thumb/2107779242394042368/pu/img/ZAZOI7jp8XhN9dku.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/ext_tw_video/2107779242394042368/pu/vid/avc1/720x720/45WPc-0xYVk1zlx1.mp4?tag=12",
-            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2107779242394042368/pu/img/ZAZOI7jp8XhN9dku.jpg",
-            "width": 1080,
-            "height": 1080,
-            "duration": 59.952
-          }
-        ],
-        "name": "As Found",
-        "text": "🚨 ELON MUSK ON NGOs AND USAID\n\nElon said the useful parts of USAID were not deleted. They were moved to the State Department.\n\nThe problem was the rest. Groups kept saying the money was for kids or for disease work. When his team asked for proof, they got nothing.\n\nNo kids. No caregivers. No one to talk to.\n\nWhat they found instead was an enormous amount of fraud. Very little of the money reached the children, if anything at all. https://x.com/MarsUniversityX/status/2107779306105536512/video/1",
-        "url": "https://x.com/AsFoundX/status/2107790120015335908",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 146,
-        "likes": 4648,
-        "quotes": 18,
-        "replies": 363,
-        "retweets": 873,
-        "views": 719881
-      },
-      "url": "https://x.com/elonmusk/status/2108054781147148329",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 22,
   "page_size": 100,
-  "total": 2795,
+  "total": 2796,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 23:29:58",
+  "updated_at_shanghai": "2026-11-24 23:32:55",
   "account": "elonmusk"
 }
