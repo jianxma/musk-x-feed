@@ -1,6 +1,108 @@
 {
   "posts": [
     {
+      "id": "2107494267816186338",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-06T15:32:43.000Z",
+      "created_at_shanghai": "2026-10-06 23:32:43",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok 4.7 is excellent at dealing with large code repositories",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-06 18:17:52",
+        "created_at_utc": "2026-10-06T10:17:52.000Z",
+        "id": "2107415031667392567",
+        "images": [
+          "https://pbs.twimg.com/media/HT8Ky3kbgAArjFo.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HT8Ky3kbgAArjFo.jpg?name=small",
+            "width": 4000,
+            "height": 2500
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok 4.7 takes the TOP 3 spots on VulcanBench Frontier v4, outperforming Fable 5.1, Opus 5.5, GPT-6 Astra, GPT-6.1 Sol and other leading frontier models\n\n• Grok 4.7 xHigh - 93.15\n• Grok 4.7 High - 92.71\n• Grok 4.7 Medium - 92.30\n\nVulcanBench Frontier v4 tests whether AI models can handle difficult repository-level software engineering work rather than simply generate isolated code snippets\n\nThe benchmark contains 23 behavioural-reconstruction tasks where models have to rebuild legacy software to match its actual behaviour, with functional correctness tested through hidden tests alongside security, lint/complexity and code quality\n\nAnd the task results are just as impressive:\n• Grok 4.7 xHigh - 23/23 passed\n• Grok 4.7 High - 22/23 passed\n• Grok 4.7 Medium - 21/23 passed\n\nGrok 4.7 took all #1, #2 and #3 spots",
+        "url": "https://x.com/XFreeze/status/2107415031667392567",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 203,
+        "likes": 3875,
+        "quotes": 42,
+        "replies": 486,
+        "retweets": 411,
+        "views": 2702748
+      },
+      "url": "https://x.com/elonmusk/status/2107494267816186338",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2107493516741939571",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-06T15:29:44.000Z",
+      "created_at_shanghai": "2026-10-06 23:29:44",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot tips",
+      "quote": {
+        "author": "mattyp",
+        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
+        "created_at_shanghai": "2026-10-06 23:00:03",
+        "created_at_utc": "2026-10-06T15:00:03.000Z",
+        "id": "2107486048154738995",
+        "images": [
+          "https://pbs.twimg.com/media/HTGOGoXbYAEvkCh.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2103607629490909184/vid/avc1/3840x2160/Thbk9YchK6iM5FM3.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/media/HTGOGoXbYAEvkCh.jpg",
+            "width": 7206,
+            "height": 4053,
+            "duration": 303.033
+          }
+        ],
+        "name": "matt palmer",
+        "text": "I gave Grok Bot a printer. Now, it helps me plan my day\n\n1:18 Prototyping with @bot\n2:02 Printer access through desktop\n2:55 Pulling calendar, @X, and workouts\n3:46 Automating\n4:32 Why go physical",
+        "url": "https://x.com/mattyp/status/2107486048154738995",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 577,
+        "likes": 2872,
+        "quotes": 22,
+        "replies": 387,
+        "retweets": 322,
+        "views": 1870499
+      },
+      "url": "https://x.com/elonmusk/status/2107493516741939571",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2107702262227415400",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5570,133 +5672,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2106100526744240519",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-02T19:14:29.000Z",
-      "created_at_shanghai": "2026-10-03 03:14:29",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Actual amount that SpaceX saved taxpayers is even higher now",
-      "quote": {
-        "author": "TeslaLarry",
-        "avatar": "https://pbs.twimg.com/profile_images/1991840372314525696/cHOyCMBy_200x200.jpg",
-        "created_at_shanghai": "2026-10-03 01:12:12",
-        "created_at_utc": "2026-10-02T17:12:12.000Z",
-        "id": "2106069752883888391",
-        "images": [
-          "https://pbs.twimg.com/media/HTpDPTpWkAAP3Xm.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTpDPTpWkAAP3Xm.jpg?name=small",
-            "width": 1200,
-            "height": 1350
-          }
-        ],
-        "name": "Larry Goldberg",
-        "text": "The Washington Post famously claimed Elon Musk's companies received $38B from US governments. The truth? Elon Musk's company, SpaceX, SAVED the US Government (and taxpayers) an estimated $14B. I've covered that in detail in the upcoming article, but here's the graphic:",
-        "url": "https://x.com/TeslaLarry/status/2106069752883888391",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 12,
-        "likes": 335,
-        "quotes": 5,
-        "replies": 64,
-        "retweets": 56,
-        "views": 225411
-      },
-      "url": "https://x.com/elonmusk/status/2106100526744240519",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2106098911840772412",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-02T19:08:04.000Z",
-      "created_at_shanghai": "2026-10-03 03:08:04",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Beautiful view of Starlink V3 deployment",
-      "quote": {
-        "author": "SpaceX",
-        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
-        "created_at_shanghai": "2026-10-03 02:33:55",
-        "created_at_utc": "2026-10-02T18:33:55.000Z",
-        "id": "2106090316747207047",
-        "images": [
-          "https://pbs.twimg.com/media/HTpVwjtWsAA5pW5.jpg?name=small",
-          "https://pbs.twimg.com/media/HTpVy8JXsAAM92t.jpg?name=small",
-          "https://pbs.twimg.com/media/HTpV0zqXYAAxnFD.jpg?name=small",
-          "https://pbs.twimg.com/media/HTpV2xdXsAAZ_Ek.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTpVwjtWsAA5pW5.jpg?name=small",
-            "width": 3840,
-            "height": 2160
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTpVy8JXsAAM92t.jpg?name=small",
-            "width": 1805,
-            "height": 1015
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTpV0zqXYAAxnFD.jpg?name=small",
-            "width": 3840,
-            "height": 2160
-          },
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTpV2xdXsAAZ_Ek.jpg?name=small",
-            "width": 3840,
-            "height": 2160
-          }
-        ],
-        "name": "SpaceX",
-        "text": "Starship's first orbital flight delivered 26 Starlink V3 satellites to space",
-        "url": "https://x.com/SpaceX/status/2106090316747207047",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 34,
-        "likes": 953,
-        "quotes": 11,
-        "replies": 184,
-        "retweets": 126,
-        "views": 322841
-      },
-      "url": "https://x.com/elonmusk/status/2106098911840772412",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 24,
   "page_size": 100,
-  "total": 2799,
-  "total_pages": 28,
-  "updated_at_shanghai": "2026-11-25 00:20:26",
+  "total": 2801,
+  "total_pages": 29,
+  "updated_at_shanghai": "2026-11-25 00:24:19",
   "account": "elonmusk"
 }
