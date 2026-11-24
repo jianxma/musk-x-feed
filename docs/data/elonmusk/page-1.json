@@ -1,6 +1,76 @@
 {
   "posts": [
     {
+      "id": "2125259800636195028",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-24T16:06:36.000Z",
+      "created_at_shanghai": "2026-11-25 00:06:36",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @teslaownersSV",
+      "quote": {
+        "author": "teslaownersSV",
+        "name": "Tesla Owners Silicon Valley",
+        "text": "Andrej Karpathy on Elon Musk: \"Elon is a very efficient warrior in the fight against entropy in organizations.\"",
+        "url": "https://x.com/teslaownersSV/status/2124928801553428777"
+      },
+      "retweet": {
+        "author": "teslaownersSV",
+        "avatar": "https://pbs.twimg.com/profile_images/2120919412295577601/oQpYa5Zu_200x200.jpg",
+        "created_at_shanghai": "2026-11-24 02:11:20",
+        "created_at_utc": "2026-11-23T18:11:20.000Z",
+        "id": "2124928801553428777",
+        "images": [
+          "https://pbs.twimg.com/ext_tw_video_thumb/2124928771102846976/pu/img/H9MvngLm4YnvfdJ6.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/ext_tw_video/2124928771102846976/pu/vid/avc1/1280x720/ErOWl6FINXGuPaN2.mp4?tag=12",
+            "hls_url": "https://video.twimg.com/ext_tw_video/2124928771102846976/pu/pl/bfsCCQpqy3w9HGl-.m3u8?tag=12&v=fbc",
+            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2124928771102846976/pu/img/H9MvngLm4YnvfdJ6.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 64.9
+          }
+        ],
+        "name": "Tesla Owners Silicon Valley",
+        "text": "Andrej Karpathy on Elon Musk: \"Elon is a very efficient warrior in the fight against entropy in organizations.\"",
+        "url": "https://x.com/teslaownersSV/status/2124928801553428777",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "likes": 309,
+        "retweets": 53,
+        "replies": 37,
+        "bookmarks": 24,
+        "quotes": 5,
+        "views": 31318
+      },
+      "url": "https://x.com/elonmusk/status/2125259800636195028",
+      "images": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2124928771102846976/pu/img/H9MvngLm4YnvfdJ6.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/ext_tw_video/2124928771102846976/pu/vid/avc1/1280x720/ErOWl6FINXGuPaN2.mp4?tag=12",
+          "hls_url": "https://video.twimg.com/ext_tw_video/2124928771102846976/pu/pl/bfsCCQpqy3w9HGl-.m3u8?tag=12&v=fbc",
+          "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2124928771102846976/pu/img/H9MvngLm4YnvfdJ6.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 64.9
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2125253316917739534",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4128,45 +4198,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2124294755316310346",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-22T00:11:51.000Z",
-      "created_at_shanghai": "2026-11-22 08:11:51",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla FSD V15 is a banger release!\n\nCompletely new architecture that deserves being called “super” intelligence, as it drives better than human intelligence.",
-      "quote": {
-        "author": "TeslaSI",
-        "name": "Tesla Super Intelligence",
-        "text": "Full release notes below\n\n– – –  \n\nv15 upgrades every part of the end-to-end driving network. Includes:\n\nUpgraded vision encoder shared between FSD, Robotaxi, and Optimus, which is trained on millions of internet videos for improved generalization and data efficiency, improving the critical intervention rate by 25x.\n\nIntroduced Tesla Reality View, replacing all of the explicit model signals into a single end-to-end visualization using less total compute.\n\nImproved navigation by using an end-to-end learned model based on route preference data from the fleet.\n\nImproved parking location selection by using personalized parking history, and the map will now display multiple parking options at your destination.\n\nImproved driver monitoring by increasing vision-based attention monitoring availability with hats and sunglasses and decreasing strictness in higher speed driver profiles.\n\nImproved detection of road signs, small animals, road debris, and chains.\n\nImproved detection of potholes, road details, and avoidance of deep standing water.\n\nImproved speed handling for each driver profile, school zones and speed limits, and inclement weather.  \n\nImproved Autoshift functionality by unifying with FSD-based gear predictions.",
-        "url": "https://x.com/TeslaSI/status/2124229673056113100"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "likes": 977,
-        "retweets": 141,
-        "replies": 231,
-        "bookmarks": 46,
-        "quotes": 26,
-        "views": 272941
-      },
-      "url": "https://x.com/elonmusk/status/2124294755316310346",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2797,
+  "total": 2798,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 23:49:07",
+  "updated_at_shanghai": "2026-11-25 00:10:22",
   "account": "elonmusk"
 }

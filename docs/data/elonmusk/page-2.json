@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2124294755316310346",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-22T00:11:51.000Z",
+      "created_at_shanghai": "2026-11-22 08:11:51",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Tesla FSD V15 is a banger release!\n\nCompletely new architecture that deserves being called “super” intelligence, as it drives better than human intelligence.",
+      "quote": {
+        "author": "TeslaSI",
+        "name": "Tesla Super Intelligence",
+        "text": "Full release notes below\n\n– – –  \n\nv15 upgrades every part of the end-to-end driving network. Includes:\n\nUpgraded vision encoder shared between FSD, Robotaxi, and Optimus, which is trained on millions of internet videos for improved generalization and data efficiency, improving the critical intervention rate by 25x.\n\nIntroduced Tesla Reality View, replacing all of the explicit model signals into a single end-to-end visualization using less total compute.\n\nImproved navigation by using an end-to-end learned model based on route preference data from the fleet.\n\nImproved parking location selection by using personalized parking history, and the map will now display multiple parking options at your destination.\n\nImproved driver monitoring by increasing vision-based attention monitoring availability with hats and sunglasses and decreasing strictness in higher speed driver profiles.\n\nImproved detection of road signs, small animals, road debris, and chains.\n\nImproved detection of potholes, road details, and avoidance of deep standing water.\n\nImproved speed handling for each driver profile, school zones and speed limits, and inclement weather.  \n\nImproved Autoshift functionality by unifying with FSD-based gear predictions.",
+        "url": "https://x.com/TeslaSI/status/2124229673056113100"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 977,
+        "retweets": 141,
+        "replies": 231,
+        "bookmarks": 46,
+        "quotes": 26,
+        "views": 272941
+      },
+      "url": "https://x.com/elonmusk/status/2124294755316310346",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2124293999704015018",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -3868,50 +3901,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2123297185160933681",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-19T06:07:52.000Z",
-      "created_at_shanghai": "2026-11-19 14:07:52",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Ford is officially in the battery business.  We’ll be the first to deliver LFP batteries in the U.S. for mainstream consumer automotive use and I couldn’t be prouder of the @Ford team. They've started battery cell production at BlueOval Battery Park Michigan and are shipping our first LFP prismatic cells to Louisville Assembly Plant where they'll power #FordFathom prototypes.\n\nThis is a significant step for us. We’re building capability to deliver batteries for more affordable electric vehicles and applying that same LFP technology and manufacturing expertise to build a new energy storage business with Ford Energy.\n\nCongratulations to our talented team on this milestone!\n\nLearn more from Charles Poon, vice president of Hardware Engineering at Ford: https://www.fromtheroad.ford.com/us/en/articles/2026/ford-fathom-lfp-prismatic-battery-cells-ship",
-      "quote": {
-        "author": "jimfarley98",
-        "name": "Jim Farley",
-        "text": "Ford is officially in the battery business.  We’ll be the first to deliver LFP batteries in the U.S. for mainstream consumer automotive use and I couldn’t be prouder of the @Ford team. They've started battery cell production at BlueOval Battery Park Michigan and are shipping our first LFP prismatic cells to Louisville Assembly Plant where they'll power #FordFathom prototypes.\n\nThis is a significant step for us. We’re building capability to deliver batteries for more affordable electric vehicles and applying that same LFP technology and manufacturing expertise to build a new energy storage business with Ford Energy.\n\nCongratulations to our talented team on this milestone!\n\nLearn more from Charles Poon, vice president of Hardware Engineering at Ford: https://www.fromtheroad.ford.com/us/en/articles/2026/ford-fathom-lfp-prismatic-battery-cells-ship",
-        "url": "https://x.com/jimfarley98/status/2123114023810166928"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 88,
-        "likes": 1929,
-        "quotes": 44,
-        "replies": 177,
-        "retweets": 153,
-        "views": 121295
-      },
-      "url": "https://x.com/elonmusk/status/2123297185160933681",
-      "images": [
-        "https://pbs.twimg.com/media/HXbOoffWEAAaTMo.jpg?name=small",
-        "https://pbs.twimg.com/media/HXbOu-9WQAAlJQ6.jpg?name=small",
-        "https://pbs.twimg.com/media/HXbPOH4XoAAbfz8.jpg?name=small",
-        "https://pbs.twimg.com/media/HXbPPuxWgAAvalI.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 100,
-  "total": 2797,
+  "total": 2798,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 23:49:07",
+  "updated_at_shanghai": "2026-11-25 00:10:22",
   "account": "elonmusk"
 }
