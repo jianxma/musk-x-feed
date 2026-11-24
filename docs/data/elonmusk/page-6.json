@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2121317331179614676",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T19:00:38.000Z",
+      "created_at_shanghai": "2026-11-14 03:00:38",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Made on Earth by humans",
+      "quote": {
+        "author": "AJamesMcCarthy",
+        "avatar": "https://pbs.twimg.com/profile_images/465979126185091072/ukRk-mfd_200x200.jpeg",
+        "created_at_shanghai": "2026-11-13 21:08:30",
+        "created_at_utc": "2026-11-13T13:08:30.000Z",
+        "id": "2121228714516320501",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2121228629501784064/img/mjkq9tHjoRevR9jH.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2121228629501784064/vid/avc1/1080x1920/jSLZSFe0VUVSHEOh.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121228629501784064/img/mjkq9tHjoRevR9jH.jpg",
+            "width": 1080,
+            "height": 1920,
+            "duration": 35.481
+          }
+        ],
+        "name": "Andrew McCarthy",
+        "text": "Looks like a scene from a sci-fi film but it’s just my drive to work this morning",
+        "url": "https://x.com/AJamesMcCarthy/status/2121228714516320501",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 173,
+        "likes": 7630,
+        "quotes": 81,
+        "replies": 768,
+        "retweets": 674,
+        "views": 505740
+      },
+      "url": "https://x.com/elonmusk/status/2121317331179614676",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2121316908930634081",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -6796,64 +6848,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119817540432244779",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-09T15:41:00.000Z",
-      "created_at_shanghai": "2026-11-09 23:41:00",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok @Bot can do incredible things",
-      "quote": {
-        "author": "0xAlbus",
-        "avatar": "https://pbs.twimg.com/profile_images/2118713291409158144/_EtfQAbe_200x200.jpg",
-        "created_at_shanghai": "2026-11-09 02:47:13",
-        "created_at_utc": "2026-11-08T18:47:13.000Z",
-        "id": "2119502015554613344",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2119501890182373376/img/8ilQvTtG6rP0yp9J.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2119501890182373376/vid/avc1/1080x2340/8eQW1UuDwlag-9ck.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119501890182373376/img/8ilQvTtG6rP0yp9J.jpg",
-            "width": 1080,
-            "height": 2340,
-            "duration": 31.5
-          }
-        ],
-        "name": "Albus",
-        "text": "what the f*ck. Grok Bot just helped me win in court against my ex-wife\n\nmid-divorce. her lawyer shows up with photos of me at every bar I went to that month. and tells the judge I'M the one stalking HER\n\ncustody hearing in 3 weeks\n\nGrok Bot said someone's following me. let's prove it\n\nit set up an open-source tool called Chasing Your Tail. a Raspberry Pi in my glovebox that logs every phone around you and flags the ones that keep showing up\n\nhttp://github.com/azmatt/chasing_your_tail\n\n8 days later: one phone, 23 times, 9 places\nmy house. my kids' school. my office. my gym. the bar\n\nthen it checked which Wi-Fi networks that phone remembers:\n\"Hartley_Investigations\"\n\"Jenna_Home_5G\"\n\na private investigator. who's been inside my ex-wife's house\n\nshe hired a PI to follow me and told the court I was following her\n\nthe logs went to my lawyer as Exhibit C\n\nher stalking claim got thrown out. 50/50 custody\n\nlawyers don't win custody battles anymore. Grok Bot does\n\nprompt + how to turn it into a Grok Bot skill below 👇",
-        "url": "https://x.com/0xAlbus/status/2119502015554613344",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 280,
-        "likes": 2474,
-        "quotes": 60,
-        "replies": 647,
-        "retweets": 276,
-        "views": 1573549
-      },
-      "url": "https://x.com/elonmusk/status/2119817540432244779",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 100,
-  "total": 2790,
+  "total": 2791,
   "total_pages": 28,
-  "updated_at_shanghai": "2026-11-24 08:13:12",
+  "updated_at_shanghai": "2026-11-24 08:34:45",
   "account": "elonmusk"
 }
