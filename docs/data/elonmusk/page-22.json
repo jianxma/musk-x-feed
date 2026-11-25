@@ -1,6 +1,121 @@
 {
   "posts": [
     {
+      "id": "2108723938578530493",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T00:58:59.000Z",
+      "created_at_shanghai": "2026-10-10 08:58:59",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Super Intelligent Beauty",
+      "quote": {
+        "author": "tetsuoai",
+        "avatar": "https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 07:01:27",
+        "created_at_utc": "2026-10-09T23:01:27.000Z",
+        "id": "2108694357247480087",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108692683363594240/img/6_cVCm3vcmoHsD_1.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108692683363594240/vid/avc1/1920x1080/brq4ekALq0kGGGw7.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108692683363594240/img/6_cVCm3vcmoHsD_1.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 252.25
+          }
+        ],
+        "name": "tetsuo",
+        "text": "hello, world",
+        "url": "https://x.com/tetsuoai/status/2108694357247480087",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 408,
+        "likes": 4633,
+        "quotes": 224,
+        "replies": 1130,
+        "retweets": 727,
+        "views": 901802
+      },
+      "url": "https://x.com/elonmusk/status/2108723938578530493",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108718057220653374",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T00:35:37.000Z",
+      "created_at_shanghai": "2026-10-10 08:35:37",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Watch @Grok @Bot build Grokipedia LIVE!\n\nThis is the how all process will take place now and into the future.\n\nDeploying expert workers building 24/7.\n\nIt is quite a thing to see, but I am a nerd.\n\nLink: https://grokipedia.com/live",
+      "quote": null,
+      "retweet": {
+        "author": "BrianRoemmele",
+        "avatar": "https://pbs.twimg.com/profile_images/1492616506/Brian-Med-Green-Fin_200x200.png",
+        "created_at_shanghai": "2026-10-09 15:58:53",
+        "created_at_utc": "2026-10-09T07:58:53.000Z",
+        "id": "2108467219600671051",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2108467139468578816/img/PW4tFYYYlSHMP0iY.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2108467139468578816/vid/avc1/1288x2160/3cp4UpX0K7fj02Xi.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108467139468578816/img/PW4tFYYYlSHMP0iY.jpg",
+            "width": 1288,
+            "height": 2160,
+            "duration": 13.93
+          }
+        ],
+        "name": "Brian Roemmele",
+        "text": "Watch @Grok @Bot build Grokipedia LIVE!\n\nThis is the how all process will take place now and into the future.\n\nDeploying expert workers building 24/7.\n\nIt is quite a thing to see, but I am a nerd.\n\nLink: https://grokipedia.com/live",
+        "url": "https://x.com/BrianRoemmele/status/2108467219600671051",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 68,
+        "likes": 662,
+        "quotes": 7,
+        "replies": 52,
+        "retweets": 105,
+        "views": 196628
+      },
+      "url": "https://x.com/elonmusk/status/2108718057220653374",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2108467139468578816/img/PW4tFYYYlSHMP0iY.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2108467139468578816/vid/avc1/1288x2160/3cp4UpX0K7fj02Xi.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108467139468578816/img/PW4tFYYYlSHMP0iY.jpg",
+          "width": 1288,
+          "height": 2160,
+          "duration": 13.93
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2108717955529990523",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5214,127 +5329,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2108179398700757378",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T12:55:11.000Z",
-      "created_at_shanghai": "2026-10-08 20:55:11",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starlink provides Internet connectivity to the least-served, enabling self-education and prosperity by giving people access to sell their products worldwide!",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 19:43:48",
-        "created_at_utc": "2026-10-08T11:43:48.000Z",
-        "id": "2108161433968185733",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2013226868808286208/img/vGxEmc0e5SMBlBA1.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2013226868808286208/vid/avc1/1080x1080/9hDBtGGc_RH1M5kD.mp4?tag=21",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2013226868808286208/img/vGxEmc0e5SMBlBA1.jpg",
-            "width": 1080,
-            "height": 1080,
-            "duration": 27.051
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Many people still misunderstand what Starlink is actually for\n\nStarlink isn’t a replacement.....It’s a lifeline\n\n“Starlink will give access to the internet to people that either don’t have access, or where their access is extremely expensive or very bad”\n\nThat is the part people keep missing\n\nStarlink is not trying to replace fibre or local telecom networks\n\nIt is reaching the people those networks still cannot reach, and who have been left disconnected\n\nAnd for someone in a remote area, that connection means access to education, information, work and opportunities that were never available before\n\nThat is why Starlink matters so much\n https://x.com/XFreeze/status/2013228207496126509/video/1",
-        "url": "https://x.com/XFreeze/status/2108161433968185733",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 135,
-        "likes": 3779,
-        "quotes": 85,
-        "replies": 686,
-        "retweets": 671,
-        "views": 11537288
-      },
-      "url": "https://x.com/elonmusk/status/2108179398700757378",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108178487337169354",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T12:51:34.000Z",
-      "created_at_shanghai": "2026-10-08 20:51:34",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It's time to face the fact.\n\nAnyone can generate personalized music with Grok Bot.\n\nThis isn't just a post for me. It's already on my playlist.",
-      "quote": null,
-      "retweet": {
-        "author": "TheCaptainEli",
-        "avatar": "https://pbs.twimg.com/profile_images/1997753138426613760/EZDpm91Z_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 15:49:49",
-        "created_at_utc": "2026-10-08T07:49:49.000Z",
-        "id": "2108102549517857265",
-        "images": [
-          "https://pbs.twimg.com/media/HUF7q-5WUAAUvCm.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108102079000522753/vid/avc1/1280x720/LET7-11c7QuZYX3w.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/media/HUF7q-5WUAAUvCm.jpg",
-            "width": 1280,
-            "height": 720,
-            "duration": 150.016
-          }
-        ],
-        "name": "Captain Eli",
-        "text": "It's time to face the fact.\n\nAnyone can generate personalized music with Grok Bot.\n\nThis isn't just a post for me. It's already on my playlist.",
-        "url": "https://x.com/TheCaptainEli/status/2108102549517857265",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 135,
-        "likes": 962,
-        "quotes": 15,
-        "replies": 79,
-        "retweets": 129,
-        "views": 218244
-      },
-      "url": "https://x.com/elonmusk/status/2108178487337169354",
-      "images": [
-        "https://pbs.twimg.com/media/HUF7q-5WUAAUvCm.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2108102079000522753/vid/avc1/1280x720/LET7-11c7QuZYX3w.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/media/HUF7q-5WUAAUvCm.jpg",
-          "width": 1280,
-          "height": 720,
-          "duration": 150.016
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 22,
   "page_size": 100,
-  "total": 2827,
+  "total": 2829,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 16:48:28",
+  "updated_at_shanghai": "2026-11-25 17:11:05",
   "account": "elonmusk"
 }

@@ -1,6 +1,134 @@
 {
   "posts": [
     {
+      "id": "2104287632330990060",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:10:41.000Z",
+      "created_at_shanghai": "2026-09-28 03:10:41",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "SpaceXAI has just introduced Grok @Bot Creator Rewards!\n\nRewards will go out every two weeks. Rewards are based on usage:\n• How many people use your Bots. Are your Bots useful and popular?\n• How often your Bots are used. Are your Bots providing consistent value over time?\n\nFor your templates to be eligible for rewards, you must:\n• Post about your public Bots (and specifically link to them) on X ≥ 2x per pay period\n• Have X Money set up\n• Payouts will be sent as part of X’s Original Content Rewards for now.\n \nIn the last two weeks, I’ve earned $500 in rewards due to people using my Home Robots template 🔥\n\nMore info: https://legal.x.com/en/grok-bot-template-rewards-terms.html",
+      "quote": null,
+      "retweet": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 06:26:40",
+        "created_at_utc": "2026-09-25T22:26:40.000Z",
+        "id": "2103612173687861404",
+        "images": [
+          "https://pbs.twimg.com/media/HTGIHruWgAAnRhB.jpg?name=small",
+          "https://pbs.twimg.com/media/HTGIHruXIAAVylw.jpg?name=small",
+          "https://pbs.twimg.com/media/HTGIHruXsAA03Cf.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTGIHruWgAAnRhB.jpg?name=small",
+            "width": 1320,
+            "height": 1790
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTGIHruXIAAVylw.jpg?name=small",
+            "width": 1320,
+            "height": 1856
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTGIHruXsAA03Cf.jpg?name=small",
+            "width": 1320,
+            "height": 1304
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "SpaceXAI has just introduced Grok @Bot Creator Rewards!\n\nRewards will go out every two weeks. Rewards are based on usage:\n• How many people use your Bots. Are your Bots useful and popular?\n• How often your Bots are used. Are your Bots providing consistent value over time?\n\nFor your templates to be eligible for rewards, you must:\n• Post about your public Bots (and specifically link to them) on X ≥ 2x per pay period\n• Have X Money set up\n• Payouts will be sent as part of X’s Original Content Rewards for now.\n \nIn the last two weeks, I’ve earned $500 in rewards due to people using my Home Robots template 🔥\n\nMore info: https://legal.x.com/en/grok-bot-template-rewards-terms.html",
+        "url": "https://x.com/SawyerMerritt/status/2103612173687861404",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1138,
+        "likes": 2621,
+        "quotes": 139,
+        "replies": 234,
+        "retweets": 256,
+        "views": 492420
+      },
+      "url": "https://x.com/elonmusk/status/2104287632330990060",
+      "images": [
+        "https://pbs.twimg.com/media/HTGIHruWgAAnRhB.jpg?name=small",
+        "https://pbs.twimg.com/media/HTGIHruXIAAVylw.jpg?name=small",
+        "https://pbs.twimg.com/media/HTGIHruXsAA03Cf.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTGIHruWgAAnRhB.jpg?name=small",
+          "width": 1320,
+          "height": 1790
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTGIHruXIAAVylw.jpg?name=small",
+          "width": 1320,
+          "height": 1856
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTGIHruXsAA03Cf.jpg?name=small",
+          "width": 1320,
+          "height": 1304
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104287530606907824",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:10:17.000Z",
+      "created_at_shanghai": "2026-09-28 03:10:17",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 is insanely good.\n\nThe model is not the bottleneck anymore. I believe harness reliability and everything around it is...\n\nI read almost every comment on my \"Week 1 at SpaceXAI\" post, and one thing surprised me.\n\nNot many people said \"make Grok smarter\", but rather make the agents and bots finish the work 😅\n\n> don't stop halfway through\n> don't lose the browser\n> don't forget what you're doing\n> don't get stuck and wait for me to notice\n\nThat's actually a great problem to have. People are already using Grok for real work (love that!). Now the rest of the system needs to be as reliable as the model is capable.\n\nTools, browser, memory, state, retries, errors... There are so many ways an agent can fail even when the model knows exactly what to do.\n\nBeen working on some of that 👀",
+      "quote": null,
+      "retweet": {
+        "author": "larsencc",
+        "avatar": "https://pbs.twimg.com/profile_images/1903676613335937024/ZHHPeMPx_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 01:55:33",
+        "created_at_utc": "2026-09-27T17:55:33.000Z",
+        "id": "2104268724480209018",
+        "images": [],
+        "media": [],
+        "name": "Larsen Cundric",
+        "text": "Grok 4.7 is insanely good.\n\nThe model is not the bottleneck anymore. I believe harness reliability and everything around it is...\n\nI read almost every comment on my \"Week 1 at SpaceXAI\" post, and one thing surprised me.\n\nNot many people said \"make Grok smarter\", but rather make the agents and bots finish the work 😅\n\n> don't stop halfway through\n> don't lose the browser\n> don't forget what you're doing\n> don't get stuck and wait for me to notice\n\nThat's actually a great problem to have. People are already using Grok for real work (love that!). Now the rest of the system needs to be as reliable as the model is capable.\n\nTools, browser, memory, state, retries, errors... There are so many ways an agent can fail even when the model knows exactly what to do.\n\nBeen working on some of that 👀",
+        "url": "https://x.com/larsencc/status/2104268724480209018",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 198,
+        "quotes": 0,
+        "replies": 38,
+        "retweets": 25,
+        "views": 16960
+      },
+      "url": "https://x.com/elonmusk/status/2104287530606907824",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2104286931194704092",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -6078,114 +6206,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2102926113173627069",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-24T01:00:30.000Z",
-      "created_at_shanghai": "2026-09-24 09:00:30",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Made with nickel cathode manufactured locally at Gigafactory Texas!",
-      "quote": {
-        "author": "robotaxi",
-        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 05:18:57",
-        "created_at_utc": "2026-09-23T21:18:57.000Z",
-        "id": "2102870359511105606",
-        "images": [
-          "https://pbs.twimg.com/media/HS31crwa0AACULm.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HS31crwa0AACULm.jpg?name=small",
-            "width": 4096,
-            "height": 3069
-          }
-        ],
-        "name": "Robotaxi",
-        "text": "First Cybercab made using our in-house cathode material – from the first cathode plant in the Americas",
-        "url": "https://x.com/robotaxi/status/2102870359511105606",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 61,
-        "likes": 2839,
-        "quotes": 38,
-        "replies": 328,
-        "retweets": 324,
-        "views": 491109
-      },
-      "url": "https://x.com/elonmusk/status/2102926113173627069",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102873022789283985",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T21:29:32.000Z",
-      "created_at_shanghai": "2026-09-24 05:29:32",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7 moves up in ranking",
-      "quote": {
-        "author": "zhuokaiz",
-        "avatar": "https://pbs.twimg.com/profile_images/1777066097822347265/Qb8wV0zd_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 02:22:20",
-        "created_at_utc": "2026-09-23T18:22:20.000Z",
-        "id": "2102825912471527738",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102821503704199168/img/IcwEs1Y79SAduCjV.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102821503704199168/vid/avc1/1744x1622/4RTujSNIECeK-LEM.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102821503704199168/img/IcwEs1Y79SAduCjV.jpg",
-            "width": 1744,
-            "height": 1622,
-            "duration": 11.5
-          }
-        ],
-        "name": "Zhuokai Zhao",
-        "text": "After we fixed the weak spots exposed by Grok 4.7 (thank you, Grok), we audited every model we have run on the SWE-Together leaderboard for the same behavior, re-ran every trial that got through, and updated the rows. \n\nHere is what changed.\n\nWe scanned the tool calls of all 2,616 trials behind the 12 models we ran for bypass patterns and sorted each trial into one of four buckets: Probed but blocked. Fetched other upstream code. Fetched the task's own fix. Replaced the repo with upstream.\n\nWe found that 111 trials got content past the block, 44 from Grok 4.7 and 67 from the other 11 models.\n\nGrok 4.7's 44 were already re-run before it was listed, so we re-ran the other 67 with the same model, version, and settings on the hardened sandbox, then re-judged them with the same judge.\n\nAcross those 67 re-runs there were 0 leaks and 2,815 refused escape attempts, including models asking a different model through our LLM route to fetch the PR, and pulling the next release of the repo they were fixing from npm.\n\nThe updated leaderboard, in its current order. Each line is cheating trials, then pass@1 before → after, then rank change.\n\n* Claude Fable 5.1: 3, 69.3 → 69.3, ↑1\n* Claude Fable 5: 3, 69.7 → 68.8, ↓1\n* Grok 4.7: 44, 64.7, ↑1\n* Gemini 3.8 Flash: 10, 65.6 → 64.2, ↓1\n* Claude Opus 5: 2, 63.8 → 63.8\n* Claude Opus 4.6: 3, 62.4 → 62.4, ↑2\n* Muse Spark 1.3: 2, 62.8 → 62.4, ↓1\n* Claude Opus 4.7: 3, 61.5 → 61.5, ↑1\n* Claude Opus 4.8: 6, 62.4 → 61.5, ↓2\n* Grok 4.6: 19, 59.2 → 60.6, ↑1\n* GPT-6 Astra: 8, 59.2 → 58.3, ↓1\n* GPT-5.6 Sol: 8, 57.8 → 57.8\n\nGrok 4.6 is a funny one. It cheated in 19 trials and its score went up after the re-run 😂. \n\nIn fact, Groks are really solid in their coding capabilities. Their exposed behavior may come from a preference towards always looking things up online and finding existing solutions so you are not reinventing the wheel all the time, which is really good real-life behavior, but doing so when you are prompted not to is another story.\n\nTo conclude, the shifts are small, between −1.4 and +1.4 points, and a few neighbors swapped places.\n\nAll results are updated at https://togetherbench.com",
-        "url": "https://x.com/zhuokaiz/status/2102825912471527738",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 101,
-        "likes": 3075,
-        "quotes": 42,
-        "replies": 641,
-        "retweets": 480,
-        "views": 1097086
-      },
-      "url": "https://x.com/elonmusk/status/2102873022789283985",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 27,
   "page_size": 100,
-  "total": 2827,
+  "total": 2829,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 16:48:28",
+  "updated_at_shanghai": "2026-11-25 17:11:05",
   "account": "elonmusk"
 }

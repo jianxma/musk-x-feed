@@ -1,6 +1,144 @@
 {
   "posts": [
     {
+      "id": "2111641606696968195",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T02:12:46.000Z",
+      "created_at_shanghai": "2026-10-18 10:12:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot feels like magic….you just tell it what you want, and it goes and does it\n\nLike, it actually just does it....it's insane",
+      "quote": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-16 22:16:38",
+        "created_at_utc": "2026-10-16T14:16:38.000Z",
+        "id": "2111099000904728715",
+        "images": [
+          "https://pbs.twimg.com/media/HUwhV8Ya4AAgbRc.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2111098549010354176/vid/avc1/1206x2136/UPUjuK4fIOkciJOs.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/media/HUwhV8Ya4AAgbRc.jpg",
+            "width": 1080,
+            "height": 2127,
+            "duration": 49.904
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Just built a Tesla Roadster game where you can fly and flip using rocket thrusters, just like the real Roadster did yesterday\n\nPlay it here: https://z-axis-traffic.grok.me\n\nBuilt it with Grok Bot and asked it to deploy the game using Grok Build mode\n\nlmk what you think",
+        "url": "https://x.com/XFreeze/status/2111099000904728715",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-10-18 10:09:39",
+        "created_at_utc": "2026-10-18T02:09:39.000Z",
+        "id": "2111640823272222931",
+        "images": [
+          "https://pbs.twimg.com/media/HU4OHIZa0AA4J6-.jpg?name=small",
+          "https://pbs.twimg.com/media/HU4OINqbYAAUk37.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HU4OHIZa0AA4J6-.jpg?name=small",
+            "width": 1080,
+            "height": 1273
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HU4OINqbYAAUk37.jpg?name=small",
+            "width": 1890,
+            "height": 3738
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Grok Bot feels like magic….you just tell it what you want, and it goes and does it\n\nLike, it actually just does it....it's insane",
+        "url": "https://x.com/XFreeze/status/2111640823272222931",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 50,
+        "likes": 565,
+        "quotes": 5,
+        "replies": 52,
+        "retweets": 59,
+        "views": 184636
+      },
+      "url": "https://x.com/elonmusk/status/2111641606696968195",
+      "images": [
+        "https://pbs.twimg.com/media/HU4OHIZa0AA4J6-.jpg?name=small",
+        "https://pbs.twimg.com/media/HU4OINqbYAAUk37.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HU4OHIZa0AA4J6-.jpg?name=small",
+          "width": 1080,
+          "height": 1273
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HU4OINqbYAAUk37.jpg?name=small",
+          "width": 1890,
+          "height": 3738
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2111641377104650550",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-18T02:11:51.000Z",
+      "created_at_shanghai": "2026-10-18 10:11:51",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "When I was writing Unreal Engine 1, my time was divided as follows:\n\n- Around 30% went to seriously deep coding on hard problems: assembly language texture mappers, C++ BSP trees, data persistence, object oriented systems design, and networking.\n\n- Around 70% was just typing and refactoring large bodies of code needed for a complete engine feature set. This was not hard, and while I was doing it my mind was mostly on the deeper coding topics, thinking and planning for what's next. It didn't feel much different from vibe coding today, except that it was just me typing code on an IBM Model M keyboard rather than prompting it and reviewing the results.\n\nSo, it has always seemed perfectly logical that we would rely on AI for that 70%, once the AI could do it with a similar quality standard as we could, which has never been perfection. It came as no surprise that, after a few years of AI model evolution, it was able to take the reigns on that 70% and free up programmers' time for more valuable tasks.\n\nWhat's more of a surprise is the emergence of AI as a sort of insta-Carmack able to solve hard technical problems quite cleverly and often cleanly, and that it's able to reason about and work in complex 3D scenes both by operating the tools and by directly understanding the raw data files.\n\nI abandoned assembly language in 1998 when out-of-order CPUs made much simpler C/C++ code faster, and never I missed it. If prompting through architectural documents, concept art, and design plans can transcend typing code and tweaking vertices, that will enable developers to spend their time on higher-level, higher value technical and creative tasks.\n\nWhat matters is the end product, whether it's a game or an engine. Anything developers can do to try out more ideas and make better software and games faster is a win for everyone.",
+      "quote": null,
+      "retweet": {
+        "author": "TimSweeneyEpic",
+        "avatar": "https://pbs.twimg.com/profile_images/795819168629198849/SBY3ARvZ_200x200.jpg",
+        "created_at_shanghai": "2026-10-18 09:39:26",
+        "created_at_utc": "2026-10-18T01:39:26.000Z",
+        "id": "2111633221725122769",
+        "images": [],
+        "media": [],
+        "name": "Tim Sweeney",
+        "text": "When I was writing Unreal Engine 1, my time was divided as follows:\n\n- Around 30% went to seriously deep coding on hard problems: assembly language texture mappers, C++ BSP trees, data persistence, object oriented systems design, and networking.\n\n- Around 70% was just typing and refactoring large bodies of code needed for a complete engine feature set. This was not hard, and while I was doing it my mind was mostly on the deeper coding topics, thinking and planning for what's next. It didn't feel much different from vibe coding today, except that it was just me typing code on an IBM Model M keyboard rather than prompting it and reviewing the results.\n\nSo, it has always seemed perfectly logical that we would rely on AI for that 70%, once the AI could do it with a similar quality standard as we could, which has never been perfection. It came as no surprise that, after a few years of AI model evolution, it was able to take the reigns on that 70% and free up programmers' time for more valuable tasks.\n\nWhat's more of a surprise is the emergence of AI as a sort of insta-Carmack able to solve hard technical problems quite cleverly and often cleanly, and that it's able to reason about and work in complex 3D scenes both by operating the tools and by directly understanding the raw data files.\n\nI abandoned assembly language in 1998 when out-of-order CPUs made much simpler C/C++ code faster, and never I missed it. If prompting through architectural documents, concept art, and design plans can transcend typing code and tweaking vertices, that will enable developers to spend their time on higher-level, higher value technical and creative tasks.\n\nWhat matters is the end product, whether it's a game or an engine. Anything developers can do to try out more ideas and make better software and games faster is a win for everyone.",
+        "url": "https://x.com/TimSweeneyEpic/status/2111633221725122769",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1138,
+        "likes": 5431,
+        "quotes": 111,
+        "replies": 396,
+        "retweets": 490,
+        "views": 365918
+      },
+      "url": "https://x.com/elonmusk/status/2111641377104650550",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2111639287368462417",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5752,116 +5890,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2110917871924806021",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T02:16:54.000Z",
-      "created_at_shanghai": "2026-10-16 10:16:54",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "HOLY SHIT",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 09:12:05",
-        "created_at_utc": "2026-10-16T01:12:05.000Z",
-        "id": "2110901560435945972",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110901535861522432/img/B7f-3Ddhzdk_gr2G.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110901535861522432/vid/avc1/1126x1126/yDfB9_BrpzEmCouV.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110901535861522432/img/B7f-3Ddhzdk_gr2G.jpg",
-            "width": 1126,
-            "height": 1126,
-            "duration": 9.031
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "HOLY SHIT",
-        "url": "https://x.com/cb_doge/status/2110901560435945972",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1901,
-        "likes": 17181,
-        "quotes": 723,
-        "replies": 503,
-        "retweets": 1867,
-        "views": 7556833
-      },
-      "url": "https://x.com/elonmusk/status/2110917871924806021",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110901535861522432/img/B7f-3Ddhzdk_gr2G.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110901535861522432/vid/avc1/1126x1126/yDfB9_BrpzEmCouV.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110901535861522432/img/B7f-3Ddhzdk_gr2G.jpg",
-          "width": 1126,
-          "height": 1126,
-          "duration": 9.031
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2110913612030329197",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-16T01:59:58.000Z",
-      "created_at_shanghai": "2026-10-16 09:59:58",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "so we got flying cars before GTA 6 😂",
-      "quote": null,
-      "retweet": {
-        "author": "veggie_eric",
-        "avatar": "https://pbs.twimg.com/profile_images/1863076230775373824/BysAhNNK_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 09:55:24",
-        "created_at_utc": "2026-10-16T01:55:24.000Z",
-        "id": "2110912461591413217",
-        "images": [],
-        "media": [],
-        "name": "Eric Jiang",
-        "text": "so we got flying cars before GTA 6 😂",
-        "url": "https://x.com/veggie_eric/status/2110912461591413217",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 197,
-        "likes": 17643,
-        "quotes": 77,
-        "replies": 271,
-        "retweets": 1112,
-        "views": 448994
-      },
-      "url": "https://x.com/elonmusk/status/2110913612030329197",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 18,
   "page_size": 100,
-  "total": 2827,
+  "total": 2829,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 16:48:28",
+  "updated_at_shanghai": "2026-11-25 17:11:05",
   "account": "elonmusk"
 }
