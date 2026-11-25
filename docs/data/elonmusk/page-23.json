@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2108062702778368023",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T05:11:28.000Z",
+      "created_at_shanghai": "2026-10-08 13:11:28",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Seriously",
+      "quote": {
+        "author": "paulg",
+        "avatar": "https://pbs.twimg.com/profile_images/1824002576/pg-railsconf_200x200.jpg",
+        "created_at_shanghai": "2026-10-08 09:47:16",
+        "created_at_utc": "2026-10-08T01:47:16.000Z",
+        "id": "2108011311229747525",
+        "images": [],
+        "media": [],
+        "name": "Paul Graham",
+        "text": "Amazon banning agents is the first opportunity I've seen since Amazon was founded for a startup to create an Amazon competitor. People will want agents to buy stuff for them. It will be one of the main use cases. And they won't want to use some Amazon-supplied agent to do it.",
+        "url": "https://x.com/paulg/status/2108011311229747525",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 710,
+        "likes": 6347,
+        "quotes": 45,
+        "replies": 508,
+        "retweets": 356,
+        "views": 1563306
+      },
+      "url": "https://x.com/elonmusk/status/2108062702778368023",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108062258618048625",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5559,64 +5600,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2107567281480028562",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-06T20:22:51.000Z",
-      "created_at_shanghai": "2026-10-07 04:22:51",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "SpaceX will provide connectivity throughout the solar system and beyond",
-      "quote": {
-        "author": "XFreeze",
-        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
-        "created_at_shanghai": "2026-10-07 03:32:44",
-        "created_at_utc": "2026-10-06T19:32:44.000Z",
-        "id": "2107554670004895890",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2107554635330527233/img/SL3v7Irl_gbTNTZw.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2107554635330527233/vid/avc1/1920x1080/1pVxZKl1sxwOr9aV.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2107554635330527233/img/SL3v7Irl_gbTNTZw.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 43.849
-          }
-        ],
-        "name": "X Freeze",
-        "text": "Michael Nicolls just just laid out SpaceX's ambition for connectivity that extends beyond Earth\n\n“We will connect the Moon with a constellation, and then we will connect Mars”\n\n\"Our goal, again, is to extend consciousness beyond this planet, and we want to go and connect the Moon and Mars\n\nBut before that on Starlink, we're creating the technologies to connect the Moon with very high-bandwidth connectivity systems, very high-bandwidth lasers\n\nAnd we will connect the Moon with a constellation, and then we will connect Mars, and we will form an interplanetary mesh of connectivity that is fundamentally driven by the same technologies we're working on with Starlink\n\nTo make this happen, SpaceX needs to keep improving safety in LEO so everyone can operate and scale safely”\n\nBuild safe, coordinated infrastructure in LEO first then extend connectivity and human presence to the Moon, Mars, and beyond",
-        "url": "https://x.com/XFreeze/status/2107554670004895890",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 171,
-        "likes": 4178,
-        "quotes": 66,
-        "replies": 721,
-        "retweets": 592,
-        "views": 529954
-      },
-      "url": "https://x.com/elonmusk/status/2107567281480028562",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 23,
   "page_size": 100,
-  "total": 2810,
+  "total": 2811,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 10:25:12",
+  "updated_at_shanghai": "2026-11-25 11:00:38",
   "account": "elonmusk"
 }
