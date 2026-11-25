@@ -1,6 +1,72 @@
 {
   "posts": [
     {
+      "id": "2124673356989346144",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-23T01:16:17.000Z",
+      "created_at_shanghai": "2026-11-23 09:16:17",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "I've been using @bot to help my fiancée and me plan our wedding, and it honestly feels like we have a hired full-time wedding planner.\n\nOver the last month, it helped us figure out our hotel room block.\n\nIt found 15 hotels within 35 minutes of our venue, handled all the email correspondence, and got proposals with the details we needed to decide.\n\nThen it created a comparison sheet with the criteria we cared about and recommended a shortlist.\n\nOnce we picked one, it helped us review the contract, negotiated with the hotel, and even signed it (w/ my permission, of course).\n\nThe day after we signed,  @bot proactively researched a shortlist of shuttle services and welcome-party venues, with emails already drafted for my review.\n\nI can't imagine planning a wedding without it. It's truly an amazing time to be alive.",
+      "quote": {
+        "author": "danny_graziosi",
+        "name": "Danny Graziosi",
+        "text": "I've been using @bot to help my fiancée and me plan our wedding, and it honestly feels like we have a hired full-time wedding planner.\n\nOver the last month, it helped us figure out our hotel room block.\n\nIt found 15 hotels within 35 minutes of our venue, handled all the email correspondence, and got proposals with the details we needed to decide.\n\nThen it created a comparison sheet with the criteria we cared about and recommended a shortlist.\n\nOnce we picked one, it helped us review the contract, negotiated with the hotel, and even signed it (w/ my permission, of course).\n\nThe day after we signed,  @bot proactively researched a shortlist of shuttle services and welcome-party venues, with emails already drafted for my review.\n\nI can't imagine planning a wedding without it. It's truly an amazing time to be alive.",
+        "url": "https://x.com/danny_graziosi/status/2124570651755204813"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 17,
+        "likes": 295,
+        "quotes": 5,
+        "replies": 26,
+        "retweets": 31,
+        "views": 48812
+      },
+      "url": "https://x.com/elonmusk/status/2124673356989346144",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2124673261904548151",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-23T01:15:54.000Z",
+      "created_at_shanghai": "2026-11-23 09:15:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "It’s almost unbelievable to have a CEO that works on so many things but still has this level of understanding of technical details at Tesla. Every time I’m fortunate enough to present to Elon, I’m blown away by how dedicated he is to learn about the technical progress and how much he cares about the low-level details while respecting each engineer’s work. Elon is so unique and It’s such an honor to work for him.",
+      "quote": {
+        "author": "yilun_chen_",
+        "name": "Yilun Chen",
+        "text": "It’s almost unbelievable to have a CEO that works on so many things but still has this level of understanding of technical details at Tesla. Every time I’m fortunate enough to present to Elon, I’m blown away by how dedicated he is to learn about the technical progress and how much he cares about the low-level details while respecting each engineer’s work. Elon is so unique and It’s such an honor to work for him.",
+        "url": "https://x.com/yilun_chen_/status/2124558617231925447"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 120,
+        "likes": 2375,
+        "quotes": 12,
+        "replies": 67,
+        "retweets": 164,
+        "views": 90848
+      },
+      "url": "https://x.com/elonmusk/status/2124673261904548151",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2124657565950984345",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -3955,88 +4021,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2124033377208865278",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-21T06:53:14.000Z",
-      "created_at_shanghai": "2026-11-21 14:53:14",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "This is not accurate: \"one report erases 468 likes.\" That's not what the code is doing. The weights are a multiple on your own predicted probability of Liking, Reporting, etc, which is substantially driven by your own behavior. And the baseline probability of a Report is more than 1000x lower. \n\nAlso: https://x.com/nikitabier/status/2087992223648682249",
-      "quote": {
-        "author": "kcoleman",
-        "name": "Keith Coleman 🌱😀🙌",
-        "text": "This is not accurate: \"one report erases 468 likes.\" That's not what the code is doing. The weights are a multiple on your own predicted probability of Liking, Reporting, etc, which is substantially driven by your own behavior. And the baseline probability of a Report is more than 1000x lower. \n\nAlso: https://x.com/nikitabier/status/2087992223648682249",
-        "url": "https://x.com/kcoleman/status/2088005608415133767"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 16,
-        "likes": 113,
-        "quotes": 1,
-        "replies": 10,
-        "retweets": 27,
-        "views": 56918
-      },
-      "url": "https://x.com/elonmusk/status/2124033377208865278",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2124029554570272948",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-21T06:38:03.000Z",
-      "created_at_shanghai": "2026-11-21 14:38:03",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "BREAKING: Tesla has released more photos from Elon Musk’s visit to Giga Shanghai, including moments with the team and a special gift designed and handmade by factory employees using leftover materials.",
-      "quote": {
-        "author": "cb_doge",
-        "name": "DogeDesigner",
-        "text": "BREAKING: Tesla has released more photos from Elon Musk’s visit to Giga Shanghai, including moments with the team and a special gift designed and handmade by factory employees using leftover materials.",
-        "url": "https://x.com/cb_doge/status/2123714352905859195"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 212,
-        "likes": 3463,
-        "quotes": 46,
-        "replies": 225,
-        "retweets": 391,
-        "views": 173645
-      },
-      "url": "https://x.com/elonmusk/status/2124029554570272948",
-      "images": [
-        "https://pbs.twimg.com/media/HXjwnXAawAABHu2.jpg?name=small",
-        "https://pbs.twimg.com/media/HXjwqFaaAAAslEk.jpg?name=small",
-        "https://pbs.twimg.com/media/HXjwtVEa4AEMdvf.jpg?name=small",
-        "https://pbs.twimg.com/media/HXjypaAbcAAQmm1.jpg?name=small",
-        "https://pbs.twimg.com/media/HXjytuBacAAGCSC.jpg?name=small",
-        "https://pbs.twimg.com/media/HXjyxcJagAA8-CF.jpg?name=small",
-        "https://pbs.twimg.com/media/HXjy3VebsAAc3Xu.jpg?name=small",
-        "https://pbs.twimg.com/media/HXjy5E2bAAInpHu.jpg?name=small",
-        "https://pbs.twimg.com/media/HXjy7JWbwAAkaff.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 100,
-  "total": 2857,
+  "total": 2859,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-26 03:24:49",
+  "updated_at_shanghai": "2026-11-26 07:33:51",
   "account": "elonmusk"
 }
