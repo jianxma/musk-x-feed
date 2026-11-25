@@ -1,6 +1,184 @@
 {
   "posts": [
     {
+      "id": "2105544504535396482",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T06:25:03.000Z",
+      "created_at_shanghai": "2026-10-01 14:25:03",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Data centers on the ground are limited by permits and power.\n\nSpaceX's answer is Starmind, orbital AI data centers with about 72 Nvidia chips and up to 175 kW per satellite.\n\nThat's about 5,700 satellites per gigawatt. Terafab builds the chips, and Starship launches them.\n\n@JOBhakdi thinks it goes from gigawatts to terawatts by 2028 or 2029.\n\n$SPCX",
+      "quote": null,
+      "retweet": {
+        "author": "herbertong",
+        "avatar": "https://pbs.twimg.com/profile_images/2006760109674999809/DCuTxqri_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 00:15:00",
+        "created_at_utc": "2026-09-30T16:15:00.000Z",
+        "id": "2105330580720427025",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2105313203739930624/img/8IH_paH_3tW5Ni9M.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2105313203739930624/vid/avc1/1280x720/NIN8KhFiTFAqpUr1.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105313203739930624/img/8IH_paH_3tW5Ni9M.jpg",
+            "width": 1280,
+            "height": 720,
+            "duration": 378.1
+          }
+        ],
+        "name": "Herbert Ong",
+        "text": "Data centers on the ground are limited by permits and power.\n\nSpaceX's answer is Starmind, orbital AI data centers with about 72 Nvidia chips and up to 175 kW per satellite.\n\nThat's about 5,700 satellites per gigawatt. Terafab builds the chips, and Starship launches them.\n\n@JOBhakdi thinks it goes from gigawatts to terawatts by 2028 or 2029.\n\n$SPCX",
+        "url": "https://x.com/herbertong/status/2105330580720427025",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 27,
+        "likes": 305,
+        "quotes": 4,
+        "replies": 28,
+        "retweets": 56,
+        "views": 18736
+      },
+      "url": "https://x.com/elonmusk/status/2105544504535396482",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2105313203739930624/img/8IH_paH_3tW5Ni9M.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2105313203739930624/vid/avc1/1280x720/NIN8KhFiTFAqpUr1.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2105313203739930624/img/8IH_paH_3tW5Ni9M.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 378.1
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2105543992637100269",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T06:23:01.000Z",
+      "created_at_shanghai": "2026-10-01 14:23:01",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try the latest Grok @Bot. Many great upgrades!",
+      "quote": {
+        "author": "poteto",
+        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
+        "created_at_shanghai": "2026-10-01 03:19:43",
+        "created_at_utc": "2026-09-30T19:19:43.000Z",
+        "id": "2105377066942349794",
+        "images": [
+          "https://pbs.twimg.com/media/HTfM4ssaUAANWHE.png?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTfM4ssaUAANWHE.png?name=small",
+            "width": 684,
+            "height": 205
+          }
+        ],
+        "name": "lauren",
+        "text": "grok @bot combined with cloud agents is a magical experience! here's my favorite use case:\n\n1. create a new team engineer bot and add it to slack \n2. @ your bot whenever you want it to do some coding work \n3. you can even tell it to create new Projects, which is a way to group together many related agents into one conversation\n\nyou can use any model available on cursor with these cloud agents, and since they each have their own computer, it frees up your bot to be more of a manager rather than write the code itself!",
+        "url": "https://x.com/poteto/status/2105377066942349794",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 28,
+        "likes": 340,
+        "quotes": 5,
+        "replies": 136,
+        "retweets": 71,
+        "views": 300639
+      },
+      "url": "https://x.com/elonmusk/status/2105543992637100269",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2105543544383660336",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-01T06:21:14.000Z",
+      "created_at_shanghai": "2026-10-01 14:21:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "We must expand the scope and scale of consciousness",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-06-04 19:01:26",
+        "created_at_utc": "2026-06-04T11:01:26.000Z",
+        "id": "2062489901007057075",
+        "images": [
+          "https://pbs.twimg.com/media/HKlYOF0a8AArEi5.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2062487769218420736/vid/avc1/3840x2160/MGxvEc5KSuROuNjT.mp4?tag=27",
+            "thumbnail_url": "https://pbs.twimg.com/media/HKlYOF0a8AArEi5.jpg",
+            "width": 3840,
+            "height": 2160,
+            "duration": 94.185
+          }
+        ],
+        "name": "SpaceX",
+        "text": "SpaceX is the only company building the infrastructure of the future across space, connectivity, and AI → http://spacexipo.com",
+        "url": "https://x.com/SpaceX/status/2062489901007057075",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "Diegopasini",
+        "avatar": "https://pbs.twimg.com/profile_images/1962994057137029128/FKSHMAdA_200x200.png",
+        "created_at_shanghai": "2026-06-05 00:29:47",
+        "created_at_utc": "2026-06-04T16:29:47.000Z",
+        "id": "2062572534151926145",
+        "images": [],
+        "media": [],
+        "name": "Diego",
+        "text": "We must expand the scope and scale of consciousness",
+        "url": "https://x.com/Diegopasini/status/2062572534151926145",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 207,
+        "quotes": 4,
+        "replies": 32,
+        "retweets": 36,
+        "views": 34374
+      },
+      "url": "https://x.com/elonmusk/status/2105543544383660336",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2105543480663806451",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5644,171 +5822,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2104373966907605090",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-28T00:53:45.000Z",
-      "created_at_shanghai": "2026-09-28 08:53:45",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "The e/acc conversion funnel\n\nNEVER doom",
-      "quote": null,
-      "retweet": {
-        "author": "abufenyrcd",
-        "avatar": "https://pbs.twimg.com/profile_images/1628745194123280387/cfwI2L7p_200x200.jpg",
-        "created_at_shanghai": "2026-09-28 01:47:52",
-        "created_at_utc": "2026-09-27T17:47:52.000Z",
-        "id": "2104266787999113650",
-        "images": [
-          "https://pbs.twimg.com/media/HTPbfOnW4AADOuV.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTPbfOnW4AADOuV.jpg?name=small",
-            "width": 1024,
-            "height": 1536
-          }
-        ],
-        "name": "Tehpwnerer — e/acc",
-        "text": "The e/acc conversion funnel\n\nNEVER doom",
-        "url": "https://x.com/abufenyrcd/status/2104266787999113650",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 83,
-        "likes": 974,
-        "quotes": 22,
-        "replies": 86,
-        "retweets": 136,
-        "views": 46313
-      },
-      "url": "https://x.com/elonmusk/status/2104373966907605090",
-      "images": [
-        "https://pbs.twimg.com/media/HTPbfOnW4AADOuV.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HTPbfOnW4AADOuV.jpg?name=small",
-          "width": 1024,
-          "height": 1536
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2104366530938994817",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-28T00:24:12.000Z",
-      "created_at_shanghai": "2026-09-28 08:24:12",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Accurate (for now)",
-      "quote": {
-        "author": "DeepStarts",
-        "avatar": "https://pbs.twimg.com/profile_images/2100935190772379648/S6LULa1Y_200x200.jpg",
-        "created_at_shanghai": "2026-09-26 16:26:07",
-        "created_at_utc": "2026-09-26T08:26:07.000Z",
-        "id": "2103763029976649777",
-        "images": [
-          "https://pbs.twimg.com/media/HTIRUuJbcAAwM_s.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTIRUuJbcAAwM_s.jpg?name=small",
-            "width": 1100,
-            "height": 1429
-          }
-        ],
-        "name": "Deep",
-        "text": "There’s a rank specifically for Google now? 😭😭",
-        "url": "https://x.com/DeepStarts/status/2103763029976649777",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 34,
-        "likes": 420,
-        "quotes": 8,
-        "replies": 134,
-        "retweets": 46,
-        "views": 262917
-      },
-      "url": "https://x.com/elonmusk/status/2104366530938994817",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2104361756412019115",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-28T00:05:14.000Z",
-      "created_at_shanghai": "2026-09-28 08:05:14",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Worth considering",
-      "quote": {
-        "author": "anabology",
-        "avatar": "https://pbs.twimg.com/profile_images/1826125647137107968/7ptZtgJt_200x200.jpg",
-        "created_at_shanghai": "2026-09-28 06:23:54",
-        "created_at_utc": "2026-09-27T22:23:54.000Z",
-        "id": "2104336252812366297",
-        "images": [
-          "https://pbs.twimg.com/media/HTQaGeWXYAABn79.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HTQaGeWXYAABn79.jpg?name=small",
-            "width": 1192,
-            "height": 230
-          }
-        ],
-        "name": "anabology",
-        "text": "This actually improved my sleep so much\n\n\"Inclined Bed Therapy\"\n\nFixed my acid reflux issues and solved the headaches I was getting when waking",
-        "url": "https://x.com/anabology/status/2104336252812366297",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 27,
-        "likes": 351,
-        "quotes": 6,
-        "replies": 96,
-        "retweets": 39,
-        "views": 235610
-      },
-      "url": "https://x.com/elonmusk/status/2104361756412019115",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 26,
   "page_size": 100,
-  "total": 2833,
+  "total": 2836,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 17:56:45",
+  "updated_at_shanghai": "2026-11-25 21:11:55",
   "account": "elonmusk"
 }

@@ -1,6 +1,173 @@
 {
   "posts": [
     {
+      "id": "2120591950961353125",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-11T18:58:14.000Z",
+      "created_at_shanghai": "2026-11-12 02:58:14",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Person for scale",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 32,
+        "likes": 1093,
+        "quotes": 21,
+        "replies": 256,
+        "retweets": 124,
+        "views": 311213
+      },
+      "url": "https://x.com/elonmusk/status/2120591950961353125",
+      "images": [
+        "https://pbs.twimg.com/media/HW3bG9vagAAwCcq.jpg?name=small",
+        "https://pbs.twimg.com/media/HW3bG9vbAAARZza.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW3bG9vagAAwCcq.jpg?name=small",
+          "width": 1176,
+          "height": 784
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HW3bG9vbAAARZza.jpg?name=small",
+          "width": 942,
+          "height": 2048
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2120590521253126183",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-11T18:52:33.000Z",
+      "created_at_shanghai": "2026-11-12 02:52:33",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starship Super Heavy rocket booster moved to launch pad",
+      "quote": {
+        "author": "SpaceX",
+        "avatar": "https://pbs.twimg.com/profile_images/1697749409851985920/HbrI04tM_200x200.jpg",
+        "created_at_shanghai": "2026-11-11 02:21:23",
+        "created_at_utc": "2026-11-10T18:21:23.000Z",
+        "id": "2120220290219208884",
+        "images": [
+          "https://pbs.twimg.com/media/HWyJCAYXcAAFtkn.jpg?name=small",
+          "https://pbs.twimg.com/media/HWyJD07XwAANxuA.jpg?name=small",
+          "https://pbs.twimg.com/media/HWyJFLKWIAAOuYn.jpg?name=small",
+          "https://pbs.twimg.com/media/HWyJGbQXcAAwXqr.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJCAYXcAAFtkn.jpg?name=small",
+            "width": 1920,
+            "height": 1280
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJD07XwAANxuA.jpg?name=small",
+            "width": 1920,
+            "height": 1280
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJFLKWIAAOuYn.jpg?name=small",
+            "width": 1920,
+            "height": 1280
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWyJGbQXcAAwXqr.jpg?name=small",
+            "width": 1920,
+            "height": 1280
+          }
+        ],
+        "name": "SpaceX",
+        "text": "Super Heavy moved to the launch pad at Starbase. Booster 22 is the first Super Heavy V3 booster planned to return to the launch site for catch and was used for final catch testing upon arrival, including a suspended squeeze test at catch height",
+        "url": "https://x.com/SpaceX/status/2120220290219208884",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 29,
+        "likes": 1506,
+        "quotes": 25,
+        "replies": 269,
+        "retweets": 176,
+        "views": 379707
+      },
+      "url": "https://x.com/elonmusk/status/2120590521253126183",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2120589832963711162",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-11T18:49:49.000Z",
+      "created_at_shanghai": "2026-11-12 02:49:49",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Tesla Megapacks are designed to ensure grid stability, so that you never have a blackout",
+      "quote": {
+        "author": "Tesla_Megapack",
+        "avatar": "https://pbs.twimg.com/profile_images/1877130143715786752/5jFb1Ads_200x200.png",
+        "created_at_shanghai": "2026-11-11 08:59:04",
+        "created_at_utc": "2026-11-11T00:59:04.000Z",
+        "id": "2120320369282437219",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120314908789309440/img/YUtiKL7khDLrLOrT.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120314908789309440/vid/avc1/3840x2160/huhT0QlKIss9CyM4.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120314908789309440/img/YUtiKL7khDLrLOrT.jpg",
+            "width": 3840,
+            "height": 2160,
+            "duration": 145.562
+          }
+        ],
+        "name": "Tesla Megapack",
+        "text": "Tesla's Controller-Hardware-In-the-Loop (CHIL) is key to bringing Megapack sites online faster\n\nCHIL allows us to simulate the entire site in real time before it’s connected to the grid. We can see how the site will respond to faults, frequency changes or if a tree were to fall on a power line. \n\nCHIL validated 444 grid-forming Megapacks at Melbourne Renewable Energy Hub before grid connection, delivering 600 MW / 1.6 GWh of storage months ahead of schedule",
+        "url": "https://x.com/Tesla_Megapack/status/2120320369282437219",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 72,
+        "likes": 1748,
+        "quotes": 30,
+        "replies": 335,
+        "retweets": 256,
+        "views": 585978
+      },
+      "url": "https://x.com/elonmusk/status/2120589832963711162",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2120584535423565889",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5353,155 +5520,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119420033113739525",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-08T13:21:27.000Z",
-      "created_at_shanghai": "2026-11-08 21:21:27",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Yup",
-      "quote": {
-        "author": "niccruzpatane",
-        "avatar": "https://pbs.twimg.com/profile_images/1805666868071391232/1qAqAOng_200x200.jpg",
-        "created_at_shanghai": "2026-11-08 03:40:13",
-        "created_at_utc": "2026-11-07T19:40:13.000Z",
-        "id": "2119152965101781174",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2119152855193985024/img/TtjNFWpuf-hysGtb.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2119152855193985024/vid/avc1/2560x1440/GRWfdTadjUox36q9.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119152855193985024/img/TtjNFWpuf-hysGtb.jpg",
-            "width": 2560,
-            "height": 1440,
-            "duration": 64.46
-          }
-        ],
-        "name": "Nic Cruz Patane",
-        "text": "Elon Musk said at 100 GW/year of orbital AI compute (@ $10 per watt), @SpaceX would add $1 trillion in annual revenue every year, and at higher pricing it could be $3–5 trillion, stacking each year because the satellites will keep running in space. \n\nBullish on space. 🚀",
-        "url": "https://x.com/niccruzpatane/status/2119152965101781174",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 22,
-        "likes": 713,
-        "quotes": 10,
-        "replies": 162,
-        "retweets": 88,
-        "views": 345451
-      },
-      "url": "https://x.com/elonmusk/status/2119420033113739525",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2119419126045454531",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-08T13:17:51.000Z",
-      "created_at_shanghai": "2026-11-08 21:17:51",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Grok Bot fixes for improved token efficiency and smarter behavior are underway",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 35,
-        "likes": 1207,
-        "quotes": 57,
-        "replies": 356,
-        "retweets": 153,
-        "views": 353468
-      },
-      "url": "https://x.com/elonmusk/status/2119419126045454531",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2119414305686761847",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-08T12:58:41.000Z",
-      "created_at_shanghai": "2026-11-08 20:58:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Super Heavy’s Raptor engines lifting the booster off the pad.\n\nFilmed with a high-speed camera so you can see the detail in slow motion.",
-      "quote": null,
-      "retweet": {
-        "author": "teslaownersSV",
-        "avatar": "https://pbs.twimg.com/profile_images/2114535933811032064/CX_COICx_200x200.jpg",
-        "created_at_shanghai": "2026-11-08 01:29:15",
-        "created_at_utc": "2026-11-07T17:29:15.000Z",
-        "id": "2119120008211292352",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2119119940708081664/img/kYssxewOJ6EccmZU.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2119119940708081664/vid/avc1/1080x1920/_9tym-VPiBz5TdxH.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119119940708081664/img/kYssxewOJ6EccmZU.jpg",
-            "width": 1080,
-            "height": 1920,
-            "duration": 12.012
-          }
-        ],
-        "name": "Tesla Owners Silicon Valley",
-        "text": "Super Heavy’s Raptor engines lifting the booster off the pad.\n\nFilmed with a high-speed camera so you can see the detail in slow motion.",
-        "url": "https://x.com/teslaownersSV/status/2119120008211292352",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 92,
-        "likes": 1775,
-        "quotes": 26,
-        "replies": 153,
-        "retweets": 263,
-        "views": 110795
-      },
-      "url": "https://x.com/elonmusk/status/2119414305686761847",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2119119940708081664/img/kYssxewOJ6EccmZU.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2119119940708081664/vid/avc1/1080x1920/_9tym-VPiBz5TdxH.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119119940708081664/img/kYssxewOJ6EccmZU.jpg",
-          "width": 1080,
-          "height": 1920,
-          "duration": 12.012
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 100,
-  "total": 2833,
+  "total": 2836,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 17:56:45",
+  "updated_at_shanghai": "2026-11-25 21:11:55",
   "account": "elonmusk"
 }
