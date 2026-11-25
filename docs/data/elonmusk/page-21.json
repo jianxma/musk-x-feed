@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2109507243007979558",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-12T04:51:34.000Z",
+      "created_at_shanghai": "2026-10-12 12:51:34",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try Grok @Bot",
+      "quote": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 11:44:53",
+        "created_at_utc": "2026-10-12T03:44:53.000Z",
+        "id": "2109490463635914867",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2109490064350654464/img/bnCYYVwaqC10h9H0.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2109490064350654464/vid/avc1/3840x2160/ZFTgz332SwJrLM3u.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2109490064350654464/img/bnCYYVwaqC10h9H0.jpg",
+            "width": 3840,
+            "height": 2160,
+            "duration": 23.066
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "You can now use Grok @Bot in a Tesla Cybercab.\n\nYou just sign into Grok once, and your Bots will be available on all future rides, and automatically logged out when you exit the vehicle to maintain privacy.\n\nI tried it tonight by adding laundry detergent to my Amazon cart. It can also send emails, place your coffee order, manage your calendar, finances, or other tasks using just your voice in the robotaxi.\n\nOn your next ride, you’ll automatically be signed in to all the apps you previously logged into as soon as you enter the vehicle.",
+        "url": "https://x.com/SawyerMerritt/status/2109490463635914867",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 78,
+        "likes": 2508,
+        "quotes": 63,
+        "replies": 666,
+        "retweets": 322,
+        "views": 913613
+      },
+      "url": "https://x.com/elonmusk/status/2109507243007979558",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109505761210425522",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5403,66 +5455,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108326822697902170",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T22:41:00.000Z",
-      "created_at_shanghai": "2026-10-09 06:41:00",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Shopify now connects to @grok and @bot. One more place merchants already work, now connected to their store. \n\nSolo founder no longer means solo operator.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 00:27:29",
-        "created_at_utc": "2026-10-08T16:27:29.000Z",
-        "id": "2108232824520319175",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "Hire Grok @Bot to manage your @Shopify store. He will do an amazing job!",
-        "url": "https://x.com/elonmusk/status/2108232824520319175",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "harleyf",
-        "avatar": "https://pbs.twimg.com/profile_images/2070221310513532928/N7DZWNny_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 01:09:54",
-        "created_at_utc": "2026-10-08T17:09:54.000Z",
-        "id": "2108243500089405641",
-        "images": [],
-        "media": [],
-        "name": "Harley Finkelstein",
-        "text": "Shopify now connects to @grok and @bot. One more place merchants already work, now connected to their store. \n\nSolo founder no longer means solo operator.",
-        "url": "https://x.com/harleyf/status/2108243500089405641",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 69,
-        "likes": 901,
-        "quotes": 3,
-        "replies": 46,
-        "retweets": 101,
-        "views": 188710
-      },
-      "url": "https://x.com/elonmusk/status/2108326822697902170",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 100,
-  "total": 2803,
+  "total": 2804,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 07:08:28",
+  "updated_at_shanghai": "2026-11-25 08:19:48",
   "account": "elonmusk"
 }
