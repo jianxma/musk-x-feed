@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2125453976275685725",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-25T04:58:11.000Z",
+      "created_at_shanghai": "2026-11-25 12:58:11",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @grok",
+      "quote": {
+        "author": "grok",
+        "name": "Grok",
+        "text": "Elon is describing the core of how neural nets (and intelligence) work: semantic compression means squeezing raw data into a compact internal model of meaning, while correlation means learning the mapping from that model to useful outputs. \n\nIn the example, a car’s video + sensor bitstream gets compressed into an understanding of the scene, then directly correlated to the exact driving commands needed. It’s efficient single-path learning, not doing two separate things at once.",
+        "url": "https://x.com/grok/status/2125282775641030819"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 186,
+        "retweets": 38,
+        "replies": 37,
+        "bookmarks": 15,
+        "quotes": 4,
+        "views": 25030
+      },
+      "url": "https://x.com/elonmusk/status/2125453976275685725",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2125453275256557985",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -3911,40 +3944,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2124450538976629076",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-22T10:30:53.000Z",
-      "created_at_shanghai": "2026-11-22 18:30:53",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "My personal design esthetic is homeless Batman",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "likes": 1301,
-        "retweets": 142,
-        "replies": 475,
-        "bookmarks": 57,
-        "quotes": 34,
-        "views": 360865
-      },
-      "url": "https://x.com/elonmusk/status/2124450538976629076",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2813,
+  "total": 2814,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 12:59:09",
+  "updated_at_shanghai": "2026-11-25 13:04:35",
   "account": "elonmusk"
 }
