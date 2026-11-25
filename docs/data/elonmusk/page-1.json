@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2125669066388209784",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-25T19:12:53.000Z",
+      "created_at_shanghai": "2026-11-26 03:12:53",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Interesting",
+      "quote": {
+        "author": "DarioAmodei",
+        "name": "Dario Amodei",
+        "text": "No, I do not believe that we should “surrender human free will” to AI systems, and it’s absurd to suggest that I do. I have written hundreds of pages of essays and a constant theme in them is the need for AI to be governed by legitimate democratic processes. For millennia (going all the way back to Greek and Roman philosophers), advocates of autocracy have claimed that it leads to better, faster, or more decisive decision-making than the messy process of democracy. Even if this were true (which I doubt!), we should never sacrifice legitimacy or self-determination at the altar of efficiency or security. This argument against autocracy applies word for word against governance by AI, and I feel equally strongly that turning over governance to AI is a bad idea.\n\nNo one who had carefully read my writing or my interviews could reasonably conclude that I believe anything different. For example in an interview on CBS a couple months ago, I specifically called for AI to be governed democratically. I call for the same in Policy on the AI Exponential, Machines of Loving Grace, and The Adolescence of Technology, and We Must Pace the Frontier. Machines of Loving Grace contains an extended section on using AI to revitalize democracy, and discusses the use of AI as an aid to citizens in their decision-making, \"aggregat[ing] opinions and driv[ing] consensus among citizens, resolving conflict, finding common ground, and seeking compromise.” The clear and obvious implication is that humans should remain the ones making political and governance decisions. The Adolescence of Technology has an entire section on fighting against AI-driven tyranny, and I even discuss the danger of AI labs usurping power and come out strongly against it — by implication, this definitely includes an AI lab usurping power and giving it to AI itself!\n\nIf I thought any of this was a good idea, I would be advocating for it in public, just as I have not been afraid to advocate for many, many unpopular views over the last few years. But I am not advocating for it, because I think turning over governance to AI is a terrible idea.\n\nSeparately, I think there is frequent conflation (including in this article) between the idea of “surrendering human free will” to AI in some grand sense of global governance, and the more prosaic idea that as AI systems advance, they become capable of doing specific tasks in a more automated way. This is not AI “running the world,” but AI driving a car, designing a cancer drug, or writing software end-to-end. Here, my view is mixed. AI doing more complete or larger tasks is economically valuable and can drive important advances in software, medicine, transportation, energy, etc. It is clearly desirable in many cases and will save a lot of lives. But it has downsides as well, and in some areas it may not be worth it.\n\nFor example, using AI too autonomously to build the next generation of AI systems (known as recursive self-improvement, or RSI) may cause AI to improve faster than we can control or adjust to it, so we may want limits on this process. As we said publicly in early November, we don’t expect it to be safe for Claude to build successive frontier models fully autonomously, without meaningful human supervision or understanding. Second, in some contexts, using AI in too end-to-end a manner may be a cause of serious job disruption, and it may make sense to slow or even stop some AI deployments to give people more time to adapt. Third, while the use of AI for alignment research is an incredibly valuable tool, it must be done with caution, because we may not be able to trust the work of the AI system. Finally, in many cases, humans would simply prefer to do some activities themselves, so they can stay deeply engaged in what matters to them, even if AI can do those activities better. There are countless other examples and hard cases. I don’t think there are any easy answers here, nor is there (nor should there be) any single decision-maker: some of these decisions will be made by society, some by government, some by AI companies, and some in a decentralized manner by individuals expressing their own preferences as consumers, which may differ from the preferences of others.\n\nI don't think that other AI leaders or AI companies have significantly different views from me on whether specific tasks should be automated. Certainly the products that they offer don’t differ materially in their orientation towards automation of tasks; every company seems to be releasing models more and more capable of task automation (as that’s been the general consequence of scaling up AI training), and every company claims to understand there are risks and downsides of such automation and to offer safeguards. If anything, Anthropic has been the most vocal and the most proactive about acknowledging these downsides and trying to address them. For instance, it’s fairly absurd to cite my statement that fully autonomous weapons might “one day be needed for the defense of democracy” as differing from that of other AI companies, when I was willing to risk Anthropic’s future as a company to refuse to allow our existing AI models to be used for autonomous weapons even in the face of legal sanctions, and no other AI company did the same.\n\nTo summarize, as applied to grand questions of how we govern increasingly capable AI, I have been vocal and consistent that AI needs to be governed by a legitimate, democratic process and that “surrendering human free will” to AI systems is a terrible idea. As applied to automation of specific tasks by or for people, my views are more mixed, but I don’t think they differ from those of other AI companies — most other companies seem to be offering similar products and confronting similar tradeoffs without having perfect answers to them. What is happening is that there’s a sort of vibes-based commercial and political positioning that some AI CEOs are engaging in, where they repeat slogans like “human control and agency,” or “AI should be just a tool,” without actually doing anything different in their products or taking seriously the difficult questions that lie behind these slogans.",
+        "url": "https://x.com/DarioAmodei/status/2125656399392690605"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 663,
+        "retweets": 76,
+        "replies": 170,
+        "bookmarks": 50,
+        "quotes": 5,
+        "views": 313324
+      },
+      "url": "https://x.com/elonmusk/status/2125669066388209784",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2125668435480940951",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4190,82 +4223,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2124638778518303124",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-22T22:58:53.000Z",
-      "created_at_shanghai": "2026-11-23 06:58:53",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Google CEO Sundar Pichai on Elon's ability to bring future technologies into existence: \"I think it's just unparalleled.\"",
-      "quote": {
-        "author": "teslaownersSV",
-        "name": "Tesla Owners Silicon Valley",
-        "text": "Google CEO Sundar Pichai on Elon's ability to bring future technologies into existence: \"I think it's just unparalleled.\"",
-        "url": "https://x.com/teslaownersSV/status/2124320652501143556"
-      },
-      "retweet": {
-        "author": "teslaownersSV",
-        "avatar": "https://pbs.twimg.com/profile_images/2120919412295577601/oQpYa5Zu_200x200.jpg",
-        "created_at_shanghai": "2026-11-22 09:54:46",
-        "created_at_utc": "2026-11-22T01:54:46.000Z",
-        "id": "2124320652501143556",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2124320603679395840/img/g9HL3edOSb3VE2fp.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2124320603679395840/vid/avc1/1920x1078/PRf1X7IhvzdqdPSk.mp4?tag=29",
-            "hls_url": "https://video.twimg.com/amplify_video/2124320603679395840/pl/ERJTvy_Za_QC5n57.m3u8?tag=29&v=1ab",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2124320603679395840/img/g9HL3edOSb3VE2fp.jpg",
-            "width": 1920,
-            "height": 1078,
-            "duration": 21.3
-          }
-        ],
-        "name": "Tesla Owners Silicon Valley",
-        "text": "Google CEO Sundar Pichai on Elon's ability to bring future technologies into existence: \"I think it's just unparalleled.\"",
-        "url": "https://x.com/teslaownersSV/status/2124320652501143556",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 50,
-        "likes": 601,
-        "quotes": 7,
-        "replies": 47,
-        "retweets": 99,
-        "views": 55454
-      },
-      "url": "https://x.com/elonmusk/status/2124638778518303124",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2124320603679395840/img/g9HL3edOSb3VE2fp.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2124320603679395840/vid/avc1/1920x1078/PRf1X7IhvzdqdPSk.mp4?tag=29",
-          "hls_url": "https://video.twimg.com/amplify_video/2124320603679395840/pl/ERJTvy_Za_QC5n57.m3u8?tag=29&v=1ab",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2124320603679395840/img/g9HL3edOSb3VE2fp.jpg",
-          "width": 1920,
-          "height": 1078,
-          "duration": 21.3
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2855,
+  "total": 2856,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-26 03:12:17",
+  "updated_at_shanghai": "2026-11-26 03:16:57",
   "account": "elonmusk"
 }

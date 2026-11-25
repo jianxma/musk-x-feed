@@ -1,6 +1,76 @@
 {
   "posts": [
     {
+      "id": "2124638778518303124",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-22T22:58:53.000Z",
+      "created_at_shanghai": "2026-11-23 06:58:53",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Google CEO Sundar Pichai on Elon's ability to bring future technologies into existence: \"I think it's just unparalleled.\"",
+      "quote": {
+        "author": "teslaownersSV",
+        "name": "Tesla Owners Silicon Valley",
+        "text": "Google CEO Sundar Pichai on Elon's ability to bring future technologies into existence: \"I think it's just unparalleled.\"",
+        "url": "https://x.com/teslaownersSV/status/2124320652501143556"
+      },
+      "retweet": {
+        "author": "teslaownersSV",
+        "avatar": "https://pbs.twimg.com/profile_images/2120919412295577601/oQpYa5Zu_200x200.jpg",
+        "created_at_shanghai": "2026-11-22 09:54:46",
+        "created_at_utc": "2026-11-22T01:54:46.000Z",
+        "id": "2124320652501143556",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2124320603679395840/img/g9HL3edOSb3VE2fp.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2124320603679395840/vid/avc1/1920x1078/PRf1X7IhvzdqdPSk.mp4?tag=29",
+            "hls_url": "https://video.twimg.com/amplify_video/2124320603679395840/pl/ERJTvy_Za_QC5n57.m3u8?tag=29&v=1ab",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2124320603679395840/img/g9HL3edOSb3VE2fp.jpg",
+            "width": 1920,
+            "height": 1078,
+            "duration": 21.3
+          }
+        ],
+        "name": "Tesla Owners Silicon Valley",
+        "text": "Google CEO Sundar Pichai on Elon's ability to bring future technologies into existence: \"I think it's just unparalleled.\"",
+        "url": "https://x.com/teslaownersSV/status/2124320652501143556",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 50,
+        "likes": 601,
+        "quotes": 7,
+        "replies": 47,
+        "retweets": 99,
+        "views": 55454
+      },
+      "url": "https://x.com/elonmusk/status/2124638778518303124",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124320603679395840/img/g9HL3edOSb3VE2fp.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2124320603679395840/vid/avc1/1920x1078/PRf1X7IhvzdqdPSk.mp4?tag=29",
+          "hls_url": "https://video.twimg.com/amplify_video/2124320603679395840/pl/ERJTvy_Za_QC5n57.m3u8?tag=29&v=1ab",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2124320603679395840/img/g9HL3edOSb3VE2fp.jpg",
+          "width": 1920,
+          "height": 1078,
+          "duration": 21.3
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2124634239945540061",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -3926,45 +3996,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2124028719190749681",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-21T06:34:43.000Z",
-      "created_at_shanghai": "2026-11-21 14:34:43",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Playing GTA VI with Telepathy",
-      "quote": {
-        "author": "neuralink",
-        "name": "Neuralink",
-        "text": "Playing GTA VI with a Neuralink",
-        "url": "https://x.com/neuralink/status/2123890949029818800"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "likes": 775,
-        "retweets": 104,
-        "replies": 221,
-        "bookmarks": 45,
-        "quotes": 14,
-        "views": 292396
-      },
-      "url": "https://x.com/elonmusk/status/2124028719190749681",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 100,
-  "total": 2855,
+  "total": 2856,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-26 03:12:17",
+  "updated_at_shanghai": "2026-11-26 03:16:57",
   "account": "elonmusk"
 }
