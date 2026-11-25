@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2110520607276499109",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T23:58:19.000Z",
+      "created_at_shanghai": "2026-10-15 07:58:19",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok is the best conversational voice model in the world",
+      "quote": {
+        "author": "SpaceXSI",
+        "avatar": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_200x200.jpg",
+        "created_at_shanghai": "2026-10-15 01:04:57",
+        "created_at_utc": "2026-10-14T17:04:57.000Z",
+        "id": "2110416580899168305",
+        "images": [
+          "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUm0LiyW8AAHlzx.jpg?name=small",
+            "width": 1974,
+            "height": 1180
+          }
+        ],
+        "name": "SpaceX Super Intelligence",
+        "text": "Introducing Grok Voice 3.0, the world’s most intelligent speech-to-speech model.\n\nIt excels at resolving customer calls, responds in under a second, and costs less than other frontier models.",
+        "url": "https://x.com/SpaceXSI/status/2110416580899168305",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 105,
+        "likes": 2857,
+        "quotes": 42,
+        "replies": 545,
+        "retweets": 364,
+        "views": 592998
+      },
+      "url": "https://x.com/elonmusk/status/2110520607276499109",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110518710964568453",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5181,53 +5231,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2109811014489272676",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-13T00:58:38.000Z",
-      "created_at_shanghai": "2026-10-13 08:58:38",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try @Grok @Bot\n\nIt gets better every day",
-      "quote": {
-        "author": "jerrod_lew",
-        "avatar": "https://pbs.twimg.com/profile_images/2037818589714202624/gM2tduRH_200x200.jpg",
-        "created_at_shanghai": "2026-10-12 15:44:08",
-        "created_at_utc": "2026-10-12T07:44:08.000Z",
-        "id": "2109550671813128266",
-        "images": [],
-        "media": [],
-        "name": "Jerrod Lew",
-        "text": "Grok Bot is the strongest personal agent I've used yet.\n\nJust the usage on it increases so fast, and so I'm afraid to give it too much.\n\nReally hope there are some solutions to the overall 𝕏, Grok, Grok Bot subscriptions so they role into one.",
-        "url": "https://x.com/jerrod_lew/status/2109550671813128266",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 74,
-        "likes": 2395,
-        "quotes": 32,
-        "replies": 449,
-        "retweets": 272,
-        "views": 694172
-      },
-      "url": "https://x.com/elonmusk/status/2109811014489272676",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 20,
   "page_size": 100,
-  "total": 2826,
+  "total": 2827,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 15:13:46",
+  "updated_at_shanghai": "2026-11-25 16:48:28",
   "account": "elonmusk"
 }
