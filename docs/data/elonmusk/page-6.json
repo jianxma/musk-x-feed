@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2121644169462681818",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-14T16:39:22.000Z",
+      "created_at_shanghai": "2026-11-15 00:39:22",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Text watermarking with Grok is only on where required by law or requested by the user",
+      "quote": {
+        "author": "techdevnotes",
+        "avatar": "https://pbs.twimg.com/profile_images/1618185418234646529/f9-GqDq1_200x200.jpg",
+        "created_at_shanghai": "2026-11-14 06:33:03",
+        "created_at_utc": "2026-11-13T22:33:03.000Z",
+        "id": "2121370786208375136",
+        "images": [
+          "https://pbs.twimg.com/media/HXCfc5MXAAAQCEQ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HXCfc5MXAAAQCEQ.jpg?name=small",
+            "width": 2036,
+            "height": 1572
+          }
+        ],
+        "name": "Tech Dev Notes",
+        "text": "Text watermarking is now off by default in the SpaceXSI API",
+        "url": "https://x.com/techdevnotes/status/2121370786208375136",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 71,
+        "likes": 1269,
+        "quotes": 30,
+        "replies": 267,
+        "retweets": 143,
+        "views": 428131
+      },
+      "url": "https://x.com/elonmusk/status/2121644169462681818",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2121636671791992967",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -6817,64 +6867,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2120760435813306525",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-12T06:07:44.000Z",
-      "created_at_shanghai": "2026-11-12 14:07:44",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Chill vibes",
-      "quote": {
-        "author": "robotaxi",
-        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-11-11 05:34:23",
-        "created_at_utc": "2026-11-10T21:34:23.000Z",
-        "id": "2120268861669007562",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2120267696961196032/vid/avc1/3840x2160/q-BKgDY7DyFbcYwR.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120267696961196032/img/yBGZkgqFlvuMyH1M.jpg",
-            "width": 3840,
-            "height": 2160,
-            "duration": 1725.696
-          }
-        ],
-        "name": "Robotaxi",
-        "text": "Lofi beats to self-drive to",
-        "url": "https://x.com/robotaxi/status/2120268861669007562",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 43,
-        "likes": 1176,
-        "quotes": 10,
-        "replies": 272,
-        "retweets": 121,
-        "views": 327582
-      },
-      "url": "https://x.com/elonmusk/status/2120760435813306525",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 100,
-  "total": 2849,
+  "total": 2850,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 23:13:17",
+  "updated_at_shanghai": "2026-11-25 23:18:57",
   "account": "elonmusk"
 }
