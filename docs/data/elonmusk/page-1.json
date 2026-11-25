@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2125605024999129204",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-25T14:58:24.000Z",
+      "created_at_shanghai": "2026-11-25 22:58:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @saranormous",
+      "quote": {
+        "author": "saranormous",
+        "name": "sarah guo",
+        "text": "The $NVDA board was right to bring back @JensenHuang. I argue in the Economist why:",
+        "url": "https://x.com/saranormous/status/2125602695545504105"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 441,
+        "retweets": 72,
+        "replies": 51,
+        "bookmarks": 25,
+        "quotes": 1,
+        "views": 62303
+      },
+      "url": "https://x.com/elonmusk/status/2125605024999129204",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2125602910558212318",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4132,47 +4165,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2124619744980709671",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-22T21:43:15.000Z",
-      "created_at_shanghai": "2026-11-23 05:43:15",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "After experiencing @Tesla's Cybercab in Dallas, some riders don't want to use any other robotaxi because of how much they love it, despite competing services offering discounts.",
-      "quote": {
-        "author": "SawyerMerritt",
-        "name": "Sawyer Merritt",
-        "text": "After experiencing @Tesla's Cybercab in Dallas, some riders don't want to use any other robotaxi because of how much they love it, despite competing services offering discounts.",
-        "url": "https://x.com/SawyerMerritt/status/2124190749931540905"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 45,
-        "likes": 2198,
-        "quotes": 15,
-        "replies": 102,
-        "retweets": 178,
-        "views": 108089
-      },
-      "url": "https://x.com/elonmusk/status/2124619744980709671",
-      "images": [
-        "https://pbs.twimg.com/media/HXqjAChXwAAl3V4.jpg?name=small"
-      ],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2846,
+  "total": 2847,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 22:54:59",
+  "updated_at_shanghai": "2026-11-25 23:08:25",
   "account": "elonmusk"
 }
