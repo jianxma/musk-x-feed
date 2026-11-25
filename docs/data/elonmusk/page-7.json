@@ -1,6 +1,114 @@
 {
   "posts": [
     {
+      "id": "2120759902230413789",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T06:05:37.000Z",
+      "created_at_shanghai": "2026-11-12 14:05:37",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Lofi beats to self-drive to",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {},
+      "url": "https://x.com/elonmusk/status/2120759902230413789",
+      "images": [],
+      "media": [],
+      "enriched": false
+    },
+    {
+      "id": "2120758321619542032",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-12T05:59:20.000Z",
+      "created_at_shanghai": "2026-11-12 13:59:20",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "grok bot is the BEST AI agent orchestrator right now\n\nand THIS is the best setup i’ve EVER seen\n\nhttps://youtu.be/1cWZ7Ekff6E?si=YkcMxxhffksv48LX\n\nit runs claude code for engineering and paper for design\n\nhere is the FULL setup and how to copy it:",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 02:22:30",
+        "created_at_utc": "2026-11-11T18:22:30.000Z",
+        "id": "2120582957782200586",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120580701489889280/vid/avc1/1920x1080/BDhW_GY4lPxCEeGk.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120580701489889280/img/prTmn-AYcXRsQ0Xa.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 79.1
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Introducing Grok Bot 1.0. AI teammates that work alongside your whole team.\n\nShare Bots, collaborate with them in Slack and Teams, invite them to meetings, and watch them learn and become more helpful.",
+        "url": "https://x.com/bot/status/2120582957782200586",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "gregisenberg",
+        "avatar": "https://pbs.twimg.com/profile_images/1577116785656139776/5mi0qgTz_200x200.jpg",
+        "created_at_shanghai": "2026-11-12 03:08:02",
+        "created_at_utc": "2026-11-11T19:08:02.000Z",
+        "id": "2120594418231398677",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120593723704643584/img/kwDGEdaSJ6uWQS0i.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120593723704643584/vid/avc1/1280x720/fZz-yqopyImG0D_L.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120593723704643584/img/kwDGEdaSJ6uWQS0i.jpg",
+            "width": 1280,
+            "height": 720,
+            "duration": 2911.375
+          }
+        ],
+        "name": "GREG ISENBERG",
+        "text": "grok bot is the BEST AI agent orchestrator right now\n\nand THIS is the best setup i’ve EVER seen\n\nhttps://youtu.be/1cWZ7Ekff6E?si=YkcMxxhffksv48LX\n\nit runs claude code for engineering and paper for design\n\nhere is the FULL setup and how to copy it:",
+        "url": "https://x.com/gregisenberg/status/2120594418231398677",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 1321,
+        "likes": 776,
+        "quotes": 15,
+        "replies": 115,
+        "retweets": 58,
+        "views": 90859
+      },
+      "url": "https://x.com/elonmusk/status/2120758321619542032",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120593723704643584/img/kwDGEdaSJ6uWQS0i.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120593723704643584/vid/avc1/1280x720/fZz-yqopyImG0D_L.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120593723704643584/img/kwDGEdaSJ6uWQS0i.jpg",
+          "width": 1280,
+          "height": 720,
+          "duration": 2911.375
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2120758305047904548",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5510,105 +5618,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119617455102333206",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-09T02:25:56.000Z",
-      "created_at_shanghai": "2026-11-09 10:25:56",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Just did a round table review with the Grok @Bot engineering team. \n\nFixes are being implemented overnight and you should notice a dramatic improvement by tomorrow. If not, reply to this post and we will address any remaining issues right away.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1249,
-        "likes": 18197,
-        "quotes": 502,
-        "replies": 3015,
-        "retweets": 1396,
-        "views": 1154615
-      },
-      "url": "https://x.com/elonmusk/status/2119617455102333206",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2119592143778173200",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-09T00:45:21.000Z",
-      "created_at_shanghai": "2026-11-09 08:45:21",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Charlie was murdered in the middle of a debate with people who hate him while wearing a shirt that said \"freedom.\" He died defending Chappelle's right to be offensive. And Chappelle thanks him by reveling in his death.\n\nBut as offensive as that is, none of us who knew and loved Charlie want Chappelle to suffer the same fate. We don't want Chappelle dead, and we wouldn't \"feel better\" if someone murdered him. That's not how we respond to speech that offends us because we're not bloodthirsty lunatics.\n\nIf you're laughing about Charlie's murder, or feeling good about Charlie's murder, you're acting within your rights. You're free to be sadistic. But that's exactly what you are. Your soul is sick. The only thing I wish for you is that you'd come to realize it — before it's too late — and beg for God's forgiveness.",
-      "quote": {
-        "author": "FreeThinkerFit",
-        "avatar": "https://pbs.twimg.com/profile_images/1837749044103598080/u5LsQlzQ_200x200.jpg",
-        "created_at_shanghai": "2026-11-08 14:45:36",
-        "created_at_utc": "2026-11-08T06:45:36.000Z",
-        "id": "2119320412635144528",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2119320354275635200/img/iPOr44J1AvvNOKMC.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2119320354275635200/vid/avc1/1206x812/qtFSzEOirTkaptjh.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2119320354275635200/img/iPOr44J1AvvNOKMC.jpg",
-            "width": 1206,
-            "height": 812,
-            "duration": 29.228
-          }
-        ],
-        "name": "FreeThinkerFitness",
-        "text": "“Ever since that guy Charlie Kirk got murdered, and I shouldn’t say this publicly but…. I feel better.”\n\n- Dave Chappelle",
-        "url": "https://x.com/FreeThinkerFit/status/2119320412635144528",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "SethDillon",
-        "avatar": "https://pbs.twimg.com/profile_images/1940878673210445824/82Pw3HHs_200x200.jpg",
-        "created_at_shanghai": "2026-11-09 06:51:20",
-        "created_at_utc": "2026-11-08T22:51:20.000Z",
-        "id": "2119563450846245307",
-        "images": [],
-        "media": [],
-        "name": "Seth Dillon",
-        "text": "Charlie was murdered in the middle of a debate with people who hate him while wearing a shirt that said \"freedom.\" He died defending Chappelle's right to be offensive. And Chappelle thanks him by reveling in his death.\n\nBut as offensive as that is, none of us who knew and loved Charlie want Chappelle to suffer the same fate. We don't want Chappelle dead, and we wouldn't \"feel better\" if someone murdered him. That's not how we respond to speech that offends us because we're not bloodthirsty lunatics.\n\nIf you're laughing about Charlie's murder, or feeling good about Charlie's murder, you're acting within your rights. You're free to be sadistic. But that's exactly what you are. Your soul is sick. The only thing I wish for you is that you'd come to realize it — before it's too late — and beg for God's forgiveness.",
-        "url": "https://x.com/SethDillon/status/2119563450846245307",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 252,
-        "likes": 6181,
-        "quotes": 50,
-        "replies": 434,
-        "retweets": 922,
-        "views": 304812
-      },
-      "url": "https://x.com/elonmusk/status/2119592143778173200",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 100,
-  "total": 2847,
+  "total": 2849,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-25 23:08:25",
+  "updated_at_shanghai": "2026-11-25 23:13:17",
   "account": "elonmusk"
 }
