@@ -1,6 +1,115 @@
 {
   "posts": [
     {
+      "id": "2116993181405606125",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-01T20:38:00.000Z",
+      "created_at_shanghai": "2026-11-02 04:38:00",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@elonmusk",
+      "quote": null,
+      "retweet": {
+        "author": "KittyMidge",
+        "avatar": "https://pbs.twimg.com/profile_images/2104503516299509760/5kzcutY9_200x200.jpg",
+        "created_at_shanghai": "2026-11-02 04:35:43",
+        "created_at_utc": "2026-11-01T20:35:43.000Z",
+        "id": "2116992604466467181",
+        "images": [
+          "https://pbs.twimg.com/media/HWERjPpXwAAWHCK.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWERjPpXwAAWHCK.jpg?name=small",
+            "width": 1080,
+            "height": 1042
+          }
+        ],
+        "name": "KittyKittyKitty",
+        "text": "@elonmusk",
+        "url": "https://x.com/KittyMidge/status/2116992604466467181",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "elonmusk",
+      "engagement": {
+        "bookmarks": 480,
+        "likes": 7762,
+        "quotes": 30,
+        "replies": 129,
+        "retweets": 458,
+        "views": 421923
+      },
+      "url": "https://x.com/elonmusk/status/2116993181405606125",
+      "images": [
+        "https://pbs.twimg.com/media/HWERjPpXwAAWHCK.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWERjPpXwAAWHCK.jpg?name=small",
+          "width": 1080,
+          "height": 1042
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2116991729660575998",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-01T20:32:14.000Z",
+      "created_at_shanghai": "2026-11-02 04:32:14",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "The other supercompute projects are unable to reach their goals, but SpaceX is already achieving ours",
+      "quote": {
+        "author": "Rothmus",
+        "avatar": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_200x200.jpg",
+        "created_at_shanghai": "2026-11-02 02:54:34",
+        "created_at_utc": "2026-11-01T18:54:34.000Z",
+        "id": "2116967150200193242",
+        "images": [
+          "https://pbs.twimg.com/media/HWD6ZwmWgAACvn7.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWD6ZwmWgAACvn7.jpg?name=small",
+            "width": 1080,
+            "height": 1350
+          }
+        ],
+        "name": "Rothmus 🏴",
+        "text": "SpaceXAI’s Colossus 2 in Memphis is the world’s most powerful AI data center.\n\nRoughly 1.11 million H100 equivalents, ahead of OpenAI’s Stargate and the big tech campuses.\n\nBy mid 2027, Colossus is expected to widen the gap with more Blackwell clusters coming online.",
+        "url": "https://x.com/Rothmus/status/2116967150200193242",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 639,
+        "quotes": 13,
+        "replies": 151,
+        "retweets": 99,
+        "views": 308742
+      },
+      "url": "https://x.com/elonmusk/status/2116991729660575998",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2116990933103509723",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5183,154 +5292,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116360100134965332",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-31T02:42:22.000Z",
-      "created_at_shanghai": "2026-10-31 10:42:22",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Voted in Texas for Paxton!",
-      "quote": null,
-      "retweet": {
-        "author": "gailalfaratx",
-        "avatar": "https://pbs.twimg.com/profile_images/2114915452761575424/qvaS6KDi_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 06:21:01",
-        "created_at_utc": "2026-10-30T22:21:01.000Z",
-        "id": "2116294330638074103",
-        "images": [
-          "https://pbs.twimg.com/media/HV6Wef9WMAAQolH.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HV6Wef9WMAAQolH.jpg?name=small",
-            "width": 1080,
-            "height": 1440
-          }
-        ],
-        "name": "Gail Alfar",
-        "text": "Voted in Texas for Paxton!",
-        "url": "https://x.com/gailalfaratx/status/2116294330638074103",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 31,
-        "likes": 5135,
-        "quotes": 16,
-        "replies": 318,
-        "retweets": 399,
-        "views": 290513
-      },
-      "url": "https://x.com/elonmusk/status/2116360100134965332",
-      "images": [
-        "https://pbs.twimg.com/media/HV6Wef9WMAAQolH.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HV6Wef9WMAAQolH.jpg?name=small",
-          "width": 1080,
-          "height": 1440
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2116306821808017785",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T23:10:40.000Z",
-      "created_at_shanghai": "2026-10-31 07:10:40",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "ngl i still think about this",
-      "quote": {
-        "author": "ns123abc",
-        "avatar": "https://pbs.twimg.com/profile_images/2048822563821035520/7nxCFEnk_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 03:13:03",
-        "created_at_utc": "2026-10-30T19:13:03.000Z",
-        "id": "2116247027335966934",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2116245186216886272/img/xb4Cz21tMEow4NnI.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2116245186216886272/vid/avc1/1920x1080/yBEF0yNP2fXhqGCO.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116245186216886272/img/xb4Cz21tMEow4NnI.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 82.499
-          }
-        ],
-        "name": "NIK",
-        "text": "BREAKING: Google just proved AI data centers in space actually work\n\nProject Suncatcher's first satellite, built with @planet and launched on a SpaceX rocket with 4 TPUs on board, verified the physics: Google sent a prompt from Earth, a TPU in orbit ran Gemma inference, and the full answer was beamed back down. \n\nSpaceX is launching its StarMind satellites with NVIDIA GPUs on Starship in late 2027. \n\nKardashev Type II civilization INCOMING",
-        "url": "https://x.com/ns123abc/status/2116247027335966934",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "distributedkv",
-        "avatar": "https://pbs.twimg.com/profile_images/2103589881410961408/m8LorPWN_200x200.jpg",
-        "created_at_shanghai": "2026-10-31 05:04:34",
-        "created_at_utc": "2026-10-30T21:04:34.000Z",
-        "id": "2116275089931170257",
-        "images": [
-          "https://pbs.twimg.com/media/HV6E-lJaMAANt4k.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HV6E-lJaMAANt4k.jpg?name=small",
-            "width": 954,
-            "height": 1325
-          }
-        ],
-        "name": "tenso",
-        "text": "ngl i still think about this",
-        "url": "https://x.com/distributedkv/status/2116275089931170257",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 156,
-        "likes": 2114,
-        "quotes": 11,
-        "replies": 108,
-        "retweets": 204,
-        "views": 282066
-      },
-      "url": "https://x.com/elonmusk/status/2116306821808017785",
-      "images": [
-        "https://pbs.twimg.com/media/HV6E-lJaMAANt4k.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HV6E-lJaMAANt4k.jpg?name=small",
-          "width": 954,
-          "height": 1325
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 11,
   "page_size": 100,
-  "total": 2870,
+  "total": 2872,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-26 16:23:49",
+  "updated_at_shanghai": "2026-11-26 16:33:18",
   "account": "elonmusk"
 }
