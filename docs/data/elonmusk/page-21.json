@@ -1,6 +1,88 @@
 {
   "posts": [
     {
+      "id": "2110219855614116152",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-14T04:03:14.000Z",
+      "created_at_shanghai": "2026-10-14 12:03:14",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "it won't be long before \"have your bot talk to my bot\" becomes common!\n\nsome fun use cases of multiplayer grok bot over email could be:\n\n• debugging (you can send my bot bug reports!)\n• customer support\n• booking meetings and events\n• group buys\n• buying and selling stuff off craigslist\n\nwhat have you used bot mail for?",
+      "quote": null,
+      "retweet": {
+        "author": "poteto",
+        "avatar": "https://pbs.twimg.com/profile_images/2093473719830315008/oo09g1Ov_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 10:14:04",
+        "created_at_utc": "2026-10-14T02:14:04.000Z",
+        "id": "2110192382096679248",
+        "images": [],
+        "media": [],
+        "name": "lauren",
+        "text": "it won't be long before \"have your bot talk to my bot\" becomes common!\n\nsome fun use cases of multiplayer grok bot over email could be:\n\n• debugging (you can send my bot bug reports!)\n• customer support\n• booking meetings and events\n• group buys\n• buying and selling stuff off craigslist\n\nwhat have you used bot mail for?",
+        "url": "https://x.com/poteto/status/2110192382096679248",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 161,
+        "likes": 1181,
+        "quotes": 23,
+        "replies": 203,
+        "retweets": 67,
+        "views": 159101
+      },
+      "url": "https://x.com/elonmusk/status/2110219855614116152",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110154332553597413",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T23:42:52.000Z",
+      "created_at_shanghai": "2026-10-14 07:42:52",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Tesla self-driving feels like magic",
+      "quote": {
+        "author": "paulg",
+        "avatar": "https://pbs.twimg.com/profile_images/1824002576/pg-railsconf_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 03:32:21",
+        "created_at_utc": "2026-10-13T19:32:21.000Z",
+        "id": "2110091290063090093",
+        "images": [],
+        "media": [],
+        "name": "Paul Graham",
+        "text": "The Tesla Model 3 with FSD is mind-blowing. Jessica and I drove to the gym without touching the controls once. It backed out of our driveway, drove there, and backed into a parking space. It's amazing that you can buy so much future for $40k.",
+        "url": "https://x.com/paulg/status/2110091290063090093",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 82,
+        "likes": 4566,
+        "quotes": 75,
+        "replies": 752,
+        "retweets": 392,
+        "views": 810918
+      },
+      "url": "https://x.com/elonmusk/status/2110154332553597413",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110138567142113653",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5105,114 +5187,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109269410879819885",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T13:06:30.000Z",
-      "created_at_shanghai": "2026-10-11 21:06:30",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "1. That address has already been doxxed multiple times. \n2. I don’t live there. That’s where my security team receives mail.",
-      "quote": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 13:35:19",
-        "created_at_utc": "2026-10-11T05:35:19.000Z",
-        "id": "2109155867983786382",
-        "images": [
-          "https://pbs.twimg.com/media/HUU6FKbXoAA8d94.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUU6FKbXoAA8d94.jpg?name=small",
-            "width": 942,
-            "height": 2048
-          }
-        ],
-        "name": "Elon Musk",
-        "text": "I just asked Grok @Bot to research the most fun Lego Star Wars kits for young kids and order them. As easy as that.",
-        "url": "https://x.com/elonmusk/status/2109155867983786382",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 183,
-        "likes": 4722,
-        "quotes": 53,
-        "replies": 627,
-        "retweets": 309,
-        "views": 811009
-      },
-      "url": "https://x.com/elonmusk/status/2109269410879819885",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109262612303314986",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-11T12:39:29.000Z",
-      "created_at_shanghai": "2026-10-11 20:39:29",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Cybercab is scaling",
-      "quote": {
-        "author": "robotaxi",
-        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 02:03:12",
-        "created_at_utc": "2026-10-10T18:03:12.000Z",
-        "id": "2108981691436224816",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108981082184196096/img/wGul5qsq-gD4zOtp.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108981082184196096/vid/avc1/3840x2160/JMXBg-QsjE5QIYbt.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108981082184196096/img/wGul5qsq-gD4zOtp.jpg",
-            "width": 3840,
-            "height": 2160,
-            "duration": 45.353
-          }
-        ],
-        "name": "Robotaxi",
-        "text": "One month after launch, we've scaled to 300+ Cybercabs serving Austin – an 8x increase in 30 days",
-        "url": "https://x.com/robotaxi/status/2108981691436224816",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 146,
-        "likes": 6321,
-        "quotes": 99,
-        "replies": 793,
-        "retweets": 685,
-        "views": 789376
-      },
-      "url": "https://x.com/elonmusk/status/2109262612303314986",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 100,
-  "total": 2883,
+  "total": 2885,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-27 04:18:12",
+  "updated_at_shanghai": "2026-11-27 05:28:15",
   "account": "elonmusk"
 }
