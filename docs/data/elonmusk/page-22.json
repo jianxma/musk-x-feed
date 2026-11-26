@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2109012639049244981",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T20:06:11.000Z",
+      "created_at_shanghai": "2026-10-11 04:06:11",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 535,
+        "likes": 17941,
+        "quotes": 505,
+        "replies": 2697,
+        "retweets": 1870,
+        "views": 1224252
+      },
+      "url": "https://x.com/elonmusk/status/2109012639049244981",
+      "images": [
+        "https://pbs.twimg.com/media/HUS30WJXgAAuTSo.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUS30WJXgAAuTSo.jpg?name=small",
+          "width": 1320,
+          "height": 762
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2109012248354304350",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5371,75 +5408,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108264207896432923",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T18:32:11.000Z",
-      "created_at_shanghai": "2026-10-09 02:32:11",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "🚨 ELON MUSK ON STARLINK FOR RURAL INDIA\n\nBack in June 2023, Elon said he hoped to bring Starlink to India.\n\n“The Starlink internet can be incredibly helpful for remote or rural villages, where they may have no access to internet, or the internet is very expensive and slow.”\n\nMore than three years later, that same problem is still there in parts of rural India. And Starlink is still waiting to serve them. https://x.com/XFreeze/status/2108229208258511331/video/1",
-      "quote": null,
-      "retweet": {
-        "author": "AsFoundX",
-        "avatar": "https://pbs.twimg.com/profile_images/2095292024899465217/wOMt6_bi_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 00:16:36",
-        "created_at_utc": "2026-10-08T16:16:36.000Z",
-        "id": "2108230087237578821",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108227573935390720/img/6mY4Td6l5PTg5uUQ.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108227573935390720/vid/avc1/1920x1080/olVLu-0-daaKzMYy.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108227573935390720/img/6mY4Td6l5PTg5uUQ.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 17.8
-          }
-        ],
-        "name": "As Found",
-        "text": "🚨 ELON MUSK ON STARLINK FOR RURAL INDIA\n\nBack in June 2023, Elon said he hoped to bring Starlink to India.\n\n“The Starlink internet can be incredibly helpful for remote or rural villages, where they may have no access to internet, or the internet is very expensive and slow.”\n\nMore than three years later, that same problem is still there in parts of rural India. And Starlink is still waiting to serve them. https://x.com/XFreeze/status/2108229208258511331/video/1",
-        "url": "https://x.com/AsFoundX/status/2108230087237578821",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 60,
-        "likes": 1170,
-        "quotes": 8,
-        "replies": 117,
-        "retweets": 188,
-        "views": 221607
-      },
-      "url": "https://x.com/elonmusk/status/2108264207896432923",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2108227573935390720/img/6mY4Td6l5PTg5uUQ.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2108227573935390720/vid/avc1/1920x1080/olVLu-0-daaKzMYy.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108227573935390720/img/6mY4Td6l5PTg5uUQ.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 17.8
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 22,
   "page_size": 100,
-  "total": 2863,
+  "total": 2864,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-26 11:53:08",
+  "updated_at_shanghai": "2026-11-26 14:07:53",
   "account": "elonmusk"
 }
