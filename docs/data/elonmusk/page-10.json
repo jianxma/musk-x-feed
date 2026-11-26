@@ -1,6 +1,71 @@
 {
   "posts": [
     {
+      "id": "2118083742048944543",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-04T20:51:30.000Z",
+      "created_at_shanghai": "2026-11-05 04:51:30",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Bot has this bias for action that makes it feel like the most fearless coworker you’ve ever worked with. \n\nSo much work is needless friction, bot finds the path of least resistance and grinds through tasks until they’re complete. \n\nFeels like a new era of productivity.",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-11-05 02:13:21",
+        "created_at_utc": "2026-11-04T18:13:21.000Z",
+        "id": "2118043939592942052",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2118043621249433600/img/wbtqZXaA0cWZe1Kd.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2118043621249433600/vid/avc1/1920x1080/cOs6k3ZkBGObOn6g.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2118043621249433600/img/wbtqZXaA0cWZe1Kd.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 42.033
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now make phone calls.",
+        "url": "https://x.com/bot/status/2118043939592942052",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "Baconbrix",
+        "avatar": "https://pbs.twimg.com/profile_images/2102652233762709504/LOuSkpLB_200x200.jpg",
+        "created_at_shanghai": "2026-11-05 03:33:16",
+        "created_at_utc": "2026-11-04T19:33:16.000Z",
+        "id": "2118064051771310169",
+        "images": [],
+        "media": [],
+        "name": "Evan Bacon",
+        "text": "Bot has this bias for action that makes it feel like the most fearless coworker you’ve ever worked with. \n\nSo much work is needless friction, bot finds the path of least resistance and grinds through tasks until they’re complete. \n\nFeels like a new era of productivity.",
+        "url": "https://x.com/Baconbrix/status/2118064051771310169",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 77,
+        "likes": 851,
+        "quotes": 10,
+        "replies": 80,
+        "retweets": 115,
+        "views": 239508
+      },
+      "url": "https://x.com/elonmusk/status/2118083742048944543",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2118050563145510979",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5665,53 +5730,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2117041782987071682",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-01T23:51:08.000Z",
-      "created_at_shanghai": "2026-11-02 07:51:08",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "grok bot templates are a VERY good example of a feature that doubles as a distribution mechanism...\n\nlook closely and they're basically instructions, simple prompts for each agent\n\nbut because they're easy to share, people on X feel like they can plug new modules and extra capabilities into their setup with a simple copy + paste\n\nthe team behind them knew people would build marketplaces, farm engagement on X with these, even sell them\n\nthe smartest way to build a product when distribution is the goal",
-      "quote": null,
-      "retweet": {
-        "author": "EXM7777",
-        "avatar": "https://pbs.twimg.com/profile_images/1922574051580563456/-OFXIxnm_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 05:03:00",
-        "created_at_utc": "2026-11-01T21:03:00.000Z",
-        "id": "2116999470437339364",
-        "images": [],
-        "media": [],
-        "name": "Machina",
-        "text": "grok bot templates are a VERY good example of a feature that doubles as a distribution mechanism...\n\nlook closely and they're basically instructions, simple prompts for each agent\n\nbut because they're easy to share, people on X feel like they can plug new modules and extra capabilities into their setup with a simple copy + paste\n\nthe team behind them knew people would build marketplaces, farm engagement on X with these, even sell them\n\nthe smartest way to build a product when distribution is the goal",
-        "url": "https://x.com/EXM7777/status/2116999470437339364",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 118,
-        "likes": 643,
-        "quotes": 6,
-        "replies": 54,
-        "retweets": 86,
-        "views": 235651
-      },
-      "url": "https://x.com/elonmusk/status/2117041782987071682",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 10,
   "page_size": 100,
-  "total": 2882,
+  "total": 2883,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-27 03:52:06",
+  "updated_at_shanghai": "2026-11-27 04:18:12",
   "account": "elonmusk"
 }

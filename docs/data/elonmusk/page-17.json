@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2113131529454973416",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-22T04:53:11.000Z",
+      "created_at_shanghai": "2026-10-22 12:53:11",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon Musk on Optimus V3:\n\n\"We may be ready to release a video in about a month or two. I want to release a video where Optimus is doing things that aren't pre-programmed. A demo that you can believe. Another milestone we want to get to is integrating the AI5 chip in Optimus, which will be in April 2027.\"",
+      "quote": null,
+      "retweet": {
+        "author": "SawyerMerritt",
+        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 05:55:22",
+        "created_at_utc": "2026-10-21T21:55:22.000Z",
+        "id": "2113026384977433003",
+        "images": [
+          "https://pbs.twimg.com/media/HVL6M9UXoAAJkEq.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVL6M9UXoAAJkEq.jpg?name=small",
+            "width": 1498,
+            "height": 1200
+          }
+        ],
+        "name": "Sawyer Merritt",
+        "text": "Elon Musk on Optimus V3:\n\n\"We may be ready to release a video in about a month or two. I want to release a video where Optimus is doing things that aren't pre-programmed. A demo that you can believe. Another milestone we want to get to is integrating the AI5 chip in Optimus, which will be in April 2027.\"",
+        "url": "https://x.com/SawyerMerritt/status/2113026384977433003",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 260,
+        "likes": 4628,
+        "quotes": 39,
+        "replies": 191,
+        "retweets": 478,
+        "views": 411809
+      },
+      "url": "https://x.com/elonmusk/status/2113131529454973416",
+      "images": [
+        "https://pbs.twimg.com/media/HVL6M9UXoAAJkEq.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVL6M9UXoAAJkEq.jpg?name=small",
+          "width": 1498,
+          "height": 1200
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2113130726837068160",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5395,40 +5454,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2112396145137946819",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-20T04:11:02.000Z",
-      "created_at_shanghai": "2026-10-20 12:11:02",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Rewriting the 𝕏 Android app was also a big deal. It was really bad for such a long time.",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "elonmusk",
-      "engagement": {
-        "bookmarks": 8,
-        "likes": 258,
-        "quotes": 3,
-        "replies": 69,
-        "retweets": 11,
-        "views": 36370
-      },
-      "url": "https://x.com/elonmusk/status/2112396145137946819",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 100,
-  "total": 2882,
+  "total": 2883,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-27 03:52:06",
+  "updated_at_shanghai": "2026-11-27 04:18:12",
   "account": "elonmusk"
 }
