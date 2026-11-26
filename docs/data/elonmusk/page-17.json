@@ -1,6 +1,110 @@
 {
   "posts": [
     {
+      "id": "2113130565700313123",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-22T04:49:21.000Z",
+      "created_at_shanghai": "2026-10-22 12:49:21",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Today I early voted in Texas. Straight Republican. Dems are not worth the risk to all the great builders and projects here. Can't stop, won't stop.",
+      "quote": null,
+      "retweet": {
+        "author": "SERobinsonJr",
+        "avatar": "https://pbs.twimg.com/profile_images/2074281454016569344/RSVw3v5W_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 09:46:22",
+        "created_at_utc": "2026-10-22T01:46:22.000Z",
+        "id": "2113084517674254688",
+        "images": [],
+        "media": [],
+        "name": "S.E. Robinson, Jr.",
+        "text": "Today I early voted in Texas. Straight Republican. Dems are not worth the risk to all the great builders and projects here. Can't stop, won't stop.",
+        "url": "https://x.com/SERobinsonJr/status/2113084517674254688",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 41,
+        "likes": 3316,
+        "quotes": 9,
+        "replies": 145,
+        "retweets": 271,
+        "views": 300566
+      },
+      "url": "https://x.com/elonmusk/status/2113130565700313123",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2113129951453208795",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-22T04:46:55.000Z",
+      "created_at_shanghai": "2026-10-22 12:46:55",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "James Talarico:\n\nThe least-Texan man in Texas",
+      "quote": null,
+      "retweet": {
+        "author": "BasedMikeLee",
+        "avatar": "https://pbs.twimg.com/profile_images/2097379040512643072/TUWueQG8_200x200.jpg",
+        "created_at_shanghai": "2026-10-22 09:57:13",
+        "created_at_utc": "2026-10-22T01:57:13.000Z",
+        "id": "2113087245544722459",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2112952812502151168/img/IaLVPECGC_UmccLf.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2112952812502151168/vid/avc1/1920x1080/0ayekWfZTSFA7jZw.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112952812502151168/img/IaLVPECGC_UmccLf.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 245.666
+          }
+        ],
+        "name": "Mike Lee",
+        "text": "James Talarico:\n\nThe least-Texan man in Texas",
+        "url": "https://x.com/BasedMikeLee/status/2113087245544722459",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 53,
+        "likes": 2283,
+        "quotes": 21,
+        "replies": 170,
+        "retweets": 446,
+        "views": 278779
+      },
+      "url": "https://x.com/elonmusk/status/2113129951453208795",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2112952812502151168/img/IaLVPECGC_UmccLf.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2112952812502151168/vid/avc1/1920x1080/0ayekWfZTSFA7jZw.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2112952812502151168/img/IaLVPECGC_UmccLf.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 245.666
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2113127998157189281",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5297,108 +5401,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2112373713937084809",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-20T02:41:54.000Z",
-      "created_at_shanghai": "2026-10-20 10:41:54",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "Two important changes to timeline recommendations:\n\n- New AI/SI ranking model that predicts probable time spent much better\n\n- Retrieval model trained to surface posts people read all the way through\n\nUser active seconds is growing exponentially and hitting all-time highs almost every day:",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 59,
-        "likes": 812,
-        "quotes": 19,
-        "replies": 177,
-        "retweets": 103,
-        "views": 281458
-      },
-      "url": "https://x.com/elonmusk/status/2112373713937084809",
-      "images": [
-        "https://pbs.twimg.com/media/HVCoslqWwAA_j6K.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVCoslqWwAA_j6K.jpg?name=small",
-          "width": 2048,
-          "height": 953
-        }
-      ],
-      "enriched": true
-    },
-    {
-      "id": "2112348677134061883",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-20T01:02:24.000Z",
-      "created_at_shanghai": "2026-10-20 09:02:24",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Starstruck",
-      "quote": null,
-      "retweet": {
-        "author": "Tesla",
-        "avatar": "https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_200x200.png",
-        "created_at_shanghai": "2026-10-20 05:29:15",
-        "created_at_utc": "2026-10-19T21:29:15.000Z",
-        "id": "2112295035568091273",
-        "images": [
-          "https://pbs.twimg.com/media/HVBhFXtb0AAAKdT.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVBhFXtb0AAAKdT.jpg?name=small",
-            "width": 3840,
-            "height": 2560
-          }
-        ],
-        "name": "Tesla",
-        "text": "Starstruck",
-        "url": "https://x.com/Tesla/status/2112295035568091273",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 558,
-        "likes": 16928,
-        "quotes": 132,
-        "replies": 481,
-        "retweets": 1224,
-        "views": 290919
-      },
-      "url": "https://x.com/elonmusk/status/2112348677134061883",
-      "images": [
-        "https://pbs.twimg.com/media/HVBhFXtb0AAAKdT.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HVBhFXtb0AAAKdT.jpg?name=small",
-          "width": 3840,
-          "height": 2560
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 100,
-  "total": 2879,
+  "total": 2881,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-26 18:50:06",
+  "updated_at_shanghai": "2026-11-27 03:24:02",
   "account": "elonmusk"
 }
