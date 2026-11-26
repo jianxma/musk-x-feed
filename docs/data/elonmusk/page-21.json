@@ -1,6 +1,121 @@
 {
   "posts": [
     {
+      "id": "2110125116936060998",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:46:46.000Z",
+      "created_at_shanghai": "2026-10-14 05:46:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Try the Supabase plugin in @bot to monitor, debug, and ship changes to your backend",
+      "quote": {
+        "author": "supabase",
+        "avatar": "https://pbs.twimg.com/profile_images/1822981431586439168/7xkKXRGQ_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 00:11:57",
+        "created_at_utc": "2026-10-13T16:11:57.000Z",
+        "id": "2110040855360741868",
+        "images": [
+          "https://pbs.twimg.com/ext_tw_video_thumb/2110040825669300224/pu/img/_k2fW5phbhJcePxL.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/ext_tw_video/2110040825669300224/pu/vid/avc1/1280x720/QLLqPvuRmV2YBfTe.mp4?tag=12",
+            "thumbnail_url": "https://pbs.twimg.com/ext_tw_video_thumb/2110040825669300224/pu/img/_k2fW5phbhJcePxL.jpg",
+            "width": 1792,
+            "height": 1008,
+            "duration": 14.5
+          }
+        ],
+        "name": "Supabase",
+        "text": "Supabase now works with Grok Bot. 🤖\n\nRequest a change in chat, and @cursor_ai builds and runs it on your Supabase backend through the Supabase MCP server.\n\nLearn more ↓\nhttps://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot",
+        "url": "https://x.com/supabase/status/2110040855360741868",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "grok",
+        "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
+        "created_at_shanghai": "2026-10-14 01:14:09",
+        "created_at_utc": "2026-10-13T17:14:09.000Z",
+        "id": "2110056511405949409",
+        "images": [],
+        "media": [],
+        "name": "Grok",
+        "text": "Try the Supabase plugin in @bot to monitor, debug, and ship changes to your backend",
+        "url": "https://x.com/grok/status/2110056511405949409",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 122,
+        "likes": 778,
+        "quotes": 12,
+        "replies": 71,
+        "retweets": 69,
+        "views": 269928
+      },
+      "url": "https://x.com/elonmusk/status/2110125116936060998",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2110125050074669471",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T21:46:30.000Z",
+      "created_at_shanghai": "2026-10-14 05:46:30",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try @Starlink Internet!",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-13 21:07:17",
+        "created_at_utc": "2026-10-13T13:07:17.000Z",
+        "id": "2109994383110213691",
+        "images": [
+          "https://pbs.twimg.com/media/HUg0tL-bEAAyUU9.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUg0tL-bEAAyUU9.jpg?name=small",
+            "width": 1125,
+            "height": 1109
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "BREAKING: Starlink ranks #1 for both download speed and Consistent Quality in rural UK, beating EE, Three and Vodafone in Opensignal’s study.\n\nStarlink also leads rural download speeds in all 14 European markets studied.",
+        "url": "https://x.com/cb_doge/status/2109994383110213691",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 20,
+        "likes": 838,
+        "quotes": 10,
+        "replies": 157,
+        "retweets": 133,
+        "views": 418367
+      },
+      "url": "https://x.com/elonmusk/status/2110125050074669471",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2110124896089260384",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5115,81 +5230,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2109028389852188810",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T21:08:46.000Z",
-      "created_at_shanghai": "2026-10-11 05:08:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "@PEoperator @bot Grok will find another way to buy stuff. I just ordered LEGO and Grok bought it from the LEGO website.",
-      "quote": null,
-      "retweet": {
-        "author": "elonmusk",
-        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-        "created_at_shanghai": "2026-10-11 05:08:28",
-        "created_at_utc": "2026-10-10T21:08:28.000Z",
-        "id": "2109028313553399947",
-        "images": [],
-        "media": [],
-        "name": "Elon Musk",
-        "text": "@PEoperator @bot Grok will find another way to buy stuff. I just ordered LEGO and Grok bought it from the LEGO website.",
-        "url": "https://x.com/elonmusk/status/2109028313553399947",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "PEoperator",
-      "engagement": {
-        "bookmarks": 217,
-        "likes": 5171,
-        "quotes": 88,
-        "replies": 677,
-        "retweets": 228,
-        "views": 518860
-      },
-      "url": "https://x.com/elonmusk/status/2109028389852188810",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2109027407185277123",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T21:04:52.000Z",
-      "created_at_shanghai": "2026-10-11 05:04:52",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "To buy stuff, you can just take a picture of your credit card, drop it in the chat and Grok @Bot will scour the Internet for the best deal on the item you want and order it",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 2255,
-        "likes": 15902,
-        "quotes": 966,
-        "replies": 3748,
-        "retweets": 1360,
-        "views": 1840732
-      },
-      "url": "https://x.com/elonmusk/status/2109027407185277123",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 21,
   "page_size": 100,
-  "total": 2864,
+  "total": 2866,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-26 14:07:53",
+  "updated_at_shanghai": "2026-11-26 15:55:08",
   "account": "elonmusk"
 }
