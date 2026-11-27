@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2121268692453343344",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-13T15:47:22.000Z",
+      "created_at_shanghai": "2026-11-13 23:47:22",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "And remember …",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 168,
+        "likes": 5357,
+        "quotes": 131,
+        "replies": 947,
+        "retweets": 506,
+        "views": 526304
+      },
+      "url": "https://x.com/elonmusk/status/2121268692453343344",
+      "images": [
+        "https://pbs.twimg.com/media/HXBCoepWcAAbbDC.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXBCoepWcAAbbDC.jpg?name=small",
+          "width": 570,
+          "height": 1113
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2121267716023546027",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -6789,62 +6826,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2119812607117062451",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-09T15:21:24.000Z",
-      "created_at_shanghai": "2026-11-09 23:21:24",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Project Crystal Sun",
-      "quote": {
-        "author": "SawyerMerritt",
-        "avatar": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_200x200.jpg",
-        "created_at_shanghai": "2026-11-09 22:55:04",
-        "created_at_utc": "2026-11-09T14:55:04.000Z",
-        "id": "2119805979583828413",
-        "images": [
-          "https://pbs.twimg.com/media/HWsPJTcXgAAIcjE.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWsPJTcXgAAIcjE.jpg?name=small",
-            "width": 3454,
-            "height": 1930
-          }
-        ],
-        "name": "Sawyer Merritt",
-        "text": "Tesla has officially started construction of its massive new $10 billion solar manufacturing facility near Houston, Texas!\n\nConstruction is expected to finish in 2028, with commercial operations starting in Q1 2029. Total direct and indirect economic impact of the project is estimated to generate ~$6.4B in state and local taxes, and increase State of Texas GDP by ~$107 billion.\n\nThe factory will be a vertically integrated solar manufacturing facility, and it'll include:\n• Wafer Manufacturing\n• Ingot Manufacturing\n• Coating\n• Metallization and Printing Lines\n• Cell Testing and QC\n• Automation and Material Handling\n• Cleanroom and Production Support\n• Site Infrastructure\n• Chemical Storage and Delivery\n• Utility Infrastructure\n• Environmental and Safety Systems",
-        "url": "https://x.com/SawyerMerritt/status/2119805979583828413",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 145,
-        "likes": 3565,
-        "quotes": 66,
-        "replies": 558,
-        "retweets": 439,
-        "views": 528027
-      },
-      "url": "https://x.com/elonmusk/status/2119812607117062451",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 7,
   "page_size": 100,
-  "total": 2885,
+  "total": 2886,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-27 05:28:15",
+  "updated_at_shanghai": "2026-11-27 08:27:56",
   "account": "elonmusk"
 }

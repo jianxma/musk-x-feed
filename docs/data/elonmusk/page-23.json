@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2108300997281956175",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-08T20:58:22.000Z",
+      "created_at_shanghai": "2026-10-09 04:58:22",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Is anyone really surprised that Reid Hoffman is backing Talarico?",
+      "quote": {
+        "author": "nypost",
+        "avatar": "https://pbs.twimg.com/profile_images/2073490215327715328/4wOfTM9__200x200.jpg",
+        "created_at_shanghai": "2026-10-09 00:17:09",
+        "created_at_utc": "2026-10-08T16:17:09.000Z",
+        "id": "2108230225783902495",
+        "images": [
+          "https://pbs.twimg.com/media/HUHwNsiXUAA2lGo.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUHwNsiXUAA2lGo.jpg?name=small",
+            "width": 1200,
+            "height": 799
+          }
+        ],
+        "name": "New York Post",
+        "text": "Billionaire Jeffrey Epstein associate Reid Hoffman bankrolling James Talarico's Texas Senate run https://trib.al/nxY37gS",
+        "url": "https://x.com/nypost/status/2108230225783902495",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "alx",
+        "avatar": "https://pbs.twimg.com/profile_images/2105508393213415424/ykMDJwKu_200x200.jpg",
+        "created_at_shanghai": "2026-10-09 04:29:14",
+        "created_at_utc": "2026-10-08T20:29:14.000Z",
+        "id": "2108293664124612735",
+        "images": [],
+        "media": [],
+        "name": "ALX (x/acc) 🎃🇺🇸",
+        "text": "Is anyone really surprised that Reid Hoffman is backing Talarico?",
+        "url": "https://x.com/alx/status/2108293664124612735",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 14,
+        "likes": 757,
+        "quotes": 4,
+        "replies": 68,
+        "retweets": 135,
+        "views": 101255
+      },
+      "url": "https://x.com/elonmusk/status/2108300997281956175",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2108300805010784339",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5385,53 +5448,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108048212233785664",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T04:13:54.000Z",
-      "created_at_shanghai": "2026-10-08 12:13:54",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "True",
-      "quote": {
-        "author": "AndrewWarner",
-        "avatar": "https://pbs.twimg.com/profile_images/652279268043436038/OB4hhHyA_200x200.jpg",
-        "created_at_shanghai": "2026-10-08 04:26:11",
-        "created_at_utc": "2026-10-07T20:26:11.000Z",
-        "id": "2107930509284126970",
-        "images": [],
-        "media": [],
-        "name": "Andrew Warner",
-        "text": "You don't have to wait for Grok Bot to add Claude, OpenAI, etc.\n\nYou can do it now.\n\nI did\n\nJust ask your Grok Bot to connect to your AI subscriptions.\n\nHow it'll do it:\n\n• Opens a terminal on its own computer\n\n• Installs the Claude Code and Codex command-line tools\n\n• You sign in to your Claude/ChatGPT/etc once\n\n• From then on, it assigns work to other models\n\nNo API keys. Super simple.",
-        "url": "https://x.com/AndrewWarner/status/2107930509284126970",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 122,
-        "likes": 1696,
-        "quotes": 11,
-        "replies": 276,
-        "retweets": 274,
-        "views": 854427
-      },
-      "url": "https://x.com/elonmusk/status/2108048212233785664",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 23,
   "page_size": 100,
-  "total": 2885,
+  "total": 2886,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-27 05:28:15",
+  "updated_at_shanghai": "2026-11-27 08:27:56",
   "account": "elonmusk"
 }
