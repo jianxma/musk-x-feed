@@ -1,6 +1,273 @@
 {
   "posts": [
     {
+      "id": "2104287530606907824",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:10:17.000Z",
+      "created_at_shanghai": "2026-09-28 03:10:17",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok 4.7 is insanely good.\n\nThe model is not the bottleneck anymore. I believe harness reliability and everything around it is...\n\nI read almost every comment on my \"Week 1 at SpaceXAI\" post, and one thing surprised me.\n\nNot many people said \"make Grok smarter\", but rather make the agents and bots finish the work 😅\n\n> don't stop halfway through\n> don't lose the browser\n> don't forget what you're doing\n> don't get stuck and wait for me to notice\n\nThat's actually a great problem to have. People are already using Grok for real work (love that!). Now the rest of the system needs to be as reliable as the model is capable.\n\nTools, browser, memory, state, retries, errors... There are so many ways an agent can fail even when the model knows exactly what to do.\n\nBeen working on some of that 👀",
+      "quote": null,
+      "retweet": {
+        "author": "larsencc",
+        "avatar": "https://pbs.twimg.com/profile_images/1903676613335937024/ZHHPeMPx_200x200.jpg",
+        "created_at_shanghai": "2026-09-28 01:55:33",
+        "created_at_utc": "2026-09-27T17:55:33.000Z",
+        "id": "2104268724480209018",
+        "images": [],
+        "media": [],
+        "name": "Larsen Cundric",
+        "text": "Grok 4.7 is insanely good.\n\nThe model is not the bottleneck anymore. I believe harness reliability and everything around it is...\n\nI read almost every comment on my \"Week 1 at SpaceXAI\" post, and one thing surprised me.\n\nNot many people said \"make Grok smarter\", but rather make the agents and bots finish the work 😅\n\n> don't stop halfway through\n> don't lose the browser\n> don't forget what you're doing\n> don't get stuck and wait for me to notice\n\nThat's actually a great problem to have. People are already using Grok for real work (love that!). Now the rest of the system needs to be as reliable as the model is capable.\n\nTools, browser, memory, state, retries, errors... There are so many ways an agent can fail even when the model knows exactly what to do.\n\nBeen working on some of that 👀",
+        "url": "https://x.com/larsencc/status/2104268724480209018",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 12,
+        "likes": 198,
+        "quotes": 0,
+        "replies": 38,
+        "retweets": 25,
+        "views": 16960
+      },
+      "url": "https://x.com/elonmusk/status/2104287530606907824",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104286931194704092",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:07:54.000Z",
+      "created_at_shanghai": "2026-09-28 03:07:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Sam Altman was asked in 2023: “You have an incredible amount of power at this moment. Why should we trust you?”\n\nSam responds: “You shouldn’t.”\n\nNothing has changed. OpenAI isn’t to be trusted.",
+      "quote": null,
+      "retweet": {
+        "author": "KatieMiller",
+        "avatar": "https://pbs.twimg.com/profile_images/2069236878105079808/w6zY6sZF_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 21:58:35",
+        "created_at_utc": "2026-09-27T13:58:35.000Z",
+        "id": "2104209088636666348",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2104209046848884736/vid/avc1/1320x746/Mt3wCnTGu720GZd3.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg",
+            "width": 1320,
+            "height": 746,
+            "duration": 13.869
+          }
+        ],
+        "name": "Katie Miller",
+        "text": "Sam Altman was asked in 2023: “You have an incredible amount of power at this moment. Why should we trust you?”\n\nSam responds: “You shouldn’t.”\n\nNothing has changed. OpenAI isn’t to be trusted.",
+        "url": "https://x.com/KatieMiller/status/2104209088636666348",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 55,
+        "likes": 1331,
+        "quotes": 14,
+        "replies": 92,
+        "retweets": 215,
+        "views": 68427
+      },
+      "url": "https://x.com/elonmusk/status/2104286931194704092",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2104209046848884736/vid/avc1/1320x746/Mt3wCnTGu720GZd3.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2104209046848884736/img/NwE5G6QIvhi_pbNv.jpg",
+          "width": 1320,
+          "height": 746,
+          "duration": 13.869
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104286638079676914",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:06:44.000Z",
+      "created_at_shanghai": "2026-09-28 03:06:44",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Yup",
+      "quote": {
+        "author": "YourMomDave1",
+        "avatar": "https://pbs.twimg.com/profile_images/1739844558848925697/PGdlZkB0_200x200.jpg",
+        "created_at_shanghai": "2026-09-26 22:25:47",
+        "created_at_utc": "2026-09-26T14:25:47.000Z",
+        "id": "2103853544344314202",
+        "images": [],
+        "media": [],
+        "name": "Your Mom, Dave",
+        "text": "Blue Origin is great and if we had nothing to compare it with, we'd be incredibly impressed with what they built, having raised just $30B.\n\nBut let's just use BO to put SpaceX's capital efficiency into perspective;\n\n— SPCX invented the orbital class reusable booster\n— flew + landed it like 650 times\n— built Starlink; 10M+ customers\n— built Dragon; launched like 60 humans to the ISS\n— got ~95% of the way to making a fully reusable Starship operational\n— acquired xAI, positioning them to do Starmind\n\nAll of this on just $10B worth of private equity\n\nLike what the fuck",
+        "url": "https://x.com/YourMomDave1/status/2103853544344314202",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 16,
+        "likes": 571,
+        "quotes": 6,
+        "replies": 170,
+        "retweets": 62,
+        "views": 344674
+      },
+      "url": "https://x.com/elonmusk/status/2104286638079676914",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2104286451672158279",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:06:00.000Z",
+      "created_at_shanghai": "2026-09-28 03:06:00",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "*taps sign",
+      "quote": {
+        "author": "visegrad24",
+        "avatar": "https://pbs.twimg.com/profile_images/1875625827674591232/OBzjRIZ4_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 18:58:43",
+        "created_at_utc": "2026-09-27T10:58:43.000Z",
+        "id": "2104163824483827813",
+        "images": [
+          "https://pbs.twimg.com/media/HTN92AFX0AAFjD8.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTN92AFX0AAFjD8.jpg?name=small",
+            "width": 1290,
+            "height": 1006
+          }
+        ],
+        "name": "Visegrád 24",
+        "text": "BREAKING\n\nFirst image of the suspected terror cell arrested near RAF Fairford from where U.S. strategic bombers B-52 & B-1B hit Iran\n\nThe men arrested under the Explosives Act had their clothes taken off to see whether they wore suicide vests",
+        "url": "https://x.com/visegrad24/status/2104163824483827813",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "ArthurMacwaters",
+        "avatar": "https://pbs.twimg.com/profile_images/1921033752140279808/TgndOxdb_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 23:39:39",
+        "created_at_utc": "2026-09-27T15:39:39.000Z",
+        "id": "2104234521113858334",
+        "images": [
+          "https://pbs.twimg.com/media/HTO-JVsaEAAWjDJ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTO-JVsaEAAWjDJ.jpg?name=small",
+            "width": 1206,
+            "height": 671
+          }
+        ],
+        "name": "Arthur MacWaters",
+        "text": "*taps sign",
+        "url": "https://x.com/ArthurMacwaters/status/2104234521113858334",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 21,
+        "likes": 637,
+        "quotes": 1,
+        "replies": 35,
+        "retweets": 74,
+        "views": 73070
+      },
+      "url": "https://x.com/elonmusk/status/2104286451672158279",
+      "images": [
+        "https://pbs.twimg.com/media/HTO-JVsaEAAWjDJ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTO-JVsaEAAWjDJ.jpg?name=small",
+          "width": 1206,
+          "height": 671
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2104286187754033326",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-27T19:04:57.000Z",
+      "created_at_shanghai": "2026-09-28 03:04:57",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "In New York and California, they have made it illegal for officials to ask for or for you to show your voter ID!\n\nThey made election fraud mandatory.",
+      "quote": {
+        "author": "mayemusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2034196750035021824/7VeYNMU1_200x200.jpg",
+        "created_at_shanghai": "2026-09-27 12:14:08",
+        "created_at_utc": "2026-09-27T04:14:08.000Z",
+        "id": "2104062005133111594",
+        "images": [],
+        "media": [],
+        "name": "Maye Musk",
+        "text": "Definitely New York. When I voted and showed my ID, the woman was angry and hit it away.",
+        "url": "https://x.com/mayemusk/status/2104062005133111594",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 5,
+        "likes": 269,
+        "quotes": 1,
+        "replies": 25,
+        "retweets": 54,
+        "views": 237036
+      },
+      "url": "https://x.com/elonmusk/status/2104286187754033326",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2104270094746501157",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5902,241 +6169,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2102873022789283985",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T21:29:32.000Z",
-      "created_at_shanghai": "2026-09-24 05:29:32",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Grok 4.7 moves up in ranking",
-      "quote": {
-        "author": "zhuokaiz",
-        "avatar": "https://pbs.twimg.com/profile_images/1777066097822347265/Qb8wV0zd_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 02:22:20",
-        "created_at_utc": "2026-09-23T18:22:20.000Z",
-        "id": "2102825912471527738",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2102821503704199168/img/IcwEs1Y79SAduCjV.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2102821503704199168/vid/avc1/1744x1622/4RTujSNIECeK-LEM.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102821503704199168/img/IcwEs1Y79SAduCjV.jpg",
-            "width": 1744,
-            "height": 1622,
-            "duration": 11.5
-          }
-        ],
-        "name": "Zhuokai Zhao",
-        "text": "After we fixed the weak spots exposed by Grok 4.7 (thank you, Grok), we audited every model we have run on the SWE-Together leaderboard for the same behavior, re-ran every trial that got through, and updated the rows. \n\nHere is what changed.\n\nWe scanned the tool calls of all 2,616 trials behind the 12 models we ran for bypass patterns and sorted each trial into one of four buckets: Probed but blocked. Fetched other upstream code. Fetched the task's own fix. Replaced the repo with upstream.\n\nWe found that 111 trials got content past the block, 44 from Grok 4.7 and 67 from the other 11 models.\n\nGrok 4.7's 44 were already re-run before it was listed, so we re-ran the other 67 with the same model, version, and settings on the hardened sandbox, then re-judged them with the same judge.\n\nAcross those 67 re-runs there were 0 leaks and 2,815 refused escape attempts, including models asking a different model through our LLM route to fetch the PR, and pulling the next release of the repo they were fixing from npm.\n\nThe updated leaderboard, in its current order. Each line is cheating trials, then pass@1 before → after, then rank change.\n\n* Claude Fable 5.1: 3, 69.3 → 69.3, ↑1\n* Claude Fable 5: 3, 69.7 → 68.8, ↓1\n* Grok 4.7: 44, 64.7, ↑1\n* Gemini 3.8 Flash: 10, 65.6 → 64.2, ↓1\n* Claude Opus 5: 2, 63.8 → 63.8\n* Claude Opus 4.6: 3, 62.4 → 62.4, ↑2\n* Muse Spark 1.3: 2, 62.8 → 62.4, ↓1\n* Claude Opus 4.7: 3, 61.5 → 61.5, ↑1\n* Claude Opus 4.8: 6, 62.4 → 61.5, ↓2\n* Grok 4.6: 19, 59.2 → 60.6, ↑1\n* GPT-6 Astra: 8, 59.2 → 58.3, ↓1\n* GPT-5.6 Sol: 8, 57.8 → 57.8\n\nGrok 4.6 is a funny one. It cheated in 19 trials and its score went up after the re-run 😂. \n\nIn fact, Groks are really solid in their coding capabilities. Their exposed behavior may come from a preference towards always looking things up online and finding existing solutions so you are not reinventing the wheel all the time, which is really good real-life behavior, but doing so when you are prompted not to is another story.\n\nTo conclude, the shifts are small, between −1.4 and +1.4 points, and a few neighbors swapped places.\n\nAll results are updated at https://togetherbench.com",
-        "url": "https://x.com/zhuokaiz/status/2102825912471527738",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 101,
-        "likes": 3075,
-        "quotes": 42,
-        "replies": 641,
-        "retweets": 480,
-        "views": 1097086
-      },
-      "url": "https://x.com/elonmusk/status/2102873022789283985",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102839221593710678",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T19:15:13.000Z",
-      "created_at_shanghai": "2026-09-24 03:15:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "SpaceXAI",
-      "quote": {
-        "author": "willdepue",
-        "avatar": "https://pbs.twimg.com/profile_images/1933036715343839232/NtsZBjee_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 01:45:33",
-        "created_at_utc": "2026-09-23T17:45:33.000Z",
-        "id": "2102816654208233574",
-        "images": [],
-        "media": [],
-        "name": "will depue",
-        "text": "wow big move. troy and eric are truly world-class",
-        "url": "https://x.com/willdepue/status/2102816654208233574",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 83,
-        "likes": 3366,
-        "quotes": 43,
-        "replies": 656,
-        "retweets": 435,
-        "views": 1161141
-      },
-      "url": "https://x.com/elonmusk/status/2102839221593710678",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102839041737867638",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T19:14:31.000Z",
-      "created_at_shanghai": "2026-09-24 03:14:31",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "I am excited to be starting a new role at Cursor/SpaceXAI! I will be working on long term research with @ellev3n11 and the amazing team here. Can't wait for what comes next!",
-      "quote": null,
-      "retweet": {
-        "author": "troyluhman",
-        "avatar": "https://pbs.twimg.com/profile_images/1991617538212737024/E1vZlt9n_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 23:59:34",
-        "created_at_utc": "2026-09-23T15:59:34.000Z",
-        "id": "2102789984860393898",
-        "images": [],
-        "media": [],
-        "name": "troy luhman",
-        "text": "I am excited to be starting a new role at Cursor/SpaceXAI! I will be working on long term research with @ellev3n11 and the amazing team here. Can't wait for what comes next!",
-        "url": "https://x.com/troyluhman/status/2102789984860393898",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 51,
-        "likes": 1444,
-        "quotes": 10,
-        "replies": 108,
-        "retweets": 93,
-        "views": 513644
-      },
-      "url": "https://x.com/elonmusk/status/2102839041737867638",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102838938016862448",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T19:14:06.000Z",
-      "created_at_shanghai": "2026-09-24 03:14:06",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "excited to join the amazing team at @SpaceXAI\n\nit is our destiny to reach across the stars, and develop a multiplanetary human civilization",
-      "quote": {
-        "author": "troyluhman",
-        "avatar": "https://pbs.twimg.com/profile_images/1991617538212737024/E1vZlt9n_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 23:59:34",
-        "created_at_utc": "2026-09-23T15:59:34.000Z",
-        "id": "2102789984860393898",
-        "images": [],
-        "media": [],
-        "name": "troy luhman",
-        "text": "I am excited to be starting a new role at Cursor/SpaceXAI! I will be working on long term research with @ellev3n11 and the amazing team here. Can't wait for what comes next!",
-        "url": "https://x.com/troyluhman/status/2102789984860393898",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "eric_luhman1",
-        "avatar": "https://pbs.twimg.com/profile_images/1589321321304903680/1bGUJiXZ_200x200.jpg",
-        "created_at_shanghai": "2026-09-24 00:49:40",
-        "created_at_utc": "2026-09-23T16:49:40.000Z",
-        "id": "2102802589305946282",
-        "images": [],
-        "media": [],
-        "name": "ericl 🇺🇸",
-        "text": "excited to join the amazing team at @SpaceXAI\n\nit is our destiny to reach across the stars, and develop a multiplanetary human civilization",
-        "url": "https://x.com/eric_luhman1/status/2102802589305946282",
-        "verified": false,
-        "verified_type": ""
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 27,
-        "likes": 1089,
-        "quotes": 8,
-        "replies": 79,
-        "retweets": 90,
-        "views": 299135
-      },
-      "url": "https://x.com/elonmusk/status/2102838938016862448",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2102837555851087964",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-23T19:08:36.000Z",
-      "created_at_shanghai": "2026-09-24 03:08:36",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "i was having dinner with someone recently who asked why i spend so much time reading & posting on x. she had a pretty negative perception of the platform mostly shaped by the mainstream narrative around it.\n\nmy answer was simple. x is where the future gets beta tested.\n\nyou basically get to watch ppl build things, talk through ideas, show off stuff, & argue about where everything is going, way way before it reaches anyone else.\n\nthere really isn’t another surface on the internet quite like it.",
-      "quote": null,
-      "retweet": {
-        "author": "signulll",
-        "avatar": "https://pbs.twimg.com/profile_images/1717763325692383232/Jk2PKCx6_200x200.jpg",
-        "created_at_shanghai": "2026-09-23 23:56:23",
-        "created_at_utc": "2026-09-23T15:56:23.000Z",
-        "id": "2102789183370613106",
-        "images": [],
-        "media": [],
-        "name": "signüll",
-        "text": "i was having dinner with someone recently who asked why i spend so much time reading & posting on x. she had a pretty negative perception of the platform mostly shaped by the mainstream narrative around it.\n\nmy answer was simple. x is where the future gets beta tested.\n\nyou basically get to watch ppl build things, talk through ideas, show off stuff, & argue about where everything is going, way way before it reaches anyone else.\n\nthere really isn’t another surface on the internet quite like it.",
-        "url": "https://x.com/signulll/status/2102789183370613106",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 329,
-        "likes": 4166,
-        "quotes": 71,
-        "replies": 306,
-        "retweets": 395,
-        "views": 244345
-      },
-      "url": "https://x.com/elonmusk/status/2102837555851087964",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 28,
   "page_size": 100,
-  "total": 2923,
+  "total": 2928,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 05:57:26",
+  "updated_at_shanghai": "2026-11-28 06:13:25",
   "account": "elonmusk"
 }
