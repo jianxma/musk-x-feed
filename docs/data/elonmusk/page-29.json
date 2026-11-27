@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2102454903901982748",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-22T17:48:05.000Z",
+      "created_at_shanghai": "2026-09-23 01:48:05",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "💪",
+      "quote": {
+        "author": "THR",
+        "avatar": "https://pbs.twimg.com/profile_images/528317230367268865/Po8lHinI_200x200.jpeg",
+        "created_at_shanghai": "2026-09-22 23:00:15",
+        "created_at_utc": "2026-09-22T15:00:15.000Z",
+        "id": "2102412668519031028",
+        "images": [],
+        "name": "The Hollywood Reporter",
+        "text": "Inside Ari Emanuel's Earliest Days in Hollywood: Coffee Runs, Couch Surfing and Replacing Michael Ovitz's Toilet Paper https://www.hollywoodreporter.com/lifestyle/arts/inside-ari-emanuels-earliest-days-hollywood-memoir-excerpt-1236707236/",
+        "url": "https://x.com/THR/status/2102412668519031028",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "AriEmanuel",
+        "avatar": "https://pbs.twimg.com/profile_images/2084645387726651393/f-1LJwey_200x200.jpg",
+        "created_at_shanghai": "2026-09-23 01:18:46",
+        "created_at_utc": "2026-09-22T17:18:46.000Z",
+        "id": "2102447527354351801",
+        "images": [],
+        "name": "Ari Emanuel",
+        "text": "💪",
+        "url": "https://x.com/AriEmanuel/status/2102447527354351801",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 60,
+        "likes": 848,
+        "quotes": 3,
+        "replies": 60,
+        "retweets": 88,
+        "views": 529674
+      },
+      "url": "https://x.com/elonmusk/status/2102454903901982748",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2102454676688162857",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4841,71 +4893,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101522086854357395",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-20T01:57:49.000Z",
-      "created_at_shanghai": "2026-09-20 09:57:49",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Not many people know that Elon Musk started The Boring Company as a joke.",
-      "quote": null,
-      "retweet": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-09-20 09:57:49",
-        "created_at_utc": "2026-09-20T01:57:49.000Z",
-        "id": "2101490987617206357",
-        "images": [
-          "https://pbs.twimg.com/media/HSn-6QvbwAAKkPU.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HSn-6QvbwAAKkPU.jpg?name=small",
-            "width": 1320,
-            "height": 1320
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "Not many people know that Elon Musk started The Boring Company as a joke.",
-        "url": "https://x.com/cb_doge/status/2101490987617206357",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 406,
-        "likes": 8211,
-        "quotes": 59,
-        "replies": 381,
-        "retweets": 815,
-        "views": 612412
-      },
-      "url": "https://x.com/elonmusk/status/2101522086854357395",
-      "images": [
-        "https://pbs.twimg.com/media/HSn-6QvbwAAKkPU.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HSn-6QvbwAAKkPU.jpg?name=small",
-          "width": 1320,
-          "height": 1320
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 29,
   "page_size": 100,
-  "total": 2904,
+  "total": 2905,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 03:14:20",
+  "updated_at_shanghai": "2026-11-28 03:16:20",
   "account": "elonmusk"
 }
