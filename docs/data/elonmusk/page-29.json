@@ -1,6 +1,69 @@
 {
   "posts": [
     {
+      "id": "2102826341288874318",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-09-23T18:24:03.000Z",
+      "created_at_shanghai": "2026-09-24 02:24:03",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Have been using Grok Imagine to generate beautiful covers for the new Grokipedia. Amazing how consistent it is.",
+      "quote": null,
+      "retweet": {
+        "author": "benjitaylor",
+        "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
+        "created_at_shanghai": "2026-09-24 02:02:22",
+        "created_at_utc": "2026-09-23T18:02:22.000Z",
+        "id": "2102820884931354776",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2102820691439697920/vid/avc1/3178x1362/ZRpheo-vu6-gua_h.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg",
+            "width": 3178,
+            "height": 1362,
+            "duration": 17.75
+          }
+        ],
+        "name": "Benji Taylor",
+        "text": "Have been using Grok Imagine to generate beautiful covers for the new Grokipedia. Amazing how consistent it is.",
+        "url": "https://x.com/benjitaylor/status/2102820884931354776",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 377,
+        "likes": 2640,
+        "quotes": 23,
+        "replies": 193,
+        "retweets": 166,
+        "views": 249539
+      },
+      "url": "https://x.com/elonmusk/status/2102826341288874318",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2102820691439697920/vid/avc1/3178x1362/ZRpheo-vu6-gua_h.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2102820691439697920/img/fgMEDZQtB_epjr7w.jpg",
+          "width": 3178,
+          "height": 1362,
+          "duration": 17.75
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2102798963837665464",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4801,64 +4864,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2101767007406641574",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-09-20T20:14:38.000Z",
-      "created_at_shanghai": "2026-09-21 04:14:38",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Cybertruck as Heavy Cav",
-      "quote": {
-        "author": "iamneubert",
-        "avatar": "https://pbs.twimg.com/profile_images/1831833504960729088/T6Dw8b_U_200x200.jpg",
-        "created_at_shanghai": "2026-09-20 06:08:45",
-        "created_at_utc": "2026-09-19T22:08:45.000Z",
-        "id": "2101433338506711177",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2101432813279182849/img/D6QaLhJkFB7wzIVT.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2101432813279182849/vid/avc1/2206x946/17Q9fjmH-xHUw9m2.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2101432813279182849/img/D6QaLhJkFB7wzIVT.jpg",
-            "width": 2206,
-            "height": 946,
-            "duration": 60.03
-          }
-        ],
-        "name": "Nicolas Neubert",
-        "text": "When AI Bros enter the chat.",
-        "url": "https://x.com/iamneubert/status/2101433338506711177",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 998,
-        "likes": 19435,
-        "quotes": 164,
-        "replies": 1606,
-        "retweets": 2245,
-        "views": 7660471
-      },
-      "url": "https://x.com/elonmusk/status/2101767007406641574",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 29,
   "page_size": 100,
-  "total": 2922,
+  "total": 2923,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 05:42:19",
+  "updated_at_shanghai": "2026-11-28 05:57:26",
   "account": "elonmusk"
 }
