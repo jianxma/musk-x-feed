@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2118561136580939885",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-06T04:28:30.000Z",
+      "created_at_shanghai": "2026-11-06 12:28:30",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "@yunta_tsai (The rules of English need to change to put spaces between the em dashes, as they presently too much resemble a hyphenated word, rather than a parenthetical phrase. Also, “—“ is an unpleasantly long a line. The en dash, “–“, is a better length.)",
+      "quote": null,
+      "retweet": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-11-06 12:27:54",
+        "created_at_utc": "2026-11-06T04:27:54.000Z",
+        "id": "2118560985678234094",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "@yunta_tsai (The rules of English need to change to put spaces between the em dashes, as they presently too much resemble a hyphenated word, rather than a parenthetical phrase. Also, “—“ is an unpleasantly long a line. The en dash, “–“, is a better length.)",
+        "url": "https://x.com/elonmusk/status/2118560985678234094",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "yunta_tsai",
+      "engagement": {
+        "bookmarks": 538,
+        "likes": 6107,
+        "quotes": 144,
+        "replies": 1005,
+        "retweets": 346,
+        "views": 1240348
+      },
+      "url": "https://x.com/elonmusk/status/2118561136580939885",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2118449567981310309",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5420,75 +5461,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2117482570757656836",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-03T05:02:40.000Z",
-      "created_at_shanghai": "2026-11-03 13:02:40",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Space datacenters actually make sense",
-      "quote": {
-        "author": "eliebakouch",
-        "avatar": "https://pbs.twimg.com/profile_images/1745893660099592193/MmYemsw6_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 00:45:33",
-        "created_at_utc": "2026-11-02T16:45:33.000Z",
-        "id": "2117297070155731058",
-        "images": [
-          "https://pbs.twimg.com/media/HWIlxVZWIAE-ogF.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWIlxVZWIAE-ogF.jpg?name=small",
-            "width": 2548,
-            "height": 2702
-          }
-        ],
-        "name": "elie",
-        "text": "distributed training in space ❤️‍🔥",
-        "url": "https://x.com/eliebakouch/status/2117297070155731058",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "MillionInt",
-        "avatar": "https://pbs.twimg.com/profile_images/1184690787419734016/7ija9HDY_200x200.jpg",
-        "created_at_shanghai": "2026-11-03 11:53:19",
-        "created_at_utc": "2026-11-03T03:53:19.000Z",
-        "id": "2117465116858052725",
-        "images": [],
-        "media": [],
-        "name": "Jerry Tworek",
-        "text": "Space datacenters actually make sense",
-        "url": "https://x.com/MillionInt/status/2117465116858052725",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 136,
-        "likes": 1436,
-        "quotes": 17,
-        "replies": 137,
-        "retweets": 166,
-        "views": 321022
-      },
-      "url": "https://x.com/elonmusk/status/2117482570757656836",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 10,
   "page_size": 100,
-  "total": 2908,
+  "total": 2909,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 03:54:46",
+  "updated_at_shanghai": "2026-11-28 04:03:12",
   "account": "elonmusk"
 }
