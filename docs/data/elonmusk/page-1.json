@@ -1,6 +1,76 @@
 {
   "posts": [
     {
+      "id": "2126390259995095203",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-27T18:58:39.000Z",
+      "created_at_shanghai": "2026-11-28 02:58:39",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @aaronburnett",
+      "quote": {
+        "author": "aaronburnett",
+        "name": "Aaron Burnett",
+        "text": "a recent run of our model forecasting Starship launches and its estimated cargo split over the next several years.  Hard to envision 10,000+ launches a year but when you contextualize against the 1M+ cargo ships (boat) trips or the 35M+ airline flights annually, this is just a drop in the bucket.",
+        "url": "https://x.com/aaronburnett/status/2126102687053746276"
+      },
+      "retweet": {
+        "author": "aaronburnett",
+        "avatar": "https://pbs.twimg.com/profile_images/2049987217477513216/GJx9_LdR_200x200.jpg",
+        "created_at_shanghai": "2026-11-27 07:55:56",
+        "created_at_utc": "2026-11-26T23:55:56.000Z",
+        "id": "2126102687053746276",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2126099255051898880/img/piVuu03N_XD094Fc.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2126099255051898880/vid/avc1/1470x1582/Q8SPi26mPhVLSA6U.mp4?tag=29",
+            "hls_url": "https://video.twimg.com/amplify_video/2126099255051898880/pl/nqYmh3p-RqF6Q6Fi.m3u8?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2126099255051898880/img/piVuu03N_XD094Fc.jpg",
+            "width": 1470,
+            "height": 1582,
+            "duration": 19.131
+          }
+        ],
+        "name": "Aaron Burnett",
+        "text": "a recent run of our model forecasting Starship launches and its estimated cargo split over the next several years.  Hard to envision 10,000+ launches a year but when you contextualize against the 1M+ cargo ships (boat) trips or the 35M+ airline flights annually, this is just a drop in the bucket.",
+        "url": "https://x.com/aaronburnett/status/2126102687053746276",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "likes": 279,
+        "retweets": 44,
+        "replies": 29,
+        "bookmarks": 17,
+        "quotes": 3,
+        "views": 32891
+      },
+      "url": "https://x.com/elonmusk/status/2126390259995095203",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126099255051898880/img/piVuu03N_XD094Fc.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2126099255051898880/vid/avc1/1470x1582/Q8SPi26mPhVLSA6U.mp4?tag=29",
+          "hls_url": "https://video.twimg.com/amplify_video/2126099255051898880/pl/nqYmh3p-RqF6Q6Fi.m3u8?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2126099255051898880/img/piVuu03N_XD094Fc.jpg",
+          "width": 1470,
+          "height": 1582,
+          "duration": 19.131
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2126388828852105325",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4101,45 +4171,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2125363942977597554",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-24T23:00:26.000Z",
-      "created_at_shanghai": "2026-11-25 07:00:26",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Starlink",
-      "quote": {
-        "author": "SawyerMerritt",
-        "name": "Sawyer Merritt",
-        "text": "SpaceX has agreed to forgo $738 million in U.S. federal broadband subsidies and instead provide free @Starlink hardware to eligible American households.\n\nNTIA: \"To ensure that no consumer at a Covered BSL is left behind, the provider (SpaceX) will serve the covered BSLs as this agreement provides. This includes providing customer premises equipment at no cost to new subscribers, so that households at covered BSL do not face the upfront equipment costs. Additionally, the provider’s broadband service will be subject to the same delivery timelines and performance testing requirements applicable to all recipients of BEAD funds.\"\n\nUnder the new agreement, SpaceX would:\n• Provide free Starlink hardware to eligible households.\n• Guarantee minimum download speeds of 100 Mbps and upload speeds of 20 Mbps.\n• Offer a low-cost monthly internet plan.\n• Commit to providing service for 10 years.\n• Continue to comply with federal performance testing requirements.\n\nThe agreement will save American taxpayers hundreds of millions of dollars while accelerating high-speed internet access in underserved rural communities.\n\nIn exchange, SpaceX would be exempt from most BEAD-related financial audits, procurement requirements and administrative reporting, while remaining subject to network performance testing.",
-        "url": "https://x.com/SawyerMerritt/status/2125314062997467640"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "likes": 1562,
-        "retweets": 182,
-        "replies": 290,
-        "bookmarks": 42,
-        "quotes": 17,
-        "views": 328947
-      },
-      "url": "https://x.com/elonmusk/status/2125363942977597554",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2902,
+  "total": 2903,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 02:57:39",
+  "updated_at_shanghai": "2026-11-28 03:05:36",
   "account": "elonmusk"
 }
