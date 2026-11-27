@@ -1,6 +1,63 @@
 {
   "posts": [
     {
+      "id": "2125516563277328690",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-25T09:06:53.000Z",
+      "created_at_shanghai": "2026-11-25 17:06:53",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Starlink",
+      "quote": {
+        "author": "StephDebour",
+        "avatar": "https://pbs.twimg.com/profile_images/2038531487746678784/nWhpVO--_200x200.jpg",
+        "created_at_shanghai": "2026-11-25 02:30:00",
+        "created_at_utc": "2026-11-24T18:30:00.000Z",
+        "id": "2125295887555436906",
+        "images": [
+          "https://pbs.twimg.com/media/HX5d8ZFXAAAQT9T.jpg?name=small",
+          "https://pbs.twimg.com/media/HX5d8ZPXIAAH7od.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HX5d8ZFXAAAQT9T.jpg?name=small",
+            "width": 1029,
+            "height": 1200
+          },
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HX5d8ZPXIAAH7od.jpg?name=small",
+            "width": 1029,
+            "height": 1200
+          }
+        ],
+        "name": "Steph Debour",
+        "text": "Five years ago, Starlink wasn't on a single ship. Now it's on 66,866. That's more ships than every provider had combined back then.\n\nBefore Starlink, if you were a sailor, your internet came from Inmarsat. An unlimited plan cost €3,259 a month for 2 Mbps, and the whole crew had to share it.\n\nThen Starlink showed up in 2022 at US$5,000 a month for up to 350 Mbps. In 2027, a plan that covers an ullimited whole cargo ship comes in at US$4,650.\n\nOneWeb, the closest rival in low orbit, is on 1,662 ships. Its cheapest unlimited plan is about US$7,400 a month, and it maxes out at 30 Mbps.\n\nMarket share at sea, by revenue:\n2021: Inmarsat almost a third, Starlink 0%\n2024: Starlink 39%, the biggest\n\nTo be fair, Inmarsat and OneWeb guarantee a minimum speed and Starlink doesn't. Some fleets still pay extra for that.\n\nZero to number one in four years, and still the cheaper option. That's hard to compete with.",
+        "url": "https://x.com/StephDebour/status/2125295887555436906",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 15,
+        "likes": 379,
+        "quotes": 2,
+        "replies": 108,
+        "retweets": 53,
+        "views": 303227
+      },
+      "url": "https://x.com/elonmusk/status/2125516563277328690",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2125516475712844116",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -3960,45 +4017,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2124476595322675522",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-22T12:14:25.000Z",
-      "created_at_shanghai": "2026-11-22 20:14:25",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Had lunch with two friends I told to use Grok Bot in their businesses a few weeks ago.\n\nThe verdict?\n\n\"Can't live without Grok Bot now\".",
-      "quote": {
-        "author": "stevenmarkryan",
-        "name": "stevenmarkryan",
-        "text": "Had lunch with two friends I told to use Grok Bot in their businesses a few weeks ago.\n\nThe verdict?\n\n\"Can't live without Grok Bot now\".",
-        "url": "https://x.com/stevenmarkryan/status/2124410626701512759"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 5,
-        "likes": 343,
-        "quotes": 1,
-        "replies": 38,
-        "retweets": 36,
-        "views": 36049
-      },
-      "url": "https://x.com/elonmusk/status/2124476595322675522",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 100,
-  "total": 2928,
+  "total": 2929,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 06:13:25",
+  "updated_at_shanghai": "2026-11-28 06:19:11",
   "account": "elonmusk"
 }

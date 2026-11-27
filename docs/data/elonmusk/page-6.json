@@ -1,6 +1,58 @@
 {
   "posts": [
     {
+      "id": "2122145276681220436",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-16T01:50:36.000Z",
+      "created_at_shanghai": "2026-11-16 09:50:36",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "I have a very wide distribution of training data",
+      "quote": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-11-16 08:50:31",
+        "created_at_utc": "2026-11-16T00:50:31.000Z",
+        "id": "2122130157616128377",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2122129718594199552/img/xv7gZiScyXR6K7S6.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2122129718594199552/vid/avc1/1726x1080/f5Lwx24PpLH184Df.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122129718594199552/img/xv7gZiScyXR6K7S6.jpg",
+            "width": 1726,
+            "height": 1080,
+            "duration": 398.898
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Former NASA astronaut Garrett Reisman, who spent seven years working with Elon Musk at SpaceX, explains what makes @elonmusk such an extraordinary engineer:\n\n“I mean, I’ve met a lot of super, super smart people, but they’re usually super, super smart on one thing.”\n\n“And he’s able to have conversations with our top engineers about the software and, you know, the most arcane aspects of that. And then he’ll turn to our manufacturing engineers and have discussions about some really esoteric welding process for some crazy alloy.”\n\n“And his ability to do that across all the different technologies that go into rockets and cars and everything else he does. That’s what really impresses me.”\n\n“He’s really the most driven person I think I’ve ever met.”",
+        "url": "https://x.com/cb_doge/status/2122130157616128377",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 54,
+        "likes": 1072,
+        "quotes": 5,
+        "replies": 192,
+        "retweets": 103,
+        "views": 292345
+      },
+      "url": "https://x.com/elonmusk/status/2122145276681220436",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2122141959917842487",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5423,49 +5475,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2121510962901483584",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T07:50:03.000Z",
-      "created_at_shanghai": "2026-11-14 15:50:03",
-      "type": "原文",
-      "type_label": "原文",
-      "text": "So funny",
-      "quote": null,
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 14,
-        "likes": 289,
-        "quotes": 3,
-        "replies": 90,
-        "retweets": 33,
-        "views": 249446
-      },
-      "url": "https://x.com/elonmusk/status/2121510962901483584",
-      "images": [
-        "https://pbs.twimg.com/media/HXEe-l1XIAA1znR.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HXEe-l1XIAA1znR.jpg?name=small",
-          "width": 472,
-          "height": 650
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 100,
-  "total": 2928,
+  "total": 2929,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 06:13:25",
+  "updated_at_shanghai": "2026-11-28 06:19:11",
   "account": "elonmusk"
 }
