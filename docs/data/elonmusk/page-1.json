@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2126390700660920546",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-27T19:00:24.000Z",
+      "created_at_shanghai": "2026-11-28 03:00:24",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok Build upgrades",
+      "quote": {
+        "author": "XFreeze",
+        "name": "X Freeze",
+        "text": "Grok Build just got a solid upgrade for headless agents, MCP integrations, and remote terminal workflows\n\nHeadless sessions can now include images returned by MCP tools in streaming and JSON output, positional prompts automatically run headless when no interactive terminal is available, and local file links open directly from responses\n\nLong-running headless tasks also get better reliability, with a five-minute inactivity timeout that prevents sessions from hanging indefinitely. Image pasting now works through remote tmux and nested terminal wrappers, while session recovery and hook inspection are more dependable\n\nThere’s also a performance improvement that eliminates unnecessary directory watching when Grok only needs to track the current Git branch\n\nRelease Notes: v1.0.92\n\nFeatures:\n\n• Positional prompts without `-p` now run headless and print their reply when the process has no terminal for the TUI\n• MCP tool results that contain images now include those images in headless streaming and JSON output\n• Clickable `file://` links to local files now open the file the same way bare paths do\n\nBug Fixes:\n\n• Question cards in minimal mode now keep the first option visible instead of scrolling it off-screen\n• Headless runs (`grok -p`) now stop after 5 minutes of no model output instead of hanging indefinitely\n• Session resume errors now give the same helpful instruction on every route instead of suggesting the TUI picker\n• `grok inspect` now shows the hooks a headless run would actually load, with a note for those that still need folder trust\n• Image paste with `grok wrap` now works when Grok runs inside a remote tmux or through a second wrap\n\nPerformance:\n\n• Grok no longer watches every directory when only tracking the current Git branch",
+        "url": "https://x.com/XFreeze/status/2123959003084664952"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 1241,
+        "retweets": 134,
+        "replies": 277,
+        "bookmarks": 66,
+        "quotes": 22,
+        "views": 435834
+      },
+      "url": "https://x.com/elonmusk/status/2126390700660920546",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2126390259995095203",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4138,45 +4171,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2125381945672761599",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-25T00:11:58.000Z",
-      "created_at_shanghai": "2026-11-25 08:11:58",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "The news is accurate",
-      "quote": {
-        "author": "cb_doge",
-        "name": "DogeDesigner",
-        "text": "BREAKING: Austin’s city government confirms a $500,000 donation from Elon Musk’s foundation to help homeless young adults find homes.\n\n• The donation unlocks another $500,000 from the city, bringing the total to $1 MILLION.\n• It will help up to 100 young adults leaving foster care get housing and support.\n• The funding will work alongside housing vouchers offering up to three years of help with rent.",
-        "url": "https://x.com/cb_doge/status/2125274077090943157"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "likes": 2392,
-        "retweets": 282,
-        "replies": 413,
-        "bookmarks": 63,
-        "quotes": 24,
-        "views": 336198
-      },
-      "url": "https://x.com/elonmusk/status/2125381945672761599",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2903,
+  "total": 2904,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 03:05:36",
+  "updated_at_shanghai": "2026-11-28 03:14:20",
   "account": "elonmusk"
 }
