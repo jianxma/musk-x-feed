@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "id": "2113444022408937913",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-23T01:34:55.000Z",
+      "created_at_shanghai": "2026-10-23 09:34:55",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok Bot now integrates with your phone apps",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-23 06:14:53",
+        "created_at_utc": "2026-10-22T22:14:53.000Z",
+        "id": "2113393684209176718",
+        "images": [
+          "https://pbs.twimg.com/media/HVRHn--W4AAI_uQ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVRHn--W4AAI_uQ.jpg?name=small",
+            "width": 4096,
+            "height": 2304
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot can now use Calendar, Reminders, Contacts, and more apps on your phone.\n\nRolling out now on iOS and Android.",
+        "url": "https://x.com/bot/status/2113393684209176718",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 702,
+        "likes": 7925,
+        "quotes": 89,
+        "replies": 959,
+        "retweets": 713,
+        "views": 926284
+      },
+      "url": "https://x.com/elonmusk/status/2113444022408937913",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2113443783161373135",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5534,75 +5584,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2112787377546481950",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-21T06:05:39.000Z",
-      "created_at_shanghai": "2026-10-21 14:05:39",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "🛰️ @elonmusk wants 10 gigawatts of compute by the end of 2027. @JensenHuang says Nvidia now counts @SpaceX alongside its cloud provider customers, and the two companies' engineers are designing a server for space:\n\n\"In the two parts of our chart, Elon used to be under enterprise. That's the way we reported the numbers. Now he's part of our CSPs... They're massive.\n\nHe's using our technology for his own AI in training models and such, deploying models, of course... And the demand for GrokBot, the consumption for GrokBot is really skyrocketing. And then, of course, he rents it. And so the combination of these three things, he's fairly unique in doing that...\n\nHe loves the intersection between computing and the physical build-outs... And nobody knows more about energy than he does.\n\nAnd one particular new market that we're going to go explore together is putting data centers out in space. So our two engineering teams are working super closely together to create a new type of server, a new type of architecture that might be super good... in space and on Earth.\"\n\n— @JensenHuang, CEO of @nvidia on @BG2Pod with @altcap",
-      "quote": null,
-      "retweet": {
-        "author": "bg2clips",
-        "avatar": "https://pbs.twimg.com/profile_images/1917796804264857600/kplN8Vg7_200x200.jpg",
-        "created_at_shanghai": "2026-10-16 05:12:20",
-        "created_at_utc": "2026-10-15T21:12:20.000Z",
-        "id": "2110841224986812828",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2110840823176679424/img/BDIxIXH4F-jILUQf.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2110840823176679424/vid/avc1/1920x1080/jsxv0aISCEDq76p5.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110840823176679424/img/BDIxIXH4F-jILUQf.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 285.133
-          }
-        ],
-        "name": "bg2clips",
-        "text": "🛰️ @elonmusk wants 10 gigawatts of compute by the end of 2027. @JensenHuang says Nvidia now counts @SpaceX alongside its cloud provider customers, and the two companies' engineers are designing a server for space:\n\n\"In the two parts of our chart, Elon used to be under enterprise. That's the way we reported the numbers. Now he's part of our CSPs... They're massive.\n\nHe's using our technology for his own AI in training models and such, deploying models, of course... And the demand for GrokBot, the consumption for GrokBot is really skyrocketing. And then, of course, he rents it. And so the combination of these three things, he's fairly unique in doing that...\n\nHe loves the intersection between computing and the physical build-outs... And nobody knows more about energy than he does.\n\nAnd one particular new market that we're going to go explore together is putting data centers out in space. So our two engineering teams are working super closely together to create a new type of server, a new type of architecture that might be super good... in space and on Earth.\"\n\n— @JensenHuang, CEO of @nvidia on @BG2Pod with @altcap",
-        "url": "https://x.com/bg2clips/status/2110841224986812828",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 1063,
-        "likes": 4032,
-        "quotes": 67,
-        "replies": 105,
-        "retweets": 475,
-        "views": 1502315
-      },
-      "url": "https://x.com/elonmusk/status/2112787377546481950",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2110840823176679424/img/BDIxIXH4F-jILUQf.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2110840823176679424/vid/avc1/1920x1080/jsxv0aISCEDq76p5.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2110840823176679424/img/BDIxIXH4F-jILUQf.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 285.133
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 17,
   "page_size": 100,
-  "total": 2921,
+  "total": 2922,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 05:39:28",
+  "updated_at_shanghai": "2026-11-28 05:42:19",
   "account": "elonmusk"
 }

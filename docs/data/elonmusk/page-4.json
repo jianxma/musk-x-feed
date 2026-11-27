@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2123567211768053852",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-20T00:00:51.000Z",
+      "created_at_shanghai": "2026-11-20 08:00:51",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Today I invited my Grok @bot to some meetings. (I just asked it to join. Simple as that). This is more than just a note taker. You can ask questions based on the conversation, summary, recap, advice, research. Im actually seeing the benefit",
+      "quote": {
+        "author": "debs_obrien",
+        "name": "Debbie O'Brien",
+        "text": "Today I invited my Grok @bot to some meetings. (I just asked it to join. Simple as that). This is more than just a note taker. You can ask questions based on the conversation, summary, recap, advice, research. Im actually seeing the benefit",
+        "url": "https://x.com/debs_obrien/status/2123540123815964810"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 14,
+        "likes": 272,
+        "quotes": 4,
+        "replies": 28,
+        "retweets": 30,
+        "views": 28668
+      },
+      "url": "https://x.com/elonmusk/status/2123567211768053852",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2123565895318683695",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4447,45 +4480,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2122757100434780301",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-17T18:21:46.000Z",
-      "created_at_shanghai": "2026-11-18 02:21:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Not \"pretty darn close\".\n\nStarlink: \n~100 Mbps down\n~20 Mbps up, \nLatency ~30 ms\n\nViaSat: \n~`10 Mbps down \n~2 Mbps up\nLatency > 600 ms as the floor (can't get better).\n\nOrder of magnitude difference.",
-      "quote": {
-        "author": "pbeisel",
-        "name": "phil beisel",
-        "text": "Not \"pretty darn close\".\n\nStarlink: \n~100 Mbps down\n~20 Mbps up, \nLatency ~30 ms\n\nViaSat: \n~`10 Mbps down \n~2 Mbps up\nLatency > 600 ms as the floor (can't get better).\n\nOrder of magnitude difference.",
-        "url": "https://x.com/pbeisel/status/2122697537693872373"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 21,
-        "likes": 1149,
-        "quotes": 10,
-        "replies": 61,
-        "retweets": 114,
-        "views": 52239
-      },
-      "url": "https://x.com/elonmusk/status/2122757100434780301",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 100,
-  "total": 2921,
+  "total": 2922,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 05:39:28",
+  "updated_at_shanghai": "2026-11-28 05:42:19",
   "account": "elonmusk"
 }
