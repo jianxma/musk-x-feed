@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2116549447513763842",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-31T15:14:46.000Z",
+      "created_at_shanghai": "2026-10-31 23:14:46",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "“The most important thing in the world is family and love.”",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-31 09:28:30",
+        "created_at_utc": "2026-10-31T01:28:30.000Z",
+        "id": "2116341509612281911",
+        "images": [
+          "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small",
+            "width": 1440,
+            "height": 1440
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "“The most important thing in the world is family and love.”",
+        "url": "https://x.com/cb_doge/status/2116341509612281911",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 173,
+        "likes": 6471,
+        "quotes": 47,
+        "replies": 473,
+        "retweets": 655,
+        "views": 268133
+      },
+      "url": "https://x.com/elonmusk/status/2116549447513763842",
+      "images": [
+        "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HV7BYUVaIAEsXUZ.jpg?name=small",
+          "width": 1440,
+          "height": 1440
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2116549116746781118",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5320,53 +5379,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2116049311163122143",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-30T06:07:24.000Z",
-      "created_at_shanghai": "2026-10-30 14:07:24",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Report voter fraud to the government",
-      "quote": {
-        "author": "as400495",
-        "avatar": "https://pbs.twimg.com/profile_images/1960713378202112000/Qkjo4rmw_200x200.jpg",
-        "created_at_shanghai": "2026-10-29 23:03:33",
-        "created_at_utc": "2026-10-29T15:03:33.000Z",
-        "id": "2115821848873017777",
-        "images": [],
-        "media": [],
-        "name": "Edward Coristine",
-        "text": "You can report voter fraud through the https://America.gov platform",
-        "url": "https://x.com/as400495/status/2115821848873017777",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 230,
-        "likes": 13215,
-        "quotes": 74,
-        "replies": 925,
-        "retweets": 2729,
-        "views": 1174150
-      },
-      "url": "https://x.com/elonmusk/status/2116049311163122143",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 12,
   "page_size": 100,
-  "total": 2889,
+  "total": 2890,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-27 13:29:13",
+  "updated_at_shanghai": "2026-11-27 13:32:38",
   "account": "elonmusk"
 }
