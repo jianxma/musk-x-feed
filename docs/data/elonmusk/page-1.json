@@ -1,6 +1,74 @@
 {
   "posts": [
     {
+      "id": "2126428324012446090",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-27T21:29:54.000Z",
+      "created_at_shanghai": "2026-11-28 05:29:54",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "The goal with Grok Bots is to enable you to build a whole company!",
+      "quote": {
+        "author": "congressdj",
+        "name": "DJ",
+        "text": "This is the biggest differentiator between another consumer friendly bot like Muse. Grok Bot feels like a team. The other feels like a servant.",
+        "url": "https://x.com/congressdj/status/2126418278838882601"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 664,
+        "retweets": 81,
+        "replies": 198,
+        "bookmarks": 56,
+        "quotes": 16,
+        "views": 292263
+      },
+      "url": "https://x.com/elonmusk/status/2126428324012446090",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2126427910370185363",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-27T21:28:15.000Z",
+      "created_at_shanghai": "2026-11-28 05:28:15",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @choopyplug1",
+      "quote": {
+        "author": "choopyplug1",
+        "name": "chuplung",
+        "text": "SpaceXAI engineers just dropped an 8-page PDF on making your Grok Bot limit last 3x longer\n\n8 tricks nobody uses, same bots, ZERO new plan:\n\nstep 1 → Script Watcher - a 10-line script does the checking, your bot wakes only when something changed\n\nstep 2 → Shared Cache - 1 bot researches once, every other bot reads the file\n\nstep 3 → Skills per Bot - each bot loads only the skills its job needs\n\nstep 4 → Duplicate, Don't Drag - same bot, same skills, zero history riding on every reply\n\nstep 5 → Built-in X Search - 1 call instead of 40 clicks through a browser\n\nstep 6 → Light Cloud Agents - routine PRs don't need the top model\n\nstep 7 → Text, Not Screenshots - a page as text costs a fraction of a picture\n\nstep 8 → One Message, 5 Asks - context loads once, not 5 times\n\nthe result: same bots, same jobs. the weekly pool that died by tuesday now lasts the whole week\n\nthis 8-page PDF gives you every trick with a copy-paste template, the watcher script, a before/after week and one prompt that sets up all 8 on your Grok Bot\n\nsave this before your Grok Bot eats your Cursor limit again ↓",
+        "url": "https://x.com/choopyplug1/status/2126068756430377238"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 482,
+        "retweets": 67,
+        "replies": 58,
+        "bookmarks": 927,
+        "quotes": 4,
+        "views": 66770
+      },
+      "url": "https://x.com/elonmusk/status/2126427910370185363",
+      "images": [
+        "https://pbs.twimg.com/media/HYFQIs6XsAEzINp.jpg?name=small"
+      ],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2126426934431404067",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4065,78 +4133,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2125463852146114994",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-25T05:37:26.000Z",
-      "created_at_shanghai": "2026-11-25 13:37:26",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Impressive work by Google",
-      "quote": {
-        "author": "sundarpichai",
-        "name": "Sundar Pichai",
-        "text": "Neon set a new Day-1 usage record on our paid APIs and @Antigravity tokens/day are ⬆️ 82% since Argon launched (only) 6 weeks ago.\n\nIt's been great to see the reception and thanks for all the model feedback including areas to improve - huge thanks to the teams across @GoogleDeepMind, Research, Infrastructure and serving teams, security efforts to make sure we are responsibly advancing the frontier and the product teams, more progress to come!",
-        "url": "https://x.com/sundarpichai/status/2125311868168515603"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "likes": 882,
-        "retweets": 90,
-        "replies": 187,
-        "bookmarks": 38,
-        "quotes": 13,
-        "views": 312424
-      },
-      "url": "https://x.com/elonmusk/status/2125463852146114994",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2125463147645641058",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-25T05:34:38.000Z",
-      "created_at_shanghai": "2026-11-25 13:34:38",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Grok Bot is really good.",
-      "quote": {
-        "author": "JJEnglert",
-        "name": "JJ Englert",
-        "text": "Grok Bot is really good.",
-        "url": "https://x.com/JJEnglert/status/2125378906459140191"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 25,
-        "likes": 148,
-        "quotes": 3,
-        "replies": 42,
-        "retweets": 16,
-        "views": 18100
-      },
-      "url": "https://x.com/elonmusk/status/2125463147645641058",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2918,
+  "total": 2920,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 05:30:10",
+  "updated_at_shanghai": "2026-11-28 05:35:04",
   "account": "elonmusk"
 }
