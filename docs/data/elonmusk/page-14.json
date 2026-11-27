@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2115642175199350785",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T03:09:35.000Z",
+      "created_at_shanghai": "2026-10-29 11:09:35",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Try Grok Bot",
+      "quote": {
+        "author": "0xgaut",
+        "avatar": "https://pbs.twimg.com/profile_images/1604808218135314432/3J-ABo1I_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 08:39:28",
+        "created_at_utc": "2026-10-29T00:39:28.000Z",
+        "id": "2115604396403015976",
+        "images": [],
+        "media": [],
+        "name": "gaut",
+        "text": "grok bot makes work feel like a video game",
+        "url": "https://x.com/0xgaut/status/2115604396403015976",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 105,
+        "likes": 3271,
+        "quotes": 65,
+        "replies": 862,
+        "retweets": 334,
+        "views": 1180431
+      },
+      "url": "https://x.com/elonmusk/status/2115642175199350785",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2115642019791896679",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5306,75 +5347,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2114930013225325035",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-27T03:59:43.000Z",
-      "created_at_shanghai": "2026-10-27 11:59:43",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "This makes no sense when you realize all of the top round 1 candidates were right wing",
-      "quote": {
-        "author": "PollTracker2024",
-        "avatar": "https://pbs.twimg.com/profile_images/1827527827018690560/XQA9QAU2_200x200.jpg",
-        "created_at_shanghai": "2026-10-27 01:36:55",
-        "created_at_utc": "2026-10-26T17:36:55.000Z",
-        "id": "2114773279667810673",
-        "images": [
-          "https://pbs.twimg.com/media/HVkvEi9WEAAf3KS.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HVkvEi9WEAAf3KS.jpg?name=small",
-            "width": 1761,
-            "height": 1583
-          }
-        ],
-        "name": "Politics & Poll Tracker 📡",
-        "text": "NYT: Shift in margin between first and second round in Brazil's presidential election",
-        "url": "https://x.com/PollTracker2024/status/2114773279667810673",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "EndWokeness",
-        "avatar": "https://pbs.twimg.com/profile_images/1563691268793946117/OedvhFeS_200x200.jpg",
-        "created_at_shanghai": "2026-10-27 01:49:52",
-        "created_at_utc": "2026-10-26T17:49:52.000Z",
-        "id": "2114776541364191390",
-        "images": [],
-        "media": [],
-        "name": "End Wokeness",
-        "text": "This makes no sense when you realize all of the top round 1 candidates were right wing",
-        "url": "https://x.com/EndWokeness/status/2114776541364191390",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 171,
-        "likes": 5828,
-        "quotes": 13,
-        "replies": 119,
-        "retweets": 578,
-        "views": 253801
-      },
-      "url": "https://x.com/elonmusk/status/2114930013225325035",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 100,
-  "total": 2910,
+  "total": 2911,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 04:32:51",
+  "updated_at_shanghai": "2026-11-28 04:40:50",
   "account": "elonmusk"
 }
