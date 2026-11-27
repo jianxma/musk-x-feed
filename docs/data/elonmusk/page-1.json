@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2126365899410341931",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-27T17:21:51.000Z",
+      "created_at_shanghai": "2026-11-28 01:21:51",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Grok @Bot keeps getting better",
+      "quote": {
+        "author": "a16z",
+        "name": "a16z",
+        "text": "Gavin Baker says Grok Bot feels like another ChatGPT moment because it turns hours of Claude Code work into seconds:\n\n\"You see these 23-year-old kids and just the way they use AI, they're just fluent and native in it. I just feel like maybe in a way that no matter how hard I try, I will never be, and I'm trying really hard.\"\n\n\"We got Claude Code. I built some stuff, did some cool stuff, and in, I don't know, 3 minutes of creating Grok Bots, I had much better versions of everything I created.\"\n\n\"I love having a podcast summarizer... It takes 10 seconds in Grok Bot. It's amazing, and it's so good.\"\n\n\"A Substack summarizer, an X summarizer, an X sentiment tracker for topics and stocks... All of those would have taken me hours working with Claude Code, and they each took 7 to 12 seconds with Grok Bot. And it's better.\"\n\n\"To me, Grok Bot does feel like another ChatGPT moment.\"\n\n@GavinSBaker @DavidGeorge83",
+        "url": "https://x.com/a16z/status/2126331346180276262"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 1011,
+        "retweets": 126,
+        "replies": 289,
+        "bookmarks": 69,
+        "quotes": 23,
+        "views": 380819
+      },
+      "url": "https://x.com/elonmusk/status/2126365899410341931",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2126222666994737622",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4137,45 +4170,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2125184082996867421",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-24T11:05:44.000Z",
-      "created_at_shanghai": "2026-11-24 19:05:44",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "current fave models\n0 jev\n1 gemini neon\n2 opus 5.5\n3 fable 5.2\ncurrent fave agent\n0 grokbot\n1 claude projects (&gt; duet)\n3 muse / devin (depends on use case)\ncurrent fave coding harness\n1 claude code\n2 pi",
-      "quote": {
-        "author": "clairevo",
-        "name": "claire vo 🖤",
-        "text": "current fave models\n0 jev\n1 gemini neon\n2 opus 5.5\n3 fable 5.2\ncurrent fave agent\n0 grokbot\n1 claude projects (> duet)\n3 muse / devin (depends on use case)\ncurrent fave coding harness\n1 claude code\n2 pi",
-        "url": "https://x.com/clairevo/status/2124539877928919335"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 234,
-        "likes": 477,
-        "quotes": 9,
-        "replies": 81,
-        "retweets": 18,
-        "views": 58233
-      },
-      "url": "https://x.com/elonmusk/status/2125184082996867421",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 1,
   "page_size": 100,
-  "total": 2893,
+  "total": 2894,
   "total_pages": 29,
-  "updated_at_shanghai": "2026-11-27 19:09:32",
+  "updated_at_shanghai": "2026-11-28 01:30:20",
   "account": "elonmusk"
 }
