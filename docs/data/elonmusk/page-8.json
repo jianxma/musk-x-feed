@@ -1,6 +1,141 @@
 {
   "posts": [
     {
+      "id": "2120204749480104133",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-10T17:19:38.000Z",
+      "created_at_shanghai": "2026-11-11 01:19:38",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "🚨The EU's Digital Services Act threatens freedom of speech GLOBALLY.\n\nWhat they say: the DSA prevents the spread of \"illegal content\" and mitigates \"systemic risks to civic discourse\".\n\nWhat actually happens: the EU controls online narratives by forcing the world's largest platforms to censor content that the Commission and a network of nonaccountable individuals and NGOs deem unacceptable.\n\n⚠️The DSA does not protect democracy. It undermines the free exchange of ideas and information on which democracy depends.\n\nFind out more in our video 👇",
+      "quote": null,
+      "retweet": {
+        "author": "ADFIntl",
+        "avatar": "https://pbs.twimg.com/profile_images/2074457696527364096/_jwkzgWI_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 23:07:20",
+        "created_at_utc": "2026-11-10T15:07:20.000Z",
+        "id": "2120171456411717968",
+        "images": [
+          "https://pbs.twimg.com/amplify_video_thumb/2120169911829798912/img/FHlayi13nzhf97kR.jpg"
+        ],
+        "media": [
+          {
+            "type": "video",
+            "url": "https://video.twimg.com/amplify_video/2120169911829798912/vid/avc1/1920x1080/8Q8HqbpTbM58DCsm.mp4?tag=29",
+            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120169911829798912/img/FHlayi13nzhf97kR.jpg",
+            "width": 1920,
+            "height": 1080,
+            "duration": 214.589
+          }
+        ],
+        "name": "ADF International",
+        "text": "🚨The EU's Digital Services Act threatens freedom of speech GLOBALLY.\n\nWhat they say: the DSA prevents the spread of \"illegal content\" and mitigates \"systemic risks to civic discourse\".\n\nWhat actually happens: the EU controls online narratives by forcing the world's largest platforms to censor content that the Commission and a network of nonaccountable individuals and NGOs deem unacceptable.\n\n⚠️The DSA does not protect democracy. It undermines the free exchange of ideas and information on which democracy depends.\n\nFind out more in our video 👇",
+        "url": "https://x.com/ADFIntl/status/2120171456411717968",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 57,
+        "likes": 694,
+        "quotes": 19,
+        "replies": 73,
+        "retweets": 219,
+        "views": 64892
+      },
+      "url": "https://x.com/elonmusk/status/2120204749480104133",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120169911829798912/img/FHlayi13nzhf97kR.jpg"
+      ],
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2120169911829798912/vid/avc1/1920x1080/8Q8HqbpTbM58DCsm.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2120169911829798912/img/FHlayi13nzhf97kR.jpg",
+          "width": 1920,
+          "height": 1080,
+          "duration": 214.589
+        }
+      ],
+      "enriched": true
+    },
+    {
+      "id": "2120102894817173862",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-10T10:34:54.000Z",
+      "created_at_shanghai": "2026-11-10 18:34:54",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon Musk just revealed a massive update on Grok 4.8, and SpaceXSI has completely rebuilt its reinforcement learning and inference infrastructure from scratch\n\nThe engineering team has abandoned JAX and SGLang, rewriting the entire RL and inference stack in C/C++\n\nHere’s where Grok 4.8 stands:\n\n• Pre-training is complete \n• Major cleanup of supervised fine-tuning data\n• Reinforcement learning now underway\n• Evaluation scores are starting to climb\n• Soft rollout to Grok Bot users planned for later this week\n\nAnd Elon also gave another imp update about Grok 4.8:\n\n“Grok 4.8 will bear no resemblance to 4.7 (thankfully)”\n\nHe also explained why the development took longer than expected:\n\n“It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special”\n\nThis is a fundamental engineering overhaul, not just another model upgrade\n\nSpaceXSI has rewritten the underlying infrastructure to build a much stronger foundation for Grok’s future development.\n\nAnd the first Grok Bot users are expected to get their hands on it this week",
+      "quote": {
+        "author": "elonmusk",
+        "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 17:35:59",
+        "created_at_utc": "2026-11-10T09:35:59.000Z",
+        "id": "2120088070443655190",
+        "images": [],
+        "media": [],
+        "name": "Elon Musk",
+        "text": "We have dumped JAX/SGLang and rewritten the entire RL and inference stack from scratch in C/C++, which took some extra time. \n\nTraining (aka pre-training) is done. Lot of cleanup was needed on the SFT data to get that mostly right. Now, 4.8 is in RL and the evals are starting to climb. We will do a soft rollout to Bot users later this week and see how it goes.\n\nGrok 4.8 will bear no resemblance to 4.7 (thankfully). It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special.",
+        "url": "https://x.com/elonmusk/status/2120088070443655190",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": {
+        "author": "XFreeze",
+        "avatar": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_200x200.jpg",
+        "created_at_shanghai": "2026-11-10 18:01:28",
+        "created_at_utc": "2026-11-10T10:01:28.000Z",
+        "id": "2120094479797686513",
+        "images": [
+          "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small",
+            "width": 1008,
+            "height": 900
+          }
+        ],
+        "name": "X Freeze",
+        "text": "Elon Musk just revealed a massive update on Grok 4.8, and SpaceXSI has completely rebuilt its reinforcement learning and inference infrastructure from scratch\n\nThe engineering team has abandoned JAX and SGLang, rewriting the entire RL and inference stack in C/C++\n\nHere’s where Grok 4.8 stands:\n\n• Pre-training is complete \n• Major cleanup of supervised fine-tuning data\n• Reinforcement learning now underway\n• Evaluation scores are starting to climb\n• Soft rollout to Grok Bot users planned for later this week\n\nAnd Elon also gave another imp update about Grok 4.8:\n\n“Grok 4.8 will bear no resemblance to 4.7 (thankfully)”\n\nHe also explained why the development took longer than expected:\n\n“It is not yet incredible, but, this time, the foundations are built right, so I expect it to evolve to be something special”\n\nThis is a fundamental engineering overhaul, not just another model upgrade\n\nSpaceXSI has rewritten the underlying infrastructure to build a much stronger foundation for Grok’s future development.\n\nAnd the first Grok Bot users are expected to get their hands on it this week",
+        "url": "https://x.com/XFreeze/status/2120094479797686513",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 32,
+        "likes": 440,
+        "quotes": 2,
+        "replies": 42,
+        "retweets": 91,
+        "views": 49716
+      },
+      "url": "https://x.com/elonmusk/status/2120102894817173862",
+      "images": [
+        "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HWwWr8Ra8AAuSCZ.jpg?name=small",
+          "width": 1008,
+          "height": 900
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2120102767624880364",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5233,121 +5368,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2119135865662300669",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T18:32:16.000Z",
-      "created_at_shanghai": "2026-11-08 02:32:16",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Interesting",
-      "quote": {
-        "author": "cb_doge",
-        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 23:18:54",
-        "created_at_utc": "2026-11-07T15:18:54.000Z",
-        "id": "2119087204446400776",
-        "images": [
-          "https://pbs.twimg.com/media/HWiClEBbsAA5f-b.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWiClEBbsAA5f-b.jpg?name=small",
-            "width": 923,
-            "height": 923
-          }
-        ],
-        "name": "DogeDesigner",
-        "text": "BREAKING: Google’s parent Alphabet added another 3.85 million shares of SpaceX in Q3, its latest SEC filing shows. \n\nAlphabet held 555 million shares worth $83.7 billion as of Sept. 30. SpaceX alone made up nearly 95% of its reported stock portfolio.\n\nGoogle first put $900 million into SpaceX in January 2015. By the end of Q3, the stake was worth about 93 times Google’s original investment.",
-        "url": "https://x.com/cb_doge/status/2119087204446400776",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 53,
-        "likes": 1480,
-        "quotes": 22,
-        "replies": 311,
-        "retweets": 185,
-        "views": 415870
-      },
-      "url": "https://x.com/elonmusk/status/2119135865662300669",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2119134963790725377",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-07T18:28:41.000Z",
-      "created_at_shanghai": "2026-11-08 02:28:41",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "🚨 What happened to the California EV market?\n$7,500 new EV federal tax credit expired\n\nWho lost EV market share?\nModels people only bought for the tax credit\n\nWho gained EV market share?\nTesla: up 1,020 basis points",
-      "quote": null,
-      "retweet": {
-        "author": "ICannot_Enough",
-        "avatar": "https://pbs.twimg.com/profile_images/1334264832397291522/AR2jbpaD_200x200.jpg",
-        "created_at_shanghai": "2026-11-07 21:37:03",
-        "created_at_utc": "2026-11-07T13:37:03.000Z",
-        "id": "2119061570995065335",
-        "images": [
-          "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small",
-            "width": 2300,
-            "height": 3700
-          }
-        ],
-        "name": "James Stephenson",
-        "text": "🚨 What happened to the California EV market?\n$7,500 new EV federal tax credit expired\n\nWho lost EV market share?\nModels people only bought for the tax credit\n\nWho gained EV market share?\nTesla: up 1,020 basis points",
-        "url": "https://x.com/ICannot_Enough/status/2119061570995065335",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 31,
-        "likes": 698,
-        "quotes": 10,
-        "replies": 44,
-        "retweets": 100,
-        "views": 72668
-      },
-      "url": "https://x.com/elonmusk/status/2119134963790725377",
-      "images": [
-        "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HWhnt5pW0AA-S_z.jpg?name=small",
-          "width": 2300,
-          "height": 3700
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 8,
   "page_size": 100,
-  "total": 2916,
+  "total": 2918,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 05:19:39",
+  "updated_at_shanghai": "2026-11-28 05:30:10",
   "account": "elonmusk"
 }
