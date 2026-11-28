@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2125588560082571554",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-25T13:52:58.000Z",
+      "created_at_shanghai": "2026-11-25 21:52:58",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "RT @brivael",
+      "quote": {
+        "author": "brivael",
+        "name": "Brivael Le Pogam",
+        "text": "concerning",
+        "url": "https://x.com/brivael/status/2125513228738584796"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 713,
+        "retweets": 132,
+        "replies": 24,
+        "bookmarks": 139,
+        "quotes": 1,
+        "views": 41134
+      },
+      "url": "https://x.com/elonmusk/status/2125588560082571554",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2125587710073319431",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -3987,45 +4020,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2124606900553863466",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-22T20:52:13.000Z",
-      "created_at_shanghai": "2026-11-23 04:52:13",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Tesla super intelligence software, chip design &amp; Terafab are fun places to work",
-      "quote": {
-        "author": "julianibarz",
-        "name": "Julian Ibarz",
-        "text": "When we say we do end-to-end embodied AI architectures, it's in prod, shipped to millions of cars. \n\nThe much larger world model is shared between Autopilot and Optimus and is very important for 3D labeling for Optimus. The effort is shared across my team, @lawsonfulton and Yekeun. We're hiring!",
-        "url": "https://x.com/julianibarz/status/2124559848444694824"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 39,
-        "likes": 1030,
-        "quotes": 14,
-        "replies": 255,
-        "retweets": 118,
-        "views": 339606
-      },
-      "url": "https://x.com/elonmusk/status/2124606900553863466",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 2,
   "page_size": 100,
-  "total": 2938,
+  "total": 2939,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 09:39:54",
+  "updated_at_shanghai": "2026-11-28 09:43:22",
   "account": "elonmusk"
 }
