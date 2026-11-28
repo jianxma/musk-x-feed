@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "2122936119448764559",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-18T06:13:07.000Z",
+      "created_at_shanghai": "2026-11-18 14:13:07",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "🤗",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "likes": 2990,
+        "retweets": 267,
+        "replies": 645,
+        "bookmarks": 130,
+        "quotes": 66,
+        "views": 360503
+      },
+      "url": "https://x.com/elonmusk/status/2122936119448764559",
+      "images": [
+        "https://pbs.twimg.com/media/HXYvJKcXoAAwlbD.jpg?name=small"
+      ],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2122928184119161018",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5185,71 +5215,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2122241757207556360",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-16T08:13:58.000Z",
-      "created_at_shanghai": "2026-11-16 16:13:58",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Now serving more of Miami 🌴",
-      "quote": null,
-      "retweet": {
-        "author": "robotaxi",
-        "avatar": "https://pbs.twimg.com/profile_images/1936878903693381632/kknBJFib_200x200.jpg",
-        "created_at_shanghai": "2026-11-16 15:44:54",
-        "created_at_utc": "2026-11-16T07:44:54.000Z",
-        "id": "2122234442328740005",
-        "images": [
-          "https://pbs.twimg.com/media/HXOw6foaIAAQGwx.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HXOw6foaIAAQGwx.jpg?name=small",
-            "width": 3072,
-            "height": 3072
-          }
-        ],
-        "name": "Robotaxi",
-        "text": "Now serving more of Miami 🌴",
-        "url": "https://x.com/robotaxi/status/2122234442328740005",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 45,
-        "likes": 1761,
-        "quotes": 76,
-        "replies": 100,
-        "retweets": 193,
-        "views": 37176
-      },
-      "url": "https://x.com/elonmusk/status/2122241757207556360",
-      "images": [
-        "https://pbs.twimg.com/media/HXOw6foaIAAQGwx.jpg?name=small"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/HXOw6foaIAAQGwx.jpg?name=small",
-          "width": 3072,
-          "height": 3072
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 5,
   "page_size": 100,
-  "total": 2949,
+  "total": 2950,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 13:07:04",
+  "updated_at_shanghai": "2026-11-28 13:22:22",
   "account": "elonmusk"
 }
