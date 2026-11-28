@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "id": "2122146355074232469",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-16T01:54:53.000Z",
+      "created_at_shanghai": "2026-11-16 09:54:53",
+      "type": "原文",
+      "type_label": "原文",
+      "text": "Say no to crack",
+      "quote": null,
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 75,
+        "likes": 1674,
+        "quotes": 33,
+        "replies": 377,
+        "retweets": 148,
+        "views": 278221
+      },
+      "url": "https://x.com/elonmusk/status/2122146355074232469",
+      "images": [
+        "https://pbs.twimg.com/media/HXNg3FhWsAA3D8g.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXNg3FhWsAA3D8g.jpg?name=small",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2122145343693598847",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5406,75 +5443,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2121601125237600677",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T13:48:20.000Z",
-      "created_at_shanghai": "2026-11-14 21:48:20",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "It's here. Claudia's \"ALLOW ALWAYS\" world premiere. Made by a guy with ALS, a brain implant, and too many AI friends. 😂",
-      "quote": null,
-      "retweet": {
-        "author": "Cyborg21",
-        "avatar": "https://pbs.twimg.com/profile_images/2013266691782848513/0TcBjmbK_200x200.jpg",
-        "created_at_shanghai": "2026-11-02 08:00:00",
-        "created_at_utc": "2026-11-02T00:00:00.000Z",
-        "id": "2117044016621748292",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2116944868530593792/img/M69u2lKFwoF605cU.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2116944868530593792/vid/avc1/1920x1080/HEPqyV3I3jvSXpDO.mp4?tag=29",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116944868530593792/img/M69u2lKFwoF605cU.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 196.022
-          }
-        ],
-        "name": "Kenneth Shock",
-        "text": "It's here. Claudia's \"ALLOW ALWAYS\" world premiere. Made by a guy with ALS, a brain implant, and too many AI friends. 😂",
-        "url": "https://x.com/Cyborg21/status/2117044016621748292",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 713,
-        "likes": 2216,
-        "quotes": 72,
-        "replies": 219,
-        "retweets": 341,
-        "views": 227053
-      },
-      "url": "https://x.com/elonmusk/status/2121601125237600677",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2116944868530593792/img/M69u2lKFwoF605cU.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2116944868530593792/vid/avc1/1920x1080/HEPqyV3I3jvSXpDO.mp4?tag=29",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2116944868530593792/img/M69u2lKFwoF605cU.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 196.022
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 100,
-  "total": 2930,
+  "total": 2931,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 06:32:02",
+  "updated_at_shanghai": "2026-11-28 08:53:54",
   "account": "elonmusk"
 }
