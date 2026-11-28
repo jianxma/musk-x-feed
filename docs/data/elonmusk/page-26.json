@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2106764384924024964",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-04T15:12:25.000Z",
+      "created_at_shanghai": "2026-10-04 23:12:25",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "It looks like I might have underestimated Grok 4.7, this is a very good model.\n\nIt just scored the highest on Frontier v4 beating GPT-6.1 Sol, Opus 5.5, and GPT-6 Astra at every effort level.",
+      "quote": null,
+      "retweet": {
+        "author": "morganlinton",
+        "avatar": "https://pbs.twimg.com/profile_images/2058612692580184064/h0dOdYSc_200x200.jpg",
+        "created_at_shanghai": "2026-10-04 21:24:53",
+        "created_at_utc": "2026-10-04T13:24:53.000Z",
+        "id": "2106737322255622550",
+        "images": [
+          "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small",
+            "width": 2400,
+            "height": 2475
+          }
+        ],
+        "name": "Morgan",
+        "text": "It looks like I might have underestimated Grok 4.7, this is a very good model.\n\nIt just scored the highest on Frontier v4 beating GPT-6.1 Sol, Opus 5.5, and GPT-6 Astra at every effort level.",
+        "url": "https://x.com/morganlinton/status/2106737322255622550",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 57,
+        "likes": 670,
+        "quotes": 17,
+        "replies": 81,
+        "retweets": 76,
+        "views": 88484
+      },
+      "url": "https://x.com/elonmusk/status/2106764384924024964",
+      "images": [
+        "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HTyiD6IbIAAXSsf.jpg?name=small",
+          "width": 2400,
+          "height": 2475
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2106762590382948631",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5647,53 +5706,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2105719249826099666",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-01T17:59:26.000Z",
-      "created_at_shanghai": "2026-10-02 01:59:26",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Try Grok @Bot!",
-      "quote": {
-        "author": "beffjezos",
-        "avatar": "https://pbs.twimg.com/profile_images/2104068258311901184/vmbQ61I3_200x200.jpg",
-        "created_at_shanghai": "2026-10-01 10:05:46",
-        "created_at_utc": "2026-10-01T02:05:46.000Z",
-        "id": "2105479251566944484",
-        "images": [],
-        "media": [],
-        "name": "Beff (e/acc)",
-        "text": "Grok Bots have been life-changing for someone like me with ADHD who has no patience for context switching / navigating slow interfaces to retrieve information \n\nWe're seeing the beginnings of personal superintelligence that augments each humans to realize their full potential",
-        "url": "https://x.com/beffjezos/status/2105479251566944484",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 6,
-        "likes": 207,
-        "quotes": 2,
-        "replies": 84,
-        "retweets": 34,
-        "views": 236015
-      },
-      "url": "https://x.com/elonmusk/status/2105719249826099666",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 26,
   "page_size": 100,
-  "total": 2950,
+  "total": 2951,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 13:22:22",
+  "updated_at_shanghai": "2026-11-28 13:33:38",
   "account": "elonmusk"
 }
