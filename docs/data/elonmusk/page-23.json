@@ -1,6 +1,128 @@
 {
   "posts": [
     {
+      "id": "2108936693336187103",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T15:04:24.000Z",
+      "created_at_shanghai": "2026-10-10 23:04:24",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Excited to finally ship this to GA (and sorry for gatekeeping initially 😅)!\n\nSome of my favorite use cases so far:\n • Grok Bots talking to other Grok Bots over email!\n • Customized daily newsletters delivered straight to your inbox\n • Grok Bot as an executive assistant coordinating all your meetings\n\nLooking forward to seeing your favorite ways to email your Bot! And please share any and all feedback as usual! 📩",
+      "quote": {
+        "author": "bot",
+        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 01:25:18",
+        "created_at_utc": "2026-10-09T17:25:18.000Z",
+        "id": "2108609764766908772",
+        "images": [
+          "https://pbs.twimg.com/media/HUNJGCXWsAA1hfT.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUNJGCXWsAA1hfT.jpg?name=small",
+            "width": 4096,
+            "height": 2364
+          }
+        ],
+        "name": "Grok Bot",
+        "text": "Grok Bot now has its own email.\n\nBot can use it to sign up for services, contact businesses for you, or schedule time with someone.",
+        "url": "https://x.com/bot/status/2108609764766908772",
+        "verified": true,
+        "verified_type": "organization"
+      },
+      "retweet": {
+        "author": "SamSokolin",
+        "avatar": "https://pbs.twimg.com/profile_images/1992102498992046080/mzxbE_za_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 01:39:13",
+        "created_at_utc": "2026-10-09T17:39:13.000Z",
+        "id": "2108613268411465893",
+        "images": [],
+        "media": [],
+        "name": "Sam Sokolin",
+        "text": "Excited to finally ship this to GA (and sorry for gatekeeping initially 😅)!\n\nSome of my favorite use cases so far:\n • Grok Bots talking to other Grok Bots over email!\n • Customized daily newsletters delivered straight to your inbox\n • Grok Bot as an executive assistant coordinating all your meetings\n\nLooking forward to seeing your favorite ways to email your Bot! And please share any and all feedback as usual! 📩",
+        "url": "https://x.com/SamSokolin/status/2108613268411465893",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 183,
+        "likes": 1011,
+        "quotes": 8,
+        "replies": 103,
+        "retweets": 107,
+        "views": 296419
+      },
+      "url": "https://x.com/elonmusk/status/2108936693336187103",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
+      "id": "2108935855222276474",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-10T15:01:04.000Z",
+      "created_at_shanghai": "2026-10-10 23:01:04",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Fate loves irony.\n\nSi is silicon on the periodic table.",
+      "quote": null,
+      "retweet": {
+        "author": "teslayoda",
+        "avatar": "https://pbs.twimg.com/profile_images/2000259921309278210/hkktXghC_200x200.jpg",
+        "created_at_shanghai": "2026-10-10 07:33:46",
+        "created_at_utc": "2026-10-09T23:33:46.000Z",
+        "id": "2108702491374424347",
+        "images": [
+          "https://pbs.twimg.com/media/HUOduazbUAA3mjf.png?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HUOduazbUAA3mjf.png?name=small",
+            "width": 678,
+            "height": 700
+          }
+        ],
+        "name": "Yoda",
+        "text": "Fate loves irony.\n\nSi is silicon on the periodic table.",
+        "url": "https://x.com/teslayoda/status/2108702491374424347",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 280,
+        "likes": 3880,
+        "quotes": 128,
+        "replies": 283,
+        "retweets": 458,
+        "views": 298034
+      },
+      "url": "https://x.com/elonmusk/status/2108935855222276474",
+      "images": [
+        "https://pbs.twimg.com/media/HUOduazbUAA3mjf.png?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HUOduazbUAA3mjf.png?name=small",
+          "width": 678,
+          "height": 700
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2108935780865552649",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5303,103 +5425,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108233316000313600",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T16:29:26.000Z",
-      "created_at_shanghai": "2026-10-09 00:29:26",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "If you have a Grok Bot account, you can just add your @shopify connector by asking @Bot!",
-      "quote": {
-        "author": "Shopify",
-        "avatar": "https://pbs.twimg.com/profile_images/1915449242979885059/d8IWgY7S_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 00:01:05",
-        "created_at_utc": "2026-10-08T16:01:05.000Z",
-        "id": "2108226180415635551",
-        "images": [],
-        "media": [],
-        "name": "Shopify",
-        "text": "Pro tip: you can ask @bot to add Shopify right in the comments ↓",
-        "url": "https://x.com/Shopify/status/2108226180415635551",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 99,
-        "likes": 1423,
-        "quotes": 19,
-        "replies": 314,
-        "retweets": 171,
-        "views": 547915
-      },
-      "url": "https://x.com/elonmusk/status/2108233316000313600",
-      "images": [],
-      "media": [],
-      "enriched": true
-    },
-    {
-      "id": "2108232824520319175",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-08T16:27:29.000Z",
-      "created_at_shanghai": "2026-10-09 00:27:29",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "Hire Grok @Bot to manage your @Shopify store. He will do an amazing job!",
-      "quote": {
-        "author": "bot",
-        "avatar": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 00:11:46",
-        "created_at_utc": "2026-10-08T16:11:46.000Z",
-        "id": "2108228871938359347",
-        "images": [
-          "https://pbs.twimg.com/media/HUHumrUacAAT6di.jpg?name=small"
-        ],
-        "media": [
-          {
-            "type": "photo",
-            "url": "https://pbs.twimg.com/media/HUHumrUacAAT6di.jpg?name=small",
-            "width": 4096,
-            "height": 2746
-          }
-        ],
-        "name": "Grok Bot",
-        "text": "Grok Bot can now help run your Shopify store.\n\nConnect Shopify, then ask it to check orders, track inventory, and keep product listings up to date.",
-        "url": "https://x.com/bot/status/2108228871938359347",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 112,
-        "likes": 1272,
-        "quotes": 23,
-        "replies": 273,
-        "retweets": 169,
-        "views": 611020
-      },
-      "url": "https://x.com/elonmusk/status/2108232824520319175",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 23,
   "page_size": 100,
-  "total": 2955,
+  "total": 2957,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 14:44:53",
+  "updated_at_shanghai": "2026-11-28 14:51:01",
   "account": "elonmusk"
 }
