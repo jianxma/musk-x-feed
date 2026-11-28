@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2109960773116252577",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-13T10:53:44.000Z",
+      "created_at_shanghai": "2026-10-13 18:53:44",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Grok Bot is the strongest personal agent I've used yet.\n\nJust the usage on it increases so fast, and so I'm afraid to give it too much.\n\nReally hope there are some solutions to the overall 𝕏, Grok, Grok Bot subscriptions so they role into one.",
+      "quote": null,
+      "retweet": {
+        "author": "jerrod_lew",
+        "avatar": "https://pbs.twimg.com/profile_images/2037818589714202624/gM2tduRH_200x200.jpg",
+        "created_at_shanghai": "2026-10-12 15:44:08",
+        "created_at_utc": "2026-10-12T07:44:08.000Z",
+        "id": "2109550671813128266",
+        "images": [],
+        "media": [],
+        "name": "Jerrod Lew",
+        "text": "Grok Bot is the strongest personal agent I've used yet.\n\nJust the usage on it increases so fast, and so I'm afraid to give it too much.\n\nReally hope there are some solutions to the overall 𝕏, Grok, Grok Bot subscriptions so they role into one.",
+        "url": "https://x.com/jerrod_lew/status/2109550671813128266",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 36,
+        "likes": 607,
+        "quotes": 18,
+        "replies": 100,
+        "retweets": 63,
+        "views": 648998
+      },
+      "url": "https://x.com/elonmusk/status/2109960773116252577",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2109955246923641259",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5212,99 +5253,12 @@
         }
       ],
       "enriched": true
-    },
-    {
-      "id": "2108935780865552649",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-10T15:00:46.000Z",
-      "created_at_shanghai": "2026-10-10 23:00:46",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "Software is just fancy data labeling now\n\nTo build the characters for http://botpfp.com, I sourced inspiration from X\n\nI had @bot scrape examples from @Multi_Serio_Ai's original post\n\nThen I created a swipe interface to judge the characters - the swipes store characteristics, so my cloud agents can see them and build out new looks!\n\nThe actual items are recreated by @grok, then vectorized so they can be rendered properly.",
-      "quote": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
-        "created_at_shanghai": "2026-10-09 09:58:07",
-        "created_at_utc": "2026-10-09T01:58:07.000Z",
-        "id": "2108376429704741093",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108376402907328512/img/gqJAQ0OR2g2SdeI3.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108376402907328512/vid/avc1/1080x1080/ZGv3vYKWLdMSXdRC.mp4?tag=16",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108376402907328512/img/gqJAQ0OR2g2SdeI3.jpg",
-            "width": 1080,
-            "height": 1080,
-            "duration": 20.8
-          }
-        ],
-        "name": "matt palmer",
-        "text": "build a bot\n\nhttps://botpfp.com",
-        "url": "https://x.com/mattyp/status/2108376429704741093",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "retweet": {
-        "author": "mattyp",
-        "avatar": "https://pbs.twimg.com/profile_images/2059379375666278400/-eTzltyr_200x200.jpg",
-        "created_at_shanghai": "2026-10-10 22:56:54",
-        "created_at_utc": "2026-10-10T14:56:54.000Z",
-        "id": "2108934804028920040",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2108934731979243520/img/-fGd5ztvwa-9FxNu.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2108934731979243520/vid/avc1/1080x1080/mRVIR9346nCacL_3.mp4?tag=16",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108934731979243520/img/-fGd5ztvwa-9FxNu.jpg",
-            "width": 1440,
-            "height": 1440,
-            "duration": 72.9
-          }
-        ],
-        "name": "matt palmer",
-        "text": "Software is just fancy data labeling now\n\nTo build the characters for http://botpfp.com, I sourced inspiration from X\n\nI had @bot scrape examples from @Multi_Serio_Ai's original post\n\nThen I created a swipe interface to judge the characters - the swipes store characteristics, so my cloud agents can see them and build out new looks!\n\nThe actual items are recreated by @grok, then vectorized so they can be rendered properly.",
-        "url": "https://x.com/mattyp/status/2108934804028920040",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 126,
-        "likes": 704,
-        "quotes": 14,
-        "replies": 115,
-        "retweets": 85,
-        "views": 239245
-      },
-      "url": "https://x.com/elonmusk/status/2108935780865552649",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2108934731979243520/img/-fGd5ztvwa-9FxNu.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2108934731979243520/vid/avc1/1080x1080/mRVIR9346nCacL_3.mp4?tag=16",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2108934731979243520/img/-fGd5ztvwa-9FxNu.jpg",
-          "width": 1440,
-          "height": 1440,
-          "duration": 72.9
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 22,
   "page_size": 100,
-  "total": 2954,
+  "total": 2955,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 14:40:49",
+  "updated_at_shanghai": "2026-11-28 14:44:53",
   "account": "elonmusk"
 }
