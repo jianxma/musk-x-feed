@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "id": "2115934826825937358",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-10-29T22:32:29.000Z",
+      "created_at_shanghai": "2026-10-30 06:32:29",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "Elon Musk at Tesla’s headquarters in San Carlos, California, in 2009.",
+      "quote": null,
+      "retweet": {
+        "author": "cb_doge",
+        "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+        "created_at_shanghai": "2026-10-29 13:51:20",
+        "created_at_utc": "2026-10-29T05:51:20.000Z",
+        "id": "2115682879833600229",
+        "images": [
+          "https://pbs.twimg.com/media/HVxqXQbaIAA_2oM.jpg?name=small"
+        ],
+        "media": [
+          {
+            "type": "photo",
+            "url": "https://pbs.twimg.com/media/HVxqXQbaIAA_2oM.jpg?name=small",
+            "width": 950,
+            "height": 596
+          }
+        ],
+        "name": "DogeDesigner",
+        "text": "Elon Musk at Tesla’s headquarters in San Carlos, California, in 2009.",
+        "url": "https://x.com/cb_doge/status/2115682879833600229",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 100,
+        "likes": 2750,
+        "quotes": 23,
+        "replies": 194,
+        "retweets": 290,
+        "views": 221234
+      },
+      "url": "https://x.com/elonmusk/status/2115934826825937358",
+      "images": [
+        "https://pbs.twimg.com/media/HVxqXQbaIAA_2oM.jpg?name=small"
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HVxqXQbaIAA_2oM.jpg?name=small",
+          "width": 950,
+          "height": 596
+        }
+      ],
+      "enriched": true
+    },
+    {
       "id": "2115933525056925895",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5328,64 +5387,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2115146545448571175",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-10-27T18:20:08.000Z",
-      "created_at_shanghai": "2026-10-28 02:20:08",
-      "type": "引用",
-      "type_label": "引用",
-      "text": "😑",
-      "quote": {
-        "author": "america",
-        "avatar": "https://pbs.twimg.com/profile_images/1842003465448398848/U3EZmdUz_200x200.jpg",
-        "created_at_shanghai": "2026-10-28 01:44:37",
-        "created_at_utc": "2026-10-27T17:44:37.000Z",
-        "id": "2115137608200429846",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2069119404185731073/img/4z_W3QEtHMOlF8l_.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2069119404185731073/vid/avc1/1080x1080/kK2UInZan5wTZ5PB.mp4?tag=28",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2069119404185731073/img/4z_W3QEtHMOlF8l_.jpg",
-            "width": 1080,
-            "height": 1080,
-            "duration": 27.925
-          }
-        ],
-        "name": "America",
-        "text": "Texas Democrat James Talarico: “My whiteness, my masculinity, all those things limit my imagination about what is possible.”",
-        "url": "https://x.com/america/status/2115137608200429846",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": null,
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 282,
-        "likes": 13985,
-        "quotes": 124,
-        "replies": 2095,
-        "retweets": 2277,
-        "views": 1085753
-      },
-      "url": "https://x.com/elonmusk/status/2115146545448571175",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 14,
   "page_size": 100,
-  "total": 2943,
+  "total": 2944,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 10:25:35",
+  "updated_at_shanghai": "2026-11-28 10:42:45",
   "account": "elonmusk"
 }
