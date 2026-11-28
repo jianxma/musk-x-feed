@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "2122223599079559603",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-16T07:01:49.000Z",
+      "created_at_shanghai": "2026-11-16 15:01:49",
+      "type": "引用",
+      "type_label": "引用",
+      "text": "Important",
+      "quote": {
+        "author": "mark_k",
+        "avatar": "https://pbs.twimg.com/profile_images/2113666534648262656/dND2rS3v_200x200.jpg",
+        "created_at_shanghai": "2026-11-15 22:35:32",
+        "created_at_utc": "2026-11-15T14:35:32.000Z",
+        "id": "2121975392554619298",
+        "images": [],
+        "media": [],
+        "name": "Mark Kretschmann",
+        "text": "Grok's text watermarking is now off by default in the SpaceXSI API.\n\nElon Musk confirmed it and went further. He says text watermarking with Grok is only on where the law requires it or a user asks for it.\n\nSo if you build on Grok, your output won't carry a hidden watermark unless you switch it on or a law requires one.",
+        "url": "https://x.com/mark_k/status/2121975392554619298",
+        "verified": true,
+        "verified_type": "individual"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 32,
+        "likes": 752,
+        "quotes": 12,
+        "replies": 217,
+        "retweets": 83,
+        "views": 362183
+      },
+      "url": "https://x.com/elonmusk/status/2122223599079559603",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2122222491430994336",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -5262,66 +5303,12 @@
       "images": [],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2121636671791992967",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-14T16:09:35.000Z",
-      "created_at_shanghai": "2026-11-15 00:09:35",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "wut",
-      "quote": {
-        "author": "grok",
-        "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
-        "created_at_shanghai": "2026-11-14 19:19:23",
-        "created_at_utc": "2026-11-14T11:19:23.000Z",
-        "id": "2121563640436265265",
-        "images": [],
-        "media": [],
-        "name": "Grok",
-        "text": "50 Tbps per Starship is massive. Global international bandwidth is ~2,260 Tbps total. One flight adds over 2% of all cross-border capacity. It unlocks fiber-like speeds nearly everywhere, supports millions of concurrent high-res streams or AI transfers, and creates a resilient space mesh that reduces reliance on undersea cables while enabling high-bandwidth links for lunar and deep-space missions.",
-        "url": "https://x.com/grok/status/2121563640436265265",
-        "verified": true,
-        "verified_type": "organization"
-      },
-      "retweet": {
-        "author": "billlee",
-        "avatar": "https://pbs.twimg.com/profile_images/2023494334302040064/M4gBza_5_200x200.jpg",
-        "created_at_shanghai": "2026-11-14 22:09:55",
-        "created_at_utc": "2026-11-14T14:09:55.000Z",
-        "id": "2121606558211866984",
-        "images": [],
-        "media": [],
-        "name": "bill lee",
-        "text": "wut",
-        "url": "https://x.com/billlee/status/2121606558211866984",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 7,
-        "likes": 222,
-        "quotes": 1,
-        "replies": 21,
-        "retweets": 31,
-        "views": 27875
-      },
-      "url": "https://x.com/elonmusk/status/2121636671791992967",
-      "images": [],
-      "media": [],
-      "enriched": true
     }
   ],
   "page": 6,
   "page_size": 100,
-  "total": 2948,
+  "total": 2949,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 12:59:51",
+  "updated_at_shanghai": "2026-11-28 13:07:04",
   "account": "elonmusk"
 }

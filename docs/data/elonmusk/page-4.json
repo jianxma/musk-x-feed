@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "2123837595704836144",
+      "author": "elonmusk",
+      "author_name": "Elon Musk",
+      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
+      "author_verified": true,
+      "author_verified_type": "individual",
+      "created_at_utc": "2026-11-20T17:55:16.000Z",
+      "created_at_shanghai": "2026-11-21 01:55:16",
+      "type": "转发",
+      "type_label": "转发",
+      "text": "small updates in pstack v0.15.46\n\n• lots of pruning, skills are now much shorter\n• gemini 4 neon is added as a panel reviewer \n\nit's autoupdated for grok bot / cursor users! if you want to change any of the model routing, just run /setup-pstack again\n\nhttps://x.ai/bot/plugin/9717366",
+      "quote": {
+        "author": "poteto",
+        "name": "lauren",
+        "text": "small updates in pstack v0.15.46\n\n• lots of pruning, skills are now much shorter\n• gemini 4 neon is added as a panel reviewer \n\nit's autoupdated for grok bot / cursor users! if you want to change any of the model routing, just run /setup-pstack again\n\nhttps://x.ai/bot/plugin/9717366",
+        "url": "https://x.com/poteto/status/2123824683862855898"
+      },
+      "retweet": null,
+      "reply_to": "",
+      "engagement": {
+        "bookmarks": 326,
+        "likes": 1129,
+        "quotes": 11,
+        "replies": 92,
+        "retweets": 83,
+        "views": 67701
+      },
+      "url": "https://x.com/elonmusk/status/2123837595704836144",
+      "images": [],
+      "media": [],
+      "enriched": true
+    },
+    {
       "id": "2123836622827663572",
       "author": "elonmusk",
       "author_name": "Elon Musk",
@@ -4250,82 +4283,12 @@
       ],
       "media": [],
       "enriched": true
-    },
-    {
-      "id": "2122928184119161018",
-      "author": "elonmusk",
-      "author_name": "Elon Musk",
-      "author_avatar": "https://pbs.twimg.com/profile_images/2053244804520427520/m8mdWZCG_200x200.jpg",
-      "author_verified": true,
-      "author_verified_type": "individual",
-      "created_at_utc": "2026-11-18T05:41:35.000Z",
-      "created_at_shanghai": "2026-11-18 13:41:35",
-      "type": "转发",
-      "type_label": "转发",
-      "text": "SpaceX Investors MUST Watch This\n\nSupercut from CFO's Epic Chat Today With @GavinSBaker",
-      "quote": {
-        "author": "stevenmarkryan",
-        "name": "stevenmarkryan",
-        "text": "SpaceX Investors MUST Watch This\n\nSupercut from CFO's Epic Chat Today With @GavinSBaker",
-        "url": "https://x.com/stevenmarkryan/status/2122906392969232791"
-      },
-      "retweet": {
-        "author": "stevenmarkryan",
-        "avatar": "https://pbs.twimg.com/profile_images/2109571663662825473/fRTDjehK_200x200.jpg",
-        "created_at_shanghai": "2026-11-18 12:15:00",
-        "created_at_utc": "2026-11-18T04:15:00.000Z",
-        "id": "2122906392969232791",
-        "images": [
-          "https://pbs.twimg.com/amplify_video_thumb/2122887107714887682/img/dJJ__gMrB_YyO6MJ.jpg"
-        ],
-        "media": [
-          {
-            "type": "video",
-            "url": "https://video.twimg.com/amplify_video/2122887107714887682/vid/avc1/1920x1080/IMQliIFGp9NfDfYK.mp4?tag=29",
-            "hls_url": "https://video.twimg.com/amplify_video/2122887107714887682/pl/wE0wxKMVLLBK3Yau.m3u8?tag=29&v=5f9",
-            "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122887107714887682/img/dJJ__gMrB_YyO6MJ.jpg",
-            "width": 1920,
-            "height": 1080,
-            "duration": 1083.616
-          }
-        ],
-        "name": "stevenmarkryan",
-        "text": "SpaceX Investors MUST Watch This\n\nSupercut from CFO's Epic Chat Today With @GavinSBaker",
-        "url": "https://x.com/stevenmarkryan/status/2122906392969232791",
-        "verified": true,
-        "verified_type": "individual"
-      },
-      "reply_to": "",
-      "engagement": {
-        "bookmarks": 114,
-        "likes": 322,
-        "quotes": 3,
-        "replies": 24,
-        "retweets": 53,
-        "views": 38278
-      },
-      "url": "https://x.com/elonmusk/status/2122928184119161018",
-      "images": [
-        "https://pbs.twimg.com/amplify_video_thumb/2122887107714887682/img/dJJ__gMrB_YyO6MJ.jpg"
-      ],
-      "media": [
-        {
-          "type": "video",
-          "url": "https://video.twimg.com/amplify_video/2122887107714887682/vid/avc1/1920x1080/IMQliIFGp9NfDfYK.mp4?tag=29",
-          "hls_url": "https://video.twimg.com/amplify_video/2122887107714887682/pl/wE0wxKMVLLBK3Yau.m3u8?tag=29&v=5f9",
-          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122887107714887682/img/dJJ__gMrB_YyO6MJ.jpg",
-          "width": 1920,
-          "height": 1080,
-          "duration": 1083.616
-        }
-      ],
-      "enriched": true
     }
   ],
   "page": 4,
   "page_size": 100,
-  "total": 2948,
+  "total": 2949,
   "total_pages": 30,
-  "updated_at_shanghai": "2026-11-28 12:59:51",
+  "updated_at_shanghai": "2026-11-28 13:07:04",
   "account": "elonmusk"
 }
